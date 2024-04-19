@@ -5,9 +5,9 @@ description: リストの参照と設定の方法について説明します。
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-If a &quot;**?**&#x200B;右側の数字ではなく「」が表示されるので、カウンターをクリックして計算を開始します。
+右側に数値ではなく「**?**」が表示される場合は、カウンターをクリックして計算を開始します。
 
 ### 追加レコードの読み込み {#loading-more-records}
 

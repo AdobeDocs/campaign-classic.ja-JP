@@ -6,13 +6,13 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
+# Web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
 
 
 
@@ -96,7 +96,7 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
   ページ内でプリントする必要があるオプトアウトバナーのマークアップの HTML を返します。
 
-* **NL.ServerWebTracking._displayOptOutBanner （）**
+* **NL.ServerWebTracking._displayOptOutBanner()**
 
   オプトアウトバナーが管理者に選択された後で表示される必要がある場合に「true」を返します
 

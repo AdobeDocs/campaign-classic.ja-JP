@@ -7,9 +7,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -824,7 +824,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 ### チェック時の詳細 SMPP トレースの有効化 {#enable-verbose}
 
 チェック中は必ず詳細 SMPP トレースを有効にしてください。
-ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にサポートを依頼してください。
+ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にサポートを依頼してください。
 
 ### SMS のテスト {#test}
 

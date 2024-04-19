@@ -7,9 +7,9 @@ feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ description: クエリを実行する際のフィルターの作成方法を学�
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 
 ここでは、**$(/tmp/@text)=&#39;代理店&#39;** となっています。
 
-この **$（/tmp/@text）!=&quot;** 式は、入力フィールドが空でないときに各条件を適用します。
+**$(/tmp/@text)!=&#39;&#39;** 式は、入力フィールドが空でない場合に各条件を適用します。

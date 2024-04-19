@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign ユーザーは、[ネイティブのユーザー／パスワード認�
 
 >[!IMPORTANT]
 >
-> Campaign v8 では、ユーザー/パスワード（ネイティブ認証）を使用して接続することはできません。 **アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
+> Campaign v8 では、ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されません。**アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
 
 
 <!--

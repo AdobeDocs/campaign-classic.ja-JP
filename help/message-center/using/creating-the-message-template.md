@@ -5,7 +5,7 @@ description: Adobe Campaign Classic でトランザクションメッセージ�
 feature: Transactional Messaging, Message Center, Templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
 

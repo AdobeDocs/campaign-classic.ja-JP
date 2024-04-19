@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Adobe Analytics コネクタのプロビジョニング
-description: Adobe Analytics コネクタのプロビジョニングの詳細情報
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"
+title: Adobe Analytics コネクタプロビジョニング
+description: Adobe Analytics コネクタプロビジョニングの詳細
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 のオンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >
 > これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
 >
->ホスト環境および Campaign Managed Services での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームにお問い合わせください。
+>ホスト環境および Campaign Managed Services での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)チームにお問い合わせください。
 
 Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe Identity Management サービス（IMS）をサポートしています。
 
@@ -80,7 +80,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 1. **[!UICONTROL ディメンション]**&#x200B;機能については、将来の設定に必要な&#x200B;**[!UICONTROL ディメンション]**&#x200B;を追加します。
 
-   選択したDimensionが外部アカウントに設定される設定と一致し、Adobe Analyticsの対応する eVar 番号と合致するようにしてください。
+   選択したディメンションが外部アカウントで設定するディメンションと一致し、Adobe Analytics の対応する eVar の数と一致していることを確認します。
 
 1. **[!UICONTROL レポートスイートツール]**&#x200B;機能については、次の権限を追加します。
 

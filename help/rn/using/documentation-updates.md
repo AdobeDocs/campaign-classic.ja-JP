@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3732'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ### 2024年3月 {#mar-2024}
 
-モバイルアプリ設定の節が更新されて、iOS トークンベースの APN への接続が可能になりました。 [詳細情報](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
+モバイルアプリ設定の節が、APN への iOS トークンベースの接続用に更新されました。[詳細情報](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
 
 ### 2024年1月 {#jan-2024}
 

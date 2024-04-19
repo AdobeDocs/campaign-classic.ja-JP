@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: テクニカルノート - Apple Push Notification サービスのサーバー証明書の更新
+title: テクニカルノート - Apple プッシュ通知サービスのサーバー証明書の更新
 description: Apple プッシュ通知サービスのサーバー証明書の更新
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

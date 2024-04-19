@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -131,9 +131,9 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 ### 次のページへのリンクの作成 {#creating-a-link-to-the-next-page}
 
-この手順は必須です。これは、Web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（「**ありがとうございます**」ページ）を表示します。
+この手順は必須です。これは、web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（**お礼**&#x200B;のページ）を表示します。
 
-1. 「」を選択します **[!UICONTROL 送れ！]** のボタン **[!UICONTROL Collection]** ページ。
+1. 「**[!UICONTROL 送信」を選択します。**[!UICONTROL &#x200B;コレクション&#x200B;]**ページの]**&#x200B;ボタン。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 

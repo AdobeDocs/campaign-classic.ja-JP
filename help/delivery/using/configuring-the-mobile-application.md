@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからあらかじめ用意されているアイコンの 1 つを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 
-1. 「」を選択します **[!UICONTROL 認証モード]**.
+1. 「**[!UICONTROL 認証モード]**」を選択します。
 
    ![](assets/nmac_ios_5.png)
 
@@ -113,7 +113,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
    >[!NOTE]
    >
-   > Adobeでは、を使用することをお勧めします。 **[!UICONTROL トークンベースの認証]** p8 認証キーが新しく、より安全なので、iOS設定の場合。
+   > P8 認証キーは最新かつ安全であるため、アドビでは、iOS 設定に&#x200B;**[!UICONTROL トークンベースの認証]**&#x200B;を使用することをお勧めします。
 
 1. 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。
 

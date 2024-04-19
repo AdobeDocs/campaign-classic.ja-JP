@@ -7,9 +7,9 @@ feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

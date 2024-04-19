@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 exl-id: df494786-5950-4646-aa9c-4dde45845057
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

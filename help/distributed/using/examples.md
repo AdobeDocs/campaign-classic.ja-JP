@@ -5,9 +5,9 @@ description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 99%
 
    * 通知としてローカルエンティティに送信するメッセージの内容
    * 承認のリマインダー
-   * キャンペーンで想定される処理。
+   * キャンペーンの想定される処理
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 

@@ -4,9 +4,9 @@ title: Web 分析
 description: Web 分析パッケージの詳細を説明します
 feature: Workflows, Analytics Integration
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
   <tr> 
    <td> <span class="uicontrol">変換済み連絡先の特定</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータには、 <span class="uicontrol">リマーケティング効率レポート</span>. <br /> </td> 
+   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータは、<span class="uicontrol">リマーケティングの効率レポート</span>でアクセスできます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントパージ</span> <br /> </td> 

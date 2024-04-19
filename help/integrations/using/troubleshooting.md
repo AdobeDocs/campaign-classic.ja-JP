@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ description: 配信情報をクエリする方法を説明します。
 feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 97%
 
 次の例では、過去 2 週間以内に配信を開封したプロファイルをターゲティングする方法を示します。
 
-1. 配信を開いたプロファイルをターゲットにするには、トラッキングログを使用する必要があります。 これらはリンク テーブルに格納されます。まず、のドロップダウン リストでこのテーブルを選択します **[!UICONTROL フィルタリングディメンション]** フィールド（下図を参照）。
+1. 配信を開封したプロファイルをターゲットにするには、トラッキングログを使用する必要があります。リンクテーブルに保存されます。次に示すように、まず、「**[!UICONTROL フィルタリングディメンション]**」フィールドのドロップダウンリストでこのテーブルを選択します。
 
    ![](assets/s_advuser_query_sample1.0.png)
 

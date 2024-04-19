@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## コア機能とアドオン {#core-capabilities-and-add-ons}
 
-Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。詳細な製品説明については、以下を参照してください。 [Adobe Campaign製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。詳細な製品説明について詳しくは、[Adobe Campaign の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 使用できる機能は以下のとおりです。ライセンス契約によって、ご利用のインスタンスで使える機能と使えない機能があります。
 

@@ -4,7 +4,7 @@ title: メールの配信品質
 description: メール配信品質パッケージの詳細を説明します
 feature: Workflows, Deliverability
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ description: 詳細設定パラメーター
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 
 ## 最大実行期間 {#max--execution-period}
 
-このフィールドでは、長時間にわたりタスクが完了しない場合の警告を設定できます。ワークフローの動作に影響を与えることはありません。指定した時間までにタスクが終了しない場合は、 **[!UICONTROL 最大 実行期間]** が終了した場合、 **[!UICONTROL インスタンスの監視]** ページには、このワークフローの警告が表示されます。 このページには、ホームページの「**[!UICONTROL 監視]**」タブからアクセスします。
+このフィールドでは、長時間にわたりタスクが完了しない場合の警告を設定できます。ワークフローの動作に影響を与えることはありません。**[!UICONTROL 最大実行期間が終了するまでにタスクが終了しない場合]**、**[!UICONTROL インスタンスの監視]**&#x200B;ページには、このワークフローの警告が表示されます。このページには、ホームページの「**[!UICONTROL 監視]**」タブからアクセスします。
 
 ## 動作 {#behavior}
 

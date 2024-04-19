@@ -5,7 +5,7 @@ description: Campaign - IMS の更新
 feature: Technote, Upgrade
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 

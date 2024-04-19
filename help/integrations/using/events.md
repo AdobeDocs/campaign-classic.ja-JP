@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -219,7 +219,7 @@ triggerType フィールドは、データの発生元となるトリガーを�
 
 >[!NOTE]
 >
->パイプラインイベントノードは組み込まれておらず、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳しくは、次の節を参照してください。 [ナビゲーション階層](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). および [フォームの編集](../../configuration/using/editing-forms.md).
+>パイプラインイベントノードは組み込まれておらず、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳しくは、[ナビゲーション階層](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)と[フォームの編集](../../configuration/using/editing-forms.md)の節を参照してください。
 
 ![](assets/triggers_7.png)
 

@@ -5,9 +5,9 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 92%
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-## 前処理ステージを適用 {#pre-processing}
+## 前処理ステージの適用 {#pre-processing}
 
-ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。[処理前にファイルを解凍または復号化する方法を説明します](../../platform/using/unzip-decrypt.md).
+ファイルのインポート中に前処理を実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。[詳しくは、処理前のファイルの解凍と復号化方法を参照してください](../../platform/using/unzip-decrypt.md)。
 
-これを行うには、 **[!UICONTROL ファイルを前処理]** オプションを選択し、次の 3 つのオプションのいずれかを選択します。 **[!UICONTROL なし]**, **[!UICONTROL 解凍]** （zcat）または **[!UICONTROL 復号]** （gpg）。
+これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択し、「**[!UICONTROL なし]**」、「**[!UICONTROL 解凍]**（zcat）」または「**[!UICONTROL 復号化]**（gpg）」の 3 つのオプションから選択します。
 
 ![](assets/preprocessing-dataloading.png)
 
 >[!CAUTION]
 >
->ハイブリッドまたはオンプレミスのデプロイメントを使用する場合、デフォルトの設定では「zcat」が使用されますが、Windows では使用できないので、前処理コマンドは標準では動作しない場合があります。 その場合、を調整する必要があります **preProcessCommand** サーバー設定ファイル（serverConf.xml）のノードを、必要に応じて変更します。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+>ハイブリッドデプロイメントまたはオンプレミスデプロイメントを使用している場合、デフォルト設定では Windows では使用できない「zcat」が使用されるので、前処理コマンドが標準では機能しない場合があります。その場合は、必要に応じて、サーバー設定ファイル（serverConf.xml）の **preProcessCommand** ノードを調整する必要があります。[詳しくは、サーバー設定ファイルでの前処理コマンドの設定方法を参照してください](../../installation/using/the-server-configuration-file.md#preprocesscommand)。
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 

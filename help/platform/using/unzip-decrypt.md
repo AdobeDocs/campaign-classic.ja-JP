@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
 
-   インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
+   インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に依頼します。
 
 次に、目的の前処理コマンドをワークフローで使用します。
 
@@ -86,15 +86,15 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading-file.md)を参照してください。
 
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、 **[!UICONTROL ファイルを前処理]** オプションを選択してから、を選択します **[!UICONTROL 復号]** から **[!UICONTROL コマンド]** ドロップダウンリスト：
+   受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択してから、「**[!UICONTROL コマンド]**」ドロップダウンリストから「**[!UICONTROL 復号]**」を選択します。
 
    ![](assets/gpg_load.png)
 
    >[!NOTE]
    >
-   >利用可能なコマンドを変更する必要がある場合は、次の方法で問い合わせることができます。 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) preProcessCommand 設定を調整します。
+   >利用可能なコマンドを変更する必要がある場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に問い合わせて、preProcessCommand の設定を調整できます。
    >
-   >ハイブリッドデプロイメントを使用している場合は、サーバー設定ファイル（serverConf.xml）から直接これらのコマンドを設定できます。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+   >ハイブリッドデプロイメントを使用している場合は、サーバー設定ファイル（serverConf.xml）から直接これらのコマンドを設定できます。[詳しくは、サーバー設定ファイルで前処理コマンドを設定する方法を参照してください](../../installation/using/the-server-configuration-file.md#preprocesscommand)。
 
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 

@@ -4,7 +4,7 @@ title: インタラクション
 description: インタラクション
 feature: Workflows, Interaction, Offers
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 

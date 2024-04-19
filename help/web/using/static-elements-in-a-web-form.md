@@ -6,13 +6,13 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1079'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# web フォームの静的要素{#static-elements-in-a-web-form}
+# Web フォームの静的要素{#static-elements-in-a-web-form}
 
 
 

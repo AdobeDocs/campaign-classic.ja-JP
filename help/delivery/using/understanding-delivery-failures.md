@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2618'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 98%
    <td> 未到達 </td> 
    <td> ソフト／ハード </td> 
    <td> 3 </td> 
-   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーでのインシデント、一時的に到達できないドメインなどが発生する可能性があります。 アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
+   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーに関するインシデント、一時的に未到達なドメインなどが考えられます。アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不明なユーザー </td> 
@@ -243,7 +243,7 @@ Adobe Campaign プラットフォームでは、バウンスメール機能を�
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaignでは、このメッセージをフィルタリングして、様々なコンテンツ（ID、日付、メールアドレス、電話番号など）を削除します。 フィルタリングした結果を次の URL に表示 **[!UICONTROL テキスト]** 列。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
+Adobe Campaign では、このメッセージをフィルタリングして、変数コンテンツ（ID、日付、メールアドレス、電話番号など）を削除し、フィルタリングした結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
 
@@ -315,7 +315,7 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
 * **SMTP リレー**&#x200B;パラメーターは、特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
 
-Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用メール認証標準である **Sender ID** を使用してメールに署名しないようにしてください。「**[!UICONTROL 送信者 ID]**」オプションが有効な場合は、対応するボックスのチェックマークを外し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡します。配信品質に影響はありません。
+Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用メール認証標準である **Sender ID** を使用してメールに署名しないようにしてください。「**[!UICONTROL 送信者 ID]**」オプションが有効な場合は、対応するボックスのチェックマークを外し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に連絡します。配信品質に影響はありません。
 
 #### MX 管理 {#mx-management}
 

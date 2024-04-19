@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 ### 選択タイプ {#selection-type}
 
-レポートへのアクセスは、特定のコンテキストまたはオファースペース（配信、受信者、選択した受信者など）に限定できます。 このアクセスは、 **[!UICONTROL 選択タイプ]** の節 **[!UICONTROL 表示]** タブ。
+レポートへのアクセスは、配信、受信者、受信者の選択など、特定のコンテキストまたはオファースペースに限定できます。このアクセスは、「**[!UICONTROL 表示]**」タブの「**[!UICONTROL 選択タイプ]**」セクションで設定されます。
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 

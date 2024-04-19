@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 * **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。
 * **[!UICONTROL 登録ページ URL]**：購読 URL を挿入します（[サービスと購読について](about-services-and-subscriptions.md)を参照）。
-* **[!UICONTROL 登録リンク]**：購読リンクを挿入します。インスタンスの設定時に定義されている名前です。
+* **[!UICONTROL 登録リンク]**：購読リンクを挿入します。これは、インスタンスの設定時に定義されたものです。
 * **[!UICONTROL 登録リンク（リファラーを含む）]**：購読リンクを挿入し、訪問者と配信を識別できるようにします。このリンクは、インスタンスの設定時に定義されたものです。
 
   >[!NOTE]
@@ -138,7 +138,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、 **[!UICONTROL 保存]**.
+   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
 ## チュートリアルビデオ {#personalization-blocks-video}
 

@@ -7,9 +7,9 @@ feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
-* 「Mr」または「Ms」を示す表示 の値に応じて **[!UICONTROL 性別]** フィールド （M または F）
+* データソースの「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
 * 顧客が表明した関心事項や検出された関心事項に基づいて、次のようにニュースレターや優待販売案内の構成をパーソナライズする
 
    * 興味 1 -- > ブロック 1

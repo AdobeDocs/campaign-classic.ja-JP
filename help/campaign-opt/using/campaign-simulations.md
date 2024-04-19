@@ -6,9 +6,9 @@ role: User, Data Engineer
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   必要に応じて、 **[!UICONTROL 動的条件を編集…]** リンク。
+   必要であれば、「**[!UICONTROL 動的条件を編集...]**」リンクから、動的条件を使用することができます。
 
    「**[!UICONTROL 保存]**」をクリックして、設定を承認します。
 

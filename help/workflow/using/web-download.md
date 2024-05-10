@@ -5,9 +5,9 @@ description: Web ダウンロードワークフローアクティビティの詳
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: a0c0c7d13704b0155004e578d6739852ceb43c81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 83%
 
    「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次の追加オプションを設定できます。
 
-   * **[!UICONTROL リダイレクトに従う]**：ファイルのリダイレクトでは、上書きを使用して、データの入力や出力を別のタイプのデバイスにリダイレクトできます。
-   * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、HTTP ヘッダーをファイルに追加したくなるかもしれません。 最も一般的には、次のようなトラブルシューティング目的で追加情報を提供するために、これらのヘッダーが使用されます。 [クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)、またはを使用して、特定のキャッシュディレクティブを設定します。
-   * **[!UICONTROL HTTP リターンコードを無視]**:HTTP リターンコード（HTTP ステータスコードとも呼ばれます）は、HTTP リクエストの結果を示します。
+   * **[!UICONTROL リダイレクトに従う]**：ファイルのリダイレクトでは、上書きを使用して、データの入力や出力を別のタイプのデバイスに送信できます。
+   * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、ファイルに HTTP ヘッダーを追加することが必要になる場合があります。最も一般的に、これらのヘッダーは、トラブルシューティング目的、[クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)用の追加情報を提供するため、または特定のキャッシュディレクティブを設定するために使用されます。
+   * **[!UICONTROL HTTP リターンコードを無視]**：HTTP リターンコード（HTTP ステータスコードとも呼ばれる）は、HTTP リクエストの結果を示します。
 
    ![](assets/download_web_edit_advanced.png)
 
-   「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
+   「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーの処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## 出力パラメーター {#output-parameters}
 

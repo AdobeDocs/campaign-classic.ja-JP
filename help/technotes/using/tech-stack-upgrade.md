@@ -5,7 +5,7 @@ description: Adobe Campaign システムのアップグレード
 feature: Technote, Upgrade
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Campaign インフラストラクチャは、最新のバージョンと修正�
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。[ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) も参照してください。
+>これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。[ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) も参照してください。
 >
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}

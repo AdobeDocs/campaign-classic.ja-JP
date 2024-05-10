@@ -3,9 +3,9 @@ title: Campaign オペレーターの Adobe Identity Management System（IMS）�
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 source-git-commit: 59156851156338c9462781d31ce81a651362f2da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。 すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。
 
-Campaign v8 では、ユーザー/パスワード（ネイティブ認証）との接続は許可されません。 **アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
+Campaign v8 では、ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されません。**アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
 
 ## 変更点{#move-to-ims-changes}
 

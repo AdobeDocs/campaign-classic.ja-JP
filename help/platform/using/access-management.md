@@ -5,15 +5,23 @@ description: Campaign 機能へのアクセスを許可する方法について�
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 75%
 
 ---
 
 # 権限の基本を学ぶ{#access-management}
 
+
+>[!CAUTION]
+>
+>Campaign Classic v7.3.1 以降、すべての演算子で次を使用する必要があります [AdobeIdentity Managementシステム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を Campaign に接続します。
+>
+>セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignでは、既存のすべてのオペレーター認証モードをログイン/パスワードネイティブ認証からAdobe Identity Management System （IMS）に移行することを強くお勧めします。 でオペレーターを移行する方法を説明します [このページ](../../technotes/using/migrate-users-to-ims.md).
+> 
+>この移行後は、次の節は適用されないことに注意してください。  でAdobe IMSを使用して権限を設定する方法を説明します [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}.
 
 
 Adobe Campaign は、様々なオペレーターに割り当てる一連の権利を定義したり、管理したりするのに役立ちます。以下の操作は、それらの権利に基づいて承認または拒否されます。

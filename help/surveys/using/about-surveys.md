@@ -5,18 +5,21 @@ description: Campaign の調査の基礎知識
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 95%
 
 ---
 
 # 調査の基本を学ぶ{#about-surveys}
 
-
-
 Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するために使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
+
+>[!AVAILABILITY]
+>
+>調査管理は、エンタープライズ（FFDA）デプロイメントのコンテキストでは、Campaign v8 では使用できません。 詳しくは、を参照してください。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
 
 オプションの&#x200B;**調査**&#x200B;アドオンを使用すると、新しいタイプの web アプリケーションを作成して、プロファイル情報を追加または修正するフォーム、情報サービスを購読または購読解除するフォーム、コンテストにエントリーするフォームなど、オンラインアンケートを作成および管理できます。回答が収集されると、データベースまたはローカル変数に格納されます。データモデルは、アンケートの回答を使用して動的に拡張できます。結果をリアルタイムに表示したり、回答をフィルターしたり、専用のグラフを使用してそれらを分析したりできます。
 

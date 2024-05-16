@@ -2,10 +2,10 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
-workflow-type: ht
-source-wordcount: '1278'
-ht-degree: 100%
+source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 1. 接続に対して Adobe IMS を実装するには、[このページ](../../integrations/using/implementing-ims.md)を参照してください。
 
 また、テクニカルオペレーターを Adobe Developer Console に移行することもできます。詳しくは、[このテクニカルノート](ims-migration.md)を参照してください。
+
 
 
 ## よくある質問 {#ims-migration-faq}
@@ -152,5 +153,5 @@ Campaign でオペレーターの認証タイプを表示する方法につい�
 ## 便利なリンク {#ims-useful-links}
 
 * [Adobe Developer Console へのテクニカルユーザーの移行](ims-migration.md)
-* [Adobe Campaign v8 リリースノート](../../rn/using/latest-release.md)
+* [Adobe Campaign Classic v7 リリースノート](../../rn/using/latest-release.md)
 * [Adobe Identity Management System（IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}

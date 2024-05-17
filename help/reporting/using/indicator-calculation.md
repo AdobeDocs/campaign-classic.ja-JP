@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3098'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -728,7 +728,7 @@ ht-degree: 99%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td> count(Iif([@url-id]) != 1, @totalClicks, 0)<br /> </td> 
+   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 

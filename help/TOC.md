@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 99%
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + Adobe Analytics Connector{#analytics-connector}
-         + [Adobe Analytics コネクタの基本を学ぶ](platform/using/gs-aa.md)
+         + [Adobe Analytics Connector の基本を学ぶ](platform/using/gs-aa.md)
          + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics Connectorへの移行方法](technotes/using/aa-connector-migration.md)
    + [ヘルプとサポートオプション](support.md)
@@ -209,7 +209,7 @@ ht-degree: 99%
       + [配信パフォーマンスのベストプラクティス](delivery/using/delivery-performances.md)
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
-      + [配信の失敗について](delivery/using/understanding-delivery-failures.md)
+      + [配信失敗について](delivery/using/understanding-delivery-failures.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)

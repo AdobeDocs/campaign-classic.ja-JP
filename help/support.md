@@ -6,9 +6,9 @@ feature: Troubleshooting
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### よくある質問（FAQ）
+### よくある質問
 
 新しいビルドにアップグレードする方法は？ ワークフローの実行を監視する方法データベースのクリーンアップワークフローについて知るには、[よくある 10 件の質問を参照してください](platform/using/common-questions.md)。
 
@@ -137,7 +137,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}。
 
 ### Campaign ダウンロードセンターへのアクセス
 

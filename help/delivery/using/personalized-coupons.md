@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->エンタープライズ（FFDA）デプロイメントのコンテキストでは、Campaign v8 ではクーポン管理を使用できません。 詳しくは、を参照してください。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}を参照してください。
 
-クーポン管理は、インストールする必要があるパッケージに依存します。 クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
+クーポン管理は、インストールする必要があるパッケージに依存します。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 
 クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。[詳細情報](../../platform/using/get-started-data-import-export.md)。
 
 ## クーポンの作成 {#creating-a-coupon}
 
-クーポン管理モジュールでは、クーポンを作成する際に次の 2 つのオプションを使用できます。
+クーポン管理モジュールには、次の 2 つのクーポン作成オプションがあります。
 
 * **匿名**：限定された受信者または受信者のリスト向けの汎用のクーポン。
 * **個人**：限定された受信者向けのパーソナライズされたクーポン。

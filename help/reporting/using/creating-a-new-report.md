@@ -5,9 +5,9 @@ description: 新しいレポートを作成するための主な手順を学ぶ
 feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 99%
 * **[!UICONTROL 入力コントロール]**（テキストタイプまたは数値タイプ）。
 * **[!UICONTROL 選択コントロール]**（ドロップダウンリスト、チェックボックス、ラジオボタン、複数選択、日付、マトリックスなど）。
 * **[!UICONTROL 高度なコントロール]**（リンクエディター、定数、フォルダー選択）。
-* 値、リンク、HTML、画像など **[!UICONTROL 静的要素]**.
+* 静的要素（値、リンク、HTML、画像など）****。
 * **[!UICONTROL コンテナ]**（コンポーネントレイアウトの制御に使用）。
 
 ページおよびページコンポーネントの設定モードについて詳しくは、[この節](../../web/using/about-web-forms.md)で説明しています。

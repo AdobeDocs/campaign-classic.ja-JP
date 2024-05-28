@@ -5,10 +5,10 @@ description: Campaign SDK をモバイルアプリに統合する方法を説明
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign SDK の統合手順を以下に示します。
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  以下の権限により、電話の一意の ID 復元が可能になります。
+  次の権限を使用すると、モバイルの一意の ID を復元できます。
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1622'
-ht-degree: 100%
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+workflow-type: tm+mt
+source-wordcount: '1624'
+ht-degree: 97%
 
 ---
 
@@ -160,10 +160,9 @@ ht-degree: 100%
 
 * **コールセンターが関与するキャンペーン**
 
-  電話によるロイヤルティキャンペーンを管理する場合、組織が処理できるサブスクライバーへの電話の本数には限界があります。
+  電話でロイヤルティキャンペーンを管理する場合、組織が処理できるサブスクライバーへの呼び出し数には制限があります。
 
-
-  ウェーブを使用して、1 日あたりのメッセージ数を 20 に制限できます（コールセンターの 1 日あたりの処理能力）。
+  ウェーブを使用すると、メッセージ数を 1 日あたり 20 件に制限できます。例えば、コールセンターの毎日の処理能力を考慮します。
 
   これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。ウェーブのサイズとして **[!UICONTROL 20]** を入力し、「**[!UICONTROL 期間]**」フィールドに **[!UICONTROL 1d]** と入力します。
 

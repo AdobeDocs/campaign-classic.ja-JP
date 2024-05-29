@@ -3,12 +3,12 @@ product: campaign
 title: サーバーのインストール
 description: サーバーのインストール
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -16,8 +16,6 @@ ht-degree: 3%
 ---
 
 # サーバーのインストール{#installing-the-server}
-
-
 
 ## インストールプログラムの実行 {#executing-the-installation-program}
 
@@ -70,13 +68,13 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
 
 最初のインストールをテストするには、次のコマンドを使用します。
 
-```
+```sql
 nlserver pdump
 ```
 
 Adobe Campaignが起動されていない場合は、次のように応答します。
 
-```
+```sql
 No task
 ```
 
@@ -84,7 +82,7 @@ No task
 
 インストールテストが完了したら、 **[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューをクリックし、次のコマンドを入力します。
 
-```
+```sql
 nlserver web
 ```
 
@@ -104,13 +102,13 @@ nlserver web
 
 押す **Ctrl+C** プロセスを停止するには、次のコマンドを入力します。
 
-```
+```sql
 nlserver start web
 ```
 
 次の情報が表示されます。
 
-```
+```sql
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Start of the 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') task in a new process 
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -122,13 +120,13 @@ nlserver start web
 
 停止するには、次のように入力します。
 
-```
+```sql
 nlserver stop web
 ```
 
 次の情報が表示されます。
 
-```
+```sql
 12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
@@ -145,13 +143,13 @@ Adobe Campaign サーバーは、というテクニカルログインを定義�
 
 Adobe Campaign サービスを開始するには、サービスマネージャーを使用するか、コマンドラインで適切な権限を持つ以下を入力します。
 
-```
+```sql
 net start nlserver6
 ```
 
 Adobe Campaign プロセスを後で停止する必要がある場合は、次のコマンドを使用します。
 
-```
+```sql
 net stop nlserver6
 ```
 
@@ -161,6 +159,6 @@ LibreOffice をダウンロードし、通常のインストール手順に従�
 
 次の環境変数を追加します。
 
-```
+```sql
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```

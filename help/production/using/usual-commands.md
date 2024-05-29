@@ -3,15 +3,15 @@ product: campaign
 title: 通常のコマンド
 description: 通常のコマンド
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 7%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 パラメーターを追加できます **-who** 実行中の接続（データベースおよびアプリケーション）をリストします。
 
-```
+```sql
 nlserver pdump -who
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 web@default (9984) - 50.1 Mo
@@ -65,7 +65,7 @@ default xxxxx myserver myprovider test400
 
 パラメーターを追加できます **– 不明** 存在しないモジュールを一覧表示します（モジュールのエラー、モジュールのシャットダウンなど）。
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 inMail@test
@@ -79,11 +79,11 @@ wfserver@test
 
 モジュールを起動するための構文は、引き続き次の形式となります。
 
-```
+```sql
 nlserver start <module>@<INSTANCE>
 ```
 
-```
+```sql
 nlserver stop <module>@<INSTANCE>
 ```
 
@@ -99,7 +99,7 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
    * Linux の場合
 
-     ```
+     ```sql
      /etc/init.d/nlserver6 stop
      ```
 
@@ -109,13 +109,13 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
    * Windows の場合：
 
-     ```
+     ```sql
      net stop nlserver6
      ```
 
 * そうでない場合は、Adobe Campaign アカウントで次のようにします。
 
-  ```
+  ```sql
   nlserver shutdown 
   ```
 
@@ -125,13 +125,13 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
 * ルートまたは管理者のアクセス権がある場合：
 
-   * Linux の場合：/etc/init.d/nlserver6 start
+   * Linux の場合 `/etc/init.d/nlserver6 start`
 
      >[!NOTE]
      >
      >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
 
-   * Windows の場合：net start nlserver6
+   * Windows の場合： `net start nlserver6`
 
 * それ以外の場合は、Adobe Campaign アカウントで次の操作を行います。 **nlserver watchdog -svc -noconsole**
 
@@ -141,11 +141,11 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
 の使用 **config** コマンド **nlserver** を含む実行可能ファイル **-setdblogin** パラメーター。
 
-```
+```sql
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
 ```
 
-```
+```sql
 nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 ```
 

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 インスタンスの作成は、コマンドラインを使用して次の構文で実行できます。
 
-```
+```sql
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
@@ -36,7 +36,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 コマンドラインから次の構文を使用して、既存のデータベースをインスタンスに関連付けることができます。
 
-```
+```sql
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
@@ -49,6 +49,6 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 
 次のコマンドは、 **デモ** という SQL タイプサーバーを持つインスタンス **base6**、にリンクされています **campaign** アカウントと **password** 日 **dbsrv** サーバー：
 
-```
+```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
 ```

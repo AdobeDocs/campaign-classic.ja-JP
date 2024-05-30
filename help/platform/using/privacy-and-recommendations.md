@@ -8,15 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1977'
-ht-degree: 100%
+source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
+workflow-type: tm+mt
+source-wordcount: '1910'
+ht-degree: 99%
 
 ---
 
 # プライバシーと同意{#privacy-and-recommendations}
-
 
 
 ## 一般的なレコメンデーション {#general-recommendations}
@@ -32,18 +31,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 ### プライバシー規制 {#privacy-regulations}
 
-プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。次の規則が含まれます。
-* [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)（ヨーロッパの一般データ保護規則）
-* [DPA](https://www.gov.uk/data-protection)（英国での GDPR）
-* [プライバシーと電子通信に関する欧州指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM 法](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)（商用メールのルールと要件を設定する米国の法律）
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
-* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)（ブラジル一般データ保護法）
-
->[!NOTE]
->
->GDPR、CCPA、PDPA、LGPD が Adobe Campaign にどのように適用されるかについては、[このページ](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
+プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。Adobe Campaignの機能は、に一覧表示されている規則の遵守に役立ちます。 [このページ](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 

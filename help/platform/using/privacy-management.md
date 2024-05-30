@@ -8,20 +8,20 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
 # プライバシー管理 {#privacy-management}
 
 
-
 Adobe Campaign には、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPD など）を遵守するのに役立つ各種のツールが用意されています。
 
-GDPR などのプライバシー規制に対する対応するために Adobe Campaign で提供されている 5 つの主な機能を次に示します。
+プライバシー規制への対応を確実にするためにAdobe Campaignが提供する 5 つの主な機能を次に示します。
+
 * **アクセスする権利**
 * **削除する権利**
 * **同意管理**
@@ -38,14 +38,16 @@ It also contains information on important features to manage Privacy ([Consent, 
 
 ## プライバシー管理に関する規制 {#privacy-management-regulations}
 
-Adobe Campaign の機能は、次の規則の遵守に役立ちます。
+Adobe Campaign の機能により、次の規制を遵守できるようになります。
 
-* **GDPR**（[EU 一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されているプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。
-* **CCPA**（[カリフォルニア州消費者プライバシー法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
-* **PDPA**（[Personal Data Protection Act、個人情報保護法](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）は、タイの新しいプライバシー法で、データ保護要件を現代の状況に合わせて整合化することを目的としています。
-* **LGPD**（[Lei Geral de Proteção de Dados、一般データ保護法](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)）は、2021 年前半から適用され、ブラジルで個人データを収集および処理するすべての会社に対して有効となります。
+* **GDPR** （EU 一般データ保護規則）は欧州連合（EU）で施行されているプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。
+* **CCPA** （カリフォルニア州消費者プライバシー法）は、カリフォルニア州の居住者に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスを行う特定の事業者に対してデータ保護の責任を課します。
+* **PDPA** （個人情報の保護に関する法律）は、タイのプライバシー法で、データ保護要件を現代の状況に合わせて整合化することを目的としています。
+* **LGPD** （Lei Geral de Proteção de Dados）は、ブラジルで個人データを収集または処理するすべての企業に適用されます。
+* **CASL** （カナダのスパム対策法）は、カナダに出入りするすべてのメッセージを対象としていますが、カナダを経由してルーティングされるメッセージは含みません。
+* **VCDPA** （バージニア州消費者データ保護法）および **公認会計士** （コロラドプライバシー法）は、事業を行うすべての企業に適用されるか、それらの州の住民をターゲットにします。
 
-これらすべての規則は、前述の各地域または国（EU、米国カリフォルニア州、タイ、ブラジル）に居住するデータ主体のデータを保持する Adobe Campaign のお客様が対象となります。
+これらの規則はすべて、上記の各地域または国に居住するデータ主体のデータを保持するAdobe Campaignのお客様に適用されます。
 
 <!--Several Privacy capabilities are available in Adobe Campaign, including consent management, data retention settings, and rights management. See [Consent, Retention and Roles](#consent-retention-roles). In addition to this, Adobe Campaign helps facilitate your readiness as Data Controller for certain Privacy requests. See [Right to Access and Right to be Forgotten](#right-access-forgotten).-->
 

@@ -4,10 +4,10 @@ title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
-workflow-type: ht
-source-wordcount: '1300'
-ht-degree: 100%
+source-git-commit: a08b386ff73fd9a2e9b3909c8f8de5e419104ce4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 88%
 
 ---
 
@@ -48,7 +48,11 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!AVAILABILITY]
 >
-> JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
+> サービスアカウント（JWT）資格情報はAdobeにより非推奨（廃止予定）となりました。Adobeソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。 </br>
+>
+> * Campaign とのインバウンド統合を実装した場合は、このドキュメントで説明しているように、テクニカルアカウントを移行する必要があります。 既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。 さらに、2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなりました。 この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。 </br>
+>
+> * Campaign と Analytics の統合やExperience Cloudトリガーの統合などのアウトバウンド統合を実装している場合、2025 年 1 月 27 日（PT）まで引き続き機能します。 ただし、この期限までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。 2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなったので、この日以降、JWT を使用して新しいアウトバウンド統合を作成することはできません
 
 ### 前提条件{#prerequisites}
 

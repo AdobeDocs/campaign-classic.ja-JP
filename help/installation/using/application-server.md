@@ -3,25 +3,25 @@ product: campaign
 title: アプリケーションサーバー
 description: アプリケーションサーバー
 feature: Installation
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 30670fba2fb84b968ef2e8a8f24746c81cc05f57
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '565'
 ht-degree: 3%
 
 ---
 
 # アプリケーションサーバー{#application-server}
 
-
-
 必要なデータベースアクセスレイヤーは、サーバーにインストールされ、Adobe Campaign アカウントからアクセスできる必要があります。
 
 ## Java Development Kit - JDK {#java-development-kit---jdk}
+
+Java Development Kit、または JDK は、ソフトウェア開発キットです。 これは、Java アプリケーションと Java アプレットの開発を可能にする基盤コンポーネントです。
 
 動的 Web ページジェネレーターでは、JSP 1.2 テクノロジーを使用します。 このために、（Apache からの） Tomcat エンジンがアプリケーションに含まれています。 これには、Adobe Campaign アプリケーションがインストールされているすべてのサーバーにインストールされている Java Development Kit （JDK）が必要です。
 
@@ -31,33 +31,46 @@ ht-degree: 3%
 
 サポートされているバージョンについて詳しくは、Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
->[!NOTE]
->
->マシン上の他のアプリケーションで既に使用されている適切な JDK バージョンを使用してインストールできます。
->  
->をインストールする場合、web ブラウザーとの統合を実行する必要はありません。
->
->配信エージェントのみを実行するマシン（**nlserver mta** プロセス）またはワークフローサーバー（**nlserver wfserver** process）を使用する場合は、JDK をインストールする必要はありません。
 
-Java JDK をダウンロードするには、に接続します。 [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**警告：JRE ではなく JDK をダウンロードする必要があります。**
+### 推奨事項
+
+Java Development Kit は、マシン上の他のアプリケーションですでに使用されている適切な JDK バージョンを使用してインストールできます。
+
+JDK をインストールする場合、web ブラウザーとの統合は必要ありません。
+
+配信エージェントのみを実行するマシン（**nlserver mta** プロセス）またはワークフローサーバー（**nlserver wfserver** プロセス）を選択する場合は、JDK のインストールは必要ありません。
+
 
 >[!CAUTION]
 >
->プラットフォームの操作パフォーマンスを維持し、インストールされているバージョンとの互換性を確保するには、Windows と Linux で JDK の自動アップデート機能を無効にする必要があります。
+> プラットフォームの操作パフォーマンスを維持し、インストールされているバージョンとの互換性を確保するには、Windows と Linux で JDK の自動アップデート機能を無効にする必要があります。
+>
+> Java バージョンをアップグレードする場合、まず以前のバージョンをアンインストールする必要があります。 同じマシンにインストールされた両方のバージョンの Java は、競合を引き起こす可能性があります。
 
-Linux 環境に JDSL をインストールするには、パッケージマネージャーを使用することをお勧めします。
 
-Debian 8 および 9 では、次のコマンドを使用します。
+### インストール手順
 
-```
+Java 開発キットはプラットフォーム固有であり、オペレーティングシステムごとに個別のインストーラーが必要です。
+
+Java JDK をダウンロードするには、に接続します。 [Oracleの web サイト](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+
+>[!CAUTION]
+>
+> Java ランタイム環境（JRE）ではなく、Java Development Kit （JDK）をダウンロードします。
+
+
+Linux 環境に JDSL をインストールする場合、Adobeではパッケージマネージャーを使用することをお勧めします。
+
+Debian の場合は、次のコマンドを使用します。
+
+```sql
 aptitude install openjdk-8-jdk
 ```
 
-RHEL 7 の場合は、次のコマンドを使用します。
+RHEL の場合は、次のコマンドを使用します。
 
-```
+```sql
 yum install java-1.8.0-openjdk
 ```
 
@@ -65,9 +78,13 @@ yum install java-1.8.0-openjdk
 
 Linux では、OpenSSL をインストールする必要があります。 Adobe Campaignは、OpenSSL バージョン 1.0.2 以降をサポートしています。
 
-## レポートのエクスポート {#exporting-reports}
+## レポートを書き出し {#exporting-reports}
 
-Adobe Campaignを使用すると、プラットフォームレポートをMicrosoft Excel およびAdobe PDF形式で書き出すことができます。 Microsoft Excel 形式の場合、Adobe Campaignはを使用します **LibreOffice**. Adobe PDF形式の場合、Adobe Campaignは次を使用します **PhantomJS** コンバータ。 PhantomJs はファクトリパッケージに含まれており、Adobe Campaign アプリケーションサーバーを実行する（**nlserver web** プロセス）。
+Adobe Campaignを使用すると、レポートをMicrosoft Excel およびAdobe PDFに書き出すことができます。
+
+* Microsoft Excel 形式の場合、Adobe Campaignはを利用します **LibreOffice**.
+
+* Adobe PDF形式の場合、Adobe Campaignは次を使用します **PhantomJS** コンバータ。 PhantomJs はファクトリパッケージに含まれており、Adobe Campaign アプリケーションサーバーを実行する（**nlserver web** プロセス）。
 
 >[!NOTE]
 >

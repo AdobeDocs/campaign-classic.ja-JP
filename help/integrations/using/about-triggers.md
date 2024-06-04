@@ -7,10 +7,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->この機能は、製品の一部として標準搭載はされていません。この実装では、最初にアドビのサポートでチケットを開く必要があります。すると、この[ページ](../../integrations/using/configuring-pipeline.md#prerequisites)で詳しく説明されている手順を実行できるようになります。
+>この機能は、製品の一部として標準搭載はされていません。この実装については、Adobe担当者/カスタマーケアにお問い合わせください。 すると、この[ページ](../../integrations/using/configuring-pipeline.md#prerequisites)で詳しく説明されている手順を実行できるようになります。
 
-[!DNL Triggers] は、ユーザーのアクションの後、短時間のうちにマーケティングアクションを実行します。通常の応答時間は 1 時間未満です。
+[!DNL Triggers] ユーザーのアクションに続いてマーケティングアクションを短時間内に実行します。 通常の応答時間は 1 時間未満です。
 
 設定は最小限で、サードパーティが関与しないので、より機敏な統合処理が可能です。
 また、マーケティングアクティビティのパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。例えば、この統合機能では 1 時間に 100 万個のトリガーを処理できます。

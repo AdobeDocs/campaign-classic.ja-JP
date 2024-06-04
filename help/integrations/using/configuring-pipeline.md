@@ -1,60 +1,50 @@
 ---
 product: campaign
-title: パイプラインの設定
-description: パイプラインの設定方法を説明します
+title: パイプラインを設定
+description: Campaign とトリガーの統合用にパイプラインを設定する方法を学ぶ
 feature: Triggers
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 63%
 
 ---
 
-# パイプラインの設定 {#configuring-pipeline}
-
-
+# パイプラインを設定 {#configuring-pipeline}
 
 顧客 ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
-処理されるトリガーのリストは、JSON フォーマットでオプションに設定されます。
+
+処理されるトリガーのリストは、JSON 形式のオプションで設定されます。
+
 トリガーは、メールを送信するキャンペーンワークフローでターゲティングに使用されます。キャンペーンは、両方のトリガーイベントを持つ顧客がメールを受信するように設定されています。
 
 ## 前提条件 {#prerequisites}
 
-この設定を開始する前に、次を使用していることを確認してください。
+この設定を開始する前に、以下の点を確認してください。
 
-* 次のいずれかの Adobe Campaign ビルド以上
-   * 19.1.8.9039
-   * 19.1.4.9032 - Gold Standard 11
-   * 20.2.4.9187
-   * 20.3.1
-* Adobe Analytics Standard 版
-
-また、次も必要です。
-
-* Adobe I/O プロジェクト認証
-* 有効な組織 ID - 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* Adobe Developer プロジェクト
+* 有効な組織 ID – 組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
 * 組織への開発者のアクセス
-* Adobe Analytics で行われたトリガー設定
+* Adobe Analyticsの有効なトリガー設定
 
 ## 認証および設定ファイル {#authentication-configuration}
 
-パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。
-公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能ですが、より安全になっています。
-認証は、Adobe I/O プロジェクトを介した Marketing Cloud に対してサポートされます。
+パイプラインはAdobe Experience Cloudでホストされているので、認証が必要です。 公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー/パスワードと同じ機能を持ちますが、より安全です。 Adobe Developer プロジェクトを介したMarketing Cloudでは、認証がサポートされます。
 
-## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
+## 手順 1：Adobe Developer プロジェクトを作成／更新 {#creating-adobe-io-project}
 
-ホスト型の顧客は、カスタマーサポートチケットを作成し、Triggers 統合用の Adobe I/O テクニカルアカウントトークンを使用して、組織を有効にすることができます。
+ホステッド環境のお客様の場合は、Adobe担当者/ カスタマーケアと協力して、Adobe Developer アカウントトークンでトリガー統合を有効にします。
 
-オンプレミス型の顧客は、「[Adobe Experience Cloud Triggers 用の Adobe I/O の設定](../../integrations/using/configuring-adobe-io.md)」ページを参照してください。Adobe I/O 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
+オンプレミス/ハイブリッドのお客様の場合は、を参照してください。 [Adobe Experience Cloud Triggers用のAdobe I/Oの設定](../../integrations/using/configuring-adobe-io.md) ページ。 を選択する必要があります。 **[!UICONTROL Adobe Analytics]** Adobe Developer資格情報への API の追加中。
 
-## 手順 2：NmsPipeline_Config パイプラインオプションの設定 {#configuring-nmspipeline}
+## 手順 2：パイプラインオプションの設定 {#configuring-nmspipeline}
 
-認証が設定されると、パイプラインはイベントを取得します。Adobe Campaign で設定されたトリガーのみが処理されます。トリガーは、Adobe Analytics から生成され、Adobe Campaign で設定されたトリガーのみを処理するパイプラインに送られる必要があります。
+認証が設定されると、パイプラインはイベントを取得します。Adobe Campaign で設定されたトリガーのみが処理されます。トリガーは、Adobe Analyticsから生成され、パイプラインにプッシュされている必要があります。パイプラインは、Adobe Campaignで設定されたトリガーのみを処理します。
+
 また、名前に関係なく、すべてのトリガーを取得するように、ワイルドカードを使用して設定することもできます。
 
 1. Adobe Campaign の&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;のオプションメニューにアクセスします。
@@ -63,7 +53,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 値 (長いテキスト)]**」フィールドに、次の JSON コードを貼り付けることができます。このコードは、2 つのトリガーを指定します。コメントは必ず削除してください。
 
-   ```
+   ```json
    {
    "topics": [ // list of "topics" that the pipelined is listening to.
       {
@@ -85,7 +75,7 @@ ht-degree: 100%
 
 1. また、次のすべてのトリガーを取得する JSON コードを貼り付けることもできます。
 
-   ```
+   ```json
    {
    "topics": [
      {
@@ -102,7 +92,7 @@ ht-degree: 100%
    }
    ```
 
-### Consumer パラメーター {#consumer-parameter}
+### Consumer パラメーターの設定 {#consumer-parameter}
 
 パイプラインは、「サプライヤーとコンシューマー」モデルのように機能します。メッセージは、個々のコンシューマーによってのみ消費されます。コンシューマーはそれぞれ、メッセージのコピーを取得します。
 
@@ -114,18 +104,18 @@ ht-degree: 100%
 
 パイプラインオプションを設定するには、次のレコメンデーションに従う必要があります。
 
-* 「**[!UICONTROL トリガー]**」の下にあるトリガーを追加または編集します。残りのトリガーは編集しません。
-* JSON が有効であることを確認します。JSON 検証ツールを使用できます。例として、この [web サイト](https://jsonlint.com/)を参照してください。
-* 「Name」は、トリガー ID に対応します。ワイルドカード「*」は、すべてのトリガーを取得します。
-* 「Consumer」は、呼び出し元のインスタンスまたはアプリケーションの名前に対応します。
-* パイプライン化されたプロセスでは、「aliases」トピックもサポートしています。
-* 変更を加えた後は、必ずパイプライン化されたプロセスで再起動する必要があります。
+* の下でトリガーを追加または編集 **[!UICONTROL トリガー]**.
+* JSON が有効であることを確認します。
+* この **名前** パラメーターはトリガー ID に対応しています。 ワイルドカード「*」は、すべてのトリガーを取得します。
+* この **消費者** パラメーターは、呼び出し元のインスタンスまたはアプリケーションの名前に対応します。
+* この `pipelined`プロセスでは、「エイリアス」トピックもサポートしています。
+* 必ずを再起動してください `pipelined`変更後のプロセス。
 
 ## 手順 3：オプション設定 {#step-optional}
 
-一部の内部パラメーターは、必要な読み込み量に応じて変更できますが、本番環境に組み込む前に必ずテストしてください。
+一部の内部パラメーターは負荷要件に応じて変更できますが、実稼動環境に適用する前に必ずテストしてください。
 
-オプションのパラメーターのリストは次のとおりです。
+オプションのパラメーターのリストを以下に示します。
 
 | オプション | 説明 |
 |:-:|:-:|
@@ -146,11 +136,11 @@ ht-degree: 100%
 
 ### パイプライン化されたプロセスの自動開始 {#pipelined-process-autostart}
 
-パイプライン化されたプロセスは自動的に開始される必要があります。
+この `pipelined` プロセスは自動的に開始する必要があります。
 
-この場合、設定ファイルの &lt;pipelined> 要素を「autostart=&quot;true&quot;」に設定します。
+そのためには、 `<`パイプライン化`>` 構成ファイル内の要素を autostart=&quot;true&quot;に設定します。
 
-```
+```sql
  <pipelined autoStart="true" ... "/>
 ```
 
@@ -158,7 +148,7 @@ ht-degree: 100%
 
 変更を有効にするには、再起動が必要です。
 
-```
+```sql
 nlserver restart pipelined@instance
 ```
 
@@ -166,6 +156,6 @@ nlserver restart pipelined@instance
 
 プロビジョニングのパイプライン設定を検証するには、次の手順に従います。
 
-* [!DNL pipelined] プロセスが実行中であることを確認します。
-* パイプライン接続ログの pipelined.log を確認します。
+* `pipelined` プロセスが実行中であることを確認します。
+* を確認します `pipelined.log` （パイプライン接続ログ用）。
 * 接続を確認し、ping を受け取ったかどうかを確認します。ホスト型の顧客は、クライアントコンソールから「監視」を使用できます。

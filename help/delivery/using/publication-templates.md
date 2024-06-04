@@ -6,8 +6,8 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
   デフォルトでは、ファイル名の構成フォーマットに「@name」フィールドと「@date」フィールドの変数を使用します。
 
-  ```
+  ```xml
   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
   ```
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 対応するスタイルシート（「cus:book.xsl」）は次のようになります。
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -140,7 +140,7 @@ ht-degree: 100%
 
 章の詳細を生成するために、2 つ目のスタイルシート（「cus:chapter.xsl」）が必要です。
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -167,7 +167,7 @@ ht-degree: 100%
 
 生成するファイルに含めるページの先頭に、パーティションタグを入力します。
 
-```
+```xml
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 

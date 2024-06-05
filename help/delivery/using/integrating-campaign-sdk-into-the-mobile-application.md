@@ -5,10 +5,10 @@ description: Campaign SDK をモバイルアプリに統合する方法を説明
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 98%
+source-wordcount: '987'
+ht-degree: 95%
 
 ---
 
@@ -542,7 +542,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 +++**変数**
 
-変数を使用すると、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 変数]**」タブで定義する必要があります（[Adobe Campaign でモバイルアプリケーションを設定する](configuring-the-mobile-application.md)を参照）。次に、モバイルアプリケーションが通知で追加された変数を収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
+変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールので定義する必要があります **[!UICONTROL 変数]** 専用モバイルアプリケーションのタブ（を参照） [Adobe Campaignでのモバイルアプリケーションの設定](configuring-the-mobile-application.md)）に設定します。 次に、モバイルアプリケーションが通知で追加された変数を収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
 * **Android**：
 

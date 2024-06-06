@@ -7,9 +7,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](sms-channel.md)を参照してください。
 1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](about-mobile-app-channel.md)の章を参照してください。
 
-   その他のチャネルについては、を参照してください。 [この節](#other-channels).
+   その他のチャネルについて詳しくは、[この節](#other-channels)を参照してください。
 
    >[!NOTE]
    >

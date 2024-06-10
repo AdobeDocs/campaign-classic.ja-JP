@@ -3,20 +3,19 @@ product: campaign
 title: Linux 用 Web サーバーへの統合
 description: Campaign を web サーバーに統合する方法を学ぶ（Linux）
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 4%
 
 ---
 
-# Linux 用 Web サーバーへの統合{#integration-into-a-web-server-for-linux}
-
+# Linux 用 Web サーバーへの統合 {#integration-into-a-web-server-for-linux}
 
 
 Adobe Campaignには、HTTP （および SOAP）経由でアプリケーションサーバーへのエントリポイントとして機能する Apache Tomcat が含まれています。
@@ -29,7 +28,7 @@ Adobe Campaignには、HTTP （および SOAP）経由でアプリケーショ�
 * その後、クライアントコンソールは、次のような URL を使用して接続します。
 
   ```
-  http://<computer>:8080
+  https://<computer>:8080
   ```
 
 ただし、セキュリティおよび管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネットに公開され、ネットワークの外部にあるコンソールにアクセスする場合は、HTTP トラフィックの主なエントリポイントとして専用の web サーバーを使用することをお勧めします。

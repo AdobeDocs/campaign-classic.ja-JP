@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 98%
+source-wordcount: '856'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,10 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >
 >このマトリックスは、新しいサポート対象項目の追加および非推奨項目の削除により定期的に更新されます。
 
-## オペレーティングシステム{#OperatingSystems}
+## オペレーティングシステム {#OperatingSystems}
+
+オンプレミス/ハイブリッド環境のお客様は、次のオペレーティングシステムのいずれかにAdobe Campaignをインストールする必要があります。 Campaign Classic v7 のインストール手順について詳しくは、を参照してください。 [このページ](../../installation/using/application-server.md).
+
 
 <table> 
 <tbody> 
@@ -71,7 +74,9 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >
 >RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。
 
-## web サーバー{#WebServers}
+## web サーバー {#WebServers}
+
+オンプレミス/ハイブリッド環境のお客様は、オペレーティングシステムに応じて、Campaign を以下に示す web サーバーのいずれかに統合する必要があります。 Web サーバーの設定手順について詳しくは、を参照してください。 [このページ](../../installation/using/integration-into-a-web-server-for-windows.md) （Windows の場合）と [このページ](../../installation/using/integration-into-a-web-server-for-linux.md) （Linux の場合）。
 
 <table>
 <tbody>
@@ -90,7 +95,9 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tbody>
 </table>
 
-## ツール{#Tools}
+## ツール {#Tools}
+
+オンプレミス/ハイブリッド環境のお客様は、次のツールをインストールして設定する必要があります。 [詳細情報](../../installation/using/application-server.md)。
 
 <table>
 <tbody>
@@ -119,6 +126,9 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </table>
 
 ## 関係データベース管理システム（RDBMS）{#RDBMSservers}
+
+オンプレミス/ハイブリッド環境のお客様は、次のデータベースのいずれかをインストールして設定する必要があります。 [詳細情報](../../installation/using/database.md)。
+
 
 <table>
 <tbody>
@@ -158,7 +168,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >
 >* RDBMS ドライバは RDBMS サーバーのバージョンと一致する必要があります。
 >
->* PostgreSQL はホスト環境の RDBMS です。
+>* PostgreSQL は、ホスト型/管理型Cloud Service環境の RDBMS です。
 
 ## CRM コネクタ{#CRMconnectors}
 
@@ -394,7 +404,7 @@ Microsoft Edge WebView2 ランタイムの最新バージョンは、Campaign �
 
 
 
-## その他の関連リソース{#Morelikethis}
+## その他の関連リソース {#Morelikethis}
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
 * [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)

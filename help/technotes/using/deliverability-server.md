@@ -5,9 +5,9 @@ description: 新しい Campaign 配信サーバーに更新する方法を説明
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1429'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!NOTE]
 >
->これらの変更に関する詳細な質問については、[FAQ](#faq) を参照するか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank}にお問い合わせください。
+>これらの変更に関する詳細な質問については、[FAQ](#faq) を参照するか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
 >
 
 ## 変更点{#acc-deliverability-changes}
@@ -48,11 +48,11 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はAdobeにより非推奨（廃止予定）となりました。Adobeソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。 </br>
+> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). 既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。 さらに、2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなりました。 この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。 </br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025年1月27日（PT）まで引き続き機能します。また、2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成することはできなくなります。この日付以降、新しいサービスアカウント（JWT）資格情報を作成したり、プロジェクトに追加したりすることはできません。</br>
 >
-> * Campaign と Analytics の統合やExperience Cloudトリガーの統合などのアウトバウンド統合を実装している場合、2025 年 1 月 27 日（PT）まで引き続き機能します。 ただし、この期限までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。 2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなったので、この日以降、JWT を使用して新しいアウトバウンド統合を作成することはできません
+> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成できなくなるので、この日以降は JWT に依存する新しいアウトバウンド統合を作成することはできません
 
 ### 前提条件{#prerequisites}
 
@@ -63,7 +63,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。
 
    * オプションの値が入力されている場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank} に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
@@ -71,7 +71,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
 1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
-**Adobe Campaign** が表示されない場合、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank} に連絡し、Adobe Campaign を追加します。
+**Adobe Campaign** が表示されない場合、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡し、Adobe Campaign を追加します。
 1. **Adobe Campaign** をクリックし、組織を選択します。
    **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。組織について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank}を参照してください。
 

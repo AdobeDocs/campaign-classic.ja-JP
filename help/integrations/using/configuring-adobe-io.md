@@ -10,9 +10,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 82%
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はAdobeにより非推奨（廃止予定）となりました。Adobeソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。 </br>
+> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). 既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。 さらに、2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなりました。 この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。 </br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025年1月27日（PT）まで引き続き機能します。また、2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成することはできなくなります。この日付以降、新しいサービスアカウント（JWT）資格情報を作成したり、プロジェクトに追加したりすることはできません。</br>
 >
-> * Campaign と Analytics の統合やExperience Cloudトリガーの統合などのアウトバウンド統合を実装している場合、2025 年 1 月 27 日（PT）まで引き続き機能します。 ただし、この期限までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。 2024 年 6 月 3 日（PT）以降、開発者コンソールで新しいサービスアカウント（JWT）資格情報を作成できなくなったので、この日以降、JWT を使用して新しいアウトバウンド統合を作成することはできません
+> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成できなくなるので、この日以降は JWT に依存する新しいアウトバウンド統合を作成することはできません
 
 1. [!DNL Adobe I/O] にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
 

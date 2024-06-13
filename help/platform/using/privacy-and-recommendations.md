@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1910'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 ### プライバシー規制 {#privacy-regulations}
 
-プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。Adobe Campaignの機能は、に一覧表示されている規則の遵守に役立ちます。 [このページ](../../platform/using/privacy-management.md#privacy-management-regulations).
+プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。Adobe Campaign の機能は、[このページ](../../platform/using/privacy-management.md#privacy-management-regulations)に記載されている規制の遵守に役立ちます。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 

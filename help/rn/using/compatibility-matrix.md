@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -107,7 +107,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>詳しくは、での JDK と Campaign を参照してください <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">このページ</a>.</p>
+<p>JDK と Campaign について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">このページ</a>を参照してください。</p>
 </td>
 </tr>
 <tr>

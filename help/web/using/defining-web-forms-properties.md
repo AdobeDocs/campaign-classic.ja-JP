@@ -5,10 +5,10 @@ description: web フォームプロパティの定義
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 88%
 
 ---
 
@@ -83,6 +83,32 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 プロパティウィンドウの下の部分にレンダリングのサンプルが表示されます。**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、選択したテーマの設定が表示されます。
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
+
+## フォームのロゴ {#logo-in-the-form}
+
+フォームで使用するロゴは、独自のロゴで変更できます。
+
+が含まれる **[!UICONTROL レンダリング]** 内のタブ **[!UICONTROL プロパティ]** の web アプリで、テンプレートのガラスアイコンをクリックします。
+
+![](assets/logo_glass.png)
+
+新しいウィンドウで、 **[!UICONTROL ページレイアウト]** リンク :
+
+![](assets/logo_pagelayout.png)
+
+ここでロゴ画像のパスを変更することができます。
+
+![](assets/logo_path.png)
+
+使用可能な画像はの下にあります **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 画像]**. ここにロゴを追加できます。
+
+これらの画像は、インスタンスのバックエンドディレクトリに配置されます *datakit\nms\fra\img\activities* または *datakit\nms\eng\img\activities* （インスタンスの言語に応じて、eng または fra）。
+
+このディレクトリ（および画像）で新しい画像を使用できるようにするには、Adobeサポートに連絡して、バックエンドディレクトリに変更を加えてください。
+
+オンプレミスインスタンスの場合は、自分でデータキットに画像を追加できます。
+
+アップロードされた画像は、Campaign クライアントから表示できる必要はありません。 正しいパスは、新しいロゴとしてを使用するのに十分です。
 
 ## フォームのテキスト {#texts-in-the-form}
 

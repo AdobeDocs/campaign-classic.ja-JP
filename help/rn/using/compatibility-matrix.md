@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## オペレーティングシステム {#OperatingSystems}
 
-オンプレミス/ハイブリッド環境のお客様は、次のオペレーティングシステムのいずれかにAdobe Campaignをインストールする必要があります。 Campaign Classic v7 のインストール手順について詳しくは、を参照してください。 [このページ](../../installation/using/application-server.md).
+オンプレミス／ハイブリッド環境のお客様は、次のオペレーティングシステムのいずれかに Adobe Campaign をインストールする必要があります。Campaign Classic v7 のインストール手順について詳しくは、[このページ](../../installation/using/application-server.md)を参照してください。
 
 
 <table> 
@@ -76,7 +76,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## web サーバー {#WebServers}
 
-オンプレミス/ハイブリッド環境のお客様は、オペレーティングシステムに応じて、Campaign を以下に示す web サーバーのいずれかに統合する必要があります。 Web サーバーの設定手順について詳しくは、を参照してください。 [このページ](../../installation/using/integration-into-a-web-server-for-windows.md) （Windows の場合）と [このページ](../../installation/using/integration-into-a-web-server-for-linux.md) （Linux の場合）。
+オンプレミス／ハイブリッド環境のお客様は、オペレーティングシステムに応じて、以下に示す web サーバーのいずれかと Campaign を統合する必要があります。Web サーバーの設定手順について詳しくは、[このページ](../../installation/using/integration-into-a-web-server-for-windows.md)（Windows の場合）と[このページ](../../installation/using/integration-into-a-web-server-for-linux.md)（Linux の場合）を参照してください。
 
 <table>
 <tbody>
@@ -97,7 +97,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## ツール {#Tools}
 
-オンプレミス/ハイブリッド環境のお客様は、次のツールをインストールして設定する必要があります。 [詳細情報](../../installation/using/application-server.md)。
+オンプレミス／ハイブリッド環境のお客様は、以下に示すツールをインストールして設定する必要があります。[詳細情報](../../installation/using/application-server.md)。
 
 <table>
 <tbody>
@@ -127,7 +127,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## 関係データベース管理システム（RDBMS）{#RDBMSservers}
 
-オンプレミス/ハイブリッド環境のお客様は、次のデータベースのいずれかをインストールして設定する必要があります。 [詳細情報](../../installation/using/creating-and-configuring-the-database.md)。
+オンプレミス／ハイブリッド環境のお客様は、次のデータベースのいずれかをインストールして設定する必要があります。[詳細情報](../../installation/using/creating-and-configuring-the-database.md)。
 
 
 <table>
@@ -168,7 +168,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >
 >* RDBMS ドライバは RDBMS サーバーのバージョンと一致する必要があります。
 >
->* PostgreSQL は、ホスト型/管理型Cloud Service環境の RDBMS です。
+>* PostgreSQL はホスト／Managed Cloud Services 環境の RDBMS です。
 
 ## CRM コネクタ{#CRMconnectors}
 

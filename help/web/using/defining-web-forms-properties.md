@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -84,15 +84,15 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
-## フォームのロゴ {#logo-in-the-form}
+## フォーム内のロゴ {#logo-in-the-form}
 
 フォームで使用するロゴは、独自のロゴで変更できます。
 
-が含まれる **[!UICONTROL レンダリング]** 内のタブ **[!UICONTROL プロパティ]** の web アプリで、テンプレートのガラスアイコンをクリックします。
+Web アプリの&#x200B;**[!UICONTROL プロパティ]**&#x200B;内の「**[!UICONTROL レンダリング]**」タブで、テンプレートのガラスアイコンをクリックします。
 
 ![](assets/logo_glass.png)
 
-新しいウィンドウで、 **[!UICONTROL ページレイアウト]** リンク :
+新しいウィンドウで、「**[!UICONTROL ページレイアウト]**」リンクをクリックします。
 
 ![](assets/logo_pagelayout.png)
 
@@ -100,15 +100,15 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 ![](assets/logo_path.png)
 
-使用可能な画像はの下にあります **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 画像]**. ここにロゴを追加できます。
+使用可能な画像は、**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL 画像]**&#x200B;にあります。ここにロゴを追加できます。
 
-これらの画像は、インスタンスのバックエンドディレクトリに配置されます *datakit\nms\fra\img\activities* または *datakit\nms\eng\img\activities* （インスタンスの言語に応じて、eng または fra）。
+これらの画像は、インスタンスのバックエンドディレクトリ、*datakit\nms\fra\img\activities* または *datakit\nms\eng\img\activities*（インスタンスの言語に応じて、eng または fra）に配置されます。
 
-このディレクトリ（および画像）で新しい画像を使用できるようにするには、Adobeサポートに連絡して、バックエンドディレクトリに変更を加えてください。
+このディレクトリ（および画像）で新しい画像を使用できるようにするには、アドビサポートに連絡して、バックエンドディレクトリを変更してください。
 
-オンプレミスインスタンスの場合は、自分でデータキットに画像を追加できます。
+オンプレミスインスタンスの場合は、ユーザー自身がデータキットに画像を追加できます。
 
-アップロードされた画像は、Campaign クライアントから表示できる必要はありません。 正しいパスは、新しいロゴとしてを使用するのに十分です。
+アップロードされた画像は、Campaign クライアントから表示できなくてもかまいません。正しいパスを指定すれば、新しいロゴとして使用できます。
 
 ## フォームのテキスト {#texts-in-the-form}
 

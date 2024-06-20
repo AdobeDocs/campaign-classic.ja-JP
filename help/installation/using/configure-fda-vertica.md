@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: vertica analyticsへのアクセスの設定
-description: FDA でVertica analyticsへのアクセスを設定する方法を説明します
+title: ' [!DNL Vertica Analytics] へのアクセスの設定'
+description: へのアクセスを設定する方法を学ぶ [!DNL Vertica Analytics] FDA で
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: fcc42e84817277ad46218165b5acef370747c1ca
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 22%
+source-wordcount: '371'
+ht-degree: 23%
 
 ---
 
-# vertica analyticsへのアクセスの設定 {#configure-fda-vertica}
+# アクセスの設定 [!DNL Vertica Analytics] {#configure-fda-vertica}
 
 
 
@@ -25,7 +25,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
 ![](assets/snowflake_3.png)
 
-## CentOS のVertica analytics {#vertica-centos}
+## [!DNL Vertica Analytics] （CentOS 上） {#vertica-centos}
 
 を設定 [!DNL Vertica Analytics] centOS では、次の手順に従います。
 
@@ -79,7 +79,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
 1. Adobe Campaignで、以下を設定できます [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#vertica-external).
 
-## Windows でのVertica analytics {#vertica-windows}
+## [!DNL Vertica Analytics] （Windows の場合） {#vertica-windows}
 
 1. [Windows 用の ODBC ドライバー](https://www.vertica.com/download/vertica/client-drivers/)をダウンロードします。Windows 用ドライバーをインストールするには、.NET Framework 3.5 を有効にする必要があります。有効にしないと、インストール ウィザードによって自動的に有効になり、ダウンロードされます。
 
@@ -87,7 +87,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
 1. Adobe Campaignで、以下を設定できます [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#vertical-external).
 
-## Debian のVertica analytics {#vertica-debian}
+## [!DNL Vertica Analytics] （Debian の場合） {#vertica-debian}
 
 1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
 
@@ -141,7 +141,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
 1. Adobe Campaignで、以下を設定できます [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#vertica-external).
 
-## Vertica analytics外部アカウント {#vertica-external}
+## [!DNL Vertica Analytics] 外部アカウント {#vertica-external}
 
 を作成する必要があります [!DNL Vertica Analytics] campaign インスタンスをユーザーに接続するための外部アカウント [!DNL Vertica Analytics] 外部データベース。
 

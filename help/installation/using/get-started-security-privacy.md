@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 48%
+source-wordcount: '445'
+ht-degree: 52%
 
 ---
 
@@ -69,9 +69,6 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 [詳細情報](../../installation/using/network-database.md)
 
->[!CAUTION]
->
->2021 年 7 月 14 日（PT）以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスにアクセスできなくなります。 この日付までに、すべてのユーザーシステムとクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## サーバー設定
 

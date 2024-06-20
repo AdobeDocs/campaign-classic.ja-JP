@@ -3,11 +3,11 @@ product: campaign
 title: Campaign Classicのビルトインパッケージのインストール
 description: Campaign ビルトインパッケージのインストール方法を学ぶ
 feature: Installation, Application Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1299'
 ht-degree: 11%
 
 ---
@@ -192,7 +192,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe Analyticsが、Web 分析コネクタ パッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）との互換性がありません。 <a href="../../platform/using/gs-aa.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe Analyticsが、Web 分析コネクタ パッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）との互換性がありません。 <a href="../../integrations/using/gs-aa.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -202,7 +202,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud共有オーディエンスの統合<br /> </td> 
-   <td> を使用すると、オーディエンス/セグメントをAdobe Experience Cloud ソリューションおよびコアサービスと交換し、共有できます。 IMS が必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
+   <td> Adobe Experience Cloudのソリューションやアプリとオーディエンス/セグメントを交換および共有できます。 IMS が必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

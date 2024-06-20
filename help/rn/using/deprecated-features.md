@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
+source-wordcount: '1637'
+ht-degree: 95%
 
 ---
 
@@ -43,16 +43,21 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>機能</strong></td>
    <td><strong>詳細</strong></td>
   </tr>
+  <tr>
+ <td>Campaign （Neolane）レガシー SDK</td>
+ <td><p>モバイルアプリケーション用 Campaign （Neolane） SDK は非推奨（廃止予定）になりました。 代わりに、データ収集 UI でAdobe Experience Platform拡張機能を設定して、Adobe Campaign Mobile SDK を使用します。 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。でモバイルアプリチャネルを設定する方法を説明します <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 ドキュメント</a>.</p>
+<p>削除予定日：2024年末 </p>
+</td>
+</tr>
 <tr>
  <td>Facebook でのソーシャルマーケティング</td>
- <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X（旧 Twitter）統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。
- <p></p>
+ <td><p>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X（旧 Twitter）統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS コネクタ</td>
- <td>ACS コネクタ（プライムオファー）は非推奨（廃止予定）となりました。 Campaign のエクスポート／インポート機能を使用して、両方の製品のデータを抽出および挿入できます。<p></p>
+ <td><p>ACS コネクタ（プライムオファー）は非推奨（廃止予定）となりました。 Campaign のエクスポート／インポート機能を使用して、両方の製品のデータを抽出および挿入できます。</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
@@ -72,7 +77,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
       <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Adobe Analytics Data Connector は、2022年8月17日（PT）に削除されました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
-   <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/gs-aa.md">詳細情報</a></p>
+   <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../integrations/using/gs-aa.md">詳細情報</a></p>
   </td>
  </tr>
     <tr>
@@ -83,8 +88,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> パイプラインにアクセスするために、当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/O に移動しました。この認証モードは、Campaign 20.3 リリースで非推奨となりました。<p>
-  <p>トリガー統合を使用している場合は、<a href="../../integrations/using/configuring-adobe-io.md">このページ</a>で実装の適応方法を確認してください。</p> 
+  <td><p> パイプラインにアクセスするために、当初は OAuth 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/Oに移行しました。この認証モードは、Campaign 20.3 リリースで非推奨（廃止予定）となりました。<p>
+  <p>トリガー統合を使用している場合は、<a href="../../integrations/using/about-triggers.md#implement">このページ</a>で実装の適応方法を確認してください。</p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>

@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 3%
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 必要なデータベースアクセスレイヤーは、サーバーにインストールされ、Adobe Campaign アカウントからアクセスできる必要があります。
 
-## Java Development Kit - JDK {#java-development-kit---jdk}
+## Java Development Kit - JDK {#jdk}
 
 Java Development Kit、または JDK は、ソフトウェア開発キットです。 これは、Java アプリケーションと Java アプレットの開発を可能にする基盤コンポーネントです。
 
-動的 Web ページジェネレーターでは、JSP 1.2 テクノロジーを使用します。 このために、（Apache からの） Tomcat エンジンがアプリケーションに含まれています。 これには、Adobe Campaign アプリケーションがインストールされているすべてのサーバーにインストールされている Java Development Kit （JDK）が必要です。
+動的 Web ページジェネレーターでは JSP テクノロジーを使用します。 このために、（Apache からの） Tomcat エンジンがアプリケーションに含まれています。 これには、Adobe Campaign アプリケーションがインストールされているすべてのサーバーにインストールされている Java Development Kit （JDK）が必要です。
 
 最初に、Adobe Campaign Application Server （**nlserver web** プロセス）を使用する必要があります。これには、動的な web ページ（レポート、web フォームなど）の生成に使用されるサーブレットコンテナ Apache Tomcat が組み込まれています。
 
@@ -31,6 +31,13 @@ Java Development Kit、または JDK は、ソフトウェア開発キットで�
 
 サポートされているバージョンについて詳しくは、Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
+
+>[!AVAILABILITY]
+>
+>* v7.4.1 以降、Campaign には Java JDK 11 以降が必要です。 Campaign サーバーが Windows 環境にインストールされている場合、JRE はデフォルトでは提供されなくなっているので、生成する必要があります。
+>
+>* v7.4.1 以降、Tomcat 10.1 がデフォルトバージョンです。
+>
 
 ### 推奨事項
 
@@ -41,8 +48,6 @@ Java 開発キットをインストールしてアップグレードする際は
 * JDK をインストールする場合、web ブラウザーとの統合は必要ありません。
 
 * 配信エージェントのみを実行するマシン（**nlserver mta** プロセス）またはワークフローサーバー（**nlserver wfserver** プロセス）を選択する場合は、JDK のインストールは必要ありません。
-
-* プラットフォームの操作パフォーマンスを維持し、インストールされているバージョンとの互換性を確保するには、Windows と Linux で JDK の自動アップデート機能を無効にする必要があります。
 
 * Java バージョンをアップグレードする場合、まず以前のバージョンをアンインストールする必要があります。 同じマシンにインストールされた両方のバージョンの Java は、競合を引き起こす可能性があります。
 
@@ -65,19 +70,16 @@ Linux 環境に JDSL をインストールする場合、Adobeではパッケー
 Debian の場合は、次のコマンドを使用します。
 
 ```sql
-aptitude install openjdk-8-jdk
+apt install openjdk-11-jdk-headless
 ```
 
 RHEL の場合は、次のコマンドを使用します。
 
 ```sql
-yum install java-1.8.0-openjdk
+dnf install java-11-openjdk-headless
 ```
 
 
-## OpenSSL {#openssl}
-
-Linux では、OpenSSL をインストールする必要があります。 Adobe Campaignは、OpenSSL バージョン 1.0.2 以降をサポートしています。
 
 ## レポートを書き出し {#exporting-reports}
 

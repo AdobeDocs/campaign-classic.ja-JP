@@ -2,32 +2,31 @@
 product: campaign
 title: オーディエンスを Adobe Experience Cloud と共有する
 description: オーディエンスを Adobe Experience Cloud と共有する
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 82%
 
 ---
 
-# オーディエンスを Adobe Experience Cloud と共有する{#sharing-audiences-with-adobe-experience-cloud}
-
+# オーディエンスを Adobe Experience Cloud と共有する {#sharing-audiences-with-adobe-experience-cloud}
 
 
 >[!CAUTION]
 >
 >オーディエンスを Adobe Experience Cloud ソリューションと共有するには、Adobe Identity Management システムを実装する必要があります。[IMS の詳細を説明します](../../integrations/using/about-adobe-id.md)。
 
-Adobe Campaign を使用すると、オーディエンスやセグメントを Adobe Experience Cloud のソリューションやコアサービスと共有できます。次の 2 つのオプションを使用できます。
+Adobe Campaignを使用すると、オーディエンスとセグメントをAdobe Experience Cloud サービスと共有できます。 次の 2 つのオプションを使用できます。
 
-1. Adobe Experience Platform セグメントデータを Adobe Campaign に送信します。この統合を実装するには、リアルタイム顧客データプラットフォーム（RTCDP）を Campaign に接続する必要があります。[詳しくは、この節を参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)。
+1. Adobe Experience Platform セグメントデータを Adobe Campaign に送信します。この統合を実装するには、リアルタイム顧客データプラットフォーム（RTCDP）を Campaign に接続する必要があります。[詳しくは、この節を参照してください。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja){target="_blank"}.
 
-1. **Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合します。統合すると、次のことが可能になります。
+1. の統合 **Adobe Campaign** （を使用）  **Experience Cloudオーディエンス** または **Adobe Audience Manager**. 統合すると、次のことが可能になります。
 
    * 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
@@ -40,6 +39,5 @@ Adobe Campaign を使用すると、オーディエンスやセグメントを A
 
   >[!NOTE]
   >
-  > 宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
+  > 宣言済み ID データソースを、Experience Cloudのアセット統合でも使用できるようになりました。
   >
-  >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。

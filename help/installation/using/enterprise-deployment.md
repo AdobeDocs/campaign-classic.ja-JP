@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 7%
@@ -89,7 +89,7 @@ ht-degree: 7%
 
 1. Adobe Campaign サーバーをインストールしたら、コマンドを使用してアプリケーションサーバー（web）を起動します **nlserver web -tomcat** （この Web モジュールを使用すると、ポート 8080 をリッスンするスタンドアロン Web サーバーモードで Tomcat を起動し、Tomcat が正しく起動することを確認できます）。
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -136,7 +136,7 @@ ht-degree: 7%
 
 1. を編集する **config-demo.xml** ファイル（前のコマンドで作成され、の横にあります） **config-default.xml** ファイル）、以下を確認します。 **mta** （配信）、 **wfserver** （ワークフロー）、 **inMail** （メールのリバウンド）と **統計** （統計）プロセスが有効化されている場合は、 **アプリ** 統計サーバー：
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -156,7 +156,7 @@ ht-degree: 7%
 
 1. を編集する **serverConf.xml** をファイルに入力して配信ドメインを指定し、MTA モジュールが MX タイプの DNS クエリに応答するために使用する DNS サーバーの IP （またはホスト）アドレスを指定します。
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -175,7 +175,7 @@ ht-degree: 7%
    >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
 
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
@@ -214,7 +214,7 @@ ht-degree: 7%
 
 1. を編集する **config-demo.xml** ファイル（前のコマンドで作成され、の横にあります） **config-default.xml** ファイル）、以下を確認します。 **mta** （配信）、 **wfserver** （ワークフロー）、 **inMail** （メールのリバウンド）と **統計** （統計）プロセスが有効化されている場合は、 **アプリ** 統計サーバー：
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -234,7 +234,7 @@ ht-degree: 7%
 
 1. を編集する **serverConf.xml** ファイルに MTA モジュールの DNS 設定を入力します。
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -266,7 +266,7 @@ ht-degree: 7%
 1. をコピーします **config-demo.xml** および **serverConf.xml** インストール時に作成されたファイル。 が含まれる **config-demo.xml** ファイル、をアクティブ化する **trackinglogd** を処理して非アクティブ化する **mta**, **inmail**, **wfserver** および **統計** プロセス。
 1. を編集する **serverConf.xml** リダイレクトのパラメーターにを入力し、冗長トラッキングサーバーに入力します。
 
-   ```
+   ```xml
    <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
    <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
    ```
@@ -275,13 +275,13 @@ ht-degree: 7%
 
    ブラウザーには、（ロードバランサーによってリダイレクトされた URL に応じて）次のメッセージが表示されます。
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
    または
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 

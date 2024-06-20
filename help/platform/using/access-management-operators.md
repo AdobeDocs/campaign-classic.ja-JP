@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 100%
 >この移行後は、次の節は適用されないことに注意してください。Adobe IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 
-## Campaign オペレーターの基本を学ぶ  {#about-operators}
+## Campaign オペレーターの基本を学ぶ {#about-operators}
+
+>[!NOTE]
+>
+>これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、次を参照してください。 [このドキュメント](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank).
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 

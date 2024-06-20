@@ -6,65 +6,76 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: b23632d0718d62d61e94e636937b93aa39bbe43f
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 64%
 
 ---
 
-# 互換性マトリックス{#compatibility-matrix}
+# 互換性マトリックス {#compatibility-matrix}
 
+その中で [最新ビルド](../../rn/using/latest-release.md)の場合、Adobe Campaign Classic v7 はこのページに記載されているすべてのシステムおよびツールと互換性があります。 これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、この互換性マトリックスに記載されているサポート対象バージョンのシステムをご使用ください。 非推奨の項目の詳細については、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
-
-このドキュメントでは、**Adobe Campaign Classic v7** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
-
-[!DNL Gold Standard] ユーザーの場合は、[[!DNL Gold Standard]  互換性マトリックス](../../rn/using/gold-standard.md#compatibility-matrix-gs)を参照してください。
-
-## 重要な注意事項{#important-notes}
-
-特に断りのない限り、すべてのマイナーリリースがサポートされます。
-
-Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
-
-非推奨の項目の詳細については、[このページ](../../rn/using/deprecated-features.md)を参照してください。
+特に明記されていない限り、マイナーリリースはすべてサポートしています。
 
 >[!CAUTION]
 >
->このマトリックスは、新しいサポート対象項目の追加および非推奨項目の削除により定期的に更新されます。
+>このマトリックスは、サポートされる新しいシステムおよびツールが追加および廃止予定で削除され、定期的に更新されています。
 
 ## オペレーティングシステム {#OperatingSystems}
 
 オンプレミス／ハイブリッド環境のお客様は、次のオペレーティングシステムのいずれかに Adobe Campaign をインストールする必要があります。Campaign Classic v7 のインストール手順について詳しくは、[このページ](../../installation/using/application-server.md)を参照してください。
 
-
 <table> 
 <tbody> 
+<td><strong>オペレーティングシステム</strong></td>
+<td><strong>オペレーティングシステムのバージョン</strong></td>
+<td><strong>Campaign の最小バージョン</strong></td>
 <tr> 
 <td>CentOS</td>
 <td>
 <p>7.x</p>
 </td>
+<td>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>11（Campaign v7.3 以降）</p>
+<p>11</p>
 <p>10</p>
+</td>
+<td>
+<p>v7.3</p>
+<p></p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
+<p>9.x</p>
 <p>8.x</p>
 <p>7.x</p>
+</td>
+<td>
+<p>v7.4</p>
+<p></p>
+<p></p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019（Campaign v7.2 以降）</p>
+<p>2022</p>
+<p>2019</p>
 <p>2016</p>
+</td>
+<td>
+<p>v7.4</p>
+<p>v7.2</p>
+<p></p>
 </td>
 </tr>
 </tbody>
@@ -72,7 +83,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 >[!IMPORTANT]
 >
->RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。
+>RHEL を使用する場合は、無効にする必要があります [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) または、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認します。
 
 ## web サーバー {#WebServers}
 
@@ -83,13 +94,13 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0（Windows Server 2016 および 2019）</p>
+<p>10.0 （Windows Server の場合）</p>
 </td>
 </tr>
 <tr>
 <td>Apache</td>
 <td>
-<p>RHEL7 - CentOS 7、Debian 8/9、Windows 向けの 2.4</p>
+<p>2.4</p>
 </td>
 </tr>
 </tbody>
@@ -101,64 +112,101 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 <table>
 <tbody>
+<td><strong>ツール</strong></td>
+<td><strong>バージョン</strong></td>
+<td><strong>最小 Campaign バージョン</strong></td>
 <tr>
-<td>Java Development Kit（JDK）</td>
+<td><p>Java Development Kit（JDK）</p>
+<p>詳しくは、<a href="../../installation/using/application-server.md#jdk" target="_blank">このページ</a>を参照してください。</p>
+</td>
 <td>
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>JDK と Campaign について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">このページ</a>を参照してください。</p>
+<p></p>
 </td>
+<td>
+<p>v7.4.1 以降で必要</p>
+<p>v7.4.1 まで</p>
+<p>v7.4.1 まで</p>
 </tr>
 <tr>
-<td>Libre Office</td>
+<td><p>Libre Office</p></td>
 <td>
 <p>7（お使いのシステムに埋め込まれている場合は以前のバージョン）</p>
 </td>
+<td>
+<p></p>
+</td>
 </tr>
 <tr>
-<td>SpamAssassin</td>
+<td><p>SpamAssassin</p></td>
 <td>
 <p>3.4.x</p>
 </td>
-</tr>
+<td>
+<p></p>
+</td>
 </tbody>
 </table>
 
-## 関係データベース管理システム（RDBMS）{#RDBMSservers}
+## 関係データベース管理システム（RDBMS） {#RDBMSservers}
 
 オンプレミス／ハイブリッド環境のお客様は、次のデータベースのいずれかをインストールして設定する必要があります。[詳細情報](../../installation/using/creating-and-configuring-the-database.md)。
 
 
 <table>
 <tbody>
+<td><strong>データベースシステム</strong></td>
+<td><strong>データベースのバージョン</strong></td>
+<td><strong>Campaign の最小バージョン</strong></td>
 <tr>
 <td>Oracle</td>
 <td>
+<p>23c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g R2</p>
 </td>
+<td>
+<p>v7.4</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x（Campaign v7.3.2 以降）</p>
+<p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p><strong>注意：</strong>上記のバージョンで Amazon RDS for PostgreSQL を使用することもできます。</p>
+</td>
+<td>
+<p>v7.3.2</p>
+<p></p>
+<p></p>
+<p></p>
 </td>
 </tr>
 <tr>
-<td>SQL Server</td>
+<td>Microsoft SQL Server</td>
 <td>
+<p>2022</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
-<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=ja#database-access-layers" target="_blank">詳細情報</a>。</p>
+</td>
+<td>
+<p>v7.4</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 </td>
 </tr>
 </tbody>
@@ -166,11 +214,16 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 >[!NOTE]
 >
->* RDBMS ドライバは RDBMS サーバーのバージョンと一致する必要があります。
+>* RDBMS ドライバは、RDBMS サーバーのバージョンと一致する必要があります。
+>
+>* Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。 [詳細情報](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)。
+>
+>* 上記のバージョンでAmazon RDS for PostgreSQL を使用することもできます。
 >
 >* PostgreSQL はホスト／Managed Cloud Services 環境の RDBMS です。
 
-## CRM コネクタ{#CRMconnectors}
+
+## CRM コネクタ {#CRMconnectors}
 
 Adobe Campaign と互換性のある顧客関係管理（CRM）システムを次に示します。 Campaign CRM コネクタの[詳細](../../platform/using/crm-connectors.md)を説明します。
 
@@ -201,17 +254,17 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tbody>
 <td><strong>データベースシステム</strong></td>
 <td><strong>データベースのバージョン</strong></td>
-<td><strong>Campaign のバージョン</strong></td>
+<td><strong>Campaign の最小バージョン</strong></td>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>v7.0 19.1.4 以上</td>
+<td>v7.0 19.1.4</td>
 </td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>7.2 以上</td>
+<td>v7.2</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -221,17 +274,17 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>12.x</p>
 <p>11.x</p>
 </td>
-<td>v7.0 19.1.4 以上</td>
+<td>v7.0 19.1.4</td>
 </tr>
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>7.2 以上</td>
+<td>v7.2</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
 <td> </td>
-<td>v7.0 19.1.4 以上</td>
+<td>v7.0 19.1.4 </td>
 </tr>
 </tbody>
 </table>
@@ -242,11 +295,11 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tbody>
 <td><strong>データベースシステム</strong></td>
 <td><strong>データベースのバージョン</strong></td>
-<td><strong>Campaign のバージョン</strong></td>
+<td><strong>Campaign の最小バージョン</strong></td>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
-<td>v7.0 19.1.4 以上</td>
+<td></td>
 </tr>
 <tr><td>MySQL</td>
 <td>
@@ -254,27 +307,29 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>5.7</p>
 </td>
 <td>
-<p>v7.3 以上</p>
-<p>v7.0 以上</p>
+<p>v7.3</p>
+<p></p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<p>7.2</p>
+<p>v7.2</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 <tr>
 <td>Oracle</td>
 <td>
+<p>23c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
 </td>
 <td>
-<p>v7.0 以上</p>
+<p>v7.4</p>
+<p></p>
 <p></p>
 <p></p>
 <p></p>
@@ -285,17 +340,18 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>
 <p>バージョン 1 SPS 12</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
+<p>2022 （Campaign v7.4 以降）</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -303,7 +359,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -311,7 +367,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>17.x</p>
 <p>16.x（最新バージョン）</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 <tr><td>HiveSQL による Hadoop</td>
 <td>
@@ -319,14 +375,13 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 以上</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-
-## クライアントコンソール {#ClientConsoleoperatingsystems}
+## クライアントコンソール {#ClientOS}
 
 [Campaign クライアントコンソール](../../installation/using/installing-the-client-console.md)を使用するには、次のオペレーティングシステムとブラウザーが&#x200B;**必要**&#x200B;です。
 
@@ -336,7 +391,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tbody>
 <td><strong>システム</strong></td>
 <td><strong>OS バージョン</strong></td>
-<td><strong>Campaign のバージョン</strong></td>
+<td><strong>最小 Campaign バージョン</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
@@ -344,56 +399,62 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>10</p>
 </td>
 <td>
-<p>v7.3 以上</p>
+<p>v7.3</p>
 <p></p>
 <p></p>
 </tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
+<p>2022</p>
 <p>2019</p>
 <p>2016</p>
 </td>
 <td>
-<p>v7.2.1 以上</p>
-<p></p>
+<p>v7.4.1</p>
+<p>v7.2.1</p>
 <p></p>
 </tbody>
 </table>
 
-### Microsoft WebView2 ランタイム
+### Microsoft WebView2 ランタイム {#webview}
 
 Microsoft Edge WebView2 ランタイムの最新バージョンは、Campaign クライアントコンソールに必須です。
 
 [Microsoft Developer サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)から Microsoft Edge WebView2 をダウンロードします。
 
 
-## Mobile SDK{#MobileSDK}
+## Mobile SDK {#MobileSDK}
 
-以下に示すオペレーティングシステムでは、関連する [Mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) を使用して、Campaign を使用して[プッシュ通知を送信](../../delivery/using/about-mobile-app-channel.md)できます。
+Campaign を使用して、次のことができます [プッシュ通知の送信](../../delivery/using/about-mobile-app-channel.md)を開きます。データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を介して行います。
 
-データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。
+Campaign SDK は [非推奨](deprecated-features.md) campaign v7.4 以降。既存の実装から AEP Mobile SDK へスムーズに移行できるように、以下に示すオペレーティングシステムでは、引き続きこれを使用できます<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+
 
 <table>
 <tbody>
 <tr>
 <td>Google Android</td>
 <td>
-<p>12（Campaign v7.3 以降）、9.0、8.x、7.x</p>
-<p>（モバイル SDK ビルド 1.1.1 を使用）</p>
+<p>7 - 14</p>
+<p>モバイル SDK ビルド 1.1.1 のサポート。</p>
+<p>Android 13 および 14 は、Campaign v7.4 以降でサポートされています。</p>
+<p>Android 12 は Campaign v7.3 以降でサポートされています。</p>
 </td>
 </tr>
 <tr>
 <td>Apple iOS</td>
 <td>
-<p>iOS 9～15</p>
-<p>（32 ビットおよび 64 ビットバージョンと互換性のあるモバイル SDK ビルド 1.0.26 を使用）iOS 15 は Campaign v7.3 以降でサポートされています</p>
+<p>iOS 9～17</p>
+<p>モバイル SDK ビルド 1.0.26 のサポート。</p>
+<p>Apple iOS 15 は、Campaign v7.3 以降でサポートされます。 </p>
+<p>Apple iOS 16 および 17 は、Campaign v7.4 以降でサポートされます。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## ブラウザー{#Browsers}
+## ブラウザー {#Browsers}
 
 最新バージョンの次のブラウザーは Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-) と互換性があります。
 
@@ -404,10 +465,10 @@ Microsoft Edge WebView2 ランタイムの最新バージョンは、Campaign �
 
 
 
-## その他の関連リソース {#Morelikethis}
-
-* [Campaign Classic リリースノート](../../rn/using/latest-release.md)
-* [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)
-* [ハードウェアサイズについてのレコメンデーション](../../technotes/using/hardware-sizing.md)
-* [非推奨（廃止予定）の機能およびシステム](../../rn/using/deprecated-features.md)
-* [ビルドアップグレード手順](../../production/using/build-upgrade.md)
+>[!MORELIKETHIS]
+>
+>* [Campaign Classic リリースノート](../../rn/using/latest-release.md)
+>* [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)
+>* [ハードウェアサイズについての推奨事項](../../technotes/using/hardware-sizing.md)
+>* [非推奨（廃止予定）になった機能およびシステム](../../rn/using/deprecated-features.md)
+>* [ビルドアップグレード手順](../../production/using/build-upgrade.md)

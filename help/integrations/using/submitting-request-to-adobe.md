@@ -2,34 +2,32 @@
 product: campaign
 title: アドビへのリクエストの送信
 description: アドビへのリクエストの送信
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 78%
 
 ---
 
 # アドビへのリクエストの送信{#submitting-request-to-adobe}
 
-
-
 >[!NOTE]
 >
 >v7 ユーザーが手順を続けるには、お使いのシステムで Adobe Identity Management System（IMS）が有効になっていることを確認してください。[詳細情報](../../integrations/using/about-adobe-id.md)。
 
-IMS が組織に対して有効になると、People コアサービス／Audience Manager と Campaign の統合のプロビジョニングを依頼できます。それには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信してください。
+AdobeIdentity Management サービス（IMS）が有効になると、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} campaign との統合。 それには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信してください。
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>リクエストのタイプ</strong><br /> </td> 
-   <td> AAM／People コアサービスと Campaign の統合の設定 </td> 
+   <td> オーディエンスの設定 – Campaign 統合 </td> 
   </tr> 
   <tr> 
    <td> <strong>組織名</strong><br /> </td> 
@@ -43,10 +41,10 @@ IMS が組織に対して有効になると、People コアサービス／Audien
    <td> <strong>環境</strong><br /> </td> 
    <td> 例：本番環境 </td> 
   </tr> 
-  <tr> 
-   <td> <strong>AAM または People コアサービス</strong><br /> </td> 
-   <td> 例： Adobe Audience ManagerAudience Manager ライセンスを所有しているかどうかについて必ず言及してください。</td> 
-  </tr> 
+  <!--tr> 
+   <td> <strong>AAM or People Service</strong><br /> </td> 
+   <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
+  </tr--> 
   <tr> 
    <td> <strong>宣言済み ID または訪問者 ID</strong><br /> </td> 
    <td> 例：宣言済み ID </td> 

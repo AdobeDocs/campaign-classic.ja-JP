@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '933'
 ht-degree: 98%
 
 ---
@@ -64,16 +64,16 @@ ht-degree: 98%
 | **クライアントデータへのアクセス** | SELECT on (FUTURE) TABLE または VIEW 権限 | SELECT 権限 | SELECT または SELECT ANY TABLE 権限 | SELECT パーミッション | SELECT 権限 | SELECT 権限 |
 | **メタデータへのアクセス** | SELECT on INFORMATION_SCHEMA SCHEMA 権限 | SELECT 権限 | DESCRIBE 文の使用に権限は不要 | VIEW DEFINITION 権限 | 「\d table」コマンドの使用に権限は不要 | SELECT 権限 |
 
-|   | DB2 UDB | TeraData | InfiniDB | Sybase IQ / Sybase ASE | Netezza | AsterData |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **リモートデータベースへの接続** | CONNECT 権限 | CONNECT 権限 | ALL PRIVILEGES を持つリモートホストに関連付けられたユーザーの作成 | CONNECT 文の使用にパーミッションは不要 | 権限は不要 | CONNECT 権限 |
-| **テーブルの作成** | CREATETAB 権限 | CREATE TABLE または TABLE キーワード | CREATE 権限 | RESOURCE 権限と CREATE パーミッション | TABLE 権限 | CREATE 権限 |
-| **インデックスの作成** | INDEX 特権 | CREATE INDEX または INDEX キーワード | INDEX 特権 | RESOURCE 権限と CREATE パーミッション | INDEX 特権 | CREATE 権限 |
-| **関数の作成** | IMPLICIT_SCHEMA 権限または CREATEIN 特権 | CREATE FUNCTION または FUNCTION キーワード | CREATE ROUTINE 権限 | RESOURCE 権限または Java 関数への DBA 権限 | FUNCTION 権限 | CREATE FUNCTION 権限 |
-| **プロシージャの作成** | IMPLICIT_SCHEMA 権限または CREATEIN 特権 | CREATE PROCEDURE または PROCEDURE キーワード | CREATE ROUTINE 権限 | RESOURCE 権限 | PROCEDURE 権限 | CREATE FUNCTION 権限 |
-| **オブジェクト（テーブル、インデックス、関数、プロシージャ）の削除** | DROPIN 特権、CONTROL 特権またはオブジェクトの所有者 | DROP &lt; object >またはオブジェクト関連のキーワード | DROP 権限 | オブジェクトの所有者または DBA 権限 | DROP 権限 | オブジェクトの所有者 |
-| **実行の監視** | EXPLAIN 権限 | EXPLAIN 文の使用に権限は不要 | SELECT 権限 | sp_showplan を実行できるのはシステム管理者のみ | EXPLAIN 文の使用に権限は不要 | EXPLAIN 文の使用に権限は不要 |
-| **データの書き込み** | INSERT および UPDATE 特権または DATAACCESS 権限 | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 | INSERT および UPDATE パーミッション | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 |
-| **テーブルへのデータの読み込み** | LOAD 権限 | COPY TO 文と COPY FROM 文をそれぞれ使用するには SELECT 権限と INSERT 権限 | FILE 権限 | テーブルの所有者または ALTER パーミッション。-gl オプションによっては、LOAD TABLE は、ユーザーが DBA 権限を持っている場合にのみ実行されます | SELECT および INSERT 権限 | SELECT および INSERT 権限 |
-| **クライアントデータへのアクセス** | INSERT/UPDATE 特権または DATAACCESS 権限 | SELECT 権限 | SELECT 権限 | SELECT パーミッション | SELECT 権限 | SELECT 権限 |
-| **メタデータへのアクセス** | DESCRIBE 文の使用に認証は不要 | SHOW 権限 | SELECT 権限 | DESCRIBE 文の使用にパーミッションは不要 | 「\d table」コマンドの使用に権限は不要 | SHOW コマンドの使用に権限は不要 |
+|   | TeraData | InfiniDB | Sybase IQ / Sybase ASE | Netezza | AsterData |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| **リモートデータベースへの接続** | CONNECT 権限 | ALL PRIVILEGES を持つリモートホストに関連付けられたユーザーの作成 | CONNECT 文の使用にパーミッションは不要 | 権限は不要 | CONNECT 権限 |
+| **テーブルの作成** | CREATE TABLE または TABLE キーワード | CREATE 権限 | RESOURCE 権限と CREATE パーミッション | TABLE 権限 | CREATE 権限 |
+| **インデックスの作成** | CREATE INDEX または INDEX キーワード | INDEX 特権 | RESOURCE 権限と CREATE パーミッション | INDEX 特権 | CREATE 権限 |
+| **関数の作成** | CREATE FUNCTION または FUNCTION キーワード | CREATE ROUTINE 権限 | RESOURCE 権限または Java 関数への DBA 権限 | FUNCTION 権限 | CREATE FUNCTION 権限 |
+| **プロシージャの作成** | CREATE PROCEDURE または PROCEDURE キーワード | CREATE ROUTINE 権限 | RESOURCE 権限 | PROCEDURE 権限 | CREATE FUNCTION 権限 |
+| **オブジェクト（テーブル、インデックス、関数、プロシージャ）の削除** | DROP &lt; object >またはオブジェクト関連のキーワード | DROP 権限 | オブジェクトの所有者または DBA 権限 | DROP 権限 | オブジェクトの所有者 |
+| **実行の監視** | EXPLAIN 文の使用に権限は不要 | SELECT 権限 | sp_showplan を実行できるのはシステム管理者のみ | EXPLAIN 文の使用に権限は不要 | EXPLAIN 文の使用に権限は不要 |
+| **データの書き込み** | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 | INSERT および UPDATE パーミッション | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 |
+| **テーブルへのデータの読み込み** | COPY TO 文と COPY FROM 文をそれぞれ使用するには SELECT 権限と INSERT 権限 | FILE 権限 | テーブルの所有者または ALTER パーミッション。-gl オプションによっては、LOAD TABLE は、ユーザーが DBA 権限を持っている場合にのみ実行されます | SELECT および INSERT 権限 | SELECT および INSERT 権限 |
+| **クライアントデータへのアクセス** | SELECT 権限 | SELECT パーミッション | SELECT 権限 | SELECT 権限 |
+| **メタデータへのアクセス** | SHOW 権限 | SELECT 権限 | DESCRIBE 文の使用にパーミッションは不要 | 「\d table」コマンドの使用に権限は不要 | SHOW コマンドの使用に権限は不要 |

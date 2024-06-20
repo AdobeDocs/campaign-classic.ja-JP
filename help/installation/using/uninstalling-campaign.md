@@ -5,9 +5,11 @@ description: Campaign のアンインストール方法を学ぶ
 feature: Installation
 audience: installation
 content-type: reference
+hide: true
+hidefromtoc: true
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 49f6ffe4f78cbd790fb27ac6250f4bd7e3bc9e68
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 2%

@@ -3,21 +3,19 @@ product: campaign
 title: Adobe Campaignで Tomcat バージョンを見つけます。
 description: Adobe Campaignのインスタンスで使用される、埋め込み Tomcat Web サーブレットの現在のバージョンを確認する方法について説明します
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: '505'
+ht-degree: 2%
 
 ---
 
 # Tomcat バージョンを探します{#locate-tomcat-version}
-
-
 
 Adobe Campaignはを使用します **apache Tomcat と呼ばれる埋め込み web サーブレット** アプリケーションと外部インターフェイス（クライアントコンソール、トラッキングされる URL リンク、SOAP 呼び出しなど）の間の HTTP/HTTPS 要求を処理します。 多くの場合、外部に接続するAdobe Campaign インスタンス用に、このフォルダーの前に外部 web サーバー（通常は IIS または Apache）があります。
 
@@ -31,6 +29,12 @@ Adobe Campaignで使用される Tomcat は、Tomcat の一般リリースのす
 
 Tomcat の埋め込みバージョンの新しいバージョンまたはアップグレードされたバージョンは、Adobe Campaign ビルドの外部にある個別のパッチとしてではなく、Adobe Campaign自体の新しいビルドでのみリリースされます。
 
+>[!AVAILABILITY]
+>
+>
+> Campaign v7.4.1 以降、Tomcat 10.1 がデフォルトのバージョンです。
+>
+
 ## 埋め込み Tomcat のバージョンを特定する方法
 
 Adobe Campaignのインスタンスに埋め込まれた Tomcat のバージョンを見つけるには、次の手順に従います。
@@ -39,7 +43,7 @@ Adobe Campaignのインスタンスに埋め込まれた Tomcat のバージョ�
 >
 >確認する必要があるAdobe Campaign サーバー上のファイルにアクセスできる必要があります。 以下に説明する手順は、にのみ適用されます **オンプレミスホスティングモデル**.
 
-1. に移動します。 *\tomcat-7\lib* Adobe Campaign インストールフォルダー内のサブフォルダー（例： *C:\Program ファイル\ [Installation_folder]* Windows の場合、または */usr/local/neolane/nl6* （Linux の場合）。
+1. に移動します。 *\tomcat-11\lib* Adobe Campaign インストールフォルダー内のサブフォルダー（例： *C:\Program ファイル\ [Installation_folder]* Windows の場合、または */usr/local/neolane/nl6* （Linux の場合）。
 
 1. ファイルをコピーします *catalina.jar* 外部の一時フォルダー（デスクトップなど）に移動し、拡張子を.jar から.zip に変更します。
 
@@ -49,11 +53,11 @@ Adobe Campaignのインスタンスに埋め込まれた Tomcat のバージョ�
 
 1. 終了したら、サーバーマシン上にある場合は、作成した一時ファイルを削除します。
 
-例えば、 *ServerInfo.properties* Adobe Campaign用のファイルには、Tomcat v8.5.X を示す次の情報が含まれます。
+例えば、 *ServerInfo.properties* Adobe Campaign用ファイルには、Tomcat v11.X を示す次の情報が含まれています。
 
-*`server.info=Apache Tomcat/8.5.X`*
+*`server.info=Apache Tomcat/11.X`*
 
-*`server.number=8.5.X.Y`*
+*`server.number=A.B.X.Y`*
 
 *`server.built=MM DD YYY HH:MM:SS`*
 

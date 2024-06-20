@@ -1,23 +1,21 @@
 ---
 product: campaign
 title: Linux での Campaign インストールの前提条件
-description: Linux での Campaign インストールの前提条件
+description: Linux での キャンペーン インストールの前提条件
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 2%
+source-wordcount: '829'
+ht-degree: 3%
 
 ---
 
 # Linux に Campaign をインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
-
-
 
 ## ソフトウェアの前提条件 {#software-prerequisites}
 
@@ -27,52 +25,31 @@ Adobe Campaignのインストールに必要な技術的およびソフトウェ
 
 次のコンポーネントをインストールし、正しく設定する必要があります。
 
-* Apache(互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください[。
-* Java JDK および OpenJDK については、 [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk) を参照してください。
-* ライブラリ( [ライブラリ](#libraries)を参照)
-* データベースアクセスレイヤーについては、「データベースアクセスレイヤー](#database-access-layers)」を参照してください[。
+* Apache、を参照 [互換性マトリックス](../../rn/using/compatibility-matrix.md),
+* Java JDK および OpenJDK。を参照してください。 [Java Development Kit - JDK](../../installation/using/application-server.md#jdk),
+* ライブラリについては、を参照してください [ライブラリ](#libraries),
+* データベースアクセスレイヤーについては、を参照してください。 [データベースアクセスレイヤー](#database-access-layers),
 * LibreOffice、を参照 [LibreOffice for Debian のインストール](#installing-libreoffice-for-debian) および [LibreOffice for CentOS のインストール](#installing-libreoffice-for-centos),
 * フォントについては、を参照してください。 [MTA 統計のフォント](#fonts-for-mta-statistics) および [日本語インスタンス用のフォント](#fonts-for-japanese-instances).
 
->[!NOTE]
->
->CentOS 7 および Debian 8 プラットフォームに 8709 以前のビルドをインストールするには、apache access_compat モジュールを有効にする必要があります。
 
 ### ライブラリ {#libraries}
 
-Linux にAdobe Campaignをインストールするには、必要なライブラリがあることを確認してください。
+LinuxにAdobe Campaignをインストールするには、必要なライブラリがあることを確認してください。
 
 * Library C は TLS (スレッドローカルストレージ) モードをサポートできなければなりません。 このモードは、Xen サポートが無効になっている一部のカーネルを除いて、ほとんどの場合アクティブです。
 
   これを確認するには、たとえばuname **-a | grep xen** コマンドを使用できます。
 
-  コマンドが何も返さない（空の行）場合は、設定が正しいことを意味します。
+  コマンドが空行を返さない場合は、設定が正しいことを意味します。
 
 * OpenSSL バージョンが必要です **1.0.2** 以上。
 
-  RHEL 7/8 ディストリビューションの場合、バージョン 1.0 の OpenSSL が必要です。
+  RHEL ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
 
 * Adobe Campaignを使用するには、 **libicu** ライブラリがインストールされました。
 
-  次のバージョンの **libicu** サポートされているビット（32 ビットまたは 64 ビット）:
-
-   * RHEL 7/8、CentOS 7:libicu50
-   * Debian 8: libicu52
-   * Debian 9: libicu57
-
-  Adobe Campaignを使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS 上で、次のコマンドを実行します。
-
-  ```
-  yum install c-ares
-  ```
-
-  Debian の場合
-
-  ```
-  aptitude install libc-ares2
-  ```
-
-### Selinux {#selinux}
+### SELinux {#selinux}
 
 使用する場合は、SELinux モジュールを適切に設定する必要があります。
 
@@ -94,7 +71,7 @@ RHEL および CentOS では、SELinux が有効な場合、データベース�
 
 * ファイルを編集します **/etc/selinux/config**
 
-* SELINUX の行を次のように変更します。
+* SELINUX 行を次のように変更します。
 
 ```
 SELINUX=disabled
@@ -102,51 +79,36 @@ SELINUX=disabled
 
 ### MTA 統計のフォント {#fonts-for-mta-statistics}
 
-MTA 統計(nms/fra/jsp/stat.jsp)に関するレポートを正しく表示するには、フォントを追加します。
-
-Debian で次のコマンドを追加します:
-
-```
-aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
-```
-
-Redhat で、次のコマンドを使用します。
-
-* CentOS/RHEL 7 の場合：
-
-  ```
-  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-  ```
-
-* RHEL 8 の場合：
-
-  ```
-  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-  ```
-
-### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
-
-レポートをPDFフォーマットにエクスポートするには、日本語インスタンスで特定の文字のフォントが必要です。
+MTA 統計（nms/fra/jsp/stat.jsp）に関するレポートを正しく表示するには、フォントを追加します。
 
 Debian で、次のコマンドを追加します。
 
 ```
-aptitude install fonts-ipafont
+apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-Red Hat で、次のコマンドを追加します。
+RHEL に次のコマンドを使用します。
 
-* RHEL 7 の場合:
+```
+dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+```
 
-  ```
-  yum install ipa-gothic-fonts ipa-mincho-fonts
-  ```
+### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
 
-* RHEL 8 の場合:
+レポートを PDF 形式にエクスポートするには、日本語インスタンスで特定の文字フォント必要があります。
 
-  ```
-  dnf install vlgothic-fonts
-  ```
+Debian で次のコマンドを追加します:
+
+```
+apt install fonts-ipafont
+```
+
+RHEL の場合は、次のコマンドを追加します。
+
+```
+dnf install epel-release # if required
+dnf install vlgothic-fonts
+```
 
 ### LibreOffice for Debian のインストール {#installing-libreoffice-for-debian}
 
@@ -158,7 +120,7 @@ Debian の場合、次の設定が必要です。
    apt-get install libreoffice-writer libreoffice-calc libreoffice-java-common
    ```
 
-1. 次のフォントをインストールします（オプションですが、日本語インスタンスには強く推奨されます）。
+1. 次のフォントをインストールします(オプションですが、日本語インスタンスの場合は強く推奨します)。
 
    ```
    apt-get install fonts-ipafont
@@ -174,7 +136,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ## データベース アクセス層 {#database-access-layers}
 
-使用しているデータベースエンジンのアクセスレイヤーがサーバーにインストールされ、Adobe Campaign アカウントを介してアクセスできる必要があります。 バージョンとインストールモードは、使用するデータベースエンジンによって異なる場合があります。
+使用するデータベース エンジンのアクセス レイヤーは、サーバーにインストールされ、Adobe Campaign アカウントからアクセスできる必要があります。 バージョンとインストールモードは、使用するデータベースエンジンによって異なる場合があります。
 
 サポートされているパイロットバージョンは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に詳述されています。
 
@@ -182,41 +144,37 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaignは、バージョン 7.2 以降の PostgreSQL クライアントライブラリのすべてのバージョンをサポートします。（**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** および **libpq.so.3.1**）に設定します。
+Adobe Campaignでは、バージョン 9.6 以降のすべてのバージョンの PostgreSQL クライアントライブラリをサポートしています。 **libpq.so.5**.
 
 Adobe Campaignで PostgreSQL を使用するには、対応するをインストールする必要があります **pgcrypto** ライブラリ。
 
 ### Oracle {#oracle}
 
-64 ビット Debian のライブラリバージョンを取得します。例： **libclntsh.so**, **libclntsh.so.11.1** および **libclntsh.so.10.1**.
+64 ビット Debian の ライブラリ バージョン、すなわち **libclntsh.so**、 **libclntsh.so.19.1**、 **libclntsh.so.18.1**、 **libclntsh.so.12.1**、 **libclntsh.so.11.1** または **libclntsh.so.10.1** を取得します。
 
-Linux RPM パッケージはOracleテクノロジ・ネットワークから入手できます。
+Linux RPM パッケージは、Oracle Technology Network から入手できます。
 
 >[!NOTE]
 >
->既にOracleクライアントをインストールしていて、グローバル環境（例：/etc/profile）が正しく設定されていない場合は、不足している情報を以下に追加できます。 **nl6/customer.sh** スクリプト詳しくは、次を参照してください。 [環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>Oracle クライアントを既にインストールしているが、グローバル環境 (インスタンス の場合: /etc/プロファイル) が正しく構成されていない場合は、不足している情報を **nl6/顧客.sh** スクリプトに追加できます。 詳しくは、環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables)を参照してください[。
 
 **トラブルシューティングとベストプラクティス**
 
-問題は、Oracleクライアントまたはサーバーの更新、バージョンの変更後、またはインスタンスの最初のインストール時に発生する可能性があります。
+問題は、Oracleクライアントまたはサーバーのアップデート、バージョンの変更の後、またはインスタンスの初回インストール時に発生する場合があります。
 
-クライアント・コンソールで、ログ、ワークフロー最後の処理、次の処理などに予期しないタイム・ラグ (1 時間以上) があることに気付いた場合は、Oracle クライアントのライブラリと Oracle サーバーの間に問題がある可能性があります。 このような問題を回避するために
+クライアントコンソールでログ、ワークフローの最終処理、次回の処理などに予期しないタイムラグ（1 時間以上）があることに気付いた場合は、OracleクライアントのライブラリとOracleサーバーの間で問題が発生している可能性があります。 このような問題を回避するには
 
 1. 必ずを使用してください。 **フル クライアント**.
 
-   oracleインスタントクライアントバージョンを使用する際の様々な問題が特定されています。 さらに、インスタントクライアントでタイムゾーンファイルを変更することは不可能です。
+   Oracle インスタントクライアントバージョンの使用時に様々な問題が特定されています。 さらに、インスタントクライアントでタイムゾーンファイルを変更することはできません。
 
-1. 次のことを確認します **クライアントバージョン** および **データベース・サーバのバージョン** はです **同じ**.
+1. **クライアントのバージョン**&#x200B;とデータベースサーバーの&#x200B;**バージョン**&#x200B;が同じ&#x200B;**であることを確認します**。
 
    oracleの互換表に反してバージョンを混在させ、クライアントとサーバのバージョンを整合させることを推奨すると、問題が発生することが知られています。
 
-   またORACLE_HOME値をチェックして、予想されるクライアントバージョンを指していることを確認します(複数のバージョンがマシンにインストールされている場合)。
+   また、ORACLE_HOME の値をチェックして、期待されるクライアントバージョンを指していることを確認します（マシンに複数のバージョンがインストールされている場合）。
 
-1. クライアントとサーバーが同じ **タイムゾーンファイル**&#x200B;を使用していることを確認します。
-
-### DB2 {#db2}
-
-サポートされているライブラリバージョンは **libdb2.so** です。
+1. クライアントとサーバーで同じものを使用していることを確認します **タイムゾーンファイル**.
 
 ## 実装手順 {#implementation-steps}
 

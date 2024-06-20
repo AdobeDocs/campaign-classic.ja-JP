@@ -7,10 +7,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
-workflow-type: ht
-source-wordcount: '886'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 92%
 
 ---
 
@@ -31,19 +31,17 @@ ht-degree: 100%
 * 組織への開発者のアクセス
 * Adobe Analytics での有効なトリガー設定
 
-## 認証および設定ファイル {#authentication-configuration}
-
-パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能を持ちますが、より安全です。認証は、Adobe Developer プロジェクトを介した Marketing Cloud に対してサポートされます。
+パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。これには、Adobe Developer プロジェクト経由でにサポートされている認証が使用されます。
 
 ## 手順 1：Adobe Developer プロジェクトを作成／更新 {#creating-adobe-io-project}
 
-ホスト型の顧客の場合は、アドビ担当者またはカスタマーケアと連携して、トリガー統合用の Adobe Developer アカウントトークンを組織で使用できるようにします。
+トリガー統合用のAdobe Developer アカウントトークンを使用して、組織を有効にする必要があります。
 
-オンプレミス型／ハイブリッド型の顧客の場合は、[Adobe Experience Cloud Triggers 用の Adobe I/O の設定](../../integrations/using/configuring-adobe-io.md)ページを参照してください。Adobe Developer 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
+でAdobeテクニカルアカウントを作成する方法を説明します。 [このページ](../../integrations/using/oauth-technical-account.md). Adobe Developer 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
 
 ## 手順 2：パイプラインオプションを設定 {#configuring-nmspipeline}
 
-認証が設定されると、パイプラインはイベントを取得します。Adobe Campaign で設定されたトリガーのみが処理されます。トリガーは、Adobe Analytics から生成され、Adobe Campaign で設定されたトリガーのみを処理するパイプラインに送られる必要があります。
+認証が設定されると、パイプラインはイベントを取得します。 Adobe Campaignで設定されたトリガーのみを処理します。 トリガーは、Adobe Analytics から生成され、Adobe Campaign で設定されたトリガーのみを処理するパイプラインに送られる必要があります。
 
 また、名前に関係なく、すべてのトリガーを取得するように、ワイルドカードを使用して設定することもできます。
 
@@ -111,7 +109,7 @@ ht-degree: 100%
 * `pipelined` プロセスでは、「aliases」トピックもサポートしています。
 * 変更を加えた後は、必ず `pipelined` プロセスをやり直す必要があります。
 
-## 手順 3：オプション設定 {#step-optional}
+## （オプション）手順 3：追加の設定 {#step-optional}
 
 一部の内部パラメーターは、必要な読み込み量に応じて変更できますが、実稼動環境に適用する前に必ずテストする必要があります。
 

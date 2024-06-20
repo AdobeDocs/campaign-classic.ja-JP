@@ -3,11 +3,13 @@ product: campaign
 title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 feature: Technote, Deliverability
+hide: true
+hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
-workflow-type: ht
-source-wordcount: '1429'
-ht-degree: 100%
+source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +52,9 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 >
 > サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025年1月27日（PT）まで引き続き機能します。また、2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成することはできなくなります。この日付以降、新しいサービスアカウント（JWT）資格情報を作成したり、プロジェクトに追加したりすることはできません。</br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。 </br>
 >
-> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。2024年6月3日（PT）以降、Developer Console で新しいサービスアカウント（JWT）資格情報を作成できなくなるので、この日以降は JWT に依存する新しいアウトバウンド統合を作成することはできません
+> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この期限までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 
 ### 前提条件{#prerequisites}
 
@@ -85,69 +87,13 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
-1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
-   **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。組織について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank} を参照してください。
-1. 「**[!UICONTROL 新規プロジェクトを作成]**」を選択します。
-   ![](assets/New-Project.png)
+Adobe Analytics コネクタの設定に進むには、Adobe Developer コンソールにアクセスして、OAuth サーバー間プロジェクトを作成します。
 
-   >[!CAUTION]
-   >
-   >別の統合（Analytics コネクタ、Adobe トリガーなど）で既に Adobe I/O JWT 認証機能を使用している場合は、**Campaign API** をそのプロジェクトに追加します。
-
-1. 「**[!UICONTROL API を追加]**」を選択します。
-   ![](assets/Add-API.png)
-1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
-   ![](assets/AC-API.png)
-1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
-   ![](assets/Generate-a-key-pair.png)
-
-   キーは、デフォルトの有効期限 365 日で自動的にダウンロードされます。 有効期限が切れたら、新しいキーペアを作成し、設定ファイルで統合を更新する必要があります。 オプション 2 を使用すると、有効期限の長い&#x200B;**[!UICONTROL 公開鍵]**を手動で作成してアップロードすることを選択できます。
-   ![](assets/New-key-pair.png)
-
-   >[!CAUTION]
-   >
-   >再度ダウンロードすることができないので、ダウンロードプロンプトが表示されたら、`config.zip` ファイルを保存してください。
-
-1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html){_blank}を参照してください。
-   ![](assets/Product-Profile-API.png)
-
-   次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
-
-1. プロジェクトから **[!UICONTROL Adobe Campaign]** を選択し、「**[!UICONTROL サービスアカウント (JWT)]**」の下に次の情報をコピーします。
-
-   ![](assets/Config-API.png)
-
-   * **[!UICONTROL クライアント ID]**
-   * **[!UICONTROL クライアント秘密鍵]**
-   * **[!UICONTROL テクニカルアカウント ID]**
-   * **[!UICONTROL 組織 ID]**
-
->[!CAUTION]
->
->Adobe Developer 証明書は 12 か月後に期限が切れます。毎年新しいキーペアを生成する必要があります。
+こちらを参照してください [このページ](../../integrations/using/oauth-technical-account.md#oauth-service) 詳細なドキュメント
 
 ### 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 
-秘密鍵は、Base64 UTF-8 形式でエンコードする必要があります。
-
-それには、次の手順に従います。
-
-1. 上記の手順で生成された秘密鍵を使用します。
-1. `base64 ./private.key > private.key.base64` というコマンドを使用して秘密鍵をエンコードします。これにより、base64 コンテンツが新しいファイル `private.key.base64` に保存されます。
-
-   >[!NOTE]
-   >
-   >秘密鍵をコピーして貼り付けるときに、余分な行が自動的に追加される場合があります。 これは、秘密鍵をエンコードする前に忘れずに削除してください。
-
-1. ファイル `private.key.base64` からコンテンツをコピーします。
-1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインし、`neolane` ユーザーとして次のコマンドを実行して Adobe Campaign にプロジェクト資格情報を追加します。これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
-
-   ```sql
-   nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
-   ```
-
-1. 変更を反映させるには、サーバーを停止し、再起動する必要があります。 また、 `config -reload` コマンドを使用します。
+で説明されている手順に従います [このページ](../../integrations/using/oauth-technical-account.md#add-credentials) OAuth プロジェクト資格情報をAdobe Campaignに追加します。
 
 ### 手順 3：設定を検証
 

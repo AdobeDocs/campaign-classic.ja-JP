@@ -3,15 +3,15 @@ product: campaign
 title: ネットワーク設定
 description: システム通信のガイドラインを学ぶ
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 2%
+source-wordcount: '704'
+ht-degree: 3%
 
 ---
 
@@ -167,10 +167,6 @@ Adobe Campaign リッチクライアント （**nlclient**）、次のポート�
   <tr> 
    <td> <strong>Microsoft SQL Server</strong><br /> </td> 
    <td> 1433/tcp<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>DB2</strong><br /> </td> 
-   <td> 50000/tcp<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,8 +6,8 @@ feature: Technote, Upgrade
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -123,11 +123,11 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 **更新方法**
 
-インスタンスを新しいバージョンにアップグレードしたら、すべてのお客様は、[手順に従って新しい認証モードに移行](../../integrations/using/configuring-adobe-io.md)する必要があります。 この場合は、新しい Adobe I/O トークンを生成して、実装で使用する必要があります。 
+インスタンスを新しいバージョンにアップグレードしたら、すべてのお客様は、[手順に従って新しい認証モードに移行](../../integrations/using/about-triggers.md#implement)する必要があります。 この場合は、新しい Adobe I/O トークンを生成して、実装で使用する必要があります。 
 
 さらに、ハイブリッド環境の場合、パイプラインがミッドソーシングインスタンスで設定されていることを確認する必要があります。[詳細情報](../../integrations/using/configuring-pipeline.md)。
 
-[Adobe I/O への移行方法について説明します](../../integrations/using/configuring-adobe-io.md)。
+[Adobe I/O への移行方法について説明します](../../integrations/using/about-triggers.md#implement)。
 
 ## APNs の更新 {#acc-apns-updates}
 

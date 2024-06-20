@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: c736ac1cda9490548f1e4b56142d61fccaca5c4a
-workflow-type: ht
-source-wordcount: '3787'
-ht-degree: 100%
+source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
+workflow-type: tm+mt
+source-wordcount: '3769'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2024
+
+### 2024年6月 {#june-2024}
+
+ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細情報](../../workflow/using/starting-a-workflow.md)
 
 ### 2024年4月 {#apr-2024}
 
@@ -78,7 +82,7 @@ Teradata 17 のサポートを互換性マトリクスに反映させました�
 
 ## 2022年7月 {#july-2022}
 
-新しい配信サーバーへの移行について詳しくは、新しいテクニカルノートを参照してください。 [詳細情報](../../technotes/using/deliverability-server.md)
+<!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
 
 **7.3.1 リリースに伴うドキュメントの更新**
 
@@ -151,11 +155,9 @@ CentOs 8 が EOL（提供終了）に達し、Adobe Campaign Classic で非推�
 
 CRM コネクタデプロイメントの移行プロセスログの詳細を更新しました。[詳細情報](../../migration/using/testing-the-migration.md#verification-process)
 
-Adobe Campaign と Adobe Analytics の統合を実装するための IMS 権限に関する要件を追加しました。[詳細情報](../../platform/using/adobe-analytics-provisioning.md)
+Adobe Campaign と Adobe Analytics の統合を実装するための IMS 権限に関する要件を追加しました。[詳細情報](../../integrations/using/adobe-analytics-provisioning.md)
 
 Adobe Analytics Data Connector の提供終了日を 2022年3月1日（PT）から 2022年8月17日（PT）に更新しました。[詳細情報](deprecated-features.md)
-
-Adobe Launch で Campaign 拡張機能を設定する方法に関する Adobe Experience Platform モバイル SDK ドキュメントへのリンクを追加しました。[詳細情報](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
 JavaScript を使用して値の計算やデータの交換を行う方法と、SOAP 呼び出しを使用して特定の操作を実行する方法に関する節を追加しました。[詳細情報](../../workflow/using/javascript-scripts-and-templates.md)
 
@@ -346,7 +348,7 @@ Android のプッシュ通知の改善点 - [詳細を表示](../../delivery/usi
 [!DNL Gold Standard] リリースのリリースノートと互換性マトリックスが、専用のページで提供されるようになりました。
 [詳細を表示](../../rn/using/gold-standard.md)。
 
-パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
+パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/about-triggers.md#implement)
 
 **その他のアップデート**
 

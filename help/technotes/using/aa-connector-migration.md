@@ -5,8 +5,10 @@ description: Campaign - Analytics Connector に関する FAQ
 feature: Technote, Analytics Integration
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 のオンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -14,13 +16,11 @@ ht-degree: 100%
 
 # 既存の Genesis 統合を Adobe Analytics Connector に移行する方法 {#acc-aa-faq}
 
-
-
 Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨になりました。[詳細情報](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ja)
 
 2021年8月1日（PT）、Adobe Campaign Classic は従来の Data Connectors UI から削除されましたが、既存の Campaign 統合は 2022年8月17日（PT）まで引き続きデータを収集して Adobe Analytics に渡します。この期限を過ぎると、統合によるデータの収集と Adobe Analytics への送信を停止します。
 
-従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../platform/using/gs-aa.md)を参照してください。
+従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../integrations/using/gs-aa.md)を参照してください。
 
 これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
@@ -46,7 +46,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 既存の Adobe Analytics Data Connector（旧称：Genesis 統合）を使用し、統合が Campaign 21.1.3 よりも古いビルドで実装されている場合は、影響を受けます。
 
-バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
+バージョンを確認する方法については、](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
 ## 更新方法
 
@@ -54,7 +54,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 ホスト環境のお客様の場合は、アドビがお客様と協力してインスタンスを新しいバージョンにアップグレードします。その後、[Adobe Analytics Connector](../../platform/using/gs-aa.md) を使用できるようになります。
 
-オンプレミス環境またはハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、いずれかの新しいバージョンにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../platform/using/adobe-analytics-provisioning.md)、シームレスな移行を確実に行うことができるようになります。
+オンプレミス環境またはハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、いずれかの新しいバージョンにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../integrations/using/adobe-analytics-provisioning.md)、シームレスな移行を確実に行うことができるようになります。
 
 ## FAQ{#faq-aa}
 

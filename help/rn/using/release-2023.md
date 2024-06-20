@@ -6,14 +6,46 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: ac086604b17df96355563308c3dec3096b407542
-workflow-type: ht
-source-wordcount: '1973'
-ht-degree: 100%
+source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+workflow-type: tm+mt
+source-wordcount: '2337'
+ht-degree: 97%
 
 ---
 
 # 2023 リリース{#release-2023}
+
+## リリース 7.3.5 - ビルド 9368 {#release-7-3-5}
+
+[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+
+_2023年12月5日（PT）_
+
+### セキュリティの機能強化 {#release-7-3-5-security}
+
+
+* Campaign Classic v7.3.5 では、認証プロセスが改善され、セキュリティが強化されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/using/ims-migration.md)を参照してください。
+
+* また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン／パスワードのネイティブ認証から Adobe Identity Management System（IMS）に移行することを強く推奨しています。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
+
+* 現在、Web フォームのステータスが&#x200B;**保留中の公開**&#x200B;になっている場合、自動的にライブにならなくなります。セキュリティの問題を防ぐには、**オンライン**&#x200B;になる前に公開し、Web ブラウザーの Web フォーム URL からアクセスする必要があります。[詳細情報](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+
+### その他の機能強化 {#release-7-3-5-other}
+
+このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
+
+### パッチ {#release-7-3-5-patches}
+
+* Google Big Query データベースのデータを使用し、Oracle データベースのデータを更新する際の問題を修正しました。ワークフロー一時テーブルですべてのキーを `0` に設定しました。（NEO-65091）
+* Google Big Query データベース上の 2 つのクエリを&#x200B;**和集合**&#x200B;ワークフローアクティビティで組み合わせると、ワークフローの実行が失敗する原因となっていた問題を修正しました。（NEO-63705）
+* キャンペーンレポートで `Back` ボタンをクリックした際に、ユーザーに再認証をリクエストしていた問題を修正しました。（NEO-65087）
+* 配達確認の前に配信を削除した際に発生していた、データベースクリーンアップワークフローのエラーを修正しました。（NEO-48114）
+* クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により、接続エラーが発生していた問題を修正しました。（NEO-50488）
+* Campaign の 7.3.1 へのアップグレード後の HTTP プロキシ認証に関する問題を修正しました。Campaign ワークフローの HTTP リクエストが `error 407 – proxy auth required is returned` で失敗していました。（NEO-49624）
+* **スクリプト**&#x200B;ワークフローアクティビティにおける、GPG 復号化での断続的なエラーを修正しました。関連するエラーメッセージは `gpg: decryption failed: No secret key` でした。（NEO-50257）
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+
+
 
 
 ## リリース 7.3.4 - ビルド 9364 {#release-7-3-4}
@@ -103,12 +135,12 @@ _2023年3月20日（PT）_
 * Tomcat は、セキュリティを最適化するために、バージョン 8.5.81 から 8.5.85 に更新されました。（NEO-56936）
 
 
-
 ### 改善点 {#release-7-3-3-improvements}
 
 * 請求ワークフローを改善し、パフォーマンスを最適化しました。（NEO-47658）
 * トラッキングワークフローを改善し、配信サイズが大きい場合のパフォーマンスを最適化しました。（NEO-45064）
 * トラッキング管理を改善し、URL の動的パラメーターで発生する可能性がある問題を修正しました。トラッキング管理 v3 では、ajax タイプの URL（「#」の後のパラメーターを含む）を処理し、サードパーティツールによるトラッキング URL を変更するのを防ぎます。この変更を適用するには、アドビにお問い合わせください。（NEO-46535）
+* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -150,6 +182,8 @@ _2022 年 11 月 21 日（PT）_
 * Google BigQuery コネクタがブール値フィールドを完全にサポートするようになりました。 （NEO-49181）
 * serverConf.xml ファイルの `Configuration for the redirection service` セクションで、IMS Cookie の有効期間を設定できるようになりました。これは、次の Cookie（`uuid230`、`nllastdelid` および `AMCV_`）に適用されます（NEO-42541）。
 * serverConf.xml ファイルのリダイレクトノードで `showSourceIP` を false に設定することで、「/r/test」リクエストで IP を非表示にできるようになりました。[詳細を表示](../../installation/using/the-server-configuration-file.md#redirection-redirection)（NEO-46656）
+* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
+
 
 ### 非推奨（廃止予定）の機能  {#release-7-3-2-deprecated}
 

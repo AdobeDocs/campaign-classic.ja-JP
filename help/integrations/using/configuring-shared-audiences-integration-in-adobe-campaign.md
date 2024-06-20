@@ -2,21 +2,20 @@
 product: campaign
 title: Adobe Campaign での共有オーディエンスの統合の設定
 description: 共有オーディエンスの統合を設定する方法について説明します
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 97%
 
 ---
 
 # Adobe Campaign での共有オーディエンス統合の設定{#configuring-shared-audiences-integration-in-adobe-campaign}
-
 
 
 このリクエストを送信すると、アドビ側で統合のプロビジョニングが進められます。また、設定を完了するための詳細情報がお客様に届きます。
@@ -88,7 +87,7 @@ AWS リージョンについて詳しくは、[このページ](https://aws.amaz
 
 ## 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
-People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
+Audience Manager との統合を設定するには、Campaign トラッキングサーバーも設定する必要があります。
 
 共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックした URL またはメイン web サイトのサブドメインにする必要があります。
 

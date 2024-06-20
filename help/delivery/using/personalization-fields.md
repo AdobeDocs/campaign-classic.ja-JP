@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 87%
 
 ---
 
@@ -115,6 +115,26 @@ ht-degree: 100%
 デフォルト値は 5 秒です。
 
 このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。
+
+## 「パーソナライゼーション」タブ {#personalization-tab}
+
+配信プロパティに「パーソナライゼーション」タブがあります。
+
+をクリックすると、ターゲティングディメンションのプロファイルクエリにデータを追加できる可能性があります **「受信者プロファイル読み込みクエリを編集」**. 式内で直接抽出されたデータを使用して、本当に必要なものを抽出できます。 これらのデータはコンテキストに追加されます。
+
+![](assets/persotab-edit.png){zoomable="yes"}
+
+追加するデータがターゲティングディメンションにない場合は、「」をクリックします。 **「スクリプトの実行コンテキストにオブジェクトを追加」**.
+
+![](assets/persotab_addobjects.png){zoomable="yes"}
+
+必要なオブジェクトスキーマを選択し、JavaScript コード内でこれらのデータを使用できます。このデータは、配信の準備中に実行されます。
+
+![](assets/persotab_addobjects_articles.png){zoomable="yes"}
+
+オブジェクトスキーマを追加すると、コンテキストに追加するフィールドを選択できます。
+
+![](assets/persotab_addobjects_fields.png){zoomable="yes"}
 
 ## チュートリアルビデオ {#personalization-fields-video}
 

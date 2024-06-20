@@ -9,9 +9,9 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: afbec7b3df810c8c1818a4fb93c5f7e30f7a753b
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2612'
 ht-degree: 4%
 
 ---
@@ -475,19 +475,21 @@ In a `<subQuery>` メインの「フィールド」フィールドを参照す�
 1. あなたが解決したであろう競合に移動します。 **[!UICONTROL アクション]**&#x200B;アイコンをクリックし、「**[!UICONTROL 解決済みとして宣言]**」を選択します。
 1. 変更を保存します。これにより競合が解決します。
 
+<!--
 ## Tomcat {#tomcat}
 
-Adobe Campaign v7 の統合 Tomcat サーバーのバージョンが変更されました。 そのため、インストールフォルダー（tomcat-6）も変更されました（tomcat 7）。 アップグレード後に、更新されたフォルダー（内）にパスがリンクしていることを確認します **[!UICONTROL serverConf.xml]** ファイル）:
+The integrated Tomcat server in Adobe Campaign v7 has changed version. Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-X/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 ```
+-->
 
 ## インタラクション {#interaction}
 

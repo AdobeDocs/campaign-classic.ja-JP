@@ -3,14 +3,14 @@ product: campaign
 title: データベースの作成と設定
 description: データベースの作成と設定
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1352'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 選択したデータベースエンジンによって、サーバー識別情報が異なる場合があります。
 
 * の場合 **Oracle** エンジン、入力 **TNS 名** アプリケーションサーバー用に定義されます。
-* の場合 **PostgreSQL** または **DB2** エンジン：データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
+* の場合 **PostgreSQL** エンジン：データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
 * の場合 **Microsoft SQL Server** データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を定義する必要があります。 **DNS** または **DNS`\<instance>`** （インスタンスモード）、
 
   >[!CAUTION]
@@ -78,7 +78,6 @@ ht-degree: 1%
 * **system** oracleデータベースの場合、
 * **土** Microsoft SQL Server データベースの場合、
 * **postgres** PostgreSQL データベースの場合、
-* **db2inst1** DB2 データベースの場合。
 
 ### 手順 3 - データベースの接続と特性 {#step-3---connection-and-characteristics-of-the-database}
 
@@ -89,11 +88,6 @@ ht-degree: 1%
 次の設定を定義する必要があります。
 
 * 作成するデータベースの名前を指定します。
-
-  >[!NOTE]
-  >
-  >DB2 データベースの場合、データベース名は 8 文字以下にする必要があります。
-
 * このデータベースにリンクされているアカウントのパスワードを入力します。
 * データベースが Unicode である必要があるかどうかを示します。
 
@@ -182,7 +176,7 @@ ht-degree: 1%
 選択したデータベースエンジンによって、サーバー識別情報が異なる場合があります。
 
 * の場合 **Oracle** エンジン、入力 **TNS 名** アプリケーションサーバー用に定義されます。
-* の場合 **PostgreSQL** または **DB2** エンジン：データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
+* の場合 **PostgreSQL** エンジン：データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
 * の場合 **Microsoft SQL Server** エンジン。次を定義する必要があります。
 
    1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されている DNS 名（または IP アドレス）

@@ -3,15 +3,15 @@ product: campaign
 title: 接続のしきい値
 description: 接続のしきい値
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 8%
+source-wordcount: '168'
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
    * **Tomcat** 側：実際にAdobe Campaign Tomcat クライアントに到達するすべてのクエリ。
 
-     このしきい値は、 **nl6/tomcat-8/conf/server.xml** ファイル。 この **maxThreads** 属性を使用すると、一度に処理するクエリ数のしきい値を増やすことができます。 例えば、250 に変更できます。
+     このしきい値は、 **nl6/tomcat-X/conf/server.xml** ファイル。 この **maxThreads** 属性を使用すると、一度に処理するクエリ数のしきい値を増やすことができます。 例えば、250 に変更できます。
 
      ```
      <Connector protocol="HTTP/1.1" port="8080"

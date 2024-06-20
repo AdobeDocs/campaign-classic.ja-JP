@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
-workflow-type: ht
-source-wordcount: '2548'
-ht-degree: 100%
+source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+workflow-type: tm+mt
+source-wordcount: '2552'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
+      + [2024 年度](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
@@ -36,6 +37,7 @@ ht-degree: 100%
          + [Campaign UI の概要](platform/using/adobe-campaign-workspace.md)
          + [Campaign エクスプローラーの使用](platform/using/adobe-campaign-explorer.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
+      + [Campaign コネクタ](platform/using/about-connectors.md)
       + よくある質問（FAQ） {#faq}
          + [よくある質問](platform/using/common-questions.md)
          + [グローバル概念](platform/using/faq-key-concepts.md)
@@ -100,17 +102,11 @@ ht-degree: 100%
    + データパッケージと列挙 {#administration-basics}
       + [データパッケージ](platform/using/working-with-data-packages.md)
       + [列挙](platform/using/managing-enumerations.md)
-   + コネクタ {#connectors}
-      + [コネクタについて](platform/using/about-connectors.md)
-      + CRM コネクタ{#crm-connectors}
-         + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
-         + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
-         + [Salesforce.com との接続](platform/using/crm-sfdc.md)
-         + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + Adobe Analytics Connector{#analytics-connector}
-         + [Adobe Analytics Connector の基本を学ぶ](platform/using/gs-aa.md)
-         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
-         + [Adobe Analytics Connectorへの移行方法](technotes/using/aa-connector-migration.md)
+   + CRM コネクタ {#connectors}
+      + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
+      + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
+      + [Salesforce.com との接続](platform/using/crm-sfdc.md)
+      + [CRM とのデータの同期](platform/using/crm-data-sync.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
@@ -355,7 +351,21 @@ ht-degree: 100%
    + [ユースケース：リファラルフォームの作成](surveys/using/use-case-creating-a-refer-a-friend-form.md)
    + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
-   + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
+   + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
+   + [Adobeのテクニカルアカウントを作成](integrations/using/oauth-technical-account.md)
+   + Adobe Experience Cloud トリガー {#experience-triggers}
+      + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
+      + [パイプラインの設定](integrations/using/configuring-pipeline.md)
+      + [カスタム実装用のイベントの設定](integrations/using/events.md)
+      + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
+      + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
+   + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
+      + [ソースと宛先の操作](integrations/using/get-started-sources-destinations.md)
+      + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrations/using/ingest-aep-data.md)
+      + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
+   + Adobe Analytics Connector{#analytics-connector}
+      + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
+      + [Adobe Analytics Connector のプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
    + オーディエンスの共有 {#audience-sharing}
       + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
@@ -380,17 +390,6 @@ ht-degree: 100%
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
-   + Adobe Experience Cloud トリガー {#experience-triggers}
-      + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
-      + [パイプラインの設定](integrations/using/configuring-pipeline.md)
-      + [ [!DNL Experience Cloud Triggers]用の Adobe I/O の設定](integrations/using/configuring-adobe-io.md)
-      + [カスタム実装用のイベントの設定](integrations/using/events.md)
-      + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
-      + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
-   + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
-      + [ソースと宛先の操作](integrations/using/get-started-sources-destinations.md)
-      + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrations/using/ingest-aep-data.md)
-      + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
@@ -824,10 +823,12 @@ ht-degree: 100%
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
    + [ハードウェアサイズについてのレコメンデーション](technotes/using/hardware-sizing.md)
-   + [ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ](technotes/using/inbound-SMS.md)
+   + [ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ](technotes/using/inbound-sms-wf.md)
    + IMS へのアップグレード{#ims}
+      + [Adobe IMSへの移行](technotes/using/ac-ims.md)
       + [ユーザーを IMS へ移行](technotes/using/migrate-users-to-ims.md)
       + [テクニカルオペレーターを Developer Console へ移行](technotes/using/ims-migration.md)
+      + [IMS 移行後のインターフェイスへの影響](technotes/using/impact-ims-migration.md)
    + アップグレードと互換性{#technote-migration}
       + [テクニカルノート](technotes/using/technote.md)
       + [Microsoft Edge Chromium の有効化](technotes/using/edge-chromium.md)

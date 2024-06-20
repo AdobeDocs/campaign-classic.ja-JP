@@ -7,15 +7,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 991ad88101468c3e7f5d676586dfdd05d63e7c6d
-workflow-type: ht
-source-wordcount: '2045'
-ht-degree: 100%
+source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+workflow-type: tm+mt
+source-wordcount: '2029'
+ht-degree: 99%
 
 ---
 
 # ビルドのアップグレードに関する FAQ {#build-upgrade-faq}
-
 
 
 Adobe Campaign は定期的にアップデートされています。公開されている[リリースノート](../../rn/using/rn-overview.md)に記載されているように、アドビでは、新機能、機能強化、修正を含むマイナーバージョンを毎年平均 2 ～ 3 回リリースしています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。この定期的なアップデートは、環境の安全性を完全に維持し、アドビ製品の使用環境を明確に向上させ、製品を最新の状態で最大限に活用することを目的としています。
@@ -136,7 +135,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## アップグレードの間、トラッキングリンクは機能しますか？
 
-アップグレード中は、すべてのサーバーが停止しているので、送信済みのメールのトラッキングリンクは機能しません。 アップグレードが完了し、サーバが再起動すると、再び動作するようになります。
+Campaign Classic v7.3.5 以降でも、アップグレード中は既に送信済みのメールのトラッキングリンクが引き続き機能します。
 
 ## ビルドのアップグレードプロセスの間、こちらが対応できるようにしておく必要はありますか？
 

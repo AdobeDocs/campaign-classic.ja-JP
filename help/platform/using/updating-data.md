@@ -7,16 +7,18 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 98%
 
 ---
 
 # データを更新{#updating-data}
 
-
+>[!NOTE]
+>
+>このページは、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。
 
 受信者のプロファイルにリンクされているデータは、手動または自動で更新できます。
 

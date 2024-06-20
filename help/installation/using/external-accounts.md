@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ef6a864c76c04ac94383c1c2ad74095dd5ef63a1
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
 workflow-type: tm+mt
 source-wordcount: '1952'
 ht-degree: 71%
@@ -292,7 +292,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 ![](assets/ext_account_10.png)
 
-この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/gs-aa.md)を参照してください。
+この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../integrations/using/gs-aa.md)を参照してください。
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 

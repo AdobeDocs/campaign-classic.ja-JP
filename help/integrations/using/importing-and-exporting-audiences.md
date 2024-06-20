@@ -2,16 +2,16 @@
 product: campaign
 title: オーディエンスのインポートおよびエクスポート
 description: オーディエンスのインポートおよびエクスポート
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '659'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '621'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## オーディエンスのインポート {#importing-an-audience}
 
-受信者リストを使用して、Audience Manager または People コアサービスから Adobe Campaign にオーディエンスとセグメントをインポートできます。
+Audience Manager から受信者リストを介してAdobe Campaignにオーディエンス/セグメントを読み込むことができます。
 
 1. Adobe Campaign のエクスプローラーで、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL リスト]**&#x200B;ノードに移動します。
 1. アクションバーで、 **[!UICONTROL 新規]**／**[!UICONTROL 共有オーディエンスを作成]**&#x200B;を選択します。
@@ -44,19 +44,19 @@ ht-degree: 100%
 
 オーディエンスはテクニカルワークフローを使用してインポートされます。インポートされたリストには、AMC データソースを使用して紐付けできる要素が含まれています。Adobe Campaign が認識しない要素はインポートされません。
 
-インポートプロセスで、People コアサービスまたは Audience Manager からセグメントを直接インポートする場合は、同期に 24～36 時間かかります。同期が終了すると、Adobe Campaign で新しいオーディエンスを検索したり、使用したりできます。
+セグメントがAudience Managerから直接読み込まれる場合、読み込みプロセスの同期に 24～36 時間かかります。 同期が終了すると、Adobe Campaign で新しいオーディエンスを検索したり、使用したりできます。
 
 >[!NOTE]
 >
->Adobe Analytics から Adobe Campaign にオーディエンスをインポートする場合は、最初に People コアサービスまたは Audience Manager でそれらのオーディエンスを共有する必要があります。このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
+>オーディエンスをAdobe AnalyticsからAdobe Campaignに読み込む場合は、まずAudience Managerでこれらのオーディエンスを共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
 >
->場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
+>場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。Audience Manager でのAdobe Analytics オーディエンスの共有について詳しくは、以下を参照してください。 [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja){target="_blank"}.
 
 オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特性、ルールなどの詳細データはサポートされません。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 
-ワークフローを使用して、Adobe Campaign から Audience Manager または People コアサービスにオーディエンスをエクスポートできます。ワークフローの作成と使用に関するプロセスについて詳しくは、[このドキュメント](../../workflow/using/building-a-workflow.md)を参照してください。エクスポートされたオーディエンスは、People コアサービスにセグメントとして保存されます。
+ワークフローを使用して、オーディエンスをAdobe Campaignから Audience Manager に書き出すことができます。 ワークフローの作成と使用に関するプロセスについて詳しくは、[このドキュメント](../../workflow/using/building-a-workflow.md)を参照してください。書き出されたオーディエンスは、セグメントとして保存されます。
 
 1. 新しいターゲティングワークフローを作成します。
 1. 使用可能な異なるアクティビティを使い、一連の受信者をターゲティングします。
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 オーディエンスがエクスポートされます。オーディエンス保存アクティビティには、アウトバンドトランジションが 2 種類あります。主なトランジションは、エクスポートに成功した受信者を含みます。追加トランジションは、訪問者 ID または宣言済み ID でマッピングできなかった受信者を含みます。
 
-Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=ja)を参照してください。
+ソリューション間の同期には 24～36 時間かかります。 この期間が経過すると、新しいオーディエンスを見つけて、他のAdobe Experience Cloud ソリューションで再利用できるようになります。 Adobe Campaignの共有オーディエンスの使用について詳しくは、こちらを参照してください [詳細を見る](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create){target="_blank"}.
 
 >[!NOTE]
 >

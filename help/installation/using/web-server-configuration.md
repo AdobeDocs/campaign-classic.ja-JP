@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 25%
 
 ---
@@ -81,5 +81,5 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
 関連トピック ： 
 
-* [Adobe Marketing Cloud コンプライアンスの概要](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) （PDF）
-* [Adobe Campaign セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/ADB-CampaignSecurity-WP.pdf) （PDF）
+* [Adobe Marketing Cloud コンプライアンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaign セキュリティの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

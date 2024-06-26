@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-Campaign を他のExperience Cloudソリューションと統合する場合（例えば、オーディエンスをシステム間で転送できる） [Adobe Analytics](../../integrations/using/gs-aa.md), [Experience Cloudオーディエンス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md)、または経由のその他のソリューション [CRM コネクタ](../../platform/using/crm-connectors.md)個人データ保護には細心の注意を払う必要があります。
+Campaign を、[Adobe Analytics](../../integrations/using/gs-aa.md)、[Experience Cloud オーディエンス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 [主な規制](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
 

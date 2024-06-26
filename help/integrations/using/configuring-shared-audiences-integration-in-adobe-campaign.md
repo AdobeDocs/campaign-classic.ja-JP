@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ AWS リージョンについて詳しくは、[このページ](https://aws.amaz
 
 ## 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
-Audience Manager との統合を設定するには、Campaign トラッキングサーバーも設定する必要があります。
+Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
 共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックした URL またはメイン web サイトのサブドメインにする必要があります。
 

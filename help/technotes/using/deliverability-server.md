@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 >
 > サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。 </br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025年1月27日（PT）まで引き続き機能します。</br>
 >
-> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この期限までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
+> * Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 
 ### 前提条件{#prerequisites}
 
@@ -87,13 +87,13 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
-Adobe Analytics コネクタの設定に進むには、Adobe Developer コンソールにアクセスして、OAuth サーバー間プロジェクトを作成します。
+Adobe Analytics コネクタの設定に進むには、Adobe Developer Console にアクセスして、OAuth サーバー間プロジェクトを作成します。
 
-こちらを参照してください [このページ](../../integrations/using/oauth-technical-account.md#oauth-service) 詳細なドキュメント
+詳しくは、[こちらのページ](../../integrations/using/oauth-technical-account.md#oauth-service)を参照してください。
 
 ### 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 
-で説明されている手順に従います [このページ](../../integrations/using/oauth-technical-account.md#add-credentials) OAuth プロジェクト資格情報をAdobe Campaignに追加します。
+[こちらのページ](../../integrations/using/oauth-technical-account.md#add-credentials)で説明されている手順に従って、OAuth プロジェクト資格情報を Adobe Campaign に追加します。
 
 ### 手順 3：設定を検証
 

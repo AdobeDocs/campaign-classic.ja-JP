@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Assets へのアクセスの設定 {#configuring-access-to-assets}
 
-ここでは、Assets またはAdobe Experience Manager Assets（AEM Assets）ライブラリとの統合機能を使用するために必要なAdobe Campaignの設定手順を説明します。
+この節では、Assets または Adobe Experience Manager Assets（AEM Assets）ライブラリとの統合機能で使用するために必要な Adobe Campaign の設定手順を説明します。
 
 >[!CAUTION]
 >

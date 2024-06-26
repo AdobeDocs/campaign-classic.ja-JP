@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Adobe Campaign-Adobe Analytics コネクタの使用を開始する前に、次�
 
 * 専用パッケージを使用して、web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
-   * ハイブリッド実装およびオンプレミス実装の場合は、次に説明するプロビジョニング手順に必ず従ってください [ページ](adobe-analytics-provisioning.md).
+   * ハイブリッド実装およびオンプレミス実装の場合は、この[ページ](adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に必ず従ってください。
    * Hoster ユーザーまたは Managed Cloud Services ユーザーとして、Campaign を Adobe Experience Cloud サービスおよびソリューションに接続するには、アドビにお問い合わせください。
 
 
 ## 設定と使用法 {#adobe-analytics-connector-usage}
 
-この統合を有効にするには、に説明されているとおりにAdobeのテクニカルアカウントを作成する必要があります。 [このページ](oauth-technical-account.md).
+この統合を有効にするには、[このページ](oauth-technical-account.md)で説明されているように、アドビのテクニカルアカウントを作成する必要があります。
 
 Adobe Campaign と Adobe Analytics の連携について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}を参照してください。

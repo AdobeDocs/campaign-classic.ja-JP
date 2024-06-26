@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 78%
 >
 >v7 ユーザーが手順を続けるには、お使いのシステムで Adobe Identity Management System（IMS）が有効になっていることを確認してください。[詳細情報](../../integrations/using/about-adobe-id.md)。
 
-AdobeIdentity Management サービス（IMS）が有効になると、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} campaign との統合。 それには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信してください。
+Adobe Identity Management Service（IMS）が組織に対して有効になると、[Experience Cloud オーディエンス](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"}と Campaign の統合のプロビジョニングを依頼できます。それには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信してください。
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>リクエストのタイプ</strong><br /> </td> 
-   <td> オーディエンスの設定 – Campaign 統合 </td> 
+   <td> オーディエンスと Campaign の統合の設定 </td> 
   </tr> 
   <tr> 
    <td> <strong>組織名</strong><br /> </td> 

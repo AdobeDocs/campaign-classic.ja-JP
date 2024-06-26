@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、次を参照してください。 [このドキュメント](https://helpx.adobe.com/jp/enterprise/using/user-groups.html).
+>これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。Adobe IMS 認証については、[このドキュメント](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
 
 オペレーターグループは、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;ノードを使用して作成します。
 

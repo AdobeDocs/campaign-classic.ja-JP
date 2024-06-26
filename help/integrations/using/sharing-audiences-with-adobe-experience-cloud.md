@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 82%
 >
 >オーディエンスを Adobe Experience Cloud ソリューションと共有するには、Adobe Identity Management システムを実装する必要があります。[IMS の詳細を説明します](../../integrations/using/about-adobe-id.md)。
 
-Adobe Campaignを使用すると、オーディエンスとセグメントをAdobe Experience Cloud サービスと共有できます。 次の 2 つのオプションを使用できます。
+Adobe Campaign を使用すると、オーディエンスやセグメントを Adobe Experience Cloud サービスと共有できます。次の 2 つのオプションを使用できます。
 
-1. Adobe Experience Platform セグメントデータを Adobe Campaign に送信します。この統合を実装するには、リアルタイム顧客データプラットフォーム（RTCDP）を Campaign に接続する必要があります。[詳しくは、この節を参照してください。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja){target="_blank"}.
+1. Adobe Experience Platform セグメントデータを Adobe Campaign に送信します。この統合を実装するには、リアルタイム顧客データプラットフォーム（RTCDP）を Campaign に接続する必要があります。[詳しくは、この節を参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja){target="_blank"}。
 
-1. の統合 **Adobe Campaign** （を使用）  **Experience Cloudオーディエンス** または **Adobe Audience Manager**. 統合すると、次のことが可能になります。
+1. **Adobe Campaign** を **Experience Cloud オーディエンス**&#x200B;または **Adobe Audience Manager** と統合します。統合すると、次のことが可能になります。
 
    * 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
@@ -39,5 +39,5 @@ Adobe Campaignを使用すると、オーディエンスとセグメントをAdo
 
   >[!NOTE]
   >
-  > 宣言済み ID データソースを、Experience Cloudのアセット統合でも使用できるようになりました。
+  > 宣言済み ID データソースも Experience Cloud Assets 統合で使用できるようになりました。
   >

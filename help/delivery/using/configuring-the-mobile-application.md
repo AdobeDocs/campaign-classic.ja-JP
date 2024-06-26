@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,11 +93,11 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、開発アプリケーションの設定をおこないます。
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。<!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> この統合キーは各アプリケーションに対して固有のもので、これを使用すると、モバイルアプリケーションをAdobe Campaign プラットフォームにリンクできます。
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。<!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).-->この統合キー（各アプリケーションに固有のもの）を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
 
    >[!NOTE]
    >
-   > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものと完全に同じにする必要があります。
+   > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものとまったく同じにする必要があります。
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからあらかじめ用意されているアイコンの 1 つを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 

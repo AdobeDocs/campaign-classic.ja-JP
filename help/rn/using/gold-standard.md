@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1774'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ _2021 年 4 月 14 日_
 >
 > * Adobe Identity Management サービス（IMS）を使用して Adobe ID で Campaign に接続する場合、**2021 年 6 月 30 日**（PT）以降も Campaign に接続できるようにするには、Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証によるExperience Cloudトリガー統合を使用している場合は、説明に従って、Adobe I/Oに移行する必要があります [このページ内](../../integrations/using/about-triggers.md#implement). Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md#step-optional) をアドビに伝える必要があります。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/about-triggers.md#implement)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021年9月](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md#step-optional) をアドビに伝える必要があります。
 >
 >詳しくは、この[[!DNL Gold Standard] 節](../../rn/using/gold-standard.md)を参照してください。
 
@@ -220,7 +220,7 @@ _2019 年 8 月 13 日_
 この節では、**Adobe Campaign Classic[!DNL Gold Standard]** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
 
 >[!CAUTION]
->特に断りのない限り、すべてのマイナーリリースがサポートされます。
+>特に明記されていない限り、マイナーリリースはすべてサポートされています。
 >
 >Adobe Campaign Classic は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 >
@@ -505,7 +505,7 @@ _2019 年 8 月 13 日_
 </tbody>
 </table>
 
-### モバイル SDK{#MobileSDK}
+### Mobile SDK{#MobileSDK}
 
 <table>
 <tbody>

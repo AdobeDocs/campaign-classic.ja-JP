@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_android.png)
 
-1. 同じことを確認してください **[!UICONTROL 統合キー]** は、Adobe Campaignと、アプリケーションコード（SDK 経由）で定義されます。 <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
    >[!NOTE]
    >
@@ -156,4 +156,4 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
    >[!CAUTION]
    >
-   >の設定名を **[!UICONTROL 購読パラメーター]** タブは、モバイルアプリケーションコードのタブと同じです。 <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。<!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->

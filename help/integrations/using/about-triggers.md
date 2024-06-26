@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ ht-degree: 89%
 
 ## 実装手順 {#implement}
 
-Campaign とExperience Cloudのトリガーを実装するには、次の手順に従います。
+Campaign と Experience Cloud のトリガーを実装するには、次の手順に従います。
 
-1. OAuth プロジェクトを作成します。 [詳細情報](oauth-technical-account.md#oauth-service)
+1. OAuth プロジェクトを作成します。[詳細情報](oauth-technical-account.md#oauth-service)
 
-1. OAuth プロジェクト資格情報をAdobe Campaignに追加します。 [詳細情報](oauth-technical-account.md#add-credentials)
+1. OAuth プロジェクト資格情報を Adobe Campaign に追加します。[詳細情報](oauth-technical-account.md#add-credentials)
 
-1. 設定ファイルの Developer Console プロジェクトに認証タイプを更新します **config-&lt; instance-name >.xml** 次のように設定します。
+1. 次のように、設定ファイル **config-&lt; instance-name >.xml** で Developer Console プロジェクトの認証タイプを更新します。
 
    ```
    <pipelined ... authType="imsJwtToken"  ... />

@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2586'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 **非推奨（廃止予定）の機能**
 
-* Campaign 21.1 リリース以降、Adobe Analytics Connectorは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しいAdobe Analytics コネクタを適用する必要があります。
+* Campaign 21.1 リリース以降、Adobe Analytics Connectorは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics Connectorを適用する必要があります。
 * Debian 8 のサポートは廃止されました。
 * 20.3 での Oracle CRM の廃止を受け、関連する外部アカウントがインターフェイスから削除されました。
 

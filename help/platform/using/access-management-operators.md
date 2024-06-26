@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、次を参照してください。 [このドキュメント](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank).
+>これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。Adobe IMS 認証については、[このドキュメント](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html#_blank)を参照してください。
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 

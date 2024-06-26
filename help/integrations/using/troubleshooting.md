@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 76%
 
   **[!UICONTROL 管理／プラットフォーム／AMC データソース]**&#x200B;で、AMC データソースが正しく設定されていることを確認します。
 
-Experience Cloudオーディエンスを使用してオーディエンスを共有する場合や、オーディエンスを読み込む場合に、一部のデータが欠落していることがあります。 ID（「訪問者 ID」または「宣言済み ID」）をプロファイルディメンションに紐付けることができたレコードだけが転送されます。Adobe Campaignで認識されないセグメントの ID はインポートされません。
+Experience Cloud Audience 経由でオーディエンスを共有したり、オーディエンスを読み込んだりすると、データの一部が失われることがあります。ID（「訪問者 ID」または「宣言済み ID」）をプロファイルディメンションに紐付けることができたレコードのみが転送されます。Adobe Campaign によって認識されないセグメントからの ID は読み込まれません。

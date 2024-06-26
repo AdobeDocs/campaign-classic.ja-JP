@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->このページは、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、次を参照してください。 [このドキュメント](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html).
+>このページは、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。Adobe IMS 認証については、[このドキュメント](https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html)を参照してください。
 
 ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。それらのネームド権限の設定は、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;で編集できます。
 

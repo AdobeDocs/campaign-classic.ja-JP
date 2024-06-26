@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
-      + [2024 年度](rn/using/release-2024.md)
+      + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
@@ -352,7 +352,7 @@ ht-degree: 99%
    + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
-   + [Adobeのテクニカルアカウントを作成](integrations/using/oauth-technical-account.md)
+   + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud トリガー {#experience-triggers}
       + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
@@ -365,7 +365,7 @@ ht-degree: 99%
       + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
    + Adobe Analytics Connector{#analytics-connector}
       + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
-      + [Adobe Analytics Connector のプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
+      + [Adobe Analytics コネクタのプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
    + オーディエンスの共有 {#audience-sharing}
       + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
@@ -825,7 +825,7 @@ ht-degree: 99%
    + [ハードウェアサイズについてのレコメンデーション](technotes/using/hardware-sizing.md)
    + [ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ](technotes/using/inbound-sms-wf.md)
    + IMS へのアップグレード{#ims}
-      + [Adobe IMSへの移行](technotes/using/ac-ims.md)
+      + [Adobe IMS への移行](technotes/using/ac-ims.md)
       + [ユーザーを IMS へ移行](technotes/using/migrate-users-to-ims.md)
       + [テクニカルオペレーターを Developer Console へ移行](technotes/using/ims-migration.md)
       + [IMS 移行後のインターフェイスへの影響](technotes/using/impact-ims-migration.md)

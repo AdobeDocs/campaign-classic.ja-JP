@@ -7,9 +7,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign は HTTP/2 APN と互換性があります。設定手順につ�
 
 ## プッシュ通知チャネルを設定 {#push-notification-configuration}
 
-Adobe Campaignでプッシュ通知を送信するには、まず環境とアプリを設定する必要があります。 Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで、設定と統合が行われていることを確認する必要があります。Adobe Experience Platform Mobile SDK は、Android およびiOS互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。 SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。詳しくは、を参照してください。 [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings).
+Adobe Campaign でプッシュ通知を送信するには、まず環境とアプリを設定する必要があります。Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで、設定と統合が行われていることを確認する必要があります。Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介して、モバイル用のクライアントサイド統合 API を提供します。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings)を参照してください。
 
 
 ## データパス {#data-path}

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ _2023年12月5日（PT）_
 
 ### その他の機能強化 {#release-7-3-5-other}
 
-このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
+このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。[詳細情報](../../platform/using/faq-build-upgrade.md)
 
 ### パッチ {#release-7-3-5-patches}
 
@@ -68,7 +68,7 @@ _2023年9月7日（PT）_
 * PII データが web ログエラーに公開されないように、セキュリティが強化されました。（NEO-46827）
 * セキュリティトークンが Campaign ホームページの URL に含まれないように、セキュリティが最適化されました。（NEO-38519）
 
-### 互換性の更新  {#release-7-3-4-compat}
+### 互換性のアップデート  {#release-7-3-4-compat}
 
 * Tomcat がバージョン 8.5.91 に更新されました
 * libexpat ライブラリは、セキュリティを向上させるために 2.5.0 に更新されました。（NEO-51023）
@@ -140,7 +140,7 @@ _2023年3月20日（PT）_
 * 請求ワークフローを改善し、パフォーマンスを最適化しました。（NEO-47658）
 * トラッキングワークフローを改善し、配信サイズが大きい場合のパフォーマンスを最適化しました。（NEO-45064）
 * トラッキング管理を改善し、URL の動的パラメーターで発生する可能性がある問題を修正しました。トラッキング管理 v3 では、ajax タイプの URL（「#」の後のパラメーターを含む）を処理し、サードパーティツールによるトラッキング URL を変更するのを防ぎます。この変更を適用するには、アドビにお問い合わせください。（NEO-46535）
-* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
+* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。[詳細情報](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -165,7 +165,7 @@ _2023年3月20日（PT）_
 
 _2022 年 11 月 21 日（PT）_
 
-### 互換性の更新 {#release-7-3-2-compat}
+### 互換性のアップデート {#release-7-3-2-compat}
 
 * Adobe Campaign に、PostgreSQL 14 との互換性が備わりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
 
@@ -182,7 +182,7 @@ _2022 年 11 月 21 日（PT）_
 * Google BigQuery コネクタがブール値フィールドを完全にサポートするようになりました。 （NEO-49181）
 * serverConf.xml ファイルの `Configuration for the redirection service` セクションで、IMS Cookie の有効期間を設定できるようになりました。これは、次の Cookie（`uuid230`、`nllastdelid` および `AMCV_`）に適用されます（NEO-42541）。
 * serverConf.xml ファイルのリダイレクトノードで `showSourceIP` を false に設定することで、「/r/test」リクエストで IP を非表示にできるようになりました。[詳細を表示](../../installation/using/the-server-configuration-file.md#redirection-redirection)（NEO-46656）
-* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。 [詳細情報](../../platform/using/faq-build-upgrade.md)
+* このリリース以降も、既に送信済みのメールのトラッキングリンクは、アップグレード中も引き続き機能します。[詳細情報](../../platform/using/faq-build-upgrade.md)
 
 
 ### 非推奨（廃止予定）の機能  {#release-7-3-2-deprecated}

@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 92%
 * 組織への開発者のアクセス
 * Adobe Analytics での有効なトリガー設定
 
-パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。これには、Adobe Developer プロジェクト経由でにサポートされている認証が使用されます。
+パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。Adobe Developer プロジェクト経由でサポートされている認証を使用します。
 
 ## 手順 1：Adobe Developer プロジェクトを作成／更新 {#creating-adobe-io-project}
 
-トリガー統合用のAdobe Developer アカウントトークンを使用して、組織を有効にする必要があります。
+トリガー統合用の Adobe Developer アカウントトークンを使用して、組織を有効にする必要があります。
 
-でAdobeテクニカルアカウントを作成する方法を説明します。 [このページ](../../integrations/using/oauth-technical-account.md). Adobe Developer 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
+アドビのテクニカルアカウントの作成方法については、[このページ](../../integrations/using/oauth-technical-account.md)を参照してください。Adobe Developer 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
 
 ## 手順 2：パイプラインオプションを設定 {#configuring-nmspipeline}
 
-認証が設定されると、パイプラインはイベントを取得します。 Adobe Campaignで設定されたトリガーのみを処理します。 トリガーは、Adobe Analytics から生成され、Adobe Campaign で設定されたトリガーのみを処理するパイプラインに送られる必要があります。
+認証が設定されると、パイプラインはイベントを取得します。Adobe Campaign で設定されたトリガーのみが処理されます。トリガーは、Adobe Analytics から生成され、Adobe Campaign で設定されたトリガーのみを処理するパイプラインに送られる必要があります。
 
 また、名前に関係なく、すべてのトリガーを取得するように、ワイルドカードを使用して設定することもできます。
 

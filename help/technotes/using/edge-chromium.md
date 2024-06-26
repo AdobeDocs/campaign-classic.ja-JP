@@ -5,9 +5,9 @@ description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 8734e6ef26a7342042a5242d54854b7d3a5e6244
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Microsoft Internet Explorer 11 のサポート終了に伴い、クライアン�
 
 >[!NOTE]
 >
->Microsoft Edge Chromium を有効にした後、 `Ctrl+F` （Windows）または `Command+F` （Mac）ブラウザーの検索ダイアログボックスを開くためのショートカットが機能しなくなります。
+>Microsoft Edge Chromium を有効にすると、ブラウザーの検索ダイアログボックスを開くための `Ctrl+F`（Windows）または `Command+F`（Mac）のショートカットが機能しなくなります。
 
 ## 影響の有無
 

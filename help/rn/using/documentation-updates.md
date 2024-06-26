@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ### 2024年6月 {#june-2024}
 
-ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細情報](../../workflow/using/starting-a-workflow.md)
+ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。[詳細情報](../../workflow/using/starting-a-workflow.md)
 
 ### 2024年4月 {#apr-2024}
 

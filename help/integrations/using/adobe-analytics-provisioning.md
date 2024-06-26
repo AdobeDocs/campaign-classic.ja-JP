@@ -8,13 +8,13 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics Connector のプロビジョニング {#adobe-analytics-connector-provisioning}
+# Adobe Analytics コネクタのプロビジョニング {#adobe-analytics-connector-provisioning}
 
 >[!CAUTION]
 >
@@ -38,9 +38,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 >
 > サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025 年 1 月 27 日（PT）まで引き続き機能します。</br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、2025年1月27日（PT）まで引き続き機能します。</br>
 >
-> * Campaign と Analytics 統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、その日までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
+> * Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 
@@ -104,13 +104,13 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
    * **[!UICONTROL 計算指標の作成]**
    * **[!UICONTROL セグメントの作成]**
 
-これで、製品プロファイルが設定されました。 次に、OAuth プロジェクトを作成します。
+これで、製品プロファイルが設定されました。 次に、OAuth プロジェクトを作成する必要があります。
 
 ## OAuth プロジェクトの作成 {#create-adobe-io}
 
-Adobe Analytics コネクタの設定に進むには、Adobe Developer コンソールにアクセスして、OAuth サーバー間プロジェクトを作成します。
+Adobe Analytics コネクタの設定に進むには、Adobe Developer Console にアクセスして、OAuth サーバー間プロジェクトを作成します。
 
-こちらを参照してください [このページ](oauth-technical-account.md#oauth-service) 詳細なドキュメント
+詳細なドキュメントについては、[このページ](oauth-technical-account.md#oauth-service)を参照してください。
 
 ## 設定と使用法 {#adobe-analytics-connector-usage}
 

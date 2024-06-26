@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## アップグレードの間、トラッキングリンクは機能しますか？
 
-Campaign Classic v7.3.5 以降でも、アップグレード中は既に送信済みのメールのトラッキングリンクが引き続き機能します。
+Campaign Classic v7.3.5 以降でも、アップグレード中は送信済みのメールのトラッキングリンクは引き続き機能します。
 
 ## ビルドのアップグレードプロセスの間、こちらが対応できるようにしておく必要はありますか？
 

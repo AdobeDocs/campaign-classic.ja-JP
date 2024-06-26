@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -44,8 +44,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>詳細</strong></td>
   </tr>
   <tr>
- <td>Campaign （Neolane）レガシー SDK</td>
- <td><p>モバイルアプリケーション用 Campaign （Neolane） SDK は非推奨（廃止予定）になりました。 代わりに、データ収集 UI でAdobe Experience Platform拡張機能を設定して、Adobe Campaign Mobile SDK を使用します。 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。でモバイルアプリチャネルを設定する方法を説明します <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 ドキュメント</a>.</p>
+ <td>Campaign（Neolane）レガシー SDK</td>
+ <td><p>モバイルアプリケーション用 Campaign（Neolane）SDK は非推奨（廃止予定）になりました。代わりに、データ収集 UI で Adobe Campaign 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。モバイルアプリチャネルを設定する方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 ドキュメント</a>を参照してください。</p>
 <p>削除予定日：2025 年夏 </p>
 </td>
 </tr>
@@ -88,7 +88,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> パイプラインにアクセスするために、当初は OAuth 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/Oに移行しました。この認証モードは、Campaign 20.3 リリースで非推奨（廃止予定）となりました。<p>
+  <td><p> トリガー統合認証（当初はパイプラインにアクセスするための OAuth 認証設定に基づいていた）が変更され、Adobe I/O に移動しました。この認証モードは、Campaign 20.3 リリースで非推奨となりました。<p>
   <p>トリガー統合を使用している場合は、<a href="../../integrations/using/about-triggers.md#implement">このページ</a>で実装の適応方法を確認してください。</p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->

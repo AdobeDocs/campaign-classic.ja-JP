@@ -4,26 +4,26 @@ title: 分割
 description: 分割ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '2144'
-ht-degree: 100%
+source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 98%
 
 ---
 
 # 分割{#split}
 
-
-
 「**分割**」タイプのアクティビティはターゲットを複数のサブセットに分割します。ターゲットは、受信したすべての結果から構築されます。したがって、すべての先行アクティビティは、このアクティビティが実行される前に完了している必要があります。
 
 このアクティビティは、インバウンド母集団の和集合をトリガーしません。複数のトランジションが、1 つの分割アクティビティに入れられる場合、その前に「**[!UICONTROL 和集合]**」アクティビティを挿入することをお勧めします。
 
-使用している分割アクティビティの例については、[分割アクティビティを使用したサブセットの作成](targeting-data.md#creating-subsets-using-the-split-activity)を参照してください。
+>[!NOTE]
+>
+>異なるソースを持つテーブルに対して分割操作を実行することはできません。 この目的のために、 **エンリッチメント** 次の前のアクティビティ **分割** アクティビティ。
 
-フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
-
-分割アクティビティでのインスタンス変数の使用方法を示した例については、[この節](javascript-scripts-and-templates.md)を参照してください。
+* 使用している分割アクティビティの例については、[分割アクティビティを使用したサブセットの作成](targeting-data.md#creating-subsets-using-the-split-activity)を参照してください。
+* フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
+* 分割アクティビティでのインスタンス変数の使用方法を示した例については、[この節](javascript-scripts-and-templates.md)を参照してください。
 
 このアクティビティを設定するには、「**[!UICONTROL サブセット]**」タブでサブセットコンテンツとラベルを定義してから、「**[!UICONTROL 一般]**」タブでターゲティングディメンションを選択します。
 

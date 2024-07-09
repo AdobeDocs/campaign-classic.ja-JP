@@ -8,16 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1120'
-ht-degree: 100%
+source-git-commit: b02089bd205de58c6af86fc8de3d5b3294ec9975
+workflow-type: tm+mt
+source-wordcount: '1071'
+ht-degree: 92%
 
 ---
 
 # SFTP サーバーのベストプラクティスとトラブルシューティング {#sftp-server-usage}
-
-
 
 ## SFTP サーバーのグローバルなレコメンデーション {#global-recommendations}
 
@@ -25,7 +23,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
 
-  サポートされているキーの形式は、SSH-2 RSA 2048 です。キーは、PyTTY（Windows）や ssh-keygen（Unix）などのツールを使用して生成できます。[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を通じてアドビサポートチームに公開鍵を提供して Campaign サーバーにアップロードしてもらう必要があります。
+  サポートされているキーの形式は、SSH-2 RSA 2048 です。Windows 用の SSH キーを生成するツールは PuTTYgen、Linux 用の ssh-keygen です。 Campaign Campaign コントロールパネルを介して SSH 公開鍵をアップロードできます。 [詳細情報](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * SFTP アップロードやワークフローでバッチ処理を使用します。
 
@@ -33,9 +31,9 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
 
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへの IP アドレスの追加は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を通じて依頼できます。
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。パブリック IP は、Campaign コントロールパネルを使用して追加できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
-## データベース使用のベストプラクティス {#sftp-server-best-practices}
+## SFTP ストレージ使用のベストプラクティス {#sftp-server-best-practices}
 
 SFTP サーバーは、ファイルの保持や削除を制御できる一時的なストレージスペースとなるように設計されています。
 
@@ -45,11 +43,11 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 >[!NOTE]
 >
->インスタンスが AWS でホストされている場合、Campaign Classic [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja)で SFTP サーバーストレージを監視できます。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>Campaign Classicを使用して、SFTP サーバーストレージを監視できます [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}.
 >
->コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
 >
->インスタンスは、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。
+>インスタンスは、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}を参照してください。
 
 * サーバーのサイズ機能は、ライセンスによって異なります。いずれの場合でも、最小限のデータを保持し、必要な期間だけデータを保持します（最長で 15 日）。
 
@@ -70,7 +68,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 ## アドビがホストする SFTP サーバーとの接続に関する問題 {#sftp-server-troubleshooting}
 
-アドビがホストする SFTP サーバーとの接続で問題が発生した場合は、以下を確認し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を通じてその情報をアドビサポートチームに提供します。
+以下の節では、で確認してAdobeサポートチームに提供する情報を示します。 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"} Adobeがホストする SFTP サーバーで接続の問題が発生した場合。
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 
@@ -98,11 +96,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
    myCompany-stage-sftp.neolane.net [AAA.BBB.CCC.D] 22 (ssh) open
    ```
 
-   >[!NOTE]
-   >
-   >Netcat ツールを使用すると、様々なオペレーティングシステムでネットワーク接続を簡単に管理できます（[https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/) を参照）。
-
-   ポートが開いていない場合は、接続元でアウトバウンド接続を開いてから、もう一度やり直してください。接続の問題が解消されない場合は、コマンドの出力を添えて[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)チームに連絡してください。
+   ポートが開いていない場合は、接続元でアウトバウンド接続を開いてから、もう一度やり直してください。接続の問題が解消されない場合は、コマンドの出力を添えて[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに連絡してください。
 
 1. SFTP 接続を開始しようとしているパブリック IP が、許可リストへの登録のためにアドビサポートに提供した IP であることを確認します。
 1. パスワードベースの認証を使用している場合は、パスワードの有効期限が切れている可能性があります（パスワードの有効期間は 90 日間です）。そのため、キーベースの認証を使用することを強くお勧めします（[SFTP サーバーのベストプラクティス](#sftp-server-best-practices)を参照）。

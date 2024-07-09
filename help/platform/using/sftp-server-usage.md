@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: b02089bd205de58c6af86fc8de3d5b3294ec9975
+source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 92%
+source-wordcount: '1077'
+ht-degree: 90%
 
 ---
 
@@ -43,11 +43,11 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 >[!NOTE]
 >
->Campaign Classicを使用して、SFTP サーバーストレージを監視できます [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}.
+>* Campaign Classicを使用して、SFTP サーバーストレージを監視できます [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}.
 >
->コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
+>* コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
 >
->インスタンスは、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}を参照してください。
+>* インスタンスは、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}を参照してください。
 
 * サーバーのサイズ機能は、ライセンスによって異なります。いずれの場合でも、最小限のデータを保持し、必要な期間だけデータを保持します（最長で 15 日）。
 
@@ -72,13 +72,13 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 
-   ```
+   ```xml
    https://instanceUrl/r/test
    ```
 
    インスタンスが実行中である場合は、次のタイプの応答が返されます。
 
-   ```
+   ```xml
    <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
    sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
@@ -87,7 +87,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 1. SFTP 接続を開始しようとしているサイトでアウトバウンドポート 22 が開いているかどうかを確認します。それには、次のコマンドを使用します。
 
-   ```
+   ```xml
    bash-3.2$ nc -vz <SFTP_URL> 22
    # Replace the SFTP_URL with actual SFTP instance URL
    # If the port 22 is opened you will see output similar to the below one
@@ -109,7 +109,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 ワークフロージャーナルには、次のログが表示されます。
 
-```
+```xml
 16/05/2016 12:49:03    fileTransfer    Upload error in cURL
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
@@ -144,8 +144,8 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
    それ以外の場合は、次を確認します。
 
-   * パスワードに「@」が含まれていない。パスワードに「@」が含まれている場合、接続に失敗します。
+   * パスワードにが含まれていない `@` 文字。 次の場合、接続は失敗します。 `@` パスワードに含まれる文字。
    * Adobe Campaign アプリケーションサーバーと SFTP サーバー間の通信を妨げる可能性のあるファイアウォールの問題がない。
    * キャンペーンサーバーから SFTP に対して tracert および telnet コマンドを実行し、接続に問題があるかどうかを確認します。
    * 通信プロトコルの問題がない。
-   * ポートが開いている。
+   * ポートが開いています。

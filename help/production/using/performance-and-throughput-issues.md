@@ -3,21 +3,19 @@ product: campaign
 title: パフォーマンスとスループットの問題
 description: パフォーマンスとスループットの問題
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '738'
 ht-degree: 7%
 
 ---
 
 # パフォーマンスとスループットの問題{#performance-and-throughput-issues}
-
-
 
 まず、最新のビルドがインストールされていることを確認する必要があります。 これにより、最新の機能とバグ修正が確実に提供されます。
 
@@ -54,6 +52,11 @@ Adobe Campaignは、次も提供します [ツール](../../production/using/mon
 
 * MTA および MTAChild のプロセスとメモリ： **mta** モジュールがメッセージを配布します **mtachild** 子モジュール。 Each **mtachild** メッセージを準備してから、統計サーバーに認証をリクエストして送信します。 こちらを参照してください [ページ](../../installation/using/email-deliverability.md) を参照してください。
 * TLS 設定：TLS をグローバルに有効にすると、スループットが低下する可能性があるので、推奨されません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、必要に応じて調整する必要があります。 こちらを参照してください [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
+
+  >[!NOTE]
+  >
+  >配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報を得るには、Adobeの担当者に問い合わせる必要があります。
+
 * DKIM: DKIM のセキュリティレベルを保証するために、ベストプラクティスの推奨暗号化サイズは 1024b です。 DKIM キーの値を小さくしても、大多数のアクセスプロバイダーは有効と見なしません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
@@ -62,10 +65,15 @@ Adobe Campaignは、次も提供します [ツール](../../production/using/mon
 
 * IP レピュテーション：IP レピュテーションが十分に適切でない場合、パフォーマンスに影響を与えます。 この **配信品質の監視** モジュールは、プラットフォームの配信品質パフォーマンスを追跡するための様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
 * IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間かけて新しい IP を通じてメールの数を徐々に増やす必要があります。
+
+  >[!NOTE]
+  >
+  >配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報を得るには、Adobeの担当者に問い合わせる必要があります。
+
 * IP アフィニティの設定：IP アフィニティの設定を誤ると、メールが完全に停止したり（設定でオペレーター/アフィニティ名が正しくありません）、スループットが低下したり（アフィニティに含まれる IP の数が少なくなっています）することがあります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
 * メールサイズ：メールのサイズは、スループットで重要な役割を果たします。 推奨最大メールサイズは 60 KB です。 こちらを参照してください [ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html). が含まれる [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートして、時間単位で転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者が多数ある場合、スループットに影響する可能性があります。 MTA が無効な受信者へのメールの送信を再試行し続ける。 データベースが適切に維持されていることを確認してください。
-* パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用されている JavaScript を確認します。
+* パーソナライゼーションの量：配信が「Personalization中」のままの場合は、パーソナライゼーションブロックで使用されているJavaScriptを確認します。
 
 >[!NOTE]
 >

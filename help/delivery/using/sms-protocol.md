@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '8445'
-ht-degree: 100%
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+workflow-type: tm+mt
+source-wordcount: '8466'
+ht-degree: 99%
 
 ---
 
@@ -381,6 +381,10 @@ SMPP プロバイダーへの接続を許可する MTA インスタンスの数�
 #### SMSC 実装名 {#smsc-implementation-name}
 
 SMSC 実装の名前を設定します。プロバイダーの名前に設定する必要があります。このフィールドに追加する内容については、管理者または配信品質チームにお問い合わせください。このフィールドの役割は、[SR エラー管理](sms-protocol.md#sr-error-management)の節で説明しています。
+
+>[!NOTE]
+>
+>配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報を得るには、Adobeの担当者に問い合わせる必要があります。
 
 #### サーバー {#server}
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
 
-  サポートされているキーの形式は、SSH-2 RSA 2048 です。Windows 用の SSH キーを生成するツールは PuTTYgen、Linux 用の ssh-keygen です。 Campaign Campaign コントロールパネルを介して SSH 公開鍵をアップロードできます。 [詳細情報](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
+  サポートされているキーの形式は、SSH-2 RSA 2048 です。Windows での SSH キーを生成するツールは PuTTYgen、Linux では ssh-keygen です。Campaign コントロールパネルを介して SSH 公開鍵をアップロードできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * SFTP アップロードやワークフローでバッチ処理を使用します。
 
@@ -31,7 +31,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
 
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。パブリック IP は、Campaign コントロールパネルを使用して追加できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。パブリック IP は、コントロールパネルを使用して追加できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
 ## SFTP ストレージ使用のベストプラクティス {#sftp-server-best-practices}
 
@@ -43,7 +43,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 >[!NOTE]
 >
->* Campaign Classicを使用して、SFTP サーバーストレージを監視できます [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}.
+>* Campaign Classic [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}を使用して、SFTP サーバーストレージを監視できます。
 >
 >* コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
 >
@@ -68,7 +68,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 ## アドビがホストする SFTP サーバーとの接続に関する問題 {#sftp-server-troubleshooting}
 
-以下の節では、で確認してAdobeサポートチームに提供する情報を示します。 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"} Adobeがホストする SFTP サーバーで接続の問題が発生した場合。
+アドビがホストする SFTP サーバーとの接続で問題が発生した場合は、以下を確認し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"}を通じてその情報をアドビサポートチームに提供します。
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 
@@ -144,8 +144,8 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
    それ以外の場合は、次を確認します。
 
-   * パスワードにが含まれていない `@` 文字。 次の場合、接続は失敗します。 `@` パスワードに含まれる文字。
+   * パスワードには `@` 文字は含まれません。パスワードに `@` 文字が含まれている場合、接続に失敗します。
    * Adobe Campaign アプリケーションサーバーと SFTP サーバー間の通信を妨げる可能性のあるファイアウォールの問題がない。
    * キャンペーンサーバーから SFTP に対して tracert および telnet コマンドを実行し、接続に問題があるかどうかを確認します。
    * 通信プロトコルの問題がない。
-   * ポートが開いています。
+   * ポートが開いている。

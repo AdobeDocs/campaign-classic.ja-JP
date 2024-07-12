@@ -7,9 +7,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -384,7 +384,7 @@ SMSC 実装の名前を設定します。プロバイダーの名前に設定す
 
 >[!NOTE]
 >
->配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報を得るには、Adobeの担当者に問い合わせる必要があります。
+>配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報については、お客様はアドビ担当者に問い合わせる必要があります。
 
 #### サーバー {#server}
 

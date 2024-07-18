@@ -5,10 +5,10 @@ description: PI の閲覧を制限する方法を学ぶ
 feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: e198defd60f4b12681025b04b12a1498df015047
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 70%
+source-wordcount: '449'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 ## 実装 {#implementation}
 
-任意の要素または属性に適用できる新しい属性がスキーマに追加され、既存の属性を補完します **[!UICONTROL visibleIf]** . この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
+任意の要素または属性に適用できる新しい属性がスキーマに追加され、既存の属性 **[!UICONTROL visibleIf]** を補完します。 この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
 
 この使用法を示す受信者スキーマ拡張のサンプルを以下に示します。
 
@@ -40,7 +40,7 @@ ht-degree: 70%
 主なプロパティは次のとおりです。
 
 * **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、式ビルダー内でフィールドにアクセスすることはできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
-* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIf が空の場合、と同じ式を取得します **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIf が空の場合、**[!UICONTROL accessibleIf]** と同じ式を取得します。
 
 Campaign でこの属性を使用した場合の結果は次のとおりです。
 
@@ -53,9 +53,13 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 * ターゲット母集団をグループ（リスト）に保存する場合、保存されるフィールドの特性はデータのソースと同じです。
 * デフォルトでは、JS コードからデータにアクセスできません。
 
-## レコメンデーション {#recommendations}
+>[!IMPORTANT]
+>
+>重要なパラメーター（複合キーのパラメーターなど）に **accessibleIf** 属性を使用すると、非表示のデータが原因でデータの読み取りが許可されていないユーザーにエラーが発生する可能性があります。 これにより、クエリのエラーや予期しない動作が発生する場合があります。 中断を防ぐために、必須のパラメーターに確実にアクセスできるようにします。
 
-各配信で、メールアドレスはにコピーされます **[!UICONTROL broadLog]** および **[!UICONTROL forecastLog]** テーブル：そのため、これらのフィールドも保護する必要があります。
+## 推奨事項 {#recommendations}
+
+各配信で、メールアドレスが **[!UICONTROL broadLog]** テーブルと **[!UICONTROL forecastLog]** テーブルにコピーされます。そのため、これらのフィールドも保護する必要があります。
 
 以下に、これを実装するログテーブル拡張のサンプルを示します。
 

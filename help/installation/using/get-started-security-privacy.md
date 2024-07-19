@@ -51,11 +51,11 @@ ht-degree: 52%
 
 Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
 
-* **スクリプティング**:SQL 文を避け、文字列の連結の代わりに、パラメーター化関数を使用し、使用する SQL 関数を許可リストに追加して SQL 挿入を避けます。
+* **スクリプト**:SQL 文を避け、文字列連結の代わりにパラメーター化関数を使用し、使用する SQL 関数を許可リストに追加して SQL インジェクションを避けます。
 
 * **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **Web アプリケーションへの captcha の追加**：公開ランディングページと購読ページで captcha を追加する方法を説明します。
+* **Web アプリケーションへの captcha の追加**：公開ランディングページと購読ページに captcha を追加する方法を説明します
 
 [詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
@@ -74,17 +74,17 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-設定はすべてのサーバーで実行する必要があります。 設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
+設定はすべてのサーバーで実行する必要があります。 設定ファイルのタイプは **serverConf.xml** で **`config-<instance>.xml`**。 次に、確認する必要がある重要な要素を示します。
 
-* **セキュリティゾーン**：セキュリティゾーンを設定して、プロキシのクライアントの IP アドレスを直接考慮するようにします。
+* **セキュリティゾーン**：プロキシのクライアントの IP アドレスを直接考慮するようにセキュリティゾーンを設定します。
 
-* **ファイルのアップロード保護**：新しい uploadAllowList 属性を使用して、Adobe Campaign サーバーにアップロードできるファイルのタイプを制限します。 これは、サーバー設定ファイルで使用できます。
+* **ファイルアップロード保護**：新しい uploadAllowList 属性を使用して、Adobe Campaign サーバーにアップロードできるファイルのタイプを制限します。 これは、サーバー設定ファイルで使用できます。
 
 * **リレー**：使用していないモジュール／アプリケーションのリレールールを無効にして、リレー設定を微調整します。
 
-* **発信接続の保護** および **コマンドの制限** （サーバーサイド）
+* **発信接続保護** および **コマンド制限** （サーバーサイド）
 
-* また、追加の HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効化することもできます。 を参照してください。 [Campaign サーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md) および [サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md) を参照してください。
+* また、追加の HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効化することもできます。 詳しくは、[Campaign サーバー設定ドキュメント ](../../installation/using/configuring-campaign-server.md) および [ サーバー設定ファイルの説明 ](../../installation/using/the-server-configuration-file.md) を参照してください。
 
 [詳細情報](../../installation/using/server-configuration.md)
 

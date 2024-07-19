@@ -3,7 +3,7 @@ title: IMS 移行後の Campaign インターフェイスの更新
 description: Adobe Identity Management System 移行インターフェイスの影響をアクティブ化する方法について説明します
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 

@@ -65,4 +65,4 @@ ht-degree: 16%
 
 ### インストールと設定（ミッドソーシングデプロイメント） {#installing-and-configuring--mid-sourcing-deployment-}
 
-こちらを参照してください [ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md).
+[ ミッドソーシングサーバー ](../../installation/using/mid-sourcing-server.md) を参照してください。

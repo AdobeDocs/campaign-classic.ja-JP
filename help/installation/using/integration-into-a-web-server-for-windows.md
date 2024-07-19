@@ -17,14 +17,14 @@ ht-degree: 3%
 
 # Windows 用 Web サーバーへの統合 {#integration-into-a-web-server-for-windows}
 
-Adobe Campaignには、HTTP （および SOAP）経由でアプリケーションサーバーへのエントリポイントとして機能する Apache Tomcat が含まれています。
+Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーションサーバーへのエントリポイントとして機能する Apache Tomcat が含まれています。
 
 この統合 Tomcat サーバーを使用して、HTTP リクエストを提供できます。
 
 この場合の解決策は、次のとおりです。
 
-* デフォルトのリスニングポートは 8080 です。 変更するには、を参照してください。 [この節](../../installation/using/configure-tomcat.md).
-* その後、クライアントコンソールは、次のような URL を使用して接続します ```https:// `<computer>`:8080```.
+* デフォルトのリスニングポートは 8080 です。 変更するには、[ この節 ](../../installation/using/configure-tomcat.md) を参照してください。
+* その後、クライアントコンソールは ```https:// `<computer>`:8080``` などの URL を使用して接続します。
 
 ただし、セキュリティおよび管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネットに公開され、ネットワークの外部にあるコンソールにアクセスする場合は、HTTP トラフィックの主なエントリポイントとして専用の web サーバーを使用することをお勧めします。
 
@@ -52,17 +52,17 @@ Adobe CampaignをMicrosoft IIS web サーバーと統合するには、次の手
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** スクリプトを使用すると、Adobe Campaign サーバーが使用するリソースを、作成した仮想ディレクトリに自動的に設定できます。 起動するには、 **iis_neolane_setup.vbs** に置かれたファイル `[INSTALL]\conf` フォルダー（ `[INSTALL]` は、Adobe Campaign インストールフォルダーにアクセスするためのパスです。
+1. **VBS** スクリプトを使用すると、Adobe Campaign サーバーが使用するリソースを、作成した仮想ディレクトリに自動的に設定できます。 起動するには、`[INSTALL]\conf` フォルダーにある **iis_neolane_setup.vbs** ファイルをダブルクリックします。ここで、`[INSTALL]` はAdobe Campaign インストールフォルダーにアクセスするためのパスです。
 
    >[!NOTE]
    >
    >VBS スクリプトを実行するには、管理者としてログインするか、スクリプトを管理者として実行する必要があります。
 
-   クリック **[!UICONTROL OK]** web サーバーがトラッキングリダイレクションサーバーとして使用されている場合は、クリックします **[!UICONTROL キャンセル]**.
+   Web サーバーをトラッキング リダイレクト サーバーとして使用する場合は [**[!UICONTROL OK]**] をクリックし、使用しない場合は [**[!UICONTROL キャンセル]**] をクリックします。
 
-   Web サーバーに複数のサイトが既に構成されている場合は、インストールの適用先となる Web サイトを示す中間ページが表示されます。サイトにリンクされている番号を入力し、 **[!UICONTROL OK]**.
+   Web サーバー上に複数のサイトが既に構成されている場合は、インストールの適用先となる Web サイトを示す中間ページが表示されます。サイトにリンクされている番号を入力し、[**[!UICONTROL OK]**] をクリックします。
 
-1. が含まれる **[!UICONTROL コンテンツ ビュー]** タブをクリックし、web サイトがAdobe Campaign リソースで正しく設定されていることを確認します。
+1. 「**[!UICONTROL コンテンツビュー]**」タブで、web サイトがAdobe Campaign リソースで正しく設定されていることを確認します。
 
    ツリーが表示されない場合は、Microsoft IIS を再起動します。
 
@@ -72,11 +72,11 @@ Adobe CampaignをMicrosoft IIS web サーバーと統合するには、次の手
 
 それには、次の手順に従います。
 
-1. 「」を選択します **[!UICONTROL 機能ビュー]** tab キーを押しながら **認証** リンク。
+1. **[!UICONTROL 機能ビュー]** タブを選択し、**認証** リンクをダブルクリックします。
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. が含まれる **ディレクトリセキュリティ** タブをクリックし、匿名アクセスが有効になっていることを確認します。 必要に応じて、 **[!UICONTROL 編集]** 設定を変更するためのリンクです。
+1. Web サイトの [**Directory Security**] タブで、匿名アクセスが有効になっていることを確認します。 必要に応じて、「**[!UICONTROL 編集]** リンクをクリックして設定を変更します。
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
@@ -86,7 +86,7 @@ Adobe CampaignをMicrosoft IIS web サーバーと統合するには、次の手
 
 それには、次の手順を適用します。
 
-1. を使用してMicrosoft IIS サーバーを再起動します。 **iisreset** コマンドライン。
+1. **iisreset** コマンドラインを使用して、Microsoft IIS サーバーを再起動します。
 
 1. Adobe Campaign サービスを起動し、実行中であることを確認します。
 
@@ -119,7 +119,7 @@ webmdl@default (1644) - 18.2 Mo
 
 それには、次の手順に従います。
 
-1. をクリックして、Adobe Campaign サイトの ISAPI フィルターを編集します。 **[!UICONTROL ドライバのマッピング]** アイコン。
+1. **[!UICONTROL ドライバーマッピング]** アイコンをクリックして、Adobe Campaign サイトの ISAPI フィルターを編集します。
 1. ISAPI フィルターの内容を確認します。
 
 
@@ -129,9 +129,9 @@ IIS Web サーバーを設定する場合、サーバーにアップロードさ
 
 これは、Adobe Campaignに影響を与える可能性があります。特に、この制限を超えるファイルをアップロードする場合に影響が大きくなります。
 
-例えば、 **データ読み込み（ファイル）** ワークフローにアクティビティを入力する 50 MB のファイルを読み込むには、エラーが発生するとワークフローが正しく実行されなくなります。
+例えば、ワークフローで **データ読み込み（ファイル）** タイプのアクティビティを使用して 50 MB のファイルを読み込むと、エラーにより、ワークフローが正しく実行されなくなります。
 
 この場合、この制限を増やす必要があります。
 
-このMicrosoft IIS オプションについて詳しくは、 [Microsoft ドキュメント](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+このMicrosoft IIS オプションについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"} の操作方法の節を参照してください。
 

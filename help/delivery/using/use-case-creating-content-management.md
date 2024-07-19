@@ -6,7 +6,7 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 100%
 

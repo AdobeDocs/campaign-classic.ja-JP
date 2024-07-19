@@ -5,7 +5,7 @@ description: Campaign Classic パッケージで使用できるテクニカル�
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
 

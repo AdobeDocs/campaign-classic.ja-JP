@@ -3,7 +3,7 @@ product: campaign
 title: Unicode への切り替え
 description: Unicode への切り替え
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -11,7 +11,7 @@ exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 
 
-既存のの **prod** インスタンス Linux/PostgreSQL では、unicode に切り替える手順は次のとおりです。
+Linux/PostgreSQL の既存の **prod** インスタンスの場合、Unicode に切り替える手順は次のとおりです。
 
 1. データベースへの書き込みプロセスを停止します。
 
@@ -62,7 +62,7 @@ ht-degree: 6%
    vi config-prod.xml
    ```
 
-   を追加 **u** データベース識別子に関連する値の前の文字（**databaseId**）:
+   データベース識別子（**databaseId**）に関連する値の前に **u** 文字を追加します。
 
    ```
    <web>

@@ -31,7 +31,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 FDA を使用して外部データベースへのアクセスを設定するには、次の設定手順を実行します。
 
-1. ドライバーをインストールし、Adobe Campaign サーバー上のデータベースに対応する外部アカウントを設定します。 データベース固有のページを参照してください。 [以下にリスト](#fda-specific-configuration)
+1. ドライバーをインストールし、Adobe Campaign サーバー上のデータベースに対応する外部アカウントを設定します。 以下に示すデータベース固有のページを参照 [ てください ](#fda-specific-configuration)
 1. 外部アカウントをテストするか、Adobe Campaignと外部データベースの間に一時的な接続を作成します。 [詳細](../../installation/using/connecting-to-database.md)
 1. Adobe Campaign で、外部データベースのスキーマを作成します。これにより、外部データベースのデータ構造を識別できるようになります。[詳細情報](../../installation/using/creating-data-schema.md)
 1. 必要に応じて、以前に作成したスキーマから新しいターゲットマッピングを作成します。 これは、配信の受信者を外部データベースから取得している場合に必要です。 この実装には、メッセージのパーソナライゼーションに関する制限があります。 [詳細情報](../../installation/using/defining-data-mapping.md)
@@ -44,16 +44,16 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 詳しくは、以下のリンクを参照してください。
 
-* Campaign とを接続 [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
-* Campaign とを接続 [Azure synapse](../../installation/using/configure-fda-synapse.md)
-* Campaign とを接続 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-* Campaign とを接続 [Hadoop](../../installation/using/configure-fda-hadoop.md)
-* Campaign とを接続 [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
-* Campaign とを接続 [Netezza](../../installation/using/configure-fda-netezza.md)
-* Campaign とを接続 [Oracle](../../installation/using/configure-fda-oracle.md)
-* Campaign とを接続 [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
-* Campaign とを接続 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-* Campaign とを接続 [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Campaign とを接続 [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-* Campaign とを接続 [Teradata](../../installation/using/configure-fda-teradata.md)
-* Campaign とを接続 [Vertica analytics](../../installation/using/configure-fda-vertica.md)
+* Campaign と [Amazon Redshift](../../installation/using/configure-fda-redshift.md) の接続
+* Campaign と [Azure synapse](../../installation/using/configure-fda-synapse.md) の接続
+* Campaign と [Google BigQuery](../../installation/using/configure-fda-google-big-query.md) の接続
+* Campaign と [Hadoop](../../installation/using/configure-fda-hadoop.md) の接続
+* Campaign と [Microsoft SQL Server](../../installation/using/configure-fda-sql.md) の接続
+* Campaign と [Netezza](../../installation/using/configure-fda-netezza.md) の接続
+* Campaign と [Oracle](../../installation/using/configure-fda-oracle.md) の接続
+* Campaign と [PostgreSQL](../../installation/using/configure-fda-postgresql.md) の接続
+* Campaign と [SAP HANA](../../installation/using/configure-fda-sap-hana.md) の接続
+* Campaign と [Snowflake](../../installation/using/configure-fda-snowflake.md) の接続
+* Campaign と [Sybase IQ](../../installation/using/configure-fda-sybase.md) の接続
+* Campaign と [Teradata](../../installation/using/configure-fda-teradata.md) の接続
+* Campaign と [Vertica analyticsの接続 ](../../installation/using/configure-fda-vertica.md)

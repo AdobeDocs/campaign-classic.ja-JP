@@ -17,8 +17,8 @@ ht-degree: 11%
 >[!IMPORTANT]
 >
 >一部のビルトインスキーマは、拡張できません。主に、次の設定が定義されているスキーマです。\
->**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**.\
->次のスキーマは拡張できません。 **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl：モニタリング**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
+>**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**。\
+>次のスキーマは拡張しないでください。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**、**nl:monitoring**、**nms:calendar**、**nms:remoteTracking**、**nms:userAgentRules**、**** **** **** **** **** **** **** **** **** **** **** **** **** **** xtk:builderconnections,
 >このリストは網羅的ではありません。
 
 既存のスキーマを拡張するには、次の 2 つの方法があります。
@@ -26,7 +26,7 @@ ht-degree: 11%
 1. ソーススキーマを直接変更します。
 1. 同じ名前で別の名前空間を持つ別のスキーマを作成します。 この利点は、元のスキーマを変更しなくてもテーブルを拡張できることです。
 
-   スキーマのルート要素には、次を含める必要があります **extendedSchema** 値として拡張するスキーマの名前を持つ属性。
+   スキーマのルート要素には、拡張するスキーマの名前をその値として持つ **extendedSchema** 属性が含まれている必要があります。
 
    拡張スキーマに独自のスキーマはありません。ソーススキーマから生成されたスキーマは、拡張スキーマのフィールドで入力されます。
 
@@ -34,7 +34,7 @@ ht-degree: 11%
    >
    >アプリケーションのビルトインスキーマではなく、スキーマ拡張メカニズムを変更できます。 標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、これは、Adobe Campaignの使用における誤動作の原因となる可能性があります。
 
-   **例**：の拡張 **nms:recipient** スキーマ。
+   **例**:**nms:recipient** スキーマの拡張。
 
    ```
    <srcSchema extendedSchema="nms:recipient" name="recipient" namespace="cus">
@@ -44,7 +44,7 @@ ht-degree: 11%
    </srcSchema>
    ```
 
-   この **nms:recipient** 拡張スキーマは、拡張スキーマに入力されたフィールドで入力されます。
+   **nms:recipient** 拡張スキーマには、拡張スキーマ内に設定されたフィールドが入力されます。
 
    ```
    <schema dependingSchemas="cus:recipient" name="recipient" namespace="nms">
@@ -54,9 +54,9 @@ ht-degree: 11%
    </schema>
    ```
 
-   この **dependingSchemas** スキーマのルート要素の属性は、拡張スキーマの依存関係を参照します。
+   スキーマのルート要素の **dependingSchemas** 属性は、拡張スキーマの依存関係を参照します。
 
-   この **belonesTo** フィールドの属性が、宣言されているスキーマに入力されます。
+   フィールドの **belongsTo** 属性は、スキーマが宣言されている場所に入力されます。
 
 >[!IMPORTANT]
 >

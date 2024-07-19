@@ -44,4 +44,4 @@ rm -rf /user/local/neolane
 
 **Windows の場合：**
 
-こちらを参照してください [ページ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). 必ず Campaign インストールフォルダーを削除してください。
+この [ ページ ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version) を参照してください。 必ず Campaign インストールフォルダーを削除してください。

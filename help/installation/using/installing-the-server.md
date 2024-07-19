@@ -23,7 +23,7 @@ Windows 32 ビットプラットフォームの場合は、Adobe Campaign 32 ビ
 
 Adobe Campaign サーバーのインストール手順は次のとおりです。
 
-1. ファイルを実行します **setup.exe**.
+1. ファイル **setup.exe** を実行します。
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -34,11 +34,11 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
    次の複数のインストールタイプを使用できます。
 
    * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaign アプリケーションサーバーとクライアントコンソールをインストールします。
-   * **[!UICONTROL 最小インストール（ネットワーク）]** ：ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、他のすべてのコンポーネントはネットワークドライブから使用されます。
-   * **[!UICONTROL クライアントのインストール]** :Adobe Campaign クライアントに必要なコンポーネントのインストール。
-   * **[!UICONTROL カスタムインストール]** ：インストールする要素をユーザーが選択します。
+   * **[!UICONTROL 最小インストール（ネットワーク）]**：ネットワークからクライアントコンピューターをインストールします。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、他のすべてのコンポーネントはネットワークドライブから使用されます。
+   * **[!UICONTROL クライアントのインストール]** :Adobe Campaign クライアントに必要なコンポーネントのインストール
+   * **[!UICONTROL カスタムインストール]**：インストールする要素をユーザーが選択します。
 
-   を選択 **アプリケーションサーバーのインストール**&#x200B;をクリックし、次に示すように様々な手順を実行します。
+   **アプリケーションサーバーのインストール** を選択し、次に示すさまざまな手順を実行します。
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. クリック **[!UICONTROL 終了]** インストールを開始するには：
+1. 「**[!UICONTROL 終了]**」をクリックして、インストールを開始します。
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -62,7 +62,7 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
    >
    >サーバのインストールが完了したら、ネットワークの問題を回避するためにサーバを再起動する必要があります。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 こちらを参照してください [サーバーの初回起動](#first-start-up-of-the-server).
+   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 [ サーバーの最初の起動 ](#first-start-up-of-the-server) を参照してください。
 
 ## 概要インストールテスト {#summary-installation-testing}
 
@@ -80,7 +80,7 @@ No task
 
 ## サーバーの初回起動 {#first-start-up-of-the-server}
 
-インストールテストが完了したら、 **[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューをクリックし、次のコマンドを入力します。
+インストールテストが完了したら、**[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューからコマンドプロンプトを開き、次のコマンドを入力します。
 
 ```sql
 nlserver web
@@ -100,7 +100,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-押す **Ctrl+C** プロセスを停止するには、次のコマンドを入力します。
+**Ctrl+C** を押してプロセスを停止し、次のコマンドを入力します。
 
 ```sql
 nlserver start web
@@ -135,7 +135,7 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaign サーバーは、というテクニカルログインを定義します。 **内部** すべてのインスタンスに対してすべての権限を持っています。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
+Adobe Campaign サーバーは、すべてのインスタンスに対するすべての権限を持つ **internal** というテクニカルログインを定義します。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
 
 詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 

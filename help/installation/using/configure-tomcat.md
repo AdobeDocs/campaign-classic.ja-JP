@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # Apache Tomcat の設定 {#configuring-tomcat}
 
-Adobe Campaignはを使用します **apache Tomcat と呼ばれる埋め込み web サーブレット** アプリケーションと外部インターフェイス（クライアントコンソール、トラッキングされる URL リンク、SOAP 呼び出しなど）の間の HTTP/HTTPS 要求を処理します。 多くの場合、外部に接続するAdobe Campaign インスタンス用に、このフォルダーの前に外部 web サーバー（通常は IIS または Apache）があります。
+Adobe Campaignは **Apache Tomcat と呼ばれる埋め込み web サーブレット** を使用して、アプリケーションと外部インターフェイス（クライアントコンソール、トラッキングされる URL リンク、SOAP呼び出しなど）の間の HTTP/HTTPS リクエストを処理します。 多くの場合、外部に接続するAdobe Campaign インスタンス用に、このフォルダーの前に外部 web サーバー（通常は IIS または Apache）があります。
 
-Campaign での Tomcat の詳細と、で Tomcat バージョンを見つける方法について説明します。 [このページ](../../production/using/locate-tomcat-version.md).
+Campaign での Tomcat の詳細と、Tomcat のバージョンを確認する方法については、[ このページ ](../../production/using/locate-tomcat-version.md) を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -32,12 +32,12 @@ Campaign での Tomcat の詳細と、で Tomcat バージョンを見つける�
 
 >[!NOTE]
 >
->この手順は、次の場合に制限されます **オンプレミス** のデプロイメント。
+>この手順は、**オンプレミス** デプロイメントに制限されています。
 >
 
-Tomcat サーバーの 8080 リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態の場合、8080 ポートを空きのポート（例：8090）に置き換える必要があります。 変更するには、を編集します **server.xml** に保存されたファイル **/tomcat-X/conf** Adobe Campaign インストールフォルダーのディレクトリ。
+Tomcat サーバーの 8080 リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態の場合、8080 ポートを空きのポート（例：8090）に置き換える必要があります。 変更するには、Adobe Campaign インストールフォルダーの **/tomcat-X/conf** ディレクトリに保存されている **server.xml** ファイルを編集します。
 
-次に、JSP リレーページのポートを変更します。 これを行うには、 **serverConf.xml** に保存されたファイル **/conf** Adobe Campaign インストールディレクトリのディレクトリ。
+次に、JSP リレーページのポートを変更します。 これを行うには、Adobe Campaign インストールディレクトリの **/conf** ディレクトリに保存されている **serverConf.xml** ファイルを変更します。
 
 ```xml
 <serverConf>
@@ -51,10 +51,10 @@ Tomcat サーバーの 8080 リスニングポートが、設定に必要な別�
 
 >[!NOTE]
 >
->この手順は、次の場合に制限されます **オンプレミス** のデプロイメント。
+>この手順は、**オンプレミス** デプロイメントに制限されています。
 >
 
-顧客固有の設定を定義するには、以下を作成します。 **user_contexts.xml** 内のファイル **/tomcat-X/conf** フォルダー（も含む） **contexts.xml** ファイル。
+顧客固有の設定を定義するには、**/tomcat-X/conf** フォルダーに **user_contexts.xml** ファイルを作成します。このフォルダーには **contexts.xml** ファイルも含まれています。
 
 このファイルには、次のタイプの情報が含まれます。
 
@@ -69,14 +69,14 @@ Tomcat サーバーの 8080 リスニングポートが、設定に必要な別�
 
 >[!NOTE]
 >
->この手順は、次の場合に制限されます **オンプレミス** のデプロイメント。
+>この手順は、**オンプレミス** デプロイメントに制限されています。
 >
 >この変更は、Campaign v7.4.1 以降、必要なくなりました。
 >
 
 セキュリティ上の理由から、Tomcat エラーレポートは非表示にすることを強くお勧めします。 次の手順に従います。
 
-1. を開きます **server.xml** に置かれたファイル **/tomcat-X/conf** Adobe Campaign インストールフォルダーのディレクトリ：  `/usr/local/neolane/nl6/tomcat-X/conf`
+1. Adobe Campaign インストールフォルダーの **/tomcat-X/conf** ディレクトリにある **server.xml** ファイルを開きます。`/usr/local/neolane/nl6/tomcat-X/conf`
 1. 既存のすべてのコンテキスト要素の後の下部に、次の要素を追加します。
 
    ```xml

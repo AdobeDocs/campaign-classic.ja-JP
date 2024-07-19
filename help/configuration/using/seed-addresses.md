@@ -9,7 +9,7 @@ exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 9%
 
 
 
-受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 この **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのシードアドレスにタブが追加されます。
+受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのシードアドレスにタブが追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-シードアドレスの使用について詳しくは、こちらを参照してください。 [この節](../../delivery/using/about-seed-addresses.md).
+シードアドレスの使用について詳しくは、[ この節 ](../../delivery/using/about-seed-addresses.md) を参照してください。
 
 ## 実装 {#implementation}
 
-この **nms:seedMember** 標準提供のスキーマとリンクされたフォームは、顧客の設定用に拡張して、必要なすべてのフィールドを参照することを目的としています。 スキーマ定義には、設定モードを説明するコメントが含まれています。
+**nms:seedMember** スキーマと、すぐに使用できるリンクフォームは、顧客の設定用に拡張して、必要なすべてのフィールドを参照することを目的としています。 スキーマ定義には、設定モードを説明するコメントが含まれています。
 
 受信者テーブル拡張スキーマの定義：
 
@@ -44,14 +44,14 @@ ht-degree: 9%
 
 次の手順に従います。
 
-1. の拡張機能を作成します **nms:seedMember** スキーマ。 詳しくは、[この節](../../configuration/using/extending-a-schema.md)を参照してください。
-1. この新しい拡張機能では、のルートに新しい要素を追加します。 **[!UICONTROL seedMember]** 次のパラメーターを使用します。
+1. **nms:seedMember** スキーマの拡張を作成します。 詳しくは、[この節](../../configuration/using/extending-a-schema.md)を参照してください。
+1. この新しい拡張機能では、**[!UICONTROL seedMember]** のルートに、次のパラメーターで新しい要素を追加します。
 
    ```
    name="custom_customNamespace_customSchema"
    ```
 
-   この要素には、キャンペーンのエクスポートに必要なフィールドが含まれている必要があります。 これらのフィールドは、外部スキーマの対応するフィールドと同じ名前にする必要があります。 例えば、スキーマがの場合 **[!UICONTROL cus:person]** , **[!UICONTROL nms:seedMember]** スキーマは次のように拡張する必要があります。
+   この要素には、キャンペーンのエクスポートに必要なフィールドが含まれている必要があります。 これらのフィールドは、外部スキーマの対応するフィールドと同じ名前にする必要があります。 例えば、スキーマが **[!UICONTROL cus:person]** の場合、**[!UICONTROL nms:seedMember]** スキーマは次のように拡張する必要があります。
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -70,20 +70,20 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >の拡張 **nms:seedMember** スキーマは、Adobe Campaignのキャンペーンと配信の構造に準拠している必要があります。
+   >**nms:seedMember** スキーマの拡張は、Adobe Campaignのキャンペーンと配信の構造に従う必要があります。
 
    >[!IMPORTANT]
    >
    >
    >    
    >    
-   >    * 拡張時に、を指定する必要があります **SQL 名（@sqlname）** を「メール」フィールドに入力します。 SQL 名は、受信者スキーマ用に予約されている「sEmail」とは異なる必要があります。
-   >    * 拡張時に作成したスキーマでデータベース構造を更新する必要があります **nms:seedMember**.
-   >    * が含まれる **nms:seedMember** 拡張子。メールアドレスを格納するフィールドには **name=&quot;email&quot;** を属性として使用します。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前にする必要があります。 この属性は、の下ですぐに宣言する必要があります。 **`<element name="custom_cus_person" />`** 要素。
+   >    * 拡張時に、「電子メール」フィールドに **SQL 名（@sqlname）** を指定する必要があります。 SQL 名は、受信者スキーマ用に予約されている「sEmail」とは異なる必要があります。
+   >    * **nms:seedMember** を拡張するときに作成したスキーマでデータベース構造を更新する必要があります。
+   >    * **nms:seedMember** 拡張機能では、メールアドレスを含むフィールドの属性として **name=&quot;email&quot;** が必要です。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前にする必要があります。 この属性は、**`<element name="custom_cus_person" />`** 要素の下で直ちに宣言する必要があります。
    >    
    >
 
-1. を変更する **[!UICONTROL seedMember]** に新しい「内部受信者」タブを定義するための適切なフォーム **[!UICONTROL シードアドレス]** ウィンドウ。 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
+1. **[!UICONTROL seedMember]** フォームを適宜変更して、「**[!UICONTROL シードアドレス]**」ウィンドウに新しい「内部受信者」タブを定義します。 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

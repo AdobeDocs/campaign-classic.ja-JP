@@ -9,7 +9,7 @@ exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -23,8 +23,8 @@ Adobe Campaign インターフェイスに新しい受信者テーブルを表�
 
 Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース（nms:recipient）とのダイアログを行います。 したがって、この変数は変更する必要があります。
 
-1. に移動します **[!UICONTROL 管理/プラットフォーム/オプション]** エクスプローラーのノード。
-1. の値を **Nms_DefaultRcpSchema** 外部受信者テーブルに一致するスキーマの名前を持つ変数（この場合は cus:individual）。
+1. エクスプローラーの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに移動します。
+1. **Nms_DefaultRcpSchema** 変数の値を、外部受信者テーブルに一致するスキーマの名前に変更します（この場合は cus:individual）。
 1. 変更を保存します。
 
 ## 新しいフォームの作成 {#creating-a-new-form-}
@@ -35,15 +35,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 >
 >フォームの名前は、関係するスキーマの名前と同じである必要があります。
 
-1. に移動します **管理/設定/入力フォーム** エクスプローラーのノード。
-1. 新しいを作成 **xtk:form** タイプ **フォーム** ファイル。
+1. エクスプローラーの **管理/設定/入力フォーム** ノードに移動します。
+1. **xtk:form** タイプの **form** ファイルを新規作成します。
 1. テーブルテンプレートに応じて、必要なすべての監視フィールドとフィールドについて説明します。
 
    >[!NOTE]
    >
-   >詳しくは、 **フォーム** ファイルを入力します。を参照してください [このページ](../../configuration/using/identifying-a-form.md).
+   >**form** タイプのファイルについて詳しくは、[ このページ ](../../configuration/using/identifying-a-form.md) を参照してください。
 
-   現在の例では、 **フォーム** ファイルはに基づいている必要があります **cus:individual** スキーマなので、次のレイアウトになります。
+   この現在の例では、**form** ファイルは **cus:individual** スキーマに基づく必要があるため、次のレイアウトになります。
 
    ```
    <container colspan="2">
@@ -62,15 +62,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
 ## ナビゲーション階層での新しいタイプのフォルダーの作成 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. に移動します **[!UICONTROL 管理/設定/ナビゲーション階層]** ノード。
-1. 新しいを作成 **xtk:navtree** タイプ **navtree** ドキュメント。
+1. **[!UICONTROL 管理/設定/ナビゲーション階層]** ノードに移動します。
+1. 新しい **xtk:navtree** タイプ **navtree** ドキュメントを作成します。
 1. テーブルテンプレートに応じて、必要なすべての監視フィールドとフィールドについて説明します。
 
    >[!NOTE]
    >
-   >詳しくは、 **navtree** ファイルを入力します。を参照してください [このページ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+   >**navtree** タイプのファイルについて詳しくは、[ このページ ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) を参照してください。
 
-   現在の例では、 **navtree** ファイルはに基づいている必要があります **cus:individual** スキーマなので、次の形式になります。
+   現在の例では、**navtree** ファイルは **cus:individual** スキーマに基づく必要があるため、次の形式にします。
 
    ```
     <model name="root">

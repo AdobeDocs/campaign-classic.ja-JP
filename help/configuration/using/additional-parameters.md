@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Adobe Campaign プラットフォームには、標準として 2 つの TRANSACTION タイプの web トラッキングパラメーターが用意されています。
 
-* **量**：トランザクションの量を表し、
+* **amount**：トランザクションの量を表します。
 * **記事**：トランザクションの項目数を表します。
 
-これらのパラメーターは、 **nms:webTrackingLog** レポートに表示される指標の一部を示します。
+これらのパラメーターは、**nms:webTrackingLog** スキーマで定義され、レポートに表示される指標の一部です。
 
 追加パラメーターを定義するには、このスキーマを拡張する必要があります。
 
@@ -49,11 +49,11 @@ Adobe Campaign プラットフォームには、標準として 2 つの TRANSAC
 >
 >考慮する最大文字数を増やすと、プラットフォームの web トラッキングパフォーマンスに影響を与える可能性があります。
 
-これを行うには、 **webTrackingParamSize** 属性 **`<trackinglogd>`** 内の要素 **serverConf.xml** ファイル。 このファイルは **conf** Adobe Campaign インストールディレクトリのサブディレクトリ。
+これを行うには、**serverConf.xml** ファイルの **`<trackinglogd>`** 要素の **webTrackingParamSize** 属性を変更します。 このファイルは、Adobe Campaign インストールディレクトリのサブディレクトリ **conf** に保存されます。
 
 **例**：
 
-デフォルト値は 64 文字です。 この値を使用すると、 **量** および **記事** （&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;）標準パラメーター。
+デフォルト値は 64 文字です。 この値を使用すると、**amount** および **article** （&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;）標準パラメーターを考慮できます。
 
 上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ +値のサイズ）を考慮すると、100 文字を考慮するように設定を変更できます（「amount=xxxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx」）。
 
@@ -67,22 +67,22 @@ webTrackingParamSize="64"/>
 設定を変更した場合は、次の操作を行う必要があります。
 
 * リダイレクトモジュールをホストする web サーバーを停止します（Apache、IIS など）。
-* Adobe Campaign サーバーを停止します。 **net stop nlserver6** windows の場合、 **/etc/init.d/nlserver6 停止** linux の場合
+* Adobe Campaign サーバーを停止します。**net stop nlserver6** Windows の場合、**/etc/init.d/nlserver6 stop** Linux の場合、
 
   >[!NOTE]
   >
-  >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
+  >20.1 以降では、次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl stop nlserver**
 
-* Linux では、を使用して共有メモリセグメントを削除します。 **ipcrm** コマンド、
-* Adobe Campaign サーバーを再起動します。 **net start nlserver6** windows の場合、 **/etc/init.d/nlserver6 開始** linux の場合
+* Linux の場合、**ipcrm** コマンドを使用して共有メモリセグメントを削除します。
+* Adobe Campaign サーバーを再起動します。**net start nlserver6** （Windows の場合）、**/etc/init.d/nlserver6 start** （Linux の場合）、
 
   >[!NOTE]
   >
-  >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
+  >20.1 以降では、次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver**
 
 * Web サーバーを再起動します。
 
-**例**:Linux での設定を考慮
+**例**:Linux での設定を考慮に入れる。
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -108,4 +108,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linux の場合、のサイズを大きくすると **webTrackingParamSize** または **maxSharedLogs** パラメータを使用する場合は、共有メモリ（SHM）のサイズを大きくする必要があります。
+>Linux の場合、**webTrackingParamSize** または **maxSharedLogs** パラメータのサイズを大きくすると、共有メモリ（SHM）のサイズを大きくする必要が出ることがあります。

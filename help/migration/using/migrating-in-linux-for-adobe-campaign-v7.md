@@ -22,24 +22,24 @@ ht-degree: 0%
 
 Linux での移行手順は次のとおりです。
 
-1. すべてのサービスを停止 –  [詳細情報](#service-stop).
-1. データベースを保存 –  [詳細情報](#back-up-the-database).
-1. 以前のAdobe Campaign バージョンパッケージをアンインストールする –  [詳細情報](#uninstalling-adobe-campaign-previous-version-packages).
-1. プラットフォームを移行する –  [詳細情報](#deploying-adobe-campaign-v7).
-1. サービスの再起動 –  [詳細情報](#re-starting-services).
+1. すべてのサービスを停止します [ 詳細情報 ](#service-stop)。
+1. データベースを保存します [ 詳細情報 ](#back-up-the-database)。
+1. 以前のAdobe Campaign バージョンパッケージをアンインストールする – [ 詳細情報 ](#uninstalling-adobe-campaign-previous-version-packages)。
+1. プラットフォームの移行 – [ 詳細情報 ](#deploying-adobe-campaign-v7)。
+1. サービスの再起動 – [ 詳細情報 ](#re-starting-services)。
 
 ## サービス停止 {#service-stop}
 
 まず、関係するすべてのマシン上のデータベースにアクセスできるすべてのプロセスを停止します。
 
-1. 別のユーザーとしてログイン **root**.
-1. リダイレクトモジュールを使用するすべてのサーバー（**webmdl** サービス）を停止する必要があります。 Apache の場合、次のコマンドを実行します。
+1. **root** としてログインします。
+1. リダイレクトモジュール（**webmdl** サービス）を使用するすべてのサーバーを停止する必要があります。 Apache の場合、次のコマンドを実行します。
 
    ```
    /etc/init.d/apache2 stop
    ```
 
-1. として再度ログインします **root**.
+1. **root** として再度ログインします。
 1. すべてのサーバーでAdobe Campaignの以前のバージョンのサービスを停止します。
 
    ```
@@ -156,7 +156,7 @@ Linux での移行手順は次のとおりです。
 -->
 
 1. Adobe Campaign データベースのバックアップを作成します。
-1. 別のユーザーとしてログイン **ネオラン** をバックアップします **nl6** 次のコマンドを使用してディレクトリを指定します。
+1. **neolane** としてログインし、次のコマンドを使用して **nl6** ディレクトリのバックアップを作成します。
 
    ```
    su - neolane
@@ -165,7 +165,7 @@ Linux での移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防措置として、を圧縮することをお勧めします **nl6.back** フォルダーを作成し、サーバー以外の安全な場所に保存します。
+   >予防策として、**nl6.back** フォルダーを zip で圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
 
 ## Adobe Campaignの以前のバージョンパッケージのアンインストール {#uninstalling-adobe-campaign-previous-version-packages}
 
@@ -213,10 +213,10 @@ Linux での移行手順は次のとおりです。
 
 この節では、Adobe Campaign v6.1 パッケージをアンインストールする方法について説明します。
 
-1. 別のユーザーとしてログイン **root**.
+1. **root** としてログインします。
 1. 次のコマンドを使用して、インストールされているAdobe Campaign パッケージを特定します。
 
-   * 対象： **Debian**:
+   * **Debian** で：
 
      ```
      dpkg -l | grep nl
@@ -229,7 +229,7 @@ Linux での移行手順は次のとおりです。
      ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
      ```
 
-   * 対象： **レッドハット**:
+   * **Red Hat** の場合：
 
      ```
      rpm -qa | grep nl
@@ -237,13 +237,13 @@ Linux での移行手順は次のとおりです。
 
 1. Adobe Campaign v6 パッケージをアンインストールします。
 
-   * 対象： **Debian**:
+   * **Debian** で：
 
      ```
      dpkg --purge nlserver6 nlthirdparty6
      ```
 
-   * 対象： **レッドハット**:
+   * **Red Hat** の場合：
 
      ```
      rprm -ev nlserver6 nlthirdparty6
@@ -473,13 +473,13 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
 1. 次のコマンドを使用して、最新のAdobe Campaign v7 パッケージをインストールします。
 
-   * 対象： **Debian**:
+   * **Debian** で：
 
      ```
      dpkg -i nlserver6-XXXX-amd64_debX.deb
      ```
 
-   * 対象： **レッドハット**:
+   * **Red Hat** の場合：
 
      ```
      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -491,7 +491,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 はにインストールされています **/usr/local/neolane/nl6/** デフォルトでは、ディレクトリです。
+   >Adobe Campaign v7 は、デフォルトで **/usr/local/neolane/nl6/** ディレクトリにインストールされます。
 
 1. クライアントコンソールのインストールプログラムを使用可能にするには、次の手順でAdobe Campaign インストールディレクトリにコピーします。
 
@@ -501,9 +501,9 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!NOTE]
    >
-   >Linux でのAdobe Campaignのインストール方法について詳しくは、以下を参照してください。 [この節](../../installation/using/installing-campaign-standard-packages.md).
+   >Linux へのAdobe Campaignのインストール方法について詳しくは、[ この節 ](../../installation/using/installing-campaign-standard-packages.md) を参照してください。
 
-1. に移動します **nl6.back** フォルダーをバックアップし、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 別のユーザーとしてログイン **ネオラン** さらに、次のコマンドを実行します。
+1. **nl6.back** backup フォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 **neolane** としてログインし、次のコマンドを実行します。
 
    ```
    su - neolane
@@ -520,7 +520,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    nlserver config -reload
    ```
 
-1. 次のコマンドを使用して、アップグレード後のプロセスを開始します（引き続き **ネオラン**）:
+1. 次のコマンドを使用して、アップグレード後のプロセスを開始します（引き続き **neolane**）。
 
    ```
    su - neolane

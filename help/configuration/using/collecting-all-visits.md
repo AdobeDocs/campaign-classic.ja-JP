@@ -26,11 +26,11 @@ Adobe Campaignが提供する web トラッキングモジュールを使用す�
 
 ## サーバー設定 {#server-configuration}
 
-サーバーは、の特定の要素をオーバーロードすることで設定されます。 **serverConf.xml** ファイル。 これらのファイルは、 **conf** Adobe Campaign インストールディレクトリのサブディレクトリ。
+サーバーは、**serverConf.xml** ファイルの特定の要素をオーバーロードすることで設定されます。 これらのファイルは、Adobe Campaign インストールディレクトリのサブディレクトリ **conf** に保存されます。
 
 ### リダイレクトサーバー {#redirection-server}
 
-リダイレクトサーバーには、 **trackWebVisitors** 属性 **リダイレクト** 要素の移動先 **true**.
+リダイレクトサーバーの場合、**redirection** 要素の **trackWebVisitors** 属性を **true** に設定します。
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -43,7 +43,7 @@ trackingPassword=""
 
 クライアントコンソールを使用してトラッキング情報を表示するには、次の手順に従います。
 
-* を作成 **ダミー配信** 配信マッピングは、ターゲットスキーマのマッピングと同一である必要があります。
-* を入力 **内部名** この配信の **NmsTracking_WebTrackingDelivery** オプション。
+* **ダミー配信** を作成します（配信マッピングは、ターゲットスキーマのマッピングと同じである必要があります）。
+* **NmsTracking_WebTrackingDelivery** オプションに、この配信の **内部名** を入力します。
 
 メール内をクリックした直後ではない、すべてのサイトトラッキング情報は、作成したダミーの配信で表示できます。

@@ -23,16 +23,16 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 * お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)で確認してください。
 * Campaign サーバーの URL を取得する
 * ユーザー資格情報を取得する
-* Microsft Edge Webview2 ランタイムをシステムにインストールします（Campaign Classic 7.3 のビルドバージョンから）。 [詳細情報](#webview)
+* Microsft Edge Webview2 ランタイムを（Campaign Classic 7.3 のビルドバージョンから）システムにインストールします。 [詳細情報](#webview)
 
 クライアントコンソールをインストールまたは更新するプロセスは、Adobe Campaign Classicの実装によって異なります。
 実装に必要な事項を理解するには、以下の詳細を確認してください。
 
-![](assets/do-not-localize/how-to-video.png) でAdobe Campaign クライアントをインストールおよび設定する方法を確認してください [ビデオ](#video)
+Adobe Campaign クライアントのインストールおよびセットアップ方法に ![](assets/do-not-localize/how-to-video.png) いては、[ ビデオ ](#video) を参照してください
 
 >[!CAUTION]
 >
->* Campaign クライアントコンソールと Campaign アプリケーションサーバーを実行する必要がある **同じ製品バージョンで**. Adobeは、を使用することを強くお勧めします **同じ製品ビルド**. で Campaign クライアントとサーバーのバージョンを確認する方法を学ぶ [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>* Campaign クライアントコンソールと Campaign アプリケーションサーバーは **同じ製品バージョンで** 実行する必要があります。 また、Adobeでは **同じ製品ビルド** を使用することを強くお勧めします。 Campaign クライアントとサーバーのバージョンを確認する方法については、[ この節 ](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) を参照してください。
 >
 >* コンソールがインストールされているインストールフォルダーへのアクセスは、意図したユーザーのみに制限してください。これにより、書き込み権限が適切に制限されます。
 
@@ -42,7 +42,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign Classicコンソールインストーラーにより、次からダウンロードするように求められます。 [Microsoft開発者向け web サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign Classicコンソールインストーラーにより、[Microsoft Developer web サイト ](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp) からダウンロードするように求められます。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeホスト型実装 {#hosted-customers}
 
@@ -50,9 +50,9 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 1. Adobeは直接デプロイできます。 コンソールが更新されると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-1. クライアントコンソールには、 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
+1. [ ソフトウェア配布 ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) からクライアントコンソールにダウンロードできます
 
-   **ユーザーが更新を完了するには、管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにをデプロイする必要があります**
+   **更新を完了するには、ユーザーは管理者アクセス権が必要です。 ユーザーが管理者権限を持っていない場合、システム管理者はすべてのクライアントコンソールにをデプロイする必要があります**
 
 ## ハイブリッド実装およびオンプレミス実装 {#hybrid-onprem-customers}
 
@@ -75,11 +75,11 @@ Adobe Campaign アプリケーションサーバー（nlserver web）の起動�
 
 ### 今後この質問をしないオプション
 
-Adobeは、このオプションを使用しないことをお勧めします **[!UICONTROL 今後この質問をしない]** コンソールの新しいバージョンが利用可能になったときに、すべてのユーザーにアラートが送信されるようにするには、このオプションを選択しないでください。  このオプションを選択すると、新しく利用可能になったバージョンは通知されません。
+Adobeは、コンソールの新しいバージョンが利用可能になったときにすべてのユーザーにアラートが送信されるようにするために、「**[!UICONTROL 今後この質問をしない]**」オプションを選択しないままにすることをお勧めします。  このオプションを選択すると、新しく利用可能になったバージョンは通知されません。
 
-次の場合 **[!UICONTROL 今後この質問をしない]**  が選択されました。このプロンプトをリセットできます。 Windows レジストリの編集に慣れているシステム管理者だけが、次の変更を行う必要があります。
+**[!UICONTROL 今後この質問をしない]** が選択されている場合は、このプロンプトをリセットできます。 Windows レジストリの編集に慣れているシステム管理者だけが、次の変更を行う必要があります。
 
-1. を使用してレジストリエディターを開きます。 **regedit** コマンドを **[!UICONTROL 開始/実行]** メニュー。
+1. **スタート/ファイル名を指定して実行** メニューから **[!UICONTROL regedit]** コマンドを使用してレジストリエディターを開きます。
 
 1. ノードを検索して展開します。
 
@@ -87,7 +87,7 @@ Adobeは、このオプションを使用しないことをお勧めします **
    \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient
    ```
 
-1. を削除 **confAdvisedUpgrade** レジストリ エディタを開いて閉じます。
+1. **confAdvisedUpgrade** エントリを削除し、レジストリエディターを閉じます。
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Adobeは、このオプションを使用しないことをお勧めします **
 
 Campaign サーバーフォルダーでコンソールを使用できるようになると、ポップアップウィンドウに最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-**ユーザーが更新を完了するには、管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにをデプロイする必要があります**
+**更新を完了するには、ユーザーは管理者アクセス権が必要です。 ユーザーが管理者権限を持っていない場合、システム管理者はすべてのクライアントコンソールにをデプロイする必要があります**
 
 
 ### 新しい実装のためのコンソールのダウンロード{#download-the-client-console}
@@ -114,15 +114,15 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
    必要に応じて、インスタンスの作成時に定義した内部アカウントの資格情報を使用します。
 
-1. 「」をクリックします **[!UICONTROL Download]** インストールページのリンク。
+1. インストールページの **[!UICONTROL ダウンロード]** リンクをクリックします。
 1. クライアント設定ファイルをダウンロードして保存します。
-1. ダウンロードしたファイルを Windows のコンピューターで実行します。インストールが開始されます。 クライアントコンソールのデフォルトのインストールパスはです。 **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX クライアント**：ここで「X」は、Adobe Campaignのバージョンに応じて「6」または「7」です。
+1. ダウンロードしたファイルを Windows のコンピューターで実行します。インストールが開始されます。 クライアントコンソールのデフォルトのインストールパスは、**$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client** です。ここで、「X」は、Adobe Campaignのバージョンに応じて「6」または「7」です。
 
 ### 接続の作成 – 初回ユーザーのみ{#create-the-connection}
 
 クライアントコンソールをインストールしたら、次の手順に従ってアプリケーションサーバーへの接続を作成します。
 
-1. Windows からコンソールを起動します **[!UICONTROL 開始]** メニュー（内） **Adobe Campaign** プログラムグループ。
+1. Windows の **[!UICONTROL スタート]** メニューで、**Adobe Campaign** プログラムグループのコンソールを起動します。
 
 1. 資格情報フィールドの右上隅にあるリンクをクリックして、接続設定ウィンドウにアクセスします。
 
@@ -134,9 +134,9 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
 1. URL 経由で Adobe Campaign アプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、または IP アドレスを使用します。
 
-   例えば、 `https://<machine>.<domain>.com` url を入力します。
+   例えば、`https://<machine>.<domain>.com` タイプの URL を使用できます。
 
-1. Adobe IMSが組織に対して設定されている場合は、「」オプションをオンにします **[!UICONTROL Adobe IDとの接続]**
+1. Adobe IMSが組織に対して設定されている場合は、「**[!UICONTROL Adobe IDで接続]**」オプションをオンにします
 
 1. 「**[!UICONTROL OK]**」をクリックして設定を保存します。
 
@@ -150,15 +150,15 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
 既存のインスタンスにログオンするには、以下の手順に従います。
 
-1. Windows からコンソールを起動します **[!UICONTROL 開始]** メニュー（内） **Adobe Campaign** プログラムグループ。
+1. Windows の **[!UICONTROL スタート]** メニューで、**Adobe Campaign** プログラムグループのコンソールを起動します。
 
 1. 資格情報フィールドの右上隅にあるリンクをクリックして、接続設定ウィンドウにアクセスします。
 
 1. ログインする必要がある Campaign インスタンスを選択します。
 
-1. クリック **[!UICONTROL Ok]**
+1. 「**[!UICONTROL OK]**」をクリックします。
 
-1. ユーザーログイン資格情報を入力し、 **[!UICONTROL ログイン]**
+1. ユーザーログイン資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
 **関連トピック**
 
-* [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+* [ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md)。
 * [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 ## チュートリアルビデオ

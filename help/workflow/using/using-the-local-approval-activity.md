@@ -5,7 +5,7 @@ description: ローカルの承認アクティビティの使用方法を学ぶ
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 100%
 

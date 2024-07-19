@@ -17,9 +17,9 @@ ht-degree: 2%
 
 ## テーブルの拡張 {#extending-a-table}
 
-を拡張するには **nms:recipient** スキーマ受信者テーブル。次の手順を適用します。
+**nms:recipient** スキーマ受信者テーブルを拡張するには、次の手順を適用します。
 
-1. 拡張スキーマの作成（**cus:extension**）に設定する必要があります。
+1. 次のデータを使用して、拡張スキーマ（**cus:extension**）を作成します。
 
    ```
    <srcSchema mappingType="sql" name="extension" namespace="cus" xtkschema="xtk:srcSchema" extendedSchema="nms:recipient">  
@@ -40,13 +40,13 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   この例では、インデックス付きフィールド （**忠実度**）が追加され、 **場所** 要素（既にに存在する） **nms:recipient** スキーマ）に列挙フィールド（**面グラフ**）に設定します。
+   この例では、インデックス付きフィールド（**fidelity**）が追加され、**location** 要素（既に **nms:recipient** スキーマに存在）が列挙フィールド（**area**）で補完されます。
 
    >[!IMPORTANT]
    >
-   >を忘れずに追加してください。 **extendedSchema** 拡張スキーマを参照する属性。
+   >拡張スキーマを参照するには、**extendedSchema** 属性を必ず追加してください。
 
-1. 拡張されたスキーマがであることを確認 **nms:recipient** スキーマと、追加データが存在すること：
+1. 拡張されたスキーマが **nms:recipient** スキーマであり、追加のデータが存在することを確認します。
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -101,7 +101,7 @@ ht-degree: 2%
 </srcSchema>
 ```
 
-テーブルタイプはです **autopk** リンクを受信者テーブルに結合する際に使用する、自動生成されたプライマリキーを作成する方法を説明します。
+受信者テーブルへのリンクの結合で使用される、自動生成されたプライマリキーを作成するためのテーブルタイプは **autopk** です。
 
 スキーマが生成されました：
 
@@ -153,7 +153,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 
 拡張テーブルの目的は、テーブルでサポートされるフィールドの数に関する制限を回避したり、オンデマンドで消費されるデータが占有するスペースを最適化したりすることです。
 
-拡張テーブルスキーマの作成（**cus:feature**）:
+拡張テーブルスキーマを作成しています（**cus:feature**）:
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -203,7 +203,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 オーバーフローテーブルには、拡張するテーブルへの外部キーが含まれています。 したがって、拡張するテーブルは変更されません。 2 つのテーブル間の関係は、拡張するテーブルのプライマリキーの値です。
 
-オーバーフローテーブルスキーマの作成（**cus:overflow**）:
+オーバーフローテーブルスキーマを作成しています（**cus:overflow**）:
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -235,9 +235,9 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 関連テーブルを使用すると、カーディナリティ N-N を持つ 2 つのテーブルをリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれます。
 
-グループ間の関係テーブルの例（**nms:group**）と受信者（**nms:recipient**）に設定します。
+グループ（**nms:group**）と受信者（**nms:recipient**）の間の関係テーブルの例。
 
-関係テーブルのソーススキーマ :
+関係テーブルのSource スキーマ：
 
 ```
 <srcSchema name="rcpGrpRel" namespace="cus">
@@ -301,7 +301,7 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 このユースケースでは、ビルトインのAdobe Campaign列挙メカニズム（enum、userEnum、dbEnum）の代わりに既存の参照テーブルを使用する方法を示します。
 
-また、既存の参照テーブルをスキーマの列挙として使用することもできます。 それには、テーブルと参照テーブルの間にリンクを作成し、属性を追加します **displayAsField=&quot;true&quot;**.
+また、既存の参照テーブルをスキーマの列挙として使用することもできます。 これを行うには、テーブルと参照テーブルの間にリンクを作成し、属性 **displayAsField=&quot;true&quot;** を追加します。
 
 この例では、参照テーブルに銀行名と識別子のリストが含まれています。
 
@@ -319,7 +319,7 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-この参照テーブルを使用する任意のテーブルで、リンクを定義し、 **displayAsField=&quot;true&quot;** 属性。
+この参照テーブルを使用する任意のテーブルで、リンクを定義し、**displayAsField=&quot;true&quot;** 属性を追加します。
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
@@ -331,7 +331,7 @@ xtkschema="xtk:srcSchema">
 
 * オートコンプリートするには、参照テーブルに計算文字列を定義する必要があります。
 
-* を追加 **noDbIndex=&quot;true&quot;** Adobe Campaignが、リンクのソーステーブルに格納された値に基づいてインデックスを作成できないようにするリンク定義の属性。
+* Adobe Campaignが、リンクのソーステーブルに格納された値に対してインデックスを作成できないようにするには、リンク定義に **noDbIndex=&quot;true&quot;** 属性を追加します。
 
 ## 関連トピック
 

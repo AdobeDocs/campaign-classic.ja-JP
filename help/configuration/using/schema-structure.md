@@ -21,7 +21,7 @@ ht-degree: 67%
 
 ## データスキーマ  {#data-schema}
 
-の場合 `<srcschema>`の場合、構造は次のようになります。
+`<srcschema>` の場合、構造は次のようになります。
 
 ```sql
 <srcSchema>
@@ -105,7 +105,7 @@ ht-degree: 67%
 <element name="recipient">
 ```
 
-この **`<attribute>`** および **`<element>`** メイン要素の後に続く要素は、XML 構造内のデータ項目の場所と名前を定義するために使用されます。
+メイン要素の後に続く **`<attribute>`** 要素と **`<element>`** 要素は、XML 構造内のデータ項目の場所と名前を定義するために使用されます。
 
 サンプルスキーマでは、次のようになります。
 
@@ -134,7 +134,7 @@ ht-degree: 67%
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、の説明で確認できます [`<attribute>` 要素](../../configuration/using/schema/attribute.md) および [`<element>` 要素](../../configuration/using/schema/element.md).
+詳細なリストは、[`<attribute>` 要素の説明 ](../../configuration/using/schema/attribute.md) および [`<element>` 要素 ](../../configuration/using/schema/element.md) で利用できます。
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -155,7 +155,7 @@ ht-degree: 67%
 
   >[!NOTE]
   >
-  >を含めるには **uuid** Microsoft SQL Server 以外の RDBMS のフィールド `the newuuid()` 関数を追加し、デフォルト値を使用して完了する必要があります。
+  >Microsoft SQL Server 以外の RDBMS に **uuid** フィールドを含めるには、関数 `the newuuid()` 追加し、デフォルト値を設定する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -185,68 +185,68 @@ ht-degree: 67%
   </tr> 
   <tr> 
    <td> 文字列<br /> </td> 
-   <td> VARCHAR （255）<br /> </td> 
-   <td> VARCHAR2 （Unicode の場合は NVARCHAR2）<br /> </td> 
+   <td> VARCHAR （255） <br /> </td> 
+   <td> VARCHAR2 （Unicode の場合は NVARCHAR2） <br /> </td> 
   </tr> 
   <tr> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER （3）<br /> </td> 
+   <td> NUMBER （3） <br /> </td> 
   </tr> 
   <tr> 
-   <td> バイト<br /> </td> 
+   <td> バイト <br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER （3）<br /> </td> 
+   <td> NUMBER （3） <br /> </td> 
   </tr> 
   <tr> 
-   <td> 短い<br /> </td> 
+   <td> 短い <br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER （5）<br /> </td> 
+   <td> NUMBER （5） <br /> </td> 
   </tr> 
   <tr> 
-   <td> ダブル<br /> </td> 
-   <td> 倍精度<br /> </td> 
-   <td> 浮動小数<br /> </td> 
+   <td> ダブル <br /> </td> 
+   <td> 倍精度 <br /> </td> 
+   <td> 浮動小数 <br /> </td> 
   </tr> 
   <tr> 
-   <td> ロング<br /> </td> 
-   <td> 整数<br /> </td> 
-   <td> NUMBER （10）<br /> </td> 
+   <td> 長い <br /> </td> 
+   <td> 整数 <br /> </td> 
+   <td> NUMBER （10） <br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
-   <td> NUMBER （20）<br /> </td> 
+   <td> NUMBER （20） <br /> </td> 
   </tr> 
   <tr> 
    <td> 日付<br /> </td> 
-   <td> 日付<br /> </td> 
-   <td> 日付<br /> </td> 
+   <td> 日付 <br /> </td> 
+   <td> 日付 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 時間<br /> </td> 
-   <td> 時間<br /> </td> 
-   <td> 浮動小数<br /> </td> 
+   <td> 時間 <br /> </td> 
+   <td> 時間 <br /> </td> 
+   <td> 浮動小数 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 日時<br /> </td> 
+   <td> 日時 <br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> 日付<br /> </td> 
+   <td> 日付 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 日時の<br /> </td> 
+   <td> Datetimenoz<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> 日付<br /> </td> 
+   <td> 日付 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 期間<br /> </td> 
-   <td> 倍精度<br /> </td> 
-   <td> 浮動小数<br /> </td> 
+   <td> 期間 <br /> </td> 
+   <td> 倍精度 <br /> </td> 
+   <td> 浮動小数 <br /> </td> 
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
-   <td> テキスト<br /> </td> 
-   <td> CLOB （Unicode の場合は NCLOB）<br /> </td> 
+   <td> テキスト <br /> </td> 
+   <td> CLOB （Unicode の場合は NCLOB） <br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
@@ -258,7 +258,7 @@ ht-degree: 67%
 
 ## プロパティ {#properties}
 
-この **`<elements>`** および **`<attributes>`** データスキーマの要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
+データスキーマの **`<elements>`** 要素と **`<attributes>`** 要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -294,9 +294,9 @@ ht-degree: 67%
 
 ### デフォルト値 {#default-values}
 
-の使用 **default** コンテンツ作成時にデフォルト値を返す式を定義するプロパティ。
+コンテンツ作成時にデフォルト値を返す式を定義するには、**default** プロパティを使用します。
 
-値は、XPath 言語に準拠した式である必要があります。 詳しくは、次を参照してください [XPath を使用した参照](../../configuration/using/schema-structure.md#referencing-with-xpath).
+値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath を使用した参照 ](../../configuration/using/schema-structure.md#referencing-with-xpath) を参照してください。
 
 **例**：
 
@@ -307,9 +307,9 @@ ht-degree: 67%
 
   >[!NOTE]
   >
-  >Adobe Campaign クライアントコンソールで、を参照します **[!UICONTROL 管理/ カウンター]** カウンターを管理するエクスプローラーのフォルダー。
+  >Adobe Campaign クライアントコンソールで、エクスプローラーの **[!UICONTROL 管理/カウンター]** フォルダーを参照して、カウンターを管理します。
 
-フィールドにデフォルト値をリンクするには、を使用できます `<default>`  または  `<sqldefault>`   フィールド。
+フィールドにデフォルト値をリンクするには、`<default>` または `<sqldefault>` を使用できます   フィールド。
 
 `<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。値はデフォルトの SQL 値ではありません。
 
@@ -319,7 +319,7 @@ ht-degree: 67%
 
 #### 列挙を開く {#free-enumeration}
 
-この **userEnum** プロパティを使用すると、開いている列挙を定義して、このフィールドに入力した値を保存および表示できます。
+**userEnum** プロパティを使用すると、開いている定義済みリストを定義して、このフィールドに入力した値を保存して表示することができます。
 
 構文は以下のようになります。
 
@@ -331,7 +331,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->Adobe Campaign クライアントコンソールで、を参照します **[!UICONTROL 管理/列挙]** 列挙を管理するエクスプローラーのフォルダー。
+>Adobe Campaign クライアントコンソールで、定義済みリストを管理するエクスプローラーの **[!UICONTROL 管理/定義済みリスト]** フォルダーを参照します。
 
 #### 定義済みリストを設定 {#set-enumeration}
 
@@ -358,18 +358,18 @@ ht-degree: 67%
 定義済みリストのプロパティは次のとおりです。
 
 * **baseType**：値に関連付けられているデータのタイプ
-* **ラベル**：列挙の説明
-* **名前**：列挙の名前
+* **label**：定義済みリストの説明
+* **name**：列挙の名前
 * **default**：列挙のデフォルト値
 
 定義済みリストの値は、次の属性を持つ **`<value>`** 要素で宣言します。
 
-* **名前**：内部的に保存された値の名前
-* **ラベル**：グラフィカルインターフェイスに表示されるラベル
+* **name**：内部的に保存された値の名前
+* **label**: グラフィカルインターフェイスに表示されるラベル
 
 #### dbenum 定義済みリスト {#dbenum-enumeration}
 
-*その **dbenum** プロパティでは、のプロパティに類似したプロパティを持つ定義済みリストを定義できます **列挙** プロパティ。
+***dbenum** プロパティを使用すると、**enum** プロパティと類似したプロパティを持つ定義済みリストを定義できます。
 
 ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
 
@@ -433,7 +433,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **@email**：メールを選択します。
 * **location/@city**：**`<location>`** 要素の「市区町村」属性を選択します。
-* **../@email**：現在の要素の親要素からメールアドレスを選択します
+* **../@email**：現在の要素の親要素からメールアドレスを選択します。
 * **group`[1]/@label`**：最初の **`<group>`** コレクション要素の子要素である「label」属性を選択します。
 * **group`[@label='test1']`**：**`<group>`** 要素の子で、値「test1」を含む「label」属性を選択します。
 
@@ -459,7 +459,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 **例**：
 
 * **GetDate()**：現在の日付を返します。
-* **年（@created）**:「created」属性に含まれる日付の年を返します。
+* **Year （@created）**:「created」属性に含まれる日付の年を返します。
 * **GetEmailDomain （@email）**：メールアドレスのドメインを返します
 
 ## 文字列計算を使用した文字列の作成 {#building-a-string-via-the-compute-string}

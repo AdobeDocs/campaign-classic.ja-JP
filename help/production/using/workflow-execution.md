@@ -30,23 +30,23 @@ ht-degree: 14%
 
 ## キャンペーンはできるだけ早く開始 {#start-as-soon-as-possible-in-campaigns}
 
-場合によっては、キャンペーンから実行されたワークフローが、 **[!UICONTROL 開始]** ボタン。 開始する代わりに、「できるだけ早く開始」状態になります。
+キャンペーンから実行されたワークフローが、「**[!UICONTROL 開始]**」ボタンをクリックしても開始しない場合があります。 開始する代わりに、「できるだけ早く開始」状態になります。
 
 この問題には複数の原因が考えられます。次の手順に従って解決してください。
 
-1. を確認します [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) テクニカルワークフローステータス。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗すると、ワークフローが開始/停止しません。 再開して、キャンペーンワークフローの実行を再開します。
+1. [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) テクニカルワークフローステータスを確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗すると、ワークフローが開始/停止しません。 再開して、キャンペーンワークフローの実行を再開します。
 
-   テクニカルワークフローの監視について詳しくは、次を参照してください： [このページ](../../workflow/using/monitoring-technical-workflows.md).
+   テクニカルワークフローの監視については、[ このページ ](../../workflow/using/monitoring-technical-workflows.md) を参照してください。
 
    >[!NOTE]
    >
-   >ワークフローが再開されたら、保留中のタスクを必ず実行します（ **[!UICONTROL スケジューラー]** アクティビティ / **[!UICONTROL 保留中のタスクを今すぐ実行]**）を選択して、いずれかのアクティビティで再び失敗したかどうかを確認します。
+   >ワークフローが再開したら、保留中のタスクが実行されていることを確認します（**[!UICONTROL スケジューラー]** アクティビティ/**[!UICONTROL 保留中のタスクを今すぐ実行]** を右クリック）。いずれかのアクティビティで再び失敗したかどうかを確認します。
 
    それでもワークフローが失敗する場合は、監査ログで特定のエラーを確認し、適切なトラブルシューティングを行ってから、ワークフローを再起動します。
 
-1. を確認します **[!UICONTROL wfserver]** でのモジュールの状態 **[!UICONTROL 監視]** タブ、Campaign Classicホームページからアクセス（を参照） [プロセスの監視](../../production/using/monitoring-processes.md)）に設定します。 このプロセスは、すべてのワークフローを実行します。
+1. Campaign Classicホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。 このプロセスは、すべてのワークフローを実行します。
 
-   管理者ユーザーは、 **wfserver@`<instance>`** モジュールは、以下のコマンドを使用してメインアプリケーションサーバーで起動されます。
+   管理者ユーザーは、次のコマンドを使用して、**wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されていることを確認することもできます。
 
    ```
    nlserver pdump
@@ -67,29 +67,29 @@ ht-degree: 14%
    >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルによって識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
-   モジュールの再起動方法の詳細については、次を参照してください。 [この節](../../production/using/usual-commands.md#module-launch-commands).
+   モジュールの再起動方法については、[ この節 ](../../production/using/usual-commands.md#module-launch-commands) を参照してください。
 
-1. 次の場合を確認します **実行中のキャンペーンプロセスの数** インスタンス上がしきい値を超えています。 によって定義された制限があります [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) インスタンス上で並行して実行できる campaign プロセスの数に関するオプション。 この制限に達すると、実行しているワークフローの数が制限を超えている限り、ワークフローは「できるだけ早く開始」状態のままになります。
+1. インスタンス上で **実行中のキャンペーンプロセスの数** がしきい値を超えていないかどうかを確認します。 [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) オプションでは、インスタンス上で並行して実行できるキャンペーンプロセスの数に制限があります。 この制限に達すると、実行しているワークフローの数が制限を超えている限り、ワークフローは「できるだけ早く開始」状態のままになります。
 
    この問題を解決するには、不要なワークフローを停止し、失敗した配信を削除します。 しきい値に達した場合、これにより新しいプロセスの実行が可能になります。
 
-   インスタンスで実行されているワークフローの数を確認するには、事前定義済みのビュー（デフォルトでアクセス可能）を使用することをお勧めします **[!UICONTROL 管理]** / **[!UICONTROL 監査]** フォルダー。 詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)を参照してください。
+   インスタンスで実行されているワークフローの数を確認するには、事前定義済みのビューを使用することをお勧めします。このビューは、デフォルトで **[!UICONTROL 管理]**/**[!UICONTROL 監査]** フォルダーからアクセスできます。 詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)を参照してください。
 
    >[!IMPORTANT]
    >
-   >を増やす **[!UICONTROL NmsOperation_LimitConcurrency]** オプションのしきい値は、インスタンスのパフォーマンスの問題を引き起こす場合があります。 いずれの場合も、これを自分で実行せず、Adobe Campaignの担当者にお問い合わせください。
+   >**[!UICONTROL NmsOperation_LimitConcurrency]** オプションのしきい値を増やすと、インスタンスのパフォーマンスの問題が発生する場合があります。 いずれの場合も、これを自分で実行せず、Adobe Campaignの担当者にお問い合わせください。
 
 ワークフローの監視方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
 
 ## 開始中 {#start-in-progress}
 
-ワークフローが実行されておらず、ステータスがの場合 **開始中**、ワークフローモジュールが起動されていないことを意味する場合があります。
+ワークフローが実行されておらず、ステータスが **開始中** の場合は、ワークフローモジュールが起動されていない可能性があります。
 
 これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
 
-1. を確認します **[!UICONTROL wfserver]** でのモジュールの状態 **[!UICONTROL 監視]** タブ、Campaign Classicホームページからアクセス（を参照） [プロセスの監視](../../production/using/monitoring-processes.md)）に設定します。
+1. Campaign Classicホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。
 
-   管理者ユーザーは、 **wfserver@`<instance>`** モジュールは、以下のコマンドを使用してメインアプリケーションサーバーで起動されます。
+   管理者ユーザーは、次のコマンドを使用して、**wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されていることを確認することもできます。
 
    ```sql
    nlserver pdump
@@ -99,7 +99,7 @@ ht-degree: 14%
    [...]
    ```
 
-   モジュールの監視方法について詳しくは、次を参照してください [この節](../../production/using/usual-commands.md#monitoring-commands-).
+   モジュールの監視方法について詳しくは、[ この節 ](../../production/using/usual-commands.md#monitoring-commands-) を参照してください。
 
 1. モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールを使用している場合は、管理者が次のコマンドを使用して再起動する必要があります。
 
@@ -112,12 +112,12 @@ ht-degree: 14%
    >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルによって識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
-   モジュールの再起動方法の詳細については、次を参照してください。 [この節](../../production/using/usual-commands.md#module-launch-commands).
+   モジュールの再起動方法については、[ この節 ](../../production/using/usual-commands.md#module-launch-commands) を参照してください。
 
 ## 失敗したワークフロー {#failed-workflow}
 
 ワークフローが失敗した場合は、次の手順を実行します。
 
-1. ワークフロージャーナルを確認します。 詳しくは、次を参照してください [ワークフローの実行の監視](../../workflow/using/monitoring-workflow-execution.md) および [ログを表示](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) セクション。
-1. テクニカルワークフローを監視します。 詳しくは、次を参照してください [この節](../../workflow/using/monitoring-technical-workflows.md).
+1. ワークフロージャーナルを確認します。 詳しくは、[ ワークフローの実行の監視 ](../../workflow/using/monitoring-workflow-execution.md) および [ ログの表示 ](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) の節を参照してください。
+1. テクニカルワークフローを監視します。 詳しくは、[ この節 ](../../workflow/using/monitoring-technical-workflows.md) を参照してください。
 1. 個々のワークフローアクティビティでエラーが発生していないかを確認します。

@@ -3,7 +3,7 @@ product: campaign
 title: SpamAssassin の設定
 description: SpamAssassin の設定
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeが実行できます。 例えば、サーバーおよびインスタンス設定ファイルにアクセスするには、次の手順を実行します。 様々なデプロイメントの詳細については、 [ホスティングモデル](../../installation/using/hosting-models.md) セクションまたは宛先 [このページ](../../installation/using/capability-matrix.md).
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeが実行できます。 例えば、サーバーおよびインスタンス設定ファイルにアクセスするには、次の手順を実行します。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。
 
 ## 概要 {#overview}
 
@@ -50,31 +50,31 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
 ### SpamAssassin のインストール {#installing-spamassassin}
 
-1. をに接続します [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、を参照してください。 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
-1. をダウンロード **Neolane Spam Assassin （Windows インストール）（2.0）** ファイル （neolane_spamassassin.2.0.zip）。
+1. ユーザーの資格情報を使用して [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
+1. **Neolane Spam Assassin （Windows インストール） （2.0）** ファイル （neolane_spamassassin.2.0.zip）をダウンロードします。
 1. このファイルをAdobe Campaign サーバーにコピーしてから解凍します。
 
    >[!NOTE]
    >
-   >パスが次の正規表現文字で構成されている場合は、必要な場所にファイルを解凍するように選択できます。 **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. インストールパスに空白文字を含めることはできません。
+   >パスが次の正規表現文字のいずれかで構成されている場合は、必要な場所にファイルを解凍するように選択できます：**`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**。 インストールパスに空白文字を含めることはできません。
 
-1. ファイルを解凍したファイルに移動し、 **run_me.bat** インストールスクリプトを起動するファイル。
+1. ファイルを解凍したファイルに移動し、**run_me.bat** ファイルをダブルクリックして、インストールスクリプトを起動します。
 
-   Windows シェルが表示され、数秒間表示され続ける場合は、インストールと更新が完了するまで待ってから、 **Enter**.
+   Windows シェルが表示され、数秒間表示され続ける場合は、インストールと更新が完了するまで待ってから、**Enter** キーをクリックします。
 
-   Windows シェルが表示されない、またはすぐに表示されなくなる前に表示されない場合は、次の手順に従い、 **portableShell.bat** ファイル：Windows シェルを表示し、シェルのパスがのフォルダーに対応していることを確認します **spamassassin.zip** ファイルは解凍されました。 これに該当しない場合は、 **cd** コマンド。
+   Windows シェルが表示されない場合や、表示されない場合は、次の手順に従います。**portableShell.bat** ファイルをダブルクリックして Windows シェルを表示し、**spamassassin.zip** ファイルを展開したフォルダーにシェルのパスが対応していることを確認します。 これに該当しない場合は、**cd** コマンドを使用してアクセスします。
 
-   Enter **run_me.bat** 次に、 **Enter** をクリックして、インストールと更新のプロセスを開始します。 操作は、更新の結果を示すために、次のいずれかの値を返します。
+   **run_me.bat** と入力し、**Enter** をクリックして、インストールと更新のプロセスを開始します。 操作は、更新の結果を示すために、次のいずれかの値を返します。
 
    * **0**：更新が実行されました。
-   * **1**：利用できる新しい更新はありません。
-   * **2**：利用可能な新しい更新プログラムはありません。
+   * **1**：新しい更新プログラムはありません。
+   * **2**：新しい更新プログラムはありません。
    * **3**：以前の検証中に更新に失敗しました。
    * **4** 以上：エラーが発生しました。
 
 1. SpamAssassin のインストールが成功したことを確認するには、次の手順に従って GTUBE テスト（Generic Test for Unsolicited Bulk Email）を使用します。
 
-   1. テキストファイルを作成して、の下に保存します。 **C:\TestSpamMail.txt**.
+   1. テキストファイルを作成して、**C:\TestSpamMail.txt** に保存します。
    1. 次の内容をファイルに挿入します。
 
       ```
@@ -91,7 +91,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
       XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
       ```
 
-   1. をダブルクリックします **portableShell.bat** ファイルを開いて Windows シェルを表示し、次のコマンド （または`<root>`」は、解凍時に作成したフォルダーを指定します  **spamassassin.zip** ファイル）:
+   1. **portableShell.bat** ファイルをダブルクリックして Windows シェルを表示し、次のコマンドを起動します（または、「`<root>`」は、**spamassassin.zip** ファイルを解凍するときに作成したフォルダーを指定します）。
 
       ```
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
@@ -101,8 +101,8 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
 ### Adobe Campaignへの SpamAssassin の統合 {#integrating-spamassassin-into-adobe-campaign}
 
-1. を編集する **`[INSTALL]/conf/serverConf.xml`** ファイル。 で使用できるすべてのパラメーター **serverConf.xml** の一覧はこちら [セクション](../../installation/using/the-server-configuration-file.md).
-1. の値を **spamCheck** 要素&#39; **コマンド** の属性 **Web** ノード。 これを行うには、次のコマンドを実行します。
+1. **`[INSTALL]/conf/serverConf.xml`** ファイルを編集します。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+1. **Web** ノードの **spamCheck** 要素の **command** 属性の値を変更します。 これを行うには、次のコマンドを実行します。
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -112,11 +112,11 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
    >
    >すべてのパスは絶対パスである必要があります。
 
-   を停止して開始する **[!UICONTROL Adobe Campaign]** サービス。
+   **[!UICONTROL Adobe Campaign]** サービスを停止して開始します。
 
 1. Adobe Campaignでの SpamAssassin の統合を確認するには、GTBUE テスト（未承諾のバルクメールの汎用テスト）を使用します。
 
-   をダブルクリックします **portableshell.bat** ファイル。 これにより、Windows シェルの表示がトリガーされます。 次に、次のコマンドを実行します。
+   **portableshell.bat** ファイルをダブルクリックします。 これにより、Windows シェルの表示がトリガーされます。 次に、次のコマンドを実行します。
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
@@ -126,7 +126,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
 1. SpamAssassin フィルタリングおよびスコアルールの更新
 
-   フィルタールールとスコアルールの初回の更新については、以下を開始してください **portableShell.bat** さらに、次のコマンドを実行します。
+   フィルタールールとスコアルールを初めて更新する場合は、**portableShell.bat** を起動して、次のコマンドを実行します。
 
    ```
    sa-update --no-gpg
@@ -148,7 +148,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
   apt-get install spamassassin libxml-writer-perl
   ```
 
-* が含まれる **serverConf.xml** ファイル （で利用可能） `/usr/local/[INSTALL]/nl6/conf/`）、を変更します。 **spamCheck** 行を次に示します。
+* **serverConf.xml** ファイル（`/usr/local/[INSTALL]/nl6/conf/` で入手可能）で、**spamCheck** 行を次のように変更します。
 
   ```
   <spamCheck command="perl
@@ -171,7 +171,7 @@ cpan Mail::SpamAssassin
 
 ### フィルタールールの更新 {#updating-filter-rules}
 
-フィルタールールは、 **sa-update** ツール。 公式 SpamAssassin web サイトを参照してください。 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) を参照してください。
+フィルタールールは、**sa-update** ツールを使用して自動的に更新できます。 詳しくは、公式 SpamAssassin Web サイト [https://spamassassin.apache.org/](https://spamassassin.apache.org/) を参照してください。
 
 Debian では、毎日自動的に更新が行われます。
 
@@ -183,7 +183,7 @@ test -x /usr/bin/sa-update || exit 0
 /usr/sbin/sa-update && /etc/init.d/spamassassin update
 ```
 
-このスクリプトをに挿入 **crontab** 次のコマンドを使用：
+次のコマンドを使用して、このスクリプトを **crontab** に挿入します。
 
 ```
 crontab-e
@@ -191,7 +191,7 @@ crontab-e
 
 ### パフォーマンスの最適化 {#performance-optimization}
 
-Linux のパフォーマンスを向上させるには、 **/etc/spamassassin/local.cf** ファイルを開き、ファイルの最後に次の行を追加します。
+Linux のパフォーマンスを向上させるには、**/etc/spamassassin/local.cf** ファイルを編集し、ファイルの末尾に次の行を追加します。
 
 ```
 dns_available no

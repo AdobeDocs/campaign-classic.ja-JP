@@ -30,11 +30,11 @@ ht-degree: 73%
 
 複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されたデータを使用できます。
 
-* **外部データに対するフィルター**  – が [クエリ](../../workflow/using/targeting-data.md#selecting-data) アクティビティを使用すると、外部データを追加して、定義したフィルター設定でそのデータを使用できます。 詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
+* **外部データのフィルター** - [ クエリ ](../../workflow/using/targeting-data.md#selecting-data) アクティビティでは、外部データを追加して、定義したフィルター設定でそのデータを使用できます。 詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
 
 * **サブセットの作成** - [分割](../../workflow/using/split.md)アクティビティでは、サブセットを作成できます。外部データを使用して、使用するフィルター条件を定義できます。 詳しくは、[このページ](../../workflow/using/split.md)を参照してください。
 
-* **外部データベースの読み込み**  – 外部データは [データの読み込み](../../workflow/using/data-loading-rdbms.md) （RDBMS）アクティビティ。 詳しくは、[このページ](../../workflow/using/data-loading-rdbms.md)を参照してください。
+* **外部データベースの読み込み** - [ データ読み込み ](../../workflow/using/data-loading-rdbms.md) （RDBMS） アクティビティで外部データを使用できます。 詳しくは、[このページ](../../workflow/using/data-loading-rdbms.md)を参照してください。
 
 * **情報とリンクの追加** - [エンリッチメント](../../workflow/using/enrichment.md)アクティビティを使用すると、ワークフローの作業用テーブルにデータを追加し、外部テーブルにリンクできます。このコンテキストでは、外部データベースのデータを使用できます。 詳しくは、[このページ](../../workflow/using/enrichment.md)を参照してください。
 

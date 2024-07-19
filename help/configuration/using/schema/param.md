@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: スキーマ要素と属性 — パラメーター要素
-description: パラメーター要素
+title: スキーマの要素と属性 – パラメーター要素
+description: param 要素
 feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
@@ -11,7 +11,7 @@ ht-degree: 9%
 
 ---
 
-# パラメーター要素 {#param--element}
+# param 要素 {#param--element}
 
 ![](../../../assets/v7-only.svg)
 
@@ -27,8 +27,8 @@ param:==help
 * @inout （文字列）
 * @label （文字列）
 * @localizable （文字列）
-* @name (MNTOKEN)
-* @namespace (MNTOKEN)
+* @name （MNTOKEN）
+* @namespace （MNTOKEN）
 * @type （文字列）
 
 ## 親 {#parents-12}
@@ -41,16 +41,16 @@ param:==help
 
 ## 説明 {#description-12}
 
-この要素を使用して、SOAP メソッドを呼び出すためのパラメーターを定義できます。
+この要素を使用すると、SOAP メソッドを呼び出すためのパラメーターを定義できます。
 
 ## 属性の説明 {#attribute-description-12}
 
-* **desc （文字列）**：に関する説明 `<param>` 要素を選択します。
-* **inout （文字列）**：この属性は、パラメーターが SOAP 呼び出しの入力 (in) または出力 (out) にあるかどうかを定義します。 この属性が指定されていない場合、デフォルトのパラメーターは入力されます (&quot;@inout=in&quot;)。
-* **label （文字列）**: `<param>` ラベル
-* **localizable（文字列）**：有効化されている場合、この属性は、翻訳の「@label」属性の値を復元するようコレクションツールに指示します（内部使用）。
-* **名前 (MNTOKEN)**：の内部名 `<param>`
-* **type (string)**：この属性は、 `<param>` 要素
+* **desc （string）**:`<param>` 要素に関する説明。
+* **inout （string）**：この属性は、パラメーターがSOAP呼び出しの入力（in）または出力（out）にあるかどうかを定義します。 この属性を指定しない場合、デフォルトのパラメーターは input （&quot;@inout=in&quot;）になります。
+* **label （文字列）**:`<param>` ラベル
+* **localizable （string）**：この属性を有効にすると、翻訳の「@label」属性の値を復元するようにコレクションツールに指示します（内部使用）。
+* **name （MNTOKEN）**:`<param>` の内部名
+* **type （string）**：この属性は、要素のタイプ `<param>` 定義します
 
   使用可能なタイプのリスト：
 
@@ -62,12 +62,12 @@ param:==help
    * CDATA
    * 日時
    * datetimetz
-   * datetimenotz
+   * datetimenoz
    * 日付
    * DOMDocument
    * DOMElement
    * 倍精度浮動小数点数
-   * enum
+   * 列挙
    * 浮動小数点数
    * html
    * int64
@@ -77,7 +77,7 @@ param:==help
    * MNTOKEN
    * 割合
    * primarykey
-   * short
+   * 短い
    * 文字列
    * 時間
    * 期間

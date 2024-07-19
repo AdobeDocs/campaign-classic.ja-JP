@@ -25,11 +25,11 @@ Java Development Kit、または JDK は、ソフトウェア開発キットで�
 
 動的 Web ページジェネレーターでは JSP テクノロジーを使用します。 このために、（Apache からの） Tomcat エンジンがアプリケーションに含まれています。 これには、Adobe Campaign アプリケーションがインストールされているすべてのサーバーにインストールされている Java Development Kit （JDK）が必要です。
 
-最初に、Adobe Campaign Application Server （**nlserver web** プロセス）を使用する必要があります。これには、動的な web ページ（レポート、web フォームなど）の生成に使用されるサーブレットコンテナ Apache Tomcat が組み込まれています。
+最初に、Adobe Campaign アプリケーションサーバー（**nlserver web** プロセス）を実行するコンピューターに JDK をインストールする必要があります。これは、このプロセスが、動的 web ページ（レポート、web フォームなど）の生成に使用される、サーブレットコンテナである Apache Tomcat を組み込んでいるからです。
 
-このアプリケーションは、Oracleで開発された Java Development Kit （JDK）および **OpenJDK**.
+oracleが開発した Java Development Kit （JDK）と、**OpenJDK** の使用が承認されています。
 
-サポートされているバージョンについて詳しくは、Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
+サポートされているバージョンについて詳しくは、Campaign[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) を参照してください。
 
 
 >[!AVAILABILITY]
@@ -47,18 +47,18 @@ Java 開発キットをインストールしてアップグレードする際は
 
 * JDK をインストールする場合、web ブラウザーとの統合は必要ありません。
 
-* 配信エージェントのみを実行するマシン（**nlserver mta** プロセス）またはワークフローサーバー（**nlserver wfserver** プロセス）を選択する場合は、JDK のインストールは必要ありません。
+* 配信エージェント（**nlserver mta** プロセス）またはワークフローサーバー（**nlserver wfserver** プロセス）のみを実行するマシンでは、JDK をインストールする必要はありません。
 
 * Java バージョンをアップグレードする場合、まず以前のバージョンをアンインストールする必要があります。 同じマシンにインストールされた両方のバージョンの Java は、競合を引き起こす可能性があります。
 
-  オンプレミス環境のお客様は、 `LD_LIBRARY_PATH` [環境変数](installing-packages-with-linux.md#environment-variables) は最新バージョンに設定されています（例： java11）。 以前のバージョンに設定されている場合（例： Java8）を使用する場合は、更新する必要があります。 JDK 11 の場合、JDK ライブラリを探すパスはです。 `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
+  オンプレミス環境のお客様は、`LD_LIBRARY_PATH` [ 環境変数 ](installing-packages-with-linux.md#environment-variables) が最新バージョンに設定されていることを確認できます（例： java11）。 以前のバージョンに設定されている場合（例： Java8）を使用する場合は、更新する必要があります。 JDK 11 の場合、JDK ライブラリを見つけるパスは `/usr/lib/jvm/java-11-openjdk-amd64/lib` です。
 
 
 ### インストール手順
 
 Java 開発キットはプラットフォーム固有であり、オペレーティングシステムごとに個別のインストーラーが必要です。
 
-JDK をダウンロードするには、に接続します。 [Oracleの web サイト](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+JDK をダウンロードするには、[Oracle web サイト ](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"} に接続します。
 
 >[!CAUTION]
 >
@@ -85,13 +85,13 @@ dnf install java-11-openjdk-headless
 
 Adobe Campaignを使用すると、レポートをMicrosoft Excel およびAdobe PDFに書き出すことができます。
 
-* Microsoft Excel 形式の場合、Adobe Campaignはを利用します **LibreOffice**.
+* Microsoft Excel 形式の場合、Adobe Campaignは **LibreOffice** に依存します。
 
-* Adobe PDF形式の場合、Adobe Campaignは次を使用します **PhantomJS** コンバータ。 PhantomJs はファクトリパッケージに含まれており、Adobe Campaign アプリケーションサーバーを実行する（**nlserver web** プロセス）。
+* Adobe PDF形式の場合、Adobe Campaignは **PhantomJS** コンバーターを使用します。 PhantomJs はファクトリパッケージに含まれており、Adobe Campaign アプリケーションサーバーを実行するマシン（**nlserver web** プロセス）に LibreOffice をインストールする必要があります。
 
 >[!NOTE]
 >
->Linux の場合、フォントを追加する必要があります。 詳しくは、次を参照してください [MTA 統計のフォント](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
+>Linux の場合、フォントを追加する必要があります。 詳しくは、[MTA 統計のフォント ](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics) を参照してください。
 
 ## SpamAssassin {#spamassassin}
 
@@ -99,8 +99,8 @@ SpamAssassin を使用すると、受信で使用されるスパム対策ツー�
 
 SpamAssassin によって望ましくないものとしてメールが選定されるかどうかは、完全にフィルタリングおよびスコアルールに基づいています。 したがって、SpamAssassin のインストールとAdobe Campaignへの統合が完全に機能し、送信前に配信に割り当てられたスコアの関連性を保証するには、これらのルールを 1 日に 1 回以上更新する必要があります。 この更新は、SpamAssassin をホストするサーバー管理者の責任です。
 
-サポートされている最小バージョンは次のとおりです。 **3.4**
+サポートされている最小バージョンは **3.4** です。
 
 SpamAssassin には HTTP インターネットアクセス （tcp/80）が必要です。
 
-SpamAssassin のインストール段階と設定段階については、以下を参照してください。 [SpamAssassin の設定](../../installation/using/configuring-spamassassin.md).
+SpamAssassin のインストール段階と設定段階については、[SpamAssassin の設定 ](../../installation/using/configuring-spamassassin.md) を参照してください。

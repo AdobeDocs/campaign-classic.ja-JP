@@ -5,7 +5,7 @@ description: 分散型マーケティングの基本を学ぶ
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ product: campaign
 title: バックアップ
 description: バックアップ
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -11,7 +11,7 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 5%
 
 ファイルはいくつかのカテゴリに分類されます。
 
-* 設定ファイル、に保存 **nl6/conf**&#x200B;を使用すると、Adobe Campaignを非常に迅速に再設定できます。
+* **nl6/conf** に格納される設定ファイルを使用すると、Adobe Campaignを非常に迅速に再設定できます。
 
-* リダイレクトファイル、に保存  **nl6/var/`<instance-name>`/redir**、はトラッキングサーバー（「フロント」と呼ばれることが多い）上にあり、以前の campaign リダイレクトをすべて含みます。 以前のキャンペーンでも引き続き使用されます。
+* **nl6/var/`<instance-name>`/redir** に保存されるリダイレクトファイルは、トラッキング（「フロント」と呼ばれることが多い）サーバー上にあり、以前の campaign リダイレクトをすべて含みます。 以前のキャンペーンでも引き続き使用されます。
 
-* ログファイル、に保存 **nl6/var/`<instance-name>`/log**&#x200B;を使用して問題を追跡できます。
+* **nl6/var/`<instance-name>`/log** に保存されるログファイルを使用して問題をトレースできます。
 
 したがって、バックアップするディレクトリは次のようになります。
 

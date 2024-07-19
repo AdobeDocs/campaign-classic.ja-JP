@@ -18,7 +18,7 @@ ht-degree: 2%
 
 * 配信 :
 
-   * 配信アクションの作成。を参照してください。 [SubmitDelivery （nms:delivery）](#submitdelivery--nms-delivery-),
+   * 配信アクションの作成。[SubmitDelivery （nms:delivery） ](#submitdelivery--nms-delivery-) を参照してください。
    * キャンペーンの送信（開始、一時停止、停止、配達確認の送信）、
    * 配信ログを復元しています。
 
@@ -27,17 +27,17 @@ ht-degree: 2%
    * ワークフローの開始
    * 工程の検証等
 
-     こちらを参照してください [JavaScript の SOAP メソッド](../../configuration/using/soap-methods-in-javascript.md).
+     JavaScriptの [SOAP メソッドを参照してください ](../../configuration/using/soap-methods-in-javascript.md)。
 
 * コンテンツ管理
-* 購読の管理。を参照してください [購読（nms:subscription）](#subscribe--nms-subscription-) および [購読解除（nms:subscription）](#unsubscribe--nms-subscription-).
+* 購読の管理。[ 購読（nms:subscription） ](#subscribe--nms-subscription-) および [ 購読解除（nms:subscription） ](#unsubscribe--nms-subscription-) を参照してください。
 * データプロセス：インポート、エクスポート。
 
 この節では、「購読」、「購読解除」、「SubmitDelivery」の各サービスの使用方法について説明します。
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) soap 呼び出しと、Adobe Campaignでの JavaScript の使用、およびアプリケーションで使用されるすべてのメソッドと関数への完全な参照に関する追加情報が含まれています。
+>[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP呼び出しとAdobe Campaignでの JavaScript 使用に関する追加情報のほか、アプリケーションで使用されるすべてのメソッドと関数の完全なリファレンスが含まれています。
 
 ## 購読（nms:subscription） {#subscribe--nms-subscription-}
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 </method>
 ```
 
-紐付けキーの定義は、_を使用して入力する必要があります&#x200B;**キー** の属性 `<recipient>` xml ドキュメントの要素。 この属性の内容は、コンマ区切りの XPath リストです。
+紐付けキーの定義は、XML ドキュメントの `<recipient>` 要素の_**key** 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
 
 この呼び出しは、エラーを除き、データを返しません。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 </method>
 ```
 
-紐付けキーの定義は、の_key 属性を使用して入力する必要があります `<recipient>` xml ドキュメントの要素。 この属性の内容は、コンマ区切りの XPath リストです。
+紐付けキーの定義は、XML ドキュメントの `<recipient>` 要素の_key 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
 
 受信者がデータベースに存在しない場合や、該当する情報サービスを購読していない場合、サービスはアクションを実行せず、エラーは生成されません。
 
@@ -204,7 +204,7 @@ ht-degree: 2%
 
 ### XML ドキュメントの例 {#xml-document-example}
 
-この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に記述されているので、呼び出しが発生した場合に送信されるのは、のファイルのコンテンツだけです。 `<externalsource>` 要素。
+この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に記述されているので、呼び出しが発生した場合に送信されるのは、`<externalsource>` 要素のファイルのコンテンツだけです。
 
 ```
 <delivery>

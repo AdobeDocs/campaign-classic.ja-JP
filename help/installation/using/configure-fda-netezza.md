@@ -18,10 +18,10 @@ ht-degree: 80%
 
 
 
-Campaign の使用 [連合データアクセス](../../installation/using/about-fda.md) （FDA）外部データベースに保存された情報を処理するオプション。 netezzaへのアクセスを設定するには、次の手順に従います。
+Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 netezzaへのアクセスを設定するには、次の手順に従います。
 
-1. インストールと設定 [Netezzaドライバ](#netezza-config)
-1. netezzaの設定 [外部アカウント](#netezza-external) Campaign 内
+1. [Netezza ドライバのインストールと構成 ](#netezza-config)
+1. Campaign でのNetezza[ 外部アカウント ](#netezza-external) の設定
 
 ## Netezza設定 {#netezza-config}
 
@@ -74,7 +74,7 @@ FDA で Netezza 外部データベースに接続するには、Adobe Campaign �
 
 netezza外部アカウントを使用すると、Campaign インスタンスをNetezza外部データベースに接続できます。
 
-1. Campaign から **[!UICONTROL エクスプローラー]**&#x200B;を選択し、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
+1. Campaign **[!UICONTROL エクスプローラー]** で、「**[!UICONTROL 管理]** 「>」 **[!UICONTROL プラットフォーム]** 「>」 **[!UICONTROL 外部アカウント]** をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 

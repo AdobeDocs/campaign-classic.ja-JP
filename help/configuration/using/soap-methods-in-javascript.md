@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # JavaScript での SOAP メソッド{#soap-methods-in-javascript}
 
-Adobe Campaign サーバーで実行される JavaScript です。
+Adobe Campaign サーバーで実行されるJavaScriptです。
 
 ## 静的メソッド {#static-methods}
 
-静的 SOAP メソッドは、スキーマを表すオブジェクトでメソッドを呼び出すことによってアクセスされます。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
+静的SOAP メソッドにアクセスするには、スキーマを表すオブジェクトのメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
 
 次の例では、xtk:workflow スキーマの静的 PostEvent メソッドを呼び出します。
 
@@ -28,7 +28,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的 SOAP メソッドを使用するには、まず、対応するスキーマの「get」または「create」メソッドを使用してエンティティを取得する必要があります。
+非静的SOAP メソッドを使用するには、対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
 
 次の例では、「xtk:queryDef」スキーマの ExecuteQuery メソッドを呼び出します。
 

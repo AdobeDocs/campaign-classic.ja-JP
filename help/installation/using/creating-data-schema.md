@@ -21,13 +21,13 @@ ht-degree: 47%
 
    ![](assets/wf_new_schema_fda.png)
 
-1. を入力 **[!UICONTROL 名前空間]** および  **[!UICONTROL 名前]** スキーマのを選択し、 **[!UICONTROL 外部アカウント]** これにより、データベースへの接続が可能になります。 これにより、外部データベースで使用できるテーブルのリストにアクセスできます。
+1. スキーマの **[!UICONTROL 名前空間]** と **[!UICONTROL 名前]** を入力し、**[!UICONTROL 外部アカウント]** を選択して、データベースへの接続を有効にします。 これにより、外部データベースで使用できるテーブルのリストにアクセスできます。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. から **[!UICONTROL テーブル名]** フィールドで、収集するデータを含むテーブルを選択します。
+1. **[!UICONTROL テーブル名]** フィールドから、収集するデータを含むテーブルを選択します。
 
-   データベース・ユーザーに正しい権限が付与されている場合は、Snowflakeを使用してビューを選択できます。 なお、ビューを使用する場合、Adobe Campaignでは XML スキーマを自動生成できません。ユーザー自身で作成する必要があります。 ビューの詳細については、次を参照してください。 [Snowflakeドキュメント](https://docs.snowflake.com/en/user-guide/views-introduction.html).
+   データベース・ユーザーに正しい権限が付与されている場合は、Snowflakeを使用してビューを選択できます。 なお、ビューを使用する場合、Adobe Campaignでは XML スキーマを自動生成できません。ユーザー自身で作成する必要があります。 ビューの詳細については、[Snowflakeドキュメント ](https://docs.snowflake.com/en/user-guide/views-introduction.html) を参照してください。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

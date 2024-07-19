@@ -3,7 +3,7 @@ product: campaign
 title: セキュリティゾーンの設定
 description: セキュリティゾーンの設定方法を学ぶ
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -21,15 +21,15 @@ ht-degree: 15%
 
 インスタンスにログオンするには、各オペレーターがゾーンにリンクされている必要があります。また、セキュリティゾーンで定義されたアドレスまたはアドレスセットにオペレーターの IP が含まれている必要があります。セキュリティゾーンの設定は、Adobe Campaign サーバーの設定ファイルで実行されます。
 
-オペレーターは、クライアントコンソールでオペレーターのプロファイルからセキュリティゾーンにリンクされます。オペレーターのプロファイルは **[!UICONTROL 管理/ アクセス管理/ オペレーター]** ノード。 [詳細情報](#linking-a-security-zone-to-an-operator)。
+オペレーターは、クライアントコンソールでオペレーターのプロファイルからセキュリティゾーンにリンクされます。オペレーターのプロファイルは、**[!UICONTROL 管理/アクセス管理/オペレーター]** ノードでアクセスできます。 [詳細情報](#linking-a-security-zone-to-an-operator)。
 
 >[!NOTE]
 >
->この手順は、次の場合に制限されます **オンプレミス** のデプロイメント。
+>この手順は、**オンプレミス** デプロイメントに制限されています。
 >
->As a **hosted** 顧客（アクセス可能な場合） [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)セキュリティーゾーンのセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
+>**ホスト型** のお客様は、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) にアクセスできる場合、セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
 >
->その他 **ハイブリッド/ホスト** お客様は、Adobe許可リストに加える サポートチームに連絡して、IP をチームに追加する必要があります。
+>その他の **ハイブリッド/ホスト型** のお客様は、Adobe許可リストに加える サポートチームに連絡して IP をチームに追加する必要があります。
 >
 
 ## セキュリティゾーンの作成 {#creating-security-zones}
@@ -41,7 +41,7 @@ ht-degree: 15%
 
 セキュリティゾーンは連動しています。つまり、別のゾーン内に新しいゾーンを定義すると、そのゾーンにログオンできるオペレーターの数が減るとともに、各オペレーターに割り当てられる権限が増えます。
 
-ゾーンは、サーバーの構成時に、次で定義する必要があります **serverConf.xml** ファイル。 で使用できるすべてのパラメーター **serverConf.xml** の一覧を次に示します [この節](../../installation/using/the-server-configuration-file.md).
+ゾーンは、サーバーの設定時に **serverConf.xml** ファイルで定義する必要があります。 **serverConf.xml** で使用可能なすべてのパラメーターは、[ この節 ](../../installation/using/the-server-configuration-file.md) に記載されています。
 
 各ゾーンでは、次のような権限を定義します。
 
@@ -53,16 +53,16 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->**各演算子はゾーンにリンクされている必要があります**. オペレーターの IP アドレスがゾーンで定義された範囲に属する場合、オペレーターはインスタンスにログオンできます。\
->オペレーターの IP アドレスは、複数のゾーンで定義できます。 この場合、オペレーターは次を受け取ります **set** （各ゾーンで使用可能な権限）。
+>**各演算子はゾーンにリンクされている必要があります**。 オペレーターの IP アドレスがゾーンで定義された範囲に属する場合、オペレーターはインスタンスにログオンできます。\
+>オペレーターの IP アドレスは、複数のゾーンで定義できます。 この場合、オペレーターは各ゾーンで使用可能な権限の **set** を受け取ります。
 
-標準搭載 **serverConf.xml** ファイルには、次の 3 つのゾーンが含まれています。 **パブリック、VPN、および LAN**.
+標準の **serverConf.xml** ファイルには、**public、VPN、LAN** の 3 つのゾーンが含まれています。
 
 >[!NOTE]
 >
->**標準提供の設定はセキュリティで保護されています**. ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に軽減する必要が生じる場合があります。
+>**標準提供の設定はセキュリティで保護されています**。 ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に軽減する必要が生じる場合があります。
 
-でのゾーンの定義方法の例 **serverConf.xml** ファイル：
+**serverConf.xml** ファイルでゾーンを定義する方法の例：
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" name="public">
@@ -89,21 +89,21 @@ ht-degree: 15%
 ゾーンを定義する権限は次のとおりです。
 
 * **allowDebug**:web アプリを「デバッグ」モードで実行できるようにします
-* **allowEmptyPassword**：パスワードを使用せずにインスタンスへの接続を認証します
+* **allowEmptyPassword**：パスワードなしでインスタンスへの接続を許可します
 * **allowHTTP**:HTTPS プロトコルを使用せずにセッションを作成できます
-* **allowUserPassword**：セッショントークンの形式は次のとおりです」`<login>/<password>`“
+* **allowUserPassword**：セッショントークンの形式は「`<login>/<password>`」です
 * **sessionTokenOnly**：接続 URL にセキュリティトークンは必要ありません
-* **showErrors**：サーバーサイドのエラーは転送され、表示されます
+* **showErrors**：サーバー側のエラーが転送され、表示されます
 
 >[!IMPORTANT]
 >
->ゾーン定義では、各属性は **true** 値を指定するとセキュリティが低下します。
+>ゾーン定義では、**true** 値を持つ各属性はセキュリティを低下させます。
 
-Message Center を使用していて、複数の実行インスタンスがある場合は、 **sessionTokenOnly** 属性の定義： **true**&#x200B;を使用する場合は、必要な IP アドレスのみ追加されます。 インスタンスの設定について詳しくは、次を参照してください： [このドキュメント](../../message-center/using/configuring-instances.md).
+Message Center を使用していて、複数の実行インスタンスがある場合は、**sessionTokenOnly** 属性を **true** として定義した追加のセキュリティゾーンを作成する必要があります。この場合、必要な IP アドレスのみが追加されます。 インスタンスの設定について詳しくは、[ このドキュメント ](../../message-center/using/configuring-instances.md) を参照してください。
 
 ## セキュリティゾーンのベストプラクティス {#best-practices-for-security-zones}
 
-の定義 **lan** セキュリティゾーン。技術的なアクセスを定義する IP アドレスマスクを追加できます。 この追加により、サーバーでホストされているすべてのインスタンスにアクセスできるようになります。
+**lan** セキュリティゾーンの定義では、テクニカルアクセスを定義する IP アドレスマスクを追加できます。 この追加により、サーバーでホストされているすべてのインスタンスにアクセスできるようになります。
 
 ```
 <securityZone allowDebug="true" allowEmptyPassword="false" allowHTTP="true"
@@ -124,7 +124,7 @@ Message Center を使用していて、複数の実行インスタンスがあ�
 
 特定のインスタンスにのみアクセスするオペレーター向けに、インスタンス専用の設定ファイルで IP アドレスの範囲を直接定義することをお勧めします。
 
-が含まれる **`config-<instance>.xml`** ファイル：
+**`config-<instance>.xml`** ファイルで：
 
 ```
   <securityZone name="public">
@@ -135,7 +135,7 @@ Message Center を使用していて、複数の実行インスタンスがあ�
 
 ## セキュリティゾーン内のサブネットワークとプロキシ {#sub-networks-and-proxies-in-a-security-zone}
 
-この **委任状** パラメーターは、 **subNetwork** セキュリティゾーンでのプロキシの使用を指定する要素。
+**proxy** パラメーターを **subNetwork** 要素で使用して、セキュリティ ゾーンでのプロキシの使用を指定できます。
 
 プロキシが参照され、このプロキシ経由で（HTTP X-Forwarded-For ヘッダーを介して表示される）接続が入ると、検証されたゾーンは、プロキシのクライアントのゾーンであり、プロキシのゾーンではありません。
 
@@ -145,7 +145,7 @@ Message Center を使用していて、複数の実行インスタンスがあ�
 >
 >さらに、プロキシと同様にリレーが生成されるようになりました。 したがって、IP アドレス 127.0.0.1 をセキュリティゾーン設定のプロキシのリストに追加できます。
 >
->例：&quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`」と入力します。
+>例：「`<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`」。
 
 次のような様々なケースが発生する可能性があります。
 
@@ -161,7 +161,7 @@ Message Center を使用していて、複数の実行インスタンスがあ�
 
   ![](assets/8101_proxy3.png)
 
-Adobe Campaign サーバーにアクセスする可能性があるプロキシの IP アドレスは、次の両方に入力する必要があります **`<subnetwork>`** 関心のある第 1 レベルのサブネットワーク **`<subnetwork name="all"/>`**. 例えば、IP アドレスが 10.131.146.102 のプロキシの場合、次のようになります。
+Adobe Campaign サーバーにアクセスする可能性があるプロキシの IP アドレスは、該当する **`<subnetwork>`** と第 1 レベルのサブネットワーク **`<subnetwork name="all"/>`** の両方に入力する必要があります。 例えば、IP アドレスが 10.131.146.102 のプロキシの場合、次のようになります。
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -188,37 +188,37 @@ Adobe Campaign サーバーにアクセスする可能性があるプロキシ�
 
 ゾーンを定義したら、インスタンスにログオンできるようにするには、各オペレーターをそのうちの 1 つにリンクする必要があります。また、オペレーターの IP アドレスを、ゾーンで参照されるアドレスまたはアドレスの範囲に含める必要があります。
 
-ゾーンの技術的な設定は、Campaign サーバーの設定ファイルで実行されます。 **serverConf.xml**.
+ゾーンの技術的な設定は、Campaign サーバーの設定ファイル **serverConf.xml** で実行されます。
 
-この前に、すぐに使用できる設定から始める必要があります **[!UICONTROL セキュリティゾーン]** で定義されているゾーンの内部名にラベルをリンクするための列挙 **serverConf.xml** ファイル。
+この前に、すぐに使用できる **[!UICONTROL Security zone]** 列挙を設定して、**serverConf.xml** ファイルで定義されたゾーンの内部名にラベルをリンクする必要があります。
 
 この設定は、Campaign エクスプローラーで行います。
 
-1. 「」をクリックします **[!UICONTROL 管理/ プラットフォーム /列挙]** ノード。
-1. 「」を選択します **[!UICONTROL セキュリティゾーン （securityZone）]** システム列挙。
+1. **[!UICONTROL 管理/プラットフォーム/列挙]** ノードをクリックします。
+1. **[!UICONTROL セキュリティゾーン（securityZone）]** システム列挙を選択します。
 
    ![](assets/enum_securityzone.png)
 
-1. サーバーの構成ファイルで定義された各セキュリティゾーンに対して、 **[!UICONTROL 追加]** ボタン。
-1. が含まれる **[!UICONTROL 内部名]** フィールドに、で定義されたゾーンの名前を入力します。 **serverConf.xml** ファイル。 これは **@name** 属性 `<securityzone>`  要素。 内の内部名にリンクされているラベルを  **ラベル**&#x200B;フィールド。
+1. サーバーの構成ファイルで定義された各セキュリティゾーンに対して、「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. 「**[!UICONTROL 内部名]**」フィールドに、**serverConf.xml** ファイルで定義されたゾーンの名前を入力します。 これは、`<securityzone>` 要素の **@name** 属性に対応します。 内部名にリンクされているラベルを「**ラベル**」フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
 1. 「OK」をクリックして、変更を保存します。
 
-ゾーンを定義し、 **[!UICONTROL セキュリティゾーン]** 定義済みリストが設定されています。各演算子をセキュリティゾーンにリンクする必要があります。
+ゾーンを定義し、**[!UICONTROL セキュリティゾーン]** 列挙を設定したら、各演算子をセキュリティゾーンにリンクする必要があります。
 
-1. 「」をクリックします **[!UICONTROL 管理/ アクセス管理/ オペレーター]** ノード。
-1. セキュリティゾーンのリンク先となるオペレーターを選択し、 **[!UICONTROL 編集]** タブ。
-1. に移動します **[!UICONTROL アクセス権]** tab キーを押しながら **[!UICONTROL アクセスパラメーターを編集…]** リンク。
+1. **[!UICONTROL 管理/アクセス管理/オペレーター]** ノードをクリックします。
+1. セキュリティゾーンのリンク先となるオペレーターを選択し、「**[!UICONTROL 編集]**」タブをクリックします。
+1. 「**[!UICONTROL アクセス権]**」タブに移動し、「**[!UICONTROL アクセスパラメーターを編集…]** リンクをクリックします。
 
    ![](assets/zone_operator.png)
 
-1. 「」からゾーンを選択 **[!UICONTROL 許可された接続ゾーン]** ドロップダウンリスト
+1. **[!UICONTROL 承認済みの接続ゾーン]** ドロップダウンリストからゾーンを選択します
 
    ![](assets/zone_operator_selection.png)
 
-1. クリック **[!UICONTROL OK]** 変更を保存して、これらの変更を適用します。
+1. 「**[!UICONTROL OK]**」をクリックし、変更を保存してこれらの変更を適用します。
 
 
 
@@ -228,8 +228,8 @@ Adobe Campaign サーバーにアクセスする可能性があるプロキシ�
 
 * sessionTokenOnly=&quot;true&quot;の使用を最小限に抑える
 
-   * 警告：この属性を true に設定すると、演算子を **CRSF 攻撃**.
-   * さらに、sessionToken cookie は httpOnly フラグで設定されていないので、一部のクライアントサイド JavaScript コードは読み取ることができます。
+   * 警告：この属性を true に設定すると、オペレーターが **CRSF 攻撃** にさらされる可能性があります。
+   * さらに、sessionToken cookie は httpOnly フラグが設定されていないので、一部のクライアントサイド JavaScript コードでは読み取ることができます。
    * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
 
 * 可能な場合は、すべての allowHTTP、showErrors を false に設定し（localhost の場合ではない）、それらを確認します。
@@ -253,11 +253,11 @@ Adobe Campaign サーバーにアクセスする可能性があるプロキシ�
 
 * allowEmptyPassword、allowUserPassword、allowSQLInjection を true に設定しないでください。
 
-   * **allowEmptyPassword** オペレーターが空のパスワードを持つことができます。 その場合は、すべてのオペレーターに通知して、期限を設定したパスワードの設定を依頼してください。 この期限を経過したら、この属性を false に設定します。
+   * **allowEmptyPassword**：オペレーターが空のパスワードを持つことができます。 その場合は、すべてのオペレーターに通知して、期限を設定したパスワードの設定を依頼してください。 この期限を経過したら、この属性を false に設定します。
 
-   * **allowUserPassword** オペレーターは、資格情報をパラメーターとして送信できます（これにより、オペレーターは Apache/IIS/プロキシに記録されます）。 この機能は、API の使用を簡素化するために以前に使用されていました。 クックブック（または仕様）で、サードパーティのアプリケーションで使用されているかどうかを確認できます。 使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
+   * **allowUserPassword**：オペレーターがパラメーターとして資格情報を送信できます（その結果、オペレーターは Apache/IIS/proxy に記録されます）。 この機能は、API の使用を簡素化するために以前に使用されていました。 クックブック（または仕様）で、サードパーティのアプリケーションで使用されているかどうかを確認できます。 使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
 
-   * **allowSQLInjection** ユーザーは古い構文を使用して SQL 挿入を実行できます。 この属性は false に設定する必要があります。 /nl/jsp/ping.jsp?zones=true を使用して、セキュリティゾーンの設定を確認できます。 このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
+   * **allowSQLInjection** を使用すると、ユーザーは古い構文を使用して SQL 挿入を実行できます。 この属性は false に設定する必要があります。 /nl/jsp/ping.jsp?zones=true を使用して、セキュリティゾーンの設定を確認できます。 このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
 
 * HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
 

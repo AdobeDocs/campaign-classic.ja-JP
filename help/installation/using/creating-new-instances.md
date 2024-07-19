@@ -24,8 +24,8 @@ Adobe Campaignをインストールしてインスタンスを作成したら、
 
 1. 新しいインスタンスを宣言
 
-   に移動 **[!UICONTROL ツール /詳細/新しいインスタンスの宣言…]** ウィザードを起動します。
+   **[!UICONTROL ツール/詳細/新しいインスタンスを宣言…]** に移動して、ウィザードを起動します。
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   新しいインスタンスのパラメーターを指定します。 詳しくは、次を参照してください [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+   新しいインスタンスのパラメーターを指定します。 詳しくは、[ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。

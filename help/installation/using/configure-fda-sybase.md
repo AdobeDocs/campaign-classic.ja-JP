@@ -18,10 +18,10 @@ ht-degree: 66%
 
 
 
-Campaign の使用 **連合データアクセス** （FDA）外部データベースに保存された情報を処理するオプション。 sybase IQへのアクセスを設定するには、次の手順に従います。
+Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 sybase IQへのアクセスを設定するには、次の手順に従います。
 
-1. 設定 [Sybase IQデータベース](#configuring-sybase)
-1. sybase IQの設定 [外部アカウント](#sybase-external) Campaign 内
+1. [Sybase IQ データベース ](#configuring-sybase) を構成します
+1. Campaign でのSybase IQ[ 外部アカウント ](#sybase-external) の設定
 
 ## Sybase IQ設定 {#configuring-sybase}
 
@@ -29,7 +29,7 @@ FDA でSybase IQ外部データベースに接続するには、Adobe Campaign �
 
 >[!NOTE]
 >
->開始する前に、 **unixodbc** パッケージはサーバー上にあります。
+>起動する前に、**unixodbc** パッケージがサーバー上にあることを確認します。
 
 1. **iq_odbc** をインストールします。インストールの終了時にエラーが発生することがあります。このエラーは無視してかまいません。
 
@@ -71,7 +71,7 @@ FDA でSybase IQ外部データベースに接続するには、Adobe Campaign �
 
 sybase IQ外部アカウントを使用すると、Campaign インスタンスをSybase IQ外部データベースに接続できます。
 
-1. Campaign から **[!UICONTROL エクスプローラー]**&#x200B;を選択し、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
+1. Campaign **[!UICONTROL エクスプローラー]** で、「**[!UICONTROL 管理]** 「>」 **[!UICONTROL プラットフォーム]** 「>」 **[!UICONTROL 外部アカウント]** をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 

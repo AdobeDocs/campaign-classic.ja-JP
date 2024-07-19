@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: スキーマ要素と属性 — 要素を結合
-description: 結合要素
+title: スキーマの要素と属性 – 結合要素
+description: 要素を結合
 feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
@@ -11,13 +11,13 @@ ht-degree: 2%
 
 ---
 
-# 結合要素 {#join--element}
+# 要素を結合 {#join--element}
 
 ![](../../../assets/v7-only.svg)
 
 ## コンテンツモデル {#content-model-7}
 
-join:==EMPTY
+結合：==空
 
 ## 属性 {#attributes-7}
 
@@ -35,33 +35,33 @@ join:==EMPTY
 
 ## 説明 {#description-7}
 
-SQL テーブル間で結合を作成するフィールドを定義できます。
+SQL テーブル間に結合を作成するフィールドを定義できます。
 
-## 使用と使用のコンテキスト {#use-and-context-of-use-5}
+## 用途および使用コンテキスト {#use-and-context-of-use-5}
 
-A `<join>`  要素は親の場合にのみ使用できます  `<element>`  要素のタイプが「リンク」です。 つまり、親要素には「@type=link」属性を宣言する必要があります。
+`<join>` 要素は、親 `<element>` 要素が「link」タイプの場合にのみ使用できます。 つまり、親要素には「@type=link」属性が宣言されている必要があります。
 
-リモートテーブルの名前と名前空間を、 `<join>`  要素を選択します。 親で指定する必要があります  `<element>`.
+`<join>` 要素内のリモートテーブルの名前と名前空間を指定する必要はありません。 親 `<element>` で指定する必要があります。
 
 慣例により、リンクはスキーマの最後に定義されます。
 
-次の場合、 `<join>` 要素が指定されていない場合、リンクは自動的に両方のテーブルのプライマリキーに配置されます。
+リンクタイプ要素の定義時に `<join>` 要素が指定されていない場合、リンクは両方のテーブルのプライマリキーに自動的に配置されます。
 
 ## 属性の説明 {#attribute-description-7}
 
-* **dstFilterExpr (string)**：この属性を使用すると、リモートテーブルの有効な値の数を制限できます。
-* **xpath-dst （文字列）**：この属性は Xpath( リモートテーブルの@name属性 ) を受け取ります。
-* **xpath-src (string)**：この属性は Xpath( 現在のスキーマの@name属性 ) を受け取ります。
+* **dstFilterExpr （文字列）**：この属性を使用すると、リモートテーブル内の適格な値の数を制限できます。
+* **xpath-dst （文字列）**：この属性は Xpath （リモートテーブルの@name 属性）を受け取ります。
+* **xpath-src （string）**：この属性は、Xpath （現在のスキーマの@name 属性）を受け取ります。
 
 ## 例 {#examples-6}
 
-現在のテーブルの「email」フィールドとリモートテーブルの「@compagny-id」フィールド間のリンク：
+現在のテーブルの「電子メール」フィールドとリモートテーブルの「@compagny-id」フィールド間のリンク：
 
 ```
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-「EN」値を含む「@country」フィールドの内容に基づいて、「cus:Country」テーブルに対するフィルターされたリンク。
+「@country」フィールドのコンテンツに基づいて「cus:Country」テーブルへのリンクをフィルタリングしました。このフィールドには「EN」値を含める必要があります。
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

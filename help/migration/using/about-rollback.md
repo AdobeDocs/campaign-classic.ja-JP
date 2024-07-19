@@ -27,7 +27,7 @@ ht-degree: 0%
 v7 から v6.1 を復元する手順を次に示します。
 
 1. データベースのバックアップをリカバリし、リストアします。
-1. を復元する **Adobe Campaign v6.back** フォルダー（**nl6.back** linux の場合は、の名前をに変更します **Adobe Campaign v6** （**nl6** （Linux の場合）を作成し、元の場所に復元します。
+1. **Adobe Campaign v6.back** フォルダー（Linux の場合は **nl6.back** を復元し、**Adobe Campaign v6** （Linux の場合は **nl6**）に名前を変更して元の場所に復元します。
 1. リッスンポートを再割り当てして IIS を再設定し、IIS Web サイトレベルでAdobe Campaign v6.1 の統合を再確立します。
 1. Adobe Campaign v7 サービスを停止します。
 1. IIS を再起動します。

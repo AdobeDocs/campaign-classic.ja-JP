@@ -3,7 +3,7 @@ product: campaign
 title: データベースパフォーマンス
 description: データベースパフォーマンス
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -32,11 +32,11 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->以下を参照してください。 [Adobe Campaign ハードウェアサイジングガイド](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) （インサイト用）
+>インサイトについては、[Adobe Campaign ハードウェアのサイズ設定ガイド ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) を参照してください。
 
 ## プラットフォーム設定 {#platform-configuration}
 
-不適切な設定は、プラットフォームのパフォーマンスに影響を与える場合があります。 でネットワーク設定、プラットフォーム配信品質オプションおよび MTA 設定を確認することをお勧めします **serverConf.xml** ファイル。
+不適切な設定は、プラットフォームのパフォーマンスに影響を与える場合があります。 **serverConf.xml** ファイルで、ネットワーク設定、プラットフォーム配信品質オプションおよび MTA 設定を確認することをお勧めします。
 
 ## データベースのメンテナンス {#database-maintenance}
 
@@ -44,7 +44,7 @@ ht-degree: 8%
 
 データベース クリーンアップ タスクが動作していることを確認してください。 それには、ログファイルを表示して、エラーが含まれているかどうかを確認します。 詳しくは、[この節](../../production/using/database-cleanup-workflow.md)を参照してください。
 
-**メンテナンス計画**
+**整備計画**
 
 データベースのメンテナンスが正しくスケジュールされ、実行されていることを確認します。 詳細については、データベース管理者にお問い合わせください。
 
@@ -62,9 +62,9 @@ ht-degree: 8%
 
 ワークテーブルの数とサイズを確認してください。 サイズが特定のサイズを超えると、データベースのパフォーマンスに影響します。 これらのテーブルは、ワークフローと配信で作成されます。 ワークフローと配信がアクティブな間、これらはデータベースに残ります。 作業用テーブルのサイズを制限するには、次の操作を実行します。
 
-* 次のステータスの配信を停止または削除： **[!UICONTROL 失敗]**, **[!UICONTROL 処理中]**, **[!UICONTROL 配信準備完了]**、または **[!UICONTROL 一時停止]**.
+* ステータス **[!UICONTROL 失敗]**、**[!UICONTROL 処理中]**、**[!UICONTROL 配信準備完了]**、**[!UICONTROL 一時停止]** の配信を停止または削除します。
 * エラーが原因で一時停止されているワークフローを停止または削除します。
-* を含まないテストに使用されるすべてのワークフローを停止します **[!UICONTROL 終了]** アクティビティとそのステータスが残る **[!UICONTROL 一時停止]**.
+* **[!UICONTROL 終了]** アクティビティを含まないテストに使用されていて、ステータスが **[!UICONTROL 一時停止]** のままになっているすべてのワークフローを停止します。
 
 >[!IMPORTANT]
 >
@@ -74,8 +74,8 @@ ht-degree: 8%
 
 Adobe Campaignのインストール設定に応じて、次の 2 つのツールを使用してプラットフォームを監視できます。
 
-* インスタンスの実稼動ページ。 詳しくは、次を参照してください [手動での監視](../../production/using/monitoring-processes.md#manual-monitoring).
-* この *netreport* スクリプト。 詳しくは、次を参照してください [Adobe Campaign スクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* インスタンスの実稼動ページ。 詳しくは、[ 手動の監視 ](../../production/using/monitoring-processes.md#manual-monitoring) を参照してください。
+* *netreport* スクリプト。 詳しくは、[Adobe Campaign スクリプトを使用した自動モニタリング ](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) を参照してください。
 
 ## 詳細 {#specifics}
 

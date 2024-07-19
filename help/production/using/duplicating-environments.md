@@ -3,7 +3,7 @@ product: campaign
 title: 環境の複製
 description: 環境の複製
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -37,13 +37,13 @@ Adobe Campaignを使用するには、開発、テスト、実稼動前、実稼
 
 1. ソース環境のすべてのインスタンス上にデータベースのコピーを作成し、
 1. これらのコピーをターゲット環境のすべてのインスタンスにリストアする。
-1. を実行 **nms:freezeInstance.js** 起動する前にターゲット環境で使用する焼灼スクリプト。
+1. 起動する前に、ターゲット環境で **nms:freezeInstance.js** 焼灼スクリプトを実行します。
 
    このプロセスは、サーバーとその設定には影響しません。
 
    >[!NOTE]
    >
-   >Adobe Campaignのコンテキストでは、 **焼灼** では、ログ、トラッキング、配信、キャンペーンワークフローなど、外部とやり取りするすべてのプロセスを停止するアクションを組み合わせます。\
+   >Adobe Campaignのコンテキストでは、ログ、トラッキング、配信、キャンペーンワークフローなど **外部とやり取りするすべてのプロセスを停止するアクションを組み合わせた** 焼灼化）を使用します。\
    >この手順は、メッセージが複数回（公称環境から 1 回、重複した環境から 1 回）配信されるのを避けるために必要です。
 
    >[!IMPORTANT]
@@ -63,14 +63,14 @@ Adobe Campaignを使用するには、開発、テスト、実稼動前、実稼
 
 ### 転送手順 {#transfer-procedure}
 
-この節では、導入事例を通じてソース環境をターゲット環境に移行する際に必要な手順を説明します。ここでは、実稼動環境を復元することを目的としています（**prod** インスタンス）から開発環境（**開発** インスタンス）を使用して、「ライブ」プラットフォームにできる限り近いコンテキストで作業します。
+この節では、ケーススタディーを通じてソース環境をターゲット環境に移行するために必要な手順を説明します。ここでは、実稼働環境（**prod** インスタンス）を開発環境（**dev** インスタンス）に復元し、「ライブ」プラットフォームにできる限り近いコンテキストで機能させることを目的としています。
 
 次の手順は慎重に実行する必要があります。ソース環境のデータベースをコピーする際に、一部のプロセスがまだ進行中である可能性があります。 焼灼処理（後述の手順 3）により、メッセージが 2 回送信されるのを防ぎ、データの一貫性を維持できます。
 
 >[!IMPORTANT]
 >
 >* 次のプロシージャは PostgreSQL 言語で有効です。 SQL 言語が異なる場合（Oracleなど）、SQL クエリを適応させる必要があります。
->* 以下のコマンドは、 **prod** instance および **開発** postgreSQL の下のインスタンス。
+>* 以下のコマンドは、PostgreSQL の下の **prod** インスタンスと **dev** インスタンスのコンテキスト内で適用されます。
 >
 
 ### 手順 1 - ソース環境（実稼動）データのバックアップを作成する {#step-1---make-a-backup-of-the-source-environment--prod--data}
@@ -89,14 +89,14 @@ pg_dump mydatabase > mydatabase.sql
 
 ほとんどの設定要素は、環境ごとに異なります。外部アカウント（ミッドソーシング、ルーティングなど）、技術オプション（プラットフォーム名、データベース ID、メールアドレス、デフォルト URL など）。
 
-ターゲット・データベースにソース・データベースを保存する前に、ターゲット環境（開発）構成をエクスポートする必要があります。 それには、次の 2 つのテーブルの内容を書き出します。 **xtkoption** および **nsextaccount**.
+ターゲット・データベースにソース・データベースを保存する前に、ターゲット環境（開発）構成をエクスポートする必要があります。 それには、**xtkoption** と **nmsextaccount** の 2 つのテーブルの内容を書き出します。
 
 この書き出しを使用すると、開発環境を保持し、開発データ（ワークフロー、テンプレート、web アプリケーション、受信者など）のみを更新できます。
 
 それには、次の 2 つの要素に対してパッケージのエクスポートを実行します。
 
-* をエクスポート **xtk:option** テーブルを「options_dev.xml」ファイルに追加します。これには、「WdbcTimeZone」、「NmsServer_LastPostUpgrade」および「NmsBroadcast_RegexRules」という内部名のレコードは含まれません。
-* 「extaccount_dev.xml」ファイルで、 **nms:extAccount** id が 0 以外（@id &lt;> 0）のすべてのレコードのテーブル。
+* **xtk:option** テーブルを「options_dev.xml」ファイルにエクスポートします。内部名は「WdbcTimeZone」、「NmsServer_LastPostUpgrade」および「NmsBroadcast_RegexRules」のレコードはエクスポートしません。
+* 「extaccount_dev.xml」ファイルで、ID が 0 でないすべてのレコード（@id &lt;> 0）の **nms:extAccount** テーブルをエクスポートします。
 
 書き出されたオプション/アカウントの数が、各ファイルで書き出すラインの数と等しいことを確認します。
 
@@ -138,14 +138,14 @@ nlserver pdump
 
 >[!NOTE]
 >
->Windows では、 **webmdl** プロセスは、他のオペレーションに影響を与えずにアクティブな状態を維持できます。
+>Windows では、**webmdl** プロセスは、他の操作に影響を与えずにアクティブなままです。
 
 また、実行中のシステムプロセスがないことを確認することもできます。
 
 それには、次の手順に従います。
 
-* Windows の場合： **タスクマネージャー** を使用して、が存在しないことを確認します。 **nlserver.exe** プロセス。
-* Linux の場合：を実行します **ps aux | grep nlserver** コマンドを実行して、が存在しないことを確認 **nlserver** プロセス。
+* Windows の場合：**タスクマネージャ** を開き、**nlserver.exe** プロセスがないことを確認します。
+* Linux の場合：**ps aux を実行します。 | grep nlserver** コマンドを実行し、**nlserver** プロセスがないことを確認します。
 
 ### 手順 4 - ターゲット環境でのデータベースの復元（開発） {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -192,9 +192,9 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 
 >[!NOTE]
 >
->でAdobe Campaignを再起動する前に **開発** 環境、追加の安全手順を適用できます。 **web** モジュールのみ。
+>**dev** 環境でAdobe Campaignを再起動する前に、追加の安全手順を適用することができます。**web** モジュールのみを起動します。
 >  
->それには、インスタンスの設定ファイル（**config-dev.xml**）を選択してから、各モジュール（mta、stat など）の autoStart=&quot;true&quot; オプションの前に「_」文字を追加します。
+>これを行うには、インスタンスの設定ファイル（**config-dev.xml**）を編集し、各モジュール（mta、stat など）の autoStart=&quot;true&quot; オプションの前に「_」文字を追加します。
 
 次のコマンドを実行して web プロセスを開始します。
 
@@ -223,11 +223,11 @@ nlserver pdump
 1. データベースの Admin Console を開き、ID が 0 （@id &lt;> 0）ではない外部アカウント（テーブル nms:extAccount）をパージします。
 1. Adobe Campaign コンソールで、パッケージの読み込み機能を使用して以前に作成した options_dev.xml パッケージを読み込みます。
 
-   オプションが実際にで更新されたことを確認します。 **[!UICONTROL 管理/ プラットフォーム / オプション]** ノード。
+   **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでオプションが実際に更新されていることを確認します。
 
 1. Adobe Campaign コンソールで、パッケージのインポート機能を使用して以前に作成した extaccount_dev.xml をインポートします
 
-   外部データベースが実際ににインポートされていることを確認します。 **[!UICONTROL 管理/ プラットフォーム /外部アカウント]** .
+   **[!UICONTROL 管理/プラットフォーム/外部アカウント]** で外部データベースが実際にインポートされていることを確認します。
 
 ### 手順 9 – すべてのプロセスの再起動とユーザーの変更（開発） {#step-9---restart-all-processes-and-change-users--dev-}
 

@@ -18,11 +18,11 @@ ht-degree: 66%
 
 
 
-Campaign の使用 [連合データアクセス](../../installation/using/about-fda.md) （FDA）外部データベースに保存された情報を処理するオプション。 teradataへのアクセスを設定するには、次の手順に従います。
+Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 teradataへのアクセスを設定するには、次の手順に従います。
 
-1. インストールと設定 [Teradataドライバ](#teradata-config)
-1. teradataの設定 [外部アカウント](#teradata-external) Campaign 内
-1. の設定 [追加設定](#teradata-additional-configurations) teradataおよび Campaign サーバーの場合
+1. [Teradata ドライバのインストールと構成 ](#teradata-config)
+1. Campaign でのTeradata[ 外部アカウント ](#teradata-external) の設定
+1. teradataおよび Campaign サーバーの [ 追加設定 ](#teradata-additional-configurations) を設定します
 
 ## Teradata設定 {#teradata-config}
 
@@ -76,7 +76,7 @@ Campaign への接続を実装するには、Teradataのドライバーをイン
 
 teradata外部アカウントを使用すると、Campaign インスタンスをTeradata外部データベースに接続できます。
 
-1. Campaign から **[!UICONTROL エクスプローラー]**&#x200B;を選択し、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL 外部アカウント]**.
+1. Campaign **[!UICONTROL エクスプローラー]** で、**[!UICONTROL 管理]**/**[!UICONTROL プラットフォーム]**/**[!UICONTROL 外部アカウント]** をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
@@ -84,19 +84,19 @@ teradata外部アカウントを使用すると、Campaign インスタンスを
 
 1. Teradata **[!UICONTROL 外部アカウントを設定するには]**、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**：を選択します **[!UICONTROL Teradata]** タイプ。
+   * **[!UICONTROL 種類]**: **[!UICONTROL Teradata]** の種類を選択します。
 
-   * **[!UICONTROL サーバー]**:Teradataサーバーの URL または名前
+   * **[!UICONTROL Server]**:Teradataサーバーの URL または名前
 
-   * **[!UICONTROL アカウント]**:Teradataデータベースへのアクセスに使用するアカウントの名前
+   * **[!UICONTROL アカウント]**:Teradataデータベースへのアクセスに使用するアカウント名
 
-   * **[!UICONTROL パスワード]**:Teradataデータベースへの接続に使用するパスワード
+   * **[!UICONTROL Password]**:Teradataデータベースへの接続に使用するパスワード
 
-   * **[!UICONTROL データベース]**：データベースの名前（オプション）
+   * **[!UICONTROL Database]**：データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:Teradataを通じて渡されるオプション。 「parameter=value」の形式を使用します。 値間の区切り文字としてセミコロンを使用します。
+   * **[!UICONTROL Options]**:Teradataを通じて渡されるオプション。 「parameter=value」の形式を使用します。 値間の区切り文字としてセミコロンを使用します。
 
-   * **[!UICONTROL Timezone]**:Teradataで設定されたタイムゾーン。 [詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**:Teradataに設定されたタイムゾーン。 [詳細情報](#timezone)
 
 コネクタは、次のオプションをサポートしています。
 
@@ -105,7 +105,7 @@ teradata外部アカウントを使用すると、Campaign インスタンスを
 | TD_MAX_SESSIONS | オペレータージョブに対してTeradata パラレル トランスポーターが取得できるログオン セッションの最大数を指定します。 |
 | TimeZoneName | サーバータイムゾーンの名前。 |
 | CharacterSet | teradata文字セットの設定に使用します。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
-| IANAAppCodePage | ODBC アプリケーション コード ページ。 <br>詳しくは、次を参照してください [このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
+| IANAAppCodePage | ODBC アプリケーション コード ページ。 <br> 詳しくは、[ このページ ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) を参照してください。 |
 
 ### 追加の ODBC 外部アカウント {#add-external}
 
@@ -115,7 +115,7 @@ teradata外部アカウントを使用すると、Campaign インスタンスを
 
 teradata ドライバは独自の ODBC ライブラリを提供しますが、このライブラリは他の ODBC 外部アカウントと互換性がない可能性があります。
 
-ODBC も使用する別の外部アカウント（Snowflakeなど）を設定する場合は、デフォルトの ODBC ライブラリのパスに ODBCLib オプションを追加する必要があります（`/usr/lib/x86_64-linux-gnu/libodbc.so` （Debian および） `/usr/lib64/libodbc.so` （RHEL/CentOS では）。
+ODBC も使用する別の外部アカウント（Snowflakeなど）を設定する場合は、デフォルトの ODBC ライブラリ（Debian の場合は `/usr/lib/x86_64-linux-gnu/libodbc.so`、RHEL/CentOS の場合は `/usr/lib64/libodbc.so`）のパスに ODBCLib オプションを追加する必要があります。
 
 ![](assets/ext_account_24.png)
 
@@ -133,9 +133,9 @@ ODBC も使用する別の外部アカウント（Snowflakeなど）を設定す
 
 クエリバンドを設定するには、次の手順に従います。
 
-1. の使用  **[!UICONTROL デフォルト]** ユーザーに関連付けられた問合せバンドがない場合に使用されるデフォルトの問合せバンドを入力する場合。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
+1. **[!UICONTROL Default]** を使用して、ユーザーに関連付けられたクエリーの帯がない場合に使用されるデフォルトのクエリーの帯を入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
 
-1. の使用 **[!UICONTROL ユーザー]** 各ユーザーの照会帯域を指定するフィールド。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
+1. 「**[!UICONTROL ユーザー]**」フィールドを使用して、各ユーザーのクエリの帯を指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
 
 1. この機能を有効にするには、「**[!UICONTROL アクティブ]**」ボックスをオンにします。
 
@@ -143,11 +143,11 @@ ODBC も使用する別の外部アカウント（Snowflakeなど）を設定す
 
 接続のテスト中にエラー **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)**、が表示される場合は、ODBC ドライバーが正しくインストールされていること、および Campaign サーバーに対して LD_LIBRARY_PATH（Linux）または PATH（Windows）が設定されていることを確認してください。
 
-エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaignでは、teradataの名前が「{teradata}&#39; （odbcinst.ini 内）
+エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaignでは、odbcinst.ini のteradataに&#39;{teradata}&#39;という名前を付ける必要があります。
 
 * Campaign 18.10 以降では、外部アカウントのオプションに ODBCDriverName=&quot;Teradataデータベース ODBC ドライバー 16.10&quot;を追加できます。 バージョン番号は変更できます。正確な名前は、odbcad32.exe を実行して [ ドライバ ] タブにアクセスすることで見つけることができます。
 
-* 古いバージョンの Campaign を使用している場合は、ドライバのインストール時に作成された odbcinst.ini のTeradata セクションを、Teradataという新しいセクションにコピーする必要があります。 この場合は、Regedit を使用できます。 ベースが latin1 の場合は、 **APICharSize=1** オプションの中の
+* 古いバージョンの Campaign を使用している場合は、ドライバのインストール時に作成された odbcinst.ini のTeradata セクションを、Teradataという新しいセクションにコピーする必要があります。 この場合は、Regedit を使用できます。 ベースが latin1 の場合は、オプションに **APICharSize=1** を追加する必要があります。
 
 ## その他の設定 {#teradata-additional-configurations}
 
@@ -227,7 +227,7 @@ sha2 をインストールするには、以下を実行します。
 
 ### UDF_UTF16TO8 インストール {#UDF-UTF16TO8-installation}
 
-Adobe Campaign Teradata インスタンスで udf_utf16to8 関数を使用する場合は、 **Teradata unicode ツールキット**.
+Adobe Campaign インスタンスで udf_utf16to8 関数を使用する場合は、**Teradata Unicode ツールキット** からTeradataデータベースにユーザーモード関数をインストールします。
 
 ダウンロードファイルの sha1 は「e58235f434f52c71316a577cb48e20b97d24f470」です。
 

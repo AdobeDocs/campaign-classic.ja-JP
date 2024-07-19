@@ -28,11 +28,11 @@ ht-degree: 82%
 
 * 「BCC でメールを送信」はオプションの機能です。ライセンス契約をご確認ください。
 * ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
-* の場合 **オンプレミスインストール**&#x200B;を有効にするには、以下のガイドラインに従います。 [「BCC で E メールを送信」の有効化（オンプレミス）](#activating-email-archiving--on-premise-) および [BCC メールアドレスの設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-) セクション。
+* **オンプレミスインストール** の場合は、以下のガイドラインに従ってアクティブ化します。[ メール BCC のアクティブ化（オンプレミス） ](#activating-email-archiving--on-premise-) および [BCC メールアドレスの設定（オンプレミス） ](#configuring-the-bcc-email-address--on-premise-) の節を参照してください。
 * BCC に設定できるメールアドレスは 1 つだけです。
-* 「BCC で E メールを送信」を設定したら、配信テンプレートまたは以下を介した配信で、その機能が有効になっていることを確認します **[!UICONTROL BCC でメールを送信]** オプション。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* 「BCC で E メールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC で E メールを送信]**」オプション経由の配信で、その機能が有効になっていることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
-* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既にメールのアーカイブを使用している場合は、新しいメール BCC システムに手動でアップグレードする必要があります。 詳しくは、 [新しいメール BCC への移動](#updated-email-archiving-system--bcc-) セクション。
+* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既にメールのアーカイブを使用している場合は、新しいメール BCC システムに手動でアップグレードする必要があります。 詳しくは、[ 新しいメール BCC への移行 ](#updated-email-archiving-system--bcc-) の節を参照してください。
 
 ## 「BCC で E メールを送信」の有効化（オンプレミス） {#activating-email-archiving--on-premise-}
 
@@ -92,7 +92,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 * **compressBatchSize**:アーカイブ（.zipファイル）に追加された.emlファイルの数。
 
 
-* **archivingType**:アーカイブ方法を使用します。 使用できる値はのみです。 **1**. 送信された E メールの生のコピーは、.eml 形式で次の場所に保存されます。 **dataLogPath** フォルダーに保存され、SMTP 経由で BCC メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **** dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
+* **archivingType**:アーカイブ方法を使用します。 使用できる値は **1** だけです。 送信されたメールの生のコピーは、.eml 形式で **dataLogPath** フォルダーに保存され、SMTP 経由で BCC メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **** dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
 
   <!--
   **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->

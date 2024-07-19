@@ -55,9 +55,9 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 
 >[!IMPORTANT]
 >
->8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは&#39;1&#39;に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
+>8140 より古いビルドを使用している場合、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが&#39;1&#39;に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリや SQL 文にフィルターを作成する場合は、常にフィルターをエスケープする必要があります（を参照） [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) - データ保護：関数のエスケープ）。 次の関数が該当します。
+ユーザー入力を使用してクエリや SQL 文にフィルターを作成する場合は、常にフィルターをエスケープする必要があります（[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -77,7 +77,7 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* 一部のシステムフィルター（sysFilter）を追加すると、データの読み取りや書き込みを防ぐことができます（ [このページ](../../configuration/using/filtering-schemas.md)）に設定します。
+* 一部のシステムフィルター（sysFilter）を追加して、データの読み取りや書き込みを防ぐことができます（[ このページ ](../../configuration/using/filtering-schemas.md) を参照してください）。
 
   ```
   <sysFilter name="writeAccess">    
@@ -105,7 +105,7 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-エンティティ全体が画面に読み込まれます。また、列定義で表示することもできます。 それには、オーバーフローテーブルを作成する必要があります。 参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
+エンティティ全体が画面に読み込まれます。また、列定義で表示することもできます。 それには、オーバーフローテーブルを作成する必要があります。 [ このページ ](../../configuration/using/examples-of-schemas-edition.md#overflow-table) を参照してください。
 
 ## Web アプリケーションへの Captcha の追加
 
@@ -117,7 +117,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. の使用 **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
+1. **[!UICONTROL Web アプリケーション]** コンテンツタイプを使用し、「**[!UICONTROL カスタマイズメニューに表示]**」チェックボックスをオンにします。
 
    詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -148,27 +148,27 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   「validation」ボタンは無効にできるはずですが、標準のボタンやリンクはないので、HTML自体で行う方が良いでしょう。 その方法については、を参照してください。 [このページ](https://developers.google.com/recaptcha/).
+   「validation」ボタンは無効にできるはずですが、標準のボタンやリンクはないので、HTML自体で行う方が良いでしょう。 その方法については、[ このページ ](https://developers.google.com/recaptcha/) を参照してください。
 
 ### Web アプリケーションの更新
 
-1. Web アプリケーションのプロパティにアクセスして、という名前のブール変数を追加します。 **captchaValid**.
+1. Web アプリケーションのプロパティにアクセスして、**captchaValid** という名前のブール変数を追加します。
 
    ![](assets/scripting-captcha.png)
 
 1. 最後のページと&#x200B;**[!UICONTROL ストレージ]**&#x200B;アクティビティの間に、**[!UICONTROL スクリプト]**&#x200B;と&#x200B;**[!UICONTROL テスト]**&#x200B;を追加します。
 
-   ブランチのプラグ **[!UICONTROL True]** に **[!UICONTROL ストレージ]** もう 1 つは、captcha を持つページへのリンクです。
+   ブランチ **[!UICONTROL True]** を **[!UICONTROL ストレージ]** に接続し、もう 1 つを captcha を持つページに接続します。
 
    ![](assets/scripting-captcha2.png)
 
-1. 次のようにブランチ True の条件を編集します。 `"[vars/captchaValid]"` が True に等しい。
+1. `"[vars/captchaValid]"` が True に等しいブランチ True の条件を編集します。
 
    ![](assets/scripting-captcha3.png)
 
-1. を編集する **[!UICONTROL スクリプト]** アクティビティ。 コンテンツは、選択した captcha エンジンによって異なります。
+1. **[!UICONTROL スクリプト]** アクティビティを編集します。 コンテンツは、選択した captcha エンジンによって異なります。
 
-1. 最後に、パーソナライズしたブロックをページに追加できます。詳しくは、以下を参照してください。 [このページ](../../web/using/editing-content.md).
+1. 最後に、パーソナライズされたブロックをページに追加できます。[ このページ ](../../web/using/editing-content.md) を参照してください。
 
    ![](assets/scripting-captcha4.png)
 
@@ -176,7 +176,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 >[!IMPORTANT]
 >
->reCAPTCHA 統合の場合、HTMLにクライアントサイドの JavaScript を追加する必要があります（ `<head>...</head>`）:
+>reCAPTCHA 統合の場合、（`<head>...</head>` で）HTMLにクライアントサイドのJavaScriptを追加する必要があります。
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
@@ -200,7 +200,7 @@ else
 
 ### Google recaptcha
 
-を参照してください [公式ドキュメント](https://developers.google.com/recaptcha/docs/verify).
+詳しくは、[ 公式ドキュメント ](https://developers.google.com/recaptcha/docs/verify) を参照してください。
 
 ```javascript
 ctx.vars.captchaValid = false

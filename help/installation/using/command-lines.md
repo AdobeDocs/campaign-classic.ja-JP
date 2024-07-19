@@ -28,9 +28,9 @@ ht-degree: 4%
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-（ここで、 **eng** および **fra** には、次の値を指定できます。 `[lang]` パラメーター）
+（ここで **eng** および **fra** は、`[lang]` パラメーターの使用可能な値です）
 
-コマンド **nlserver config -addinstance:instance1/demo&#42;/eng** という名前のインスタンスを作成できます **instance1** 英語（DNS マスクデモあり）&#42;.
+**nlserver config -addinstance:instance1/demo&#42;/eng** コマンドを使用すると、DNS マスク demo&#42; を使用して英語で **instance1** というインスタンスを作成できます。
 
 ## データベースの宣言 {#declaring-a-database}
 
@@ -40,13 +40,13 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-には次の値を使用できます **`[rdbms]`** パラメーター：
+**`[rdbms]`** パラメーターには、次の値を使用できます。
 
 * **postgresql**:PostgreSQL の場合、
-* **oracle**:Oracle用
+* **oracle**:Oracleの
 * **mssql**:Microsoft SQL Server の場合、
 
-次のコマンドは、 **デモ** という SQL タイプサーバーを持つインスタンス **base6**、にリンクされています **campaign** アカウントと **password** 日 **dbsrv** サーバー：
+次のコマンドは、**dbsrv** サーバー上の **campaign** アカウントとその **password** にリンクされた **base6** という SQL タイプサーバーを持つ **demo** インスタンスを設定します。
 
 ```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 要素と属性 — sysfilter 要素
+title: 要素と属性 – sysfilter 要素
 description: 要素と属性
 feature: Schema Extension
 audience: configuration
@@ -36,7 +36,7 @@ sysFilter:==condition
 
 ## 説明 {#description-15}
 
-この要素では、フィルターを定義できます。
+この要素を使用すると、フィルターを定義できます。
 
 ## 属性の説明 {#attribute-description-15}
 
@@ -44,7 +44,7 @@ sysFilter:==condition
 
 ## 例 {#examples-12}
 
-@name属性の条件を持つフィルターの定義：
+@name 属性に対する条件を含むフィルターの定義：
 
 ```
 <sysFilter>

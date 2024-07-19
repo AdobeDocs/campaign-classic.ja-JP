@@ -71,23 +71,23 @@ ht-degree: 5%
    * 1 つ目は、トラッキング用に公開され、パブリック IP 上のコンピューターを指します。
    * 2 つ目のエイリアスは、コンソールアクセス用に内部ユーザーに公開され、同じコンピューターを指します。
 
-* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、を参照してください。 [ネットワーク設定](../../installation/using/network-configuration.md).
+* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、[ ネットワーク設定 ](../../installation/using/network-configuration.md) を参照してください。
 
 次の例では、インスタンスのパラメーターは次のとおりです。
 
-* インスタンス名： **デモ**
-* DNS マスク： **console.campaign.net&#42;** （クライアントコンソール接続の場合とレポートの場合のみ）
-* データベース： **campaign:demo@dbsrv**
+* インスタンスの名前：**demo**
+* DNS マスク：**console.campaign.net&#42;** （クライアントコンソール接続およびレポートの場合のみ）
+* データベース：**campaign:demo@dbsrv**
 
 ### インストールと設定（単一マシン） {#installing-and-configuring--single-machine-}
 
 次の手順に従います。
 
-1. Adobe Campaign サーバーのインストール手順に従います。 **nlserver** linux のパッケージ、または **setup.exe** Windows の場合。
+1. Adobe Campaign サーバーのインストール手順に従います。Linux の場合は **nlserver** パッケージ、Windows の場合は **setup.exe** です。
 
-   詳しくは、次を参照してください [Linux での Campaign インストールの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) （Linux）と [Windows での Campaign インストールの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) （Windows）。
+   詳しくは、[Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) での Campaign インストールの前提条件（Linux）および [Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) での Campaign インストールの前提条件（Windows）を参照してください。
 
-1. Adobe Campaign サーバーをインストールしたら、コマンドを使用してアプリケーションサーバー（web）を起動します **nlserver web -tomcat** （この Web モジュールを使用すると、ポート 8080 をリッスンするスタンドアロン Web サーバーモードで Tomcat を起動し、Tomcat が正しく起動することを確認できます）。
+1. Adobe Campaign サーバーをインストールしたら、コマンド **nlserver web -tomcat** を使用してアプリケーションサーバー（web）を起動し（この Web モジュールを使用すると、ポート 8080 をリッスンするスタンドアロン Web サーバーモードで Tomcat を起動できます）、Tomcat が正しく起動することを確認します。
 
    ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -98,16 +98,16 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >Web モジュールが初めて実行されるときに、が作成されます。 **config-default.xml** および **serverConf.xml** 内のファイル **conf** インストールフォルダーの下のディレクトリ。 で使用できるすべてのパラメーター **serverConf.xml** の一覧はこちら [セクション](../../installation/using/the-server-configuration-file.md).
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の **conf** ディレクトリに **config-default.xml** ファイルと **serverConf.xml** ファイルが作成されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
-   押す **Ctrl+C** サーバーを停止します。
+   **Ctrl+C** キーを押して、サーバーを停止します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linux 場合： [サーバーの初回起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
-   * Windows: [サーバーの初回起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
+   * Linux の場合：[ サーバーの最初の起動 ](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)、
+   * Windows の場合：[ サーバーの最初の起動 ](../../installation/using/installing-the-server.md#first-start-up-of-the-server)。
 
-1. 変更： **内部** 次のコマンドを使用してパスワードを設定します。
+1. **internal** パスワードを次のコマンドを使用して変更します。
 
    ```
    nlserver config -internalpassword
@@ -115,13 +115,13 @@ ht-degree: 5%
 
    詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
-1. を作成 **デモ** トラッキング用の DNS マスクを持つインスタンス（この場合は **tracking.campaign.net**）を選択し、クライアントコンソール（この場合は、 **console.campaign.net**）に設定します。 それには、次の 2 つの方法があります。
+1. トラッキング用の DNS マスク（この場合は **tracking.campaign.net**）とクライアントコンソールへのアクセス（この場合は **console.campaign.net**）を使用して **demo** インスタンスを作成します。 それには、次の 2 つの方法があります。
 
    * コンソールを使用してインスタンスを作成します。
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、次を参照してください [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+     詳しくは、[ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
 
      または
 
@@ -131,9 +131,9 @@ ht-degree: 5%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、次を参照してください [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
+     詳しくは、[ インスタンスの作成 ](../../installation/using/command-lines.md#creating-an-instance) を参照してください。
 
-1. を編集する **config-demo.xml** ファイル（次の前の手順で作成） **config-default.xml**）を選択し、必ず **mta** （配信）、 **wfserver** （ワークフロー）、 **inMail** （バウンスメール）と **統計** （統計）プロセスが有効になっています。 次に、統計サーバーのアドレスを設定します。
+1. **config-demo.xml** ファイル（**config-default.xml** の次の前の手順で作成）を編集し、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （バウンスメール）、**stat** （統計）の各プロセスが有効になっていることを確認します。 次に、統計サーバーのアドレスを設定します。
 
    ```
    <?xml version='1.0'?>
@@ -153,7 +153,7 @@ ht-degree: 5%
 
    詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
-1. を編集する **serverConf.xml** をファイルに入力して配信ドメインを指定し、MTA モジュールが MX タイプの DNS クエリに応答するために使用する DNS サーバーの IP （またはホスト）アドレスを指定します。
+1. **serverConf.xml** ファイルを編集して配信ドメインを指定し、MTA モジュールが MX タイプの DNS クエリに応答するために使用する DNS サーバーの IP （またはホスト）アドレスを指定します。
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -161,16 +161,16 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >この **nameServer** パラメーターは Windows でのみ使用されます。
+   >**nameServers** パラメーターは Windows でのみ使用されます。
 
-   詳しくは、次を参照してください [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
+   詳しくは、[Campaign サーバー設定 ](../../installation/using/configuring-campaign-server.md) を参照してください。
 
-1. クライアントコンソール設定プログラムをコピーします **setup-client-7.XXX.exe** に **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+1. クライアントコンソール設定プログラム **setup-client-7.XXX.exe** を **/datakit/nl/eng/jsp** フォルダーにコピーします。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. 次の項で説明する Web サーバー統合手順（IIS、Apache）に従います。
 
-   * Linux 場合： [Linux 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Windows: [Windows 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Linux の場合：[Linux 用の web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Windows の場合：[Windows の Web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Web サイトを開始し、URL https://tracking.campaign.net/r/testを使用してリダイレクトをテストします。
 
@@ -182,14 +182,14 @@ ht-degree: 5%
 
    詳しくは、以下の節を参照してください。
 
-   * Linux 場合： [Web サーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Windows: [Web サーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Linux の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Windows の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
-1. Adobe Campaign サーバーを起動します（）。**net start nlserver6** windows の場合、 **/etc/init.d/nlserver6 開始** （Linux の場合）を実行し、コマンドを実行します。 **nlserver pdump** もう一度、有効なすべてのモジュールが存在するかどうかを確認します。
+1. Adobe Campaign サーバー（Windows の場合は **net start nlserver6**、Linux の場合は **/etc/init.d/nlserver6 start**）を起動し、もう一度 **nlserver pdump** コマンドを実行して、有効なすべてのモジュールが存在するかどうかを確認します。
 
    >[!NOTE]
    >
-   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
+   >20.1 以降では、次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver**
 
    ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -204,17 +204,17 @@ ht-degree: 5%
 
    また、このコマンドを使用すると、コンピューターにインストールされているAdobe Campaign サーバーのバージョンとビルド番号を把握することもできます。
 
-1. のテスト **nlserver web** 次の URL を使用したモジュール：https://console.campaign.net/nl/jsp/logon.jsp
+1. 次の URL を使用して **nlserver web** モジュールをテストします。https://console.campaign.net/nl/jsp/logon.jsp
 
    この URL から、クライアント設定プログラムのダウンロードページにアクセスできます。
 
-   を入力 **内部** アクセス制御ページに到達したときのログインと関連するパスワード。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+   アクセス制御ページに到達したら、**内部** ログインと、関連するパスワードを入力します。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
    ![](assets/s_ncs_install_access_client.png)
 
-1. （前のダウンロードページから、または Windows インストールの場合はサーバー上で直接起動した）Adobe Campaign クライアントコンソールを起動し、サーバー接続 URL をhttps://console.campaign.netに設定してから、を使用して接続します。 **内部** ログイン。
+1. （前のダウンロードページから、または Windows インストールの場合はサーバー上で直接起動した）Adobe Campaign クライアントコンソールを起動し、サーバー接続 URL をhttps://console.campaign.netに設定して **internal** ログインを使用して接続します。
 
-   こちらを参照してください [このページ](../../installation/using/creating-an-instance-and-logging-on.md) および [この節](../../installation/using/configuring-campaign-server.md#internal-identifier).
+   [ このページ ](../../installation/using/creating-an-instance-and-logging-on.md) および [ この節 ](../../installation/using/configuring-campaign-server.md#internal-identifier) を参照してください。
 
    データベース作成ウィザードは、初めてログインすると表示されます。
 
@@ -222,26 +222,26 @@ ht-degree: 5%
 
    ウィザードの手順に従って、接続インスタンスに関連付けられたデータベースを作成します。
 
-   詳しくは、次を参照してください [データベースの作成と設定](../../installation/using/creating-and-configuring-the-database.md).
+   詳しくは、[ データベースの作成と設定 ](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
 
    データベースを作成したら、ログオフします。
 
-1. を使用して、クライアントコンソールに再度ログオンします。 **admin** パスワードを使用せずにログインし、デプロイメントウィザード（ **[!UICONTROL ツール /詳細]** メニュー）を選択して、インスタンスの設定を完了します。
+1. **admin** ログインを使用してパスワードなしでクライアントコンソールに再度ログオンし、デプロイメントウィザード（**[!UICONTROL ツール/詳細]** メニュー）を開始して、インスタンスの設定を完了します。
 
-   詳しくは、次を参照してください [インスタンスのデプロイ](../../installation/using/deploying-an-instance.md).
+   詳しくは、[ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md) を参照してください。
 
    設定する主なパラメーターは次のとおりです。
 
    * メール配信：送信者と返信アドレス、バウンスメールのエラーメールボックス。
-   * トラッキング：リダイレクトに使用する外部 URL と内部 URL を入力し、クリックします **トラッキングサーバーの登録** で検証します **デモ** トラッキングサーバーのインスタンス。
+   * トラッキング：リダイレクトに使用する外部 URL と内部 URL を入力し、**トラッキングサーバーに登録** をクリックして、トラッキングサーバーの **demo** インスタンスで検証します。
 
-     詳しくは、次を参照してください [トラッキング設定](../../installation/using/deploying-an-instance.md#tracking-configuration).
+     詳しくは、[ トラッキング設定 ](../../installation/using/deploying-an-instance.md#tracking-configuration) を参照してください。
 
      ![](assets/s_ncs_install_deployment_wiz_09.png)
 
      Adobe Campaign サーバーはアプリケーションサーバーとリダイレクトサーバーの両方で使用されるため、トラッキングログや転送 URL の収集に使用される内部 URL は、Tomcat への直接の内部接続（https://localhost:8080）です。
 
-   * バウンス管理：バウンスメールを処理するためのパラメーターを入力します（ **未処理のバウンスメール** この節を考慮に入れます）。
+   * バウンス管理：バウンスメールを処理するためのパラメーターを入力します（「未処理のバウンスメール **セクションを考慮しない**。
    * アクセス元：レポート、web フォーム、ミラーページの 2 つの URL を指定します。
 
      ![](assets/d_ncs_install_web_url.png)

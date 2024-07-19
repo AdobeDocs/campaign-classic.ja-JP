@@ -12,7 +12,7 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 
 Adobe Analytics コネクタの設定に進むには、Adobe Developer Console にアクセスして、OAuth サーバー間プロジェクトを作成します。
 
-詳細なドキュメントについては、[このページ](oauth-technical-account.md#oauth-service)を参照してください。
+詳しくは、[こちらのページ](oauth-technical-account.md#oauth-service)を参照してください。
 
 ## 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 

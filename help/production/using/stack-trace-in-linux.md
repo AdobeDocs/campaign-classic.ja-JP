@@ -3,7 +3,7 @@ product: campaign
 title: Linux でのスタックトレース
 description: Linux でのスタックトレース
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 16%
 
 
 
-A **スタック トレース** に含まれるトレースを表します **コア** file と入力します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの原因を特定できます。
+**スタックトレース** は、**core** タイプのファイルに含まれるトレースを表します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの原因を特定できます。
 
 >[!NOTE]
 >
->* A **コア** ファイルの名前 **コア。`<num>`**.
->* **gdb - GNU デバッガ** コンピューターにインストールする必要があります。
+>* **core** ファイルの名前は **core.`<num>`** です。
+>* **gdb - GNU Debugger** がマシンにインストールされている必要があります。
 >
 
-Adobe Campaign テクニカルサポートから、これを依頼できます **スタック トレース**. これを取得するには、Linux で次のコマンドを入力します。
+Adobe Campaign テクニカルサポートは、この **スタックトレース** を要求できます。 これを取得するには、Linux で次のコマンドを入力します。
 
 ```
 su - neolane
@@ -56,7 +56,7 @@ gdb nlserver <coreFile>
 
 Adobe Campaign テクニカルサポートから、（アドビが提供する）特定の実行可能ファイルを使用してこのコマンドを実行するように求められる場合があります。
 
-この場合は、次のコマンドを実行するだけです。そのコマンドの置換 **nlserver** Adobe Campaignが提供する実行可能ファイルを使用する場合：
+この場合は、**nlserver** をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行するだけです。
 
 ```
 gdb nlserver <coreFile>

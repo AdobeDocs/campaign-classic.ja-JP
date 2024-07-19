@@ -43,7 +43,7 @@ Adobe Campaignは、サーバー側で実行されるいくつかのプロセス
 
 >[!NOTE]
 >
->様々なAdobe Campaign プロセスについて詳しくは、以下を参照してください [この節](../../installation/using/general-architecture.md#logical-application-layer).\
+>様々なAdobe Campaign プロセスについて詳しくは、[ この節 ](../../installation/using/general-architecture.md#logical-application-layer) を参照してください。\
 >パワーブースターまたはパワークラスタータイプのアーキテクチャを使用する場合、このプロセスをすべてのパワーブースター/クラスターサーバーに適用する必要があります。
 
 新しいバージョンでデータベース構造の変更が必要な場合は、次の順序でサーバーを再起動することをお勧めします。

@@ -16,14 +16,14 @@ ht-degree: 27%
 
 # Amazon Redshift へのアクセスの設定 {#configure-access-to-redshift}
 
-Campaign の使用 **連合データアクセス** （FDA）外部データベースに保存された情報を処理するオプション。 Amazon Redshift へのアクセスを設定するには、次の手順に従います。
+Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 
-1. 設定 [Amazon Redshift データベース](#configuring-redshift)
-1. Amazon Redshift の設定 [外部アカウント](#redshift-external) Campaign 内
+1. [Amazon Redshift データベース ](#configuring-redshift) を構成します
+1. Campaign でAmazon Redshift[ 外部アカウント ](#redshift-external) を設定
 
 ## Linux のAmazon Redshift {#redshift-linux}
 
-を設定 [!DNL Amazon Redshift] linux の場合は、次の手順に従います。
+Linux で [!DNL Amazon Redshift] を設定するには、次の手順に従います。
 
 1. ODBC をインストールする前に、Linux ディストリビューションに次のパッケージがインストールされていることを確認します。
 
@@ -43,7 +43,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
       apt-get install -y grep sed tar wget perl curl
      ```
 
-1. スクリプトを実行する前に、を使用して詳細情報にアクセスできます `--help` オプション：
+1. スクリプトを実行する前に、`--help` のオプションを使用して詳細情報にアクセスできます。
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
@@ -64,11 +64,11 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
    systemctl start nlserver.service
    ```
 
-1. Campaign では、次の項目を設定できます [!DNL Amazon Redshift] 外部アカウント。 外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#redshift-external).
+1. その後、Campaign で [!DNL Amazon Redshift] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[ この節 ](#redshift-external) を参照してください。
 
 ## Amazon Redshift 外部アカウント {#redshift-external}
 
-この [!DNL Amazon Redshift] 外部アカウントを使用すると、Campaign インスタンスをAmazon Redshift 外部データベースに接続できます。
+[!DNL Amazon Redshift] 外部アカウントを使用すると、Campaign インスタンスをAmazon Redshift 外部データベースに接続できます。
 
 1. Campaign Classic で、[!DNL Amazon Redshift] 外部アカウントを設定します。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
@@ -76,7 +76,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. の設定 **[!UICONTROL Amazon Redshift]** 外部アカウント。次を指定する必要があります。
+1. **[!UICONTROL Amazon Redshift]** 外部アカウントを設定します。次を指定する必要があります。
 
    * **[!UICONTROL タイプ]**:Amazon Redshift
 
@@ -88,7 +88,7 @@ Campaign の使用 **連合データアクセス** （FDA）外部データベ�
 
    * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
-   * **[!UICONTROL 作業スキーマ]**：作業用スキーマの名前。 [詳細情報](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 作業スキーマ]**：作業スキーマの名前。 [詳細情報](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
 
    * **[!UICONTROL タイムゾーン]**：サーバーのタイムゾーン
 

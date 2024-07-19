@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 一般情報 {#general-information}
 
-すべての API メソッドは、web サービスの形式で提供されます。 これにより、Adobe Campaign アプリケーションサーバーのネイティブなエントリポイントである SOAP 呼び出しを使用して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaign コンソール自体は、SOAP 呼び出しのみを使用します。
+すべての API メソッドは、web サービスの形式で提供されます。 これにより、Adobe Campaign アプリケーションサーバーのネイティブなエントリポイントであるSOAP呼び出しを使用して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaign コンソール自体は、SOAP呼び出しのみを使用します。
 
 Web サービスを使用すると、サードパーティシステムから多くのアプリケーションを作成できます。
 
@@ -28,7 +28,7 @@ Web サービスを使用すると、サードパーティシステムから多�
 
 Adobe Campaign アプリケーションサーバー上に実装された web サービスの定義は、データスキーマから利用できます。
 
-Web サービスは、データスキーマの文法で記述され、から使用できます。 **`<methods>`** 要素。
+Web サービスは、データスキーマの文法で記述され、**`<methods>`** 要素から使用できます。
 
 ```
 <methods>
@@ -43,15 +43,15 @@ Web サービスは、データスキーマの文法で記述され、から使�
 </methods>
 ```
 
-以下に、と呼ばれるメソッドの定義の例を示します **GenerateForm**.
+**GenerateForm** というメソッドの定義例を次に示します。
 
-サービスの説明はで始まります `<method>` 要素。 メソッドのパラメーターのリストは、  `<parameters>` 要素。 各パラメーターは、名前、タイプ（ブール値、文字列、DOMElement など）によって指定されます と説明。 「inout」属性に「out」値を指定すると、「result」パラメーターが SOAP 呼び出し出力にあることを指定できます。
+サービスの説明は、`<method>` 要素で始まります。 メソッドのパラメーターのリストは、`<parameters>` 要素から完成させます。 各パラメーターは、名前、タイプ（ブール値、文字列、DOMElement など）によって指定されます と説明。 「inout」属性に「out」値を指定すると、「result」パラメーターがSOAP呼び出しの出力にあることを指定できます。
 
 「static」属性（値「true」）が存在する場合、このメソッドは静的であると説明されます。つまり、メソッドのすべてのパラメーターを宣言する必要があります。
 
 「const」メソッドは、関連するスキーマの形式の XML ドキュメントを入力として暗黙的に持ちます。
 
-の完全な説明 `<method>` Adobe Campaign スキーマの要素は、の「スキーマ参照」の章で利用できます。 [メソッド](../../configuration/using/schema/method.md)
+Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明については、「メソッド [ の「スキーマ参照」の章を参照してください ](../../configuration/using/schema/method.md)
 
 「xtk:queryDef」スキーマからの「const」タイプの「ExecuteQuery」メソッドの例：
 
@@ -79,7 +79,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 を使用：
 
 * **`<server>`**:Adobe Campaign アプリケーションサーバー（nlserver web）
-* **`<schema>`**：スキーマ識別キー（名前空間：schema_name）
+* **`<schema>`**: スキーマ識別キー（名前空間：schema_name）
 
 ### スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -91,7 +91,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### タイプ {#types}
 
-タイプの定義は、XML スキーマに基づいています。 この例では、「ExecuteQuery」メソッドは「s:string」文字列と XML ドキュメント（`<s:complextype>`）をパラメーターとして使用します。 メソッド（&quot;ExecuteQueryResponse&quot;）の戻り値は XML ドキュメント（  `<s:complextype>`）に設定します。
+タイプの定義は、XML スキーマに基づいています。 この例では、「ExecuteQuery」メソッドは「s:string」文字列と XML ドキュメント（`<s:complextype>`）をパラメーターとして受け取ります。 メソッド（&quot;ExecuteQueryResponse&quot;）の戻り値は XML ドキュメント（`<s:complextype>`）です。
 
 ```
 <types>
@@ -127,7 +127,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### メッセージ {#messages}
 
-この `<message>` 送信される一連のフィールドの名前とタイプを記述します。 このメソッドは、2 つのメッセージを使用して、をパラメーター（「ExecuteQueryIn」）として渡し、を戻り値（「ExecuteQueryOut」）として渡します。
+`<message>` では、送信する一連のフィールドの名前とタイプについて説明します。 このメソッドは、2 つのメッセージを使用して、をパラメーター（「ExecuteQueryIn」）として渡し、を戻り値（「ExecuteQueryOut」）として渡します。
 
 ```
 <message name="ExecuteQueryIn">
@@ -141,7 +141,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### PortType {#porttype}
 
-この `<porttype>` は、応答（「output」）を生成するクエリ（「input」）によってトリガーされる「ExecuteQuery」操作のメッセージを関連付けます。
+`<porttype>` は、応答（「output」）を生成するクエリ（「input」）によってトリガーされる「ExecuteQuery」操作のメッセージを関連付けます。
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -154,7 +154,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### バインディング {#binding}
 
-この `<binding>` 部分は、SOAP 通信プロトコル （ `<soap:binding>` ）、HTTP でのデータトランスポート（「transport」属性の値）、「ExecuteQuery」操作のデータ形式。 SOAP エンベロープの本文には、変換を行わずにメッセージセグメントが直接含まれます。
+`<binding>` 部では、SOAP通信プロトコル（`<soap:binding>`）、HTTP でのデータトランスポート（「transport」属性の値）、「ExecuteQuery」オペレーションのデータフォーマットを指定します。 SOAP エンベロープの本文には、変換を行わずにメッセージセグメントが直接含まれます。
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -173,7 +173,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### サービス {#service}
 
-この `<service>` パートでは、「XtkQueryDef」サービスと、Adobe Campaign アプリケーションサーバーの URL 上の URI について説明します。
+`<service>` 部では、「XtkQueryDef」サービスと、Adobe Campaign アプリケーションサーバーの URL 上の URI について説明します。
 
 ```
 <service name="XtkQueryDef">
@@ -185,15 +185,15 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 ## 接続性 {#connectivity}
 
-Adobe Campaignでは、以下を導入することで、認証メカニズムのセキュリティを強化しました [セキュリティゾーン](../../installation/using/security-zones.md) とセッション管理設定。
+Adobe Campaignでは、[ セキュリティゾーン ](../../installation/using/security-zones.md) と session management 設定を導入して、認証メカニズムのセキュリティを強化しました。
 
 次の 2 つの認証モードを使用できます。
 
-* **logon メソッド（）の呼び出しを使用**. このモードは、セッショントークンとセキュリティトークンを生成します。 これは最も安全なモードであるため、最も推奨されます。
+* **logon メソッド（）の呼び出しを使用**。 このモードは、セッショントークンとセキュリティトークンを生成します。 これは最も安全なモードであるため、最も推奨されます。
 
 または
 
-* **Adobe Campaignのログインとパスワードを使用** これにより、セッショントークンが作成されます。 セッショントークンは、設定された期間の後に自動的に期限切れとなります。 このモードはお勧めできません。一部のゾーン設定（allowUserPassword=&quot;true&quot;および sessionTokenOnly=&quot;true&quot;）で、アプリケーションのセキュリティ設定を減らす必要があります。
+* セッショントークンを作成する **Adobe Campaign ログイン + パスワードを使用**。 セッショントークンは、設定された期間の後に自動的に期限切れとなります。 このモードはお勧めできません。一部のゾーン設定（allowUserPassword=&quot;true&quot;および sessionTokenOnly=&quot;true&quot;）で、アプリケーションのセキュリティ設定を減らす必要があります。
 
 ### セッショントークンの特性 {#session-token-characteristics}
 
@@ -231,13 +231,13 @@ POSTおよびGET HTTP から：
 * サーバーがトークンでリンクを完了します
 * サーバーがフォームに非表示フィールドを追加します
 
-SOAP 呼び出しから：
+SOAP呼び出しから：
 
 * ヘッダーを呼び出すために追加されます
 
 ### 呼び出しの例 {#call-examples}
 
-* 使用 **HttpSoapConnection/SoapService**:
+* **HttpSoapConnection/SoapService** を使用：
 
 ```
   
@@ -270,11 +270,11 @@ SOAP 呼び出しから：
   logInfo(queryRes[0].toXMLString())
 ```
 
-* 使用 **HttpServletRequest**:
+* **HttpServletRequest** を使用：
 
 >[!NOTE]
 >
->以下で使用される URL **HttpServletRequest** の「url 権限」セクションで、の呼び出しを許可リストにする必要がある **serverConf.xml** ファイル。 これは、サーバー自体の URL にも当てはまります。
+>次の **HttpServletRequest** 呼び出しで使用される URL は、**serverConf.xml** ファイルの URL permissions セクションで許可リストされている必要があります。 これは、サーバー自体の URL にも当てはまります。
 
 ログオン実行（）:
 

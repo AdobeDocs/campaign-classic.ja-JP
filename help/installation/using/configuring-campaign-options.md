@@ -16,12 +16,12 @@ ht-degree: 1%
 
 # Campaign Classicオプションのリスト{#configuring-campaign-options}
 
-この **[!UICONTROL 管理/プラットフォーム/オプション]** ノードを使用すると、Adobe Campaign オプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用できるオプションは、インスタンスと共にインストールされるパッケージによって異なります。
+**[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaign オプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用できるオプションは、インスタンスと共にインストールされるパッケージによって異なります。
 
 
 >[!CAUTION]
 >
->* このページにリストされていないオプションは内部専用です。 **を変更できません**.
+>* このページにリストされていないオプションは内部のみです **変更しないでください**。
 >
 >* Adobe Campaignのオプションの変更や更新は、エキスパートユーザーのみが実行できます。
 
@@ -49,34 +49,34 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
-   <td> 受信ボックスレンダリングにテストアドレスを使用するスキーマのリスト。 （要素名はコンマで区切ります）例：custom_nms_recipient。<br /> </td> 
+   <td> 受信ボックスレンダリングにテストアドレスを使用するスキーマのリスト。 （要素名はコンマで区切ります）例：custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
-   <td> Enhanced MTA が送信済みメールの生のコピーを送信する BCC メールアドレス。 <br /> </td> 
+   <td> Enhanced MTA が送信済みメールの生のコピーを送信する BCC メールアドレス。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">このセクション</a>を参照してください。</p> </td> 
+   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース（nms:recipient）とのダイアログを行います。<br /> オプションの値は、外部受信者テーブルに一致するスキーマの名前に対応している必要があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
-   <td> 配信を請求レポートでメインと見なすための最小受信者数。<br /> </td> 
+   <td> 配信を請求レポートでメインの配信と見なすための最小受信者数。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_DefaultProvider</span> <br /> </td> 
-   <td> 新しいテンプレートの既定のルーティング サービス プロバイダーです。<br /> </td> 
+   <td> 新しいテンプレートの既定のルーティング サービス プロバイダー <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> 配信の準備中に broadLogs を挿入するための最小バッチサイズ （行数）。<br /> </td> 
+   <td> 配信準備中の broadLogs 挿入の最小バッチサイズ （行数）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> 配信準備中に broadLogs 挿入のバッチサイズが 2 倍になるバッチ期間しきい値（ミリ秒単位）。<br /> </td> 
+   <td> 配信準備中に broadLogs 挿入のバッチサイズを 2 倍にするバッチ期間しきい値（ミリ秒単位）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
@@ -84,7 +84,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgValidityDuration</span> <br /> </td> 
-   <td> 配信のデフォルトの配信期間（秒）。<br /> </td> 
+   <td> 配信のデフォルトの配信期間（秒単位）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RegexRules</span> <br /> </td> 
@@ -127,7 +127,7 @@ ht-degree: 1%
    <td> 公開スクリプト。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsDelivery_NoCountBroadlogMsgPush</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsDelivery_NoCountBroadLogMsgPush</span> <br /> </td> 
    <td> プッシュメッセージの broadLogMsg 数を無効にします。<br /> </td> 
   </tr> 
   <tr> 
@@ -136,23 +136,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultErrorAddr</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に、メール配信に使用されるインスタンスレベルのデフォルトの「エラー」メールアドレス。<br /> </td> 
+   <td> ユーザーが空のままにした場合のメール配信に使用される、インスタンスレベルのデフォルトの「エラー」メールアドレス。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultFromAddr</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に、メール配信に使用されるインスタンスレベルのデフォルトの「送信元」メールアドレス。<br /> </td> 
+   <td> ユーザーが空のままにした場合のメール配信に使用される、インスタンスレベルでのデフォルトの「送信元」メールアドレス <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に、メール配信に使用されるインスタンスレベルのデフォルトの「返信先」メールアドレス。<br /> </td> 
+   <td> ユーザーが空のままにした場合のメール配信に使用される、インスタンスレベルのデフォルトの「返信先」メールアドレス。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 顧客の共通名。 受信者に表示される一部の警告メッセージで使用されます。<br /> 「このメッセージが届いたのは、『組織』または関連会社と連絡を取ったことがあるからです。 「組織」からのメッセージを受信しなくするには<br /> </td> 
+   <td> 顧客の共通名。 受信者に表示される一部の警告メッセージで使用されます。<br /> 「このメッセージが表示されるのは、『組織』または関連会社と連絡を取ったことがあるからです。 「組織」からのメッセージを受信しなくするには <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に、メール配信に使用されるインスタンスレベルのデフォルトの「送信元」電子メールラベル。<br /> </td> 
+   <td> ユーザーが空のままにした場合に電子メール配信に使用される、インスタンスレベルのデフォルトの「送信元」電子メールラベル。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
@@ -172,23 +172,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> 許可された転送先メールアドレスのリスト （受信メール処理モジュールから）。 アドレスはコンマで区切る必要があります（すべて許可する場合は「*」）。 例：xyz@abc.com,pqr@abc.com<br /> </td> 
+   <td> 許可された転送先メールアドレスのリスト （受信メール処理モジュールから）。 アドレスはコンマで区切る必要があります（すべて許可する場合は「*」）。 例：xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> URL （LINE チャネル）をエンコードするために「lineImage」サーブレットで使用される AES キー。<br /> </td> 
+   <td> URL をエンコードするために「lineImage」サーブレットで使用される AES キー（LINE チャネル）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
-   <td> チャネル「メール」上（デフォルトで使用）：受信者を強制隔離する前に、送信中のソフトエラーに対して許可されるエラーの最大数。<br /> </td> 
+   <td> チャネル「メール」上（デフォルトで使用）：受信者を強制隔離する前に、送信中のソフトエラーに対して許可されるエラーの最大数 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailSignificantErrorDelay</span> <br /> </td> 
-   <td> チャネル「電子メール」で（デフォルトで使用）：新しいソフトエラーを考慮に入れる前に、前に参照されたソフトエラー以降に費やされた最小期間。<br /> </td> 
+   <td> チャネル「電子メール」で（デフォルトで使用）：新しいソフトエラーを考慮に入れる前に、前に参照されたソフトエラー以降に費やされた最小期間 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileMaxError</span> <br /> </td> 
-   <td> チャネル「モバイル」で：送信中のソフトエラーに対して、受信者を強制隔離する前に受け入れられるエラーの最大数。<br /> </td> 
+   <td> チャネル「モバイル」で：送信中のソフトエラーに対して、受信者を強制隔離する前に受け入れられるエラーの最大数 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileSignificantErrorDelay</span> <br /> </td> 
@@ -200,7 +200,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> MidSourcing セッションでの最大呼び出し数。並行して実行できます（デフォルトでは 3）。<br /> </td> 
+   <td> MidSourcing セッションでの呼び出しの最大数。並行して実行できます（デフォルトでは 3）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
@@ -208,7 +208,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>このオプションは、 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> 実行中の配信の数をカウントする際のテクニカルワークフロー。</p>これを使用すると、一貫性のないステータスの配信が実行中の配信数から除外される日数を定義できます。</p><p>デフォルトでは、値は「7」に設定されています。つまり、7 日より古い一貫性のない配信は除外されます。</p></td> 
+   <td><p>このオプションは、実行中の配信数をカウントする際に <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> テクニカルワークフローで使用されます。</p>これを使用すると、一貫性のないステータスの配信が実行中の配信数から除外される日数を定義できます。</p><p>デフォルトでは、値は「7」に設定されています。つまり、7 日より古い一貫性のない配信は除外されます。</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -232,11 +232,11 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> ミラーページサーバーの URL （デフォルトでは、NmsTracking_ServerUrl と同じである必要があります）。<br /> この値は、URL がルーティング定義で指定されていない場合のメール配信のデフォルト値です。<br /> </td> 
+   <td> ミラーページサーバーの URL （デフォルトでは、NmsTracking_ServerUrl と同じである必要があります）。<br /> URL がルーティング定義で指定されていない場合のメール配信のデフォルト値です。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
-   <td> 送信済み SMS メッセージのパラメーター：SMS ゲートウェイに送信される、メッセージの優先度を示す情報。<br /> </td> 
+   <td> 送信済み SMS メッセージのパラメーター：メッセージの優先度を示すために SMS ゲートウェイに送信される情報 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryCount</span> <br /> </td> 
@@ -248,23 +248,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> の最終統合日 <span class="uicontrol">NmsUserAgent</span> 統計。<br /> </td> 
+   <td> <span class="uicontrol">NmsUserAgent</span> 統計の最終統合日 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
-   <td> Web セグメントとその状態を含むオプションの名前。<br /> </td> 
+   <td> Web セグメントとその状態を含むオプションの名前 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Code128 の特殊文字のサポートを有効/無効にします。<br /> </td> 
+   <td> Code128.<br /> の特殊文字のサポートを有効/無効にする </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> メールアドレスに対して有効な文字。<br /> </td> 
+   <td> E メール アドレスに対して有効な文字。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
-   <td> このオプションを「0」値で追加すると、配信の XML コードの編集が無効になります（右クリック / <span class="uicontrol">XML ソースを編集</span> または <span class="uicontrol">CTRL + F4</span> ショートカット）。<br /> </td> 
+   <td> このオプションを「0」値で追加して、配信の XML コードの編集を無効にします（右クリック/<span class="uicontrol">XML ソースを編集 </span> または <span class="uicontrol">Ctrl + F4</span> ショートカット）。<br /> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -311,11 +311,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> パブリケーションのルートフォルダー。<br /> HTMLとテキストコンテンツの生成について詳しくは、次を参照してください。 <a href="../../delivery/using/using-a-content-template.md">この節</a>.<br /> </td> 
+   <td> パブリケーションのルートフォルダー。<br />HTMLとテキストコンテンツの生成について詳しくは、<a href="../../delivery/using/using-a-content-template.md"> この節 </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> 配信で使用される画像を保存するサーバーを定義して、ブラウザーが取得できるようにします。<br /> ビルドバージョンが 5098 より前の場合、インスタンスにアップロードされた画像の URL を使用します。<br /> ビルドバージョン 5098 より前の場合、配信の公開 URL またはを代わりに使用します。 <span class="uicontrol">XtkFileRes_Public_URL</span> オプションの URL。<br /> </td> 
+   <td> 配信で使用される画像を保存するサーバーを定義して、ブラウザーが取得できるようにします。<br /> ビルドバージョン 5098 未満の場合、インスタンスにアップロードされた画像の URL を使用します。<br /> ビルドバージョン 5098 以上の場合、代わりに、配信のパブリック URL または <span class="uicontrol">XtkFileRes_Public_URL</span> オプションの URL を使用します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -331,7 +331,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgWebValidityDuration</span> <br /> </td> 
-   <td> 配信のオンラインリソースに対するデフォルトの有効期間（秒単位）。<br /> </td> 
+   <td> 配信のオンラインリソースのデフォルトの有効期間（秒単位）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
@@ -356,15 +356,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_Duration</span> <br /> </td> 
-   <td> キャンペーンのデフォルトの有効期間（秒）。<br /> </td> 
+   <td> キャンペーンのデフォルトの有効期間（秒単位）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_LimitConcurrency</span> <br /> </td> 
-   <td> operationMgt ワークフローによって開始された、一度に処理できる配信/ワークフロー/仮説/シミュレーションジョブの最大数。<br /> </td> 
+   <td> operationMgt ワークフローによって開始された、一度に処理できる配信/ワークフロー/仮説/シミュレーションジョブの最大数 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> を監視できます <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> テクニカルワークフローの実行。 有効（値「1」）にすると、実行情報がワークフローの監査ログに記録されます。<br /> </td> 
+   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> テクニカルワークフローの実行を監視できます。 有効（値「1」）にすると、実行情報がワークフローの監査ログに記録されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -376,15 +376,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkReport_Logo</span> <br /> </td> 
-   <td> 書き出された報告書の右上隅に表示されるロゴ。<br /> </td> 
+   <td> エクスポートされた報告書の右上隅に表示されるロゴ。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_PausedWorkflowPeriod</span> <br /> </td> 
-   <td> 一時停止されたワークフローのチェック間の待機日数。<br /> </td> 
+   <td> 一時停止したワークフローのチェック間の待機日数。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCampaign_Activate_OwnerConfirmation</span> <br /> </td> 
-   <td> 値として「1」を入力して、操作の所有者による配信の検証を有効にします。 このオプションを無効にするには、「0」と入力します。<br /> </td> 
+   <td> 値として「1」を入力して、操作の所有者による配信の検証を有効にします。 このオプションを非アクティブにするには、「0」と入力します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsAsset_JavascriptExt</span> <br /> </td> 
@@ -405,11 +405,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBchema</span> <br /> </td> 
-   <td> （21.1.3 リリース以降） 1 が選択されている場合（デフォルト値）、このオプションはビルトインスキーマの編集を無効にします。<br /> </td> 
+   <td> （21.1.3 リリース以降） 1 を選択した場合（デフォルト値）、このオプションはビルトインスキーマの編集を無効にします。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> （21.1.3 リリース以降） 1 を選択した場合（デフォルト値）、このオプションは組み込み JavaScript コードの編集を無効にします。<br /> </td> 
+   <td> （21.1.3 リリース以降） 1 を選択した場合（デフォルト値）、このオプションは組み込みJavaScript コードの編集を無効にします。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
@@ -417,23 +417,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
-   <td> このキーは、データベース内のほとんどのパスワードの暗号化に使用されます。 （外部アカウント、LDAP パスワードなど）。<br /> </td> 
+   <td> このキーは、データベース内のほとんどのパスワードの暗号化に使用されます。 （外部アカウント、LDAP パスワード…）.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
-   <td> 1 を選択した場合、このオプションは JavaScript で privilegeEscalation を許可します。<br /> </td> 
+   <td> 1 を選択した場合、JavaScriptで privilegeEscalation を許可します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 
-   <td> 1 を選択すると、このオプションは、ファイルのダウンロード中（fileDownload.jsp 経由）に ACL コントロールを無効にします。<br /> </td> 
+   <td> 1 を選択すると、このオプションは、ファイルのダウンロード中に（fileDownload.jsp 経由で） ACL コントロールを無効にします <br />。 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_JSFileSandboxing</span> <br /> </td> 
-   <td> 1 が選択されている場合、このオプションは JavaScript 内のファイルのサンドボックス化を無効にします。<br /> </td> 
+   <td> 1 が選択されている場合、このオプションは Javascript.<br /> 内のファイルのサンドボックスを無効にします </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
-   <td> 「true」に設定した場合、管理者以外のオペレーターは、デプロイメントウィザードを使用して xtkOption 値を更新できます。<br /> </td> 
+   <td> 「true」に設定した場合、管理者以外のオペレーターは、デプロイメントウィザードを使用して xtkOption 値を更新できるように許可されました。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
@@ -458,22 +458,22 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
-   <td> イベントを充実させるためにパーソナライズされる JavaScript ライブラリ。 次の 2 つの関数の実装を含める必要があります。<br /> 
+   <td> イベントを充実させるためにパーソナライズされるJavaScript ライブラリ。 次の 2 つの関数の実装を含める必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents （aiEventId）;</span> ：イベントをデータベースにエンリッチメントして保存します（この場合、 <span class="uicontrol">aiEventId</span> 処理されたリアルタイムイベントのテーブルに対応します）。</p> </li> 
-     <li> <p> <span class="uicontrol">enrichBatchEvents （aiEventId）;</span> ：イベントをデータベースにエンリッチメントして保存します（この場合、 <span class="uicontrol">aiEventId</span> 処理されるバッチイベントの ID テーブルに対応します）。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents （aiEventId）;</span>：イベントをデータベースにエンリッチメントして保存します（<span class="uicontrol">aiEventId</span> は、処理されたリアルタイムイベントのテーブルに対応します）。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichBatchEvents （aiEventId）;</span>：イベントをデータベースにエンリッチメントして保存します（<span class="uicontrol">aiEventId</span> は、処理されたバッチイベントの ID テーブルに対応します）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastUpdateFromBL</span> <br /> </td> 
-   <td> 配信ログによる最後のイベントステータス更新日。<br /> </td> 
+   <td> 配信ログを使用してイベントステータスを最後に更新した日付。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> ルーティングイベント用にパーソナライズされる JavaScript ライブラリ。 次の 2 つの関数の実装を含める必要があります。<br /> 
+   <td> ルーティングイベント用にパーソナライズするJavaScript ライブラリ。 次の 2 つの関数の実装を含める必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">dispatchRtEvent （iEventId）;</span> ：リアルタイムイベントを処理するために選択されたトランザクションメッセージの内部名を返します（この場合、 <span class="uicontrol">iEventId</span> 処理されるリアルタイムイベントの ID に対応します）。</p> </li> 
-     <li> <p> <span class="uicontrol">dispatchBatchEvent （iEventId）;</span> ：バッチイベントを処理するために選択したトランザクションメッセージの内部名を返します（この場合、 <span class="uicontrol">iEventId</span> 処理されるバッチイベントの ID に対応します）。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent （iEventId）;</span>：リアルタイムイベントを処理するために選択されたトランザクションメッセージの内部名を返します（<span class="uicontrol">iEventId</span> は、処理されるリアルタイムイベントの ID に対応します）。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent （iEventId）;</span>：バッチイベントを処理するために選択されたトランザクションメッセージの内部名を返します（<span class="uicontrol">iEventId</span> は、処理されるバッチイベントの ID に対応します）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -526,7 +526,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueAlert</span> <br /> </td> 
-   <td> キュー内にあるリアルタイムイベントの最小数のアラートしきい値。<br /> </td> 
+   <td> 待機中リアルタイムイベントの最小数のアラートしきい値。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueWarning</span> <br /> </td> 
@@ -538,7 +538,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueWarning</span> <br /> </td> 
-   <td> 保留中リアルタイムイベントのキューの警告しきい値。<br /> </td> 
+   <td> 保留中リアルタイムイベントのキューを警告する前のしきい値。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
@@ -554,7 +554,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastRtEventStat</span> <br /> </td> 
-   <td> RtEvent ステータスのポインターを更新します（データが取得されるまでの最後の日付）。<br /> </td> 
+   <td> RtEvent ステータスのポインターを更新します（データが取得された最後の日付まで）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_MessageCenterURL</span> <br /> </td> 
@@ -628,7 +628,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
-   <td> Azure SQL データウェアハウスのコネクタオプション。<br /> </td> 
+   <td> Azure SQL Datawarehouse コネクタオプション。<br /> </td> 
   </tr>
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
@@ -639,31 +639,31 @@ ht-degree: 1%
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign ootb 表のデータを格納する表領域の名前。<br />参照： <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
+   <td> Adobe Campaign ootb 表のデータを格納する表領域の名前。<br /> データベースの作成および構成 <a href="../../installation/using/creating-and-configuring-the-database.md"> を参照してください </a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign ootb 表の索引を格納する表領域の名前。<br />参照： <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
+   <td> Adobe Campaign ootb 表の索引を格納する表領域の名前。<br /> データベースの作成および構成 <a href="../../installation/using/creating-and-configuring-the-database.md"> を参照してください </a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Adobe Campaign作業用テーブルのデータを格納するためのテーブル領域の名前。<br />参照： <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
+   <td> Adobe Campaign作業用テーブルのデータを格納するためのテーブル領域の名前。<br /> データベースの作成および構成 <a href="../../installation/using/creating-and-configuring-the-database.md"> を参照してください </a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Adobe Campaign作業用テーブルのインデックスを格納するためのテーブル領域の名前。<br />参照： <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
+   <td> Adobe Campaign作業用テーブルのインデックスを格納するためのテーブル領域の名前。<br /> データベースの作成および構成 <a href="../../installation/using/creating-and-configuring-the-database.md"> を参照してください </a>。</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Server 上のワークテーブルに対して個別のデータベースを設定できます。 オプションは一時データベースの名前に対応します。ワークテーブルは、指定された場合、このデータベースに書き込まれます。 例：'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
+   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Server 上のワークテーブルに対して個別のデータベースを設定できます。 オプションは一時データベースの名前に対応します。ワークテーブルは、指定された場合、このデータベースに書き込まれます。 例：'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server"> 詳細を表示 </a><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
-   <td> Adobe Campaign インスタンスのタイムゾーン。 参照： <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">設定</a>.<br /> </td> 
+   <td> Adobe Campaign インスタンスのタイムゾーン。 <a href="../../installation/using/time-zone-management.md#configuration" target="_blank"> 設定 </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseNChar</span> <br /> </td> 
-   <td> データベースの文字列フィールドは NChar で定義されていますか。<br /> </td> 
+   <td> データベースの文字列フィールドは NChar で定義されていますか？<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseTimeStampWithTZ</span> <br /> </td> 
@@ -671,7 +671,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkDatabaseId</span> <br /> </td> 
-   <td> データベースの ID。 Unicode データベースの'u'で始まります。<br /> </td> 
+   <td> データベースの ID。 Unicode データベースの'u'で始まる。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
@@ -679,13 +679,13 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
-   <td> xtk:schema および xtk:srcSchema のクエリによって返される結果の最大数。<br /> </td> 
+   <td> xtk:schema および xtk:srcSchema.<br /> のクエリによって返される結果の最大数 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
    <td> この日以降に作成され、属性「pkSequence」を持たない autopk="true"を持つすべてのカスタマイズされたスキーマは、自動生成されたシーケンス「auto_」を取得します 
     &lt;schemanamespace&gt; 
-     &lt;schemaname&gt;
+     &lt; スキーマ名 &gt;
        _seq. 
    </td> 
   </tr> 
@@ -693,17 +693,17 @@ ht-degree: 1%
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
    <td> 移行中、ツリー構造は新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 これを使用すると、移行後に古いフォルダーを削除し、新しいフォルダーを追加して、必要なチェックをすべて実行する必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">データタイプ：</span> 整数</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> : 1 </p> </li> 
+     <li> <p> <span class="uicontrol"> データタイプ：</span> 整数</p> </li> 
+     <li> <p> <span class="uicontrol"> 値（テキスト） </span>:1 </p> </li> 
     </ul> このオプションは、標準のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
-   <td> の最終処理日 <span class="uicontrol">NmsEmailErrorStat</span> テーブルクリーンアップ。<br /> </td> 
+   <td> <span class="uicontrol">NmsEmailErrorStat</span> テーブルのクリーンアップの最終処理日。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> アップグレード後に発生したエラーに関する情報を、次の構文で示します。<br /> <strong>{ ビルド番号 }:{mode: pre/post/...}:{ エラーが発生した場所の「lessThan」/「greaterOrEquelThan」 + サブステップ }</strong> </td> 
+   <td> アップグレード後に発生したエラーに関する情報で、次の構文を使用します。<br /> <strong>{Build number}:{mode: pre/post/...}:{ エラーが発生した場所+ サブステップの'lessThan'/'greaterOrEquelThan'}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -728,31 +728,31 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloudトリガーを設定できます。 データタイプは「長いテキスト」で、JSON 形式である必要があります。 参照： <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign ClassicでのExperience Cloudトリガーの使用方法</a>.<br /> </td> 
+   <td> Experience Cloudトリガーを設定できます。 データタイプは「長いテキスト」で、JSON 形式である必要があります。 <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign ClassicでExperience Cloudトリガーを使用する方法 </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> このオプションは、CRM コネクタを使用してサードパーティシステムからデータをインポートする際に使用されます。 このオプションを有効にすると、前回の読み込み以降に変更されたオブジェクトのみを収集できます。 このオプションは、次のように手動で作成して入力する必要があります。 
     <ul> 
-     <li> <p> <span class="uicontrol">内部名</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">値（フィールド）</span> ：最後のインポートの日付（yyyy/MM/dd hh）:mm:ss 形式 </p> </li> 
+     <li> <p> <span class="uicontrol"> 内部名 </span> :LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol"> 値（フィールド） </span> :yyyy/MM/dd hh:mm:ss 形式の最後のインポートの日付。 </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。この値はAdobe Target Domain Server に対応し、続いて/m2 という値が続きます。 例：tt.omtrdc.net/m2<br /> 参照： <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">この節</a>.<br /> </td> 
+   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。この値はAdobe Target Domain Server に対応し、続いて/m2 という値が続きます。 例：tt.omtrdc.net/m2<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> この節 </a> を参照してくださ <br />。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Targetの組織名。 この値は、Adobe Target クライアントの名前に対応します。<br /> 参照： <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">この節</a>.<br /> </td> 
+   <td> Adobe Targetの組織名。 この値は、Adobe Target クライアントの名前に対応します。<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> この節 </a> を参照してくださ <br />。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
-   <td> Adobe Audience Managerとの統合に使用するオプション。<br /> </td> 
+   <td> Adobe Audience Manager.<br /> との統合に使用するオプション </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Adobe Audience Managerとの統合に使用するオプション。<br /> </td> 
+   <td> Adobe Audience Manager.<br /> との統合に使用するオプション </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
@@ -760,7 +760,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 
-   <td> Hive コネクタオプション。<br /> </td> 
+   <td> Hive コネクタのオプション。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -777,7 +777,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsCoupons_MaxPerTransac</span> <br /> </td> 
-   <td> SQL トランザクションごとに更新されるクーポンの数です。<br /> </td> 
+   <td> SQL トランザクションごとに更新されるクーポンの数。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchControl_</span> <br /> </td> 
@@ -789,7 +789,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_SynchWorkflowIds</span> <br /> </td> 
-   <td> 同期ワークフロートラッキング。<br /> </td> 
+   <td> 同期ワークフローの追跡。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_UseDaemon</span> <br /> </td> 
@@ -814,19 +814,19 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsExecutionInstanceId</span> <br /> </td> 
-   <td> 実行インスタンスの識別子。<br /> </td> 
+   <td> 実行インスタンス識別子。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_CustomerId</span> <br /> </td> 
    <td> 請求レポートの送信時に使用する顧客識別子。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsServer_イントラネット URL</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsServer_IntranetURL</span> <br /> </td> 
    <td> アプリケーションサーバーにアクセスするための内部ベース URL。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LastPostUpgrade</span> <br /> </td> 
-   <td> 前回のアップグレード前の AC インスタンスのビルド番号。<br /> </td> 
+   <td> 前回のアップグレードの前の AC インスタンスのビルド番号。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_URL</span> <br /> </td> 
@@ -834,7 +834,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkPassUnknownSQLFunctionsToRDBMS</span> <br /> </td> 
-   <td> 移行後も古い宣言されていない SQL 関数を引き続き使用できます。 このオプションは、セキュリティリスクがあるため、使用しないことを強くお勧めします。<br /> </td> 
+   <td> 移行後も古い宣言されていない SQL 関数を引き続き使用できます。 このオプションはセキュリティリスクがあるため、使用しないことを強くお勧めします。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -851,7 +851,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Available</span> <br /> </td> 
-   <td> トラッキングを有効化できるオプション。<br /> </td> 
+   <td> トラッキングを有効化できるオプション <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
@@ -875,11 +875,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Password</span> <br /> </td> 
-   <td> トラッキングサーバーのパスワード<br /> </td> 
+   <td> トラッキングサーバー <br /> パスワード </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Pointer</span> <br /> </td> 
-   <td> ポインターは、ID と日付を通じて処理された最後のメッセージイベントを追跡します。<br /> </td> 
+   <td> ポインターは、ID と日付を使用して処理された最後のメッセージイベントを追跡します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_SecureServerUrl</span> <br /> </td> 
@@ -895,7 +895,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_UserAgentRules</span> <br /> </td> 
-   <td> ブラウザー識別ルールセット。<br /> </td> 
+   <td> ブラウザー識別ルールセット <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebFormula</span> <br /> </td> 
@@ -953,27 +953,27 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Active</span> <br /> </td> 
-   <td> LDAP サーバーをユーザーの認証に使用できるようにして、ユーザーに権限を付与します。<br /> </td> 
+   <td> LDAP サーバーをユーザーの認証およびユーザーへの認証に使用できるようにします。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppLogin</span> <br /> </td> 
-   <td> 様々な検索のためにサーバーに問い合わせるためのアプリケーションログイン。<br /> </td> 
+   <td> サーバーに問い合わせて様々な検索を行うためのアプリケーションログイン。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
-   <td> アプリケーションログインの暗号化パスワード。<br /> </td> 
+   <td> アプリケーション ログインの暗号化されたパスワード。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
-   <td> Adobe Campaignでのオペレーターと権限の自動作成を有効にします。<br /> </td> 
+   <td> Adobe Campaignでオペレーターと権限の自動作成を有効にします。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DN</span> <br /> </td> 
-   <td> ログインに基づく LDAP DN の計算式。<br /> </td> 
+   <td> ログイン。<br /> に基づく LDAP DN の計算式 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearch</span> <br /> </td> 
-   <td> ディレクトリの DN 検索を有効にします。<br /> </td> 
+   <td> Directory.<br /> で DN 検索を有効にします。 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchBase</span> <br /> </td> 
@@ -993,7 +993,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Rights</span> <br /> </td> 
-   <td> LDAP ディレクトリにある権限とグループをAdobe Campaignのネームド権限に同期できるようにします。<br /> </td> 
+   <td> LDAP ディレクトリにある権限とグループをAdobe Campaign.<br /> のネームド権限に同期できるようにします。 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsAttr</span> <br /> </td> 
@@ -1009,7 +1009,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsMask</span> <br /> </td> 
-   <td> LDAP 認証からAdobe Campaign権限の名前を抽出するための式。<br /> </td> 
+   <td> LDAP 認証からAdobe Campaign権限の名前を抽出する式。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsScope</span> <br /> </td> 
@@ -1049,7 +1049,7 @@ ht-degree: 1%
    <td> Web フォームの無効化モードを指定できるオプション : デフォルトではローカルです。「トラッキング」オプションの場合はトラッキングサーバーを使用し、「その他のサーバー」オプションの場合はパーソナライズされたリストを使用します。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkWebForm_ServersURL</span> <br /> </td> 
+   <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 
    <td> Web フォームの無効化のために接続されるサーバーのパーソナライズされたアドレスリスト （「その他のサーバー」モード）。<br /> </td> 
   </tr> 
  </tbody> 

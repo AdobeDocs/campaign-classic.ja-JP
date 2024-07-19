@@ -18,10 +18,10 @@ ht-degree: 78%
 
 
 
-Campaign の使用 **連合データアクセス** （FDA）外部データベースに保存された情報を処理するオプション。 hadoopへのアクセスを設定するには、次の手順に従います。
+Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 hadoopへのアクセスを設定するには、次の手順に従います。
 
-1. 設定 [Hadoopデータベース](#configuring-hadoop)
-1. hadoopの設定 [外部アカウント](#hadoop-external) Campaign 内
+1. [Hadoop データベース ](#configuring-hadoop) を構成します
+1. Campaign でのHadoop[ 外部アカウント ](#hadoop-external) の設定
 
 ## hadoop 3.0 の設定 {#configuring-hadoop}
 
@@ -38,7 +38,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#hadoop-external).
+1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#hadoop-external) を参照してください。
 
 ## Hadoop 外部アカウント {#hadoop-external}
 
@@ -85,12 +85,12 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 
 ## hadoop 2.1 の設定 {#configure-access-hadoop-2}
 
-hadoop 2.1 に接続する必要がある場合は、以下の手順に従ってください。 [Windows](#for-windows) または [Linux](#for-linux).
+hadoop 2.1 に接続する必要がある場合は、以下の [Windows](#for-windows) または [Linux](#for-linux) の手順に従います。
 
 ### Hadoop 2.1 （Windows の場合） {#for-windows}
 
 1. Windows 用の ODBC ドライバーと [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) ドライバーをインストールします。
-1. ODBC DataSource Administrator ツールを実行して、DSN （データ・ソース名）を作成します。 ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
+1. ODBC DataSource Administrator ツールを実行して、DSN （データ・Source名）を作成します。 ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
 
    ```
    Description: vorac (or any name you like)
@@ -101,7 +101,7 @@ hadoop 2.1 に接続する必要がある場合は、以下の手順に従って
    User/Password: admin/<your password here>
    ```
 
-1. の説明に従って、Hadoop外部アカウントを作成します。 [この節](#hadoop-external).
+1. [ この節 ](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。
 
 ### Linux の場合のHadoop 2.1 {#for-linux}
 
@@ -111,7 +111,7 @@ hadoop 2.1 に接続する必要がある場合は、以下の手順に従って
    apt-get install unixodbc
    ```
 
-1. HortonWorks から Apache Hive 用の ODBC ドライバーをダウンロードしてインストールします。 [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. HortonWorks から Apache Hive 用の ODBC ドライバーをダウンロードしてインストールします：[https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html)。
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -188,4 +188,4 @@ hadoop 2.1 に接続する必要がある場合は、以下の手順に従って
    isql vorac -v
    ```
 
-1. の説明に従って、Hadoop外部アカウントを作成します。 [この節](#hadoop-external).
+1. [ この節 ](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。

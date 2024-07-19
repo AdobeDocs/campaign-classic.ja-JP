@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: スキーマ要素と属性 — 列挙要素
-description: 列挙要素
+title: スキーマ要素と属性 – 列挙要素
+description: 定義済みリスト要素
 feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
@@ -11,13 +11,13 @@ ht-degree: 8%
 
 ---
 
-# 列挙要素 {#enumeration--element}
+# 定義済みリスト要素 {#enumeration--element}
 
 ![](../../../assets/v7-only.svg)
 
 ## コンテンツモデル {#content-model-5}
 
-enumeration:==(help| 値 )
+列挙：==（help| value）
 
 ## 属性 {#attributes-5}
 
@@ -39,15 +39,15 @@ enumeration:==(help| 値 )
 
 ## 説明 {#description-5}
 
-この要素を使用して、値の列挙を定義できます。 列挙は、定義されているスキーマに属していますが、別のスキーマからアクセスできます。
+この要素を使用すると、値の列挙を定義できます。 列挙は、定義済みのスキーマに属していますが、別のスキーマを介してアクセスできます。
 
-## 使用と使用のコンテキスト {#use-and-context-of-use-4}
+## 用途および使用コンテキスト {#use-and-context-of-use-4}
 
-列挙は、スキーマの開始時（メイン要素が定義される前）に定義されます。
+定義済みリストは、スキーマの開始時（メイン要素が定義される前）に定義されます。
 
 ## 属性の説明 {#attribute-description-5}
 
-* **basetype（文字列）**：列挙に保存された値のタイプ。
+* **basetype （string）**：定義済みリストに格納される値のタイプ。
 
   使用可能なタイプのリスト：
 
@@ -59,12 +59,12 @@ enumeration:==(help| 値 )
    * CDATA
    * 日時
    * datetimetz
-   * datetimenotz
+   * datetimenoz
    * 日付
    * DOMDocument
    * DOMElement
    * 倍精度浮動小数点数
-   * enum
+   * 列挙
    * 浮動小数点数
    * html
    * int64
@@ -74,17 +74,17 @@ enumeration:==(help| 値 )
    * MNTOKEN
    * 割合
    * primarykey
-   * short
+   * 短い
    * 文字列
    * 時間
    * 期間
    * uuid
 
-* **default (string)**：デフォルト値。 また、デフォルト値は、列挙で定義された値の 1 つでもかまいません。
-* **desc （文字列）**：列挙の説明。
-* **label （文字列）**：列挙ラベル。
-* **name（文字列）**：列挙の内部名。
-* **template （文字列）**：この属性は、 `<enumeration>` 複数のスキーマで共有される要素。 定義は、現在のスキーマに自動的にコピーされます。
+* **default （string）**：デフォルト値。 デフォルト値は、定義済みリストで定義されている値の 1 つである場合もあります。
+* **desc （string）**：列挙の説明。
+* **label （string）**：列挙ラベル。
+* **name （string）**：定義済みリストの内部名。
+* **template （文字列）**：この属性は、複数のスキーマで共有される `<enumeration>` 要素への参照を定義します。 定義は、現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 
@@ -101,7 +101,7 @@ enumeration:==(help| 値 )
     </element>
 ```
 
-デフォルト値を持つ列挙の定義：
+デフォルト値を持つ定義済みリストの定義：
 
 ```
  <enumeration basetype="byte" default="email" name="canal">

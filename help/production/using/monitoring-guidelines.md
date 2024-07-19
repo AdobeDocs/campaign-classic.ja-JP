@@ -17,7 +17,7 @@ ht-degree: 23%
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
-この **[!UICONTROL 監視]** Campaign Classicホームページからアクセスできるタブは、インスタンスを監視するための主なエントリポイントです。
+Campaign Classicホームページからアクセスできる **[!UICONTROL 監視]** タブは、インスタンスを監視するための主なエントリポイントです。
 
 インスタンスのステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケーター、ログ、現在実行中のワークフロー、最後に送信された配信の状態に関するダッシュボードが提供されます。
 
@@ -68,11 +68,11 @@ Campaign コントロールパネルを使用すると、インスタンスの�
 
 **監査記録**
 
-監査記録を使用すると、ワークフローで行われたすべての変更とその現在の状態を視覚化できます。 [ここをクリック](../../production/using/audit-trail.md).
+監査記録を使用すると、ワークフローで行われたすべての変更とその現在の状態を視覚化できます。 [ ここをクリック ](../../production/using/audit-trail.md)。
 
 **ワークフローのトラブルシューティング**
 
-ワークフローの実行に関する問題が発生した場合は、特定のアクションを実行できます。 [ここをクリック](../../production/using/workflow-execution.md) 詳細情報
+ワークフローの実行に関する問題が発生した場合は、特定のアクションを実行できます。 詳しくは、[ ここをクリック ](../../production/using/workflow-execution.md) してください
 
 **ワークフローステータスの監視**
 
@@ -94,14 +94,14 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 **ベストプラクティス**
 
-[配信の送信とデザインのベストプラクティス](../../delivery/using/delivery-best-practices.md) あなたは彼らのパフォーマンスを向上させるのに役立ちます。
+[ 配信の送信とデザインのベストプラクティス ](../../delivery/using/delivery-best-practices.md) は、パフォーマンスの向上に役立ちます。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合は、特定のアクションを実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
 * [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
-* [一時ファイルの問題](../../production/using/temporary-files.md) - *オンプレミス ホスティングモデルのみ*
+* [ 一時ファイルの問題 ](../../production/using/temporary-files.md) - *オンプレミスホスティングモデルのみ*
 
 ### データベースの監視 {#monitoring-database}
 
@@ -117,15 +117,15 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 **データベースのメンテナンス**
 
-*オンプレミスホスティングモデルとハイブリッドホスティングモデルのみ*
+*オンプレミスおよびハイブリッドホスティングモデルのみ*
 
 データベースへのアクセスに影響を与えるディスク領域の過剰消費を避けるために、定期的にデータベースのメンテナンスを実行することをお勧めします。 詳しくは、[ここをクリック](../../production/using/recommendations.md)してください。
 
 **バックアップと復元**
 
-*オンプレミスホスティングモデルとハイブリッドホスティングモデルのみ*
+*オンプレミスおよびハイブリッドホスティングモデルのみ*
 
-マシン上で（物理またはシステムに関連する）問題が発生した場合にデータが失われないようにするには、バックアップが不可欠です。 [ここをクリック](../../production/using/backup.md) を参照してください。 復元手順については、を参照してください。 [この節](../../production/using/restoration.md).
+マシン上で（物理またはシステムに関連する）問題が発生した場合にデータが失われないようにするには、バックアップが不可欠です。 詳しくは、[ ここをクリック ](../../production/using/backup.md) してください。 復元手順については、[ この節 ](../../production/using/restoration.md) で説明します。
 
 ## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 

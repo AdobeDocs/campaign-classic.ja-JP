@@ -21,21 +21,21 @@ Adobe Campaignでは、3 つのホスティングモデルから選択でき、�
 
 >[!NOTE]
 >
->Adobeホスト環境の場合、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、メインのインストールおよび設定手順はAdobeによってのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、次を参照してください。 [このページ](../../installation/using/capability-matrix.md).
+>Adobeホスト環境の場合、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、メインのインストールおよび設定手順はAdobeによってのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、[ このページ ](../../installation/using/capability-matrix.md) を参照してください。
 
 ## Managed Services / ホスト
 
-Adobe Campaignはas a Managed Serviceでデプロイできます。ユーザーインターフェイス、Execution Management Engine、顧客の Campaign データベースなど、Adobe Campaignのすべてのコンポーネントは、メール実行、ミラーページ、トラッキングサーバー、登録解除ページ/環境設定センター、ランディングページなどの外部向け web コンポーネントなど、Adobeで完全にホストされます。
+Adobe Campaignはas a Managed Service的にデプロイできます。ユーザーインターフェイス、Execution Management Engine、顧客の Campaign データベースを含むAdobe Campaignのすべてのコンポーネントは、メール実行、ミラーページ、トラッキングサーバー、登録解除ページ/環境設定センター、ランディングページなどの外部向け web コンポーネントなど、Adobeで完全にホストされています。
 
 ![](assets/deployment_hosted.png)
 
 ホステッド環境のお客様の場合、インストールと設定の手順のほとんどはAdobeが行います。 以下のセクションにアクセスして、実装をカスタマイズできます。
 
-* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、を参照してください [このセクションに](../../message-center/using/additional-configurations.md#configuring-multibranding).
-* クライアントコンソールをインストールします。詳しくは、 [このセクションに](../../installation/using/installing-the-client-console.md).
-* 配信品質ツールとベストプラクティスについて詳しくは、を参照してください。 [詳細ドキュメント](../../delivery/using/about-deliverability.md).
-* Campaign オプションの設定：を参照してください [このセクションに](../../installation/using/configuring-campaign-options.md).
-* CRM コネクタの設定：を参照してください。 [このセクションに](../../platform/using/crm-connectors.md).
+* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、[ この節 ](../../message-center/using/additional-configurations.md#configuring-multibranding) を参照してください。
+* クライアントコンソールをインストールします。[ この節 ](../../installation/using/installing-the-client-console.md) を参照してください。
+* 配信品質ツールとベストプラクティスについて詳しくは、[ 詳細ドキュメント ](../../delivery/using/about-deliverability.md) を参照してください。
+* Campaign オプションを設定します。[ この節 ](../../installation/using/configuring-campaign-options.md) を参照してください。
+* CRM コネクタを設定します。[ この節 ](../../platform/using/crm-connectors.md) を参照してください。
 
 ## オンプレミス
 
@@ -45,13 +45,13 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 
 オンプレミス環境のお客様は、Campaign Classicのデプロイを開始する前に、次の前提条件と推奨事項に注意してください。
 
-* を読み上げます。 [互換性マトリックス](../../rn/using/compatibility-matrix.md) に、Adobe Campaignでサポートされているシステムとコンポーネントのすべてのバージョンを示します。
-* 環境に応じて、を読み上げます。 [windows の前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) および [linux の前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
-* データベースエンジンに関する推奨事項を説明します [この節](../../installation/using/database.md).
+* Adobe Campaignでサポートされているシステムおよびコンポーネントのすべてのバージョンが記載されている [ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) を参照してください。
+* 環境に応じて、[Windows の前提条件 ](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) および [Linux の前提条件 ](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) を参照してください。
+* データベースエンジンに関する推奨事項について説明します [ この節 ](../../installation/using/database.md)。
 * 必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaign アカウントからアクセスできることを確認します。 [詳細情報](../../installation/using/application-server.md)。
-* 一部のプロセスが他のプロセスと通信したり、LAN やインターネットにアクセスしたりする必要があるので、ネットワークを構成します。 つまり、これらのプロセスでは、一部の TCP ポートを開く必要があります。 [詳細情報](../../installation/using/network-configuration.md) ネットワーク構成要件について。
-* 読み上げる [Campaign のセキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html).
-* オンプレミスデプロイメントのハードウェア要件を見積もるための一般的なガイドラインを確認します [この記事の](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
+* 一部のプロセスが他のプロセスと通信したり、LAN やインターネットにアクセスしたりする必要があるので、ネットワークを構成します。 つまり、これらのプロセスでは、一部の TCP ポートを開く必要があります。 ネットワーク構成の要件について [ 詳細情報 ](../../installation/using/network-configuration.md) します。
+* [Campaign のセキュリティとプライバシーのチェックリスト ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) を参照してください。
+* オンプレミスデプロイメントのハードウェア要件を見積もるための一般的なガイドラインを確認してください [ この記事を参照してください ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)。
 
 ## ハイブリッド
 
@@ -61,12 +61,12 @@ Adobe Campaign ソリューションソフトウェアをハイブリッドモ�
 
 ハイブリッド環境のお客様の場合、インストール手順と設定手順のほとんどはAdobeが実行します。 以下のセクションにアクセスして、実装をカスタマイズできます。
 
-* トランザクションメッセージを設定する：を参照してください [このセクションに](../../message-center/using/transactional-messaging-architecture.md).
-* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、を参照してください [このセクションに](../../message-center/using/additional-configurations.md#configuring-multibranding).
-* クライアントコンソールをインストールします。詳しくは、 [このセクションに](../../installation/using/installing-the-client-console.md).
-* ビルトインパッケージのインストール：を参照 [このセクションに](../../installation/using/installing-campaign-standard-packages.md).
-* 配信品質：の設定 [MX ルール](../../installation/using/email-deliverability.md#mx-configuration) および [e メール形式](../../installation/using/email-deliverability.md#managing-email-formats). 配信品質ツールとベストプラクティスについて詳しくは、を参照してください。 [詳細ドキュメント](../../delivery/using/about-deliverability.md).
-* Campaign オプションの設定：を参照してください [このセクションに](../../installation/using/configuring-campaign-options.md).
-* 外部データベース（Federated Data Access）を設定します。詳しくは、 [このセクションに](../../installation/using/about-fda.md).
-* CRM コネクタの設定：を参照してください [このセクションに](../../platform/using/crm-connectors.md).
-* ミッドソーシングデプロイメントの原則について詳しくは、以下を参照してください。 [このセクションに](../../installation/using/mid-sourcing-deployment.md).
+* トランザクションメッセージを設定します。[ この節 ](../../message-center/using/transactional-messaging-architecture.md) を参照してください。
+* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、[ この節 ](../../message-center/using/additional-configurations.md#configuring-multibranding) を参照してください。
+* クライアントコンソールをインストールします。[ この節 ](../../installation/using/installing-the-client-console.md) を参照してください。
+* ビルトインパッケージをインストールします。[ この節を参照 ](../../installation/using/installing-campaign-standard-packages.md)。
+* 配信品質：[MX ルール ](../../installation/using/email-deliverability.md#mx-configuration) および [ メール形式 ](../../installation/using/email-deliverability.md#managing-email-formats) を設定します。 配信品質ツールとベストプラクティスについて詳しくは、[ 詳細ドキュメント ](../../delivery/using/about-deliverability.md) を参照してください。
+* Campaign オプションを設定します。[ この節 ](../../installation/using/configuring-campaign-options.md) を参照してください。
+* 外部データベース（Federated Data Access）を設定します。[ この節 ](../../installation/using/about-fda.md) を参照してください。
+* CRM コネクタの設定：[ この節 ](../../platform/using/crm-connectors.md) を参照してください。
+* ミッドソーシングデプロイメントの原則について詳しくは、[ この節 ](../../installation/using/mid-sourcing-deployment.md) を参照してください。

@@ -16,13 +16,13 @@ ht-degree: 6%
 
 # サーバー設定ファイル{#the-server-configuration-file}
 
-Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内） **conf** インストールディレクトリのディレクトリ。 このセクションでは、のすべてのノードおよびパラメータをリストします **serverConf.xml** ファイル。
+Adobe Campaignの全体的な設定は、インストールディレクトリの **conf** ディレクトリにある **serverConf.xml** ファイルで定義されています。 この節では、**serverConf.xml** ファイルのすべてのノードとパラメーターを示します。
 
 >[!NOTE]
 >
->サーバーサイド設定は、Adobeがホストするデプロイメントに対してのみ、Adobeが実行できます。 様々なデプロイメントの詳細については、 [ホスティングモデル](../../installation/using/hosting-models.md) セクションまたは宛先 [このページ](../../installation/using/capability-matrix.md). ホストモデルとハイブリッドモデルのインストールと設定の手順については、こちらを参照してください [セクション](../../installation/using/hosting-models.md).
+>サーバーサイド設定は、Adobeがホストするデプロイメントに対してのみ、Adobeが実行できます。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。 ホストモデルとハイブリッドモデルのインストールと設定の手順については、この [ 節 ](../../installation/using/hosting-models.md) を参照してください。
 
-最初のパラメーターは **共有** ノード。 これらはインスタンスに関連しています。 すべての nlserver コマンド（nlserver web、nlserver wfserver など）で使用される可能性があります。 その他のセクションは、特定の nlserver サブコマンドに関連しています。
+最初のパラメーターは **shared** ノード内にあります。 これらはインスタンスに関連しています。 すべての nlserver コマンド（nlserver web、nlserver wfserver など）で使用される可能性があります。 その他のセクションは、特定の nlserver サブコマンドに関連しています。
 
 **共有パラメーター**
 
@@ -63,7 +63,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ## 認証 {#authentication}
 
-次に、の様々なパラメーターを示します **認証** ノード：
+**authentication** ノードの様々なパラメーターを次に示します。
 
 <table> 
  <thead> 
@@ -78,8 +78,8 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
   <tr> 
    <td> checkIPConsistent<br /> </td> 
    <td> IP アドレスの確認を有効にします。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultMode<br /> </td> 
@@ -90,25 +90,25 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
   <tr> 
    <td> longSessionTimeOutSec<br /> </td> 
    <td> 長いセッションのタイムアウト （秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1296000<br /> </td> 
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
    <td> セキュリティトークンのタイムアウト （秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
-   <td> キャッシュ時間：セッション情報のキャッシュ（秒単位）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> キャッシュ時間：セッション情報のキャッシュ （秒） <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
    <td> セッションタイムアウト （秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
  </tbody> 
@@ -116,7 +116,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ### XTK {#xtk}
 
-次に、の様々なパラメーターを示します **認証/ XTK** ノード：
+**認証/XTK** ノードには、様々なパラメーターがあります。
 
 <table> 
  <thead> 
@@ -145,7 +145,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ## dataStore {#datastore}
 
-次に、の様々なパラメーターを示します **dataStore** ノード。 サーバーデータソースは、ここで定義します。
+**dataStore** ノードの様々なパラメーターは次のとおりです。 サーバーデータソースは、ここで定義します。
 
 <table> 
  <thead> 
@@ -159,61 +159,61 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  <tbody> 
   <tr> 
    <td> exportDirectory<br /> </td> 
-   <td> エクスポートディレクトリ：エクスポートされたデータの宛先ディレクトリのパス。<br /> </td> 
+   <td> エクスポートディレクトリ：書き出されたデータの宛先ディレクトリのパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$（XTK_INSTALL_DIR）/var/$（INSTANCE_NAME）/export/' <br /> </td> 
   </tr> 
   <tr> 
-   <td> extraSandboxedDirectory<br /> </td> 
-   <td> 追加のサンドボックス化されたディレクトリ：サンドボックスに追加されるその他のパス （コンマ区切り）。<br /> </td> 
+   <td> extraSandboxedDirectories<br /> </td> 
+   <td> 追加のサンドボックス化されたディレクトリ：サンドボックスに追加されるその他のパス（コンマ区切り）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '/home/customers/,/sftp/' <br /> </td> 
   </tr> 
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
    <td> フォームキャッシュの有効期限の遅延：キャッシュエントリが無効になるまでのタイムアウト（秒単位）。 つまり、キャッシュエントリは公開時にのみ更新されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> ホスト<br /> </td> 
-   <td> DNS マスク：このインスタンスが提供する DNS マスクのリスト （コンマ区切り。*および？が使用可能） パターン）を使用できます。<br /> </td> 
+   <td> ホスト <br /> </td> 
+   <td> DNS マスク：このインスタンスが提供する DNS マスクのリスト （コンマ区切り。*および？が使用可能） パターン）.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
    <td> インタラクション JSSP キャッシュの有効期限の遅延：キャッシュエントリが無効になるまでのタイムアウト （秒単位）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空の値または無効な値は 60 と見なされます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
-   <td> インスタンス言語（列挙）。 使用できる値は、「fr_FR」（Français）、「en_GB」（English）、「en_US」（English）、「de_DE」（Deutsch）、「ja_JP」（Japanese）です。<br /> </td> 
+   <td> インスタンス言語（列挙）。 使用できる値は、「fr_FR」（Français）、「en_GB」（English （UK））、「en_US」（English （US））、「de_DE」（Deutsch）、「ja_JP」（Japanese）です。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'en_US'<br /> </td> 
   </tr> 
   <tr> 
    <td> uploadDirectory<br /> </td> 
-   <td> アップロードフォルダー：アップロードされたデータの保存先ディレクトリのパス。<br /> </td> 
+   <td> アップロードフォルダー：アップロードしたデータの保存先ディレクトリのパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$（XTK_INSTALL_DIR）/var/$（INSTANCE_NAME）/upload/' <br /> </td> 
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> ダウンロードを許可されたファイル （「,」区切り）。 文字列は、有効な Java 正規表現である必要があります。 参照： <a href="file-res-management.md" target="_blank">アップロード可能ファイルの制限</a>.<br /> </td> 
+   <td> ダウンロードを許可されたファイル （「,」区切り）。 文字列は、有効な Java 正規表現である必要があります。 <a href="file-res-management.md" target="_blank"> アップロード可能ファイルの制限 </a>.<br /> を参照してください。 </td> 
    <td> 文字列<br /> </td> 
-   <td> '.+' <br /> </td> 
+   <td> 「。+」 <br /> </td> 
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> 秘密鍵を Vault に保存：Hashicorp Vault を使用します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 秘密鍵を Vault に保存：Hashicorp Vault.<br /> を使用します </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultSecretPath<br /> </td> 
-   <td> Vault の秘密鍵パス<br /> </td> 
+   <td> Vault の秘密鍵パス <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '/v1/secret/campaign/'<br /> </td> 
   </tr> 
@@ -232,7 +232,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
    <td> ビューキャッシュの有効期間：キャッシュエントリが無効になるまでのタイムアウト （秒）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空の値または無効な値は 60 と見なされます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ### proxyAdjust {#proxyadjust}
 
-次に、の様々なパラメーターを示します **dataStore/proxyAdjust** ノード。 正規表現に一致する URL が、urlBase で定義された URL に基づいて再生成されます。
+**dataStore/proxyAdjust** ノードのパラメーターは様々です。 正規表現に一致する URL が、urlBase で定義された URL に基づいて再生成されます。
 
 <table> 
  <thead> 
@@ -272,7 +272,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ### dataSource {#datasource}
 
-次に、の様々なパラメーターを示します **データストア/データソース** ノード。
+**dataStore/dataSource** ノードの様々なパラメーターを次に示します。
 
 <table> 
  <thead> 
@@ -285,15 +285,15 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  </thead> 
  <tbody> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> データソース名<br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> データSource名 <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> default<br /> </td> 
+   <td> デフォルト <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **dataStore/dataSource/dbcnx** ノードで、接続設定を指定します。
+**dataStore/dataSource/dbcnx** ノードで、接続設定を指定します。
 
 <table> 
  <thead> 
@@ -301,74 +301,74 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
    <th> パラメーター </th> 
    <th> 説明 </th> 
    <th> タイプ </th> 
-   <th> デフォルト値<br /> </th> 
+   <th> デフォルト値 <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> NChar<br /> </td> 
-   <td> Unicode ストレージ<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> Unicode ストレージ <br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> dbSchema<br /> </td> 
-   <td> ワークスペース<br /> </td> 
+   <td> Workspace<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 暗号化<br /> </td> 
-   <td> 暗号化されたパスワード<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 暗号化 <br /> </td> 
+   <td> 暗号化されたパスワード <br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ログイン<br /> </td> 
-   <td> アカウント<br /> </td> 
+   <td> ログイン <br /> </td> 
+   <td> アカウント <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> password<br /> </td> 
-   <td> パスワード<br /> </td> 
+   <td> パスワード <br /> </td> 
+   <td> パスワード <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 提供者<br /> </td> 
-   <td> タイプ（列挙）。 使用できる値は、「Oracle」、「MSSQL」（Microsoft SQL Server）、「PostgreSQL」（PostgreSQL）、「Teradata」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」（SAP HANA）、「RedShift」（Amazon Redshift）、「ODBC」（ODBC （Sybase ASE、Sybase IQ）、「リレー」（リモートデータベースへの HTTP リレー）です。<br /> </td> 
+   <td> プロバイダ <br /> </td> 
+   <td> タイプ（列挙）。 'Oracle'、'MSSQL' （Microsoft SQL Server）、'PostgreSQL' （PostgreSQL）、'Teradata'、'MySQL'、'Netezza'、'AsterData'、'SAPHANA' （SAP HANA）、'RedShift' （Amazon Redshift）、'ODBC' （ODBC （Sybase ASE、Sybase IQ）、'リレー' （リモートデータベースへの HTTP リレー）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
   <tr> 
-   <td> サーバー<br /> </td> 
-   <td> サーバー<br /> </td> 
+   <td> サーバー <br /> </td> 
+   <td> サーバー <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> timezone<br /> </td> 
-   <td> タイムゾーン： <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーンの管理</a>.<br /> </td> 
+   <td> タイムゾーン <br /> </td> 
+   <td> タイムゾーン：<a href="../../installation/using/time-zone-management.md" target="_blank"> タイムゾーンの管理 </a> を参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> unicodeData<br /> </td> 
-   <td> データベース内の Unicode データ<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> データベースの Unicode データ <br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> useTimestampTZ<br /> </td> 
-   <td> タイムゾーンを含む日付フィールド：を参照してください <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーンの管理</a>.<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> タイムゾーンを含む日付フィールド：<a href="../../installation/using/time-zone-management.md" target="_blank"> タイムゾーンの管理 </a> を参照してください。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **データストア/データソース/sqlParams** ノードで、SQL パラメーターを設定します。
+**dataStore/dataSource/sqlParams** ノードで、SQL パラメーターを設定します。
 
 <table> 
  <thead> 
@@ -381,13 +381,13 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  <tbody> 
   <tr> 
    <td> funcPrefix<br /> </td> 
-   <td> 関数のプレフィックス<br /> </td> 
+   <td> 関数のプレフィックス <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **データストア/データソース/プール** ノードで、関連する接続プールのパラメーターを設定します。
+**dataStore/dataSource/pool** ノードで、関連付けられた接続プールのパラメーターを設定します。
 
 <table> 
  <thead> 
@@ -401,31 +401,31 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
   <tr> 
    <td> aliveTestDelaySec<br /> </td> 
    <td> 接続の有効性チェック間の遅延。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 短い <br /> </td> 
   </tr> 
   <tr> 
    <td> freeCnx<br /> </td> 
    <td> プールに保持されている空き接続数。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 短い <br /> </td> 
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 新しい接続を拒否する前に許可された最大接続数。 これを表示 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">テクニカルノート</a>.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 新しい接続を拒否する前に許可された最大接続数。 この <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html"> テクニカルノート </a> を参照してください <br />。 </td> 
+   <td> 短い <br /> </td> 
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
    <td> 接続の最大アイドル時間。 0 はデフォルト値を意味します。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 短い <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### virtualDir {#virtualdir}
 
-次に、の様々なパラメーターを示します **データストア/virtualDir** ノード。 これは、仮想ディレクトリから実際のディレクトリへのマッピングの設定です。
+**dataStore/virtualDir** ノードの様々なパラメーターを次に示します。 これは、仮想ディレクトリから実際のディレクトリへのマッピングの設定です。
 
-詳しくは、次を参照してください。 [パブリックリソースの管理](file-res-management.md).
+詳しくは、[ パブリックリソースの管理 ](file-res-management.md) を参照してください。
 
 <table> 
  <thead> 
@@ -437,13 +437,13 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  </thead> 
  <tbody> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> 仮想ディレクトリの名前 <br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> 仮想ディレクトリ <br /> の名前 </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> パス<br /> </td> 
-   <td> 実際のディレクトリのフルパス<br /> </td> 
+   <td> パス <br /> </td> 
+   <td> 実際のディレクトリのフルパス <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
@@ -459,7 +459,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ### preprocessCommand {#preprocesscommand}
 
-次に、の様々なパラメーターを示します **データストア/preprocessCommand** ノード。 「ファイルを読み込み」ワークフローアクティビティの前処理に使用できる承認済みコマンドです。
+**dataStore/preprocessCommand** ノードの様々なパラメーターを次に示します。 「ファイルを読み込み」ワークフローアクティビティの前処理に使用できる承認済みコマンドです。
 
 <table> 
  <thead> 
@@ -471,18 +471,18 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  </thead> 
  <tbody> 
   <tr> 
-   <td> コマンド<br /> </td> 
+   <td> コマンド <br /> </td> 
    <td> コマンドライン <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> ラベル<br /> </td> 
-   <td> コマンドラインラベル<br /> </td> 
+   <td> ラベル <br /> </td> 
+   <td> コマンドラインラベル <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> コマンドライン名<br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> コマンドライン名 <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
@@ -497,9 +497,9 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ## dnsConfig {#dnsconfig}
 
-次に、の様々なパラメーターを示します **dnsConfig** （DNS 設定）ノード。
+**dnsConfig** （DNS 設定）ノードの様々なパラメーターを次に示します。
 
-詳しくは、こちらを参照してください。 [セクション](../../installation/using/configuring-campaign-server.md).
+詳しくは、この [ 節 ](../../installation/using/configuring-campaign-server.md) を参照してください。
 
 <table> 
  <thead> 
@@ -513,26 +513,26 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> ドメイン名：デフォルトのドメイン名です。 SMTP HELO コマンドで使用されます。 デフォルトでは、Windows で宣言されている最初のネットワークインターフェイスのネットワークパラメーターを使用します。または、Linux ではfile/etc/resolv.confを解析します（domain または search エントリ）。 <br /> </td> 
+   <td> ドメイン名：デフォルトのドメイン名です。 SMTP HELO コマンドで使用されます。 デフォルトでは、Windows で宣言されている最初のネットワークインターフェイスのネットワークパラメーターを使用します。または、Linux ではfile/etc/resolv.confを解析します（domain または search エントリ）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> nameServer<br /> </td> 
+   <td> nameServers<br /> </td> 
    <td> DNS サーバー：ドメインネームサーバー（DNS）のコンマ区切りリスト。 以下のメモを参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> 再試行<br /> </td> 
+   <td> 再試行 <br /> </td> 
    <td> DNS クエリの再試行回数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト <br /> </td> 
    <td> DNS クエリのタイムアウト （ミリ秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5000<br /> </td> 
   </tr> 
  </tbody> 
@@ -540,13 +540,13 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 >[!NOTE]
 >
->メモの内容 **nameSevers**：デフォルトでは、ネットワークを使用します
+>**nameSevers** に関する注意：デフォルトでは、ネットワークを使用します
 >windows で宣言された最初のネットワーク インターフェイスのパラメーター
 >UNIX では定義されていません。 ドメインネームサーバー（DNS）を定義します。
 >のメール交換機を宣言するために MTA で使用されます
 >ドメイン。
 >
->この値が定義されていない場合、MTA はホスト ネットワーク構成でこの情報をシークします。 複数の DNS が使用可能な場合は、異なる DNS アドレスをコンマで区切る必要があります（例：212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合は、MTA が使用する DNS リストが最初のインターフェイスです。 この場合、を指定することをお勧めします。 **nameServer** をパラメーターにして、曖昧さを避けます。
+>この値が定義されていない場合、MTA はホスト ネットワーク構成でこの情報をシークします。 複数の DNS が使用可能な場合は、異なる DNS アドレスをコンマで区切る必要があります（例：212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合は、MTA が使用する DNS リストが最初のインターフェイスです。 この場合は、曖昧さを避けるために **nameServer** パラメーターを指定することをお勧めします。
 
 >[!CAUTION]
 >
@@ -554,9 +554,9 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ## exec {#exec}
 
-次に、の様々なパラメーターを示します **exec** （コマンド実行）ノード。
+**exec** （コマンド実行）ノードの様々なパラメーターを次に示します。
 
-詳しくは、次を参照してください。 [許可された外部コマンドの制限](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
+詳しくは、[ 承認済みの外部コマンドの制限 ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands) を参照してください。
 
 <table> 
  <thead> 
@@ -569,11 +569,11 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  <tbody> 
   <tr> 
    <td> blacklistFile<br /> </td> 
-   <td> 許可リストに追加するコマンドを含むファイルへのパス。 <br /> </td> 
+   <td> 許可リストに追加するコマンドを含むファイルへのパス。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> ユーザー<br /> </td> 
+   <td> ユーザー <br /> </td> 
    <td> 別のユーザーとしてコマンドを実行します。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -582,7 +582,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
 
 ## htmlToPdf {#htmltopdf}
 
-次に、の様々なパラメーターを示します **htmlToPdf** ノード。 これは、web ページをPDFドキュメントに変換するためのサービスの設定です。
+**htmlToPdf** ノードの様々なパラメーターは次のとおりです。 これは、web ページをPDFドキュメントに変換するためのサービスの設定です。
 
 <table> 
  <thead> 
@@ -595,39 +595,39 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイル（内�
  </thead> 
  <tbody> 
   <tr> 
-   <td> コマンド<br /> </td> 
-   <td> （「その他」モードで）変換を実行するためのコマンドライン。<br /> </td> 
+   <td> コマンド <br /> </td> 
+   <td> コンバージョンを（「その他」モードで）実行するためのコマンドライン。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessusCount<br /> </td> 
    <td> 最大1 台のマシンで一度に実行できるコンバージョンプロセスの数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
-   <td> モード<br /> </td> 
-   <td> 変換に使用するツール。 使用可能な値：phantomjs、wkhtmltopdf、その他、disabled<br /> </td> 
+   <td> モード <br /> </td> 
+   <td> 変換に使用するツール。 使用可能な値：phantomjs、wkhtmltopdf、other、disabled<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> 『ファントムジス』 <br /> </td> 
+   <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト <br /> </td> 
    <td> コンバージョンのタイムアウト：最大コンバージョン時間（秒）。 このしきい値を超えると、変換プロセスが停止し、エラーが発生します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 120<br /> </td> 
   </tr> 
   <tr> 
-   <td> 詳細<br /> </td> 
+   <td> 詳細 <br /> </td> 
    <td> 詳細モード：可能性のあるエラーを診断するために詳細モードで開始します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
-   <td> プロセス待機時の遅延：すべてのプロセスが同時に使用される場合と、プロセスの解放を待機している場合の秒単位の遅延。 この遅延を超えると、変換が停止され、エラーが発生します。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> プロセス待機時の遅延：すべてのプロセスが同時に使用される場合と、プロセスの解放を待機している場合の秒単位の遅延。 この遅延を超えると、変換が停止され、エラーが発生します。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
  </tbody> 
@@ -641,7 +641,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## ims {#ims}
 
-次に、の様々なパラメーターを示します **ims** ノード。 これは、を使用して別のサービスに接続するための Campaign の設定です [IMS](../../integrations/using/about-adobe-id.md).
+**ims** ノードの様々なパラメーターを次に示します。 これは、[IMS](../../integrations/using/about-adobe-id.md) を使用して別のサービスに接続する Campaign の設定です。
 
 <table> 
  <thead> 
@@ -661,13 +661,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSClientSecret<br /> </td> 
-   <td> 秘密鍵（AES で暗号化）<br /> </td> 
+   <td> 秘密鍵（AES で暗号化） <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> authIMSCode<br /> </td> 
-   <td> 認証コード （AES で暗号化）<br /> </td> 
+   <td> 認証コード （AES で暗号化） <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -685,7 +685,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSTAClientSecret<br /> </td> 
-   <td> テクニカルアカウント秘密鍵（AES で暗号化）<br /> </td> 
+   <td> テクニカルアカウント秘密鍵（AES で暗号化） <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -697,7 +697,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSTAPrivateKey<br /> </td> 
-   <td> テクニカルアカウント秘密鍵（AES で暗号化）<br /> </td> 
+   <td> テクニカルアカウント秘密鍵（AES で暗号化） <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -706,9 +706,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## JavaScript {#javascript}
 
-次に、の様々なパラメーターを示します **javaScript** ノード。 これは、JavaScript インタープリターの設定です。
+**javaScript** ノードの様々なパラメーターを次に示します。 これは、JavaScript インタープリターの設定です。
 
-詳しくは、を参照してください [レポートドキュメント](../../reporting/using/actions-on-reports.md#memory-allocation).
+詳しくは、[ レポートドキュメント ](../../reporting/using/actions-on-reports.md#memory-allocation) を参照してください。
 
 <table> 
  <thead> 
@@ -722,14 +722,14 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxMB<br /> </td> 
-   <td> ガベージコレクターを実行するまでの最大サイズ （メガバイト）。<br /> </td> 
-   <td> ロング<br /> </td> 
-   <td> 512 <br /> </td> 
+   <td> ガベージコレクターを実行する前の最大サイズ （メガバイト）。<br /> </td> 
+   <td> 長い <br /> </td> 
+   <td> 512<br /> </td> 
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
-   <td> 各スタックチャンクのサイズ （キロオクテット単位）。 これは、ほとんどのユーザーが調整すべきでないメモリ管理の調整パラメーターです。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 各スタックチャンクのサイズ （キロオクテット単位）。 これは、ほとんどのユーザーが調整すべきでないメモリ管理の調整パラメーターです。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
  </tbody> 
@@ -737,7 +737,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## mailExchanger {#mailexchanger}
 
-次に、の様々なパラメーターを示します **mailExchanger** ノード。 これは、SMTP サーバーの設定です。
+**mailExchanger** ノードのパラメーターは次のとおりです。 これは、SMTP サーバーの設定です。
 
 <table> 
  <thead> 
@@ -766,7 +766,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## モジュール {#module}
 
-次に、の様々なパラメーターを示します **モジュール** ノード。 これは、名前空間制限モジュール xtk の設定です。
+**module** ノードの様々なパラメーターを次に示します。 これは、名前空間制限モジュール xtk の設定です。
 
 <table> 
  <thead> 
@@ -780,7 +780,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> 新しいエンティティを作成するときに使用されるデフォルトの名前空間。<br /> </td> 
+   <td> 新しいエンティティの作成時に使用されるデフォルトの名前空間。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -789,7 +789,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## 監視 {#monitoring}
 
-次に、の様々なパラメーターを示します **監視** ノード。 これは監視サービスの設定です。
+**monitoring** ノードのパラメーターは次のとおりです。 これは監視サービスの設定です。
 
 <table> 
  <thead> 
@@ -803,8 +803,8 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
-   <td> 最大準備時間：配信アクションが準備から外れるまでの時間（秒単位）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 最大準備時間：配信アクションが準備から外れるまでの時間（秒）。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
   <tr> 
@@ -815,7 +815,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> winScript<br /> </td> 
-   <td> 監視サービスによって実行される Windows スクリプトです。<br /> </td> 
+   <td> 監視サービスによって実行される Windows スクリプト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -824,7 +824,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## ooconv {#ooconv}
 
-次に、の様々なパラメーターを示します **ooconv** ノード。 これは、ドキュメント変換サーバーの設定です。
+**ooconv** ノードのパラメーターは次のとおりです。 これは、ドキュメント変換サーバーの設定です。
 
 <table> 
  <thead> 
@@ -838,14 +838,14 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxConversions<br /> </td> 
-   <td> OpenOffice サーバーが実行できるコンバージョンの最大数。 この数を超えると、サーバーは再起動します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> OpenOffice サーバーが実行できるコンバージョンの最大数。 この数を超えると、サーバーは再起動されます。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxServerIdleSec<br /> </td> 
-   <td> OpenOffice サーバーが強制終了するまでの最大アイドル時間。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> OpenOffice サーバーが強制終了するまでの最大アイドル時間です。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 7200<br /> </td> 
   </tr> 
   <tr> 
@@ -865,9 +865,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## proxyConfig {#proxyconfig}
 
-次に、の様々なパラメーターを示します **proxyConfig** ノード。 プロキシパラメーターの設定です。
+**proxyConfig** ノードのパラメーターは次のとおりです。 プロキシパラメーターの設定です。
 
-詳しくは、次を参照してください。 [プロキシ接続設定](file-res-management.md).
+詳しくは、[ プロキシ接続設定 ](file-res-management.md) を参照してください。
 
 <table> 
  <thead> 
@@ -880,13 +880,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> enabled<br /> </td> 
+   <td> 有効 <br /> </td> 
    <td> プロキシサーバーを使用します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> 上書き<br /> </td> 
+   <td> オーバーライド <br /> </td> 
    <td> 例外：プロキシパラメーターを無視するアドレスのリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'localhost*' <br /> </td> 
@@ -894,17 +894,17 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   <tr> 
    <td> useSingleProxy<br /> </td> 
    <td> 一意のプロキシサーバー：すべてのタイプのプロキシに同じ設定を使用します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### HTTP プロキシ/セキュアプロキシ {#http-proxy---secure-proxy-}
 
-が含まれる **proxyConfig/HTTP プロキシ/セキュアプロキシ** ノードで、次のパラメーターを設定します。
+**proxyConfig/HTTP プロキシ/セキュアプロキシ** ノードで、次のパラメーターを設定します。
 
-詳しくは、次を参照してください。 [プロキシ接続設定](file-res-management.md).
+詳しくは、[ プロキシ接続設定 ](file-res-management.md) を参照してください。
 
 <table> 
  <thead> 
@@ -916,31 +916,31 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> 住所<br /> </td> 
-   <td> プロキシサーバーのアドレス<br /> </td> 
+   <td> 住所 <br /> </td> 
+   <td> プロキシサーバーのアドレス <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> ログイン<br /> </td> 
-   <td> プロキシサーバーに接続するためのログイン<br /> </td> 
+   <td> ログイン <br /> </td> 
+   <td> プロキシサーバーに接続するためのログイン <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> password<br /> </td> 
-   <td> プロキシサーバーへの接続用パスワード<br /> </td> 
+   <td> パスワード <br /> </td> 
+   <td> プロキシサーバーへの接続用パスワード <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> プロキシサーバーポート<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> プロキシサーバーポート <br /> </td> 
+   <td> 短い <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## threadPool {#threadpool}
 
-次に、の様々なパラメーターを示します **threadPool** ノード。
+**threadPool** ノードの様々なパラメーターは次のとおりです。
 
 <table> 
  <thead> 
@@ -954,8 +954,8 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxThreadCount<br /> </td> 
-   <td> プール内のスレッドの最大数。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> プール内のスレッドの最大数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -963,13 +963,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## urlPermission {#urlpermission}
 
-次に、の様々なパラメーターを示します **urlPermission** ノード。 これは、JavaScript コードがアクセスできる URL のリストです。
+**urlPermission** ノードの様々なパラメーターを次に示します。 これは、JavaScript コードがアクセスできる URL のリストです。
 
 Javascript コードで検出された URL がAdobe Campaign サーバーで使用できるか使用できないかを指定するドメインと正規表現のリスト。
 
 URL が見つからない場合は、指定されたデフォルトモードに従って、デフォルトのアクションが実行されます。
 
-詳しくは、次を参照してください。 [発信接続の保護](../../installation/using/configuring-campaign-server.md#url-permissions).
+詳細については、「[ 発信接続保護 ](../../installation/using/configuring-campaign-server.md#url-permissions)」を参照してください。
 
 <table> 
  <thead> 
@@ -982,16 +982,16 @@ URL が見つからない場合は、指定されたデフォルトモードに�
  </thead> 
  <tbody> 
   <tr> 
-   <td> アクション<br /> </td> 
+   <td> アクション <br /> </td> 
    <td> URL が許可リスト（列挙）に含まれていない場合のデフォルトのアクション。 取り得る値は、「ignore」（警告メッセージなしで許可する。これには保護の無効化が必要です）、「warn」（警告メッセージを許可して発行）、「deny」（URL へのアクセスを禁止）です。<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> 拒否<br /> </td> 
+   <td> 拒否 <br /> </td> 
   </tr> 
   <tr> 
    <td> debugTrace<br /> </td> 
    <td> URL 選択メカニズムのデバッグトレース：URL 検証プロセス中に追加のメッセージを発行します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1021,9 +1021,9 @@ URL が見つからない場合は、指定されたデフォルトモードに�
 
 ### URL {#url}
 
-各 URL に **url** 以下のパラメーターを持つノード：
+各 URL に対して、次のパラメーターを持つ **url** ノードを追加します。
 
-詳しくは、次を参照してください。 [発信接続の保護](../../installation/using/configuring-campaign-server.md#url-permissions).
+詳細については、「[ 発信接続保護 ](../../installation/using/configuring-campaign-server.md#url-permissions)」を参照してください。
 
 <table> 
  <thead> 
@@ -1036,26 +1036,26 @@ URL が見つからない場合は、指定されたデフォルトモードに�
  <tbody> 
   <tr> 
    <td> dnsSuffix<br /> </td> 
-   <td> URL に関係するドメイン名またはドメインの親：検証を高速化するために、検証する URL のドメインのすべてまたは一部。 URL は、そのドメインに dsnSuffix が含まれている場合にのみ、正規表現に関して検証されます。<br /> </td> 
+   <td> URL に関係するドメイン名またはドメインの親：検証を高速化するために、検証する URL のドメインのすべてまたは一部。 URL は、ドメインに dsnSuffix.<br /> が含まれている場合にのみ、正規表現に関して検証されます。 </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> このドメインに属する URL の検証を絞り込むための正規表現：dnsSuffix に対応する場合に URL で検証する必要がある正規表現。<br /> </td> 
+   <td> このドメインに属する URL の検証を絞り込むための正規表現：URL が dnsSuffix.<br /> に対応する場合に検証する必要がある正規表現 </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-レコードが次を満たす場合 **dnsSuffix** ただし、そうではありません **urlRegEx**&#x200B;を検査し、次の記録を調べた。
+レコードが **urlRegEx** ではなく **dnsSuffix** を満たす場合、次のレコードが調べられます。
 
 例えば、ドメイン business.comのすべての URL へのアクセスを許可するには、次の 2 つのレコードを定義します。
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://&#42;“
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
 かつ
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 デフォルトの設定は次のとおりです。
 
@@ -1076,7 +1076,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## xtkJobs {#xtkjobs}
 
-次に、の様々なパラメーターを示します **xtkJobs** ノード。 これは、サーバージョブの設定です。
+**xtkJobs** ノードの様々なパラメーターは次のとおりです。 これは、サーバージョブの設定です。
 
 <table> 
  <thead> 
@@ -1091,7 +1091,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
    <td> サーバー処理のメモリステータスの更新期間（ミリ秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
  </tbody> 
@@ -1099,9 +1099,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## アーカイブ {#archiving}
 
-次に、の様々なパラメーターを示します **アーカイブ** ノード。 これは、バックグラウンドで実行されるアーカイブ操作の設定です。
+**アーカイブ** ノードの様々なパラメーターを次に示します。 これは、バックグラウンドで実行されるアーカイブ操作の設定です。
 
-詳しくは、次を参照してください。 [メールアーカイブのアクティブ化（オンプレミス）](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
+詳しくは、[ メールアーカイブのアクティブ化（オンプレミス） ](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-) を参照してください。
 
 <table> 
  <thead> 
@@ -1115,116 +1115,116 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> acquireLimit<br /> </td> 
-   <td> 同時に処理する EML の数<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 同時に処理する EML の数 <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> archivingType<br /> </td> 
    <td> 送信済みメッセージのアーカイブ方法（列挙）。 有効な値は、「0」（アーカイブなし）と「1」（送信済みメッセージのアーカイブを SMTP サーバーに転送）です。<br /> </td> 
-   <td> バイト<br /> </td> 
+   <td> バイト <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
    <td> 圧縮されたアーカイブのサイズ：圧縮されたアーカイブの最大ファイル数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 10000<br /> </td> 
   </tr> 
   <tr> 
    <td> compressionFormat<br /> </td> 
-   <td> アーカイブ時に使用される圧縮形式（列挙）。 有効な値は「0」（圧縮なし）および「1」（送信されたメッセージを zip 形式で圧縮）です。<br /> </td> 
-   <td> バイト<br /> </td> 
+   <td> アーカイブ時に使用される圧縮形式（列挙）。 有効な値は、「0」（圧縮なし）および「1」（zip 形式を使用して送信済みメッセージを圧縮）です。<br /> </td> 
+   <td> バイト <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
    <td> 未処理の E メールが自動的にアーカイブされるまでの遅延時間：未処理の E メールがアーカイブされるまでの日数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollDelay<br /> </td> 
    <td> 各更新イベント間の遅延（秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeArchivesDelay<br /> </td> 
    <td> 未処理の E メールが削除されるまでの日数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 7<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpBccAddress<br /> </td> 
-   <td> ターゲットの宛先のアーカイブ<br /> </td> 
+   <td> ターゲットのアーカイブ先 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> smtpEnableTLS<br /> </td> 
-   <td> SMTPS サポートを有効化：リモートサーバーでサポートされる場合、セーフモード（STARTTLS/SMTPS）でメールの配信を有効化します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> SMTPS サポートを有効化：リモートサーバーでサポートされる場合、セーフモードでメールの配信を有効化します（STARTTLS/SMTPS）。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpNbConnection<br /> </td> 
    <td> アーカイブ SMTP サーバーへの接続数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> 使用する SMTP リレーの DNS 名または IP アドレスのコンマ区切りリスト。 <br /> </td> 
+   <td> 使用する SMTP リレーの DNS 名または IP アドレスのコンマ区切りリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> smtpRelayPort<br /> </td> 
    <td> SMTP サーバーの IP ポート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
  </tbody> 
@@ -1232,7 +1232,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## inMail {#inmail}
 
-次に、の様々なパラメーターを示します **inMail** ノード。 これは、受信メール管理モジュールの設定です。
+**inMail** ノードの様々なパラメーターを次に示します。 これは、受信メール管理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -1246,116 +1246,116 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> インスタンス名を確認：true の場合、Message-ID ヘッダーに含まれるAdobe Campaign インスタンス名は現在のインスタンスと同じである必要があります。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> インスタンス名を確認：true の場合、Message-ID ヘッダーに含まれるAdobe Campaign インスタンス名は現在のインスタンスと同じである必要があります。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
-   <td> 転送アドレス：ルールによって処理されないデフォルトのメール転送アドレス。 <br /> </td> 
+   <td> 転送アドレス：ルールによって処理されないデフォルトのメール転送アドレス。<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
-   <td> エラーのアドレス：無効なメール（不正な MIME エンコーディング）を転送するために使用するデフォルトのアドレスです。 <br /> </td> 
+   <td> エラーのアドレス：無効なメール（不正な MIME エンコーディング）を転送するために使用するデフォルトのアドレスです。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> メッセージサイズを無視：POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールは「。」を想定します。 メッセージの最後に。 <br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> メッセージサイズを無視：POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールは「。」を想定します。 メッセージの最後に。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
    <td> メッセージ読み取り期間：メッセージキューのポーリング頻度。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxBroadLog<br /> </td> 
    <td> 更新するログの最大数：データベースを更新する前にメモリに保持するログメッセージの最大数を定義します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerSession<br /> </td> 
    <td> POP3 セッション中に読み取るメッセージの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 200<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
-   <td> セッション時間：メッセージ処理セッションの最大時間。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> セッション時間：メッセージ処理セッションの最大継続時間。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popMailPeriodSec<br /> </td> 
-   <td> POP3 ポーリング期間<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> POP3 ポーリング期間 <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> popQueueSize<br /> </td> 
-   <td> 読み取りメッセージのキューサイズ<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 読み取りメッセージのキューサイズ <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
-   <td> POP3 サーバーとの通信タイムアウト。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> POP3 サーバーとの通信タイムアウト。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
    <td> ポーリングするアカウントのデータベース再読み込み頻度。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -1363,7 +1363,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### msgDump {#msgdump}
 
-が含まれる **inMail > msgDump** ノードで、次のパラメーターを設定します。 これは、処理されたメッセージのダンプの設定です。
+**inMail / msgDump** ノードで、次のパラメーターを設定します。 これは、処理されたメッセージのダンプの設定です。
 
 <table> 
  <thead> 
@@ -1376,14 +1376,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> ダンプ<br /> </td> 
-   <td> すべての受信メッセージをテキストフォーマットで保存します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ダンプ <br /> </td> 
+   <td> すべての受信メッセージをテキストフォーマットで保存します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> msgPath<br /> </td> 
-   <td> メッセージダンプのパス。<br /> </td> 
+   <td> メッセージダンプのパス <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '/tmp/inMail'<br /> </td> 
   </tr> 
@@ -1392,9 +1392,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## interactiond {#interactiond}
 
-次に、の様々なパラメーターを示します **interactiond** ノード。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
+**interactiond** ノードの様々なパラメーターを次に示します。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
 
-詳しくは、次を参照してください。 [インタラクション – データバッファー](../../installation/using/interaction-data-buffer.md).
+詳しくは、[ インタラクション – データバッファー ](../../installation/using/interaction-data-buffer.md) を参照してください。
 
 <table> 
  <thead> 
@@ -1408,74 +1408,74 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
-   <td> 最大呼び出しデータ用の共有メモリに保存される文字数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 最大呼び出しデータの共有メモリに保存される文字数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
-   <td> 最大共有メモリに保存されるイベントの数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 最大共有メモリに保存されているイベントの数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
    <td> 提案直後に並べ替えられ、統計用に保存される適格オファーの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
    <td> 応答時間統計の集計期間（秒）。 0 は、統計ストレージが非アクティブ化されたことを意味します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> targetKeysize<br /> </td> 
+   <td> targetKeySize<br /> </td> 
    <td> 最大共有メモリに保存される、個人を識別するための文字数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 16<br /> </td> 
   </tr> 
  </tbody> 
@@ -1483,7 +1483,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## MTA {#mta}
 
-次に、の様々なパラメーターを示します **mta** ノード。 これは、配信エージェントの設定です。
+**mta** ノードの様々なパラメーターは次のとおりです。 これは、配信エージェントの設定です。
 
 <table> 
  <thead> 
@@ -1497,92 +1497,92 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
-   <td> 送信されたメールのパスを保存：空でない場合、送信済みメールのすべてのソースファイルが保存されるパス。 <br /> </td> 
+   <td> 送信されたメールのパスを保存：空でない場合、送信済みメールのすべてのソースファイルが保存されるパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> debugPath<br /> </td> 
-   <td> ディレクトリのダンプ：i 空でない場合は、このディレクトリに送信済みメールメッセージの MIME エンベロープをコピーします。 トラブルシューティングに使用します。 <br /> </td> 
+   <td> ディレクトリのダンプ：i 空でない場合は、このディレクトリに送信済みメールメッセージの MIME エンベロープをコピーします。 トラブルシューティングに使用します。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
    <td> DNS クエリログの遅延：ログを表示する時間（ミリ秒単位）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
-   <td> エラー統計の頻度：統計が生成されてからデータベースに保存されるまでの時間。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> エラー統計の頻度：統計が生成されてからデータベースに保存されるまでの時間。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> logEmailErrors<br /> </td> 
    <td> エラー統計を生成してデータベースに保存します。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> ログメッセージのレベルを表示します。 データベースに書き込まれるログの重大度レベル。 MTA で生成されるログメッセージは、必ずしもすべてがデータベースに書き込まれるわけではありません。 このパラメーターを使用すると、メッセージをデータベースに書き込む必要があると考えるレベルを定義できます。 レベル 2 を定義した場合は、レベル 1 と 0 のメッセージも書き込まれます。一方、レベル 1 を定義した場合は、レベル 1 と 0 のメッセージのみが書き込まれます。 使用可能な値：0 （エラー）、1 （警告）、2 （情報）<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> ログメッセージのレベルを表示します。 データベースに書き込まれるログの重大度レベル。 MTA で生成されるログメッセージは、必ずしもすべてがデータベースに書き込まれるわけではありません。 このパラメーターを使用すると、メッセージをデータベースに書き込む必要があると考えるレベルを定義できます。 レベル 2 を定義した場合は、レベル 1 と 0 のメッセージも書き込まれます。一方、レベル 1 を定義した場合は、レベル 1 と 0 のメッセージのみが書き込まれます。 使用可能な値：0 （エラー）、1 （警告）、2 （情報） <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMemoryMb<br /> </td> 
    <td> Mta プロセスが使用できる最大メモリサイズ （MB 単位）。 この制限を超えると、プロセスは再起動され、使用しているメモリはシステムに解放されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
-   <td> 考慮する接続しきい値。 errorPeriodSec で指定された期間の接続の合計数がしきい値よりも厳密に低い場合、エラー統計は指定のパスに対して生成されません。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 考慮する接続しきい値。 errorPeriodSec で指定された期間の接続の合計数が厳密にはしきい値を下回る場合、指定されたパスのエラー統計は生成されません。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
    <td> 考慮するエラーしきい値：errorPeriodSec で指定された期間のエラー総数がしきい値よりも厳密に低い場合、指定されたパスのエラー統計は生成されません。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
-   <td> 考慮するメッセージしきい値。 errorPeriodSec で指定される期間に送信されたメッセージの合計数が厳密にはしきい値を下回る場合、指定されたパスに対するエラー統計は生成されません。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 考慮するメッセージしきい値。 errorPeriodSec で指定された期間に送信されたメッセージの合計数が厳密にはしきい値を下回る場合、指定されたパスのエラー統計は生成されません。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
   <tr> 
@@ -1593,51 +1593,51 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
    <td> アーカイブした E メールが削除されるまでの遅延：dataLogPath で指定したディレクトリにアーカイブした E メールがパージされるまでの日数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
   <tr> 
    <td> retryLostMessages<br /> </td> 
    <td> 失われたメッセージを再試行：子プロセスが無効になった場合、配信の一部が再試行されます。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> signEmailLinks<br /> </td> 
    <td> 署名メカニズムを有効にします。 これにより、メール内のトラッキングリンクのセキュリティが向上します。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
    <td> 配信統計サーバーのアドレス（指定は次のとおりです） 
-    &lt;dns or="" ip=""&gt; 
+    &lt;dns または ip&gt; 
       <code>[</code>: 
      &lt;port&gt; 
-       <code>]</code>. 参照： 
-      <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">統計サーバーの座標</a>. 
+       <code>]</code>。 参照： 
+      <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank"> 統計サーバーの座標 </a>。 
       <br /> 
      </td> 
    <td> 文字列<br /> </td> 
-   <td> 定義されていない場合、デフォルトのポートは 7777 です。<br /> </td> 
+   <td> 定義されていない場合、デフォルトのポートは 7777.<br /> です </td> 
   </tr> 
   <tr> 
    <td> statServerTLSSupport<br /> </td> 
    <td> ドメイン別に TLS を有効にする：MX ごとに設定可能な TLS を有効にします（最新の統計サーバーが必要です）。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true <br /> </td> 
   </tr> 
   <!--tr> 
@@ -1648,15 +1648,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> 「true」に設定した場合、インスタンスはを使用しています <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>.<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 「true」に設定した場合、インスタンスは <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>.<br /> を使用しています </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td>b 
   </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
    <td> 検証モード：検証モードを有効化します（メッセージを物理的に送信しません。シミュレーションおよびテストに使用します）。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
@@ -1666,7 +1666,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> xMailer<br /> </td> 
-   <td> X-Mailer フィールド：SMTP メールヘッダーの「X-Mailer」フィールドの値。<br /> </td> 
+   <td> X-Mailer フィールド：SMTP メールヘッダーの「X-Mailer」フィールドの値 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'nlserver, ビルド $（PRODUCT_VERSION）'<br /> </td> 
   </tr>  
@@ -1675,7 +1675,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### キャッシュ {#cache}
 
-が含まれる **キャッシュ** ノードで、次のパラメーターを設定します。 これはローカルファイルキャッシュの設定です。
+**cache** ノードで、次のパラメーターを設定します。 これはローカルファイルキャッシュの設定です。
 
 <table> 
  <thead> 
@@ -1689,20 +1689,20 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> 次の期間でリサイクル：ストレージを再利用するためにキャッシュからファイルが自動的に削除されるまでの期間（秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 次の期間でリサイクル：ストレージを再利用するためにキャッシュからファイルが自動的に削除される期間（秒単位）。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSizeOnDiskMb<br /> </td> 
    <td> 最大キャッシュサイズ （Mb）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
    <td> パージ頻度：キャッシュパージメカニズムの実行間隔（秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
  </tbody> 
@@ -1710,11 +1710,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### リレー {#relay}
 
-が含まれる **mta > リレー** ノードで、次のパラメーターを設定します。 これは、メッセージ配信用メールサーバーの設定です。
+**mta/リレー** ノードで、次のパラメーターを設定します。 これは、メッセージ配信用メールサーバーの設定です。
 
 リストは、MX DNS クエリによって返される MX のリストと同じ方法で処理されます。通常、最初の MX が使用可能な限り使用され、次の MX が使用されます。
 
-詳しくは、次を参照してください。 [SMTP リレー](../../installation/using/configuring-campaign-server.md#smtp-relay).
+詳しくは、[SMTP リレー ](../../installation/using/configuring-campaign-server.md#smtp-relay) を参照してください。
 
 <table> 
  <thead> 
@@ -1727,15 +1727,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> 住所<br /> </td> 
-   <td> 使用する SMTP リレーの DNS 名または IP アドレスのコンマ区切りリスト。 <br /> </td> 
+   <td> 住所 <br /> </td> 
+   <td> 使用する SMTP リレーの DNS 名または IP アドレスのコンマ区切りリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> ポート<br /> </td> 
+   <td> ポート <br /> </td> 
    <td> SMTP サーバーの IP ポート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
  </tbody> 
@@ -1743,9 +1743,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### master {#master}
 
-が含まれる **mta > マスター** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
+**mta/master** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
 
-詳しくは、こちらを参照してください。 [セクション](../../installation/using/configuring-campaign-server.md#mta-child-processes).
+詳しくは、この [ 節 ](../../installation/using/configuring-campaign-server.md#mta-child-processes) を参照してください。
 
 <table> 
  <thead> 
@@ -1758,39 +1758,39 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> dataBasePoolPeriodSec<br /> </td> 
+   <td> databasePoolPeriodSec<br /> </td> 
    <td> 配信するジョブに対するデータベースポーリング頻度。 この値は、データベースのポーリング頻度（秒）を示します。配信待ちのジョブのリストを取得するために、MTA は定期的にデータベースをポーリングします。待機中のジョブがない場合、ポーリング期間はこの値によって定義されます。それ以外の場合、ジョブが子サーバーに転送された場合、このポーリング時間は自動的に 1 秒に短縮され、新しいジョブをできるだけ早く（例えば、子サーバーが再び使用可能になるとすぐに）再処理できるようになります。これは、子サーバーが再び使用可能になるまで、データベースクエリが 1 秒ごとに実行されるわけではありません。 実際、データベースアクセスは、少なくとも 1 つの子サーバーが使用可能になった場合にのみ実行されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
-   <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> データベース接続の失敗後の待機期間。 通常、データベース接続の失敗は、データベースサーバー自体が原因で発生します。サーバーは、メンテナンスなどの目的で停止する場合もあります。 DataBaseRetryDelay パラメーターは、データベース接続が失敗した場合に接続を 2 回再試行するまでの時間を定義します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> databaseRetryDelaySec<br /> </td> 
+   <td> データベース接続の失敗後の待機期間。 通常、データベース接続の失敗は、データベースサーバー自体が原因で発生します。サーバーは、メンテナンスなどの目的で停止する場合もあります。 DataBaseRetryDelay パラメーターは、データベース接続が失敗した場合に接続を再試行するまでの時間を定義します。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
    <td> 秘密鍵のキャッシュの有効期間（DomainKeys）。 DomainKeys の推奨事項（http://antispam.yahoo.com/domainkeys）に従ったメールへの署名に使用される秘密鍵は、データベースにオプションとして保存されます。domainKeysReloadPeriodSec パラメーターは、MTA がこれらのキーをキャッシュに保持できる秒数を定義します。 この遅延の後は、すべてのキーをデータベースから再読み込みする必要があります。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> 子サーバーの最大数。 実行されているサーバーの最大数を表します。この数は、サーバーのメモリリソースと互換性のある最適な値に制限することをお勧めします。配信中に確認できます。 使用されるメモリは、使用可能な物理メモリの 3 分の 1 以下にする必要があります。そうしないと、スワップが使用されます。 参照： <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 子プロセス</a>.<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 子サーバーの最大数。 実行されているサーバーの最大数を表します。この数は、サーバーのメモリリソースと互換性のある最適な値に制限することをお勧めします。配信中に確認できます。 使用されるメモリは、使用可能な物理メモリの 3 分の 1 以下にする必要があります。そうしないと、スワップが使用されます。 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 子プロセス </a> を参照してください。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
    <td> 子サーバーの最小数。 MTA は少なくともこの数のサーバーが実行され続けるようにします。 サーバー数が少ない場合は、この値に達するまで毎秒新しいサーバーを再起動します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
    <td> 起動時の子サーバーの数。 子サーバーの数は動的に監視されます。MTA が起動すると、この値で示されるとおりの数の子サーバーが作成されます。通常、ホストのリソースを節約するために、子サーバーを 1 秒あたり 1 サーバーよりも高速に起動することはできません。 ただし、MTA が起動すると、子サーバーができるだけ早く使用可能になるように、この制限が無効になります。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
  </tbody> 
@@ -1798,9 +1798,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### 子 {#child}
 
-が含まれる **mta > 子** ノードで、次のパラメーターを設定します。 これは、子サーバーの設定です。
+**mta /子** ノードで、次のパラメーターを設定します。 これは、子サーバーの設定です。
 
-詳しくは、次を参照してください。 [メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization).
+詳しくは、[ メール送信の最適化 ](../../installation/using/email-deliverability.md#email-sending-optimization) を参照してください。
 
 <table> 
  <thead> 
@@ -1821,61 +1821,61 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
    <td> アイドル状態の子サーバーが停止するまで中断。子サーバーのアイドル時間がこのパラメーターより大きい場合は、自動的に kill してホストリソースを解放します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
    <td> 最大メッセージ保持時間。 準備されたメッセージがスロットルによって送信されなかった場合やターゲット MTA に接続できなかった場合、メッセージは破棄され、次の再試行で処理されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxGCMConnectPerChild<br /> </td> 
    <td> 各子サーバーによって開始された FCM に対する並列 HTTP リクエストの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> 子サーバーごとの最大メッセージ数。 各 MTA の子はこの数のメッセージを処理して終了します。MTA でのメモリまたはリソースリークが無害であるように数を指定することが重要です（通常は数千）。 MTA コードに既知のメモリリークがない場合でも、埋め込まれた JavaScript および XSL エンジンは完全には信頼できません。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 子サーバーごとの最大メッセージ数。 各 MTA の子はこの数のメッセージを処理して終了します。MTA でのメモリまたはリソースリークが無害であるように数を指定することが重要です（通常は数千）。 MTA コードに既知のメモリリークがない場合でも、埋め込まれたJavaScriptおよび XSL エンジンは完全には信頼できません。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWaitingMessages<br /> </td> 
-   <td> 保留中のメッセージ：メモリ内で配信待ちのメッセージの最大数。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 保留中のメッセージ：メモリ内で配信待ちのメッセージの最大数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 2000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
-   <td> 子プロセスが使用できる最大メモリサイズ （MB 単位）。 この制限を超えるとプロセスは停止し、使用しているメモリはシステムに解放されます。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 子プロセスが使用できる最大メモリサイズ （MB 単位）。 この制限を超えるとプロセスは停止し、使用しているメモリはシステムに解放されます。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 128<br /> </td> 
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> 配信コネクタの SOAP 接続が破棄されるまでのタイムアウト （秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 配信コネクタのSOAP接続が破棄されるまでのタイムアウト （秒）。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> startWithFirstMX<br /> </td> 
-   <td> 常に最優先 MX で開始します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 常に最優先 MX.<br /> で開始 </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeTolive<br /> </td> 
+   <td> timeToLive<br /> </td> 
    <td> 再開時に連続して再試行する最大回数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 48<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **mta /子/ smtp** ノードで、次のパラメーターを設定します。 これは、SMTP セッションの設定です。
+**mta /子/ smtp** ノードで、次のパラメーターを設定します。 これは、SMTP セッションの設定です。
 
 <table> 
  <thead> 
@@ -1889,34 +1889,34 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> リモートサーバーでサポートされる場合、セーフモードでメールの配信を有効化します（STARTTLS/SMTPS）。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> リモートサーバーでサポートされる場合、セーフモードで E メールの配信を有効化します（STARTTLS/SMTPS）。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
    <td> アイドル セッション タイムアウト。 このパラメーターは、セッションが特定のドメインに複数のメッセージを送信するために再利用される場合にのみ使用されます。MTA がメッセージの送信を完了した後、使用した SMTP セッションが体系的に閉じられていません。メッセージを同じドメインに送信する準備ができている場合は、同じ SMTP セッションが再利用されるため、セッションが自動的に閉じません。IdleSessionTimeout パラメーターを使用すると、SMTP セッションが別のメッセージを待機しながらアクティブである期間を定義できます。 期間が経過すると、セッションは自動的に閉じられます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initialDelaySec<br /> </td> 
    <td> 接続を再試行する前の初期遅延。 この遅延は、接続が失敗するたびに 2 倍になります。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
    <td> 子サーバーによる SMTP セッションの最大数。 メッセージを配信するために、MTA は受信者 MTA との SMTP 接続を初期化します。特定の子サーバーに対する同時およびアクティブな SMTP セッションの最大数は、この値によって制限されます。 この値に maxSpareServers を乗算すると、特定の子サーバーで同時に処理できるメッセージの最大数が取得されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **mta /子/ smtp / IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信 SMTP トラフィックに対する IP アドレスとの親和性の管理の設定です。
+**mta /子/ smtp / IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信 SMTP トラフィックに対する IP アドレスとの親和性の管理の設定です。
 
-詳しくは、次を参照してください。 [使用する IP アドレスのリスト](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) および [アフィニティを使用した送信 SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
+詳しくは、[ 使用する IP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) および [ アフィニティを使用した送信 SMTP トラフィックの管理 ](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities) を参照してください。
 
 <table> 
  <thead> 
@@ -1933,16 +1933,16 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> 名前 <br /> </td> 
    <td> 論理名：ユーザーによってアフィニティにリンクされた名前。 名前はセミコロンで区切ります。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-が含まれる **mta /子/ smtp / IP** ノードで、次のパラメーターを設定します。
+**mta /子/ smtp / IP** ノードで、次のパラメーターを設定します。
 
-詳しくは、次を参照してください。 [使用する IP アドレスのリスト](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
+詳しくは、[ 使用する IP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) を参照してください。
 
 <table> 
  <thead> 
@@ -1954,19 +1954,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> 住所<br /> </td> 
+   <td> 住所 <br /> </td> 
    <td> 関連付けられた物理アドレス。 例：'192.168.0.1'<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> 関連付けられたパブリックアドレス ID。統計サーバーのキーとして使用します。 数値である必要があります。 これを表示 <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">セクション</a>.<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 関連付けられたパブリックアドレス ID。統計サーバーのキーとして使用します。 数値である必要があります。 詳しくは、<a href="../../installation/using/email-deliverability.md#managing-ip-addresses"> 節 </a> を参照してください <br />。 </td> 
+   <td> 長い <br /> </td> 
   </tr> 
   <tr> 
-   <td> 重み<br /> </td> 
+   <td> 重み <br /> </td> 
    <td> この IP の使用頻度を他の IP に相対的に指定します（重みを大きくすると頻度が高くなります）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
@@ -1974,7 +1974,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> excludeDomain<br /> </td> 
+   <td> excludeDomains<br /> </td> 
    <td> 除外するドメインマスクのコンマ区切りのリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -1988,7 +1988,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## nmac {#nmac}
 
-次に、の様々なパラメーターを示します **nmac** ノード。 これは、プッシュ通知配信用のの設定です。
+**nmac** ノードの様々なパラメーターを次に示します。 これは、プッシュ通知配信用のの設定です。
 
 <table> 
  <thead> 
@@ -2002,16 +2002,16 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> useHTTPProxy<br /> </td> 
-   <td> shared/proxyHTTP で定義された HTTP プロキシを使用します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> shared/proxyHTTP で定義された HTTP プロキシを使用します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### リレー {#relay-1}
 
-次に、の様々なパラメーターを示します **nmac > relay** ノード。 メッセージ配信にリレーを使用するように設定します（ios http2 コネクタ）。
+**nmac/relay** ノードの様々なパラメーターを次に示します。 メッセージ配信にリレーを使用するように設定します（ios http2 コネクタ）。
 
 <table> 
  <thead> 
@@ -2024,15 +2024,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> 住所<br /> </td> 
-   <td> 使用するリレーの DNS アドレスまたは名前。 <br /> </td> 
+   <td> 住所 <br /> </td> 
+   <td> 使用するリレーの DNS アドレスまたは名前。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> リレーポート<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> リレーポート <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 443<br /> </td> 
   </tr> 
   <tr> 
@@ -2046,7 +2046,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## パイプライン化 {#pipelined}
 
-次に、の様々なパラメーターを示します **パイプライン化** ノード。 これは、パイプラインサービスのイベント処理モジュールの設定です。
+**pipelined** ノードの様々なパラメーターを次に示します。 これは、パイプラインサービスのイベント処理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -2060,13 +2060,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> appName<br /> </td> 
-   <td> 公開鍵が保存されるときに Developer Connection で生成されるアプリケーションの名前。 <br /> </td> 
+   <td> 公開鍵が保存されるときに Developer Connection で生成されるアプリケーションの名前。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2083,15 +2083,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
    <td> 自動開始 <br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
-   <td> 認証を無効にする：認証なしでパイプラインサービスに接続します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 認証を無効にする：認証なしでパイプラインサービスに接続します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
@@ -2102,38 +2102,38 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> dumpStatePeriodSec<br /> </td> 
-   <td> ステータス保存期間：プロセスの内部情報がファイルに保存される頻度。 0 の場合は非アクティブ。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> ステータス保存期間：プロセスの内部情報がファイルに保存される頻度。 0 の場合は非アクティブ。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
-   <td> リスニング URL: パイプラインサービスのリスニング URL を強制的に使用します。 <br /> </td> 
+   <td> リスニング URL: パイプラインサービスのリスニング URL を強制的に使用します。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> monitorServerPort<br /> </td> 
-   <td> ステータスサーバーポート：プロセスのステータスのクエリが可能な HTTP サーバーポート。 0 の場合は非アクティブ。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> monitorserverport<br /> </td> 
+   <td> ステータスサーバーポート：プロセスのステータスのクエリが可能な HTTP サーバーポート。 0.<br /> の場合は非アクティブ </td> 
+   <td> 長い <br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
   <tr> 
@@ -2145,43 +2145,43 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
    <td> ポインターを保存するまでの遅延時間：ポインターは、この期間中に 1 回以上データベースに保存されます（低アクティビティの場合に役立ちます）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> processingJSThreads<br /> </td> 
-   <td> パーソナライズされた JavaScript コネクタによるイベント処理のスレッド数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> パーソナライズされたJavaScript コネクタによるイベント処理のスレッド数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> processingThread<br /> </td> 
+   <td> processingThreads<br /> </td> 
    <td> イベント処理用のスレッドの数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> retryPeriodSec<br /> </td> 
    <td> エラーが発生した場合の処理間の遅延。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
    <td> この期間の後に中断：この期間の後も処理が失敗する場合は、イベントを中断します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2189,7 +2189,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## 修理 {#repair}
 
-次に、の様々なパラメーターを示します **修理** ノード。 これは、データベース修復モジュールの構成です。
+**repair** ノードの様々なパラメーターは次のとおりです。 これは、データベース修復モジュールの構成です。
 
 <table> 
  <thead> 
@@ -2203,8 +2203,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> repairActionDelayMin<br /> </td> 
-   <td> 配信アクション修復モジュール：修復モジュールで配信アクションを処理できるようになるまでの遅延（分）。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 配信アクション修復モジュール：修復モジュールで配信アクションを処理できるようになるまでの遅延（分）。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
  </tbody> 
@@ -2212,9 +2212,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## securityZone {#securityzone}
 
-次に、の様々なパラメーターを示します **securityZone** ノード。
+**securityZone** ノードのパラメーターは次のとおりです。
 
-詳しくは、次を参照してください。 [セキュリティゾーンの定義](../../installation/using/security-zones.md).
+詳細については、[ セキュリティ ゾーンの定義 ](../../installation/using/security-zones.md) を参照してください。
 
 <table> 
  <thead> 
@@ -2228,57 +2228,57 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> allowDebug<br /> </td> 
-   <td> Web アプリケーションのデバッグモードを許可します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> Web アプリケーションのデバッグ モードを承認します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
    <td> パスワードなしでアプリケーションを使用することをユーザーに許可します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowHTTP<br /> </td> 
-   <td> オペレーターのログオンに HTTP の使用を許可します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> オペレーターのログオンに HTTP を使用することを許可します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
    <td> 式での SQLDATA の使用を承認します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowUserPassword<br /> </td> 
-   <td> ユーザー/パスワードセッショントークンを許可します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ユーザー/パスワードセッショントークンを許可。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> ラベル<br /> </td> 
-   <td> ラベル<br /> </td> 
+   <td> ラベル <br /> </td> 
+   <td> ラベル <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> NewLabel （）<br /> </td> 
+   <td> NewLabel （） <br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> 内部名<br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> 内部名 <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> NewName （） <br /> </td> 
+   <td> <br /> （） </td> 
   </tr> 
   <tr> 
    <td> sessionTokenOnly<br /> </td> 
    <td> セキュリティトークンは使用しないでください。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> showErrors<br /> </td> 
-   <td> エラーの詳細を表示<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> エラーの詳細を表示 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2310,9 +2310,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### subNetwork {#subnetwork}
 
-次に、の様々なパラメーターを示します **securityZone/サブネットワーク** ノード。
+**securityZone/subNetwork** ノードのパラメーターは次のとおりです。
 
-詳しくは、次を参照してください。 [セキュリティゾーンの定義](../../installation/using/security-zones.md).
+詳細については、[ セキュリティ ゾーンの定義 ](../../installation/using/security-zones.md) を参照してください。
 
 <table> 
  <thead> 
@@ -2325,26 +2325,26 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> ラベル<br /> </td> 
-   <td> ラベル<br /> </td> 
+   <td> ラベル <br /> </td> 
+   <td> ラベル <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> NewLabel （）<br /> </td> 
+   <td> NewLabel （） <br /> </td> 
   </tr> 
   <tr> 
-   <td> マスク<br /> </td> 
-   <td> マスクまたはアドレス<br /> </td> 
+   <td> マスク <br /> </td> 
+   <td> マスクまたはアドレス <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> 内部名<br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> 内部名 <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> NewName （） <br /> </td> 
+   <td> <br /> （） </td> 
   </tr> 
   <tr> 
-   <td> 委任状<br /> </td> 
-   <td> このサブネットワークでインスタンスへのアクセスに使用される（リバース） プロキシのマスクまたはアドレス。 この場合、このプロキシの代わりに「X-Forwarded-For」ヘッダーがテストされます。<br /> </td> 
+   <td> プロキシ <br /> </td> 
+   <td> このサブネットワークでインスタンスへのアクセスに使用される（リバース） プロキシのマスクまたはアドレス。 この場合、「X-Forwarded-For」ヘッダーがこのプロキシの代わりにテストされます。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 127.0.0.1 <br /> </td> 
   </tr> 
@@ -2353,7 +2353,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## SMS {#sms}
 
-次に、の様々なパラメーターを示します **sms** ノード。 これは、インバウンド SMS 管理モジュールの設定です。
+**sms** ノードの様々なパラメーターは次のとおりです。 これは、インバウンド SMS 管理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -2367,86 +2367,86 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataRetentionDays<br /> </td> 
    <td> SMPP コネクタで保持される作業ファイルの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> dataSizeMo<br /> </td> 
    <td> SMPP 作業ファイルの最大サイズ （MB）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 512<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
    <td> セッション継続フレームの繰り返し：最大 受信セッションが引き続き有効であることを通知するための 2 つのフレーム間の期間（秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
    <td> 検索頻度：SMS アカウントのポーリング期間。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
-   <td> アカウント再読み込み頻度：ポーリングするアカウントのデータベース再読み込み頻度です。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> アカウント再読み込み頻度：ポーリングされるアカウントのデータベース再読み込み頻度です。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> srReadDelay<br /> </td> 
-   <td> SR 処理の遅延秒数：現在の時間から srReadDelay で指定された期間（秒）を引いた日付より前の復元日を持つ SR のみ。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> SR 処理の遅延秒数：現在の時間から srReadDelay で指定された期間（秒）を引いた日付より前の復元日を持つ SR のみ。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト <br /> </td> 
    <td> SMS ゲートウェイでの通信タイムアウト。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
  </tbody> 
@@ -2454,7 +2454,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### netsize {#netsize}
 
-次に、の様々なパラメーターを示します **sms/netsize** ノード。
+**sms/netsize** ノードの様々なパラメーターを次に示します。
 
 <table> 
  <thead> 
@@ -2468,8 +2468,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> netsizeConnectionTimeout<br /> </td> 
-   <td> Netsize との接続を確立する場合のタイムアウト （秒）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> Netsize.<br /> との接続を確立する場合のタイムアウト （秒） </td> 
+   <td> 長い <br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
  </tbody> 
@@ -2477,7 +2477,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## 統計 {#stat}
 
-次に、の様々なパラメーターを示します **統計** ノード。 MTA 統計モジュールの設定です。
+**stat** ノードの様々なパラメーターを次に示します。 MTA 統計モジュールの設定です。
 
 <table> 
  <thead> 
@@ -2491,50 +2491,50 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> サーバーリスニングポート。 これを表示 <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">セクション</a>.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> サーバーリスニングポート。 詳しくは、<a href="../../installation/using/email-deliverability.md#definition-of-the-server-port"> 節 </a> を参照してください <br />。 </td> 
+   <td> 短い <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2542,7 +2542,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## syslogd {#syslogd}
 
-次に、の様々なパラメーターを示します **syslogd** ノード。 これは、ログ管理モジュールの設定です。
+**syslogd** ノードのパラメーターは次のとおりです。 これは、ログ管理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -2556,56 +2556,56 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxFileSizeMb<br /> </td> 
-   <td> ログファイルの最大サイズ（MB 単位）。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> ログファイルの最大サイズ（MB 単位）。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> maxNumberOfLoginsFiles<br /> </td> 
-   <td> 保持する logins.log ファイルの最大数。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 保持する logins.log ファイルの最大数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2613,7 +2613,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## tracking {#tracking}
 
-次に、の様々なパラメーターを示します **トラッキング** ノード。 これは、トラッキングサーバーの設定です。
+**トラッキング** ノードの様々なパラメーターを次に示します。 これは、トラッキングサーバーの設定です。
 
 <table> 
  <thead> 
@@ -2627,116 +2627,116 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
    <td> 以前のビルドから生成された不正な形式の URL を無効にします。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> consolidationPeriodSec<br /> </td> 
-   <td> 統合期間<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 統合期間 <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
    <td> 開封の重複排除：重複した開封トラッキングログを削除して、Outlook などのメールリーダーでのメールプレビューの影響を制限します。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePercent<br /> </td> 
-   <td> エラーの最大 X% を無視：まだ考慮に入れていないログの割合がこの値に達しない限り、トラッキング指標を更新しません。 <br /> </td> 
-   <td> バイト<br /> </td> 
+   <td> エラーの最大 X% を無視：まだ考慮に入れていないログの割合がこの値に達しない限り、トラッキング指標を更新しません。<br /> </td> 
+   <td> バイト <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
-   <td> エラー指標の更新：エラー指標が再計算されるまでの最大期間。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> エラー指標の更新：エラー指標を再計算するまでの最大期間です。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
    <td> 次の期間に指標を計算：配信の有効期限からの期間（それ以降、統合指標が計算されなくなる）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID <br /> </td> 
+   <td> プロセス <br /> ークフローの開始時に実行するJavaScriptの ID </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> logCountPerRequest<br /> </td> 
+   <td> logcountPerRequest<br /> </td> 
    <td> リモートトラッキングサーバーへの呼び出しによってリクエストされたログの数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> phishbowlServiceAPIKey<br /> </td> 
-   <td> Phishbowl サービスエンドポイント統合用の API キー。 これにより、古いビルドから生成された不正な形式の URL のリダイレクトが保護されます。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> Phishbowl サービスエンドポイント統合用の API キー。 これにより、古いビルドから生成された不正な形式の URL のリダイレクトが保護されます。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> phishbowlServiceEndpoint<br /> </td> 
    <td> Phishbowl サービスエンドポイント統合のエンドポイント。 これにより、古いビルドから生成された不正な形式の URL のリダイレクトが保護されます。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
-   <td> 最大 X% のトラッキングを無視：まだ考慮されていないログの割合がこの値に達しない限り、トラッキング指標を更新しません。<br /> </td> 
-   <td> バイト<br /> </td> 
+   <td> 最大 X% のトラッキングを無視：まだ考慮に入れていないログの割合がこの値に達しない限り、トラッキング指標を更新しません。<br /> </td> 
+   <td> バイト <br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
-   <td> トラッキング指標の更新：トラッキング指標が再計算されるまでの最大期間。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> トラッキング指標を更新：トラッキング指標の再計算までの最大期間。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> userAgentCacheSize<br /> </td> 
    <td> ブラウザー識別子キャッシュのサイズ。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
  </tbody> 
@@ -2744,7 +2744,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## trackinglogd {#trackinglogd}
 
-次に、の様々なパラメーターを示します **trackinglogd** ノード。 これは、トラッキングログ書き込みデーモンの設定です。
+**trackinglogd** ノードの様々なパラメーターは次のとおりです。 これは、トラッキングログ書き込みデーモンの設定です。
 
 <table> 
  <thead> 
@@ -2758,74 +2758,74 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID <br /> </td> 
+   <td> プロセス <br /> ークフローの開始時に実行するJavaScriptの ID </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
    <td> 最大書き込み再試行：ログファイルへの書き込みに失敗した場合に作成できるファイルの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
-   <td> 最大ログサイズ：ディスク上のログに使用される最大領域（MB）。 100 MB 以上にする必要があります。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 最大ログサイズ：ディスク上のログに使用される最大領域（MB）。 100 MB 以上である必要があります。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> 最大ログ数：共有メモリに保存されるログの最大数。 10000 よりも小さい値にすることはできません。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 最大ログ数：共有メモリに保存されるログの最大数。 10000 よりも小さい値にすることはできません。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> パージ前のログ数：ログファイルのパージを開始する前に挿入したログの数。 50000 よりも小さい値にすることはできません。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> パージ前のログ数：ログファイルのパージを開始する前に挿入したログの数。 50000.<br /> よりも小さい値にすることはできません </td> 
+   <td> 長い <br /> </td> 
    <td> 50000<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> webTrackingParamSize<br /> </td> 
-   <td> 追加の web トラッキングパラメーターの共有メモリに保存される最大文字数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 追加の Web トラッキングパラメーターの共有メモリに保存される最大文字数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 64<br /> </td> 
   </tr> 
  </tbody> 
@@ -2833,9 +2833,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## Web {#web}
 
-次に、の様々なパラメーターを示します **web** ノード。 これは、web モジュールの設定です。
+**web** ノードの様々なパラメーターは次のとおりです。 これは、web モジュールの設定です。
 
-詳しくは、こちらを参照してください。 [セクション](configuring-campaign-server.md#default-port-for-tomcat).
+詳しくは、この [ 節 ](configuring-campaign-server.md#default-port-for-tomcat) を参照してください。
 
 <table> 
  <thead> 
@@ -2854,63 +2854,63 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> MaxThread<br /> </td> 
+   <td> MaxThreads<br /> </td> 
    <td> スレッドの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
   <tr> 
    <td> MinSpareThreads<br /> </td> 
    <td> スレッドの最小数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat のリスニングコントロールポート：を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> Tomcat のリスニングコントロールポート：<a href="configure-tomcat.md" target="_blank">Tomcat の設定 </a> を参照してください。<br /> </td> 
+   <td> 短い <br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP リスニングポート：を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> Tomcat HTTP リスニングポート：<a href="configure-tomcat.md" target="_blank">Tomcat の設定 </a> を参照してください。<br /> </td> 
+   <td> 短い <br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> maxDeliveryQueueSize<br /> </td> 
-   <td> SubmitDelivery 呼び出し用のキューのサイズ：キューに格納できる SubmitDelivery SOAP 呼び出しの最大数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> maxdeliveryQueueSize<br /> </td> 
+   <td> SubmitDelivery 呼び出し用のキューのサイズ：キューに格納できる SubmitDelivery SOAP呼び出しの最大数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 50<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告 <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
@@ -2921,28 +2921,28 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> startSoapRouterInModule<br /> </td> 
-   <td> モジュールモードで SOAP ルーターを起動します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> モジュールモードでSOAP ルーターを起動します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### jsp {#jsp}
 
-次に、の様々なパラメーターを示します **web/jsp** ノード。 これは、JSP によって使用されるパラメーターの設定です。
+**web/jsp** ノードの様々なパラメーターを次に示します。 これは、JSP によって使用されるパラメーターの設定です。
 
 <table> 
  <thead> 
@@ -2955,14 +2955,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> debug<br /> </td> 
+   <td> デバッグ <br /> </td> 
    <td> デバッグモードで JSP を実行するかどうか。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> ダウンロードフォルダー：クライアントコンソール用インストールプログラムのダウンロードパス。<br /> </td> 
+   <td> ダウンロードフォルダー：クライアントコンソールのインストールプログラムのダウンロードパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$（XTK_INSTALL_DIR）/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
@@ -2974,14 +2974,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> soapRouter<br /> </td> 
-   <td> SOAP ルーターの URL （http://myserver/xxx, http://jni or mailto:xxx）.<br /> </td> 
+   <td> SOAP ルーターの URL （http://myserver/xxx, http://jni or mailto:xxx）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'http://jni'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この **web/jsp/クラスパス** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれています。 デフォルトの設定は次のとおりです。
+**web/jsp/クラスパス** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれています。 デフォルトの設定は次のとおりです。
 
 ```
 '$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar
@@ -3021,7 +3021,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### jssp {#jssp}
 
-次に、の様々なパラメーターを示します **web > jssp** ノード。 これは、JSSP が使用するパラメーターの設定です。
+**web/jssp** ノードの様々なパラメーターを次に示します。 これは、JSSP が使用するパラメーターの設定です。
 
 <table> 
  <thead> 
@@ -3035,26 +3035,26 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> collectsGarbageAfterRequest<br /> </td> 
-   <td> 各クエリの後で JavaScript コンテキストのガベージコレクターを有効にします。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 各クエリの後でJavaScript コンテキストのガベージコレクターを有効にします。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeTolive<br /> </td> 
-   <td> JavaScript コンテキストで提供されたページの最大数。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> timeToLive<br /> </td> 
+   <td> JavaScript コンテキストで提供されたページの最大数。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この **web/jsp/クラスパス** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれています。
+**web/jsp/クラスパス** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれています。
 
 ### リレー {#relay-2}
 
-次に、の様々なパラメーターを示します **web > リレー** ノード。 これは、2 つのゾーン間の HTTP リクエスト用リレーの設定です。
+**web/リレー** ノードの様々なパラメーターを次に示します。 これは、2 つのゾーン間の HTTP リクエスト用リレーの設定です。
 
-詳しくは、こちらを参照してください。 [セクション](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+詳しくは、この [ 節 ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources) を参照してください。
 
 <table> 
  <thead> 
@@ -3069,8 +3069,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   <tr> 
    <td> debugRelay<br /> </td> 
    <td> Web サーバー内の HTTP リレーモジュールをデバッグモードで起動します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
@@ -3080,30 +3080,30 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
-   <td> 禁止されている文字（パス）: URI の「パス」セクションで禁止されている文字のリスト。<br /> </td> 
+   <td> 禁止文字（パス） : URI の「パス」セクションで禁止されている文字のリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> 「mod_dir」モジュールオプションの値：フォルダーに対するクエリ中に使用されるファイルのリスト。<br /> </td> 
+   <td> 「mod_dir」モジュールオプションの値：フォルダーに対するクエリ中に使用されるファイルのリスト <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
    <td> HTTP リレーモジュールを開始します。<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
-   <td> Web サーバー内で HTTP リレーモジュールを開始します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> Web サーバー内で HTTP リレーモジュールを開始します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト <br /> </td> 
    <td> 禁止された URL を削除するまでの待機時間です。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '60'<br /> </td> 
@@ -3111,9 +3111,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </tbody> 
 </table>
 
-を追加 **web / リレー/ url** 次のパラメーターを使用して、リレーする各 URL のノード（挿入順で優先度を定義）。
+次のパラメーターを使用して、リレーする URL ごとに **web/リレー/URL** ノードを追加します（挿入順で優先度を定義します）。
 
-詳しくは、次を参照してください。 [動的ページセキュリティとリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) および [セクション](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+詳しくは、[ 動的ページセキュリティとリレー ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) および [ 節 ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources) を参照してください。
 
 <table> 
  <thead> 
@@ -3132,56 +3132,56 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> 拒否<br /> </td> 
-   <td> これらの URL へのアクセスを拒否します（HTTP 403 エラーを返します）<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 拒否 <br /> </td> 
+   <td> これらの URL へのアクセスを拒否します（HTTP 403 エラーを返します） <br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> host マスク<br /> </td> 
-   <td> リレーする DNS エイリアス：リレーする DNS エイリアスマスクのコンマ区切りリスト（例：'*.adobe.com'）。<br /> </td> 
+   <td> hostMask<br /> </td> 
+   <td> リレーする DNS エイリアス：リレーする DNS エイリアスマスクのコンマ区切りリスト （例：'*.adobe.com'）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> httpAllowed<br /> </td> 
-   <td> セキュリティゾーン （webApps など）に関係なく、HTTP アクセスが許可されました。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> セキュリティゾーン （webApps など）に関係なく、HTTP アクセスが許可されました。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> relayHost<br /> </td> 
    <td> 元のホストを追加：リレー時に元のリクエストの HTTP 「ホスト」ヘッダーを使用します。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> relayPath<br /> </td> 
-   <td> 初期 URL パスを追加：中継する URL の完全パスをターゲットページの URL に追加します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> 初期 URL パスを追加：中継する URL の完全パスをターゲットページの URL に追加します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> ステータス<br /> </td> 
-   <td> パブリックリソースの同期ステータス （列挙）。 取り得る値は「normal」（通常の実行）、「blacklist」（エラー 404 の場合にブロックリストに追加された URL）、「spare」（存在する場合、予備のサーバーへのファイルアップロード）です。<br /> </td> 
+   <td> ステータス <br /> </td> 
+   <td> パブリックリソースの同期ステータス （列挙）。 ブロックリストに加える取り得る値は、'normal' （通常の実行）、'blacklist' （url added to case of error 404）、'spare' （file upload on spare server if existing）.<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> 標準<br /> </td> 
+   <td> 標準 <br /> </td> 
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> ターゲットページの URL。を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
+   <td> ターゲットページの URL:<a href="configure-tomcat.md" target="_blank">Tomcat の設定 </a> を参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト <br /> </td> 
    <td> リレーされているリクエストの最大実行時間（秒単位）。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> urlPath<br /> </td> 
-   <td> 中継する URL のマスク （例：「/nl*」、「*.jsp」）。<br /> </td> 
+   <td> 中継する URL のマスク （例：'/nl*', '*.jsp'）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3253,9 +3253,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
      timeout="" status="spare" httpAllowed="true" urlPath="/*.jpg"/>
 ```
 
-を追加 **web/リレー/responseHeader** リレーに転送される返信に追加する各 HTTP ヘッダーのノード。
+各 HTTP ヘッダーに **web/リレー/responseHeader** ノードを追加して、リレーに転送される返信に追加します。
 
-詳しくは、次を参照してください。 [HTTP ヘッダーの管理](../../installation/using/configuring-campaign-server.md#managing-http-headers).
+詳しくは、[HTTP ヘッダーの管理 ](../../installation/using/configuring-campaign-server.md#managing-http-headers) を参照してください。
 
 <table> 
  <thead> 
@@ -3267,12 +3267,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> 名前<br /> </td> 
-   <td> ヘッダー名<br /> </td> 
+   <td> 名前 <br /> </td> 
+   <td> ヘッダー名 <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> value<br /> </td> 
+   <td> 値 <br /> </td> 
    <td> ヘッダー値 <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -3287,9 +3287,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### リダイレクト {#redirection}
 
-次に、の様々なパラメーターを示します **web / リダイレクト** ノード。 これは、リダイレクトモジュールの設定です。
+**web/リダイレクト** ノードの様々なパラメーターを次に示します。 これは、リダイレクトモジュールの設定です。
 
-詳しくは、こちらを参照してください。 [セクション](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+詳しくは、この [ 節 ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources) を参照してください。
 
 <table> 
  <thead> 
@@ -3303,19 +3303,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> 組織 ID:Adobe Experience Cloud内の組織の一意の識別子。特に VisitorID サービスと IMS SSO で使用されます。 <br /> </td> 
+   <td> 組織 ID:Adobe Experience Cloud内の組織の一意の識別子。特に VisitorID サービスと IMS SSO で使用されます。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> P3PCompactPolicy<br /> </td> 
-   <td> 永続 Cookie に使用されるポリシーを表す値（P3P Compact Policy 形式に準拠）。 <br /> </td> 
+   <td> 永続 Cookie に使用されるポリシーを表す値（P3P Compact Policy 形式に準拠）。<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> 『 CAO DSP COR CURa DEVa TAI OUR BUS IND UNI COM NAV 』<br /> </td> 
+   <td> 'CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> 設定するドメインのコンマ区切りのリストで、Cookie を設定するドメインを明示的に示します。 <br /> </td> 
+   <td> 設定するドメインのコンマ区切りのリストで、Cookie を設定するドメインを明示的に示します。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3327,8 +3327,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> defLogCount<br /> </td> 
-   <td> 呼び出しによるログ数：メソッド GetTrackingLogs の呼び出し時にデフォルトで返されるログの数。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 呼び出しによるログ数：メソッド GetTrackingLogs.<br /> の呼び出し時にデフォルトで返されるログの数 </td> 
+   <td> 長い <br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
@@ -3338,37 +3338,37 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> maxJobsInCache<br /> </td> 
-   <td> 最大ジョブ数：キャッシュ内の配信アクションの最大数。 50 以上にする必要があります。 <br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> maxJobInCache<br /> </td> 
+   <td> 最大ジョブ数：キャッシュ内の配信アクションの最大数。 50 以上である必要があります。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> showSourceIP<br /> </td> 
-   <td> false に設定した場合、r/test から返される応答の sourceIP の値は空の文字列です。 <br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> false に設定した場合、r/test から返される応答の sourceIP の値は空の文字列です。<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirection<br /> </td> 
    <td> リダイレクトサービスを開始します。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirectionInModule<br /> </td> 
    <td> モジュールモードでリダイレクトサービスを開始します。<br /> </td> 
-   <td> ブール値<br /> </td> 
+   <td> ブール値 <br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> trackWebVisitors<br /> </td> 
-   <td> Web トラッキング：不明なユーザーが訪問したページのログを作成します。 <br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> Web トラッキング：不明なユーザーが訪問したページのログを作成します。<br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> trackingpassword<br /> </td> 
+   <td> trackingPassword<br /> </td> 
    <td> リダイレクトサーバーが使用するパスワード。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
@@ -3376,9 +3376,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </tbody> 
 </table>
 
-次に、の様々なパラメーターを示します **web > リダイレクト > spareServer** ノード。
+**web/リダイレクト/spareServer** ノードのパラメーターは様々です。
 
-詳しくは、次を参照してください。 [冗長トラッキング](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+詳しくは、[ 冗長トラッキング ](../../installation/using/configuring-campaign-server.md#redundant-tracking) を参照してください。
 
 <table> 
  <thead> 
@@ -3392,7 +3392,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  <tbody> 
   <tr> 
    <td> enabledIf<br /> </td> 
-   <td> 考慮する条件：式が true を返した場合、トラッキングサーバーが考慮されます。 <br /> </td> 
+   <td> 考慮する条件：式が true を返した場合、トラッキングサーバーが考慮されます。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3413,9 +3413,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ### spamCheck {#spamcheck}
 
-次に、の様々なパラメーターを示します **web > spamCheck** ノード。 これは、E メールスパム対策のスコア付け評価パラメーターの設定です。
+**web/spamCheck** ノードの様々なパラメーターを次に示します。 これは、E メールスパム対策のスコア付け評価パラメーターの設定です。
 
-詳しくは、次を参照してください。 [SpamAssassin の設定](../../installation/using/configuring-spamassassin.md).
+詳しくは、[SpamAssassin の設定 ](../../installation/using/configuring-spamassassin.md) を参照してください。
 
 <table> 
  <thead> 
@@ -3427,7 +3427,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> コマンド<br /> </td> 
+   <td> コマンド <br /> </td> 
    <td> E メールのスパム対策スコアを評価するために実行するコマンド （「perl spamcheck.pl」など）。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -3436,9 +3436,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
 
 ## wfserver {#wfserver}
 
-次に、の様々なパラメーターを示します **wfserver** ノード。 これは、ワークフロープロセスの設定です。
+**wfserver** ノードの様々なパラメーターを次に示します。 これは、ワークフロープロセスの設定です。
 
-詳しくは、次を参照してください。 [高可用性のワークフローとアフィニティ](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+詳しくは、[ 高可用性ワークフローとアフィニティ ](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities) を参照してください。
 
 <table> 
  <thead> 
@@ -3451,45 +3451,45 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
  </thead> 
  <tbody> 
   <tr> 
-   <td> 親和性<br /> </td> 
-   <td> 親和性<br /> </td> 
+   <td> 親和性 <br /> </td> 
+   <td> アフィニティ <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> スタートアップパラメーター<br /> </td> 
+   <td> スタートアップパラメーター <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> autoStart<br /> </td> 
-   <td> 自動開始<br /> </td> 
-   <td> ブール値<br /> </td> 
-   <td> 偽<br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> 自動開始 <br /> </td> 
+   <td> ブール値 <br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> 期間<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> databasePoolPeriodSec<br /> </td> 
+   <td> 期間 <br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> プロセスの開始時に実行する JavaScript の ID。<br /> </td> 
+   <td> プロセスの開始時に実行するJavaScriptの ID。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> メモリ消費アラート：特定のプロセスによる RAM の消費量（MB）に関するアラート。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> メモリ消費警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
-   <td> ロング<br /> </td> 
+   <td> メモリ消費の警告：特定のプロセスが消費する RAM の量（MB）に関する警告。<br /> </td> 
+   <td> 長い <br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
@@ -3500,14 +3500,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://&#42;“
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 処理が自動的に再度開始される時間。 参照： <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">プロセスの自動再起動</a>.<br /> </td> 
+   <td> 処理が自動的に再度開始される時間。 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"> プロセスの自動再起動 </a> を参照してください <br />。 </td> 
    <td> 文字列<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> 開始時の優先度。 優先順位の低いモジュールが最初に開始され、最後に停止されます。 したがって、syslogd モジュールの優先順位は 0.<br /> でなければなりません </td> 
+   <td> 短い <br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 

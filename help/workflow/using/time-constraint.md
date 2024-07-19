@@ -5,7 +5,7 @@ description: 時間制限ワークフローアクティビティの詳細を説�
 feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 

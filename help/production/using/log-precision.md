@@ -3,7 +3,7 @@ product: campaign
 title: ログの精度
 description: ログの精度
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -49,9 +49,9 @@ Adobe Campaignは、次の2つのレベルのログを使用して動作でき�
 
    >[!NOTE]
    >
-   >を使用する場合 **tracefilter:&#42;**、すべてのログタイプ（ncm、rdr、nms、jst、タイミング、wdbc、ldap、soap、xtk、xtkquery、session、xtkwriter、network、pop3、inmail）がアクティブ化されます。\
+   >**tracefilter:&#42;** を使用すると、すべてのログタイプ（ncm、rdr、nms、jst、タイミング、wdbc、ldap、soap、xtk、xtkquery、session、xtkwriter、network、pop3、inmail）がアクティブ化されます\
    最も役立つログの種類は次のとおりです。 **wdbc** (すべてのSQLクエリを表示)、 **soap** （すべてのSOAP呼び出しを表示）、 **ldap** (認証後にすべてのLDAPクエリを表示)、 **xtkquery** (すべてのquerydefのリストを表示)。\
-   これらは個別に使用できます(**例えば、tracefilter:soap,wdbc** )。 また、それらをすべてアクティブ化し、他の特定の除外を選択することもできます。 **-tracefilter:&#42;,!soap**
+   これらは個別に使用できます(**例えば、tracefilter:soap,wdbc** )。 また、それらをすべてアクティブにして、他の特定の除外を選択することもできます。**-tracefilter:&#42;,!soap**
 
    エラーが実際に発生したことを確認し、通常の方法でプロセスを再起動します。
 
@@ -71,7 +71,7 @@ Webモジュールに固有の例を以下に示します。 他のモジュー�
 nlserver pdump -who
 ```
 
-次に、モジュールをシャットダウンして再起動します **TraceFilter** モード :
+次に、**TraceFilter** モードでモジュールをシャットダウンして再起動します。
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default

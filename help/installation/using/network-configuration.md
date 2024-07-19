@@ -27,76 +27,76 @@ Adobe Campaign プラットフォームの様々なアプリケーションサ�
 
 ### 配信サーバー {#delivery-server}
 
-配信サーバー（**nlserver mta**）、次のポートが開いている必要があります。
+配信サーバー（**nlserver mta**）の場合、次のポートを開く必要があります。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> 宛先<br /> </td> 
-   <td> コメント<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> 宛先 <br /> </td> 
+   <td> コメント <br /> </td> 
   </tr> 
   <tr> 
-   <td> 25/tcp （smtp）<br /> </td> 
-   <td> どこでも<br /> </td> 
-   <td> E メールブロードキャスト用の SMTP トラフィック。<br /> </td> 
+   <td> 25/tcp （smtp） <br /> </td> 
+   <td> どこでも <br /> </td> 
+   <td> 電子メール配信用の SMTP トラフィック。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 53/udp （ドメイン）<br /> </td> 
-   <td> DNS サーバー<br /> </td> 
+   <td> 53/udp （ドメイン） <br /> </td> 
+   <td> DNS サーバー <br /> </td> 
    <td> DNS クエリ。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 38000/tcp （デフォルトポート）<br /> </td> 
-   <td> SMS ゲートウェイ<br /> </td> 
-   <td> NetSize SMS ルータに SMS トラフィックを送信するために使用されます [ オプション ]。<br /> </td> 
+   <td> 38000/tcp （デフォルトポート） <br /> </td> 
+   <td> SMS ゲートウェイ <br /> </td> 
+   <td> NetSize SMS ルータに SMS トラフィックを送信するために使用されます [option]。<br /> </td> 
   </tr> 
   <tr> 
    <td> 7777/udp<br /> </td> 
-   <td> 統計サーバー<br /> </td> 
-   <td> 統計サーバーにアクセスしています。<br /> </td> 
+   <td> 統計サーバー <br /> </td> 
+   <td> 統計サーバーへのアクセス。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 受信メール {#inbound-mail}
 
-受信メール回復プロセス（**nlserver inMail**）、次のポートが開いている必要があります。
+受信メール回復プロセス（**nlserver inMail**）では、次のポートが開いている必要があります。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> 宛先<br /> </td> 
-   <td> コメント<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> 宛先 <br /> </td> 
+   <td> コメント <br /> </td> 
   </tr> 
   <tr> 
-   <td> 110/tcp （pop3）<br /> </td> 
-   <td> 内部メールサーバー<br /> </td> 
-   <td> バウンスメッセージを取得するための POP3 トラフィック。<br /> </td> 
+   <td> 110/tcp （pop3） <br /> </td> 
+   <td> 内部メール サーバー <br /> </td> 
+   <td> バウンスメッセージを取得するための POP3 トラフィック <br /> </td> 
   </tr> 
   <tr> 
-   <td> 25/tcp （smtp）<br /> </td> 
-   <td> 内部メールサーバー<br /> </td> 
-   <td> 事前定義済みのルールによって自動的に処理されない残りのバウンスメッセージを送信するための SMTP トラフィック。<br /> </td> 
+   <td> 25/tcp （smtp） <br /> </td> 
+   <td> 内部メール サーバー <br /> </td> 
+   <td> 事前定義済みのルールによって自動的に処理されない残りのバウンスメッセージを送信するための SMTP トラフィック <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### アプリケーションサーバー {#application-server}
 
-アプリケーションサーバー（**nlserver web**）、次のポートが開いている必要があります。
+アプリケーションサーバー（**nlserver web**）では、次のポートを開く必要があります。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> 宛先<br /> </td> 
-   <td> コメント<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> 宛先 <br /> </td> 
+   <td> コメント <br /> </td> 
   </tr> 
   <tr> 
-   <td> 80/tcp （http）<br /> 443/tcp （https）<br /> </td> 
-   <td> どこでも<br /> </td> 
+   <td> 80/tcp （http） <br />443/tcp （https） <br /> </td> 
+   <td> どこでも <br /> </td> 
    <td> HTTP または HTTPS トラフィック（配信品質オファーを含む）。<br /> </td> 
   </tr> 
  </tbody> 
@@ -106,18 +106,18 @@ Adobe Campaign プラットフォームの複数のアプリケーションサ�
 
 ### SMS 配信ステータス {#sms-delivery-status}
 
-SMS 配信をトラッキングするには、次を行います（**nlserver sms**）、次のポートが開いている必要があります。
+SMS 配信を追跡するには（**nlserver sms**）、次のポートが開いている必要があります。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> 宛先<br /> </td> 
-   <td> コメント<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> 宛先 <br /> </td> 
+   <td> コメント <br /> </td> 
   </tr> 
   <tr> 
-   <td> 38000/tcp （デフォルトポート）<br /> </td> 
-   <td> SMS ゲートウェイ<br /> </td> 
+   <td> 38000/tcp （デフォルトポート） <br /> </td> 
+   <td> SMS ゲートウェイ <br /> </td> 
    <td> NetSize SMS ゲートウェイによって管理される配信キューステータスを照会します [ オプション ]。<br /> </td> 
   </tr> 
  </tbody> 
@@ -125,19 +125,19 @@ SMS 配信をトラッキングするには、次を行います（**nlserver sm
 
 ### リッチクライアント {#rich-client}
 
-Adobe Campaign リッチクライアント （**nlclient**）、次のポートが開いている必要があります。
+Adobe Campaign リッチクライアント（**nlclient**）では、次のポートが開いている必要があります。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> ポート<br /> </td> 
-   <td> 宛先<br /> </td> 
-   <td> コメント<br /> </td> 
+   <td> ポート <br /> </td> 
+   <td> 宛先 <br /> </td> 
+   <td> コメント <br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp （http）</p><p>443/tcp （https）</p><br /> </td> 
-   <td> アプリケーションサーバー<br /> </td> 
-   <td> SOAP トラフィック（HTTP）。<br /> </td> 
+   <td> アプリケーションサーバー <br /> </td> 
+   <td> SOAP トラフィック（HTTP）.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,14 +151,14 @@ Adobe Campaign リッチクライアント （**nlclient**）、次のポート�
 <table> 
  <tbody> 
   <tr> 
-   <td> データベースタイプ<br /> </td> 
-   <td> ポート（デフォルト）<br /> </td> 
-   <td> 宛先<br /> </td> 
+   <td> データベースの種類 <br /> </td> 
+   <td> ポート （デフォルト） <br /> </td> 
+   <td> 宛先 <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> 1521/tcp<br /> </td> 
-   <td> データベースサーバー<br /> </td> 
+   <td> データベースサーバー <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
@@ -180,8 +180,8 @@ Adobe Campaign リッチクライアント （**nlclient**）、次のポート�
 <table> 
  <tbody> 
   <tr> 
-   <td> リスニングポート<br /> </td> 
-   <td> 場所<br /> </td> 
+   <td> リスニング ポート <br /> </td> 
+   <td> 場所 <br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp （http）</p><p> 443/tcp （https）</p><br /> </td> 
@@ -197,8 +197,8 @@ Adobe Campaign リッチクライアント （**nlclient**）、次のポート�
 <table> 
  <tbody> 
   <tr> 
-   <td> リスニングポート<br /> </td> 
-   <td> 場所<br /> </td> 
+   <td> リスニング ポート <br /> </td> 
+   <td> 場所 <br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp （http）</p><p> 443/tcp （https）</p><br /> </td> 
@@ -212,29 +212,29 @@ Adobe Campaign リッチクライアント （**nlclient**）、次のポート�
 <table> 
  <tbody> 
   <tr> 
-   <td> リスニングポート<br /> </td> 
-   <td> 場所<br /> </td> 
+   <td> リスニング ポート <br /> </td> 
+   <td> 場所 <br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp （http）</p><p> 443/tcp （https）</p><br /> </td> 
-   <td> シンクライアントまたはリッチクライアントを実行するすべてのコンピュータ。<br /> </td> 
+   <td> シンクライアントまたはリッチクライアントを実行しているすべてのコンピュータ。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Adobe Experience Managerとの統合 {#integration-with-adobe-experience-manager}
 
-Adobe CampaignとAdobe Experience Managerの統合では、インストールが「オンプレミス」の場合、複数のポートを開く必要があります。 この統合の設定について詳しくは、 [詳細ドキュメント](../../integrations/using/about-adobe-experience-manager.md).
+Adobe CampaignとAdobe Experience Managerの統合では、インストールが「オンプレミス」の場合、複数のポートを開く必要があります。 この統合の設定について詳しくは、[ 詳細ドキュメント ](../../integrations/using/about-adobe-experience-manager.md) を参照してください。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> リスニングポート<br /> </td> 
+   <td> リスニング ポート <br /> </td> 
    <td> 説明<br /> </td> 
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> Adobe CampaignへのAEM接続<br /> </td> 
+   <td> Adobe CampaignへのAEM接続 <br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 

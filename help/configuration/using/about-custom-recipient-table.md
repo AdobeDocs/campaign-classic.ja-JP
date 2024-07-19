@@ -9,7 +9,7 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -43,33 +43,33 @@ ht-degree: 9%
 
   以下をお勧めします。
 
-   * を対象とする **[!UICONTROL nms:BroadLogRcp]** および **[!UICONTROL nms:TrackingLogRcp]** 標準のスキーマ **[!UICONTROL nms:Recipientschema]**. これら 2 つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
-   * 新しいカスタム受信者スキーマごとに専用のカスタム broadlog スキーマと trackinglog スキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に行うことができます。詳しくは、 [ターゲットマッピング](../../configuration/using/target-mapping.md).
+   * **[!UICONTROL nms:BroadLogRcp]** および **[!UICONTROL nms:TrackingLogRcp]** スキーマを、標準 **[!UICONTROL nms:Recipientschema]** に委任します。 これら 2 つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
+   * 新しいカスタム受信者スキーマごとに専用のカスタム broadlog スキーマと trackinglog スキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に行うことができます。[ ターゲットマッピング ](../../configuration/using/target-mapping.md) を参照してください。
 
-* 標準を使用することはできません **[!UICONTROL サービスと購読]** 製品で提供されます。
+* 製品で提供されている標準 **[!UICONTROL サービスと購読]** を使用することはできません。
 
-  これは、で説明されている操作全体を意味します。 [この節](../../delivery/using/managing-subscriptions.md) は適用されません。
+  つまり、[ この節 ](../../delivery/using/managing-subscriptions.md) で詳しく説明している全体的な操作は適用されないということです。
 
-* を含むリンク **[!UICONTROL 訪問者]** テーブルが機能しない。
+* **[!UICONTROL visitor]** テーブルとのリンクは機能しません。
 
-  したがって、を使用するには **[!UICONTROL ソーシャルマーケティング]** モジュール：正しいテーブルを参照するようにストレージステップを設定する必要があります。
+  そのため、**[!UICONTROL ソーシャルマーケティング]** モジュールを使用するには、正しいテーブルを参照するようにストレージステップを設定する必要があります。
 
   同様に、リファラル関数を使用する場合は、標準の初期メッセージ転送テンプレートを適応させる必要があります。
 
 * リストにプロファイルを手動で追加することはできません。
 
-  したがって、次で説明する手順を実行します [この節](../../platform/using/creating-and-managing-lists.md) は、追加の設定がない場合は適用されません。
+  したがって、[ この節 ](../../platform/using/creating-and-managing-lists.md) で詳しく説明した手順は、追加の設定なしでは適用できません。
 
   >[!NOTE]
   >
-  >ワークフローを使用して、受信者リストを作成することもできます。 詳しくは、次を参照してください [ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >ワークフローを使用して、受信者リストを作成することもできます。 詳しくは、[ ワークフローを使用したプロファイルリストの作成 ](../../configuration/using/creating-a-profile-list-with-a-workflow.md) を参照してください。
 
 様々な標準設定で使用されているデフォルト値を確認することもお勧めします。使用される機能に応じて、いくつかの適応を実行する必要があります。
 
 例：
 
-* 特定の標準レポート（特に **相互作用** および **モバイルアプリケーション** 再開発する必要があります。 を参照してください。 [レポートの管理](../../configuration/using/managing-reports.md) セクション。
-* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル（**[!UICONTROL nms:recipient]**）：これらの設定を外部受信者テーブルに使用する場合は、変更する必要があります。 を参照してください。 [ワークフローの管理](../../configuration/using/managing-workflows.md) セクション。
-* 標準 **[!UICONTROL 購読解除リンク]** パーソナライゼーションブロックを適応させる必要があります。
+* 特定の標準レポート、特に **インタラクション** および **モバイルアプリケーション** で提供されるレポートは、再開発する必要があります。 [ レポートの管理 ](../../configuration/using/managing-reports.md) の節を参照してください。
+* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル（**[!UICONTROL nms:recipient]**）を参照します。これらの設定は、外部受信者テーブルで使用するときに変更する必要があります。 [ ワークフローの管理 ](../../configuration/using/managing-workflows.md) の節を参照してください。
+* 標準の **[!UICONTROL 購読解除リンク]** パーソナライゼーションブロックを適合させる必要があります。
 * 標準配信テンプレートのターゲットマッピングは変更する必要があります。
 * V4 フォームは外部受信者テーブルとの使用に互換性がありません。web アプリケーションを使用する必要があります。

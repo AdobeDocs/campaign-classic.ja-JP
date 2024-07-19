@@ -11,7 +11,7 @@ exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 次の 2 つのシナリオが考えられます。
 
 * [Adobe Campaign オペレーターによってパスワードが失われました](#password-lost-by-campaign-operator)
-* [内部パスワードが失われました](#internal-password-lost) （オンプレミスのお客様のみ）
+* [ 内部パスワードが失われました ](#internal-password-lost) （オンプレミスのお客様のみ）
 
 ## Campaign オペレーターによって失われたパスワード {#password-lost-by-campaign-operator}
 
@@ -33,13 +33,13 @@ Adobe Campaign オペレーターがパスワードを失った場合は変更�
 
 >[!NOTE]
 >
->この手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、次を参照してください。 [このドキュメント](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
+>この手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、[ このドキュメント ](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"} を参照してください。
 
 Campaign のパスワードをリセットするには、次の手順に従います。
 
 1. 管理者権限を持つオペレーターを介して接続します。
 1. 演算子を右クリックします。
-1. を選択 **[!UICONTROL アクション]** > **[!UICONTROL パスワードをリセット]**.
+1. **[!UICONTROL アクション]**/**[!UICONTROL パスワードをリセット]** を選択します。
 
    ![](assets/operator-passwd.png)
 
@@ -55,16 +55,16 @@ Campaign のパスワードをリセットするには、次の手順に従い�
 
 それには、次の手順を適用します。
 
-1. を編集する **/usr/local/neolane/nl6/conf/serverConf.xml** ファイル。
+1. **/usr/local/neolane/nl6/conf/serverConf.xml** ファイルを編集します。
 
-1. に移動します **internalPassword** ライン。
+1. **internalPassword** 行に移動します。
 
    ```xml
    <!-- XTK authentication mode internalPassword : Password of internal account -->
    <xtk internalPassword="myPassword"/>
    ```
 
-1. 引用符で囲まれた文字列を削除します。この場合、次のようになります。 `myPassword`. 次の行が表示されます。
+1. 引用符で囲まれた文字列（この場合は `myPassword`）を削除します。 次の行が表示されます。
 
    ```xml
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -73,7 +73,7 @@ Campaign のパスワードをリセットするには、次の手順に従い�
 
 1. 変更を保存し、ファイルを閉じます。
 
-1. を停止 `nlserver` プロセス。
+1. `nlserver` プロセスを停止します。
 
 1. 新しいパスワードを設定します。 それには、次のコマンドを入力します。
 
@@ -87,6 +87,6 @@ Campaign のパスワードをリセットするには、次の手順に従い�
    Confirmation 
    ```
 
-1. を開始する `nlserver` プロセス。
+1. `nlserver` プロセスを開始します。
 
-1. これで、新しいパスワードを使用して接続できるようになりました **内部** モード。
+1. これで、新しいパスワードを使用して **内部** モードで接続できます。

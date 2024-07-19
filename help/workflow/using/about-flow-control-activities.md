@@ -5,7 +5,7 @@ description: フロー制御アクティビティについて
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ product: campaign
 title: メンテナンスのタイプ
 description: メンテナンスのタイプ
 feature: Monitoring
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,7 +11,7 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## アプリケーション保守 {#application-maintenance}
 
-Adobe Campaignには、特定のデータベースメンテナンスタスクをスケジュールできる次のビルトインワークフローが用意されています。 **データベースクリーンアップワークフロー**. このワークフローは、次のタスクを実行します。
+Adobe Campaignには、特定のデータベースのメンテナンスタスクをスケジュールできる組み込みのワークフロー **データベースクリーンアップワークフロー** が用意されています。 このワークフローは、次のタスクを実行します。
 
 * 期限切れレコードの削除、
 * 孤立したレコードの削除および期限切れオブジェクトのステータス再初期化
@@ -66,22 +66,22 @@ Adobe Campaignには、特定のデータベースメンテナンスタスクを
  </thead> 
  <tbody> 
   <tr> 
-   <td> オンラインでの最適化<br /> </td> 
-   <td> ほとんどのデータベースエンジンは、最適化の方法を提供します。<br /> </td> 
-   <td> データベースのデフラグ方法を使用するだけです。 通常、これらのメソッドは、デフラグ中にデータをロックすることで、整合性の問題に対処します。<br /> </td> 
+   <td> オンラインでの最適化 <br /> </td> 
+   <td> ほとんどのデータベース・エンジンは、最適化の方法を提供しています。<br /> </td> 
+   <td> データベースのデフラグ方法を使用するだけです。 これらのメソッドは通常、最適化中にデータをロックすることで、整合性の問題に対処します。<br /> </td> 
    <td> データベースによっては、これらのデフラグ方式を RDBMS オプション （Oracle）として提供することができ、大きなテーブルを処理する最も効率的な方法とは限りません。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ダンプと復元<br /> </td> 
-   <td> テーブルをファイルにダンプし、データベースでテーブルを削除して、ダンプから復元します。<br /> </td> 
-   <td> これは、テーブルを最適化する最も簡単な方法です。 また、データベースがほぼ満杯の場合の唯一の解決策。<br /> </td> 
+   <td> ダンプとリストア <br /> </td> 
+   <td> テーブルをファイルにダンプし、データベースでテーブルを削除してダンプから復元します <br /> </td> 
+   <td> これは、テーブルを最適化する最も簡単な方法です。 また、データベースがほぼ満杯の場合の唯一の解決策です。<br /> </td> 
    <td> テーブルは削除および再作成されるので、読み取り専用モードでもアプリケーションをオンラインのままにできません（リストア段階ではテーブルを使用できません）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 複製、名前変更、およびドロップ<br /> </td> 
+   <td> 複製、名前変更、およびドロップ <br /> </td> 
    <td> これにより、テーブルとそのインデックスのコピーが作成され、既存のコピーをドロップして、コピーの名前を変更します。<br /> </td> 
-   <td> この方法は、生成される IO が少ないので（ファイルとしてのコピーがなく、このファイルから読み取られないので）、最初のアプローチよりも高速です。<br /> </td> 
-   <td> 2 倍の容量が必要です。<br /> プロセス中にテーブルに書き込むアクティブなプロセスはすべて停止する必要があります。 ただし、テーブルは再構築後の最後の時点でスワップされるため、読み取りプロセスは影響を受けません。 <br /> </td> 
+   <td> この方法は、生成される IO が少ないので（ファイルとしてのコピーがなく、このファイルから読み取られる）、最初のアプローチよりも高速です。<br /> </td> 
+   <td> 2 倍の容量が必要です。<br /> プロセス中にテーブルに書き込むアクティブなプロセスはすべて停止する必要があります。 ただし、テーブルは再構築後の最後の時点でスワップされるため、読み取りプロセスは影響を受けません。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

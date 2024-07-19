@@ -18,13 +18,13 @@ ht-degree: 9%
 
 
 
-を選択した場合 **[!UICONTROL コンソールの更新を要求しない]** 「」オプションを選択して更新リクエストを再アクティブ化する場合、次の手順に従います。
+「**[!UICONTROL コンソールの更新をリクエストしない]**」オプションを選択した場合、更新リクエストを再アクティブ化するには、次の手順に従います。
 
-1. を使用して、レジストリデータベースのエディターを開きます。 **regedit** Windows でのコマンド **[!UICONTROL 開始/実行]** メニュー。
+1. Windows の [ スタート ]>[ 実行 ] メニューで **regedit** コマンドを使用して、レジストリ・データベースのエディタ **[!UICONTROL を開き]** す。
 
    ![](assets/ncs_console_update_1.png)
 
-1. ツリーで、のオプションを表示します **[!UICONTROL HKEY_CURRENT_USERSoftwareneolaneNL_6nlclient]** ノード。
-1. を削除 **[!UICONTROL confAdvisedUpgrade]** レジストリエディターを入力して閉じます。
+1. ツリーで、**[!UICONTROL HKEY_CURRENT_USERSotwareneolaneNL_6nlclient]** ノードのオプションを表示します。
+1. **[!UICONTROL confAdvisedUpgrade]** エントリを削除し、レジストリエディターを閉じます。
 
    ![](assets/ncs_console_update_2.png)

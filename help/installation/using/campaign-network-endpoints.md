@@ -19,6 +19,6 @@ Campaign Classicで使用される様々なエンドポイントを次に示し�
 
 | コンテキスト | URL |
 |--- |--- |
-| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSO プロバイダー）<br>`https://*.campaign.adobe.com` （Campaign インスタンス）<br>`https://adobeid-na1.services.adobe.com` （Adobeログイン） |
+| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSO プロバイダー） <br>`https://*.campaign.adobe.com` （キャンペーンインスタンス） <br>`https://adobeid-na1.services.adobe.com` （Adobeログイン） |
 | 受信ボックスレンダリング（Litmus） | `https://deliverability-app.neolane.net/deliverability` |
 | ブランディング URL、ミラーページ、トラッキング、fileref （デプロイメントウィザード） | 設定されている URL を確認します。 |

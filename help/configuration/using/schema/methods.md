@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: スキーマ要素と属性 — methods 要素
+title: スキーマ要素と属性 – メソッド要素
 description: メソッド要素
 feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
@@ -11,13 +11,13 @@ ht-degree: 11%
 
 ---
 
-# methods 要素 {#methods--element}
+# メソッド要素 {#methods--element}
 
 ![](../../../assets/v7-only.svg)
 
 ## コンテンツモデル {#content-model-11}
 
-メソッド：==メソッド
+メソッド：==method
 
 ## 属性 {#attributes-11}
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## 説明 {#description-11}
 
-この要素では、 `<method>`  要素を選択します。 メソッドの宣言には必須です。
+この要素を使用すると、`<method>` 要素を定義できます。 メソッドの宣言に必須です。
 
 ## 属性の説明 {#attribute-description-11}
 

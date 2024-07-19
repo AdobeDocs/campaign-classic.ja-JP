@@ -24,15 +24,15 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
 * 古い SSL のバージョンと暗号を無効にします。
 
-  **Apache の場合**/etc/apache2/mods-available/ssl.confを編集します。 次に例を示します。
+  **Apache の場合**、/etc/apache2/mods-available/ssl.confを編集します。 次に例を示します。
 
    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
-  **IIS の場合** （ [詳細を見る](https://support.microsoft.com/en-us/kb/245030)）、次の設定を実行します。
+  **IIS の場合** （[ ドキュメント ](https://support.microsoft.com/en-us/kb/245030) を参照）、次の設定を実行します。
 
    * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL にレジストリサブキーを追加します。
-   * 既定でネゴシエートされないプロトコル （TLS 1.2 など）をシステムが使用できるようにするには、以下のレジストリ キーで DisabledByDefault 値の DWORD 値データを 0x0 に変更します **プロトコル** キー：
+   * 既定でネゴシエートされないプロトコル （TLS 1.2 など）をシステムが使用できるようにするには、**Protocols** キーの下にある次のレジストリ キーで、DisabledByDefault 値の DWORD 値データを 0x0 に変更します。
 
      SCHANNEL\プロトコル\TLS 1.2\クライアント
 
@@ -46,28 +46,28 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
 * **TRACE** メソッドを削除します。
 
-  **Apache の場合**&#x200B;を/etc/apache2/conf.d/security: TraceEnable で編集します。 **オフ**
+  **Apache の場合**、/etc/apache2/conf.d/security: TraceEnable **Off** で編集します。
 
-  **IIS の場合** （ [詳細を見る](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)）、次の設定を実行します。
+  **IIS の場合** （[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) を参照）、次の設定を実行します。
 
    * **要求フィルタリング**&#x200B;の役割サービスまたは機能がインストールされていることを確認します。
-   * が含まれる **要求のフィルター** [ HTTP 動詞 ] タブをクリックし、[ 動詞の拒否 ] をクリックします。 [ 操作 ] ウィンドウで、[ 開く ] ダイアログに「TRACE」と入力します。
+   * **要求フィルター** ウィンドウで、[ HTTP 動詞 ] タブをクリックし、[ 動詞の拒否 ] をクリックします。 [ 操作 ] ウィンドウで、[ 開く ] ダイアログに「TRACE」と入力します。
 
 * バナーを削除します。
 
-  **Apache の場合**&#x200B;を/etc/apache2/conf.d/security：に編集します。
+  **Apache の場合**、/etc/apache2/conf.d/security を編集します。
 
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-  **IIS の場合**&#x200B;を作成し、次の設定を実行します。
+  **IIS の場合**、次の設定を実行します。
 
    * **URLScan** をインストールします。
    * **Urlscan.ini** ファイルを編集して **RemoveServerHeader=1** を設定します。
 
 * クエリのサイズを制限して、重要なファイルがアップロードされないようにします。
 
-  **Apache の場合**、を追加します **LimitRequestBody** ディレクティブ （バイト単位） （/ ディレクトリ）。
+  **Apache の場合**、/ディレクトリに **LimitRequestBody** ディレクティブ（バイト単位のサイズ）を追加します。
 
   ```
   <Directory />
@@ -77,9 +77,9 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
   </Directory>
   ```
 
-  **IIS の場合** （ [詳細を見る](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)）、を設定します。 **maxAllowedContentLength** コンテンツフィルタリングオプションの（許可されるコンテンツの最大長）。
+  **IIS** （[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) を参照）で、コンテンツフィルタリングオプションの **maxAllowedContentLength** （許可されるコンテンツの最大長）を設定します。
 
 関連トピック ： 
 
-* [Adobe Marketing Cloud コンプライアンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Adobe Campaign セキュリティの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Adobe Marketing Cloud コンプライアンスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaignのセキュリティの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

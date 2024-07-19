@@ -3,7 +3,7 @@ product: campaign
 title: URL 権限の設定
 description: URL 権限の設定方法を学ぶ
 feature: Installation, Instance Settings, Permissions
-badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -25,21 +25,21 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 >[!NOTE]
 >
->この手順は、次の場合に制限されます **オンプレミス** のデプロイメント。
+>この手順は、**オンプレミス** デプロイメントに制限されています。
 >
->As a **hosted** 顧客（アクセス可能な場合） [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)URL 権限のセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
+>**ホステッド** 環境のお客様が [Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) にアクセスできる場合は、URL 権限のセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 >
->その他 **ハイブリッド/ホスト** お客様は、Adobe許可リストに加える サポートチームに連絡して、IP をチームに追加する必要があります。
+>その他の **ハイブリッド/ホスト型** のお客様は、Adobe許可リストに加える サポートチームに連絡して IP をチームに追加する必要があります。
 >
 
-の場合 **ハイブリッド** および **オンプレミス** デプロイメントの場合、管理者は新しいを参照する必要があります **urlPermission** が含まれる **serverConf.xml** ファイル。
+**ハイブリッド** および **オンプレミス** デプロイメントの場合、管理者は **serverConf.xml** ファイルで新しい **urlPermission** を参照する必要があります。
 
 
 次の 3 つの接続保護モードを使用できます。
 
-* **ブロック**:許可リストに属さないすべての URL はブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
-* **許容値**:許可リストに属さないすべての URL が許可されます。
-* **警告**&#x200B;許可リストに加える：に属さない URL はすべて許可されますが、JS インタープリターは管理者が収集できるように警告を表示します。 このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック**: 許可リストに属さないすべての URL はブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **Permissive**: 許可リストに属さないすべての URL が許可されます。
+* **警告**: 許可リストに属さない URL はすべて許可されますが、JS インタープリターは管理者が収集できるように警告を表示します。 このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -51,9 +51,9 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 >[!IMPORTANT]
 >
->デフォルトでは、新しい実装ではを使用します **ブロック** モード。
+>デフォルトでは、新しい実装では **Blocking** モードが使用されます。
 >
->既存の移行顧客として、を一時的に使用できます。 **警告** モード。 URL を許可する前に送信トラフィックを分析します。 許可されている URL のリストを定義したら、その URL を許可リストに追加して、 **ブロック** モード。
+>既存の移行顧客として、一時的に **警告** モードを使用できます。 URL を許可する前に送信トラフィックを分析します。 許可されている URL のリストを定義したら、その URL を許可リストに追加して、**ブロック** モードを有効にできます。
 
 詳しくは、次の節を参照してください。
 

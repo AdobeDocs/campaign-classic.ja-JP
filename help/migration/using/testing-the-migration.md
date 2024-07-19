@@ -30,7 +30,7 @@ ht-degree: 0%
 1. 開発環境データベースのバックアップを作成します。
 1. 開発インスタンスでAdobe Campaign プロセスをすべて停止します。
 1. 実稼動環境のデータベースのバックアップを作成し、開発環境として復元します。
-1. Adobe Campaign サービスを開始する前に、 **freezeInstance.js** バックアップの開始時に実行されていたオブジェクトをデータベースから消去する焼灼処理スクリプト。
+1. Adobe Campaign サービスを開始する前に、**freezeInstance.js** 焼灼スクリプトを実行すると、バックアップの開始時に実行されていたオブジェクトのデータベースを消去できます。
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >コマンドは、デフォルトで次の場所で起動します **乾式** を選択し、そのコマンドによって実行されたすべての要求を一覧表示します。それらの要求は起動されません。 焼灼要求を実行するには、を使用します **実行** コマンドで追加できます。
+   >コマンドは、デフォルトでは **ドライ** モードで起動し、起動せずに、そのコマンドで実行されたすべてのリクエストをリストします。 焼灼リクエストを実行するには、コマンドで **run** を使用します。
 
 1. バックアップを復元して、バックアップが正しいことを確認します。 データベース、テーブル、データなどにアクセスできることを確認します。
 1. 開発環境で移行手順をテストします。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 様々なオプションを使用して、移行による影響を測定し、潜在的な問題を特定できます。 次のオプションが実行されます。
 
-* が含まれる **config** コマンド：
+* **config** コマンドで以下を実行します。
 
   ```
   nlserver.exe config <option> -instance:<instance-name>
@@ -67,12 +67,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* を使用する必要があります **-instance:`<instanceame>`** オプション。 を使用することはお勧めしません **-allinstances** オプション。
->* Adobe Campaignの「更新」コマンド（**アップグレード後**）を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバーで 1 回だけ実行できます。 リソースの同期後、 **アップグレード後** コマンドを使用すると、同期でエラーまたは警告が生成されるかどうかを検出できます。
+>* **-instance:`<instanceame>`** オプションを使用する必要があります。 **-allinstances** オプションを使用することはお勧めしません。
+>* Adobe Campaign更新コマンド（**postupgrade**）を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバーで 1 回だけ実行できます。 リソースを同期した後、**postupgrade** コマンドを使用して、同期でエラーまたは警告が生成されるかどうかを検出できます。
 
 ### 非標準オブジェクトまたは不足オブジェクト
 
-* この **-showCustomEntities** オプションを選択すると、すべての非標準オブジェクトのリストが表示されます。
+* **-showCustomEntities** オプションは、すべての非標準オブジェクトのリストを表示します。
 
   ```
   nlserver.exe config -showCustomEntities -instance:<instance-name>
@@ -84,7 +84,7 @@ ht-degree: 0%
   xtk_migration:opsecurity2 xtk:entity
   ```
 
-* この **-showDeletedEntities** オプションを選択すると、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストが表示されます。 不足している各オブジェクトに対して、パスが指定されます。
+* **-showDeletedEntities** オプションは、データベースまたはファイル・システムに存在しないすべての標準オブジェクトのリストを表示します。 不足している各オブジェクトに対して、パスが指定されます。
 
   ```
   nlserver.exe config -showDeletedEntities -instance:<instance-name>
@@ -115,56 +115,56 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
 <table> 
  <thead> 
   <tr> 
-   <th> 式<br /> </th> 
-   <th> エラーコード<br /> </th> 
-   <th> ログタイプ<br /> </th> 
-   <th> コメント<br /> </th> 
+   <th> 式 <br /> </th> 
+   <th> エラーコード <br /> </th> 
+   <th> ログの種類 <br /> </th> 
+   <th> コメント <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
-   <td> 警告<br /> </td> 
-   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。 <br /> </td> 
+   <td> 警告 <br /> </td> 
+   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
    <td> PU-0002<br /> </td> 
-   <td> 警告<br /> </td> 
+   <td> 警告 <br /> </td> 
    <td> このライブラリは使用できません。<br /> </td> 
   </tr> 
   <tr> 
    <td> logon （<br /> </td> 
    <td> PU-0003<br /> </td> 
-   <td> 警告<br /> </td> 
+   <td> 警告 <br /> </td> 
    <td> この接続方法は使用しないでください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 新しい SoapMethodCall （<br /> </td> 
    <td> PU-0004<br /> </td> 
-   <td> 警告<br /> </td> 
-   <td> この関数は、にあるセキュリティゾーンから実行される JavaScript コードで使用される場合にのみサポートされます。 <strong>sessionTokenOnly</strong> モード。<br /> </td> 
+   <td> 警告 <br /> </td> 
+   <td> この関数は、<strong>sessionTokenOnly</strong> モードのセキュリティゾーンから実行されるJavaScript コードで使用される場合にのみサポートされ <br /> す。 </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
-   <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーにつながります。<br /> </td> 
+   <td> エラー <br /> </td> 
+   <td> このタイプのエラーは移行エラーを引き起こします。<br /> </td> 
   </tr> 
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
-   <td> エラー<br /> </td> 
+   <td> エラー <br /> </td> 
    <td> このタイプのデプロイメントはサポートされなくなりました。 Office 365 およびオンプレミス Microsoft CRM コネクタのデプロイメントタイプは非推奨（廃止予定）になりました。 
-   </br>これらの非推奨（廃止予定）のデプロイメントタイプのいずれかを外部アカウントで使用している場合は、この外部アカウントを削除して、 <b>アップグレード後</b> コマンド。 
-   </br>Web API デプロイメントに変更するには、を参照してください。 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション</a>.<br /> </td>
+   </br> 外部アカウントでこれらの非推奨のデプロイメントタイプのいずれかを使用している場合は、この外部アカウントを削除し、<b>postupgrade</b> コマンドを実行する必要があります。 
+   </br>Web API デプロイメントに変更するには、<a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション </a> を参照してください。<br /> </td>
   </tr> 
   <tr> 
-   <td> CRM v1 （mscrmWorkflow/sfdcWorkflow）<br /> </td> 
+   <td> CRM v1 （mscrmWorkflow/sfdcWorkflow） <br /> </td> 
    <td> PU-0008<br /> </td> 
-   <td> エラー<br /> </td> 
-   <td> Microsoft CRM、Salesforce、Oracle CRM オンデマンドのアクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、を使用する必要があります <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
+   <td> エラー <br /> </td> 
+   <td> Microsoft CRM、Salesforce、Oracle CRM オンデマンドのアクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、<a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ </a> ターゲティングアクティビティを使用する必要があり <br /> す。 </td>
   </tr> 
  </tbody> 
 </table>

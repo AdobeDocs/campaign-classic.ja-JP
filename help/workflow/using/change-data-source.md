@@ -4,7 +4,7 @@ description: 「データソースを変更」アクティビティの詳細を�
 feature: Workflows, Data Management, Federated Data Access
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 

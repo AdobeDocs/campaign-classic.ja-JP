@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # Tomcat バージョンを探します{#locate-tomcat-version}
 
-Adobe Campaignはを使用します **apache Tomcat と呼ばれる埋め込み web サーブレット** アプリケーションと外部インターフェイス（クライアントコンソール、トラッキングされる URL リンク、SOAP 呼び出しなど）の間の HTTP/HTTPS 要求を処理します。 多くの場合、外部に接続するAdobe Campaign インスタンス用に、このフォルダーの前に外部 web サーバー（通常は IIS または Apache）があります。
+Adobe Campaignは **Apache Tomcat と呼ばれる埋め込み web サーブレット** を使用して、アプリケーションと外部インターフェイス（クライアントコンソール、トラッキングされる URL リンク、SOAP呼び出しなど）の間の HTTP/HTTPS リクエストを処理します。 多くの場合、外部に接続するAdobe Campaign インスタンス用に、このフォルダーの前に外部 web サーバー（通常は IIS または Apache）があります。
 
-で使用されている Tomcat の正確なバージョンを確認するには、次の手順に従います。 **Campaign Classicオンプレミスインスタンス** 問題のトラブルシューティングに役立てるため。
+次の手順に従って、**Campaign Classicのオンプレミスインスタンスで使用されている Tomcat の正確なバージョンを調べ** 問題のトラブルシューティングに役立てます。
 
 ## Adobe Campaignで使用される Tomcat
 
-Tomcat は Java で実行され、JDK をインストールする必要があります。 詳しくは、の Java Development Kit （JDK）を参照してください [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md) セクション。
+Tomcat は Java で実行され、JDK をインストールする必要があります。 詳しくは、「[Campaign 互換性マトリックス ](../../rn/using/compatibility-matrix.md)」の節の Java Development Kit （JDK）を参照してください。
 
 Adobe Campaignで使用される Tomcat は、Tomcat の一般リリースのすべての機能を使用しないカスタマイズされた埋め込みバージョンであり、フルバージョンのすべての脆弱性を被るわけではありません。 また、Tomcat は外部インターネットに公開されないようにする必要があります。公開されるAdobe Campaign インスタンスには、外部 web サーバー（IIS、Apache など）が必要です。 tomcat の前で保護します。
 
@@ -41,19 +41,19 @@ Adobe Campaignのインスタンスに埋め込まれた Tomcat のバージョ�
 
 >[!NOTE]
 >
->確認する必要があるAdobe Campaign サーバー上のファイルにアクセスできる必要があります。 以下に説明する手順は、にのみ適用されます **オンプレミスホスティングモデル**.
+>確認する必要があるAdobe Campaign サーバー上のファイルにアクセスできる必要があります。 以下に説明する手順は、**オンプレミスホスティングモデル** にのみ適用されます。
 
-1. に移動します。 *\tomcat-11\lib* Adobe Campaign インストールフォルダー内のサブフォルダー（例： *C:\Program ファイル\ [Installation_folder]* Windows の場合、または */usr/local/neolane/nl6* （Linux の場合）。
+1. Adobe Campaignのインストールフォルダー内の *\tomcat-11\lib* サブフォルダー（Windows の場合は *C:\Program Files\ [Installation_folder]*、Linux の場合は */usr/local/neolane/nl6* など）に移動します。
 
-1. ファイルをコピーします *catalina.jar* 外部の一時フォルダー（デスクトップなど）に移動し、拡張子を.jar から.zip に変更します。
+1. *catalina.jar* ファイルを外部の一時フォルダー（デスクトップなど）にコピーし、拡張子を.jar から.zip に変更します。
 
 1. コピーしたファイルを解凍します。 これにより、多数のサブフォルダーとファイルが作成されます。
 
-1. 解凍したファイルまたはフォルダー内で、テキストエディターを使用して、以下に含まれるファイルを開くか読み取ります。 *org/apache/catalina/util/ServerInfo.properties*. テキストエディターで開きやすくするために、.txt 拡張子を追加する必要が生じる場合があります。
+1. 解凍したファイルまたはフォルダー内で、テキストエディターを使用して、含まれているファイル *org/apache/catalina/util/ServerInfo.properties* を開くか読み取ります。 テキストエディターで開きやすくするために、.txt 拡張子を追加する必要が生じる場合があります。
 
 1. 終了したら、サーバーマシン上にある場合は、作成した一時ファイルを削除します。
 
-例えば、 *ServerInfo.properties* Adobe Campaign用ファイルには、Tomcat v11.X を示す次の情報が含まれています。
+例えば、Adobe Campaignの *ServerInfo.properties* ファイルには、Tomcat v11.X を示す次の情報が含まれています。
 
 *`server.info=Apache Tomcat/11.X`*
 

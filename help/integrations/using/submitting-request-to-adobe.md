@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 7b4fbefe0f6bd26ee9260d15e8303f716af7ac96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 >
 >v7 ユーザーが手順を続けるには、お使いのシステムで Adobe Identity Management System（IMS）が有効になっていることを確認してください。[詳細情報](../../integrations/using/about-adobe-id.md)。
 
-Adobe Identity Management Service（IMS）が組織に対して有効になると、[Experience Cloud オーディエンス](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"}と Campaign の統合のプロビジョニングを依頼できます。これをおこなうには、Adobe担当者に連絡し、次の情報を提供します。
+Adobe Identity Management Service（IMS）が組織に対して有効になると、[Experience Cloud オーディエンス](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"}と Campaign の統合のプロビジョニングを依頼できます。これを行うには、アドビ担当者に問い合わせて、次の情報を入力します。
 
 <table> 
  <tbody> 

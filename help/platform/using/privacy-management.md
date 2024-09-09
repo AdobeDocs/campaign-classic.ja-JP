@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 122d69d3d7474480f7799248413ac89338469ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Campaign のビルトインログテーブルには保持期間がプリセッ�
 * **イベント処理の統計**：1 か月
 * **アーカイブしたイベント**：1 年
 * **無視されたパイプラインイベント**：1 か月
-* **動的レポート**:13 か月
+* **動的レポート**：13 か月
 
 削除の場合と同様、標準ワークフロー機能を使用して、任意のカスタムテーブルのリテンション期間を設定することができます。
 

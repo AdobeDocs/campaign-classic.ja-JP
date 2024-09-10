@@ -6,15 +6,14 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # メッセージコンテンツの制御{#control-message-content}
-
 
 メールが受信者に確実に届くようにし、メールの配信品質率を向上させるには、メールがいくつかのルールに従う必要があります。 従わない場合は、特定のメッセージのコンテンツがスパムとして検出される可能性があります。 Adobe Campaign には、コンテンツがこれらのルールに従うようにするためのツールがいくつか用意されています。
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 一部の ISP は、メッセージを受け付ける前に、送信者アドレス（**[!UICONTROL From]**）の有効性をチェックします。不正な形式のアドレスは、受信サーバーによって拒否される可能性があります。
 
-インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**...）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
+インスタンスレベル（メニュー **[!UICONTROL ツール/詳細/デプロイメントウィザード…]**）または最も頻繁に使用されるシナリオで、正しいアドレスが指定されていることを確認する必要があります。
 
 詳しくは、[このページ](defining-the-email-content.md)を参照してください。
 

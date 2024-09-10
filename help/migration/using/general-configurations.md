@@ -9,7 +9,7 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: afbec7b3df810c8c1818a4fb93c5f7e30f7a753b
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
 source-wordcount: '2612'
 ht-degree: 4%
@@ -17,8 +17,6 @@ ht-degree: 4%
 ---
 
 # 一般設定{#general-configurations}
-
-
 
 この節では、v5.11 または v6.02 から移行する際に、Adobe Campaign v7 で実行される設定について詳しく説明します。
 

@@ -5,7 +5,7 @@ description: 設定
 feature: Monitoring, Configuration
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 27%
@@ -26,7 +26,7 @@ ht-degree: 27%
 
 **customer.sh** ファイルを編集して、次の行を追加します。
 
-```
+```sql
 export TRACE_ADDR=localhost:<listening port>
 ```
 

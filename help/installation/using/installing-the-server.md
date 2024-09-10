@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # サーバーのインストール{#installing-the-server}
 
 ## インストールプログラムの実行 {#executing-the-installation-program}
-
-Windows 32 ビットプラットフォームの場合は、Adobe Campaign 32 ビットをインストールします。 Windows 64 ビット版のプラットフォームの場合は、Adobe Campaign 64 ビット版をインストールします。
 
 Adobe Campaign サーバーのインストール手順は次のとおりです。
 

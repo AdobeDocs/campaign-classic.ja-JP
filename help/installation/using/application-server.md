@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 3%
+source-wordcount: '635'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ oracleが開発した Java Development Kit （JDK）と、**OpenJDK** の使用�
 
 >[!AVAILABILITY]
 >
->* v7.4.1 以降、Campaign には Java JDK 11 以降が必要です。 Campaign サーバーが Windows 環境にインストールされている場合、JRE はデフォルトでは提供されなくなっているので、生成する必要があります。
+>* v7.4.1 以降、Campaign には Java JDK 11 以降が必要です。 Campaign サーバーが Windows 環境にインストールされている場合、JRE はデフォルトでは提供されなくなっているので、生成する必要があります。 JRE_HOME 環境変数は、Java ランタイム DLL （jvm.dll）を検索するために必要です。
 >
 >* v7.4.1 以降、Tomcat 10.1 がデフォルトバージョンです。
 >

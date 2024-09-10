@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 6c85ca9d50dd970915b7c46939f88f4d7fdf07d8
 workflow-type: tm+mt
 source-wordcount: '2914'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 >
 >**[!UICONTROL データベースクリーンアップ]** ワークフローを、スケジューラーで定義された日時に開始するには、ワークフローエンジン（wfserver）を開始する必要があります。
 
-### 配置ウィザード {#deployment-wizard}
+### 配置ウィザード {#deployment-assistant}
 
 **[!UICONTROL ツール/詳細]** メニューからアクセスできる **[!UICONTROL デプロイメントウィザード]** を使用すると、データを保存する期間を設定できます。 値は日数で表します。 これらの値が変更されない場合、ワークフローではデフォルト値が使用されます。
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 このタスクにより、削除またはリサイクルされるすべての配信がパージされます。
 
-1. **[!UICONTROL データベースクリーンアップ]** ワークフローは、「**deleteStatus**」フィールドの値が **[!UICONTROL Yes]** または **[!UICONTROL Recycled]** で、削除日がデプロイメントウィザードの「**[!UICONTROL 削除済み配信]** （**NmsCleanup_RecycledDeliveryPurgeDelay**）」フィールドで定義された期間より前のすべての配信を選択します。 詳しくは、[ デプロイメントウィザード ](#deployment-wizard) を参照してください。 この期間は、現在のサーバーの日付を基準に計算されます。
+1. **[!UICONTROL データベースクリーンアップ]** ワークフローは、「**deleteStatus**」フィールドの値が **[!UICONTROL Yes]** または **[!UICONTROL Recycled]** で、削除日がデプロイメントウィザードの「**[!UICONTROL 削除済み配信]** （**NmsCleanup_RecycledDeliveryPurgeDelay**）」フィールドで定義された期間より前のすべての配信を選択します。 詳しくは、[ デプロイメントウィザード ](#deployment-assistant) を参照してください。 この期間は、現在のサーバーの日付を基準に計算されます。
 1. ミッドソーシングサーバーごとに、タスクが削除する配信のリストを選択します。
 1. **[!UICONTROL データベースクリーンアップ]** ワークフローでは、配信ログ、添付ファイル、ミラーページ情報およびその他すべての関連データが削除されます。
 1. 配信を削除する前に、リンクされている情報が次の表から削除されます。
@@ -308,7 +308,7 @@ ht-degree: 1%
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
-   ここで、`$(curDate)` は、「**NmsCleanup_RejectsPurgeDelay**」オプションで定義した期間を差し引く現在のサーバーの日付（「[ デプロイメントウィザード ](#deployment-wizard)」を参照）で、`$(l)` は、一括削除されるレコードの最大数です。
+   ここで、`$(curDate)` は、「**NmsCleanup_RejectsPurgeDelay**」オプションで定義した期間を差し引く現在のサーバーの日付（「[ デプロイメントウィザード ](#deployment-assistant)」を参照）で、`$(l)` は、一括削除されるレコードの最大数です。
 
 1. すべての孤立した却下は、次のクエリを使用して削除されます。
 
@@ -395,7 +395,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 ### 訪問者のクリーンアップ {#cleanup-of-visitors}
 
-このタスクは、一括削除を使用して訪問者テーブルから古いレコードを削除します。 古いレコードは、最後の変更が配置ウィザードで定義された保存期間より前のレコードです（[ 配置ウィザード ](#deployment-wizard) を参照）。 次のクエリが使用されます。
+このタスクは、一括削除を使用して訪問者テーブルから古いレコードを削除します。 古いレコードは、最後の変更が配置ウィザードで定義された保存期間より前のレコードです（[ 配置ウィザード ](#deployment-assistant) を参照）。 次のクエリが使用されます。
 
 ```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
@@ -423,7 +423,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 ### トラッキングログのクリーンアップ {#cleanup-of-tracking-logs}
 
-このタスクは、トラッキングログテーブルと Web トラッキングログテーブルから古いレコードを削除します。 古いレコードは、配置ウィザードで定義された保存期間より前のレコードです（[ 配置ウィザード ](#deployment-wizard) を参照）。
+このタスクは、トラッキングログテーブルと Web トラッキングログテーブルから古いレコードを削除します。 古いレコードは、配置ウィザードで定義された保存期間より前のレコードです（[ 配置ウィザード ](#deployment-assistant) を参照）。
 
 1. まず、次のクエリを使用して、トラッキングログテーブルのリストを復元します。
 
@@ -464,7 +464,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   ここで、`$(tableName)` はスキーマのリスト内の各テーブルの名前で、`$(option)` は **NmsCleanup_BroadLogPurgeDelay** オプションで定義された日付です（「[ デプロイメントウィザード ](#deployment-wizard)」を参照）。
+   ここで、`$(tableName)` はスキーマのリスト内の各テーブルの名前で、`$(option)` は **NmsCleanup_BroadLogPurgeDelay** オプションで定義された日付です（[ デプロイメントウィザード ](#deployment-assistant) を参照）。
 
 1. 最後に、ワークフローは **NmsProviderMsgId** テーブルが存在するかどうかを確認します。 その場合は、次のクエリを使用して、古いデータがすべて削除されます。
 
@@ -472,7 +472,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   ここで、`$(option)` は、「**NmsCleanup_BroadLogPurgeDelay**」オプションで定義された日付と一致します（「[ デプロイメントウィザード ](#deployment-wizard)」を参照）。
+   ここで、`$(option)` は、「**NmsCleanup_BroadLogPurgeDelay**」オプションで定義された日付と一致します（「[ デプロイメントウィザード ](#deployment-assistant)」を参照）。
 
 ### NmsEmailErrorStat テーブルのクリーンアップ {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -552,7 +552,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-ここで、`$(option)` は、「**NmsCleanup_PropositionPurgeDelay**」オプションに対して定義された日付です（「[ デプロイメントウィザード ](#deployment-wizard)」を参照）。
+ここで、`$(option)` は、「**NmsCleanup_PropositionPurgeDelay**」オプションに対して定義された日付です（「[ デプロイメントウィザード ](#deployment-assistant)」を参照）。
 
 ### シミュレーションテーブルのクリーンアップ {#cleanup-of-simulation-tables}
 

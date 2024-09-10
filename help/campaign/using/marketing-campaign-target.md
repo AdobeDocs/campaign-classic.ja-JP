@@ -5,10 +5,10 @@ description: マーケティングキャンペーンのオーディエンスを�
 role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 100%
+source-wordcount: '1586'
+ht-degree: 99%
 
 ---
 
@@ -166,6 +166,10 @@ ht-degree: 100%
   ワークフローを無条件で停止するには、「**[!UICONTROL アクション]**」アイコンをクリックし、「**[!UICONTROL 無条件停止]**」をクリックします。このアクションにより、キャンペーンワークフローが終了します。
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >無条件停止は、管理者ユーザーに制限されます。
 
 ## コントロール母集団の追加 {#defining-a-control-group}
 

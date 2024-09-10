@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 1%
@@ -133,13 +133,13 @@ ht-degree: 1%
 
 ### 手順 6 - データベースの作成 {#step-6---creating-the-database}
 
-ウィザードの最後の段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
+アシスタントの最終段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 データベースが作成されたら、再接続してインスタンス設定を完了できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-wizard) を参照してください。
+インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
 
@@ -224,13 +224,13 @@ ht-degree: 1%
 
 ### 手順 5 - データベースの作成 {#step-5---creating-the-database}
 
-ウィザードの最後の段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
+アシスタントの最終段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 データベースの作成が完了したら、再接続してインスタンス設定を完了できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-wizard) を参照してください。
+インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
 

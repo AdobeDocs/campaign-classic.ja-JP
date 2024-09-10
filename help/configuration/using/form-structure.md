@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 89%
@@ -613,12 +613,12 @@ ht-degree: 89%
 
 ## ウィザード {#wizards}
 
-ウィザードに従って、ページ形式で一連のデータ入力手順を実行できます。 入力したデータは、フォームを検証するときに保存されます。
+アシスタントが、ページ形式の一連のデータ入力手順をガイドします。 入力したデータは、フォームを検証するときに保存されます。
 
-ウィザードの構造は次のとおりです。
+アシスタントの構造は次のとおりです。
 
 ```xml
-<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
+<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Assistant example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
@@ -632,7 +632,7 @@ ht-degree: 89%
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-`<form>` 要素に **type=&quot;wizard&quot;** 属性が存在する場合は、フォームの構築時にウィザードモードを定義できます。 各ページは、`<container>` 要素で完成させます。これらの各要素は、`<form>` 要素の子要素です。ページの `<container>` 要素には、title と desc のタイトル属性を設定します。これにより、ページタイトルの下に説明が表示されます。**[!UICONTROL 前へ]**&#x200B;ボタンと&#x200B;**[!UICONTROL 次へ]**&#x200B;ボタンが自動的に追加され、ページ間を移動できるようになります。
+`<form>` 要素に **type=&quot;wizard&quot;** 属性が存在する場合は、フォームの構築時にアシスタントモードを定義できます。 各ページは、`<container>` 要素で完成させます。これらの各要素は、`<form>` 要素の子要素です。ページの `<container>` 要素には、title と desc のタイトル属性を設定します。これにより、ページタイトルの下に説明が表示されます。**[!UICONTROL 前へ]**&#x200B;ボタンと&#x200B;**[!UICONTROL 次へ]**&#x200B;ボタンが自動的に追加され、ページ間を移動できるようになります。
 
 「**[!UICONTROL 終了]**」ボタンを押すと、入力したデータが保存され、フォームが閉じます。
 

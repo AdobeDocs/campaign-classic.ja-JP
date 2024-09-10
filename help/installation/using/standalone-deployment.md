@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 5%
@@ -220,7 +220,7 @@ ht-degree: 5%
 
    ![](assets/s_ncs_install_db_oracle_creation01.png)
 
-   ウィザードの手順に従って、接続インスタンスに関連付けられたデータベースを作成します。
+   アシスタントの手順に従って、接続インスタンスに関連付けられたデータベースを作成します。
 
    詳しくは、[ データベースの作成と設定 ](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
 

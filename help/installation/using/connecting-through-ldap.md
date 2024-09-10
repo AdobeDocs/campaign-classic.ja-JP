@@ -8,22 +8,25 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1232'
 ht-degree: 1%
 
 ---
 
-# LDAP を介した接続{#connecting-through-ldap}
+# LDAP を介した接続 {#connecting-through-ldap}
 
 ## Campaign と LDAP の設定 {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
->LDAP 設定は、オンプレミスインストールまたはハイブリッドインストールの場合にのみ使用できます。
+>* LDAP 設定は、オンプレミスインストールまたはハイブリッドインストールの場合にのみ使用できます。
+>
+>* システムと Openssl バージョンが [ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) の Campaign と互換性があることを確認します。 古いバージョンは、LDAP 認証に影響を与える可能性があります。
+>
 
-LDAP の設定は、デプロイメントウィザードで実行します。 **[!UICONTROL LDAP 統合]** オプションは、最初の設定手順で選択する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-wizard) を参照してください。
+LDAP の設定は、デプロイメントウィザードで実行します。 **[!UICONTROL LDAP 統合]** オプションは、最初の設定手順で選択する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 このウィンドウでは、指定した LDAP ディレクトリを介してAdobe Campaign ユーザーの識別を設定できます。
 
@@ -32,29 +35,19 @@ LDAP の設定は、デプロイメントウィザードで実行します。 **
 * LDAP サーバーのアドレスを「**[!UICONTROL LDAP server]**」フィールドで指定します。 ポート番号を追加できます。 デフォルトで使用されるポートは 389 です。
 * ドロップダウンリストで、ユーザーの認証方法を選択します。
 
-   * 暗号化されたパスワード （**md5**）
+   * 暗号化されたパスワード （**md5**） – デフォルトのモード。
 
-     デフォルトのモード。
-
-   * プレーンテキストのパスワード + SSL （**TLS**）
-
-     認証手順（パスワードを含む）全体が暗号化されます。 このモードでは、セキュアポート 636 を使用しないでください。Adobe Campaignは自動的にセキュアモードに切り替えます。
+   * プレーンテキストのパスワード + SSL （**TLS**） – 認証手順（パスワードを含む）全体が暗号化されます。 このモードでは、セキュアポート 636 を使用しないでください。Adobe Campaignは自動的にセキュアモードに切り替えます。
 
      Linux でこの認証モードを使用すると、証明書は openLDAP クライアントライブラリによって検証されます。 認証手順が暗号化されるように、有効な SSL 証明書を使用することをお勧めします。 それ以外の場合、情報はプレーンテキストになります。
 
      証明書は Windows でも検証されます。
 
-   * Windows NT LAN Manager （**NTLM**）
+   * Windows NT LAN Manager （**NTLM**） – 独自の Windows 認証。 **[!UICONTROL 一意の ID]** は、ドメイン名にのみ使用されます。
 
-     専用の Windows 認証。 **[!UICONTROL 一意の ID]** は、ドメイン名にのみ使用されます。
+   * 分散パスワード認証（**DPA**）：独自の Windows 認証。 **[!UICONTROL 一意の ID]** は、ドメイン名にのみ使用されます（domain.com）。
 
-   * 分散パスワード認証（**DPA**）
-
-     専用の Windows 認証。 **[!UICONTROL 一意の ID]** は、ドメイン名にのみ使用されます（domain.com）。
-
-   * プレーンテキストのパスワード
-
-     暗号化なし（テストフェーズでのみ使用）。
+   * プレーンテキストのパスワード – 暗号化なし（テストフェーズでのみ使用）。
 
 * ユーザー認証モードを選択します：**[!UICONTROL 一意のユーザー ID を自動的に計算]** （手順 [ 識別名の計算 ](#distinguished-name-calculation) を参照）または **[!UICONTROL ディレクトリ内の一意のユーザー ID を検索]** （手順 [ 識別子の検索 ](#searching-for-identifiers) を参照）。
 

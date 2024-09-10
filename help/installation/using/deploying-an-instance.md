@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '3539'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >サーバーサイドの構成は、Adobeがホストする展開に対してのみAdobeが実行できます。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。
 
-## 配置ウィザード {#deployment-wizard}
+## 配置ウィザード {#deployment-assistant}
 
 Adobe Campaignには、Adobe Campaign クライアントコンソールで使用できるグラフィカルなアシスタントが用意されており、接続先のインスタンスのパラメーターを定義できます。
 
@@ -396,11 +396,11 @@ Adobe Campaignでは、これら 3 つの URL を区別して、複数のプラ�
 複数の URL マスクを指定する場合は、コンマを使用して各 URL マスクを区切ります。
 
 * メールでの画像の使用と管理については、[ この節 ](../../delivery/using/defining-the-email-content.md#adding-images) を参照してください。
-* 配信ウィザードでは、これらの URL から呼び出される画像のステータスは「無視」になります。
+* 配信アシスタントでは、これらの URL から呼び出される画像のステータスは「無視」になります。
 
 ### 公開モード {#publication-modes}
 
-ウィザードの下部のセクションでは、パブリックリソースと画像の公開オプションを選択できます。
+アシスタントの下部のセクションでは、公開リソースと画像の公開オプションを選択できます。
 
 次の公開モードを使用できます。
 

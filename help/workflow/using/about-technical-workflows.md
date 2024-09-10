@@ -4,10 +4,10 @@ title: テクニカルワークフロー
 description: Campaign Classic パッケージで使用できるテクニカルワークフローについて説明します。
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |
 | **プライバシーリクエストを収集**（collectPrivacyRequests） | プライバシーデータ保護規則 | このワークフローでは、Adobe Campaign に保存されている受信者のデータを生成し、プライバシーリクエストの画面でダウンロードできるようにします。 |
 | **原価計算**（budgetMgt） | マーケティングキャンペーン（キャンペーン） | 予算、プラン、プログラム、キャンペーン、配信およびタスクに関する費用行とコスト行の計算を開始します。 |
-| **データベースのクリーンアップ**（クリーンアップ） | 配信 | データベースのメンテナンスワークフローです。統計とプロセスの各種の計算をおこない、デプロイメントアシスタント内の定義済みの設定に応じてデータベースから古いデータを削除します。デフォルトで、毎日午前 4 時にトリガーされます。詳しくは、[このページ](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic)を参照してください。 |
+| **データベースのクリーンアップ**（クリーンアップ） | 配信 | このワークフローは、データベースのメンテナンス・ワークフローです。統計およびプロセスとは異なる計算を行い、配置ウィザードで定義された構成に従ってデータベースから古いデータを削除します。 デフォルトで、毎日午前 4 時にトリガーされます。詳しくは、[このページ](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic)を参照してください。 |
 | **ブロックした LINE ユーザーを削除**（deleteBlockedLineUsersV2） | LINE チャネル | このワークフローは、LINE 公式アカウントにブロックされてから 180 日が経過した後に LINE V2 ユーザーのデータを削除するようにします。 |
 | **プライバシーリクエストデータを削除**（deletePrivacyRequestsData） | プライバシーデータ保護規則 | このワークフローでは、Adobe Campaign に保存されている受信者のデータを削除します。 |
 | **配信達成度**（deliveryIndicators） | ミッドソーシングプラットフォーム | 配達の配信トラッキング指標を更新します。デフォルトでは、1 時間おきにトリガーされます。 |

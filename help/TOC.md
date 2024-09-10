@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,7 @@ ht-degree: 100%
       + [「人」と「受信者」](reporting/using/person-people-recipients.md)
    + 母集団の分析 {#analyzing-populations}
       + [記述的分析について](reporting/using/about-descriptive-analysis.md)
-      + [記述的分析ウィザードの使用](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [記述的分析アシスタントの使用](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [レポート設定](reporting/using/processing-a-report.md)
       + [ユースケース](reporting/using/use-cases.md)
    + レポートの新規作成 {#creating-new-reports}
@@ -538,7 +538,7 @@ ht-degree: 100%
       + [シミュレーションのトラッキング](interaction/using/simulation-tracking.md)
    + オファーの配信 {#delivering-an-offer}
       + [アウトバウンドチャネルについて](interaction/using/about-outbound-channels.md)
-      + [ウィザードを使用したオファーの統合](interaction/using/integrating-an-offer-via-the-wizard.md)
+      + [アシスタントを使用したオファーの統合](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [ワークフローを使用したオファーの統合](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 単一インタラクション {#unitary-interactions}
       + [インバウンドチャネルについて](interaction/using/about-inbound-channels.md)
@@ -772,7 +772,7 @@ ht-degree: 100%
       + [フィルタリングスキーマ](configuration/using/filtering-schemas.md)
       + [PII 表示の制限](configuration/using/restricting-pii-view.md)
       + [データベース構造の更新](configuration/using/updating-the-database-structure.md)
-      + [新しいフィールドウィザード](configuration/using/new-field-wizard.md)
+      + [新しいフィールド アシスタント](configuration/using/new-field-wizard.md)
       + [データスキーマの構造](configuration/using/structure-of-a-data-schema.md)
       + [スキーマの再生成](configuration/using/regenerating-schemas.md)
       + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)

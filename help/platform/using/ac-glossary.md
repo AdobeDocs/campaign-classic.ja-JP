@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '5959'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -245,11 +245,11 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 詳細情報：[ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)。
 +++
 
-+++**デプロイメントウィザード**
++++**配置ウィザード**
 
 デプロイメントウィザードでは、デフォルトの名前空間、データベースクリーンアップスケジュール、データ保持期間、その他の技術的な設定など、Campaign インスタンスのパラメーターを定義します。
 
-詳しくは、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md#deployment-wizard)を参照してください。
+詳細情報 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)。
 +++
 
 +++**記述的分析**
@@ -483,7 +483,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**インスタンス設定**
 
-インスタンス設定は、Adobe Campaign インスタンスの設定の詳細です。これらの設定は、デプロイメントウィザード（ツール／詳細設定／デプロイメントウィザード）で定義するか、サーバーまたはインスタンスの設定ファイルで定義します。
+インスタンス設定は、Adobe Campaign インスタンスの設定の詳細です。これらの設定は、デプロイメントウィザード（ツール/詳細設定/デプロイメントウィザード）で定義するか、サーバーまたはインスタンスの設定ファイルで定義します。
 
 詳しくは、[インスタンス設定](../../installation/using/about-initial-configuration.md)を参照してください。
 
@@ -491,7 +491,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**ジョブ（インポートおよびエクスポート）**
 
-ジョブは、製品との間でのデータのインポートとエクスポートを簡素化するウィザードシステムで管理されます。ジョブは、簡潔さと一貫性を保つためにテンプレートシステムを使用しており、スケジュールに従って実行するように定義できます。
+ジョブは、製品との間でのデータのインポートとエクスポートを簡素化するアシスタントシステムによって管理されます。 ジョブは、簡潔さと一貫性を保つためにテンプレートシステムを使用しており、スケジュールに従って実行するように定義できます。
 
 詳しくは、[ジョブのインポートとエクスポート](../../platform/using/get-started-data-import-export.md)を参照してください。
 +++

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Data Management
 role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ XML 出力ドキュメントのメイン要素を使用して、取得したデ�
 
 ### クエリの追加 {#adding-a-query}
 
-クエリのパラメーターは、ウィザードを使用して編集します。
+クエリパラメーターは、アシスタントを使用して編集します。
 
 1. 最初のページで、ラベルおよび取得するデータを含むスキーマを指定します。
 

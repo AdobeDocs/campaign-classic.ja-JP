@@ -5,10 +5,10 @@ description: 調査で収集されたデータを公開、トラッキング、�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
    次に、エクスポートする情報およびストレージファイルを入力します。
 
-   エクスポートウィザードで、出力ファイルのコンテンツおよび形式を設定できます。
+   出力ファイルの内容と形式は、書き出しアシスタントで設定できます。
 
    次のことが可能です。
 

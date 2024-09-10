@@ -5,10 +5,10 @@ description: 「ユースケース：概要の作成」
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
    >
    >**nms:webApp** は、Web アプリケーションスキーマと一致します。
    >
-   >**nms:newWebApp** は、新しい Web アプリケーション作成ウィザードと一致します。
+   >**nms:newWebApp** は、新しい web アプリケーション作成アシスタントと一致します。
 
 1. URL を同じウィンドウで表示することを選択します。
 1. 「画像」フィールドに Web アプリケーションアイコン **/nms/img/webApp.png** を追加します。

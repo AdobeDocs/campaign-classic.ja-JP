@@ -5,10 +5,10 @@ description: web フォームの公開
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 ### メールによるフォームの配信 {#delivering-a-form-via-email}
 
-メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。これをおこなうには、配信ウィザードに移動して、次のパラメーターを追加することで、リンクをフォームに適応させます。
+メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。これを行うには、配信アシスタントに移動し、次のパラメーターを追加してフォームへのリンクを適応させます。
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">

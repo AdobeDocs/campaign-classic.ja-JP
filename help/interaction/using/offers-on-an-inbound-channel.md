@@ -8,10 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -198,7 +198,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 ### 匿名連絡先向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
 
-1. 配信マッピングウィザードで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
+1. 配信マッピングアシスタント（**訪問者** マッピング）を使用して、匿名インバウンドインタラクション用のオファー環境を作成します。 詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
    ![](assets/offer_env_anonymous_003.png)
 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 >
 >配信トラッキングが有効になっていない場合、このタブは表示されません。
 
-トラッキング設定は、配信ウィザードの適切なステージで実行されます。[トラッキングするリンクの設定方法](how-to-configure-tracked-links.md)を参照してください。
+トラッキング設定は、配信アシスタントの適切なステージで実行されます。 [トラッキングするリンクの設定方法](how-to-configure-tracked-links.md)を参照してください。
 
 **[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。[この節](../../reporting/using/delivery-reports.md)を参照してください。
 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 メールを作成するとします。まず受信者の名前を挿入し、続いて、メッセージ本文にプロファイルの作成日を挿入することにします。手順は次のとおりです。
 
 1. 新しい配信を作成するか、メールタイプの既存の配信を開きます。
-1. 配信ウィザードで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力をおこないます。
+1. 配信アシスタントで **[!UICONTROL 件名]** をクリックして、メッセージの件名を編集し、件名を入力します。
 1. 「**[!UICONTROL Special offer for]**」と入力し、ツールバーのボタンを使用してパーソナライゼーションフィールドを挿入します。**[!UICONTROL 受信者／タイトル]**&#x200B;を選択します。
 
    ![](assets/s_ncs_user_insert_custom_field.png)

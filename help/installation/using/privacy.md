@@ -4,7 +4,7 @@ title: パーソナライゼーションとプライバシー
 description: プライバシーとパーソナライゼーションに関するセキュリティのベストプラクティスについて説明します
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 20%
@@ -94,7 +94,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで次の
 
 1. **[!UICONTROL 外部アカウント]**（extAccount）を選択します。
 
-1. ウィザードの最後の画面で、新しい「srcSchema」を編集して、すべてのパスワードフィールドへのアクセスを制限します。
+1. 最後のアシスタント画面で、新しい「srcSchema」を編集して、すべてのパスワードフィールドへのアクセスを制限します。
 
    メイン要素（`<element name="extAccount" ... >`）は、次の方法で置き換えることができます。
 

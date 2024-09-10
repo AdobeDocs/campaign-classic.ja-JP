@@ -5,10 +5,10 @@ description: スキーマエディションの基本を学ぶ
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -213,7 +213,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## データベース構造の更新 {#updating-the-database-structure}
 
-変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。それには、データベース更新ウィザードを使用します。
+変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。データベースに適用するには、データベース更新ウィザードを使用します。
 
 ![](assets/schemaextension_getting_started_3.png)
 

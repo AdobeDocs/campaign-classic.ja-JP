@@ -5,7 +5,7 @@ description: スキーマエディションの例
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
    </schema>
    ```
 
-   データベース更新ウィザードから生成される SQL スクリプトは、次のとおりです。
+   データベース更新アシスタントから生成される SQL スクリプトは、次のとおりです。
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;

@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 1%
@@ -57,7 +57,7 @@ created （datetime）、createdBy-id （long）、desc （string）、entitySch
 * **desc （string）**: スキーマの説明
 * **entitySchema （string）**：構文と承認の基になる基本スキーマ（Adobe Campaignの場合、デフォルトでは xtk:srcSchema）。 現在のスキーマを保存すると、Adobe Campaignは、@xtkschema 属性で宣言されたスキーマを使用して文法を承認します。
 * **extendedSchema （string）**：現在のスキーマ拡張の基になっている標準スキーマの名前を受け取ります。 形式は「namespace:name」です。
-* **img （文字列）**：スキーマにリンクされたアイコン（スキーマ作成ウィザードで定義できます）。
+* **img （文字列）**：スキーマにリンクされたアイコン（スキーマ作成アシスタントで定義できる場合があります）。
 * **label （文字列）**：スキーマラベル。
 * **labelSingular （string）**: インターフェイスに表示するラベル（単数）。
 * **lastModified （datetime）**：この属性は、最終変更日時に関する情報を提供します。 「日時」フォームがあります。 表示される値は、サーバーから取得されます。 時間は UTC 形式で表示されます。
@@ -73,7 +73,7 @@ created （datetime）、createdBy-id （long）、desc （string）、entitySch
 * **name （string）**：一意のスキーマ名。
 * **namespace （string）**：スキーマの名前空間（デフォルト：nms、xtk、nl）。 プロジェクトの新しいスキーマを作成する場合は、専用の名前空間を使用することをお勧めします。
 * **useRecycleBin （boolean）**：アプリケーション内のごみ箱機能をアクティブにします。 削除されたレコードは、最終的に削除される前にごみ箱に配置されます。 この関数は、「配信」モードでのみ使用できます。
-* **ビュー（ブール値）**：アクティブ化された場合（@view=&quot;true&quot;）、スキーマはビューとして使用されます。 データベース構造の更新ウィザードでは、スキーマは考慮されません。 このオプションは、主に外部テーブルを参照するために使用されます。
+* **ビュー（ブール値）**：アクティブ化された場合（@view=&quot;true&quot;）、スキーマはビューとして使用されます。 データベース構造更新ウィザードでは、スキーマは考慮されません。 このオプションは、主に外部テーブルを参照するために使用されます。
 * **xtkschema （string）**：スキーマ文法を定義するスキーマの名前（デフォルトでは xtk:srcSchema）。
 
 ## 例 {#examples-11}

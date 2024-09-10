@@ -4,10 +4,10 @@ title: JavaScript のスクリプトとテンプレート
 description: JavaScript のスクリプトとテンプレート
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ logInfo("Start date: " + task.creationDate)
 
 関数 **[!UICONTROL logInfo(message)]** は、ログにメッセージを挿入します。
 
-「**[!UICONTROL OK]**」をクリックして作成ウィザードを閉じ、ワークフローのリストの右上にあるアクションボタンを使用して、ワークフローを起動します。最後に、ログを確認します。スクリプトに対応して 2 つのメッセージがあるのがわかります。一方には、ワークフローのラベルが、もう一方には、スクリプトがアーカイブされた日付がそれぞれ表示されています。
+「**[!UICONTROL OK]**」をクリックして作成アシスタントを閉じ、ワークフローのリストの右上にあるアクションボタンを使用して、ワークフローを開始します。 最後に、ログを確認します。スクリプトに対応して 2 つのメッセージがあるのがわかります。一方には、ワークフローのラベルが、もう一方には、スクリプトがアーカイブされた日付がそれぞれ表示されています。
 
 ## 変数 {#variables}
 

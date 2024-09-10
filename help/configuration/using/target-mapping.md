@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 * Adobe Campaignで提供される受信者テーブル以外の受信者テーブルを使用する場合、
 * ターゲットマッピング画面で標準ターゲティングディメンションとは異なるフィルタリングディメンションを設定した場合。
 
-ターゲットマッピング作成ウィザードは、カスタムテーブルを使用するために必要なすべてのスキーマを作成するのに役立ちます。
+ターゲットマッピング作成アシスタントは、カスタムテーブルを使用するために必要なすべてのスキーマを作成するのに役立ちます。
 
 ## カスタムテーブルにリンクされたスキーマの作成と設定 {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -83,7 +83,7 @@ ht-degree: 3%
    ```
 
 1. **[!UICONTROL 管理/キャンペーン管理/ターゲットマッピング]** ノードをクリックします。
-1. **新規** ボタンをクリックして、ターゲットマッピング作成ウィザードを開きます。
+1. **新規** ボタンをクリックして、ターゲットマッピング作成アシスタントを開きます。
 1. **ラベル** フィールドに入力し、**ターゲティングディメンション** フィールドで作成したスキーマを選択します。
 
    ![](assets/mapping_diffusion_wizard_1.png)
@@ -110,9 +110,9 @@ ht-degree: 3%
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. **保存** ボタンをクリックして、ウィザードを閉じます。
+1. **保存** ボタンをクリックして、アシスタントを閉じます。
 
-   ウィザードでは、開始スキーマを使用して、新しいターゲットマッピングを機能させるために必要な他のすべてのスキーマを作成します。
+   アシスタントは開始スキーマを使用して、新しいターゲットマッピングを機能させるために必要な他のすべてのスキーマを作成します。
 
    ![](assets/mapping_schema_list.png)
 

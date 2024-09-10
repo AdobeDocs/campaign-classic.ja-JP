@@ -5,10 +5,10 @@ description: コンテンツテンプレートの使用
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## コンテンツ管理による配信の作成 {#creating-a-delivery-via-content-management}
 
-配信内のコンテンツテンプレートの入力フィールドを使用してコンテンツを作成することができます。配信コンテンツを定義するためのタブが配信ウィザードに追加されます。
+配信内のコンテンツテンプレートの入力フィールドを使用してコンテンツを作成することができます。配信コンテンツを定義するためのタブが配信アシスタントに追加されます。
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-詳しくは、完全な実装例、[配信ウィザードでのコンテンツの作成](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard)を参照してください。
+詳しくは、完全な実装例 [ 配信アシスタントでのコンテンツの作成 ](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant) を参照してください。
 
 ## コンテンツインスタンスの作成 {#creating-a-content-instance}
 

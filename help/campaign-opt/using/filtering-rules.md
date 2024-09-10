@@ -5,10 +5,10 @@ description: Adobe Campaign でのフィルタリングルールの使用方法�
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-作成したタイポロジは、ターゲットを選択して、配信にリンクできます。配信ウィザードで、「**[!UICONTROL 宛先]**」リンクをクリックし、「**[!UICONTROL 除外]**」タブをクリックします。
+これらの特定のタイポロジは、ターゲットが選択されている場合、配信にリンクできます。配信アシスタントで **[!UICONTROL 宛先]** リンクをクリックし、「**[!UICONTROL 除外]**」タブをクリックします。
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

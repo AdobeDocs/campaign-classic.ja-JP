@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
 
-その後、配信ウィザードを閉じて、「**[!UICONTROL 配信]**」タブで配信の実行をトラッキングできます。このタブには、配信の詳細または配信リストからアクセスできます。
+その後、配信アシスタントを閉じ、「**[!UICONTROL 配信]**」タブから配信の実行を追跡できます。このタブには、この配信の詳細または配信のリストからアクセスできます。
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 

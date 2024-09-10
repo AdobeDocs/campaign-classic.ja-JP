@@ -5,10 +5,10 @@ description: 調査を設計するための主な手順を説明します
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ## フィールドの追加 {#adding-fields}
 
-フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。フォームの各ページでは、ツールバーの最初のボタンから&#x200B;**[!UICONTROL ウィザードを使用して追加]**&#x200B;メニューを使用して作成されます。
+フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。フォームの各ページには、ツールバーの最初のボタンから **[!UICONTROL アシスタントを使用して追加]** メニューを使用して作成します。
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

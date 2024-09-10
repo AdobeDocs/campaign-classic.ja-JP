@@ -4,10 +4,10 @@ title: リストの管理とカスタマイズ
 description: リストの参照と設定の方法について説明します。
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ## リストのエクスポート {#exporting-a-list}
 
-リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。これにアクセスするには、リストからエクスポートする要素を選択し、右クリックして「**[!UICONTROL エクスポート...]**」を選択します。
+リストからデータをエクスポートするには、エクスポート アシスタントを使用する必要があります。 これにアクセスするには、リストからエクスポートする要素を選択し、右クリックして「**[!UICONTROL エクスポート...]**」を選択します。
 
 インポートおよびエクスポート機能の使用については、[一般的なインポートおよびエクスポート](../../platform/using/about-generic-imports-exports.md)で説明しています。
 

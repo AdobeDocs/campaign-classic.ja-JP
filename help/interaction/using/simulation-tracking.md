@@ -8,10 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 必要に応じて、結果の記述的分析を作成することで、シミュレーションの結果を保存して書き出すことができます。それには、結果ウィンドウで適切なリンクをクリックします。
 
-記述的分析ウィザードについて詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
+記述的分析アシスタントの詳細については、[ この節 ](../../reporting/using/about-descriptive-analysis.md) を参照してください。
 
 ![](assets/offer_simulation_012.png)
 

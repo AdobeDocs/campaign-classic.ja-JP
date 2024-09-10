@@ -4,7 +4,7 @@ title: データモデルのベストプラクティス
 description: Campaign Classicデータモデルの操作方法を学ぶ
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '4030'
 ht-degree: 53%
@@ -90,7 +90,7 @@ SQLServer データベースの場合、パフォーマンスが必要な場合�
 
 スキーマのテーブルスペース属性を使用して、テーブル専用のテーブルスペースを指定できます。
 
-インストールウィザードでは、オブジェクトをタイプ（データ、一時、インデックス）別に保存できます。
+インストールアシスタントでは、オブジェクトをタイプ（データ、一時、インデックス）別に保存できます。
 
 専用のテーブルスペースは、パーティション化、セキュリティ・ルールに適しており、柔軟な管理、最適化、パフォーマンスの向上が可能です。
 

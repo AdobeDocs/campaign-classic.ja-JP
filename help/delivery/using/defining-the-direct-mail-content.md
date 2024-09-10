@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-このリンクをクリックすると、抽出ウィザードにアクセスして、出力ファイルに抽出する情報（列）を定義できます。
+このリンクを使用すると、抽出アシスタントにアクセスし、出力ファイルに書き出す情報（列）を定義できます。
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
@@ -35,4 +35,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このウィザードには、[はじめに](../../platform/using/executing-export-jobs.md)の節で説明されているエクスポートウィザードの手順が含まれています。
+>このアシスタントには、「はじめに [ の節で説明している書き出しアシスタントの手順が含まれ ](../../platform/using/executing-export-jobs.md) います。

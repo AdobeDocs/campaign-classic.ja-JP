@@ -6,7 +6,7 @@ feature: Custom Resources
 role: Data Engineer, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 4%
@@ -29,13 +29,13 @@ ht-degree: 4%
 
 ## ビュー属性 {#the-view-attribute}
 
-Source スキーマは、**srcSchema** ルート要素の **view** 属性を受け入れます。 カスタムテーブルでAdobe Campaignを操作する場合に使用する必要があります。 **view=&quot;true&quot;** 属性は、データベース構造更新ウィザードにこのスキーマを無視するように指示します。 したがって、アプリケーションは、テーブル、その列およびインデックスを対応するスキーマと同期させることを禁止されています。
+Source スキーマは、**srcSchema** ルート要素の **view** 属性を受け入れます。 カスタムテーブルでAdobe Campaignを操作する場合に使用する必要があります。 **view=&quot;true&quot;** 属性は、データベース構造更新アシスタントにこのスキーマを無視するよう指示します。 したがって、アプリケーションは、テーブル、その列およびインデックスを対応するスキーマと同期させることを禁止されています。
 
 この属性を **true** に設定すると、スキーマはこのテーブルのデータにアクセスする SQL クエリを生成するためにのみ使用されます。
 
 ## テーブルと列の名前 {#names-of-tables-and-columns}
 
-テーブル更新ウィザードでテーブルを作成すると、それぞれのスキーマと属性の名前に基づいて、テーブルと列の名前が自動的に生成されます。 ただし、次の属性を入力することで、SQL 名を強制的に使用することができます。
+テーブル更新ウィザードでテーブルを作成すると、テーブル名と列名が、それぞれのスキーマと属性の名前に基づいて自動的に生成されます。 ただし、次の属性を入力することで、SQL 名を強制的に使用することができます。
 
 * **sqltable** スキーマのメイン要素内で、テーブルを指定するには、
 * **sqlname**：各属性内で列を指定します。

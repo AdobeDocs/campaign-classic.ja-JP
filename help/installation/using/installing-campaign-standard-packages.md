@@ -5,10 +5,10 @@ description: Campaign ビルトインパッケージのインストール方法�
 feature: Installation, Application Settings
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 11%
 
 ビルトインパッケージをインストールするには：
 
-1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート]**&#x200B;から、パッケージインポートウィザードにアクセスします。
+1. Adobe Campaign クライアントコンソールの **[!UICONTROL ツール/詳細/パッケージをインポート]** から、パッケージインポートアシスタントにアクセスします。
 1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
 1. パッケージリストで、インストールするパッケージを確認します。
    >[!NOTE]
@@ -242,7 +242,7 @@ ht-degree: 11%
 
 配信チャネル（メール、モバイルチャネル、モバイルアプリチャネル、LINE など）をインストールする必要があります トランザクションメッセージをインストールする前に（Message Center パッケージ）。 メールのみの Message Center プロジェクトを開始し、後で新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. パッケージインポートウィザード（「ツール」 > 「詳細」 > 「パッケージをインポート」 > 「Adobe Campaign パッケージ **）を使用して、新しいチャネル（例：** モバイルチャネル **[!UICONTROL をインストール]** ます。
+1. パッケージインポートアシスタント（**[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaign パッケージ]**）を使用して、新しいチャネル（**モバイルチャネル** など）をインストールします。
 1. ファイルをインポートし（**[!UICONTROL ツール/詳細/パッケージをインポート/ファイル]**）、次を選択します。
 
    ```

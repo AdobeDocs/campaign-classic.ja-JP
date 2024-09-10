@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 8%
@@ -49,7 +49,7 @@ Adobe Campaign コンソールが起動したら、ログイン ページにア�
    >接続URLには、 `[a-z]`、 `[A-Z]`、 `[0-9]` 、ダッシュ (-) または終止符の文字のみを使用します。
 
 1. **[!UICONTROL OK]**&#x200B;をクリックして設定を確認します:これで、インスタンス作成プロセスを開始できます。
-1. **[!UICONTROL 接続設定]**&#x200B;ウィンドウで、**内部** ログインとそのパスワードを入力して、Adobe Campaign アプリケーションサーバーに接続します。接続したら、インスタンス作成ウィザードにアクセスして新しいインスタンスを宣言します
+1. **[!UICONTROL 接続設定]**&#x200B;ウィンドウで、**内部** ログインとそのパスワードを入力して、Adobe Campaign アプリケーションサーバーに接続します。接続したら、インスタンス作成アシスタントにアクセスして新しいインスタンスを宣言します
 1. [ **[!UICONTROL 名前]** ] フィールドに、 **インスタンス名**&#x200B;を入力します。 この名前は設定ファイル **config-`<instance>`.xml** の生成に使用され、インスタンスを識別するためにコマンドラインパラメータで使用されるため、特殊文字を含まない短い名前を選択してください。 例: **eMarketing**。
 
    ![](assets/s_ncs_install_create_instance.png)

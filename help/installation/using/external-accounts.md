@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1952'
 ht-degree: 71%
@@ -324,7 +324,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign に読み込みおよび書き出しできます。
 
-Campaign - Microsoft Dynamics CRM コネクタについて詳しくは、この [ ページ ](../../platform/using/crm-ms-dynamics.md) を参照してください。
+Campaign とMicrosoft Dynamicsの CRM コネクタについて詳しくは、この [ ページ ](../../platform/using/crm-ms-dynamics.md) を参照してください。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -338,7 +338,7 @@ Campaign - Microsoft Dynamics CRM コネクタについて詳しくは、この 
 
   Microsoft CRM サーバーの URL。
 
-  Microsoft CRM **[!UICONTROL Server URL]** を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、**Dynamics 365** をクリックしてアプリを選択します。 次に、ブラウザーのアドレスバーに **[!UICONTROL Server URL]** があります（例：`https://myserver.crm.dynamics.com/`）。
+  Microsoft CRM **[!UICONTROL Server URL]** を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、**Dynamics 365** をクリックして、アプリを選択します。 次に、ブラウザーのアドレスバーに **[!UICONTROL Server URL]** があります（例：`https://myserver.crm.dynamics.com/`）。
 
 * **[!UICONTROL クライアント識別子]**
 
@@ -356,7 +356,7 @@ Campaign - Microsoft Dynamics CRM コネクタについて詳しくは、この 
 
   Microsoft CRM サーバーの URL。
 
-  Microsoft CRM **[!UICONTROL Server URL]** を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、**Dynamics 365** をクリックしてアプリを選択します。 次に、ブラウザーのアドレスバーに **[!UICONTROL Server URL]** があります（例：`https://myserver.crm.dynamics.com/`）。
+  Microsoft CRM **[!UICONTROL Server URL]** を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、**Dynamics 365** をクリックして、アプリを選択します。 次に、ブラウザーのアドレスバーに **[!UICONTROL Server URL]** があります（例：`https://myserver.crm.dynamics.com/`）。
 
 * **[!UICONTROL 秘密鍵 (Base64 エンコード)]**
 
@@ -406,7 +406,7 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
   API のバージョンを選択します。
 
-この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
+この外部アカウントの場合は、設定アシスタントでSalesforce CRM を設定する必要があります。
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
 

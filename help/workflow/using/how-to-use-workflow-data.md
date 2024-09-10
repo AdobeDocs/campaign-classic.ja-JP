@@ -4,10 +4,10 @@ title: ワークフローデータの使用方法
 description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 
-通常のパーソナライゼーションフィールドに加えて、ワークフローステージからのパーソナライゼーションフィールドを、配信コンテンツに追加できます。以下の例に示すように、ワークフローアクティビティ内で定義された追加データは、直接メール配信のフレームワーク内で出力ファイルの名前を定義するために、配信ウィザード内に保持され、アクセスできるようになります。
+通常のパーソナライゼーションフィールドに加えて、ワークフローステージからのパーソナライゼーションフィールドを、配信コンテンツに追加できます。以下の例に示すように、ダイレクトメール配信のフレームワーク内で出力ファイルの名前を定義するために、ワークフローアクティビティで定義された追加データを配信アシスタントで保持し、アクセス可能にすることができます。
 
 ![](assets/s_advuser_using_additional_data.png)
 

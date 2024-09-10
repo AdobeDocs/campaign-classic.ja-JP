@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1082'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-また、配信の「**[!UICONTROL 添付ファイル]**」フィールドにファイルを直接ドラッグ＆ドロップしたり、配信ウィザードのツールバーから&#x200B;**[!UICONTROL 添付]**&#x200B;アイコンを使用したりできます。
+また、ファイルを「配信 **[!UICONTROL 添付ファイル]**」フィールドに直接ドラッグ&amp;ドロップするか、配信アシスタントツールバーの **[!UICONTROL 添付]** アイコンを使用することもできます。
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 

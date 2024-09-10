@@ -4,10 +4,10 @@ title: データのターゲティング
 description: ワークフローでのデータのターゲティングについて説明します
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2026'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 サブ要素は、マッピング先のコレクションのサブツリーに表されます。
 
-コレクションが「**[!UICONTROL コレクション]**」サブタブに表示されます。収集された要素は、選択したコレクションの「**[!UICONTROL 詳細]**」アイコンをクリックしてフィルターできます。フィルターウィザードでは、収集したデータを選択し、コレクション内のデータに適用するフィルター条件を指定できます。
+コレクションが「**[!UICONTROL コレクション]**」サブタブに表示されます。収集された要素は、選択したコレクションの「**[!UICONTROL 詳細]**」アイコンをクリックしてフィルターできます。フィルターアシスタントでは、収集したデータを選択し、コレクション内のデータに適用するフィルター条件を指定できます。
 
 ![](assets/query_add_columns_collection.png)
 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring
 role: User
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->大量配信時にこれらの値を更新したい場合は、該当する配信を選択して右クリックします。**[!UICONTROL アクション／配信とトラッキング指標を再計算]**&#x200B;を選択し、ウィザードを使用してこの情報を更新します。
+>大量配信時にこれらの値を更新したい場合は、該当する配信を選択して右クリックします。**[!UICONTROL アクション/配信とトラッキングの指標を再計算…]** を選択し、アシスタントを使用してこの情報を更新します。
 
 **関連トピック：**
 

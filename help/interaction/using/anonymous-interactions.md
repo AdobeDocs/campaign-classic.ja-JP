@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 ## 匿名インタラクション向け環境のターゲティングと保存 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
-デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにする場合、ターゲットマッピングウィザードを使用して環境を作成する必要があります。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
+デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルまたは特定の受信者テーブル）をターゲットにする場合は、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。 詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
-マッピング作成ウィザードで匿名環境を作成する場合、環境の「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL 受信する匿名インタラクション専用の環境]**」ボックスが自動的にオンになります。
+マッピング作成アシスタントを使用して匿名環境を作成すると、環境の **[!UICONTROL 一般]** タブで「**[!UICONTROL 受信する匿名インタラクション専用の環境]** ボックスが自動的にオンになります。
 
 「**[!UICONTROL ターゲティングディメンション]**」は自動的に入力されます。デフォルトでは、このフィールドは訪問者テーブルにリンクされます。
 

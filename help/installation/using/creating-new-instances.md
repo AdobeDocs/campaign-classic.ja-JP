@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Adobe Campaignをインストールしてインスタンスを作成したら、
 
 1. 新しいインスタンスを宣言
 
-   **[!UICONTROL ツール/詳細/新しいインスタンスを宣言…]** に移動して、ウィザードを起動します。
+   **[!UICONTROL ツール/詳細/新しいインスタンスを宣言…]** に移動して、アシスタントを開始します。
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 

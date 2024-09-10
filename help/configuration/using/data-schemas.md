@@ -5,7 +5,7 @@ description: Campaign データスキーマの基本を学ぶ
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 56%
@@ -61,7 +61,7 @@ ht-degree: 56%
    >
    >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema) を参照してください。
 
-1. テーブルの内容を作成します。 エントリウィザードを使用して、設定が失われていないことを確認することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 設定が欠けていないことを確認するために、入力アシスタントを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 

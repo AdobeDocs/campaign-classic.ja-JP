@@ -5,10 +5,10 @@ description: 「ユースケース：基準に基づいたシードアドレス�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -83,15 +83,15 @@ ht-degree: 100%
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. 更新ウィザードが表示されたら、「**[!UICONTROL 次へ]**」ボタンをクリックし、テーブルを編集ウィンドウにアクセスします。シードアドレスのデータスキーマに加えた変更に合わせて、構造を更新する必要があります。
+1. 更新アシスタントが表示されたら、「**[!UICONTROL 次へ]**」ボタンをクリックして、「テーブルを編集」ウィンドウにアクセスします。シードアドレスデータスキーマで実行する変更には、構造の更新が必要です。
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. ウィザードの指示に従って、更新を実行するページが表示されるまで操作を進めます。「**[!UICONTROL 開始]**」ボタンをクリックします。
+1. 更新を実行するページが表示されるまで、アシスタントの手順に従います。 「**[!UICONTROL 開始]**」ボタンをクリックします。
 
    ![](assets/dlv_seeds_usecase_14.png)
 
-   更新が完了したら、ウィザードを閉じます。
+   更新が完了したら、アシスタントを閉じることができます。
 
 1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。ただし、変更をシードアドレス画面の表示にも反映させるには、スキーマに対応する&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新する必要があります。[入力フォームの更新](#updating-the-input-form)の節を参照してください。
 

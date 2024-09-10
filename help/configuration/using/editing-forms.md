@@ -6,7 +6,7 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1736'
 ht-degree: 3%
@@ -57,7 +57,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
-* ウィザード
+* アシスタント
 
   このフォームは、特定のシーケンスで順序付けられた複数のフローティングスクリーンで構成されます。 ユーザーは、ある画面から次の画面に移動します。 [詳細情報](form-structure.md#wizards)
 

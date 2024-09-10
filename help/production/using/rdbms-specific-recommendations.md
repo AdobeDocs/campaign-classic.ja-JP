@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 0654046f7e8271377e38b21a7b2e48f3859353f0
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 4%
@@ -417,7 +417,7 @@ function sqlGetMemo(strSql)
 次の例は、Microsoft SQL Server 2005 に関するものです。 別のバージョンを使用している場合は、データベース管理者に連絡してメンテナンス手順を確認してください。
 
 1. まず、管理者権限を持つログインを使用して、Microsoft SQL Server Management Studio に接続します。
-1. **[!UICONTROL 管理/メンテナンスプラン]** フォルダーに移動して右クリックし、「**[!UICONTROL メンテナンスプランウィザード]**」を選択します。
+1. **[!UICONTROL 管理/保守プラン]** フォルダに移動し、そのフォルダを右クリックして「**[!UICONTROL 保守プラン・アシスタント]**」を選択します。
 1. 最初のページが表示されたら、「**[!UICONTROL 次へ]**」をクリックします。
 1. 作成するメンテナンス・プランのタイプ（タスクごとに個別のスケジュール、またはプラン全体で単一のスケジュール）を選択し、「**[!UICONTROL 変更…]**」ボタンをクリックします。
 1. **[!UICONTROL ジョブスケジュールのプロパティ]** ウィンドウで、目的の実行設定を選択して **[!UICONTROL 「OK」]** をクリックし、「**[!UICONTROL 次へ]**」をクリックします。

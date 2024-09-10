@@ -4,10 +4,10 @@ title: 増分処理クエリ
 description: 増分処理クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL スケジュール設定と履歴]**」タブで、「**[!UICONTROL 実行をスケジュールする]**」オプションを選択します。一旦作成されたタスクはアクティブなままになり、クエリの実行スケジュールに指定された時間になるとトリガーされます。ただし、このオプションを無効にした場合、**一度に全部**&#x200B;のクエリがただちに実行されます。
 1. 「**[!UICONTROL 変更]**」ボタンをクリックします。
 
-   **[!UICONTROL スケジュール編集ウィザード]**&#x200B;ウィンドウで、頻度のタイプと、イベントの繰り返し、イベントの有効期間を設定します。
+   **[!UICONTROL スケジュール編集アシスタント]** ウィンドウで、頻度のタイプ、イベントの繰り返し、イベントの有効期間を設定できます。
 
    ![](assets/s_user_segmentation_wizard_11.png)
 

@@ -4,7 +4,7 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 64%
@@ -78,7 +78,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
 >[!NOTE]
 >
->デフォルトでは、**[!UICONTROL 監査ログ]** の保持期間は 180 日に設定されています。 保持期間の変更方法について詳しくは、この [ ページ ](../../production/using/database-cleanup-workflow.md#deployment-wizard) を参照してください。
+>デフォルトでは、**[!UICONTROL 監査ログ]** の保持期間は 180 日に設定されています。 保持期間の変更方法について詳しくは、この [ ページ ](../../production/using/database-cleanup-workflow.md#deployment-assistant) を参照してください。
 
 ## 監査記録を有効／無効にする {#enable-disable-audit-trail}
 

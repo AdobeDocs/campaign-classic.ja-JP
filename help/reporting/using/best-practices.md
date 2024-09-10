@@ -5,10 +5,10 @@ description: キャンペーンレポートのベストプラクティス
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    * Adobe Campaign データベースからのデータのエクスポート（ワークフローを使用）。[この節](../../workflow/using/about-workflows.md)を参照してください。
    * ピボットテーブルの作成。詳しくは、[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照してください。
    * 集計データの表示。詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
-   * ウィザードを使用したデータ分析。詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
+   * アシスタントを使用してデータを分析します。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 大量のデータの分析。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
 1. ターゲット母集団の特定

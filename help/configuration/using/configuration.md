@@ -5,7 +5,7 @@ feature: Application Settings
 description: Campaign エクスプローラーのナビゲーションツリーを設定する方法を学ぶ
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 1%
@@ -101,7 +101,7 @@ XML ドキュメントには、ドキュメントの名前と名前空間を指�
 * 「xtk:import」フォームを起動するグローバルコマンドの宣言
 
   ```
-  <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
+  <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
   ```
 
   キーボードショートカットは、コマンドラベルに **&amp;** が存在することにより、「I」文字で宣言されます。

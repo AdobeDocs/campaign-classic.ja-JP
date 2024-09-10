@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 SMS のコンテンツを作成するには、次の手順に従います。
 
-1. ウィザードの「**[!UICONTROL テキストコンテンツ]**」セクションにメッセージのコンテンツを入力します。ツールバーのボタンで、コンテンツのインポート、保存、検索ができます。最後のボタンは、パーソナライゼーションフィールドを挿入するために使用します。
+1. メッセージのコンテンツをアシスタントの **[!UICONTROL テキストコンテンツ]** セクションに入力します。 ツールバーのボタンで、コンテンツのインポート、保存、検索ができます。最後のボタンは、パーソナライゼーションフィールドを挿入するために使用します。
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 

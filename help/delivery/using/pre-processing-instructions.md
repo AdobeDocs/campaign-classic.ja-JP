@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * **[!DNL value]**：配信のフィールド、配信変数、配信に読み込まれたカスタムオブジェクトにアクセスできるようにします。[詳細情報](#value)
 * **[!DNL foreach]**：カスタムオブジェクトとして読み込まれた配列をループ処理します。 [詳細情報](#foreach)
 
-配信ウィザードから直接テストできます。これらはコンテンツのプレビューに適用され、トラッキングボタンをクリックすると、URL のリストが表示されます。
+これらは、配信アシスタントから直接テストできます。 これらはコンテンツのプレビューに適用され、トラッキングボタンをクリックすると、URL のリストが表示されます。
 
 ## [!DNL include] {#include}
 
@@ -57,7 +57,7 @@ ht-degree: 100%
   <%@ include option='NmsServer_URL' %>
   ```
 
-  正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
+  配信アシスタントのパーソナライゼーションボタンを使用して、正しい構文を取得します。
 
 ## [!DNL value] {#value}
 

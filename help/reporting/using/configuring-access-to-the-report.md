@@ -5,10 +5,10 @@ description: レポートへのアクセスの設定
 feature: Reporting, Monitoring
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 一例として、レポートへのリンクを作成して、受信者リストを使用してそれにアクセスできるようにします。
 
-1. 「**[!UICONTROL 新しいレポート]**」をクリックし、レポート作成ウィザードで「**[!UICONTROL 既存のレポートにリンクを作成]**」を選択します。
+1. **[!UICONTROL 新規]** をクリックし、レポート作成アシスタントで **[!UICONTROL 既存レポートへのリンクを作成]** を選択します。
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 レポートを他のオペレーターと共有したり、利用可能なレポートのリストにレポートを表示するには、レポートをパブリッシュする必要があります（[レポートの表示コンテキスト](#report-display-context)も参照してください）。レポートを変更するたびに、この操作を再度実行する必要があります。
 
-1. ツールバーで「**[!UICONTROL パブリッシュ]**」をクリックして、パブリッシュウィザードを開きます。
+1. ツールバーの **[!UICONTROL Publish]** をクリックして、発行アシスタントを開きます。
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

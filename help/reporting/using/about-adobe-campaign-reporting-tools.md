@@ -5,7 +5,7 @@ description: 組み込みレポートまたはカスタマイズされたレポ�
 feature: Reporting, Monitoring
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Adobe Campaign には、いくつかのレポートツールが用意されて�
 
    詳しくは、[この節](../../reporting/using/about-campaign-built-in-reports.md)を参照してください。
 
-1. **記述的データ分析**：データベース内のデータに関する統計情報を生成できる視覚的なツールが用意されています。専用のウィザードを使用して記述的分析レポートを作成でき、そのコンテンツやレイアウトをニーズに応じてカスタマイズできます。
+1. **記述的データ分析**：データベース内のデータに関する統計情報を生成できる視覚的なツールが用意されています。専用のアシスタントを使用して記述的な分析レポートを作成し、ニーズに応じてコンテンツやレイアウトをカスタマイズできます。
 
    詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
 

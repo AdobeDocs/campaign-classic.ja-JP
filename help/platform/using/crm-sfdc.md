@@ -4,10 +4,10 @@ title: Campaign - Salesforce CRM コネクタ
 description: Campaign と Salesforce を連携する方法を学ぶ
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Salesforce CRM へのログインに使用するパスワード。
 
    * **[!UICONTROL API バージョン]**
 API のバージョンを選択します。
-1. 設定ウィザードを実行して、使用可能な CRM テーブルを生成します。設定ウィザードでは、テーブルを収集し、一致するスキーマを作成できます。
+1. 設定アシスタントを実行して、使用可能な CRM テーブルを生成します。設定アシスタントでは、テーブルを収集し、一致するスキーマを作成できます。
 
    ![](assets/crm_connectors_sfdc_launch.png)
 

@@ -5,10 +5,10 @@ description: 「ユースケース：コンテンツ管理の作成」
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -382,7 +382,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 >
 >コンテンツの作成について詳しくは、[コンテンツテンプレートの使用](using-a-content-template.md)を参照してください。
 
-### 配信ウィザードでのコンテンツの作成 {#creating-content-in-the-delivery-wizard}
+### 配信アシスタントでのコンテンツの作成 {#creating-content-in-the-delivery-assistant}
 
 配信内で直接コンテンツを作成するには、次の手順に従います。
 
@@ -390,7 +390,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   コンテンツ管理フォームを使用してコンテンツを定義するためのタブが、配信ウィザードに追加されます。
+   コンテンツ管理フォームでコンテンツを定義するために、配信アシスタントにタブが追加されます。
 
 1. ニュースレターの可変情報を入力します。
 

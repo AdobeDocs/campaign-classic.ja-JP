@@ -5,10 +5,10 @@ description: 動的な Web アプリケーション、ランディングペー�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTR
 
 Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**&#x200B;ノードで、新しいテンプレートを作成できます。
 
-以下に示すように、作成ウィザードを使用して、有効にするオプションを選択できます。
+作成アシスタントでは、以下に示すように、有効にするオプションを選択できます。
 
 ![](assets/webapp_create_template.png)
 

@@ -5,9 +5,9 @@ description: データ指向の API
 feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9d84c01b217579b5a291d5761a5dd2f8f8960df8
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 **ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） ](#executequery--xtk-querydef-) に示されています。
 
-### 書き込む {#write}
+### 書き込み {#write}
 
 書き込みコマンドを使用すると、ベースの 1 つ以上のテーブルにエントリを含む、単純なドキュメントや複雑なドキュメントを書き込むことができます。
 
@@ -64,7 +64,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 「xtk:queryDef」スキーマの「ExecuteQuery」メソッドの定義：
 
-```
+```xml
 <method name="ExecuteQuery" const="true">
   <parameters>
     <param desc="Output XML document" name="output" type="DOMDocument" inout="out"/>
@@ -80,7 +80,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 クエリの XML ドキュメントの構造については、「xtk:queryDef」スキーマを参照してください。 このドキュメントでは、SQL クエリーの句として「select」、「where」、「order by」、「group by」、「having」について説明します。
 
-```
+```xml
 <queryDef schema="schema_key" operation="operation_type">
   <select>
     <node expr="expression1">
@@ -114,7 +114,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 `<subquery>  : </subquery>` の例
 
-```
+```xml
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
   <subQuery schema="xtk:operatorGroup">
      <select>
@@ -143,7 +143,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 メールのフィルターを使用して、受信者の姓と名（「nms：受信者」スキーマ）を取得します。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <!-- fields to retrieve -->
   <select>
@@ -162,7 +162,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 フォルダーおよび電子メールドメインでフィルタリングされた受信者のリストを、生年月日の降順に並べ替えて返します。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -189,14 +189,14 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 クエリによって返されるレコードの数を 100 に制限するには、次の手順に従います。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
 ...
 ```
 
 次の 100 件のレコードを取得するには、**startLine** 属性を追加して、同じクエリを再度実行します。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
 ...
 ```
@@ -205,7 +205,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 クエリのレコード数をカウントするには、次の手順に従います。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="count"">
   <!-- condition on the folder and domain of the email -->
   <where>  
@@ -222,7 +222,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 複数回参照されるメールアドレスを取得するには：
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -244,7 +244,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 クエリを簡略化するには、グループ化するフィールドに **groupBy** 属性を直接追加します。
 
-```
+```xml
 <select>
   <node expr="@email" groupBy="true"/>
 </select>
@@ -260,7 +260,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * 単一の式の単純なバージョン：
 
-  ```
+  ```xml
   <where>
     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
   </where>
@@ -268,7 +268,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * `<condition>` の要素を持つ構造化バージョン。
 
-  ```
+  ```xml
   <where>
     <condition bool-operator="AND">
       <condition expr="@age > 15" bool-operator="OR"/>
@@ -283,7 +283,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 同じフィールドに複数の条件が適用される場合は、「OR」演算子を「IN」演算子に置き換えることができます。
 
-```
+```xml
 <where>
   <condition>
     <condition expr="@age IN (15, 45)"/>
@@ -300,7 +300,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   フォルダーラベルに対するフィルターの例：
 
-  ```
+  ```xml
   <where>
     <condition expr="[folder/@label] like 'Segment%'"/>
   </where>
@@ -308,7 +308,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   「nms:recipient」スキーマからフォルダーのフィールドを取得するには：
 
-  ```
+  ```xml
   <select>
     <!-- label of recipient folder -->
     <node expr="[folder/@label]"/>
@@ -321,7 +321,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   「ニュースレター」情報サービスを購読している受信者をフィルタリングするには：
 
-  ```
+  ```xml
   <where>
     <condition expr="subscription" setOperator="EXISTS">
       <condition expr="@name = 'Newsletter'"/>
@@ -333,7 +333,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   「購読」コレクションリンクの例：
 
-  ```
+  ```xml
   <select>
     <node expr="subscription/@label"/>
   </select>
@@ -345,7 +345,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   この例では、受信者ごとに、受信者が登録しているメールと情報サービスのリストがクエリによって返されます。
 
-  ```
+  ```xml
   <queryDef schema="nms:recipient" operation="select">
     <select>
       <node expr="@email"/>
@@ -371,7 +371,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 クエリを構築すると、「連結」値は文字（? odbc では、SQL クエリの本文に `#[index]#` in postgres...）を追加します。
 
-```
+```xml
 <select>
   <!--the value will be bound by the engine -->
   <node expr="@startDate = #2002/02/01#"/>                   
@@ -386,21 +386,6 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 >
 >クエリに「order-by」または「group-by」命令が含まれている場合、データベースエンジンは値を「バインド」できません。 @noSqlBind=&quot;true&quot;属性は、クエリの「select」命令や「where」命令に配置する必要があります。
 
-#### クエリ作成のヒント： {#query-building-tip-}
-
-クエリの構文に役立つように、Adobe Campaign クライアントコンソール（**[!UICONTROL ツール/汎用クエリエディター…]** メニュー）の汎用クエリエディターを使用してクエリを記述できます。 手順は次のとおりです。
-
-1. 取得するデータを選択します。
-
-   ![](assets/s_ncs_integration_webservices_queyr1.png)
-
-1. フィルター条件を定義します。
-
-   ![](assets/s_ncs_integration_webservices_queyr2.png)
-
-1. クエリを実行し、Ctrl + F4 キーを押して、クエリのソースコードを表示します。
-
-   ![](assets/s_ncs_integration_webservices_queyr3.png)
 
 ### 出力ドキュメント形式 {#output-document-format}
 
@@ -414,7 +399,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 「選択」操作で、返されるドキュメントは要素の列挙です。
 
-```
+```xml
 <!-- the name of the first element does not matter -->
 <recipient-collection>   
   <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -425,7 +410,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 「count」タイプの操作で返されるドキュメントの例：
 
-```
+```xml
 <recipient count="3"/>
 ```
 
@@ -433,7 +418,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 エイリアスを使用すると、出力ドキュメント内のデータの場所を変更できます。 **alias** 属性は、対応するフィールドに XPath を指定する必要があります。
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <select>
     <node expr="@firstName" alias="@firstName"/>
@@ -445,13 +430,13 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 戻り値：
 
-```
+```xml
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
 ```
 
 次の代わりに使用します。
 
-```
+```xml
 <recipient firstName="John" lastName="Doe">
   <folder label="Recipients"/>
 </recipient>
@@ -461,7 +446,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * クエリ :
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -486,7 +471,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * 応答：
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -511,7 +496,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 「xtk:session」スキーマの「Write」および「WriteCollection」メソッドの定義：
 
-```
+```xml
 <method name="Write" static="true">
   <parameters>
     <param name="doc" type="DOMDocument" desc="Difference document"/>
@@ -548,7 +533,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 メールアドレス、生年月日、市区町村を使用して、受信者を更新または挿入（暗黙的な「insertOrUpdate」操作）します。
 
-```
+```xml
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
   <location city="Newton"/>
 </recipient>
@@ -556,7 +541,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 受信者の削除：
 
-```
+```xml
 <recipient xtkschema="nms:recipient" _operation="delete" email="rene.dupont@adobe.com" folder-id=1203 _key="@email, [@folder-id]"/>
 ```
 
@@ -568,7 +553,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 複数の受信者の更新または挿入：
 
-```
+```xml
 <recipient-collection xtkschema="nms:recipient">    
   <recipient email="john.doe@adobe.com" firstName="John" lastName="Doe" _key="@email"/>
   <recipient email="peter.martinez@adobe.com" firstName="Peter" lastName="Martinez" _key="@email"/>
@@ -582,7 +567,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 内部名（@name）に基づいてフォルダーを受信者に関連付けます。
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <folder name="Folder2" _operation="none"/>
 </recipient>
@@ -600,7 +585,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 受信者からの会社（「cus:company」スキーマ内のリンクされたテーブル）の更新：
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <company name="adobe" code="ERT12T" _key="@name" _operation="update"/>
 </recipient>
@@ -610,7 +595,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 グループ関係テーブル（&quot;nms:rcpGrpRel&quot;）を使用してグループに受信者を追加する：
 
-```
+```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
   <rcpGrpRel _key="[rcpGroup/@name]">
     <rcpGroup name="GRP1"/>
@@ -630,7 +615,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * クエリ :
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -646,7 +631,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
 * 応答：
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -658,7 +643,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 
   次のエラーで返されます。
 
-  ```
+  ```xml
   <?xml version='1.0'?>
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>

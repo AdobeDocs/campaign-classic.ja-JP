@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 22420452d4df2e8161c91a42ad0d20ceb4796e82
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 32%
+source-wordcount: '529'
+ht-degree: 31%
 
 ---
 
@@ -21,9 +21,12 @@ Campaign **Federated Data Access** （FDA）オプションを使用して、外
 1. [Linux](#snowflake-linux) で [!DNL Snowflake] を設定します。
 1. Campaign での [!DNL Snowflake][ 外部アカウント ](#snowflake-external) の設定
 
->[!NOTE]
+>[!CAUTION]
 >
->[!DNL Snowflake] コネクタは、ホスト型およびオンプレミス型のデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
+>* [!DNL Snowflake] コネクタは、ホスト型およびオンプレミス型のデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
+>
+>* [!DNL Snowflake] ODBC ドライバの最小サポート バージョンは **2.24.4** です。
+>
 
 ![](assets/snowflake_3.png)
 

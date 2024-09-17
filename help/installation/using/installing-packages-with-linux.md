@@ -8,16 +8,18 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Linux でのパッケージのインストール{#installing-packages-with-linux}
 
 Adobe Campaignには、特定のバージョンのバイナリと設定ファイルを含む **nlserver** パッケージが付属しています。
+
+
 
 インストールコマンドを使用すると、次のことができます。
 
@@ -34,6 +36,11 @@ Adobe Campaignには、特定のバージョンのバイナリと設定ファイ
 **ping`hostname`** コマンドを実行すると、サーバーが自分自身に到達できることを確認できます。
 
 ## RPM パッケージに基づく配布 {#distribution-based-on-rpm--packages}
+
+>[!AVAILABILITY]
+>
+>v7.4.1 以降、RPM Linux パッケージ用のライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+> 
 
 Adobe Campaignを RPM （RHEL、CentOS）オペレーティングシステムにインストールするには、次の手順に従います。
 

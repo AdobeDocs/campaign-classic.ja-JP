@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 新しいビルド（オンプレミス）へのアップグレード{#upgrading}
-
-
 
 アップグレードプロセスを開始する前に、アップグレード先のAdobe Campaignのバージョンを特定して確認し、[ リリースノート ](../../rn/using/latest-release.md) を参照してください。
 
@@ -119,15 +117,17 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 [ クライアントコンソールの可用性の詳細 ](../../installation/using/client-console-availability-for-windows.md)。
 
->[!NOTE]
->
->ビルド 8757 以降、サードパーティライブラリは必要なくなりました。
-
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
 まず、Adobe Campaignの更新されたパッケージを両方とも復元します。ユーザー資格情報を使用して [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
 
 ファイルは **nlserver6-v7-XXX.rpm**
+
+>[!AVAILABILITY]
+>
+>v7.4.1 以降、RPM Linux パッケージ用のライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+> 
+
 
 ### 更新の実行 {#perform-an-update}
 

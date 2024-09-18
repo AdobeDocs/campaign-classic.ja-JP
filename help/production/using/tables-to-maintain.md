@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
@@ -205,4 +205,4 @@ ht-degree: 1%
 
 ## 顧客テーブル {#customer-tables}
 
-前述のリストに加えて、お客様がプラットフォーム設定時に作成した（Adobe Campaign データモデルに存在しない）テーブルも、特にデータの読み込み中や同期処理中に頻繁に更新される場合、断片化の影響を受ける可能性があります。 これらのテーブルは、デフォルトのAdobe Campaign データモデル（例：**NmsRecipient**）の一部にすることができます。 この場合、カスタムテーブルを見つけるには、Adobe Campaign プラットフォームの管理者が個々のデータベースモデルの監査を実施する必要があります。 これらのテーブルは、アドビのメンテナンス手順で必ずしも明示的に言及されているわけではありません。
+上記のリストに加えて、プラットフォームをセットアップする際に（Adobe Campaign データモデルに存在しない）お客様が作成したテーブルも、特にデータの読み込みや同期手順の際にテーブルが頻繁に更新される場合、断片化の影響を受ける可能性があります。 これらのテーブルは、デフォルトのAdobe Campaign データモデル（例：**NmsRecipient**）の一部にすることができます。 この場合、カスタムテーブルを見つけるには、Adobe Campaign プラットフォームの管理者が個々のデータベースモデルの監査を実施する必要があります。 これらのテーブルは、アドビのメンテナンス手順で必ずしも明示的に言及されているわけではありません。

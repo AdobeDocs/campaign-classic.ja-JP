@@ -5,10 +5,10 @@ description: Web サービスについて
 feature: API
 role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 7%
+source-wordcount: '645'
+ht-degree: 8%
 
 ---
 
@@ -37,10 +37,10 @@ Adobe Campaign API を使用するには、次のトピックを熟知してい�
 
 Adobe Campaignでは、次の 2 種類の API を使用します。
 
-* データモデルデータをクエリするための汎用データアクセス API。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
+* データモデルデータをクエリするための汎用データアクセス API。[データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
 * 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。[ ビジネス指向 API](../../configuration/using/business-oriented-apis.md) を参照してください。
 
-API を開発し、Adobe Campaignとやり取りするには、使用するデータモデルに精通している必要があります。 Adobe Campaignでは、ベースの完全な説明を生成できます。 [ モデルの説明 ](../../configuration/using/data-oriented-apis.md#description-of-the-model) を参照してください。
+API を開発し、Adobe Campaignとやり取りするには、データモデルに関する知識が必要です。 Adobe Campaignでは、ベースの完全な説明を生成できます。 [ モデルの説明 ](../../configuration/using/data-oriented-apis.md#description-of-the-model) を参照してください。
 
 ## SOAP 呼び出し {#soap-calls}
 

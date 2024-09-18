@@ -5,10 +5,10 @@ description: キャンペーンレポートのベストプラクティス
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 99%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ if(string(ctx@_historyId)!==""))
 
 さらに、Adobe Campaign では、次の改善を推奨します。
 
-* データモデルの作業：インデックス付きのフィールドは、主に計算式を強化するために使用する必要があります。
+* データモデルを操作する：インデックス付きフィールドは、主に計算式を改善するために使用する必要があります。
 
   インデックス付きのフィールドをすばやく見つけるには、Adobe Campaign のインターフェイスで列の名前に注目します。フィールドにインデックスが付いている場合、並べ替え矢印に赤の下線が付いています。
 

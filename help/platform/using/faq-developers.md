@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Adobe Campaign データベースの概念データモデルは、一連のビルトインテーブルとそのインタラクションで構成されます。アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
 
-Campaign データモデルについて詳しくは、[ここをクリック](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)してください。
+[Campaign データモデルの詳細については、ここをクリックしてください ](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)。
 
 ベストプラクティスについては、[この記事](../../configuration/using/data-model-best-practices.md)を参照してください。
 

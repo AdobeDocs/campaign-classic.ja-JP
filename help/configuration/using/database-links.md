@@ -5,10 +5,10 @@ description: データベースマッピング
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 99%
+source-wordcount: '933'
+ht-degree: 98%
 
 ---
 

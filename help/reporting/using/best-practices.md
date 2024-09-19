@@ -7,8 +7,8 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
    * Adobe Campaign データベースからのデータのエクスポート（ワークフローを使用）。[この節](../../workflow/using/about-workflows.md)を参照してください。
    * ピボットテーブルの作成。詳しくは、[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照してください。
    * 集計データの表示。詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
-   * アシスタントを使用してデータを分析します。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
+   * アシスタントを使用したデータ分析。詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 大量のデータの分析。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
 1. ターゲット母集団の特定

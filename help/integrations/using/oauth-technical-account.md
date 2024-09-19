@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
 source-git-commit: 2ce7a91aaddb0df412fc0002ff1463d48b2b7c3c
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,16 +61,16 @@ ht-degree: 84%
    * **[!UICONTROL テクニカルアカウント ID]**
    * **[!UICONTROL 組織 ID]**
 
-## Campaign への OAuth プロジェクト資格情報の追加 {#add-credentials}
+## Campaign での OAuth プロジェクト資格情報の追加 {#add-credentials}
 
-上記の手順を実行したら、OAuth プロジェクト資格情報をAdobe Campaignに追加します。
+上記の手順を実行したら、Adobe Campaign で OAuth プロジェクト資格情報を追加します。
 
 >[!NOTE]
 >
->ホステッド環境またはマネージドCloud Serviceのお客様の場合、この手順は不要です。Adobeが既に、お使いの環境に OAuth プロジェクト資格情報を追加しています。
+>ホステッド環境または Managed Cloud Services のお客様の場合、この手順は必要ありません。アドビは既に OAuth プロジェクト資格情報をお客様の環境に追加しています。
 >
 
-オンプレミス環境またはハイブリッド環境のお客様は、次の手順に従います。
+オンプレミス環境またはハイブリッド環境のお客様の場合は、次の手順に従います。
 
 1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインします。
 

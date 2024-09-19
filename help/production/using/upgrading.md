@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
+source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1163'
+ht-degree: 8%
 
 ---
 
@@ -125,7 +125,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 >[!AVAILABILITY]
 >
->v7.4.1 以降、RPM Linux パッケージ用のライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+>v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
 > 
 
 

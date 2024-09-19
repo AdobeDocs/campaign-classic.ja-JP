@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: d31aa28da06e65664da655b6b082563767b35f7a
+source-git-commit: 4be5bf54362240aac1b77298b08b14d3e5542f52
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,6 @@ _2024年6月18日（PT）_
 * [Campaign テクニカルオペレーターを開発者コンソールに移行](../../technotes/using/ims-migration.md)し、[エンドユーザー認証用に IMS に移行](../../technotes/using/migrate-users-to-ims.md)すると、ユーザーインターフェイスと API 制限を有効にして、ネイティブ認証に固有のオプションと機能を削除できるようになりました。[詳細情報](../../technotes/using/impact-ims-migration.md)
 
 
-
 ### 互換性のアップデート {#release-7-4-1-compat}
 
 [Adobe Campaign の互換性マトリックス](compatibility-matrix.md)は、この新しいリリースに伴う変更を反映して更新されており、以下にリストされています。
@@ -48,6 +47,9 @@ _2024年6月18日（PT）_
    * iOS 用の新しい Campaign SDK 1.0.27 は、iOS 16 および 17 と、最新の [Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}と互換性があります。
    * Android 14 用の新しい Campaign SDK。
 
+### その他の変更 {#release-7-4-1-other}
+
+v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 オンプレミスまたはハイブリッド環境のお客様は、管理者がこれらのライブラリをインストールする必要があります。
 
 ### パッチ {#release-7-4-1-patches}
 

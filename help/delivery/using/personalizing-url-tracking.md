@@ -7,15 +7,15 @@ feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # URL トラッキングオプションの設定{#personalizing-url-tracking}
 
-高度なメッセージトラッキング設定には、配信アシスタントのツールバーにある **[!UICONTROL トラッキングと画像]** アイコンからアクセスできます。
+メッセージトラッキングの詳細設定には、配信アシスタントのツールバーにある&#x200B;**[!UICONTROL トラッキング＆画像]**&#x200B;アイコンからアクセスできます。
 
 >[!NOTE]
 >

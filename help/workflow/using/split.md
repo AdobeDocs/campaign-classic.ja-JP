@@ -5,9 +5,9 @@ description: 分割ワークフローアクティビティの詳細を説明し�
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2169'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 1. ターゲットから抽出してサブセットを作成するレコードの最大数を指定できます。それには、「**[!UICONTROL 選択レコード数の制限]**」オプションをチェックして、「**[!UICONTROL 編集...]**」リンクをクリックします。
 
-   アシスタントを使用すると、このサブセットのレコードの選択モードを選択できます。 手順については、[サブセットレコード数の制限](#limiting-the-number-of-subset-records)を参照してください。
+   アシスタントが表示されたら、このサブセットのレコードの選択モードを選択します。手順については、[サブセットレコード数の制限](#limiting-the-number-of-subset-records)を参照してください。
 
    ![](assets/s_user_segmentation_partage4.png)
 

@@ -7,9 +7,9 @@ feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * インスタンスの設定でパブリックリソースの管理が有効になっているかどうかを確認できます。[詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* 配信アシスタントから、「**[!UICONTROL 画像]**」アイコンを使用して、画像を含むHTMLページを読み込んだり、HTMLエディターを使用して直接画像を挿入したりできます。 [詳細情報](defining-the-email-content.md#adding-images)
+* 配信アシスタントで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。[詳細情報](defining-the-email-content.md#adding-images)
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
@@ -155,6 +155,6 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示を確認することをお勧めします。
 
-* 配信アシスタントの **[!UICONTROL プレビュー]** サブタブでは、受信者に対応する各コンテンツのレンダリングを表示できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](defining-the-email-content.md#message-content)
+* 配信アシスタントの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](defining-the-email-content.md#message-content)
 
 * 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssassin](spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)

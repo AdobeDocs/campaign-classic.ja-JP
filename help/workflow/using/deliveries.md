@@ -4,9 +4,9 @@ title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 90%
   <tr> 
    <td> <span class="uicontrol">データベースのクリーンアップ</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>このワークフローは、データベースのメンテナンス・ワークフローです。統計およびプロセスとは異なる計算を行い、配置ウィザードで定義された構成に従ってデータベースから古いデータを削除します。 デフォルトで、毎日午前 4 時にトリガーされます。</p> <p>詳しくは、この<a href="../../production/using/database-cleanup-workflow.md">ページ</a>を参照してください。</p> </td> 
+   <td> <p>データベースのメンテナンスワークフローです。統計とプロセスの各種の計算を行い、デプロイメントウィザード内の定義済みの設定に応じてデータベースから古いデータを削除します。デフォルトで、毎日午前 4 時にトリガーされます。</p> <p>詳しくは、この<a href="../../production/using/database-cleanup-workflow.md">ページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">一時停止されたワークフローのクリーンアップ</span> <br /> </td> 

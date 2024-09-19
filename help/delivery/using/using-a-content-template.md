@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-詳しくは、完全な実装例 [ 配信アシスタントでのコンテンツの作成 ](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant) を参照してください。
+詳しくは、完全な実装例、[配信アシスタントでのコンテンツの作成](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant)を参照してください。
 
 ## コンテンツインスタンスの作成 {#creating-a-content-instance}
 

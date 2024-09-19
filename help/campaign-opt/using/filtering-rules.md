@@ -6,9 +6,9 @@ role: User, Data Engineer
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 94%
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-これらの特定のタイポロジは、ターゲットが選択されている場合、配信にリンクできます。配信アシスタントで **[!UICONTROL 宛先]** リンクをクリックし、「**[!UICONTROL 除外]**」タブをクリックします。
+作成したタイポロジは、ターゲットが選択されている場合、配信にリンクできます：配信アシスタントで、「**[!UICONTROL 宛先]**」リンクをクリックし、「**[!UICONTROL 除外]**」タブをクリックします。
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

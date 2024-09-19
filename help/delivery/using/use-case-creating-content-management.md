@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -390,7 +390,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   コンテンツ管理フォームでコンテンツを定義するために、配信アシスタントにタブが追加されます。
+   コンテンツ管理フォームを使用してコンテンツを定義するためのタブが、配信アシスタントに追加されます。
 
 1. ニュースレターの可変情報を入力します。
 

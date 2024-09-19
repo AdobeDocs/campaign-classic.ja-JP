@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: ef89551952cfbfd525a4dff716fe4676c1252d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1653'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 ### オペレーティングシステム {#o-s-eol}
 
-* 7.3.1 リリース以降、Adobe Campaignは Windows 8 および Windows Server 2012 との互換性がなくなりました。
+* 7.3.1 リリースより、Adobe Campaign は Windows 8 および Windows Server 2012 との互換性を失います。
 
 * 22.1 リリースより、Adobe Campaign は CentOs 8.x（64 ビット）との互換性を失います。CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。[詳細情報](https://www.centos.org/centos-linux-eol/)。
 

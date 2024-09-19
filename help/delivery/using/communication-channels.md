@@ -7,9 +7,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 チャネルに応じて、配信モードは次のようになります。
 
 * Adobe Campaign 経由の直接一括配信（メールチャネルのデフォルトモード）。
-* 配信アシスタントで生成された出力ファイルを提供されるスペシャリスト演算子による外部配信（ダイレクトメールチャネルのデフォルトモード）。
+* 配信アシスタントで生成された出力ファイルを受け取る、専門オペレーター経由の外部配信（ダイレクトメールチャネルのデフォルトモード）。
 
 外部アカウントは、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。この設定は、エキスパートユーザーのみが実行するようにしてください。
 

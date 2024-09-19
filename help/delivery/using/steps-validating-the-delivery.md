@@ -7,9 +7,9 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 98%
 
 * 最初のオプションを選択すると、配達確認のコピーを保持できます。
 * 次の 2 つのオプションを使用すると、ブロックリスト上の受信者と強制隔離中のアドレスを保持できます。メインターゲットのこれらのオプションについては、[除外設定のカスタマイズ](steps-defining-the-target-population.md#customizing-exclusion-settings)を参照してください。これらのアドレスは、配信ターゲットの場合はデフォルトで除外されますが、配達確認ターゲットの場合はデフォルトで保持されます。
-* 「**[!UICONTROL 配達確認の配信コードを保持]**」オプションを選択すると、配達確認の配信コードが、対応する配信の配信コードと同じ値になります。このコードは、配信アシスタントの最初の手順で指定します。
+* 「**[!UICONTROL 配達確認の配信コードを保持]**」オプションを選択すると、配達確認の配信コードが、対応する配信の配信コードと同じ値になります。このコードは、配信アシスタントの最初の手順で指定されます。
 * デフォルトでは、配達確認の件名の前には「配達確認#」が付けられます。ここで、「#」は配達確認の番号です。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
 
 ## タイポロジを使用したプロセスの検証 {#validation-process-with-typologies}

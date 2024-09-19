@@ -5,9 +5,9 @@ description: ミッドソーシングインフラストラクチャに対する�
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
    </element>
    ```
 
-1. スキーマに加えた変更を適用するには、データベース更新ウィザードを起動します。 この機能は、**ツール**/**詳細**/**データベース構造を更新** から利用できます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。[詳細情報](../../configuration/using/updating-the-database-structure.md)
+1. スキーマに加えた変更を適用するには、データベース更新アシスタントを起動します。このアシスタントには、**ツール**／**詳細**／**データベース構造を更新**&#x200B;を通じてアクセスできます。データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。[詳細情報](../../configuration/using/updating-the-database-structure.md)
 
 1. 「**インバウンド SMSアクティビティ**」を含むワークフローを停止してバックアップします。
 

@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 インストール手順は次のとおりです。
 
-1. Adobe Campaign クライアントコンソールの **[!UICONTROL ツール/詳細/パッケージをインポート]** から、パッケージインポートアシスタントにアクセスします。
+1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート]**&#x200B;から、パッケージインポートアシスタントにアクセスします。
 
    ![](assets/package_ios.png)
 

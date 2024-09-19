@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 * **[!DNL value]**：配信のフィールド、配信変数、配信に読み込まれたカスタムオブジェクトにアクセスできるようにします。[詳細情報](#value)
 * **[!DNL foreach]**：カスタムオブジェクトとして読み込まれた配列をループ処理します。 [詳細情報](#foreach)
 
-これらは、配信アシスタントから直接テストできます。 これらはコンテンツのプレビューに適用され、トラッキングボタンをクリックすると、URL のリストが表示されます。
+配信アシスタントから直接テストできます。これらはコンテンツのプレビューに適用され、トラッキングボタンをクリックすると、URL のリストが表示されます。
 
 ## [!DNL include] {#include}
 
@@ -57,7 +57,7 @@ ht-degree: 96%
   <%@ include option='NmsServer_URL' %>
   ```
 
-  配信アシスタントのパーソナライゼーションボタンを使用して、正しい構文を取得します。
+  正しい構文を取得するには、配信アシスタントのパーソナライゼーションボタンを使用します。
 
 ## [!DNL value] {#value}
 

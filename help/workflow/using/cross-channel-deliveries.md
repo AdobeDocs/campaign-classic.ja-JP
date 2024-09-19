@@ -5,9 +5,9 @@ description: クロスチャネル配信の詳細を説明します
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 92%
 1. ワークフローに&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを追加して、モバイル番号を持つ受信者とメールアドレスを持つ受信者を分割します。
 1. 「**[!UICONTROL 配信]**」タブで、各ターゲットに対する配信を選択します。
 
-   ワークフローの配信アクティビティをダブルクリックして、従来の配信アシスタントと同様に配信を作成します。 詳しくは、この[ページ](../../delivery/using/about-email-channel.md)を参照してください。
+   ワークフローの配信アクティビティをダブルクリックして、従来の配信アシスタントと同じ方法で配信を作成します。詳しくは、この[ページ](../../delivery/using/about-email-channel.md)を参照してください。
 
    ![](assets/cross_channel_delivery_3.png)
 

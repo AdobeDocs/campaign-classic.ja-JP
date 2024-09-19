@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-その後、アシスタントを閉じ、「**[!UICONTROL 配信]**」タブから配信ログを確認します。このタブには、配信の詳細からアクセスできます。
+その後、アシスタントを閉じて、配信の詳細情報から「**[!UICONTROL 配信]**」タブを開くと、配信ログを参照できます。
 
 配信ログの取得モードは、配信プロパティの「**[!UICONTROL 分析]**」タブで設定できます。
 

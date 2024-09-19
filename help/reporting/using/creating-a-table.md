@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2661'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -461,6 +461,6 @@ ht-degree: 99%
 
 このタイプのテーブルでは、データベース内のデータに関して計算した統計を表示できます。
 
-これらのタイプのレポートの設定は、記述的分析アシスタントで使用される設定と類似しています。 詳しくは、[このページ](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template)を参照してください。
+これらのタイプのレポートの設定は、記述的分析アシスタントの場合と似ています。詳しくは、[このページ](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template)を参照してください。
 
 ピボットテーブルの作成について詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。

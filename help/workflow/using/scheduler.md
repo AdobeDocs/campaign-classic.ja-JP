@@ -5,9 +5,9 @@ description: スケジューラーワークフローアクティビティの詳�
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 ![](assets/s_user_segmentation_scheduler.png)
 
-アシスタントを使用すると、アクティビティの頻度と有効期間を定義できます。 設定手順は、以下のとおりです。
+アシスタントを使用して、アクティビティの頻度と有効期限を定義できます。設定手順は、以下のとおりです。
 
 1. 有効化の頻度を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 

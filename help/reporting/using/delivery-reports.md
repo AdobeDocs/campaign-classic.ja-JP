@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1646'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 * **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。リンクをクリックするにはメールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
-* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信アシスタント（トラッキングされる URL）と同じように定義する必要があります。 この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。
+* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクを配信アシスタント（トラック対象 URL）と同じように定義する必要があります。この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送されるメール数の推定値。この値は、ユニークユーザーの数とメールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
   >[!NOTE]

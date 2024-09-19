@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer, Data Engineer
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
 
 1. **[!UICONTROL 字幕]**（iOS 通知ペイロードの subtitle パラメーターの値）を追加することができます。[この節](configuring-the-mobile-application.md)を参照してください。
 
-1. メッセージのコンテンツをアシスタントの **[!UICONTROL メッセージコンテンツ]** セクションに入力します。 パーソナライゼーションフィールドの使用については、[パーソナライゼーションについて](about-personalization.md)の節を参照してください。
+1. アシスタントの「**[!UICONTROL メッセージコンテンツ]**」セクションにメッセージのコンテンツを入力します。パーソナライゼーションフィールドの使用については、[パーソナライゼーションについて](about-personalization.md)の節を参照してください。
 
    ![](assets/nmac_delivery_ios_5.png)
 

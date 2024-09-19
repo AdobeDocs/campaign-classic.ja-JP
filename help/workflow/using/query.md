@@ -5,9 +5,9 @@ description: クエリワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
    ![](assets/query_temporary_table.png)
 
-1. アシスタントを使用して母集団を定義します。 入力するフィールドは、ターゲットのタイプに応じて変わる場合があります。「**[!UICONTROL プレビュー]**」タブを使用して、現在の条件によるターゲット母集団をプレビューできます。
+1. アシスタントを使用して母集団を定義します。入力するフィールドは、ターゲットのタイプに応じて変わる場合があります。「**[!UICONTROL プレビュー]**」タブを使用して、現在の条件によるターゲット母集団をプレビューできます。
 
    フィルターまたはクエリの作成および使用について詳しくは、この[節](../../platform/using/filtering-options.md)を参照してください。
 
@@ -97,7 +97,7 @@ Adobe Campaign データベースからデータを追加するには：
 
 ターゲット母集団にリンクされたデータコレクションを追加するには：
 
-1. ウィザードの最初の手順で、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションを選択します。
+1. アシスタントの最初の手順で、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションを選択します。
 1. 収集対象のデータを含んでいるテーブルを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/wf_add_data_linked_table.png)

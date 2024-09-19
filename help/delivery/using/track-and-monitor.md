@@ -7,9 +7,9 @@ feature: Monitoring, Reporting
 role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 受信者の行動を十分に把握するために、受信、開封、リンクのクリック、購読解除など、受信者が配信にどのように反応するかを追跡できます。Campaign Classic では、この情報は、配信のターゲットとなる受信者の「トラッキング」タブと配信の「トラッキング」タブに表示されます。
 
-**ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信アシスタントの下部にある「URL を表示」オプションを選択します。 メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
+**ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信アシスタントの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
 詳しくは、[トラッキングの設定](how-to-configure-tracked-links.md)の節と[トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators)の説明を参照してください。
 

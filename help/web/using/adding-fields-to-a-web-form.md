@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 Web フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。Web フォームにより、入力フィールド、選択フィールド、静的コンテンツおよび高度なコンテンツ（Captcha、購読など）を提供できます。
 
-ウィザードを使用してフィールドを追加すると、選択したフィールドまたはストレージ変数に基づいて、フィールドタイプが自動的に検出されます。 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL タイプ]**&#x200B;ドロップダウンボックスを使用して編集できます。
+アシスタントを使用してフィールドを追加する場合、フィールドタイプは、選択したフィールドまたはストレージ変数に基づいて自動的に検出されます。「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL タイプ]**&#x200B;ドロップダウンボックスを使用して編集できます。
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -45,7 +45,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ## フィールド作成アシスタント {#field-creation-assistant}
 
-フォームの各ページで、ツールバーの最初のボタンを使用してフィールドを追加できます。これを行うには、**[!UICONTROL アシスタントを使用して追加]** メニューに移動します。
+フォームの各ページで、ツールバーの最初のボタンを使用してフィールドを追加できます。これを行うには、**[!UICONTROL アシスタントを使用して追加]**&#x200B;メニューに移動します。
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ XML ドキュメントの先頭と末尾には必ず **`<package>`** 要素を�
 
 パッケージは次の 3 つの方法でエクスポートできます。
 
-* **[!UICONTROL パッケージエクスポートアシスタント]** を使用すると、1 つのパッケージ内の一連のオブジェクトをエクスポートできます。 詳しくは、[パッケージへの一連のオブジェクトのエクスポート](#exporting-a-set-of-objects-in-a-package)を参照してください。
+* **[!UICONTROL パッケージエクスポートアシスタント]**&#x200B;を使用して、単一のパッケージにオブジェクトセットをエクスポートできます。詳しくは、[パッケージへの一連のオブジェクトのエクスポート](#exporting-a-set-of-objects-in-a-package)を参照してください。
 * **単一のオブジェクト**&#x200B;を右クリックして、**[!UICONTROL アクション／パッケージにエクスポート]**&#x200B;を選択して、パッケージにエクスポートできます。
 * **パッケージ定義**&#x200B;を使用して、パッケージ構造を作成し、オブジェクトを追加した後、パッケージにエクスポートできます。詳しくは、 [パッケージ定義の管理](#managing-package-definitions)を参照してください。
 
@@ -99,11 +99,11 @@ XML ドキュメントの先頭と末尾には必ず **`<package>`** 要素を�
 
 ### パッケージに含まれる一連のオブジェクトのエクスポート {#exporting-a-set-of-objects-in-a-package}
 
-Adobe Campaign クライアントコンソールの **[!UICONTROL ツール/詳細/パッケージをエクスポート…]** メニューを使用すると、パッケージエクスポートアシスタントにアクセスできます。
+Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート]**&#x200B;メニューを選択すると、パッケージエクスポートアシスタントにアクセスできます。
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-3 種類のパッケージの場合、アシスタントでは次の手順を実行できます。
+アシスタントでは、これら 3 種類のパッケージを以下に示す手順で扱います。
 
 1. エクスポートの対象とするエンティティのリストをドキュメントタイプ別に表示します。
 
@@ -303,7 +303,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## パッケージのインポート {#importing-packages}
 
-Adobe Campaign クライアントコンソールのメインメニュー **[!UICONTROL ツール/詳細設定/パッケージをインポート]** を使用すると、パッケージインポートアシスタントにアクセスできます。
+Adobe Campaign クライアントコンソールのメインメニューで&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをインポート]**&#x200B;を選択すると、パッケージインポートアシスタントにアクセスできます。
 
 ライセンス条項に応じて、（例えば、別の Adobe Campaign インスタンスから）既にエクスポートしたパッケージをインポートするか、[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 

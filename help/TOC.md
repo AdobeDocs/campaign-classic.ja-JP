@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -772,7 +772,7 @@ ht-degree: 99%
       + [フィルタリングスキーマ](configuration/using/filtering-schemas.md)
       + [PII 表示の制限](configuration/using/restricting-pii-view.md)
       + [データベース構造の更新](configuration/using/updating-the-database-structure.md)
-      + [新しいフィールド アシスタント](configuration/using/new-field-wizard.md)
+      + [新しいフィールドアシスタント](configuration/using/new-field-wizard.md)
       + [データスキーマの構造](configuration/using/structure-of-a-data-schema.md)
       + [スキーマの再生成](configuration/using/regenerating-schemas.md)
       + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)

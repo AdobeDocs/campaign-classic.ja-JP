@@ -7,9 +7,9 @@ feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-また、ファイルを「配信 **[!UICONTROL 添付ファイル]**」フィールドに直接ドラッグ&amp;ドロップするか、配信アシスタントツールバーの **[!UICONTROL 添付]** アイコンを使用することもできます。
+また、配信の「**[!UICONTROL 添付ファイル]**」フィールドにファイルを直接ドラッグ＆ドロップしたり、配信アシスタントのツールバーから&#x200B;**[!UICONTROL 添付]**&#x200B;アイコンを使用したりできます。
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 

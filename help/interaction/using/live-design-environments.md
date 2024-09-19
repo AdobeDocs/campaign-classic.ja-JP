@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->別のテーブル（匿名オファー用の訪問者テーブルまたは特定の受信者テーブル）をターゲットにするには、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。 詳しくは、[オファー環境の作成](#creating-an-offer-environment)を参照してください。
+>別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにするには、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。詳しくは、[オファー環境の作成](#creating-an-offer-environment)を参照してください。
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -47,7 +47,7 @@ ht-degree: 89%
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. **[!UICONTROL 次へ]** をクリックして、アシスタントの次の画面に進みます。**[!UICONTROL 提案のストレージスキーマを生成]** ボックスをオンにして、**[!UICONTROL 保存]** をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックしてアシスタントの次の画面に進み、「**[!UICONTROL 提案のストレージスキーマを生成]**」ボックスをオンにして、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/offer_env_anonymous_002.png)
 

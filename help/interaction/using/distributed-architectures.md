@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 オファーは、自動的にデプロイされてから、実行インスタンスおよびコントロールインスタンスにパブリッシュされます。
 
-デザイン環境で削除されたオファーは、すべてのオンラインインスタンスで無効化されます。古くなった提案とオファーは、パージ期間（各インスタンスのデプロイメントウィザードで指定）とスライド期間（入力提案のタイポロジルールで指定）の後、すべてのインスタンスで自動的に削除されます。
+デザイン環境で削除されたオファーは、すべてのオンラインインスタンスで無効化されます。不要になった提案やオファーは、パージ期間（各インスタンスのデプロイメントウィザードで指定）およびスライド期間（受信提案のタイポロジルールで指定）の後、自動的に削除されます。
 
 ![](assets/interaction_powerbooster_schema2.png)
 

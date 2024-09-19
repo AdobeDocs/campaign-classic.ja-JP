@@ -5,9 +5,9 @@ description: ワークフローにおけるデータのライフサイクルの�
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 * ターゲットを分析
 
-  このメニューでは、トランジションのデータに関する統計とレポートを作成できる記述的分析アシスタントにアクセスできます。
+  このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析アシスタントを表示します。
 
   詳しくは、[この節](../../reporting/using/using-the-descriptive-analysis-wizard.md)を参照してください。
 

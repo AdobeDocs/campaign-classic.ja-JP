@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 4be5bf54362240aac1b77298b08b14d3e5542f52
+source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 93%
 
 ---
@@ -49,7 +49,7 @@ _2024年6月18日（PT）_
 
 ### その他の変更 {#release-7-4-1-other}
 
-v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 オンプレミスまたはハイブリッド環境のお客様は、管理者がこれらのライブラリをインストールする必要があります。
+v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 オンプレミスまたはハイブリッド環境のお客様は、管理者がこれらのライブラリをインストールする必要があります。 [詳細情報](../../installation/using/installing-packages-with-linux.md)
 
 ### パッチ {#release-7-4-1-patches}
 

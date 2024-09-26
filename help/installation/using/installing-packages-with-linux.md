@@ -8,14 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: b4ab1fe5e98211c2b1bcdb319f10777c032831c7
+source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
 
-# Linux でのパッケージのインストール{#installing-packages-with-linux}
+# Linux でのパッケージのインストール {#installing-packages-with-linux}
 
 Adobe Campaignには、特定のバージョンのバイナリと設定ファイルを含む **nlserver** パッケージが付属しています。
 
@@ -60,6 +60,8 @@ Adobe Campaignを RPM （RHEL、CentOS）オペレーティングシステムに
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
+リストに表示される依存関係のほとんどは必須であり、インストールされていない場合は起動で `nlserver` ません（例外は opendk です。別の JDK をインストールできます）。
+
 [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) の実行に必須の `bc` コマンドは、デフォルトでは、すべての Linux ディストリビューションで使用することはできません。 コマンドが使用可能かどうかを確認するには、`which bc` コマンドを実行します。 そうでない場合は、インストールする必要があります。
 
 CentOS では、bc.x86_64 パッケージをインストールする必要があります。connect as **root** を実行して、次のコマンドを実行します。
@@ -81,32 +83,9 @@ Adobe Campaignを Debian 64 ビットオペレーティングシステムにイ�
 1. インストールするには、**root** として接続し、次のコマンドを実行します。ここで **XXXX** はAdobe Campaignのビルド番号です。
 
    ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
+   apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   依存関係がない場合は、次のコマンドを実行します。
-
-   ```
-   apt-get install -f
-   ```
-
-
-1. Debian オペレーティングシステムにAdobe Campaignをインストールする場合は、次の点を考慮してください。
-
-* 事前に OpenSSL をインストールしておく必要があります。
-* libicu と libc-aresYY をインストールします。XX はバージョンで、次のコマンドを使用します。
-
-  ```
-  apt install libicuXX
-  ```
-
-  ```
-  apt install libc-aresXX
-  ```
-
-  ```
-  apt install openjdk-XX-jdk
-  ```
 
 ## パラメーターのパーソナライズ {#personalizing-parameters}
 

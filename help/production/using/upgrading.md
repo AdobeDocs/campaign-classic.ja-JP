@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1198'
 ht-degree: 8%
 
 ---
@@ -117,7 +117,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 [ クライアントコンソールの可用性の詳細 ](../../installation/using/client-console-availability-for-windows.md)。
 
-### 更新されたパッケージの取得 {#obtain-updated-packages}
+### 更新されたパッケージのインストール {#obtain-updated-packages}
 
 まず、Adobe Campaignの更新されたパッケージを両方とも復元します。ユーザー資格情報を使用して [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
 
@@ -128,15 +128,14 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 >v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
 > 
 
-
-### 更新の実行 {#perform-an-update}
+次に、以下に説明するように、必要なパッケージをインストールします。
 
 * RPM ベースの配布（RedHat、SuSe）
 
   これらをインストールするには、ルートとしてを実行します。
 
   ```
-  $rpm -Uvh nlserver6-v7-XXXX.rpm
+  yum install ./nlserver6-v7-XXXX.rpm
   ```
 
   ここで、XXX はファイルのバージョンです。
@@ -147,17 +146,20 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
   ```
 
+  ほとんどの依存関係は必須であり、インストール `nlserver` れていない場合は起動できません。 唯一の例外は openjdk です。必要に応じて、別の JDK をインストールできます。
+
+
 * DEB ベースの配布（Debian）
 
   これらをインストールするには、ルートとしてを実行します。
 
   ```
-  dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+  apt install ./nlserver6-v7-XXXX-amd64_debX.deb
   ```
 
 >[!NOTE]
 >
->すべてのインストール手順について詳しくは、[ この節 ](../../installation/using/installing-campaign-standard-packages.md) を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[ アップグレードの競合の解決 ](#resolving-upgrade-conflicts) を参照してください。
+>すべてのインストール手順について詳しくは、[ この節 ](../../installation/using/installing-packages-with-linux.md) を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[ アップグレードの競合の解決 ](#resolving-upgrade-conflicts) を参照してください。
 
 ### Web サーバーを再起動します。 {#reboot-the-web-server}
 

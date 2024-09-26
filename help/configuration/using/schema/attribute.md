@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1573'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ _operation （string）、advanced （boolean）、applicableIf （string）、a
 * **dbEnum （string）**:「クローズド」列挙の内部名を受け取ります。 定義済みリストの値は、`<srcschema>` で定義する必要があります。
 * **defOnDuplicate （boolean）**：この属性を有効にすると、レコードが複製されたときに、デフォルト値（@default で定義）が自動的にレコードに再適用されます。
 * **default （文字列）**：デフォルトフィールドの値を定義できます（関数の呼び出し、デフォルト値）。 この属性は XTK 式を受け取ります。
-* **desc （string）**：属性の説明を挿入できます。 この説明は、インターフェイスのステータスバーに表示されます。
+* **desc （string）**：属性の説明を挿入できます。 この説明は、要素の概要と用途を理解するために使用されます。 フォームに表示できます。
 * **edit （string）**：この属性は、スキーマにリンクされたフォームで使用される入力のタイプを指定します。
 * **enum （string）**：フィールドにリンクされた定義済みリストの名前を受け取ります。 定義済みリストは、同じスキーマまたはリモートスキーマに挿入できます。
 * **expr （文字列）**：フィールドの事前計算式を定義します。 この属性は、Xpath または XTK 式を受け取ります。
@@ -90,7 +90,7 @@ _operation （string）、advanced （boolean）、applicableIf （string）、a
    * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  特性フィールドには、特性に対して単一の値が許可される単純な oà¹ フィールドと、複数の値を含むことができる収集要素に特性がリンクされる oà¹複数選択フィールドの 2 種類があります。
+  特性フィールドには、特性に対して単一の値が付与される単純な oà<sup>1</sup> フィールドと、複数の値を含むことができる収集要素に特性がリンクされる oà<sup>1</sup> 複数選択フィールドの 2 種類があります。
 
   スキーマ内で特性が定義される場合、このスキーマには、単一のフィールドに基づくメインキーが必要です（複合キーは許可されていません）。
 

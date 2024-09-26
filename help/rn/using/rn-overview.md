@@ -6,18 +6,33 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 99%
 
 ---
 
 # リリースの更新{#rn-overview}
 
-
-
 Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、**製品ビルド**&#x200B;としてリリースされます。新しい各ビルドに関する詳細は、[リリースノート](latest-release.md)を参照してください。
+
+<!--
+## Product versions
+
+For Campaign, the version naming is the following:
+
+1. Campaign Major version are v7 and v8.
+1. A Minor version is a sub-version of a Major version. For example: v7.3, v7.4.
+1. A Patch version is a post-release fix. For example: v7.3.2, v7.3.3.
+
+
+Aligned with this naming, Campaign has 3 types of upgrades:
+
+1. Major Upgrades - A major upgrade is an upgrade to a new version of Adobe Campaign (ex: v7 to v8)
+1. Minor Upgrades - A minor upgrade brings new features, enhancements and fixes (ex: 7.4.X to 7.5.X)
+1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
+-->
 
 ## リリースのステータス{#rn-statuses}
 
@@ -27,22 +42,8 @@ Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、
 | ステータス | 説明 |
 |---|---|
 | [!BADGE 一般公開（GA）]{type=Positive} | 実稼動環境で検証済され、アドビが推奨する、最新の安定したビルド。 |
-| [!BADGE 限定提供（LA）]{type=Neutral} | オンデマンドデプロイメントのみ。 |
-| [!BADGE リリース候補]{type=Informative} | 新機能を備えた最新ビルド。 |
-| [!BADGE 公開停止]{type=Caution} | デプロイメントなし。バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
+| [!BADGE  限定提供 ]{type=Informative} | オンデマンドデプロイメントのみ。 |
 | [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
-
-<!--
-![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
-
-![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
-
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
-
-![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
-
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
--->
 
 ## リリースサイクル{#rn-cycle}
 

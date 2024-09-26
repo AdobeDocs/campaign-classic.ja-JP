@@ -4,9 +4,9 @@ title: スキーマの要素と属性 – 要素
 description: element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Adobe Campaignには、次の 4 種類の `<element>` 要素があります。
 * **dbEnum （string）**:「クローズド」列挙の内部名を受け取ります。 定義済みリストの値は、`<srcschema>` で定義する必要があります。
 * **defOnDuplicate （boolean）**：この属性を有効にすると、レコードが複製されたときに、デフォルト値（@default で定義）が自動的にレコードに再適用されます。
 * **default （string）**：要素の動作（関数の呼び出し、デフォルト値）を定義できます。 この属性は XTK 式を受け取ります。
-* **desc （string）**：要素の説明を挿入できます。 この説明は、インターフェイスのステータスバーに表示されます。
+* **desc （string）**：要素の説明を挿入できます。 この説明は、要素の概要と用途を理解するために使用されます。 フォームに表示できます。
 * **displayAsField （ブール値）**：この属性をアクティブ化すると、「リンク」タイプの `<element>` がスキーマのツリービュー（「構造」タブ）にフィールドとして表示されます。 これにより、リンクをローカルフィールドとして表示し、クエリ中に動作を変更できます。 クエリの SELECT 内に要素が見つかると、リンクターゲットの値が使用されます。 クエリの WHERE 内に要素が見つかった場合は、基になるリンクのキーが使用されます。
 * **edit （string）**：この属性は、スキーマにリンクされたフォームで使用される入力のタイプを指定します。
 * **enum （string）**：フィールドにリンクされた定義済みリストの名前を受け取ります。 定義済みリストは、同じスキーマまたはリモートスキーマに挿入できます。

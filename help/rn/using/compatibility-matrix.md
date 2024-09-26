@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: b23632d0718d62d61e94e636937b93aa39bbe43f
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 
 >[!CAUTION]
 >
->このマトリックスは定期的に更新され、新しいサポート対象システムとツールは追加、非推奨システムとツールは削除されます。
+>このマトリックスは、サポートされる新しいシステムおよびツールが追加され、非推奨が削除されることにより、定期的に更新されています。
 
 ## オペレーティングシステム {#OperatingSystems}
 
@@ -53,7 +53,7 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 </td>
 </tr>
 <tr>
-<td>RHEL</td>
+<td>Red Hat Enterprise Linux （RHEL）</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -91,10 +91,12 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 
 <table>
 <tbody>
+<td><strong>Web サーバー</strong></td>
+<td><strong>Web サーバーバージョン</strong></td>
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0（Windows Server）</p>
+<p>10.0</p>
 </td>
 </tr>
 <tr>

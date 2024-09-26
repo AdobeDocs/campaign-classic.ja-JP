@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## リリース 7.3.5 - ビルド 9368 {#release-7-3-5}
 
-[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 _2023年12月5日（PT）_
 
@@ -50,7 +50,7 @@ _2023年12月5日（PT）_
 
 ## リリース 7.3.4 - ビルド 9364 {#release-7-3-4}
 
-[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 
 >[!CAUTION]
@@ -120,7 +120,7 @@ _2023年9月7日（PT）_
 
 ## リリース 7.3.3 - ビルド 9359 {#release-7-3-3}
 
-[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 >[!AVAILABILITY]
 >
@@ -156,7 +156,7 @@ _2023年3月20日（PT）_
 
 ## リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
 
-[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 
 >[!AVAILABILITY]

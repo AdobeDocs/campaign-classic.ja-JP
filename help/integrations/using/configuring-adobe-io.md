@@ -12,9 +12,9 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
 source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 >
 > サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存の [ サービスアカウント（JWT）資格情報 ](oauth-technical-account.md) は、2025 年 1 月 27 日（PT）まで引き続き機能します。</br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年1月27日（PT）まで引き続き機能します。</br>
 >
 > * Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 

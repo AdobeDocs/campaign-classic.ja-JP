@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '852'
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ if(string(ctx@_historyId)!==""))
 
 さらに、Adobe Campaign では、次の改善を推奨します。
 
-* データモデルを操作する：インデックス付きフィールドは、主に計算式を改善するために使用する必要があります。
+* データモデルの作業：インデックス付きのフィールドは、主に計算式を強化するのに使用する必要があります。
 
   インデックス付きのフィールドをすばやく見つけるには、Adobe Campaign のインターフェイスで列の名前に注目します。フィールドにインデックスが付いている場合、並べ替え矢印に赤の下線が付いています。
 

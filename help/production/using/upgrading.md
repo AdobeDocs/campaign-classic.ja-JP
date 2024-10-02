@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1274'
 ht-degree: 8%
 
 ---
@@ -125,7 +125,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 >[!AVAILABILITY]
 >
->v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+>v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。これらのライブラリをインストールしてください。
 > 
 
 次に、以下に説明するように、必要なパッケージをインストールします。
@@ -148,6 +148,29 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
   ほとんどの依存関係は必須であり、インストール `nlserver` れていない場合は起動できません。 唯一の例外は openjdk です。必要に応じて、別の JDK をインストールできます。
 
+  `epel-release` パッケージがインストールされていない場合は、インストールします。 これを実行するには、root として次のコマンドを入力します。
+
+  ```
+  yum install epel-release
+  ```
+
+  Campaign パッケージをインストールするには、をルートとして実行します。
+
+  ```
+  yum update ./nlserver6-v7-XXXX.rpm
+  ```
+
+  更新を確認する前に、出力が次のようになっていることを確認します。
+
+  ```
+  ==================================================================================================== 
+  Package                         Architecture  Version                    Repository           Size 
+  ==================================================================================================== 
+  Upgrading: 
+  nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
+  ```
+
+  `Upgrading:` の代わりに `Removing:` を読み取った場合は、コマンドをキャンセルします。 削除を説明するいくつかのエラー（上記）があります。 その場合は、リストされている不足している依存関係を更新/インストールしてエラーを修正し、コマンドを再度実行してください。
 
 * DEB ベースの配布（Debian）
 
@@ -160,6 +183,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 >[!NOTE]
 >
 >すべてのインストール手順について詳しくは、[ この節 ](../../installation/using/installing-packages-with-linux.md) を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[ アップグレードの競合の解決 ](#resolving-upgrade-conflicts) を参照してください。
+>
 
 ### Web サーバーを再起動します。 {#reboot-the-web-server}
 
@@ -195,12 +219,12 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 * コマンドラインインターフェイスでは、エラーは 3 つの山形 **>>>** で具体化され、同期は自動的に停止します。 警告は二重の山形 **>>** で実体化され、同期が完了したら解決する必要があります。 アップグレード後に、コマンドプロンプトに概要が表示されます。 以下はその一例です。
 
   ```
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
   ```
 
   リソースの競合に関する警告の場合は、それを解決するためにユーザーの注意が必要です。
@@ -260,7 +284,7 @@ Adobe Campaign アプリケーションサーバーをインストールして�
 Adobe Campaign アプリケーションサーバー（**nlserver web**）をインストールしたマシンで、**setup-client-6.XXXX.exe** パッケージを取得してコピーし、**/usr/local/neolane/nl6/datakit/nl/eng/jsp** として保存します。
 
 ```
- cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
+cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 ```
 
 次回クライアントコンソールが接続されると、ウィンドウに更新の可用性が通知され、ユーザーは更新のダウンロードとインストールが可能になります。

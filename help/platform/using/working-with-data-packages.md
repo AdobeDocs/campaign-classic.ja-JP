@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+workflow-type: tm+mt
 source-wordcount: '2544'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -169,10 +169,10 @@ Adobe Campaign のエクスポートメカニズムでは、エクスポート�
 <package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
- <version buildDate="2013-01-09 10:30:18.954Z"/>
+ <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
  <entities schema="nms:operation">
-  <operation duration="432000" end="2013-01-14" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="2013-01-09">
+  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
+  modelName="opEmpty" start="AAAA-MM-DD">
    <controlGroup>
     <where filteringSchema=""/>
    </controlGroup>
@@ -188,7 +188,7 @@ label="" name="" namespace="" vendor="">
    </fcpSeed>
    <owner _operation="none" name="admin" type="0"/>
    <program _operation="none" name="nmsOperations"/>
-   <task end="2013-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2013-01-16 10:07:51.000Z"
+   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
    status="1">
     <owner _operation="none" name="admin" type="0"/>
     <operation _operation="none" internalName="OP1"/>
@@ -354,7 +354,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 >[!IMPORTANT]
 >
 >異なるバージョン間のインポートは、アドビではサポートされていません。
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
 
 スキーマとデータベースの構造に注意してください。スキーマを含むパッケージのインポートの後にスキーマの生成が必要です。
 
@@ -369,7 +369,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 * エンティティは、「admin」要素と「platform」要素の両方として見なすことができます。
 * Campaign インスタンスにアップロードする際に、パッケージに複数のエンティティを含めないでください。
 
-<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
 
 新しいインスタンスに設定をデプロイする必要がある場合は、すべてのエンティティパッケージをインポートできます。
 
@@ -427,7 +427,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 
 #### アップデートパッケージ {#update-package}
 
-最後に、アップデートパッケージの番号について説明します。アップデートパッケージには、プレフィックスが「5」のパッケージ番号（エンティティ、機能またはキャンペーン）が割り当てられます。次に例を示します。
+最後に、アップデートパッケージの番号について説明します。これは、接頭辞として「5」を持つパッケージ番号（エンティティ、機能またはキャンペーン）です。 次に例を示します。
 * 5001 で 1 つのスキーマを更新
 * 5200 ですべてのキャンペーンを更新
 * 5101 で 101 機能を更新
@@ -450,7 +450,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-また、コメントの日付も指定する必要があります。アップデートパッケージに関するコメントは常に「親」（「5」プレフィックスを含まないパッケージ）に報告してください。
+また、コメントの日付も指定する必要があります。更新パッケージに関するコメントは常に「親」（5 つのプレフィックスを除くパッケージ）に報告してください。
 
 >[!IMPORTANT]
 >

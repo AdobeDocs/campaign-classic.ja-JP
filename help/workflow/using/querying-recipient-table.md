@@ -4,10 +4,10 @@ title: 受信者テーブルのクエリ
 description: 受信者テーブルに対するクエリ方法を説明します。
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: d6bed05e083b2e349db331e6016cbb8f91f00eaf
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -83,6 +83,6 @@ ht-degree: 100%
 
    ![](assets/query_editor_nveau_13.png)
 
-   「**[!UICONTROL 生成された SQL クエリ]**」タブでは、クエリ結果が SQL フォーマットで表示されます。
+   「**[!UICONTROL 生成された SQL クエリ]**」タブには、クエリ結果が SQL 形式で表示されます。
 
    ![](assets/query_editor_nveau_14.png)

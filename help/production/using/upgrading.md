@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 8%
@@ -170,7 +170,9 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
   nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
   ```
 
-  `Upgrading:` の代わりに `Removing:` を読み取った場合は、コマンドをキャンセルします。 削除を説明するいくつかのエラー（上記）があります。 その場合は、リストされている不足している依存関係を更新/インストールしてエラーを修正し、コマンドを再度実行してください。
+  >[!IMPORTANT]
+  >
+  >`Upgrading:` の代わりに `Removing:` を読み取った場合は、コマンドをキャンセルします。 削除を説明するいくつかのエラー（上記）があります。 その場合は、リストされている不足している依存関係を更新/インストールしてエラーを修正し、コマンドを再度実行してください。
 
 * DEB ベースの配布（Debian）
 

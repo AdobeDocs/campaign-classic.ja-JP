@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 | ステータス | 説明 |
 |---|---|
 | [!BADGE 一般公開（GA）]{type=Positive} | 実稼動環境で検証済され、アドビが推奨する、最新の安定したビルド。 |
-| [!BADGE  限定提供 ]{type=Informative} | オンデマンドデプロイメントのみ。 |
+| [!BADGE 限定提供（LA）]{type=Informative} | オンデマンドデプロイメントのみ。 |
 | [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
 
 ## リリースサイクル{#rn-cycle}

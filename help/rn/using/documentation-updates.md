@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 99%
 
 ## 2024
 
-### 2024 年 9 月 {#sept-2024}
+### 2024年9月 {#sept-2024}
 
-リリースステータスが短縮および簡略化されました。 [詳細情報](rn-overview.md)
+リリースステータスが削減および簡素化されました。[詳細情報](rn-overview.md)
 
-Linux パッケージのインストールが v7.4.1 用に更新されました。[ 詳細を表示 ](../../installation/using/installing-packages-with-linux.md)
+Linux パッケージのインストールが v7.4.1 用に更新されました。[詳細情報](../../installation/using/installing-packages-with-linux.md)
 
 ### 2024年6月 {#june-2024}
 
-7.4.1 の改善点、互換性の更新およびパッチを含むリリースノートの節を更新しました。 [詳細情報](latest-release.md)
+7.4.1 の改善点、互換性の更新およびパッチを含むリリースノートの節を更新しました。[詳細情報](latest-release.md)
 
 ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。[詳細情報](../../workflow/using/starting-a-workflow.md)
 

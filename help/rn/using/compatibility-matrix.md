@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 
 >[!CAUTION]
 >
->このマトリックスは、サポートされる新しいシステムおよびツールが追加され、非推奨が削除されることにより、定期的に更新されています。
+>このマトリックスは、新しいサポート対象システムやツールの追加、非推奨システムとツールの削除など、定期的に更新されます。
 
 ## オペレーティングシステム {#OperatingSystems}
 
@@ -53,7 +53,7 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 </td>
 </tr>
 <tr>
-<td>Red Hat Enterprise Linux （RHEL）</td>
+<td>Red Hat Enterprise Linux（RHEL）</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>

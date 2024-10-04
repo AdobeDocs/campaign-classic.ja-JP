@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: e5468f2aa5dc18c2b24c3e80e416e423ad0e13c9
+source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1247'
 ht-degree: 8%
 
 ---
@@ -194,7 +194,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 >* スクリプトは **apache** ではなく **httpd** と呼ばれる場合があります。
 >* 次の応答が得られるまで、このコマンドを実行する必要があります。
 >
->   この操作は、Apache が新しいライブラリを適用するために必要です。
+>   `This operation is required in order for Apache to apply the new library.`
 
 次に、Apache を再起動します。
 

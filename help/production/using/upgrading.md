@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
+source-git-commit: e5468f2aa5dc18c2b24c3e80e416e423ad0e13c9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1260'
 ht-degree: 8%
 
 ---
@@ -132,22 +132,6 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 * RPM ベースの配布（RedHat、SuSe）
 
-  これらをインストールするには、ルートとしてを実行します。
-
-  ```
-  yum install ./nlserver6-v7-XXXX.rpm
-  ```
-
-  ここで、XXX はファイルのバージョンです。
-
-  rpm ファイルは、CentOS/Red Hat ディストリビューションで見つけることができるパッケージに依存しています。 これらの依存関係の一部を使用しない場合は、rpm の「nodeps」オプションを使用する必要があります。
-
-  ```
-  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-  ```
-
-  ほとんどの依存関係は必須であり、インストール `nlserver` れていない場合は起動できません。 唯一の例外は openjdk です。必要に応じて、別の JDK をインストールできます。
-
   `epel-release` パッケージがインストールされていない場合は、インストールします。 これを実行するには、root として次のコマンドを入力します。
 
   ```
@@ -173,6 +157,14 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
   >[!IMPORTANT]
   >
   >`Upgrading:` の代わりに `Removing:` を読み取った場合は、コマンドをキャンセルします。 削除を説明するいくつかのエラー（上記）があります。 その場合は、リストされている不足している依存関係を更新/インストールしてエラーを修正し、コマンドを再度実行してください。
+
+  rpm ファイルは、CentOS/Red Hat ディストリビューションで見つけることができるパッケージに依存しています。 これらの依存関係の一部を使用しない場合は、rpm の「nodeps」オプションを使用する必要があります。
+
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
+
+  ほとんどの依存関係は必須であり、インストール `nlserver` れていない場合は起動できません。 唯一の例外は openjdk です。必要に応じて、別の JDK をインストールできます。
 
 * DEB ベースの配布（Debian）
 

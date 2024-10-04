@@ -6,14 +6,14 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: ht
+source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
+workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
 
-# リリースの更新{#rn-overview}
+# リリースの更新 {#rn-overview}
 
 Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、**製品ビルド**&#x200B;としてリリースされます。新しい各ビルドに関する詳細は、[リリースノート](latest-release.md)を参照してください。
 
@@ -34,10 +34,9 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
 -->
 
-## リリースのステータス{#rn-statuses}
+## リリースのステータス {#rn-statuses}
 
 [リリースノート](latest-release.md)では、新しいビルドのステータスが色分けされて表示されます。 
-
 
 | ステータス | 説明 |
 |---|---|
@@ -45,7 +44,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 | [!BADGE 限定提供（LA）]{type=Informative} | オンデマンドデプロイメントのみ。 |
 | [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
 
-## リリースサイクル{#rn-cycle}
+## リリースサイクル {#rn-cycle}
 
 Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対する体験を向上させ、最新かつ最大限の情報を手に入れることを目的としています。
 
@@ -53,7 +52,7 @@ Adobe Campaign の&#x200B;**最新の安定したビルドを実行**&#x200B;す
 
 ホステッド環境のお客様はアクションを起こすことなく、最新の安定したビルドのアップグレードのメリットが自動的に得られます。詳しくは、[年次アップグレードの節](#yearly-upgrade)を参照してください。古いビルドから移行する場合は、まずこのビルドにアップグレードすることをお勧めします。
 
-## レコメンデーション{#recommendations}
+## レコメンデーション {#rn-recommendations}
 
 安定した設定を確保するために、同じクライアント設定で実行しているすべてのサーバーに&#x200B;**同じビルド**&#x200B;をインストールすることをお勧めします。
 

@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '2560'
+ht-degree: 99%
 
 ---
 
@@ -293,10 +293,10 @@ ht-degree: 100%
       + [指標の計算](reporting/using/indicator-calculation.md)
       + [「人」と「受信者」](reporting/using/person-people-recipients.md)
    + 母集団の分析 {#analyzing-populations}
-      + [記述的分析について](reporting/using/about-descriptive-analysis.md)
-      + [記述的分析アシスタントの使用](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [レポート設定](reporting/using/processing-a-report.md)
-      + [ユースケース](reporting/using/use-cases.md)
+      + [記述的分析とは](reporting/using/about-descriptive-analysis.md)
+      + [最初の記述的分析レポートの作成](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [分析レポートの管理と設定](reporting/using/processing-a-report.md)
+      + [Analysis reporting の使用例](reporting/using/use-cases.md)
    + レポートの新規作成 {#creating-new-reports}
       + [レポートを設計するための主な手順](reporting/using/about-reports-creation-in-campaign.md)
       + [レポートの新規作成](reporting/using/creating-a-new-report.md)

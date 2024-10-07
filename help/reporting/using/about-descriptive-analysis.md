@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 記述的分析の概要
-description: 記述的分析の概要
+title: 記述的分析とは
+description: 記述的分析レポートを使用した母集団の分析
 feature: Reporting, Monitoring
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 93%
 
 ---
 
-# 記述的分析の概要{#about-descriptive-analysis}
-
-
+# 記述的分析とは {#about-descriptive-analysis}
 
 データベース内のデータに関する統計を生成するために、専用アシスタントを使用して記述的分析レポートを作成し、必要に応じて内容や表示方法を調整します。
 

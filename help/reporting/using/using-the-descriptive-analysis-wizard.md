@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 記述的分析アシスタントの使用
-description: 記述的分析アシスタントの使用
+title: 最初の記述的分析レポートの作成
+description: アシスタントを使用して、最初の記述的分析レポートを作成する方法を説明します
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '1656'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 98%
 
 ---
 
-# 記述的分析アシスタントの使用{#using-the-descriptive-analysis-wizard}
-
-
+# 最初の記述的分析レポートの作成 {#using-the-descriptive-analysis-wizard}
 
 記述的分析レポートを作成するには、専用のアシスタントを使用します。設定は、分析するデータおよび希望するレンダリングによって異なります。
 

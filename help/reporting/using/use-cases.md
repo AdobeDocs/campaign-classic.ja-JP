@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: ユースケース
-description: ユースケースのレポート
+title: Analysis reporting の使用例
+description: Analysis reporting の使用例
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '1431'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '1436'
+ht-degree: 99%
 
 ---
 
-# ユースケース{#use-cases}
-
-
+# Analysis reporting の使用例 {#use-cases}
 
 ## 母集団の分析 {#analyzing-a-population}
 

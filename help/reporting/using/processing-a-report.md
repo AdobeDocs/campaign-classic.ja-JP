@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 分析レポートの使用
-description: 分析レポートの使用
+title: 分析レポートの管理と設定
+description: 分析レポートの管理と設定
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 97%
 
 ---
 
-# 分析レポートの使用{#processing-a-report}
-
-
+# 分析レポートの管理と設定 {#processing-a-report}
 
 ## 分析レポートの保存 {#saving-an-analysis-report}
 

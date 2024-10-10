@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

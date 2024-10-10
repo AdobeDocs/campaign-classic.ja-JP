@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 99%
       + [記述的分析とは](reporting/using/about-descriptive-analysis.md)
       + [最初の記述的分析レポートの作成](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [分析レポートの管理と設定](reporting/using/processing-a-report.md)
-      + [Analysis reporting の使用例](reporting/using/use-cases.md)
+      + [分析レポートのユースケース](reporting/using/use-cases.md)
    + レポートの新規作成 {#creating-new-reports}
       + [レポートを設計するための主な手順](reporting/using/about-reports-creation-in-campaign.md)
       + [レポートの新規作成](reporting/using/creating-a-new-report.md)

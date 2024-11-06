@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
+source-git-commit: 387bcf39c13cc1f9544433b9441769f4b16b52ca
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '649'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ oracleが開発した Java Development Kit （JDK）と、**OpenJDK** の使用�
 
 >[!AVAILABILITY]
 >
->* v7.4.1 以降、Campaign には Java JDK 11 以降が必要です。 Campaign サーバーが Windows 環境にインストールされている場合、JRE はデフォルトでは提供されなくなっているので、生成する必要があります。 JRE_HOME 環境変数は、Java ランタイム DLL （jvm.dll）を検索するために必要です。
+>* v7.4.1 以降、Campaign には **Java JDK 11** 以降が必要です。 Campaign サーバーが Windows 環境にインストールされている場合、Java ランタイム（JRE）は自動的には検出されなくなります。 JRE_HOME 環境変数は、Campaign が `bin/server/jvm.dll` ファイルを検索できるフォルダーに設定されている必要があります。 例えば、JDK 11 が `C:\Program Files\Java\jdk-11` フォルダーの下にインストールされている場合、JRE_HOME は `C:\Program Files\Java\jdk-11` である必要があります。
 >
 >* v7.4.1 以降、Tomcat 10.1 がデフォルトバージョンです。
 >

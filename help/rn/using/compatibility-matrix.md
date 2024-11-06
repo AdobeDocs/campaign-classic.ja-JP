@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 4525651445b729b44f05dec69650584271675cef
+source-git-commit: 2662392265b1fca7b5ab8d8b0930b1d1b7f65678
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
@@ -33,7 +33,9 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 <td><strong>オペレーティングシステムのバージョン</strong></td>
 <td><strong>最小 Campaign バージョン</strong></td>
 <tr>
-<td>Debian</td>
+<td>
+<p>Debian</p>
+</td>
 <td>
 <p>11</p>
 </td>
@@ -43,7 +45,9 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 </td>
 </tr>
 <tr>
-<td>Red Hat Enterprise Linux（RHEL）</td>
+<td>
+<p>Red Hat Enterprise Linux（RHEL）</p>
+</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -56,7 +60,9 @@ Adobe Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)
 </td>
 </tr>
 <tr>
-<td>Windows Server</td>
+<td>
+<p>Windows Server</p>
+</td>
 <td>
 <p>2022</p>
 <p>2019</p>

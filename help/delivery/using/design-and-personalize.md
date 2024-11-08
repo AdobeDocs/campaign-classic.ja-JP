@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1304'
-ht-degree: 100%
+source-git-commit: d34f75fadb02b4c03acc0c2d7be52df65320ec2d
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします
 
-* Adobe Campaign Classic デジタルコンテンツエディター（DCE）モジュールには、モバイル用のレスポンシブデザインでフォーマットされたテンプレートが含まれます（**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;から使用できます）。詳しくは、[この記事](https://theblog.adobe.com/responsive-email-design-101/)を参照してください。
+* Adobe Campaign Classic デジタルコンテンツエディター（DCE）モジュールには、**[!UICONTROL リソース]**/**[!UICONTROL テンプレート]**/**[!UICONTROL コンテンツテンプレート]** から利用できるモバイル用のレスポンシブデザイン形式のテンプレートがいくつか含まれています。
 
 ## 画像の管理 {#manage-images}
 

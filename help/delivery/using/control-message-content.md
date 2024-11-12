@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、[メールコンテンツの定義](defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](design-and-personalize.md)を参照してください。
+>メールコンテンツの編集について詳しくは、[ メールコンテンツの定義 ](defining-the-email-content.md) を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
@@ -44,8 +44,6 @@ ht-degree: 100%
 受信者のエクスペリエンスを向上させ、受信者がメールを開くようにするために、Adobe Campaign ではメッセージをパーソナライズできます。
 
 Adobe Campaign でのパーソナライゼーションフィールドの使用について詳しくは、[この節](personalization-fields.md)を参照してください。
-
-コンテンツを作成する際にパーソナライゼーションを最適化するためのヒントについては、[この節](design-and-personalize.md#optimize-personalization)を参照してください。
 
 ## オプトアウトリンクとフォーム {#opt-out}
 

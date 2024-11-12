@@ -5,8 +5,10 @@ description: オーディエンスを選択する際のベストプラクティ�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Audiences
 role: User
+hide: true
+hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%

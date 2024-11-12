@@ -4,8 +4,10 @@ title: 配信テンプレートの使用
 description: 配信テンプレートの使用
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
+hide: true
+hidefromtoc: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%

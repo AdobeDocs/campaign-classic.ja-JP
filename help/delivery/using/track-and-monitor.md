@@ -5,9 +5,11 @@ description: メッセージのトラッキングと監視の方法を学ぶ
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Reporting
 role: User
+hide: true
+hidefromtoc: true
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 

@@ -5,8 +5,10 @@ description: Adobe Campaign 配信でパーソナライズされたコンテン�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design, Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: d34f75fadb02b4c03acc0c2d7be52df65320ec2d
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 98%

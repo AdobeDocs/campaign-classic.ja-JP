@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 98%
 
 ---
 
@@ -40,9 +40,8 @@ ht-degree: 100%
 Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 
 * インスタンスの正しい設定：詳しくはアドビ担当者にお問い合わせください。
-* 適切なネットワーク構成：[この節](optimize-delivery.md#network-config)と[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
+* 適切なネットワーク設定：[ ドメインの設定と戦略 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process) を参照してください。
 * IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
-* アドレスの品質の目標：[強制隔離管理](optimize-delivery.md#quarantine-management)を参照してください。
 * 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
 * メッセージコンテンツ：[メールコンテンツの制御](control-message-content.md)を参照してください。
 * メッセージ認証（SPF、DKIM、DMARC）：[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。

@@ -6,8 +6,8 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
 source-wordcount: '2560'
 ht-degree: 100%
 
@@ -116,8 +116,8 @@ ht-degree: 100%
       + [オーディエンスの定義](delivery/using/steps-defining-the-target-population.md)
       + [配信の検証](delivery/using/steps-validating-the-delivery.md)
       + [配信の送信](delivery/using/steps-sending-the-delivery.md)
+      + [配信のベストプラクティス](delivery/using/delivery-best-practices.md)
       + 配信のベストプラクティス {#delivery-bestpractices}
-         + [優れたプラクティスを学ぶ](delivery/using/delivery-best-practices.md)
          + [配信の最適化](delivery/using/optimize-delivery.md)
          + [テンプレートの使用](delivery/using/use-templates.md)
          + [パーソナライズしたコンテンツの作成](delivery/using/design-and-personalize.md)

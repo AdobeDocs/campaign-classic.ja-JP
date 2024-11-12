@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 3%
@@ -14,8 +14,6 @@ ht-degree: 3%
 ---
 
 # ターゲットマッピング{#target-mapping}
-
-
 
 次の 2 つの場合に、ターゲットマッピングの作成が必要です。
 

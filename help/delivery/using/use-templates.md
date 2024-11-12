@@ -7,7 +7,7 @@ feature: Delivery Templates
 hide: true
 hidefromtoc: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。配信テンプレートを使用すれば、最小限のカスタマイズを行うだけで、マーケターはより迅速に新しいキャンペーンをデプロイできます。
 
-配信テンプレートについて詳しくは、[この節](creating-a-delivery-template.md)を参照してください。
+配信テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。
 
 ## 配信テンプレートの基本を学ぶ {#gs-templates}
 
-[配信テンプレート](creating-a-delivery-template.md)を使用すると、一連の技術的および機能的プロパティをニーズに合わせて事前に定義しておき、それらのプロパティを以降の配信で再利用することができます。これにより、作業時間を短縮でき、必要に応じて配信を標準化できます。
+[配信テンプレート](about-templates.md)を使用すると、一連の技術的および機能的プロパティをニーズに合わせて事前に定義しておき、それらのプロパティを以降の配信で再利用することができます。これにより、作業時間を短縮でき、必要に応じて配信を標準化できます。
 
 Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。銀行のドメインが bluebank.com の場合、サブドメインは、@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com などになります。サブドメインごとに 1 つの配信テンプレートを用意すれば、それぞれのブランドに合わせて事前に設定されたパラメーターをいつでも使用でき、エラーの回避や時間の節約につながります。
 
@@ -44,7 +44,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
-1. [](creating-a-delivery-template.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、次のフィールドに入力します。
+1. [](about-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、次のフィールドに入力します。
 
    ![](assets/d_best_practices_email_header.png)
 

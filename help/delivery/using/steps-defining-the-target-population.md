@@ -5,9 +5,9 @@ description: ターゲット母集団を定義する方法を学ぶ
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1877'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;で、**nms:recipient** スキーマに基づきます。
 
-   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
+   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。[詳細情報](#select-a-target-mapping)。
 
 1. 「**[!UICONTROL 追加]**」ボタンをクリックし、制限フィルターを定義します。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
+1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。[詳細情報](#select-a-target-mapping)
 
    「**[!UICONTROL 受信者をデータベースにインポートしない]**」を選択することもできます。
 
@@ -225,6 +225,25 @@ ht-degree: 100%
 * [配達確認のターゲットの選択](#selecting-the-proof-target)
 * [シードアドレスについて](about-seed-addresses.md)
 * [ユースケース：基準に基づいたシードアドレスの選択](use-case-selecting-seed-addresses-on-criteria.md)
+
+## ターゲットマッピングの選択 {#select-a-target-mapping}
+
+配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
+
+![](assets/delivery_select_mapping.png)
+
+マッピングの選択肢は次のとおりです。
+
+| 名前 | 用途 | 標準スキーマ |
+|---|---|---|
+| 受信者 | Adobe Campaign データベースの受信者に対する配信 | nms:recipient |
+| 訪問者 | 訪問者、つまりリファラル（バイラルマーケティング）やソーシャルネットワーク（Facebook、X - 旧 Twitter）などの方法でプロファイルを収集した訪問者に配信します。 | mns:visitor |
+| 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
+| 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
+| サービス | X アカウントや Facebook ページでの公開 | nms:service |
+| オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |
+| 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
+
 
 ## チュートリアルビデオ {#seeds-and-proofs-video}
 

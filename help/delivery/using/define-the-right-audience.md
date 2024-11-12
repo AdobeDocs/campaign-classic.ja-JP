@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 例えば、ソーシャルネットワークからプロファイルを収集された訪問者や、情報サービスを購読している訪問者に配信できます。
 
-これらのマッピングについては、[この節](selecting-a-target-mapping.md)を参照してください。
+これらのマッピングについては、[この節](steps-defining-the-target-population.md#select-a-target-mapping)を参照してください。
 
 また、カスタマイズしたターゲットマッピングを作成して使用することもできます。詳しくは、[この節](../../configuration/using/target-mapping.md)を参照してください。
 

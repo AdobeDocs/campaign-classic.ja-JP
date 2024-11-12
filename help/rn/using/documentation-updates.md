@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
-workflow-type: ht
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
 source-wordcount: '3805'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 * [条件付きコンテンツを含んだ多言語ニュースレターの作成方法](../../delivery/using/conditional-content.md)
 
-* [配信テンプレートの設定およびデプロイ方法](../../delivery/using/creating-a-delivery-template.md)
+* [配信テンプレートの設定およびデプロイ方法](../../delivery/using/about-templates.md)
 
 * [メールに対して AMP を有効化して使用する方法](../../delivery/using/defining-interactive-content.md)
 

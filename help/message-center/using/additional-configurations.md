@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '843'
-ht-degree: 100%
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 99%
 
 ---
 
@@ -169,10 +169,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. ブランドごとに 1 つのデフォルトの配信テンプレートを作成します。
-
-   >[!NOTE]
-   >
-   >    配信テンプレートを作成する方法については、[この節](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template)を参照してください。
+1. ブランドごとに [ 配信テンプレート ](../../delivery/using/about-templates.md) を作成します。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

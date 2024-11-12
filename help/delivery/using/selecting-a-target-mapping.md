@@ -2,13 +2,14 @@
 product: campaign
 title: ターゲットマッピングの選択
 description: ターゲットマッピングの方法を説明します
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
+hide: true
+hidefromtoc: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---

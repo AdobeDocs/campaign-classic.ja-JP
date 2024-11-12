@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign の配信作成手順について
 description: Adobe Campaign の配信作成の主な手順を確認する
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Channel Configuration
 role: User
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---

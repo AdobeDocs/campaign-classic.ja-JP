@@ -2,13 +2,12 @@
 product: campaign
 title: SMS のトラブルシューティング
 description: SMS チャネルのトラブルシューティングの方法について説明します
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -138,11 +137,11 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 再試行時のメッセージの重複回数を軽減するには：
 
-* 送信ウィンドウサイズを減らします。送信側のウィンドウは、`SUBMIT_SM_RESP` 待ち時間に対応できるサイズにする必要があります。この値は、ウィンドウサイズが上限に達した状態でエラーが発生した場合に複製できるメッセージの最大数を表します。
+* 送信ウィンドウサイズを減らします。送信側のウィンドウは、`SUBMIT_SM_RESP` 待ち時間に対応できるサイズにする必要があります。この値は、ウィンドウサイズが上限に達した状態でエラーが発生した場合に複製できる、メッセージの最大数を表します。
 
 ## SR（配信レシート）を処理する際の問題 {#issue-process-SR}
 
-* SR のトラブルシューティングをおこなうには、SMPP トレースを有効にする必要があります。
+* SR のトラブルシューティングを行うには、SMPP トレースを有効にする必要があります。
 
 * `DELIVER_SM PDU` がプロバイダーから送信されたものであり、正しい形式であることを確認します。
 

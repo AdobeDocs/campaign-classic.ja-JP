@@ -2,13 +2,12 @@
 product: campaign
 title: ターゲット母集団の定義
 description: ターゲット母集団を定義する方法を学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1740'
 ht-degree: 100%
 
 ---

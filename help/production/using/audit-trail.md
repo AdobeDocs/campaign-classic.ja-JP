@@ -4,10 +4,10 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 6d94ca01f23f7f2409fbdcb4e4c4716d694d527f
+source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 86%
+source-wordcount: '425'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 >[!INFO]
 >
->監査記録機能について詳しくは、Adobe Campaign v8 ドキュメントを参照してください。
+>監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
 

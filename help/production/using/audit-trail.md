@@ -4,16 +4,18 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 6d94ca01f23f7f2409fbdcb4e4c4716d694d527f
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 64%
+source-wordcount: '424'
+ht-degree: 86%
 
 ---
 
 # 監査記録{#audit-trail}
 
-
+>[!INFO]
+>
+>監査記録機能について詳しくは、Adobe Campaign v8 ドキュメントを参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
 
@@ -24,13 +26,15 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 >Adobe Campaign では、ユーザー権限、テンプレート、パーソナライゼーションまたはキャンペーン内で行われた変更を監査しません。\
 >監査記録は、インスタンスの管理者のみが管理できます。
 
-監査記録は、次の 3 つのコンポーネントで構成されます。
+![](assets/audit_trail_2.png)
 
-* **スキーマ監査証跡**: アクティビティと、スキーマに最後に加えられた変更を確認します。
++++ 監査記録が使用可能なエンティティについて説明します
+
+* **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
   スキーマについて詳しくは、この [ ページ ](../../configuration/using/data-schemas.md) を参照してください。
 
-* **ワークフロー監査記録**: アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認します。例えば、次のようなものがあります。
+* **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
    * 開始
    * 一時停止
@@ -45,63 +49,32 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
   ワークフローの監視方法について詳しくは、[該当する節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
 
-* **オプション監査記録**: アクティビティと、オプションに最後に加えられた変更を確認します。
+* **オプション監査記録**&#x200B;では、アクティビティと、オプションに最後に行った変更を確認できます。
 
   オプションについて詳しくは、この[ページ](../../installation/using/configuring-campaign-options.md)を参照してください。
 
-## 監査記録へのアクセス {#accessing-audit-trail}
+* **配信監査記録**&#x200B;では、アクティビティと、配信に最後に行った変更を確認できます。
 
-インスタンスの **[!UICONTROL 監査記録]** にアクセスするには：
+  配信について詳しくは、この[ページ](../../delivery/using/communication-channels.md)を参照してください。
 
-1. インスタンスの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューにアクセスします。
-1. **[!UICONTROL 管理]** メニューで、「**[!UICONTROL 監査]**」を選択します。
+* **外部アカウント**&#x200B;では、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用される、外部アカウントに行った変更を確認できます。
 
-   ![](assets/audit_trail_1.png)
+  外部アカウントについて詳しくは、この[ページ](../../installation/using/external-accounts.md)を参照してください。
 
-1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。Adobe Campaignは、ワークフロー、オプションおよびスキーマの作成、編集および削除アクションを監査します。
+* **配信マッピング**&#x200B;では、配信マッピングに対して行ったアクティビティと最新の変更を監視できます。
 
-   最後の変更の詳細を確認するには、いずれかのエンティティを選択します。
+  配信マッピングについて詳しくは、この[ページ](../../configuration/using/target-mapping.md)を参照してください。
 
-   ![](assets/audit_trail_2.png)
+* **Web アプリケーション**&#x200B;では、入力フィールドと選択フィールドを含むページの作成に使用される Campaign V8 の web フォームに行った変更を確認できます。これには、データベースのデータが含まれている場合があります。
 
-1. **[!UICONTROL エンティティを監査]**&#x200B;ウィンドウには、選択したエンティティに関する次のような詳細情報が表示されます。
+  Web アプリケーションについて詳しくは、この[ページ](../../web/using/about-web-applications.md)を参照してください。
 
-   * **[!UICONTROL タイプ]**：ワークフロー、オプションまたはスキーマ。
-   * **[!UICONTROL エンティティ]**：アクティビティの内部名。
-   * **[!UICONTROL 変更者]**：このエンティティを最後に変更したユーザーのユーザー名。
-   * **[!UICONTROL アクション]**：このエンティティで最後に実行されたアクション（作成済み、編集済み、または削除済み）。
-   * **[!UICONTROL 変更日]**：このエンティティで最後に実行されたアクションの日付。
+* **オファー**&#x200B;では、アクティビティと、オファーに最後に行った変更を確認できます。
 
-   コードブロックには、エンティティ内で正確に何が変更されたかについての詳細情報が表示されます。
+  オファーについて詳しくは、この[ページ](../../interaction/using/interaction-and-offer-management.md)を参照してください。
 
-   ![](assets/audit_trail_3.png)
+* **オペレーター**&#x200B;では、アクティビティと、オペレーターに行った最新の変更を監視できます。
 
->[!NOTE]
->
->デフォルトでは、**[!UICONTROL 監査ログ]** の保持期間は 180 日に設定されています。 保持期間の変更方法について詳しくは、この [ ページ ](../../production/using/database-cleanup-workflow.md#deployment-assistant) を参照してください。
+  オペレーターについて詳しくは、この[ページ](../../platform/using/access-management-operators.md)を参照してください。
 
-## 監査記録を有効／無効にする {#enable-disable-audit-trail}
-
-例えば、データベースの容量を節約する場合など、監査記録を特定のアクティビティに対して簡単にアクティブ化または非アクティブ化できます。
-
-それには、次の手順に従います。
-
-1. インスタンスの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューにアクセスします。
-1. **[!UICONTROL 管理]** メニューで **[!UICONTROL Platform]** / **[!UICONTROL オプション]** を選択します。
-
-   ![](assets/audit_trail_4.png)
-
-1. アクティブ化／非アクティブ化するエンティティに応じて、次のオプションのいずれかを選択します。
-
-   * ワークフローの場合：**[!UICONTROL XtkAudit_Workflows]**
-   * スキーマの場合：**[!UICONTROL XtkAudit_DataSchema]**
-   * オプションの場合：**[!UICONTROL XtkAudit_Option]**
-   * すべてのエンティティの場合：**[!UICONTROL XtkAudit_Enable_All]**
-
-   ![](assets/audit_trail_5.png)
-
-1. エンティティを有効にする場合は&#x200B;**[!UICONTROL 値]**&#x200B;を 1 に、無効にする場合は 0 に変更します。
-
-   ![](assets/audit_trail_6.png)
-
-1. **[!UICONTROL 保存]** をクリックします。
++++

@@ -5,10 +5,10 @@ description: Adobe API アカウントの作成方法について説明します
 role: User, Admin
 level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 2ce7a91aaddb0df412fc0002ff1463d48b2b7c3c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 5352426fc68cbcb6519127e5c89c1e9f8619ca6b
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -79,3 +79,9 @@ ht-degree: 100%
    ```
    nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret
    ```
+
+   >[!NOTE]
+   >
+   > バージョン 7.4.1 より前の場合は、`setimsoauth` の代わりに `setimsauth` または `setimsjwtauth` を使用します。
+
+

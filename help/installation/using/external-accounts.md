@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 8180f77c2824f9b54ae3c924b1cc45532675cf85
 workflow-type: tm+mt
-source-wordcount: '1952'
-ht-degree: 71%
+source-wordcount: '1981'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 ## 外部アカウントの作成 {#creating-an-external-account}
 
-新しい外部アカウントを作成するには、次の手順に従います。 詳細な設定は、外部アカウントのタイプによって異なります。
+新しい外部アカウントを作成するには、次の手順に従います。詳細な設定は、外部アカウントのタイプによって異なります。
 
 1. Campaign **[!UICONTROL エクスプローラー]** から、「**[!UICONTROL 管理]** 「>」 **[!UICONTROL プラットフォーム]** 「>」 **[!UICONTROL 外部アカウント]** を選択します。
 
@@ -100,6 +100,8 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * **[!UICONTROL Azure リダイレクト URL]**
 
   リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認することができます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+
+セットアップを行い、クライアントコンソールの「**[!UICONTROL 接続をテスト]**」ボタンを使用するには、インターネットアクセスが必要です。 セットアップ後、inMail プロセスはインターネットを使用せずにMicrosoft サーバーと通信できます。
 
 別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 

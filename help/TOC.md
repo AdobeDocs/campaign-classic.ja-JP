@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
-source-wordcount: '2560'
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+workflow-type: tm+mt
+source-wordcount: '2562'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
-      + [テンプレートについて](delivery/using/about-templates.md)
+      + [配信テンプレートを操作](delivery/using/about-templates.md)
       + [配信テンプレートの作成](delivery/using/creating-a-delivery-template.md)
       + [ターゲットマッピングの選択](delivery/using/selecting-a-target-mapping.md)
       + [テンプレートからの配信の作成](delivery/using/creating-a-delivery-from-a-template.md)

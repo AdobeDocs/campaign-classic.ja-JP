@@ -7,7 +7,7 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ ht-degree: 100%
       + 配信のベストプラクティス {#delivery-bestpractices}
          + [配信の最適化](delivery/using/optimize-delivery.md)
          + [テンプレートの使用](delivery/using/use-templates.md)
-         + [パーソナライズしたコンテンツの作成](delivery/using/design-and-personalize.md)
+         + [パーソナライズされたコンテンツの作成](delivery/using/design-and-personalize.md)
          + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
          + [送信前の確認](delivery/using/check-before-sending.md)
          + [トラッキングと監視](delivery/using/track-and-monitor.md)
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
-      + [配信テンプレートを操作](delivery/using/about-templates.md)
+      + [配信テンプレートの操作](delivery/using/about-templates.md)
       + [配信テンプレートの作成](delivery/using/creating-a-delivery-template.md)
       + [ターゲットマッピングの選択](delivery/using/selecting-a-target-mapping.md)
       + [テンプレートからの配信の作成](delivery/using/creating-a-delivery-from-a-template.md)

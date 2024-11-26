@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします
 
-* Adobe Campaign Classic デジタルコンテンツエディター（DCE）モジュールには、**[!UICONTROL リソース]**/**[!UICONTROL テンプレート]**/**[!UICONTROL コンテンツテンプレート]** から利用できるモバイル用のレスポンシブデザイン形式のテンプレートがいくつか含まれています。
+* Adobe Campaign Classic デジタルコンテンツエディター（DCE）モジュールには、モバイル用のレスポンシブデザインでフォーマットされたテンプレートが含まれます（**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;から使用できます）。
 
 ## 画像の管理 {#manage-images}
 
@@ -155,7 +155,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 ## メッセージのプレビュー {#preview-msg}
 
-メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示を確認することをお勧めします。
+メッセージをプレビューして、パーソナライゼーションおよび受信者に対してどのように配信が表示されるかを確認することをお勧めします。
 
 * 配信アシスタントの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](defining-the-email-content.md#message-content)
 

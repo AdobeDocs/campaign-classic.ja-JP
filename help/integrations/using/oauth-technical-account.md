@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
 source-git-commit: 5352426fc68cbcb6519127e5c89c1e9f8619ca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,6 +82,6 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > バージョン 7.4.1 より前の場合は、`setimsoauth` の代わりに `setimsauth` または `setimsjwtauth` を使用します。
+   > 7.4.1 より前のバージョンの場合は、`setimsoauth` の代わりに `setimsauth` または `setimsjwtauth` を使用します。
 
 

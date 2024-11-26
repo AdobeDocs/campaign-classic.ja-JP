@@ -7,9 +7,9 @@ feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 配信品質は、バウンスしたりスパムと見なされることなく受信者のインボックスに到達するキャンペーンの成否を測定する手法です。[配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
 
-より正確には、電子メールの配信品質とは、個人のメールアドレスを介して、メッセージが短時間で、コンテンツや形式の面で期待される品質で宛先に届くかどうかを決定する一連の特性を意味します。
+正確には、メール配信品質とは、メッセージが、期待される品質の内容と形式を持ち、個人のメールアドレスを通じて短時間で宛先に到達できるかどうかを判断する一連の特性のことを指します。
 
 配信品質とは何か、配信品質の主要な用語、概念およびアプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 
 * インスタンスの正しい設定：詳しくはアドビ担当者にお問い合わせください。
-* 適切なネットワーク設定：[ ドメインの設定と戦略 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process) を参照してください。
+* 適切なネットワーク設定：[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
 * IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
 * 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
 * メッセージコンテンツ：[メールコンテンツの制御](control-message-content.md)を参照してください。

@@ -6,9 +6,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -839,8 +839,9 @@ SMS が配信ログに受信済みとマークされます。配信ログは正�
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 配信プロバイダー名を変更したことを確認してください。実稼働環境では、配信ログに **SR Generic** を含めないでください。
 
-* **MO が処理されていることを確認**
-MO （自動返信、データベースへの MO の保存など）を処理する必要がある場合は、いくつかのテストを実行してみてください。 すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。Adobe Campaign が `DELIVER_SM_RESP`（command_status=0）に正常に応答したことをログで確認します。
+* **MO が処理されていることを確認する**
+MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。
+Adobe Campaign が `DELIVER_SM_RESP`（command_status=0）に正常に応答したことをログで確認します。
 
 ### PDU の確認 {#check-pdus}
 

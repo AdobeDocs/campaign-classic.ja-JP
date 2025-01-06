@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaignには、特定のバージョンのバイナリと設定ファイ
 
 >[!AVAILABILITY]
 >
->v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+>v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。これらのライブラリをインストールしてください。
 > 
 
 Adobe Campaignを RPM （RHEL、CentOS）オペレーティングシステムにインストールするには、次の手順に従います。

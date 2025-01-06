@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '3539'
 ht-degree: 5%
@@ -237,7 +237,7 @@ URL を入力したら、トラッキングサーバーを登録する必要が�
 
 1. **既存のインスタンスでのトラッキングのサポートの追加**
 
-   この選択は、インスタンスが他のニーズ（MTA サーバーなど）に対応するために既に作成されている場合に適用されます トラッキングサーバーとして使用されるサーバー上で。
+   この選択は、トラッキングサーバーとして使用されるサーバーで、他のニーズ（MTA サーバーなど）に対応するためにインスタンスが既に作成されている場合に適用されます。
 
    ![](assets/s_ncs_install_deployment_wiz_11.png)
 

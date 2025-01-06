@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Adobe Campaignには、デプロイメントの寸法を記入するための、
 
 * **電源クラスター**
 
-  このオプションは、特定のアプリケーションに関して、プライマリ Adobe Campaign アプリケーションインスタンスから切り離された 2～N のクラスター実行インスタンスをサポートします。 クラスターは、リモートで、分散デプロイメントで、およびサードパーティによってホストできます。 プロセスの分離によるメリットに加えて、Adobe Campaignのパワークラスターオプションは、市販のハードウェアを使用して冗長性とスケールアウト戦略を実現し、SLA やパフォーマンスの進化をシンプルにします。
+  このオプションは、特定のアプリケーションに関して、プライマリ Adobe Campaign アプリケーションインスタンスから切り離された 2～N のクラスター実行インスタンスをサポートします。 クラスターは、リモートで、分散デプロイメントで、およびサードパーティによってホストできます。 プロセスの分離によるメリットに加えて、Adobe Campaignのパワークラスターオプションは、市販のハードウェアを使用して冗長性とスケールアウト戦略を実現し、SLAやパフォーマンスの進化をシンプルにします。
 
 ![](assets/architectural_options_diagram.png)
 

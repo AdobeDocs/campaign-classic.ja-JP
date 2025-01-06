@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '3161'
 ht-degree: 12%
@@ -51,7 +51,7 @@ Adobeプラットフォームによるメールの効率的な送受信に関す
 手順は、以下のとおりです。
 
 1. **mta** は適格なメッセージを選択し、使用可能な **mtachild** を割り当てます。
-1. **mtachild** は、メッセージの作成に必要なすべての情報（コンテンツ、パーソナライゼーション要素、添付ファイル、画像など）を読み込みます。 **メールトラフィックシェーパー** にメッセージを転送します。
+1. **mtachild** は、メッセージの作成に必要なすべての情報（コンテンツ、パーソナライゼーション要素、添付ファイル、画像など）を読み込み、メッセージを **メールトラフィックシェーパー** に転送します。
 1. メールトラフィックシェーパーが統計サーバーの認証（**smtp stat**）を受信するとすぐに、メッセージが受信者に送信されます。
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
@@ -105,7 +105,7 @@ Adobeプラットフォームによるメールの効率的な送受信に関す
 
 破棄されたメッセージは **mta** に返され、**mtachild** では管理されなくなります。
 
-**mta** はこのメッセージの手順（回復、放棄、強制隔離など）を決定します。 （応答コードとルールによる）
+**mta** は、応答コードとルールに応じて、このメッセージの手順（回復、放棄、強制隔離など）を決定します。
 
 ### メッセージを保留中 {#message-pending}
 

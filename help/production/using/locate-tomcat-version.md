@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: fd4a815bca23b94590012c4883cfaa9c29b6f118
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Adobe Campaignは **Apache Tomcat と呼ばれる埋め込み web サーブレ�
 
 Tomcat は Java で実行され、JDK をインストールする必要があります。 詳しくは、「[Campaign 互換性マトリックス ](../../rn/using/compatibility-matrix.md)」の節の Java Development Kit （JDK）を参照してください。
 
-Adobe Campaignで使用される Tomcat は、Tomcat の一般リリースのすべての機能を使用しないカスタマイズされた埋め込みバージョンであり、フルバージョンのすべての脆弱性を被るわけではありません。 また、Tomcat は外部インターネットに公開されないようにする必要があります。公開されるAdobe Campaign インスタンスには、外部 web サーバー（IIS、Apache など）が必要です。 tomcat の前で保護します。
+Adobe Campaignで使用される Tomcat は、Tomcat の一般リリースのすべての機能を使用しないカスタマイズされた埋め込みバージョンであり、フルバージョンのすべての脆弱性を被るわけではありません。 また、Tomcat は外部インターネットに公開されないようにする必要があります。公開されるAdobe Campaign インスタンスには、Tomcat の前に外部 web サーバー（IIS、Apache など）を配置して、保護します。
 
 Tomcat の埋め込みバージョンの新しいバージョンまたはアップグレードされたバージョンは、Adobe Campaign ビルドの外部にある個別のパッチとしてではなく、Adobe Campaign自体の新しいビルドでのみリリースされます。
 

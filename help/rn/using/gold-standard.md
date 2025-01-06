@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 「[!DNL Gold Standard] リリース」
+title: '[!DNL Gold Standard] リリース'
 description: Campaign Classic に関するリリースノートおよび互換性マトリックス [!DNL Gold Standard]
 feature: Release Notes
 role: User
@@ -8,8 +8,8 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ _2021 年 8 月 27 日_
 
 ビルド 9032@99a3894 には、以下の修正が含まれています。
 
-* 署名トラッキング機能が改善され、サードパーティツール（メールクライアント、インターネットブラウザーなど）による特殊文字の処理方法に関連するエラーを防げるようになりました。URL パラメーターがエンコードされるようになりました。
+* 署名トラッキング機能が改善され、サードパーティツール（メールクライアント、インターネットブラウザーなど）による特殊文字の処理方法に関連するエラーを防止できるようになりました。URL パラメーターがエンコードされるようになりました。
 * コンソールにブロッカーのエラーメッセージが表示される可能性がある日付選択の問題を修正しました。 （NEO-36345）
 
 ### [!DNL Gold Standard] 11 リリース{#gs-11}

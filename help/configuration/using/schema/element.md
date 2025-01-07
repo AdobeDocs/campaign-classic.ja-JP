@@ -4,7 +4,7 @@ title: スキーマの要素と属性 – 要素
 description: element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 
 # element {#element--element}
 
-![](../../../assets/v7-only.svg)
 
 ## コンテンツモデル {#content-model-4}
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 ## 属性 {#attributes-4}
 
-_operation （string）、advanced （boolean）、aggregate （string）、applicableIf （string）、autopk （boolean）、belongsTo （string）、convDate （string）、dataPolicy （string）、dataSource （string）、dbEnum （string）、defOnDuplicate （boolean）、default （string）、desc （string）、displayAsField （boolean）、doesNotSupportDiff （boolean）、edit （string）、emptyKeyValue （string）、enum （string）、enumImage （string）、enumImage （string）、expand schemaTarget （string）、expr （string）、externalJoin （boolean）、feature （string）、featureDate （boolean）、filterPath （string）、folderLink （string）、folderModel （string）、folderProcess （string）、fullLoad （boolean）、hierarchicalPath （string）、img （string）、inout （string）、integrity （string）、label （string）、labelSingular （string）、length （string）、localizable （boolean）、name （MNTOKEN）、noDbIndex （boolean）、no key （boolean）、ordered （boolean）、overflowtable （boolean）、pkSequence （string）、pkgStatus （string）、ref （string）、required （boolean）、revAdvanced （boolean）、revCardinality （string）、revDesc （string）、revExternalJoin （boolean）、revIntegrity （string）、revLabel （string）、revLink （string）、revVisibleIf （string）、sql （boolean）、sqlname （string）、sqltable （string）、tableSpace, tableSpaceIndex （string）, target （MNTOKEN）, template （string）, temporaryTable （boolean）, translatedDefault （string）, translatedExpr （string）, type （MNTOKEN）, unbound （boolean）, user （boolean）, userEnum （string）, visibleIf （string）, xml （boolean）, xmlChildren （boolean）
+_operation （string）、advanced （boolean）、aggregate （string）、applicableIf （string）、autopk （boolean）、belongsTo （string）、convDate （string）、dataPolicy （string）、dataSource （string）、dbEnum （string）、defOnDuplicate （boolean）、default （string）、desc （string）、displayAsField （boolean）、doesNotSupportDiff （boolean）、edit （string）、emptyKeyValue （string）、enum （string）、enumImage （string）、enumImage （string）、expand schemaTarget （string）、expr （string）、externalJoin （boolean）、feature （string）、featureDate （boolean）、filterPath （string）、folderLink （string）、folderModel （string）、folderProcess （string）、fullLoad （boolean）、hierarchicalPath （string）、img （string）、inout （string）、integrity （string）、label （string）、labelSingular （string）、length （string）、localizable （boolean）、name （MNTOKEN）、noDbIndex （boolean）、no key （boolean）、ordered （boolean）、overflowtable （boolean）、pkSequence （string）、pkgStatus （string）、ref （string）、required （boolean）、revAdvanced （boolean）、revCardinality （string）、revDesc （string）、revExternalJoin （boolean）、revIntegrity （string）、revLabel （string）、revLink （string）、revVisibleIf （string）、sql （boolean）、sqlname （string）、sqltable （string）、tableSpace （string）、tableSpaceIndex （string）、target （MNTOKEN）、template （string）、temporaryTable （boolean）、translatedDefault （string）、translatedExpr （string）、type （MNTOKEN）、unbound （boolean）、user （boolean）、userEnum （string）、visibleIf （string）、xml （boolean）、xmlChildren （boolean）
 
 ## 親 {#parents-4}
 

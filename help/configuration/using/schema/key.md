@@ -4,7 +4,7 @@ title: スキーマの要素と属性 – キー要素
 description: 主要な要素
 feature: Schema Extension
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -13,7 +13,6 @@ ht-degree: 1%
 
 # 主要な要素 {#key--element}
 
-![](../../../assets/v7-only.svg)
 
 ## コンテンツモデル {#content-model-8}
 

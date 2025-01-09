@@ -3,7 +3,7 @@ title: Adobe Identity Management System（IMS）への移行
 description: 認証プロセスを Adobe Identity Management System（IMS）へ移行する方法を学ぶ
 exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 

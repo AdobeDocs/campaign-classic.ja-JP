@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,13 @@ _2024年6月18日（PT）_
 
 [Adobe Campaign の互換性マトリックス](compatibility-matrix.md)は、この新しいリリースに伴う変更を反映して更新されており、以下にリストされています。
 
-* Adobe Campaign は、オペレーティングシステムとして **Microsoft Server 2022** および **RHEL 9** と互換性を持つようになりました。
+* Adobe Campaignは、オペレーティングシステムとして **0}Microsoft Server 2022} と互換性を持つようになりました。**
+* Adobe Campaignは、オペレーティングシステムとして **RHEL 9** と互換性を持つようになりました。
+
+  >[!CAUTION]
+  >
+  >RHEL 9 を使用するオンプレミス環境のお客様がDKIM/ドメインキーを使用する場合は、[ この節 ](../../installation/using/installing-packages-with-linux.md#rhel-9-update) で説明されているようにシステム設定を更新する必要があります。
+
 
 * Adobe Campaign は、関係データベース管理システムとして、また Federated Data Access （FDA）において、**Microsoft SQL Server 2022** および **Oracle 23c** と互換性を持つようになりました。
 

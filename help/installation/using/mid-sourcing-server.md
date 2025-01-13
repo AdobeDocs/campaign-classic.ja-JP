@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 3%
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. 次のコマンドを使用して Web モジュールを再起動します。**nlserver restart web**。
+1. 次のコマンドを使用して Web モジュールを再起動します：** web**。
 
 serverConf.xml ファイルのミッドソーシングサーバー設定を変更する必要があります。 次の行を「IP アドレスとの親和性の管理」セクションの既存の行の下に追加する必要があります。
 

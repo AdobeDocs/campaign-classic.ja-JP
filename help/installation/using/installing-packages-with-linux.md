@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 32a1e16c3c085c0d928b4223e1b46ed6545122d3
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1115'
 ht-degree: 2%
 
 ---
@@ -50,13 +50,13 @@ Adobe Campaignを RPM （RHEL、CentOS）オペレーティングシステムに
 
 1. インストールするには、**root** として接続し、次のコマンドを実行します。ここで **XXXX** はAdobe Campaignのビルド番号です。
 
-   ```
+   ```sql
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
    rpm ファイルは、CentOS/Red Hat ディストリビューションで見つけることができるパッケージに依存しています。 これらの依存関係の一部を使用しない場合（例えば、OpenJDK ではなくOracle JDK を使用する場合）、rpm の「nodeps」オプションを使用する必要がある可能性があります。
 
-   ```
+   ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
@@ -66,8 +66,27 @@ Adobe Campaignを RPM （RHEL、CentOS）オペレーティングシステムに
 
 CentOS では、bc.x86_64 パッケージをインストールする必要があります。connect as **root** を実行して、次のコマンドを実行します。
 
-```
+```sql
 yum install bc.x86_64
+```
+
+
+### オンプレミスデプロイメント用の RHEL 9 {#rhel-9-update}
+
+Campaign v7.4.1 を RHEL 9 を使用するオンプレミス環境のお客様としてDKIM/ドメインキーを使用する場合は、システム設定を更新する必要があります。
+
+これを実行するには、次の手順に従います。
+
+1. root として、次のコマンドを実行します。
+
+```sql
+update-crypto-policies --set LEGACY
+```
+
+1. MTA モジュールを再起動します。
+
+```sql
+nlserver restart mta@<instance-name>
 ```
 
 ## APT （Debian）に基づく配布 {#distribution-based-on-apt--debian-}
@@ -82,7 +101,7 @@ Adobe Campaignを Debian 64 ビットオペレーティングシステムにイ�
 
 1. インストールするには、**root** として接続し、次のコマンドを実行します。ここで **XXXX** はAdobe Campaignのビルド番号です。
 
-   ```
+   ```sql
    apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
@@ -95,7 +114,7 @@ Adobe Campaignを Debian 64 ビットオペレーティングシステムにイ�
 
 作成し、実行権限があることを確認します。 これに該当しない場合は、次のコマンドを入力します。
 
-```
+```sql
 chmod +x /usr/local/neolane/nl6/customer.sh
 ```
 
@@ -111,7 +130,7 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 UTF-8 環境を有効にするには、次のコマンドを使用します。
 
-```
+```sql
 mkdir -p /usr/local/neolane/nl6 
 touch /usr/local/neolane/nl6/unicodeenv
 ```
@@ -126,7 +145,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 * oracleクライアントの場合：
 
-  ```
+  ```sql
   export ORACLE_HOME=/usr/local/instantclient_10_2
   export TNS_ADMIN=/etc/oracle
   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
@@ -144,7 +163,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
      OOO_INSTALL_DIR と OOO_BASIS_INSTALL_DIR のデフォルト値が提供されます。 LibreOffice インストールのレイアウトが異なる場合は、**customer.sh** で上書きできます。
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
      ```
@@ -153,7 +172,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
      次のデフォルト値を使用します。
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
      ```
@@ -162,7 +181,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   デフォルトでは、Adobe Campaign環境（`~/nl6/env.sh`）の設定スクリプトは、JDK インストールディレクトリを検索します。 ただし、使用する JDK を指定することをお勧めします。 それには、次のコマンドを使用して **JDK_HOME** 環境変数を強制的に指定します。
 
-  ```
+  ```sql
   export JDK_HOME=/usr/java/jdkX.Y.Z
   ```
 
@@ -172,7 +191,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   JDK 設定をテストするには、次のコマンドでAdobe Campaign システムユーザーとしてログインします。
 
-  ```
+  ```sql
   su - neolane
   ```
 
@@ -180,7 +199,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 コマンドは次のとおりです。
 
-```
+```sql
 systemctl stop nlserver
 systemctl start nlserver
 ```
@@ -194,7 +213,7 @@ Adobe CampaignでOracleを使用する場合、Linux でOracleクライアント
 
   TNS 定義は、インストール段階で追加する必要があります。 これを行うには、次のコマンドを使用します。
 
-  ```
+  ```sql
   cd /etc
   mkdir oracle
   cd oracle
@@ -211,7 +230,7 @@ Adobe CampaignでOracleを使用する場合、Linux でOracleクライアント
 
   これを行うには、次のコマンドを使用します。
 
-  ```
+  ```sql
   cd /usr/lib/oracle/10.2.0.4/client/lib
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
@@ -222,14 +241,14 @@ Adobe CampaignでOracleを使用する場合、Linux でOracleクライアント
 
 これで、次のコマンドを使用して初期インストールテストを実行できます。
 
-```
+```sql
 su - neolane
 nlserver pdump
 ```
 
 Adobe Campaignを起動しない場合の応答は次のとおりです。
 
-```
+```sql
 no task
 ```
 
@@ -237,7 +256,7 @@ no task
 
 インストールテストが完了したら、次のコマンドを入力します。
 
-```
+```sql
 nlserver web
 ```
 
@@ -257,7 +276,7 @@ nlserver web
 
 **Ctrl+C** を押してプロセスを停止し、次のコマンドを入力します。
 
-```
+```sql
 nlserver start web
 ```
 
@@ -275,7 +294,7 @@ nlserver start web
 
 停止するには、次のように入力します。
 
-```
+```sql
 nlserver stop web
 ```
 

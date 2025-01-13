@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign では、[web アプリケーション](../../web/using/about-web
 * パーソナライゼーションの追加とフィールド位置の定義
 * 回答に応じた調査フィールドの条件付き表示
 * ページの条件付き表示
-* 想定されるデータのタイプ（番号、メールアドレス、日付など）および必須フィールドに応じて、承認前に情報を確認します。
+* 想定されるデータのタイプ（数値、メールアドレス、日付など）および必須フィールドに応じた、承認前の情報の確認
 * メールの招待状／通知の送信
 * エラーページと終了ページのパーソナライズ
 * フォームへの画像、ビデオ、ハイパーテキストリンク、Captcha などの追加

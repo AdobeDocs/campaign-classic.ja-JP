@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 934185053bea08ea1fa6f52dec1d86a5ced02c11
+source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ yum install bc.x86_64
 
 ### オンプレミスデプロイメント用の RHEL 9 {#rhel-9-update}
 
-Campaign v7.4.1 を RHEL 9 を使用するオンプレミス環境のお客様としてDKIM/ドメインキーを使用する場合は、システム設定を更新する必要があります。
+Campaign v7.4.1 を RHEL 9 を使用するオンプレミス環境のお客様としてDKIM（Domain Keys Identified Mail）認証を使用する場合、システム設定を更新する必要があります。
 
 これを実行するには、次の手順に従います。
 

@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
+source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 88%
+source-wordcount: '424'
+ht-degree: 87%
 
 ---
 
@@ -39,7 +39,7 @@ _2024年6月18日（PT）_
 
   >[!CAUTION]
   >
-  >RHEL 9 を使用するオンプレミス環境のお客様がDKIM/ドメインキーを使用する場合は、[ この節 ](../../installation/using/installing-packages-with-linux.md#rhel-9-update) で説明されているようにシステム設定を更新する必要があります。
+  >RHEL 9 を使用するオンプレミス環境のお客様がDKIM（Domain Keys Identified Mail）認証を使用する場合は、[ この節 ](../../installation/using/installing-packages-with-linux.md#rhel-9-update) に記載されているように、システム設定を更新する必要があります。
 
 
 * Adobe Campaign は、関係データベース管理システムとして、また Federated Data Access （FDA）において、**Microsoft SQL Server 2022** および **Oracle 23c** と互換性を持つようになりました。

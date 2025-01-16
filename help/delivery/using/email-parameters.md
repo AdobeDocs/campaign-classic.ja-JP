@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f7da066d32391341e449397d64853fcbae639a59
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign では、BCC メールアドレスをメッセージのターゲ�
 
 >[!NOTE]
 >
->Enhanced MTA でメールの BCC を使用する場合、このオプションはすべての配信に対して自動的に有効になります。
+>[Enhanced MTA](ending-with-enhanced-mta.md) でメールの BCC を使用する場合、このオプションはすべての配信に対して自動的に有効になります。
 
 メール配信テンプレートの「BCC でメールを送信」を有効にするには、次の手順に従います。
 

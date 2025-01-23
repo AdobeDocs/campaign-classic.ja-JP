@@ -7,9 +7,9 @@ feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 09b79849fa9db15dd53d1ed56630a34915aa32ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign では、BCC メールアドレスをメッセージのターゲ�
 
 >[!NOTE]
 >
->[Enhanced MTA](sending-with-enhanced-mta.md) でメールの BCC を使用する場合、このオプションはすべての配信に対して自動的に有効になります。
+>[Enhanced MTA](sending-with-enhanced-mta.md) でメールの BCC を使用している場合、このオプションはすべての配信に対して自動的に有効になります。
 
 メール配信テンプレートの「BCC でメールを送信」を有効にするには、次の手順に従います。
 

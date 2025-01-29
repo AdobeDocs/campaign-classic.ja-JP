@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "ユースケース：オンライン調査への回答に関するレポートの表示"
-description: "ユースケース：オンライン調査への回答に関するレポートの表示"
+title: ユースケース：オンライン調査への回答に関するレポートの表示
+description: ユースケース：オンライン調査への回答に関するレポートの表示
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505

@@ -48,7 +48,7 @@ ht-degree: 16%
 
 ### 推奨機器 {#recommended-equipment}
 
-* アプリケーションサーバー：2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
+* アプリケーションサーバ：2 Ghz クアッドコアCPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
 * データベースサーバー：3 GHz の両クアッドコア CPU、最小 4 GB の RAM、ハードウェア RAID 10 15000RPM SAS ハードドライブ、データベースのサイズと予想パフォーマンスに応じた数。
 
 >[!NOTE]

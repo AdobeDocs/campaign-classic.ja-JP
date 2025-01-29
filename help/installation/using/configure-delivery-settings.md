@@ -51,7 +51,7 @@ MTA モジュールは、SMTP ブロードキャスト（ポート 25）のネ�
 
 ## MTA 子プロセス {#mta-child-processes}
 
-サーバの CPU パワーと利用可能なネットワークリソースに応じて、ブロードキャストのパフォーマンスを最適化するために、子プロセスの数（デフォルトでは maxSpareServers 2）を制御することができます。 この設定は、個々のコンピューターの MTA 設定の **`<master>`** セクションで行われます。
+子プロセス（デフォルトでは maxSpareServers）の数を制御することで、サーバのCPUパワーと利用可能なネットワークリソースに応じてブロードキャストのパフォーマンスを最適化することができます。 この設定は、個々のコンピューターの MTA 設定の **`<master>`** セクションで行われます。
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">

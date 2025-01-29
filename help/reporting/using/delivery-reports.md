@@ -6,7 +6,7 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 * **[!UICONTROL 配信されるメッセージ]**：配信の分析後に配信されるメッセージの合計数。
 * **[!UICONTROL 成功]**：正常に処理されたメッセージ数。付随している率は、配信されるメッセージ数の割合です。
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に累積したエラーの合計数。付随している率は、配信されるメッセージ数の割合です。
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）、強制隔離されたアドレスの数。付随している率は、配信されるメッセージ数の割合です。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）、強制隔離されたアドレスの数。関連付けられている割合は、配信されるメッセージ数の比率です。
 
 ## ホットクリック {#hot-clicks}
 

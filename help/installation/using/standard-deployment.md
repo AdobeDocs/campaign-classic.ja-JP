@@ -55,7 +55,7 @@ LAN 内のアプリケーションサーバーは、エンドユーザーにサ�
    * 1 つ目はトラッキング用に公開され、VIP（virtual IP address）上のロードバランサーを指します。これは次に、2 つのフロントサーバーに配信されます。
    * 2 つ目は、コンソール経由でアクセスするために内部ユーザーに公開され、同じアプリケーションサーバーを指します。
 
-* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、[ データベースアクセス ](../../installation/using/network-configuration.md#database-access) の節を参照してください。
+* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）ポートを開くように設定されたファイアウォール。 詳しくは、[ データベースアクセス ](../../installation/using/network-configuration.md#database-access) の節を参照してください。
 
 ### アプリケーションサーバーのインストール {#installing-the-application-server}
 

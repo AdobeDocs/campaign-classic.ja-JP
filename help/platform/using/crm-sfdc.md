@@ -5,7 +5,7 @@ description: Campaign と Salesforce を連携する方法を学ぶ
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 

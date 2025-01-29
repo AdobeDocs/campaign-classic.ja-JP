@@ -9,7 +9,7 @@ exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Campaign Classic データをアドビのリアルタイム顧客データプラ
 
 >[!NOTE]
 >
->Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
+>Campaign で生成されたデータ（送信数、開封数、クリック数など）のみをAdobe Experience Platformに書き出すことをお勧めします。 サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
 
 ## Campaign Classic でのエクスポートワークフローの作成
 

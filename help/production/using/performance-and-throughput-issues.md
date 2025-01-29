@@ -31,7 +31,7 @@ ht-degree: 13%
 * 最大の膨張を持つテーブルをチェックしてください。 これらのテーブルを頻繁に使用する場合は、掃除機をかける必要があります。
 * データベースがブロックされると、メールが送信されなくなることがあります。
 
-Adobe Campaignには、CPU と RAM の使用状況を確認する [ ツール ](../../production/using/monitoring-processes.md#manual-monitoring) も用意されています。 このツールを使用して、**メモリ**、**スワップメモリ**、**ディスク**、**アクティブなプロセス** などの特定の指標を確認します。 値が大きすぎる場合は、ワークフローの数を減らすか、異なる時間にワークフローを開始するようにスケジュールすることができます。
+Adobe Campaignには、CPUと RAM の使用状況を確認する [ ツール ](../../production/using/monitoring-processes.md#manual-monitoring) もあります。 このツールを使用して、**メモリ**、**スワップメモリ**、**ディスク**、**アクティブなプロセス** などの特定の指標を確認します。 値が大きすぎる場合は、ワークフローの数を減らすか、異なる時間にワークフローを開始するようにスケジュールすることができます。
 
 ## データベースチェック {#database-performances}
 
@@ -57,7 +57,7 @@ Adobe Campaignには、CPU と RAM の使用状況を確認する [ ツール ](
   >
   >配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報については、お客様はアドビ担当者に問い合わせる必要があります。
 
-* DKIM: DKIM のセキュリティレベルを保証するために、ベストプラクティスの推奨暗号化サイズは 1024b です。 DKIM キーの値を小さくしても、大多数のアクセスプロバイダーは有効と見なしません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+* DKIM: DKIMのセキュリティレベルを確保するには、ベストプラクティスとして推奨される暗号化サイズは 1024 b です。 DKIMの低いキーは、多くのアクセスプロバイダーでは有効と見なされません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
 

@@ -71,7 +71,7 @@ ht-degree: 5%
    * 1 つ目は、トラッキング用に公開され、パブリック IP 上のコンピューターを指します。
    * 2 つ目のエイリアスは、コンソールアクセス用に内部ユーザーに公開され、同じコンピューターを指します。
 
-* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、[ ネットワーク設定 ](../../installation/using/network-configuration.md) を参照してください。
+* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）ポートを開くように設定されたファイアウォール。 詳しくは、[ ネットワーク設定 ](../../installation/using/network-configuration.md) を参照してください。
 
 次の例では、インスタンスのパラメーターは次のとおりです。
 

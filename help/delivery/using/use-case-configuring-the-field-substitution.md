@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 「ユースケース：フィールド置換の設定」
-description: 「ユースケース：フィールド置換の設定」
+title: ユースケース：フィールド置換の設定
+description: ユースケース：フィールド置換の設定
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e

@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: ミッドソーシングインフラストラクチャに対する�
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 39%
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaignでは、ファイルサイズは制限されません。 ただ�
 
 ## 送信接続の保護
 
-Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストは制限されています。 新しい URL を許可するには、管理者は [serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md) でその URL を参照する必要があります。
+JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトのリストは制限されています。 新しい URL を許可するには、管理者は [serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md) でその URL を参照する必要があります。
 
 3 つの接続保護モードがあります。
 

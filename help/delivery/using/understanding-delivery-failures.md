@@ -7,7 +7,7 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2618'
 ht-degree: 100%
 
@@ -243,7 +243,7 @@ Adobe Campaign プラットフォームでは、バウンスメール機能を�
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign では、このメッセージをフィルタリングして、変数コンテンツ（ID、日付、メールアドレス、電話番号など）を削除し、フィルタリングした結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
+Adobe Campaign は、このメッセージをフィルター処理して変数コンテンツ（ID、日付、メールアドレス、電話番号など）を削除し、フィルター処理した結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
 

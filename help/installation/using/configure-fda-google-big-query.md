@@ -62,11 +62,11 @@ Adobe Campaign Classic **Federated Data Access** （FDA）オプションを使�
 
 >[!NOTE]
 >
->Google Cloud SDK が機能するには、Python がインストールされている必要があります。
+>Google Cloud SDKを機能させるには、Python がインストールされている必要があります。
 >
 >Python3 を使用することをお勧めします。この [ ページ ](https://www.python.org/downloads/) を参照してください。
 
-一括読み込みユーティリティを使用すると、転送が高速になります。これはGoogle Cloud SDK を通じて実現されます。
+一括読み込みユーティリティを使用すると、転送が高速になります。これはGoogle Cloud SDKを通じて実現されます。
 
 1. この [ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) から Windows 64 ビット（x86_64）アーカイブをダウンロードし、対応するディレクトリに抽出します。
 
@@ -142,11 +142,11 @@ Linux で [!DNL Google BigQuery] を設定するには、次の手順に従い�
 
 >[!NOTE]
 >
->Google Cloud SDK が機能するには、Python がインストールされている必要があります。
+>Google Cloud SDKを機能させるには、Python がインストールされている必要があります。
 >
 >Python3 を使用することをお勧めします。この [ ページ ](https://www.python.org/downloads/) を参照してください。
 
-一括読み込みユーティリティを使用すると、転送が高速になります。これはGoogle Cloud SDK を通じて実現されます。
+一括読み込みユーティリティを使用すると、転送が高速になります。これはGoogle Cloud SDKを通じて実現されます。
 
 1. ODBC をインストールする前に、Linux ディストリビューションに次のパッケージがインストールされていることを確認します。
 
@@ -204,13 +204,13 @@ Adobe Campaign Classic インスタンスを [!DNL Google BigQuery] 外部デー
 
 | オプション | 説明 |
 |:-:|:-:|
-| ProxyType | ODBC および SDK コネクタ経由で BigQuery に接続するために使用されるプロキシの種類です。 現在、</br>HTTP （デフォルト）、http_no_tunnel、socks4、socks5 がサポートされています。 |
+| ProxyType | ODBC およびSDK コネクタ経由で BigQuery に接続するために使用されるプロキシの種類です。 現在、</br>HTTP （デフォルト）、http_no_tunnel、socks4、socks5 がサポートされています。 |
 | ProxyHost | プロキシにアクセスできるホスト名または IP アドレス。 |
 | ProxyPort | プロキシが実行されているポート番号（例：8080） |
 | ProxyUid | 認証済みプロキシに使用するユーザー名 |
 | ProxyPwd | ProxyUid パスワード |
-| bqpath | なお、これは一括読み込みツール（Cloud SDK）にのみ適用されます。 </br> PATH 変数の使用を避ける場合や、google-cloud-sdk ディレクトリを別の場所に移動する必要がある場合は、このオプションを使用して、サーバー上の cloud sdk bin ディレクトリへの正確なパスを指定できます。 |
-| GCloudConfigName | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツール（Cloud SDK）にのみ適用されることに注意してください。</br> Google Cloud SDK は、設定を使用してデータを BigQuery テーブルに読み込みます。 `accfda` という名前の設定は、データを読み込むためのパラメーターを格納します。 ただし、このオプションを使用すると、ユーザーは設定に別の名前を指定できます。 |
-| GCloudDefaultConfigName | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツール（Cloud SDK）にのみ適用されることに注意してください。</br> アクティブなGoogle Cloud SDK 設定は、最初にアクティブなタグを新しい設定に転送しないと、削除できません。 データを読み込むためのメイン設定を再作成するには、この一時的な設定が必要です。 一時設定のデフォルト名は `default` です。これは必要に応じて変更できます。 |
-| GCloudRecreateConfig | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツール（Cloud SDK）にのみ適用されることに注意してください。</br>`false` に設定すると、一括読み込みメカニズムは、Google Cloud SDK 設定を再作成、削除、変更しようとしません。 代わりに、マシン上の既存の設定を使用してデータの読み込みを続行します。 この機能は、他の操作がGoogle Cloud SDK 設定に依存している場合に役立ちます。 </br> 適切な設定を行わないでこのエンジンオプションを有効にすると、一括読み込みメカニズムは警告メッセージを表示します：`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。 それ以上のエラーを防ぐために、デフォルトの ODBC 配列の挿入バルクロードメカニズムを使用して、に戻ります。 |
+| bqpath | これは、一括読み込みツール（Cloud SDK）にのみ適用されます。 </br> PATH 変数の使用を避ける場合や、google-cloud-sdk ディレクトリを別の場所に移動する必要がある場合は、このオプションを使用して、サーバー上の cloud sdk bin ディレクトリへの正確なパスを指定できます。 |
+| GCloudConfigName | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツールのみ（Cloud SDK）に適用されることに注意してください。</br> Google Cloud SDKは、設定を使用して BigQuery テーブルにデータを読み込みます。 `accfda` という名前の設定は、データを読み込むためのパラメーターを格納します。 ただし、このオプションを使用すると、ユーザーは設定に別の名前を指定できます。 |
+| GCloudDefaultConfigName | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツールのみ（Cloud SDK）に適用されることに注意してください。</br> アクティブなGoogle Cloud SDK設定は、最初にアクティブなタグを新しい設定に転送しないと、削除できません。 データを読み込むためのメイン設定を再作成するには、この一時的な設定が必要です。 一時設定のデフォルト名は `default` です。これは必要に応じて変更できます。 |
+| GCloudRecreateConfig | これは、リリース 7.3.4 リリース以降に適用され、一括読み込みツールのみ（Cloud SDK）に適用されることに注意してください。</br> `false` に設定すると、一括読み込みメカニズムは、Google Cloud SDK設定を再作成、削除、変更しようとしません。 代わりに、マシン上の既存の設定を使用してデータの読み込みを続行します。 この機能は、他の操作がGoogle Cloud SDK設定に依存している場合に役立ちます。 </br> 適切な設定を行わないでこのエンジンオプションを有効にすると、一括読み込みメカニズムは警告メッセージを表示します：`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。 それ以上のエラーを防ぐために、デフォルトの ODBC 配列の挿入バルクロードメカニズムを使用して、に戻ります。 |
 

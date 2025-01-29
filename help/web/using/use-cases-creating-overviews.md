@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 「ユースケース：概要の作成」
-description: 「ユースケース：概要の作成」
+title: ユースケース：概要の作成
+description: ユースケース：概要の作成
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 

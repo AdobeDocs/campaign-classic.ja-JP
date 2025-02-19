@@ -3,8 +3,10 @@ product: campaign
 title: 分散型マーケティングのサンプル
 description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 100%

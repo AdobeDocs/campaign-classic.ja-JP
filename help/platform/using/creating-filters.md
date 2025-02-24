@@ -8,16 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 90%
 
 ---
 
 # フィルターの作成{#creating-filters}
 
 
+データのフィルタリングとは、データセットの一部を選択し、特定の条件に一致するレコードのみを選択し、そのサブセットを特定のアクション（更新、オーディエンスの作成）または分析に使用するプロセスです。
 
 ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
@@ -25,357 +26,365 @@ ht-degree: 100%
 >
 >ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータはクリーンアップが必要になる場合があります。 特に、データの更新時に問題が発生した場合に必要です。それには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
-## 使用可能なフィルターのタイポロジ {#typology-of-available-filters}
+>[!NOTE]
+>
+>フィルターとその使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
 
-Adobe Campaign では、データリストにフィルターを適用できます。
 
-これらのフィルターは、1 回だけ使用したり、今後の使用のために保存したりすることができます。複数のフィルターを同時に適用できます。
+<!--
 
-Adobe Campaign では、次のフィルタータイプを使用できます。
+## Typology of available filters {#typology-of-available-filters}
 
-* **デフォルトのフィルター**
+Adobe Campaign lets you apply filters to data lists.
 
-  **デフォルトのフィルター**&#x200B;には、リストの上にあるフィールドからアクセスできます。定義済みのフィールドをフィルターできます（受信者プロファイルの場合、デフォルトでは名前およびメールアドレスです）。フィールドを使用して、フィルターする文字を入力するか、ドロップダウンリストからフィルター条件を選択します。
+These filters can be used once, or you can save them for future use. You can apply several filters at the same time.
+
+The following filter types are available in Adobe Campaign:
+
+* **Default filters**
+
+  The **default filter** is accessible via the fields located above the lists. It lets you filter on predefined fields (for recipient profiles, these are the name and email address by default). You can use the fields to enter the characters to filter on or to selection the filter conditions from a drop-down list.
 
   ![](assets/filters_recipient_default_filter.png)
 <!--
   >[!NOTE]
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an email address in the domain "yahoo.com".
--->
-リストのデフォルトのフィルターを変更できます。詳しくは、[デフォルトのフィルターの変更](#altering-the-default-filter)を参照してください。
 
-* **標準フィルター**
+  You can change the default filter of a list. For more on this, refer to [Change the default filter](#altering-the-default-filter).
 
-  **標準フィルター**&#x200B;は、列に対する 1 回限りのフィルターです。表示される列に対する 1 つ以上の単純な検索基準を使用して定義されます。
+* **Simple filters**
 
-  同じデータリストに対して複数の標準フィルターを組み合わせて、検索を絞り込むことができます。フィルターフィールドは上下に並んで表示されます。これらは、それぞれ個別に削除できます。
+  **Simple filters** are one-off filters on the columns. They are defined with one or more simple search criteria on the displayed columns.
+
+  You can combine several simple filters on the same data list to refine your search. The filter fields are displayed one beneath the other. They can be deleted independently of each other.
 
   ![](assets/filters_recipient_simple_filter.png)
 
-  標準フィルターについて詳しくは、[標準フィルターの作成](#creating-a-simple-filter)を参照してください。
+  Simple filters are detailed in [Create a simple filter](#creating-a-simple-filter).
 
-* **詳細フィルター**
+* **Advanced filters**
 
-  **詳細フィルター**&#x200B;は、データに対する単一のクエリや連結したクエリを使用して作成されます。
+  **Advanced filters** are created using a query or a combination of queries on the data.
 
-  詳細フィルターの作成について詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)を参照してください。
+  For more on creating an advanced filter, refer to [Create an advanced filter](#creating-an-advanced-filter).
 
-  関数を使用してフィルターの内容を定義できます。詳しくは、[関数を使用した詳細フィルターの作成](#creating-an-advanced-filter-with-functions)を参照してください。
+  You can use functions to define the content of the filter. For more on this, refer to [Create an advanced filter with functions](#creating-an-advanced-filter-with-functions).
 
   >[!NOTE]
   >
-  >Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
-* **ユーザーフィルター**
+* **User filters**
 
-  **アプリケーションフィルター**&#x200B;は、その設定を他のオペレーターと使用および共有するために保存された詳細フィルターです。
+  An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
 
-  リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用すると、組み合わせてフィルターを絞り込むことができる一連のアプリケーションフィルターが表示されます。これらのフィルターを作成する方法については、[フィルターの保存](#saving-a-filter)を参照してください。
+  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Save a filter](#saving-a-filter).
 
-## デフォルトのフィルターの変更 {#altering-the-default-filter}
+## Change the default filter {#altering-the-default-filter}
 
-受信者リストのデフォルトのフィルターを変更するには、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードをクリックします。
+To change the default filter for a recipient list, click the **[!UICONTROL Profiles and Targets > Pre-defined filters]** node of the tree.
 
-その他のすべてのタイプのデータについては、**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードを使用してデフォルトのフィルターを設定します。
+For all other types of data, configure the default filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** node.
 
-次の手順に従います。
+Apply the following steps:
 
-1. デフォルトで使用するフィルターを選択します。
-1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**」を選択します。
+1. Select the filter you want to be used by default.
+1. Click the **[!UICONTROL Parameters]** tab and select **[!UICONTROL Default filter for the associated document type]**.
 
    ![](assets/s_ncs_user_default_filter.png)
 
    >[!CAUTION]
    >
-   >デフォルトのフィルターが既にリストに適用されている場合は、新しいフィルターを適用する前に無効にする必要があります。そのためには、フィルターフィールドの右側にある赤色のバツ印をクリックします。
+   >If a default filter is already applied to the list, you need to disable it before applying a new filter. To do this, click the red cross to the right of the filtering fields.
 
-1. 「**[!UICONTROL 保存]**」をクリックしてフィルターを適用します。
+1. Click **[!UICONTROL Save]** to apply the filter.
 
    >[!NOTE]
    >
-   >フィルター定義ウィンドウについて詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)および[フィルターの保存](#saving-a-filter)を参照してください。
+   >The filter definition window is detailed in [Create an advanced filter](#creating-an-advanced-filter) and [Save a filter](#saving-a-filter).
 
-## 標準フィルターの作成 {#creating-a-simple-filter}
+## Create a simple filter {#creating-a-simple-filter}
 
-**標準フィルター**&#x200B;を作成するには、次の手順に従います。
+To create a **simple filter**, apply the following steps:
 
-1. フィルターするフィールドを右クリックし、「**[!UICONTROL このフィールドでフィルター]**」を選択します。
+1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
 
    ![](assets/s_ncs_user_sort_this_field.png)
 
-   デフォルトのフィルターフィールドがリストの上に表示されます。
+   The default filter fields are displayed above the list.
 
-1. ドロップダウンリストからフィルターオプションを選択するか、適用するフィルター基準を入力します（基準を選択または入力する方法は、テキスト、列挙などのフィールドのタイプによって異なります）。
+1. Select the filter option from the drop-down list, or enter the filter criteria to apply (the method for selecting or entering criteria depends on the type of field: text, enumerated, etc.).
 
    ![](assets/s_ncs_user_sort_fields.png)
 
-1. フィルターを有効化するには、キーボードの Enter キーを押すか、フィルターフィールドの右側にある緑色の矢印をクリックします。
+1. To activate the filter, press Enter on the keyboard, or click the green arrow to the right of the filter fields.
 
-データをフィルターするフィールドがプロファイルのフォームに表示されていない場合、表示される列にそのフィールドを追加すると、その列でフィルターできます。手順は次のとおりです。
+If the field on which you want to filter the data is not displayed in the form of the profile, you can add it in the columns displayed, then filter on that column. To do this,
 
-1. **[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。
+1. Click the **[!UICONTROL Configure the list]** icon.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 表示される列を選択します（例えば、受信者の年齢）。
+1. Select the column to be displayed, for example the age of the recipients.
 
    ![](assets/s_ncs_user_select_fields_to_display.png)
 
-1. 受信者リストで「**年齢**」列を右クリックし、「**[!UICONTROL この列でフィルター]**」を選択します。
+1. Right-click the **Age** column in the recipient list, and select **[!UICONTROL Filter on this column]**.
 
    ![](assets/s_ncs_user_sort_this_column.png)
 
-   年齢のフィルターオプションを選択できるようになります。
+   You can then select the age filtering options.
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## 詳細フィルターの作成 {#creating-an-advanced-filter}
+## Create an advanced filter {#creating-an-advanced-filter}
 
-**詳細フィルター**&#x200B;を作成するには、次の手順に従います。
+To create an **advanced filter**, apply the following steps:
 
-1. 「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL 詳細フィルター...]**」を選択します。
+1. Click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**. 
 
    ![](assets/filters_recipient_create_adv_filter.png)
 
-   フィルターするデータのリストを右クリックして、「**[!UICONTROL 詳細フィルター...]**」を選択することもできます。
+   You can also right-click the list of data to filter and select **[!UICONTROL Advanced filter...]**.
 
-   フィルター条件定義ウィンドウが表示されます。
+   The filtering condition definition window is displayed.
 
-1. 「**[!UICONTROL 式]**」列をクリックして、入力値を定義します。
-1. **[!UICONTROL 式を編集]**&#x200B;をクリックして、フィルターを適用するフィールドを選択します。
+1. Click the **[!UICONTROL Expression]** column to define the input value.
+1. Click **[!UICONTROL Edit expression]** to select the field to which the filter will be applied.
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. リストから、データをフィルターする基準となるフィールドを選択します。「**[!UICONTROL 完了]**」をクリックして確定します。
-1. 「**[!UICONTROL 演算子]**」列をクリックして、適用する演算子をドロップダウンリストから選択します。
-1. 期待される値を「**[!UICONTROL 値]**」列から選択します。複数のフィルターを組み合わせてクエリを絞り込むことができます。フィルター条件を追加するには、「**[!UICONTROL 追加]**」をクリックします。
+1. From the list, select the field on which data will be filtered. Click **[!UICONTROL Finish]** to confirm.
+1. Click the **[!UICONTROL Operator]** column and select the operator to be applied from the drop-down list.
+1. Select an expected value from the **[!UICONTROL Value]** column. You can combine several filters to refine your query. To add a filter condition, click **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_filter_add_button_alone.png)
 
-1. 式に階層を割り当てたり、ツールバーの矢印を使用してクエリ式の順序を変更したりすることができます。
-1. 式の間のデフォルトの演算子は「**および**」ですが、これはフィールドをクリックすることで変更できます。「**または**」演算子を選択できます。
+1. You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.
+1. The default operator between expressions is **And**, but you can change this by clicking the field. You can select an **Or** operator.
 
    ![](assets/s_ncs_user_filter_operator.png)
 
-1. 「**[!UICONTROL OK]**」をクリックしてフィルター作成を確定し、リストに適用します。
+1. Click **[!UICONTROL OK]** to confirm filter creation and apply it to the list.
 
-適用されるフィルターがリストの上に表示されます。
+The filter applied is displayed above the list.
 
 ![](assets/s_ncs_user_filter_adv_edit.png)
 
-このフィルターを編集または変更するには、そのラベルをクリックします。
+To edit or modify this filter, click its label.
 
-このフィルターをキャンセルするには、フィルターの右側にある&#x200B;**[!UICONTROL このフィルターを削除]**&#x200B;アイコンをクリックします。
+To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the right of the filter.
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-詳細フィルターを保存して、今後の使用のために保持できます。このタイプのフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)を参照してください。
+You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Save a filter](#saving-a-filter).
 
-### 関数を使用した詳細フィルターの作成 {#creating-an-advanced-filter-with-functions}
+### Create an advanced filter with functions {#creating-an-advanced-filter-with-functions}
 
-詳細フィルターでは関数を使用できます。**関数を使用したフィルター**&#x200B;は式エディターを使用して作成されますが、式エディターでは、データベースデータと高度な関数を使用して数式を作成できます。関数を使用してフィルターを作成するには、詳細フィルターの作成手順の 1、2 および 3 を繰り返してから、次の手順に従います。
+Advanced filters can use functions; **filters with functions** are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:
 
-1. フィールドの選択ウィンドウで、「**[!UICONTROL 詳細選択]**」をクリックします。
-1. 使用する数式のタイプ（集計、既存のユーザーフィルターまたは式）を選択します。
+1. In the field selection window, click **[!UICONTROL Advanced selection]**.
+1. Select the type of formula to be used: aggregate, existing user filter or expression.
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
-   次のオプションを使用できます。
+   The following options are available:
 
-   * 「**[!UICONTROL フィールドのみ]**」は、フィールドを選択する場合に使用します。これはデフォルトのモードです。
-   * 「**[!UICONTROL 集計]**」は、使用する集計数式（カウント、合計、平均、最大、最小）を選択する場合に使用します。
-   * 「**[!UICONTROL ユーザーフィルター]**」は、既存のユーザーフィルターのいずれかを選択する場合に使用します。ユーザーフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)を参照してください。
-   * 「**[!UICONTROL 式]**」は、式エディターにアクセスする場合に使用します。
+    * **[!UICONTROL Field only]** to select a field. This is the default mode. 
+    * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
+    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Save a filter](#saving-a-filter).
+    * **[!UICONTROL Expression]** to access the expressions editor.
 
-     式エディターでは、詳細フィルターを定義できます。次のような画面です。
+      The expression editor lets you define an advanced filter. It looks like this:
+    
+      ![](assets/s_ncs_user_create_exp_exple01.png)
 
-     ![](assets/s_ncs_user_create_exp_exple01.png)
+      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]**. The functions available are detailed in [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
 
-     データベーステーブル内のフィールドを選択し、それらに高度な機能を追加できます。**[!UICONTROL 関数のリスト]**&#x200B;で使用する関数を選択します。使用できる関数について詳しくは、[関数のリスト](../../platform/using/defining-filter-conditions.md#list-of-functions)で説明しています。次に、関数の対象となるフィールド（複数可）を選択し、「**[!UICONTROL OK]**」をクリックして式を承認します。
+      >[!NOTE]
+      >
+      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
-     >[!NOTE]
-     >
-     >式に基づくフィルター作成の例については、[この節](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)を参照してください。
+## Save a filter {#saving-a-filter}
 
-## フィルターの保存 {#saving-a-filter}
+Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
 
-フィルターは各オペレーター専用であり、オペレーターがクライアントコンソールのキャッシュをクリアするたびに再初期化されます。
+You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-詳細フィルターを保存することによって、**アプリケーションフィルター**&#x200B;を作成できます。アプリケーションフィルターは、リスト内を右クリックするか、リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用して再利用できます。
+These filters can also be accessed directly via the delivery assistant, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
 
-これらのフィルターには、配信アシスタントのターゲット選択ステージで直接アクセスすることもできます（配信の作成について詳しくは、[この節](../../delivery/using/creating-an-email-delivery.md)を参照してください）。アプリケーションフィルターを作成するには、次の操作をおこなうことができます。
-
-* 詳細フィルターをアプリケーションフィルターに変換します。そのためには、詳細フィルターエディターを閉じる前に、「**[!UICONTROL 保存]**」をクリックします。
+* Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 
   ![](assets/s_ncs_user_filter_save.png)
 
-* このアプリケーションフィルターを、ツリーの&#x200B;**[!UICONTROL 管理／設定／定義済みフィルター]**（または受信者の&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**）ノードを使用して作成します。そのためには、フィルターのリストを右クリックして、「**[!UICONTROL 新規...]**」を選択します。手順は、詳細フィルターを作成する場合と同じです。
+* Create this application filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** (or **[!UICONTROL Profiles and targets > Predefined filters]** for recipients) node of the tree. To do this, right-click the list of filters, and select **[!UICONTROL New...]**. The procedure is the same as for creating advanced filters.
 
-  「**[!UICONTROL ラベル]**」フィールドで、このフィルターに名前を付けることができます。この名前は、「**[!UICONTROL フィルター]**」ボタンのコンボボックス内に表示されます。
+  The **[!UICONTROL Label]** field enables you to name this filter. This name will appear in the combo box of the **[!UICONTROL Filters...]** button. 
 
   ![](assets/user_filter_apply.png)
 
-現在のリストにあるすべてのフィルターを削除できます。右クリックして「**[!UICONTROL フィルターなし]**」を選択するか、リストの上にある「**[!UICONTROL フィルター]**」アイコンを使用します。
+You can delete all filters on the current list by right-clicking and selecting **[!UICONTROL No filter]** or via the **[!UICONTROL Filters]** icon located above the list.  
 
-「**[!UICONTROL フィルター]**」ボタンをクリックして「**[!UICONTROL および]**」メニューを使用することで、フィルターを組み合わせることができます。
+You can combine filters by clicking the **[!UICONTROL Filters]** button and using the **[!UICONTROL And...]** menu.
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## 受信者のフィルタリング {#filtering-recipients}
+## Filter recipients {#filtering-recipients}
 
-定義済みフィルター（[フィルターの保存](#saving-a-filter)を参照）を使用すれば、データベースに含まれている受信者のプロファイルをフィルタリングできます。フィルターは、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードから編集できます。「**[!UICONTROL フィルター]**」ボタンを使用すると、ワークスペースの上部セクションにフィルターが表示されます。
+Predefined filters (see [Save a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
 
-フィルターを選択してその定義を表示し、フィルターされたデータのプレビューにアクセスします。
+Select a filter to display its definition and to access a preview of the filtered data.
 
 ![](assets/s_ncs_user_segment_edit.png)
 
 >[!NOTE]
 >
->定義済みフィルターの作成の詳細な例については、[使用例](../../platform/using/use-case.md)を参照してください。
+>For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
 
-定義済みフィルターは、次のとおりです。
+The predefined filters are:
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>ラベル</strong><br /> </td> 
-   <td> <strong>クエリ</strong><br /> </td> 
+   <td> <strong>Label</strong><br /> </td> 
+   <td> <strong>Query</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> 開封済み<br /> </td> 
-   <td> 配信を開封した受信者を選択します。<br /> </td> 
+   <td> Opened<br /> </td> 
+   <td> Selects recipients who have opened a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 開封したがクリックしなかった<br /> </td> 
-   <td> 配信を開封したがリンクをクリックしていなかった受信者を選択します。<br /> </td> 
+   <td> Opened but not clicked<br /> </td> 
+   <td> Selects recipients who have opened a delivery but have not clicked on a link.<br /> </td> 
   </tr> 
   <tr> 
-   <td> アクティブでない受信者<br /> </td> 
-   <td> 配信を X ヶ月間開封していない受信者を選択します。<br /> </td> 
+   <td> Inactive recipients<br /> </td> 
+   <td> Selects recipients who have not opened a delivery in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> デバイスタイプ別の最後のアクティビティ<br /> </td> 
-   <td> 過去 Z 日間にデバイス X を使用して配信 Y をクリックしたか開封した受信者を選択します。<br /> </td> 
+   <td> Last activity by device type<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> デバイスタイプ別の最後のアクティビティ（トラッキング）<br /> </td> 
-   <td> 過去 Z 日間にデバイス X を使用して配信 Y をクリックしたか開封した受信者を選択します。<br /> </td> 
+   <td> Last activity by device type (Tracking)<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> ターゲット解除された受信者<br /> </td> 
-   <td> チャネル Y 経由で X ヶ月間ターゲットとされていない受信者を選択します。<br /> </td> 
+   <td> Untargeted recipients<br /> </td> 
+   <td> Selects recipients who have never been targeted via channel Y in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 非常にアクティブな受信者<br /> </td> 
-   <td> 過去 Y ヶ月間に少なくとも X 回、配信内でクリックした受信者を選択します。<br /> </td> 
+   <td> Very active recipients<br /> </td> 
+   <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
   </tr> 
   <tr> 
- <td> ブロックリスト登録済みメールアドレス<br /> </td> 
-    <td> メールアドレスがブロックリストに登録されている受信者を選択します。<br/> </td>
+ <td> Denylisted email address<br /> </td> 
+    <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 
-   <td> 強制隔離されたメールアドレス<br /> </td> 
-   <td> メールアドレスが強制隔離されている受信者を選択します。<br /> </td> 
+   <td> Quarantined email address<br /> </td> 
+   <td> Selects recipients whose email address is quarantined.<br /> </td> 
   </tr> 
   <tr> 
-   <td> フォルダー内で重複するメールアドレス<br /> </td> 
-   <td> フォルダー内でメールアドレスが重複している受信者を選択します。<br /> </td> 
+   <td> Email addresses duplicated in the folder<br /> </td> 
+   <td> Selects recipients whose email address is duplicated in the folder.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 開封もクリックもなし<br /> </td> 
-   <td> 配信を開封していなくかつ配信内でクリックもしていない受信者を選択します。<br /> </td> 
+   <td> Neither opened nor clicked<br /> </td> 
+   <td> Selects recipients who have not opened a delivery, or clicked in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 新しい受信者（日数）<br /> </td> 
-   <td> 過去 X 日間に作成された受信者を選択します。<br /> </td> 
+   <td> New recipients (days)<br /> </td> 
+   <td> Selects recipients that were created in the last X days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 新しい受信者（分）<br /> </td> 
-   <td> 過去 X 分間に作成された受信者を選択します。<br /> </td> 
+   <td> New recipients (minutes)<br /> </td> 
+   <td> Selects recipients that were created in the last X minutes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 新しい受信者（月）<br /> </td> 
-   <td> 過去 X ヶ月間に作成された受信者を選択します。<br /> </td> 
+   <td> New recipients (months)<br /> </td> 
+   <td> Selects recipients that were created in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 購読<br /> </td> 
-   <td> 購読別に受信者を選択します。<br /> </td> 
+   <td> By subscription<br /> </td> 
+   <td> Selects recipients by subscription.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 特定のリンクをクリックする<br /> </td> 
-   <td> 配信内の特定の URL をクリックした受信者を選択します。<br /> </td> 
+   <td> By clicking on a specific link<br /> </td> 
+   <td> Selects recipients who clicked on a particular URL in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 配信後の行動別<br /> </td> 
-   <td> 配信の受信後の行動に従って受信者を選択します。<br /> </td> 
+   <td> By post delivery behavior<br /> </td> 
+   <td> Selects recipients according to their behavior after receiving a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 作成日別<br /> </td> 
-   <td> X ヶ月（現在の日付 - n ヶ月）から Y ヶ月（現在の日付 - n ヶ月）までの期間で、作成日別に受信者を選択します。<br /> </td> 
+   <td> By creation date<br /> </td> 
+   <td> Selects recipients by creation date, over a period ranging from X months (current date minus n months) to Y months (current date minus n months).<br /> </td> 
   </tr> 
   <tr> 
-   <td> リスト別<br /> </td> 
-   <td> リスト別に受信者を選択します。<br /> </td> 
+   <td> By list<br /> </td> 
+   <td> Selects recipients by list.<br /> </td> 
   </tr> 
   <tr> 
-   <td> クリック数別<br /> </td> 
-   <td> 過去 X ヶ月間に配信内でクリックした受信者を選択します。<br /> </td> 
+   <td> By number of clicks<br /> </td> 
+   <td> Selects recipients who clicked in a delivery in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 受信したメッセージ数別<br /> </td> 
-   <td> 受信したメッセージ数に従って受信者を選択します。<br /> </td> 
+   <td> By number of messages received<br /> </td> 
+   <td> Selects recipients according to the number of messages that they received.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 開封数別<br /> </td> 
-   <td> Z の期間で X 件から Y 件の配信を開封した受信者を選択します。<br /> </td> 
+   <td> By number of opens<br /> </td> 
+   <td> Selects recipients who opened between X and Y deliveries over Z amount of time.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前別またはメール別<br /> </td> 
-   <td> 名前またはメールに従って受信者を選択します。<br /> </td> 
+   <td> By name or email<br /> </td> 
+   <td> Selects recipients according to their name or email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢層別<br /> </td> 
-   <td> 年齢に従って受信者を選択します。<br /> </td> 
+   <td> By age range<br /> </td> 
+   <td> Selects recipients according to their age.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->数および期間に関する条件式は、より広範囲な数値定義になっています（クエリの上限／下限として設定された数値に一致する受信者は、その条件式に含まれます）。
+>All comparisons concerning counting and periods are to be understood in the broader sense (recipients that correspond to the query limits are included in the comparison).
 
-データの計算方法の例：
+Examples of how the data is calculated:
 
-* 30 歳以下の受信者を選択します。
+* Selects recipients who are less than 30 years old: 
 
   ![](assets/predefined_filters_01.png)
 
-* 18 歳以上の受信者を選択します。
+* Selects recipients who are 18 years of age or older:
 
   ![](assets/predefined_filters_03.png)
 
-* 18 歳から 30 歳までの受信者を選択します。
+* Selects recipients aged between 18 and 30:
 
   ![](assets/predefined_filters_02.png)
 
-## データフィルターの詳細設定 {#advanced-settings-for-data-filters}
+## Advanced settings for data filters {#advanced-settings-for-data-filters}
 
-「**[!UICONTROL パラメーター]**」タブをクリックして、次のオプションにアクセスします。
+Click the **[!UICONTROL Settings]** tab to access the following options:
 
-* **[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**：このオプションにより、並べ替えの対象となるリストのエディターで、デフォルトでこのフィルターを利用できます。
+* **[!UICONTROL Default filter for the associated document type]**: this option lets you suggest this filter by default in the editor of the lists concerned by the sort.
 
-  例えば、**[!UICONTROL 名前またはログイン別]**&#x200B;フィルターがオペレーターに適用されている場合、このオプションを選択すると、このフィルターがすべてのオペレーターリストで常に利用できます。
+  For example, the **[!UICONTROL By name or login]** filter is applied to operators. This option is selected, and so the filter is always offered on all operator lists.
 
-* **[!UICONTROL 他のオペレーターと共有するフィルター]**：このオプションにより、他のすべてのオペレーターが現在のデータベースに対してこのフィルターを使用できます。
-* **[!UICONTROL パラメーター入力フォームを使用する]**：このオプションにより、このフィルターが選択されている場合にリストの上に表示されるフィルターフィールドを定義できます。これらのフィールドでフィルター設定を定義できます。このフォームは、「**[!UICONTROL フォーム]**」ボタンを使用して XML フォーマットで入力する必要があります。例えば、受信者リストから使用可能な定義済みフィルター「**[!UICONTROL 開封済み]**」では、フィルターの対象の配信を選択できるフィルターフィールドが表示されます。
+* **[!UICONTROL Filter shared with other operators]**: this option lets you make the filter available to all the other operators on the current database.
+* **[!UICONTROL Use parameter entry form]**: this option lets you define the filter field(s) to be displayed above the list when this filter is selected. These fields let you define the filter settings. This form must be entered in XML format via the **[!UICONTROL Form]** button. For example, the preconfigured filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.
 
-  「**[!UICONTROL プレビュー]**」ボタンを使用すると、選択したフィルターの結果が表示されます。
+  The **[!UICONTROL Preview]** button displays the result of the selected filter.
 
-* 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用すると、追加設定を定義できます。特に、SQL テーブルをフィルターに関連付けて、そのテーブルを共有するすべてのエディターでそのフィルターを共通にすることができます。
+* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. In particular, you can associate a SQL table with the filter to make it common to all editors that share the table.
 
-  このフィルターがユーザーにより上書きされないようにする場合は、「**[!UICONTROL フィルターを制限しない]**」オプションを選択します。
+  Select the **[!UICONTROL Do not restrict the filter]** option if you want to stop the user from overriding this filter.
 
-  このオプションは、配信アシスタントで提供される、多重定義できない「配信の受信者」および「フォルダーに属する配信の受信者」フィルターに対して有効です。
+  This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery assistant that cannot be overloaded.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)
+-->

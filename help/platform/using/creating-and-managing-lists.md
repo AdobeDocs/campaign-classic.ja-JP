@@ -6,10 +6,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+source-git-commit: f188c9ce4c47d05638d9d28e2175cb4d32775ba2
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 78%
 
 ---
 
@@ -25,121 +25,128 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_interface_group_link.png)
 
-Adobe Campaign では、2 つのリストタイプを使用できます。
+>[!NOTE]
+>
+>リストの詳細と、リストの作成および管理方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank} を参照してください。
 
-* **[!UICONTROL グループ]**&#x200B;タイプ：**[!UICONTROL グループ]**&#x200B;タイプのリストは、特定の基準に基づいて選択された個人の&#x200B;**静的な**&#x200B;リストに属しています。リストは、一連のプロファイルのスナップショットのようなものです。データベースにプロファイルが追加されても、リストが自動的に更新されることはありませんので、ご注意ください。
+<!--
+Two types of lists are available in Adobe Campaign:
 
-  **[!UICONTROL グループ]**&#x200B;タイプリストの作成方法について詳しくは、この[ページ](#creating-a-profile-list-from-a-group)を参照してください。
+* **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
 
-* **[!UICONTROL リスト]**&#x200B;タイプ：**[!UICONTROL リスト]**&#x200B;タイプのリストは、ワークフローを使用して作成および管理できます。これはデータのインポートの結果として生成される特定のリストであり、専用の&#x200B;**[!UICONTROL リスト更新]**&#x200B;ワークフローアクティビティで更新できます。
+  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](#creating-a-profile-list-from-a-group).
 
-  **[!UICONTROL グループ]**&#x200B;タイプリストと異なり、このタイプのリストは&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティで自動的に更新されます。**[!UICONTROL リスト]**&#x200B;タイプリストの作成方法の例については、[このページ](../../workflow/using/list-update.md)を参照してください。
+* **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-list-video)
+  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](../../workflow/using/list-update.md).
 
-## グループからのプロファイルリストの作成 {#creating-a-profile-list-from-a-group}
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-list-video)
 
-**[!UICONTROL プロファイルとターゲット]**&#x200B;リンクを使用して作成した&#x200B;**[!UICONTROL グループ]**&#x200B;タイプリストは、デフォルトの Adobe Campaign プロファイルテーブル（nms:recipient）に基づいている必要があります。
+## Create a profile list from a group {#creating-a-profile-list-from-a-group}
+
+**[!UICONTROL Group]** type lists created via the **[!UICONTROL Profiles and targets]** link must be based on the default Adobe Campaign profile table (nms:recipient).
 
 >[!NOTE]
 >
->他のタイプのデータを含むリストを作成するには、ワークフローを実行する必要があります。例えば、訪問者テーブルでクエリを使用してからリストを更新することによって、訪問者リストを作成できます。ワークフローについて詳しくは、[この節](../../workflow/using/about-workflows.md)を参照してください。
+>To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. For more information on workflows, refer to [this section](../../workflow/using/about-workflows.md).
 
-新しい&#x200B;**[!UICONTROL グループ]**&#x200B;タイプリストを作成するには、次の手順を適用します。
+To create a new **[!UICONTROL Group]** type list, apply the following steps:
 
-1. 「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL 新しいリスト]**」を選択します。
+1. Click the **[!UICONTROL Create]** button and select **[!UICONTROL New list]**.
 
    ![](assets/s_ncs_user_new_group.png)
 
-1. リスト作成ウィンドウの「**[!UICONTROL 編集]**」タブで情報を入力します。
+1. Enter the information in the **[!UICONTROL Edit]** tab of the list creation window.
 
-   * 「**[!UICONTROL ラベル]**」フィールドにリスト名を入力し、必要に応じて内部名を変更します。
-   * このリストの説明を入力します。
-   * 有効期限を指定できます。この日付に達すると、リストはパージされ自動的に削除されます。
+    * Enter the list name in the **[!UICONTROL Label]** field and, if necessary, change the internal name.
+    * Add a description for this list.
+    * You can specify an expiration date: when this date is reached, the list is purged and automatically deleted.
+    
+      ![](assets/list_expiration_date.png)
 
-     ![](assets/list_expiration_date.png)
-
-1. 「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」をクリックし、リストに属するプロファイルを選択します。
+1. In the **[!UICONTROL Content]** tab, click **[!UICONTROL Add]** to select the profiles belonging to the list.
 
    ![](assets/s_ncs_user_add_group.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックしてリストを保存します。リストの概要にリストが追加されます。
+1. Click **[!UICONTROL Save]** to save the list. It is then added to the overview of lists.
 
-「**[!UICONTROL 作成]**」をクリックして、プロファイル追加ウィンドウから新しいプロファイルを直接作成できます。プロファイルはデータベースに追加されます。
+You can create new profiles directly from the 'add profiles' window by clicking **[!UICONTROL Create]**. The profile will be added to the database.
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-プロファイルリストは、他のリストと同様に設定できます。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
+The profile list can be configured just like other lists. See [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-## リストへのデータのリンク {#linking-data-to-a-list}
+## Link data to a list {#linking-data-to-a-list}
 
 >[!NOTE]
 >
->リストへのデータのリンクは、**[!UICONTROL グループ]**&#x200B;タイプリストでのみ可能です。
+>Linking data to a list can only been done with a **[!UICONTROL Group]** type list.
 
-一連のプロファイルをフィルターしてリストにリンクすることができます。配信アクションをこのリスト、つまりターゲットプロファイルに送信できます。プロファイルをグループ化するには、以下の手順に従います。
+The profiles of a set of profiles can be filtered and linked to a list. Delivery actions may then be sent to this list, to target profiles. To group profiles:
 
-1. プロファイルを選択して、右クリックします。
-1. **[!UICONTROL アクション／リストに選択項目を関連付け...]** を選択します。
+1. Select profiles and right-click. 
+1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
 
    ![](assets/s_ncs_user_add_selection_to_group.png)
 
-1. 目的のリストを選択するか、**[!UICONTROL 作成]**&#x200B;ボタンを使用して新しいリストを作成し、「**[!UICONTROL 次へ]**」をクリックします。
+1. Select the desired list or create a new list using the **[!UICONTROL Create]** button, then click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_user_add_selection_to_group_2.png)
 
-1. 「**[!UICONTROL 開始]**」ボタンをクリックします。
+1. Click the **[!UICONTROL Start]** button.
 
    ![](assets/s_ncs_user_add_selection_to_group_3.png)
 
-「**[!UICONTROL リストを再作成]**」オプションでは、以前のコンテンツがリストから削除されます。プロファイルが既にリストにリンクされているかどうかを検証するためのクエリが不要なので、このモードは最適化されています。
+The **[!UICONTROL Recreate the list]** option deletes the earlier content from the list. This mode is optimized since no query is needed to verify whether the profiles are already linked to the list.
 
-「**[!UICONTROL データベースにこのジョブのトレースを保存しない]**」オプションをオフにした場合、このプロセスにリンクされた情報を保存する実行フォルダーを選択（または作成）できます。
+If you uncheck the **[!UICONTROL No trace of this job is saved in the database]** option, you can select (or create) the execution folder where the information linked to this process will be stored.
 
-ウィンドウの上部セクションで実行を監視できます。「**[!UICONTROL 停止]**」ボタンを使用してプロセスを停止できます。既に処理された連絡先がリストにリンクされます。
+The upper section of the window lets you monitor execution. The **[!UICONTROL Stop]** button lets you stop the process. Contacts already processed will be linked to the list.
 
-この操作の対象となるプロファイルで「**[!UICONTROL リスト]**」タブを使用して、プロセスを監視できます。
+You can monitor the process via the **[!UICONTROL Lists]** tab on the profiles concerned by this operation:
 
 ![](assets/s_ncs_user_add_selection_to_group_4.png)
 
-Adobe Campaign ホームページからリストを編集することもできます。**[!UICONTROL プロファイルとターゲット／リスト]**&#x200B;メニューをクリックして、該当するリストを選択します。「**[!UICONTROL コンテンツ]**」タブには、このリストにリンクされているプロファイルが表示されます。
+You can also edit the list via the Adobe Campaign home page: click the **[!UICONTROL Profiles and Targets > Lists]** menu and select the concerned list. The **[!UICONTROL Content]** tab shows the profiles linked to this list.
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
-## リストからのプロファイルの削除 {#removing-a-profile-from-a-list}
+## Remove a profile from a list {#removing-a-profile-from-a-list}
 
-次の操作で、リストからプロファイルを削除することができます。
+To remove a profile from a list, you can:
 
-* リストを編集し、「**[!UICONTROL コンテンツ]**」タブでプロファイルを選択して、「**[!UICONTROL 削除]**」アイコンをクリックします。
+* Edit the list, select the profile in the **[!UICONTROL Content]** tab, then click the **[!UICONTROL Delete]** icon.
 
   ![](assets/list_remove_a_recipient.png)
 
-* プロファイルを編集し、「**[!UICONTROL リスト]**」タブをクリックして、「**[!UICONTROL 削除]**」アイコンをクリックします。
+* Edit the profile, click the **[!UICONTROL List]** tab, then click the **[!UICONTROL Delete]** icon. 
 
   ![](assets/recipient_remove_a_list.png)
 
-## プロファイルリストの削除 {#deleting-a-list-of-profiles}
+## Delete a list of profiles {#deleting-a-list-of-profiles}
 
-Adobe Campaign ツリーのグループリストから 1 つ以上のリストを削除できます。そのためには、Adobe Campaign ホームページで&#x200B;**[!UICONTROL 詳細設定／エクスプローラー]**&#x200B;リンクを選択し、ツリーを編集します。該当するグループを選択して右クリックします。「**[!UICONTROL 削除]**」を選択します。削除を確定するよう求める警告メッセージが表示されます。
+You can delete one or more lists from the group list in the Adobe Campaign tree. To do this, edit the tree via the **[!UICONTROL Advanced > Explorer]** link in the Adobe Campaign home page. Select the group(s) concerned and right-click. Select **[!UICONTROL Delete]**. A warning message asks you to confirm the deletion.
 
 >[!NOTE]
 >
->リストを削除した場合、リストのプロファイルは影響を受けませんが、プロファイルのデータは更新されます。
+>When you delete a list, the profiles on the list are not affected but the data in their profile is updated.
 
-## チュートリアルビデオ {#create-list-video}
+## Tutorial video {#create-list-video}
 
-### 受信者リストの作成方法
+### How to create a list of recipients
 
-リストは、配信アクションのターゲットにしたり、インポート操作時またはワークフロー実行時に更新したりできる受信者の静的なセットです。受信者リストはオーディエンスとも呼ばれます。
+A list is a static set of recipients that can be targeted in delivery actions or updated during import operations or during workflow execution. A list of recipients is also referred to as audience.
 
-エクスプローラーから受信者リストを設定してオーディエンスを作成する方法を説明します。
+Learn how to create an audience by configuring a list of recipients from the Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### ワークフローを使用して受信者のリストを作成する方法 {#create-list-in-a-wf-video}
+### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
-受信者をターゲットにするためのワークフローを作成する方法や、メールターゲットでリストを使用する前にワークフローが繰り返されるようにする方法を説明します。
+Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->

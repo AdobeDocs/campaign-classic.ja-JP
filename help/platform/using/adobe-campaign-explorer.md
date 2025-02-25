@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 22aa5f76541e6ff1612907ab0b34f0ac468fb9a6
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 58%
 
 ---
 
@@ -20,68 +20,74 @@ ht-degree: 100%
 
 Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。これにより、Adobe Campaign のすべての機能、設定画面およびプラットフォーム要素の一部の詳細ビューにアクセスできます。
 
-**[!UICONTROL エクスプローラー]**&#x200B;ワークスペースは、3 つのゾーンに分割されています。
+>[!NOTE]
+>
+>Adobe Campaign エクスプローラーについて詳しくは、Campaign v8 ドキュメントの以下のページを参照してください。詳しくは、[ ユーザーインターフェイスについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}、その [ 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} または [ エクスプローラーでフォルダーとビューを管理する方法 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
+
+
+<!--
+The **[!UICONTROL Explorer]** workspace is divided into three zones:
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - ツリー**：ツリーのコンテンツは、パーソナライズできます（ノードの追加、移動または削除）。この手順は、エキスパートユーザー専用です。詳細については、[この節](#about-navigation-hierarchy)を参照してください。
+**1 - Tree**: you can personalize the content of the tree (add, move, or delete nodes). This procedure is intended for expert users only. For more on this, refer to  [this section](#about-navigation-hierarchy).).
 
-**2 - リスト**：このリストのフィルタリング、検索の実行、情報の追加、データの並べ替えのいずれかを行うことができます。 [詳細情報](adobe-campaign-ui-lists.md)。
+**2 - List**: you can filter this list, run searches, add information, or sort data. [Learn more](adobe-campaign-ui-lists.md).
 
-**3 - 詳細**：選択した要素の詳細を表示できます。右上にあるアイコンを使用すると、この情報をフルスクリーンフォーマットで表示できます。
+**3 - Details**: you can display the details of the selected element. The icon in the upper right-hand section lets you display this information in full-screen format.
 
-## フォルダーとナビゲーションツリー{#about-navigation-hierarchy}
+## Folders and navigation tree{#about-navigation-hierarchy}
 
-ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。
+The navigation tree works like a file browser (e.g. Windows Explorer). Folders may contain sub-folders. Selecting a node displays the view corresponding to the node.
 
-表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。
+The view displayed is a list associated with a schema and an input form to edit the selected line.
 
 ![](assets/d_ncs_integration_navigation.png)
 
-ツリーに新しいフォルダーを追加するには、フォルダーの挿入先となるブランチでフォルダーを右クリックし、**[!UICONTROL 新規フォルダーを追加]**&#x200B;を選択します。 ショートカットメニューで、作成するファイルの種類を選択します。
+To add a new folder to the tree, right-click the folder in the branch where you wish to insert a folder, and select **[!UICONTROL Add new folder]** . In the shortcut menu, select the type of file to be created.
 
 ![](assets/d_ncs_integration_navigation_create.png)
 
-[この節では](../../configuration/using/configuration.md)、キャンペーンのナビゲーションツリーを設定する方法について説明します。
+Learn how to configure Campaign navigation tree [in this section](../../configuration/using/configuration.md).
 
-](access-management-folders.md)この節では[、フォルダーに権限を設定する方法を説明します。
+Learn how to set permissions on folders [in this section](access-management-folders.md).
 
-## フォルダー設定のベストプラクティス
+## Folder configuration best practices
 
-* **ビルトインフォルダーの使用**
+* **Use built-in folders**
 
+  Using the built-in folders makes it easier for people not involved in the project to use, maintain and troubleshoot the application. You should not create custom folder structures for recipients, lists, deliveries, etc., but use the standard folders such as Administration, Profiles & Targets, Campaign management.
 
-  ビルトインフォルダーを使用すると、プロジェクトに関与していないユーザーがアプリケーションを簡単に使用、保守、トラブルシューティングできるようになります。受信者、リスト、配信などのカスタムフォルダー構造を作成するのではなく、管理、プロファイルとターゲット、キャンペーン管理などの標準フォルダーを使用してください。
+* **Create sub-folders**
 
-* **サブフォルダーの作成**
+  Place technical workflows under the standard folder: Administration / Production / Technical Workflows, and create subdirectories per workflow type.
+  
+* **Set a naming convention**
 
-  標準フォルダー（管理／実稼働／テクニカルワークフロー）の下にテクニカルワークフローを配置し、ワークフロータイプごとにサブディレクトリを作成します。
+  For example you can name the workflows in alphabetical order, so that they appear sorted in the order of execution.
+  
+  For example:
+  
+  * A1 – import recipients, starts at 10:00;
+  * A2 – import tickets, starts at 11:00.
 
-* **命名規則の設定**
+* **Create templates for users to start with**
 
-  例えば、実行順に並べ替えて表示されるように、ワークフローにアルファベット順に名前を付けることができます。
+  Create delivery templates, workflow templates, campaign templates specific to users. This structure can save time and make sure that the right delivery mapping and typologies are used for each user.
 
-  例：
+## Screen resolution {#screen-resolution}
 
-   * A1 - 受信者のインポート、10:00 開始。
-   * A2 - チケットのインポート、11:00 開始。
-
-* **開始時に使用できるテンプレートの作成**
-
-  ユーザーに固有の配信テンプレート、ワークフローテンプレート、キャンペーンテンプレートを作成します。 この構造により、時間を節約でき、ユーザーごとに適切な配信マッピングとタイポロジーを確実に使用できます。
-
-## 画面の解像度 {#screen-resolution}
-
-最適なナビゲーションとユーザビリティを確保するために、アドビでは 1600 x 900 ピクセル以上の画面解像度を推奨します。
+For optimal navigation and usability, Adobe recommends using a minimum screen resolution of 1600x900 pixels.
 
 >[!CAUTION]
 >
->1600 x 900 ピクセル未満の解像度は Adobe Campaign ではサポートしていません。
+>Resolutions under 1600x900 pixels are not supported by Adobe Campaign.
 
-**[!UICONTROL エクスプローラー]**&#x200B;ワークスペースで&#x200B;**[!UICONTROL 詳細]**&#x200B;ゾーンの一部が切り詰められているように見える場合は、ゾーンの上部にある矢印を使用してゾーンを拡大するか、「**[!UICONTROL 拡大]**」ボタンをクリックします。
+In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL Details]** zone appear to be truncated, expand it using the arrow on top of the zone or click the **[!UICONTROL Enlarge]** button.
 
 ![](assets/s_ncs_user_resolution.png)
 
-## リストの参照とカスタマイズ {#browsing-lists}
+## Browse and customize lists {#browsing-lists}
 
-リストを参照、管理、カスタマイズする方法については、](adobe-campaign-ui-lists.md)この節[を参照してください。
+Learn how to browse, manage and customize lists [in this section](adobe-campaign-ui-lists.md).
+-->

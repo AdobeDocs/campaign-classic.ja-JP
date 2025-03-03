@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->フィルターとその使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
+>フィルターとその使用方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}を参照してください。
 
 
 <!--

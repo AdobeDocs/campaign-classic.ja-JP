@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: f188c9ce4c47d05638d9d28e2175cb4d32775ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->リストの詳細と、リストの作成および管理方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank} を参照してください。
+>リストの詳細と、リストの作成および管理方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}を参照してください。
 
 <!--
 Two types of lists are available in Adobe Campaign:

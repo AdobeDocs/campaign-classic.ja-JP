@@ -5,9 +5,9 @@ description: リストの参照と設定の方法について説明します。
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: f43b15e61fb286a612f057d8d3bf5a1ff6ecb253
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 >[!NOTE]
 >
->Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>Adobe Campaign でリストを管理およびカスタマイズする方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}を参照してください。
 
 <!--
 ## Count records {#counting-records}

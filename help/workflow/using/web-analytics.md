@@ -2,8 +2,10 @@
 product: campaign
 title: Web 分析
 description: Web 分析パッケージの詳細を説明します
+hide: true
+hidefromtoc: true
 feature: Workflows, Analytics Integration
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%

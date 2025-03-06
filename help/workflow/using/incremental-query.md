@@ -3,8 +3,10 @@ product: campaign
 title: 増分処理クエリ
 description: 増分処理クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%

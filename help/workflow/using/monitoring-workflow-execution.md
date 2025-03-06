@@ -3,8 +3,10 @@ product: campaign
 title: ワークフロー実行の監視
 description: ワークフロー実行の監視
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 100%
@@ -37,7 +39,7 @@ ht-degree: 100%
 
 ## ログの表示 {#displaying-logs}
 
-ログには、ワークフローの履歴または監査証跡が含まれます。ログには、すべてのユーザーアクション、実行されたすべての操作、および発生したすべてのエラーが記録されます。次の操作をおこなうことができます。
+ログには、ワークフローの履歴または監査記録が含まれます。ログには、すべてのユーザーアクション、実行されたすべての操作、および発生したすべてのエラーが記録されます。次の操作をおこなうことができます。
 
 * 詳細で、「**[!UICONTROL トラッキング]**」タブを選択します。このリストには、すべてのワークフローメッセージが含まれます。
 

@@ -3,8 +3,10 @@ product: campaign
 title: ワークフローデータの使用方法
 description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%

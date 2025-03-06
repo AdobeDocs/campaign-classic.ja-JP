@@ -3,8 +3,10 @@ product: campaign
 title: 時間制限
 description: 時間制限ワークフローアクティビティの詳細を説明します
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%

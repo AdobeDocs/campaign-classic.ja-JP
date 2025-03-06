@@ -3,9 +3,11 @@ product: campaign
 title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 

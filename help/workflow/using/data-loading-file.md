@@ -3,8 +3,10 @@ product: campaign
 title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
+hide: true
+hidefromtoc: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 100%

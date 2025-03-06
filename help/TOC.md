@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
-source-wordcount: '2562'
-ht-degree: 100%
+source-wordcount: '2571'
+ht-degree: 99%
 
 ---
 
@@ -238,6 +238,8 @@ ht-degree: 100%
       + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
       + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
 + マーケティングキャンペーンのオーケストレーション {#orchestrating-campaigns}
+   + [マーケティングキャンペーンについて](campaign/using/about-marketing-campaigns.md)
+   + [キャンペーンの最適化について](campaign-opt/using/about-campaign-optimization.md)
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
       + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
@@ -250,14 +252,14 @@ ht-degree: 100%
       + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
       + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers-stocks-and-budgets.md)
-   + キャンペーンの最適化 {#campaign-optimization}
-      + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
-      + [頻度ルール](campaign-opt/using/pressure-rules.md)
-      + [一貫性ルール](campaign-opt/using/consistency-rules.md)
-      + [コントロールルール](campaign-opt/using/control-rules.md)
-      + [フィルタリングルール](campaign-opt/using/filtering-rules.md)
-      + [ルールの適用](campaign-opt/using/applying-rules.md)
-      + [キャンペーンシミュレーション](campaign-opt/using/campaign-simulations.md)
+      + キャンペーンの最適化 {#campaign-optimization}
+         + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
+         + [頻度ルール](campaign-opt/using/pressure-rules.md)
+         + [一貫性ルール](campaign-opt/using/consistency-rules.md)
+         + [コントロールルール](campaign-opt/using/control-rules.md)
+         + [フィルタリングルール](campaign-opt/using/filtering-rules.md)
+         + [ルールの適用](campaign-opt/using/applying-rules.md)
+         + [キャンペーンシミュレーション](campaign-opt/using/campaign-simulations.md)
 + マーケティングリソース管理 {#mrm}
    + [マーケティングリソース管理について](mrm/using/about-marketing-resource-management.md)
    + [タスクの作成と管理](mrm/using/creating-and-managing-tasks.md)
@@ -391,6 +393,7 @@ ht-degree: 100%
       + [web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
+   + [ワークフローの自動化について](workflow/using/about-workflow-automation.md)
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)

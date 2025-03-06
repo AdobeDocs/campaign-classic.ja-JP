@@ -3,8 +3,10 @@ product: campaign
 title: アーキテクチャ
 description: ワークフローは特定のモジュールによって処理され、複数のサーバーから起動し、処理の負荷を分散することができます
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%

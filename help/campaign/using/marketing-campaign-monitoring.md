@@ -4,8 +4,10 @@ title: マーケティングキャンペーンの監視
 description: マーケティングキャンペーンの監視
 role: User
 feature: Campaigns, Monitoring
+hide: true
+hidefromtoc: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%

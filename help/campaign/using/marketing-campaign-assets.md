@@ -4,8 +4,10 @@ title: マーケティングキャンペーンドキュメントと配信概要
 description: マーケティングキャンペーンドキュメントと配信概要の詳細
 role: User
 feature: Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 97%

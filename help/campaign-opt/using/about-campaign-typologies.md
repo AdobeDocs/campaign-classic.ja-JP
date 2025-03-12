@@ -7,10 +7,10 @@ feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 79%
 
 ---
 
@@ -20,66 +20,71 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#typologies-video)
 
+提供されている内容によって、キャンペーンの最適化は含まれていることも、アドインになっていることもあります。使用許諾契約書を確認してください。
+
 >[!NOTE]
 >
->提供されている内容によって、キャンペーンの最適化は含まれていることも、アドインになっていることもあります。使用許諾契約書を確認してください。
+>Adobe Campaignのキャンペーンの最適化とその使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target=_blank} を参照してください。
 
-## タイポロジルール {#typology-rules}
+<!--
 
-Adobe Campaign では、次の 4 種類のタイポロジルールをデザインおよび適用できます。
+## Typology rules {#typology-rules}
 
-* **フィルター**&#x200B;ルール：条件に基づいて、ターゲットの一部を除外します。詳しくは、[フィルタールール](filtering-rules.md)を参照してください。
-* **頻度**&#x200B;ルール： マーケティング疲労（過剰なマーケティングによる弊害）を抑制します。詳しくは、[頻度ルール](pressure-rules.md)を参照してください。
-* **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。詳しくは、[処理能力の制御](consistency-rules.md#controlling-capacity)を参照してください。
-* **コントロール**&#x200B;ルール：メッセージを送信する前にメッセージの有効性を確認します。詳しくは、[コントロールルール](control-rules.md)を参照してください。
+With Adobe Campaign you can design and apply four types of typology rules:
 
-作成されたタイポロジルールは、キャンペーンタイポロジでグループ化され、配信で参照されます。[タイポロジの適用](#applying-typologies)を参照してください。
+* **Filtering** rules which let you exclude part of the target based on criteria. For more on this, refer to [Filtering rules](filtering-rules.md).
+* **Pressure** rules which let you control marketing fatigue. For more on this, refer to [Pressure rules](pressure-rules.md).
+* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. For more on this, refer to [Controlling capacity](consistency-rules.md#controlling-capacity).
+* **Control** rules which let you check the validity of messages before they are sent. For more on this, refer to [Control rules](control-rules.md).
 
-## タイポロジ {#typologies}
+Once they have been created, typology rules are grouped in campaign typologies which are referenced in deliveries. See [Applying typologies](#applying-typologies).
 
-キャンペーンタイポロジには、複数の[タイポロジルール](#typology-rules)を含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
+## Typologies {#typologies}
 
-「**[!UICONTROL ルール]**」タブでは、適用するタイポロジルールを追加、削除、表示できます。
+A campaign typology can contain several [typology rules](#typology-rules), but a delivery can only reference one typology.
+
+The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
 
 ![](assets/campaign_opt_rules_tab.png)
 
-## タイポロジの適用 {#applying-typologies}
+## Applying typologies {#applying-typologies}
 
-以下に、タイポロジを作成して配信に適用する手順を示します。
+Steps to create and apply a typology to your deliveries are listed below:
 
-1. タイポロジルールを作成する。
+1. Create typology rules.
 
-   タイポロジルールは、**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／タイポロジルール]**&#x200B;ノードで表示できます。
+   Typology rules are found in the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** node.
 
-   Campaign で使用できる様々なルールについて詳しくは、[営業頻度ルール](pressure-rules.md)、[処理能力ルール](consistency-rules.md#controlling-capacity)、[コントロールルール](control-rules.md)および[フィルタールール](filtering-rules.md)を参照してください。
+   Different rules available in Campaign are described in the following sections: [sales pressure rules](pressure-rules.md), [capacity rules](consistency-rules.md#controlling-capacity), [control rules](control-rules.md) and [filtering rules](filtering-rules.md).
 
-1. タイポロジを作成し、作成したルールをその中で参照する。
+1. Create a typology and reference the rules you created into it.
 
-   タイポロジにアクセスするには、**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／]****[!UICONTROL タイポロジ]**&#x200B;ノードに移動します。
+   Typologies are accessed via the **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** node. 
 
-1. 作成したタイポロジを使用するように配信を設定します。詳しくは、[この節](applying-rules.md#applying-a-typology-to-a-delivery)を参照してください。
-1. キャンペーンのシミュレーションによって動作をテストして制御する。キャンペーンのシミュレーションについて詳しくは、[この節](campaign-simulations.md)を参照してください。
+1. Configure your delivery to use the typology you created. For more on this, refer to [this section](applying-rules.md#applying-a-typology-to-a-delivery).
+1. Test and control the behavior through campaign simulations. For more on campaign simulations, refer to [this section](campaign-simulations.md).
 
-配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールのユースケースについては、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
+During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](pressure-rules.md#use-cases-on-pressure-rules).
 
-## チュートリアルビデオ {#typologies-video}
+## Tutorial videos {#typologies-video}
 
-### タイポロジルールを使用した疲労管理の設定方法
+### How to set up fatigue management using typology rules
 
-このビデオでは、タイポロジルールを活用して Adobe Campaign で疲労管理を実装する方法を説明します。
+This video explains how to implement fatigue management in Adobe Campaign by leveraging typology rules.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
-### 定義済みフィルターを使用した疲労管理の設定方法
+### How to set up fatigue management using predefined filters
 
-疲労管理では、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。キャンペーンインスタンスにキャンペーン最適化モジュールがない場合、受信したメッセージの数でターゲット母集団をフィルタリングする定義済みフィルターを設定できます。
-このビデオでは、フィルターを使用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
+Fatigue management controls frequency and quantity of messaging to avoid over-solicitation of recipients. If you do not have the campaign optimization module in your campaign instance, you may configure a predefined filter that will filter the target population by the number of messages received
+This video explains how to implement fatigue management in Adobe Campaign Classic by using filters.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
-**関連トピック**
+**Related topic**
 
-* [タイポロジと疲労管理の概要](pressure-rules.md)
+* [Get started with typologies and fatigue management](pressure-rules.md)
 
+-->

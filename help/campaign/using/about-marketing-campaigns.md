@@ -8,7 +8,7 @@ exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign が提供する一連のソリューションを使用すると�
 
 キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
 
-キャンペーン管理の詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank} を参照してください。
+キャンペーン管理について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank}を参照してください。
 
 ![](assets/do-not-localize/campaign.jpg){width="40%"}
 

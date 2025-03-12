@@ -7,7 +7,7 @@ exl-id: 024a7344-9376-4ff3-926a-003148229f9f
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign に含まれているワークフローモジュールを使用�
 
 ワークフローは、キャンペーン管理プロセスの様々なコンテキストおよびステージで発生します。
 
-ワークフロー管理の詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target=_blank} を参照してください。
+ワークフロー管理について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target=_blank}を参照してください。
 
 ![](assets/do-not-localize/workflow.jpg){width="40%"}
 

@@ -5,9 +5,9 @@ description: ワークフローを使用すれば、データおよびオーデ�
 feature: Workflows, Data Management
 exl-id: 024a7344-9376-4ff3-926a-003148229f9f
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Adobe Campaign に含まれているワークフローモジュールを使用�
 
 ![](assets/do-not-localize/workflow.jpg){width="40%"}
 
-ワークフロー管理に関連する主な手順を説明します。
+ワークフロー管理に関連する主な手順について説明します。
 
-* [ ワークフローアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target=_blank}：アクティビティは、タスクテンプレートを記述します。 ワークフローには、ターゲティング、フロー制御、アクションおよびイベントアクティビティが含まれます。
+* [ワークフローアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target=_blank}：アクティビティは、タスクテンプレートを図示したものです。ワークフローには、ターゲティング、フロー制御、アクションおよびイベントアクティビティが含まれます。
 
-* [ ワークフローの作成 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target=_blank}：ターゲティング、キャンペーン、テクニカルワークフローの作成および実行方法を説明します。
+* [ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target=_blank}：ターゲティング、キャンペーン、テクニカルワークフローの作成および実行方法について説明します。
 
-* [ ベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target=_blank}:Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を選択するためのガイドラインについて説明します。
+* [ベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target=_blank}：Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を選択するためのガイドラインについて説明します。
 
-* [ ワークフローの監視 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target=_blank}：ワークフローの実行を監視して、すべてが正しく実行されていることを確認する方法を説明します。
+* [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target=_blank}：ワークフローの実行を監視して、すべてが正しく実行されていることを確認する方法について説明します。
 
-* [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}：ワークフローを使用できる様々なコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について説明します。
+* [ワークフローのユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=ja){target=_blank}：ワークフローを使用できる様々なコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について説明します。
 
 <!--
 

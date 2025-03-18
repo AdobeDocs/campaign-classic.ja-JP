@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 99%
       + [コンテンツテンプレートの使用](delivery/using/using-a-content-template.md)
       + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
       + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
-+ [マーケティングキャンペーンの調整](campaign/using/about-marketing-campaigns.md)
++ [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
 + マーケティングキャンペーンのオーケストレーション {#orchestrating-campaigns}
    + [キャンペーンの最適化について](campaign-opt/using/about-campaign-optimization.md)
    + マーケティングキャンペーンについて {#about-marketing-campaigns}

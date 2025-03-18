@@ -6,13 +6,13 @@ role: User
 feature: Campaigns
 exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# マーケティングキャンペーンの調整{#designing-marketing-campaigns}
+# マーケティングキャンペーンのオーケストレーション{#designing-marketing-campaigns}
 
 Adobe Campaign が提供する一連のソリューションを使用すると、オンラインとオフラインのすべてのチャネルで、キャンペーンをパーソナライズして配信することができます。マーケティングキャンペーンの作成、設定、実施、分析などを行うことができます。すべてのマーケティングキャンペーンを統合コントロールセンターから管理できます。
 
@@ -22,23 +22,23 @@ Adobe Campaign が提供する一連のソリューションを使用すると�
 
 ![](assets/do-not-localize/campaign.jpg){width="40%"}
 
-キャンペーン管理に関連する主な手順を説明します。
+キャンペーン管理に関連する主な手順について説明します。
 
-* [ 基本を学ぶ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank}:Adobe Campaignでマーケティングキャンペーンを作成および実行する方法を手順を追って説明します。
+* [基本を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank}：Adobe Campaign でマーケティングキャンペーンを作成および実行する方法について段階的に説明します。
 
-* [ 最初のキャンペーンの作成 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target=_blank}：キャンペーンを調整するロジックをスケジュールおよび設定する方法について説明します。 キャンペーンは、配信、ターゲティングルール、費用、出力ファイル、関連ドキュメントなど、マーケティングキャンペーンに関連するすべての要素を 1 つにまとめたものです。
+* [最初のキャンペーンの作成](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target=_blank}：キャンペーンのオーケストレーションを行うロジックをスケジュールおよび設定する方法について説明します。キャンペーンは、配信、ターゲティングルール、費用、出力ファイル、関連ドキュメントなど、マーケティングキャンペーンに関連するすべての要素を 1 つにまとめたものです。
 
-* [ キャンペーンでのメッセージの送信 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target=_blank}：キャンペーンでクロスチャネル配信を調整します。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaignとのコミュニケーションを効率化します。
+* [キャンペーンでのメッセージの送信](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target=_blank}：キャンペーンでクロスチャネル配信のオーケストレーションを行います。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaign とのコミュニケーションを効率化します。
 
 ![](assets/do-not-localize/add-on.jpg){width="40%"}
 
 キャンペーン管理には、次の 3 つのアドオンを使用できます。
 
-* [ キャンペーンの最適化 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target=_blank}：このモジュールでは、配信の送信を制御、フィルタリングおよび監視できます。 このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
+* [キャンペーンの最適化](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target=_blank}：このモジュールでは、配信の送信を制御、フィルタリングおよび監視できます。このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
 
-* [ マーケティングリソース管理 ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target=_blank}：このモジュールを使用すると、関係するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調的に制御できます。
+* [マーケティングリソース管理](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target=_blank}：このモジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。
 
-* [ 分散型マーケティング ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target=_blank}：このモジュールでは、関係するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調的に制御できます。
+* [分散型マーケティング](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target=_blank}：このモジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。
 
 <!--
 

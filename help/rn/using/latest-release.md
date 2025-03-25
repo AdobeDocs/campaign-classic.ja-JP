@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a92e49e1ac8b0e8f619e06fadba73090a693bc4a
+source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 27%
 
 ---
 
@@ -47,9 +47,19 @@ This release comes with the following compatibility updates:
 
 このリリースには、次の主な修正が含まれています。
 
-* TLS/SMPP 接続の修正
-* Google BigQuery の修正点
-* MTA 修正
+* TLS/SMPP 接続 – SMPP の安定性に関する問題を修正しました
+
+* Google BigQuery の修正点：
+
+   * ブール値データタイプに関する修正回帰
+   * プロキシ設定の問題を修正しました
+   * DATETIME データタイプに関する修正回帰
+   * 固定一括読み込みの安定性
+   * ODBC バージョンの内部テストの改善
+   * 接続文字列に特殊文字が含まれる問題を修正しました
+   * Google BigQuery クエリのデフォルトタイムアウト（5 分）を削除しました
+
+* メール転送エージェント（MTA） – 「**[!UICONTROL 開始保留中]**」ステータスでスタックする孤立した MTA の子を修正しました。
 
 このリリースでは、次の問題も修正されています。
 

@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
+source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 94%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 6月リリースを公開]
+>[!TAB 2025 年 3 月リリースが公開されました。]
 
-Campaign Classic v7.4.1 のアップデート、改善点、およびパッチを確認します。
+Campaign Classic v7.4.2 - 2025 年 3 月リリースのアップデート、改善点および修正点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 

@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cd0de82ba743fa04e59a4fa6f560a80cd5c8e940
+source-git-commit: 492115471325533e913739d27e0a461edf98b723
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 100%
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
 _2025年4月2日（PT）_
-
->[!AVAILABILITY]
->
->このリリースは&#x200B;**限定提供**（LA）中です。ホスト環境／Managed Services 環境のユーザーのみに制限されます。このリリースは、近日中にハイブリッドおよびオンプレミスのお客様に提供される予定です。
 
 <!--
 ### Compatibility updates {#comp-7-4-2}

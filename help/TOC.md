@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3daf88e14792bfc675cd4cbec6571377c9aa9392
+source-git-commit: 1a23e55190ae26edd7193838600a803137f13201
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2571'
 ht-degree: 100%
 
 ---
@@ -237,28 +237,29 @@ ht-degree: 100%
       + [コンテンツテンプレートの使用](delivery/using/using-a-content-template.md)
       + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
       + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
-+ [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
++ マーケティングキャンペーンのオーケストレーション {#orchestrating-campaigns}
+   + [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
    + [キャンペーンの最適化について](campaign-opt/using/about-campaign-optimization.md)
-      + マーケティングキャンペーンについて {#about-marketing-campaigns}
-         + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
-         + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
-      + キャンペーンのオーケストレーション {#orchestrate-campaigns}
-         + [マーケティングキャンペーンの基本を学ぶ](campaign/using/setting-up-marketing-campaigns.md)
-         + [テンプレートの作成と設定](campaign/using/marketing-campaign-templates.md)
-         + [配信の追加](campaign/using/marketing-campaign-deliveries.md)
-         + [オーディエンスの選択](campaign/using/marketing-campaign-target.md)
-         + [ドキュメントとアセットの管理](campaign/using/marketing-campaign-assets.md)
-         + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
-         + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
-         + [プロバイダー、在庫、予算](campaign/using/providers-stocks-and-budgets.md)
-      + キャンペーンの最適化 {#campaign-optimization}
-         + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
-         + [頻度ルール](campaign-opt/using/pressure-rules.md)
-         + [一貫性ルール](campaign-opt/using/consistency-rules.md)
-         + [コントロールルール](campaign-opt/using/control-rules.md)
-         + [フィルタリングルール](campaign-opt/using/filtering-rules.md)
-         + [ルールの適用](campaign-opt/using/applying-rules.md)
-         + [キャンペーンシミュレーション](campaign-opt/using/campaign-simulations.md)
+   + マーケティングキャンペーンについて {#about-marketing-campaigns}
+      + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
+      + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
+   + キャンペーンのオーケストレーション {#orchestrate-campaigns}
+      + [マーケティングキャンペーンの基本を学ぶ](campaign/using/setting-up-marketing-campaigns.md)
+      + [テンプレートの作成と設定](campaign/using/marketing-campaign-templates.md)
+      + [配信の追加](campaign/using/marketing-campaign-deliveries.md)
+      + [オーディエンスの選択](campaign/using/marketing-campaign-target.md)
+      + [ドキュメントとアセットの管理](campaign/using/marketing-campaign-assets.md)
+      + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
+      + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
+      + [プロバイダー、在庫、予算](campaign/using/providers-stocks-and-budgets.md)
+   + キャンペーンの最適化 {#campaign-optimization}
+      + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
+      + [頻度ルール](campaign-opt/using/pressure-rules.md)
+      + [一貫性ルール](campaign-opt/using/consistency-rules.md)
+      + [コントロールルール](campaign-opt/using/control-rules.md)
+      + [フィルタリングルール](campaign-opt/using/filtering-rules.md)
+      + [ルールの適用](campaign-opt/using/applying-rules.md)
+      + [キャンペーンシミュレーション](campaign-opt/using/campaign-simulations.md)
 + マーケティングリソース管理 {#mrm}
    + [マーケティングリソース管理について](mrm/using/about-marketing-resource-management.md)
    + [タスクの作成と管理](mrm/using/creating-and-managing-tasks.md)

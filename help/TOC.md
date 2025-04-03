@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 98bc76dce83abcd3ce39648d554ee92841fd7327
+source-git-commit: efeb6c7d0969c66ec9bd63f4bf424224c8ca222b
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2571'
 ht-degree: 100%
 
 ---
@@ -239,7 +239,6 @@ ht-degree: 100%
       + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
 + [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
 + マーケティングキャンペーンのオーケストレーション {#orchestrating-campaigns}
-   + [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
    + [キャンペーンの最適化について](campaign-opt/using/about-campaign-optimization.md)
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)

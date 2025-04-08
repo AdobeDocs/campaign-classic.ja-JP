@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '3805'
-ht-degree: 100%
+source-wordcount: '3887'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 100%
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2025
+
+### 2025年3月 {#march-2025}
+
+Campaign v8 のプロモーションの一環として、Campaign Classic ドキュメントセットの再編成を開始しました。 7.4.2 で、最初のマイルストーンをリリースしています。 以下のガイドは、v8 ドキュメントへのリンクを含むランディングページに置き換えられました。
+
+* マーケティングキャンペーンのオーケストレーション：このガイドは、[ ランディングページ ](../../campaign/using/about-marketing-campaigns.md) に置き換えられました。
+* マーケティングリソース管理：このガイドは削除されました。
+* 分散型マーケティング：このガイドは削除されました。
+* ワークフローを使用した自動化：このガイドは、[ ランディングページ ](../../workflow/using/about-workflow-automation.md) に置き換えられました
 
 ## 2024
 

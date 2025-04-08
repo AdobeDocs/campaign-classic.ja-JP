@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 8%
+source-wordcount: '439'
+ht-degree: 7%
 
 ---
 
@@ -161,7 +161,17 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >
 >* 一般に、設定ファイルを手動で変更する代わりに、**config** コマンドを使用できます
 >* パラメーターのリストを取得するには、**-?** パラメーター：**nlserver config -?**
->* oracleデータベースの場合は、アカウントを指定しないでください。 構文は次のようになります。
+>* Oracle データベースの場合は、アカウントを指定しないでください。 構文は次のようになります。
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >
+
+MSSQL の例を次に示します。
+
+```sql
+nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
+```
+
+* ログイン （例：account:user）およびサーバーは、config-&lt;instance_name>.xml ファイルの dataSource ノードにあります。
+* パスワードは引用符「」で囲む必要があります。
+

@@ -6,11 +6,12 @@ feature: Triggers
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -113,7 +114,7 @@ JavaScript を編集した後、[!DNL pipelined] を再起動する必要があ�
 
 イベントは、オフセット順に 1 つずつ処理されます。[!DNL pipelined] の各スレッドは異なるパーティションを処理します。
 
-最後に取得したイベントの「オフセット」がデータベースに格納されます。したがって、プロセスが停止すると、最後のメッセージから再開されます。このデータはビルトインスキーマ xtk:pipelineOffset に格納されます。
+最後に取得したイベントの「オフセット」はデータベースに保存されます。 したがって、プロセスが停止すると、最後のメッセージから再開されます。このデータはビルトインスキーマ xtk:pipelineOffset に格納されます。
 
 このポインターは、各インスタンスと各コンシューマーに固有です。したがって、多くのインスタンスが異なるコンシューマーを使用して同じパイプラインにアクセスする場合、すべてのメッセージが同じ順序で取得されます。
 

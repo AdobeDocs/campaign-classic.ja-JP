@@ -4,11 +4,12 @@ title: Adobe Campaign で Android モバイルアプリケーションを設定
 description: Android 用のモバイルアプリケーションの設定方法を説明します。
 feature: Push
 role: User, Developer
+level: Intermediate, Experienced
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、実行できます。詳しくは、こちらの [Adobe Campaign v8 テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"}を参照してください。
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、実行できます。詳しくは、この [Adobe Campaign v8 テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"} を参照してください。
 
 
 ## Android 外部アカウントの設定 {#configuring-external-account-android}
@@ -57,7 +58,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png)[詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
+![](assets/do-not-localize/how-to-video.png) ビデオでAndroid サービスの設定方法を説明します [。](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -108,7 +109,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 >[!IMPORTANT]
 >
->Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024 年 6 月 20 日（PT）**&#x200B;に廃止されます。詳しくは、こちらの [Adobe Campaign v8 テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"}を参照してください。
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024 年 6 月 20 日（PT）**&#x200B;に廃止されます。詳しくは、この [Adobe Campaign v8 テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"} を参照してください。
 
 サービスと新しいモバイルアプリケーションを作成したら、モバイルアプリケーションを設定する必要があります。**HTTP（レガシー）** API は Google によって非推奨（廃止予定）になっているので、選択しないでください。
 

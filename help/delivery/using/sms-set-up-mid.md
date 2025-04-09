@@ -4,8 +4,9 @@ title: ミッドソーシングインフラストラクチャでの Campaign SMS
 description: ミッドソーシングインフラストラクチャでの Campaign で SMS チャネルを設定する方法について説明します
 feature: SMS
 role: User, Developer, Admin
+level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
-source-git-commit: b7339512d85a7bd0c5aae24af46739daafb1ba51
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
@@ -82,7 +83,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 [SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
+>複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。[SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
 
 マーケティングサーバーで SMS 外部アカウントを正常に設定したら、次の手順は、ミッドサーバーに SMPP 外部アカウントを確立することです。
 

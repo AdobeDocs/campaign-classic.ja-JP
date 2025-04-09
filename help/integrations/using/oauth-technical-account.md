@@ -3,12 +3,12 @@ product: campaign
 title: API 用の Adobe テクニカルアカウントの作成と設定
 description: Adobe API アカウントの作成方法について説明します
 role: User, Admin
-level: Beginner
+level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 5352426fc68cbcb6519127e5c89c1e9f8619ca6b
-workflow-type: ht
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 サービスアカウント（JWT）資格情報は、アドビによって非推奨（廃止予定）になります。アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。
 
-2024年6月より前に Campaign とのインバウンドまたはアウトバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}の説明に従って、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。
+2024 年 6 月より前に Campaign とのインバウンドまたはアウトバウンドの統合を実装した場合は、Campaign 環境を v7.4.1 にアップグレードし、詳細に説明するようにテクニカルアカウントを OAuth に移行する必要があります [ このドキュメントを参照 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}。 既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。
 
 移行が完了したら、[この節](#add-credentials)の説明に従って、新しい資格情報を Campaign に関連付ける必要があります。
 

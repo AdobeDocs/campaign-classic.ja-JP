@@ -6,12 +6,13 @@ feature: Overview
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 597d24fa780a324507c56c55a5309b6ee1cf46eb
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Adobe Experience Cloud は、強力なソリューションとアプリの共通セットを使用して、共通データプラットフォーム上に構築された、クラス最高の統合ソリューションの包括的なセットです。
 
-Adobe Campaign と Adobe Experience Cloud ソリューション間で使用できる機能統合について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/integrations){_blank}を参照してください。
+Adobe CampaignとAdobe Experience Cloud ソリューション間で利用できる機能統合について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/integrations){_blank} を参照してください。
 
 Adobe Campaign と統合できるアドビのソリューションとアプリサービスの完全なリスト、および関連ドキュメントについては、[この節](#experience-cloud-integrations)を参照してください。
 
@@ -32,7 +33,7 @@ Adobe Campaign と統合できるアドビのソリューションとアプリ�
 
 複数のソリューションを Adobe Experience Cloud にリンクできます。**組織**&#x200B;とは、管理者がグループとユーザーを設定し、Adobe Experience Cloud でのシングルサインオン（SSO）を制御できる顧客エンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように動作します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations){_blank}を参照してください。
+組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations){_blank}で説明しています。
 
 ## ID と Cookie の管理 {#id-and-cookies}
 

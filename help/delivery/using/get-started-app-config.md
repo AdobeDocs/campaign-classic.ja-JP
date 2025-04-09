@@ -4,8 +4,9 @@ title: Adobe Campaign でのモバイルアプリケーションの設定
 description: モバイルアプリケーション設定の開始方法を説明します。
 feature: Push
 role: User, Developer
+level: Intermediate, Experienced
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%

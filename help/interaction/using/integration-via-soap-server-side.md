@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ URL に **nms:interaction#UpdateStatus** コマンドを追加し、その後に
 
 ## SOAP 呼び出しの使用例 {#example-using-a-soap-call}
 
-以下に、SOAP呼び出しのコードの例を示します。
+SOAP 呼び出しのコードの例を次に示します。
 
 URL の例を次に示します。
 

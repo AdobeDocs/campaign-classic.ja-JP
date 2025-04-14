@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3887'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 97%
 
 ### 2025年3月 {#march-2025}
 
-Campaign v8 のプロモーションの一環として、Campaign Classic ドキュメントセットの再編成を開始しました。 7.4.2 で、最初のマイルストーンをリリースしています。 以下のガイドは、v8 ドキュメントへのリンクを含むランディングページに置き換えられました。
+Campaign v8 プロモーションイニシアチブの一環として、Campaign Classic ドキュメントセットの再編成を開始しました。7.4.2 では、最初のマイルストーンをリリースします。次のガイドは、v8 ドキュメントへのリンクを含むランディングページに置き換えられました。
 
-* マーケティングキャンペーンのオーケストレーション：このガイドは、[ ランディングページ ](../../campaign/using/about-marketing-campaigns.md) に置き換えられました。
-* マーケティングリソース管理：このガイドは削除されました。
+* マーケティングキャンペーンの調整：このガイドは、[ランディングページ](../../campaign/using/about-marketing-campaigns.md)に置き換えられました。
+* マーケティングリソースの管理：このガイドは削除されました。
 * 分散型マーケティング：このガイドは削除されました。
-* ワークフローを使用した自動化：このガイドは、[ ランディングページ ](../../workflow/using/about-workflow-automation.md) に置き換えられました
+* ワークフローを使用した自動化：このガイドは、[ランディングページ](../../workflow/using/about-workflow-automation.md)に置き換えられました
 
 ## 2024
 

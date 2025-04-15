@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: ef89551952cfbfd525a4dff716fe4676c1252d05
+source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr>
  <td>Campaign（Neolane）レガシー SDK</td>
  <td><p>モバイルアプリケーション用 Campaign（Neolane）SDK は非推奨（廃止予定）になりました。代わりに、データ収集 UI で Adobe Campaign 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。モバイルアプリチャネルを設定する方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 ドキュメント</a>を参照してください。</p>
-<p>削除予定日：2025年夏 </p>
+<p>削除予定日：2025年7月31日（PT） </p>
 </td>
 </tr>
 <tr>

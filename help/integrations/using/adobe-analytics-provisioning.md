@@ -7,10 +7,10 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
+source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 94%
 
 ---
 
@@ -38,9 +38,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 >
 > サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年1月27日（PT）まで引き続き機能します。</br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年6月30日（PT）まで引き続き機能します。</br>
 >
-> * Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
+> * Campaign と Analytics の統合やExperience Cloud トリガーの統合などのアウトバウンド統合を実装している場合、2025 年 6 月 30 日（PT）まで引き続き機能します。 ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 
@@ -114,4 +114,4 @@ Adobe Analytics コネクタの設定に進むには、Adobe Developer Console �
 
 ## 設定と使用法 {#adobe-analytics-connector-usage}
 
-Adobe Campaign と Adobe Analytics の連携について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}を参照してください。
+Adobe CampaignとAdobe Analyticsの操作方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"} を参照してください。

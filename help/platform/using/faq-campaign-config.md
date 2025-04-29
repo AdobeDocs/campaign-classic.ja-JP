@@ -9,9 +9,9 @@ level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ![](assets/faq_soft_cache.png)
 
-それでも解決しない場合は、次の手順を実行してハードキャッシュをクリアしてみてください。
+それでも問題が解決しない場合は、次の手順を実行して、ハードキャッシュを消去してみてください。
 
 ## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法は？ {#perform-hard-cache-clear}
 

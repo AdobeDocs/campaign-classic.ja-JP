@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Adobe Experience Cloud は、強力なソリューションとアプリの共通セットを使用して、共通データプラットフォーム上に構築された、クラス最高の統合ソリューションの包括的なセットです。
 
-Adobe CampaignとAdobe Experience Cloud ソリューション間で利用できる機能統合について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/integrations){_blank} を参照してください。
+Adobe Campaign と Adobe Experience Cloud ソリューション間で使用できる機能統合について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/integrations){_blank}を参照してください。
 
 Adobe Campaign と統合できるアドビのソリューションとアプリサービスの完全なリスト、および関連ドキュメントについては、[この節](#experience-cloud-integrations)を参照してください。
 

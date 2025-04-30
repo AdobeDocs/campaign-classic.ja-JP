@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 100%
+source-wordcount: '887'
+ht-degree: 91%
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >* 同じ配信について、受信ボックスレンダリングを再生成する場合、使用可能なトークンの数は、生成したレンダリングの数だけ再度減ります。
 >
 
-残りの使用可能なトークンの数は、[受信ボックスレンダリングレポート](#inbox-rendering-report)の&#x200B;**[!UICONTROL 一般概要]**&#x200B;に表示されます。
+使用可能な残りのトークンの数は、[ 受信ボックスレンダリングレポート ](#inbox-rendering-report) に表示されます。
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -123,13 +123,13 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 このレポートには、受信者に表示される受信ボックスレンダリングが表示されます。レンダリングは、ブラウザー、モバイルデバイス、メールアプリケーションなど、受信者がどの方法でメール配信を開くかによって異なります。
 
-「**[!UICONTROL General summary]**」には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数がリストとしてグラフィカルに色分けされて表示されます。
+上部のセクションには、受信したメッセージ数、不要なメッセージ（スパム）、受信しなかったメッセージ数、受信待ちのメッセージ数の再分割が、グラフィカルカラーコーディングされた表現で表示されます。
 
-![](assets/s_tn_inbox_rendering_summary.png)
+![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-グラフに上にマウスポインターを置くと、各色の詳細が表示されます。
+グラフの上にマウスポインターを置くと、各色の詳細が表示されます。 リストの項目をクリックすると、グラフの対応するカテゴリの表示/非表示を切り替えることができます。
 
-レポートの本文は、**[!UICONTROL モバイル]**、**[!UICONTROL メッセージクライアント]**、**[!UICONTROL Web メール]**&#x200B;の 3 つの部分に分けられています。レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
+レポートの本文は、**[!UICONTROL モバイル]**、**[!UICONTROL デスクトップ]**、**[!UICONTROL web メール]** の 3 つの部分に分かれています。 レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
 
 ![](assets/s_tn_inbox_rendering_report.png)
 

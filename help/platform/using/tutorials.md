@@ -52,4 +52,4 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 
 ### Experience League コース
 
-また、Adobe Campaign Classic の[推奨コース](https://experienceleague.adobe.com/?lang=ja#dashboard/learning)は、専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。
+また、Adobe Campaign Classic の[推奨コース](https://experienceleague.adobe.com/ja?lang=ja#dashboard/learning)は、専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。

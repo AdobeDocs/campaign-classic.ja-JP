@@ -410,7 +410,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 新しい接続を拒否する前に許可された最大接続数。 この <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html"> テクニカルノート </a> を参照してください <br />。 </td> 
+   <td> 新しい接続を拒否する前に許可された最大接続数。 この <a href="https://helpx.adobe.com/jp/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html"> テクニカルノート </a> を参照してください <br />。 </td> 
    <td> 短い <br /> </td> 
   </tr> 
   <tr> 

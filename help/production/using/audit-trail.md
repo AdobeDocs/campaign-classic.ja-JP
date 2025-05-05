@@ -15,7 +15,7 @@ ht-degree: 85%
 
 >[!INFO]
 >
->監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
+>監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
 

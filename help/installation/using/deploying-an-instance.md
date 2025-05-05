@@ -79,7 +79,7 @@ Adobe Campaignには、Adobe Campaign クライアントコンソールで使用
 次のパラメーターを指定します。
 
 * **[!UICONTROL 送信者名]**：送信者の名前を入力します。
-* **[!UICONTROL 送信者のアドレス]**：送信者のメールアドレスを入力します。 Adobe Campaignから電子メールを送信する際、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignには、このメールボックスで受信した電子メールを自動返信または自動転送する機能もありません。 配信品質のベストプラクティスについて詳しくは [ このドキュメント ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank} を参照してください。
+* **[!UICONTROL 送信者のアドレス]**：送信者のメールアドレスを入力します。 Adobe Campaignから電子メールを送信する際、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignには、このメールボックスで受信した電子メールを自動返信または自動転送する機能もありません。 配信品質のベストプラクティスについて詳しくは [ このドキュメント ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=ja){_blank} を参照してください。
 
 * **[!UICONTROL 返信アドレステキスト]**：受信者が **[!UICONTROL 返信]** ボタンをクリックしたときに使用される名前を入力します。
 * **[!UICONTROL 返信アドレス]**：受信者がメールクライアントソフトウェアの **[!UICONTROL 返信]** ボタンをクリックしたときに使用するメールアドレスを入力します。 「**返信アドレス**」フィールドは、受信者が **送信者アドレス** とは異なるアドレスに返信する場合に使用します。  このアドレスは、有効なメールアドレスで、監視対象のメールボックスにリンクされ、顧客によってホストされている必要があります。  例えば、電子メールが読まれて返信される `customer-care@customer.com` のようなサポート用メールボックスを指定できます。

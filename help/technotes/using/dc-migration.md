@@ -78,7 +78,7 @@ ht-degree: 100%
 
 この取り組みを開始するにあたり、この移行を必要とするアカウントは、タイムラインとドキュメントへのアクセス方法が記載された E メールをアドビから受け取ります。これは、アカウントの移行がスケジュールされていることを示す通知です。
 
-移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/?support-solution=Campaign#support)。件名として「AWS への移行」を使用します。
+移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/ja?support-solution=Campaign#support)。件名として「AWS への移行」を使用します。
 
 ### この移行は必須ですか？
 

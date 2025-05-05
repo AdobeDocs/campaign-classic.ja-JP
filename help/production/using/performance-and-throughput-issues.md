@@ -71,7 +71,7 @@ Adobe Campaignには、CPUと RAM の使用状況を確認する [ ツール ](.
   >配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報については、お客様はアドビ担当者に問い合わせる必要があります。
 
 * IP アフィニティの設定：IP アフィニティの設定を誤ると、メールが完全に停止したり（設定でオペレーター/アフィニティ名が正しくありません）、スループットが低下したり（アフィニティに含まれる IP の数が少なくなっています）することがあります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* メールサイズ：メールのサイズは、スループットで重要な役割を果たします。 推奨最大メールサイズは 60 KB です。 この [ ページ ](https://helpx.adobe.com/legal/product-descriptions/campaign.html) を参照してください。 [ 配信スループット ](../../reporting/using/global-reports.md#delivery-throughput) レポートで、時間単位で転送されたバイト数を確認します。
+* メールサイズ：メールのサイズは、スループットで重要な役割を果たします。 推奨最大メールサイズは 60 KB です。 この [ ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign.html) を参照してください。 [ 配信スループット ](../../reporting/using/global-reports.md#delivery-throughput) レポートで、時間単位で転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者が多数ある場合、スループットに影響する可能性があります。 MTA が無効な受信者へのメールの送信を再試行し続ける。 データベースが適切に維持されていることを確認してください。
 * パーソナライゼーションの量：配信が「Personalization中」のままの場合は、パーソナライゼーションブロックで使用されているJavaScriptを確認します。
 

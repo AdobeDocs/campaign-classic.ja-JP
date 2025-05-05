@@ -23,7 +23,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 * [チュートリアルビデオを見る](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
 * [セルフヘルプオプションを参照する](../../platform/using/tutorials.md#how-to-videos)
 * [「概要」と「使用例」の節を参照する](../../platform/using/tutorials.md#step-by-step-guides)
-* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja)
 * サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](../../support.md)
 
 ## 1. Campaign を最新版にアップグレードするにはどうすればよいですか？ {#how-can-i-upgrade-campaign-to-the-latest-version-}

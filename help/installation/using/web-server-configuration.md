@@ -81,5 +81,5 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
 関連トピック ： 
 
-* [Adobe Marketing Cloud コンプライアンスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Adobe Campaignのセキュリティの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Adobe Marketing Cloud コンプライアンスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaignのセキュリティの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#security)

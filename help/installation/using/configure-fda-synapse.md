@@ -205,7 +205,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    ![](assets/azure_1.png)
 
-1. **[!UICONTROL Configuration]** の下で、{Type ]**ドロップダウンから**[!UICONTROL  2}Azure synapse分析 ]**を選択します。**[!UICONTROL 
+1. **[!UICONTROL Configuration]** の下で、{Type **ドロップダウンから**&#x200B;[!UICONTROL &#x200B; 2}Azure synapse分析 &#x200B;]&#x200B;**を選択します。**
 
    ![](assets/azure_2.png)
 

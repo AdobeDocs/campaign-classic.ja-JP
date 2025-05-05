@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >一部のビルトインスキーマは、拡張できません。主に、次の設定が定義されているスキーマです。\
 >**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**。\
->次のスキーマは拡張しないでください。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**、**nl:monitoring**、**nms:calendar**、**nms:remoteTracking**、**nms:userAgentRules**、**** **** **** **** **** **** **** **** **** **** **** **** **** **** xtk:builderconnections,
+>次のスキーマは拡張しないでください。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**、**nl:monitoring**、**nms:calendar**、**nms:remoteTracking**、**nms:userAgentRules**、**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;xtk:builderconnections,
 >このリストは網羅的ではありません。
 
 既存のスキーマを拡張するには、次の 2 つの方法があります。

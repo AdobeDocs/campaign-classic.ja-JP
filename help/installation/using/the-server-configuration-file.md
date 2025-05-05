@@ -1625,9 +1625,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statServerAddress<br /> </td> 
    <td> 配信統計サーバーのアドレス（指定は次のとおりです） 
     &lt;dns または ip&gt; 
-      <code>[</code>: 
+      <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>]</code>。 参照： 
+       <code>&rbrack;</code>。 参照： 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank"> 統計サーバーの座標 </a>。 
       <br /> 
      </td> 

@@ -83,7 +83,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 >
 >Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)を参照してください。
 
-**Microsoft OAuth 2.0} を使用して POP3 外部を設定するには、「{2** Microsoft OAuth 2.0 ]**」オプションをチェックし、次のフィールドに入力します。**[!UICONTROL 
+**Microsoft OAuth 2.0&rbrace; を使用して POP3 外部を設定するには、「&lbrace;2** Microsoft OAuth 2.0 **」オプションをチェックし、次のフィールドに入力します。**
 
 * **[!UICONTROL Azure テナント]**
 

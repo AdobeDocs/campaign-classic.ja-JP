@@ -37,7 +37,7 @@ Adobe Campaignをインストールすると、ブートシーケンス中に **
 >
 >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver** / **systemctl stop nlserver**
 
-Linux で（**0}Adobe Campaign} として）アクセスできる通常の管理コマンドのリストを次に示します。**
+Linux で（**0&rbrace;Adobe Campaign&rbrace; として）アクセスできる通常の管理コマンドのリストを次に示します。**
 
 * 起動されたすべてのAdobe Campaign モジュールを表示します：**/etc/init.d/nlserver6 pdump** または **/etc/init.d/nlserver6 status**
 

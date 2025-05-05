@@ -33,7 +33,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 **nlserver** ツールの一般的な構文を次に示します。
 
-**nlserver `<command>``<command arguments>`**
+**nlserver `<command>` `<command arguments>`**
 
 使用可能なモジュールのリストについては、**nlserver** コマンドを使用してください。
 

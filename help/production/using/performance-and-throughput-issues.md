@@ -25,7 +25,7 @@ ht-degree: 13%
 
 オンプレミスCampaign Classicのハードウェア要件の一般的なガイドラインについて詳しくは、この [ ページ ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) を参照してください。
 
-コンサルティングチームは、ホスト環境のお客様に、データベース内の様々なタイプのテーブルで使用されているスペースおよび SFTP サイトで使用されているスペースを簡単に確認できるツールを提供できます。 また、不要なデータをクリーンアップできるツールも用意されています。 このツールを実装する必要がある場合は ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)[Adobeカスタマーケアにお問い合わせください。 このツールを使用して確認すべき重要な事項を次に示します。
+コンサルティングチームは、ホスト環境のお客様に、データベース内の様々なタイプのテーブルで使用されているスペースおよび SFTP サイトで使用されているスペースを簡単に確認できるツールを提供できます。 また、不要なデータをクリーンアップできるツールも用意されています。 このツールを実装する必要がある場合は [&#128279;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)Adobeカスタマーケアにお問い合わせください。 このツールを使用して確認すべき重要な事項を次に示します。
 
 * インデックスサイズがテーブルサイズより大きい場合、バキュームが必要です。
 * 最大の膨張を持つテーブルをチェックしてください。 これらのテーブルを頻繁に使用する場合は、掃除機をかける必要があります。

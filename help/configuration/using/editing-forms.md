@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキーマで入力フォーム構造を表示できます。 このスキーマを表示するには、メニューから **[!UICONTROL 管理]**/**[!UICONTROL 設定]**/**[!UICONTROL データスキーマ]** を選択します。 詳しくは、[ フォーム構造 ](form-structure.md) を参照してください。
 
-入力フォームにアクセスするには、メニューから **[!UICONTROL 管理 ]/[!UICONTROL  設定 ]/[!UICONTROL  入力フォーム]** を選択します。
+入力フォームにアクセスするには、メニューから **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 入力フォーム]** を選択します。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

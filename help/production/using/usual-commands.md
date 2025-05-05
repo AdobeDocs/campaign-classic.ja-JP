@@ -23,7 +23,7 @@ ht-degree: 7%
 
 コマンド **nlserver** は、Adobe Campaign アプリケーション全体に対する入力コマンドです。
 
-このコマンドの構文は次のとおりです：**nlserver **`<command>`****`<arguments>`****
+このコマンドの構文は次のとおりです：**nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
 
 モジュールに対応するパラメーター **`<command>`**。
 

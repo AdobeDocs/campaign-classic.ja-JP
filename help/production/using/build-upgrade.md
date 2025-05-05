@@ -250,7 +250,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 ミッドソーシング環境のコンテキストでは、アップグレードするための次の追加手順を実行する必要があります。
 
-1. ミッドソーシングサーバーのアップグレードの調整については、{0](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)Adobeカスタマーケア } にお問い合わせください。[
+1. ミッドソーシングサーバーのアップグレードの調整については、{0[&#128279;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)Adobeカスタマーケア } にお問い合わせください。
 1. テストリンクを実行して、バージョンが更新されていることを確認します。 例：
 
    ```

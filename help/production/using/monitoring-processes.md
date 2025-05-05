@@ -451,7 +451,7 @@ Adobe Campaignでは様々なデプロイメント設定を使用できます（
    <td> 
     <ul> 
      <li><p> フロントサーバーの <span class="uicontrol">/r/test</span> と <span class="uicontrol">/nl/jsp/ping.jsp</span></p> </li> 
-     <li><p> アプリケーションサーバーの </span>0}/nl/jsp/monitor.jsp}<span class="uicontrol"></p> </li> 
+     <li><p> アプリケーションサーバーの </span>0&rbrace;/nl/jsp/monitor.jsp&rbrace;<span class="uicontrol"></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -459,14 +459,14 @@ Adobe Campaignでは様々なデプロイメント設定を使用できます（
    <td> 
     <ul> 
      <li><p> フロントサーバーの <span class="uicontrol">/r/test</span> と <span class="uicontrol">/nl/jsp/ping.jsp</span></p> </li> 
-     <li><p> アプリケーションサーバーの <span class="uicontrol">/r/test</span> および </span>2}/nl/jsp/monitor.jsp}<span class="uicontrol"></p> </li> 
+     <li><p> アプリケーションサーバーの <span class="uicontrol">/r/test</span> および </span>2&rbrace;/nl/jsp/monitor.jsp&rbrace;<span class="uicontrol"></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> ミッドソーシング </td> 
    <td> 
     <ul> 
-     <li><p> アプリケーションサーバーの </span>0}/nl/jsp/monitor.jsp}<span class="uicontrol"></p> </li> 
+     <li><p> アプリケーションサーバーの </span>0&rbrace;/nl/jsp/monitor.jsp&rbrace;<span class="uicontrol"></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

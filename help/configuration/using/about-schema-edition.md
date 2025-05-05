@@ -57,7 +57,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >ユーザーが管理する定義済みリスト（通常は&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;の下にあり）を使用して、特定のフィールドの値を指定することもできます。これらは事実上グローバルな定義済みリストであり、作業している特定のスキーマ以外で使用する場合にも役立ちます。
 
-列挙の詳細については、[ 列挙 ](../../configuration/using/schema-structure.md#enumerations) および要素 ](../../configuration/using/schema/enumeration.md) の節 [`<enumeration>` 参照してください。
+列挙の詳細については、[ 列挙 ](../../configuration/using/schema-structure.md#enumerations) および要素 [&#128279;](../../configuration/using/schema/enumeration.md) の節 `<enumeration>` 参照してください。
 
 ## インデックス {#index}
 

@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="ac_workflow_intersection"
 >title="「積集合」アクティビティ"
 >abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。積集合では、インバウンドアクティビティのすべての結果に共通する母集団のみを抽出できます。"
->additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
+>additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="デモビデオを見る"
 
 
 

@@ -109,7 +109,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 このビデオでは、Adobe Campaign Classic による一般データ保護規則（GDPR）の遵守についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326751?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

@@ -173,6 +173,6 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
 このビデオでは、Adobe Campaign クライアントをインストールおよびセットアップする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38270?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

@@ -106,6 +106,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41360?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

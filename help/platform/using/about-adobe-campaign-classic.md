@@ -92,6 +92,6 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 このビデオでは、Campaign Classic の主な特長と機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39517?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

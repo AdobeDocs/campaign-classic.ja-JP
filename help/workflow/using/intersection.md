@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="ac_workflow_intersection"
 >title="「積集合」アクティビティ"
 >abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。積集合では、インバウンドアクティビティのすべての結果に共通する母集団のみを抽出できます。"
->additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="デモビデオを見る"
+>additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
 
 
 

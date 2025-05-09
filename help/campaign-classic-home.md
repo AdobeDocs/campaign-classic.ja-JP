@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
-workflow-type: ht
+source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 2025年3月リリースが公開されました。]
+>[!TAB 2025 年 4 月リリースが公開されました ]
 
-Campaign Classic v7.4.2 - 2025年3月リリースのアップデート、改善点および修正点を確認します。
+Campaign Classic v7.4.2 - 2025 年 4 月リリースのアップデート、改善点および修正点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -113,4 +113,4 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
 
 ## その他のリソース
 
-[エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) - [Adobe Campaign 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [互換性マトリックス](rn/using/compatibility-matrix.md) - [チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[ エラーメッセージの一覧 ](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) - [Adobe Campaign製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ 互換性マトリックス ](rn/using/compatibility-matrix.md) - [ チュートリアル ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [Campaign のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}

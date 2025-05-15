@@ -4,10 +4,10 @@ title: 新しい GCM ベースの関数
 description: 新しい GCM ベースの関数
 feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
-source-git-commit: 94ee033a8e5d96e780cac2313e3fc249c345cb04
-workflow-type: ht
+source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
+workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ GCM モードの AES アルゴリズムを使用して、インスタンスキ�
 
 ```
             String 
-            encrypted = Encrypt (
+            encrypted = EncryptString (
             String       
             decrypted
             
@@ -86,7 +86,7 @@ GCM モードの AES アルゴリズムを使用して、サーバーキーで�
 インスタンスのキーまたはその他のキーを使用して、文字列を暗号化します。
 
 ```
-            cryptString (str [, key
+            encryptString (str [, key
       ] [, useSalt ])
          
 ```
@@ -127,7 +127,7 @@ GCM モードの AES アルゴリズムを使用して、サーバーキーで�
 
 ### decryptString() {#decryptString-javascript}
 
-インスタンスのキーまたはその他のキーを使用して、文字列を暗号化します。このレガシー関数は、GCM で使用できます。AES-CBC モードを使用して暗号化された暗号テキストの復号化には非推奨です。
+インスタンスのキーまたは他のキーを使用して、文字列を復号化します。 このレガシー関数は、GCM で使用できます。AES-CBC モードを使用して暗号化された暗号テキストの復号化には非推奨です。
 
 ```
             decryptString (str [, key

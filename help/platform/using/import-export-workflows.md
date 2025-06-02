@@ -25,7 +25,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->ワークフローを使用したデータのインポートとエクスポートについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank} を参照してください。
+>ワークフローを使用したデータのインポートとエクスポートについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank} を参照してください。
 
 
 <!--

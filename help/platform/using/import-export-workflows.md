@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 4fb262c616276f785f97b42bec22c150afc6e5c8
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 79%
 
 ---
 
@@ -23,21 +23,27 @@ ht-degree: 100%
 
 ワークフローは、一部のインポート処理を自動化する有効な手段になります。データをローカルファイルからインポートするか、SFTP からインポートするかに関係なく、ワークフローを使用してデータ管理手順を標準化することができます。
 
-### リストからのデータの使用：リスト読み込み {#using-data-from-a-list--read-list}
+>[!NOTE]
+>
+>ワークフローを使用したデータのインポートとエクスポートについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank} を参照してください。
 
-ワークフローに送られるデータを、事前にデータが準備され、構造化されているリストから取り出すこともできます。
 
-このリストは、Adobe Campaign 内に直接作成されている場合も、「**[!UICONTROL リストをインポート]**」オプションを使用してインポートされる場合もあります。このオプションについて詳しくは、この[ページ](../../platform/using/about-generic-imports-exports.md)を参照してください。
+<!--
+### Use data from a list: Read list {#using-data-from-a-list--read-list}
 
-ワークフローでのリスト読み込みアクティビティの使用について詳しくは、[こちらのページ](../../workflow/using/read-list.md)を参照してください。
+The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-### ファイルからのデータの読み込み {#loading-data-from-a-file}
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-generic-imports-exports.md).
 
-ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。
+For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
 
-データアクティビティの読み込みについて詳しくは、[データ読み込み（ファイル）](../../workflow/using/data-loading-file.md)の節を参照してください。
+### Load data from a file {#loading-data-from-a-file}
 
-インポートする構造化ファイルの例：
+The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
+
+A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading-file.md) section.
+
+Example of structured file to import:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -47,10 +53,11 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[こちらのページ](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
 
-## データのエクスポート {#exporting-data-via-a-workflow}
+## Export data {#exporting-data-via-a-workflow}
 
-ワークフローは、エクスポート処理の一部を自動化したり、データの変換に使用できるデータ管理アクティビティの一部を使用した後に正確なデータセットをエクスポートしたりするための有効な手段になります。
+Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-エクスポート操作は、**[!UICONTROL データ抽出（ファイル）アクティビティ]**&#x200B;を使用して実行されます。 アクティビティの設定と使用方法について詳しくは、[こちらのページ](../../workflow/using/extraction-file.md)を参照してください。
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).
+-->

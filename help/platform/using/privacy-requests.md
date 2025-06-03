@@ -38,7 +38,7 @@ Adobe Campaign では、データ管理者は 2 とおりの方法でプライ�
 >[!NOTE]
 >
 >* 個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](privacy-and-recommendations.md#personal-data)を参照してください。
->* プライバシーリクエストについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target=_blank} を参照してください。
+>* プライバシーリクエストについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy){target=_blank} を参照してください。
 
 <!--
 ## Prerequisites {#prerequesites}

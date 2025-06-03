@@ -18,13 +18,13 @@ Adobe Campaign を使用して、顧客のモバイルデバイスにテキス�
 
 SMS 配信の作成に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
 
-* [SMS チャネルの概要 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"}：顧客のモバイルデバイスにテキストメッセージを送信する方法について説明します。
-* [SMS 配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html){target="_blank"}：新しい SMS 配信の作成に必要な様々な手順を確認します。
-* [ コンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html){target="_blank"}:SMS メッセージのコンテンツをパーソナライズする方法を説明します。
-* [ オーディエンスを選択 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html){target="_blank"}：メインターゲットはAdobe Campaign データベースから抽出され、外部ファイルに保存することもできます。
-* [SMS 配達確認の送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html)：配信の検証サイクルの設定が不可欠です。 コンテンツをオーディエンスに送信する前に、必ず承認するようにしてください。
+* [SMS チャネルの概要 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja){target="_blank"}：顧客のモバイルデバイスにテキストメッセージを送信する方法について説明します。
+* [SMS 配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=ja){target="_blank"}：新しい SMS 配信の作成に必要な様々な手順を確認します。
+* [ コンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html?lang=ja){target="_blank"}:SMS メッセージのコンテンツをパーソナライズする方法を説明します。
+* [ オーディエンスを選択 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=ja){target="_blank"}：メインターゲットはAdobe Campaign データベースから抽出され、外部ファイルに保存することもできます。
+* [SMS 配達確認の送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=ja)：配信の検証サイクルの設定が不可欠です。 コンテンツをオーディエンスに送信する前に、必ず承認するようにしてください。
 * [ オーディエンスに送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=ja):SMS が検証されると、その SMS をオーディエンスに送信できるようになりました。
-* [SMS の監視と追跡 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html)：マーケティングキャンペーンが効率的であることを確認するために、SMS 配信を監視します。
+* [SMS の監視と追跡 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=ja)：マーケティングキャンペーンが効率的であることを確認するために、SMS 配信を監視します。
 
 設定について詳しくは、次のページを参照してください。
 

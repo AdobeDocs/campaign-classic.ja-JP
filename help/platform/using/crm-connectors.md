@@ -27,7 +27,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 >[!NOTE]
 >
 >* この機能は、**CRM コネクタ**&#x200B;専用パッケージを通じて Adobe Campaign で使用できます。
->* CRM コネクタの詳細と、Microsoft DynamicsとSalesforceの接続方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank} を参照してください。
+>* CRM コネクタの詳細と、Microsoft DynamicsとSalesforceの接続方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank} を参照してください。
 
 <!--
 ### Compatible systems {#compatible-crm-systems-and-limitations}

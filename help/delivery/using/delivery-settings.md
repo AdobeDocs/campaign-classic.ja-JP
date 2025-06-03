@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # 配信設定 {#about-delivery-settings}
 
-次の設定は、Campaign Classicに固有です。 その他の配信設定については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"} を参照してください。
+次の設定は、Campaign Classicに固有です。 その他の配信設定については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"} を参照してください。
 
 ## 配信分析 {#delivery-analysis}
 

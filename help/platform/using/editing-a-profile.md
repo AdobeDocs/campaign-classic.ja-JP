@@ -36,7 +36,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->プロファイルの編集方法およびアクセス方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank} の詳細なドキュメントを参照してください。
+>プロファイルの編集方法およびアクセス方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/view-profiles){target=_blank} の詳細なドキュメントを参照してください。
 
 
 

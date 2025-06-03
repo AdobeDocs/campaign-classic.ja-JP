@@ -19,7 +19,7 @@ Adobe Campaignでメール配信を作成し、パーソナライズされたメ
 
 メール配信の作成に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
 
-* [ メール配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}：メール配信の作成に必要な様々な手順について説明します。
+* [ メール配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"}：メール配信の作成に必要な様々な手順について説明します。
 * [ メールコンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}：メールに含める内容（送信者、件名、コンテンツ、画像）を定義します。
 * [ インタラクティブコンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}：動的なメールを送信するには、インタラクティブな AMP for Email 形式を使用します。
 * [ 日本の携帯電話向けのメールの送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}：携帯電話向けのメールには、3 種類ある日本のフォーマットのいずれかを使用します。
@@ -27,9 +27,9 @@ Adobe Campaignでメール配信を作成し、パーソナライズされたメ
 
 メールパラメーターについて詳しくは、次のページを Campaign v8 ドキュメントで参照してください。
 
-* [ ミラーページへのリンク ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}：ミラーページを設定して、クライアントが常に最高のレンダリング体験を得られるようにします。
+* [ ミラーページへのリンク ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"}：ミラーページを設定して、クライアントが常に最高のレンダリング体験を得られるようにします。
 * [BCC アドレスを追加 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ja){target="_blank"}：プラットフォームから送信されたメールのコピーを保持するようにAdobe Campaignを設定します。
-* [ 追加のメールパラメーターの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"}：配信プロパティで使用できるオプションとパラメーターについて説明します。
+* [ 追加のメールパラメーターの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=ja){target="_blank"}：配信プロパティで使用できるオプションとパラメーターについて説明します。
 
 また、Enhanced MTA について詳しくは、この [ ページ ](sending-with-enhanced-mta.md) を参照してください。
 
@@ -41,7 +41,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
 
 The key steps to send an email are as follows:
 

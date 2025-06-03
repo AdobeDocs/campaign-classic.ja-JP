@@ -5,23 +5,25 @@ description: Campaign で SMS を送信、監視、追跡する方法を説明�
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
-source-wordcount: '971'
-ht-degree: 100%
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 99%
 
 ---
 
-# SMS 配信の送信、監視、追跡{#sms-properties}
+# 追加の設定{#sms-properties}
 
-## SMS メッセージの送信 {#sending-sms-messages}
+<!--
+## Send SMS messages {#sending-sms-messages}
 
-メッセージを承認し、作成する配信の受信者に対して送信するには、「**[!UICONTROL 送信]**」をクリックします。
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
-配信を検証および送信する際の詳細なプロセスについては、以下の節を参照してください。
+The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [配信の検証](steps-validating-the-delivery.md)
-* [配信の送信](steps-sending-the-delivery.md)
+* [Validate the delivery](steps-validating-the-delivery.md)
+* [Send the delivery](steps-sending-the-delivery.md)
+-->
 
 ## 詳細設定パラメーター {#advanced-parameters}
 
@@ -55,13 +57,15 @@ ht-degree: 100%
 
 * **メッセージごとの SMS の最大数**：1 件のメッセージ送信に使用できる SMS の数を指定します。値が 0 の場合、メッセージの配信に使用する SMS の数に制限はありません。また、例えば 1 や 2 の場合、この数の SMS に収まらない長さのメッセージは送信されません。
 
-## SMS の監視と追跡 {#monitoring-and-tracking-sms-deliveries}
+<!--
+## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
 
-メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
+After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [配信の監視](about-delivery-monitoring.md)
-* [配信エラーについて](understanding-delivery-failures.md)
-* [メッセージのトラッキングについて](about-message-tracking.md)
+* [Monitor a delivery](about-delivery-monitoring.md)
+* [Understand delivery failures](understanding-delivery-failures.md)
+* [About message tracking](about-message-tracking.md)
+-->
 
 ## 受信メッセージの処理 {#processing-inbound-messages}
 

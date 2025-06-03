@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '54'
+ht-degree: 72%
 
 ---
 
@@ -22,23 +22,31 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#import-profiles-video)
 
-## ワークフローの使用{#use-workflows}
+>[!NOTE]
+>
+>プロファイルのインポートおよびエクスポート方法については、Campaign v8 ドキュメントを参照してください。
 
-エクスポートとインポートは、ワークフローでインポートアクティビティおよびエクスポートアクティビティを使用して実行される専用のテンプレートで設定します。例えば、複数の情報システム間のデータ交換を自動化するために、スケジュールに従って自動的に繰り返すことができます。[詳細情報](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
-必要に応じて、以下に説明する&#x200B;**[!UICONTROL 一般的なインポートおよびエクスポート]**&#x200B;機能を使用して、頻度の低いインポートジョブまたはエクスポートジョブを作成できます。
+<!--
 
-## ジョブの作成{#create-jobs}
+## Use workflows{#use-workflows}
 
-データのインポートジョブとエクスポートジョブを設定、実行するには、「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL ジョブ]**」リンクをクリックします。[詳細情報](../../platform/using/about-generic-imports-exports.md)
+Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
+
+If necessary, you can create an occasional import or export job via the **[!UICONTROL Generic imports and exports]** feature described below.
+
+## Create jobs{#create-jobs}
+
+To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/about-generic-imports-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## チュートリアルビデオ {#import-profiles-video}
+## Tutorial video {#import-profiles-video}
 
-このビデオでは、Adobe Campaign にプロファイルを読み込む方法について説明します。
+This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/328395?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+-->

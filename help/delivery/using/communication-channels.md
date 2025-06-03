@@ -5,124 +5,141 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 37%
 
 ---
 
 # 通信チャネル{#communication-channels}
 
-Adobe Campaign では、メール、SMS、LINE メッセージ、プッシュ通知およびダイレクトメールを含むクロスチャネルキャンペーンを送信し、各種の専用[レポート](../../reporting/using/delivery-reports.md)を使用してそれらの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
+Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダイレクトメールなどのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズできます。
 
-コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。主な機能のアクセスポイントは、配信ウィザードです。このアクセスポイントから、Adobe Campaign で提供される複数の機能を使用できます。
+コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
+
+配信の作成に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
+
+* [ 配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}:1 回限りの単一配信の作成方法を説明します。
+* [ コンテンツを定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
+* [ オーディエンスの指定 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
+* [ 配信の検証 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法を説明します。
+* [ 配信の送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
+* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}:Campaign の配信機能に関連するベストプラクティスを参照してください。
+
+また、Campaign Classicの具体的な配信設定については、この [ ページ ](delivery-settings.md) を参照してください。
+
+<!--
+
+   Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
+
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >
->Adobe Campaign は、配信品質を監視しメール送信を最適化するための一連のツールを備えています。詳しくは、 [この節](about-deliverability.md)を参照してください。
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](about-deliverability.md).
 
-配信の送信は、ワークフローのプロセスの中で配信を準備または送信することによって自動化できます。ワークフロー内の配信タイプのアクティビティについて詳しくは、[この節](../../workflow/using/about-action-activities.md)を参照してください。
+Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 
-Adobe Campaign は次の配信チャネルを提供します。
+Adobe Campaign offers the following delivery channels:
 
-1. **メールチャネル**：メール配信によって、ターゲット母集団にパーソナライズされたメールを送信できます。[メールチャネルについて](about-email-channel.md)を参照してください。
-1. **ダイレクトメールチャネル**：ダイレクトメール配信によって、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。[ダイレクトメールチャネルについて](about-direct-mail-channel.md)を参照してください。
-1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](sms-channel.md)を参照してください。
-1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](about-mobile-app-channel.md)の章を参照してください。
+1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](about-email-channel.md).
+1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](about-direct-mail-channel.md).
+1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](sms-channel.md).
+1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](about-mobile-app-channel.md) chapter.
 
-   その他のチャネルについて詳しくは、[この節](#other-channels)を参照してください。
+   Other channels are described on [this section](#other-channels).
 
    >[!NOTE]
    >
-   >使用可能なチャネルの数は、契約によって異なります。使用許諾契約書を確認してください。
+   >The number of available channels depends on your contract. Please check your license agreement.
 
-配信は、**オンライン**（メール、いずれかのモバイルチャネルおよびプッシュ通知）および&#x200B;**オフライン**（ダイレクトメールチャネル）で実行できます。
+Deliveries can be carried out **online** (via email, one of the mobile channels and push notifications), and **offline** (direct mail channel).
 
-チャネルに応じて、配信モードは次のようになります。
+Depending on the channel, delivery modes can be:
 
-* Adobe Campaign 経由の直接一括配信（メールチャネルのデフォルトモード）。
-* 配信アシスタントで生成された出力ファイルを受け取る、専門オペレーター経由の外部配信（ダイレクトメールチャネルのデフォルトモード）。
+* Direct mass delivery via Adobe Campaign (default mode for email channel).
+* External delivery via a specialist operator who is given the output file generated by the delivery assistant (default mode for direct mail channel).
 
-外部アカウントは、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。この設定は、エキスパートユーザーのみが実行するようにしてください。
+External accounts are configured via the **[!UICONTROL Administration > Platform > External accounts]** node. This configuration should be performed by expert users only.
 
-## メール配信 {#email-deliveries}
+## Email deliveries {#email-deliveries}
 
-[メールチャネル](about-email-channel.md)は、Adobe Campaign のコアチャネルの 1 つで、パーソナライズされたメールをスケジュールし、特定のターゲットに送信できます。
+The [Email channel](about-email-channel.md) is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
 
-異なるタイプのメールを送信できます。
+You can send different types of emails:
 
-* 単一送信メール：定義したターゲットに 1 回送信できるメール。これらは、通常、1 回だけ準備されて送信される特定のコンテンツ（ニュースレター、プロモーションメールなど）をプロモーションするために使用します。
-* 繰り返しメール：キャンペーンで、同じメールを定期的に送信し、各送信とそのレポートを定期的に集計します。同じメールが送信されますが、通常は、送信日の適格なターゲットに基づいて、異なるターゲットに送信されます。一般的な例に誕生日のメールがあります。詳しくは、[繰り返し配信](../../workflow/using/recurring-delivery.md)を参照してください。
-* トランザクションメール：顧客の行動に基づいてトリガーされる単一のメール。[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)を参照してください。
+* Single-send emails: emails that you can send once to a defined target. They are usually used to promote a specific content that would be prepared and sent only once (newsletter, promotional email, etc.).
+* Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
+* Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-配信の使用とレコメンデーションについては、Campaign の[配信のベストプラクティス](delivery-best-practices.md)を参照してください。
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](delivery-best-practices.md).
 
-配信のタイプについて詳しくは、[この節](#types-of-deliveries)を参照してください。
+For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
-## モバイル配信 {#mobile-deliveries}
+## Mobile deliveries {#mobile-deliveries}
 
-Adobe Campaign では、モバイルデバイスに [SMS](sms-channel.md) および [LINE](line-channel.md) メッセージを配信できます。
+Adobe Campaign allows you to deliver [SMS](sms-channel.md) and [LINE](line-channel.md) messages on mobiles.
 
-SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
+For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 
-LINE メッセージの場合は、テキストまたは画像とリンクを送信できます。
+For LINE messages, you can send text or images and links.
 
-SMS または LINE メッセージを携帯電話に配信するには、以下が必要です。
+To deliver SMS or LINE messages to a mobile phone you need:
 
-* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルまたは **[!UICONTROL LINE]** チャネルに設定された外部アカウント。
-* この外部アカウントに適切にリンクされた SMS または LINE 配信テンプレート。
+* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel. 
+* An SMS or LINE delivery template that is correctly linked to this external account.
 
-## プッシュ通知 {#push-notifications}
+## Push notifications {#push-notifications}
 
-Adobe Campaign では、専用アプリを通じて iOS および Android モバイルデバイスにパーソナライズおよびセグメント化された[プッシュ通知](about-mobile-app-channel.md)を送信できます。設定および統合手順を実行すると、iOS および Android 配信を作成および送信できます。画像またはビデオを含むリッチな通知をデザインすることもできます。
+Adobe Campaign allows you to send personalized and segmented [push notifications](about-mobile-app-channel.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent. You can also design rich notifications with images or videos.
 
-## ダイレクトメール {#direct-mail}
+## Direct mail {#direct-mail}
 
-[ダイレクトメール](about-direct-mail-channel.md)は、ダイレクトメールプロバイダーから求められるファイルのパーソナライズおよび生成を可能にするオフラインチャネルです。ダイレクトメールにより、カスタマージャーニーにオンラインチャネルとオフラインチャネルを混在させることができます。
+[Direct mail](about-direct-mail-channel.md) is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
 
-オンラインチャネルでは、メッセージ（メール、SMS、モバイルアプリ配信など）を作成し、Adobe Campaign から直接オーディエンスにメッセージを送信できます。オフラインチャネルの場合は異なります。ダイレクトメール配信を準備すると、Adobe Campaign により、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵便の宛先）を含むファイルが生成されます。その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。
+Online channels allow you to create your messages (email, SMS, mobile app delivery, etc.) and send them to your audience directly from Adobe Campaign. With offline channels, it is different. When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
 
-## その他のチャネル {#other-channels}
+## Other channels {#other-channels}
 
-Adobe Campaign は電話配信テンプレートを備えています。これは、外部配信の作成に使用されます。このチャネルを使用する場合、出力ファイルを処理するための専用の方法を設定することになります。設定の手順は、[ダイレクトメールチャネル](about-direct-mail-channel.md)の場合と同じです。
+Adobe Campaign offers Telephone delivery template, which is used to create external deliveries. Using this channel implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](about-direct-mail-channel.md).
 
 >[!NOTE]
 >
->電話チャネルは標準では使用できません。 実装には、Adobe コンサルティングまたは Adobe パートナーの関与が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>The Telephone channel is not available out-of-the-box. Its implementation requires Adobe Consulting or an Adobe Partner to be engaged. Please reach out to your Adobe representative for more information.
 
-さらに、「その他」タイプの配信は、プロセスを実行しない特定の専門的なテンプレートを使用します。これによって、Adobe Campaign プラットフォーム以外で実行されたマーケティングアクションを管理できます。
+In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
 
-このチャネルには特定のメカニズムはありません。これは汎用チャネルで、Adobe Campaign で使用できる他のコミュニケーションチャネルと同様に、独自の外部アカウントルーティングオプション、配信テンプレートタイプ、キャンペーンワークフローアクティビティがあります。
+This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.
 
-このチャネルは、説明のためにのみ設計されています。例えば、Adobe Campaign 以外のツールで実行されたキャンペーンのターゲットをトレースするための配信を定義する場合などです。
+This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
 
-## 配信のタイプ{#types-of-deliveries}
+## Types of deliveries{#types-of-deliveries}
 
-Campaign には 3 つのタイプの配信オブジェクトがあります。
+There are three types of delivery objects in Campaign:
 
-### 単一の配信 {#single-delivery}
+### Single delivery {#single-delivery}
 
-**配信**&#x200B;は、一度だけ実行されるスタンドアロン配信オブジェクトです。レプリケートし、再度準備済みにすることはできますが、最終状態（キャンセル、停止、完了）になっている場合は再利用できません。
+A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
 
-配信は、配信リストから作成したり、ワークフロー内で[配信](../../workflow/using/delivery.md)アクティビティを介して作成したりできます。
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
 
-ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。これらのアクティビティについて詳しくは、[この節](../../workflow/using/cross-channel-deliveries.md)を参照してください。
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
-### 繰り返し配信 {#recurring-delivery}
+### Recurring delivery {#recurring-delivery}
 
-**繰り返し配信**&#x200B;では、アクティビティを実行するたびに新しい配信を作成できます。これにより、繰り返しタスクのために新しい配信を手動で作成する必要がなくなります。
+A **recurring delivery** lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks.
 
-例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信の数は 12 個です。
+As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
 
-繰り返し配信は、ワークフロー内で[繰り返し配信アクティビティ](../../workflow/using/recurring-delivery.md)を介して作成されます。このアクティビティの使用例については、[ターゲティングワークフローでの繰り返し配信の作成](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)の節で説明しています。
+Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-### 連続配信 {#continuous-delivery}
+### Continuous delivery {#continuous-delivery}
 
-**連続配信**&#x200B;では、既存の配信に新しい受信者を追加できるので、アクティビティを実行するたびに新しい配信を作成する必要がありません。
+A **continuous delivery** lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
 
-配信の情報（コンテンツ、名前など）を変更すると、配信の実行時に新しい配信オブジェクトが作成されます。情報を変更しなかった場合は、同じ配信オブジェクトが再利用され、同じオブジェクトに配信ログとトラッキングログが追加されます。
+If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
 
-例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信数は 1 個です（ただし、配信に変更を加えなかった場合）。
+As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
 
-連続配信は、ワークフロー内で[連続配信アクティビティ](../../workflow/using/continuous-delivery.md)を介して作成されます。
+Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).-->

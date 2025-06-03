@@ -5,8 +5,10 @@ description: Adobe Campaign の AMP を使用してインタラクティブな�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 100%
@@ -207,6 +209,6 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 以下のビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/35081?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

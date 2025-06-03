@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Campaign のクエリツールでは、専用のアシスタントであ�
 
 クエリは、選択したテーブルのフィールドを使用するか、数式を使用して作成します。
 
-[ここをクリック](../../workflow/using/query.md)して、Campaign クエリエディターを開きます。
+>[!NOTE]
+>
+>クエリの詳細と作成方法については、[Campaign v8 ドキュメント ](../../workflow/using/query.md) を参照してください。
 
-![](assets/query_recipients_4.png)
+![ クエリの例を示したスクリーンショット。](assets/query_recipients_4.png)

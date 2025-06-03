@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 92%
 
 ---
 
@@ -37,43 +37,46 @@ Adobe Campaign では、データ管理者は 2 とおりの方法でプライ�
 
 >[!NOTE]
 >
->個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](privacy-and-recommendations.md#personal-data)を参照してください。
+>* 個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](privacy-and-recommendations.md#personal-data)を参照してください。
+>* プライバシーリクエストについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target=_blank} を参照してください。
 
-## 前提条件 {#prerequesites}
+<!--
+## Prerequisites {#prerequesites}
 
-Adobe Campaign には、Adobe Campaign に保存されているデータに対するプライバシーリクエストの作成と処理をおこなうためのデータ管理者用ツールが用意されています。ただし、データ主体とのやり取り（メール、カスタマーサポート、Web ポータル）はデータ管理者がおこなう必要があります。
+Adobe Campaign offers Data Controllers tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is the Data Controller's responsibility to handle the relationship with the Data Subject (email, customer care or a web portal).
 
-また、要求者であるデータ主体の ID、および要求者に返されるデータがデータ主体に関するものであることの確認は、データ管理者がおこないます。
+It is therefore your responsibility as a Data Controller to confirm the identity of the Data Subject making the request and to confirm that the data returned to the requester is about the Data Subject.
 
-## プライバシーパッケージのインストール {#install-privacy-package}
+## Installing the Privacy package {#install-privacy-package}
 
-この機能を使用するには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**／**[!UICONTROL Adobe Campaign パッケージ]**&#x200B;メニューから&#x200B;**[!UICONTROL プライバシーデータ保護規則]**&#x200B;パッケージをインストールする必要があります。パッケージのインストール方法について詳しくは、[詳細ドキュメント](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the [detailed documentation](../../installation/using/installing-campaign-standard-packages.md).
 
-**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;に、プライバシー専用の 2 つのフォルダーが新しく作成されます。
+Two new folders, specific to Privacy, are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
 
-* **[!UICONTROL プライバシーリクエスト]**：プライバシーリクエストを作成し、その推移をトラッキングする場所です。
-* **[!UICONTROL 名前空間]**：Adobe Campaign データベースでデータ主体を識別するために使用するフィールドを定義する場所です。
+* **[!UICONTROL Privacy Requests]**: this is where you will create your Privacy requests and track their evolution.
+* **[!UICONTROL Namespaces]**: this is where you will define the field that will be used to identify the Data Subject in the Adobe Campaign database.
 
 ![](assets/privacy-folders.png)
 
-**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;で、プライバシーリクエストを処理するための 3 つのテクニカルワークフローが毎日実行されます。
+In **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**, three technical workflows run every day to process Privacy requests.
 
 ![](assets/privacy-workflows.png)
 
-* **[!UICONTROL プライバシーリクエストを収集]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを生成し、プライバシーリクエストの画面でダウンロードできるようにします。
-* **[!UICONTROL プライバシーリクエストデータを削除]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを削除します。
-* **[!UICONTROL プライバシーリクエストのクリーンアップ]**：このワークフローでは、90 日より古いアクセスリクエストファイルが消去されます。
+* **[!UICONTROL Collect privacy requests]**: this workflow generates the recipient's data stored in Adobe Campaign and makes it available for download in the privacy request's screen.
+* **[!UICONTROL Delete privacy requests data]**: this workflow deletes the recipient's data stored in Adobe Campaign.
+* **[!UICONTROL Privacy request cleanup]**: this workflow erases the access request files that are older than 90 days.
 
-**[!UICONTROL 管理]**／**[!UICONTROL アクセス管理]**／**[!UICONTROL ネームド権限]**&#x200B;に、**[!UICONTROL プライバシーデータ権限]**&#x200B;というネームド権限が追加されました。このネームド権限は、データ管理者がプライバシーツールを使用する場合に必要となります。これにより、新しいリクエストの作成、推移のトラッキング、API の使用などができるようになります。
+In **[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UICONTROL Named rights]**, the **[!UICONTROL Privacy Data Right]** named right has been added. This named right is required for Data Controllers in order for them to use privacy tools. This allows them to create new requests, track their evolution, use the API, etc.
 
 ![](assets/privacy-right.png)
 
-## 名前空間 {#namesspaces}
+## Namespaces {#namesspaces}
 
-プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。これは、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。
+Before creating Privacy requests, you need to define the namespace you will use. This is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
-標準では、メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
+Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
 >[!NOTE]
 >
->最適なパフォーマンスを得るには、標準の名前空間を使用することをお勧めします。
+>For optimal performance, it is recommended to use out-of-the-box namespaces.
+-->

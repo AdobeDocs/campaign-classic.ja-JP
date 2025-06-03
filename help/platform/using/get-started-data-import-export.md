@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 81%
 
 ---
 
@@ -25,46 +25,53 @@ Adobe Campaign Classic は、データのインポートとエクスポートを
 >
 >この機能を使用する際は、Adobe Campaign の契約条件が定める SFTP ストレージ、データベースストレージ、アクティブプロファイルの制限に注意してください。
 
-## ワークフロー {#workflows}
+>[!NOTE]
+>
+>データの Campaign へのインポートおよびエクスポート方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target=_blank} を参照してください。
+
+
+<!--
+## Workflows {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**ワークフロー**&#x200B;は、インポートプロセスを自動化する便利な方法です。データをローカルファイルからインポートするか、SFTP からインポートするかに関係なく、データ管理手順を標準化することができます。
+**Workflows** are a useful way to automate your import processes. Whether you import data from a local file or from a SFTP, they allow you to standardize your data management procedures.
 
-ワークフローを使用すると、例えば複数の情報システム間のデータ交換を自動化するために、インポートとエクスポートの操作をスケジュールに従って自動的に繰り返すことができます。
+With workflows, import and export operations can be repeated automatically according to a schedule, for example to automate data exchange between several information systems.
 
-詳しくは、[この節](../../platform/using/import-export-workflows.md)を参照してください。
+For more on this, refer to [this section](../../platform/using/import-export-workflows.md).
 
-## 一般的なインポートおよびエクスポート {#generic-import-export}
+## Generic imports and exports {#generic-import-export}
 
 <img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
-また、Campaign Classic には、不定期のインポート／エクスポートジョブを作成できる&#x200B;**一般的なインポートおよびエクスポート**&#x200B;が用意されています。
+Additionally, Campaign Classic provides **generic imports and exports** that allow you to create occasional import or export jobs.
 
-インポートとエクスポートは、インポートおよびエクスポートジョブを起動および監視するように設定および使用できる専用のテンプレートで設定されます。
+Imports and exports are configured in dedicated templates, that you can configure and use to launch and monitor import and export jobs.
 
-一般的なインポートおよびエクスポートの詳細については、[こちらの節](../../platform/using/about-generic-imports-exports.md)を参照してください。
+For more on generic imports and exports, refer to [this section](../../platform/using/about-generic-imports-exports.md).
 
 >[!IMPORTANT]
->一般的なインポートおよびエクスポートは、不定期の操作にのみ使用します。データの一貫性を確保し効率を向上させるには、ワークフローを使用してインポートおよびエクスポート操作を実行することをお勧めします。
+>Generic imports and exports should be used for occasional operations only. To ensure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
 
-## データの暗号化と圧縮 {#data-encryption-compression}
+## Data encryption and compression {#data-encryption-compression}
 
 <img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 
-Campaign Classic では、圧縮ファイルまたは暗号化ファイルのインポートやエクスポートが可能です。
+Campaign Classic allows you to import zipped or encrypted files, and export zipped or encrypted file.
 
-これらの操作は、活用するデータに前処理段階を適用することで、ワークフロー内で実行されます。
+These operations are performed within workflows, by applying pre-processing stages to the data you want to leverage.
 
-詳しくは、以下の節を参照してください。
+For more on this, refer to these sections:
 
-* [ファイルの解凍または復号化](../../platform/using/unzip-decrypt.md)
-* [ファイルの圧縮または暗号化](../../platform/using/zip-encrypt.md)
+* [Unzip or decrypt a file](../../platform/using/unzip-decrypt.md)
+* [Zip or encrypt a file](../../platform/using/zip-encrypt.md)
 
-## ベストプラクティスとトラブルシューティング {#best-practices-troubleshooting}
+## Best practices and troubleshooting {#best-practices-troubleshooting}
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-データベース内のデータの一貫性を確保し、更新操作時やエクスポート操作時によく発生するエラーを避けるために、インポート操作とエクスポート操作を実行する際は、いくつかの[ベストプラクティス](../../platform/using/import-export-best-practices.md)に従ってください。
+You should follow several [best practices](../../platform/using/import-export-best-practices.md) when performing import and export operations to ensure data consistency within the database and avoid common errors during update or export operations.
 
-また、SFTP サーバーの使用に関するレコメンデーションとよくある問題については、[この節](../../platform/using/sftp-server-usage.md)を参照してください。
+Additionally, recommendations and common issues related to SFTP servers usage are available in [this section](../../platform/using/sftp-server-usage.md).
+-->

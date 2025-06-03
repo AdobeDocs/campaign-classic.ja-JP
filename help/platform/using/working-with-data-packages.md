@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 100%
+source-wordcount: '127'
+ht-degree: 89%
 
 ---
 
@@ -27,431 +27,369 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 
 **データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign システム内に組み込むことです。この[節](#data-package-best-practices)では、一貫したデータパッケージのセットを維持する方法を説明します。
 
-### パッケージの種類 {#types-of-packages}
+>[!NOTE]
+>
+>データパッケージについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/packages){target=_blank} を参照してください。
 
-エクスポート可能なパッケージとしては、ユーザーパッケージ、プラットフォームパッケージ、管理パッケージの 3 種類があります。
 
-* **ユーザーパッケージ**：エクスポートするエンティティのリストを選択できます。このタイプのパッケージでは、依存関係の管理とエラーの検証がおこなわれます。
-* **プラットフォームパッケージ**：スキーマ、JavaScript コードなど、すべての付加的な技術リソース（非標準）が含まれています。
+<!--
+### Types of packages {#types-of-packages}
+
+There are three types of exportable packages: user packages, platform packages and admin packages.
+
+* **User package**: it enables you to select the list of entities to be exported. This type of package manages dependencies and verifies errors.
+* **Platform package**: it includes all added technical resources (non standard): schemas, JavaScript code, etc. 
 
   ![](assets/ncs_datapackage_package_platform.png)
 
-* **管理パッケージ**：テンプレート、ライブラリなど、すべての付加的なテンプレートやビジネスオブジェクト（非標準）が含まれています。
+* **Admin package**: it includes all added templates and business objects (non standard): templates, libraries, etc.
 
   ![](assets/ncs_datapackage_package_admin.png)
 
 >[!CAUTION]
 >
->**プラットフォーム**&#x200B;タイプと&#x200B;**管理**&#x200B;タイプのパッケージには、事前に定義された、エクスポートするエンティティのリストが含まれます。個々のエンティティは、作成したパッケージに含まれる事前定義のリソースを削除するためのフィルター条件にリンクされています。
+>The **platform** and **admin** types contain a predefined list of entities to be exported. Each entity is linked to filtering conditions that enable you to remove the out-of-the-box resources of the created package.
 
-## データ構造 {#data-structure}
+## Data structure {#data-structure}
 
-1 つのデータパッケージは、**xrk:navtree** データスキーマの文法に準拠した 1 個の構造化 XML ドキュメントによって記述されます。
+The description of a data package is a structured XML document that complies with the grammar of the **xrk:navtree** data schema.
 
-データパッケージの例：
+Data package example:
 
-```
-<package>
-  <entities schema="nms:recipient">
-    <recipient email="john.smith@adobe.com" lastName="Smith" firstName="John">      
-      <folder _operation="none" name="nmsRootFolder"/>      
-      <company _operation="none" name="Adobe"/>
-    </recipient>
-  </entities>
-  <entities schema="sfa:company">
-    <company name="Adobe">
-      location city="London" zipCode="W11 2BQ"/>
-    </company>
-  </entities>
-</package>
-```
 
-XML ドキュメントの先頭と末尾には必ず **`<package>`** 要素を記述します。それに続くすべての **`<entities>`** 要素によって、データがドキュメントタイプ別に配置されます。
+The XML document must begin and end with the element. Any elements that follow distribute the data by document type.
 
-1 つの **`<entities>`** 要素には、その要素の **schema** 属性で指定されたデータスキーマの形式に基づくパッケージのデータが含まれます。
+An element contains the data of the package in the format of the data schema entered in the **schema** attribute.
 
-パッケージ内のデータには、例えば自動生成キー（**autopk** オプション）のような、ベース間の互換性がない内部キーが含まれていてはなりません。
+The data in a package must not contain internal keys that are not compatible between bases, such as auto-generated keys (**autopk** option).
 
-この例では、&quot;folder&quot; リンクと &quot;company&quot; リンクが、宛先テーブル内のいわゆる &quot;ハイレベル&quot; キーで次のように置き換えられています。
+In our example, the joins on the "folder" and "company" links have been replaced by so-called "high level" keys on the destination tables:
 
-```
-<recipient>
-  <folder _operation="none" name="nmsRootFolder"/>
-  <company _operation="none" name="Adobe"/>
-</recipient>
-```
 
-**`operation`** 属性の値が &quot;none&quot; であることが、紐付けリンクの定義であることを意味します。
+The **`operation`** attribute with the value "none" defines a reconciliation link.
 
-データパッケージの作成は、任意のテキストエディターを使って手作業でおこなうことができます。ただし、XML ドキュメントの構造は常に &quot;xtk:navtree&quot; データスキーマに準拠している必要があります。Adobe Campaign コンソールには、データパッケージのエクスポートとインポートを実行できるモジュールがあります。
+A data package can be constructed manually from any text editor. Simply ensure that the structure of the XML document complies with the "xtk:navtree" data schema. The Adobe Campaign console has a data package export and import module.
 
-## パッケージのエクスポート {#exporting-packages}
+## Export packages {#exporting-packages}
 
-### パッケージのエクスポートについて {#about-package-export}
+### About package export {#about-package-export}
 
-パッケージは次の 3 つの方法でエクスポートできます。
+Packages can be exported in three different ways:
 
-* **[!UICONTROL パッケージエクスポートアシスタント]**&#x200B;を使用して、単一のパッケージにオブジェクトセットをエクスポートできます。詳しくは、[パッケージへの一連のオブジェクトのエクスポート](#exporting-a-set-of-objects-in-a-package)を参照してください。
-* **単一のオブジェクト**&#x200B;を右クリックして、**[!UICONTROL アクション／パッケージにエクスポート]**&#x200B;を選択して、パッケージにエクスポートできます。
-* **パッケージ定義**&#x200B;を使用して、パッケージ構造を作成し、オブジェクトを追加した後、パッケージにエクスポートできます。詳しくは、 [パッケージ定義の管理](#managing-package-definitions)を参照してください。
+* The **[!UICONTROL Package Export Assistant]** enables you to export a set of objects in a single package. For more on this refer to [Export a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
+* A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
+* **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Manage package definitions](#managing-package-definitions)
 
-パッケージをエクスポートしたら、そのパッケージと追加したすべてのエンティティを別の Campaign インスタンスにインポートできます。
+Once a package exported, you will be able to import it and all the added entities into another Campaign instance.
 
-### パッケージに含まれる一連のオブジェクトのエクスポート {#exporting-a-set-of-objects-in-a-package}
+### Export a set of objects in a package {#exporting-a-set-of-objects-in-a-package}
 
-Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート]**&#x200B;メニューを選択すると、パッケージエクスポートアシスタントにアクセスできます。
+The package export assistant is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-アシスタントでは、これら 3 種類のパッケージを以下に示す手順で扱います。
+For the three types of packages, the assistant offers the following steps:
 
-1. エクスポートの対象とするエンティティのリストをドキュメントタイプ別に表示します。
+1. List the entities to be exported by document type:
 
    ![](assets/ncs_datapackage_export2.png)
 
    >[!CAUTION]
    >
-   >エクスポートの対象が&#x200B;**[!UICONTROL オファーカテゴリ]**、**[!UICONTROL オファー環境]**、**[!UICONTROL プログラム]**&#x200B;または&#x200B;**[!UICONTROL プラン]**&#x200B;タイプのフォルダーである場合は、**xtk:folder** を絶対に選択しないでください。選択するとデータの一部が失われることがあります。フォルダーに対応するエンティティ（オファーカテゴリには **nms:offerCategory**、オファー環境には **nms:offerEnv**、プログラムには **nms:program**、プランには **nms:plan**）を選択します。
+   >If you export an **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** or **[!UICONTROL Plan]** type folder, don't ever select the **xtk:folder** as you may lose some data. Select the entity that corresponds with the folder: **nms:offerCategory** for offer categories, **nms:offerEnv** for offer environments, **nms:program** for programs, and **nms:plan** for plans.
 
-   リスト管理機能により、エクスポートの対象として設定に含めるエンティティを追加および削除できます。新しいエンティティを追加するには「**[!UICONTROL 追加]**」をクリックします。
+   List management lets you add or delete entities for export from the configuration. Click **[!UICONTROL Add]** to select a new entity.
 
-   「**[!UICONTROL 詳細]**」ボタンをクリックすると、選択されている設定内容を編集できます。
+   The **[!UICONTROL Detail]** button edits the selected configuration.
 
    >[!NOTE]
    >
-   >エンティティのエクスポート処理の流れは、依存関係メカニズムによってコントロールされます。詳しくは、[依存関係の管理](#managing-dependencies)を参照してください。
+   >The dependency mechanism controls the entity export sequence. For more on this, refer to [Managing dependencies](#managing-dependencies).
 
-1. エンティティ設定画面で、抽出するドキュメントのタイプに関するフィルタークエリを定義します。
+1. The entity configuration screen defines the filter query on the type of document to be extracted.
 
-   ここでは、データ抽出用のフィルタリング節を設定する必要があります。
+   You must configure the filtering clause for data extraction.
 
    ![](assets/ncs_datapackage_export4.png)
 
    >[!NOTE]
    >
-   >Query Editor については、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
 
-1. 「**[!UICONTROL 次へ]**」をクリックし、抽出処理時にデータの順序を決める並べ替え基準の列を選択します。
+1. Click **[!UICONTROL Next]** and select the sorting columns to order the data during extraction:
 
    ![](assets/ncs_datapackage_export5.png)
 
-1. エクスポートを実行する前に、抽出するデータのプレビューを確認します。
+1. Preview the data to extract before running the export.
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. パッケージエクスポートアシスタントの最終ページで、エクスポートを開始します。「**[!UICONTROL ファイル]**」フィールドで指定されたファイルにデータが格納されます。
+1. The last page of the package export assistant lets you start the export. The data will be stored in the file indicated in the **[!UICONTROL File]** field.
 
    ![](assets/ncs_datapackage_export7.png)
 
-### 依存関係の管理 {#managing-dependencies}
+### Manage dependencies {#managing-dependencies}
 
-Adobe Campaign のエクスポートメカニズムでは、エクスポートされる様々な要素間のリンクをトラッキングできます。
+The export mechanism enables Adobe Campaign to track the links between the various exported elements.
 
-このメカニズムは次の 2 つのルールに基づいて機能します。
+This mechanism is defined by two rules:
 
-* リンクの整合性タイプ **own** または **owncopy** を使ってリンクされたオブジェクトは、エクスポート対象オブジェクトと同じパッケージに含めてエクスポートされます。
-* リンクの整合性タイプ **neutral** または **define** を使ってリンク（定義リンク）されたオブジェクトは、別途エクスポートする必要があります。
-
->[!NOTE]
->
->スキーマ要素に関連付けられる整合性タイプの定義については、[この節](../../configuration/using/database-mapping.md#links--relation-between-tables)を参照してください。
-
-#### キャンペーンのエクスポート {#exporting-a-campaign}
-
-キャンペーンをエクスポートする方法の例を以下に示します。エクスポートするマーケティングキャンペーンには、「MyWorkflow」フォルダー（ノード：管理／プロダクション／テクニカルワークフロー／キャンペーンプロセス／MyWorkflow）内のタスク（ラベル：「MyTask」）およびワークフロー（ラベル：「CampaignWorkflow」）が含まれます。
-
-タスクとワークフローはキャンペーンと同じパッケージ内にエクスポートされます。これは、対応するスキーマが &quot;own&quot; 整合性タイプのリンクで結びつけられているからです。
-
-パッケージの内容：
-
-```
-<?xml version='1.0'?>
-<package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
-label="" name="" namespace="" vendor="">
- <desc></desc>
- <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
- <entities schema="nms:operation">
-  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="AAAA-MM-DD">
-   <controlGroup>
-    <where filteringSchema=""/>
-   </controlGroup>
-   <seedList>
-    <where filteringSchema="nms:seedMember"></where>
-    <seedMember internalName="SDM1"></seedMember>
-   </seedList>
-   <parameter useAsset="1" useBudget="1" useControlGroup="1" useDeliveryOutline="1"
-   useDocument="1" useFCPValidation="0" useSeedMember="1" useTask="1"
-   useValidation="1" useWorkflow="1"></parameter>
-   <fcpSeed>
-    <where filteringSchema="nms:seedMember"></where>
-   </fcpSeed>
-   <owner _operation="none" name="admin" type="0"/>
-   <program _operation="none" name="nmsOperations"/>
-   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
-   status="1">
-    <owner _operation="none" name="admin" type="0"/>
-    <operation _operation="none" internalName="OP1"/>
-    <folder _operation="none" name="nmsTask"/>
-   </task>
-   <workflow internalName="WKF12" label="CampaignWorkflow" modelName="newOpEmpty"
-   order="8982" scenario-cs="Notification of the workflow supervisor (notifySupervisor)"
-   schema="nms:recipient">
-    <scenario internalName="notifySupervisor"/>
-    <desc></desc>
-    <folder _operation="none" name="Folder4"/>
-    <operation _operation="none" internalName="OP1"/>
-   </workflow>
-  </operation>
- </entities>
-</package>   
-```
-
-パッケージのタイプに対する所属関係は、スキーマ内では **@pkgAdmin および @pkgPlatform** 属性によって定義されています。どちらの属性にも、パッケージへの所属条件を定義する XTK 式が指定されます。
-
-```
-<element name="offerEnv" img="nms:offerEnv.png" 
-template="xtk:folder" pkgAdmin="@id != 0">
-```
-
-最後に、**@pkgStatus** 属性は、これらの要素または属性に関するエクスポートルールの定義に使われます。この属性の値に応じて、該当する要素または属性はエクスポートされるパッケージに含まれます。この属性に指定できる値は次の 3 種類です。
-
-* **never**：そのフィールドやリンクをエクスポートしない
-* **always**：そのフィールドを必ずエクスポートする
-* **preCreate**：リンクされたエンティティの作成を許可する
+* objects linked to a link with an **own** or **owncopy** type integrity are exported in the same package as the exported object.
+* objects linked to a link with a **neutral** or **define** type integrity (defined link) must be exported separately.
 
 >[!NOTE]
 >
->**preCreate** 値は、リンクタイプのイベントに対してのみ使用できます。この値を指定すると、エクスポートされるパッケージ内のまだロードされていないエンティティを参照するリンクを作成することが認められます。
+>Integrity types linked to schema elements are defined in [this section](../../configuration/using/database-mapping.md#links--relation-between-tables).
 
-## パッケージ定義の管理 {#managing-package-definitions}
+#### Export a campaign {#exporting-a-campaign}
 
-パッケージ定義では、パッケージ構造を作成し、エンティティを追加してから、単一のパッケージにエクスポートできます。その後、このパッケージと追加されたすべてのエンティティを他の Campaign インスタンスにインポートできます。
+Here is an example on how to export a campaign. The marketing campaign to be exported contains a task (label: "MyTask") and a workflow (label: "CampaignWorkflow") in a "MyWorkflow" folder (node: Administration / Production / Technical workflows / Campaign processes / MyWorkflow).
 
-**関連トピック：**
+The task and the workflow are exported in the same package as the campaign since the matching schemas are connected by links with an "own" type integrity.
 
-* [パッケージ定義の作成](#creating-a-package-definition)
-* [パッケージ定義へのエンティティの追加](#adding-entities-to-a-package-definition)
-* [パッケージ定義の生成に関する設定](#configuring-package-definitions-generation)
-* [パッケージ定義からのパッケージのエクスポート](#exporting-packages-from-a-package-definition)
+Package content:
 
-### パッケージ定義の作成 {#creating-a-package-definition}
+Affiliation to a type of package is defined in a schema with the **@pkgAdmin and @pkgPlatform** attribute. Both these attributes receive an XTK expression that defines the conditions of affiliation to the package.
 
-パッケージ定義には、**[!UICONTROL 管理／設定／パッケージ管理／パッケージ定義]**&#x200B;メニューからアクセスできます。
+Finally, the **@pkgStatus** attribute enables you to define the export rules for these elements or attributes. Depending on the value of the attribute, the element or attribute will be found in the exported package. The three possible values for this attribute are:
 
-パッケージ定義を作成するには、「**[!UICONTROL 新規]**」ボタンをクリックし、パッケージ定義の一般情報を入力します。
+* **never**: does not export the field / link
+* **always**: forces export for this field 
+* **preCreate**: authorizes creation of the linked entity
+
+>[!NOTE]
+>
+>The **preCreate** value is only admitted for link type events. It authorizes you to create or point towards an entity not yet loaded in the exported package.
+
+## Manage package definitions {#managing-package-definitions}
+
+Package definitions let you create a package structure in which you add entities that will be exported later on in a single package. You will then be able to import this package and all the added entities into another Campaign instance.
+
+**Related topics:**
+
+* [Create a package definition](#creating-a-package-definition)
+* [Add entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configure package definitions generation](#configuring-package-definitions-generation)
+* [Export packages from a package definition](#exporting-packages-from-a-package-definition)
+
+### Create a package definition {#creating-a-package-definition}
+
+Package definitions can be accessed from the **[!UICONTROL Administration > Configuration > Package management > Package definitions]** menu.
+
+To create a package definition, click the **[!UICONTROL New]** button, then fill in the package definition general information.
 
 ![](assets/packagedefinition_create.png)
 
-その後、パッケージ定義にエンティティを追加し、XML ファイルパッケージにエクスポートします。
+You can then add entities to the package definition, and export it to an XML file package.
 
-**関連トピック：**
+**Related topics:**
 
-* [パッケージ定義へのエンティティの追加](#adding-entities-to-a-package-definition)
-* [パッケージ定義の生成に関する設定](#configuring-package-definitions-generation)
-* [パッケージ定義からのパッケージのエクスポート](#exporting-packages-from-a-package-definition)
+* [Add entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configure package definitions generation](#configuring-package-definitions-generation)
+* [Export packages from a package definition](#exporting-packages-from-a-package-definition)
 
-### パッケージ定義へのエンティティの追加 {#adding-entities-to-a-package-definition}
+### Add entities to a package definition {#adding-entities-to-a-package-definition}
 
-「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。エンティティを選択する際のベストプラクティスについては、[この節](#exporting-a-set-of-objects-in-a-package)を参照してください。
+In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [this section](#exporting-a-set-of-objects-in-a-package) section.
 
 ![](assets/packagedefinition_addentities.png)
 
-エンティティは、インスタンス内の場所から直接パッケージ定義に追加できます。これをおこなうには、以下の手順に従います。
+Entities can be added to a package definition directly from their location in the instance. To do this, follow the steps below:
 
-1. 目的のエンティティを右クリックして、**[!UICONTROL アクション／パッケージにエクスポート]**&#x200B;を選択します。
+1. Right-click the desired entity, then select **[!UICONTROL Actions > Export in a package]**.
 
    ![](assets/packagedefinition_singleentity.png)
 
-1. **[!UICONTROL パッケージ定義に追加]**&#x200B;を選択し、エンティティを追加するパッケージ定義を選択します。
+1. Select **[!UICONTROL Add to a package definition]**, then select the package definition to which you want to add the entity.
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. エンティティをパッケージ定義に追加すると、そのエンティティがパッケージとしてエクスポートされます（[この節](#exporting-packages-from-a-package-definition)を参照）。
+1. The entity is added to the package definition, it will be exported with the package (see [this section](#exporting-packages-from-a-package-definition)).
 
    ![](assets/packagedefinition_entityadded.png)
 
-### パッケージ定義の生成の設定 {#configuring-package-definitions-generation}
+### Configure package definitions generation {#configuring-package-definitions-generation}
 
-パッケージの生成は、パッケージ定義の「**[!UICONTROL コンテンツ]**」タブで設定できます。設定をおこなうには、「**[!UICONTROL 生成パラメーター]**」リンクをクリックします。
+Package generation can be configured from the package definition **[!UICONTROL Content]** tab. To do this, click the **[!UICONTROL Generation parameters]** link.
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* **[!UICONTROL 定義を含める]**：パッケージ定義で現在使用されている定義を含めます。
-* **[!UICONTROL インストールスクリプトを含める]**：パッケージのインポート時に実行する JavaScript スクリプトを追加できます。選択すると、パッケージ定義画面に「**[!UICONTROL スクリプト]**」タブが表示されます。
-* **[!UICONTROL デフォルト値を含める]**：すべてのエンティティ属性の値をパッケージに追加します。
+* **[!UICONTROL Include the definition]**: includes the definition currently used in the package definition.
+* **[!UICONTROL Include an installation script]**: lets you add a javascript script to execute at the package import. When selected, a **[!UICONTROL Script]** tab is added in the package definition screen.
+* **[!UICONTROL Include default values]**: adds to the package the values of all the entities' attributes.
 
-  このオプションは、エクスポート内容が長くなりすぎないように、デフォルトでは選択されません。つまり、デフォルト値（スキーマで別途定義されていない場合の、空の文字列、「0」、「false」）を持つエンティティ属性はパッケージに追加されず、エクスポートもおこなわれません。
+  This option is not selected by default, in order to avoid lengthy exports. This means that entities' attributes with default values ('empty string', '0', and 'false' if not defined otherwise in the schema) will not be added to the package and will therefore not be exported.
 
   >[!CAUTION]
   >
-  >このオプションの選択を解除すると、ローカルのバージョンとインポートされたバージョンが結合されます。
+  >Unselecting this option can result in a merge of local and imported versions.   
   >
-  >パッケージのインポート先のインスタンスに、パッケージと同じエンティティ（同じ外部 ID など）が含まれている場合は、そのエンティティの属性は更新されません。元のインスタンスにデフォルト値を持つ属性がある場合、それらがパッケージに含まれないので、こうしたことが起こります。
+  >If the instance where the package is imported contains entities that are identical to those of the package (for example with the same external ID), their attributes will not be updated. This can occur if the attributes from the former instance have default values, as they are not included in the package.   
   >
-  >この場合は「**[!UICONTROL デフォルト値を含める]**」オプションを選択すると、元のインスタンスからすべての属性がパッケージにエクスポートされるので、複数のバージョンが結合されることはありません。
+  >In that case, selecting the **[!UICONTROL Include default values]** option would prevent versions merging, as all attributes from the former instance would be exported with the package.
 
-### パッケージ定義からのパッケージのエクスポート {#exporting-packages-from-a-package-definition}
+### Export packages from a package definition {#exporting-packages-from-a-package-definition}
 
-パッケージ定義からパッケージをエクスポートするには、以下の手順に従います。
+To export a package from a package definition, follow the steps below:
 
-1. エクスポートするパッケージ定義を選択し、「**[!UICONTROL アクション]**」ボタンをクリックし、「**[!UICONTROL パッケージをエクスポート]**」を選択します。
-1. エクスポートするパッケージに対応した XML ファイルがデフォルトで選択されます。パッケージ定義の名前空間と名前に基づいて名前が付けられます。
-1. パッケージ名と場所を定義したら、「**[!UICONTROL 開始]**」ボタンをクリックしてエクスポートを開始します。
+1. Select the package definition to export, then click the **[!UICONTROL Actions]** button and select **[!UICONTROL Export the package]**.
+1. An XML file corresponding to the exported package is selected by default. It is named according to the package definition namespace and name.
+1. Once the package name and location defined, click the **[!UICONTROL Start]** button to launch the export.
 
    ![](assets/packagedefinition_packageexport.png)
 
-## パッケージのインポート {#importing-packages}
+## Import packages {#importing-packages}
 
-Adobe Campaign クライアントコンソールのメインメニューで&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをインポート]**&#x200B;を選択すると、パッケージインポートアシスタントにアクセスできます。
+The package import assistant is accessible via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the Adobe Campaign client console.
 
-ライセンス条項に応じて、（例えば、別の Adobe Campaign インスタンスから）既にエクスポートしたパッケージをインポートするか、[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
+You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 
 ![](assets/ncs_datapackage_import.png)
 
-### ファイルからのパッケージのインストール {#installing-a-package-from-a-file}
+### Install a package from a file {#installing-a-package-from-a-file}
 
-既存のデータパッケージをインポートするには、パッケージの XML ファイルを選択し、「**[!UICONTROL 開く]**」をクリックします。
+To import an existing data package, select the XML file and click **[!UICONTROL Open]**.
 
 ![](assets/ncs_datapackage_import_1.png)
 
-インポートされるパッケージの内容が、エディターの中央部セクションに表示されます。
+The content of the package to be imported is then displayed in the middle section of the editor.
 
-「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックすると、インポートが開始されます。
+Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### ビルトインパッケージのインストール {#installing-a-standard-package}
+### Install a built-in package {#installing-a-standard-package}
 
-標準パッケージは、Adobe Campaign の設定時にインストールされるビルトインパッケージです。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
+Standard packages are built-in packages, installed when the Adobe Campaign is configured. Depending on your permissions and your deployment model, you can import new standard packages if you acquire new options or add-ons, or if you upgrade to a new offer.
 
-インストールできるパッケージを確認するには、ライセンス契約を参照してください。
+Refer to your license agreement to check which packages you can install.
 
-ビルトインパッケージについて詳しくは、[こちら](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
-## データパッケージのベストプラクティス {#data-package-best-practices}
+## Data package best practices {#data-package-best-practices}
 
-この節では、プロジェクトの全期間にわたって一貫した方法でデータパッケージを編成する方法について説明します。
+This section describes how to organize data packages in a consistent way across the life of the project.
 
-パッケージには、様々な種類の設定や要素を含めることができ、フィルターされている場合とそうでない場合があります。一部の要素が見つからない場合や、要素またはパッケージが正しい順序で読み込まれない場合は、プラットフォームの設定が破損する可能性があります。
+Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
 
-また、複数のユーザーが多数の機能を持つ同じプラットフォームで作業をおこなう場合、パッケージ仕様フォルダーがすぐに複雑化する可能性があります。
+Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become complex.
 
-必須ではありませんが、この節では、Adobe Campaign で大規模プロジェクトのパッケージを整理して使用するのに役立つソリューションを提供します。
+Although it is not mandatory to do so, this section offers a solution to help organize and use packages in Adobe Campaign for large-scale projects.
 
-主な制約を次に示します。
-* パッケージを整理し、変更内容と変更日時を追跡する
-* 設定が更新された場合、更新に直接リンクされていない要素の破損リスクを最小限に抑える
+The main constraints are as follows:
+* Organize packages and keep a track of what is changed and when
+* If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update
 
 >[!NOTE]
 >
->パッケージを自動的にエクスポートするワークフローの設定について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/export-packages-automatically.html)を参照してください。
+>For more on setting up a workflow to automatically export packages, see [this page](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
 
-### レコメンデーション {#data-package-recommendations}
+### Recommendations {#data-package-recommendations}
 
-必ず、同じバージョンのプラットフォーム内でインポートします。同じビルドを持つ 2 つのインスタンス間にパッケージをデプロイしていることを確認する必要があります。ビルドが異なる場合は、インポートを強制的に実行せず、最初にプラットフォームを必ず更新してください。
+Always import within the same version of the platform. You must check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
 
 >[!IMPORTANT]
 >
->異なるバージョン間のインポートは、アドビではサポートされていません。
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
+>Importing between different versions is not supported by Adobe.
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.
 
-スキーマとデータベースの構造に注意してください。スキーマを含むパッケージのインポートの後にスキーマの生成が必要です。
+Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
-### 解決策 {#data-package-solution}
+### Solution {#data-package-solution}
 
-#### パッケージの種類 {#package-types}
+#### Package types {#package-types}
 
-まず、様々なタイプのパッケージを定義します。次の 4 つのタイプのみが使用されます。
+Start by defining different types of packages. Only four types will be used:
 
-**エンティティ**
-* スキーマ、フォーム、フォルダー、配信テンプレートなど、Adobe Campaign 内のすべての「xtk」および「nms」固有の要素が含まれます。
-* エンティティは、「admin」要素と「platform」要素の両方として見なすことができます。
-* Campaign インスタンスにアップロードする際に、パッケージに複数のエンティティを含めないでください。
+**Entities**
+* All "xtk" and "nms" specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
+* You can consider an entity as both an "admin" and "platform" element.
+* You should not include more than one entity in a package when uploading it on a Campaign instance.  
 
-<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.
 
-新しいインスタンスに設定をデプロイする必要がある場合は、すべてのエンティティパッケージをインポートできます。
+If you need to deploy your configuration on a new instance, you can import all your entity packages.
 
-**機能**
+**Features**
 
-このパッケージタイプには、以下が当てはまります。
-* クライアントの要件や仕様に対応する。
-* 1 つまたは複数の機能が含まれる。
-* 他のパッケージを使用せずに機能を実行できるように、すべての依存関係を含める必要がある。
+This type of package:
+* Answers a client requirement/specification.
+* Contains one or several functionalities.
+* Should contain all dependencies to be able to run the functionality without any other package.
 
-**キャンペーン**
+**Campaigns**
 
-このパッケージは必須ではありません。キャンペーンが機能として見なされる場合でも、すべてのキャンペーンに対して特定のタイプを作成すると便利です。
+This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
 
-**アップデート**
+**Updates**
 
-設定が完了すると、1 つの機能を別の環境にエクスポートすることができます。例えば、開発環境からテスト環境にパッケージをエクスポートすることができます。このテストでは、欠陥が明らかになります。まず、開発環境で欠陥を修正する必要があります。次に、パッチをテストプラットフォームに適用する必要があります。
+Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied to the test platform.
 
-1 つ目の解決策は、機能全体を再度エクスポートすることです。ただし、リスク（不要な要素の更新）を回避するには、修正のみを含むパッケージを使用した方が安全です。
+The first solution would be to export the whole feature again. But, to avoid any risk (updating unwanted elements), it is safer to have a package containing only the correction.
 
-そのため、機能のエンティティタイプを 1 つだけ含む「アップデート」パッケージを作成することをお勧めします。
+That's why we recommend creating an "update" package, containing only one entity type of the feature.
 
-更新は修正になるだけでなく、エンティティ、機能、キャンペーンパッケージの新しい要素にもなります。パッケージ全体をデプロイしないようにするには、アップデートパッケージをエクスポートします。
+An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an update package.
 
-### 命名規則 {#data-package-naming}
+### Naming conventions {#data-package-naming}
 
-タイプが定義されたら、命名規則を指定する必要があります。Adobe Campaign では、パッケージ仕様のサブフォルダーを作成できません。パッケージ名を整理する最適な方法は、番号を使用することです。番号は、パッケージ名のプレフィックスとして使用します。次の規則を使用できます。
+Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
 
-* エンティティ：1 ～ 99
-* 機能：100 ～ 199
-* キャンペーン：200 ～ 299
-* アップデート：5000 ～ 5999
+* Entity: from 1 to 99
+* Feature: from 100 to 199
+* Campaign: from 200 to 299
+* Update: from 5000 to 5999
 
-### パッケージ {#data-packages}
-
->[!NOTE]
->
->正しいパッケージ数を定義するためのルールを設定することをお勧めします。
-
-#### エンティティパッケージの順序 {#entity-packages-order}
-
-インポートを円滑におこなうために、エンティティパッケージはインポートされる順に並べる必要があります。次に例を示します。
-* 001 – スキーマ
-* 002 – フォーム
-* 003 – 画像
-* その他
+### Packages {#data-packages}
 
 >[!NOTE]
 >
->フォームは、スキーマの更新後にのみインポートする必要があります。
+>It is better to set up rules for defining the correct number of packages.
 
-#### パッケージ 200 {#package-200}
+#### Entity packages order {#entity-packages-order}
 
-パッケージ番号「200」を、特定のキャンペーンに使用しないでください。この番号は、すべてのキャンペーンに関する情報を更新する際に使用されます。
+To help the import, entity packages should by ordered as they will be imported. For example:
+* 001 – Schema
+* 002 – Form
+* 003 – Images
+* etc.
 
-#### アップデートパッケージ {#update-package}
+>[!NOTE]
+>
+>Forms should be imported only after schema updates.
 
-最後に、アップデートパッケージの番号について説明します。アップデートパッケージには、プレフィックスが「5」のパッケージ番号（エンティティ、機能またはキャンペーン）が割り当てられます。次に例を示します。
-* 5001 で 1 つのスキーマを更新
-* 5200 ですべてのキャンペーンを更新
-* 5101 で 101 機能を更新
+#### Package 200 {#package-200}
 
-容易に再利用できるようにするために、アップデートパッケージには、特定のエンティティを 1 つだけ含める必要があります。分割するには、新しい番号（1 からの開始）を追加します。これらのパッケージに固有の順序規則はありません。例えば、101 機能（ソーシャルアプリケーション）があると仮定します。
-* これには、Web アプリと外部アカウントが含まれます。
-   * パッケージのラベルは「101 - ソーシャルアプリケーション（socialApplication）」です。
-* Web アプリに欠陥があります。
-   * Web アプリを修正します。
-   * 「5101 - 1 - ソーシャルアプリケーションの Web アプリ（socialApplication_webApp）」という名前の修正パッケージを作成する必要があります。
-* ソーシャル機能用に新しい外部アカウントを追加する必要があります。
-   * 外部アカウントを作成します。
-   * 新しいパッケージは「5101 - 2 - ソーシャルアプリケーションの外部アカウント（socialApplication_extAccount）」です。
-   * 同時に、101 パッケージが更新され、外部アカウントに追加されますが、デプロイされません。
-     ![](assets/ncs_datapackage_best-practices-1.png)
+Package number "200" should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
 
-#### パッケージドキュメント {#package-documentation}
+#### Update package {#update-package}
 
-パッケージを更新する場合、変更内容や理由（「新しいスキーマを追加」、「欠陥を修正」など）の詳細を説明するために、必ず説明フィールドにコメントを入れてください。
+The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a "5" as prefix. For example:
+* 5001 to update one schema
+* 5200 to update all campaigns
+* 5101 to update the 101 feature
+
+The update package should only contain one specific entity, in order to be easily reusable. To split them, add a new number (start from 1). There are no specific ordering rules for these packages. To better understand, imagine that we have a 101 feature, a social application:
+* It contains a webApp and an external account.
+  * The package label is: 101 – Social application (socialApplication).
+* There is a defect on the webApp.
+  * The wepApp is corrected.
+  * A fix package needs to be created, with the following name: 5101 – 1 – Social application webApp (socialApplication_webApp).
+* A new external account needs to be added for the social feature.
+  * External account is created.
+  * The new package is: 5101 – 2 – Social application external account (socialApplication_extAccount).
+  * In parallel the 101 package is updated to be added to the external account, but it is not deployed.
+![](assets/ncs_datapackage_best-practices-1.png)
+
+#### Package documentation {#package-documentation}
+
+When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect").
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-また、コメントの日付も指定する必要があります。アップデートパッケージに関するコメントは常に「親」（「5」プレフィックスを含まないパッケージ）に報告してください。
+You should also date the comment. Always report your comment on an update package to the "parent" (package without the 5 prefix).
 
 >[!IMPORTANT]
 >
->説明フィールドには、2,000 文字まで入力できます。
+>The description field can only contain up to 2.000 characters.
+-->

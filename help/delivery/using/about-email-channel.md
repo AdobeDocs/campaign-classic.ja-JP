@@ -6,29 +6,50 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 14%
 
 ---
 
 # メールチャネルについて{#about-email-channel}
 
-Adobe Campaign では、パーソナライズした電子メッセージをターゲット母集団に大量配信できます。
+Adobe Campaignでメール配信を作成し、パーソナライズされたメールをターゲット母集団に送信します。
 
-メールの送信を開始する前に：
+メール配信の作成に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
 
-* 受信者のプロファイルに、メールアドレスが少なくとも 1 つ登録されていることを確認します。
-* Adobe Campaign での[配信のベストプラクティス](delivery-best-practices.md)を確認します。
-* 配信品質の詳細については、[Campaign での配信品質の管理](about-deliverability.md)および[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)の節を参照してください。
+* [ メール配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}：メール配信の作成に必要な様々な手順について説明します。
+* [ メールコンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}：メールに含める内容（送信者、件名、コンテンツ、画像）を定義します。
+* [ インタラクティブコンテンツの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}：動的なメールを送信するには、インタラクティブな AMP for Email 形式を使用します。
+* [ 日本の携帯電話向けのメールの送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}：携帯電話向けのメールには、3 種類ある日本のフォーマットのいずれかを使用します。
+* [ メールへのファイルの添付 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}：メールに 1 つ以上のファイルを添付する様々な方法について説明します。
 
-メールを送信するための主な手順は、次のとおりです。
+メールパラメーターについて詳しくは、次のページを Campaign v8 ドキュメントで参照してください。
 
-* [メール配信の作成](creating-an-email-delivery.md)
-* [ターゲット母集団の定義](steps-defining-the-target-population.md)
-* [メールコンテンツの定義](defining-the-email-content.md)
-* [メールの送信](sending-messages.md)
-* [配信の監視](about-delivery-monitoring.md)
+* [ ミラーページへのリンク ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}：ミラーページを設定して、クライアントが常に最高のレンダリング体験を得られるようにします。
+* [BCC アドレスを追加 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ja){target="_blank"}：プラットフォームから送信されたメールのコピーを保持するようにAdobe Campaignを設定します。
+* [ 追加のメールパラメーターの定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"}：配信プロパティで使用できるオプションとパラメーターについて説明します。
 
-以下の節では、メールチャネルに関する情報を提供します。配信の作成方法に関する全般的な情報については、[この節](steps-about-delivery-creation-steps.md)を参照してください。
+また、Enhanced MTA について詳しくは、この [ ページ ](sending-with-enhanced-mta.md) を参照してください。
+
+
+<!--
+Adobe Campaign lets you mass deliver personalized electronic messages to a target population.
+
+Before starting sending emails:
+
+* Make sure recipient profiles contain at least an email address.
+* Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+
+The key steps to send an email are as follows:
+
+* [Create an email delivery](creating-an-email-delivery.md)
+* [Define the target population](steps-defining-the-target-population.md)
+* [Define the email content](defining-the-email-content.md)
+* [Send the email](sending-messages.md)
+* [Monitor the delivery](about-delivery-monitoring.md)
+
+The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
+-->

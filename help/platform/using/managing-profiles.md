@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 88%
 
 ---
 
@@ -28,24 +28,28 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
+> * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
+> * プロファイルの管理方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
-## 受信者の移動 {#moving-recipients}
 
-1 人以上の受信者を選択し、受信者リストからドラッグして目的のフォルダーにドロップすることができます。このアクションを確定するよう求める警告メッセージが表示されます。
+<!--
+## Move recipients {#moving-recipients}
 
-## 受信者のコピー {#copying-a-recipient}
+You can select one or more recipients, drag them from the recipient list, and drop them in the desired folder. A warning message asks you to confirm this action.
 
-同じフォルダー内で受信者をコピーするには、目的の受信者を右クリックし、「**[!UICONTROL コピー]**」を選択します。
+## Copy a recipient {#copying-a-recipient}
 
-## 受信者の削除 {#deleting-recipients}
+You can copy a recipient in the same folder by right-clicking the desired recipient and selecting **[!UICONTROL Copy]**.
 
-受信者を削除するには、受信者を特定のフォルダーに移動し、このフォルダーのコンテンツをパージします。この際に、「**[!UICONTROL 削除]**」オプションを&#x200B;**使用しないことを強くお勧めします**。
+## Delete recipients {#deleting-recipients}
 
-フォルダーをパージするには、目的のフォルダーを右クリックしてアクセスできる&#x200B;**[!UICONTROL アクション／フォルダーをパージ]**&#x200B;メニューを使用します。
+To delete recipients, move them to a specific folder and then purge the content of this folder. It is **strongly recommended not to use** the **[!UICONTROL Delete]** option in this case.
+
+To purge a folder, use the **[!UICONTROL Actions > Purge folder]** menu, accessed by right-clicking the desired folder.
 
 ![](assets/s_ncs_user_purge_folder.png)
 
-「**[!UICONTROL 開始]**」をクリックして操作を起動します。次に示すように、ウィンドウの中ほどのセクションに進捗ステータスが表示されます。
+Click **[!UICONTROL Start]** to launch the operation. The middle section of the window displays the progress status, as shown below:
 
 ![](assets/s_ncs_user_purge_folder_start.png)
+-->

@@ -6,10 +6,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 100%
+source-wordcount: '62'
+ht-degree: 67%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_profile_add.png)
 
-このプロファイルに関する情報を入力します。入力が必要なタブおよびフィールドについては、[プロファイルの編集](../../platform/using/editing-a-profile.md)で説明しています。
+>[!NOTE]
+>
+>Adobe Campaign コンソールでプロファイルを作成する方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank} を参照してください。
 
-「**[!UICONTROL 保存]**」をクリックしてプロファイルの作成を確認します。プロファイルが Adobe Campaign データベースに追加されます。
+
+<!--
+Enter the information for this profile. The tabs and fields to be completed are described in [Editing a profile](../../platform/using/editing-a-profile.md).
+
+Click **[!UICONTROL Save]** to validate profile creation. The profile is then added in Adobe Campaign database.
+-->

@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 88%
 
 ---
 
@@ -30,113 +30,117 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 
 >[!NOTE]
 >
->これらの手順はすべて汎用クエリエディターで実行できます。他のコンテキストでクエリを作成する場合は、一部の手順を省略できます。\
+>* これらの手順はすべて汎用クエリエディターで実行できます。他のコンテキストでクエリを作成する場合は、一部の手順を省略できます。\
 >クエリアクティビティについて詳しくは、[この節](../../workflow/using/query.md)で説明しています。
+>* クエリの詳細と作成方法については、[Campaign v8 ドキュメント ](../../workflow/using/query.md) を参照してください。
 
-## 手順 1 - テーブルの選択 {#step-1---choose-a-table}
+<!--
+## Step 1 - Choose a table {#step-1---choose-a-table}
 
-クエリを実行するデータを含むテーブルを&#x200B;**[!UICONTROL ドキュメントタイプ]**&#x200B;ウィンドウで選択します。必要に応じて、フィルターフィールドまたは「**[!UICONTROL フィルター]**」ボタンを使用してデータをフィルターします。
+Select the table containing the data you want to query in the **[!UICONTROL Document type]** window. If necessary, filter the data using the filter field or the **[!UICONTROL Filters]** button.
 
 ![](assets/query_editor_nveau_21.png)
 
-## 手順 2 - 抽出するデータの選択 {#step-2---choose-data-to-extract}
+## Step 2 - Choose data to extract {#step-2---choose-data-to-extract}
 
-**[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、表示するデータを選択します。これらのフィールドが出力列を構成します。
+In the **[!UICONTROL Data to extract]** window, select the data to display: these fields will make up the output columns.
 
-例えば、「**[!UICONTROL 年齢]**」、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL メールドメイン]**」および「**[!UICONTROL 市区町村]**」を選択します。結果は、この選択内容に基づいて構成されます。列の順序を変更するには、ウィンドウの右側にある青色の矢印を使用します。
+For example, select **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** and **[!UICONTROL City]**. The results will be organized based on this selection. Use the blue arrows to the right of the window to change the column order.
 
 ![](assets/query_editor_nveau_01.png)
 
-数式を挿入したり、集計関数のプロセスを実行したりして、式を編集できます。そのためには、「**[!UICONTROL 式]**」列フィールドをクリックし、「**[!UICONTROL 式を編集]**」を選択します。
+You can edit an expression by inserting a formula into it or running a process on an aggregate function. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-出力列のデータをグループ化できます。そのためには、**[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウの「**[!UICONTROL グループ]**」列で「**[!UICONTROL はい]**」をオンにします。この機能では、オンにしたグループ化項目に関する結果が生成されます。グループ化を使用したクエリの例は[この節](../../workflow/using/querying-delivery-information.md)で確認できます。
+It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../workflow/using/querying-delivery-information.md).
 
 ![](assets/query_editor_nveau_56.png)
 
-* 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」機能では、グループ化し（「group by」）、グループ化した対象（「having」）を選択できます。この機能は、出力列のすべてのフィールドに適用されます。例えば、このオプションを使用して、出力列のすべての選択肢をグループ化し、35 ～ 50 の受信者など、特定のタイプの情報を収集できます。
+* The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
 
-  詳しくは、[この節](../../workflow/using/querying-using-grouping-management.md)を参照してください。
+  For more on this, refer to [this section](../../workflow/using/querying-using-grouping-management.md).
 
-* 「**[!UICONTROL 重複行を削除（DISTINCT）]**」機能では、出力列で取得された重複結果を排除できます。例えば、出力列で「姓」、「名」および「メール」フィールドを選択して調査を行った場合、同じデータが含まれるフィールドは、同じ連絡先が複数回データベースに入力されたことを意味するので、除外されます。これにより、1 つの結果のみが考慮されるようになります。
+* The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
 
-## 手順 3 - データの並べ替え {#step-3---sort-data}
+## Step 3 - Sort data {#step-3---sort-data}
 
-**[!UICONTROL 並べ替え]**&#x200B;ウィンドウでは、列のコンテンツを並べ替えることができます。矢印を使用して列の順序を変更します。
+The **[!UICONTROL Sorting]** window lets you sort column content. Use the arrows to change the column order:
 
-* 「**[!UICONTROL 並べ替え]**」列では、単純な並べ替えをおこなうことができます。列のコンテンツを A から Z の順（昇順）に並べ替えます。
-* 「**[!UICONTROL 降順ソート]**」では、コンテンツを Z から A の順（降順）に並べ替えます。これは、売上レコードなどを表示する場合に便利で、最も大きい数字がリストの一番上に表示されます。
+* The **[!UICONTROL Sorting]** column enables a simple sort and arranges column content from A to Z or in ascending order.
+* The **[!UICONTROL Descending sort]** arranges the content from Z to A and in descending order. This is useful for viewing record sales for example: the highest figures are shown at the top of the list.
 
-この例では、データは受信者の年齢に基づいて昇順で並べ替えられています。
+In this example, the data is sorted in ascending order based on recipient age.
 
 ![](assets/query_editor_nveau_57.png)
 
-## 手順 4 - データのフィルタリング {#step-4---filter-data}
+## Step 4 - Filter data {#step-4---filter-data}
 
-クエリエディターでは、データをフィルターして検索を絞り込むことができます。
+The query editor lets you filter data to refine your search.
 
-使用できるフィルターは、クエリが対象とするテーブルに応じて異なります。
+The filters offered depend on the table which the query concerns.
 
 ![](assets/query_editor_nveau_09.png)
 
-「**[!UICONTROL フィルター条件]**」を選択すると、「**[!UICONTROL ターゲット要素]**」セクションが表示されます。このセクションでは、収集するデータのフィルター方法を定義できます。
+Once you select the **[!UICONTROL Filtering conditions]** you will access the **[!UICONTROL Target elements]** section: this lets you define how to filter the data to collect.
 
-* 新しいフィルターを作成するには、データを選択するために検証する数式の作成に必要なフィールド、演算子および値を選択します。複数の条件を組み合わせることができます（詳しくは、[フィルター条件の定義](../../platform/using/defining-filter-conditions.md)を参照）。
-* 以前に保存したフィルターを使用するには、「**[!UICONTROL 追加]**」ボタンをクリックしてドロップダウンリストを開き、**[!UICONTROL 定義済みフィルター]**&#x200B;をクリックして必要なフィルターを選択します。
+* To create a new filter, select the fields, operators and values required for creating the formula to be verified in order for data to be selected. It's possible to combine several conditions (for more on this, refer to [Defining filter conditions](../../platform/using/defining-filter-conditions.md)).
+* To use previously saved filters, open the drop-down list by clicking the **[!UICONTROL Add]** button, click **[!UICONTROL Predefined filter]** and select the one you want.
 
   ![](assets/query_editor_15.png)
 
-* **[!UICONTROL 汎用クエリエディター]**&#x200B;で作成されたフィルターは他のクエリアプリケーションでも使用でき、その逆も可能です。フィルターを保存するには、**[!UICONTROL 保存]**&#x200B;アイコンをクリックします。
+* The filters created in the **[!UICONTROL Generic query editor]** are available in other query applications and vice versa. To save a filter, click the **[!UICONTROL Save]** icon.
 
   >[!NOTE]
   >
-  >フィルターの作成および使用について詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
+  >For more on creating and using filters, refer to [Filtering options](../../platform/using/filtering-options.md).
 
-次の例に示すように、英語を話す受信者全員を取得するには、「受信者の言語が英語&#x200B;**と等しい**」を選択します。
+As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 
 ![](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
->「**値**」フィールドに数式 **$(options:OPTION_NAME)** を入力することで、オプションに直接アクセスできます。
+>You can directly access an option by typing the following formula in the **Value** field: **$(options:OPTION_NAME)**.
 
-フィルター条件の結果を表示するには、「**[!UICONTROL プレビュー]**」タブをクリックします。この例では、英語を話すすべての受信者の姓、名およびメールアドレスが表示されます。
+Click the **[!UICONTROL Preview]** tab to view the result of the filtering condition. In this case, all English-speaking recipients are displayed with their name, first name and email address.
 
 ![](assets/query_editor_nveau_98.png)
 
-SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成された SQL クエリ]**」をクリックして SQL クエリを表示できます。
+Users familiar with SQL language can click **[!UICONTROL Generate SQL query]** to view the query in SQL.
 
 ![](assets/query_editor_nveau_99.png)
 
-## 手順 5 - データのフォーマット {#step-5---format-data}
+## Step 5 - Format data {#step-5---format-data}
 
-制限フィルターを設定したら、**[!UICONTROL データフォーマット]**&#x200B;ウィンドウにアクセスします。このウィンドウでは出力列の再編成、データの変換および列ラベルの大／小文字の変更をおこなうことができます。集計フィールドを使用して、最終結果に数式を適用することもできます。
+Once you have configured the restriction filters, you will access the **[!UICONTROL Data formatting]** window. This window lets you re-arrange output columns, transform data, and change the upper/lower case of the column labels. It also lets you apply a formula to the final result using a calculated field.
 
 >[!NOTE]
 >
->集計フィールドのタイプについて詳しくは、[集計フィールドの作成](../../platform/using/defining-filter-conditions.md#creating-calculated-fields)を参照してください。
+>For more information on the types of calculated fields, refer to [Creating calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
 
-オフになっている列は、データのプレビューウィンドウに表示されません。
+Unchecked columns will not be shown in the data preview window.
 
 ![](assets/query_editor_nveau_10.png)
 
-「**[!UICONTROL 変換]**」列では、列ラベルを大文字または小文字に変更できます。列を選択し、「**[!UICONTROL 変換]**」列をクリックします。次を選択できます。
+The **[!UICONTROL Transformation]** column lets you change a column label to upper or lower case. Select the column and click in the **[!UICONTROL Transformation]** column. You can choose:
 
-* 「**[!UICONTROL 小文字に切り替え]**」
-* 「**[!UICONTROL 大文字に切り替え]**」
-* 「**[!UICONTROL 最初の文字は大文字]**」
+* **[!UICONTROL Switch to lower case]**,
+* **[!UICONTROL Switch to upper case]**, 
+* **[!UICONTROL First letter in upper case]**.
 
 ![](assets/query_editor_nveau_42.png)
 
-## 手順 6 - データのプレビュー {#step-6---preview-data}
+## Step 6 - Preview data {#step-6---preview-data}
 
-**[!UICONTROL データのプレビュー]**&#x200B;ウィンドウは最後のステージです。「**[!UICONTROL データのプレビューを開始]**」をクリックして、クエリ結果を取得します。クエリ結果は、列または XML フォーマットで使用可能です。クエリを SQL フォーマットで表示するには、「**[!UICONTROL 生成された SQL クエリ]**」タブをクリックします。
+The **[!UICONTROL Data preview]** window is the last stage. Click **[!UICONTROL Start the preview of the data]** to get your query result. It is available in columns or in XML format. Click the **[!UICONTROL Generated SQL queries]** tab to view the query in SQL format.
 
-この例では、データは受信者の年齢に基づいて昇順で並べ替えられています。
+In this example, data is sorted in ascending order based on recipient age.
 
 ![](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >
->デフォルトでは、**[!UICONTROL データのプレビュー]**&#x200B;ウィンドウには最初の 200 のラインのみが表示されます。これを変更するには、「**[!UICONTROL 表示するライン]**」ボックスに数値を入力し、「**[!UICONTROL データのプレビューを開始]**」をクリックします。
+>By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
+
+-->

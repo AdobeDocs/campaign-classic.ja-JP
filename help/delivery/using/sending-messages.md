@@ -5,8 +5,10 @@ description: メールの配信を確定し、メールメッセージを配信�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 role: User
+hide: true
+hidefromtoc: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%

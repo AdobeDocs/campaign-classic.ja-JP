@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 85%
 
 ---
 
@@ -24,74 +24,78 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 >
 >* このコレクションのヘルプ資料は、Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)に適用されます。 節の内容が Campaign v8 にも当てはまる場合は、特定のバッジを使用できます。
 >
->* Adobe Campaign v8 のドキュメントは[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja)から入手できます。
+>* Campaign とその開始方法について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank} を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [主な特長と機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオで主な特徴と機能を確認する](#video)
 
-## 主な機能 {#key-capabilities}
+<!--
 
-Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを構築するための基盤を提供し、視覚的なキャンペーンのオーケストレーションや、リアルタイムの対話管理、クロスチャネルのキャンペーン展開に必要な環境を提供します。
+## Key capabilities {#key-capabilities}
 
-Adobe Campaign におけるマーケティングキャンペーンのサイクルは、この製品の主な機能領域を表しています。
+Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.
+
+The marketing campaign cycle in Adobe Campaign illustrates the main areas of functionality of the product:
 
 ![](assets/d_ncs_user_emarketing.png)
 
-### Integrated Customer Profile {#integrated-customer-profile}
+### Integrated customer profile {#integrated-customer-profile}
 
-プロファイル（顧客、見込み客、ニュースレター購読者など）は、Adobe Campaign データベースで一元管理されます。プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PII データを包括的に集約し、分析を行ってアクションに移すことができます。
+Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
 
-Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
+In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-プロファイル管理の基礎は、[プロファイルについて](../../platform/using/about-profiles.md)で説明しています。
+Profile management basics are explained in [About profiles](../../platform/using/about-profiles.md).
 
-### ターゲティングされたセグメント化 {#targeted-segmentation}
+### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。記述的分析機能では、マーケティングキャンペーンのアップストリームおよびダウンストリームの情報を分析でき、フィルター管理および[グラフィカルクエリエディター](../../platform/using/about-queries-in-campaign.md)機能を使用して、購読者の母集団やサンプルをフィルターしたり、無制限の数の基準を使用してターゲットグループを作成したりすることができます。分析およびターゲティング機能について詳しくは、[このページ](../../reporting/using/about-descriptive-analysis.md)および[フィルターの作成](../../platform/using/creating-filters.md)の節で説明しています。
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/about-queries-in-campaign.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
 
-高度なデータ管理機能は、データ処理機能を強化します。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。この機能について詳しくは、[このページ](../../workflow/using/targeting-data.md#data-management)で説明しています。
+The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../workflow/using/targeting-data.md#data-management).
 
-### クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
+### Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
-Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。すべてのキャンペーンおよび通信をスケジュール、編成、設定、パーソナライズ、自動化、実行および測定するために必要なすべての機能が、単一のインターフェイスに用意されています。キャンペーンのスケジュールおよび実行について詳しくは、[このページ](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. For more on scheduling and executing campaigns, refer to [this page](../../campaign/using/setting-up-marketing-campaigns.md).
 
-### パーソナライゼーションとリアルタイムインタラクション {#personalization-and-real-time-interaction}
+### Personalization and real-time interaction {#personalization-and-real-time-interaction}
 
-顧客プロファイルと環境設定に基づいてメッセージコンテンツとヘッダーを効果的にパーソナライズすることで、顧客の注意を引き、応答率を向上させます。メッセージコンテンツ管理とパーソナライゼーションについて詳しくは、[このページ](../../delivery/using/about-personalization.md)を参照してください。コンテンツ、通知および承認サイクルの協調管理について詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)で説明しています。
+Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../mrm/using/about-marketing-resource-management.md).
 
-### 分析とレポート {#analysis-and-reporting}
+### Analysis and reporting {#analysis-and-reporting}
 
-Adobe Campaign では、顧客のデータおよびプロファイルを段階的にエンリッチメントすることによって、顧客の行動を監視および解釈できます。レポートおよび分析ツールを使用すると、各新規キャンペーンから利益を得たり、マーケティング戦略のターゲティングを向上させたり、投資への影響および投資利益率を最適化したりできます。詳しくは、[このページ](../../reporting/using/delivery-reports.md)を参照してください。
+Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to [this page](../../reporting/using/delivery-reports.md) for more information.
 
-### Adobe Experience Cloud の統合 {#adobe-experience-cloud-integrations}
+### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
-Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud Triggers など）と組み合わせることができます。Adobe IMS と統合し、Adobe ID を使用して Campaign にログインすることもできます。クロスソリューションと認証統合について詳しくは、[この節](../../integrations/using/about-adobe-id.md)を参照してください。
+You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../integrations/using/about-adobe-id.md).
 
-## コア機能とアドオン {#core-capabilities-and-add-ons}
+## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。詳細な製品説明について詳しくは、[Adobe Campaign の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-使用できる機能は以下のとおりです。ライセンス契約によって、ご利用のインスタンスで使える機能と使えない機能があります。
+The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [チャネル](../../delivery/using/steps-about-delivery-creation-steps.md)：各種チャネル（メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
-* [キャンペーン](../../campaign/using/designing-marketing-campaigns.md)：クロスチャネルキャンペーンのオーケストレーション
-* [MRM](../../mrm/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
-* [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理
-* [Message Center](../../message-center/using/about-transactional-messaging.md)：メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
-* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)：ソーシャルメディア（Facebook、X（旧 Twitter））でのコミュニケーション
-* [ワークフロー](../../workflow/using/about-workflows.md)／データ管理：プロセスの自動化と、ワークフローを使用したデータの管理
-* [web アプリケーション](../../web/using/about-web-applications.md)：web ページおよびフォームの作成
-* [調査マネージャー](../../surveys/using/about-surveys.md)：オンライン調査および集計の作成
-* [コンテンツマネージャー](../../delivery/using/about-content-management.md)：メールコンテンツの管理
-* [分散型マーケティング](../../distributed/using/about-distributed-marketing.md)：セントラルエージェントやローカルエージェントのキャンペーンの調整
-* [Response Manager](../../response/using/about-response-manager.md)：顧客の応答の管理
-* [コネクタ](../../platform/using/about-connectors.md)：外部のソリューションやデータベースエンジンと通信するために使用
-* [web サービス](../../configuration/using/about-web-services.md)： API/web サービスを介した Campaign の使用
-* [レポート](../../reporting/using/about-adobe-campaign-reporting-tools.md)：ビルトインレポートへのアクセス、データの分析および独自レポートのデザイン
+* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Campaign](../../campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
+* [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
+* [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
+* [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
+* [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
+* [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
+* [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
+* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
+* [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
+* [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
+* [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
+* [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
+* [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
+* [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
-## チュートリアルビデオ {#video}
+## Tutorial video {#video}
 
-このビデオでは、Campaign Classic の主な特長と機能について説明します。
+This video presents Campaign Classic main features and capabilities.
 
->[!VIDEO](https://video.tv.adobe.com/v/39517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->

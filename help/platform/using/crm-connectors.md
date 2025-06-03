@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '158'
-ht-degree: 100%
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 82%
 
 ---
 
@@ -26,20 +26,23 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 >[!NOTE]
 >
->この機能は、**CRM コネクタ**&#x200B;専用パッケージを通じて Adobe Campaign で使用できます。
+>* この機能は、**CRM コネクタ**&#x200B;専用パッケージを通じて Adobe Campaign で使用できます。
+>* CRM コネクタの詳細と、Microsoft DynamicsとSalesforceの接続方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank} を参照してください。
 
+<!--
+### Compatible systems {#compatible-crm-systems-and-limitations}
 
-### 互換性のあるシステム {#compatible-crm-systems-and-limitations}
-
-サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
+Supported CRM and versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
->CRM コネクタはセキュア URL（https）でのみ動作します。
+>The CRM connectors only work with a secure URL (https).
 
-### 実装手順 {#crm-implementation-steps}
+### Implementation steps {#crm-implementation-steps}
 
-Campaign と Microsoft Dynamics を接続する手順については、[この節](../../platform/using/crm-ms-dynamics.md)を参照してください。
+Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
 
 
-Campaign と Salesforce を接続する手順については、[この節](../../platform/using/crm-sfdc.md)を参照してください。
+Learn step-by-step procedure to connect Campaign and Salesforce [in this section](../../platform/using/crm-sfdc.md)
+
+-->

@@ -5,8 +5,10 @@ description: メール配信に固有のオプションと設定について学�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 role: User, Developer, Data Engineer
+hide: true
+hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 09b79849fa9db15dd53d1ed56630a34915aa32ad
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '77'
+ht-degree: 71%
 
 ---
 
@@ -24,86 +24,93 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >
 >お使いのシステムおよびツールと Adobe Campaign クライアントコンソールの互換性を確認するには、[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を参照してください。
 
-## Adobe Campaign の利用開始 {#starting-adobe-campaign}
+>[!NOTE]
+>
+> Campaign のインストール方法とAdobe Campaignへのログオン方法については、[v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank} の詳細なチュートリアルを参照してください。
 
-Adobe Campaign を起動するには、**[!UICONTROL スタート／すべてのプログラム／Adobe Campaign v.X／Adobe Campaign クライアントコンソール]**&#x200B;を選択します。
+<!--
+## Start Adobe Campaign {#starting-adobe-campaign}
 
-クライアントコンソール接続ウィンドウで、既存のデータベースを選択するか設定し、ユーザー名およびパスワードを使用してデータベースに接続できます。
+You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
+
+The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
 
 ![](assets/acc-logon.png)
 
-## Adobe Campaign への接続 {#connecting-to-adobe-campaign}
+## Connect to Adobe Campaign {#connecting-to-adobe-campaign}
 
-Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
 
-専用のログイン／パスワードを使用して接続することもできます。
+You can also connect with a dedicated login/password:
 
-1. 「**[!UICONTROL ログイン]**」フィールドに、オペレーターのアカウント ID を入力します。
+1. Enter the operator account identifier in the **[!UICONTROL Login]** field.
 
-   ID は、Adobe Campaign プラットフォームの管理者から付与されます。
+   Your identifier is given by the administrator of your Adobe Campaign platform.
 
-1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
+1. Enter your password in the **[!UICONTROL Password]** field.
 
-   データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
+   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
-1. 「**[!UICONTROL ログイン]**」をクリックして確定します。<!--You can also press the **Enter** key to launch connection.-->
+1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.
 
-これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
+You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
-**[!UICONTROL ログイン画面]**&#x200B;では、次のキーボードショートカットが利用できます。
-* すべてのアクション可能な項目は、**Tab** キー（上から下）または **Tab** + **Shift** キー（下から上）で選択できます。
-* 接続を開始するには、**Enter** キーを押すこともできます。
-* **Esc** キーを使用すると、「**[!UICONTROL ログイン]**」フィールドと「**[!UICONTROL パスワード]**」フィールドを、最後に成功した接続値にリセットできます。
+Some keyboard shortcuts are available on the **[!UICONTROL Sign in screen]**:
+* All actionable items are selectable through the **Tab** key (top to bottom) or the **Tab** + **Shift** keys (bottom to top).
+* To launch connection, you can also press the **Enter** key.
+* You can use the **Escape** key to reset the **[!UICONTROL Login]** and **[!UICONTROL Password]** fields to the last successful connection values.
 
-## 接続の設定 {#setting-up-connections}
+## Set up connections {#setting-up-connections}
 
-入力ゾーンの上にあるリンクから、サーバー接続設定にアクセスできます。
+You can access the server connection settings via the link above the input zone.
 
 ![](assets/s_ncs_user_connections_management.png)
 
-**[!UICONTROL 接続]**&#x200B;ウィンドウで、**[!UICONTROL 追加／接続]**&#x200B;をクリックします。
+In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
 
-次に、接続設定を定義する必要があります。手順は次のとおりです。
+You must then define the connection settings. To do this:
 
-1. 「**[!UICONTROL ラベル]**」を入力して、データベース接続に名前を割り当てます。
+1. Enter a **[!UICONTROL Label]** to assign a name to your database connection.
 
-1. 「**[!UICONTROL URL]**」フィールドで、アプリケーションサーバーのアドレスを追加します。接続 URL が不明な場合は、管理者にお問い合わせください。
+1. Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
 
-1. オペレーターが Adobe ID を使用してコンソールに接続するには、「**[!UICONTROL Adobe ID を使用して接続]**」をオンにします。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
 
-1. 「**[!UICONTROL OK]**」をクリックして検証します。
+1. Click **[!UICONTROL OK]** to validate.
 
-## オペレーターと権限 {#operators-and-permissions}
+## Operators and permissions {#operators-and-permissions}
 
-ソフトウェアにアクセスできるオペレーターの識別子とパスワードおよびそれぞれの権限は、Adobe Campaign システム管理者が Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードで定義します。
+The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
 
-この機能について詳しくは、[アクセス管理](../../platform/using/access-management.md)の節で説明しています。
+This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
 
-## Adobe Campaign からの切断 {#disconnecting-from-adobe-campaign}
+## Disconnect from Adobe Campaign {#disconnecting-from-adobe-campaign}
 
-Adobe Campaign から切断するには、アイコンバーの最初のアイコンを使用します。
+To disconnect from Adobe Campaign, use the first icon in the icon bar.
 
 ![](assets/s_ncs_user_deconnexion.png)
 
 >[!NOTE]
 >
->ログオフしないでアプリケーションを閉じることもできます。
+>You can also close the application without logging off first.
 
-## Adobe Campaign のバージョンの確認 {#getting-your-campaign-version}
+## Get your Adobe Campaign version {#getting-your-campaign-version}
 
-**[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
+The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
-* Campaign のクライアントコンソールとアプリケーションサーバーの&#x200B;**バージョン**&#x200B;番号
-* Campaign のクライアントコンソールとアプリケーションサーバーの&#x200B;**ビルド**&#x200B;番号
-* アドビカスタマーサポートに連絡するためのリンク
-* アドビのプライバシーポリシー、利用条件、Cookie ポリシーへのリンク
+* **version** number for Campaign client console and application server
+* **build** number for Campaign client console and application server
+* a link to contact Adobe Customer Care
+* links to Adobe Privacy Policy, Terms of Use and Cookies Policy
 
 ![](assets/about-acc.png)
 
-アドビのカスタマーサポートチームに連絡する場合は、Adobe Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
+Whenever you reach out to Adobe Customer Care team, you need to provide the version number and build number of your Adobe Campaign client console and application server.
 
-**関連トピック**：
+**Related topics**:
 
-* [Adobe Campaign のヘルプとサポートのオプション](../../support.md)
-* [Adobe Campaign ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
-* [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+* [Adobe Campaign Help and Support options](../../support.md)
+* [Adobe Campaign Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+
+-->

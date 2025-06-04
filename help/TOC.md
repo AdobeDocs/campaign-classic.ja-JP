@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
+source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2575'
 ht-degree: 89%
 
 ---
@@ -125,16 +125,17 @@ ht-degree: 89%
          + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
          + [送信前の確認](delivery/using/check-before-sending.md)
          + [トラッキングと監視](delivery/using/track-and-monitor.md)
-+ メール {#sending-emails}
++ メールの送信 {#sending-emails}
++ [ メールの概要 ](delivery/using/about-email-channel.md)
++ [Enhanced MTA を使用して送信 ](delivery/using/sending-with-enhanced-mta.md)
 + [ メール配信の作成 ](delivery/using/creating-an-email-delivery.md)
 + [ メールコンテンツを定義 ](delivery/using/defining-the-email-content.md)
 + [ インタラクティブコンテンツの定義 ](delivery/using/defining-interactive-content.md)
-+ E メール配信 ールを送信 {#sending-an-email}
++ E メール配信 {#sending-an-email} ールを送信
 + [ メールを送信する主な手順 ](delivery/using/sending-messages.md)
 + [ メールパラメーター ](delivery/using/email-parameters.md)
 + [ 日本の携帯電話向けの送信 ](delivery/using/sending-emails-on-japanese-mobiles.md)
 + [ ファイルを添付 ](delivery/using/attaching-files.md)
-+ [メールの送信](delivery/using/about-email-channel.md)
 + SMS を送信 {#sending-messages-on-mobiles}
 + [SMS の基本を学ぶ ](delivery/using/sms-channel.md)
 + SMS チャネルの設定 {#sms-set-up}
@@ -840,7 +841,6 @@ ht-degree: 89%
       + [2023年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
       + [IMS の更新](technotes/using/ims-updates.md)
       + [TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
-      + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
    + メールとプッシュ通知{#technotes-email}
       + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)

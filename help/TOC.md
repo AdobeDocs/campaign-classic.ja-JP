@@ -129,7 +129,7 @@ ht-degree: 89%
 + [ メール配信の作成 ](delivery/using/creating-an-email-delivery.md)
 + [ メールコンテンツを定義 ](delivery/using/defining-the-email-content.md)
 + [ インタラクティブコンテンツの定義 ](delivery/using/defining-interactive-content.md)
-+ E メール配信 {#sending-an-email} ールを送信
++ E メール配信 ールを送信 {#sending-an-email}
 + [ メールを送信する主な手順 ](delivery/using/sending-messages.md)
 + [ メールパラメーター ](delivery/using/email-parameters.md)
 + [ 日本の携帯電話向けの送信 ](delivery/using/sending-emails-on-japanese-mobiles.md)

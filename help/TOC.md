@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2572'
 ht-degree: 89%
 
 ---
@@ -125,11 +125,11 @@ ht-degree: 89%
          + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
          + [送信前の確認](delivery/using/check-before-sending.md)
          + [トラッキングと監視](delivery/using/track-and-monitor.md)
-+ メールの送信 {#sending-emails}
++ メール {#sending-emails}
 + [ メール配信の作成 ](delivery/using/creating-an-email-delivery.md)
 + [ メールコンテンツを定義 ](delivery/using/defining-the-email-content.md)
 + [ インタラクティブコンテンツの定義 ](delivery/using/defining-interactive-content.md)
-+ E メール配信 ールを送信 {#sending-an-email}
++ E メール配信 {#sending-an-email} ールを送信
 + [ メールを送信する主な手順 ](delivery/using/sending-messages.md)
 + [ メールパラメーター ](delivery/using/email-parameters.md)
 + [ 日本の携帯電話向けの送信 ](delivery/using/sending-emails-on-japanese-mobiles.md)

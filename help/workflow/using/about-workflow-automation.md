@@ -4,16 +4,16 @@ title: ワークフローについて
 description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます
 feature: Workflows, Data Management
 exl-id: 024a7344-9376-4ff3-926a-003148229f9f
-source-git-commit: fd082d5427314fbc91966f89048da5f193658f87
+source-git-commit: b45cc49f15f51e3624c46713c95966f465b2e4da
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 14%
+source-wordcount: '233'
+ht-degree: 10%
 
 ---
 
 # ワークフローを使用した自動化 {#gs-workflows}
 
-Adobe Campaignのワークフローモジュールを使用すると、チームは、プラットフォーム全体のエンドツーエンドのビジネスプロセスを合理化および自動化できます。 直感的なグラフィカルインターフェイスを使用すると、データのセグメント化、キャンペーンの実行、ファイル処理、ユーザーの承認などのタスクを調整するワークフローを、すべて 1 か所で設計および管理できます。
+Adobe Campaignのワークフローを使用すると、チームはプラットフォーム全体でエンドツーエンドのビジネスプロセスを合理化および自動化できます。 直感的なグラフィカルインターフェイスを使用すると、データのセグメント化、キャンペーンの実行、ファイル処理、ユーザーの承認などのタスクを調整するワークフローを、すべて 1 か所で設計および管理できます。
 
 例えば、リモートサーバーからファイルを取得し、その内容を抽出し、Adobe Campaign サーバーにシームレスにデータを読み込むプロセスを自動化できます。これにより、手作業を減らし、運用効率を高めることができます。 ワークフローエンジンにより、すべてのステップが確実に実行され、表示と制御のために追跡されます。
 
@@ -31,15 +31,15 @@ Adobe Campaignのワークフローモジュールを使用すると、チーム
 
 ワークフロー管理に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
 
-* [ ワークフローアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target=_blank}：アクティビティは、タスクテンプレートを記述します。 ワークフローには、ターゲティング、フロー制御、アクションおよびイベントアクティビティが含まれます。
+* [ ワークフローアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target=_blank}：アクティビティは、タスクテンプレートです。 ワークフローには、ターゲティング、フロー制御、アクションアクティビティおよびイベントアクティビティが含まれます。
 
 * [ ワークフローの作成 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target=_blank}：ターゲティング、キャンペーン、テクニカルワークフローの作成および実行方法を説明します。
 
-* [ ベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target=_blank}:Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を選択するためのガイドラインについて説明します。
+* [ ベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target=_blank}:Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を定義するためのガイドラインを説明します。
 
 * [ ワークフローの監視 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target=_blank}：ワークフローの実行を監視して、すべてが正しく実行されていることを確認する方法を説明します。
 
-* [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=ja){target=_blank}：ワークフローを使用できる様々なコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について説明します。
+* [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=ja){target=_blank}：ワークフローを使用できるコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について学びます。
 
 
 >[!ENDTABS]

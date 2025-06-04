@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 91%
+source-wordcount: '2573'
+ht-degree: 89%
 
 ---
 
@@ -125,27 +125,26 @@ ht-degree: 91%
          + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
          + [送信前の確認](delivery/using/check-before-sending.md)
          + [トラッキングと監視](delivery/using/track-and-monitor.md)
-   + メールの送信 {#sending-emails}
-      + [メールチャネルについて](delivery/using/about-email-channel.md)
-      + [メール配信の作成](delivery/using/creating-an-email-delivery.md)
-      + [メールコンテンツの定義](delivery/using/defining-the-email-content.md)
-      + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
-      + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
-      + メール配信の送信 {#sending-an-email}
-         + [メールを送信する主な手順](delivery/using/sending-messages.md)
-         + [メールパラメーター](delivery/using/email-parameters.md)
-         + [日本の携帯電話での送信](delivery/using/sending-emails-on-japanese-mobiles.md)
-      + [ファイルの添付](delivery/using/attaching-files.md)
-   + SMS を送信 {#sending-messages-on-mobiles}
-      + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
-      + SMS チャネルの設定 {#sms-set-up}
-         + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
-         + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
-         + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
-         + [追加の設定](delivery/using/sms-send.md)
-         + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
-      + [SMS の作成](delivery/using/sms-create.md)
-      + [拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
++ メールの送信 {#sending-emails}
++ [ メール配信の作成 ](delivery/using/creating-an-email-delivery.md)
++ [ メールコンテンツを定義 ](delivery/using/defining-the-email-content.md)
++ [ インタラクティブコンテンツの定義 ](delivery/using/defining-interactive-content.md)
++ E メール配信 {#sending-an-email} ールを送信
++ [ メールを送信する主な手順 ](delivery/using/sending-messages.md)
++ [ メールパラメーター ](delivery/using/email-parameters.md)
++ [ 日本の携帯電話向けの送信 ](delivery/using/sending-emails-on-japanese-mobiles.md)
++ [ ファイルを添付 ](delivery/using/attaching-files.md)
++ [メールの送信](delivery/using/about-email-channel.md)
++ SMS を送信 {#sending-messages-on-mobiles}
++ [SMS の基本を学ぶ ](delivery/using/sms-channel.md)
++ SMS チャネルの設定 {#sms-set-up}
++ [ スタンドアロンインスタンスで SMS を設定 ](delivery/using/sms-set-up.md)
++ [ ミッドソーシングインフラストラクチャでの SMS の設定 ](delivery/using/sms-set-up-mid.md)
++ [SMS コネクタのプロトコルと設定 ](delivery/using/sms-protocol.md)
++ [ 追加設定 ](delivery/using/sms-send.md)
++ [SMS のトラブルシューティング ](delivery/using/troubleshooting-sms.md)
++ [SMS の作成 ](delivery/using/sms-create.md)
++ [ 拡張された汎用 SMPP コネクタへの移行 ](delivery/using/unsupported-connector-migration.md)
    + [LINE メッセージの送信](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルの基本を学ぶ](delivery/using/about-mobile-app-channel.md)
@@ -841,6 +840,7 @@ ht-degree: 91%
       + [2023年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
       + [IMS の更新](technotes/using/ims-updates.md)
       + [TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
+      + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
    + メールとプッシュ通知{#technotes-email}
       + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)

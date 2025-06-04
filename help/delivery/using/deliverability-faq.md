@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign Classic で配信品質を管理する際の重要なポイント
 description: Adobe Campaign で配信品質を管理する際に確認すべき重要なポイントを学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '662'
 ht-degree: 100%
 
 ---

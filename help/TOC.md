@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
+source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
 workflow-type: tm+mt
-source-wordcount: '2575'
-ht-degree: 89%
+source-wordcount: '2571'
+ht-degree: 91%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 89%
          + [開発](platform/using/faq-developers.md)
          + [チュートリアル](platform/using/tutorials.md)
       + [用語集](platform/using/ac-glossary.md)
-   + プライバシー {#privacy}
-      + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
-      + [プライバシー管理](platform/using/privacy-management.md)
-      + プライバシーリクエスト {#privacy-requests}
-         + [プライバシーリクエストについて](platform/using/privacy-requests.md)
-         + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
-         + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
+      + プライバシー {#privacy}
+         + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
+         + [プライバシー管理](platform/using/privacy-management.md)
+         + プライバシーリクエスト {#privacy-requests}
+            + [プライバシーリクエストについて](platform/using/privacy-requests.md)
+            + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
+            + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
          + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
@@ -67,7 +67,7 @@ ht-degree: 89%
       + [プロファイルの管理](platform/using/managing-profiles.md)
       + [データの更新](platform/using/updating-data.md)
       + [プロファイルのインポートとエクスポート](platform/using/exporting-and-importing-profiles.md)
-      + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
+   + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
    + データのインポートとエクスポート {#importing-and-exporting-data}
       + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
       + [ワークフローを使用したデータのインポートとエクスポート](platform/using/import-export-workflows.md)
@@ -111,41 +111,41 @@ ht-degree: 89%
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
    + [配信設定](delivery/using/delivery-settings.md)
-   + 配信を作成する際の主な手順 {#key-steps-when-creating-a-delivery}
+   + クイックスタート {#key-steps-when-creating-a-delivery}
       + [配信の基本を学ぶ](delivery/using/steps-about-delivery-creation-steps.md)
       + [配信の作成と識別](delivery/using/steps-create-and-identify-the-delivery.md)
       + [オーディエンスの定義](delivery/using/steps-defining-the-target-population.md)
       + [配信の検証](delivery/using/steps-validating-the-delivery.md)
       + [配信の送信](delivery/using/steps-sending-the-delivery.md)
       + [配信のベストプラクティス](delivery/using/delivery-best-practices.md)
-      + 配信のベストプラクティス {#delivery-bestpractices}
-         + [配信の最適化](delivery/using/optimize-delivery.md)
-         + [テンプレートの使用](delivery/using/use-templates.md)
-         + [パーソナライズされたコンテンツの作成](delivery/using/design-and-personalize.md)
-         + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
-         + [送信前の確認](delivery/using/check-before-sending.md)
-         + [トラッキングと監視](delivery/using/track-and-monitor.md)
-+ メールの送信 {#sending-emails}
-+ [ メールの概要 ](delivery/using/about-email-channel.md)
-+ [Enhanced MTA を使用して送信 ](delivery/using/sending-with-enhanced-mta.md)
-+ [ メール配信の作成 ](delivery/using/creating-an-email-delivery.md)
-+ [ メールコンテンツを定義 ](delivery/using/defining-the-email-content.md)
-+ [ インタラクティブコンテンツの定義 ](delivery/using/defining-interactive-content.md)
-+ E メール配信 ールを送信 {#sending-an-email}
-+ [ メールを送信する主な手順 ](delivery/using/sending-messages.md)
-+ [ メールパラメーター ](delivery/using/email-parameters.md)
-+ [ 日本の携帯電話向けの送信 ](delivery/using/sending-emails-on-japanese-mobiles.md)
-+ [ ファイルを添付 ](delivery/using/attaching-files.md)
-+ SMS を送信 {#sending-messages-on-mobiles}
-+ [SMS の基本を学ぶ ](delivery/using/sms-channel.md)
-+ SMS チャネルの設定 {#sms-set-up}
-+ [ スタンドアロンインスタンスで SMS を設定 ](delivery/using/sms-set-up.md)
-+ [ ミッドソーシングインフラストラクチャでの SMS の設定 ](delivery/using/sms-set-up-mid.md)
-+ [SMS コネクタのプロトコルと設定 ](delivery/using/sms-protocol.md)
-+ [ 追加設定 ](delivery/using/sms-send.md)
-+ [SMS のトラブルシューティング ](delivery/using/troubleshooting-sms.md)
-+ [SMS の作成 ](delivery/using/sms-create.md)
-+ [ 拡張された汎用 SMPP コネクタへの移行 ](delivery/using/unsupported-connector-migration.md)
+   + 配信のベストプラクティス {#delivery-bestpractices}
+      + [配信の最適化](delivery/using/optimize-delivery.md)
+      + [テンプレートの使用](delivery/using/use-templates.md)
+      + [パーソナライズされたコンテンツの作成](delivery/using/design-and-personalize.md)
+      + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
+      + [送信前の確認](delivery/using/check-before-sending.md)
+      + [トラッキングと監視](delivery/using/track-and-monitor.md)
+   + メールの送信 {#sending-emails}
+      + [メールの基本を学ぶ](delivery/using/about-email-channel.md)
+      + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
+      + [メール配信の作成](delivery/using/creating-an-email-delivery.md)
+      + [メールコンテンツの定義](delivery/using/defining-the-email-content.md)
+      + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
+      + メール配信の送信 {#sending-an-email}
+         + [メールを送信する主な手順](delivery/using/sending-messages.md)
+         + [メールパラメーター](delivery/using/email-parameters.md)
+         + [日本の携帯電話での送信](delivery/using/sending-emails-on-japanese-mobiles.md)
+      + [ファイルの添付](delivery/using/attaching-files.md)
+   + SMS を送信 {#sending-messages-on-mobiles}
+      + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
+      + SMS チャネルの設定 {#sms-set-up}
+         + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
+         + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
+         + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
+         + [追加の設定](delivery/using/sms-send.md)
+         + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
+      + [SMS の作成](delivery/using/sms-create.md)
+      + [拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
    + [LINE メッセージの送信](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルの基本を学ぶ](delivery/using/about-mobile-app-channel.md)
@@ -209,9 +209,9 @@ ht-degree: 89%
       + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信失敗について](delivery/using/understanding-delivery-failures.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
-   + メッセージのトラッキング {#tracking-messages}
-      + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
-      + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
+      + メッセージのトラッキング {#tracking-messages}
+         + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
+         + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
       + パーソナライズされたリンクの追跡 {#tracking-personalized-links}
          + [パーソナライズされたリンクのトラッキングの基本を学ぶ](delivery/using/tracking-personalized-links.md)
          + [トラッキング URL の検出](delivery/using/detecting-tracking-urls.md)
@@ -477,28 +477,28 @@ ht-degree: 89%
          + [配信コンテンツの読み込み](workflow/using/loading-delivery-content.md)
          + [クロスチャネル配信ワークフロー](workflow/using/cross-channel-delivery-workflow.md)
          + [カスタム日付フィールドを使用したメールエンリッチメント](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + 監視 {#monitoring}
-         + [リストへのレポートの送信](workflow/using/sending-a-report-to-a-list.md)
-         + [ワークフローの監視](workflow/using/supervising-workflows.md)
-         + [オペレーターへのパーソナライズされたアラートの送信](workflow/using/sending-personalized-alerts-to-operators.md)
-      + データ管理 {#data-management}
-         + [データ更新の調整](workflow/using/coordinating-data-updates.md)
-         + [概要リストの作成](workflow/using/creating-a-summary-list.md)
-         + [データのエンリッチメント](workflow/using/enriching-data.md)
-         + [集計の使用](workflow/using/using-aggregates.md)
-         + [重複排除アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
-         + [繰り返しインポートワークフローの設定](workflow/using/recurring-import-workflow.md)
-      + クエリの設計 {#designing-queries}
-         + [増分処理クエリを使用した四半期ごとのリスト更新](workflow/using/quarterly-list-update.md)
-      + クエリとフィルター {#designing-queries}
-         + [受信者テーブルのクエリ](workflow/using/querying-recipient-table.md)
-         + [配信情報のクエリ](workflow/using/querying-delivery-information.md)
-         + [集計計算の実行](workflow/using/performing-aggregate-computing.md)
-         + [グループ管理を使用したクエリ](workflow/using/querying-using-grouping-management.md)
-         + [多対多関係を使用したクエリ](workflow/using/querying-using-many-to-many-relationship.md)
-         + [列挙タイプ計算フィールドの追加](workflow/using/adding-enumeration-type-calculated-field.md)
-         + [フィルターの作成](workflow/using/creating-a-filter.md)
-         + [重複した受信者のフィルタリング](workflow/using/filtering-duplicated-recipients.md)
+   + 監視 {#monitoring}
+      + [リストへのレポートの送信](workflow/using/sending-a-report-to-a-list.md)
+      + [ワークフローの監視](workflow/using/supervising-workflows.md)
+      + [オペレーターへのパーソナライズされたアラートの送信](workflow/using/sending-personalized-alerts-to-operators.md)
+   + データ管理 {#data-management}
+      + [データ更新の調整](workflow/using/coordinating-data-updates.md)
+      + [概要リストの作成](workflow/using/creating-a-summary-list.md)
+      + [データのエンリッチメント](workflow/using/enriching-data.md)
+      + [集計の使用](workflow/using/using-aggregates.md)
+      + [重複排除アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
+      + [繰り返しインポートワークフローの設定](workflow/using/recurring-import-workflow.md)
+   + クエリの設計 {#designing-queries}
+      + [増分処理クエリを使用した四半期ごとのリスト更新](workflow/using/quarterly-list-update.md)
+   + クエリとフィルター {#designing-queries}
+      + [受信者テーブルのクエリ](workflow/using/querying-recipient-table.md)
+      + [配信情報のクエリ](workflow/using/querying-delivery-information.md)
+      + [集計計算の実行](workflow/using/performing-aggregate-computing.md)
+      + [グループ管理を使用したクエリ](workflow/using/querying-using-grouping-management.md)
+      + [多対多関係を使用したクエリ](workflow/using/querying-using-many-to-many-relationship.md)
+      + [列挙タイプ計算フィールドの追加](workflow/using/adding-enumeration-type-calculated-field.md)
+      + [フィルターの作成](workflow/using/creating-a-filter.md)
+      + [重複した受信者のフィルタリング](workflow/using/filtering-duplicated-recipients.md)
    + ワークフローの監視 {#monitoring-workflows}
       + [ワークフロー実行の監視](workflow/using/monitoring-workflow-execution.md)
       + [テクニカルワークフローの監視](workflow/using/monitoring-technical-workflows.md)
@@ -625,12 +625,12 @@ ht-degree: 89%
          + [Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [ミッドソーシングサーバーのインストール](installation/using/mid-sourcing-server.md)
-   + Campaign のデプロイ（オンプレミス） {#initial-configuration}
-      + [主な手順](installation/using/about-initial-configuration.md)
-      + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
-      + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
-      + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
-      + [ビルトインパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
+      + Campaign のデプロイ（オンプレミス） {#initial-configuration}
+         + [主な手順](installation/using/about-initial-configuration.md)
+         + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
+         + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
+         + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
+         + [ビルトインパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + Campaign の設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
@@ -670,10 +670,10 @@ ht-degree: 89%
             + [Sybase IQ の設定](installation/using/configure-fda-sybase.md)
             + [Teradata の設定](installation/using/configure-fda-teradata.md)
             + [Vertica Analytics の設定](installation/using/configure-fda-vertica.md)
-         + [リモートアクセス権](installation/using/remote-database-access-rights.md)
-         + [データベースへの接続](installation/using/connecting-to-database.md)
-         + [データスキーマの作成](installation/using/creating-data-schema.md)
-         + [データマッピングの定義](installation/using/defining-data-mapping.md)
+      + [リモートアクセス権](installation/using/remote-database-access-rights.md)
+      + [データベースへの接続](installation/using/connecting-to-database.md)
+      + [データスキーマの作成](installation/using/creating-data-schema.md)
+      + [データマッピングの定義](installation/using/defining-data-mapping.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
       + [Campaign ネットワークエンドポイント](installation/using/campaign-network-endpoints.md)

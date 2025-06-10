@@ -7,10 +7,10 @@ feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 98%
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -55,16 +55,21 @@ ht-degree: 98%
 
 ### フォルダーの追加とビューの作成 {#adding-folders-and-creating-views}
 
+>[!IMPORTANT]
+>
+>標準提供のフォルダーは、表示としてマークしないでください。
+
+
 以下の例では、特定のデータを表示するための新しいフォルダーを作成します。
 
 1. **[!UICONTROL 配信]**&#x200B;タイプの新しいフォルダーを作成し、「**フランス配信**」という名前を付けます。
 1. このフォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 
-   ![](assets/s_ncs_user_add_folder_exple.png)
+   ![ プロパティへの右クリックを示すスクリーンショット ](assets/s_ncs_user_add_folder_exple.png)
 
 1. 「**[!UICONTROL 制限]**」タブで、「**[!UICONTROL フォルダーのビュー化]**」を選択します。データベース内にあるすべての配信データが表示されます。
 
-   ![](assets/s_ncs_user_add_folder_exple01.png)
+   ![ ビューボックスがオンになっていることを示す画面 ](assets/s_ncs_user_add_folder_exple01.png)
 
 1. ウィンドウ中央部のセクションにある Query Editor を使って配信のフィルター条件を定義します。すると、定義したフィルターに該当するキャンペーンが表示されます。
 
@@ -74,7 +79,7 @@ ht-degree: 98%
 
    例えば、次のようなフィルター条件を定義したとします。
 
-![](assets/s_ncs_user_add_folder_exple00.png)
+![ 様々なフィルター条件を示すスクリーンショット ](assets/s_ncs_user_add_folder_exple00.png)
 
 すると、ビューに表示される配信リストの内容は次のようなものになります。
 
@@ -84,46 +89,48 @@ ht-degree: 98%
 >
 >[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、アクセス権の問題につながる可能性があります。 アクセス管理について詳しくは、[この節](../../message-center/using/about-event-processing.md#event-collection)を参照してください。
 
-## フォルダーに対する権限
+<!--
+## Permissions on a folder
 
-### フォルダーに対する権限の編集 {#edit-permissions-on-a-folder}
+### Edit permissions on a folder {#edit-permissions-on-a-folder}
 
-ツリーの特定のフォルダーに対する権限を編集するには、次の手順に従います。
+To edit permissions on a specific folder of the tree, follow the steps below:
 
-1. フォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
+1. Right-click on the folder and select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_folder_properties.png)
 
-1. 「**[!UICONTROL セキュリティ]**」タブをクリックすると、そのフォルダーに設定されている権限が表示されます。
+1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### 権限の変更 {#modify-permissions}
+### Modify permissions {#modify-permissions}
 
-権限を変更するには、次の方法があります。
+To modify permissions, you can:
 
-* **グループまたはオペレーターを置き換える**：これをおこなうには、そのフォルダーへのアクセス権を持つグループ（またはオペレーター）を 1 つクリックし、次の図のように、ドロップダウンリストから新しいグループ（または新しいオペレーター）を選択します。
+* **Replace a group or an operator**. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:
 
   ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **グループまたはオペレーターのアクセスを許可する**：これをおこなうには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックし、そのフォルダーへのアクセスを許可する対象のグループまたはオペレーターを選択します。
-* **グループまたはオペレーターのアクセスを禁止する**：これをおこなうには、**[!UICONTROL 削除]**&#x200B;をクリックし、そのフォルダーへのアクセス許可を取り消すグループまたはオペレーターを選択します。
-* **グループまたはオペレーターに付与する権利を選択する**：これをおこなうには、該当するグループまたはオペレーターをクリックし、必要に応じて、付与するアクセス権を選択したり、付与しないアクセス権を選択解除したりします。
+* **Authorize a group or an operator**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
+* **Forbid a group or an operator**. To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
+* **Select the rights assigned to a group or an operator**. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.
 
   ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### 権限の反映 {#propagate-permissions}
+### Propagate permissions {#propagate-permissions}
 
-権限やアクセス権をサブフォルダーに反映させることができます。これを実行するには、フォルダープロパティの「**[!UICONTROL サブフォルダーにも反映]**」オプションを選択します。
+You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
 
-このウィンドウで定義された権限が、現在のノードに属するすべてのサブフォルダーに反映されます。したがって、個々のサブフォルダーに設定された権限は無視できます。
+The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
 
 >[!NOTE]
 >
->フォルダーでこのオプションをクリアしても、サブフォルダーのオプションは自動的にはクリアされません。個々のサブフォルダーに対する指定を明示的に解除する必要があることに注意してください。
+>Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
 
-### すべてのオペレーターへのアクセス権の付与 {#grant-access-to-all-operators}
+### Grant access to all operators {#grant-access-to-all-operators}
 
-「**[!UICONTROL セキュリティ]**」タブでは、「**[!UICONTROL システムフォルダー]**」オプションが選択されている場合、個々のオペレーターの権利に関係なく、すべてのオペレーターがこのデータにアクセスできます。このオプションが選択されていない場合、オペレーターにデータへのアクセスを許可するには、該当するオペレーターまたはグループを認証リストに明示的に追加する必要があります。
+In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
+-->

@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
 workflow-type: tm+mt
 source-wordcount: '2571'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 91%
          + [メールパラメーター](delivery/using/email-parameters.md)
          + [日本の携帯電話での送信](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [ファイルの添付](delivery/using/attaching-files.md)
-   + SMS を送信 {#sending-messages-on-mobiles}
+   + SMS の送信 {#sending-messages-on-mobiles}
       + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
       + SMS チャネルの設定 {#sms-set-up}
          + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
          + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
          + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
-         + [追加の設定](delivery/using/sms-send.md)
+         + [その他の設定](delivery/using/sms-send.md)
          + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
       + [SMS の作成](delivery/using/sms-create.md)
       + [拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
@@ -176,7 +176,7 @@ ht-degree: 91%
       + [パーソナライズされたクーポン](delivery/using/personalized-coupons.md)
       + [パーソナライズされた PDF ドキュメントの生成](delivery/using/generating-personalized-pdf-documents.md)
       + [顔文字リストのカスタマイズ](delivery/using/customizing-emoticon-list.md)
-   + シードアドレスを使用 {#using-seed-addresses}
+   + シードアドレスの使用 {#using-seed-addresses}
       + [シードアドレスについて](delivery/using/about-seed-addresses.md)
       + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
       + [シードアドレスの追加](delivery/using/adding-seed-addresses.md)
@@ -212,7 +212,7 @@ ht-degree: 91%
       + メッセージのトラッキング {#tracking-messages}
          + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
          + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
-      + パーソナライズされたリンクの追跡 {#tracking-personalized-links}
+      + パーソナライズされたリンクのトラッキング {#tracking-personalized-links}
          + [パーソナライズされたリンクのトラッキングの基本を学ぶ](delivery/using/tracking-personalized-links.md)
          + [トラッキング URL の検出](delivery/using/detecting-tracking-urls.md)
          + [トラッキング用の前処理命令](delivery/using/pre-processing-instructions.md)
@@ -275,7 +275,7 @@ ht-degree: 91%
    + [キャンペーンへのアクセス](distributed/using/accessing-campaigns.md)
    + [キャンペーンのトラッキング](distributed/using/tracking-a-campaign.md)
    + [ユースケース](distributed/using/examples.md)
-+ Response manager {#response-manager}
++ Response Manager {#response-manager}
    + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
    + [設定](response/using/configuration.md)
    + [仮説テンプレート](response/using/hypothesis-templates.md)
@@ -314,7 +314,7 @@ ht-degree: 91%
       + [レポートへのアクセスの設定](reporting/using/configuring-access-to-the-report.md)
       + [レポートに対するアクション](reporting/using/actions-on-reports.md)
    + [キューブを使用したレポートの設計](reporting/using/ac-cubes.md)
-+ Web コンテンツのデザイン {#designing-content}
++ Web コンテンツの設計 {#designing-content}
    + web アプリケーション {#web-applications}
       + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
       + [web アプリケーションの新規作成](web/using/creating-a-new-web-application.md)
@@ -353,7 +353,7 @@ ht-degree: 91%
    + [調査の設定](surveys/using/configuring-surveys.md)
    + [ユースケース：リファラルフォームの作成](surveys/using/use-case-creating-a-refer-a-friend-form.md)
    + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
-+ Adobe Experience Cloudとの統合 {#integrating-with-adobe-experience-cloud}
++ Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
    + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud Triggers {#experience-triggers}
@@ -362,7 +362,7 @@ ht-degree: 91%
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
-   + Adobe Experience Platformのソースと宛先 {#aep-sources-destinations}
+   + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
       + [ソースと宛先の操作](integrations/using/get-started-sources-destinations.md)
       + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrations/using/ingest-aep-data.md)
       + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
@@ -609,17 +609,17 @@ ht-degree: 91%
       + [サーバーのセキュリティ設定](installation/using/server-configuration.md)
       + [Web サーバーのセキュリティ設定](installation/using/web-server-configuration.md)
    + Campaign のインストール（オンプレミス）{#install-campaign-on-prem}
-      + デプロイメントガイドライン {#deployment-guidelines}
+      + デプロイメントのガイドライン {#deployment-guidelines}
          + [データベースサーバー](installation/using/database.md)
          + [アプリケーションサーバー](installation/using/application-server.md)
          + [メッセージサーバー](installation/using/messaging-server.md)
          + [ネットワーク設定](installation/using/network-configuration.md)
-      + Windows 版 Campaign {#installing-campaign-in-windows}
+      + Campaign Windows 版 {#installing-campaign-in-windows}
          + [基本を学ぶ](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [サーバーのインストール](installation/using/installing-the-server.md)
          + [Web サーバーへの統合（Windows）](installation/using/integration-into-a-web-server-for-windows.md)
          + [Windows でのクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
-      + Linux 版 Campaign {#installing-campaign-in-linux}
+      + Campaign Linux 版 {#installing-campaign-in-linux}
          + [前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [パッケージのインストール](installation/using/installing-packages-with-linux.md)
          + [Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
@@ -644,7 +644,7 @@ ht-degree: 91%
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
    + Campaign への接続{#connect-to-campaign}
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
-      + Adobe IDを介した接続 {#connecting-via-an-adobe-id}
+      + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
          + [ [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
          + [Adobe [!DNL IMS] の設定](integrations/using/configuring-ims.md)
          + [Adobe [!DNL IMS] の実装](integrations/using/implementing-ims.md)
@@ -687,7 +687,7 @@ ht-degree: 91%
       + [前書き](production/using/foreword.md)
       + [一般的なアーキテクチャ](production/using/general-architecture.md)
       + [監視のガイドライン](production/using/monitoring-guidelines.md)
-   + 製造手順 {#production-procedures}
+   + 本番の手順 {#production-procedures}
       + [設定の原則](production/using/configuration-principle.md)
       + [動作の原則](production/using/operating-principle.md)
       + [管理](production/using/administration.md)
@@ -701,7 +701,7 @@ ht-degree: 91%
       + [復元](production/using/restoration.md)
       + [環境の複製](production/using/duplicating-environments.md)
       + [データベースクリーンアップのワークフロー](production/using/database-cleanup-workflow.md)
-   + Adobe Campaignの更新 {#updating-adobe-campaign}
+   + Adobe Campaign の更新 {#updating-adobe-campaign}
       + [はじめに](production/using/introduction.md)
       + [ビルドアップグレードの実行](production/using/build-upgrade.md)
       + [アップグレード手順（オンプレミス）](production/using/upgrading.md)
@@ -714,7 +714,7 @@ ht-degree: 91%
       + [RDBMS 固有のレコメンデーション](production/using/rdbms-specific-recommendations.md)
       + [アプリケーションオブジェクト](production/using/application-objects.md)
    + トラブルシューティング {#troubleshooting-toc}
-      + [実稼動環境のトラブルシューティングの概要](production/using/troubleshooting.md)
+      + [本番のトラブルシューティングの概要](production/using/troubleshooting.md)
       + よくある問題と一般的な問題 {#common-general-issues-toc}
          + [モジュールおよびよくある問題](production/using/modules-and-frequent-issues.md)
          + [ワークフローの実行](production/using/workflow-execution.md)
@@ -821,7 +821,7 @@ ht-degree: 91%
       + [前提条件](migration/using/before-starting-migration.md)
       + [移行テストについて](migration/using/testing-the-migration.md)
       + [設定の適応](migration/using/configuring-your-platform.md)
-   + 移行を開始 {#migrating-to-adobe-campaign-7}
+   + 移行の開始 {#migrating-to-adobe-campaign-7}
       + [Microsoft Windows プラットフォームの移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Linux プラットフォームの移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + [ロールバック手順](migration/using/about-rollback.md)
@@ -847,7 +847,7 @@ ht-degree: 91%
       + [ISP の機能停止後の誤ったハードバウンスの更新](delivery/using/update-bounces.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
       + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
-   + Adobe Managed Servicesへの移行{#dc-migration}
+   + Adobe Managed Services への移行{#dc-migration}
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
    + [GCM ベースの関数](technotes/using/gcm-functions.md)

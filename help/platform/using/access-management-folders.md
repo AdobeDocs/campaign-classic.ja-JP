@@ -10,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->フォルダーの権限について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank} を参照してください。
+>フォルダーの権限について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}を参照してください。
 
 
 ## フォルダーとビュー {#folders-and-views}

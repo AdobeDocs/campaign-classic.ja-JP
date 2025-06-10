@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 >
 >* これらの手順はすべて汎用クエリエディターで実行できます。他のコンテキストでクエリを作成する場合は、一部の手順を省略できます。\
 >クエリアクティビティについて詳しくは、[この節](../../workflow/using/query.md)で説明しています。
->* クエリの詳細と作成方法については、[Campaign v8 ドキュメント ](../../workflow/using/query.md) を参照してください。
+>* クエリとその作成方法について詳しくは、[Campaign v8 ドキュメント](../../workflow/using/query.md)を参照してください。
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}

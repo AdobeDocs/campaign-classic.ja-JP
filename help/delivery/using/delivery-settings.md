@@ -1,19 +1,20 @@
 ---
 product: campaign
 title: 配信設定について
-description: v7 配信設定の詳細
+description: 特定の v7 配信設定について詳しく見る
 feature: Channel Configuration
 role: User
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
+source-git-commit: 00f36c639a21151bc4fccf5012e6f20c27db927e
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 配信設定 {#about-delivery-settings}
 
-次の設定は、Campaign Classicに固有です。 その他の配信設定については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"} を参照してください。
+次の設定は、Campaign Classic に固有です。その他の配信設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"}を参照してください。
 
 ## 配信分析 {#delivery-analysis}
 

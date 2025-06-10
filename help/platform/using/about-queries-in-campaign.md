@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Adobe Campaign のクエリツールでは、専用のアシスタントであ�
 
 >[!NOTE]
 >
->クエリの詳細と作成方法については、[Campaign v8 ドキュメント ](../../workflow/using/query.md) を参照してください。
+>クエリとその作成方法について詳しくは、[Campaign v8 ドキュメント](../../workflow/using/query.md)を参照してください。
 
-![ クエリの例を示したスクリーンショット。](assets/query_recipients_4.png)
+![クエリの例を示すスクリーンショット。](assets/query_recipients_4.png)

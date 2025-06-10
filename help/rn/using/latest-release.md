@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: cdbcfc5aa0614e41ce76cb777fec58fbd01797d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 96%
 
 _2025年5月12日（PT）_
 
-このビルドには、次の修正が含まれています。
+このビルドには、以下の修正が含まれています。
 
-* Oracle以外の設定で発生したアップグレード後の問題を修正しました。 （NEO-87012）
-* クライアントコンソールとサーバーの両方に影響する TLS/HTTPS バックエンドの問題を修正しました。 （NEO-87432）
+* Oracle 以外の設定で発生したアップグレード後の問題を修正しました。（NEO-87012）
+* クライアントコンソールとサーバーの両方に影響する TLS／HTTPS バックエンドの問題を修正しました。（NEO-87432）
 
 ### ビルド 9390 {#build-9390}
 

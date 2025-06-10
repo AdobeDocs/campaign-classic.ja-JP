@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 
 >[!NOTE]
 >
->データパッケージについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/packages){target=_blank} を参照してください。
+>データパッケージについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/packages){target=_blank}を参照してください。
 
 
 <!--

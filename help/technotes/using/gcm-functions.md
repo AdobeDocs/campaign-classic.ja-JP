@@ -5,9 +5,9 @@ description: 新しい GCM ベースの関数
 feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ GCM モードの AES アルゴリズムを使用して、サーバーキーで�
 
 ### decryptString() {#decryptString-javascript}
 
-インスタンスのキーまたは他のキーを使用して、文字列を復号化します。 このレガシー関数は、GCM で使用できます。AES-CBC モードを使用して暗号化された暗号テキストの復号化には非推奨です。
+インスタンスのキーまたはその他のキーを使用して、文字列を復号化します。このレガシー関数は、GCM で使用できます。AES-CBC モードを使用して暗号化された暗号テキストの復号化には非推奨です。
 
 ```
             decryptString (str [, key

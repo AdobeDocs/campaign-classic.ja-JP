@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->Adobe Campaign コンソールでプロファイルを作成する方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank} を参照してください。
+>Adobe Campaign コンソールでプロファイルを作成する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}を参照してください。
 
 
 <!--

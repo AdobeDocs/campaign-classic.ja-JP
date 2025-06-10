@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->プロファイルの編集方法およびアクセス方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/view-profiles){target=_blank} の詳細なドキュメントを参照してください。
+>プロファイルの編集方法とアクセス方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}の詳細なドキュメントを参照してください。
 
 
 

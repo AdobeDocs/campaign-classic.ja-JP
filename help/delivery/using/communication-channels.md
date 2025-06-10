@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -18,22 +18,22 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-配信の作成に関連する主な手順については、Campaign v8 ドキュメントを参照してください。
+配信の作成に関連する主な手順について詳しくは、次の Campaign v8 ドキュメントを参照してください。
 
-* [ 配信の作成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}:1 回限りの単一配信の作成方法を説明します。
-* [ コンテンツを定義 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
-* [ オーディエンスの指定 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
-* [ 配信の検証 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法を説明します。
-* [ 配信の送信 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
-* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}:Campaign の配信機能に関連するベストプラクティスを参照してください。
+* [配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}：1 回限りの単一の配信を作成する方法について説明します。
+* [コンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
+* [オーディエンスの指定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
+* [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法について説明します。
+* [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
+* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}：Campaign の配信機能に関連するベストプラクティスを参照してください。
 
-また、Campaign Classicの具体的な配信設定については、この [ ページ ](delivery-settings.md) を参照してください。
+また、Campaign Classic の具体的な配信設定について詳しくは、この[ページ](delivery-settings.md)を参照してください。
 
 <!--
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

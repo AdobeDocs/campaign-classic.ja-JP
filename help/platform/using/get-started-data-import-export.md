@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '103'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic は、データのインポートとエクスポートを
 
 >[!NOTE]
 >
->データの Campaign へのインポートおよびエクスポート方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target=_blank} を参照してください。
+>Campaign へのデータのインポートおよびエクスポート方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target=_blank}を参照してください。
 
 
 <!--

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->Adobe Campaign のプライバシーと安全規制について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security){target=_blank} を参照してください。
+>Adobe Campaign のプライバシーと安全に関する規制について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security){target=_blank}を参照してください。
 
 
 <!--
@@ -164,7 +164,7 @@ Thanks to its tracking functionalities, Adobe Campaign enables you to track the 
 * A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
 
 * Two **permanent** cookies: 
-    * The **UUID** (Universal Unique IDentifier) cookie is shared between Adobe Experience Cloud solutions. It is set once until it disappears from the client browser when a new value is generated. This cookie enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. It can be deposited by a landing page (to associate unknown customer activities to a recipient) or by a delivery. The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja#ec-cookies).
+    * The **UUID** (Universal Unique IDentifier) cookie is shared between Adobe Experience Cloud solutions. It is set once until it disappears from the client browser when a new value is generated. This cookie enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. It can be deposited by a landing page (to associate unknown customer activities to a recipient) or by a delivery. The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies).
     * The **nllastdelid** cookie (introduced in Campaign Classic 20.3) is a permanent cookie which contains the **deliveryId** of the last delivery that user clicked the link from. This cookie is used - when the session cookie is missing - to identify the tracking table that will be used.
 
 Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies.

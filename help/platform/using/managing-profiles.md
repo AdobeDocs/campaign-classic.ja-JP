@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 >[!NOTE]
 >
 > * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
-> * プロファイルの管理方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
+> * プロファイルの管理方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
 
 
 <!--

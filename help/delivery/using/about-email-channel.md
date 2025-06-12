@@ -5,10 +5,10 @@ description: ここでは、Adobe Campaign のメールチャネルに関する�
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 68%
+source-wordcount: '343'
+ht-degree: 62%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 68%
 
 Adobe Campaign を使用すると、メール配信を作成して、パーソナライズされたメールをターゲット母集団に送信できます。
 
-メールは、アプリや web サイト以外のユーザーとのエンゲージメントに使用できる、最も強力で柔軟なチャネルの 1 つです。 パーソナライズされたコンテンツ、お知らせ、プロモーションメッセージなどを配信する場合でも、メールを使用すると、メッセージとオーディエンスの両方を完全に制御できます。 コンテンツのカスタマイズ、特定のユーザーセグメントのターゲティング、リッチなマルチメディア要素の組み込みにより効果とエンゲージメントを最大化するなど、メールチャネルを最大限に設定して使用する方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank} を参照してください。
+メールは、アプリや web サイト以外のユーザーとのエンゲージメントに使用できる、最も強力で柔軟なチャネルの 1 つです。 パーソナライズされたコンテンツ、お知らせ、プロモーションメッセージなどを配信する場合でも、メールを使用すると、メッセージとオーディエンスの両方を完全に制御できます。 コンテンツのカスタマイズ、特定のユーザーセグメントのターゲティング、リッチなマルチメディア要素の組み込みにより効果とエンゲージメントを最大化するなど、メールチャネルを最大限に設定して使用する方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank} を参照してください。
+
+Campaign v8 のプロモーションイニシアチブの一環として、Campaign Classicのドキュメントを再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 
 
@@ -25,10 +27,10 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 >[!TAB  メールチャネルドキュメント ]
 
-メールチャネルについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank} を参照してください。
+メールチャネルについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank} を参照してください。
 
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB  メール配信の作成 ]
@@ -65,7 +67,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

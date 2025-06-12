@@ -5,10 +5,10 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
+workflow-type: tm+mt
+source-wordcount: '978'
+ht-degree: 89%
 
 ---
 
@@ -18,22 +18,115 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-配信の作成に関連する主な手順について詳しくは、次の Campaign v8 ドキュメントを参照してください。
+Campaign v8 のプロモーションイニシアチブの一環として、Campaign Classicのドキュメントを再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+
+
+
+>[!BEGINTABS]
+
+>[!TAB  通信チャネルのドキュメント ]
+
+通信チャネルについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target=_blank} を参照してください。
+
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target=_blank}
+
+
+>[!TAB  配信コンテンツとオーディエンス ]
+
+配信の作成、コンテンツ、オーディエンスに関連する主な手順については、Campaign v8 ドキュメントを参照してください。
 
 * [配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}：1 回限りの単一の配信を作成する方法について説明します。
 * [コンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
 * [オーディエンスの指定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
+
+
+>[!TAB  配信の検証と送信 ]
+
+配信の検証、送信およびベストプラクティスについては、Campaign v8 ドキュメントの次のページを参照してください。
+
 * [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法について説明します。
 * [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
 * [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}：Campaign の配信機能に関連するベストプラクティスを参照してください。
 
-また、Campaign Classic の具体的な配信設定について詳しくは、この[ページ](delivery-settings.md)を参照してください。
+>[!ENDTABS]
+
+次の設定は、Campaign Classic に固有です。その他の配信設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"}を参照してください。
+
++++ **配信分析**
+
+**配信分析のパフォーマンスの向上**
+
+配信準備にかかる時間を短縮するには、分析を開始する前に「**[!UICONTROL データベース内で配信部分を準備]**」オプションにチェックを入れます。
+
+このオプションを有効にすると、配信準備がデータベース内で直接おこなわれ、分析時間が大幅に短縮されます。
+
+現在、このオプションは、次の条件を満たす場合にのみ使用できます。
+
+* 配信はメールである必要があります。現時点では、その他のチャネルはサポートされていません。
+* ミッドソーシングや外部ルーティングは使用できません。一括配信ルーティングタイプのみ使用できます。**[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 一般]**」タブで、使用するルーティングを確認できます。
+* 外部ファイルからの母集団をターゲットに指定することはできません。単一の配信の場合、**[!UICONTROL メールパラメーター]**&#x200B;から&#x200B;**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL データベースで定義]**」オプションが選択されていることを確認します。ワークフローで使用される配信の場合、「**[!UICONTROL 配信]**」タブにおいて受信者が&#x200B;**[!UICONTROL インバウンドイベントで指定]**&#x200B;されていることを確認します。
+* PostgreSQL データベースを使用する必要があります。
+
+**分析の優先度の設定**
+
+配信をキャンペーンの一環として使用する場合は、「**[!UICONTROL 詳細設定]**」タブに特別なオプションが 1 つ追加されます。このオプションを使用すると、同じキャンペーンに含まれる配信の処理順を調整できます。
+
+各配信は、送信前に分析されます。分析の所要時間は配信の抽出ファイルによって異なります。ファイルサイズが大きいほど、分析にかかる時間は長くなり、後に続く配信が遅くなります。
+
+「**[!UICONTROL スケジューラーによるメッセージの準備]**」のオプションで、キャンペーンワークフローの配信分析を優先順位付けできます。
+
+![](assets/delivery_analysis_priority.png)
+
+配信が非常に大きい場合、低い優先順位を設定することが、同じワークフローに含まれる他の配信の遅延を防ぐために有効と考えられます。
+
+>[!NOTE]
+>
+>「**[!UICONTROL 低アクティビティ時の実行をスケジュール]**」オプションを選択すると、大きな配信分析によってワークフロー全体の進行が遅くなるのを防ぐことができます。
+
++++
+
++++ **配信の送信**
+
+**再試行の設定**
+
+**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信パラメーターの「**[!UICONTROL 配信]**」タブの中央セクションは、配信の翌日に実行する再試行の数と再試行間の最小遅延を示します。
+
+![](assets/s_ncs_user_wizard_retry_param.png)
+
+デフォルトでは、配信後の最初の日に最低 1 時間の間隔をおいて、24 時間に 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます。詳しくは、[有効期間を定義](#defining-validity-period)を参照してください。
+
+**有効期間を定義**
+
+メッセージの送信（および再試行）が可能な期間は、配信が開始されたときから配信期限までです。配信期限は、配信プロパティの「**[!UICONTROL 有効性]**」タブに表示されます。
+
+![](assets/s_ncs_user_email_del_valid_period.png)
+
+* 「**[!UICONTROL 配信期間]**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
+
+  日付を指定することもできます。そのためには、「**[!UICONTROL 有効期限を明示的に設定]**」を選択します。この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
+
+  >[!IMPORTANT]
+  >
+  >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign のメール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5 日以下**&#x200B;に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
+
+* **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
+
+  このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
+
++++
 
 <!--
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

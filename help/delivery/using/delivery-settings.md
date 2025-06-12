@@ -4,9 +4,11 @@ title: 配信設定について
 description: 特定の v7 配信設定について詳しく見る
 feature: Channel Configuration
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: 00f36c639a21151bc4fccf5012e6f20c27db927e
-workflow-type: ht
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 

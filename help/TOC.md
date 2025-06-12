@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2569'
 ht-degree: 100%
 
 ---
@@ -125,9 +125,8 @@ ht-degree: 100%
       + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
       + [送信前の確認](delivery/using/check-before-sending.md)
       + [トラッキングと監視](delivery/using/track-and-monitor.md)
+   + [メールの送信](delivery/using/about-email-channel.md)
    + メールの送信 {#sending-emails}
-      + [メールの基本を学ぶ](delivery/using/about-email-channel.md)
-      + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
       + [メール配信の作成](delivery/using/creating-an-email-delivery.md)
       + [メールコンテンツの定義](delivery/using/defining-the-email-content.md)
       + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
@@ -827,6 +826,7 @@ ht-degree: 100%
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
    + [ハードウェアサイズについてのレコメンデーション](technotes/using/hardware-sizing.md)
+   + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
    + [ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ](technotes/using/inbound-sms-wf.md)
    + IMS へのアップグレード{#ims}
       + [Adobe IMS への移行](technotes/using/ac-ims.md)

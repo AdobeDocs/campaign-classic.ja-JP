@@ -30,17 +30,17 @@ Adobe Campaign のクエリツールでは、専用のアシスタントであ�
 
 >[!TAB  クエリドキュメント ]
 
-クエリの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank} を参照してください。
+クエリの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank} を参照してください。
 
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
 >[!TAB  クエリの作成 ]
 
-クエリの作成に関連する主な手順については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank} を参照してください。
+クエリの作成に関連する主な手順については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank} を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!ENDTABS]
 

@@ -42,8 +42,8 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 プロファイルを編集、管理、追加する方法については、次の Campaign v8 ドキュメントを参照してください。
 
 * [ プロファイルの追加 ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}：プロファイルを追加および新規作成するための主な手順について説明します。
-* [ プロファイルの編集 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}：既存のプロファイルを表示および編集します。
-* [ プロファイルの管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views?lang=en#_blank){target=_blank}：フォルダー管理ツールを使用して、既存のプロファイルにアクセスして管理します。
+* [ プロファイルの編集 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}：既存のプロファイルを表示および編集します。
+* [ プロファイルの管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views?lang=en#_blank){target=_blank}：フォルダー管理ツールを使用して、既存のプロファイルにアクセスして管理します。
 
 >[!TAB  プロファイルのインポート/エクスポート ]
 
@@ -121,9 +121,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -141,7 +141,7 @@ This video also explains the compliance of Adobe Campaign Classic with General D
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja).
 
 **See also**
 

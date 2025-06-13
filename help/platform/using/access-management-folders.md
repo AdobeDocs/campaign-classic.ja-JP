@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->標準提供のフォルダーは、表示としてマークしないでください。
+>標準提供されているフォルダーは、ビューとしてマークしないでください。
 
 
 以下の例では、特定のデータを表示するための新しいフォルダーを作成します。
@@ -65,11 +65,11 @@ ht-degree: 93%
 1. **[!UICONTROL 配信]**&#x200B;タイプの新しいフォルダーを作成し、「**フランス配信**」という名前を付けます。
 1. このフォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 
-   ![ プロパティへの右クリックを示すスクリーンショット ](assets/s_ncs_user_add_folder_exple.png)
+   ![プロパティの右クリックを示すスクリーンショット](assets/s_ncs_user_add_folder_exple.png)
 
 1. 「**[!UICONTROL 制限]**」タブで、「**[!UICONTROL フォルダーのビュー化]**」を選択します。データベース内にあるすべての配信データが表示されます。
 
-   ![ ビューボックスがオンになっていることを示す画面 ](assets/s_ncs_user_add_folder_exple01.png)
+   ![表示ボックスがオンになっていることを示す画面](assets/s_ncs_user_add_folder_exple01.png)
 
 1. ウィンドウ中央部のセクションにある Query Editor を使って配信のフィルター条件を定義します。すると、定義したフィルターに該当するキャンペーンが表示されます。
 
@@ -79,9 +79,9 @@ ht-degree: 93%
 
    例えば、次のようなフィルター条件を定義したとします。
 
-![ 様々なフィルター条件を示すスクリーンショット ](assets/s_ncs_user_add_folder_exple00.png)
+![様々なフィルター条件を示すスクリーンショット](assets/s_ncs_user_add_folder_exple00.png)
 
-すると、ビューに表示される配信リストの内容は次のようなものになります。
+ビューには、次の配信が表示されます。
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
 

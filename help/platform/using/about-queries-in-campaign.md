@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -26,8 +26,22 @@ Adobe Campaign のクエリツールでは、専用のアシスタントであ�
 
 クエリは、選択したテーブルのフィールドを使用するか、数式を使用して作成します。
 
->[!NOTE]
->
->クエリとその作成方法について詳しくは、[Campaign v8 ドキュメント](../../workflow/using/query.md)を参照してください。
+>[!BEGINTABS]
+
+>[!TAB  クエリドキュメント ]
+
+クエリの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank} を参照してください。
+
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+>[!TAB  クエリの作成 ]
+
+クエリの作成に関連する主な手順については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank} を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+
+>[!ENDTABS]
 
 ![クエリの例を示すスクリーンショット。](assets/query_recipients_4.png)

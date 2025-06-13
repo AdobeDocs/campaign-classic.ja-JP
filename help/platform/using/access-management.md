@@ -5,10 +5,10 @@ description: Campaign 機能へのアクセスを許可する方法について�
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 79%
 
 ---
 
@@ -30,22 +30,37 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 * 特定種類のレコードに対するアクセス
 * レコード（アクション、連絡先、キャンペーン、グループなど）の作成、変更または削除
 
-権限は、オペレーターのプロファイルまたはオペレーターグループに付与されます。
+>[!BEGINTABS]
 
-これらの操作は、オペレーターの Adobe Campaign に対する接続モードにリンクされた安全パラメーターに基づいて実行されます。セキュリティゾーンの詳細については、[こちらのページ](../../installation/using/security-zones.md)を参照してください。
+>[!TAB  権限に関するドキュメント ]
 
-ユーザーに付与できる権限には次の 2 種類があります。
+Campaign の権限について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank} を参照してください。
 
-* グループを使用する場合は、権利の付与対象とするオペレーターのグループを定義し、オペレーターを 1 つまたは複数のグループに関連付けます。これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなううえでも便利な方法です。グループの作成と管理については、[こちらの節](access-management-groups.md)を参照してください。
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
 
-* ネームド権限は、ユーザーに対して直接付与することができ、場合によっては、グループ経由で割り当てられた権限をオーバーロードすることもできます。 これらの権利については、[こちらのページ](access-management-named-rights.md)を参照してください。
+>[!TAB  フォルダーへのアクセスの管理 ]
+
+フォルダーへのアクセスとその管理方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=en#_blank){target=_blank} を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+
+>[!ENDTABS]
+
+<!--
+The permissions apply to operator profiles or operator groups.
+
+They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/security-zones.md).
+
+There are two types of permissions you can grant to a user:
+
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [this section](access-management-groups.md).
+
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](access-management-named-rights.md).
 
 >[!NOTE]
 >
-> * 権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)に目を通すことをお勧めします。
-> * 権限について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}の詳細な説明を参照してください。
-
-<!--
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 

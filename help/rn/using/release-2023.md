@@ -5,11 +5,13 @@ description: Campaign Classic 2023 リリースの詳細
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 100%
+source-wordcount: '2336'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +81,7 @@ _2023年9月7日（PT）_
 * BigQuery 外部アカウントが強化され、GCloud SDK の設定に使用する新しいオプションが追加されました。（NEO-63879）[詳細情報](../../installation/using/configure-fda-google-big-query.md#google-external)
 * 新しい `cusHeader` セクションがサーバー設定ファイル（serverConf.xml）に追加されました。外部サーバーからファイルをアップロードする際に、カスタムヘッダーを追加できます。（NEO-58339）[詳細情報](../../installation/using/the-server-configuration-file.md#cusheaders)。
 * トラッキングログ管理が改善され、lastMsgId の負の ID が回避されるようになりました。int32 から int64 に変更されました。（NEO-52290）
-* ミッドソーシング（配信統計）ワークフローが標準で追加されました。この新しいワークフローは、配信統計データ（nms:deliveryStat）をミッドインスタンスからマーケティングインスタンスまで同期します。（NEO-36802）
+* ミッドソーシング（配信統計）ワークフローが標準で追加されました。この新しいワークフローは、ミッドからマーケティングインスタンスへの配信統計データ（nms:deliveryStat）を同期します。 （NEO-36802）
 
 ### パッチ {#release-7-3-4-patches}
 
@@ -113,7 +115,7 @@ _2023年9月7日（PT）_
 * **データを更新**&#x200B;ワークフローアクティビティが正しく機能しないことがある問題を修正しました。（NEO-48140）
 * メールとは異なる外部アカウントを使用する配信で、クリックの追跡データが同期されないことがある問題を修正しました。（NEO-47277）
 * Message Center のマーケティングインスタンスでリアルタイムトラッキングログが同期されなくなることがある問題を修正しました。（NEO-42540）
-* Snowflake データベーステーブルのスキーマの検出ウィンドウにワークスペースプレフィックスが表示されない問題を修正しました。（NEO-40297）
+* Snowflake データベーステーブルのスキーマの検出ウィンドウにワークスペース接頭辞が表示されない問題を修正しました。（NEO-40297）
 * メールコンテンツ内で `<img-amp>` タグが機能しない問題を修正しました。（NEO-38685）
 * HTTP リレーの使用時に Message Center のアーカイブワークフローが失敗することがある問題を修正しました。（NEO-33783）
 * メールコンテンツエディターでフォント名とサイズのエラーが発生することがある問題を修正しました。（NEO-61342）

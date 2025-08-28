@@ -3,11 +3,13 @@ product: campaign
 title: テクニカルノート - IMS を使用して Adobe Campaign に接続するように環境を更新します
 description: Campaign - IMS の更新
 feature: Technote, Upgrade
+hide: true
+hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -19,11 +21,11 @@ ht-degree: 100%
 
 ## 変更点
 
-Adobe Identity Management Service（IMS）は、**2021年6月30日**（PT）をもって、古いバージョンの Internet Explorer をサポートしなくなりました。[詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)。
+Adobe Identity Management Service（IMS）は、**2021年6月30日**（PT）をもって、古いバージョンの Internet Explorer のサポートを停止しました。[詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)。
 
 アドビは、2021 年 6 月 30 日（PT）以降も、すべてのお客様に対して引き続き IMS 機能を提供したいと考えています。IMS はセキュリティフレームワークの一部で、ユーザーがクライアントコンソール、したがって Adobe Campaign にログインできるようにするものです。
 
-この機能を維持するには、各ユーザーのマシン上でクライアントコンソールを更新し、**Internet Explorer 11** が組み込まれた最新の [Windows バージョン](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を各ユーザーのマシンに確実にインストールする必要があります。
+この機能を維持するには、各ユーザーのマシン上でクライアントコンソールを更新し、[Internet Explorer 11](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems) が組み込まれた最新の **Windows バージョン** を各ユーザーのマシンに確実にインストールする必要があります。
 
 ## 影響の有無
 
@@ -47,7 +49,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
   これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
 
-さらに、**Internet Explorer 11** が組み込まれた最新の [Windows バージョン](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)が各ユーザーのマシンにインストールされていることを確認してください。
+さらに、[Internet Explorer 11](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems) が組み込まれた最新の **Windows バージョン** が各ユーザーのマシンにインストールされていることを確認してください。
 
 ## FAQ
 

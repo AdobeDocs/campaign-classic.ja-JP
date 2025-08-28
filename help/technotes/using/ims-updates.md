@@ -55,7 +55,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 **Campaign のバージョンを確認するにはどうすればよいですか？**
 
-バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
+バージョンを確認する方法については、[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節を参照してください。
 
 
 **IMS を使用しているかどうかを確認するにはどうすればよいですか？**

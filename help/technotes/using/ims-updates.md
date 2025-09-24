@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Identity Management Service（IMS）は、**2021年6月30日**（PT）を�
 
 アドビは、2021 年 6 月 30 日（PT）以降も、すべてのお客様に対して引き続き IMS 機能を提供したいと考えています。IMS はセキュリティフレームワークの一部で、ユーザーがクライアントコンソール、したがって Adobe Campaign にログインできるようにするものです。
 
-この機能を維持するには、各ユーザーのマシン上でクライアントコンソールを更新し、[Internet Explorer 11](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems) が組み込まれた最新の **Windows バージョン** を各ユーザーのマシンに確実にインストールする必要があります。
+この機能を維持するには、各ユーザーのマシン上でクライアントコンソールをアップデートし、**Internet Explorer 11** がビルトインされた最新の [Windows バージョン](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を各ユーザーのマシンに確実にインストールする必要があります。
 
 ## 影響の有無
 
@@ -49,13 +49,13 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
   これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
 
-さらに、[Internet Explorer 11](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems) が組み込まれた最新の **Windows バージョン** が各ユーザーのマシンにインストールされていることを確認してください。
+さらに、**Internet Explorer 11** がビルトインされた最新の [Windows バージョン](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)が各ユーザーのマシンにインストールされていることを確認してください。
 
 ## FAQ
 
 **Campaign のバージョンを確認するにはどうすればよいですか？**
 
-バージョンを確認する方法については、[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節を参照してください。
+バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
 
 **IMS を使用しているかどうかを確認するにはどうすればよいですか？**

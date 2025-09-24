@@ -7,7 +7,7 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2569'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ ht-degree: 100%
       + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
       + [ワークフローの作成](workflow/using/building-a-workflow.md)
-      + [Target データ](workflow/using/targeting-data.md)
+      + [データのターゲット](workflow/using/targeting-data.md)
       + [ワークフローデータの使用](workflow/using/how-to-use-workflow-data.md)
       + [ワークフローのベストプラクティス](workflow/using/workflow-best-practices.md)
    + ワークフローの実行 {#executing-a-workflow}

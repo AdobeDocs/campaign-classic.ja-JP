@@ -11,7 +11,7 @@ exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 hide: true
 hidefromtoc: true
 source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Adobe Campaign でクエリを作成する手順は次のとおりです。
 
-1. 作業用テーブルを選択します。[手順 1 - テーブルの選択](#step-1---choose-a-table)を参照してください。
+1. ワークテーブルを選択します。[手順 1 - テーブルの選択](#step-1---choose-a-table)を参照してください。
 1. 抽出するデータを選択します。[手順 2 - 抽出するデータの選択](#step-2---choose-data-to-extract)を参照してください。
 1. データの並べ替え順を定義します。[手順 3 - データの並べ替え](#step-3---sort-data)を参照してください。
 1. データをフィルターします。[手順 4 - データのフィルター](#step-4---filter-data)を参照してください。

@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +28,17 @@ Adobe Campaign のクエリツールでは、専用のアシスタントであ�
 
 >[!BEGINTABS]
 
->[!TAB  クエリドキュメント ]
+>[!TAB クエリドキュメント]
 
-クエリの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank} を参照してください。
+クエリについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}を参照してください。
 
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
->[!TAB  クエリの作成 ]
+>[!TAB クエリの作成]
 
-クエリの作成に関連する主な手順については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank} を参照してください。
+クエリ作成に関連する主な手順については、次の [Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 

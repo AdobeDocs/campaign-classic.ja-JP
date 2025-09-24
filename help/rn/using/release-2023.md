@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ _2023年9月7日（PT）_
 * BigQuery 外部アカウントが強化され、GCloud SDK の設定に使用する新しいオプションが追加されました。（NEO-63879）[詳細情報](../../installation/using/configure-fda-google-big-query.md#google-external)
 * 新しい `cusHeader` セクションがサーバー設定ファイル（serverConf.xml）に追加されました。外部サーバーからファイルをアップロードする際に、カスタムヘッダーを追加できます。（NEO-58339）[詳細情報](../../installation/using/the-server-configuration-file.md#cusheaders)。
 * トラッキングログ管理が改善され、lastMsgId の負の ID が回避されるようになりました。int32 から int64 に変更されました。（NEO-52290）
-* ミッドソーシング（配信統計）ワークフローが標準で追加されました。この新しいワークフローは、ミッドからマーケティングインスタンスへの配信統計データ（nms:deliveryStat）を同期します。 （NEO-36802）
+* ミッドソーシング（配信統計）ワークフローが標準で追加されました。この新しいワークフローは、配信統計データ（nms:deliveryStat）をミッドインスタンスからマーケティングインスタンスまで同期します。（NEO-36802）
 
 ### パッチ {#release-7-3-4-patches}
 

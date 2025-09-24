@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 3ffa32fbaa588904b79a1343c39f5b5b5f2b134f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -63,4 +63,4 @@ ht-degree: 93%
 * スキーマ
 * recCount
 
-この 3 つの値セットは、積集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲット識別子を記録するテーブルの名前で、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）であり、**[!UICONTROL recCount]** はテーブル内の要素数です。
+この 3 つの値セットは、積集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '2569'
+source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+workflow-type: tm+mt
+source-wordcount: '2565'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 100%
          + [Campaign UI の概要](platform/using/adobe-campaign-workspace.md)
          + [Campaign エクスプローラーの使用](platform/using/adobe-campaign-explorer.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
+         + [列挙](platform/using/managing-enumerations.md)
       + [Campaign コネクタ](platform/using/about-connectors.md)
       + よくある質問 {#faq}
          + [よくある質問](platform/using/common-questions.md)
@@ -99,9 +100,6 @@ ht-degree: 100%
       + [グループの作成と管理](platform/using/access-management-groups.md)
       + [ネームド権限を使用した権限の設定](platform/using/access-management-named-rights.md)
       + [フォルダーへのアクセスの管理](platform/using/access-management-folders.md)
-   + データパッケージと列挙 {#administration-basics}
-      + [データパッケージ](platform/using/working-with-data-packages.md)
-      + [列挙](platform/using/managing-enumerations.md)
    + CRM コネクタ {#connectors}
       + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
       + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
@@ -738,6 +736,7 @@ ht-degree: 100%
          + [JSP の動作](production/using/jsp-behavior.md)
          + [Tomcat バージョンの検索](production/using/locate-tomcat-version.md)
 + 開発者ガイド {#configuring-campaign-classic}
+   + [データパッケージ](platform/using/working-with-data-packages.md)
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
       + [データモデルの説明](configuration/using/data-model-description.md)

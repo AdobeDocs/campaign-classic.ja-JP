@@ -5,9 +5,11 @@ description: パーソナライゼーションフィールドの使用方法を�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
+workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%
 
@@ -140,6 +142,6 @@ ht-degree: 100%
 
 パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

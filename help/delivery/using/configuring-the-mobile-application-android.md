@@ -60,7 +60,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png)[詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
+![](assets/do-not-localize/how-to-video.png) [詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 

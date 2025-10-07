@@ -27,4 +27,4 @@ ht-degree: 93%
 1. 定義済みの配信テンプレート - Adobe Campaign 管理者は、新しい配信テンプレートを作成できます。作成した配信テンプレートは、オペレーター（適切なアクセス権を持っている場合）が再利用することも、サーバープロセスを使用して自動的に再利用することもできます。例えば、メール配信テンプレートを設定できます。ユーザーがそのテンプレートを使用して配信を作成する際は、テキストまたは HTML コンテンツを入力して配信するだけで済みます。それ以外の選択項目は、管理者によって既に設定されています。
 
 
-配信テンプレートを作成して使用する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-templates){target="_blank"} を参照してください。
+配信テンプレートを作成して使用する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-templates){target="_blank"} を参照してください。

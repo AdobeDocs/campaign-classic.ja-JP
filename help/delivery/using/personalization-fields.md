@@ -142,6 +142,6 @@ ht-degree: 100%
 
 パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27465?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

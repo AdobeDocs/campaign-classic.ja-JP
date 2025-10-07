@@ -4,8 +4,10 @@ title: iOS デバイス用のプッシュ通知の作成
 description: iOS 用のプッシュ通知を作成する方法を説明します
 feature: Push
 role: User, Developer, Data Engineer
+hide: true
+hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%

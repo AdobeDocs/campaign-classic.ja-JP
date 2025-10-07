@@ -4,8 +4,10 @@ title: 検証
 description: 検証
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Direct Mail
+hide: true
+hidefromtoc: true
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%

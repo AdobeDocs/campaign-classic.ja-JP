@@ -5,8 +5,10 @@ description: ダイレクトメールのコンテンツを定義する方法を�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Direct Mail
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -27,7 +29,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-このリンクをクリックすると、抽出アシスタントにアクセスして、出力ファイルに抽出する情報（列）を定義できます。
+このリンクをクリックすると、抽出アシスタントにアクセスして、出力ファイルにエクスポートする情報（列）を定義できます。
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 

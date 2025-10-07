@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2561'
+ht-degree: 99%
 
 ---
 
@@ -144,8 +144,8 @@ ht-degree: 100%
       + [SMS の作成](delivery/using/sms-create.md)
       + [拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
    + [LINE メッセージの送信](delivery/using/line-channel.md)
+   + [プッシュ通知の送信](delivery/using/about-mobile-app-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
-      + [モバイルアプリチャネルの基本を学ぶ](delivery/using/about-mobile-app-channel.md)
       + [モバイルアプリケーションへの Campaign SDK の統合](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + モバイルアプリケーションの設定{#configure-the-mobile-app}
          + [アプリ設定の基本を学ぶ](delivery/using/get-started-app-config.md)
@@ -155,8 +155,8 @@ ht-degree: 100%
          + [iOS 用プッシュメッセージの作成](delivery/using/create-notifications-ios.md)
          + [Android 用プッシュメッセージの作成](delivery/using/create-notifications-android.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
+   + [ダイレクトメールの送信](delivery/using/about-direct-mail-channel.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
-      + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)
       + [ダイレクトメール配信の作成](delivery/using/creating-a-direct-mail-delivery.md)
       + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)

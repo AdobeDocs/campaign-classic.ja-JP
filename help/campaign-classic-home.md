@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
-workflow-type: ht
-source-wordcount: '357'
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 新機能
 
-Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強化の概要を説明します。機能、改善点、修正点の包括的なリストについては、詳細な[リリースノート](rn/using/latest-release.md)をご確認ください。ドキュメントの最新の変更については、 [ドキュメントの更新ページ](rn/using/documentation-updates.md)で随時ご確認ください。
+Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強化の概要を説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](rn/using/latest-release.md)を参照してください。
 
 >[!BEGINTABS]
 

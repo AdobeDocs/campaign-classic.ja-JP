@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
 -->
 
-## リリースのステータス {#rn-statuses}
+## リリースステータス {#rn-statuses}
 
 [リリースノート](latest-release.md)では、新しいビルドのステータスが色分けされて表示されます。 
 
@@ -152,8 +152,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 * [Campaign のバージョンの確認](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [ヘルプとサポート](../../support.md)
 * [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
-* [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)
-* [非推奨および削除された機能](../../rn/using/deprecated-features.md)
+* [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 
 新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html) に登録してください。

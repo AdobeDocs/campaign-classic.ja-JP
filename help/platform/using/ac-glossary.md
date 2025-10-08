@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: ht
-source-wordcount: '5959'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '6002'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**チャネル**
 
-チャネルは、通信を送信するための媒体です。Adobe Campaign の組み込みチャネルは、メール、SMS、ダイレクトメール、プッシュ通知、LINE および X（旧 Twitter）です。カスタムチャネルは、非標準のチャネル要件に対して実装できます。
+チャネルは、通信を送信するための媒体です。Adobe Campaign のビルトインのチャネルは、メール、SMS、ダイレクトメール、プッシュ通知、LINE および X（旧 Twitter）です。カスタムチャネルは、非標準のチャネル要件に対して実装できます。
 
 詳細情報：[チャネル](../../delivery/using/communication-channels.md)。
 +++
@@ -263,7 +263,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *コンテキスト：分散型マーケティング*
 
-分散型マーケティングアドオンでは、Campaign オペレーターに、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間でキャンペーンを実施する共同作業ワークスペースを提供します。この連携のベースとなるのは、**Campaign パッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
+分散型マーケティングアドオンでは、Campaign オペレーターに、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間でキャンペーンを実施する共同作業ワークスペースを提供します。この連携のベースとなるのは、**キャンペーンパッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
 
 詳しくは、[分散型マーケティング](../../distributed/using/about-distributed-marketing.md)を参照してください。
 +++
@@ -345,14 +345,16 @@ An engine call is a server call that starts real-time processing on server side 
 
 列挙は、フィールドの有効な入力値を定義するデータタイプで、スキーマまたはプラットフォームレベルで定義されます。列挙は、ユーザーインターフェイスとクエリビルダーでピックリストとして表示されます。
 
-列挙の詳細は[こちら](../../platform/using/managing-enumerations.md)。
+**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
 +++
 
 +++**エクスプローラービュー**
 
 エクスプローラービューは、Adobe Campaign アーティファクトおよびデータを格納したフォルダーを階層的に表示したものです。 なお、Adobe Campaign のフォルダーシステムは、通常のツリービューとは異なり、各フォルダーには配信、ワークフロー、オファーなどの特定のタイプのデータが格納されます。
 
-エクスプローラービューの詳細は[こちら](../../platform/using/adobe-campaign-explorer.md)。
+
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+
 +++
 
 +++**外部アカウント**
@@ -398,14 +400,15 @@ Federated Data Access の詳細は[こちら](../../installation/using/about-fda
 
 フォルダーは、特定のデータタイプのデータベースレコードを格納するエクスプローラービュー項目です。ただし、編成要素として使用され、データそのものを含まず、他のフォルダーのみを含む汎用フォルダータイプは例外です。
 
-フォルダーの詳細は[こちら](../../platform/using/adobe-campaign-explorer.md)。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+
 +++
 
 +++**フォルダービュー**
 
 フォルダービューは、特殊なエクスプローラーフォルダータイプで、どのようなフォルダーに属しているかに関係なく、選択したデータタイプのすべてのレコードを表示するために使用されます。フォルダービューは、分割されたデータや多数のフォルダーに分散されるデータを管理する管理ツールとして使用されます。
 
-[フォルダービュー](../../platform/using/adobe-campaign-explorer.md)の詳細情報。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 +++
 
 +++**フォーム**
@@ -558,7 +561,8 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 ナビゲーションツリーは、Adobe Campaign のエクスプローラービューのメインナビゲーションです。ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。ナビゲーションツリーをカスタマイズし、フォルダーに対する権限を設定できます。
 
-[ナビゲーションツリー](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch)の詳細情報。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+
 +++
 
 +++**目標**
@@ -761,7 +765,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 +++**パーソナライゼーションブロック**
 
-Adobe Campaign には、配信に挿入できるパーソナライゼーションブロックが組み込まれています。動的でパーソナライズされ、特定のレンダリングが含まれています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。デフォルトでは、複数のパーソナライゼーションブロックを使用できます。また、カスタムパーソナライゼーションブロックを定義することで、配信のパーソナライゼーションを最適化できます。実際のデータは、配信の分析フェーズで、生成された各メッセージに挿入されます。
+Adobe Campaign は、配信に挿入できるビルトインのパーソナライゼーションブロックを提供しています。動的でパーソナライズされ、特定のレンダリングが含まれています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。デフォルトでは、複数のパーソナライゼーションブロックを使用できます。また、カスタムパーソナライゼーションブロックを定義することで、配信のパーソナライゼーションを最適化できます。実際のデータは、配信の分析フェーズで、生成された各メッセージに挿入されます。
 
 [パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)の詳細情報。
 +++
@@ -928,7 +932,7 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 詳細情報：[ターゲットの承認](../../workflow/using/local-approval.md)。
 +++
 
-+++**データのターゲティング**
++++**データのターゲット**
 
 ターゲットデータとは、ワークフローのワークテーブル（トランジション）に保存されるデータです。このデータは、配信内で配信コンテンツのパーソナライゼーション用に使用したり、配信の動的要素のロジックを定義したりできます。
 
@@ -1070,7 +1074,7 @@ Web アプリケーションの詳細は[こちら](../../web/using/about-web-ap
 
 +++**ワークフロー**
 
-ワークフローは、キャンペーン実行フローを視覚的に表現したものです。 アプリケーションサーバーの様々なモジュールにわたって、あらゆるプロセスとタスクのオーケストレーションを行えます。この包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理、人の参加などを含むプロセスを設計できます。ワークフローエンジンは、これらのプロセスを実行およびトラッキングします。
+ワークフローは、キャンペーン実行フローを視覚的に表現したものです。 アプリケーションサーバーの様々なモジュールにわたって、あらゆるプロセスとタスクのオーケストレーションを行えます。総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、トラッキングします。
 
 ワークフローの詳細は[こちら](../../workflow/using/about-workflows.md)。
 +++

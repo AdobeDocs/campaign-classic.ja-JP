@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 94%
+source-wordcount: '621'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->これらの手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。Adobe IMS 認証については、[このドキュメント](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
+>これらの手順は、従来のネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Campaign Classic v7.3.1 以降、すべてのオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を使用して Campaign に接続する必要があります。 [詳細情報](../../technotes/using/migrate-users-to-ims.md)
+>
+>Adobe IDを使用して Campaign に接続する際に、次の節が適用されなくなりました。 Adobe IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 オペレーターグループは、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;ノードを使用して作成します。
 
@@ -65,7 +67,7 @@ ht-degree: 94%
 
 1. **[!UICONTROL キャンペーンマネージャー]**
 
-   このグループのオペレーターは、マーケティングキャンペーンを管理できます。キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）には、**[!UICONTROL Campaign]** （オプションのAdobe Campaign モジュール）のフレームワーク内でアクセスできます。
+   このグループのオペレーターは、マーケティングキャンペーンの管理を実行できます。**[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内で、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。
 
    このグループには以下のネームド権限が設定されています。
 

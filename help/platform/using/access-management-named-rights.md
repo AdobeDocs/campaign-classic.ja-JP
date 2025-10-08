@@ -2,23 +2,18 @@
 product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '551'
 ht-degree: 100%
 
 ---
 
 # ネームド権限を使用した権限の設定{#named-rights}
-
->[!NOTE]
->
->このページは、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。Adobe IMS 認証については、[このドキュメント](https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html)を参照してください。
 
 ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。それらのネームド権限の設定は、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;で編集できます。
 
@@ -60,7 +55,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配信を開始]**：分析済みの配信を承認する権限。配信の分析後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。**[!UICONTROL 配信を開始]**&#x200B;権限を持つユーザーは、配信を承認できます。
 
-* **[!UICONTROL SQL データ管理アクティビティを使用]**：作業用テーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限（[この節](../../workflow/using/sql-data-management.md)を参照）。
+* **[!UICONTROL SQL データ管理アクティビティを使用]**：ワークテーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限（[この節](../../workflow/using/sql-data-management.md)を参照）。
 
 * **[!UICONTROL ワークフロー]**：ワークフローを実行する権限。この権限がないと、ユーザーはワークフローを開始、停止または再起動できません。
 
@@ -76,4 +71,4 @@ ht-degree: 100%
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ja)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

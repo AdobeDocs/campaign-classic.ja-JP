@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1324'
-ht-degree: 100%
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 96%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->* Campaign Classic v7.3.1 以降、すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。
->  >セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、既存のすべてのオペレーター認証モードをログイン／パスワードのネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めします。オペレーターを移行する方法については、[このページ](../../technotes/using/migrate-users-to-ims.md)を参照してください。
-> 
->* この移行後は、次の節は適用されないことに注意してください。Adobe IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
-
+>これらの手順は、従来のネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Campaign Classic v7.3.1 以降、すべてのオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を使用して Campaign に接続する必要があります。 [詳細情報](../../technotes/using/migrate-users-to-ims.md)
+>
+>Adobe IDを使用して Campaign に接続する際に、次の節が適用されなくなりました。 Adobe IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 ## Campaign オペレーターの基本を学ぶ {#about-operators}
 

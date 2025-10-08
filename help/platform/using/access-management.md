@@ -5,10 +5,10 @@ description: Campaign 機能へのアクセスを許可する方法について�
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
-workflow-type: ht
-source-wordcount: '202'
-ht-degree: 100%
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 64%
 
 ---
 
@@ -34,17 +34,28 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 >[!TAB 権限に関するドキュメント]
 
-Adobe Campaign の権限について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}を参照してください。
+**Campaign の権限** について詳しくは、**[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}** を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}
 
->[!TAB フォルダーへのアクセスの管理]
 
-フォルダーへのアクセスとその管理方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=ja#_blank){target=_blank}を参照してください。
+>[!TAB  フォルダーに対する権限の管理 ]
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+**フォルダーに対する権限** を定義する方法については、**[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}** を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}
+
+
+>[!TAB  ネイティブ認証 ]
+
+Campaign v7 では、引き続き、ログイン/パスワードを使用したネイティブ認証も使用できますが、セキュリティと認証プロセスを強化するために、Adobe Campaignでは、ログイン/パスワードのネイティブ認証からAdobe Identity Management System （IMS）に [ エンドユーザー認証モードを移行 ](../../technotes/using/ac-ims.md) することを強くお勧めします。 Campaign v8 では、ユーザー/パスワード（ネイティブ認証）を使用して接続することはできません。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
+
 
 >[!ENDTABS]
+
+
 
 <!--
 The permissions apply to operator profiles or operator groups.
@@ -59,8 +70,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/jp/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 

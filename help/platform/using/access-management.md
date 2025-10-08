@@ -34,21 +34,21 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 >[!TAB 権限に関するドキュメント]
 
-**Campaign の権限** について詳しくは、**[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}** を参照してください。
+**Campaign の権限** について詳しくは、**[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}** を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=ja#_blank){target=_blank}
 
 
 >[!TAB  フォルダーに対する権限の管理 ]
 
-**フォルダーに対する権限** を定義する方法については、**[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}** を参照してください。
+**フォルダーに対する権限** を定義する方法については、**[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}** を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}
 
 
 >[!TAB  ネイティブ認証 ]
 
-Campaign v7 では、引き続き、ログイン/パスワードを使用したネイティブ認証も使用できますが、セキュリティと認証プロセスを強化するために、Adobe Campaignでは、ネイティブ認証からAdobe Identity Management System （IMS）に [ エンドユーザー認証モードを移行 ](../../technotes/using/ac-ims.md) することを強くお勧めします。 Campaign v8 では、ネイティブ認証を使用してに接続することはできません。
+Campaign v7 では、引き続き、ログイン/パスワードを使用したネイティブ認証も使用できますが、セキュリティと認証プロセスを強化するために、Adobe Campaignでは、ネイティブ認証からAdobe Identity Management System （IMS）に [&#x200B; エンドユーザー認証モードを移行 &#x200B;](../../technotes/using/ac-ims.md) することを強くお勧めします。 Campaign v8 では、ネイティブ認証を使用してに接続することはできません。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
 

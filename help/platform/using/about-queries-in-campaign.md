@@ -2,15 +2,14 @@
 product: campaign
 title: Campaign のクエリについて
 description: Campaign のクエリについて
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 0bbe3bd199c664d30513a0c50203248d703451cd
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,30 +21,30 @@ ht-degree: 11%
 
 汎用クエリエディターは、すべてのクエリ機能を一元化します。 これにより、制限フィルターを作成して保存し、そのフィルターをターゲティングワークフローのクエリボックスなどの他のコンテキストで再利用できます。
 
-![&#x200B; クエリエディターにアクセスしてテーブルを選択する &#x200B;](assets/query_editor_nveau_21.png)
+![ クエリエディターにアクセスしてテーブルを選択する ](assets/query_editor_nveau_21.png)
 
 
 >[!BEGINTABS]
 
 >[!TAB  データベースのクエリ ]
 
-クエリの作成手順について詳しくは、**[Campaign v8 （コンソール）ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+クエリの作成手順について詳しくは、**[Campaign v8 （コンソール）ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB  ワークフローへのクエリの追加 ]
 
-**[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}** では、ワークフローのコンテキストでクエリの作成に関連する主な手順を説明します。
+**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}** では、ワークフローのコンテキストでクエリの作成に関連する主な手順を説明します。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!TAB  フィルター条件 ]
 
-クエリをデザインするには、クエリエディターでフィルター条件を選択する必要があります。 使用可能な機能とユースケースについて詳しくは、**[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}** を参照してください
+クエリをデザインするには、クエリエディターでフィルター条件を選択する必要があります。 使用可能な機能とユースケースについて詳しくは、**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}** を参照してください
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 

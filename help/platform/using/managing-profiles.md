@@ -9,10 +9,10 @@ topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 hidefromtoc: true
-source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 82%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
-> * プロファイルの管理方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
+> * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
+
+> * プロファイルの管理方法について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
 
 <!--

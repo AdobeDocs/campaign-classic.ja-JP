@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '1291'
-ht-degree: 100%
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 99%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 100%
 
 複数のコントロールインスタンスを使用するには、この設定をすべての実行インスタンスで実行する必要があります。
 
-1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーやビューの作成について詳しくは、[このページ](../../platform/using/access-management-folders.md)を参照してください。
+1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーとビューについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
    ![](assets/messagecenter_multi_control_3.png)
 

@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;フォルダーまたは&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーをビューとして設定しないでください。アクセス権の問題が発生するおそれがあるからです。 フォルダーをビューとして設定する方法について詳しくは、[この節](../../platform/using/access-management-folders.md)を参照してください。
+>実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;フォルダーまたは&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーをビューとして設定しないでください。アクセス権の問題が発生するおそれがあるからです。 フォルダーのビューとしての設定について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
 ## テンプレートへのルーティング {#routing-towards-a-template}
 

@@ -59,7 +59,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 * ドイツ語
 * 日本語
 
-Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
@@ -110,11 +110,11 @@ Adobe Campaign エクスプローラーにアクセスするには、ツール�
 
 Campaign エクスプローラーについて詳しくは、Adobe Campaign v8 （コンソール）ドキュメントの次のページを参照してください。
 
-* [Campaign ユーザーインターフェイスの概要 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
+* [Campaign ユーザーインターフェイスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
 
-* [Campaign UI 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
+* [Campaign UI 設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [ エクスプローラーでのフォルダーとビューの管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
+* [&#x200B; エクスプローラーでのフォルダーとビューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
 
 
 ## リストの操作 {#manage-and-customize-lists}
@@ -123,7 +123,7 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 >[!NOTE]
 >
->Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
 
 ## 列挙の管理{#managing-enumerations}
 

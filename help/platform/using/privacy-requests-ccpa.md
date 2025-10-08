@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
 値はいくつかの方法で入力できます。
 
-* Campaign のインターフェイスを使用した受信者の詳細の編集
+* 受信者の詳細を編集した Campaign のインターフェイスの使用
 * API の使用
 * データインポートワークフローの使用
 
@@ -87,6 +87,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。オプトアウトした受信者のみを表示するフィルターを作成することもできます。フィルターの作成について詳しくは、[こちら](../../platform/using/creating-filters.md)を参照してください。
+1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。オプトアウトした受信者のみを表示するフィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+
 
    ![](assets/privacy-ccpa-7.png)

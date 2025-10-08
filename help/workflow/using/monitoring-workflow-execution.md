@@ -6,10 +6,10 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '2100'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
@@ -104,12 +104,12 @@ ht-degree: 100%
 ## ワークテーブルとワークフローのスキーマ {#worktables-and-workflow-schema}
 
 ワークフローは、特定のアクティビティ経由で操作されるワークテーブルを伝達します。
-Adobe Campaign では、データ管理アクティビティ経由で、ワークフローの作業用テーブルの列の編集、名前変更およびエンリッチメントが可能です。例えば、契約の共同受益者に関する追加情報を集める際に、クライアントのニーズに従った命名法に応じて列の名前を付けることができます。
+Adobe Campaign では、データ管理アクティビティ経由で、ワークフローのワークテーブルの列の編集、名前変更およびエンリッチメントが可能です。例えば、契約の共同受益者に関する追加情報を集める際に、クライアントのニーズに従った命名法に応じて列の名前を付けることができます。
 
 さらに、各種作業のディメンション間にリンクを作成したり、ディメンションの変更を定義することもできます。例えば、データベース内に記録された各契約について、契約のメイン所有者を指名し、追加情報内の共同所有者データを使用します。
 
 ワークフローが停止すると、ワークフローのワークテーブルは自動的に削除されます。
-作業用テーブルを保持したい場合、**[!UICONTROL リストの更新]**&#x200B;アクティビティを使用してリストに保存します（[リストの更新](list-update.md)を参照）。
+ワークテーブルを保持したい場合、**[!UICONTROL リストの更新]**&#x200B;アクティビティを使用してリストに保存します（[リストの更新](list-update.md)を参照）。
 
 ## エラーの管理 {#managing-errors}
 
@@ -284,7 +284,4 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 ![](assets/workflow-monitoring-filter.png)
 
-詳しくは、次の節を参照してください。
-
-* [詳細フィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [フィルターの保存](../../platform/using/creating-filters.md#saving-a-filter)
+フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。

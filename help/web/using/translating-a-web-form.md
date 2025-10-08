@@ -5,10 +5,10 @@ description: web フォームの翻訳
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 100%
+source-wordcount: '1646'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 ### 文字列のフィルタリング {#filtering-strings}
 
-デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。詳しくは、[このページ](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
+デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 

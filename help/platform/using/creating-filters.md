@@ -2,11 +2,13 @@
 product: campaign
 title: フィルターの作成
 description: フィルターの作成
+hide: true
+hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 89%
+source-wordcount: '124'
+ht-degree: 87%
 
 ---
 
@@ -16,13 +18,7 @@ ht-degree: 89%
 
 ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
->[!NOTE]
->
->ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータはクリーンアップが必要になる場合があります。 特に、データの更新時に問題が発生した場合に必要です。それには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
-
->[!NOTE]
->
->フィルターとその使用方法について詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
+**フィルターとその使用方法** について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
 
 
 <!--

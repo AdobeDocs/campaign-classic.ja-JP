@@ -4,11 +4,12 @@ title: Campaign Classic のヘルプおよびサポートオプション
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 feature: Troubleshooting
 hidefromtoc: true
+hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '653'
+ht-degree: 99%
 
 ---
 
@@ -133,11 +134,11 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} で利用できるようになりました。新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} で利用できるようになりました。新しいシステムでは、ユーザーごとに、適切な権限を持つ新しい個別のアカウントが必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。[詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}。
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [ 会話に参加 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}。
 
 ### Campaign ダウンロードセンターへのアクセス
 
@@ -147,4 +148,4 @@ Campaign 管理者は、[このページ](https://experience.adobe.com/#/downloa
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank} を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank}を参照してください。

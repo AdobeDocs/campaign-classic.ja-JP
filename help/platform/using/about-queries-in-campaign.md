@@ -7,41 +7,45 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 11%
 
 ---
 
 # クエリの概要{#about-queries-in-campaign}
 
+クエリツールはアプリケーションの様々なレベルで使用でき、ターゲット母集団の定義、顧客のセグメント化、トラッキングログの抽出とフィルタリング、フィルターの作成などに使用できます。
 
+**[!UICONTROL ツール/汎用クエリエディター…」メニューからアクセスできる専用のアシスタントである汎用クエリエディターが用意されて]** ます。 このエディタを使用すると、データベース・クエリーで情報の抽出、整理、グループ化、ソートを行うことができます。 例えば、特定の期間中にニュースレターリンクで n 回を超えてクリックした受信者を取得できます。
 
-Adobe Campaign のクエリツールは、ターゲット母集団の作成、顧客のセグメント化、トラッキングログの抽出とフィルター、フィルターの作成などを行うために、ソフトウェアの複数のレベルで使用できます。
+汎用クエリエディターは、すべてのクエリ機能を一元化します。 これにより、制限フィルターを作成して保存し、そのフィルターをターゲティングワークフローのクエリボックスなどの他のコンテキストで再利用できます。
 
-Adobe Campaign のクエリツールでは、専用のアシスタントである汎用クエリエディターを使用して、データベースに対してクエリを実行できます。汎用クエリエディターにアクセスするには、**[!UICONTROL ツール／汎用クエリエディター...]** メニューを使用します。汎用クエリエディターでは、データベースに格納されている情報を抽出し、構成、グループ化、並べ替えなどをおこなうことができます。例えば、ユーザーは、特定の期間にニュースレター内のリンクを「n」回以上クリックした受信者を収集することができます。このツールでは、ニーズに応じて結果を収集、並べ替えおよび表示できます。
+![ クエリエディターにアクセスしてテーブルを選択する ](assets/query_editor_nveau_21.png)
 
-このツールは、Adobe Campaign のすべてのクエリ機能を組み合わせたものです。例えば、制限フィルターを作成して保存できます。つまり、汎用クエリエディターで作成したユーザーフィルターを、ターゲティングワークフローのクエリボックスなどで使用できます。
-
-クエリは、選択したテーブルのフィールドを使用するか、数式を使用して作成します。
 
 >[!BEGINTABS]
 
->[!TAB クエリドキュメント]
+>[!TAB  データベースのクエリ ]
 
-クエリについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}を参照してください。
-
-
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+クエリの作成手順について詳しくは、**[Campaign v8 （コンソール）ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
->[!TAB クエリの作成]
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
-クエリ作成に関連する主な手順については、次の [Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}を参照してください。
+
+>[!TAB  ワークフローへのクエリの追加 ]
+
+**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}** では、ワークフローのコンテキストでクエリの作成に関連する主な手順を説明します。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
+>[!TAB  フィルター条件 ]
+
+クエリをデザインするには、クエリエディターでフィルター条件を選択する必要があります。 使用可能な機能とユースケースについて詳しくは、**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}** を参照してください
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+
 >[!ENDTABS]
 
-![クエリの例を示すスクリーンショット。](assets/query_recipients_4.png)

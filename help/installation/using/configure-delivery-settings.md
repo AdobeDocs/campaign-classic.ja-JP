@@ -31,7 +31,7 @@ ht-degree: 10%
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
   ```
 
-また、ニーズと設定に応じて、[SMTP リレー ](#smtp-relay) の設定、[MTA 子プロセス ](#mta-child-processes) 数の適応、[ 送信 SMTP トラフィックの管理 ](#managing-outbound-smtp-traffic-with-affinities) の設定を実行することもできます。
+また、ニーズと設定に応じて、[SMTP リレー &#x200B;](#smtp-relay) の設定、[MTA 子プロセス &#x200B;](#mta-child-processes) 数の適応、[&#x200B; 送信 SMTP トラフィックの管理 &#x200B;](#managing-outbound-smtp-traffic-with-affinities) の設定を実行することもできます。
 
 ## SMTP リレー {#smtp-relay}
 
@@ -57,7 +57,7 @@ MTA モジュールは、SMTP ブロードキャスト（ポート 25）のネ�
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-[ メール送信の最適化 ](../../installation/using/email-deliverability.md#email-sending-optimization) も参照してください。
+[&#x200B; メール送信の最適化 &#x200B;](../../installation/using/email-deliverability.md#email-sending-optimization) も参照してください。
 
 ## アフィニティ付き送信 SMTP トラフィックの管理 {#managing-outbound-smtp-traffic-with-affinities}
 
@@ -97,7 +97,7 @@ IP アドレスとのアフィニティを介した送信 SMTP トラフィッ�
 
    >[!NOTE]
    >
-   >[ 配信サーバーの設定 ](../../installation/using/email-deliverability.md#delivery-server-configuration) も参照してください。
+   >[&#x200B; 配信サーバーの設定 &#x200B;](../../installation/using/email-deliverability.md#delivery-server-configuration) も参照してください。
 
 **関連トピック**
 * [技術的なメール設定](email-deliverability.md)

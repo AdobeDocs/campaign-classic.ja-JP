@@ -86,7 +86,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。**列挙の操作** 方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}。 「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
+>このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。**列挙の操作** 方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}。 「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 
 **[!UICONTROL 4.クリックストリーム]**
 

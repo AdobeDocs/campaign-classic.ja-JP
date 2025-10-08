@@ -189,9 +189,9 @@ Adobe Campaign データベースからデータを追加するには：
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
+  ![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
 
 ### 関数 {#functions}
 

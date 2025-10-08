@@ -21,14 +21,14 @@ ht-degree: 0%
 
 汎用クエリエディターは、すべてのクエリ機能を一元化します。 これにより、制限フィルターを作成して保存し、そのフィルターをターゲティングワークフローのクエリボックスなどの他のコンテキストで再利用できます。
 
-![ クエリエディターにアクセスしてテーブルを選択する ](assets/query_editor_nveau_21.png)
+![&#x200B; クエリエディターにアクセスしてテーブルを選択する &#x200B;](assets/query_editor_nveau_21.png)
 
 
 >[!BEGINTABS]
 
 >[!TAB  データベースのクエリ ]
 
-クエリの作成手順について詳しくは、**[Campaign v8 （コンソール）ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+クエリの作成手順について詳しくは、**[Campaign v8 （コンソール）ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 >[!TAB  ワークフローへのクエリの追加 ]
 
-**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}** では、ワークフローのコンテキストでクエリの作成に関連する主な手順を説明します。
+**[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}** では、ワークフローのコンテキストでクエリの作成に関連する主な手順を説明します。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!TAB  フィルター条件 ]
 
-クエリをデザインするには、クエリエディターでフィルター条件を選択する必要があります。 使用可能な機能とユースケースについて詳しくは、**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}** を参照してください
+クエリをデザインするには、クエリエディターでフィルター条件を選択する必要があります。 使用可能な機能とユースケースについて詳しくは、**[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}** を参照してください
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 

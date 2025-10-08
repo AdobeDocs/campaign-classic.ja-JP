@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 7%
+source-wordcount: '484'
+ht-degree: 10%
 
 ---
 
@@ -63,13 +63,13 @@ MTA モジュールは、SMTP ブロードキャスト（ポート 25）のネ�
 
 >[!IMPORTANT]
 >
->アフィニティ設定は、あるサーバーから別のサーバーへと一貫している必要があります。 設定の変更は MTA を実行するすべてのアプリケーションサーバーでレプリケートする必要があるので、アフィニティ設定については、Adobeにお問い合わせいただくことをお勧めします。
+>アフィニティ設定は、あるサーバーから別のサーバーへと一貫している必要があります。 設定変更は MTA を実行するすべてのアプリケーションサーバーでレプリケートされる必要があるので、アフィニティ設定については、Adobeにお問い合わせいただくことをお勧めします。
 
 IP アドレスとのアフィニティを介した送信 SMTP トラフィックを改善できます。
 
 それには、次の手順に従います。
 
-1. **serverConf.xml** ファイルの **`<ipaffinity>`** セクションにアフィニティを入力します。
+1. **`<ipaffinity>`** serverConf.xml **ファイルの** セクションにアフィニティを入力します。
 
    1 つのアフィニティに、複数の異なる名前を付けることができます。名前を区切るには、**;** 文字を使用します。
 
@@ -88,7 +88,8 @@ IP アドレスとのアフィニティを介した送信 SMTP トラフィッ�
 
    >[!NOTE]
    >
-   >列挙について詳しくは、[ このドキュメント ](../../platform/using/managing-enumerations.md) を参照してください。
+   >**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
+
 
    次に、タイポロジで以下に示すように、使用するアフィニティを選択できます。
 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '604'
-ht-degree: 100%
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 98%
 
 ---
 
@@ -72,4 +72,4 @@ ht-degree: 100%
    * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
 
-1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。これらのカテゴリは、「**[!UICONTROL URL とクリックストリーム]**」の例に示すように、レポートに表示できます（[この節](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)を参照）。カテゴリは特定の列挙 **[!UICONTROL urlCategory]** で定義されます（[列挙の管理](../../platform/using/managing-enumerations.md)を参照）。
+1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。これらのカテゴリは、「**[!UICONTROL URL とクリックストリーム]**」の例に示すように、レポートに表示できます（[この節](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)を参照）。カテゴリは特定の定義済みリストで定義されます。 **定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。

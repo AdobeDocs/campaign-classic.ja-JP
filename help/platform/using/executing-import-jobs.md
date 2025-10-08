@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '3219'
-ht-degree: 100%
+source-wordcount: '3229'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,8 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
    * **[!UICONTROL 列挙を更新しない]**
 
-     データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。[列挙の管理](../../platform/using/managing-enumerations.md)を参照してください。
+     データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
+
 
 * 「**[!UICONTROL 変数]**」タブ
 
@@ -283,7 +284,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 >[!NOTE]
 >
->この手順は、受信者のみをインポートする場合と、デフォルトの Adobe Campaign 受信者テーブル（**nms:recipient**）を使用する場合に表示されます。
+>この手順は、受信者のみを読み込む場合と、デフォルトのAdobe Campaign受信者テーブル（**nms:recipient**）を使用する場合に表示されます。
 
 * 「**[!UICONTROL 編集]**」リンクをクリックして、受信者の関連付けまたは購読登録をおこなうフォルダー、リストまたはサービスを選択します。
 

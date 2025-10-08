@@ -5,10 +5,10 @@ description: 配信レポート
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1652'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 **[!UICONTROL 3.開封率およびクリックスルー率]**
 
-この値のテーブルは、インターネットドメインごとの配信、開封数、クリック数および反応率（生データ）を示しています。次の指標が使用されています。
+この値のテーブルは、インターネットドメインごとの配信、開封数、クリック数および反応率（生データ）の各分類を示しています。次の指標が使用されています。
 
 * **[!UICONTROL 送信済み]**：このドメインで送信されたメッセージの合計数。
 * **[!UICONTROL 苦情数]**：受信者によって望ましくないとレポートされた、このドメインのメッセージ数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。詳しくは、[この節](../../platform/using/managing-enumerations.md)を参照してください。「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
+>このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。**列挙の操作** 方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}。 「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 
 **[!UICONTROL 4.クリックストリーム]**
 

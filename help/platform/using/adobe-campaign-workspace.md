@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 1e0e75c6f0dd5a32584291205047f835e951ee9c
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 83%
 
 ## Adobe Campaign インターフェイスの詳細 {#about-adobe-campaign-interface}
 
-データベースに接続すると、Adobe Campaign ホームページが表示されます。これはダッシュボード形式になっており、各種の機能にアクセスできるリンクとショートカットから構成されています（具体的な内容は、それぞれのインストール構成と一般的なプラットフォーム設定によって異なります）。
+データベースに接続したら、Adobe Campaignのホームページにアクセスします。 このページはダッシュボードです。インストールや一般的な platform 設定に応じて、機能にアクセスできるリンクとショートカットで構成されています。
 
-ホームページの中心セクションには、Campaign のオンラインドキュメントポータル、フォーラムおよびサポート Web サイトにアクセスするためのリンクが表示されます。
+ホームページの中央のセクションにあるリンクを使用して、Campaign ドキュメントポータル、コミュニティ、Adobe カスタマーケア web サイトにアクセスできます。
 
 ![](assets/d_ncs_user_interface_home.png)
 
@@ -51,7 +51,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 
 ![](assets/language.png)
 
-次の 5 種類の言語から選択できます。
+次の言語から選択できます。
 
 * 英語（英国）
 * 英語（米国）
@@ -59,7 +59,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 * ドイツ語
 * 日本語
 
-Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
@@ -110,11 +110,11 @@ Adobe Campaign エクスプローラーにアクセスするには、ツール�
 
 Campaign エクスプローラーについて詳しくは、Adobe Campaign v8 （コンソール）ドキュメントの次のページを参照してください。
 
-* [Campaign ユーザーインターフェイスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Campaign ユーザーインターフェイスの概要 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
-* [Campaign UI 設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
+* [Campaign UI 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [&#x200B; エクスプローラーでのフォルダーとビューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
+* [ エクスプローラーでのフォルダーとビューの管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
 
 
 ## データのフィルタリング {#filters}
@@ -125,7 +125,7 @@ Campaign を参照すると、データがリストに表示されます。 組�
 
 >[!NOTE]
 >
->フィルターへのアクセス、デザインおよび共有方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>フィルターへのアクセス、デザインおよび共有方法については、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 
 ## リストの操作 {#manage-and-customize-lists}
@@ -134,7 +134,7 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 >[!NOTE]
 >
->リストの管理およびカスタマイズ方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>リストの管理およびカスタマイズ方法については、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
 
 ## 列挙の管理{#managing-enumerations}
 
@@ -148,4 +148,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

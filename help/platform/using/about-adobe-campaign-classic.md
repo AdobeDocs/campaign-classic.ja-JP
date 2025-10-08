@@ -33,14 +33,14 @@ Adobe Campaign とその開始方法について詳しくは、[Campaign v8 ド�
 
 * お使いのシステムおよびツールと Adobe Campaign クライアントコンソールの互換性を確認するには、[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を参照してください。
 
-* Adobe Campaignをインストールしてログオンする方法については、このページ [ を参照してください ](launching-adobe-campaign.md)。
+* Adobe Campaignをインストールしてログオンする方法については、このページ [&#x200B; を参照してください &#x200B;](launching-adobe-campaign.md)。
 
 
 >[!TAB Campaign UI を参照 ]
 
-* Adobe Campaignのユーザーインターフェイス [ このページ ](adobe-campaign-workspace.md) を参照してください。
+* Adobe Campaignのユーザーインターフェイス [&#x200B; このページ &#x200B;](adobe-campaign-workspace.md) を参照してください。
 
-* [Campaign エクスプローラー ](adobe-campaign-workspace.md#use-adobe-campaign-explorer) の操作方法について説明します。
+* [Campaign エクスプローラー &#x200B;](adobe-campaign-workspace.md#use-adobe-campaign-explorer) の操作方法について説明します。
 
 
 >[!ENDTABS]

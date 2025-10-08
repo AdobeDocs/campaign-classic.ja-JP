@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->フィルターとその使用方法について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
+>フィルターとその使用方法について詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
 
 
 <!--

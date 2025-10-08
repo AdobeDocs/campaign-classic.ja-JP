@@ -21,7 +21,7 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 >[!NOTE]
 >
->Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
 
 <!--
 ## Count records {#counting-records}

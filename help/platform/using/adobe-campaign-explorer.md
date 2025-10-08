@@ -23,7 +23,7 @@ Adobe Campaign エクスプローラーにアクセスするには、ツール�
 
 >[!NOTE]
 >
->Adobe Campaign エクスプローラーについて詳しくは、Campaign v8 ドキュメントの以下のページを参照してください。詳しくは、[ ユーザーインターフェイスについて ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}、その [ 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} または [ エクスプローラーでフォルダーとビューを管理する方法 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
+>Adobe Campaign エクスプローラーについて詳しくは、Campaign v8 ドキュメントの以下のページを参照してください。詳しくは、[&#x200B; ユーザーインターフェイスについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}、その [&#x200B; 設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} または [&#x200B; エクスプローラーでフォルダーとビューを管理する方法 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
 
 <!--

@@ -6,14 +6,14 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 92%
 
 ---
 
-# Adobe Campaign ワークスペース{#adobe-campaign-workspace}
+# Adobe Campaign ワークスペース {#adobe-campaign-workspace}
 
 ## Adobe Campaign インターフェイスの詳細 {#about-adobe-campaign-interface}
 
@@ -59,7 +59,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 * ドイツ語
 * 日本語
 
-Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
@@ -110,11 +110,11 @@ Adobe Campaign エクスプローラーにアクセスするには、ツール�
 
 Campaign エクスプローラーについて詳しくは、Adobe Campaign v8 （コンソール）ドキュメントの次のページを参照してください。
 
-* [Campaign ユーザーインターフェイスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Campaign ユーザーインターフェイスの概要 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
-* [Campaign UI 設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
+* [Campaign UI 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [&#x200B; エクスプローラーでのフォルダーとビューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
+* [ エクスプローラーでのフォルダーとビューの管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}。
 
 
 ## リストの操作 {#manage-and-customize-lists}
@@ -123,7 +123,7 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 >[!NOTE]
 >
->Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
+>Campaign でリストを管理およびカスタマイズする方法については、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank} を参照してください。
 
 ## 列挙の管理{#managing-enumerations}
 
@@ -137,4 +137,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

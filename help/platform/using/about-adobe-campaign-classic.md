@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: cd6687d3fd7f030fb77dcac67292fa7b0236580c
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 100%
 
 Adobe Campaign は、対話的なマーケティングキャンペーンの構築を容易にします。Adobe Campaign には、マーケティングや顧客とのやり取りをモデル化し、合理化し、自動化するための革新的な機能が用意されています。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオで主な特徴と機能を確認する](#video)
 
 >[!BEGINTABS]
 
@@ -34,7 +33,15 @@ Adobe Campaign とその開始方法について詳しくは、[Campaign v8 ド�
 
 * お使いのシステムおよびツールと Adobe Campaign クライアントコンソールの互換性を確認するには、[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を参照してください。
 
-* Adobe Campaign をインストールしてログオンする方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}の詳細なチュートリアルを参照してください。
+* Adobe Campaignをインストールしてログオンする方法については、このページ [ を参照してください ](launching-adobe-campaign.md)。
+
+
+>[!TAB Campaign UI を参照 ]
+
+* Adobe Campaignのユーザーインターフェイス [ このページ ](adobe-campaign-workspace.md) を参照してください。
+
+* [Campaign エクスプローラー ](adobe-campaign-workspace.md#use-adobe-campaign-explorer) の操作方法について説明します。
+
 
 >[!ENDTABS]
 
@@ -80,7 +87,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
@@ -106,6 +113,6 @@ The following capabilities are available. Depending on your license agreement, s
 
 このビデオでは、Campaign Classic の主な特長と機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

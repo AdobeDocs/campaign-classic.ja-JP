@@ -5,9 +5,9 @@ description: 調査で収集されたデータを公開、トラッキング、�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '901'
 ht-degree: 100%
 
 ---
@@ -162,4 +162,4 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
 ## データの標準化 {#standardizing-data}
 
-エイリアスを使用して収集したデータに対して、Adobe Campaign で標準化プロセスを設定できます。これにより、データベースに保存されているデータを標準化できます。それには、関連情報を含んだ項目別リストでエイリアスを定義します。[詳細情報](../../platform/using/managing-enumerations.md#about-enumerations)
+エイリアスを使用して収集したデータに対して、Adobe Campaign で標準化プロセスを設定できます。これにより、データベースに保存されているデータを標準化できます。それには、関連情報を含んだ項目別リストでエイリアスを定義します。**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。

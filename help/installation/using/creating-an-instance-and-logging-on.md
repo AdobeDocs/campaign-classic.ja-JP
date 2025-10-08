@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 9%
@@ -72,7 +72,7 @@ Adobe Campaign コンソールが起動したら、ログインページにア�
 
 1. 「**[!UICONTROL 言語]**」ドロップダウンリストで、**インスタンス言語** として英語（米国）、英語（英国）、フランス語、日本語のいずれかを選択します。
 
-   アメリカ英語とイギリス英語の違いについては、[Campaign v8 （コンソール）ドキュメント &#x200B;](.https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#formats) を参照してください。
+   アメリカ英語とイギリス英語の違いについては、[Campaign v8 （コンソール）ドキュメント ](.https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui) を参照してください。
 
    >[!CAUTION]
    >
@@ -82,4 +82,4 @@ Adobe Campaign コンソールが起動したら、ログインページにア�
 
    >[!NOTE]
    >
-   >インスタンスはコマンドラインから作成できます。 詳しくは、[&#x200B; コマンドライン &#x200B;](../../installation/using/command-lines.md) を参照してください。
+   >インスタンスはコマンドラインから作成できます。 詳しくは、[ コマンドライン ](../../installation/using/command-lines.md) を参照してください。

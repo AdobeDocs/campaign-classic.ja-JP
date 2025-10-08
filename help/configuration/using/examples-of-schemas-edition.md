@@ -5,10 +5,10 @@ description: スキーマエディションの例
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 2%
+source-wordcount: '671'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## テーブルの拡張 {#extending-a-table}
 
-**nms:recipient** スキーマ受信者テーブルを拡張するには、次の手順を適用します。
+**nms:recipient** スキーマ受信者テーブルを拡張するには、以下の手順を適用します。
 
 1. 次のデータを使用して、拡張スキーマ（**cus:extension**）を作成します。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   この例では、インデックス付きフィールド（**fidelity**）が追加され、**location** 要素（既に **nms:recipient** スキーマに存在）が列挙フィールド（**area**）で補完されます。
+   この例では、インデックス付きフィールド（**fidelity**）が追加され、**nms** スキーマに既に存在している **location:recipient** 要素に列挙フィールド（**area**）が追加されます。
 
    >[!IMPORTANT]
    >
@@ -235,7 +235,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 関連テーブルを使用すると、カーディナリティ N-N を持つ 2 つのテーブルをリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれます。
 
-グループ（**nms:group**）と受信者（**nms:recipient**）の間の関係テーブルの例。
+グループ（**nms:group**）と受信者（**nms:recipient**）間の関係テーブルの例。
 
 関係テーブルのSource スキーマ：
 
@@ -335,8 +335,9 @@ xtkschema="xtk:srcSchema">
 
 ## 関連トピック
 
-* [列挙の操作](../../platform/using/managing-enumerations.md)
+* **定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
 
 * [Campaign スキーマの基本を学ぶ](../../configuration/using/about-schema-edition.md)
 
 * [データベース構造の更新](../../configuration/using/updating-the-database-structure.md)
+

@@ -7,9 +7,9 @@ feature: Campaigns, Templates
 hide: true
 hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1168'
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+workflow-type: tm+mt
+source-wordcount: '1171'
 ht-degree: 100%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >列挙について詳しくは、[はじめに](../../platform/using/managing-enumerations.md)の節を参照してください。
+  >**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
 
 * **キャンペーンのタイプ**&#x200B;を選択：単一、繰り返しまたは定期的。デフォルトでは、キャンペーンテンプレートは単一のキャンペーンに適用されます。繰り返しキャンペーンと定期的キャンペーンについて詳しくは、[こちらの節](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)を参照してください。
 * キャンペーン期間、すなわちキャンペーンが実施される日数を指定します。このテンプレートをベースとしてキャンペーンを作成すると、キャンペーンの開始日と終了日が自動的に設定されます。

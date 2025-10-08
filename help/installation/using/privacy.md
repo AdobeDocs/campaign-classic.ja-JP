@@ -4,7 +4,7 @@ title: パーソナライゼーションとプライバシー
 description: プライバシーとパーソナライゼーションに関するセキュリティのベストプラクティスについて説明します
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 ### レコメンデーション
 
-上記を使用していないことを検証および確認するには、[Campaign 汎用クエリエディター ](../../platform/using/steps-to-create-a-query.md) でトラッキング URL テーブルに対してクエリを実行するか、[ クエリアクティビティ ](../../workflow/using/query.md) でフィルター条件を使用してワークフローを作成します。
+上記を使用していないことを検証および確認するには、[Campaign 汎用クエリエディター ](../../platform/using/about-queries-in-campaign.md) でトラッキング URL テーブルに対してクエリを実行するか、[ クエリアクティビティ ](../../workflow/using/query.md) でフィルター条件を使用してワークフローを作成します。
 
 例：
 
@@ -54,7 +54,7 @@ ht-degree: 20%
 
 ビルド 19.1.4 を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
-Campaign がホストするマネージドCloud Serviceまたはハイブリッドのお客様は、URL 署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡する必要があります。
+Campaign がホストする Managed Cloud Services またはハイブリッドのお客様は、URL 署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡する必要があります。
 
 ハイブリッドアーキテクチャで Campaign を実行している場合、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
@@ -151,7 +151,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで次の
    >
    >`$(loginId) = 0 or $(login) = 'admin'` を `hasNamedRight('admin')` に置き換えて、管理者権限を持つすべてのユーザーにこれらのパスワードを表示させることができます。
 
-## PI を使用したProtectページ
+## PI でページを保護
 
 オンプレミスのお客様には、ミラーページ、web アプリケーションなどの個人情報（PI）を含む可能性のあるページを保護することを強くお勧めします。
 

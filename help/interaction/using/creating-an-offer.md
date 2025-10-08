@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 オファーターゲットにはフィルターを適用できます。
 
-フィルターを適用するには、「**[!UICONTROL クエリを編集]**」リンクをクリックし、適用するフィルターを選択します（[この節](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)を参照）。
+フィルターを適用するには、「**[!UICONTROL クエリを編集]**」リンクをクリックし、適用するフィルターを選択します[この節](../../platform/using/about-adobe-campaign-classic.md)を参照してください。
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -113,7 +113,7 @@ ht-degree: 100%
    >
    >選択されたオファーに関して、複数の重み付けの実施要件を満たすターゲットには、それらのうち最大の重み付けが適用されます。オファーエンジンの呼び出し時、1 つのオファーが選択される回数は、1 つのコンタクト先あたり最大 1 回です。
 
-### オファーの適格要件ルールの概要 {#a-summary-of-offer-eligibility-rules}
+### オファーの実施要件ルールの概要 {#a-summary-of-offer-eligibility-rules}
 
 設定が完了すると、実施要件ルールの概要をオファーダッシュボードで利用できるようになります。
 

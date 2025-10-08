@@ -21,7 +21,7 @@ ht-degree: 100%
 Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。また、次のこともできます。
 
 * [チュートリアルビデオを見る](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
-* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja)
 * サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](../../support.md)
 
 ## &#x200B;1. Campaign を最新版にアップグレードするにはどうすればよいですか？ {#how-can-i-upgrade-campaign-to-the-latest-version-}

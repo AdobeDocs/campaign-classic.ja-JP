@@ -6,10 +6,10 @@ feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 新しい受信者の作成 {#creating-a-new-recipient}
 
-1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の[受信者の編集](#editing-a-recipient)の節で追加するので、**[!UICONTROL 敬称]**&#x200B;は選択しないでください。詳しくは、[受信者の追加](../../platform/using/adding-profiles.md)を参照してください。
+1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の **[!UICONTROL 受信者の編集]** の節で追加するので、[ 敬称 ](#editing-a-recipient) は選択しないでください。
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -57,11 +57,11 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ある 1 つのデータの変更に関する以下の手順では、データレプリケーションを使用する際に Campaign v7 が Campaign Standard のプライマリデータベースになる仕組みのシンプルな例を示します。Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
 
-1. [新しい受信者の作成](#creating-a-new-recipient)で新しく作成した受信者を選択して、受信者の名前を編集します。例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。詳しくは、[プロファイルの編集](../../platform/using/editing-a-profile.md)を参照してください。
+1. [ 新しい受信者の作成 ](#creating-a-new-recipient) で新しく作成した受信者を選択して、受信者の名前を編集します。 例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. 受信者の名前が Campaign Standard で更新されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ja)を参照してください。
+1. 受信者の名前がCampaign Standardで更新されたことを確認します。 Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ja)を参照してください。
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -85,7 +85,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 1. 「**[!UICONTROL クエリ]**」アクティビティをダブルクリックして、レプリケートされたデータベースで使用できるパラメーターを選択します。例えば、以下のことができます。
 
    * **[!UICONTROL プロファイル]**&#x200B;をワークスペースにドラッグします。フィールドのプルダウンメニューを使用して、「**[!UICONTROL 外部リソース]**」を選択し、Campaign v7 からレプリケートされたプロファイルを検索します。
-   * 別のクエリパラメーターをドラッグして、レプリケートされたプロファイルをさらにターゲティングします。
+   * 別のクエリパラメーターをドラッグして、レプリケートされたプロファイルをさらにターゲットにします。
 
 ## 配信の作成 {#creating-a-delivery}
 
@@ -170,7 +170,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Campaign v7 の受信者データが更新されて、ユーザーによる購読解除が反映されます。受信者の「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」ボックスがオンになっていることを確認します。Campaign v7 で受信者を表示する方法については、[プロファイルの編集](../../platform/using/editing-a-profile.md)を参照してください。
+1. Campaign v7 の受信者データが更新されて、ユーザーによる購読解除が反映されます。受信者の「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」ボックスがオンになっていることを確認します。
 
    ![](assets/acs_connect_profile_sync_22.png)
 

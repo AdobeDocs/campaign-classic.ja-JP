@@ -6,10 +6,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: ht
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 
 >[!TAB プロファイルのドキュメント]
 
-プロファイル、その作成方法と編集方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}の詳細なドキュメントを参照してください。
+プロファイル、その作成方法および編集方法について詳しくは、**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}** に記載されている詳細なドキュメントを参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
 
 >[!TAB プロファイルの作成と編集]
 
-プロファイルを編集、管理、追加する方法については、次の Campaign v8 ドキュメントを参照してください。
+プロファイルの編集、管理、追加方法については、**Campaign v8 ドキュメント** を参照してください。
 
 * [プロファイルの追加](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}：新しいプロファイルを追加および作成するための主な手順について説明します。
 * [プロファイルの編集](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/view-profiles?lang=ja#_blank){target=_blank}：既存のプロファイルを表示して編集します。
@@ -47,7 +47,7 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 
 >[!TAB プロファイルのインポートとエクスポート]
 
-プロファイルとデータのインポートおよびエクスポート方法については、次の Campaign v8 ドキュメントを参照してください。
+プロファイルとデータのインポートおよびエクスポート方法については、**Campaign v8 ドキュメント** を参照してください。
 
 * [プロファイルのインポート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}：ワークフローを使用してプロファイルをインポートできます。
 * [データのインポート／エクスポート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target=_blank}：汎用インポート／エクスポートを使用して、データおよびプロファイルをインポートまたはエクスポートする方法について説明します。
@@ -121,9 +121,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -139,9 +139,9 @@ Learn how to access profile data, sort and filter profiles and manually create a
 
 This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
->[!VIDEO](https://video.tv.adobe.com/v/326751?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **See also**
 

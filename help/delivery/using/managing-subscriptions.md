@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1174'
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+workflow-type: tm+mt
+source-wordcount: '1160'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,6 @@ ht-degree: 100%
 次の方法で、受信者を情報サービスに登録できます。
 
 * サービスを手動で追加するには、受信者のプロファイルの「**[!UICONTROL 購読]**」タブから「**[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
-
-  詳しくは、[この節](../../platform/using/editing-a-profile.md)のプロファイル編集に関する部分を参照してください。
 
 * 一連の受信者をこのサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、インポートまたはマウスを使用した直接選択から取得できます。この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択]**&#x200B;を選択し、該当するサービスを選択して、操作を開始します。
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートアシスタントの最後のステップで、該当するサービスを選択します。

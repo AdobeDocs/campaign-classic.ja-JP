@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: データモデルのベストプラクティス
-description: Campaign Classicデータモデルの操作方法を学ぶ
+description: Campaign Classic データモデルの操作方法を学ぶ
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '4030'
+source-wordcount: '4022'
 ht-degree: 53%
 
 ---
@@ -103,7 +103,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 | 識別子 | 説明 | ベストプラクティス |
 |--- |--- |--- |
 | ID | <ul><li>ID は、Adobe Campaign テーブルの物理的なプライマリキーです。標準のテーブルの場合は、シーケンスから生成された 32 ビットの番号になります</li><li>この ID は通常、特定のAdobe Campaign インスタンスに対して一意です。 </li><li>自動生成された ID は、スキーマ定義に表示できます。 *autopk=&quot;true&quot;* 属性を検索します。</li></ul> | <ul><li>自動生成された識別子は、ワークフローやパッケージ定義で参照として使用しないでください。</li><li>ID が常に増加する数になるという前提は立てないでください。</li><li>標準テーブルの ID は 32 ビットの番号なので、このタイプは変更しないでください。 この番号は、同じ名前のセクションで説明されている「シーケンス」から取得されます。</li></ul> |
-| 名前（または内部名） | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。この値は、通常は生成された名前で手動で更新できます。</li><li>この識別子は、Adobe Campaign の別のインスタンスにデプロイされたときにその値を保持し、空にはしないでください。</li></ul> | <ul><li>オブジェクトをある環境から別の環境にデプロイする場合は、Adobe Campaignで生成されたレコード名を変更します。</li><li>オブジェクトに名前空間属性（*schema*&#x200B;など）がある場合、この共通の名前空間は、作成されたすべてのカスタムオブジェクトで活用されます。一部の予約済み名前空間（*nms*、*xtk*、*nl*、*ncl*、*crm*、*xxl*）は使用しないでください。</li><li>オブジェクトに名前空間（*workflow* や *delivery* など）がない場合、この名前空間は内部名オブジェクトのプレフィックスとして追加されます（*namespaceMyObjectName*）。</li><li>スペース「」、セミコロン「:」、ハイフン「–」などの特殊文字は使用しないでください。 これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。例えば、「abc-def」と「abc:def」は「abc_def」として保存され、相互に上書きされます。</li></ul> |
+| 名前（または内部名） | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。この値は、通常は生成された名前で手動で更新できます。</li><li>この識別子は、Adobe Campaign の別のインスタンスにデプロイされたときにその値を保持し、空にはしないでください。</li></ul> | <ul><li>オブジェクトをある環境から別の環境にデプロイする場合は、Adobe Campaignで生成されたレコード名を変更します。</li><li>オブジェクトに名前空間属性（*スキーマ*&#x200B;など）がある場合、この共通の名前空間は、作成されたすべてのカスタムオブジェクトで活用されます。一部の予約済み名前空間（*nms*、*xtk*、*nl*、*ncl*、*crm*、*xxl*）は使用しないでください。</li><li>オブジェクトに名前空間（*workflow* や *delivery* など）がない場合、この名前空間は内部名オブジェクトの接頭辞として追加されます（*namespaceMyObjectName*）。</li><li>スペース「」、セミコロン「:」、ハイフン「–」などの特殊文字は使用しないでください。 これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。例えば、「abc-def」と「abc:def」は「abc_def」として保存され、相互に上書きされます。</li></ul> |
 | ラベル | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
 
 ## カスタム内部キー {#custom-internal-keys}
@@ -146,13 +146,13 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルの自
 
 デフォルトでは、カスタムシーケンスは+1,000～+2.1BB の範囲の値を持ちます。 技術的には、負の ID を有効にすることで、4BB の全範囲を取得することが可能です。 これは慎重に使用してください。負の数から正の数に切り替えると、1 つの ID が失われます。通常、生成された SQL クエリでは、レコード 0 はAdobe Campaignによって無視されます。
 
-シーケンスの概要については、[ このビデオ ](https://helpx.adobe.com/jp/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html) をご覧ください。
+シーケンスの概要については、[ このビデオ ](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html) をご覧ください。
 
 ## インデックス {#indexes}
 
-インデックスは、パフォーマンスにとって不可欠です。 スキーマ内のキーを宣言すると、Adobeによってキーのフィールドにインデックスが自動的に作成されます。 また、キーを使用しないクエリに対して、さらにインデックスを宣言できます。
+インデックスは、パフォーマンスにとって不可欠です。 スキーマ内のキーを宣言すると、Adobeによって、キーのフィールドにインデックスが自動的に作成されます。 また、キーを使用しないクエリに対して、さらにインデックスを宣言できます。
 
-Adobeでは、パフォーマンスを向上させる可能性があるので、追加のインデックスを定義することをお勧めします。
+Adobeでは、パフォーマンスが向上する可能性があるので、追加のインデックスを定義することをお勧めします。
 
 ただし、次の点に注意してください。
 
@@ -165,12 +165,13 @@ Adobeでは、パフォーマンスを向上させる可能性があるので、
 * 定義する必要があるインデックスを慎重に選択します。
 * 標準テーブルからネイティブインデックスを削除しないでください。
 
-<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you've completed this important import, it is possible to enable the index(es).-->
 
 ### 例
 
 インデックスの管理は非常に複雑になる可能性があるので、その仕組みを理解することが重要です。 この複雑さを説明するために、名と姓をフィルタリングして受信者を検索するなどの基本的な例について説明します。 手順は次のとおりです。
-1. データベース内のすべての受信者を一覧表示するフォルダーに移動します。 詳しくは、[ プロファイルの管理 ](../../platform/using/managing-profiles.md) を参照してください。
+
+1. データベース内のすべての受信者を一覧表示するフォルダーを参照します。
 1. 「**[!UICONTROL 名]** フィールドを右クリックします。
 1. **[!UICONTROL このフィールドでフィルター]** を選択します。
 
@@ -265,7 +266,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 ### 一般的なレコメンデーション {#general-recommendations}
 
-* クエリで「CONTAINS」などの演算子は使用しません。フィルタリングしたい対象がはっきりしている場合は、「EQUAL TO」または他の特定のフィルター演算子を使用して同じ条件を適用します。
+* クエリでは「CONTAINS」などの演算子は使用しないでください。フィルタリングしたい対象がはっきりしている場合は、「EQUAL TO」または他の特定のフィルター演算子を使用して同じ条件を適用します。
 * ワークフローでデータを作成する際は、インデックスのないフィールドと結合しないでください。
 * インポートやエクスポートなどのプロセスは営業時間外に行われるようにします。
 * 日常のすべてのアクティビティがわかるスケジュールがあることを確認して、そのスケジュールに従います。
@@ -298,7 +299,7 @@ Adobe Campaign は、サードパーティのデータベースエンジンを�
 
 * **小さいサイズ**&#x200B;のテーブルは、配信テーブルに似ています。
 * **中程度のサイズ**&#x200B;のテーブルは、受信者テーブルと同じくらいのサイズです。顧客 1 人につき 1 件のレコードがあります。
-* **大きいサイズ**&#x200B;のテーブルは、広範ログテーブルに似ています。1 人の顧客につき多くのレコードがあります。
+* **大きいサイズ**のテーブルは、広範ログテーブルに似ています。1 人の顧客につき多くのレコードがあります。
 例えば、データベースに 1,000 万人の受信者が含まれている場合、広範ログテーブルには 1 億件から 2 億件くらいのメッセージが格納され、配信テーブルには数千件のレコードが格納されます。
 
 PostgreSQL では、[TOAST](https://wiki.postgresql.org/wiki/TOAST) メカニズムを避けるために、行は 8KB を超えてはいけません。 したがって、システム（メモリとCPU）の最適なパフォーマンスを維持するために、列数と各行のサイズをできる限り小さくするようにしてください。

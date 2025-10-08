@@ -25,7 +25,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!TAB Campaign の概要]
 
-Adobe Campaignの機能と使い始める方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/get-started){target=_blank} を参照してください。
+Adobe Campaignの機能と使い始める方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/get-started){target=_blank} を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/get-started){target=_blank}
 
@@ -33,13 +33,13 @@ Adobe Campaignの機能と使い始める方法について詳しくは、[Campa
 
 * お使いのシステムおよびツールと Adobe Campaign クライアントコンソールの互換性を確認するには、[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を参照してください。
 
-* Adobe Campaignをインストールしてログオンする方法については、このページ [ を参照してください ](launching-adobe-campaign.md)。
+* Adobe Campaignをインストールしてログオンする方法については、このページ [&#x200B; を参照してください &#x200B;](launching-adobe-campaign.md)。
 
 >[!TAB Campaign UI を参照 ]
 
-* Adobe Campaignのユーザーインターフェイス [ このページ ](adobe-campaign-workspace.md) を参照してください。
+* Adobe Campaignのユーザーインターフェイス [&#x200B; このページ &#x200B;](adobe-campaign-workspace.md) を参照してください。
 
-* [Campaign エクスプローラー ](adobe-campaign-workspace.md#use-adobe-campaign-explorer) の操作方法について説明します。
+* [Campaign エクスプローラー &#x200B;](adobe-campaign-workspace.md#use-adobe-campaign-explorer) の操作方法について説明します。
 
 >[!ENDTABS]
 

@@ -7,22 +7,23 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 22aa5f76541e6ff1612907ab0b34f0ac468fb9a6
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
-# Adobe Campaign エクスプローラーの使用 {#using-adobe-campaign-explorer}
-
+# Adobe Campaign エクスプローラーの使用
 
 
 Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。これにより、Adobe Campaign のすべての機能、設定画面およびプラットフォーム要素の一部の詳細ビューにアクセスできます。
 
 >[!NOTE]
 >
->Adobe Campaign エクスプローラーについて詳しくは、Campaign v8 ドキュメントの次のページを参照してください。詳しくは、[ユーザーインターフェイス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}、その[設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}、または[エクスプローラーでフォルダーとビューを管理する方法](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
+>Adobe Campaign エクスプローラーについて詳しくは、Campaign v8 ドキュメントの以下のページを参照してください。詳しくは、[ ユーザーインターフェイスについて ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}、その [ 設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} または [ エクスプローラーでフォルダーとビューを管理する方法 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
 
 
 <!--

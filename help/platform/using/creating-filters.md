@@ -2,21 +2,15 @@
 product: campaign
 title: フィルターの作成
 description: フィルターの作成
-feature: Profiles
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
-audience: platform
-content-type: reference
-topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 89%
 
 ---
 
 # フィルターの作成{#creating-filters}
-
 
 データのフィルタリングとは、データセットの一部を選択し、特定の条件に一致するレコードのみを選択し、そのサブセットを特定のアクション（更新、オーディエンスの作成）または分析に使用するプロセスです。
 
@@ -28,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->フィルターとその使用方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}を参照してください。
+>フィルターとその使用方法について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
 
 
 <!--

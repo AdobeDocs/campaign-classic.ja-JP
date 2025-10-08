@@ -6,10 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（nms:recipient）
+  受信者テーブル （nms:recipient）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 汎用クエリエディター]**&#x200B;を開き、受信者テーブル（**nms:recipient**）を選択します。
+1. **[!UICONTROL 汎用クエリエディター]** を開き、受信者テーブル（**nms:recipient**）を選択します。
 
    ![](assets/query_editor_02.png)
 
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL メールドメイン]**」フィールドおよび「**[!UICONTROL プライマリキー]**」フィールドを選択します。「**[!UICONTROL プライマリキー]**」フィールドでカウントを実行します。
 
-   プライマリキーカウントについて詳しくは、[この節](../../platform/using/defining-filter-conditions.md#building-expressions)を参照してください。
+   プライマリキーカウントについて詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
 1. 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにします。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 1. **[!UICONTROL データのフィルター]**&#x200B;で、「**[!UICONTROL フィルター条件]**」を選択します。**[!UICONTROL ターゲット要素]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 次へ]**」をクリックします。
 1. **[!UICONTROL データのグループ化]**&#x200B;ウィンドウで、「**[!UICONTROL 追加]**」をクリックして「**[!UICONTROL メールドメイン]**」を選択します。
 
-   このデータのグループ化ウィンドウは、「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにした場合にのみ表示されます。
+   このデータグループウィンドウは、「**[!UICONTROL グループ化を処理（GROUP BY + HAVING]）**」チェックボックスがオンになっている場合にのみ表示されます。
 
    ![](assets/query_editor_blocklist_04.png)
 

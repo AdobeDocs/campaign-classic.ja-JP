@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1694'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '1693'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](querying-using-grouping-management.md)を参照してください。
 
-   式ビルダーを、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。その後、選択した条件の組み合わせに&#x200B;**[!UICONTROL 対応する SQL クエリ]**&#x200B;をプレビューできます。詳しくは、この[節](../../platform/using/defining-filter-conditions.md#building-expressions)を参照してください。
+   式ビルダーを、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。その後、選択した条件の組み合わせに&#x200B;**[!UICONTROL 対応する SQL クエリ]**&#x200B;をプレビューできます。詳しくは、この[節](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
    後で再利用したい場合、フィルターを保存します。
 
@@ -160,13 +160,13 @@ Adobe Campaign データベースからデータを追加するには：
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
-この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
+この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲット識別子を記録するテーブルの名前で、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）であり、**[!UICONTROL recCount]** はテーブル内の要素数です。
 
 この値は、ワークテーブルのスキーマです。
-このパラメーターは、**[!UICONTROL tableName]** と **[!UICONTROL schema]** のすべてのトランジションで有効です。
+このパラメーターは、**[!UICONTROL tableName]** と&#x200B;**[!UICONTROL スキーマ]**&#x200B;のすべてのトランジションで有効です。
 
 ## クエリの最適化 {#optimizing-queries}
 
@@ -198,7 +198,7 @@ Adobe Campaign データベースからデータを追加するには：
 * `Lower(...)` のような関数には注意が必要です。Lower 関数を使用する場合、インデックスは使用されません。
 * 「like」演算子または「upper」や「lower」演算子を使用するクエリには注意が必要です。「upper」の適用は、データベースフィールドではなくユーザー入力におこないます。
 
-  関数について詳しくは、[この節](../../platform/using/defining-filter-conditions.md#list-of-functions)を参照してください。
+  関数について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
 ### フィルタリングディメンション {#filtering-dimensions}
 

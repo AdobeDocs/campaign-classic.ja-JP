@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 エクスポートジョブを使用すると、データベースにアクセスして連絡先、クライアント、リスト、セグメントなどのデータを抽出できます。
 
-例えば、スプレッドシートでキャンペーントラッキングデータ（トラッキング履歴など）を使用すると便利です。 出力データは、CSV、TAB、XML のいずれかの形式です。
+例えば、キャンペーントラッキングデータ（トラッキング履歴など）をスプレッドシート形式で使用すると便利な場合があります。出力データは、CSV、TAB、XML のいずれかの形式です。
 
 エクスポートアシスタントでは、エクスポートの設定、オプションの定義、実行の開始を行うことができます。これは、エクスポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. 関数を呼び出すには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。詳しくは、[関数のリスト](../../platform/using/defining-filter-conditions.md#list-of-functions)を参照してください。
+1. 関数を呼び出すには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。詳しくは、[関数のリスト](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
 ## 手順5 - 列の並べ替え {#step-5---sorting-columns}
 
@@ -129,7 +129,7 @@ ht-degree: 98%
 
 ## 手順 9 - エクスポートの開始 {#step-9---launching-the-export}
 
-「**[!UICONTROL 開始]**」をクリックしてデータエクスポートを開始します。
+「**[!UICONTROL 開始]**」をクリックしてデータのエクスポートを開始します。
 
 ![](assets/s_ncs_user_export_wizard08.png)
 

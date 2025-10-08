@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このオプションで、ワークフローの作業用テーブル（targetWorkflow）、配信（targetDelivery）およびリスト（targetList）からのセカンダリレコードへの参照を処理できます。必要に応じて、これらのリンクは、フィールドとコレクションを選択するリストに表示されます。
+>このオプションで、ワークフローのワークテーブル（targetWorkflow）、配信（targetDelivery）およびリスト（targetList）からのセカンダリレコードへの参照を処理できます。必要に応じて、これらのリンクは、フィールドとコレクションを選択するリストに表示されます。
 
 1. 「**[!UICONTROL コレクションを更新して結合]**」の処理を選択します。
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. プライマリレコードへ移動するコレクションと更新するフィールドを選択します。
 
-   セカンダリレコードが 1 つまたは複数見つかったときに、これらのコレクションおよびフィールドに適用するルールを入力します。そのためには、式ビルダーを使用できます。詳しくは、[この節](../../platform/using/defining-filter-conditions.md#building-expressions)を参照してください。例えば、すべての異なるレコードの更新値のうち最新のものを必ず保持するように指定します。
+   セカンダリレコードが 1 つまたは複数見つかったときに、これらのコレクションおよびフィールドに適用するルールを入力します。そのためには、式ビルダーを使用できます。詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。例えば、すべての異なるレコードの更新値のうち最新のものを必ず保持するように指定します。
 
    次に、ルールで考慮する条件を入力します。
 
@@ -124,6 +124,6 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。

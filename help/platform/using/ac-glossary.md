@@ -6,7 +6,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '6002'
 ht-degree: 99%
@@ -272,7 +272,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 値の配分は、現在データベースに存在するスキーマ属性の値の配分を表示するツールです。これにより、使用可能な値、およびその数と割合を判断し、クエリや式を作成する際の値の大文字と小文字の区別やスペルの問題を回避できます。
 
-詳しくは、[値の配分](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)を参照してください。
+詳しくは、[値の配分](../../platform/using/about-queries-in-campaign.md)を参照してください。
 +++
 
 +++**ドメインデリゲーション**
@@ -353,7 +353,7 @@ An engine call is a server call that starts real-time processing on server side 
 エクスプローラービューは、Adobe Campaign アーティファクトおよびデータを格納したフォルダーを階層的に表示したものです。 なお、Adobe Campaign のフォルダーシステムは、通常のツリービューとは異なり、各フォルダーには配信、ワークフロー、オファーなどの特定のタイプのデータが格納されます。
 
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 
@@ -400,7 +400,7 @@ Federated Data Access の詳細は[こちら](../../installation/using/about-fda
 
 フォルダーは、特定のデータタイプのデータベースレコードを格納するエクスプローラービュー項目です。ただし、編成要素として使用され、データそのものを含まず、他のフォルダーのみを含む汎用フォルダータイプは例外です。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 
@@ -408,7 +408,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 フォルダービューは、特殊なエクスプローラーフォルダータイプで、どのようなフォルダーに属しているかに関係なく、選択したデータタイプのすべてのレコードを表示するために使用されます。フォルダービューは、分割されたデータや多数のフォルダーに分散されるデータを管理する管理ツールとして使用されます。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 +++
 
 +++**フォーム**
@@ -561,7 +561,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 ナビゲーションツリーは、Adobe Campaign のエクスプローラービューのメインナビゲーションです。ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。ナビゲーションツリーをカスタマイズし、フォルダーに対する権限を設定できます。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 

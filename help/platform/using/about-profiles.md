@@ -33,7 +33,7 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 
 >[!TAB プロファイルのドキュメント]
 
-プロファイル、その作成方法および編集方法について詳しくは、**[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}** に記載されている詳細なドキュメントを参照してください。
+プロファイル、その作成方法および編集方法について詳しくは、**[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}** に記載されている詳細なドキュメントを参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
 

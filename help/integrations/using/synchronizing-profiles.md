@@ -43,7 +43,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 新しい受信者の作成 {#creating-a-new-recipient}
 
-1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の **[!UICONTROL 受信者の編集]** の節で追加するので、[ 敬称 ](#editing-a-recipient) は選択しないでください。
+1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の **[!UICONTROL 受信者の編集]** の節で追加するので、[&#x200B; 敬称 &#x200B;](#editing-a-recipient) は選択しないでください。
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -57,7 +57,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ある 1 つのデータの変更に関する以下の手順では、データレプリケーションを使用する際に Campaign v7 が Campaign Standard のプライマリデータベースになる仕組みのシンプルな例を示します。Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
 
-1. [ 新しい受信者の作成 ](#creating-a-new-recipient) で新しく作成した受信者を選択して、受信者の名前を編集します。 例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。
+1. [&#x200B; 新しい受信者の作成 &#x200B;](#creating-a-new-recipient) で新しく作成した受信者を選択して、受信者の名前を編集します。 例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。
 
    ![](assets/acs_connect_profile_sync_03.png)
 

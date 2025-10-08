@@ -15,9 +15,9 @@ ht-degree: 53%
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
 
-Campaign のビルトインテーブルとそのインタラクションについて詳しくは、[ この節 ](../../configuration/using/about-data-model.md) を参照してください。
+Campaign のビルトインテーブルとそのインタラクションについて詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/about-data-model.md) を参照してください。
 
-キャンペーンスキーマの概要については、[ このドキュメント ](../../configuration/using/about-schema-reference.md) を参照してください。 Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[ このドキュメント ](../../configuration/using/about-schema-edition.md) を参照してください。
+キャンペーンスキーマの概要については、[&#x200B; このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md) を参照してください。 Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[&#x200B; このドキュメント &#x200B;](../../configuration/using/about-schema-edition.md) を参照してください。
 
 ## 概要 {#overview}
 
@@ -39,11 +39,11 @@ Adobe Campaign は強力なクロスチャネルキャンペーン管理シス�
 
 各テーブルの記述にアクセスするには、**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;に移動し、リストからリソースを選択して「**[!UICONTROL ドキュメント]**」タブをクリックします。
 
-Adobe Campaignのデフォルトデータモデルについては、[ このドキュメント ](../../configuration/using/data-model-description.md) を参照してください。
+Adobe Campaignのデフォルトデータモデルについては、[&#x200B; このドキュメント &#x200B;](../../configuration/using/data-model-description.md) を参照してください。
 
 >[!NOTE]
 >
->Adobe Campaign Classicでは、カスタムの顧客テーブルを作成できます。 ただし、ほとんどの場合は、標準の [ 受信者テーブル ](../../configuration/using/about-data-model.md#default-recipient-table) を利用することをお勧めします。このテーブルには、追加のテーブルや機能があらかじめ用意されています。
+>Adobe Campaign Classicでは、カスタムの顧客テーブルを作成できます。 ただし、ほとんどの場合は、標準の [&#x200B; 受信者テーブル &#x200B;](../../configuration/using/about-data-model.md#default-recipient-table) を利用することをお勧めします。このテーブルには、追加のテーブルや機能があらかじめ用意されています。
 
 ### Adobe Campaign 用データ {#data-for-campaign}
 
@@ -76,7 +76,7 @@ Adobe Campaign で必要な属性であるかどうかを判断するには、�
 
 ターゲティングやパーソナライゼーションに利用するフィールドは、テーブルに格納する必要があります。つまり、パーソナライズされたメール送信やクエリの条件に使用しないフィールドは、ディスク領域を消費しますが、意味はありません。
 
-ハイブリッドインスタンスおよびオンプレミスインスタンスの場合、FDA （Federated Data Access、外部データにアクセスできるオプション機能）は、キャンペーンプロセス中に「その場」でフィールドを追加する必要があることを説明します。 FDA を使用している場合は、すべてを読み込む必要はありません。 詳しくは、[Federated Data Access について ](../../installation/using/about-fda.md) を参照してください。
+ハイブリッドインスタンスおよびオンプレミスインスタンスの場合、FDA （Federated Data Access、外部データにアクセスできるオプション機能）は、キャンペーンプロセス中に「その場」でフィールドを追加する必要があることを説明します。 FDA を使用している場合は、すべてを読み込む必要はありません。 詳しくは、[Federated Data Access について &#x200B;](../../installation/using/about-fda.md) を参照してください。
 
 ### キーの選択 {#choice-of-keys}
 
@@ -146,7 +146,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルの自
 
 デフォルトでは、カスタムシーケンスは+1,000～+2.1BB の範囲の値を持ちます。 技術的には、負の ID を有効にすることで、4BB の全範囲を取得することが可能です。 これは慎重に使用してください。負の数から正の数に切り替えると、1 つの ID が失われます。通常、生成された SQL クエリでは、レコード 0 はAdobe Campaignによって無視されます。
 
-シーケンスの概要については、[ このビデオ ](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html) をご覧ください。
+シーケンスの概要については、[&#x200B; このビデオ &#x200B;](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html) をご覧ください。
 
 ## インデックス {#indexes}
 
@@ -246,9 +246,9 @@ Adobe Campaign はデータウェアハウスでもレポートツールでも�
 * ログを長く保持する場合は、データベースのサイズと送信されるメッセージの量に応じて、この決定を慎重に行う必要があります。 なお、Adobe Campaignシーケンスは 32 ビットの整数です。
 * これらのテーブルには、一度に 10 億件を超えるレコード（使用可能な 21 億 4000 万 id の約 50%）を含めないことをお勧めします。これにより、使用可能なすべての id を使用するリスクが制限されます。 これにより、一部のお客様は保持期間を 180 日未満に短縮する必要があります。
 
-データ保持について詳しくは、[Campaign のプライバシーとセキュリティガイドライン ](../../platform/using/privacy-and-recommendations.md) を参照してください。
+データ保持について詳しくは、[Campaign のプライバシーとセキュリティガイドライン &#x200B;](../../platform/using/privacy-and-recommendations.md) を参照してください。
 
-Campaign データベースクリーンアップワークフローについて詳しくは [ この節 ](../../production/using/database-cleanup-workflow.md) を参照してください。
+Campaign データベースクリーンアップワークフローについて詳しくは [&#x200B; この節 &#x200B;](../../production/using/database-cleanup-workflow.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -299,7 +299,7 @@ Adobe Campaign は、サードパーティのデータベースエンジンを�
 
 * **小さいサイズ**&#x200B;のテーブルは、配信テーブルに似ています。
 * **中程度のサイズ**&#x200B;のテーブルは、受信者テーブルと同じくらいのサイズです。顧客 1 人につき 1 件のレコードがあります。
-* **大きいサイズ**のテーブルは、広範ログテーブルに似ています。1 人の顧客につき多くのレコードがあります。
+* **大きいサイズ**&#x200B;のテーブルは、広範ログテーブルに似ています。1 人の顧客につき多くのレコードがあります。
 例えば、データベースに 1,000 万人の受信者が含まれている場合、広範ログテーブルには 1 億件から 2 億件くらいのメッセージが格納され、配信テーブルには数千件のレコードが格納されます。
 
 PostgreSQL では、[TOAST](https://wiki.postgresql.org/wiki/TOAST) メカニズムを避けるために、行は 8KB を超えてはいけません。 したがって、システム（メモリとCPU）の最適なパフォーマンスを維持するために、列数と各行のサイズをできる限り小さくするようにしてください。

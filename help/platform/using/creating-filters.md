@@ -18,7 +18,7 @@ ht-degree: 87%
 
 ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
-**フィルターとその使用方法** について詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
+**フィルターとその使用方法** について詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank} を参照してください。
 
 
 <!--

@@ -284,4 +284,4 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 ![](assets/workflow-monitoring-filter.png)
 
-フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。

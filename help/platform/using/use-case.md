@@ -47,7 +47,7 @@ ht-degree: 92%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 
 1. メールフォーマットが定義されていない購読のみを表示する、購読の新しいフィルターを作成します。

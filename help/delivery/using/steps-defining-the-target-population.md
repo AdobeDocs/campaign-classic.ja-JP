@@ -48,7 +48,7 @@ ht-degree: 97%
 
    デフォルトで用意されているターゲットタイプは次のとおりです。
 
-   * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+   * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
    * **[!UICONTROL 情報サービスの購読者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -72,7 +72,7 @@ ht-degree: 97%
    * **[!UICONTROL フォルダーに含まれている受信者]**：このオプションでは、ツリー内の特定のフォルダーに含まれるプロファイルをターゲットとして指定できます。
    * **[!UICONTROL 受信者]**：このオプションでは、データベースに格納されたプロファイルの中から特定の受信者 1 人を選択できます。
    * **[!UICONTROL 受信者のリスト]**：このオプションでは、受信者のリストをターゲットとして指定できます。リストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
-   * **[!UICONTROL ユーザーフィルター]**：このオプションでは、事前設定済みのフィルターを、データベース内のプロファイルに対するフィルター条件として使用できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+   * **[!UICONTROL ユーザーフィルター]**：このオプションでは、事前設定済みのフィルターを、データベース内のプロファイルに対するフィルター条件として使用できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
    * 「**[!UICONTROL このセグメントから受信者を除外]**」は、指定したターゲット条件を満たさない受信者をターゲットにするオプションです。これを使用するには、適切なボックスを選択し、事前に定義した、該当するプロファイルを除外するためのターゲティングを適用します。
 
      ![](assets/s_ncs_user_wizard_email02g.png)

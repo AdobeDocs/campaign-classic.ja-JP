@@ -87,7 +87,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。オプトアウトした受信者のみを表示するフィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。オプトアウトした受信者のみを表示するフィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 
    ![](assets/privacy-ccpa-7.png)

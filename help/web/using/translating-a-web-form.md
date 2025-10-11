@@ -70,7 +70,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 ### 文字列のフィルタリング {#filtering-strings}
 
-デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 

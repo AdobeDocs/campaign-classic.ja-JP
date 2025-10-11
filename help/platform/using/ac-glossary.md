@@ -795,7 +795,7 @@ Adobe Campaign は、配信に挿入できるビルトインのパーソナラ�
 
 定義済みフィルターは、再利用のために保存されたクエリです。定義済みフィルターを使用すると、生産性が向上し（作成は 1 回のみなので）、一貫性を構築し（すべてのマーケターが使用できるので）、マーケター自身では作成できないようなコードやロジックを使用できるため、マーケターに必要とされるスキルを低減できます。
 
-フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 +++
 
 <!--

@@ -19,7 +19,7 @@ ht-degree: 31%
 Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存された情報を処理します。 [!DNL Snowflake] へのアクセスを設定するには、次の手順に従います。
 
 1. [Linux](#snowflake-linux) で [!DNL Snowflake] を設定します。
-1. Campaign での [!DNL Snowflake][ 外部アカウント ](#snowflake-external) の設定
+1. Campaign での [!DNL Snowflake][&#x200B; 外部アカウント &#x200B;](#snowflake-external) の設定
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Linux で [!DNL Snowflake] を設定するには、次の手順に従います�
    systemctl start nlserver.service
    ```
 
-1. その後、Campaign で [!DNL Snowflake] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[ この節 ](#snowflake-external) を参照してください。
+1. その後、Campaign で [!DNL Snowflake] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#snowflake-external) を参照してください。
 
 ## Snowflake外部アカウント {#snowflake-external}
 
@@ -125,5 +125,5 @@ Campaign インスタンスを [!DNL Snowflake] 外部データベースに接�
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflakeがキャッシュした結果を無効にするために使用できます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeバルクローダーに使用するスレッドの数。スレッドが多いほど、大きなバルク読み込みのパフォーマンスが向上します。 デフォルトでは 1 に設定されています。この数は、マシンスレッド数に応じて調整できます。 |
-| chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br> 詳しくは、[Snowflakeドキュメントを参照してください ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)。 |
+| chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br> 詳しくは、[Snowflakeドキュメントを参照してください &#x200B;](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)。 |
 | StageName | 事前プロビジョニングされた内部ステージの名前。 新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |

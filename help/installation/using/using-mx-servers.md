@@ -64,7 +64,7 @@ Adobe Campaignは、エラータイプと理由の一致を使用してこのプ
 
 >[!NOTE]
 >
->配信エラーのタイプと理由について詳しくは、この [ 節 ](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) を参照してください。
+>配信エラーのタイプと理由について詳しくは、この [&#x200B; 節 &#x200B;](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) を参照してください。
 
 ## 配信品質インスタンス {#deliveratbility-env}
 

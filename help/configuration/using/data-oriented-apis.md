@@ -30,7 +30,7 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 スクリプトでデータベースのフィールドに対処できるようにするには、Adobe Campaign データモデルに精通している必要があります。
 
-データモデルのプレゼンテーションについては、[Adobe Campaign データモデルの説明 ](../../configuration/using/data-model-description.md) を参照してください。
+データモデルのプレゼンテーションについては、[Adobe Campaign データモデルの説明 &#x200B;](../../configuration/using/data-model-description.md) を参照してください。
 
 ## クエリとライター {#query-and-writer}
 
@@ -44,9 +44,9 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 これにより、基になる SQL を分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マップされ、それによって複数の SELECT SQL 命令が生成される場合があります。
 
-詳しくは、[ スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-) を参照してください。
+詳しくは、[&#x200B; スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 &#x200B;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-) を参照してください。
 
-**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） ](#executequery--xtk-querydef-) に示されています。
+**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） &#x200B;](#executequery--xtk-querydef-) に示されています。
 
 ### 書き込み {#write}
 
@@ -56,7 +56,7 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 XML 構造はデータの論理ビューを提供し、SQL テーブルの物理構造を回避できます。
 
-Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---writecollection--xtk-session-) に示されます。
+Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#write---writecollection--xtk-session-) に示されます。
 
 ## ExecuteQuery （xtk:queryDef） {#executequery--xtk-querydef-}
 
@@ -137,7 +137,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 * **select**：複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
 * **count**：データ数を返します。
 
-**XPath** 構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPath について詳しくは、[ データスキーマ ](../../configuration/using/data-schemas.md) を参照してください。
+**XPath** 構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPath について詳しくは、[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md) を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 

@@ -21,10 +21,10 @@ ht-degree: 10%
 
 Adobe Campaignのインストールが完了したら、制約や技術的アーキテクチャに合わせて効率的に動作するように設定する必要があります。 この章では、Adobe Campaign インスタンスを次の順序で設定する手順について詳しく説明します。
 
-1. インスタンスおよび関連する接続を作成します。[ インスタンスの作成およびログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
-1. データベースを作成および設定します。[ データベースの作成および設定 ](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
-1. Campaign サーバーを設定します。[Adobe Campaign サーバーの設定 ](../../installation/using/configuring-campaign-server.md) を参照してください。
-1. インスタンスをデプロイします。[ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md) を参照してください。
+1. インスタンスおよび関連する接続を作成します。[&#x200B; インスタンスの作成およびログオン &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
+1. データベースを作成および設定します。[&#x200B; データベースの作成および設定 &#x200B;](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
+1. Campaign サーバーを設定します。[Adobe Campaign サーバーの設定 &#x200B;](../../installation/using/configuring-campaign-server.md) を参照してください。
+1. インスタンスをデプロイします。[&#x200B; インスタンスのデプロイ &#x200B;](../../installation/using/deploying-an-instance.md) を参照してください。
 
 インスタンスを設定すると、プロセス（web、mta、wfserver など）が有効になります サーバーで起動し、メール送信やトラッキングなどのモジュールを設定します。 インスタンスごとに、サーバー上でAdobe Campaign プロセスがアクティブ化されます。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 

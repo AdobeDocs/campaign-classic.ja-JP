@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Linux での移行手順は次のとおりです。
 
-1. すべてのサービスを停止します [ 詳細情報 ](#service-stop)。
-1. データベースを保存します [ 詳細情報 ](#back-up-the-database)。
-1. 以前のAdobe Campaign バージョンパッケージをアンインストールする – [ 詳細情報 ](#uninstalling-adobe-campaign-previous-version-packages)。
-1. プラットフォームの移行 – [ 詳細情報 ](#deploying-adobe-campaign-v7)。
-1. サービスの再起動 – [ 詳細情報 ](#re-starting-services)。
+1. すべてのサービスを停止します [&#x200B; 詳細情報 &#x200B;](#service-stop)。
+1. データベースを保存します [&#x200B; 詳細情報 &#x200B;](#back-up-the-database)。
+1. 以前のAdobe Campaign バージョンパッケージをアンインストールする – [&#x200B; 詳細情報 &#x200B;](#uninstalling-adobe-campaign-previous-version-packages)。
+1. プラットフォームの移行 – [&#x200B; 詳細情報 &#x200B;](#deploying-adobe-campaign-v7)。
+1. サービスの再起動 – [&#x200B; 詳細情報 &#x200B;](#re-starting-services)。
 
 ## サービス停止 {#service-stop}
 
@@ -501,7 +501,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!NOTE]
    >
-   >Linux へのAdobe Campaignのインストール方法について詳しくは、[ この節 ](../../installation/using/installing-campaign-standard-packages.md) を参照してください。
+   >Linux へのAdobe Campaignのインストール方法について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-campaign-standard-packages.md) を参照してください。
 
 1. **nl6.back** backup フォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 **neolane** としてログインし、次のコマンドを実行します。
 

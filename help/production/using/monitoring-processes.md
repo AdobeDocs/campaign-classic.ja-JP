@@ -32,7 +32,7 @@ Adobe Campaign プロセスのモニタリングページにアクセスする�
 * 不足しているプロセスと実行情報（開始日、PID など）のリスト、
 * ワークフローと配信のビュー。
 
-キャンペーンプロセスを監視するその他の方法については、[ このページ ](../../production/using/monitoring-guidelines.md) を参照してください。
+キャンペーンプロセスを監視するその他の方法については、[&#x200B; このページ &#x200B;](../../production/using/monitoring-guidelines.md) を参照してください。
 
 ### ログ {#log-journal}
 
@@ -333,7 +333,7 @@ PublicId 識別子をクリックすると、詳細が表示されます。
 
 >[!NOTE]
 >
->SMTP エラーとそのAdobe Campaignでの管理について詳しくは、[ この節 ](../../installation/using/email-deliverability.md) を参照してください。
+>SMTP エラーとそのAdobe Campaignでの管理について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/email-deliverability.md) を参照してください。
 
 ## 請求レポート {#billing-report}
 
@@ -399,7 +399,7 @@ XML 形式で次のような行が表示されます。
 
 この **http （s）://`<Application server url>`/nl/jsp/ping.jsp** ページは、ネットワークの対応物と同じように動作し、apache/tomcat/web モジュール/データベースを通過してクライアントにアップロードする完全なクエリをテストします。 すべてが正常に動作している場合は、「OK」を返します。 このテストは、データベース（mta や調査など）にアクセスできるマシンで実行することをお勧めします。
 
-**使用法**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトを使用した自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts) のヒントを参照）。
+**使用法**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトを使用した自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts) のヒントを参照）。
 
 例：
 
@@ -417,7 +417,7 @@ XML 形式で次のような行が表示されます。
 
 ![](assets/ncs_monitoring_web.png)
 
-**使用法**：インスタンスに接続できる、オペレーターログインに関連付けられたセッショントークンは、引数として使用する必要があります（[Adobe Campaign スクリプトを使用した自動監視 ](#automatic-monitoring-via-adobe-campaign-scripts) のヒントを参照）。
+**使用法**：インスタンスに接続できる、オペレーターログインに関連付けられたセッショントークンは、引数として使用する必要があります（[Adobe Campaign スクリプトを使用した自動監視 &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts) のヒントを参照）。
 
 オペレーターとそのログインは、事前にAdobe Campaign クライアントコンソールで適切なデータベース権限と制限事項を設定しておく必要があります。
 
@@ -429,7 +429,7 @@ XML 形式で次のような行が表示されます。
 
 ### デプロイメントタイプに基づく監視 {#monitoring-based-on-deployment-types}
 
-Adobe Campaignでは様々なデプロイメント設定を使用できます（詳しくは、[ この節 ](../../installation/using/hosting-models.md) を参照）。 この節では、インストールのタイプに応じて適用する様々な自動監視手法について説明します。
+Adobe Campaignでは様々なデプロイメント設定を使用できます（詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/hosting-models.md) を参照）。 この節では、インストールのタイプに応じて適用する様々な自動監視手法について説明します。
 
 <table> 
  <thead> 

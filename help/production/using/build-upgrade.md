@@ -21,7 +21,7 @@ ht-degree: 36%
 
 この節では、アップグレードプロセスと、競合を特定して解決する手順について詳しく説明します。
 
-ビルドのアップグレードは慎重に行う必要があります。その影響は事前に十分に考慮する必要があり、手順は高いレベルの規律で完了する必要があります。 アップグレードを正常に行うには、以下に説明する手順を実行するのはエキスパートユーザーのみにしてください。 また、アップグレードを開始する前に、[Adobeサポート ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡することを強くお勧めします。
+ビルドのアップグレードは慎重に行う必要があります。その影響は事前に十分に考慮する必要があり、手順は高いレベルの規律で完了する必要があります。 アップグレードを正常に行うには、以下に説明する手順を実行するのはエキスパートユーザーのみにしてください。 また、アップグレードを開始する前に、[Adobeサポート &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡することを強くお勧めします。
 
 次の前提条件が必要です。
 
@@ -29,9 +29,9 @@ ht-degree: 36%
 * システムおよびサーバーサイドの知識
 * 管理者としての権限とアクセス許可
 
-詳しくは、[Adobe Campaignの更新 ](../../production/using/upgrading.md)、[ 新しいバージョンへの移行 ](../../migration/using/about-migration.md) の節を参照してください。
+詳しくは、[Adobe Campaignの更新 &#x200B;](../../production/using/upgrading.md)、[&#x200B; 新しいバージョンへの移行 &#x200B;](../../migration/using/about-migration.md) の節を参照してください。
 
-ホストインスタンスとハイブリッドインスタンスの場合、Adobeテクニカルオペレーションチームにビルドのアップグレードをリクエストする必要があります。 詳しくは、このページの下部にあるよくある質問の節を参照してください。 また、[ ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) も参照してください。
+ホストインスタンスとハイブリッドインスタンスの場合、Adobeテクニカルオペレーションチームにビルドのアップグレードをリクエストする必要があります。 詳しくは、このページの下部にあるよくある質問の節を参照してください。 また、[&#x200B; ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) も参照してください。
 
 ## アップグレードの準備
 
@@ -55,7 +55,7 @@ ht-degree: 36%
 1. アドビおよびお客様側担当者の連絡先詳細を配布しておく。
 1. ホステッド環境のインスタンスの場合：Adobeとお客様のスタッフが、アップグレードの時間と実行者を調整します。
 1. オンプレミスのインスタンスの場合：お客様側担当者がすべてのプロセスを管理します。カスタマイズされたワークフローや配信ロジックのテスト時にサポートが必要な場合は、コンサルティングサービスを依頼してください。
-1. アップグレード先のAdobe Campaignのバージョンを特定して確認します。[Adobe Campaign Classic リリースノート ](../../rn/using/rn-overview.md) を参照してください。
+1. アップグレード先のAdobe Campaignのバージョンを特定して確認します。[Adobe Campaign Classic リリースノート &#x200B;](../../rn/using/rn-overview.md) を参照してください。
 1. アップグレードの実行可能ファイルがあることを確認します。
 
 ### 主要人物
@@ -84,11 +84,11 @@ ht-degree: 36%
 
 1. 移行元の環境と移行先の環境のすべてのインスタンスについてデータベースの完全バックアップを作成する。
 
-1. [ サーバー設定ファイル ](../../installation/using/the-server-configuration-file.md) の最新バージョンを取得します。
+1. [&#x200B; サーバー設定ファイル &#x200B;](../../installation/using/the-server-configuration-file.md) の最新バージョンを取得します。
 
-1. [ 最新ビルドをダウンロードします ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)。
+1. [&#x200B; 最新ビルドをダウンロードします &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)。
 
-また、ビルドアップグレードを開始する前に、[ 役に立つコマンドライン ](../../installation/using/command-lines.md) をすべて理解しておく必要があります。
+また、ビルドアップグレードを開始する前に、[&#x200B; 役に立つコマンドライン &#x200B;](../../installation/using/command-lines.md) をすべて理解しておく必要があります。
 
 * **nlserver pdump**：実行中のプロセスのリストを表示します
 * **nlserver pdump -who**：アクティブなクライアントセッションのリストを表示します
@@ -166,7 +166,7 @@ ht-degree: 36%
 
 ### Adobe Campaign Server アプリケーションのアップグレード
 
-1. **Setup.exe** ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[ ダウンロードセンター ](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) にアクセスしてください。
+1. **Setup.exe** ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[&#x200B; ダウンロードセンター &#x200B;](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) にアクセスしてください。
 
 1. インストール モードとして **更新** または **修復** を選択します。
 
@@ -338,7 +338,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 * 結合できるのはフォーム、レポート、Web アプリケーションのみです。
 * 小規模な結合であればコードの知識がなくても実行できる場合があります。
 * 複雑な結合は適切なスキルと能力を持った人が実行する必要があります。
-* [ 結合の実行 ](#perform-a-merge) を参照してください。
+* [&#x200B; 結合の実行 &#x200B;](#perform-a-merge) を参照してください。
 
 **競合を無視するとどうなりますか？**
 
@@ -357,7 +357,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 1. 簡単に結合：カスタム要素と新しい要素は小さく、無関係で、コーディングは必要ありません。
 1. 変更なし：新しいバージョンを受け入れる、最終更新日のみ変更する、コメント、タブ、スペース、または新しい行のみ変更する。 （例：意図しない保存）。
 1. 些細な変更：変更された行は 1 行だけです。 （例：xpathToLoad）。
-1. 複雑な結合：コーディングが必要な場合。 開発スキルが必要です。 [ 複雑な結合 ](#complex-merges) を参照してください。
+1. 複雑な結合：コーディングが必要な場合。 開発スキルが必要です。 [&#x200B; 複雑な結合 &#x200B;](#complex-merges) を参照してください。
 
 #### 結合方法
 
@@ -369,8 +369,8 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 #### コードの場所
 
 1. 組み込みコードは、データキットフォルダーの XML ファイルに保存されます。 競合するオブジェクトに一致する XML ファイルを検索します。 例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. [ ダウンロードセンター ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) またはアップグレードされていない別の製品インストールから、元のバージョンを取得します。
-1. [ ダウンロードセンター ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) またはお客様のインストール済みファイルから、新しいバージョンを取得します。
+1. [&#x200B; ダウンロードセンター &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) またはアップグレードされていない別の製品インストールから、元のバージョンを取得します。
+1. [&#x200B; ダウンロードセンター &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) またはお客様のインストール済みファイルから、新しいバージョンを取得します。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法

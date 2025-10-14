@@ -21,7 +21,7 @@ ht-degree: 5%
 
 接続の問題が発生する理由は複数あり、様々なコンテキストに依存します。
 
-次のテストを試すことができます。接続エラーが解決しない場合は、[Adobeカスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) にお問い合わせください。
+次のテストを試すことができます。接続エラーが解決しない場合は、[Adobeカスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) にお問い合わせください。
 
 
 

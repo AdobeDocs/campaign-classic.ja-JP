@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Adobe Campaign サーバーでアップロードできるファイルタイプを制限するには、**uploadWhiteList** 属性を使用します。
 
-この属性は、**serverConf.xml** ファイルの **dataStore** 要素内で使用できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+この属性は、**serverConf.xml** ファイルの **dataStore** 要素内で使用できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 この属性のデフォルト値は **です。+** 任意のファイルタイプをアップロードできます。
 
@@ -39,7 +39,7 @@ Web サーバーを設定して、重要なファイルがアップロードさ�
 
 ## プロキシ接続設定 {#proxy-connection-configuration}
 
-**ファイル転送** ワークフローアクティビティなどを使用して、プロキシ経由で Campaign サーバーを外部システムに接続できます。 これを行うには、特定のコマンドで **serverConf.xml** ファイルの **proxyConfig** セクションを設定する必要があります。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+**ファイル転送** ワークフローアクティビティなどを使用して、プロキシ経由で Campaign サーバーを外部システムに接続できます。 これを行うには、特定のコマンドで **serverConf.xml** ファイルの **proxyConfig** セクションを設定する必要があります。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 HTTP、HTTPS、FTP、SFTP などのプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTP および HTTPS プロトコルパラメーターは **使用できなくなりました**。 これらのパラメーターは、9032 を含む以前のビルドでも引き続き使用できるので、引き続き以下で説明します。
 
@@ -118,7 +118,7 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 <nmac useHTTPProxy="true">
 ```
 
-このiOS HTTP/2 コネクタについて詳しくは、この [ ページ ](../../delivery/using/about-mobile-app-channel.md) を参照してください。
+このiOS HTTP/2 コネクタについて詳しくは、この [&#x200B; ページ &#x200B;](../../delivery/using/about-mobile-app-channel.md) を参照してください。
 
 ## パブリックリソースの管理 {#managing-public-resources}
 

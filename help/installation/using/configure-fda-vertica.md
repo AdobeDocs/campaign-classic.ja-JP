@@ -21,7 +21,7 @@ ht-degree: 23%
 Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存された情報を処理します。 [!DNL Vertica Analytics] へのアクセスを設定するには、次の手順に従います。
 
 1. [CentOS](#vertica-centos)、[Windows](#vertica-windows) または [Debian](#vertica-debian) で [!DNL Vertica Analytics] を設定
-1. Campaign での [!DNL Vertica Analytics][ 外部アカウント ](#vertica-external) の設定
+1. Campaign での [!DNL Vertica Analytics][&#x200B; 外部アカウント &#x200B;](#vertica-external) の設定
 
 ![](assets/snowflake_3.png)
 
@@ -29,7 +29,7 @@ Campaign **Federated Data Access** （FDA）オプションを使用して、外
 
 CentOS で [!DNL Vertica Analytics] を設定するには、次の手順に従います。
 
-1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[ ここをクリック ](https://www.vertica.com/download/vertica/client-drivers/) して、最新の Linux RPM をダウンロードしてください。
+1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[&#x200B; ここをクリック &#x200B;](https://www.vertica.com/download/vertica/client-drivers/) して、最新の Linux RPM をダウンロードしてください。
 
 1. その後、次のコマンドを使用して unixODBC をインストールする必要があります。
 
@@ -77,7 +77,7 @@ CentOS で [!DNL Vertica Analytics] を設定するには、次の手順に従�
    rm vertica-client-x.x.x-x.x86_64.rpm
    ```
 
-1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#vertica-external) を参照してください。
+1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#vertica-external) を参照してください。
 
 ## [!DNL Vertica Analytics] （Windows の場合） {#vertica-windows}
 
@@ -85,7 +85,7 @@ CentOS で [!DNL Vertica Analytics] を設定するには、次の手順に従�
 
 1. Windows で ODBC ドライバを設定します。 詳しくは、[このページ](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)を参照してください。
 
-1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#vertical-external) を参照してください。
+1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#vertical-external) を参照してください。
 
 ## Debian の [!DNL Vertica Analytics] {#vertica-debian}
 
@@ -139,7 +139,7 @@ CentOS で [!DNL Vertica Analytics] を設定するには、次の手順に従�
    Port = 5433
    ```
 
-1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#vertica-external) を参照してください。
+1. Adobe Campaignで、[!DNL Vertica Analytics] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#vertica-external) を参照してください。
 
 ## [!DNL Vertica Analytics] 外部アカウント {#vertica-external}
 

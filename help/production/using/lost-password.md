@@ -25,7 +25,7 @@ ht-degree: 12%
 次の 2 つのシナリオが考えられます。
 
 * [Adobe Campaign オペレーターによってパスワードが失われました](#password-lost-by-campaign-operator)
-* [ 内部パスワードが失われました ](#internal-password-lost) （オンプレミスのお客様のみ）
+* [&#x200B; 内部パスワードが失われました &#x200B;](#internal-password-lost) （オンプレミスのお客様のみ）
 
 ## Campaign オペレーターによって失われたパスワード {#password-lost-by-campaign-operator}
 
@@ -33,7 +33,7 @@ Adobe Campaign オペレーターがパスワードを失った場合は変更�
 
 >[!NOTE]
 >
->この手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、[ このドキュメント ](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"} を参照してください。
+>この手順は、ネイティブ認証を使用して Campaign に接続するオペレーターにのみ適用されます。 Adobe IMS認証については、[&#x200B; このドキュメント &#x200B;](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"} を参照してください。
 
 Campaign のパスワードをリセットするには、次の手順に従います。
 

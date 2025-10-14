@@ -28,4 +28,4 @@ Adobe Campaignをインストールしてインスタンスを作成したら、
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   新しいインスタンスのパラメーターを指定します。 詳しくは、[ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
+   新しいインスタンスのパラメーターを指定します。 詳しくは、[&#x200B; インスタンスの作成とログオン &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。

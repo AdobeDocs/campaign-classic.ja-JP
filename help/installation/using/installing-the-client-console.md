@@ -28,11 +28,11 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 クライアントコンソールをインストールまたは更新するプロセスは、Adobe Campaign Classicの実装によって異なります。
 実装に必要な事項を理解するには、以下の詳細を確認してください。
 
-Adobe Campaign クライアントのインストールおよびセットアップ方法に ![](assets/do-not-localize/how-to-video.png) いては、[ ビデオ ](#video) を参照してください
+Adobe Campaign クライアントのインストールおよびセットアップ方法に ![](assets/do-not-localize/how-to-video.png) いては、[&#x200B; ビデオ &#x200B;](#video) を参照してください
 
 >[!CAUTION]
 >
->* Campaign クライアントコンソールと Campaign アプリケーションサーバーは **同じ製品バージョンで** 実行する必要があります。 また、Adobeでは **同じ製品ビルド** を使用することを強くお勧めします。 Campaign クライアントとサーバーのバージョンを確認する方法については、[ この節 ](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) を参照してください。
+>* Campaign クライアントコンソールと Campaign アプリケーションサーバーは **同じ製品バージョンで** 実行する必要があります。 また、Adobeでは **同じ製品ビルド** を使用することを強くお勧めします。 Campaign クライアントとサーバーのバージョンを確認する方法については、[&#x200B; この節 &#x200B;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) を参照してください。
 >
 >* コンソールがインストールされているインストールフォルダーへのアクセスは、意図したユーザーのみに制限してください。これにより、書き込み権限が適切に制限されます。
 
@@ -42,7 +42,7 @@ Adobe Campaign クライアントのインストールおよびセットアッ�
 
 Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign Classicコンソールインストーラーにより、[Microsoft Developer web サイト ](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp) からダウンロードするように求められます。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign Classicコンソールインストーラーにより、[Microsoft Developer web サイト &#x200B;](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp) からダウンロードするように求められます。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeホスト型実装 {#hosted-customers}
 
@@ -50,7 +50,7 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 1. Adobeは直接デプロイできます。 コンソールが更新されると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-1. [ ソフトウェア配布 ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) からクライアントコンソールにダウンロードできます
+1. [&#x200B; ソフトウェア配布 &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) からクライアントコンソールにダウンロードできます
 
    **更新を完了するには、ユーザーは管理者アクセス権が必要です。 ユーザーが管理者権限を持っていない場合、システム管理者はすべてのクライアントコンソールにをデプロイする必要があります**
 
@@ -166,7 +166,7 @@ Campaign サーバーフォルダーでコンソールを使用できるよう�
 
 **関連トピック**
 
-* [ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md)。
+* [&#x200B; インスタンスの作成とログオン &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md)。
 * [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 ## チュートリアルビデオ

@@ -25,7 +25,7 @@ ht-degree: 2%
 
 これらの手順は、**オンプレミス**/**ハイブリッド** デプロイメントに制限され、管理権限が必要です。
 
-**ホスト** デプロイメントの場合、サーバーサイドの設定はAdobeでのみ指定できます。 ただし、IPCampaign コントロールパネル許可リストに加えるや URL 権限など、一部の設定は [ キャンペーン管理 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) 内で設定できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
+**ホスト** デプロイメントの場合、サーバーサイドの設定はAdobeでのみ指定できます。 ただし、IPCampaign コントロールパネル許可リストに加えるや URL 権限など、一部の設定は [&#x200B; キャンペーン管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) 内で設定できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
 
 詳しくは、次の節を参照してください。
 
@@ -37,24 +37,24 @@ ht-degree: 2%
 
 Campaign Classic設定ファイルは、Adobe Campaign インストールフォルダーの **conf** フォルダーに保存されます。 設定は、次の 2 つのファイルに分散されています。
 
-* **serverConf.xml**：すべてのインスタンスの一般設定。 このファイルには、Adobe Campaign サーバーの技術的なパラメーターが組み合わされています。これらのパラメーターは、すべてのインスタンスで共有されます。 これらのパラメーターの一部について、以下で詳しく説明します。 様々なノードとパラメーター、およびこの [ 節 ](../../installation/using/the-server-configuration-file.md) で示します。
+* **serverConf.xml**：すべてのインスタンスの一般設定。 このファイルには、Adobe Campaign サーバーの技術的なパラメーターが組み合わされています。これらのパラメーターは、すべてのインスタンスで共有されます。 これらのパラメーターの一部について、以下で詳しく説明します。 様々なノードとパラメーター、およびこの [&#x200B; 節 &#x200B;](../../installation/using/the-server-configuration-file.md) で示します。
 * **config-`<instance>`.xml** （**instance** はインスタンスの名前）：インスタンスの特定の設定。 複数のインスタンスでサーバーを共有する場合は、関連するファイルに各インスタンスに固有のパラメーターを入力してください。
 
 ## 設定スコープ
 
 ニーズと設定に応じて、Campaign サーバーを設定または調整します。 以下を行うことができます。
 
-* [ 内部識別子 ](#internal-identifier) を保護します
-* [ キャンペーンプロセス ](#enabling-processes) を有効にする
-* [URL 権限 ](url-permissions.md) の設定
-* [ セキュリティゾーン ](security-zones.md) を定義
-* 設定 [Tomcat 設定 ](configure-tomcat.md)
-* カスタマイズ [ 配信パラメーター ](configure-delivery-settings.md)
-* [ 動的ページセキュリティとリレー ](#dynamic-page-security-and-relays) の定義
-* [ 許可される外部コマンド ](#restricting-authorized-external-commands) のリストの制限
-* [ 冗長トラッキング ](#redundant-tracking) の設定
-* 管理 [ 高可用性とワークフローアフィニティ ](#high-availability-workflows-and-affinities)
-* ファイル管理の設定 – [ 詳細情報 ](file-res-management.md)
+* [&#x200B; 内部識別子 &#x200B;](#internal-identifier) を保護します
+* [&#x200B; キャンペーンプロセス &#x200B;](#enabling-processes) を有効にする
+* [URL 権限 &#x200B;](url-permissions.md) の設定
+* [&#x200B; セキュリティゾーン &#x200B;](security-zones.md) を定義
+* 設定 [Tomcat 設定 &#x200B;](configure-tomcat.md)
+* カスタマイズ [&#x200B; 配信パラメーター &#x200B;](configure-delivery-settings.md)
+* [&#x200B; 動的ページセキュリティとリレー &#x200B;](#dynamic-page-security-and-relays) の定義
+* [&#x200B; 許可される外部コマンド &#x200B;](#restricting-authorized-external-commands) のリストの制限
+* [&#x200B; 冗長トラッキング &#x200B;](#redundant-tracking) の設定
+* 管理 [&#x200B; 高可用性とワークフローアフィニティ &#x200B;](#high-availability-workflows-and-affinities)
+* ファイル管理の設定 – [&#x200B; 詳細情報 &#x200B;](file-res-management.md)
    * アップロードファイル形式を制限
    * パブリックリソースへのアクセスを有効にする
    * プロキシ接続の設定
@@ -137,7 +137,7 @@ Adobe Campaign データ（ログ、ダウンロード、リダイレクトな�
 
 * Linux の場合、**customer.sh** ファイルに移動して、**export XTK_VAR_DIR=/app/log/AdobeCampaign** と指定します。
 
-  詳しくは、[ パラメーターのパーソナライズ ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters) を参照してください。
+  詳しくは、[&#x200B; パラメーターのパーソナライズ &#x200B;](../../installation/using/installing-packages-with-linux.md#personalizing-parameters) を参照してください。
 
 
 ## 動的ページセキュリティとリレー {#dynamic-page-security-and-relays}
@@ -234,7 +234,7 @@ sh
 
 サーバー設定ファイルの **exec** ノードで、前に作成した **blacklistFile** 属性のファイルを参照する必要があります。
 
-**Linux のみ**：サーバー設定ファイルでは、外部コマンドの実行専用のユーザーを指定して、セキュリティ設定を強化することをお勧めします。 このユーザーは、設定ファイルの **exec** ノードに設定されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+**Linux のみ**：サーバー設定ファイルでは、外部コマンドの実行専用のユーザーを指定して、セキュリティ設定を強化することをお勧めします。 このユーザーは、設定ファイルの **exec** ノードに設定されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 >[!NOTE]
 >

@@ -44,4 +44,4 @@ export TRACE_ADDR=localhost:<listening port>
 
 >[!NOTE]
 >
->セキュリティゾーンの設定については、[ この節 ](../../installation/using/security-zones.md) を参照してください。
+>セキュリティゾーンの設定については、[&#x200B; この節 &#x200B;](../../installation/using/security-zones.md) を参照してください。

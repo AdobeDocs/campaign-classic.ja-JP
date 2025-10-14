@@ -17,25 +17,25 @@ ht-degree: 8%
 
 # 新しいビルド（オンプレミス）へのアップグレード{#upgrading}
 
-アップグレードプロセスを開始する前に、アップグレード先のAdobe Campaignのバージョンを特定して確認し、[ リリースノート ](../../rn/using/latest-release.md) を参照してください。
+アップグレードプロセスを開始する前に、アップグレード先のAdobe Campaignのバージョンを特定して確認し、[&#x200B; リリースノート &#x200B;](../../rn/using/latest-release.md) を参照してください。
 
 >[!IMPORTANT]
 >
 >* Adobeでは、更新する前に、各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、[この節](../../production/using/backup.md)を参照してください。
 >* アップグレードを実行するには、インスタンスとログにアクセスする機能と権限があることを確認します。
->* 開始する前に、[ この節 ](../../installation/using/general-architecture.md) と [ ビルドアップグレード ](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) の章を参照してください。
+>* 開始する前に、[&#x200B; この節 &#x200B;](../../installation/using/general-architecture.md) と [&#x200B; ビルドアップグレード &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) の章を参照してください。
 >
 
 ## Windows {#in-windows}
 
 Windows 環境では、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [ サービスのシャットダウン ](#shut-down-services)、
-* [ アプリケーションサーバーのアップグレード ](#upgrade-the-adobe-campaign-server-application)、
-* [ リソースの同期 ](#synchronize-resources)、
-* [ サービスを再起動します ](#restart-services)。
+* [&#x200B; サービスのシャットダウン &#x200B;](#shut-down-services)、
+* [&#x200B; アプリケーションサーバーのアップグレード &#x200B;](#upgrade-the-adobe-campaign-server-application)、
+* [&#x200B; リソースの同期 &#x200B;](#synchronize-resources)、
+* [&#x200B; サービスを再起動します &#x200B;](#restart-services)。
 
-クライアントコンソールの更新方法については、[ この節 ](../../installation/using/client-console-availability-for-windows.md) を参照してください。
+クライアントコンソールの更新方法については、[&#x200B; この節 &#x200B;](../../installation/using/client-console-availability-for-windows.md) を参照してください。
 
 ### サービスのシャットダウン {#shut-down-services}
 
@@ -69,7 +69,7 @@ Windows 環境では、次の手順に従ってAdobe Campaignを新しいビル�
 
 1. **setup.exe** を実行します。
 
-   このファイルをダウンロードするには、ユーザーの資格情報を使用して [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
+   このファイルをダウンロードするには、ユーザーの資格情報を使用して [&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
 
 1. インストールモードを選択します。**[!UICONTROL 更新または修復]** を選択します。
 1. **[!UICONTROL 次へ]** をクリックします。
@@ -95,7 +95,7 @@ Windows 環境では、次の手順に従ってAdobe Campaignを新しいビル�
 >
 >この操作は、1 回だけ、（**nlserver web**）アプリケーションサーバーでのみ実行してください。
 
-次に、同期でエラーまたは警告が生成されたかどうかを確認します。 詳しくは、[ アップグレードの競合の解決 ](#resolving-upgrade-conflicts) を参照してください。
+次に、同期でエラーまたは警告が生成されたかどうかを確認します。 詳しくは、[&#x200B; アップグレードの競合の解決 &#x200B;](#resolving-upgrade-conflicts) を参照してください。
 
 ### サービスの再起動 {#restart-services}
 
@@ -111,15 +111,15 @@ Windows 環境では、次の手順に従ってAdobe Campaignを新しいビル�
 
 Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [ 更新されたパッケージをダウンロードします ](#obtain-updated-packages)、
-* [ 更新の実行 ](#perform-an-update)、
-* [Web サーバーを再起動します ](#reboot-the-web-server)。
+* [&#x200B; 更新されたパッケージをダウンロードします &#x200B;](#obtain-updated-packages)、
+* [&#x200B; 更新の実行 &#x200B;](#perform-an-update)、
+* [Web サーバーを再起動します &#x200B;](#reboot-the-web-server)。
 
-[ クライアントコンソールの可用性の詳細 ](../../installation/using/client-console-availability-for-windows.md)。
+[&#x200B; クライアントコンソールの可用性の詳細 &#x200B;](../../installation/using/client-console-availability-for-windows.md)。
 
 ### 更新されたパッケージのインストール {#obtain-updated-packages}
 
-まず、Adobe Campaignの更新されたパッケージを両方とも復元します。ユーザー資格情報を使用して [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
+まず、Adobe Campaignの更新されたパッケージを両方とも復元します。ユーザー資格情報を使用して [&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) に接続します。 ソフトウェア配布について詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja) を参照してください。
 
 ファイルは **nlserver6-v7-XXX.rpm**
 
@@ -176,7 +176,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 >[!NOTE]
 >
->すべてのインストール手順について詳しくは、[ この節 ](../../installation/using/installing-packages-with-linux.md) を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[ アップグレードの競合の解決 ](#resolving-upgrade-conflicts) を参照してください。
+>すべてのインストール手順について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-packages-with-linux.md) を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[&#x200B; アップグレードの競合の解決 &#x200B;](#resolving-upgrade-conflicts) を参照してください。
 >
 
 ### Web サーバーを再起動します。 {#reboot-the-web-server}
@@ -271,7 +271,7 @@ Adobe Campaign アプリケーションサーバーをインストールして�
 
 >[!NOTE]
 >
->IIS_XPG ユーザーにこのインストールファイルに対する適切な読み取り権限があることを確認し、詳しくは [ インストールガイド ](../../installation/using/general-architecture.md) を参照してください。
+>IIS_XPG ユーザーにこのインストールファイルに対する適切な読み取り権限があることを確認し、詳しくは [&#x200B; インストールガイド &#x200B;](../../installation/using/general-architecture.md) を参照してください。
 
 ### Linux {#in-linux-1}
 
@@ -285,4 +285,4 @@ cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 
 >[!NOTE]
 >
->Apache ユーザーにこのインストールファイルに対する適切な読み取り権限があることを確認し、詳しくは [ インストールガイド ](../../installation/using/general-architecture.md) を参照してください。
+>Apache ユーザーにこのインストールファイルに対する適切な読み取り権限があることを確認し、詳しくは [&#x200B; インストールガイド &#x200B;](../../installation/using/general-architecture.md) を参照してください。

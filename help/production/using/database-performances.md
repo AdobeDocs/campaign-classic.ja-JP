@@ -32,7 +32,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->インサイトについては、[Adobe Campaign ハードウェアのサイズ設定ガイド ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) を参照してください。
+>インサイトについては、[Adobe Campaign ハードウェアのサイズ設定ガイド &#x200B;](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) を参照してください。
 
 ## プラットフォーム設定 {#platform-configuration}
 
@@ -74,8 +74,8 @@ ht-degree: 8%
 
 Adobe Campaignのインストール設定に応じて、次の 2 つのツールを使用してプラットフォームを監視できます。
 
-* インスタンスの実稼動ページ。 詳しくは、[ 手動の監視 ](../../production/using/monitoring-processes.md#manual-monitoring) を参照してください。
-* *netreport* スクリプト。 詳しくは、[Adobe Campaign スクリプトを使用した自動モニタリング ](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) を参照してください。
+* インスタンスの実稼動ページ。 詳しくは、[&#x200B; 手動の監視 &#x200B;](../../production/using/monitoring-processes.md#manual-monitoring) を参照してください。
+* *netreport* スクリプト。 詳しくは、[Adobe Campaign スクリプトを使用した自動モニタリング &#x200B;](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) を参照してください。
 
 ## 詳細 {#specifics}
 

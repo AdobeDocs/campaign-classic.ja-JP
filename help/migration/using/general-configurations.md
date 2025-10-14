@@ -22,8 +22,8 @@ ht-degree: 4%
 
 さらに、次の点に注意してください。
 
-* v5.11 から移行する場合は、[ この節 ](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11) で説明した設定も完了する必要があります。
-* v6.02 から移行する場合は、[ この節 ](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02) で説明されている設定も完了する必要があります。
+* v5.11 から移行する場合は、[&#x200B; この節 &#x200B;](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11) で説明した設定も完了する必要があります。
+* v6.02 から移行する場合は、[&#x200B; この節 &#x200B;](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02) で説明されている設定も完了する必要があります。
 
 ## タイムゾーン {#time-zones}
 
@@ -41,7 +41,7 @@ TIMESTAMP WITH TIMEZONE モードを使用するには、postupgrade コマン�
 >
 >移行後にコンソール（**[!UICONTROL 管理/プラットフォーム/オプション/WdbcTimeZone]** ノード）を通じてタイムゾーンを変更できます。
 >
->タイムゾーン管理について詳しくは、[ この節 ](../../installation/using/time-zone-management.md) を参照してください。
+>タイムゾーン管理について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/time-zone-management.md) を参照してください。
 
 ### Oracle {#oracle}
 
@@ -93,7 +93,7 @@ Adobe Campaign v7 には、「セキュリティゾーン **という概念が�
 
 **アップグレード後** （サーバーの再起動前）に、セキュリティゾーンを設定する必要があります。
 
-セキュリティゾーンの設定は [ この節 ](../../installation/using/security-zones.md) にあります。
+セキュリティゾーンの設定は [&#x200B; この節 &#x200B;](../../installation/using/security-zones.md) にあります。
 
 ### ユーザーパスワード {#user-passwords}
 
@@ -105,7 +105,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**内部** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳しくは、[ この節 ](../../installation/using/configuring-campaign-server.md#internal-identifier) および [ この節 ](../../platform/using/access-management.md) を参照してください。
+>**内部** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-server.md#internal-identifier) および [&#x200B; この節 &#x200B;](../../platform/using/access-management.md) を参照してください。
 
 ### v7 の新機能 {#new-features-in-v7}
 
@@ -172,7 +172,7 @@ v5 では、**sessiontoken** パラメーターは、クライアントサイド
 
 ### SQL 関数 {#sql-functions}
 
-不明な SQL 関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべての SQL 関数を **xtk:funcList** スキーマに追加する必要があります（詳しくは、[ この節 ](../../configuration/using/adding-additional-sql-functions.md) を参照してください）。 移行時には、アップグレード後に、古い未宣言の SQL 関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、「**XtkPassUnknownSQLFunctionsToRDBMS**」オプションが **[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベルで実際に定義されていることを確認します。
+不明な SQL 関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべての SQL 関数を **xtk:funcList** スキーマに追加する必要があります（詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/adding-additional-sql-functions.md) を参照してください）。 移行時には、アップグレード後に、古い未宣言の SQL 関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、「**XtkPassUnknownSQLFunctionsToRDBMS**」オプションが **[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベルで実際に定義されていることを確認します。
 
 >[!IMPORTANT]
 >
@@ -275,7 +275,7 @@ allowSQLInjection="true"
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-セキュリティゾーンを設定してから（[ セキュリティ ](#security) を参照）、オプションを変更してセキュリティを再アクティブ化する必要があります。
+セキュリティゾーンを設定してから（[&#x200B; セキュリティ &#x200B;](#security) を参照）、オプションを変更してセキュリティを再アクティブ化する必要があります。
 
 ```
 allowSQLInjection="false"
@@ -638,7 +638,7 @@ Web アプリケーション ファミリは次の 2 つです。
 
 ### 特定された Web アプリケーション {#identified-web-applications}
 
-レポート（[ 詳細情報 ](#reports)）と同様に、JavaScriptを追加している場合は、必要に応じて確認と適応を行う必要があります。 v7 の青いバナー（青いタブが含まれる）を利用する場合は、web アプリケーションを再公開する必要があります。
+レポート（[&#x200B; 詳細情報 &#x200B;](#reports)）と同様に、JavaScriptを追加している場合は、必要に応じて確認と適応を行う必要があります。 v7 の青いバナー（青いタブが含まれる）を利用する場合は、web アプリケーションを再公開する必要があります。
 
 v7 で web アプリケーションの接続方法が変更されました。 特定された web アプリケーションで接続の問題が発生した場合は、**serverConf.xml** ファイルで **allowUserPassword** オプションと **sessionTokenOnly** オプションを一時的に有効にする必要があります。 アップグレード後に、次のオプション値を変更します。
 

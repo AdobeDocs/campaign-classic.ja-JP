@@ -29,7 +29,7 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
-  **IIS の場合** （[ ドキュメント ](https://support.microsoft.com/en-us/kb/245030) を参照）、次の設定を実行します。
+  **IIS の場合** （[&#x200B; ドキュメント &#x200B;](https://support.microsoft.com/en-us/kb/245030) を参照）、次の設定を実行します。
 
    * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL にレジストリサブキーを追加します。
    * 既定でネゴシエートされないプロトコル （TLS 1.2 など）をシステムが使用できるようにするには、**Protocols** キーの下にある次のレジストリ キーで、DisabledByDefault 値の DWORD 値データを 0x0 に変更します。
@@ -48,7 +48,7 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
   **Apache の場合**、/etc/apache2/conf.d/security: TraceEnable **Off** で編集します。
 
-  **IIS の場合** （[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) を参照）、次の設定を実行します。
+  **IIS の場合** （[&#x200B; ドキュメント &#x200B;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) を参照）、次の設定を実行します。
 
    * **要求フィルタリング**&#x200B;の役割サービスまたは機能がインストールされていることを確認します。
    * **要求フィルター** ウィンドウで、[ HTTP 動詞 ] タブをクリックし、[ 動詞の拒否 ] をクリックします。 [ 操作 ] ウィンドウで、[ 開く ] ダイアログに「TRACE」と入力します。
@@ -77,9 +77,9 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
   </Directory>
   ```
 
-  **IIS** （[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) を参照）で、コンテンツフィルタリングオプションの **maxAllowedContentLength** （許可されるコンテンツの最大長）を設定します。
+  **IIS** （[&#x200B; ドキュメント &#x200B;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) を参照）で、コンテンツフィルタリングオプションの **maxAllowedContentLength** （許可されるコンテンツの最大長）を設定します。
 
 関連トピック ： 
 
-* [Adobe Marketing Cloud コンプライアンスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Adobe Campaignのセキュリティの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Adobe Marketing Cloud コンプライアンスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaignのセキュリティの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/overview#security)

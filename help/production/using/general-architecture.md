@@ -46,7 +46,7 @@ Adobe Campaignは、複数のマシンに分割できる複数のモジュール
 
 >[!NOTE]
 >
->様々なアーキテクチャについて詳しくは、[ この節 ](../../installation/using/general-architecture.md) を参照してください。
+>様々なアーキテクチャについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/general-architecture.md) を参照してください。
 
 ## 開いているポートのリスト {#list-of-open-ports}
 

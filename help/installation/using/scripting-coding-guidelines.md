@@ -57,7 +57,7 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 >
 >8140 より古いビルドを使用している場合、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが&#39;1&#39;に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリや SQL 文にフィルターを作成する場合は、常にフィルターをエスケープする必要があります（[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
+ユーザー入力を使用してクエリや SQL 文にフィルターを作成する場合は、常にフィルターをエスケープする必要があります（[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -77,7 +77,7 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* 一部のシステムフィルター（sysFilter）を追加して、データの読み取りや書き込みを防ぐことができます（[ このページ ](../../configuration/using/filtering-schemas.md) を参照してください）。
+* 一部のシステムフィルター（sysFilter）を追加して、データの読み取りや書き込みを防ぐことができます（[&#x200B; このページ &#x200B;](../../configuration/using/filtering-schemas.md) を参照してください）。
 
   ```
   <sysFilter name="writeAccess">    
@@ -105,7 +105,7 @@ SQL の挿入を避けるために、Adobe Campaignで使用する許可リス�
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-エンティティ全体が画面に読み込まれます。また、列定義で表示することもできます。 それには、オーバーフローテーブルを作成する必要があります。 [ このページ ](../../configuration/using/examples-of-schemas-edition.md#overflow-table) を参照してください。
+エンティティ全体が画面に読み込まれます。また、列定義で表示することもできます。 それには、オーバーフローテーブルを作成する必要があります。 [&#x200B; このページ &#x200B;](../../configuration/using/examples-of-schemas-edition.md#overflow-table) を参照してください。
 
 ## Web アプリケーションへの Captcha の追加
 
@@ -148,7 +148,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   「validation」ボタンは無効にできるはずですが、標準のボタンやリンクはないので、HTML自体で行う方が良いでしょう。 その方法については、[ このページ ](https://developers.google.com/recaptcha/) を参照してください。
+   「validation」ボタンは無効にできるはずですが、標準のボタンやリンクはないので、HTML自体で行う方が良いでしょう。 その方法については、[&#x200B; このページ &#x200B;](https://developers.google.com/recaptcha/) を参照してください。
 
 ### Web アプリケーションの更新
 
@@ -168,7 +168,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 1. **[!UICONTROL スクリプト]** アクティビティを編集します。 コンテンツは、選択した captcha エンジンによって異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。[ このページ ](../../web/using/editing-content.md) を参照してください。
+1. 最後に、パーソナライズされたブロックをページに追加できます。[&#x200B; このページ &#x200B;](../../web/using/editing-content.md) を参照してください。
 
    ![](assets/scripting-captcha4.png)
 
@@ -200,7 +200,7 @@ else
 
 ### Google recaptcha
 
-詳しくは、[ 公式ドキュメント ](https://developers.google.com/recaptcha/docs/verify) を参照してください。
+詳しくは、[&#x200B; 公式ドキュメント &#x200B;](https://developers.google.com/recaptcha/docs/verify) を参照してください。
 
 ```javascript
 ctx.vars.captchaValid = false

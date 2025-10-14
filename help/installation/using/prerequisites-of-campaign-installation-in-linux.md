@@ -21,16 +21,16 @@ ht-degree: 3%
 
 この節では、Adobe Campaignをインストールする前に必要な事前設定手順について説明します。
 
-Adobe Campaignのインストールに必要な技術的およびソフトウェア設定について詳しくは、[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) を参照してください。
+Adobe Campaignのインストールに必要な技術的およびソフトウェア設定について詳しくは、[&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) を参照してください。
 
 次のコンポーネントをインストールし、正しく設定する必要があります。
 
-* Apache、[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) を参照してください。
+* Apache、[&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) を参照してください。
 * Java JDK および OpenJDK については、[Java Development Kit - JDK](../../installation/using/application-server.md#jdk) を参照してください。
-* ライブラリについては、[ ライブラリ ](#libraries) を参照してください。
-* データベースアクセスレイヤーについては、[ データベースアクセスレイヤー ](#database-access-layers) を参照してください。
-* LibreOffice。[Debian 用 LibreOffice のインストール ](#installing-libreoffice-for-debian) および [CentOS 用 LibreOffice のインストール ](#installing-libreoffice-for-centos) を参照してください。
-* フォントについては、[MTA 統計のフォント ](#fonts-for-mta-statistics) および [ 日本語インスタンスのフォント ](#fonts-for-japanese-instances) を参照してください。
+* ライブラリについては、[&#x200B; ライブラリ &#x200B;](#libraries) を参照してください。
+* データベースアクセスレイヤーについては、[&#x200B; データベースアクセスレイヤー &#x200B;](#database-access-layers) を参照してください。
+* LibreOffice。[Debian 用 LibreOffice のインストール &#x200B;](#installing-libreoffice-for-debian) および [CentOS 用 LibreOffice のインストール &#x200B;](#installing-libreoffice-for-centos) を参照してください。
+* フォントについては、[MTA 統計のフォント &#x200B;](#fonts-for-mta-statistics) および [&#x200B; 日本語インスタンスのフォント &#x200B;](#fonts-for-japanese-instances) を参照してください。
 
 
 ### ライブラリ {#libraries}
@@ -140,7 +140,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 サポートされているパイロットバージョンは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に詳述されています。
 
-また、一般的な [ データベース ](../../installation/using/database.md) セクションも確認してください。
+また、一般的な [&#x200B; データベース &#x200B;](../../installation/using/database.md) セクションも確認してください。
 
 ### PostgreSQL {#postgresql}
 
@@ -182,7 +182,7 @@ Linux 用のAdobe Campaignのインストールは、サーバーのインスト
 
 インストールプロセスについては、この章で説明します。 インストール手順は次のとおりです。
 
-* 手順 1：アプリケーションサーバーのインストール。[Linux でのパッケージのインストール ](../../installation/using/installing-packages-with-linux.md) を参照してください。
+* 手順 1：アプリケーションサーバーのインストール。[Linux でのパッケージのインストール &#x200B;](../../installation/using/installing-packages-with-linux.md) を参照してください。
 * 手順 2:web サーバーとの統合（デプロイされているコンポーネントに応じてオプションで使用可能）
 
-インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、[ 初期設定について ](../../installation/using/about-initial-configuration.md) を参照してください。
+インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、[&#x200B; 初期設定について &#x200B;](../../installation/using/about-initial-configuration.md) を参照してください。

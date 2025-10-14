@@ -42,7 +42,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 このページには、アプリケーションで定義されたログインとパスワードが必要です。
 
-コンソールのインストール方法について詳しくは [ この節 ](../../installation/using/installing-the-client-console.md) を参照してください。
+コンソールのインストール方法について詳しくは [&#x200B; この節 &#x200B;](../../installation/using/installing-the-client-console.md) を参照してください。
 
 ## クライアントコンソールのアップグレードについてエンドユーザーに提案する
 

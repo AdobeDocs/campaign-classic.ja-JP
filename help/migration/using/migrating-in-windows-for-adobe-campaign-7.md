@@ -22,12 +22,12 @@ ht-degree: 0%
 
 Microsoft Windows 環境の場合、移行手順は次のとおりです。
 
-1. すべてのサービスを停止します [ 詳細情報 ](#service-stop)。
-1. データベースのバックアップ - [ 詳細情報 ](#back-up-the-database)。
-1. プラットフォームの移行 – [ 詳細情報 ](#deploying-adobe-campaign-v7)。
-1. リダイレクトサーバー（IIS）の移行 – [ 詳細情報 ](#migrating-the-redirection-server--iis-)。
-1. サービスの再起動 – [ 詳細情報 ](#re-starting-the-services)。
-1. 以前のAdobe Campaign バージョンを削除して消去する – [ 詳細情報 ](#deleting-and-cleansing-adobe-campaign-previous-version)。
+1. すべてのサービスを停止します [&#x200B; 詳細情報 &#x200B;](#service-stop)。
+1. データベースのバックアップ - [&#x200B; 詳細情報 &#x200B;](#back-up-the-database)。
+1. プラットフォームの移行 – [&#x200B; 詳細情報 &#x200B;](#deploying-adobe-campaign-v7)。
+1. リダイレクトサーバー（IIS）の移行 – [&#x200B; 詳細情報 &#x200B;](#migrating-the-redirection-server--iis-)。
+1. サービスの再起動 – [&#x200B; 詳細情報 &#x200B;](#re-starting-the-services)。
+1. 以前のAdobe Campaign バージョンを削除して消去する – [&#x200B; 詳細情報 &#x200B;](#deleting-and-cleansing-adobe-campaign-previous-version)。
 
 ## サービス停止 {#service-stop}
 
@@ -205,7 +205,7 @@ Adobe Campaignのデプロイには、次の 2 つの段階があります。
 
 Adobe Campaignをデプロイするには、次の手順に従います。
 
-1. **setup.exe** インストールファイルを実行して、最新のAdobe Campaign v7 ビルドをインストールします。 Windows へのAdobe Campaign サーバーのインストールについて詳しくは、[ この節 ](../../installation/using/installing-the-server.md) を参照してください。
+1. **setup.exe** インストールファイルを実行して、最新のAdobe Campaign v7 ビルドをインストールします。 Windows へのAdobe Campaign サーバーのインストールについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-the-server.md) を参照してください。
 
    ![](assets/migration_wizard_1_7.png)
 
@@ -217,7 +217,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!NOTE]
    >
-   >Windows へのAdobe Campaignのインストールについて詳しくは、[ この節 ](../../installation/using/installing-the-server.md) を参照してください。
+   >Windows へのAdobe Campaignのインストールについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-the-server.md) を参照してください。
 
 1. 次のコマンドを使用して、インスタンスを初めて使用するために起動します。
 
@@ -230,7 +230,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    >
    >これらのコマンドを使用すると、Adobe Campaign v7 の内部ファイルシステムである **conf** ディレクトリ（**config-default.xml** および **serverConf.xml** ファイルを含む）、**var** ディレクトリなどを作成できます。
 
-1. **Neolane v5.back**、{Neolane v6.back **または** 4}Adobe Campaign v6.back **のバックアップファイルを使用して、各インスタンスの設定ファイルとサブフォルダーをコピーして貼り付け（上書き）します（移行元のバージョンによって異なります。[ この節 ](#back-up-the-database-and-the-current-installation) を参照してください）。**
+1. **Neolane v5.back**、{Neolane v6.back **または** 4}Adobe Campaign v6.back **のバックアップファイルを使用して、各インスタンスの設定ファイルとサブフォルダーをコピーして貼り付け（上書き）します（移行元のバージョンによって異なります。[&#x200B; この節 &#x200B;](#back-up-the-database-and-the-current-installation) を参照してください）。**
 1. 移行元のバージョンに応じて、次のコマンドを実行します。
 
    ```
@@ -279,7 +279,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
 ## リダイレクトサーバーの移行 {#migrating-the-redirection-server--iis-}
 
-この段階で、IIS サーバーを停止する必要があります。 [ サービス停止 ](#service-stop) を参照してください。
+この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止 &#x200B;](#service-stop) を参照してください。
 
 1. **インターネット インフォメーション サービス （IIS） マネージャ** コンソールを開きます。
 1. Adobe Campaignの以前のバージョンで使用されていたサイトのバインディング（リッスンポート）を変更します。
@@ -337,7 +337,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
      >
      >ツリー構造が表示されない場合は、IIS を再起動します。
      >
-     >次の IIS 設定手順について詳しくは、[ この節 ](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server) を参照してください。
+     >次の IIS 設定手順について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server) を参照してください。
 
 <!--
 ## Security zones {#security-zones}

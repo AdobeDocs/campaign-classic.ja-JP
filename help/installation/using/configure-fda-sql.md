@@ -20,7 +20,7 @@ Campaign **Federated Data Access** （FDA）オプションを使用すると、
 1. [CentOS](#sql-centos) で [!DNL Microsoft SQL Server] を設定します。
 1. [Linux](#sql-linux) で [!DNL Microsoft SQL Server] を設定します。
 1. [Windows](#sql-windows) で [!DNL Microsoft SQL Server] を設定します。
-1. Campaign での [!DNL Microsoft SQL Server][ 外部アカウント ](#sql-external) の設定
+1. Campaign での [!DNL Microsoft SQL Server][&#x200B; 外部アカウント &#x200B;](#sql-external) の設定
 
 ## CentOS のMicrosoft SQL Server {#sql-centos}
 
@@ -40,7 +40,7 @@ CentOS で [!DNL Microsoft SQL Server] を設定するには、次の手順に�
    sudo ACCEPT_EULA=Y yum install msodbcsql
    ```
 
-1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#sql-external) を参照してください。
+1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#sql-external) を参照してください。
 
 ## Microsoft SQL Server on Linux {#sql-linux}
 
@@ -48,7 +48,7 @@ CentOS で [!DNL Microsoft SQL Server] を設定するには、次の手順に�
 >
 > 古いバージョンのAdobe Campaign（7.2.1 以前）を使用している場合は、`unix ODBC drivers` をインストールする必要があります。
 
-1. [ このページ ](https://packages.microsoft.com/ubuntu/16.04/prod/pool/main/m/msodbcsql17/) から MS ODBC ドライバをダウンロードします。
+1. [&#x200B; このページ &#x200B;](https://packages.microsoft.com/ubuntu/16.04/prod/pool/main/m/msodbcsql17/) から MS ODBC ドライバをダウンロードします。
 
 1. root ユーザーとして、次のコマンドを実行します。
 
@@ -58,7 +58,7 @@ CentOS で [!DNL Microsoft SQL Server] を設定するには、次の手順に�
    # accept the license terms
    ```
 
-1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#sql-external) を参照してください。
+1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#sql-external) を参照してください。
 
 ## Windows でのMicrosoft SQL Server {#sql-windows}
 
@@ -70,9 +70,9 @@ Windows で [!DNL Microsoft SQL Server] を設定するには：
 
 1. SQL Server Native Client v11 が [**[!UICONTROL Create New Data Source]**] ウィンドウに表示されているかどうかを確認します。
 
-1. SQL Server Native Client が一覧にない場合は、[ このページ ](https://www.microsoft.com/en-my/download/details.aspx?id=36434) からダウンロードできます。
+1. SQL Server Native Client が一覧にない場合は、[&#x200B; このページ &#x200B;](https://www.microsoft.com/en-my/download/details.aspx?id=36434) からダウンロードできます。
 
-1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#sql-external) を参照してください。
+1. Adobe Campaignで、[!DNL Microsoft SQL Server] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#sql-external) を参照してください。
 
 ## Microsoft SQL Server 外部アカウント {#sql-external}
 
@@ -112,6 +112,6 @@ Campaign インスタンスを [!DNL Microsoft SQL Server] 外部データベー
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 <br> 詳しくは、[Microsoft ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) の例 8 を参照してください。 |
-| 暗号化 | 接続でネットワーク経由の TLS 暗号化を使用するかどうかを指定します。 使用可能な値は、**はい/必須（18.0 以降）**、**いいえ/オプション（18.0 以降）**、**厳密（18.0 以降）** です。 バージョン 18.0 以降ではデフォルト値は **はい** に、以前のバージョンでは **いいえ** に設定されています。 <br> 詳しくは、[Microsoft ドキュメントを参照してください ](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt)。 |
+| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 <br> 詳しくは、[Microsoft ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) の例 8 を参照してください。 |
+| 暗号化 | 接続でネットワーク経由の TLS 暗号化を使用するかどうかを指定します。 使用可能な値は、**はい/必須（18.0 以降）**、**いいえ/オプション（18.0 以降）**、**厳密（18.0 以降）** です。 バージョン 18.0 以降ではデフォルト値は **はい** に、以前のバージョンでは **いいえ** に設定されています。 <br> 詳しくは、[Microsoft ドキュメントを参照してください &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt)。 |
 | TrustServerCertificate | **暗号化** と共に使用される場合に、自己署名サーバー証明書を使用した暗号化を有効にします。 <br> 使用できる値：**yes** または **no** （デフォルト値。サーバー証明書が検証されることを意味します）。 |

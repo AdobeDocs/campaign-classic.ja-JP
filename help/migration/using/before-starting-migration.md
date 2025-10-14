@@ -20,7 +20,7 @@ ht-degree: 2%
 
 
 
-このページでは、移行プロセスを開始する前に実行すべき特定の手順を示します。 また、詳しくは [ このページ ](about-migration.md) を参照する必要があります。
+このページでは、移行プロセスを開始する前に実行すべき特定の手順を示します。 また、詳しくは [&#x200B; このページ &#x200B;](about-migration.md) を参照する必要があります。
 
 >[!NOTE]
 >
@@ -58,4 +58,4 @@ nlserver config -internalpassword
 
 >[!CAUTION]
 >
->**内部** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳しくは、[ 内部識別子 ](../../installation/using/configuring-campaign-server.md#internal-identifier) および [ 権限 ](../../platform/using/access-management.md) の節を参照してください。
+>**内部** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳しくは、[&#x200B; 内部識別子 &#x200B;](../../installation/using/configuring-campaign-server.md#internal-identifier) および [&#x200B; 権限 &#x200B;](../../platform/using/access-management.md) の節を参照してください。

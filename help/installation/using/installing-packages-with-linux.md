@@ -222,7 +222,7 @@ Adobe CampaignでOracleを使用する場合、Linux でOracleクライアント
 
 * 環境変数
 
-  [ 環境変数 ](#environment-variables) を参照してください。
+  [&#x200B; 環境変数 &#x200B;](#environment-variables) を参照してください。
 
 * Adobe Campaignの設定
 
@@ -272,7 +272,7 @@ nlserver web
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-これらのコマンドを使用すると、**config-default.xml** および **serverConf.xml** 設定ファイルを作成できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+これらのコマンドを使用すると、**config-default.xml** および **serverConf.xml** 設定ファイルを作成できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 **Ctrl+C** を押してプロセスを停止し、次のコマンドを入力します。
 

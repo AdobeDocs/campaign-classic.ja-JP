@@ -20,8 +20,8 @@ ht-degree: 67%
 
 Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 SAP HANAへのアクセスを設定するには、次の手順に従います。
 
-1. [SAP HANA データベース ](#sap-config) を構成します
-1. Campaign でのSAP HANA[ 外部アカウント ](#sap-external) の設定
+1. [SAP HANA データベース &#x200B;](#sap-config) を構成します
+1. Campaign でのSAP HANA[&#x200B; 外部アカウント &#x200B;](#sap-external) の設定
 
 ## SAP HANAドライバ {#sap-config}
 

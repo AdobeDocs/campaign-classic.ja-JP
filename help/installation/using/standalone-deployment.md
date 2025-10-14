@@ -71,7 +71,7 @@ ht-degree: 5%
    * 1 つ目は、トラッキング用に公開され、パブリック IP 上のコンピューターを指します。
    * 2 つ目のエイリアスは、コンソールアクセス用に内部ユーザーに公開され、同じコンピューターを指します。
 
-* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）ポートを開くように設定されたファイアウォール。 詳しくは、[ ネットワーク設定 ](../../installation/using/network-configuration.md) を参照してください。
+* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）ポートを開くように設定されたファイアウォール。 詳しくは、[&#x200B; ネットワーク設定 &#x200B;](../../installation/using/network-configuration.md) を参照してください。
 
 次の例では、インスタンスのパラメーターは次のとおりです。
 
@@ -98,14 +98,14 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >Web モジュールを初めて実行すると、インストールフォルダーの下の **conf** ディレクトリに **config-default.xml** ファイルと **serverConf.xml** ファイルが作成されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の **conf** ディレクトリに **config-default.xml** ファイルと **serverConf.xml** ファイルが作成されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
    **Ctrl+C** キーを押して、サーバーを停止します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linux の場合：[ サーバーの最初の起動 ](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)、
-   * Windows の場合：[ サーバーの最初の起動 ](../../installation/using/installing-the-server.md#first-start-up-of-the-server)。
+   * Linux の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)、
+   * Windows の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-the-server.md#first-start-up-of-the-server)。
 
 1. **internal** パスワードを次のコマンドを使用して変更します。
 
@@ -121,7 +121,7 @@ ht-degree: 5%
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、[ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成とログオン &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
 
      または
 
@@ -131,7 +131,7 @@ ht-degree: 5%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、[ インスタンスの作成 ](../../installation/using/command-lines.md#creating-an-instance) を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成 &#x200B;](../../installation/using/command-lines.md#creating-an-instance) を参照してください。
 
 1. **config-demo.xml** ファイル（**config-default.xml** の次の前の手順で作成）を編集し、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （バウンスメール）、**stat** （統計）の各プロセスが有効になっていることを確認します。 次に、統計サーバーのアドレスを設定します。
 
@@ -163,14 +163,14 @@ ht-degree: 5%
    >
    >**nameServers** パラメーターは Windows でのみ使用されます。
 
-   詳しくは、[Campaign サーバー設定 ](../../installation/using/configuring-campaign-server.md) を参照してください。
+   詳しくは、[Campaign サーバー設定 &#x200B;](../../installation/using/configuring-campaign-server.md) を参照してください。
 
 1. クライアントコンソール設定プログラム **setup-client-7.XXX.exe** を **/datakit/nl/eng/jsp** フォルダーにコピーします。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. 次の項で説明する Web サーバー統合手順（IIS、Apache）に従います。
 
-   * Linux の場合：[Linux 用の web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Windows の場合：[Windows の Web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Linux の場合：[Linux 用の web サーバーへの統合 &#x200B;](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Windows の場合：[Windows の Web サーバーへの統合 &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Web サイトを開始し、URL https://tracking.campaign.net/r/testを使用してリダイレクトをテストします。
 
@@ -182,8 +182,8 @@ ht-degree: 5%
 
    詳しくは、以下の節を参照してください。
 
-   * Linux の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Windows の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Linux の場合：[Web サーバーの起動と設定のテスト &#x200B;](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Windows の場合：[Web サーバーの起動と設定のテスト &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Adobe Campaign サーバー（Windows の場合は **net start nlserver6**、Linux の場合は **/etc/init.d/nlserver6 start**）を起動し、もう一度 **nlserver pdump** コマンドを実行して、有効なすべてのモジュールが存在するかどうかを確認します。
 
@@ -214,7 +214,7 @@ ht-degree: 5%
 
 1. （前のダウンロードページから、または Windows インストールの場合はサーバー上で直接起動した）Adobe Campaign クライアントコンソールを起動し、サーバー接続 URL をhttps://console.campaign.netに設定して **internal** ログインを使用して接続します。
 
-   [ このページ ](../../installation/using/creating-an-instance-and-logging-on.md) および [ この節 ](../../installation/using/configuring-campaign-server.md#internal-identifier) を参照してください。
+   [&#x200B; このページ &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md) および [&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-server.md#internal-identifier) を参照してください。
 
    データベース作成ウィザードは、初めてログインすると表示されます。
 
@@ -222,20 +222,20 @@ ht-degree: 5%
 
    アシスタントの手順に従って、接続インスタンスに関連付けられたデータベースを作成します。
 
-   詳しくは、[ データベースの作成と設定 ](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
+   詳しくは、[&#x200B; データベースの作成と設定 &#x200B;](../../installation/using/creating-and-configuring-the-database.md) を参照してください。
 
    データベースを作成したら、ログオフします。
 
 1. **admin** ログインを使用してパスワードなしでクライアントコンソールに再度ログオンし、デプロイメントウィザード（**[!UICONTROL ツール/詳細]** メニュー）を開始して、インスタンスの設定を完了します。
 
-   詳しくは、[ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md) を参照してください。
+   詳しくは、[&#x200B; インスタンスのデプロイ &#x200B;](../../installation/using/deploying-an-instance.md) を参照してください。
 
    設定する主なパラメーターは次のとおりです。
 
    * メール配信：送信者と返信アドレス、バウンスメールのエラーメールボックス。
    * トラッキング：リダイレクトに使用する外部 URL と内部 URL を入力し、**トラッキングサーバーに登録** をクリックして、トラッキングサーバーの **demo** インスタンスで検証します。
 
-     詳しくは、[ トラッキング設定 ](../../installation/using/deploying-an-instance.md#tracking-configuration) を参照してください。
+     詳しくは、[&#x200B; トラッキング設定 &#x200B;](../../installation/using/deploying-an-instance.md#tracking-configuration) を参照してください。
 
      ![](assets/s_ncs_install_deployment_wiz_09.png)
 

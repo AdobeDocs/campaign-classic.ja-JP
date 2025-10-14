@@ -18,7 +18,7 @@ ht-degree: 17%
 
 新しい受信者テーブルに基づいて **[!UICONTROL リスト]** タイプのリストを作成するには、リストを生成するターゲティングワークフローを作成する必要があります。
 
-Campaign のリストについて詳しくは、[ この節 ](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign) を参照してください。
+Campaign のリストについて詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign) を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
 

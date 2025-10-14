@@ -20,8 +20,8 @@ ht-degree: 78%
 
 Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 hadoopへのアクセスを設定するには、次の手順に従います。
 
-1. [Hadoop データベース ](#configuring-hadoop) を構成します
-1. Campaign でのHadoop[ 外部アカウント ](#hadoop-external) の設定
+1. [Hadoop データベース &#x200B;](#configuring-hadoop) を構成します
+1. Campaign でのHadoop[&#x200B; 外部アカウント &#x200B;](#hadoop-external) の設定
 
 ## hadoop 3.0 の設定 {#configuring-hadoop}
 
@@ -38,7 +38,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#hadoop-external) を参照してください。
+1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#hadoop-external) を参照してください。
 
 ## Hadoop 外部アカウント {#hadoop-external}
 
@@ -101,7 +101,7 @@ hadoop 2.1 に接続する必要がある場合は、以下の [Windows](#for-wi
    User/Password: admin/<your password here>
    ```
 
-1. [ この節 ](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。
+1. [&#x200B; この節 &#x200B;](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。
 
 ### Linux の場合のHadoop 2.1 {#for-linux}
 
@@ -188,4 +188,4 @@ hadoop 2.1 に接続する必要がある場合は、以下の [Windows](#for-wi
    isql vorac -v
    ```
 
-1. [ この節 ](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。
+1. [&#x200B; この節 &#x200B;](#hadoop-external) で説明しているように、Hadoop外部アカウントを作成します。

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 * 配信 :
 
-   * 配信アクションの作成。[SubmitDelivery （nms:delivery） ](#submitdelivery--nms-delivery-) を参照してください。
+   * 配信アクションの作成。[SubmitDelivery （nms:delivery） &#x200B;](#submitdelivery--nms-delivery-) を参照してください。
    * キャンペーンの送信（開始、一時停止、停止、配達確認の送信）、
    * 配信ログを復元しています。
 
@@ -27,17 +27,17 @@ ht-degree: 2%
    * ワークフローの開始
    * 工程の検証等
 
-     JavaScriptの [SOAP メソッドを参照してください ](../../configuration/using/soap-methods-in-javascript.md)。
+     JavaScriptの [SOAP メソッドを参照してください &#x200B;](../../configuration/using/soap-methods-in-javascript.md)。
 
 * コンテンツ管理
-* 購読の管理。[ 購読（nms:subscription） ](#subscribe--nms-subscription-) および [ 購読解除（nms:subscription） ](#unsubscribe--nms-subscription-) を参照してください。
+* 購読の管理。[&#x200B; 購読（nms:subscription） &#x200B;](#subscribe--nms-subscription-) および [&#x200B; 購読解除（nms:subscription） &#x200B;](#unsubscribe--nms-subscription-) を参照してください。
 * データプロセス：インポート、エクスポート。
 
 この節では、「購読」、「購読解除」、「SubmitDelivery」の各サービスの使用方法について説明します。
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP呼び出しとAdobe Campaignでの JavaScript 使用に関する追加情報のほか、アプリケーションで使用されるすべてのメソッドと関数の完全なリファレンスが含まれています。
+>[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP呼び出しとAdobe Campaignでの JavaScript 使用に関する追加情報のほか、アプリケーションで使用されるすべてのメソッドと関数の完全なリファレンスが含まれています。
 
 ## 購読（nms:subscription） {#subscribe--nms-subscription-}
 

@@ -18,8 +18,8 @@ ht-degree: 27%
 
 Campaign **Federated Data Access** （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 
-1. [Amazon Redshift データベース ](#configuring-redshift) を構成します
-1. Campaign でAmazon Redshift[ 外部アカウント ](#redshift-external) を設定
+1. [Amazon Redshift データベース &#x200B;](#configuring-redshift) を構成します
+1. Campaign でAmazon Redshift[&#x200B; 外部アカウント &#x200B;](#redshift-external) を設定
 
 ## Linux のAmazon Redshift {#redshift-linux}
 
@@ -64,7 +64,7 @@ Linux で [!DNL Amazon Redshift] を設定するには、次の手順に従い�
    systemctl start nlserver.service
    ```
 
-1. その後、Campaign で [!DNL Amazon Redshift] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[ この節 ](#redshift-external) を参照してください。
+1. その後、Campaign で [!DNL Amazon Redshift] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#redshift-external) を参照してください。
 
 ## Amazon Redshift 外部アカウント {#redshift-external}
 

@@ -23,10 +23,10 @@ ht-degree: 1%
 >
 >* LDAP 設定は、オンプレミスインストールまたはハイブリッドインストールの場合にのみ使用できます。
 >
->* システムと Openssl バージョンが [ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) の Campaign と互換性があることを確認します。 古いバージョンは、LDAP 認証に影響を与える可能性があります。
+>* システムと Openssl バージョンが [&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) の Campaign と互換性があることを確認します。 古いバージョンは、LDAP 認証に影響を与える可能性があります。
 >
 
-LDAP の設定は、デプロイメントウィザードで実行します。 **[!UICONTROL LDAP 統合]** オプションは、最初の設定手順で選択する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
+LDAP の設定は、デプロイメントウィザードで実行します。 **[!UICONTROL LDAP 統合]** オプションは、最初の設定手順で選択する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 このウィンドウでは、指定した LDAP ディレクトリを介してAdobe Campaign ユーザーの識別を設定できます。
 
@@ -49,7 +49,7 @@ LDAP の設定は、デプロイメントウィザードで実行します。 **
 
    * プレーンテキストのパスワード – 暗号化なし（テストフェーズでのみ使用）。
 
-* ユーザー認証モードを選択します：**[!UICONTROL 一意のユーザー ID を自動的に計算]** （手順 [ 識別名の計算 ](#distinguished-name-calculation) を参照）または **[!UICONTROL ディレクトリ内の一意のユーザー ID を検索]** （手順 [ 識別子の検索 ](#searching-for-identifiers) を参照）。
+* ユーザー認証モードを選択します：**[!UICONTROL 一意のユーザー ID を自動的に計算]** （手順 [&#x200B; 識別名の計算 &#x200B;](#distinguished-name-calculation) を参照）または **[!UICONTROL ディレクトリ内の一意のユーザー ID を検索]** （手順 [&#x200B; 識別子の検索 &#x200B;](#searching-for-identifiers) を参照）。
 
 ## 互換性 {#compatibility}
 

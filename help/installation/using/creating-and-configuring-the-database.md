@@ -19,8 +19,8 @@ ht-degree: 1%
 
 データベースを作成する場合、Adobe Campaignには次の 2 つの異なるオプションが用意されています。
 
-1. データベースの作成または再利用：新しいデータベースを作成する場合や、既存のデータベースを再利用する場合は、このオプションを選択します。 [ ケース 1：データベースの作成/リサイクル ](#case-1--creating-recycling-a-database) を参照してください。
-1. 既存のデータベースの使用：管理者によって空のデータベースが既に作成されていて、それを使用する場合は、このオプションを選択します。または、既存のデータベースの構造を拡張します。 [ ケース 2：既存データベースの使用 ](#case-2--using-an-existing-database) を参照してください。
+1. データベースの作成または再利用：新しいデータベースを作成する場合や、既存のデータベースを再利用する場合は、このオプションを選択します。 [&#x200B; ケース 1：データベースの作成/リサイクル &#x200B;](#case-1--creating-recycling-a-database) を参照してください。
+1. 既存のデータベースの使用：管理者によって空のデータベースが既に作成されていて、それを使用する場合は、このオプションを選択します。または、既存のデータベースの構造を拡張します。 [&#x200B; ケース 2：既存データベースの使用 &#x200B;](#case-2--using-an-existing-database) を参照してください。
 
 設定手順について詳しくは、以下を参照してください。
 
@@ -36,12 +36,12 @@ ht-degree: 1%
 
 関係する手順は次のとおりです。
 
-* [ 手順 1 - データベースエンジンの選択 ](#step-1---selecting-the-database-engine)、
-* [ 手順 2 - サーバーへの接続 ](#step-2---connecting-to-the-server)、
-* [ 手順 3 - データベースの接続と特性 ](#step-3---connection-and-characteristics-of-the-database)、
-* [ 手順 4 - インストールするパッケージ ](#step-4---packages-to-install)、
-* [ 手順 5 – 作成手順 ](#step-5---creation-steps)、
-* [ 手順 6 - データベースの作成 ](#step-6---creating-the-database)。
+* [&#x200B; 手順 1 - データベースエンジンの選択 &#x200B;](#step-1---selecting-the-database-engine)、
+* [&#x200B; 手順 2 - サーバーへの接続 &#x200B;](#step-2---connecting-to-the-server)、
+* [&#x200B; 手順 3 - データベースの接続と特性 &#x200B;](#step-3---connection-and-characteristics-of-the-database)、
+* [&#x200B; 手順 4 - インストールするパッケージ &#x200B;](#step-4---packages-to-install)、
+* [&#x200B; 手順 5 – 作成手順 &#x200B;](#step-5---creation-steps)、
+* [&#x200B; 手順 6 - データベースの作成 &#x200B;](#step-6---creating-the-database)。
 
 ### 手順 1 - データベースエンジンの選択 {#step-1---selecting-the-database-engine}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-サポートされるデータベースは、Campaign[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) に一覧表示されます。
+サポートされるデータベースは、Campaign[&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) に一覧表示されます。
 
 サーバーを特定し、実行する操作のタイプを選択します。 この場合、**[!UICONTROL データベースを作成またはリサイクル]** します。
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 * データベースのタイムゾーンを選択し、UTC （使用可能な場合）にするかどうかを指定します。
 
-  詳しくは、[ タイムゾーン管理 ](../../installation/using/time-zone-management.md) を参照してください。
+  詳しくは、[&#x200B; タイムゾーン管理 &#x200B;](../../installation/using/time-zone-management.md) を参照してください。
 
 ### 手順 4 - インストールするパッケージ {#step-4---packages-to-install}
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 * oracle、Microsoft SQL Server または PostgreSQL データベースの場合、データベースオブジェクトの作成時に使用される **ストレージパラメーター** を定義することもできます。
 
-  これらのパラメータは、正確な表領域名を受け取ります（警告：大文字と小文字が区別されます）。 これらはそれぞれ、次のオプションの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに格納されます（[ この節 ](../../installation/using/configuring-campaign-options.md#database) を参照）。
+  これらのパラメータは、正確な表領域名を受け取ります（警告：大文字と小文字が区別されます）。 これらはそれぞれ、次のオプションの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに格納されます（[&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-options.md#database) を参照）。
 
    * **WdbcOptions_TableSpaceUser**：スキーマに基づいたユーザーテーブル
    * **WdbcOptions_TableSpaceIndex**：スキーマに基づいたユーザーテーブルのインデックス
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 データベースが作成されたら、再接続してインスタンス設定を完了できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
+インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
 
@@ -157,11 +157,11 @@ ht-degree: 1%
 
 既存のデータベースを使用するには、次の設定手順に従います。
 
-* [ 手順 1 - データベースエンジンの選択 ](#step-1---choosing-the-database-engine)、
-* [ 手順 2 - データベース接続設定 ](#step-2---database-connection-settings)、
-* [ 手順 3 - インストールするパッケージ ](#step-3---packages-to-install)、
-* [ 手順 4 – 作成手順 ](#step-4---creation-steps)、
-* [ 手順 5 - データベースの作成 ](#step-5---creating-the-database)。
+* [&#x200B; 手順 1 - データベースエンジンの選択 &#x200B;](#step-1---choosing-the-database-engine)、
+* [&#x200B; 手順 2 - データベース接続設定 &#x200B;](#step-2---database-connection-settings)、
+* [&#x200B; 手順 3 - インストールするパッケージ &#x200B;](#step-3---packages-to-install)、
+* [&#x200B; 手順 4 – 作成手順 &#x200B;](#step-4---creation-steps)、
+* [&#x200B; 手順 5 - データベースの作成 &#x200B;](#step-5---creating-the-database)。
 
 ### 手順 1 - データベースエンジンの選択 {#step-1---choosing-the-database-engine}
 
@@ -230,7 +230,7 @@ ht-degree: 1%
 
 データベースの作成が完了したら、再接続してインスタンス設定を完了できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
+インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
 
 インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
 

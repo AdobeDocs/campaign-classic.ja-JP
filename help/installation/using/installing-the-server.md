@@ -60,7 +60,7 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
    >
    >サーバのインストールが完了したら、ネットワークの問題を回避するためにサーバを再起動する必要があります。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 [ サーバーの最初の起動 ](#first-start-up-of-the-server) を参照してください。
+   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 [&#x200B; サーバーの最初の起動 &#x200B;](#first-start-up-of-the-server) を参照してください。
 
 ## 概要インストールテスト {#summary-installation-testing}
 

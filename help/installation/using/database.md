@@ -23,7 +23,7 @@ ht-degree: 6%
 
 データベースサーバーのオペレーティングシステムは、Adobe Campaignの様々なコンポーネントとの接続が可能であれば重要ではありません。
 
-また、「[ データベースアクセスレイヤー ](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) セクションも確認してください。
+また、「[&#x200B; データベースアクセスレイヤー &#x200B;](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) セクションも確認してください。
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
@@ -76,7 +76,7 @@ sqlplus
 [login] [password]
 ```
 
-また、[Linux のOracleクライアント ](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux) も参照してください。
+また、[Linux のOracleクライアント &#x200B;](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux) も参照してください。
 
 ## PostgresSQL {#postgressql}
 
@@ -84,4 +84,4 @@ sqlplus
 
 **関連トピック**
 
-* [Adobe Campaign Classic テーブルの未ログオプション ](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
+* [Adobe Campaign Classic テーブルの未ログオプション &#x200B;](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)

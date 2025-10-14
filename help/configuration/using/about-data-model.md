@@ -24,7 +24,7 @@ Adobe Campaignは、相互にリンクされたテーブルを含んだリレー
 
 データモデルは、デフォルトで受信者テーブル（**NmsRecipient**）であるメインテーブルに基づいています。 このテーブルを使用すると、すべてのマーケティングプロファイルを格納できます。
 
-受信者テーブルの詳細については、[ この節 ](#default-recipient-table) を参照してください。
+受信者テーブルの詳細については、[&#x200B; この節 &#x200B;](#default-recipient-table) を参照してください。
 
 ### 配信テーブル {#delivery-table}
 
@@ -65,14 +65,14 @@ Adobe Campaignに組み込まれている受信者テーブルは、データモ
 
 Adobe Campaign の使用を開始する場合は、デフォルトのデータモデルを評価して、マーケティングデータの保存に最適なテーブルを確認する必要があります。
 
-該当する場合、[ この節 ](#default-recipient-table) で説明されているように、デフォルトの受信者テーブルを標準のフィールドと共に使用できます。
+該当する場合、[&#x200B; この節 &#x200B;](#default-recipient-table) で説明されているように、デフォルトの受信者テーブルを標準のフィールドと共に使用できます。
 
 必要に応じて、次の 2 つのメカニズムで拡張できます。
 
 * 新しいフィールドで既存のテーブルを拡張する。 例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * 新しいテーブルを作成する。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
 
-概念的データモデルを拡張するための拡張スキーマの設定について詳しくは、[ スキーマエディションについて ](../../configuration/using/about-schema-edition.md) を参照してください。
+概念的データモデルを拡張するための拡張スキーマの設定について詳しくは、[&#x200B; スキーマエディションについて &#x200B;](../../configuration/using/about-schema-edition.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -80,15 +80,15 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 
 ## カスタム受信者テーブルの使用 {#custom-recipient-table}
 
-Adobe Campaign データモデルを設計する際に、[ 組み込みの受信者テーブル ](#default-recipient-table) を使用するか、[ カスタム受信者テーブル ](../../configuration/using/about-custom-recipient-table.md) テーブルを作成してマーケティングプロファイルを格納することを決定できます。
+Adobe Campaign データモデルを設計する際に、[&#x200B; 組み込みの受信者テーブル &#x200B;](#default-recipient-table) を使用するか、[&#x200B; カスタム受信者テーブル &#x200B;](../../configuration/using/about-custom-recipient-table.md) テーブルを作成してマーケティングプロファイルを格納することを決定できます。
 
 実際、データモデルが受信者中心の構造に適合しない場合は、Adobe Campaign内でターゲティングディメンションとして他のテーブルを設定できます。 例えば、単に受信者ではなく、世帯、アカウント（携帯電話など）、会社やサイトをターゲットにする必要がある場合に関連する可能性があります。
 
 >[!NOTE]
 >
->この場合、[ ターゲットマッピング ](../../configuration/using/target-mapping.md) を新規作成する必要があります。
+>この場合、[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md) を新規作成する必要があります。
 
-カスタム受信者テーブルの使用時に必要なすべての原則と手順について詳しくは、[ この節 ](../../configuration/using/about-custom-recipient-table.md) を参照してください。
+カスタム受信者テーブルの使用時に必要なすべての原則と手順について詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/about-custom-recipient-table.md) を参照してください。
 
 カスタム受信者テーブルを使用する利点は次のとおりです。
 
@@ -108,13 +108,13 @@ Adobe Campaign データモデルを設計する際に、[ 組み込みの受信
 
 Campaign データモデルの詳細については、以下の節を参照してください。
 
-* **メインテーブルの説明** - デフォルトのCampaign Classicデータモデル説明について詳しくは、[ この節 ](../../configuration/using/data-model-description.md) を参照してください。
+* **メインテーブルの説明** - デフォルトのCampaign Classicデータモデル説明について詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/data-model-description.md) を参照してください。
 
 * **各テーブルの完全な説明** – 各テーブルの完全な説明にアクセスするには、**[!UICONTROL 管理/設定/データスキーマ]** に移動し、リストからリソースを選択して **[!UICONTROL ドキュメント]** タブをクリックします。
 
   ![](assets/data-model_documentation-tab.png)
 
 
-* **キャンペーンスキーマ** - アプリケーションに保持されるデータの物理的および論理的構造は、XML で記述されます。 スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[ この節 ](../../configuration/using/about-schema-reference.md) を参照してください。
+* **キャンペーンスキーマ** - アプリケーションに保持されるデータの物理的および論理的構造は、XML で記述されます。 スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/about-schema-reference.md) を参照してください。
 
-* **データモデルのベストプラクティス** - Campaign データモデルのアーキテクチャと関連するベストプラクティスについては、[ この節 ](../../configuration/using/data-model-best-practices.md#data-model-architecture) を参照してください。
+* **データモデルのベストプラクティス** - Campaign データモデルのアーキテクチャと関連するベストプラクティスについては、[&#x200B; この節 &#x200B;](../../configuration/using/data-model-best-practices.md#data-model-architecture) を参照してください。

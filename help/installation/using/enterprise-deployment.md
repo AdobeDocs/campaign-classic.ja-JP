@@ -62,7 +62,7 @@ ht-degree: 7%
    * 1 つ目はトラッキング用に公開され、VIP（virtual IP address）上のロードバランサーを指します。これは次に、2 つのフロントサーバーに配信されます。
    * 2 つ目は、コンソール経由でアクセスするために内部ユーザーに公開され、バーチャル IP アドレス（VIP）上のロードバランサーを指し、2 つのアプリケーションサーバーに配布されます。
 
-* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、[ データベースアクセス ](../../installation/using/network-configuration.md#database-access) の節を参照してください。
+* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （Oracle用 1521、PostgreSQL 用 5432 など）を開くように設定されたファイアウォール ポート。 詳しくは、[&#x200B; データベースアクセス &#x200B;](../../installation/using/network-configuration.md#database-access) の節を参照してください。
 
 >[!CAUTION]
 >
@@ -99,14 +99,14 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >Web モジュールを初めて実行すると、インストールフォルダーの下の **conf** ディレクトリに **config-default.xml** ファイルと **serverConf.xml** ファイルが作成されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の **conf** ディレクトリに **config-default.xml** ファイルと **serverConf.xml** ファイルが作成されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
    **Ctrl+C** キーを押して、サーバーを停止します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linux の場合：[ サーバーの最初の起動 ](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windows の場合：[ サーバーの最初の起動 ](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linux の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windows の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 1. **internal** パスワードを次のコマンドを使用して変更します。
 
@@ -122,7 +122,7 @@ ht-degree: 7%
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、[ インスタンスの作成とログオン ](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成とログオン &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md) を参照してください。
 
      または
 
@@ -132,7 +132,7 @@ ht-degree: 7%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、[ インスタンスの作成 ](../../installation/using/command-lines.md#creating-an-instance) を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成 &#x200B;](../../installation/using/command-lines.md#creating-an-instance) を参照してください。
 
 1. **config-demo.xml** ファイル（前のコマンドで作成され、**config-default.xml** ファイルの隣にある）を編集して、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （リバウンドメール）、**stat** （統計）の各プロセスが有効になっていることを確認し、**app** 統計サーバーのアドレスを設定します。
 
@@ -164,7 +164,7 @@ ht-degree: 7%
    >
    >**nameServers** パラメーターは、Windows でのみ使用されます。
 
-   詳しくは、[Campaign サーバー設定 ](../../installation/using/configuring-campaign-server.md) を参照してください。
+   詳しくは、[Campaign サーバー設定 &#x200B;](../../installation/using/configuring-campaign-server.md) を参照してください。
 
 1. クライアントコンソールのセットアッププログラム **setup-client-7.XX**, **YYYY.exe** を **/datakit/nl/eng/jsp** フォルダーにコピーします。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
@@ -242,14 +242,14 @@ ht-degree: 7%
    >
    >**nameServers** パラメーターは Windows でのみ使用されます。
 
-   詳しくは、[Campaign サーバー設定 ](../../installation/using/configuring-campaign-server.md) を参照してください。
+   詳しくは、[Campaign サーバー設定 &#x200B;](../../installation/using/configuring-campaign-server.md) を参照してください。
 
 1. Adobe Campaign サーバーを起動します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linux の場合：[ サーバーの最初の起動 ](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windows の場合：[ サーバーの最初の起動 ](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linux の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windows の場合：[&#x200B; サーバーの最初の起動 &#x200B;](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 ### フロントサーバーのインストールと設定 {#installing-and-configuring-the-frontal-servers}
 
@@ -260,8 +260,8 @@ ht-degree: 7%
 1. Adobe Campaign サーバーをインストールします。
 1. 次の節で説明されている web サーバー統合手順（IIS、Apache）に従います。
 
-   * Linux の場合：[Linux 用の web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-linux.md)、
-   * Windows の場合：[Windows の Web サーバーへの統合 ](../../installation/using/integration-into-a-web-server-for-windows.md)。
+   * Linux の場合：[Linux 用の web サーバーへの統合 &#x200B;](../../installation/using/integration-into-a-web-server-for-linux.md)、
+   * Windows の場合：[Windows の Web サーバーへの統合 &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md)。
 
 1. インストール時に作成した **config-demo.xml** および **serverConf.xml** ファイルをコピーします。 **config-demo.xml** ファイル内で **trackinglogd** プロセスをアクティベートし、**mta**、**inmail**、**wfserver** および **stat** プロセスをアクティベート解除します。
 1. **serverConf.xml** ファイルを編集し、リダイレクトのパラメーターに冗長なトラッキングサーバーを入力します。
@@ -287,7 +287,7 @@ ht-degree: 7%
 
    詳しくは、以下の節を参照してください。
 
-   * Linux の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)、
-   * Windows の場合：[Web サーバーの起動と設定のテスト ](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)。
+   * Linux の場合：[Web サーバーの起動と設定のテスト &#x200B;](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)、
+   * Windows の場合：[Web サーバーの起動と設定のテスト &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)。
 
 1. Adobe Campaign サーバーを起動します。

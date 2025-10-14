@@ -29,7 +29,7 @@ Campaign **Federated Data Access** （FDA）オプションを使用して、外
 
 * Windows の場合、Libpq はAdobe Campaignのインストールに含まれる `libpq.dll` を通じて実装されます。
 
-Adobe Campaignで、[!DNL PostgreSQL] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#postgresql-external) を参照してください。
+Adobe Campaignで、[!DNL PostgreSQL] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#postgresql-external) を参照してください。
 
 ## PostgreSQL 外部アカウント {#postgresql-external}
 
@@ -75,7 +75,7 @@ Campaign インスタンスを [!DNL PostgreSQL] 外部データベースに接�
 
 | オプション | 説明 |
 |:-:|:-:|
-| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒単位）。 <br> 詳しくは、[PostgreSQL のドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT) を参照してください。 |
-| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブ メッセージをサーバーに送信するまでの非アクティブな時間（秒）。 <br> 詳しくは、[PostgreSQL のドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE) を参照してください。 |
-| PGSQL_KEEPALIVES_INTVL | サーバーによって確認されなかった TCP キープアライブ メッセージが再送信されるまでの秒数です。  <br> 詳しくは、[PostgreSQL のドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL) を参照してください。 |
-| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止していると見なされるまで失われる可能性がある TCP キープアライブの数。 <br> 詳しくは、[PostgreSQL のドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT) を参照してください。 |
+| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒単位）。 <br> 詳しくは、[PostgreSQL のドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT) を参照してください。 |
+| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブ メッセージをサーバーに送信するまでの非アクティブな時間（秒）。 <br> 詳しくは、[PostgreSQL のドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE) を参照してください。 |
+| PGSQL_KEEPALIVES_INTVL | サーバーによって確認されなかった TCP キープアライブ メッセージが再送信されるまでの秒数です。  <br> 詳しくは、[PostgreSQL のドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL) を参照してください。 |
+| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止していると見なされるまで失われる可能性がある TCP キープアライブの数。 <br> 詳しくは、[PostgreSQL のドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT) を参照してください。 |

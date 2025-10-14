@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ターゲット母集団が鍵です。リストを慎重に作成し、一般的なメールクライアントやモバイルデバイスでメールをテストし、メールリストが最新のものであるか（不明なアドレスや古いアドレスが含まれていないこと）を確認します。また、もれのない検証サイクルを確立するために、配達確認を送信することもできます。
 
-ターゲット母集団について詳しくは、この節 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+ターゲット母集団について詳しくは、この節 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 ## 適切なオーディエンスのターゲット {#target-the-right-audience}
 
@@ -33,13 +33,13 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 例えば、ソーシャルネットワークからプロファイルを収集された訪問者や、情報サービスを購読している訪問者に配信できます。
 
-これらのマッピングについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"} を参照してください。
+これらのマッピングについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"} を参照してください。
 
 また、カスタマイズしたターゲットマッピングを作成して使用することもできます。詳しくは、[この節](../../configuration/using/target-mapping.md)を参照してください。
 
 ## 外部受信者 {#external-recipients}
 
-データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"} を参照してください。
+データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"} を参照してください。
 
 ## 購読者への送信 {#send-to-subscribers}
 
@@ -50,7 +50,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 配信をテストするには、メインターゲットに送信する前に配達確認を使用します。
 
-配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認の受信者を定義する手順については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"} を参照してください。
+配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認の受信者を定義する手順については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"} を参照してください。
 
 シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにして、メインターゲットに送信する前に配信テストをおこなう場合に使用します。詳しくは、[この節](about-seed-addresses.md)を参照してください。
 

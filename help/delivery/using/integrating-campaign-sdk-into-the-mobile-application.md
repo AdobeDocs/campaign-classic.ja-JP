@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->アドビでは、データ収集 UI で Adobe Campaign 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することを強くお勧めします。Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。[ 詳しくは、Adobe Developer ドキュメントを参照してください ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}。
+>アドビでは、データ収集 UI で Adobe Campaign 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することを強くお勧めします。Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。[&#x200B; 詳しくは、Adobe Developer ドキュメントを参照してください &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}。
 
 Campaign SDK（旧 Neolane SDK）を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
 
@@ -64,7 +64,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
   >[!NOTE]
   >
-  >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"} を参照してください。
+  >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"} を参照してください。
 
 * **トラッキング URL**：Adobe Campaign トラッキングサーバーのアドレスと一致します。
 * **マーケティング URL**：購読のコレクションを有効にします。

@@ -19,7 +19,7 @@ Adobe Campaign コンテンツマネージャーモジュールは、定期的�
 
 >[!NOTE]
 >
->この節では、コンテンツ管理モジュールについて説明します。メール配信コンテンツのデザイン方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
+>この節では、コンテンツ管理モジュールについて説明します。メール配信コンテンツのデザイン方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
 コンテンツ管理モジュールには、作業グループ、ワークフローおよびコンテンツ集計機能が含まれます。そのため、メッセージを自動的に書式設定できます（メール、郵便、SMS、Web など）。
 

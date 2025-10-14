@@ -292,7 +292,7 @@ ht-degree: 99%
 
   列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
 
-  計算フィールドタイプ **[!UICONTROL 列挙]** の追加例については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"} を参照してください。
+  計算フィールドタイプ **[!UICONTROL 列挙]** の追加例については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"} を参照してください。
 
   ![](assets/query_editor_nveau_63.png)
 
@@ -333,7 +333,7 @@ ht-degree: 99%
 
 ![](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。

@@ -64,7 +64,7 @@ ht-degree: 98%
 
 「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
 
-ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"} を参照してください。
+ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -98,7 +98,7 @@ ht-degree: 98%
 
 **[!UICONTROL 更新]**&#x200B;ボタンを使用してデータを更新できます。「**[!UICONTROL フィルター]**」ボタンを使用して、データに対してフィルターを定義します。
 
-特別なアイコンによって、エラーまたは警告を識別できます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} のこの節を参照してください。
+特別なアイコンによって、エラーまたは警告を識別できます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} のこの節を参照してください。
 
 「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
 

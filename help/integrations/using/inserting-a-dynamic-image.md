@@ -154,7 +154,7 @@ Target では、「エクスペリエンスのターゲット設定」アクテ�
 
 ## メールのプレビューと送信 {#preview-send-email}
 
-Adobe Campaign では、メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。メールの作成について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
+Adobe Campaign では、メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。メールの作成について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
 これで、Target からの動的なオファーを含んだメールを送信する準備が整いました。
 

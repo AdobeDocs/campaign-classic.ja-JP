@@ -51,7 +51,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 Campaign では、マーケティングキャンペーンのメインステップの承認プロセスを協調モードで設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、およびコストを承認できます。Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたは web 接続で承認を許可または却下できます。
 
-配信コンテンツの承認を実装する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"} を参照してください。
+配信コンテンツの承認を実装する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"} を参照してください。
 
 ## 外部データベースに保存されているデータにアクセスするにはどうすればよいですか？ {#how-can-i-access-data-stored-in-an-external-database-}
 

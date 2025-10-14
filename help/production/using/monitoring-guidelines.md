@@ -64,24 +64,24 @@ Campaign コントロールパネルを使用すると、インスタンスの�
 
 **ワークフローヒートマップ**
 
-ワークフローヒートマップは、お使いのインスタンスで実行されているすべてのワークフローを視覚的に表現したものです。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"} を参照してください。
+ワークフローヒートマップは、お使いのインスタンスで実行されているすべてのワークフローを視覚的に表現したものです。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"} を参照してください。
 
 **監査記録**
 
-監査記録を使用すると、ワークフローで行われたすべての変更とその現在の状態を視覚化できます。 [ ここをクリック ](../../production/using/audit-trail.md)。
+監査記録を使用すると、ワークフローで行われたすべての変更とその現在の状態を視覚化できます。 [&#x200B; ここをクリック &#x200B;](../../production/using/audit-trail.md)。
 
 **ワークフローのトラブルシューティング**
 
-ワークフローの実行に関する問題が発生した場合は、特定のアクションを実行できます。 詳しくは、[ ここをクリック ](../../production/using/workflow-execution.md) してください
+ワークフローの実行に関する問題が発生した場合は、特定のアクションを実行できます。 詳しくは、[&#x200B; ここをクリック &#x200B;](../../production/using/workflow-execution.md) してください
 
 **ワークフローステータスの監視**
 
-ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja){target="_blank"} を参照してください。
+ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja){target="_blank"} を参照してください。
 
 **一般的なガイドライン**
 
 ワークフローを使用する際に、ガイドラインとベストプラクティスに従うと、パフォーマンスの向上に役立ちます。 詳しくは、次の節を参照してください。
-* [ ワークフロー使用時のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
+* [&#x200B; ワークフロー使用時のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 * [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 ### 配信の監視 {#monitoring-deliveries}
@@ -94,14 +94,14 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 **ベストプラクティス**
 
-パフォーマンスを向上させるための配信の送信とデザインのベストプラクティスについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。
+パフォーマンスを向上させるための配信の送信とデザインのベストプラクティスについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合は、特定のアクションを実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
 * [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
-* [ 一時ファイルの問題 ](../../production/using/temporary-files.md) - *オンプレミスホスティングモデルのみ*
+* [&#x200B; 一時ファイルの問題 &#x200B;](../../production/using/temporary-files.md) - *オンプレミスホスティングモデルのみ*
 
 ### データベースの監視 {#monitoring-database}
 
@@ -125,7 +125,7 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 *オンプレミスおよびハイブリッドホスティングモデルのみ*
 
-マシン上で（物理またはシステムに関連する）問題が発生した場合にデータが失われないようにするには、バックアップが不可欠です。 詳しくは、[ ここをクリック ](../../production/using/backup.md) してください。 復元手順については、[ この節 ](../../production/using/restoration.md) で説明します。
+マシン上で（物理またはシステムに関連する）問題が発生した場合にデータが失われないようにするには、バックアップが不可欠です。 詳しくは、[&#x200B; ここをクリック &#x200B;](../../production/using/backup.md) してください。 復元手順については、[&#x200B; この節 &#x200B;](../../production/using/restoration.md) で説明します。
 
 ## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 

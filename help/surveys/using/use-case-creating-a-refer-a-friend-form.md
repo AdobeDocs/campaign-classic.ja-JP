@@ -88,7 +88,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >配信テンプレートについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+   >配信テンプレートについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 1. 購読メッセージを配信するための 2 番目のスクリプトを作成します。
 

@@ -31,12 +31,12 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 FDA を使用して外部データベースへのアクセスを設定するには、次の設定手順を実行します。
 
-1. ドライバーをインストールし、Adobe Campaign サーバー上のデータベースに対応する外部アカウントを設定します。 以下に示すデータベース固有のページを参照 [ てください ](#fda-specific-configuration)
+1. ドライバーをインストールし、Adobe Campaign サーバー上のデータベースに対応する外部アカウントを設定します。 以下に示すデータベース固有のページを参照 [&#x200B; てください &#x200B;](#fda-specific-configuration)
 1. 外部アカウントをテストするか、Adobe Campaignと外部データベースの間に一時的な接続を作成します。 [詳細](../../installation/using/connecting-to-database.md)
 1. Adobe Campaign で、外部データベースのスキーマを作成します。これにより、外部データベースのデータ構造を識別できるようになります。[詳細情報](../../installation/using/creating-data-schema.md)
 1. 必要に応じて、以前に作成したスキーマから新しいターゲットマッピングを作成します。 これは、配信の受信者を外部データベースから取得している場合に必要です。 この実装には、メッセージのパーソナライゼーションに関する制限があります。 [詳細情報](../../installation/using/defining-data-mapping.md)
 
-データスキーマを作成すると、Adobe Campaign ワークフローでデータを処理できるようになります。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
+データスキーマを作成すると、Adobe Campaign ワークフローでデータを処理できるようになります。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
 
 ## データベース固有の設定 {#fda-specific-configuration}
 

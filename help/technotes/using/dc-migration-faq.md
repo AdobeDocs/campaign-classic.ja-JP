@@ -173,7 +173,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   新しいサーバーの場所に応じて変更される場合があります。ただし、お客様は現在のタイムゾーンをそのまま使用できます。
 
-  タイムゾーン管理について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"} を参照してください。
+  タイムゾーン管理について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"} を参照してください。
 
 
 ## セキュリティと権限

@@ -55,7 +55,7 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 
-* **[!UICONTROL AEM 統合]**のビルトインパッケージのインストール
+* **[!UICONTROL AEM 統合]**&#x200B;のビルトインパッケージのインストール
 
 * Adobe Experience Manager に特有の外部アカウントの設定
 
@@ -63,7 +63,7 @@ Adobe Campaign と Adobe Experience Manager を統合する方法については
 
 この統合を設定した後は、AEM Assets ライブラリを使用する新しい配信テンプレートを Adobe Campaign で設定できます。これをおこなうには、以下の手順に従います。
 
-1. 新しい配信テンプレートを作成するか、既存の配信テンプレートを複製します。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+1. 新しい配信テンプレートを作成するか、既存の配信テンプレートを複製します。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 1. このテンプレートの&#x200B;**プロパティ**&#x200B;を編集します。
 1. 「**[!UICONTROL 詳細設定]**」タブで、「**[!UICONTROL コンテンツ編集モード]**」を「**DCE**」に設定します。
 1. AEM Assets ライブラリへのアクセスに使用する必要がある外部の **[!UICONTROL AEM アカウント]**&#x200B;を選択します。

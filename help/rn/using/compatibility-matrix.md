@@ -472,7 +472,7 @@ Campaign SDK は、Campaign v7.4 以降では[非推奨（廃止予定）](depre
 
 ## ブラウザー {#Browsers}
 
-最新バージョンの次のブラウザーは Campaign for web access と互換性があります。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank} を参照してください。
+最新バージョンの次のブラウザーは Campaign for web access と互換性があります。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank} を参照してください。
 
 * Google Chrome
 * Microsoft Edge

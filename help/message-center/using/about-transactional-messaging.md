@@ -88,6 +88,6 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 ## 関連トピック {#related-topics}
 
 * [コミュニケーションチャネルの概要](../../delivery/using/communication-channels.md)
-* [ 配信の作成に関する主な手順 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+* [&#x200B; 配信の作成に関する主な手順 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 * [トランザクションメッセージのアーキテクチャ](../../message-center/using/transactional-messaging-architecture.md)
 * [トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)

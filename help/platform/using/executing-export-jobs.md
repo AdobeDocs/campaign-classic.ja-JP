@@ -95,7 +95,7 @@ ht-degree: 99%
 
 ## 手順 6 - フィルター条件 {#step-6---filter-conditions-}
 
-フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルターの設定は、配信アシスタントにおける受信者のターゲティングと同じです。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"} を参照してください。
+フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルターの設定は、配信アシスタントにおける受信者のターゲティングと同じです。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"} を参照してください。
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

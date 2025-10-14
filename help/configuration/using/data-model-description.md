@@ -23,7 +23,7 @@ Adobe Campaign には、事前定義済みのデータモデルが付属して�
 
 >[!NOTE]
 >
->アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[ この節 ](../../configuration/using/about-schema-reference.md) を参照してください。
+>アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/about-schema-reference.md) を参照してください。
 
 ## メインテーブルの説明 {#description-main-tables}
 
@@ -53,7 +53,7 @@ iFolderId フィールドは、受信者を実行フォルダーにリンクす�
 
 sCountryCode フィールドは、受信者に関連付けられている国の 3166-1 Alpha 2 ISO コード（2 文字）です。 このフィールドは、実際には国参照テーブル（NmsCountry）の外部キーであり、国ラベルとその他の国コードデータが含まれています。 国が入力されていない場合、値「XX」が保存されます（ゼロ ID レコードの代わりに使用されます）。
 
-受信者テーブルの詳細については、[ この節 ](../../configuration/using/about-data-model.md#default-recipient-table) を参照してください。
+受信者テーブルの詳細については、[&#x200B; この節 &#x200B;](../../configuration/using/about-data-model.md#default-recipient-table) を参照してください。
 
 ### NmsGroup {#NmsGroup}
 
@@ -105,7 +105,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## 配信とトラッキング {#delivery-and-tracking}
 
-この一連のテーブルは **配信** モジュールとリンクしており、メッセージの送信時に発生する配信と最終的な問題を監視できます。 詳しくは、[ 配信の監視 ](../../delivery/using/about-delivery-monitoring.md) を参照してください。 トラッキングについて詳しくは、[ トラッキングメッセージ ](../../delivery/using/about-message-tracking.md) を参照してください。
+この一連のテーブルは **配信** モジュールとリンクしており、メッセージの送信時に発生する配信と最終的な問題を監視できます。 詳しくは、[&#x200B; 配信の監視 &#x200B;](../../delivery/using/about-delivery-monitoring.md) を参照してください。 トラッキングについて詳しくは、[&#x200B; トラッキングメッセージ &#x200B;](../../delivery/using/about-message-tracking.md) を参照してください。
 
 ![](assets/data-model_delivery.png)
 
@@ -113,7 +113,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## キャンペーン管理 {#campaign-management}
 
-このテーブルのセットは、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できる **マーケティングキャンペーン** モジュールにリンクされています。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
+このテーブルのセットは、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できる **マーケティングキャンペーン** モジュールにリンクされています。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
 
 ![](assets/data-model_campaign.png)
 
@@ -129,7 +129,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## 通信の整合性 {#communication-consistency}
 
-この一連のテーブルは、**キャンペーンの最適化** モジュールにリンクされており、配信の送信を制御、フィルタリングおよび監視できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
+この一連のテーブルは、**キャンペーンの最適化** モジュールにリンクされており、配信の送信を制御、フィルタリングおよび監視できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
 
 
 ![](assets/data-model_typology.png)
@@ -142,7 +142,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## 応答管理 {#response-management}
 
-この一連のテーブルは、**応答マネージャー** モジュールにリンクされており、マーケティングキャンペーンの成功や収益性を測定したり、すべての通信チャネルに対して提案を行ったりできます。 詳しくは、[Response Manager について ](../../response/using/about-response-manager.md) を参照してください。
+この一連のテーブルは、**応答マネージャー** モジュールにリンクされており、マーケティングキャンペーンの成功や収益性を測定したり、すべての通信チャネルに対して提案を行ったりできます。 詳しくは、[Response Manager について &#x200B;](../../response/using/about-response-manager.md) を参照してください。
 
 ![](assets/data-model_response.png)
 
@@ -202,7 +202,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## シミュレーションと配信 {#simulation-and-delivery}
 
-この一連のテーブルは **シミュレーション** モジュールにリンクしており、提案を受信者に送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[ オファーシミュレーションについて ](../../interaction/using/about-offers-simulation.md) を参照してください。
+この一連のテーブルは **シミュレーション** モジュールにリンクしており、提案を受信者に送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[&#x200B; オファーシミュレーションについて &#x200B;](../../interaction/using/about-offers-simulation.md) を参照してください。
 
 ![](assets/data-model_simulation.png)
 
@@ -212,7 +212,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## インタラクションモジュール {#interaction-module}
 
-この一連のテーブルは、**インタラクション** モジュールにリンクしており、特定の連絡先とのインタラクション中に、1 つまたは複数の適合するオファーを提供することで、リアルタイムに応答できます。 詳しくは、[ インタラクションとオファー管理 ](../../interaction/using/interaction-and-offer-management.md) を参照してください。
+この一連のテーブルは、**インタラクション** モジュールにリンクしており、特定の連絡先とのインタラクション中に、1 つまたは複数の適合するオファーを提供することで、リアルタイムに応答できます。 詳しくは、[&#x200B; インタラクションとオファー管理 &#x200B;](../../interaction/using/interaction-and-offer-management.md) を参照してください。
 
 * **NmsOffer**：このテーブルは **nms:offer** スキーマと一致します。 各マーケティングオファーの定義が含まれます。
 * **NmsPropositionRcp**：このテーブルは **nms:propositionRcp** スキーマに一致します。 各個人に送信されたマーケティング提案のクロスチャネルログが含まれます。 レコードは、提案が準備されたときや、個人に対して効果的に提案されたときに作成されます。
@@ -224,7 +224,7 @@ sInternalName 配信またはシナリオの内部名を表す一意のインデ
 
 ## Message Center モジュール {#message-center-module}
 
-以下の一連のテーブルは、**トランザクションメッセージ** （Message Center）モジュールにリンクしています。このモジュールでは、情報システムからトリガーされるイベントから生成され、ユーザーに送信される個別および一意の通信を管理できます。 詳しくは、[ トランザクションメッセージについて ](../../message-center/using/about-transactional-messaging.md) を参照してください。
+以下の一連のテーブルは、**トランザクションメッセージ** （Message Center）モジュールにリンクしています。このモジュールでは、情報システムからトリガーされるイベントから生成され、ユーザーに送信される個別および一意の通信を管理できます。 詳しくは、[&#x200B; トランザクションメッセージについて &#x200B;](../../message-center/using/about-transactional-messaging.md) を参照してください。
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -250,7 +250,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## NMAC モジュール {#nmac-module}
 
-この一連のテーブルは、**モバイルアプリチャネル** にリンクされており、アプリを介してiOSおよびAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、[ モバイルアプリチャネルについて ](../../delivery/using/about-mobile-app-channel.md) を参照してください。
+この一連のテーブルは、**モバイルアプリチャネル** にリンクされており、アプリを介してiOSおよびAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、[&#x200B; モバイルアプリチャネルについて &#x200B;](../../delivery/using/about-mobile-app-channel.md) を参照してください。
 
 * **NmsMobileApp**：このテーブルは **nms:mobileApp** スキーマと一致します。 これには、Adobe Campaignで定義されたモバイルアプリケーションが含まれます。
 * **NmsAppSubscription**：このテーブルは **nms:appSubscription** スキーマと一致します。 1 つ以上のアプリケーションに関するサブスクライバー情報が含まれます。
@@ -261,7 +261,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## ソーシャルマーケティングモジュール {#social-marketing-module}
 
-この一連のテーブルは、**ソーシャルネットワーク管理** モジュールにリンクされています。このモジュールを使用すると、Facebook および X （旧称 Twitter）を介して顧客や見込み客とやり取りできます。 詳しくは、[ ソーシャルマーケティングについて ](../../social/using/about-social-marketing.md) を参照してください。
+この一連のテーブルは、**ソーシャルネットワーク管理** モジュールにリンクされています。このモジュールを使用すると、Facebook および X （旧称 Twitter）を介して顧客や見込み客とやり取りできます。 詳しくは、[&#x200B; ソーシャルマーケティングについて &#x200B;](../../social/using/about-social-marketing.md) を参照してください。
 
 ![](assets/data-model_social.png)
 

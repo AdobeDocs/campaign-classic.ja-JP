@@ -17,7 +17,7 @@ ht-degree: 75%
 
 キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブでワークフローを作成する必要があります。このワークフローは、1 つの「**[!UICONTROL クエリ]**」アクティビティ、2 つの「**[!UICONTROL メール配信]**」アクティビティとリンクした 1 つの「**[!UICONTROL 分割]**」アクティビティ、1 つの「**[!UICONTROL 待機]**」アクティビティ、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ、1 つの「**[!UICONTROL 配信]**」アクティビティから構成されます。
 
-1. まだ作成していない場合は、キャンペーンを作成します。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
+1. まだ作成していない場合は、キャンペーンを作成します。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. 既存のワークフローのラベルを変更するか、「**[!UICONTROL 追加]**」をクリックして新しいラベルを作成します（詳しくは、[Campaign v8 ドキュメントを参照 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}。
+1. 既存のワークフローのラベルを変更するか、「**[!UICONTROL 追加]**」をクリックして新しいラベルを作成します（詳しくは、[Campaign v8 ドキュメントを参照 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}。
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 

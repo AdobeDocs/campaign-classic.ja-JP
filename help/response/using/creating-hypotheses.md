@@ -146,7 +146,7 @@ ht-degree: 98%
 
 次に、モデルから継承されたクエリを調整して、購入テーブルの特定の品目に関する仮説を立てます。
 
-1. キャンペーンと配信を作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
+1. キャンペーンと配信を作成します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 
    この例では、ダイレクトメールタイプの配信を使用します。
 
@@ -178,7 +178,7 @@ ht-degree: 98%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank} を参照してください。
+1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank} を参照してください。
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ## 自動更新の設定 {#setting-up-an-automatic-update}
 
-自動更新は、ワークフローを使用して設定できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} を参照してください。
+自動更新は、ワークフローを使用して設定できます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} を参照してください。
 
 ## 一括更新の実行 {#performing-a-mass-update}
 

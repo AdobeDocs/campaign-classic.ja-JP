@@ -115,7 +115,7 @@ ht-degree: 99%
 
 Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/ja/about/email/) フォーマットを試すことができます。
 
-詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ja){target="_blank"} を参照してください。
 
 ## コンテンツ管理の使用 {#using-content-management}
 

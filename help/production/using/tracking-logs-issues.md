@@ -20,15 +20,15 @@ ht-degree: 14%
 
 トラッキングログが転送されない理由は複数ある可能性があります。 次の情報を確認することをお勧めします。
 
-* **** トラッキング **ワークフローにエラーはありますか？**
+* **&#x200B;**&#x200B;トラッキング **ワークフローにエラーはありますか？**
 
-[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"} を参照してください。
+[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/tracking_scheduled_task.png)
 
 * **モジュール** trackinglogd **はサーバーで実行されていますか？**
 
-  [ ログファイル ](../../production/using/log-files.md) を参照してください。
+  [&#x200B; ログファイル &#x200B;](../../production/using/log-files.md) を参照してください。
 
 * **変更が加えられましたか？**
 

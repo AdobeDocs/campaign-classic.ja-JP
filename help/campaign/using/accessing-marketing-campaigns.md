@@ -41,7 +41,7 @@ Adobe Campaign に接続したら、ナビゲーションバーのリンクを�
 >
 >Adobe Campaign 全体のエルゴノミクス、権限およびプロファイル管理機能については、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 >
->チャネルと配信に関連するすべての機能について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>チャネルと配信に関連するすべての機能について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 ### Campaign カレンダー {#campaign-calendar}
 

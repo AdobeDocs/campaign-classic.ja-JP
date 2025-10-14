@@ -15,7 +15,7 @@ ht-degree: 82%
 
 >[!INFO]
 >
->監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
+>監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
 
@@ -32,7 +32,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この [ ページ ](../../configuration/using/data-schemas.md) を参照してください。
+  スキーマについて詳しくは、この [&#x200B; ページ &#x200B;](../../configuration/using/data-schemas.md) を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
@@ -47,7 +47,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
   ワークフローについて詳しくは、この[ページ](../../workflow/using/about-workflows.md)を参照してください。
 
-  ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
+  ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
 
 
 * **オプション監査記録**&#x200B;では、アクティビティと、オプションに最後に行った変更を確認できます。

@@ -21,12 +21,12 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->配信作成に関する全体的な概念については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. **ダイレクトメールで配信（紙）**&#x200B;配信テンプレートを選択します。
 
    ![](assets/direct_mail.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"} のこの節を参照してください。
+1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"} のこの節を参照してください。
 1. 「**続行**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。

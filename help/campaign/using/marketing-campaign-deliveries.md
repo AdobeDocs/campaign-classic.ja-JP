@@ -20,7 +20,7 @@ ht-degree: 99%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信を作成 {#creating-deliveries}
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 ![](assets/campaign_op_add_delivery.png)
 
-各種の配信（ダイレクトメール、メール、モバイルチャネル）に適した設定が提示されます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+各種の配信（ダイレクトメール、メール、モバイルチャネル）に適した設定が提示されます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 ## 配信を開始 {#starting-a-delivery}
 
@@ -117,7 +117,7 @@ ht-degree: 99%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-キャンペーンには、レポート、写真、web ページ、図などの様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）にすることができます。ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
+キャンペーンには、レポート、写真、web ページ、図などの様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）にすることができます。ドキュメントをキャンペーンにリンクする方法については、[&#128279;](../../campaign/using/marketing-campaign-assets.md)こちらの節を参照してください。
 
 >[!IMPORTANT]
 >

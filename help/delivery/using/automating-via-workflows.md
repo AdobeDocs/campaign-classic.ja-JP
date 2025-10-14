@@ -214,12 +214,12 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 ### FTP からのコンテンツのインポート {#importing-content-from-ftp}
 
-FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
 
 
 ### Amazon Simple Storage Service（S3）コネクタからのコンテンツのインポート {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-配信コンテンツが Amazon Simple Storage Service（S3）バケットにある場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+配信コンテンツが Amazon Simple Storage Service（S3）バケットにある場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
 
 
 ## 半自動更新 {#semi-automatic-update}

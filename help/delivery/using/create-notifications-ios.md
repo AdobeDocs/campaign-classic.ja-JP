@@ -16,7 +16,7 @@ ht-degree: 96%
 
 # iOS 用通知の作成{#create-notifications-ios}
 
-ここでは、iOS 用通知の配信に固有の要素について説明します。配信作成に関する全体的な概念については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+ここでは、iOS 用通知の配信に固有の要素について説明します。配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 新しい配信を作成して開始します。
 
@@ -34,7 +34,7 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >配信のターゲット母集団を選択する際のプロセスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"} のこの節を参照してください。
+   >配信のターゲット母集団を選択する際のプロセスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"} のこの節を参照してください。
    >
    >パーソナライゼーションフィールドの使用について詳しくは、[この節](about-personalization.md)を参照してください。
    >

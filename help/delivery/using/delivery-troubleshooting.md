@@ -31,7 +31,7 @@ ht-degree: 87%
 
 * 一部のメールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。この場合は、broadLog を確認して[この節](about-deliverability.md)を参照してください。
 
-* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。Adobe Campaign v8[ 配信のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。  コンテンツガイドラインについて説明します。
+* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。Adobe Campaign v8[&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。  コンテンツガイドラインについて説明します。
 
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
@@ -73,7 +73,7 @@ ht-degree: 87%
 
   これを解決するには、データベースをクリーンアップしてインデックスを再作成することをお勧めします。データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
-  スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} を参照してください。
+  スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} を参照してください。
 
 * 配信が失敗した場合、次のエラーが配信ログに表示されることがあります。
 
@@ -83,7 +83,7 @@ ht-degree: 87%
 
   通常、このエラーは受信者へのメール内に複数の値があるパーソナライゼーションフィールドまたはブロックがあることを意味します。パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-  これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
+  これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
 
 * 配信は、次の「未到達」エラーで失敗する場合があります。
 

@@ -32,11 +32,11 @@ ht-degree: 48%
 
 * **外部データのフィルター** - クエリ アクティビティでは、外部データを追加して、定義したフィルター設定でそのデータを使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html） {target="_blank"} を参照してください。
 
-* **サブセットの作成** – 分割アクティビティでは、サブセットを作成できます。 外部データを使用して、使用するフィルター条件を定義できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
+* **サブセットの作成** – 分割アクティビティでは、サブセットを作成できます。 外部データを使用して、使用するフィルター条件を定義できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
 
-* **外部データベースの読み込み** - データ読み込み（RDBMS） アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"} を参照してください。
+* **外部データベースの読み込み** - データ読み込み（RDBMS） アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"} を参照してください。
 
-* **情報およびリンクの追加** - エンリッチメント アクティビティを使用すると、ワークフローの作業用テーブルにデータを追加し、外部テーブルにリンクできます。 このコンテキストでは、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
+* **情報およびリンクの追加** - エンリッチメント アクティビティを使用すると、ワークフローの作業用テーブルにデータを追加し、外部テーブルにリンクできます。 このコンテキストでは、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
 
 ## ガードレールと制限 {#fda-limitations}
 

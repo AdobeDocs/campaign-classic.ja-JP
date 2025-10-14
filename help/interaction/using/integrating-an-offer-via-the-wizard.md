@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ![](assets/offer_delivery_009.png)
 
-ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンペーンについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
+ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンペーンについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 
 ### オファーを配信に挿入するための主な手順 {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 配信の概要を使用して配信にオファーを提示することもできます。
 
-配信の概要について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
+配信の概要について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
 
 1. 新規キャンペーンを作成するか、既存のキャンペーンにアクセスします。
 1. キャンペーンの&#x200B;**[!UICONTROL 編集]**／「**[!UICONTROL ドキュメント]**」タブから、配信の概要にアクセスします。

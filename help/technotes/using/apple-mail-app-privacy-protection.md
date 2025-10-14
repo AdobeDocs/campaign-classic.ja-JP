@@ -94,7 +94,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 定義済みフィルターを使用できます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"} を参照してください。
+* 定義済みフィルターを使用できます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"} を参照してください。
 
   ![](assets/identify-email-open-tracking-3.png)
 

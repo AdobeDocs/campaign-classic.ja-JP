@@ -25,11 +25,11 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->サーバーやインスタンスの設定ファイルにアクセスする場合など、Adobeがホストするデプロイメントでは、一部の設定はAdobeでのみ実行できます。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。
+>サーバーやインスタンスの設定ファイルにアクセスする場合など、Adobeがホストするデプロイメントでは、一部の設定はAdobeでのみ実行できます。 様々なデプロイメントの詳細については、[&#x200B; モデルのホスティング &#x200B;](../../installation/using/hosting-models.md) の節または [&#x200B; このページ &#x200B;](../../installation/using/capability-matrix.md) を参照してください。
 
-Adobe Campaignの配信品質に関する概念とベストプラクティスについて詳しくは、この [ 節 ](../../delivery/using/about-deliverability.md) を参照してください。
+Adobe Campaignの配信品質に関する概念とベストプラクティスについて詳しくは、この [&#x200B; 節 &#x200B;](../../delivery/using/about-deliverability.md) を参照してください。
 
-Adobe プラットフォームによるメールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質の概要については、[Adobeの配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja) を参照してください。
+Adobe プラットフォームによるメールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質の概要については、[Adobeの配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja) を参照してください。
 
 ## 動作の原則 {#operating-principle}
 
@@ -77,7 +77,7 @@ Adobe プラットフォームによるメールの効率的な送受信に関�
 
 配信統計は、ターゲット MX ごと、およびソース IP ごとに保持されます。 例えば、ターゲットドメインの MX が 5 で、プラットフォームが 3 つの異なる IP アドレスを使用できる場合、サーバーはこのドメインに対して最大 15 系列の指標を管理できます。
 
-送信元の IP アドレスは、パブリック IP アドレス、つまり、リモート E メール サーバーによって認識されるアドレスと一致します。 NAT ルータが提供されている場合、この IP アドレスは **mta** をホストするマシンのアドレスとは異なる場合があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子の間の関連付けは、**serverConf.xml** 設定ファイルで宣言されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+送信元の IP アドレスは、パブリック IP アドレス、つまり、リモート E メール サーバーによって認識されるアドレスと一致します。 NAT ルータが提供されている場合、この IP アドレスは **mta** をホストするマシンのアドレスとは異なる場合があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子の間の関連付けは、**serverConf.xml** 設定ファイルで宣言されます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 ## 配信出力制御 {#delivery-output-controlling}
 
@@ -95,7 +95,7 @@ Adobe プラットフォームによるメールの効率的な送受信に関�
 
 1. **成功**：メッセージは正常に送信されました。 メッセージが更新されます。
 1. **メッセージ失敗**：接続されたサーバーは、選択された受信者のメッセージを拒否しました。 この結果はリターン コード 550 ～ 599 と一致しますが、例外は定義できます。
-1. **セッション失敗** （5.11 以上）:**mta** がこのメッセージに対する回答を受け取った場合、メッセージは破棄されます（[ メッセージの放棄 ](#message-abandonment) を参照）。 メッセージは別のパスに送信されるか、他のパスが使用できない場合は保留に設定されます（[ メッセージ保留 ](#message-pending) を参照）。
+1. **セッション失敗** （5.11 以上）:**mta** がこのメッセージに対する回答を受け取った場合、メッセージは破棄されます（[&#x200B; メッセージの放棄 &#x200B;](#message-abandonment) を参照）。 メッセージは別のパスに送信されるか、他のパスが使用できない場合は保留に設定されます（[&#x200B; メッセージ保留 &#x200B;](#message-pending) を参照）。
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Adobe プラットフォームによるメールの効率的な送受信に関�
 
 ### サーバーポートの定義 {#definition-of-the-server-port}
 
-デフォルトでは、統計サーバーはポート 7777 でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [ セクション ](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
+デフォルトでは、統計サーバーはポート 7777 でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml** で使用可能なすべてのパラメーターは、この [&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md) に一覧表示されます。
 
 ```
 <stat port="1234"/>
@@ -308,7 +308,7 @@ MX について準拠するルールは、ツリーの **[!UICONTROL 管理/キ�
 
 >[!NOTE]
 >
->Adobe Campaignでの MX サーバーの使用について詳しくは、[ この節 ](../../installation/using/using-mx-servers.md) を参照してください。
+>Adobe Campaignでの MX サーバーの使用について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/using-mx-servers.md) を参照してください。
 
 ### E メールフォーマットの管理 {#managing-email-formats}
 
@@ -331,7 +331,7 @@ MX について準拠するルールは、ツリーの **[!UICONTROL 管理/キ�
 
 「**[!UICONTROL 画像を含める]**」オプションが有効になっている場合は、メールの本文に直接表示されます。 その後、画像がアップロードされ、URL リンクがコンテンツに置き換えられます。
 
-このオプションは、特に日本市場で **デコメール**、**デコレメール** または **デコレーションメール** に使用されます。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"} を参照してください。
+このオプションは、特に日本市場で **デコメール**、**デコレメール** または **デコレーションメール** に使用されます。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"} を参照してください。
 
 >[!IMPORTANT]
 >

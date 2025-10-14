@@ -123,7 +123,7 @@ ht-degree: 93%
 
 以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
+これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
 
 <table> 
  <tbody> 
@@ -219,7 +219,7 @@ ht-degree: 93%
 
 以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
+これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
 
 <table> 
  <tbody> 

@@ -32,7 +32,7 @@ ht-degree: 96%
 1. ワークフローで、配信アクティビティを追加する前に、配信の概要アクティビティを追加します。
 1. 配信の概要アクティビティで、使用する概要を指定します。
 
-   配信の概要の指定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
+   配信の概要の指定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
 
 1. 配信に従って、使用可能なフィールドに入力します。
 1. 次の 2 つの場合が考えられます。
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->エンリッチメントアクティビティの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
+>エンリッチメントアクティビティの詳細については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 ### オファーまたはオファーエンジン呼び出しの指定 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-クエリを設定した後（[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照）、
+クエリを設定した後（[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照）、
 
 1. エンリッチメントアクティビティを追加し、開きます。
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。

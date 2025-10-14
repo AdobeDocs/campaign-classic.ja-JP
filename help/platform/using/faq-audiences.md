@@ -32,7 +32,7 @@ Adobe Campaign 内でターゲット母集団を定義しオーディエンス�
 
 ## マーケティングキャンペーンのターゲット母集団を定義するにはどうすればよいですか？ {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-ワークフローを使用して、マーケティングキャンペーンのターゲット母集団を作成できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html){target="_blank"} を参照してください。
+ワークフローを使用して、マーケティングキャンペーンのターゲット母集団を作成できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html){target="_blank"} を参照してください。
 
 ## プロファイルのリストを作成するにはどうすればよいですか？ {#how-can-i-create-a-list-of-profiles-}
 
@@ -46,7 +46,7 @@ Adobe Campaign 内でターゲット母集団を定義しオーディエンス�
 
 ワークフローを使用して配信のターゲットから重複するものを除外し、受信者に同じメッセージが複数回送信されないようにすることができます。
 
-詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
 
 ## ニュースレターの購読者を識別してターゲットにするにはどうすればよいですか？ {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
@@ -54,4 +54,4 @@ Campaign での購読管理と、[購読者にメッセージを送信する](..
 
 ## ターゲット母集団からプロファイルを除外するためのベストプラクティスは何ですか？  {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
-ターゲット母集団からプロファイルのリストを除外する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ja){target="_blank"} を参照してください。
+ターゲット母集団からプロファイルのリストを除外する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ja){target="_blank"} を参照してください。

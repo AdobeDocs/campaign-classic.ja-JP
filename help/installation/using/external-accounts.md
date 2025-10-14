@@ -47,7 +47,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 ### バウンスメール {#bounce-mails-external-account}
 
-**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。この外部アカウントについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"} を参照してください。
+**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。この外部アカウントについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"} を参照してください。
 
 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -83,7 +83,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 >
 >Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)を参照してください。
 
-**Microsoft OAuth 2.0} を使用して POP3 外部を設定するには、「{2** Microsoft OAuth 2.0 **[!UICONTROL 」オプションをチェックし、次のフィールドに入力します。]**
+**Microsoft OAuth 2.0&rbrace; を使用して POP3 外部を設定するには、「&lbrace;2** Microsoft OAuth 2.0 **[!UICONTROL 」オプションをチェックし、次のフィールドに入力します。]**
 
 * **[!UICONTROL Azure テナント]**
 
@@ -119,7 +119,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/communication-channels.md#other-channels)
 * [X（旧 Twitter）](../../social/using/about-social-marketing.md)
-* [iOSおよびAndroid チャネル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
+* [iOSおよびAndroid チャネル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### メールルーティング {#email-routing-external-account}
 
@@ -129,11 +129,11 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 * **ミッドソーシング**、**外部** ルーティング、または **一括** 配信ルーティングタイプを使用できます。
 
-* **一括** 配信モードと **ミッドソーシング** 配信モードの場合、「**ブランディング**」タブでブランディングパラメーターを指定できます。 これらのパラメーターは、[ ミラーページ URL](../../installation/using/deploying-an-instance.md#email-channel-parameters) および **エラーアドレス** の **デフォルトパラメーター** をブランドに固有の設定で上書きするために使用されます。
+* **一括** 配信モードと **ミッドソーシング** 配信モードの場合、「**ブランディング**」タブでブランディングパラメーターを指定できます。 これらのパラメーターは、[&#x200B; ミラーページ URL](../../installation/using/deploying-an-instance.md#email-channel-parameters) および **エラーアドレス** の **デフォルトパラメーター** をブランドに固有の設定で上書きするために使用されます。
 
   ![](assets/ext-account-branding.png)
 
-* ミッドソーシング外部アカウントを設定するには、[ この節 ](mid-sourcing-server.md) を参照してください。
+* ミッドソーシング外部アカウントを設定するには、[&#x200B; この節 &#x200B;](mid-sourcing-server.md) を参照してください。
 
 ### 実行インスタンス  {#execution-instance-external-account}
 
@@ -159,7 +159,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 ### FTP {#ftp-external-account}
 
-FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
+FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 これをおこなうには、この外部アカウントで、FTP サーバーへの接続を確立するために使用するアドレスと資格情報を指定します。
 
@@ -189,7 +189,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 ### SFTP {#sftp-external-account}
 
-SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
+SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_4.png)
 
@@ -222,7 +222,7 @@ SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 
 **外部データベース** タイプの外部アカウントを使用して、外部データベースに接続します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
-Campaign と互換性のある外部データベースは、[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) に記載されています。
+Campaign と互換性のある外部データベースは、[&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) に記載されています。
 
 ![](assets/ext_account_11.png)
 
@@ -285,7 +285,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
   Adobe Experience Cloud テナントの名前。
 
-この設定について詳しくは、[ このページ ](../../integrations/using/configuring-ims.md) を参照してください。
+この設定について詳しくは、[&#x200B; このページ &#x200B;](../../integrations/using/configuring-ims.md) を参照してください。
 
 ## Web 分析 {#web-analytics-external-account}
 
@@ -325,7 +325,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
-Campaign とMicrosoft Dynamicsの CRM コネクタについて詳しくは、この [ ページ ](../../platform/using/crm-ms-dynamics.md) を参照してください。
+Campaign とMicrosoft Dynamicsの CRM コネクタについて詳しくは、この [&#x200B; ページ &#x200B;](../../platform/using/crm-ms-dynamics.md) を参照してください。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -415,7 +415,7 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 ### Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_3.png)
 
@@ -447,7 +447,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-**Azure Blob ストレージ** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
+**Azure Blob ストレージ** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_23.png)
 

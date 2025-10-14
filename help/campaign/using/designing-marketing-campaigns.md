@@ -24,7 +24,7 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 >[!NOTE]
 >
 >Adobe Campaign のコア機能について詳しくは、[この節](../../platform/using/about-adobe-campaign-classic.md)を参照してください。\
->様々なチャネルにおける母集団のターゲティング、メッセージのパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>様々なチャネルにおける母集団のターゲティング、メッセージのパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [マーケティングキャンペーンの主要概念をビデオで確認](#video)
 

@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"} を参照してください。
+配信の作成手順について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"} を参照してください。
 
 この例では、配信責任者がニュースレターを作成し、受信者を選択します。
 

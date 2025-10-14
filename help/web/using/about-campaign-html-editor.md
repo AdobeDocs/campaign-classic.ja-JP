@@ -52,7 +52,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 1. DCE テンプレートから配信を作成します（[詳細情報](use-case-creating-an-email-delivery.md)）
 1. 既存のコンテンツを選択するか、[標準テンプレート](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
-1. 配信の送信 – 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください
+1. 配信の送信 – 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください
 
 >[!NOTE]
 >

@@ -19,7 +19,7 @@ ht-degree: 83%
 
 1. 新しいワークフローを作成し、クエリ アクティビティを設定して、目的の母集団をターゲットにします。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照してください。
 
-1. 分割アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
+1. 分割アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} を参照してください。
 
 1. アクティビティを開き、必要に応じて各サブセットを設定します。**[!UICONTROL 分割]**&#x200B;アクティビティの設定方法の詳細については、[こちらの節](../../workflow/using/split.md)を参照してください。
 

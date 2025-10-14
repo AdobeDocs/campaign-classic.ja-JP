@@ -57,7 +57,7 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">この節</a>を参照してください。</p> </td>
+   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery" target="_blank">この節</a>を参照してください。</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 

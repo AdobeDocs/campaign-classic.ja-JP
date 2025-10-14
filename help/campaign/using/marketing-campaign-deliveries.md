@@ -28,7 +28,7 @@ ht-degree: 99%
 
 ![](assets/campaign_op_add_delivery.png)
 
-各種の配信（ダイレクトメール、メール、モバイルチャネル）に適した設定が提示されます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+各種の配信（ダイレクトメール、メール、モバイルチャネル）に適した設定が提示されます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
 
 ## 配信を開始 {#starting-a-delivery}
 

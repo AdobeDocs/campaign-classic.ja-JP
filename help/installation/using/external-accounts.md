@@ -119,7 +119,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/communication-channels.md#other-channels)
 * [X（旧 Twitter）](../../social/using/about-social-marketing.md)
-* [iOSおよびAndroid チャネル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
+* [iOSおよびAndroid チャネル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ja){target="_blank"}
 
 ### メールルーティング {#email-routing-external-account}
 

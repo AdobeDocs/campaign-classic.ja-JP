@@ -35,4 +35,4 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->この章で説明する手順では、外部配信の場合を除き、すべてのターゲット受信者とそのプロファイルがデータベースに保存されていることを前提としています（[Campaign v8 のドキュメントを参照 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}。
+>この章で説明する手順では、外部配信の場合を除き、すべてのターゲット受信者とそのプロファイルがデータベースに保存されていることを前提としています（[Campaign v8 のドキュメントを参照 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#selecting-external-recipients){target="_blank"}。

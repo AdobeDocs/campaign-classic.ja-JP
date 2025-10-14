@@ -17,7 +17,7 @@ ht-degree: 97%
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](about-personalization.md)、[フォーマット設定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}、[画像](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}に関係しています。
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](about-personalization.md)、[フォーマット設定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#message-content){target="_blank"}、[画像](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#adding-images){target="_blank"}に関係しています。
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
@@ -57,7 +57,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 ### 件名
 
-件名について詳しくは、開封率を向上させる [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"} を参照してください。
+件名について詳しくは、開封率を向上させる [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#sender){target="_blank"} を参照してください。
 
 * 長すぎる件名は避けます。最大 50 文字にします
 
@@ -149,7 +149,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * インスタンスの設定でパブリックリソースの管理が有効になっているかどうかを確認できます。[詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* 配信アシスタントで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"} を参照してください。
+* 配信アシスタントで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#adding-images){target="_blank"} を参照してください。
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
@@ -157,6 +157,6 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 メッセージをプレビューして、パーソナライゼーションおよび受信者に対してどのように配信が表示されるかを確認することをお勧めします。
 
-* 配信アシスタントの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
+* 配信アシスタントの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#message-content){target="_blank"} を参照してください。
 
 * 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssassin](spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)

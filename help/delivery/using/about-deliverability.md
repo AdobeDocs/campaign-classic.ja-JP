@@ -59,7 +59,7 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 * [&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}。
 * [メールコンテンツの制御](control-message-content.md)
 * [受信ボックスレンダリング](inbox-rendering.md)
-* [配達確認の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
+* [配達確認の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}
 
 ### ダブルオプトインによる同意確認 {#double-opt-in}
 

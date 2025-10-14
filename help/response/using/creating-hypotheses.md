@@ -156,7 +156,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}を参照してください。
+   >詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja#add-a-control-group){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL ダイレクトメール配信]**」を開き、**[!UICONTROL 配信測定]**&#x200B;アイコンをクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -178,7 +178,7 @@ ht-degree: 98%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank} を参照してください。
+1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery){target=_blank} を参照してください。
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

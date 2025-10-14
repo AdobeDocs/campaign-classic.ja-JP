@@ -98,7 +98,7 @@ ht-degree: 98%
 
 **[!UICONTROL 更新]**&#x200B;ボタンを使用してデータを更新できます。「**[!UICONTROL フィルター]**」ボタンを使用して、データに対してフィルターを定義します。
 
-特別なアイコンによって、エラーまたは警告を識別できます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} のこの節を参照してください。
+特別なアイコンによって、エラーまたは警告を識別できます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"} のこの節を参照してください。
 
 「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
 

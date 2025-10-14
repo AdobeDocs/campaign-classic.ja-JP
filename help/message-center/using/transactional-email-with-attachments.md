@@ -64,7 +64,7 @@ ht-degree: 98%
 
 メール添付ファイルをオンザフライでトランザクションメッセージに追加するには、次の手順に従います。
 
-1. 添付ファイルのデザインから開始します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"} を参照してください。
+1. 添付ファイルのデザインから開始します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ja#attach-a-personalized-file){target="_blank"} を参照してください。
 
    こうすることで、実行インスタンスでホストされていなくても、ファイルをメールに添付できます。
 

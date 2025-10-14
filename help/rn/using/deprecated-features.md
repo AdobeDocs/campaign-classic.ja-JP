@@ -99,7 +99,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>  
    <td>FAX チャネル<br></td>
-   <td><p>Campaign 21.1.3 リリース以降、FAX チャネルは使用できなくなりました。<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html" target="_blank"> 詳しくは、Campaign v8 ドキュメントを参照してください </a></p>
+   <td><p>Campaign 21.1.3 リリース以降、FAX チャネルは使用できなくなりました。<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja" target="_blank"> 詳しくは、Campaign v8 ドキュメントを参照してください </a></p>
   </tr>
   <tr>
   <td>Demdex ドメイン<br></td>
@@ -137,7 +137,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td>decryptString API</td>
    <td><p>Campaign 18.6 リリースより、セキュリティ上の理由から、<em>decryptString</em> API は、新しいインストールではデフォルトで使用できなくなりました。</p> 
-   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。<a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">詳細情報</a></p></td>
+   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。<a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ja&hl=decrypt">詳細情報</a></p></td>
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>

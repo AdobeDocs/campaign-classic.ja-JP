@@ -21,7 +21,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. **ダイレクトメールで配信（紙）**&#x200B;配信テンプレートを選択します。

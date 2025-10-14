@@ -43,7 +43,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 
 ![ブラウザーでは、同じオペレーターがキャンペーンの表示とキャンセルのみ行うことができます。](assets/operation_from_web.png)
 
-Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank} を参照してください。
+Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#use-the-web-interface-){target=_blank} を参照してください。
 
 ### 言語 {#languages}
 
@@ -123,7 +123,7 @@ Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8 
 
 Campaign を参照すると、データがリストに表示されます。 組み込みフィルターを適用すると、強制隔離されたアドレス、ターゲットされていない受信者、特定の年齢範囲や作成日のレコードなど、定義済みのサブセットにすばやくアクセスできます。 さらに、カスタムフィルターを作成し、後で使用するために保存して、他の Campaign ユーザーと共有できます。
 
-**フィルターへのアクセス、デザイン、共有** 方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+**フィルターへのアクセス、デザイン、共有** 方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 
 ## リストの操作 {#manage-and-customize-lists}

@@ -22,7 +22,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、[配信テンプレートの変更](sms-set-up.md#changing-the-delivery-template)の節を参照してください。

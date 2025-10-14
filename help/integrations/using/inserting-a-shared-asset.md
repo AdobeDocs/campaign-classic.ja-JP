@@ -26,7 +26,7 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
 1. 編集ウィンドウで、「画像を追加」オプションを選択します。
 
-   * [標準編集モード](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}を使用している場合、**[!UICONTROL 画像]**／**[!UICONTROL 共有アセットを選択]**&#x200B;を選択します。
+   * [標準編集モード](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#adding-images){target="_blank"}を使用している場合、**[!UICONTROL 画像]**／**[!UICONTROL 共有アセットを選択]**&#x200B;を選択します。
 
      ![](assets/dam_insert_image_standard.png)
 

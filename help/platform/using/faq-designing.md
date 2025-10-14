@@ -36,7 +36,7 @@ Adobe Campaign でオムニチャネルメッセージをデザインするた�
 
 Adobe Campaign で電子メールを作成して送信するために、既存の HTML をワンクリックでインポートする方法があります。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#message-content){target="_blank"} を参照してください。
 
 ## Campaign DCE を使用してメールのコンテンツを作成する方法は？ {#how-to-use-campaign-dce-to-create-an-email-content-}
 
@@ -50,7 +50,7 @@ Adobe Campaign で電子メールを作成して送信するために、既存�
 
 Adobe Campaign で配信されるメッセージは、コンテンツや外観をいくつかの方法でパーソナライズできます。さらに、受信者のプロファイルから取得した条件に基づいて、それらの方法を組み合わせることもできます。Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 
-* メッセージ形式のパーソナライズ：詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
+* メッセージ形式のパーソナライズ：詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#message-content){target="_blank"} を参照してください。
 * パーソナライゼーションフィールドの動的な挿入：[詳しくはここをクリック](../../delivery/using/personalization-fields.md)してください。
 * 定義済みパーソナライゼーションブロックを挿入するか、独自のブロックを作成します。[詳しくはここをクリック](../../delivery/using/personalization-blocks.md)してください。
 * 条件付きコンテンツの作成：[詳しくはここをクリック](../../delivery/using/conditional-content.md)してください。また、[この節](../../delivery/using/conditional-content.md)も参照してください。
@@ -59,7 +59,7 @@ Adobe Campaign で配信されるメッセージは、コンテンツや外観�
 
 受信者の環境設定や国などに応じて、多言語のメッセージを受信者に送信することができます。
 
-これには、[条件](../../delivery/using/conditional-content.md)を使用して、受信者のプロファイルに応じて、メッセージの内容をローカライズし、パーソナライズする方法があります。また、ワークフローを使用して、優先言語のテストに応じて送信するメッセージのバージョンを選択することもできます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
+これには、[条件](../../delivery/using/conditional-content.md)を使用して、受信者のプロファイルに応じて、メッセージの内容をローカライズし、パーソナライズする方法があります。また、ワークフローを使用して、優先言語のテストに応じて送信するメッセージのバージョンを選択することもできます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} を参照してください。
 
 ## Web フォームをローカライズするにはどうすればよいですか？ {#how-can-i-localize-a-webform-}
 

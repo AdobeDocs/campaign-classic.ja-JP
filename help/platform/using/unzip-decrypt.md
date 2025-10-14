@@ -18,7 +18,7 @@ ht-degree: 92%
 
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。[&#x200B; データ読み込み（ファイル） &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}）アクティビティで読み取られる前に、ファイルの解凍または復号化のための前処理を定義できます。
+Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。[&#x200B; データ読み込み（ファイル） &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}）アクティビティで読み取られる前に、ファイルの解凍または復号化のための前処理を定義できます。
 
 >[!IMPORTANT]
 >
@@ -51,8 +51,8 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 **関連トピック：**
 
-* [データの読み込み（ファイル）アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}.
-* [ファイルを圧縮または暗号化します](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}。
+* [データの読み込み（ファイル）アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}.
+* [ファイルを圧縮または暗号化します](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ja){target="_blank"}。
 
 ## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
@@ -85,7 +85,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
    アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 
-1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} を参照してください。
+1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} を参照してください。
 
    受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択してから、「**[!UICONTROL コマンド]**」ドロップダウンリストから「**[!UICONTROL 復号]**」を選択します。
 

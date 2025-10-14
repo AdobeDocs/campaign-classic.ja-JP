@@ -46,7 +46,7 @@ Adobe Campaign 内でターゲット母集団を定義しオーディエンス�
 
 ワークフローを使用して配信のターゲットから重複するものを除外し、受信者に同じメッセージが複数回送信されないようにすることができます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
 
 ## ニュースレターの購読者を識別してターゲットにするにはどうすればよいですか？ {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 

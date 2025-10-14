@@ -37,7 +37,7 @@ Campaign ワークフローの実行を監視する方法については、[Camp
 
 データベースのデータに対する一括更新、結合、挿入を実行できます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} を参照してください。
 
 ## データ管理機能を利用するにはどうすればよいですか？ {#how-can-i-leverage-data-management-capabilities-}
 
@@ -47,7 +47,7 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 * 特にターゲットの構築フェーズで、またはデータベース管理中に、バッファ計算を保持し、伝達する。
 * 外部データベースへのアクセス（オプション）：ターゲティングプロセス中に、異種データベースを処理する。
 
-データ管理ワークフローアクティビティを組み合わせて複雑なターゲットを設計し、データを操作する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} を参照してください。
+データ管理ワークフローアクティビティを組み合わせて複雑なターゲットを設計し、データを操作する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"} を参照してください。
 
 ## パーソナライズされたメッセージの送信を自動化できますか？ {#can-i-automate-personalized-messages-sending-}
 
@@ -55,7 +55,7 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ## ワークフローでオーディエンスをサブセットに分割するにはどうすればよいですか？ {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-ターゲットを複数のサブセットに分割する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
+ターゲットを複数のサブセットに分割する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} を参照してください。
 
 ## 外部ファイルの受信者データを更新するにはどうすればよいですか？ {#how-can-i-update-recipient-data-from-an-external-file-}
 

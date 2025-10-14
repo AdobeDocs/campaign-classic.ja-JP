@@ -20,7 +20,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+>配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. **メール配信（メール）**&#x200B;配信テンプレートまたは自分で作成した任意のメール配信テンプレートを選択します。配信テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。

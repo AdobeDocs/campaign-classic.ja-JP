@@ -143,7 +143,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 コントロール母集団を使用すると、オーディエンスの一部を除外して、キャンペーンの影響を測定できます。オペレーターは、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、オペレーターは今後のキャンペーンでコントロール母集団をターゲット設定することもできます。
 
-コントロール母集団について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"} を参照してください。
+コントロール母集団について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja#add-a-control-group){target="_blank"} を参照してください。
 +++
 
 +++**コントロールパネル**
@@ -215,7 +215,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 配信分析は、配信の準備です。このプロセスでは、コンテンツと受信者のプロファイルデータを組み合わせて、受信者が受け取るパーソナライズされたメールを生成します。配信分析ロジックでは、定義されたロジックに基づいて、受信者をターゲットから除外したり、配信を完全に停止したりできます。このプロセスには、動的コンテンツロジックの評価と、個々の受信者プロファイルに固有のオファーの挿入も含まれます。
 
-配信分析について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} を参照してください。
+配信分析について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**配信ログ**
@@ -387,7 +387,7 @@ Federated Data Access の詳細は[こちら](../../installation/using/about-fda
 
 ファイル抽出の承認は、ダイレクトメール配信などの外部ベンダーに送信する前に、別のオペレーターまたはオペレーターグループに、抽出したファイルの内容と設定を承認してもらうプロセスです。
 
-ファイル抽出の承認について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"} を参照してください。
+ファイル抽出の承認について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja#validating){target="_blank"} を参照してください。
 +++
 
 +++**フィルタリングディメンション**
@@ -572,7 +572,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 キャンペーン、プログラムまたはプラン内に、オペレーターは一連の目標を記述できます。目標は、到達すべき数値です。キャンペーン、プログラムまたはプランの終了時に MRM モジュールを使用して、オペレーターは目標と結果を専用レポートで比較できます。
 
-目標について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html#expenses-and-revenues){target=_blank} を参照してください。
+目標について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ja#expenses-and-revenues){target=_blank} を参照してください。
 +++
 
 +++**オファーカタログ**
@@ -754,7 +754,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 ワークフローパレットには、ワークフローに追加できる使用可能なアクティビティが表示されます。このコンポーネントは、ワークフローアクティビティが用途別に論理的にグループ化され、タブ形式で表示されます。パレットで使用可能なアクティビティは、Campaign インスタンスにインストールされているアドオンおよびワークフローを表示するコンテキストによって決まります。
 
-パレットについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#add-and-link-activities){target="_blank"} を参照してください。
+パレットについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja#add-and-link-activities){target="_blank"} を参照してください。
 +++
 
 +++**パフォーマンス監視**
@@ -796,7 +796,7 @@ Adobe Campaign は、配信に挿入できるビルトインのパーソナラ�
 
 定義済みフィルターは、再利用のために保存されたクエリです。定義済みフィルターを使用すると、生産性が向上し（作成は 1 回のみなので）、一貫性を構築し（すべてのマーケターが使用できるので）、マーケター自身では作成できないようなコードやロジックを使用できるため、マーケターに必要とされるスキルを低減できます。
 
-フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 +++
 
 <!--
@@ -930,14 +930,14 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 ターゲットの承認とは、別のオペレーターまたはオペレーターのグループに（分析フェーズでターゲットが生成された後に）、配信の最終ターゲットを配信が送信される前に承認してもらうプロセスです。
 
-ターゲットの承認アクティビティについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html){target="_blank"} を参照してください。
+ターゲットの承認アクティビティについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**データのターゲット**
 
 ターゲットデータとは、ワークフローのワークテーブル（トランジション）に保存されるデータです。このデータは、配信内で配信コンテンツのパーソナライゼーション用に使用したり、配信の動的要素のロジックを定義したりできます。
 
-ターゲットデータについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html#target-data){target="_blank"} を参照してください。
+ターゲットデータについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja#target-data){target="_blank"} を参照してください。
 +++
 
 +++**ターゲットマッピング**
@@ -959,7 +959,7 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 ターゲティングディメンションとは、クエリまたは他のワークフローアクティビティによって生成される（返される）データタイプのことです。Adobe Campaign は、取得に使用されたクエリに関係なく、応答データベース行のプライマリキーのみを返すことに注意してください。
 
-ターゲティングディメンションについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} を参照してください。
+ターゲティングディメンションについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**タスクアクティビティ**
@@ -1025,7 +1025,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフローでシグナルアクティビティによって消費されます。
 
-トリガーキャンペーンについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html){target="_blank"} を参照してください。
+トリガーキャンペーンについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 <!--

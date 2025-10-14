@@ -83,7 +83,7 @@ ht-degree: 87%
 
   通常、このエラーは受信者へのメール内に複数の値があるパーソナライゼーションフィールドまたはブロックがあることを意味します。パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-  これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} を参照してください。
+  これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
 
 * 配信は、次の「未到達」エラーで失敗する場合があります。
 

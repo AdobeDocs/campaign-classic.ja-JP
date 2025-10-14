@@ -93,7 +93,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ## プッシュ通知を送信するにはどうすればよいですか？ {#how-to-send-push-notifications-}
 
-Adobe Campaignを使用して、パーソナライズされたプッシュ通知を送信する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"} を参照してください。
+Adobe Campaignを使用して、パーソナライズされたプッシュ通知を送信する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target="_blank"} を参照してください。
 
 ## オンライン調査を設計および共有するにはどうすればよいですか？ {#how-to-design-and-share-an-online-survey-}
 

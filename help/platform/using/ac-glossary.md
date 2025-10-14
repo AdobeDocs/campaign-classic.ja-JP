@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '6010'
-ht-degree: 98%
+source-wordcount: '6184'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 アクティビティは、実行機能を定義するためにワークフローに追加されるパレット項目です。アクティビティは、タスクを実行するコンテナです。ワークフローでは、指定されたアクティビティが、特にループまたは繰り返し（定期的）アクションがある場合に複数のタスクを生成できます。
 
-詳細情報：[ワークフローアクティビティ](../../workflow/using/about-activities.md)。
+ワークフローアクティビティについて詳しくは、[Campaign v8 ドキュメント ] （https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities）を参照してください
+.html） {target="_blank"}.
 +++
 
 +++**アクティブなプロファイル**
@@ -62,14 +63,13 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 ローカルの承認アクティビティは、メッセージが送信される前に配信の承認プロセスを設定するために使用されるワークフローアクティビティです。
 
-詳しくは、[ローカルの承認アクティビティ](../../workflow/using/local-approval.md)を参照してください。
 +++
 
 +++**オーディエンス**
 
 オーディエンスは、ルールと属性に基づいて、フィルター定義の条件を満たすプロファイルの結果セットです。
 
-詳細情報：[オーディエンス](../../campaign/using/marketing-campaign-target.md)。
+オーディエンスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**監査記録**
@@ -102,7 +102,7 @@ Campaign インタラクションのコンテキストでは、バッチモー�
 
 Campaign は、マーケティングキャンペーンを調整、定義、実行するためのインターフェイスです。 Campaign には、1 つ以上のワークフロー、配信、ドキュメント、その他の関連データポイントを、使いやすい単一のインターフェイスに含めることができます。
 
-詳細情報：[Campaign](../../campaign/using/designing-marketing-campaigns.md)。
+キャンペーンについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
 +++
 
 <!--
@@ -135,14 +135,15 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 コンテンツの承認は、別のオペレーターまたはオペレーターのグループに、配信のコンテンツを送信前に承認させるプロセスです。
 
-詳細情報：[コンテンツの承認](../../campaign/using/marketing-campaign-approval.md)。
+コンテンツの承認について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"} を参照してください。
+
 +++
 
 +++**コントロール母集団**
 
 コントロール母集団を使用すると、オーディエンスの一部を除外して、キャンペーンの影響を測定できます。オペレーターは、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、オペレーターは今後のキャンペーンでコントロール母集団をターゲット設定することもできます。
 
-詳しくは、[コントロール母集団](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)を参照してください。
+コントロール母集団について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"} を参照してください。
 +++
 
 +++**コントロールパネル**
@@ -214,7 +215,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 配信分析は、配信の準備です。このプロセスでは、コンテンツと受信者のプロファイルデータを組み合わせて、受信者が受け取るパーソナライズされたメールを生成します。配信分析ロジックでは、定義されたロジックに基づいて、受信者をターゲットから除外したり、配信を完全に停止したりできます。このプロセスには、動的コンテンツロジックの評価と、個々の受信者プロファイルに固有のオファーの挿入も含まれます。
 
-詳細情報：[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)。
+配信分析について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} を参照してください。
 +++
 
 +++**配信ログ**
@@ -265,7 +266,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 分散型マーケティングアドオンでは、Campaign オペレーターに、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間でキャンペーンを実施する共同作業ワークスペースを提供します。この連携のベースとなるのは、**キャンペーンパッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
 
-詳しくは、[分散型マーケティング](../../distributed/using/about-distributed-marketing.md)を参照してください。
+分散型マーケティングについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**値の配分**
@@ -315,7 +316,7 @@ E4X は、Adobe Campaign Classic で使用される JavaScript のバージョ�
 
 「BCC でメールを送信」機能では、対応する配信メールの正確なコピーを EML 形式で送信します。このメールは専用の BCC メールアドレスに保存され、そこで処理されて外部システムに送信者別にアーカイブできます。
 
-「BCC でメールを送信」の詳細は[こちら](../../delivery/using/email-parameters.md#email-bcc)。
+BCC でメールを送信について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"} を参照してください。
 +++
 
 <!--
@@ -338,7 +339,7 @@ An engine call is a server call that starts real-time processing on server side 
 
 エンリッチメントアクティビティは、ワークフロー内で処理される生成されたワークテーブルデータをオペレーターがエンリッチメントできる高度なワークフローアクティビティです。このアクティビティは、通常、ターゲティングアクティビティの後に使用されるか、ファイルをインポートした後かつターゲットデータを使用するアクティビティの前に使用されます。エンリッチメントでは、インバウンドトランジションデータを変換し、強化されたデータを使用して出力トランジションを完了するようにアクティビティを設定できます。オペレーターは、複数のデータセットのデータを組み合わせたり、一時的なリソースへのリンクを作成したりできます。
 
-エンリッチメントアクティビティの詳細は[こちら](../../workflow/using/enrichment.md)。
+エンリッチメントアクティビティについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**列挙**
@@ -353,7 +354,7 @@ An engine call is a server call that starts real-time processing on server side 
 エクスプローラービューは、Adobe Campaign アーティファクトおよびデータを格納したフォルダーを階層的に表示したものです。 なお、Adobe Campaign のフォルダーシステムは、通常のツリービューとは異なり、各フォルダーには配信、ワークフロー、オファーなどの特定のタイプのデータが格納されます。
 
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 
@@ -370,7 +371,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 疲労管理は、メッセージの頻度と量を制御して受信者の過剰勧誘を避けるのに役立ち、多くの場合、タイポロジルールを使用して適用されます。
 
-疲労管理の詳細は[こちら](../../campaign-opt/using/pressure-rules.md)。
+疲労管理について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**Federated Data Access（FDA）**
@@ -386,21 +387,21 @@ Federated Data Access の詳細は[こちら](../../installation/using/about-fda
 
 ファイル抽出の承認は、ダイレクトメール配信などの外部ベンダーに送信する前に、別のオペレーターまたはオペレーターグループに、抽出したファイルの内容と設定を承認してもらうプロセスです。
 
-ファイル抽出の承認の詳細は[こちら](../../delivery/using/validating.md)。
+ファイル抽出の承認について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"} を参照してください。
 +++
 
 +++**フィルタリングディメンション**
 
 フィルタリングディメンションは、クエリで目的の行のフィルタリングに使用されるデータまたは属性を含んだスキーマです。フィルタリングディメンションスキーマは、Adobe Campaign がクロスデータベース結合を実行して応答行を返せるように、定義済みのターゲティングディメンションに直接リンクされる必要があります。
 
-フィルタリングディメンションの詳細は[こちら](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)。
+フィルタリングディメンションについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#targeting-and-filtering-dimensions){target="_blank"} を参照してください。
 +++
 
 +++**フォルダー**
 
 フォルダーは、特定のデータタイプのデータベースレコードを格納するエクスプローラービュー項目です。ただし、編成要素として使用され、データそのものを含まず、他のフォルダーのみを含む汎用フォルダータイプは例外です。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 
@@ -408,7 +409,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 フォルダービューは、特殊なエクスプローラーフォルダータイプで、どのようなフォルダーに属しているかに関係なく、選択したデータタイプのすべてのレコードを表示するために使用されます。フォルダービューは、分割されたデータや多数のフォルダーに分散されるデータを管理する管理ツールとして使用されます。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 +++
 
 +++**フォーム**
@@ -432,7 +433,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 キャンペーンヒートマップは、24 時間のワークフロー実行情報を表示するテーブルです。その期間内のワークフローの分布を時間別および 5 分間隔で表示します。ヒートマップは、サーバー負荷の評価と、最もリソースを消費しているワークフローアクティビティの判定に使用されます。
 
-ヒートマップの詳細は[こちら](../../workflow/using/heatmap.md)。
+[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**ハイブリッドデプロイメント**
@@ -522,7 +523,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 Adobe Campaign の&#x200B;**マーケティングリソース管理（MRM）**&#x200B;モジュールを使用すると、関係するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調的に制御できます。Adobe Campaign オペレーターは、完全な検証プロセスおよび適切なトラッキングツール（レポート、承認のトラッキング、通知、ディスカッションフォーラムなど）を使用して、あらゆる段階でアクションを調整し、進行状況を承認できます。
 
-MRM の詳細は[こちら](../../mrm/using/about-marketing-resource-management.md)。
+MRM について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 <!--
@@ -561,7 +562,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 ナビゲーションツリーは、Adobe Campaign のエクスプローラービューのメインナビゲーションです。ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。ナビゲーションツリーをカスタマイズし、フォルダーに対する権限を設定できます。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
 
 +++
 
@@ -571,7 +572,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 キャンペーン、プログラムまたはプラン内に、オペレーターは一連の目標を記述できます。目標は、到達すべき数値です。キャンペーン、プログラムまたはプランの終了時に MRM モジュールを使用して、オペレーターは目標と結果を専用レポートで比較できます。
 
-[目標](../../mrm/using/creating-and-managing-tasks.md#expenses-and-revenues)の詳細情報。
+目標について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html#expenses-and-revenues){target=_blank} を参照してください。
 +++
 
 +++**オファーカタログ**
@@ -753,7 +754,7 @@ Campaign ユーザーインターフェイスについて詳しくは、[Adobe C
 
 ワークフローパレットには、ワークフローに追加できる使用可能なアクティビティが表示されます。このコンポーネントは、ワークフローアクティビティが用途別に論理的にグループ化され、タブ形式で表示されます。パレットで使用可能なアクティビティは、Campaign インスタンスにインストールされているアドオンおよびワークフローを表示するコンテキストによって決まります。
 
-[パレット](../../workflow/using/building-a-workflow.md#adding-and-linking-activities)の詳細情報。
+パレットについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#add-and-link-activities){target="_blank"} を参照してください。
 +++
 
 +++**パフォーマンス監視**
@@ -788,14 +789,14 @@ Adobe Campaign は、配信に挿入できるビルトインのパーソナラ�
 
 プランとは、カレンダー単位でマーケティングアクティビティを整理するために使用されるフォルダータイプです。エクスプローラービューのプランフォルダーは、年、四半期、月など、時間に基づく単位を定義します。プランフォルダーはネストでき、他のプランフォルダー、プログラムフォルダーまたはキャンペーンを含むことができます。
 
-[プラン](../../campaign/using/setting-up-marketing-campaigns.md)の詳細情報。
+プランについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 +++
 
 +++**定義済みフィルター**
 
 定義済みフィルターは、再利用のために保存されたクエリです。定義済みフィルターを使用すると、生産性が向上し（作成は 1 回のみなので）、一貫性を構築し（すべてのマーケターが使用できるので）、マーケター自身では作成できないようなコードやロジックを使用できるため、マーケターに必要とされるスキルを低減できます。
 
-フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 +++
 
 <!--
@@ -826,7 +827,7 @@ Learn more about [Predictive Engagement Scoring](../../platform/using/creating-f
 
 プログラムとサブプログラムフォルダーは、ロイヤルティ、獲得、クロスセルなど、ビジネス目標に関するマーケティングアクティビティを整理します。また、会計期間やキャンペーン戦術（イベントやニュースレターなど）を表すこともできます。各プログラムには、1 つのカレンダーにリンクされた複数のキャンペーンが含まれており、カレンダーで全体像を把握できます。
 
-詳細情報：[プログラム](../../campaign/using/setting-up-marketing-campaigns.md)。
+プログラムについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 +++
 
 +++**パブリックリソース**
@@ -920,7 +921,7 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 購読サービスワークフローのアクティビティでは、トランジションで指定された母集団の情報サービスに対する購読を作成または削除できます。
 
-詳細情報：[購読サービスアクティビティ](../../workflow/using/subscription-services.md)。
+購読サービスアクティビティについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**ターゲットの承認**
@@ -929,35 +930,36 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 ターゲットの承認とは、別のオペレーターまたはオペレーターのグループに（分析フェーズでターゲットが生成された後に）、配信の最終ターゲットを配信が送信される前に承認してもらうプロセスです。
 
-詳細情報：[ターゲットの承認](../../workflow/using/local-approval.md)。
+ターゲットの承認アクティビティについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html){target="_blank"} を参照してください。
 +++
 
 +++**データのターゲット**
 
 ターゲットデータとは、ワークフローのワークテーブル（トランジション）に保存されるデータです。このデータは、配信内で配信コンテンツのパーソナライゼーション用に使用したり、配信の動的要素のロジックを定義したりできます。
 
-詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
+ターゲットデータについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html#target-data){target="_blank"} を参照してください。
 +++
 
 +++**ターゲットマッピング**
 
 ターゲットマッピングとは、配信チャネルを特定のデータタイプにマッピングすることです。ターゲットマッピングは、様々な配信チャネルからスキーマのデータフィールドへのリンク方法を定義します。特定のフィールドまたは式を使用して、Campaign がデータタイプにどのように送信するかを定義します。
 
-詳しくは、[ターゲットマッピング](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)を参照してください。
+ターゲットマッピングについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**ターゲティングアクティビティ**
 
 ターゲティングアクティビティは、ターゲティング、母集団データの操作およびフィルタリングアクティビティに固有のワークフローアクティビティです。セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、オペレーターが 1 つまたは複数のターゲットを作成できます。
 
-詳細情報：[ターゲティングアクティビティ](../../workflow/using/about-targeting-activities.md)。
+ターゲティングアクティビティについて詳しくは、[Campaign v8 ドキュメント ] （https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities）を参照してください
+.html） {target="_blank"}.
 +++
 
 +++**ターゲティングディメンション**
 
 ターゲティングディメンションとは、クエリまたは他のワークフローアクティビティによって生成される（返される）データタイプのことです。Adobe Campaign は、取得に使用されたクエリに関係なく、応答データベース行のプライマリキーのみを返すことに注意してください。
 
-詳しくは、[ターゲティングディメンション](../../workflow/using/targeting-data.md)を参照してください。
+ターゲティングディメンションについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} を参照してください。
 +++
 
 +++**タスクアクティビティ**
@@ -966,7 +968,7 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 タスクワークフローアクティビティでは、ワークフローのロジックに人間が介入してアクションを実行します。指定できるのは 2 つのシナリオで、ひとつはタスクが完了した場合、もうひとつはタスクが完了していない場合です。一般的なユースケースは、オフラインアクションをキャンペーンに組み込む場合や、承認などのカスタムアクションを組み込む場合です。
 
-詳しくは、[タスクアクティビティ](../../workflow/using/task.md)を参照してください。
+Ask アクティビティについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 <!--
@@ -1023,7 +1025,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフローでシグナルアクティビティによって消費されます。
 
-詳しくは、[トリガーキャンペーン](../../workflow/using/external-signal.md)を参照してください。
+トリガーキャンペーンについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html){target="_blank"} を参照してください。
 +++
 
 <!--
@@ -1042,7 +1044,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジとは、配信の分析フェーズに適用されるタイポロジルールのグループです。キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
 
-タイポロジの詳細は[こちら](../../campaign-opt/using/about-campaign-typologies.md#typologies)。
+タイポロジについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**タイポロジルール**
@@ -1051,7 +1053,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信の内容（コントロールルール）や配信のターゲット（フィルタールール）、またはビジネス要件を実施するその他のロジック（頻度ルール）を確認するものです。ルールは、1 つ以上のタイポロジに含めることができる、粒度の細かい要素です。
 
-詳しくは、[タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules)を参照してください。
+タイポロジルールについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 ## U～Z {#sec-6}
@@ -1083,7 +1085,7 @@ Web アプリケーションの詳細は[こちら](../../web/using/about-web-ap
 
 ワークフロージャーナルは、ワークフローの段階的な実行ログです。 ワークフローのすべての履歴や監査記録が含まれています。開発、トラブルシューティングまたはデバッグの目的で使用されます。
 
-ワークフロージャーナルの詳細は[こちら](../../workflow/using/monitoring-workflow-execution.md)。
+ワークフロージャーナルについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
 +++
 
 +++**ワークテーブル**

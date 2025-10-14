@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '849'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![](assets/offer_delivery_009.png)
 
-ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンケーンの詳細については、 [こちらの節](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンペーンについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 
 ### オファーを配信に挿入するための主な手順 {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 配信の概要を使用して配信にオファーを提示することもできます。
 
-配信の概要について詳しくは、[キャンペーン - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) ガイドを参照してください。
+配信の概要について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
 
 1. 新規キャンペーンを作成するか、既存のキャンペーンにアクセスします。
 1. キャンペーンの&#x200B;**[!UICONTROL 編集]**／「**[!UICONTROL ドキュメント]**」タブから、配信の概要にアクセスします。

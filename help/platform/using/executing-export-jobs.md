@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 
 ## 手順 6 - フィルター条件 {#step-6---filter-conditions-}
 
-フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルターの設定は、配信アシスタントにおける受信者のターゲティングと同じです。[このページ](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルターの設定は、配信アシスタントにおける受信者のターゲティングと同じです。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"} を参照してください。
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

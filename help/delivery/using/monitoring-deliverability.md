@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +54,6 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 * 配信テンプレートで[再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](understanding-delivery-failures.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
 * [配信ダッシュボード](delivery-dashboard.md)で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
-* [ウェーブ](steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
+* ウェーブを使用する場合は、各ウェーブに、次のウェーブがトリガーされるまで完了するのに十分な時間があることを確認します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"} を参照してください。
 * エラーの数と新しい[強制隔離](understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
 * [配信ログ](delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 99%
 
 ---
 
@@ -56,10 +56,10 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 
 メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
-* [配信のベストプラクティス](delivery-best-practices.md)
+* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}。
 * [メールコンテンツの制御](control-message-content.md)
-* [受信ボックスのレンダリング](inbox-rendering.md)
-* [配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)
+* [受信ボックスレンダリング](inbox-rendering.md)
+* [配達確認の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
 
 ### ダブルオプトインによる同意確認 {#double-opt-in}
 

@@ -4,10 +4,10 @@ title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスについて説明します
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 23%
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
-Campaign Classicホームページからアクセスできる **[!UICONTROL 監視]** タブは、インスタンスを監視するための主なエントリポイントです。
+Campaign Classicのホームページからアクセスできる「**[!UICONTROL 監視]**」タブは、インスタンスを監視するための主なエントリポイントです。
 
 インスタンスのステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケーター、ログ、現在実行中のワークフロー、最後に送信された配信の状態に関するダッシュボードが提供されます。
 
@@ -25,7 +25,7 @@ Campaign Classicホームページからアクセスできる **[!UICONTROL 監�
 
 ![](assets/monitoring_tab.png)
 
-## Campaign Classicプロセスの監視 {#monitoring-campaign-classic-processes}
+## Campaign Classic プロセスの監視 {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
@@ -64,7 +64,7 @@ Campaign コントロールパネルを使用すると、インスタンスの�
 
 **ワークフローヒートマップ**
 
-ワークフローヒートマップは、お使いのインスタンスで実行されているすべてのワークフローを視覚的に表現したものです。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 詳しくは、[ここをクリック](../../workflow/using/heatmap.md)してください。
+ワークフローヒートマップは、お使いのインスタンスで実行されているすべてのワークフローを視覚的に表現したものです。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"} を参照してください。
 
 **監査記録**
 
@@ -76,13 +76,13 @@ Campaign コントロールパネルを使用すると、インスタンスの�
 
 **ワークフローステータスの監視**
 
-ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 詳しくは、[ここをクリック](../../workflow/using/supervising-workflows.md)してください。
+ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja){target="_blank"} を参照してください。
 
 **一般的なガイドライン**
 
 ワークフローを使用する際に、ガイドラインとベストプラクティスに従うと、パフォーマンスの向上に役立ちます。 詳しくは、次の節を参照してください。
-* [ワークフロー使用時のベストプラクティス](../../workflow/using/workflow-best-practices.md)
-* [ワークフローの実行の監視](../../workflow/using/monitoring-workflow-execution.md)
+* [ ワークフロー使用時のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
+* [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 ### 配信の監視 {#monitoring-deliveries}
 
@@ -94,7 +94,7 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 **ベストプラクティス**
 
-[ 配信の送信とデザインのベストプラクティス ](../../delivery/using/delivery-best-practices.md) は、パフォーマンスの向上に役立ちます。
+パフォーマンスを向上させるための配信の送信とデザインのベストプラクティスについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合は、特定のアクションを実行できます。
@@ -129,11 +129,11 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 ## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 
-技術リソースは、Campaign Classicドキュメントで入手できます。 インスタンスに対して技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
+テクニカルリソースは、Campaign Classic ドキュメントに記載されています。 インスタンスに対して技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
 
 **ホスティングモデルと機能**
 
-* [Campaign Classicホスティングモデル](../../installation/using/hosting-models.md)
+* [Campaign Classic ホスティングモデル](../../installation/using/hosting-models.md)
 * [ホスティングモデルの機能](../../installation/using/capability-matrix.md)
 
 **サーバー設定**
@@ -147,8 +147,8 @@ SMTP レポートには、配信統計と SMTP エラーがドメイン別に表
 
 **一般原則**
 
-* [Campaign Classic構造](../../production/using/general-architecture.md)
-* [Campaign Classicモジュール](../../production/using/operating-principle.md)
+* [Campaign Classic アーキテクチャ](../../production/using/general-architecture.md)
+* [Campaign Classic モジュール](../../production/using/operating-principle.md)
 * [Campaign Classicオプション](../../installation/using/configuring-campaign-options.md)
 * [モジュールの自動スタートアップの設定方法](../../production/using/administration.md)
 * [キャンペーン設定の原則](../../production/using/configuration-principle.md)

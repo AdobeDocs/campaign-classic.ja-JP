@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaignは、それに応じて使用する必要がある ID シーケ�
 
 ## 配信 {#deliveries}
 
-インスタンスに存在する配信の数は常に 1000 個未満にする必要があります。 多くの配信を使用すると、データベース領域が消費され、問題が発生します。 1 日に 10 件を超える配信を作成するインスタンスは、ビジネス要件に照らして確認する必要があります。 連続配信を使用して、作成する配信の数を減らすことを検討してください。 詳しくは、[この節](../../workflow/using/continuous-delivery.md)を参照してください。
+インスタンスに存在する配信の数は常に 1000 個未満にする必要があります。 多くの配信を使用すると、データベース領域が消費され、問題が発生します。 1 日に 10 件を超える配信を作成するインスタンスは、ビジネス要件に照らして確認する必要があります。 連続配信を使用して、作成する配信の数を減らすことを検討してください。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html){target="_blank"} を参照してください。
 
 2 年以上前の配信はインスタンスからパージする必要があります。
 
@@ -48,14 +48,14 @@ Adobe Campaignは、それに応じて使用する必要がある ID シーケ�
 
 アプリケーションサーバーのディスク上のファイル数は、無制限に増えることはできません。
 
-インポートワークフローではファイルが作成されるので、ディスクが拡張されます。 この問題は、標準の [ ファイルコレクター ](../../workflow/using/file-collector.md) アクティビティを使用することで回避できます。 ファイルコレクターは、ファイルを一時フォルダーに移動し、自動的にパージします。
+インポートワークフローではファイルが作成されるので、ディスクが拡張されます。 この問題は、標準の [ ファイルコレクター ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"} アクティビティを使用することで回避できます。 ファイルコレクターは、ファイルを一時フォルダーに移動し、自動的にパージします。
 
 ワークフローでファイルをインポートしても標準の機能が使用されない場合は、ディスク領域を最小限に抑えるために、ワークフローをパージする必要があります。
 
 ## トランザクションデータとログ {#transactional-data-and-logs}
 
-データをAdobe Campaignに読み込む [ ワークフロー ](../../workflow/using/data-life-cycle.md#work-table) ごとに、データベースのサイズが大きくなります。
+データをAdobe Campaignに読み込むワークフローによって、データベースのサイズが大きくなります。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"} を参照してください。
 
-クリーンアップまたはパージワークフローが実行中であり、レコードを効果的にパージしていることを確認します。 すべてのトランザクションデータとログはパージする必要があります。 クリーンアップタスクでは、標準テーブル（トラッキングログと広範ログ）のみをパージします。 特定のテーブルは、特定のワークフローによってパージする必要があります。 [この節](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
+クリーンアップまたはパージワークフローが実行中であり、レコードを効果的にパージしていることを確認します。 すべてのトランザクションデータとログはパージする必要があります。 クリーンアップタスクでは、標準テーブル（トラッキングログと広範ログ）のみをパージします。 特定のテーブルは、特定のワークフローによってパージする必要があります。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
 
 レコードの最も古い作成日を確認して、古いトランザクションデータを監視します。

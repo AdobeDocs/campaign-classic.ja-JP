@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3887'
-ht-degree: 100%
+source-wordcount: '3888'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Campaign v8 プロモーションイニシアチブの一環として、Campaign
 * マーケティングキャンペーンの調整：このガイドは、[ランディングページ](../../campaign/using/about-marketing-campaigns.md)に置き換えられました。
 * マーケティングリソースの管理：このガイドは削除されました。
 * 分散型マーケティング：このガイドは削除されました。
-* ワークフローを使用した自動化：このガイドは、[ランディングページ](../../workflow/using/about-workflow-automation.md)に置き換えられました
+* ワークフローを使用した自動化：このガイドは、[ランディングページ](../../workflow/using/about-workflows.md)に置き換えられました
 
 ## 2024
 
@@ -419,7 +419,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 * [パーソナライゼーションフィールドを使用してメールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
 
-* [メールでのシードと配達確認の管理方法](../../delivery/using/steps-defining-the-target-population.md)
+* [ メールでのシードと配達確認の管理方法 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}。
 
 * [繰り返し配信の設定方法](../../workflow/using/recurring-delivery.md)
 

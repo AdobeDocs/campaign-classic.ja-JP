@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 14%
+source-wordcount: '668'
+ht-degree: 13%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 14%
 ワークフローの詳細については、次の節を参照してください。
 
 * [ワークフローについて](../../workflow/using/about-workflows.md)
-* [ワークフローの開始](../../workflow/using/starting-a-workflow.md)
-* [ワークフローのライフサイクル](../../workflow/using/workflow-life-cycle.md)
-* [ワークフロー使用時のベストプラクティス](../../workflow/using/workflow-best-practices.md)
+* [ ワークフローの開始 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja){target="_blank"}。
+* [ ワークフローのライフサイクル ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。
+* [ ワークフローを使用する際のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}。
 
 ## キャンペーンはできるだけ早く開始 {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,9 +34,9 @@ ht-degree: 14%
 
 この問題には複数の原因が考えられます。次の手順に従って解決してください。
 
-1. [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) テクニカルワークフローステータスを確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗すると、ワークフローが開始/停止しません。 再開して、キャンペーンワークフローの実行を再開します。
+1. [**[!UICONTROL operationMgt ]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"} テクニカルワークフローステータスを確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗すると、ワークフローが開始/停止しません。 再開して、キャンペーンワークフローの実行を再開します。
 
-   テクニカルワークフローの監視については、[ このページ ](../../workflow/using/monitoring-technical-workflows.md) を参照してください。
+   テクニカルワークフローの監視について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"} を参照してください。
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 14%
 
    それでもワークフローが失敗する場合は、監査ログで特定のエラーを確認し、適切なトラブルシューティングを行ってから、ワークフローを再起動します。
 
-1. Campaign Classicホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。 このプロセスは、すべてのワークフローを実行します。
+1. Campaign Classic ホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。 このプロセスは、すべてのワークフローを実行します。
 
    管理者ユーザーは、次のコマンドを使用して、**wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されていることを確認することもできます。
 
@@ -56,7 +56,7 @@ ht-degree: 14%
    [...]
    ```
 
-   モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールを使用している場合は、管理者ユーザーは次のコマンドを使用してサービスを再起動する必要があります。
+   モジュールが実行されていない場合は、Adobe カスタマーケアにお問い合わせください。 オンプレミスインストールを使用している場合は、管理者ユーザーは次のコマンドを使用してサービスを再起動する必要があります。
 
    ```
    nlserver start wfserver@<instance-name>
@@ -73,13 +73,13 @@ ht-degree: 14%
 
    この問題を解決するには、不要なワークフローを停止し、失敗した配信を削除します。 しきい値に達した場合、これにより新しいプロセスの実行が可能になります。
 
-   インスタンスで実行されているワークフローの数を確認するには、事前定義済みのビューを使用することをお勧めします。このビューは、デフォルトで **[!UICONTROL 管理]**/**[!UICONTROL 監査]** フォルダーからアクセスできます。 詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)を参照してください。
+   インスタンスで実行されているワークフローの数を確認するには、事前定義済みのビューを使用することをお勧めします。このビューは、デフォルトで **[!UICONTROL 管理]**/**[!UICONTROL 監査]** フォルダーからアクセスできます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}を参照してください。
 
    >[!IMPORTANT]
    >
    >**[!UICONTROL NmsOperation_LimitConcurrency]** オプションのしきい値を増やすと、インスタンスのパフォーマンスの問題が発生する場合があります。 いずれの場合も、これを自分で実行せず、Adobe Campaignの担当者にお問い合わせください。
 
-ワークフローの監視方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
+ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
 
 ## 開始中 {#start-in-progress}
 
@@ -87,7 +87,7 @@ ht-degree: 14%
 
 これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
 
-1. Campaign Classicホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。
+1. Campaign Classic ホームページからアクセスできる「**[!UICONTROL モニタリング]**」タブで **[!UICONTROL wfserver]** モジュールのステータスを確認します（[ プロセスのモニタリング ](../../production/using/monitoring-processes.md) を参照）。
 
    管理者ユーザーは、次のコマンドを使用して、**wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されていることを確認することもできます。
 
@@ -101,7 +101,7 @@ ht-degree: 14%
 
    モジュールの監視方法について詳しくは、[ この節 ](../../production/using/usual-commands.md#monitoring-commands-) を参照してください。
 
-1. モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールを使用している場合は、管理者が次のコマンドを使用して再起動する必要があります。
+1. モジュールが実行されていない場合は、Adobe カスタマーケアにお問い合わせください。 オンプレミスインストールを使用している場合は、管理者が次のコマンドを使用して再起動する必要があります。
 
    ```
    nlserver start wfserver@<instance-name>
@@ -118,6 +118,6 @@ ht-degree: 14%
 
 ワークフローが失敗した場合は、次の手順を実行します。
 
-1. ワークフロージャーナルを確認します。 詳しくは、[ ワークフローの実行の監視 ](../../workflow/using/monitoring-workflow-execution.md) および [ ログの表示 ](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) の節を参照してください。
-1. テクニカルワークフローを監視します。 詳しくは、[ この節 ](../../workflow/using/monitoring-technical-workflows.md) を参照してください。
+1. ワークフロージャーナルを確認します。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
+1. テクニカルワークフローを監視します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"} を参照してください。
 1. 個々のワークフローアクティビティでエラーが発生していないかを確認します。

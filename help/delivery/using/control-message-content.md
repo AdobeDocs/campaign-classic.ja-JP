@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
-source-wordcount: '760'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '772'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、[メールコンテンツの定義](defining-the-email-content.md)を参照してください。
+>メールコンテンツの編集について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-詳しくは、[このページ](defining-the-email-content.md)を参照してください。
+詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 
@@ -47,7 +47,7 @@ Adobe Campaign でのパーソナライゼーションフィールドの使用�
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
-デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが[タイポロジルール](steps-validating-the-delivery.md#validation-process-with-typologies)でチェックされ、含まれていない場合は警告が表示されます。このルールを変更して、単純な警告ではなくエラーを表示し、このリンクなしに配信がおこなわれないようにすることができます。
+デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。このルールを変更すると、単純な警告ではなくエラーが発生し、このリンクがないと配信が送信されなくなります。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} を参照してください。
 
 毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信する際に、リンクが有効であること、フォームがオンラインであること、「**[!UICONTROL 今後のこの受信者への連絡は不要]**」フィールドが「**[!UICONTROL はい]**」に変更されることを確認します。リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。
 

@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Once the control and execution modules are installed on the same instance, you m
    >
    >実行インスタンスタイプの外部アカウントを作成する方法については、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
 
-1. nms:extAccount スキーマを拡張し、トラッキング URL を追加します。
+1. nms:extAccount スキーマを拡張してトラッキング URL を追加します。
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -169,6 +169,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. 各ブランドにつき[配信テンプレート](../../delivery/using/about-templates.md)を作成します。
+1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

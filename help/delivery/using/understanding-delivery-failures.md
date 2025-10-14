@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 100%
+source-wordcount: '2629'
+ht-degree: 99%
 
 ---
 
@@ -188,9 +188,9 @@ ht-degree: 100%
 >
 >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。[有効期間の定義](steps-sending-the-delivery.md#defining-validity-period)を参照してください。
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。[ 配信の送信 ](communication-channels.md)/**有効期間を定義** の下の **ページ** を参照してください。
 
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数は、グローバルに変更することも（アドビの技術管理者にお問い合わせください）、配信または配信テンプレートごとに変更することもできます。詳しくは、 [再試行の設定](steps-sending-the-delivery.md#configuring-retries)を参照してください。
+デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数は、グローバルに変更することも（アドビの技術管理者にお問い合わせください）、配信または配信テンプレートごとに変更することもできます。[ 配信の送信 ](communication-channels.md)/**再試行の設定** で、この **ページ** を参照してください。
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 

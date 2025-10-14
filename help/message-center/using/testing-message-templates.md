@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 95%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
-配達確認の送信は、[通常の配信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)の場合と同じプロセスでおこないます。ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
+配達確認の送信は、通常の配信の場合と同じプロセスでおこないます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"} を参照してください。 ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
 
 * [パーソナライズ機能のデータ](#personalization-data)を使用して、1 つまたは複数の[シードアドレス](#managing-seed-addresses-in-transactional-messages)を作成します。
 * [メッセージコンテンツを作成](../../message-center/using/creating-the-message-template.md#creating-message-content)します。
@@ -117,7 +117,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_send_proof_002.png)
 
-配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。詳しくは、[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
+配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"} を参照してください。
 
 ![](assets/messagecenter_send_proof_003.png)
 

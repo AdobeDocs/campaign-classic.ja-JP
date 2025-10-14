@@ -5,10 +5,10 @@ description: ユースケース：基準に基づいたシードアドレスの�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
+配信の作成手順について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"} を参照してください。
 
 この例では、配信責任者がニュースレターを作成し、受信者を選択します。
 

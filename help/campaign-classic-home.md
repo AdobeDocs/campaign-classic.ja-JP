@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 97%
 
 ---
@@ -60,7 +60,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <div><strong>ワークフローを使用した自動化</strong><br/>ワークフローを活用して、セグメント化、キャンペーンの実行、ファイル処理、人間の関与などのプロセスをデザインする方法について説明します。
     </div></td>
     <td>
-    <a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
     <div><strong>配信の作成</strong><br/>メール、SMS、プッシュ通知など、様々なチャネルでメッセージを送信する方法について説明します。</div>
     </td>
   </tr>
@@ -68,7 +68,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -84,7 +84,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

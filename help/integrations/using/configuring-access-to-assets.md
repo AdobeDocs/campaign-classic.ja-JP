@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 98%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 100%
 >
 >これらの統合は同時におこないます。次の情報をよく読んでから設定をおこなってください。
 
-* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることで設定する必要があります。
-* **AEM Assets** との統合：この統合により、Adobe Experience Manager Assets ライブラリから画像を挿入できるようになります。この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることで設定する必要があります。この統合は、Adobe Experience Manager 6.4 以降では使用できなくなりました。
+* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;ビルトインのパッケージをインストールすることで設定する必要があります。
+* **AEM Assets** との統合：この統合により、Adobe Experience Manager Assets ライブラリから画像を挿入できるようになります。この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;ビルトインのパッケージをインストールすることで設定する必要があります。この統合は、Adobe Experience Manager 6.4 以降では使用できなくなりました。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Adobe Campaign と Adobe Experience Manager を統合する方法については
 
 この統合を設定した後は、AEM Assets ライブラリを使用する新しい配信テンプレートを Adobe Campaign で設定できます。これをおこなうには、以下の手順に従います。
 
-1. 新しい配信テンプレートを作成するか、既存の配信テンプレートを複製します。配信テンプレートについて詳しくは、[このページ](../../delivery/using/about-templates.md)を参照してください。
+1. 新しい配信テンプレートを作成するか、既存の配信テンプレートを複製します。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 1. このテンプレートの&#x200B;**プロパティ**&#x200B;を編集します。
 1. 「**[!UICONTROL 詳細設定]**」タブで、「**[!UICONTROL コンテンツ編集モード]**」を「**DCE**」に設定します。
 1. AEM Assets ライブラリへのアクセスに使用する必要がある外部の **[!UICONTROL AEM アカウント]**&#x200B;を選択します。

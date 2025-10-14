@@ -6,10 +6,10 @@ feature: SMS
 role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1841'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
 1. デフォルトでは、「**[!UICONTROL SMSC 特異性]**」タブの「**[!UICONTROL 完全な電話番号を送信]**」オプションは無効になっています。SMPP プロトコルに準拠し、数字のみを SMS プロバイダー（SMSC）のサーバーに送信する場合は、このオプションを有効にしないでください。
 
-   ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
+   ただし、特定のプロバイダーで「+」が接頭辞として必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
    「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この [ページ](sms-protocol.md)を参照してください。
 
@@ -352,11 +352,11 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 ## 配信テンプレートの変更 {#changing-the-delivery-template}
 
-Adobe Campaign には、モバイルへの配信用テンプレートが用意されています。このテンプレートは&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにあります。詳しくは、[テンプレートについて](about-templates.md)の節を参照してください。
+Adobe Campaign には、モバイルへの配信用テンプレートが用意されています。このテンプレートは&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにあります。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 SMS チャネルでの配信の場合は、使用するチャネルコネクタへの参照を含んだテンプレートを作成する必要があります。
 
-ネイティブ配信テンプレートを保持しておくために、テンプレートのコピーを作成してから設定することをお勧めします。
+ネイティブ配信テンプレートを保持しておくために、テンプレートの複製を作成してから設定することをお勧めします。
 
 次の例では、既に有効化した SMPP アカウントを使用してメッセージを配信するテンプレートを作成します。手順は次のとおりです。
 

@@ -7,10 +7,10 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1217'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1220'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign に接続したら、ナビゲーションバーのリンクを�
 >
 >Adobe Campaign 全体のエルゴノミクス、権限およびプロファイル管理機能については、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 >
->チャネルおよび配信に関連するすべての機能については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で詳しく説明しています。
+>チャネルと配信に関連するすべての機能について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
 
 ### Campaign カレンダー {#campaign-calendar}
 
@@ -180,7 +180,7 @@ Adobe Campaign では、予算、ターゲット、コンテンツなどを承�
 | オファー | オファーのコンテンツと実施要件を承認<br/>オンラインオファーを無効化 |
 | タスク | タスクの終了<br/>タスクのキャンセル |
 | マーケティングリソース | リソースの承認<br/>リソースのロックとロック解除 |
-| Campaign パッケージ | 承認用にパッケージを送信<br/>パッケージを承認または却下<br/>パッケージのキャンセル |
+| キャンペーンパッケージ | 承認用にパッケージを送信<br/>パッケージを承認または却下<br/>パッケージのキャンセル |
 | Campaign オーダー | オーダーの作成<br/>オーダーを許可または却下<!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
 | 在庫 | 在庫品目を削除 |
 | オファーのシミュレーション | シミュレーションの開始と停止 |

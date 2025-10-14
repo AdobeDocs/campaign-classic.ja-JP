@@ -6,10 +6,10 @@ feature: Workflows, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * ターゲットを表示
 
-  このメニューは、ターゲット母集団に対して使用可能なデータと、作業用テーブルの構造を表示します（「**[!UICONTROL スキーマ]**」タブ）。
+  このメニューは、ターゲット母集団に対して使用可能なデータと、ワークテーブルの構造を表示します（「**[!UICONTROL スキーマ]**」タブ）。
 
   ![](assets/wf-right-click-display.png)
 
@@ -43,13 +43,13 @@ ht-degree: 100%
   詳しくは、[この節](../../reporting/using/using-the-descriptive-analysis-wizard.md)を参照してください。
 
 ワークフローが実行されると、ターゲットデータはパージされます。最後のワークテーブルだけにアクセスできます。
-ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
+ワークフローを設定し、すべてのワークテーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
 
 ただし、データが大量にある場合、このオプションを有効化しないことをお勧めします。
 
 ![](assets/wf-purge-data-option.png)
 
-## データのターゲティング {#target-data}
+## データのターゲット {#target-data}
 
 ワークフローのワークテーブルに保存されたデータは、パーソナライゼーションフィールドからアクセスできます。
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 「**[!UICONTROL ターゲット式]**」（targetData）タイプのパーソナライゼーション要素は、ターゲティングワークフローには使用できません。配信ターゲットは、ワークフロー内に作成され、配信のインバウンドトランジション内に指定される必要があります。
 
-配信の配達確認を作成するには、パーソナライゼーションデータが入力できるように、配達確認のターゲットが&#x200B;**[!UICONTROL アドレス置換]**&#x200B;モードに基づいて作成される必要があります。詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof)を参照してください。
+配信の配達確認を作成するには、パーソナライゼーションデータが入力できるように、配達確認のターゲットが&#x200B;**[!UICONTROL アドレス置換]**&#x200B;モードに基づいて作成される必要があります。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"} のこの節を参照してください。
 
 次の例では、パーソナライズしたメールで使用するために、顧客に関する情報のリストを収集しようとしています。
 

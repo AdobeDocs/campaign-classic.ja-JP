@@ -6,10 +6,10 @@ feature: Experience Platform Integration
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 96%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
@@ -31,11 +31,11 @@ Campaign Classic から S3 または Azure Blob ストレージの場所にデ�
 
 これをおこなうには、以下を追加して設定します。
 
-* ターゲットデータを CSV ファイルに抽出する&#x200B;**[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/extraction-file.md)を参照してください。
+* ターゲットデータを CSV ファイルに抽出する&#x200B;**[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"} を参照してください。
 
   ![](assets/rtcdp-extract-file.png)
 
-* CSV ファイルをストレージの場所に転送する&#x200B;**[!UICONTROL ファイル転送]**&#x200B;アクティビティ。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/file-transfer.md)を参照してください。
+* CSV ファイルをストレージの場所に転送する&#x200B;**[!UICONTROL ファイル転送]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
   ![](assets/rtcdp-file-transfer.png)
 

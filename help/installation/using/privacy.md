@@ -4,9 +4,9 @@ title: パーソナライゼーションとプライバシー
 description: プライバシーとパーソナライゼーションに関するセキュリティのベストプラクティスについて説明します
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '827'
 ht-degree: 20%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 20%
 
 ### レコメンデーション
 
-上記を使用していないことを検証および確認するには、[Campaign 汎用クエリエディター &#x200B;](../../platform/using/about-queries-in-campaign.md) でトラッキング URL テーブルに対してクエリを実行するか、[&#x200B; クエリアクティビティ &#x200B;](../../workflow/using/query.md) でフィルター条件を使用してワークフローを作成します。
+上記を使用していないことを検証および確認するには、[Campaign 汎用クエリエディター ](../../platform/using/about-queries-in-campaign.md) からトラッキング URL テーブルに対してクエリを実行するか、クエリアクティビティでフィルター条件を使用してワークフローを作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照してください。
 
 例：
 
-1. ワークフローを作成し、**クエリ** アクティビティを追加します。 [詳細情報](../../workflow/using/query.md)。
+1. ワークフローを作成し、**クエリ** アクティビティを追加します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照してください。
 
 1. **クエリ** アクティビティを開き、`nmsTrackingUrl` テーブルに次のようにフィルターを作成します。
 
@@ -50,11 +50,11 @@ ht-degree: 20%
 >
 >不正な形式の署名済み URL をクリックすると、次のエラーが返されます。`Requested URL '…' was not found.`
 
-さらに、機能強化を使用して、以前のビルドで生成された URL を無効にすることができます。 この機能は、デフォルトでは無効になっています。 この機能を有効にする方法については、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) にお問い合わせください。
+さらに、機能強化を使用して、以前のビルドで生成された URL を無効にすることができます。 この機能は、デフォルトでは無効になっています。 この機能を有効にする方法については、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) にお問い合わせください。
 
 ビルド 19.1.4 を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
-Campaign がホストする Managed Cloud Services またはハイブリッドのお客様は、URL 署名を無効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡する必要があります。
+Campaign がホストする Managed Cloud Services またはハイブリッドのお客様は、URL 署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に連絡する必要があります。
 
 ハイブリッドアーキテクチャで Campaign を実行している場合、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
@@ -170,7 +170,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで次の
    *Disallow: /
    ```
 
-   IIS については、[&#x200B; このページ &#x200B;](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files) を参照してください。
+   IIS については、[ このページ ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files) を参照してください。
 
    Apache の場合、ファイルを **/var/www/robots.txt** （Debian）に配置できます。
 
@@ -178,9 +178,9 @@ URL 署名を有効にするには、すべての Campaign サーバーで次の
 
    **robots.txt** ファイルに加えて、**X-Robots-Tag** ヘッダーを追加することをお勧めします。 Apache または IIS と、**serverConf.xml** 設定ファイルで実行できます。
 
-   詳しくは、[&#x200B; この記事 &#x200B;](https://developers.google.com/search/reference/robots_meta_tag) を参照してください。
+   詳しくは、[ この記事 ](https://developers.google.com/search/reference/robots_meta_tag) を参照してください。
 
 
 ## プライバシーリクエスト
 
-Privacy Management の概要とAdobe Campaignでの実装手順について詳しくは、[&#x200B; このページ &#x200B;](../../platform/using/privacy-management.md) を参照してください。 また、ベストプラクティス、ユーザープロセスとペルソナの概要についても説明します。
+Privacy Management の概要とAdobe Campaignでの実装手順について詳しくは、[ このページ ](../../platform/using/privacy-management.md) を参照してください。 また、ベストプラクティス、ユーザープロセスとペルソナの概要についても説明します。

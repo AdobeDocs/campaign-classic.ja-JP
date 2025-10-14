@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 ドキュメントをパーソナライズする場合、メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
 
-「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](attaching-files.md)の節を参照してください。
+「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信メールにファイルを添付する際にアクセスできます。計算ファイルの添付について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ja){target="_blank"} を参照してください。
 
 請求書のヘッダーのパーソナライゼーションの例：
 

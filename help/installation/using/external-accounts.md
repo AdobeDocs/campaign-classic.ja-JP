@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 70%
+source-wordcount: '1988'
+ht-degree: 73%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 ### バウンスメール {#bounce-mails-external-account}
 
-**バウンスメール**&#x200B;外部アカウントで、電子メールサービスの接続に使用する外部 POP3 アカウントを指定します。この外部アカウントについて詳しくは、この[ページ](../../workflow/using/inbound-emails.md)を参照してください。
+**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。この外部アカウントについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"} を参照してください。
 
 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -83,7 +83,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 >
 >Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)を参照してください。
 
-**Microsoft OAuth 2.0&rbrace; を使用して POP3 外部を設定するには、「&lbrace;2** Microsoft OAuth 2.0 **」オプションをチェックし、次のフィールドに入力します。**
+**Microsoft OAuth 2.0} を使用して POP3 外部を設定するには、「{2** Microsoft OAuth 2.0 **[!UICONTROL 」オプションをチェックし、次のフィールドに入力します。]**
 
 * **[!UICONTROL Azure テナント]**
 
@@ -101,7 +101,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
   リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認することができます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-セットアップを行い、クライアントコンソールの「**[!UICONTROL 接続をテスト]**」ボタンを使用するには、インターネットアクセスが必要です。 セットアップ後、inMail プロセスはインターネットを使用せずにMicrosoft サーバーと通信できます。
+セットアップを行い、クライアントコンソールの「**[!UICONTROL 接続をテスト]**」ボタンを使用するには、インターネットアクセスが必要です。 設定後、inMail プロセスはインターネットを使用せずに Microsoft サーバーと通信できます。
 
 別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
@@ -119,18 +119,17 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/communication-channels.md#other-channels)
 * [X（旧 Twitter）](../../social/using/about-social-marketing.md)
-* [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md)
-* [Android チャネル](../../delivery/using/configuring-the-mobile-application-android.md)
+* [iOSおよびAndroid チャネル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### メールルーティング {#email-routing-external-account}
 
 メールルーティング用外部アカウントがデフォルトで提供され、設定に応じて変わります。
 
-オンプレミス/ハイブリッド環境のお客様は、次に説明するように、新しいルーティング外部アカウントを作成したり、パラメーターを更新したりできます。 この設定はエキスパートユーザーのみが使用するもので、配信品質に影響を与える可能性があります。 ご不明な点については、AdobeカスタマーケアまたはAdobe担当者にお問い合わせください。
+オンプレミス/ハイブリッド環境のお客様は、次に説明するように、新しいルーティング外部アカウントを作成したり、パラメーターを更新したりできます。 この設定はエキスパートユーザーのみが使用するもので、配信品質に影響を与える可能性があります。 ご不明な点については、Adobe カスタマーケアまたはAdobe担当者にお問い合わせください。
 
 * **ミッドソーシング**、**外部** ルーティング、または **一括** 配信ルーティングタイプを使用できます。
 
-* **一括** 配信モードと **ミッドソーシング** 配信モードの場合、「**ブランディング**」タブでブランディングパラメーターを指定できます。 これらのパラメーターは、**ミラーページ URL[ および ](../../installation/using/deploying-an-instance.md#email-channel-parameters) エラーアドレス** の **デフォルトパラメーター** をブランドに固有の設定で上書きするために使用されます。
+* **一括** 配信モードと **ミッドソーシング** 配信モードの場合、「**ブランディング**」タブでブランディングパラメーターを指定できます。 これらのパラメーターは、[ ミラーページ URL](../../installation/using/deploying-an-instance.md#email-channel-parameters) および **エラーアドレス** の **デフォルトパラメーター** をブランドに固有の設定で上書きするために使用されます。
 
   ![](assets/ext-account-branding.png)
 
@@ -160,7 +159,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 ### FTP {#ftp-external-account}
 
-FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 これをおこなうには、この外部アカウントで、FTP サーバーへの接続を確立するために使用するアドレスと資格情報を指定します。
 
@@ -190,7 +189,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 ### SFTP {#sftp-external-account}
 
-SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_4.png)
 
@@ -229,20 +228,20 @@ Campaign と互換性のある外部データベースは、[ 互換性マトリ
 
 外部アカウントの設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* [Vertica analyticsへのアクセスの構成 ](../../installation/using/configure-fda-vertica.md)
-* [Snowflake](../../installation/using/configure-fda-snowflake.md) へのアクセスの構成
+* [Vertica Analytics](../../installation/using/configure-fda-vertica.md) へのアクセスの設定
+* [Snowflake](../../installation/using/configure-fda-snowflake.md) へのアクセスの設定
 * [Google BigQuery](../../installation/using/configure-fda-google-big-query.md) へのアクセスの設定
-* [Azure synapse](../../installation/using/configure-fda-synapse.md) へのアクセスの構成
-* [Hadoop](../../installation/using/configure-fda-hadoop.md) へのアクセスの構成
-* [Oracle](../../installation/using/configure-fda-oracle.md) へのアクセスの構成
-* [Netezza](../../installation/using/configure-fda-netezza.md) へのアクセスの構成
-* [SAP HANA](../../installation/using/configure-fda-sap-hana.md) へのアクセスの構成
-* [Snowflake](../../installation/using/configure-fda-snowflake.md) へのアクセスの構成
+* [Azure Synapse](../../installation/using/configure-fda-synapse.md) へのアクセスの設定
+* [Hadoop](../../installation/using/configure-fda-hadoop.md) へのアクセスの設定
+* [Oracle](../../installation/using/configure-fda-oracle.md) へのアクセスの設定
+* [Netezza](../../installation/using/configure-fda-netezza.md) へのアクセスの設定
+* [SAP HANA](../../installation/using/configure-fda-sap-hana.md) へのアクセスの設定
+* [Snowflake](../../installation/using/configure-fda-snowflake.md) へのアクセスの設定
 * [Sybase IQ](../../installation/using/configure-fda-sybase.md) へのアクセスの設定
 * [Teradata](../../installation/using/configure-fda-teradata.md) へのアクセスの設定
 
 
-## Adobeソリューション統合外部アカウント
+## Adobe ソリューション統合外部アカウント
 
 ### Adobe Experience Cloud {#adobe-experience-cloud-external-account}
 
@@ -264,15 +263,15 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 * **[!UICONTROL IMS クライアント秘密鍵]**
 
-  IMS クライアント秘密鍵の認証情報。
+  IMS クライアント秘密鍵の資格情報。
 
 * **[!UICONTROL コールバックサーバー]**
 
-  Adobe Campaign インスタンスの URL にアクセスします。
+  Adobe Campaign インスタンスのアクセス URL。
 
 * **[!UICONTROL IMS 組織 ID]**
 
-  組織の ID。 組織 ID を見つけるには、[ このページ ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank} を参照してください。
+  組織の ID。組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 
 * **[!UICONTROL 関連付けマスク]**
 
@@ -324,7 +323,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 >
 > **[!UICONTROL オンプレミス]** および **[!UICONTROL Office 365]** のデプロイメントタイプは非推奨（廃止予定）になりました。 [詳細情報](../../rn/using/deprecated-features.md)。
 
-**[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign に読み込みおよび書き出しできます。
+**[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
 Campaign とMicrosoft Dynamicsの CRM コネクタについて詳しくは、この [ ページ ](../../platform/using/crm-ms-dynamics.md) を参照してください。
 
@@ -398,11 +397,11 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 * **[!UICONTROL クライアント識別子]**
 
-  クライアント識別子の見つけ方については、この[ページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
+  クライアント識別子の見つけ方については、この[ページ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
 
 * **[!UICONTROL セキュリティトークン]**
 
-  セキュリティトークンの見つけ方については、[ページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
+  セキュリティトークンの見つけ方については、[ページ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
 
 * **[!UICONTROL API バージョン]**
 
@@ -414,9 +413,9 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 ## データ転送外部アカウント
 
-### Amazon Simple Storage Service （S3） {#amazon-simple-storage-service--s3--external-account}
+### Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_3.png)
 
@@ -448,11 +447,11 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-**Azure Blob ストレージ** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
+**Azure Blob ストレージ** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/ext_account_23.png)
 
-**[!UICONTROL Azure 外部アカウント]** をAdobe Campaignで使用できるように設定するには、次の情報が必要です。
+**[!UICONTROL Azure 外部アカウント]**&#x200B;を Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
 * **[!UICONTROL サーバー]**
 
@@ -464,4 +463,4 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 * **[!UICONTROL アクセスキー]**
 
-  **[!UICONTROL アクセスキー]** の場所については、この [ ページ ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal) を参照してください。
+  **[!UICONTROL アクセスキー]**&#x200B;の場所について詳しくは、この[ページ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。

@@ -5,10 +5,10 @@ description: Campaign DCE の基礎知識
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 1. DCE テンプレートから配信を作成します（[詳細情報](use-case-creating-an-email-delivery.md)）
 1. 既存のコンテンツを選択するか、[標準テンプレート](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
-1. 配信を送信します（[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)）
+1. 配信の送信 – 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください
 
 >[!NOTE]
 >

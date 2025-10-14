@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 >[!NOTE]
 >
->「**[!UICONTROL リストをインポート]**」機能を使用して、データベースデータにマッピングせずにデータをインポートできます。このデータは、ワークフローの「**[!UICONTROL リストの読み込み]**」オブジェクト経由でのみ使用できます。詳しくは、[このページ](../../workflow/using/read-list.md)を参照してください。
+>「**[!UICONTROL リストをインポート]**」機能を使用して、データベースデータにマッピングせずにデータをインポートできます。このデータは、ワークフローの「**[!UICONTROL リストの読み込み]**」オブジェクト経由でのみ使用できます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ja){target="_blank"} を参照してください。
 
 インポートアシスタントでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。これは、インポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 

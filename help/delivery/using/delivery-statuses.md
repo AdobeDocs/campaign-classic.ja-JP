@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring, Deliverability
 role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Adobe Campaign のメールの配信品質を最適化する方法について�
 
 配信を確認した後に、配信のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;である場合があります。このステータスは、一部のリソースが使用可能になるのを実行プロセスが待機していることを意味します。
 
-**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。詳しくは、[配信のスケジュール](steps-sending-the-delivery.md#scheduling-the-delivery-sending)の節を参照してください。
+**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。詳しくは、[Campaign v8 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 

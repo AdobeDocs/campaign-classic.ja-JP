@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 92%
 
 ---
 
@@ -50,16 +50,16 @@ Audience Manager からセグメントを直接インポートする場合は、
 >
 >Adobe Analytics から Adobe Campaign にオーディエンスをインポートする場合は、最初に Audience Manager でそれらのオーディエンスを共有する必要があります。このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
 >
->場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja){target="_blank"}を参照してください。
+>場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。Audience Manager でのAdobe Analytics オーディエンスの共有について詳しくは、[Adobe Analytics ドキュメント ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja){target="_blank"} を参照してください。
 
 オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特性、ルールなどの詳細データはサポートされません。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 
-ワークフローを使用して、Adobe Campaign から Audience Manager にオーディエンスをエクスポートできます。ワークフローの作成と使用に関するプロセスについて詳しくは、[このドキュメント](../../workflow/using/building-a-workflow.md)を参照してください。エクスポートされたオーディエンスは、セグメントとして保存されます。
+ワークフローを使用して、Adobe Campaign から Audience Manager にオーディエンスをエクスポートできます。ワークフローの作成プロセスと使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} を参照してください。 エクスポートされたオーディエンスは、セグメントとして保存されます。
 
 1. 新しいターゲティングワークフローを作成します。
-1. 使用可能な異なるアクティビティを使い、一連の受信者をターゲティングします。
+1. 使用可能な異なるアクティビティを使い、一連の受信者をターゲットにします。
 1. ターゲティングした後、**[!UICONTROL 共有オーディエンスを更新]**&#x200B;アクティビティをドラッグ＆ドロップして開きます。
 
    ![](assets/aam_export_example.png)
@@ -70,7 +70,7 @@ Audience Manager からセグメントを直接インポートする場合は、
 
    受信者リストを新規オーディエンスにエクスポートするには、「**[!UICONTROL セグメント名]**」フィールドを入力し、新しく作成されたオーディエンスを選択する前に「**[!UICONTROL 作成]**」をクリックします。
 
-   ウィンドウの右上にあるチェックマークをクリックし、次に「**[!UICONTROL OK]**」ボタンをクリックして操作を終了します。
+   ウィンドウの右上にあるチェックマークシンボルをクリックし、次に「**[!UICONTROL OK]**」ボタンをクリックして操作を終了します。
 
 1. 予測されるデータタイプを指定するには、「**[!UICONTROL AMC データソース]**」を選択します。スキーマは自動的に決定されます。
 
@@ -80,7 +80,7 @@ Audience Manager からセグメントを直接インポートする場合は、
 
 オーディエンスがエクスポートされます。オーディエンス保存アクティビティには、アウトバンドトランジションが 2 種類あります。主なトランジションは、エクスポートに成功した受信者を含みます。追加トランジションは、訪問者 ID または宣言済み ID でマッピングできなかった受信者を含みます。
 
-ソリューション間の同期には 24～36 時間かかります。同期が終了すると、新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create){target="_blank"}を参照してください。
+ソリューション間の同期には 24～36 時間かかります。同期が終了すると、新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe Campaignの共有オーディエンスの使用について詳しくは、この [ ドキュメント ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/create){target="_blank"} を参照してください。
 
 >[!NOTE]
 >

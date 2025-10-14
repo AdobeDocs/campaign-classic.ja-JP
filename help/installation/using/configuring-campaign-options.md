@@ -7,14 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3834'
+source-wordcount: '3837'
 ht-degree: 1%
 
 ---
 
-# Campaign Classicオプションのリスト{#configuring-campaign-options}
+# Campaign Classic オプションの一覧{#configuring-campaign-options}
 
 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaign オプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用できるオプションは、インスタンスと共にインストールされるパッケージによって異なります。
 
@@ -57,8 +57,9 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
-   <tr> 
+   <td><p> 配信のプロパティで配信の開始を特定のオペレーターまたはオペレーターグループに指定されている場合に、配信を担当するオペレーターが送信を確認できるようにします。</p><p> これを行うには、値として「1」と入力してオプションを有効にします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信の確認プロセスがデフォルトとして機能します。配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認して実行できます。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">この節</a>を参照してください。</p> </td>
+
+<tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース（nms:recipient）とのダイアログを行います。<br /> オプションの値は、外部受信者テーブルに一致するスキーマの名前に対応している必要があります。<br /> </td> 
   </tr> 
@@ -208,7 +209,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>このオプションは、実行中の配信数をカウントする際に <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> テクニカルワークフローで使用されます。</p>これを使用すると、一貫性のないステータスの配信が実行中の配信数から除外される日数を定義できます。</p><p>デフォルトでは、値は「7」に設定されています。つまり、7 日より古い一貫性のない配信は除外されます。</p></td> 
+   <td><p>このオプションは、実行中の配信数をカウントする際に <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja" target="_blank">operationMgt</a></span> テクニカルワークフローで使用されます。</p>これを使用すると、一貫性のないステータスの配信が実行中の配信数から除外される日数を定義できます。</p><p>デフォルトでは、値は「7」に設定されています。つまり、7 日より古い一貫性のない配信は除外されます。</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -311,7 +312,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> パブリケーションのルートフォルダー。<br />HTMLとテキストコンテンツの生成について詳しくは、<a href="../../delivery/using/using-a-content-template.md"> この節 </a> を参照してください。<br /> </td> 
+   <td> パブリケーションのルートフォルダー。<br /> HTMLとテキストコンテンツの生成について詳しくは、<a href="../../delivery/using/using-a-content-template.md"> この節 </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
@@ -364,7 +365,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> テクニカルワークフローの実行を監視できます。 有効（値「1」）にすると、実行情報がワークフローの監査ログに記録されます。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja" target="_blank">operationMgt</a> テクニカルワークフローの実行を監視できます。 有効（値「1」）にすると、実行情報がワークフローの監査ログに記録されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -728,7 +729,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloudトリガーを設定できます。 データタイプは「長いテキスト」で、JSON 形式である必要があります。 <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign ClassicでExperience Cloudトリガーを使用する方法 </a> を参照してください。<br /> </td> 
+   <td> Experience Cloudトリガーを設定できます。 データタイプは「長いテキスト」で、JSON 形式である必要があります。 <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign ClassicでExperience Cloud トリガーを使用する方法 </a>.<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -740,11 +741,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。この値はAdobe Target Domain Server に対応し、続いて/m2 という値が続きます。 例：tt.omtrdc.net/m2<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> この節 </a> を参照してくださ <br />。<br /> </td> 
+   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。この値はAdobe Target Domain Server に対応し、続いて/m2 という値が続きます。 例：tt.omtrdc.net/m2<br /> この節 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> を参照してくださ </a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Targetの組織名。 この値は、Adobe Target クライアントの名前に対応します。<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> この節 </a> を参照してくださ <br />。<br /> </td> 
+   <td> Adobe Targetの組織名。 この値は、Adobe Target クライアントの名前に対応します。<br /> この節 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> を参照してくださ </a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
@@ -756,7 +757,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
-   <td> Teradataコネクタのオプション。<br /> </td> 
+   <td> Teradata コネクタオプション。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 

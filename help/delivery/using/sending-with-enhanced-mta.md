@@ -5,10 +5,10 @@ description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
-source-wordcount: '1395'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Campaign 配信スループットグラフでは、メール受信者に対す�
 
 配信の再試行設定は、Campaign では使用されなくなりました。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-再試行について詳しくは、[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
+再試行について詳しくは、この [ ページ ](communication-channels.md) を **配信送信**/**再試行を設定** で参照してください。
 
 ### 有効期間
 
@@ -131,7 +131,7 @@ Campaign 配信スループットグラフでは、メール受信者に対す�
 
 メッセージが Enhanced MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-有効期間について詳しくは、[この節](steps-sending-the-delivery.md#defining-validity-period)を参照してください。
+有効期間について詳しくは、この [ ページ ](communication-channels.md) を **配信送信**/**有効期間を定義** で参照してください。
 
 ### DKIM 署名
 
@@ -139,7 +139,7 @@ DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA �
 
 ### 配信成功レポート
 
-メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
+メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](communication-channels.md)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
 
 実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 

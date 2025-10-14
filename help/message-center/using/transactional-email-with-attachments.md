@@ -4,10 +4,10 @@ title: 添付ファイル付きトランザクションメールの送信
 description: Adobe Campaign を使用して、個々の添付ファイルやパーソナライズされた添付ファイルを含むトランザクションメールを送信する方法を説明します。
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 メール添付ファイルをオンザフライでトランザクションメッセージに追加するには、次の手順に従います。
 
-1. 添付ファイルのデザインから開始します。詳しくは、[この節](../../delivery/using/attaching-files.md#attach-a-personalized-file)を参照してください。
+1. 添付ファイルのデザインから開始します。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"} を参照してください。
 
    こうすることで、実行インスタンスでホストされていなくても、ファイルをメールに添付できます。
 

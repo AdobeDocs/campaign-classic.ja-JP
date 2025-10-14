@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 1. ワークフローで、配信アクティビティを追加する前に、配信の概要アクティビティを追加します。
 1. 配信の概要アクティビティで、使用する概要を指定します。
 
-   配信の概要の指定方法について詳しくは、[キャンペーン - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)ガイドを参照してください。
+   配信の概要の指定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"} を参照してください。
 
 1. 配信に従って、使用可能なフィールドに入力します。
 1. 次の 2 つの場合が考えられます。
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->エンリッチメントアクティビティについて詳しくは、[ワークフローガイド](../../workflow/using/enrichment.md)の専用のドキュメントを参照してください。
+>エンリッチメントアクティビティの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 ### オファーまたはオファーエンジン呼び出しの指定 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-クエリを設定（[ワークフローガイド](../../workflow/using/query.md)を参照）してから、次の手順に従います。
+クエリを設定した後（[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照）、
 
 1. エンリッチメントアクティビティを追加し、開きます。
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。

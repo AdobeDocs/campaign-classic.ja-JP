@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ここでは、A/B テストを実行するワークフローを構築する方法について説明します。
 
-1. 新しいワークフローを作成し、目的の母集団をターゲティングする[クエリ](../../workflow/using/query.md)アクティビティを設定します。
+1. 新しいワークフローを作成し、クエリ アクティビティを設定して、目的の母集団をターゲットにします。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照してください。
 
-1. [分割](../../workflow/using/split.md)アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。
+1. 分割アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
 
 1. アクティビティを開き、必要に応じて各サブセットを設定します。**[!UICONTROL 分割]**&#x200B;アクティビティの設定方法の詳細については、[こちらの節](../../workflow/using/split.md)を参照してください。
 

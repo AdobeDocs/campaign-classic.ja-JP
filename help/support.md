@@ -6,9 +6,9 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">パフォーマンスとスループットの問題</a></li>
         <li><a href="delivery/using/delivery-performances.md">配信パフォーマンス</a></li>
-        <li><a href="workflow/using/workflow-best-practices.md">ワークフローのパフォーマンスの最適化</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのパフォーマンスの最適化</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP サーバーの使用</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">配信失敗について</a></li>
@@ -62,14 +62,14 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     </td>
    <td valign="top">
         <ul>
-        <li><a href="workflow/using/workflow-best-practices.md">ワークフローのベストプラクティス</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのベストプラクティス</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">テクニカルワークフローの監視</a></li>
         <li><a href="delivery/using/about-message-tracking.md">トラッキング管理について</a></li>
         <li><a href="production/using/monitoring-guidelines.md">監視ツールについて</a></li>
         <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">複数ウェーブでのメッセージの送信</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">メールコンテンツの設計</a></li>
-        <li><a href="delivery/using/delivery-best-practices.md">配信のベストプラクティス</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja" target="_blank">配信のベストプラクティス</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -138,7 +138,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [&#x200B; 会話に参加 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}。
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [ 会話に参加 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}。
 
 ### Campaign ダウンロードセンターへのアクセス
 

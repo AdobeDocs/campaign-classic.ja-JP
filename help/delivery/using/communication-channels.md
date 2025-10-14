@@ -5,10 +5,10 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 98%
+source-wordcount: '998'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-Campaign v8 のプロモーションイニシアチブの一環として、Campaign Classic のドキュメントを再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
-
-
+Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -34,12 +32,12 @@ Campaign v8 のプロモーションイニシアチブの一環として、Campa
 
 >[!TAB 配信コンテンツとオーディエンス]
 
-配信の作成、コンテンツ、オーディエンスに関連する主な手順について詳しくは、次の Campaign v8 ドキュメントを参照してください。
+配信の作成、コンテンツ、オーディエンスに関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
 
 * [配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}：1 回限りの単一の配信を作成する方法について説明します。
 * [コンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
 * [オーディエンスの指定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
-* [&#x200B; 配信テンプレートの操作 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}：配信の作成を容易にするためにテンプレートを定義する方法について説明します。
+* [ 配信テンプレートの操作 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}：配信の作成を容易にするためにテンプレートを定義する方法について説明します。
 
 
 
@@ -47,7 +45,7 @@ Campaign v8 のプロモーションイニシアチブの一環として、Campa
 
 >[!TAB 配信の検証と送信]
 
-配信の検証、送信およびベストプラクティスについては、Campaign v8 ドキュメントの次のページを参照してください。
+配信の検証、送信およびベストプラクティスについては、次のページ **Campaign v8 ドキュメント** を参照してください。
 
 * [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法について説明します。
 * [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
@@ -104,7 +102,7 @@ Campaign v8 のプロモーションイニシアチブの一環として、Campa
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-デフォルトでは、配信後の最初の日に最低 1 時間の間隔をおいて、24 時間に 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます。詳しくは、[有効期間を定義](#defining-validity-period)を参照してください。
+デフォルトでは、配信後の最初の日に最低 1 時間の間隔をおいて、24 時間に 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます。以下の節を参照してください。
 
 **有効期間の定義**
 
@@ -130,7 +128,7 @@ Campaign v8 のプロモーションイニシアチブの一環として、Campa
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

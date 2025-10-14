@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Campaign Classicのビルトインパッケージのインストール
+title: Campaign Classic ビルトインパッケージのインストール
 description: Campaign ビルトインパッケージのインストール方法を学ぶ
 feature: Installation, Application Settings
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1305'
 ht-degree: 11%
 
 ---
 
-# Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
+# Campaign Classic ビルトインパッケージのインストール{#installing-campaign-standard-packages}
 
 
 
@@ -66,12 +66,12 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> マーケティングキャンペーン（Campaign） <br /> </td> 
-   <td> コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行、分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md"> 詳細情報 </a><br /> </td> 
+   <td> コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行、分析します。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja" target="_blank"> 詳細情報 </a><br /> </td> 
    <td> マーケティング</td>
   </tr> 
   <tr> 
    <td> マーケティングリソース（MRM） <br /> </td> 
-   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供することにより、協調モードでマーケティングアクションを制御します。 <a href="../../mrm/using/about-marketing-resource-management.md"> 詳細情報 </a> <br /> </td> 
+   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供することにより、協調モードでマーケティングアクションを制御します。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ ht-degree: 11%
   </tr--> 
   <tr> 
    <td> ソーシャルネットワーク（ソーシャルマーケティング） <br /> </td> 
-   <td> Adobe Campaignを X （旧称：Twitter）およびFacebookと同期します。 <a href="../../social/using/about-social-marketing.md"> 詳細情報 </a> <br /> </td> 
+   <td> Adobe Campaignを X （旧称 Twitter）および Facebook と同期します。 <a href="../../social/using/about-social-marketing.md"> 詳細情報 </a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
@@ -157,12 +157,12 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="../../workflow/using/accessing-an-external-database-fda.md"> 詳細情報 </a> <br /> </td> 
+   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> キャンペーンの最適化<br /> </td> 
-   <td> 会社の通信ポリシーに従って、送信するメッセージが顧客のニーズと期待に最もよく合うように、配信の送信を制御、フィルターおよび監視します。 オプション。 <a href="../../campaign-opt/using/about-campaign-typologies.md"> 詳細情報 </a> <br /> </td> 
+   <td> 会社の通信ポリシーに従って、送信するメッセージが顧客のニーズと期待に最もよく合うように、配信の送信を制御、フィルターおよび監視します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> セントラルマーケティング/ローカルマーケティング（分散型マーケティング） <br /> </td> 
-   <td> セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間で協調キャンペーンを実装します。 オプション。 <a href="../../distributed/using/about-distributed-marketing.md"> 詳細情報 </a><br /> </td> 
+   <td> セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間で協調キャンペーンを実装します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja" target="_blank"> 詳細情報 </a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -197,7 +197,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> AEM統合 <br /> </td> 
-   <td> では、AEMのコンテンツ編集機能とAdobe Campaignの配信機能を活用するために、メール配信とフォームのコンテンツをAdobe Experience Managerで直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md"> 詳細情報 </a> <br /> </td> 
+   <td> では、Adobe Campaignのコンテンツ編集機能とAdobe Experience Managerの配信機能を活用するために、メール配信とフォームのコンテンツをAEMで直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md"> 詳細情報 </a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> AMP のサポート <br /> </td> 
-   <td> を使用すると、新しいインタラクティブ AMP for E メールフォーマットを使用し、動的なメールを送信できます。 オプション。 <a href="../../delivery/using/defining-interactive-content.md"> 詳細情報 </a> <br /> </td> 
+   <td> を使用すると、新しいインタラクティブ AMP for E メールフォーマットを使用し、動的なメールを送信できます。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> すべて </td> 
   </tr> 
   <tr> 
@@ -242,14 +242,14 @@ ht-degree: 11%
 
 トランザクションメッセージ（Message Center パッケージ）をインストールする前に、配信チャネル（メール、モバイルチャネル、モバイルアプリチャネル、LINE など）をインストールする必要があります。 メールのみの Message Center プロジェクトを開始し、後で新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. パッケージインポートアシスタント（**[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaign パッケージ]**）を使用して、新しいチャネル（**モバイルチャネル** など）をインストールします。
+1. パッケージインポートアシスタント（**ツール/詳細設定/パッケージをインポート/Adobe Campaign パッケージ**）を使用して、新しいチャネル（**[!UICONTROL モバイルチャネル]** など）をインストールします。
 1. ファイルをインポートし（**[!UICONTROL ツール/詳細/パッケージをインポート/ファイル]**）、次を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL インポートする XML データコンテンツ]** には、関連チャネルに対応する Message Center 配信テンプレートのみを保存します。 例えば、**モバイルチャネル** を追加した場合は、**[!UICONTROL モバイルトランザクションメッセージ** （smsTriggerMessage）テンプレートに対応する **entities]** 要素のみを残します。 **モバイルアプリチャネル** を追加した場合は、**iOS トランザクションメッセージ** テンプレート（iosTriggerMessage）と **Android トランザクションメッセージ** （androidTriggerMessage）のみを保持します。
+1. **[!UICONTROL インポートする XML データコンテンツ]** には、関連チャネルに対応する Message Center 配信テンプレートのみを保存します。 例えば、**モバイルチャネル** を追加した場合は、**モバイルトランザクションメッセージ** （smsTriggerMessage）テンプレートに対応する **[!UICONTROL entities]** 要素のみを残します。 **モバイルアプリチャネル** を追加した場合は、**iOS トランザクションメッセージ** テンプレート（iosTriggerMessage）と **Android トランザクションメッセージ** （androidTriggerMessage）のみを保持します。
 
    ![](assets/messagecenter_install_channel.png)
 

@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign コンテンツマネージャーモジュールは、定期的�
 
 >[!NOTE]
 >
->この節では、コンテンツ管理モジュールについて説明します。メール配信コンテンツのデザイン方法について詳しくは、[この節](defining-the-email-content.md)を参照してください。
+>この節では、コンテンツ管理モジュールについて説明します。メール配信コンテンツのデザイン方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
 コンテンツ管理モジュールには、作業グループ、ワークフローおよびコンテンツ集計機能が含まれます。そのため、メッセージを自動的に書式設定できます（メール、郵便、SMS、Web など）。
 

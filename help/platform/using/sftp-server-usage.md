@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
-source-wordcount: '1086'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -43,9 +43,9 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 >[!NOTE]
 >
->* Campaign Classic [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}を使用して、SFTP サーバーストレージを監視できます。
+>* Campaign Classic [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"} を使用して、SFTP サーバーストレージを監視できます。
 >
->* コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
+>* コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}で詳しく説明しています。
 >
 >* インスタンスは、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}を参照してください。
 
@@ -132,7 +132,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 1. **セッションログ**&#x200B;のトラブルシューティング
 
-   1. ワークフローで、「[ファイル転送](../../workflow/using/file-transfer.md)」アクティビティをダブルクリックします。
+   1. ワークフローで、「[ファイル転送](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}」アクティビティをダブルクリックします。
    1. 「**[!UICONTROL ファイル転送]**」タブに移動し、「**[!UICONTROL 詳細設定パラメーター]**」をクリックします。
    1. 「**[!UICONTROL セッションログを表示]**」オプションをオンにします。
 

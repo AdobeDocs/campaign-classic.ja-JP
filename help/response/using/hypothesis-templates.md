@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
   >
   >コントロール母集団を考慮するようテンプレートを設定していても、仮説を適用する配信でグループを定義していない場合、結果はターゲット母集団のみに基づいて測定されます。
 
-  コントロール母集団の定義と設定について詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
+  コントロール母集団の定義と設定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank} を参照してください。
 
 * **[!UICONTROL チャネル]**：ドロップダウンリストで特定のチャネルを選択するか、「**[!UICONTROL すべてのチャネル]**」を選択して仮説テンプレートを Adobe Campaign コンソールのすべてのチャネルで使用できるようにします。テンプレートを特定のチャネル用に設定すると、仮説の作成時に配信がチャネルごとに自動的にフィルターされます。[詳細情報](creating-hypotheses.md)
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
   ![](assets/response_measurement_001.png)
 
-  仮説はオンザフライで開始します。すぐに開始したい場合は、強制的に開始することもできます。そうでない場合は、仮説の作成日に基づいて設定された計算終了日に基づいて、自動的にトリガーされます。[詳細情報](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)）。
+  仮説はオンザフライで開始します。すぐにトリガーしたい場合は、強制的に開始することもできます。そうでない場合は、仮説の作成日に基づいて設定された計算終了日に基づいて、自動的にトリガーされます。[詳細情報](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)）。
 
 * **[!UICONTROL トランザクション／利益金額]**：これらのフィールドはオプションで、売上高指標の自動計算に使用できます。[詳細情報](hypothesis-tracking.md#indicators)
 * **[!UICONTROL 単位金額]**：売上高を計算するための金額を設定できます。[詳細情報](hypothesis-tracking.md#indicators)

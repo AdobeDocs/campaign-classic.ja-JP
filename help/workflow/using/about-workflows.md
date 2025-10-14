@@ -3,81 +3,103 @@ product: campaign
 title: ワークフローについて
 description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます
 feature: Workflows, Data Management
-hide: true
-hidefromtoc: true
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '655'
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
 
-# ワークフローの基本を学ぶ{#gs-workflows}
+# ワークフローを使用した自動化 {#gs-workflows}
+
+Adobe Campaign のワークフローを使用すると、チームはプラットフォーム全体でエンドツーエンドのビジネスプロセスを合理化および自動化できます。直感的なグラフィカルインターフェイスを使用すると、データのセグメント化、キャンペーンの実行、ファイル処理、ユーザーの承認などのタスクを調整するワークフローを、すべて 1 か所で設計および管理できます。
+
+例えば、リモートサーバーからファイルを取得し、その内容を抽出し、Adobe Campaign サーバーにシームレスにデータを読み込むプロセスを自動化できます。これにより、手作業を減らし、運用効率を高めることができます。ワークフローエンジンにより、すべての手順が確実に実行され、追跡されて可視性と制御性が確保されます。
+
+>[!BEGINTABS]
+
+>[!TAB ワークフロードキュメント]
+
+ワークフロー管理について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target=_blank}を参照してください。
+
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target=_blank}
+
+
+>[!TAB 便利なリンク]
+
+ワークフロー管理に関連する主な手順について詳しくは、Campaign v8 ドキュメントを参照してください。
+
+* [ワークフローアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target=_blank}：アクティビティは、タスクテンプレートです。ワークフローには、ターゲティング、フロー制御、アクションおよびイベントアクティビティが含まれます。
+
+* [ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target=_blank}：ターゲティング、キャンペーン、テクニカルワークフローの作成および実行方法について説明します。
+
+* [ベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target=_blank}：Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を定義するためのガイドラインについて説明します。
+
+* [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target=_blank}：ワークフローの実行を監視して、すべてが正しく実行されていることを確認する方法について説明します。
+
+* [ワークフローのユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=ja){target=_blank}：ワークフローを使用できるコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について説明します。
+
+
+>[!ENDTABS]
 
 
 
-## ワークフローについて{#about-workflows}
 
-Adobe Campaign に含まれているワークフローモジュールを使用すると、アプリケーションサーバーのさまざまなモジュールにわたり、すべての範囲のプロセスとタスクを調整できます。総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、トラッキングします。
 
-例えば、ワークフローを使用して、サーバーからファイルをダウンロードしたり、ファイルを解凍したり、ファイルに含まれるレコードを Adobe Campaign データベースにインポートしたりできます。
+<!--
 
-またワークフローには、1 人または複数のオペレーターを関連付けて、通知の対象とすることや、プロセスの選択や承認に関与させることもできます。この方法により、配信アクションを作成して 1 人または複数のオペレーターにタスクを割り当て、コンテンツに対して作業する、ターゲットを指定する、配信開始前に配達確認を承認する、などが可能になります。
+Adobe Campaign uses workflows to:
 
-ワークフローは、キャンペーン管理プロセスの様々なコンテキストおよびステージで発生します。
+* Carry out targeting campaigns. [Learn more](building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](building-a-workflow.md#technical-workflows)
 
-Adobe Campaign では、ワークフローを使用して次のことをおこないます。
+A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 
-* キャンペーンのターゲティングの実行。[詳細情報](building-a-workflow.md#implementation-steps-)
-* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。[詳細情報](building-a-workflow.md#campaign-workflows)
-* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。[詳細情報](building-a-workflow.md#technical-workflows)
-
-ワークフローは、プロセス定義（想定される結果を表すワークフローモデル）と、このプロセスのインスタンス（実際に実行中の処理を表すワークフローインスタンス）の両方を意味します。
-
-ワークフローテンプレートは、実行される様々なタスクと、タスク同士の関係を示すものです。タスクテンプレートは、アクティビティと呼ばれ、アイコンで表されます。タスクテンプレートは、トランジションによって相互にリンクされています。
+The workflow template describes the various tasks to be performed and how they are linked together. The task templates are called activities and are represented by icons. They are linked together by transitions.
 
 ![](assets/example1.png)
 
-各ワークフローには次が含まれます。
+Each workflow contains:
 
-* **[!UICONTROL アクティビティ]**
+* **[!UICONTROL Activities]**
 
-  アクティビティは、タスクテンプレートを図示したものです。使用可能な各種アクティビティは、ダイアグラム内にアイコンで示されます。各タイプは、共通のプロパティと固有のプロパティを持ちます。例えば、すべてのアクティビティには共通して名前とラベルがありますが、「**[!UICONTROL 承認]**」アクティビティには固有の「割り当て」があります。
+  An activity describes a task template. The various activities available are represented on the diagram by icons. Each type has common properties and specific properties. For example, while all activities have a name and label, only the **[!UICONTROL Approval]** activity has an assignment.
 
-  ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返し（定期的）アクションがある場合に複数のタスクを生成できます。
+  In a workflow diagram, a given activity can produce multiple tasks, in particular when there is a loop or recurrent (periodic) actions.
 
-  すべてのワークフローアクティビティのリストは、使用例やサンプルとともに[この節](about-activities.md)で確認できます。
+  All workflow activities are listed in [this section](about-activities.md), including use cases and samples.
 
-* **[!UICONTROL トランジション]**
+* **[!UICONTROL Transitions]**
 
-  トランジションを使用して、アクティビティをリンクし、アクティビティのシーケンスを定義できます。トランジションは、ソースアクティビティを宛先アクティビティにリンクします。ソースアクティビティに応じて、トランジションにはいくつかの種類があります。一部のトランジションには、期間や条件、フィルターなどの追加のパラメータがあります。
+  Transitions enable you to link activities and to define their sequence. A transition links a source activity to a destination activity. There are several sorts of transitions, which depend on the source activity. Some transitions have additional parameters such as a duration, a condition or a filter.
 
-  宛先アクティビティにリンクされていないトランジションはオレンジ色で示され、矢じりはひし形になります。
+  A transition which is not linked to a destination activity is colored orange and the arrow head is shown as a diamond.
 
   >[!NOTE]
   >
-  >未終了のトランジションを含んでいても、ワークフローは実行可能です。その場合、警告メッセージが生成され、トランジションに到達するとワークフローはいったん一時停止しますが、エラーは生成されません。つまり、トランジションを終了せずにワークフローを開始したり、未終了のトランジションをワークフローに追加することができます。
+  >A workflow containing unterminated transitions can still be executed: a warning message will be generated and the workflow will pause once it reaches the transition but it will not generate an error. It is thus possible to start a workflow without it being finished and to add to it as you go along.
 
-  ワークフローの構築方法について詳しくは、[この節](building-a-workflow.md)を参照してください。
+  For more information about how to build a workflow, refer to [this section](building-a-workflow.md).
 
-* **[!UICONTROL ワークテーブル]**
+* **[!UICONTROL Worktables]**
 
+  The worktable contains all the information carried by the transition. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow's life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
 
-  ワークテーブルには、トランジションによって実行されるすべての情報が含まれます。
-各ワークフローは、複数のワークテーブルを使用します。
-作業用テーブルに伝達されたデータは、パージされない限り、ワークフローをスムースに処理するためにライフサイクル全体で使用されます。不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
+  Learn more on workflow data and tables in [this section](how-to-use-workflow-data.md).
 
-  ワークフローのデータおよびテーブルについて詳しくは、[この節](how-to-use-workflow-data.md)を参照してください。
+## Key principles and best practices{#principles-workflows}
 
-## 主な原則とベストプラクティス{#principles-workflows}
+Refer to these sections to find guidance and best practices to automate processes with workflows:
 
-ワークフローを使用してプロセスを自動化するためのガイダンスとベストプラクティスについては、次の節を参照してください。
+* Learn more about workflow activities in [this page](how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](building-a-workflow.md).
+* Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
+* Workflow best practices are detailed in [this page](workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](managing-rights.md).
 
-* ワークフローアクティビティについて詳しくは、[このページ](how-to-use-workflow-data.md)を参照してください。
-* ワークフローを構築する方法については、[この節](building-a-workflow.md)を参照してください。
-* ワークフローを使用して Campaign にデータをインポートする方法については、[この節](../../platform/using/import-export-workflows.md)を参照してください。
-* ワークフローのベストプラクティスについて詳しくは、[このページ](workflow-best-practices.md)を参照してください。
-* ワークフローの実行に関するガイダンスについては、[この節](starting-a-workflow.md)を参照してください。
-* ワークフローを監視する方法については、[このページ](monitoring-workflow-execution.md)を参照してください。
-* ワークフローを使用するためのアクセス権をユーザーに付与する方法については、[このページ](managing-rights.md)を参照してください。
+-->

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。また、次のこともできます。
 
 * [チュートリアルビデオを見る](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
-* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja)
+* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](../../support.md)
 
 ## &#x200B;1. Campaign を最新版にアップグレードするにはどうすればよいですか？ {#how-can-i-upgrade-campaign-to-the-latest-version-}
@@ -52,7 +52,8 @@ Adobe Campaign には、メール配信を監視するための一連のダッ�
 
 ## &#x200B;5. ワークフローの実行を監視できますか？ {#can-i-monitor-workflow-execution}
 
-Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/starting-a-workflow.md)を参照してください。
+Campaign ワークフローの実行を監視する方法については、[Campaign v8 ドキュメント ] （https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution）を参照してください
+.html） {target="_blank"}.
 
 ## &#x200B;6. Campaign Classic に接続するにはどうすればよいですか？ {#how-can-i-connect-to-campaign-classic-}
 

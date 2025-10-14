@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 99%
+source-wordcount: '3111'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
-また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
+また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも貢献します。
 
-配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](delivery-best-practices.md)を参照してください。
+配信を保護および最適化するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} のこのページを参照してください。
 
 ### 強制隔離とブロックリストの比較 {#quarantine-vs-denylist}
 
@@ -117,14 +117,14 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 ハードエラーとは異なり、ソフトエラーでただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。
 
-再試行は、[配信期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)中に実行されます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+再試行は、配信期間中に実行されます。 [ 配信の送信 ](communication-channels.md)/**有効期間を定義** の下の **ページ** を参照してください。 エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローが強制隔離のリストからアドレスを削除します。
 
 
 ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL エラー]**&#x200B;ステータスの場合に実行される再試行の最大数および再試行間の最小遅延は現在、IP が特定のドメインで過去と現在の両方でどの程度機能しているかに基づいています。
 
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md)（**[!UICONTROL メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）または[配信レベルで](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)対応する設定を変更します。
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md) （**[!UICONTROL メールチャネル]**/**[!UICONTROL 詳細設定パラメーター]**）または配信レベルで対応する設定を変更します。 [ 配信の送信 ](communication-channels.md)/**再試行の設定** で、この **ページ** を参照してください。
 
 
 ## 強制隔離からアドレスの削除 {#removing-a-quarantined-address}

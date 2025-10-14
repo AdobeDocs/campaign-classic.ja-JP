@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3161'
-ht-degree: 12%
+source-wordcount: '3163'
+ht-degree: 13%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->サーバーやインスタンスの設定ファイルにアクセスする場合など、Adobeがホストするデプロイメントの場合にのみ、Adobeが実行できる設定もあります。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。
+>サーバーやインスタンスの設定ファイルにアクセスする場合など、Adobeがホストするデプロイメントでは、一部の設定はAdobeでのみ実行できます。 様々なデプロイメントの詳細については、[ モデルのホスティング ](../../installation/using/hosting-models.md) の節または [ このページ ](../../installation/using/capability-matrix.md) を参照してください。
 
 Adobe Campaignの配信品質に関する概念とベストプラクティスについて詳しくは、この [ 節 ](../../delivery/using/about-deliverability.md) を参照してください。
 
-Adobeプラットフォームによるメールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質とは何かについて詳しくは、[Adobeの配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja) を参照してください。
+Adobe プラットフォームによるメールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質の概要については、[Adobeの配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja) を参照してください。
 
 ## 動作の原則 {#operating-principle}
 
@@ -192,7 +192,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
                 mta6.am0.yahoodns.net has address 66.196.118.33
 ```
 
-これらの 8 つの IP アドレスのうち 4 つは、既に mta5 で使用されています（98.136.216.26、98.138.112.38、63.250.192.46 および 98.136.217.203）。 このレコードを使用すると、ユーザーは 4 つの新しい IP アドレスを使用できます。 3 つ目の MX レコードも同様です。
+これら 8 つの IP アドレスのうち 4 つは、既に mta5 で使用されています（98.136.216.26、98.138.112.38、63.250.192.46、98.136.217.203）。 このレコードを使用すると、ユーザーは 4 つの新しい IP アドレスを使用できます。 3 つ目の MX レコードも同様です。
 
 合計 16 個のリモート IP アドレスがあります。 2 つのローカルパブリック IP アドレスと組み合わせると、yahoo.com のメールサーバーに到達するのに 32 個のパスがあります。
 
@@ -214,7 +214,7 @@ MX ルールを使用する例を以下にいくつか示します。
 
 ### MX 管理の設定 {#configuring-mx-management}
 
-MX について準拠するルールは、ツリーの **[!UICONTROL 管理/Campaign Management/配信不能件数の管理/メール]** ルールセット **[!UICONTROL ノードの]** MX 管理」ドキュメントで定義されます。
+MX について準拠するルールは、ツリーの **[!UICONTROL 管理/キャンペーン管理/配信不能件数の管理/メール ルールセット]** ノードの **[!UICONTROL MX 管理]** ドキュメントで定義されます。
 
 **[!UICONTROL MX 管理]** ドキュメントがノードに存在しない場合は、手動で作成できます。 手順は次のとおりです。
 
@@ -316,22 +316,22 @@ MX について準拠するルールは、ツリーの **[!UICONTROL 管理/Camp
 
 これを行うには、**[!UICONTROL 管理]**/**[!UICONTROL キャンペーン管理]**/**[!UICONTROL 配信不能件数の管理]**/**[!UICONTROL メールルールセット]** にある **[!UICONTROL メール形式の管理]** ドキュメントに移動します。
 
-このドキュメントには、Adobe Campaignが管理する日本語フォーマットに対応する、事前に定義されたドメインのリストが含まれています。 詳しくは、[ このドキュメント ](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles) を参照してください。
+このドキュメントには、Adobe Campaignが管理する日本語フォーマットに対応する、事前に定義されたドメインのリストが含まれています。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/mail_rule_sets.png)
 
 **MIME 構造** （Multipurpose Internet Mail Extensions） パラメーターを使用すると、様々なメールクライアントに送信されるメッセージ構造を定義できます。 次の 3 つのオプションを使用できます。
 
-* **マルチパート**：メッセージは、テキスト形式またはHTML形式で送信されます。 HTMLが許可されない場合でも、メッセージはテキストフォーマットで表示できます。
+* **マルチパート**：メッセージは、テキストまたはHTML形式で送信されます。 HTMLが許可されていない場合でも、メッセージはテキストフォーマットで表示できます。
 
   デフォルトでは、マルチパート構造は **multipart/alternative** ですが、画像がメッセージに追加されると、自動的に **multipart/related** になります。 一部のプロバイダーは、デフォルトで **multipart/related** 形式を想定しています。**[!UICONTROL multipart/related を強制]** オプションは、画像が添付されていない場合でもこの形式を強制します。
 
-* **HTML**:HTMLのみのメッセージが送信されます。 HTMLが許可されない場合、メッセージは表示されません。
+* **HTML**: HTMLのみのメッセージが送信されます。 HTML形式が許可されない場合、メッセージは表示されません。
 * **テキスト**：テキスト形式のメッセージのみが送信されます。 テキストフォーマットのメッセージの利点は、サイズが非常に小さいことです。
 
 「**[!UICONTROL 画像を含める]**」オプションが有効になっている場合は、メールの本文に直接表示されます。 その後、画像がアップロードされ、URL リンクがコンテンツに置き換えられます。
 
-このオプションは、特に日本市場で **デコメール**、**デコレメール** または **デコレーションメール** に使用されます。 詳しくは、[ このドキュメント ](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles) を参照してください。
+このオプションは、特に日本市場で **デコメール**、**デコレメール** または **デコレーションメール** に使用されます。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"} を参照してください。
 
 >[!IMPORTANT]
 >

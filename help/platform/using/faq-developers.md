@@ -8,10 +8,10 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign のクエリツールは、ターゲット母集団の作成、�
 
 クエリは、選択したテーブルのフィールドを使用するか、数式を使用して作成します。Campaign データベースに対するクエリを作成する際の主な原則については、[このページ](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
-[ここをクリック](../../workflow/using/query.md)して、Campaign クエリエディターを開きます。
+クエリについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} を参照してください。
 
 ## データパッケージをインポートするにはどうすればよいですか？ {#how-can-i-import-a-data-package-}
 

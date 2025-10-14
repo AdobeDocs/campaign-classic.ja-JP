@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2914'
+source-wordcount: '2916'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->スケジューラーについて詳しくは、[この節](../../workflow/using/scheduler.md)を参照してください。
+>スケジューラーの詳細については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} を参照してください。
 
 デフォルトでは、**[!UICONTROL データベースクリーンアップ]** ワークフローは、毎日午前 4 時に開始するように設定されています。 スケジューラーを使用すると、ワークフローのトリガー頻度を変更できます。 次の頻度を使用できます。
 
@@ -219,7 +219,7 @@ ht-degree: 1%
    UPDATE $(BroadLogTableName) SET tsLastModified=$(curdate), iStatus=7, iMsgId=$(bl) WHERE iDeliveryId=$(dl) AND iStatus=6
    ```
 
-   ここで、`$(curdate)` はデータベースサーバーの現在の日付で、`$(bl)` は配信ログメッセージの識別子、`$(dl)` は配信識別子で、**[!UICONTROL 保留中]** ステータス `delivery status 6` 一致し、`delivery status 7` は **[!UICONTROL 配信がキャンセルされました]** ステータスと一致します。
+   ここで、`$(curdate)` はデータベースサーバーの現在の日付で、`$(bl)` は配信ログメッセージの識別子、`$(dl)` は配信識別子で、`delivery status 6` 保留中 **[!UICONTROL ステータス]** 一致し、`delivery status 7` は **[!UICONTROL 配信がキャンセルされました]** ステータスと一致します。
 
    ```sql
    UPDATE NmsDelivery SET iState = 95, tsLastModified = $(curdate), tsBroadEnd = tsValidity WHERE iDeliveryId = $(dl)

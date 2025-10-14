@@ -8,17 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 100%
+source-wordcount: '733'
+ht-degree: 92%
 
 ---
 
 
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading-file.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
+Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。[ データ読み込み（ファイル） ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}）アクティビティで読み取られる前に、ファイルの解凍または復号化のための前処理を定義できます。
 
 >[!IMPORTANT]
 >
@@ -51,8 +51,8 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 **関連トピック：**
 
-* [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading-file.md).
-* [ファイルを圧縮または暗号化します](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)。
+* [データの読み込み（ファイル）アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}.
+* [ファイルを圧縮または暗号化します](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}。
 
 ## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
@@ -82,9 +82,10 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
    ![](assets/gpg_key_transfer.png)
 
-   アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/file-transfer.md)を参照してください。
+   アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
 
-1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading-file.md)を参照してください。
+
+1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} を参照してください。
 
    受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択してから、「**[!UICONTROL コマンド]**」ドロップダウンリストから「**[!UICONTROL 復号]**」を選択します。
 
@@ -106,6 +107,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/41360?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

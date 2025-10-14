@@ -4,10 +4,10 @@ title: トランザクションメッセージの基本を学ぶ
 description: Adobe Campaign Classic におけるトランザクションメッセージの動作の仕組みと主な手順について説明します
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 99%
 
 ---
 
@@ -88,6 +88,6 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 ## 関連トピック {#related-topics}
 
 * [コミュニケーションチャネルの概要](../../delivery/using/communication-channels.md)
-* [配信の作成に関する主な手順](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [ 配信の作成に関する主な手順 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 * [トランザクションメッセージのアーキテクチャ](../../message-center/using/transactional-messaging-architecture.md)
 * [トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)

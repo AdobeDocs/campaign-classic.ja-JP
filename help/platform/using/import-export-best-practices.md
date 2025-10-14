@@ -8,10 +8,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 99%
 
 ---
 
@@ -60,8 +60,8 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **関連トピック：**
 
-* [データ読み込み（ファイル）アクティビティ](../../workflow/using/data-loading-file.md)
-* [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction-file.md)
+* [データの読み込み（ファイル）アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
+* [データ抽出（ファイル）アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}
 
 ## 差分モードでのインポート {#importing-in-delta-mode}
 

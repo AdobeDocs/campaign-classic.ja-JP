@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '2032'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '2035'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/ja/about/email/) フォーマットを試すことができます。
 
-詳しくは、[この節](defining-interactive-content.md)を参照してください。
+詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ja){target="_blank"} を参照してください。
 
 ## コンテンツ管理の使用 {#using-content-management}
 

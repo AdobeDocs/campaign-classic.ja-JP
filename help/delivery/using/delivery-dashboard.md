@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 * [配信エラーについて](understanding-delivery-failures.md)
 * [強制隔離管理について](understanding-quarantine-management.md)
-* [配信のベストプラクティス](delivery-best-practices.md)
+* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}
 * [配信品質の管理](about-deliverability.md)
 
 ## 配信の概要 {#delivery-summary}
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
 
-ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
+ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"} を参照してください。
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 **[!UICONTROL 更新]**&#x200B;ボタンを使用してデータを更新できます。「**[!UICONTROL フィルター]**」ボタンを使用して、データに対してフィルターを定義します。
 
-特別なアイコンによって、エラーまたは警告を識別できます。[配信の分析](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+特別なアイコンによって、エラーまたは警告を識別できます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} のこの節を参照してください。
 
 「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
 

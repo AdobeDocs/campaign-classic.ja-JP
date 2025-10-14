@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 82%
@@ -24,13 +24,13 @@ ht-degree: 82%
 
 これを行うには、送信された電子メールに対応する.emlファイルを、SMTP電子メールサーバーなどのリモートサーバーに転送します。 アーカイブ先は、指定する必要がある BCC 電子メールアドレス(配信受信者には表示されません)です。
 
-## Recommendationsと制限事項 {#recommendations-and-limitations}
+## 推奨事項と制限事項 {#recommendations-and-limitations}
 
 * 「BCC でメールを送信」はオプションの機能です。ライセンス契約をご確認ください。
 * ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
 * **オンプレミスインストール** の場合は、以下のガイドラインに従ってアクティブ化します。[ メール BCC のアクティブ化（オンプレミス） ](#activating-email-archiving--on-premise-) および [BCC メールアドレスの設定（オンプレミス） ](#configuring-the-bcc-email-address--on-premise-) の節を参照してください。
 * BCC に設定できるメールアドレスは 1 つだけです。
-* 「BCC で E メールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC で E メールを送信]**」オプション経由の配信で、その機能が有効になっていることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* 「BCC で E メールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC で E メールを送信]**」オプション経由の配信で、その機能が有効になっていることを確認します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"} を参照してください。
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
 * Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既にメールのアーカイブを使用している場合は、新しいメール BCC システムに手動でアップグレードする必要があります。 詳しくは、[ 新しいメール BCC への移行 ](#updated-email-archiving-system--bcc-) の節を参照してください。
 
@@ -61,7 +61,7 @@ Adobe Campaignがオンプレミスでインストールされている場合に
 C:\emails\2018-12-02\13h
 ```
 
-アーカイブファイル名は、電子メールのステータスが「 **`<deliveryid>-<broadlogid>.eml`** 送信されていません **&#x200B;**」のときに付けられます。 ステータスが「 **[!UICONTROL 送信済み]**」に変わると、ファイル名がに変わり **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;ます。 例：
+アーカイブファイル名は、電子メールのステータスが「 **`<deliveryid>-<broadlogid>.eml`** 送信されていません ****」のときに付けられます。 ステータスが「 **[!UICONTROL 送信済み]**」に変わると、ファイル名がに変わり **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;ます。 例：
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -92,18 +92,18 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 * **compressBatchSize**:アーカイブ（.zipファイル）に追加された.emlファイルの数。
 
 
-* **archivingType**:アーカイブ方法を使用します。 使用できる値は **1** だけです。 送信されたメールの生のコピーは、.eml 形式で **dataLogPath** フォルダーに保存され、SMTP 経由で BCC メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **&#x200B;**&#x200B;dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
+* **archivingType**:アーカイブ方法を使用します。 使用できる値は **1** だけです。 送信されたメールの生のコピーは、.eml 形式で **dataLogPath** フォルダーに保存され、SMTP 経由で BCC メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **** dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
 
   <!--
   **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
 
 * **expirationDelay**:アーカイブ用に保持される.emlファイルの日数。 その後、圧縮用に **dataLogPath/archivesフォルダーに自動的に移動されます** 。 デフォルトでは、.emlファイルは2日後に期限切れになります。
 * **purgeArchivesDelay**:アーカイブが **dataLogPath/`<archives>`** フォルダーに保存される日数。 その期間を過ぎると、それらは完全に削除されます。 削除は、MTAが開始された時点で開始されます。 デフォルトでは、7日ごとに実行されます。
-* **pollDelay**:dataLogPath **&#x200B;**&#x200B;フォルダーに新しく送信される電子メールの頻度（秒）を確認しています。 例えば、このパラメーターを60に設定した場合、毎分、アーカイブ処理は **dataLogPath/`<date and time>`** フォルダー内の.emlファイルを調べ、必要に応じて削除を適用し、BCCアドレスに電子メールコピーを送信し、アーカイブファイルを圧縮します。
-* **acquireLimit**:pollDelay **&#x200B;**&#x200B;パラメーターに従ってアーカイブ処理が再適用される前に一度に処理された.emlファイルの数。 例えば、pollDelay **パラメーターが60に設定されている間に、** acquireLimit **&#x200B;**&#x200B;パラメーターを100に設定すると、1分あたり100個の.emlファイルが処理されます。
+* **pollDelay**:dataLogPath **** フォルダーに新しく送信される電子メールの頻度（秒）を確認しています。 例えば、このパラメーターを60に設定した場合、毎分、アーカイブ処理は **dataLogPath/`<date and time>`** フォルダー内の.emlファイルを調べ、必要に応じて削除を適用し、BCCアドレスに電子メールコピーを送信し、アーカイブファイルを圧縮します。
+* **acquireLimit**:pollDelay **** パラメーターに従ってアーカイブ処理が再適用される前に一度に処理された.emlファイルの数。 例えば、pollDelay **パラメーターが60に設定されている間に、** acquireLimit **** パラメーターを100に設定すると、1分あたり100個の.emlファイルが処理されます。
 * **smtpNbConnection**:BCC 電子メールアドレスへのSMTP接続数。
 
-電子メール送信のスループットに従って、これらのパラメーターを必ず調整してください。 例えば、MTAが1時間に30,000通のメールを送信する設定では、 **pollDelay** パラメーターを600に、 **acquireLimitパラメーターを5000に、**&#x200B;**&#x200B;** smtpNbConnectionパラメーターを2に設定できます。 つまり、2つのSMTP接続を使用している場合、10分ごとに5,000通の電子メールがBCCアドレスに送信されます。
+電子メール送信のスループットに従って、これらのパラメーターを必ず調整してください。 例えば、MTAが1時間に30,000通のメールを送信する設定では、 **pollDelay** パラメーターを600に、 **acquireLimitパラメーターを5000に、****** smtpNbConnectionパラメーターを2に設定できます。 つまり、2つのSMTP接続を使用している場合、10分ごとに5,000通の電子メールがBCCアドレスに送信されます。
 
 ## BCC メールアドレスの設定（オンプレミス） {#configuring-the-bcc-email-address--on-premise-}
 
@@ -134,7 +134,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -152,10 +152,10 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 ## BCC で E メールを送信のベストプラクティス {#best-practices}
 
 * **BCCアドレスメールボックス**:MTAから送信されるすべての電子メールをアーカイブするのに十分な受信容量があることを確認します。
-* **MTA プーリング**:BCC アーカイブ機能は、MTA レベルで機能します。 MTAから送信されるすべての電子メールを重複できます。 MTA は、複数のインスタンス（開発、テスト、実稼動など）または複数のクライアント（ミッドソーシング環境の場合）にわたってプールできるので、この機能を設定するとセキュリティに影響します。
+* **MTA プーリング**:BCC アーカイブ機能は、MTA レベルで機能します。 MTA から送信されるすべてのメールを重複できます。MTA は、複数のインスタンス（開発、テスト、実稼動など）または複数のクライアント（ミッドソーシング環境の場合）にわたってプールできるので、この機能を設定するとセキュリティに影響します。
 
    * 複数のクライアントとMTAを共有し、そのうちの1つがこのオプションをアクティブにしている場合、このクライアントは同じMTAを共有する他のクライアントの電子メールにすべてアクセスします。 このような状況を回避するには、クライアントごとに異なるMTAを使用します。
-   * 1つのクライアントに対して複数のインスタンス（開発、テスト、実稼動）で同じMTAを使用する場合、3つのインスタンスすべてから送信されるメッセージは、dataLogPathオプションで複製されます。
+   * 1 つのクライアントに対して複数のインスタンス（開発、テスト、実稼動）で同じ MTA を使用する場合、3 つのインスタンスすべてから送信されるメッセージは、dataLogPath オプションで複製されます。
 
 * **接続ごとの電子メール**:BCC電子メールのアーカイブは、接続を開き、その接続を介してすべてのメールを送信しようとすることで動作します。Adobeは、社内のテクニカルコンタクトに、特定の接続で受け入れられる電子メールの数を確認することを推奨します。 この数を増やすと、BCCのスループットに大きな影響を与える可能性があります。
 * **BCC送信IP**:現在、BCC電子メールは、通常のMTAプロキシを通じて送信されません。 代わりに、MTAサーバーから宛先の電子メールサーバーへの直接接続が開かれます。 つまり、メールサーバーの設定によっては、ネットワーク上の許可リストに IP を追加する必要がある場合があります。

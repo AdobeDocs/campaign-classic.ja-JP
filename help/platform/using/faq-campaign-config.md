@@ -8,10 +8,10 @@ content-type: reference
 level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 Campaign では、マーケティングキャンペーンのメインステップの承認プロセスを協調モードで設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、およびコストを承認できます。Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたは web 接続で承認を許可または却下できます。
 
-Campaign で配信コンテンツの承認を実装する手順について[詳しくはここをクリック](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)してください。
+配信コンテンツの承認を実装する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"} を参照してください。
 
 ## 外部データベースに保存されているデータにアクセスするにはどうすればよいですか？ {#how-can-i-access-data-stored-in-an-external-database-}
 
@@ -81,7 +81,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法は？ {#perform-soft-cache-clear}
 
-新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しくエクスポートするなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
 
 ログインしたら、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;に移動します。その後、ログアウトしてから再度ログインします。
 
@@ -91,7 +91,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法は？ {#perform-hard-cache-clear}
 
-新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しくエクスポートするなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
 
 1. クライアントコンソールで、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;を選択します。
 

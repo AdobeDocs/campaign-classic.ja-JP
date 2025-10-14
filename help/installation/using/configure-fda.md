@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 57%
+source-wordcount: '346'
+ht-degree: 55%
 
 ---
 
@@ -36,7 +36,7 @@ FDA を使用して外部データベースへのアクセスを設定するに�
 1. Adobe Campaign で、外部データベースのスキーマを作成します。これにより、外部データベースのデータ構造を識別できるようになります。[詳細情報](../../installation/using/creating-data-schema.md)
 1. 必要に応じて、以前に作成したスキーマから新しいターゲットマッピングを作成します。 これは、配信の受信者を外部データベースから取得している場合に必要です。 この実装には、メッセージのパーソナライゼーションに関する制限があります。 [詳細情報](../../installation/using/defining-data-mapping.md)
 
-データスキーマを作成すると、Adobe Campaign ワークフローでデータを処理できるようになります。詳しくは、[この節](../../workflow/using/accessing-an-external-database-fda.md)を参照してください。
+データスキーマを作成すると、Adobe Campaign ワークフローでデータを処理できるようになります。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
 
 ## データベース固有の設定 {#fda-specific-configuration}
 
@@ -45,7 +45,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 詳しくは、以下のリンクを参照してください。
 
 * Campaign と [Amazon Redshift](../../installation/using/configure-fda-redshift.md) の接続
-* Campaign と [Azure synapse](../../installation/using/configure-fda-synapse.md) の接続
+* Campaign と [Azure Synapse](../../installation/using/configure-fda-synapse.md) の接続
 * Campaign と [Google BigQuery](../../installation/using/configure-fda-google-big-query.md) の接続
 * Campaign と [Hadoop](../../installation/using/configure-fda-hadoop.md) の接続
 * Campaign と [Microsoft SQL Server](../../installation/using/configure-fda-sql.md) の接続
@@ -56,4 +56,4 @@ Adobe Campaign から外部データベースにアクセスできるように�
 * Campaign と [Snowflake](../../installation/using/configure-fda-snowflake.md) の接続
 * Campaign と [Sybase IQ](../../installation/using/configure-fda-sybase.md) の接続
 * Campaign と [Teradata](../../installation/using/configure-fda-teradata.md) の接続
-* Campaign と [Vertica analyticsの接続 ](../../installation/using/configure-fda-vertica.md)
+* Campaign と [Vertica Analytics](../../installation/using/configure-fda-vertica.md) の接続

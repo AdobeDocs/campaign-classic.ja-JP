@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 100%
+source-wordcount: '1089'
+ht-degree: 98%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 次に、モデルから継承されたクエリを調整して、購入テーブルの特定の品目に関する仮説を立てます。
 
-1. キャンペーンと配信を作成します。 [詳細情報](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
+1. キャンペーンと配信を作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
 
    この例では、ダイレクトメールタイプの配信を使用します。
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
+   >詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL ダイレクトメール配信]**」を開き、**[!UICONTROL 配信測定]**&#x200B;アイコンをクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [詳細情報](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
+1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank} を参照してください。
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

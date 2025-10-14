@@ -5,10 +5,10 @@ description: ユースケース：フィールド置換の設定
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
+配信の作成手順について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"} を参照してください。
 
 以下は、配信責任者がニュースレターを作成した例です。
 

@@ -4,10 +4,10 @@ title: Apple のメールアプリにおけるメールプライバシー保護
 feature: Technote, Privacy, Privacy Tools
 description: Apple のメールプライバシー保護機能がキャンペーンに与える影響を学ぶ
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '2105'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 定義済みフィルターを使用できます。[詳細情報](../../workflow/using/creating-a-filter.md)。
+* 定義済みフィルターを使用できます。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"} を参照してください。
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -137,7 +137,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 >
 >このサンプルパッケージのインストールと使用は、エンドユーザーのみが担当します。
 >
->実稼動以外の環境で、このパッケージをテストし、検証することを強くお勧めします。
+>本番環境以外で、このパッケージをテストし、検証することを強くお勧めします。
 
 [サンプルパッケージ](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml)をダウンロードしてインストールします。[詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)。
 

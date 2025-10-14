@@ -4,10 +4,10 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 85%
+source-wordcount: '427'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 >[!INFO]
 >
->監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
+>監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
 
@@ -39,7 +39,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
    * 開始
    * 一時停止
    * 停止
-   * 再度開始
+   * 再開
    * クリーンアップ（「履歴をパージ」アクションと同じ）
    * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
    * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
@@ -47,7 +47,8 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
   ワークフローについて詳しくは、この[ページ](../../workflow/using/about-workflows.md)を参照してください。
 
-  ワークフローの監視方法について詳しくは、[該当する節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
+  ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
+
 
 * **オプション監査記録**&#x200B;では、アクティビティと、オプションに最後に行った変更を確認できます。
 

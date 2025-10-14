@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
     <tr>
   <td>配信品質の技術的監視レポート<br></td>
    <td><p>配信品質の技術的監視レポートは使用できなくなりました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -99,11 +99,11 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>  
    <td>FAX チャネル<br></td>
-   <td><p>Campaign 21.1.3 リリース以降、FAX チャネルは使用できなくなりました。<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a></p>
+   <td><p>Campaign 21.1.3 リリース以降、FAX チャネルは使用できなくなりました。<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html" target="_blank"> 詳しくは、Campaign v8 ドキュメントを参照してください </a></p>
   </tr>
   <tr>
   <td>Demdex ドメイン<br></td>
-  <td><p> Campaign 21.1.3 リリース以降、Adobe Experience Cloud へのオーディエンスの読み込みおよび書き出しに demdex ドメインを使用できなくなりました。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
+  <td><p> Campaign 21.1.3 リリース以降、Adobe Experience Cloud へのオーディエンスのインポートおよびエクスポートに demdex ドメインを使用できなくなりました。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
   </td>
   </tr>
    <tr> 
@@ -137,7 +137,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td>decryptString API</td>
    <td><p>Campaign 18.6 リリースより、セキュリティ上の理由から、<em>decryptString</em> API は、新しいインストールではデフォルトで使用できなくなりました。</p> 
-   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。<a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ja&hl=decrypt">詳細情報</a></p></td>
+   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。<a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">詳細情報</a></p></td>
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>

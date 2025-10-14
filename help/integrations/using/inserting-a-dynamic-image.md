@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 1. [メールへのダイナミックオファーの挿入](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [オーディエンスの作成](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [「エクスペリエンスのターゲット設定」アクティビティの作成 ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [「エクスペリエンスのターゲット設定」アクティビティの作成](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## メールへのダイナミックオファーの挿入 {#inserting-dynamic-offer}
@@ -100,7 +100,7 @@ Target で、2 つのオーディエンスを作成し、オファーに訪問�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-## 「エクスペリエンスのターゲット設定」アクティビティの作成  {#creating-targeting-activity}
+## 「エクスペリエンスのターゲット設定」アクティビティの作成 {#creating-targeting-activity}
 
 Target では、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、それらを対応するオファーに関連付ける必要があります。
 
@@ -154,8 +154,8 @@ Target では、「エクスペリエンスのターゲット設定」アクテ�
 
 ## メールのプレビューと送信 {#preview-send-email}
 
-Adobe Campaign では、メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。メール作成について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md)を参照してください。
+Adobe Campaign では、メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。メールの作成について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"} を参照してください。
 
-これで、Target からのダイナミックオファーを含むメールを送信する準備ができました。
+これで、Target からの動的なオファーを含んだメールを送信する準備が整いました。
 
 ![](assets/target_20.png)

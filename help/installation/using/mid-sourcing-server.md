@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1062'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->ミッドソーシングサーバーをセットアップし、[ 同期ワークフロー ](../../workflow/using/about-technical-workflows.md) を初めて実行したら、ミッドソーシング外部アカウントの内部名を更新しないでください。
+>ミッドソーシングサーバーをセットアップし、[ 同期ワークフロー ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"} を初めて実行したら、ミッドソーシング外部アカウントの内部名を更新しないでください。
 
 ## インスタンスのインストールおよび設定手順 {#steps-for-installing-and-configuring-an-instance}
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. 次のコマンドを使用して Web モジュールを再起動します：**&#x200B; web**。
+1. 次のコマンドを使用して Web モジュールを再起動します：** web**。
 
 serverConf.xml ファイルのミッドソーシングサーバー設定を変更する必要があります。 次の行を「IP アドレスとの親和性の管理」セクションの既存の行の下に追加する必要があります。
 
@@ -139,9 +139,9 @@ serverConf.xml ファイルのミッドソーシングサーバー設定を変�
 
 「marketing_account_operator_name」は、ミッドソーシングインスタンスで宣言されたミッドソーシングアカウントの内部名に関連します。
 
-「affinity_name」は、アフィニティに付与される任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は `[a-z]` `[A-Z]` `[0-9]` です。 目的は、パブリック IP アドレスのグループを宣言することです。
+「affinity_name」は、アフィニティに付与される任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は `[a-z]``[A-Z]``[0-9]` です。 目的は、パブリック IP アドレスのグループを宣言することです。
 
-「affinity_group」は、各配信で使用されるターゲットマッピングで宣言されたサブアフィニティを関連付けます。 「。」を含む最後の部分 サブアフィニティがない場合、は無視されます。 許可されている文字は `[a-z]` `[A-Z]` `[0-9]` です。
+「affinity_group」は、各配信で使用されるターゲットマッピングで宣言されたサブアフィニティを関連付けます。 「。」を含む最後の部分 サブアフィニティがない場合、は無視されます。 許可されている文字は `[a-z]``[A-Z]``[0-9]` です。
 
 変更を反映させるには、サーバーを停止し、再起動する必要があります。
 

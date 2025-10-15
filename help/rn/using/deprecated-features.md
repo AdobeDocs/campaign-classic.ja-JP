@@ -83,7 +83,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
     <tr>
   <td>配信品質の技術的監視レポート<br></td>
    <td><p>配信品質の技術的監視レポートは使用できなくなりました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>

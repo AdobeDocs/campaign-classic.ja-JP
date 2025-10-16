@@ -82,7 +82,7 @@ Adobe Campaign では、BCC メールアドレスをメッセージのターゲ�
 
 ミラーページは、web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツはメールと変わりません。
 
-デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。
+デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。
 
 配信プロパティの「**[!UICONTROL 有効性]**」タブにある「**[!UICONTROL モード]**」フィールドを使用すると、このページの生成モードを変更できます。
 

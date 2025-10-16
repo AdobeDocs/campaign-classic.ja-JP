@@ -23,7 +23,7 @@ ht-degree: 72%
    + 以前のリリース {#previous-releases}
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
-      + [2022 – 非表示 ](rn/using/release-2022.md)
+      + [2022 – 非表示 &#x200B;](rn/using/release-2022.md)
       + [2021 – 非表示](rn/using/release-2021.md)
       + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
@@ -119,7 +119,7 @@ ht-degree: 72%
       + [パーソナライズされたコンテンツの作成 – 非表示](delivery/using/design-and-personalize.md)
       + [適切なオーディエンスの定義 – 非表示](delivery/using/define-the-right-audience.md)
       + [送信前のチェック – 非表示](delivery/using/check-before-sending.md)
-      + [ 追跡と監視 – 非表示 ](delivery/using/track-and-monitor.md)
+      + [&#x200B; 追跡と監視 – 非表示 &#x200B;](delivery/using/track-and-monitor.md)
    + [メールの送信](delivery/using/about-email-channel.md)
    + メールの送信 {#sending-emails}
       + [メール配信の作成 – 非表示](delivery/using/creating-an-email-delivery.md)
@@ -237,7 +237,7 @@ ht-degree: 72%
    + [キャンペーンの最適化について – 非表示](campaign-opt/using/about-campaign-optimization.md)
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンのデザイン – 非表示](campaign/using/designing-marketing-campaigns.md)
-      + [ マーケティングキャンペーンへのアクセス – 非表示 ](campaign/using/accessing-marketing-campaigns.md)
+      + [&#x200B; マーケティングキャンペーンへのアクセス – 非表示 &#x200B;](campaign/using/accessing-marketing-campaigns.md)
    + キャンペーンのオーケストレーション {#orchestrate-campaigns}
       + [マーケティングキャンペーンの基本を学ぶ – 非表示](campaign/using/setting-up-marketing-campaigns.md)
       + [テンプレートの作成と設定 – 非表示](campaign/using/marketing-campaign-templates.md)
@@ -351,7 +351,7 @@ ht-degree: 72%
    + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
    + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud Triggers {#experience-triggers}
-      + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
+      + [&#x200B; [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
@@ -364,22 +364,22 @@ ht-degree: 72%
       + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
       + [Adobe Analytics コネクタのプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [&#x200B; [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
-      + [ [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [&#x200B; [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートとエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [ [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+      + [&#x200B; [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [&#x200B; [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
       + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [ [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
+      + [&#x200B; [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [&#x200B; [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [ [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
-      + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [&#x200B; [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
+      + [&#x200B; [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + ACS コネクタ {#acs-connector}
       + [基本を学ぶ  [!DNL ACS Connector]  – 非表示](integrations/using/acs-connector-principles-and-data-cycle.md)
@@ -477,7 +477,7 @@ ht-degree: 72%
    + データ管理 {#data-management}
       + [データ更新の調整 – 非表示](workflow/using/coordinating-data-updates.md)
       + [概要リストの作成 – 非表示](workflow/using/creating-a-summary-list.md)
-      + [ データのエンリッチメント – 非表示 ](workflow/using/enriching-data.md)
+      + [&#x200B; データのエンリッチメント – 非表示 &#x200B;](workflow/using/enriching-data.md)
       + [集計の使用 – 非表示](workflow/using/using-aggregates.md)
       + [重複排除アクティビティの結合機能の使用 – 非表示](workflow/using/deduplication-merge.md)
       + [繰り返し発生するインポートワークフローの設定 – 非表示](workflow/using/recurring-import-workflow.md)
@@ -638,7 +638,7 @@ ht-degree: 72%
    + Campaign への接続{#connect-to-campaign}
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
       + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-         + [ [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
+         + [&#x200B; [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
          + [Adobe [!DNL IMS] の設定](integrations/using/configuring-ims.md)
          + [Adobe [!DNL IMS] の実装](integrations/using/implementing-ims.md)
          + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)

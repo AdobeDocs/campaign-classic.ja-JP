@@ -119,7 +119,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 1. **[!UICONTROL Web アプリケーション]** コンテンツタイプを使用し、「**[!UICONTROL カスタマイズメニューに表示]**」チェックボックスをオンにします。
 
-   詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}を参照してください。
+   詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
    **Campaign Captcha** の例を示します。
 

@@ -157,7 +157,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank"> 詳細情報 </a> <br /> </td> 
+   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 

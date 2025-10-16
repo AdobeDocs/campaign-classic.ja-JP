@@ -5,11 +5,13 @@ description: パーソナライズされたクーポンの作成および挿入�
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 100%
+source-wordcount: '991'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}を参照してください。
+>クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"} を参照してください。
 
 クーポン管理は、インストールする必要があるパッケージに依存します。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 
@@ -150,7 +152,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。[詳細情報](../../configuration/using/about-data-model.md#default-recipient-table)。
+>デフォルトでは、クーポン管理モジュールは **nms:recipient** テーブルを使用します。 [詳細情報](../../configuration/using/about-data-model.md#default-recipient-table)。
 >
 >カスタム受信者テーブルの使用方法については、[このページ](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 

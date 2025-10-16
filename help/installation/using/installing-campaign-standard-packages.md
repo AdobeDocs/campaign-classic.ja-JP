@@ -5,9 +5,9 @@ description: Campaign ビルトインパッケージのインストール方法�
 feature: Installation, Application Settings
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 11%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
+   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> クーポン管理 <br /> </td> 
-   <td> 今後のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="../../delivery/using/personalized-coupons.md"> 詳細情報 </a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 

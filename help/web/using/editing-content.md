@@ -5,10 +5,10 @@ description: コンテンツの編集
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 99%
+source-wordcount: '1254'
+ht-degree: 97%
 
 ---
 
@@ -259,4 +259,4 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 挿入後、パーソナライゼーションブロック名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 
-ビルトインのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
+組み込みのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。

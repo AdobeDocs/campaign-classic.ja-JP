@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Adobe Campaignを使用して配信をパーソナライズし、各受信者のプロファイルや興味の対象に合わせてメッセージを送信します。
 
-Personalizationは、メッセージをより関連性が高く、魅力的にするのに役立ちます。 受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。 配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank} を参照してください。
+Personalizationは、メッセージをより関連性が高く、魅力的にするのに役立ちます。 受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。 配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank} を参照してください。
 
 Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
@@ -25,20 +25,20 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 >[!TAB  コンテンツのパーソナライゼーションドキュメント ]
 
-コンテンツのパーソナライゼーションについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank} を参照してください。
+コンテンツのパーソナライゼーションについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank} を参照してください。
 
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}
 
 
 >[!TAB Personalizationおよび条件付きコンテンツ ]
 
 条件付きコンテンツとパーソナライゼーションに関連する主な手順については、**Campaign v8 ドキュメント** を参照してください。
 
-* [Personalization データ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}：様々なデータソースを使用して、パーソナライゼーションで配信をカスタマイズする方法を説明します。
-* [&#x200B; パーソナライゼーションフィールド &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}：パーソナライゼーションフィールドを挿入および使用して、メッセージの件名や本文に各受信者の独自のデータを表示する方法を説明します。
-* [&#x200B; パーソナライゼーションブロック &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて、動的で条件付きのコンテンツをメッセージに挿入する方法を説明します。
-* [&#x200B; 条件付きコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}：受信者フィールド値に基づいて条件付きコンテンツを挿入する方法を説明します。
+* [Personalization データ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html?lang=ja){target="_blank"}：様々なデータソースを使用して、パーソナライゼーションで配信をカスタマイズする方法を説明します。
+* [&#x200B; パーソナライゼーションフィールド &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=ja){target="_blank"}：パーソナライゼーションフィールドを挿入および使用して、メッセージの件名や本文に各受信者の独自のデータを表示する方法を説明します。
+* [&#x200B; パーソナライゼーションブロック &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて、動的で条件付きのコンテンツをメッセージに挿入する方法を説明します。
+* [&#x200B; 条件付きコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html?lang=ja){target="_blank"}：受信者フィールド値に基づいて条件付きコンテンツを挿入する方法を説明します。
 
 >[!TAB  クーポン、PDF ドキュメント、顔文字 ]
 
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
 
 The key steps to send an email are as follows:
 

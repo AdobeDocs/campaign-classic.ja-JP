@@ -24,19 +24,19 @@ Adobe Campaign でオムニチャネルメッセージをデザインするた�
 
 メールのデザインを始める前に、配信のデザインと Adobe Campaign での送信に関する概念とベストプラクティスを理解しておくことをお勧めします。
 
-詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} を参照してください。
 
 ## 配信テンプレートとは何ですか？ {#what-is-a-delivery-template-}
 
 配信の設定とパラメーターは、再利用できるように配信テンプレートに保存できます。
 
-詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 ## Campaign で既存の HTML をインポートしてメールを簡単に作成できますか？ {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
 Adobe Campaign で電子メールを作成して送信するために、既存の HTML をワンクリックでインポートする方法があります。
 
-詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
 
 ## Campaign DCE を使用してメールのコンテンツを作成する方法は？ {#how-to-use-campaign-dce-to-create-an-email-content-}
 
@@ -50,16 +50,16 @@ Adobe Campaign で電子メールを作成して送信するために、既存�
 
 Adobe Campaign で配信されるメッセージは、コンテンツや外観をいくつかの方法でパーソナライズできます。さらに、受信者のプロファイルから取得した条件に基づいて、それらの方法を組み合わせることもできます。Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 
-* メッセージ形式のパーソナライズ：詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
-* 動的パーソナライゼーションフィールドの挿入詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"} を参照してください。
-* 定義済みパーソナライゼーションブロックを挿入するか、独自のブロックを作成します。[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。
-* 条件付きコンテンツの作成[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditional-content.html){target="_blank"} を参照してください。
+* メッセージ形式のパーソナライズ：詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} を参照してください。
+* 動的パーソナライゼーションフィールドの挿入詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"} を参照してください。
+* 定義済みパーソナライゼーションブロックを挿入するか、独自のブロックを作成します。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。
+* 条件付きコンテンツの作成[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditional-content.html){target="_blank"} を参照してください。
 
 ## 多言語メッセージを送信できますか？ {#can-i-send-multilingual-messages-}
 
 受信者の環境設定や国などに応じて、多言語のメッセージを受信者に送信することができます。
 
-これには、[条件](../../delivery/using/conditional-content.md)を使用して、受信者のプロファイルに応じて、メッセージの内容をローカライズし、パーソナライズする方法があります。また、ワークフローを使用して、優先言語のテストに応じて送信するメッセージのバージョンを選択することもできます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
+これには、[条件](../../delivery/using/conditional-content.md)を使用して、受信者のプロファイルに応じて、メッセージの内容をローカライズし、パーソナライズする方法があります。また、ワークフローを使用して、優先言語のテストに応じて送信するメッセージのバージョンを選択することもできます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} を参照してください。
 
 ## Web フォームをローカライズするにはどうすればよいですか？ {#how-can-i-localize-a-webform-}
 

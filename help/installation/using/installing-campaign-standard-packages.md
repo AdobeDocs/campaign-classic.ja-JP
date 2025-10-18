@@ -172,7 +172,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> クーポン管理 <br /> </td> 
-   <td> 今後のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank"> 詳細情報 </a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank"> 詳細情報 </a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 

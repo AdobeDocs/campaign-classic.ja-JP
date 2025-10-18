@@ -45,8 +45,8 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 パーソナライズされたクーポン、PDF ドキュメント、顔文字のカスタマイズについて詳しくは、次のページを参照してください **Campaign v8 ドキュメントを参照**。
 
 * [&#x200B; パーソナライズされたクーポン &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}：メール配信でパーソナライズされたクーポンまたは匿名クーポンを作成して割り当てる方法を説明します。
-* [&#x200B; パーソナライズされたPDF ドキュメントの生成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}：受信者ごとにパーソナライズされたコンテンツを含むPDFの添付ファイルを生成する方法を説明します。
-* [&#x200B; 顔文字リストのカスタマイズ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法を説明します。
+* [&#x200B; パーソナライズされたPDF ドキュメントの生成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=ja){target="_blank"}：受信者ごとにパーソナライズされたコンテンツを含むPDFの添付ファイルを生成する方法を説明します。
+* [&#x200B; 顔文字リストのカスタマイズ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=ja){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法を説明します。
 
 >[!ENDTABS]
 

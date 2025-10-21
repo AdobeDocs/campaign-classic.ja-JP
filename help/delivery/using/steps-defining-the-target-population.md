@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaignのデフォルトのターゲットマッピングは、**[!UICONTROL nms]** スキーマに基づく **受信者:recipient** です。
+1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトのターゲットマッピングは、**nms:recipient:recipient** スキーマに基づく&#x200B;**[!UICONTROL 受信者]**&#x200B;です。
 
    他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。[詳細情報](#select-a-target-mapping)。
 
@@ -48,8 +48,8 @@ ht-degree: 97%
 
    デフォルトで用意されているターゲットタイプは次のとおりです。
 
-   * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
-   * **[!UICONTROL 情報サービスの購読者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
+   * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
+   * **[!UICONTROL 情報サービスの登録者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
 
      ![](assets/s_ncs_user_wizard_email02c.png)
 
@@ -72,7 +72,7 @@ ht-degree: 97%
    * **[!UICONTROL フォルダーに含まれている受信者]**：このオプションでは、ツリー内の特定のフォルダーに含まれるプロファイルをターゲットとして指定できます。
    * **[!UICONTROL 受信者]**：このオプションでは、データベースに格納されたプロファイルの中から特定の受信者 1 人を選択できます。
    * **[!UICONTROL 受信者のリスト]**：このオプションでは、受信者のリストをターゲットとして指定できます。リストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
-   * **[!UICONTROL ユーザーフィルター]**：このオプションでは、事前設定済みのフィルターを、データベース内のプロファイルに対するフィルター条件として使用できます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+   * **[!UICONTROL ユーザーフィルター]**：このオプションでは、事前設定済みのフィルターを、データベース内のプロファイルに対するフィルター条件として使用できます。フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
    * 「**[!UICONTROL このセグメントから受信者を除外]**」は、指定したターゲット条件を満たさない受信者をターゲットにするオプションです。これを使用するには、適切なボックスを選択し、事前に定義した、該当するプロファイルを除外するためのターゲティングを適用します。
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -230,7 +230,7 @@ ht-degree: 97%
 
 ## ターゲットマッピングの選択 {#select-a-target-mapping}
 
-配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。 Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
+配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
 
 ![](assets/delivery_select_mapping.png)
 
@@ -251,6 +251,6 @@ ht-degree: 97%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35776?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

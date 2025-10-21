@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 93%
 1. 定義済みの配信テンプレート - Adobe Campaign 管理者は、新しい配信テンプレートを作成できます。作成した配信テンプレートは、オペレーター（適切なアクセス権を持っている場合）が再利用することも、サーバープロセスを使用して自動的に再利用することもできます。例えば、メール配信テンプレートを設定できます。ユーザーがそのテンプレートを使用して配信を作成する際は、テキストまたは HTML コンテンツを入力して配信するだけで済みます。それ以外の選択項目は、管理者によって既に設定されています。
 
 
-配信テンプレートを作成して使用する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-templates){target="_blank"} を参照してください。
+配信テンプレートを作成および使用する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-templates){target="_blank"}を参照してください。

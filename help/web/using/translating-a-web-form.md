@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 1 つの Web アプリケーションを多言語にローカライズすることができます。
 
-Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 &#x200B;](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
+Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 ](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
 
 デフォルトで使用可能な翻訳言語のリストは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
@@ -70,7 +70,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 ### 文字列のフィルタリング {#filtering-strings}
 
-デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -169,7 +169,7 @@ Web フォームは、Web アプリケーションプロパティの「**[!UICON
 &lang=xx
 ```
 
-URL の言語の前に他のパラメーターがある場合。例：**https://myserver/webApp/APP34?status=1&lang=en**
+URL の言語の前に他のパラメーターがある場合。例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 デフォルトで使用できる翻訳言語と辞書を次に示します。
 
@@ -430,7 +430,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 >[!NOTE]
 >
 >この Web アプリケーションで他のパラメーターが既に使用されている場合は、**&amp;lang=** を追加します。\
->例：**https://myserver/webApp/APP34?status=1&lang=en**
+>例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 詳細な翻訳設定 {#advanced-translation-configuration}
 

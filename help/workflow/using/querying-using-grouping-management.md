@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル （nms:recipient）
+  受信者テーブル (nms:recipient)
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 汎用クエリエディター]** を開き、受信者テーブル（**nms:recipient**）を選択します。
+1. **[!UICONTROL 汎用クエリエディター]**&#x200B;を開き、受信者テーブル（**nms:recipient**）を選択します。
 
    ![](assets/query_editor_02.png)
 
@@ -52,7 +52,7 @@ ht-degree: 89%
 1. **[!UICONTROL データのフィルター]**&#x200B;で、「**[!UICONTROL フィルター条件]**」を選択します。**[!UICONTROL ターゲット要素]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 次へ]**」をクリックします。
 1. **[!UICONTROL データのグループ化]**&#x200B;ウィンドウで、「**[!UICONTROL 追加]**」をクリックして「**[!UICONTROL メールドメイン]**」を選択します。
 
-   このデータグループウィンドウは、「**[!UICONTROL グループ化を処理（GROUP BY + HAVING]）**」チェックボックスがオンになっている場合にのみ表示されます。
+   このデータのグループ化ウィンドウは、「**[!UICONTROL グループを処理（GROUP BY + HAVING]）」** ボックスをオンにした場合にのみ表示されます。
 
    ![](assets/query_editor_blocklist_04.png)
 

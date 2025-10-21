@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Javascript コードの編集には技術スキルが必要なので、きちん
 
 これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定します。この JavaScript は、イベントを受信するたびに呼び出されます。[!DNL pipelined] プロセスで実行されます。
 
-サンプルの JavaScript ファイルは cus:triggers.js です。
+サンプルの JavaScript ファイルは、cus:triggers.js です。
 
 ### JavaScript 関数 {#function-js}
 
@@ -114,7 +114,7 @@ JavaScript を編集した後、[!DNL pipelined] を再起動する必要があ�
 
 イベントは、オフセット順に 1 つずつ処理されます。[!DNL pipelined] の各スレッドは異なるパーティションを処理します。
 
-最後に取得したイベントの「オフセット」がデータベースに格納されます。したがって、プロセスが停止すると、最後のメッセージから再開されます。このデータは、ビルトインスキーマ xtk:pipelineOffset に保存されます。
+最後に取得したイベントの「オフセット」がデータベースに格納されます。したがって、プロセスが停止すると、最後のメッセージから再開されます。このデータはビルトインスキーマ xtk:pipelineOffset に保存されます。
 
 このポインターは、各インスタンスと各コンシューマーに固有です。したがって、多くのインスタンスが異なるコンシューマーを使用して同じパイプラインにアクセスする場合、すべてのメッセージが同じ順序で取得されます。
 
@@ -220,7 +220,7 @@ triggerType フィールドは、データの発生元となるトリガーを�
 
 >[!NOTE]
 >
->パイプラインイベントノードはビルトインではなく、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳しくは、[&#x200B; フォームの編集 &#x200B;](../../configuration/using/editing-forms.md) を参照してください。
+>パイプラインイベントノードはビルトインではなく、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳しくは、 [フォームの編集](../../configuration/using/editing-forms.md)を参照してください。
 
 ![](assets/triggers_7.png)
 

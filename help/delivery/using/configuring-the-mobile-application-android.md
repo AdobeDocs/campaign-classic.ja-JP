@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    >[!NOTE]
    >
-   > https://localhost:8080/nms/jsp/androidPushConnector.jsに従って設定することもできますが、コネクタのバージョン 2 を使用することをお勧めします。
+   > または、https://localhost:8080/nms/jsp/androidPushConnector.js に設定することもできますが、コネクタのバージョン 2 を使用することをお勧めします。
 
    ![](assets/nmac_connectors3.png)
 
@@ -60,7 +60,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
+![](assets/do-not-localize/how-to-video.png)[詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -71,7 +71,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    >[!NOTE]
    >
-   >デフォルトの **[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]** ターゲットマッピングが受信者テーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション (nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 
    ![](assets/nmac_ios.png)
 
@@ -105,7 +105,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
 
-デフォルトでは、Adobe Campaignは **[!UICONTROL 購読者のアプリケーション（nms]**） **[!UICONTROL テーブルの「:appSubscriptionRcp ユーザー ID （@userKey）]** フィールドにキーを格納します。 このキーによって購読情報を受信者にリンクできます。追加データ（複雑な紐付けキーなど）を収集するには、次の設定を適用する必要があります。
+デフォルトでは、Adobe Campaign は&#x200B;**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**&#x200B;テーブルの「**[!UICONTROL ユーザー ID]**」（@userKey）フィールドにキーを保存します。このキーによって購読情報を受信者にリンクできます。追加データ（複雑な紐付けキーなど）を収集するには、次の設定を適用する必要があります。
 
 ### API バージョンの設定{#select-api-version}
 
@@ -153,7 +153,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 **appsubscriptionRcp** を拡張して、アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義する必要があります。これらのフィールドは、例えば、パーソナライゼーションに使用されます。手順は次のとおりです。
 
-1. **[!UICONTROL サブスクライバーのアプリケーション （nms:appsubscriptionRcp）]** スキーマの拡張を作成し、新しいフィールドを定義します。 スキーマ拡張について詳しくは、[こちらのページ](../../configuration/using/about-schema-edition.md)を参照してください。
+1. 「 **[!UICONTROL 登録者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。スキーマ拡張について詳しくは、[こちらのページ](../../configuration/using/about-schema-edition.md)を参照してください。
 
 1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
 

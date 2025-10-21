@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 * [Campaign のバージョンの確認](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [ヘルプとサポート](../../support.md)
 * [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
-* [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
+* [廃止予定の機能と削除された機能](../../rn/using/deprecated-features.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 
 新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html) に登録してください。

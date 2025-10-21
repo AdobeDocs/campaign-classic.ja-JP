@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1292'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 
 トランザクションメッセージ機能を使用するには、コントロールインスタンスと実行インスタンスを設定する必要があります。次のいずれかを使用できます。
-* 1 つまたは複数の実行インスタンスに関連付けられた [&#x200B; 1 つのコントロールインスタンス](#control-instance) 
+* 1 つまたは複数の実行インスタンスに関連付けられた [ 1 つのコントロールインスタンス](#control-instance) 
 * 複数の実行インスタンスに関連付けられた[複数のコントロールインスタンス](#using-several-control-instances)
 
 >[!IMPORTANT]
@@ -185,7 +185,7 @@ ht-degree: 99%
 
 複数のコントロールインスタンスを使用するには、この設定をすべての実行インスタンスで実行する必要があります。
 
-1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーとビューについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank} を参照してください。
+1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーと表示について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
 
    ![](assets/messagecenter_multi_control_3.png)
 

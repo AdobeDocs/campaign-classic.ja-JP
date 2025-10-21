@@ -10,9 +10,9 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 hide: true
 hidefromtoc: true
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 
 
-## 購読者のメールフォーマットに対するフィルターの作成 {#creating-a-filter-on-the-email-format-of-subscribers}
+## 登録者のメールフォーマットに対するフィルターの作成 {#creating-a-filter-on-the-email-format-of-subscribers}
 
 この使用例では、受信者のメールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を示します。
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
    ![](assets/s_ncs_user_filter_choose_schema.png)
 
-1. 購読スキーマ（nms:subscription）を選択して、「**[!UICONTROL OK]**」をクリックします。
+1. 購読スキーマ (nms:subscription) を選択して、「**[!UICONTROL OK]**」をクリックしｍさう。
 
    ![](assets/s_ncs_user_filter_select_schema.png)
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
 
 1. メールフォーマットが定義されていない購読のみを表示する、購読の新しいフィルターを作成します。

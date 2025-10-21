@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -274,7 +274,7 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 1. 表示を追加するフォルダーを右クリックします。
 1. **[!UICONTROL 新規フォルダーを追加]**／**[!UICONTROL 管理]**&#x200B;で、追加する表示を選択します。
-1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/about-adobe-campaign-classic.md) を参照してください。
+1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[このセクション](../../platform/using/about-adobe-campaign-classic.md)を参照してください。
 
 また、これらの表示に加えて、実行ステータスに応じてワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。手順は次のとおりです。
 
@@ -284,4 +284,4 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 ![](assets/workflow-monitoring-filter.png)
 
-フィルターについて詳しくは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+フィルターについて詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。

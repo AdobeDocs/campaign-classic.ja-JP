@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong> プロファイルとオーディエンス </strong><br/><a href="platform/using/creating-and-managing-lists.md"> リストの作成 </a> - <a href="delivery/using/about-services-and-subscriptions.md"> サービスと購読 </a> - <a href="platform/using/privacy-management.md"> プライバシーと同意 </a>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="platform/using/creating-and-managing-lists.md">リストの作成</a> - <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

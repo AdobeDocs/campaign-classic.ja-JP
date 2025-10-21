@@ -8,7 +8,7 @@ exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 * [配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}：1 回限りの単一の配信を作成する方法について説明します。
 * [コンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
 * [オーディエンスの指定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}：複数のタイプのターゲット（メインオーディエンス、配達確認ターゲット、シードアドレス、コントロール母集団）を定義します。
-* [&#x200B; 配信テンプレートの操作 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}：配信の作成を容易にするためにテンプレートを定義する方法について説明します。
+* [配信テンプレートの操作](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}：配信の作成を容易にするためのテンプレートの定義方法について説明します。
 
 
 
@@ -128,7 +128,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

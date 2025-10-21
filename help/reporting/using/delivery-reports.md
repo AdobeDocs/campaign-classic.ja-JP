@@ -8,7 +8,7 @@ exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。**列挙の操作** 方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}。 「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
+>このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。**定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 
 **[!UICONTROL 4.クリックストリーム]**
 
@@ -158,7 +158,7 @@ ht-degree: 98%
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"} を参照してください。
+* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"} を参照してください。
 
 **[!UICONTROL 除外の理由]**
 

@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '2744'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 72%
    + 以前のリリース {#previous-releases}
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
-      + [2022 – 非表示 &#x200B;](rn/using/release-2022.md)
-      + [2021 – 非表示](rn/using/release-2021.md)
+      + [2022 - 非表示](rn/using/release-2022.md)
+      + [2021 - 非表示](rn/using/release-2021.md)
       + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
-   + [ドキュメントの更新 – 非表示](rn/using/documentation-updates.md)
-+ 基本を学ぶ {#getting-started}
+   + [ドキュメントの更新 - 非表示](rn/using/documentation-updates.md)
++ はじめに {#getting-started}
    + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
    + [Adobe Campaign のローンチ](platform/using/launching-adobe-campaign.md)
-   + [Campaign UI の確認](platform/using/adobe-campaign-workspace.md)
-   + [Campaign エクスプローラーの使用 – 非表示](platform/using/adobe-campaign-explorer.md)
-   + [リストの参照とカスタマイズ – 非表示](platform/using/adobe-campaign-ui-lists.md)
-   + [列挙 – 非表示](platform/using/managing-enumerations.md)
+   + [Campaign UI の理解](platform/using/adobe-campaign-workspace.md)
+   + [Campaign エクスプローラーの使用 - 非表示](platform/using/adobe-campaign-explorer.md)
+   + [リストの参照とカスタマイズ - 非表示](platform/using/adobe-campaign-ui-lists.md)
+   + [列挙 - 非表示](platform/using/managing-enumerations.md)
    + [Campaign コネクタ](platform/using/about-connectors.md)
    + [Campaign でのクエリの作成](platform/using/about-queries-in-campaign.md)
    + よくある質問 {#faq}
@@ -61,11 +61,11 @@ ht-degree: 72%
       + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
-      + [プロファイルの編集 – 非表示](platform/using/editing-a-profile.md)
-      + [プロファイルを追加 – 非表示](platform/using/adding-profiles.md)
-      + [プロファイルの管理 – 非表示](platform/using/managing-profiles.md)
+      + [プロファイルの編集 - 非表示](platform/using/editing-a-profile.md)
+      + [プロファイルの追加 - 非表示](platform/using/adding-profiles.md)
+      + [プロファイルの管理 - 非表示](platform/using/managing-profiles.md)
       + [データの更新](platform/using/updating-data.md)
-      + [プロファイルのインポートとエクスポート – 非表示](platform/using/exporting-and-importing-profiles.md)
+      + [プロファイルのインポートとエクスポート - 非表示](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
    + データのインポートとエクスポート {#importing-and-exporting-data}
       + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
@@ -85,24 +85,24 @@ ht-degree: 72%
          + [インポートとエクスポートのベストプラクティス](platform/using/import-export-best-practices.md)
          + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルタリング {#filtering-data}
-      + [フィルターオプション – 非表示](platform/using/filtering-options.md)
-      + [フィルターの作成 – 非表示](platform/using/creating-filters.md)
-      + [ユースケース – 非表示](platform/using/use-case.md)
-   + [クエリの作成手順 – 非表示](platform/using/steps-to-create-a-query.md)
-   + [フィルター条件の定義 – 非表示](platform/using/defining-filter-conditions.md)
+      + [フィルタリングオプション – 非表示](platform/using/filtering-options.md)
+      + [フィルターの作成 - 非表示](platform/using/creating-filters.md)
+      + [ユースケース - 非表示](platform/using/use-case.md)
+   + [クエリの作成手順 - 非表示](platform/using/steps-to-create-a-query.md)
+   + [フィルター条件の定義 - 非表示](platform/using/defining-filter-conditions.md)
    + 権限 {#permissions}
       + [権限の基本を学ぶ](platform/using/access-management.md)
       + ネイティブ認証（レガシー） {#native}
          + [オペレーターの作成と管理](platform/using/access-management-operators.md)
          + [グループの作成と管理](platform/using/access-management-groups.md)
       + [ネームド権限を使用した権限の設定](platform/using/access-management-named-rights.md)
-      + [フォルダーへのアクセスの管理 – 非表示](platform/using/access-management-folders.md)
+      + [フォルダーへのアクセス管理 - 非表示](platform/using/access-management-folders.md)
    + CRM コネクタ {#connectors}
       + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
       + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
       + [Salesforce.com との接続](platform/using/crm-sfdc.md)
       + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-   + [ヘルプとサポートのオプション – 非表示](support.md)
+   + [ヘルプとサポートオプション - 非表示](support.md)
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
    + [配信設定 – 非表示](delivery/using/delivery-settings.md)
@@ -119,7 +119,7 @@ ht-degree: 72%
       + [パーソナライズされたコンテンツの作成 – 非表示](delivery/using/design-and-personalize.md)
       + [適切なオーディエンスの定義 – 非表示](delivery/using/define-the-right-audience.md)
       + [送信前のチェック – 非表示](delivery/using/check-before-sending.md)
-      + [&#x200B; 追跡と監視 – 非表示 &#x200B;](delivery/using/track-and-monitor.md)
+      + [ 追跡と監視 – 非表示 ](delivery/using/track-and-monitor.md)
    + [メールの送信](delivery/using/about-email-channel.md)
    + メールの送信 {#sending-emails}
       + [メール配信の作成 – 非表示](delivery/using/creating-an-email-delivery.md)
@@ -237,7 +237,7 @@ ht-degree: 72%
    + [キャンペーンの最適化について – 非表示](campaign-opt/using/about-campaign-optimization.md)
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンのデザイン – 非表示](campaign/using/designing-marketing-campaigns.md)
-      + [&#x200B; マーケティングキャンペーンへのアクセス – 非表示 &#x200B;](campaign/using/accessing-marketing-campaigns.md)
+      + [ マーケティングキャンペーンへのアクセス – 非表示 ](campaign/using/accessing-marketing-campaigns.md)
    + キャンペーンのオーケストレーション {#orchestrate-campaigns}
       + [マーケティングキャンペーンの基本を学ぶ – 非表示](campaign/using/setting-up-marketing-campaigns.md)
       + [テンプレートの作成と設定 – 非表示](campaign/using/marketing-campaign-templates.md)
@@ -351,7 +351,7 @@ ht-degree: 72%
    + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
    + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud Triggers {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
@@ -364,29 +364,29 @@ ht-degree: 72%
       + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
       + [Adobe Analytics コネクタのプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートとエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
       + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + ACS コネクタ {#acs-connector}
-      + [基本を学ぶ  [!DNL ACS Connector]  – 非表示](integrations/using/acs-connector-principles-and-data-cycle.md)
-      + [プロファイルの同期 – 非表示](integrations/using/synchronizing-profiles.md)
-      + [オーディエンスの同期 – 非表示](integrations/using/synchronizing-audiences.md)
-      + [Web アプリケーションの同期 – 非表示](integrations/using/synchronizing-web-applications.md)
-      + [のトラブルシューティング  [!DNL ACS Connector]  非表示](integrations/using/troubleshooting-the-acs-connector.md)
+      + [ [!DNL ACS Connector]  の基本を学ぶ - 非表示](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [プロファイルの同期 - 非表示](integrations/using/synchronizing-profiles.md)
+      + [オーディエンスの同期 - 非表示](integrations/using/synchronizing-audiences.md)
+      + [Web アプリケーションの同期 - 非表示](integrations/using/synchronizing-web-applications.md)
+      + [ [!DNL ACS Connector] のトラブルシューティング - 非表示](integrations/using/troubleshooting-the-acs-connector.md)
 + [ワークフローを使用した自動化](workflow/using/about-workflows.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
    + ワークフローの基本を学ぶ {#introduction}
@@ -477,7 +477,7 @@ ht-degree: 72%
    + データ管理 {#data-management}
       + [データ更新の調整 – 非表示](workflow/using/coordinating-data-updates.md)
       + [概要リストの作成 – 非表示](workflow/using/creating-a-summary-list.md)
-      + [&#x200B; データのエンリッチメント – 非表示 &#x200B;](workflow/using/enriching-data.md)
+      + [ データのエンリッチメント – 非表示 ](workflow/using/enriching-data.md)
       + [集計の使用 – 非表示](workflow/using/using-aggregates.md)
       + [重複排除アクティビティの結合機能の使用 – 非表示](workflow/using/deduplication-merge.md)
       + [繰り返し発生するインポートワークフローの設定 – 非表示](workflow/using/recurring-import-workflow.md)
@@ -608,7 +608,7 @@ ht-degree: 72%
          + [メッセージサーバー](installation/using/messaging-server.md)
          + [ネットワーク設定](installation/using/network-configuration.md)
       + Campaign Windows 版 {#installing-campaign-in-windows}
-         + [基本を学ぶ](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+         + [はじめに](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [サーバーのインストール](installation/using/installing-the-server.md)
          + [Web サーバーへの統合（Windows）](installation/using/integration-into-a-web-server-for-windows.md)
          + [Windows でのクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
@@ -638,7 +638,7 @@ ht-degree: 72%
    + Campaign への接続{#connect-to-campaign}
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
       + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-         + [&#x200B; [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
+         + [ [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
          + [Adobe [!DNL IMS] の設定](integrations/using/configuring-ims.md)
          + [Adobe [!DNL IMS] の実装](integrations/using/implementing-ims.md)
          + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)

@@ -419,7 +419,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 * [パーソナライゼーションフィールドを使用してメールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
 
-* [&#x200B; メールでのシードと配達確認の管理方法 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}。
+* [ メールでのシードと配達確認の管理方法 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}。
 
 * [繰り返し配信の設定方法](../../workflow/using/recurring-delivery.md)
 
@@ -458,7 +458,7 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../platform/using/zip-encrypt.md)および[&#128279;](../../platform/using/unzip-decrypt.md)復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../platform/using/zip-encrypt.md)および[](../../platform/using/unzip-decrypt.md)復号化の方法に関する使用例が追加されました。
 
 Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 

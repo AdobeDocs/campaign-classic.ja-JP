@@ -43,7 +43,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 
 ![ブラウザーでは、同じオペレーターがキャンペーンの表示とキャンセルのみ行うことができます。](assets/operation_from_web.png)
 
-Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank} を参照してください。
+Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank} を参照してください。
 
 ### 言語 {#languages}
 

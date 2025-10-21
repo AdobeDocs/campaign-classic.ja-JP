@@ -35,18 +35,18 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 条件付きコンテンツとパーソナライゼーションに関連する主な手順については、**Campaign v8 ドキュメント** を参照してください。
 
-* [Personalization データ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}：様々なデータソースを使用して、パーソナライゼーションで配信をカスタマイズする方法を説明します。
-* [ パーソナライゼーションフィールド ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}：パーソナライゼーションフィールドを挿入および使用して、メッセージの件名や本文に各受信者の独自のデータを表示する方法を説明します。
-* [ パーソナライゼーションブロック ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて、動的で条件付きのコンテンツをメッセージに挿入する方法を説明します。
-* [ 条件付きコンテンツ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}：受信者フィールド値に基づいて条件付きコンテンツを挿入する方法を説明します。
+* [Personalization データ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}：様々なデータソースを使用して、パーソナライゼーションで配信をカスタマイズする方法を説明します。
+* [&#x200B; パーソナライゼーションフィールド &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}：パーソナライゼーションフィールドを挿入および使用して、メッセージの件名や本文に各受信者の独自のデータを表示する方法を説明します。
+* [&#x200B; パーソナライゼーションブロック &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて、動的で条件付きのコンテンツをメッセージに挿入する方法を説明します。
+* [&#x200B; 条件付きコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}：受信者フィールド値に基づいて条件付きコンテンツを挿入する方法を説明します。
 
 >[!TAB  クーポン、PDF ドキュメント、顔文字 ]
 
 パーソナライズされたクーポン、PDF ドキュメント、顔文字のカスタマイズについて詳しくは、次のページを参照してください **Campaign v8 ドキュメントを参照**。
 
-* [ パーソナライズされたクーポン ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}：メール配信でパーソナライズされたクーポンまたは匿名クーポンを作成して割り当てる方法を説明します。
-* [ パーソナライズされたPDF ドキュメントの生成 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}：受信者ごとにパーソナライズされたコンテンツを含むPDFの添付ファイルを生成する方法を説明します。
-* [ 顔文字リストのカスタマイズ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法を説明します。
+* [&#x200B; パーソナライズされたクーポン &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}：メール配信でパーソナライズされたクーポンまたは匿名クーポンを作成して割り当てる方法を説明します。
+* [&#x200B; パーソナライズされたPDF ドキュメントの生成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}：受信者ごとにパーソナライズされたコンテンツを含むPDFの添付ファイルを生成する方法を説明します。
+* [&#x200B; 顔文字リストのカスタマイズ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法を説明します。
 
 >[!ENDTABS]
 

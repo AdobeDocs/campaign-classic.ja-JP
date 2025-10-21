@@ -35,7 +35,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 * [プッシュ通知の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push#push-create){target="_blank"}：プッシュ配信の作成に必要な様々な手順について説明します。
 * [プッシュ通知の送信と監視](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push#push-test){target="_blank"}：配信を検証、送信、トラッキングする方法について説明します。
-* [Androidのリッチなプッシュ配信のデザイン ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}：Android デバイス向けのリッチなプッシュ通知を作成および設定する方法を説明します。
+* [Androidのリッチなプッシュ配信のデザイン &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}：Android デバイス向けのリッチなプッシュ通知を作成および設定する方法を説明します。
 * [iOS のリッチなプッシュ配信のデザイン](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"}：Adobe Campaign v8 で iOS デバイス向けのリッチなプッシュ通知をデザインし、設定する方法を説明します。
 
 

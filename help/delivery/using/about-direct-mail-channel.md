@@ -43,8 +43,8 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 ダイレクトメール配信を検証して送信する方法については、次のページ **Campaign v8 ドキュメント** を参照してください。
 
-* [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#validating){target="_blank"}：分析の結果と出力ファイルの内容を確認する方法を説明します。
-* [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#start-delivery){target="_blank"}：抽出ファイルを生成してダイレクトメール配信を送信する方法を説明します。
+* [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja#creating-a-direct-mail-delivery?lang=ja#validating){target="_blank"}：分析の結果と出力ファイルの内容を確認する方法を説明します。
+* [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja#creating-a-direct-mail-delivery?lang=ja#start-delivery){target="_blank"}：抽出ファイルを生成してダイレクトメール配信を送信する方法を説明します。
 
 
 

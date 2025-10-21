@@ -16,7 +16,7 @@ ht-degree: 98%
 
 # Android 用通知の作成{#create-notificaations-android}
 
-Adobe Campaign を使用して、Android デバイスにプッシュ通知を送信します。配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"} を参照してください。
+Adobe Campaign を使用して、Android デバイスにプッシュ通知を送信します。配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
 
 新しい配信を作成して開始します。
 

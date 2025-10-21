@@ -259,4 +259,4 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 挿入後、パーソナライゼーションブロック名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 
-組み込みのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} を参照してください。
+組み込みのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"} を参照してください。

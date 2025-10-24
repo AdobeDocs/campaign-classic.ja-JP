@@ -104,7 +104,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 互換性に関する注意事項 {#compatibility-note}
 
-この従来のブランディング設定は、Campaign v8 で導入された新しい [&#x200B; 一元管理されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} モデルとは互換性がありません。
+この従来のブランディング設定は、Campaign v8 で導入された新しい [&#x200B; 一元管理されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} モデルとは互換性がありません。
 
 既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行することはできません。 新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
 

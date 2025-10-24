@@ -104,7 +104,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 互換性に関する注意事項 {#compatibility-note}
 
-この従来のブランディング設定は、Campaign v8 で導入された新しい [ 一元管理されたブランディング ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} モデルとは互換性がありません。
+この従来のブランディング設定は、Campaign v8 で導入された新しい [&#x200B; 一元管理されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} モデルとは互換性がありません。
 
 既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行することはできません。 新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
 
@@ -175,6 +175,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

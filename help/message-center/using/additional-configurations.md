@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 97%
+source-wordcount: '889'
+ht-degree: 91%
 
 ---
 
@@ -102,6 +102,12 @@ Once the control and execution modules are installed on the same instance, you m
 
 この節では、Adobe Campaign でのトランザクションメッセージのために、トラッキングとミラーページの URL をブランドごとに設定するソリューションの 1 つを説明します。
 
+### 互換性に関する注意事項 {#compatibility-note}
+
+この従来のブランディング設定は、Campaign v8 で導入された新しい [ 一元管理されたブランディング ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} モデルとは互換性がありません。
+
+既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行することはできません。 新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
+
 ### 前提条件 {#prerequisites}
 
 * すべてのホストをインスタンスの設定ファイル（`config-<instance>.xml`）に追加する必要があります。
@@ -169,6 +175,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

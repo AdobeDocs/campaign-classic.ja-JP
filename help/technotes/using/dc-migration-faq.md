@@ -21,7 +21,7 @@ ht-degree: 100%
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)にお問い合わせください。
 
 ## インフラストラクチャへの影響
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 * **移行後の問題に対処するために、どのようなプランがありますか？**
 
-  実稼働システムを移行する前に、広範なテストを実施します。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
+  実稼働システムを移行する前に、広範なテストを実施します。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
 
 ## 配信品質への影響
 
@@ -97,7 +97,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   まず第一に、アドビの担当部署がプラットフォームの配信品質ステータスを評価し、新しい IP への切り替え計画を助言します。
 
-  移行後にウォームアップを行う必要はありません。例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
+  移行後にウォームアップを行う必要はありません。例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
 
   ただし、稼動時に行われる最初のランプアップとは異なり、この計画は、この操作をビジネスに対して透過的なものにするためのものです。
 

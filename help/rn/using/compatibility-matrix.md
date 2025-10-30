@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -472,7 +472,7 @@ Campaign SDK は、Campaign v7.4 以降では[非推奨（廃止予定）](depre
 
 ## ブラウザー {#Browsers}
 
-最新バージョンの次のブラウザーは Campaign for web access と互換性があります。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#use-the-web-interface-){target=_blank} を参照してください。
+最新バージョンの次のブラウザーは Campaign for web access と互換性があります。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#use-the-web-interface-){target=_blank}を参照してください。
 
 * Google Chrome
 * Microsoft Edge

@@ -6,9 +6,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,30 +18,30 @@ Adobe Campaign を使用すると、モバイルアプリのユーザーにパ�
 
 プッシュ通知を使用すると、iOS と Android のユーザーとリアルタイムに関わることができます。更新、お知らせ、プロモーションなどを送信する場合に、コンテンツ、タイミング、ターゲティングを制御できます。 プッシュチャネルの設定と使用、サブスクリプションの管理、APN と FCM との統合、メッセージのパーソナライズの方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
 >[!TAB プッシュチャネルドキュメント]
 
-プッシュ通知チャネルについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push){target=_blank}を参照してください。
+プッシュ通知チャネルについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target=_blank}を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target=_blank}
 
 
 >[!TAB プッシュ配信の作成]
 
-プッシュ配信の作成に関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
+プッシュ配信の作成に関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
 * [プッシュ通知の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push#push-create){target="_blank"}：プッシュ配信の作成に必要な様々な手順について説明します。
 * [プッシュ通知の送信と監視](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push#push-test){target="_blank"}：配信を検証、送信、トラッキングする方法について説明します。
-* [Androidのリッチなプッシュ配信のデザイン &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}：Android デバイス向けのリッチなプッシュ通知を作成および設定する方法を説明します。
+* [Androidのリッチなプッシュ配信のデザイン ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}：Android デバイス向けのリッチなプッシュ通知を作成および設定する方法を説明します。
 * [iOS のリッチなプッシュ配信のデザイン](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"}：Adobe Campaign v8 で iOS デバイス向けのリッチなプッシュ通知をデザインし、設定する方法を説明します。
 
 
 >[!TAB プッシュパラメーター]
 
-プッシュパラメーターについては、次のページ **Campaign v8 ドキュメント** を参照してください。
+プッシュパラメーターについて詳しくは、**Campaign v8 ドキュメント**&#x200B;の次のページを参照してください。
 
 * [設定の前提条件](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings#before-starting){target="_blank"}：権限を設定し、アプリを設定する方法について説明します。
 * [Launch プロパティの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings#launch-property){target="_blank"}：Adobe Experience Platform データ収集でモバイルタグプロパティを設定して、プッシュ通知を有効にする方法を説明します。
@@ -86,7 +86,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 1. インストールウィンドウを&#x200B;**[!UICONTROL 閉じます]**。
 
-この手順が完了したら、Android および iOS アプリを設定できます。Campaign v8 [ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push){target="_blank"} 参照してください。
+この手順が完了したら、Android および iOS アプリを設定できます。Campaign v8 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target="_blank"} 参照してください。
 
 +++
 
@@ -105,6 +105,6 @@ HTTP/2 コネクタ：次のサーバーとの間での通信を許可する必�
 
 >[!NOTE]
 >
->この 2 種類のコネクタについて詳しくは、Campaign v8 [ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings){target="_blank"}を参照してください。
+>この 2 種類のコネクタについて詳しくは、Campaign v8 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ja){target="_blank"}を参照してください。
 
 +++

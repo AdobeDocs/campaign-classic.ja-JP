@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Adobe Campaign に接続したら、ナビゲーションバーのリンクを�
 
 >[!NOTE]
 >
->Adobe Campaign 全体のエルゴノミクス、権限およびプロファイル管理機能については、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
+>Adobe Campaign 全体のエルゴノミクス、権限およびプロファイル管理機能について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 >
->チャネルと配信に関連するすべての機能について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
+>チャネルおよび配信に関連するすべての機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 ### Campaign カレンダー {#campaign-calendar}
 

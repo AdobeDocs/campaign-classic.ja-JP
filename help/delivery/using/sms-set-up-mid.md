@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
    >[!WARNING]
    >
-   >**[!UICONTROL 内部名]**&#x200B;を割り当てる際は、指定された命名規則に従ってください。
+   >**[!UICONTROL 内部名]**を割り当てる際は、指定された命名規則に従ってください。
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)
@@ -154,7 +154,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
 ## 配信テンプレートの変更 {#changing-the-delivery-template}
 
-Adobe Campaign には、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにモバイル配信テンプレートが用意されています。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+Adobe Campaign には、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにモバイル配信テンプレートが用意されています。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
 SMS チャネル経由でメッセージを送信するには、チャネルコネクタへの参照を含むテンプレートを作成する必要があります。
 

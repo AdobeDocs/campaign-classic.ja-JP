@@ -6,9 +6,9 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 
 >[!NOTE]
 >
->サーバーサイド JavaScript コードを追加する必要がある場合は、パーソナライゼーションブロックを使用します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"} を参照してください。
+>サーバーサイド JavaScript コードを追加する必要がある場合は、パーソナライゼーションブロックを使用します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
 >[!CAUTION]
 >
@@ -52,8 +52,8 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 1. DCE テンプレートから配信を作成します（[詳細情報](use-case-creating-an-email-delivery.md)）
 1. 既存のコンテンツを選択するか、[標準テンプレート](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
-1. 配信の送信 – 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください
+1. 配信を送信します（詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください）。
 
 >[!NOTE]
 >
->メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](use-case-creating-an-email-delivery.md)を参照してください。
+>メール配信のコンテキストでの完全な実装例について詳しくは、[こちらのユースケース](use-case-creating-an-email-delivery.md)を参照してください。

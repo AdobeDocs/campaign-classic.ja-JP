@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 配信を開始]**：分析済みの配信を承認する権限。配信の分析後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。**[!UICONTROL 配信を開始]**&#x200B;権限を持つユーザーは、配信を承認できます。
 
-* **[!UICONTROL SQL データ管理アクティビティを使用]**：ワークテーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html?lang=ja){target="_blank"} を参照してください。
+* **[!UICONTROL SQL データ管理アクティビティを使用]**：ワークテーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL ワークフロー]**：ワークフローを実行する権限。この権限がないと、ユーザーはワークフローを開始、停止または再起動できません。
 
@@ -71,4 +71,4 @@ ht-degree: 98%
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ja)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

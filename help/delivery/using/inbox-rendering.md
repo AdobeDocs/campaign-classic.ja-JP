@@ -7,9 +7,9 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 
 >[!NOTE]
 >
->受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。Personalizationは、**[!UICONTROL プレビュー]** や配達確認などのAdobe Campaign ツールを使用して確認できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"} を参照してください。
+>受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。パーソナライゼーションは、**[!UICONTROL プレビュー]**&#x200B;および配達確認などの Adobe Campaign ツールで確認できます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 ## 受信ボックスレンダリングの有効化{#activating-inbox-rendering}
 
@@ -107,7 +107,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   配達確認が送信されます。メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。配達確認の送信について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"} を参照してください。
+   配達確認が送信されます。メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。配達確認の送信について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 1. 送信後、配達確認は配信リストに表示されます。ダブルクリックします。
 

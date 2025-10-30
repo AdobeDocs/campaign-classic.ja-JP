@@ -7,9 +7,9 @@ feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 </book>
 ```
 
-データ形式が、公開テンプレートに入力されたデータスキーマと一致しません（この例では **cus:book**）。**`<section>`** 要素を **`<chapter>`** 要素に置き換える必要があります。 必要な変更を行うには、「cus:book-workflow.xsl」スタイルシートを適用する必要があります。
+データフォーマットがパブリッシュテンプレート（この例では **cus:book**）に入力したデータスキーマと一致していないので、**`<section>`** 要素を **`<chapter>`** 要素で置き換える必要があります。「cus:book-workflow.xsl」スタイルシートを適用して、必要な変更を行う必要があります。
 
 使用する XSLT スタイルシートのソースコード：
 
@@ -214,12 +214,12 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 ### FTP からのコンテンツのインポート {#importing-content-from-ftp}
 
-FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+FTP または SFTP サーバー上において、HTML ファイルで配信コンテンツが使用できる場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### Amazon Simple Storage Service（S3）コネクタからのコンテンツのインポート {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-配信コンテンツが Amazon Simple Storage Service（S3）バケットにある場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+配信コンテンツが Amazon Simple Storage Service（S3）バケットにある場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## 半自動更新 {#semi-automatic-update}
@@ -252,7 +252,7 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 
 出力では、最後のパラメーターに入力されたパスをベースとして、コンテンツを更新します。
 
-**例**：この例を説明するために、「cus:book」スキーマから開始します。
+**例**：この例を、「cus:book」スキーマを使用して説明します。
 
 半自動更新編集コントロールの入力フォームを追加します。
 
@@ -272,6 +272,6 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 
 編集領域で、取得するファイルの名前を入力できます。URL は、この名前に基づいて生成されます（例：https://myserver.adobe.com/incomin/data.xml）
 
-取得するデータのフォーマットは、ワークフローの自動化の例 1 と同じです。この例で示した「cus:book-workflow.xsl」スタイルシートを使用します。
+取得するデータのフォーマットは、ワークフローの自動化の例 1 と同じです。この例の「cus:book-workflow.xsl」スタイルシートを使用する必要があります。
 
 ジョブの実行結果によって、パス「.」からコンテンツインスタンスが更新されます。

@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '998'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 >[!TAB 配信コンテンツとオーディエンス]
 
-配信の作成、コンテンツ、オーディエンスに関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
+配信の作成、コンテンツ、オーディエンスに関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
 * [配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}：1 回限りの単一の配信を作成する方法について説明します。
 * [コンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#content-of-the-delivery){target="_blank"}：各チャネルに固有の配信コンテンツを設定します。
@@ -45,7 +45,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 >[!TAB 配信の検証と送信]
 
-配信の検証、送信およびベストプラクティスについては、次のページ **Campaign v8 ドキュメント** を参照してください。
+配信の検証、送信およびベストプラクティスについては、**Campaign v8 ドキュメント**&#x200B;の次のページを参照してください。
 
 * [配信の検証](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#validate-the-delivery){target="_blank"}：配信をメインターゲットに送信する前に検証する方法について説明します。
 * [配信の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#configuring-and-sending-the-delivery){target="_blank"}：配信設定を指定し、メッセージの送信方法を定義します。
@@ -128,7 +128,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

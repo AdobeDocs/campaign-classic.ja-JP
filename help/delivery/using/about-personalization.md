@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 source-git-commit: 435314fa5907c16166cf7ff6741ff7ad0412d04b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign を使用して配信をパーソナライズし、各受信者�
 
 パーソナライゼーションは、メッセージをより関連性が高く、魅力的にするのに役立ちます。受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -31,22 +31,22 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}
 
 
->[!TAB Personalizationおよび条件付きコンテンツ ]
+>[!TAB パーソナライゼーションと条件付きコンテンツ]
 
-条件付きコンテンツとパーソナライゼーションに関連する主な手順については、**Campaign v8 ドキュメント** を参照してください。
+条件付きコンテンツとパーソナライゼーションに関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
-* [Personalization データ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html?lang=ja){target="_blank"}：様々なデータソースを使用して、パーソナライゼーションで配信をカスタマイズする方法を説明します。
-* [&#x200B; パーソナライゼーションフィールド &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=ja){target="_blank"}：パーソナライゼーションフィールドを挿入および使用して、メッセージの件名や本文に各受信者の独自のデータを表示する方法を説明します。
-* [&#x200B; パーソナライゼーションブロック &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて、動的で条件付きのコンテンツをメッセージに挿入する方法を説明します。
-* [&#x200B; 条件付きコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html?lang=ja){target="_blank"}：受信者フィールド値に基づいて条件付きコンテンツを挿入する方法を説明します。
+* [パーソナライゼーションデータ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html?lang=ja){target="_blank"}：パーソナライゼーション用の様々なデータソースを使用して、配信をカスタマイズする方法について説明します。
+* [パーソナライゼーションフィールド](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=ja){target="_blank"}：各受信者がメッセージの件名や本文に自分のデータを表示できるように、パーソナライゼーションフィールドを挿入および使用する方法について説明します。
+* [パーソナライゼーションブロック](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}：パーソナライゼーションブロックを使用して、受信者データに基づいて動的な条件付きコンテンツをメッセージに挿入する方法について説明します。
+* [条件付きコンテンツ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html?lang=ja){target="_blank"}：受信者フィールドの値に基づいて条件付きコンテンツを挿入する方法について説明します。
 
->[!TAB  クーポン、PDF ドキュメント、顔文字 ]
+>[!TAB クーポン、PDF ドキュメント、顔文字]
 
-パーソナライズされたクーポン、PDF ドキュメント、顔文字のカスタマイズについて詳しくは、次のページを参照してください **Campaign v8 ドキュメントを参照**。
+パーソナライズされたクーポン、PDF ドキュメント、顔文字のカスタマイズについて詳しくは、**Campaign v8 ドキュメント**&#x200B;の次のページを参照してください。
 
-* [&#x200B; パーソナライズされたクーポン &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}：メール配信でパーソナライズされたクーポンまたは匿名クーポンを作成して割り当てる方法を説明します。
-* [&#x200B; パーソナライズされたPDF ドキュメントの生成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=ja){target="_blank"}：受信者ごとにパーソナライズされたコンテンツを含むPDFの添付ファイルを生成する方法を説明します。
-* [&#x200B; 顔文字リストのカスタマイズ &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=ja){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法を説明します。
+* [パーソナライズされたクーポン](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html?lang=ja){target="_blank"}：メール配信でパーソナライズされたクーポンや匿名クーポンを作成および割り当てる方法について説明します。
+* [パーソナライズされた PDF ドキュメントの生成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=ja){target="_blank"}：各受信者向けにパーソナライズされたコンテンツを含む PDF 添付ファイルを生成する方法について説明します。
+* [顔文字リストのカスタマイズ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=ja){target="_blank"}：メールメッセージを強化するために顔文字を追加および管理する方法について説明します。
 
 >[!ENDTABS]
 
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

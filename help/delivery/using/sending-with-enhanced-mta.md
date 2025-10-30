@@ -6,9 +6,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Campaign 配信スループットグラフでは、メール受信者に対す�
 
 配信の再試行設定は、Campaign では使用されなくなりました。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-再試行について詳しくは、この [&#x200B; ページ &#x200B;](communication-channels.md) を **配信送信**/**再試行を設定** で参照してください。
+再試行について詳しくは、**配信の送信**／**再試行の設定**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。
 
 ### 有効期間
 
@@ -131,7 +131,7 @@ Campaign 配信スループットグラフでは、メール受信者に対す�
 
 メッセージが Enhanced MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-有効期間について詳しくは、この [&#x200B; ページ &#x200B;](communication-channels.md) を **配信送信**/**有効期間を定義** で参照してください。
+有効期間について詳しくは、**配信の送信**／**有効期間の定義**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。
 
 ### DKIM 署名
 

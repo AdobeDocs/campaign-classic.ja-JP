@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3111'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも貢献します。
 
-配信を保護および最適化するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"} のこのページを参照してください。
+配信を保護および最適化するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}のこのページを参照してください。
 
 ### 強制隔離とブロックリストの比較 {#quarantine-vs-denylist}
 
@@ -117,14 +117,14 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 ハードエラーとは異なり、ソフトエラーでただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。
 
-再試行は、配信期間中に実行されます。 [&#x200B; 配信の送信 &#x200B;](communication-channels.md)/**有効期間を定義** の下の **ページ** を参照してください。 エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+再試行は、配信期間中に実行されます。**配信の送信**／**有効期間の定義**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローが強制隔離のリストからアドレスを削除します。
 
 
 ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL エラー]**&#x200B;ステータスの場合に実行される再試行の最大数および再試行間の最小遅延は現在、IP が特定のドメインで過去と現在の両方でどの程度機能しているかに基づいています。
 
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md) （**[!UICONTROL メールチャネル]**/**[!UICONTROL 詳細設定パラメーター]**）または配信レベルで対応する設定を変更します。 [&#x200B; 配信の送信 &#x200B;](communication-channels.md)/**再試行の設定** で、この **ページ** を参照してください。
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md)（**[!UICONTROL メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）または配信レベルで対応する設定を変更します。**配信の送信**／**再試行の設定**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。
 
 
 ## 強制隔離からアドレスの削除 {#removing-a-quarantined-address}
@@ -568,7 +568,7 @@ SMS メッセージの強制隔離メカニズムは、全体として通常の�
 
 SMPP プロトコルを使用して SMS メッセージを送信する場合のエラー管理の方法は異なります。拡張された汎用 SMPP コネクタについて詳しくは、[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
-SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。このデータは、次に、**[!UICONTROL 配信ログの検証]**&#x200B;テーブル（**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**&#x200B;メニューから使用できます）に見つかった情報と照合されます。
+SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。このデータは、次に、**[!UICONTROL 配信ログ選定]**&#x200B;テーブル（**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**&#x200B;メニューから使用できます）に見つかった情報と照合されます。
 
 新しいタイプのエラーが検証される前に、エラーの理由はデフォルトで常に「**拒否**」に設定されます。
 
@@ -576,7 +576,7 @@ SMPP コネクタは、返された SR（ステータスレポート）メッセ
 >
 >エラーのタイプと理由はメールの場合と同じです。[配信エラーのタイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 >
->配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
+>配信ログ選定テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
 
 生成されるメッセージの例：
 
@@ -603,6 +603,6 @@ SR Generic DELIVRD 000|#MESSAGE#
 
   デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
 
-* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、メールの場合と同じです。詳しくは、[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
+* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログ選定]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、メールの場合と同じです。詳しくは、[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 拡張された汎用 SMPP コネクタは、ヒューリスティックを適用して実用的なデフォルト値を見つけます。例えば、**DELIV** で始まるステータスは、ほとんどのプロバイダーでよく使用されている **DELIVRD** または **DELIVERED** と一致するので、成功とみなされます。これ以外のステータスはハードエラーとみなされます。

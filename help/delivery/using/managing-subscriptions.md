@@ -7,9 +7,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 97%
 
 デフォルトの登録解除リンクは、配信アシスタントに表示されるコンテンツエディターのツールバーにある最後のボタンから挿入されます（[パーソナライゼーションについて](about-personalization.md)を参照）。受信者がこのリンクをクリックすると、プロファイルがブロックリストに登録されます（オプトアウト）。つまり、この受信者は、あらゆる配信アクションのターゲットにされなくなります。
 
-ただし、受信者は、すべてのサービスを購読解除することなく、1 つのサービスの購読解除を選択できます。これを許可するには、web フォームを使用するか（[&#x200B; この節 &#x200B;](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) を参照）、パーソナライズされた購読解除リンクを挿入します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"} を参照してください。
+ただし、受信者は、すべてのサービスを購読解除することなく、1 つのサービスの登録解除を選択できます。この選択を可能にするには、web フォームを使用するか（[この節](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)を参照）、パーソナライズされた購読解除リンクを挿入します。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
 受信者プロファイルから手動で受信者を購読解除することもできます。そのためには、該当する受信者の「**[!UICONTROL 購読]**」タブをクリックし、該当する情報サービスを選択し、「**[!UICONTROL 削除]**」をクリックします。
 

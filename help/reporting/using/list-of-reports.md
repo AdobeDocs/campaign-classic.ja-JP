@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 ## 配信に関するレポート {#reports-on-deliveries}
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
@@ -121,9 +121,9 @@ ht-degree: 93%
 
 キャンペーンに関するレポートは **nms:operation** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
+上記のレポートの内容について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank}を参照してください。
 
 <table> 
  <tbody> 
@@ -182,7 +182,7 @@ ht-degree: 93%
 
 サービスに関するレポートは **nms:service** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、関連するガイドを参照してください。
 
@@ -217,9 +217,9 @@ ht-degree: 93%
 
 ## 予算レポート {#budget-reports}
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank} を参照してください。
+上記のレポートの内容について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ja){target=_blank}を参照してください。
 
 <table> 
  <tbody> 
@@ -275,7 +275,7 @@ ht-degree: 93%
 
 シミュレーションに関するレポートは **nms:simulation** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、関連するガイドを参照してください。
 
@@ -312,7 +312,7 @@ ht-degree: 93%
 
 Web アプリケーションに関するレポートは **nms:WebApp** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
+次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
 

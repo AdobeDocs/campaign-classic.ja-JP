@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 このオプションを使用するには、以下の手順に従います。
 
-1. キャンペーンを作成します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank} を参照してください。
+1. キャンペーンを作成します。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank}を参照してください。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
 1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 分析]**」タブで、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」オプションを選択します。
@@ -142,6 +142,6 @@ ht-degree: 99%
 
 パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

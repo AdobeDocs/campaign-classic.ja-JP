@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。[&#x200B; データ読み込み（ファイル） &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}）アクティビティで読み取られる前に、ファイルの解凍または復号化のための前処理を定義できます。
+Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。[データ読み込み（ファイル）](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
 
-   インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に依頼します。
+   インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 
 次に、目的の前処理コマンドをワークフローで使用します。
 
@@ -82,18 +82,18 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
    ![](assets/gpg_key_transfer.png)
 
-   アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"} を参照してください。
+   アクティビティの設定方法に関するグローバルな概念について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}を参照してください。
 
 
-1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} を参照してください。
+1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}を参照してください。
 
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択してから、「**[!UICONTROL コマンド]**」ドロップダウンリストから「**[!UICONTROL 復号]**」を選択します。
+   アクティビティに前処理ステージを追加して、受信データを復号化します。これを行うには、「**[!UICONTROL ファイルを前処理]**」オプションを選択してから、「**[!UICONTROL コマンド]**」ドロップダウンリストから「**[!UICONTROL 復号]**」を選択します。
 
    ![](assets/gpg_load.png)
 
    >[!NOTE]
    >
-   >利用可能なコマンドを変更する必要がある場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に問い合わせて、preProcessCommand の設定を調整できます。
+   >利用可能なコマンドを変更する必要がある場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に問い合わせて、preProcessCommand の設定を調整できます。
    >
    >ハイブリッドデプロイメントを使用している場合は、サーバー設定ファイル（serverConf.xml）から直接これらのコマンドを設定できます。[詳しくは、サーバー設定ファイルで前処理コマンドを設定する方法を参照してください](../../installation/using/the-server-configuration-file.md#preprocesscommand)。
 
@@ -107,6 +107,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/41360?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

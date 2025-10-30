@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 >[!NOTE]
 >
 >Adobe Campaign のコア機能について詳しくは、[この節](../../platform/using/about-adobe-campaign-classic.md)を参照してください。\
->様々なチャネルにおける母集団のターゲティング、メッセージのパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
+>様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [マーケティングキャンペーンの主要概念をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [マーケティングキャンペーンの主要概念について詳しくは、ビデオを参照してください](#video)。
 
 ## 主要コンセプト {#core-concepts}
 
@@ -69,6 +69,6 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/326573?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

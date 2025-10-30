@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -100,13 +100,13 @@ Once the control and execution modules are installed on the same instance, you m
 
 ## マルチブランディングの設定 {#configuring-multibranding}
 
-この節では、Adobe Campaign でのトランザクションメッセージのために、トラッキングとミラーページの URL をブランドごとに設定するソリューションの 1 つを説明します。
+この節では、Adobe Campaign でのトランザクションメッセージに対する、トラッキングとミラーページの URL をブランドごとに設定するソリューションの 1 つについて説明します。
 
-### 互換性に関する注意事項 {#compatibility-note}
+### 互換性に関するメモ {#compatibility-note}
 
-この従来のブランディング設定は、Campaign v8 で導入された新しい [&#x200B; 一元管理されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} モデルとは互換性がありません。
+このレガシーブランディング設定は、Campaign v8 で導入された新しい[一元化されたブランディング](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"}モデルと互換性がありません。
 
-既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行することはできません。 新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
+既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行できません。新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
 
 ### 前提条件 {#prerequisites}
 
@@ -126,7 +126,7 @@ Once the control and execution modules are installed on the same instance, you m
    >
    >実行インスタンスタイプの外部アカウントを作成する方法については、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
 
-1. nms:extAccount スキーマを拡張してトラッキング URL を追加します。
+1. nms:extAccount スキーマを拡張し、トラッキング URL を追加します。
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -135,7 +135,7 @@ Once the control and execution modules are installed on the same instance, you m
 
    >[!NOTE]
    >
-   >既存のスキーマを拡張する方法については、[スキーマの拡張](../../configuration/using/extending-a-schema.md)の節を参照してください。
+   >既存のスキーマを拡張する方法について詳しくは、[スキーマの拡張](../../configuration/using/extending-a-schema.md)の節を参照してください。
 
 1. nms:extAccount フォームを変更します。
 
@@ -175,6 +175,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. ブランドごとに配信テンプレートを作成します。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+1. 各ブランドにつき配信テンプレートを作成します。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

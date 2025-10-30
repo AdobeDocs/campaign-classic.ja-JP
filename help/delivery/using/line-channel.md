@@ -6,9 +6,9 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign では、LINE チャネルを使用して、LINE アプリのユ�
 
 LINE チャネルの設定方法、配信終了の作成方法、コンテンツタイプの定義方法および配信パフォーマンスの監視方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/line.md){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -45,7 +45,7 @@ LINE チャネルについて詳しくは、[Campaign v8 ドキュメント](htt
 
 >[!TAB LINE チャネルの設定]
 
-LINE チャネル設定に関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
+LINE チャネルの設定に関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
 * [LINE サービスの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/line.md#configure-line-service){target="_blank"}：LINE サービスを設定して、Campaign インスタンスを LINE 公式アカウントに接続する方法を説明します。
 * [外部アカウントの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/line.md#configure-line-external){target="_blank"}：Adobe Campaign が LINE 資格情報を使用してメッセージを送信できるように、LINE 外部アカウントを設定する方法を説明します。

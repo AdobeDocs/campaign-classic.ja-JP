@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->配信作成に関する全体的な概念については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
+>配信の作成に関するグローバルな概念について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、[配信テンプレートの変更](sms-set-up.md#changing-the-delivery-template)の節を参照してください。
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"} のこの節を参照してください。
+1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}のこの節を参照してください。
 1. 「**[!UICONTROL 続行]**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。
 
 ## SMS コンテンツの定義 {#defining-the-sms-content}

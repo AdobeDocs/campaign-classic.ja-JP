@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Web アクセスインターフェイスは、コンソールインターフェ�
 
 ![ブラウザーでは、同じオペレーターがキャンペーンの表示とキャンセルのみ行うことができます。](assets/operation_from_web.png)
 
-Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#use-the-web-interface-){target=_blank} を参照してください。
+Web インターフェイスの使用について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#use-the-web-interface-){target=_blank}を参照してください。
 
 ### 言語 {#languages}
 
@@ -144,4 +144,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

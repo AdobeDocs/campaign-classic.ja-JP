@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 88%
 
 配信分析は、ターゲット母集団が計算され、配信コンテンツが準備される段階です。この段階が完了すると、配信は送信できる状態になります。ログを参照して、問題がないことを確認します。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 ### なぜ配達確認の作成が必要なのですか？  {#why-should-i-create-proofs-}
 
 配達確認メッセージを作成して、メインターゲットへの送信前に承認グループに送信してテストすることを強くお勧めします。その後、メッセージのコンテンツと、パーソナライゼーションおよび配信のパラメーターを検証できます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 ### Adobe Campaign でのシードアドレスの使用方法は？  {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -49,13 +49,13 @@ ht-degree: 88%
 
 メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じた頻度で、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 ### タイポロジルールとは何ですか？  {#what-is-a-typology-rule-}
 
 キャンペーン間の競合を回避するために、Adobe Campaign では制限ルールを適用して、様々な組み合わせをテストできます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。
 
-[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"} を参照してください。
+[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}を参照してください。
 
 ## メッセージの送信 {#send-your-messages}
 
@@ -63,25 +63,25 @@ Adobe Campaign を使用して様々なチャネルでメッセージを送信�
 
 ### メールをウェーブで送信するにはどうすればよいですか？ {#how-can-i-send-emails-in-waves-}
 
-配信を大きな母集団に送信する前に、メッセージを複数のバッチに分割して負荷を分散させるようにウェーブを設定することができます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ja#sending-using-multiple-waves){target="_blank"} を参照してください。
+配信を大きな母集団に送信する前に、メッセージを複数のバッチに分割して負荷を分散させるようにウェーブを設定することができます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ja#sending-using-multiple-waves){target="_blank"}を参照してください。
 
 ### Campaign でメールを作成する主な手順は？  {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 メール配信は、作成と検証が済むと送信できます。メールをすぐにメインターゲットに送信することも、配信を後日スケジュールすることもできます。必要に応じて、その前にターゲット母集団を推定することもできます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 ### 配信のスケジュール方法は？  {#how-to-schedule-a-delivery-}
 
 配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ja#schedule-delivery-sending){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ja#schedule-delivery-sending){target="_blank"}を参照してください。
 
 ### メールに添付ファイルを追加できますか？  {#can-i-add-an-attachment-to-emails-}
 
 Campaign Classic では、パーソナライズされた添付ファイルをメールに追加できます。
 
-メールの添付ファイルについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ja){target="_blank"} を参照してください。
+メール添付ファイルについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ja){target="_blank"}を参照してください。
 
 ## メッセージのトラッキングと影響の測定 {#track-your-messages-and-measure-their-impact}
 

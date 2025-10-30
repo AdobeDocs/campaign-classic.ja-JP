@@ -6,9 +6,9 @@ feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 メールは、アプリや web サイト以外のユーザーとのエンゲージメントに使用できる、最も強力で柔軟なチャネルの 1 つです。パーソナライズされたコンテンツ、お知らせ、プロモーションメッセージのいずれを配信する場合でも、メールを使用すると、メッセージとオーディエンスの両方を完全に制御できます。コンテンツのカスタマイズ、特定のユーザーセグメントへのターゲティング、リッチなマルチメディア要素の組み込みによる効果とエンゲージメントの最大化するなど、メールチャネルを最大限に設定して使用する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 >[!TAB メール配信作成]
 
-メール配信の作成に関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
+メール配信の作成に関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
 * [メール配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ja){target="_blank"}：メール配信の作成に必要な様々な手順について説明します。
 * [メールコンテンツの定義](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"}：メールに含める内容（送信者、件名、コンテンツ、画像）を定義します。
@@ -43,7 +43,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic ドキ�
 
 >[!TAB メールパラメーター]
 
-メールパラメーターについて詳しくは、次のページ **Campaign v8 ドキュメント** を参照してください。
+メールパラメーターについて詳しくは、**Campaign v8 ドキュメント**&#x200B;の次のページを参照してください。
 
 * [ミラーページへのリンク](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"}：ミラーページを設定して、クライアントが常に最高のレンダリングエクスペリエンスを得られるようにします。
 * [BCC アドレスの追加](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ja){target="_blank"}：プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定します。
@@ -64,7 +64,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

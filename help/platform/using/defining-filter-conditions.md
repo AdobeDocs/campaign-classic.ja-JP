@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 99%
 
   列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
 
-  計算フィールドタイプ **[!UICONTROL 列挙]** の追加例については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=ja){target="_blank"} を参照してください。
+  **[!UICONTROL 定義済みリスト]**&#x200B;タイプ計算フィールドを追加する例について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=ja){target="_blank"}を参照してください。
 
   ![](assets/query_editor_nveau_63.png)
 
@@ -333,7 +333,7 @@ ht-degree: 99%
 
 ![](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。

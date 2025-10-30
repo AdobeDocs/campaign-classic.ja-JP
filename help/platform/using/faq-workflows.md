@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign のワークフローを使用して、複数のプロセスと�
 
 ## ワークフローを作成するための重要な手順は？ {#what-are-the-key-steps-to-create-a-workflow-}
 
-最初のワークフローを作成する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}Campaign でワークフローを構築するための概念とベストプラクティスを参照してください。
+最初のワークフローを作成する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}を参照してください。Campaign でワークフローを作成するための概念とベストプラクティスについて説明します。
 
 ## Campaign でデータをインポートするにはどうすればよいですか？ {#how-can-i-import-data-in-campaign-}
 
@@ -30,14 +30,14 @@ Adobe Campaign のワークフローを使用して、複数のプロセスと�
 
 ## ワークフローの実行を監視できますか？ {#can-i-monitor-workflow-execution-}
 
-Campaign ワークフローの実行を監視する方法については、[Campaign v8 ドキュメント ] （https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution）を参照してください
-.html） {target="_blank"}.
+Campaign ワークフローの実行を監視する方法について詳しくは、[Campaign v8 ドキュメント]（https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.
+html?lang=ja）を参照してください{target="_blank"}。
 
 ## ワークフローで Campaign データを更新するにはどうすればよいですか？ {#how-can-i-update-campaign-data-with-a-workflow-}
 
 データベースのデータに対する一括更新、結合、挿入を実行できます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"}を参照してください。
 
 ## データ管理機能を利用するにはどうすればよいですか？ {#how-can-i-leverage-data-management-capabilities-}
 
@@ -47,15 +47,15 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 * 特にターゲットの構築フェーズで、またはデータベース管理中に、バッファ計算を保持し、伝達する。
 * 外部データベースへのアクセス（オプション）：ターゲティングプロセス中に、異種データベースを処理する。
 
-データ管理ワークフローアクティビティを組み合わせて複雑なターゲットを設計し、データを操作する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"} を参照してください。
+データ管理ワークフローアクティビティをを組み合わせながら、複雑なターゲットをデザインし、データを操作する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"}を参照してください。
 
 ## パーソナライズされたメッセージの送信を自動化できますか？ {#can-i-automate-personalized-messages-sending-}
 
-競合の最高スコアに応じてパーソナライズされたメッセージをユーザーに送信する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja){target="_blank"} を参照してください。
+競合の最高スコアに応じてパーソナライズされたメッセージをユーザーに送信する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja){target="_blank"}を参照してください。
 
 ## ワークフローでオーディエンスをサブセットに分割するにはどうすればよいですか？ {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-ターゲットを複数のサブセットに分割する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} を参照してください。
+ターゲットを複数のサブセットに分割する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
 ## 外部ファイルの受信者データを更新するにはどうすればよいですか？ {#how-can-i-update-recipient-data-from-an-external-file-}
 
@@ -65,4 +65,4 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ## 新しい受信者を識別してターゲットにするにはどうすればよいですか？ {#how-can-i-identify-and-target-new-recipients-}
 
-集計を使用してデータベースに追加された最新の受信者を自動的に識別し、それらの受信者にあいさつメッセージを送信する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"} を参照してください。
+集計を使用して、データベースに追加された最新の受信者を自動的に識別し、歓迎メッセージを送信する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}を参照してください。

@@ -6,9 +6,9 @@ feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign を使用して、顧客のモバイルデバイスにテキス�
 
 SMS は、ユーザーがどこにいても直接リーチできる、非常に効果的なチャネルです。開封率が高く、ほぼ瞬時に配信できる SMS は、時間的制約のあるアラート、トランザクションの更新、簡潔なプロモーションメッセージに最適です。SMS を使用してクロスチャネル戦略を補完し、効果的なリアルタイムのコミュニケーションを実現します。SMS チャネルを設定して効果的に使用する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic ドキュメントセットを合理化し、再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ SMS チャネルについて詳しくは、[Campaign v8 ドキュメント](http
 
 >[!TAB SMS 配信作成]
 
-SMS 配信の作成に関連する主な手順については **Campaign v8 ドキュメント** を参照してください。
+SMS 配信の作成に関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
 * [SMS チャネルの概要](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja){target="_blank"}：顧客のモバイルデバイスにテキストメッセージを送信する方法について説明します。
 * [SMS 配信の作成](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=ja){target="_blank"}：新しい SMS 配信の作成に必要な様々な手順について説明します。
@@ -45,7 +45,7 @@ SMS 配信の作成に関連する主な手順については **Campaign v8 ド�
 
 >[!TAB SMS 設定]
 
-SMS 設定については、次のページを参照してください。 これらのページは、Campaign v7 に固有のページです。
+SMS 設定について詳しくは、次のページを参照してください。次のページは、Campaign v7 に固有です。
 
 * [スタンドアロン設定](sms-set-up.md)：スタンドアロンインスタンスで SMS チャネルを設定する方法について説明します。
 * [ミッドソーシング設定](sms-set-up-mid.md)：ミッドサーバーを使用して携帯電話に送信する方法について説明します。

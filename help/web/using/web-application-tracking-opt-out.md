@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign では、Cookie または Web ビーコンによる行動のト�
 
 Web アプリケーションまたはランディングページに表示するには、バナーを設定する必要があります。
 
-Adobe Campaign は、サンプルバナーを提供します（ニーズに合わせて変更する必要があります）。このバナーのバージョンは、コンテンツモデルフォルダー内のパーソナライゼーションブロックとして表示されます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"} を参照してください。
+Adobe Campaign は、サンプルバナーを提供します（ニーズに合わせて変更する必要があります）。このバナーのバージョンは、コンテンツモデルフォルダー内のパーソナライゼーションブロックとして表示されます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ cookie の名前は **acoptout** です。共通の値は、以下のとおり�
 * **NL.ClientWebTracking.forbid()**：Web トラッキングを禁止するようオプトアウト Cookie の値を設定します。Web トラッキングの禁止にはユーザーからのインプットが必要です。
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：許可または拒否ボタンをユーザーがクリックした後、オプトアウト Cookie バナーを閉じます（クリックイベントバブリング段階の間）。
 
-  bannerDomElt{DOMElement}、削除する必要がある cookie バナーのルート DOM 要素です
+  bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
 
 * **NL.ClientWebTracking.hasUserPrefs()**：ユーザーが web トラッキング設定の選択を行った場合に true を返します。
 * **NL.ClientWebTracking.getUserPrefs()**：ユーザーの設定を定義するオプトアウト Cookie 値を返します。
@@ -92,7 +92,7 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**：JSSP ページに挿入するオプトアウトバナーのマークアップを生成します。
 
-  **escapeJs{Boolean}**：生成されたマークアップをエスケープしてJavaScript内で使用する必要がある場合は true。
+  **escapeJs{Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします。
 
   ページ内でプリントする必要があるオプトアウトバナーのマークアップの HTML を返します。
 
@@ -108,7 +108,7 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
   オプトアウトバナーのマークアップを JSSP ページに挿入することでレンダリングします。&lt;% と %> 間の JSSP と同様に呼び出されます。
 
-  **escapeJs{Boolean}**：生成されたマークアップをエスケープしてJavaScript内で使用する必要がある場合は true
+  **escapeJs{Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします
 
 JSSP の例：
 

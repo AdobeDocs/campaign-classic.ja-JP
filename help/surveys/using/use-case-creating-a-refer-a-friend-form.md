@@ -6,9 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >受信者から同意が得られない限り、データベースにそれらの情報と受信者を格納できません。バイラルマーケティングキャンペーン用に設計された **訪問者** テーブル（**nms:visitor**）に一時的に保存されます。 このテーブルは、**クレンジング**&#x200B;操作によって、定期的にパージされます。
+   >受信者から同意が得られない限り、データベースにそれらの情報と受信者を格納できません。バイラルマーケティングキャンペーン用に設計された&#x200B;**訪問者**&#x200B;テーブル（**nms:visitor**）に一時的に格納されます。このテーブルは、**クレンジング**&#x200B;操作によって、定期的にパージされます。
    >
    >この例では、受信者をターゲットにして、紹介者に勧められた競合他社になるよう提案します。ただし、このメッセージでは、情報サービスのいずれかの購読もオファーします。購読する場合、データベースに格納できます。
 
@@ -88,7 +88,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >配信テンプレートについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+   >配信テンプレートについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
 1. 購読メッセージを配信するための 2 番目のスクリプトを作成します。
 

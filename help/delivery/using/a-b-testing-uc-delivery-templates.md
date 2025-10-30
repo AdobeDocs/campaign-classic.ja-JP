@@ -7,15 +7,15 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '103'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # A/B テスト：配信テンプレートを作成 {#step-3--creating-two-delivery-templates}
 
-ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL メール配信]**」アクティビティで参照されます。[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"} を参照してください。
+ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL メール配信]**」アクティビティで参照されます。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
 1. **[!UICONTROL リソース／配信テンプレート]**&#x200B;フォルダーを参照します。
 1. 「**[!UICONTROL メール]**」配信テンプレートを複製します。

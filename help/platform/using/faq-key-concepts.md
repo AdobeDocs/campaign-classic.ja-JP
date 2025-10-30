@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,19 +67,19 @@ Adobe Campaign ワークスペースの基本事項について詳しくは、[�
 
 ## メッセージのオーディエンスを選択するにはどうすればよいですか？ {#how-can-i-select-the-target-population-of-my-messages-}
 
-Adobe Campaign では、各種の戦略を使用してオーディエンスの作成とターゲット受信者の選択をおこなうことができます。
+Adobe Campaign では、各種の戦略を使用してオーディエンスの作成とターゲット受信者の選択を行うことができます。
 
-詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#target-population){target="_blank"}を参照してください。
 
 ## ワークフローとは何ですか？ {#what-is-a-workflow-}
 
-Adobe Campaign には、アプリケーションサーバーの様々なモジュール間でプロセスおよびタスク全体にわたる調整をおこなうワークフローモジュールが含まれています。総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、トラッキングします。
+Adobe Campaign には、アプリケーションサーバーの様々なモジュール間でプロセスおよびタスク全体にわたる調整を行うワークフローが含まれています。総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、トラッキングします。
 
 例えば、ワークフローを使用して、サーバーからファイルをダウンロードしたり、ファイルを解凍したり、ファイルに含まれるレコードを Adobe Campaign データベースにインポートしたりできます。
 
 またワークフローには、1 人または複数のオペレーターを関連付けて、通知の対象とすることや、プロセスの選択や承認に関与させることもできます。この方法により、配信アクションを作成して 1 人または複数のオペレーターにタスクを割り当て、コンテンツに対して作業する、ターゲットを指定する、配信開始前に配達確認を承認する、などが可能になります。
 
-ワークフローについて[詳しくはここをクリック](../../workflow/using/about-workflows.md)してください。ワークフローのベストプラクティスについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} も参照してください。
+ワークフローについて[詳しくはここをクリック](../../workflow/using/about-workflows.md)してください。また、ワークフローのベストプラクティスについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}も参照してください。
 
 ## 最初のメールを作成し送信するにはどうすればよいですか？ {#how-to-create-and-send-a-first-email-}
 
@@ -93,7 +93,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ## プッシュ通知を送信するにはどうすればよいですか？ {#how-to-send-push-notifications-}
 
-Adobe Campaignを使用して、パーソナライズされたプッシュ通知を送信する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target="_blank"} を参照してください。
+Adobe Campaign を使用してパーソナライズされたプッシュ通知を送信する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ja){target="_blank"}を参照してください。
 
 ## オンライン調査を設計および共有するにはどうすればよいですか？ {#how-to-design-and-share-an-online-survey-}
 

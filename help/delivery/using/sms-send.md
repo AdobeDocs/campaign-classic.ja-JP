@@ -6,9 +6,9 @@ feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,4 +167,4 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 >
 >こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](delivery-dashboard.md)。
 >
->これらのメッセージは、商業的圧力ルールでは考慮されていません。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"} を参照してください。
+>これらのメッセージは、商業的圧力ルールでは考慮されていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。

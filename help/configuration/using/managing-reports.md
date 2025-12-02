@@ -17,11 +17,11 @@ ht-degree: 8%
 
 
 
-カスタムテーブルおよびターゲットマッピングを使用してリンクされたテーブルのデータを考慮するために :recipient デフォルトのAdobe Campaign受信者（nm）またはスキーマリンク先に固有のスキーマに基づくレポートを再開発する必要があります（「ターゲットマッピング [ の節を参照 ](../../configuration/using/target-mapping.md)。
+カスタムテーブルおよびターゲットマッピングを使用してリンクされたテーブルのデータを考慮するために :recipient デフォルトのAdobe Campaign受信者（nm）またはスキーマリンク先に固有のスキーマに基づくレポートを再開発する必要があります（「ターゲットマッピング [&#x200B; の節を参照 &#x200B;](../../configuration/using/target-mapping.md)。
 
-新しいレポートを作成するには、[ この節 ](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
+新しいレポートを作成するには、[&#x200B; この節 &#x200B;](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
 
-場合によっては、これらのテーブル固有の新しいキューブも配置する必要があります。 キューブについて詳しくは、[ この節 ](../../reporting/using/ac-cubes.md) を参照してください。
+場合によっては、これらのテーブル固有の新しいキューブも配置する必要があります。 キューブについて詳しくは、[&#x200B; この節 &#x200B;](../../reporting/using/ac-cubes.md) を参照してください。
 
 以下のレポートが関係しています。
 

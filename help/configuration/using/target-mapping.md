@@ -30,7 +30,7 @@ ht-degree: 3%
 
 1. 使用するカスタムテーブルのフィールドを統合する新しいデータスキーマを作成します。
 
-   詳しくは、[ スキーマリファレンス（xtk:srcSchema） ](../../configuration/using/about-schema-reference.md) を参照してください。
+   詳しくは、[&#x200B; スキーマリファレンス（xtk:srcSchema） &#x200B;](../../configuration/using/about-schema-reference.md) を参照してください。
 
    この例では、顧客スキーマを作成します。これは、ID、名、姓、メールアドレス、携帯電話番号のフィールドを含む非常に単純なテーブルです。 目的は、このテーブルに保存されている個人にメールまたは SMS アラートを送信できるようにすることです。
 
@@ -51,7 +51,7 @@ ht-degree: 3%
    </srcSchema>
    ```
 
-1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [ ビュー属性 ](../../configuration/using/schema-characteristics.md#the-view-attribute) を参照してください。
+1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [&#x200B; ビュー属性 &#x200B;](../../configuration/using/schema-characteristics.md#the-view-attribute) を参照してください。
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -102,7 +102,7 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >Adobe Campaignは、ターゲティングスキーマと呼ばれる、同じ broadlog スキーマや trackinglog スキーマにリンクされた複数の受信者スキーマをサポートしていません。 そうしないと、後でデータの紐付けに異常が生じる可能性があります。 詳しくは、[ 推奨事項と制限事項 ](../../configuration/using/about-custom-recipient-table.md) ページを参照してください。
+   >Adobe Campaignは、ターゲティングスキーマと呼ばれる、同じ broadlog スキーマや trackinglog スキーマにリンクされた複数の受信者スキーマをサポートしていません。 そうしないと、後でデータの紐付けに異常が生じる可能性があります。 詳しくは、[&#x200B; 推奨事項と制限事項 &#x200B;](../../configuration/using/about-custom-recipient-table.md) ページを参照してください。
 
 1. **拡張機能** ウィンドウで、生成するオプションスキーマを選択します（使用可能なスキーマのリストは、Adobe Campaign プラットフォームにインストールされているモジュールによって異なります）。
 

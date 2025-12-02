@@ -20,7 +20,7 @@ ht-degree: 2%
 1. 右クリックして **[!UICONTROL アクション/選択したスキーマを再生成…]** を選択します。
 1. **[!UICONTROL OK]** をクリックして、プロセスを確認して開始します。
 
-生成されたスキーマの構造を「プレビュー」タブと「ドキュメント」タブで確認できます。 詳しくは、「原則 [ の節を参照してくだ ](../../configuration/using/data-schemas.md#principles) い。
+生成されたスキーマの構造を「プレビュー」タブと「ドキュメント」タブで確認できます。 詳しくは、「原則 [&#x200B; の節を参照してくだ &#x200B;](../../configuration/using/data-schemas.md#principles) い。
 
 >[!NOTE]
 >

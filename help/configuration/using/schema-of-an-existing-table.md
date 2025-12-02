@@ -60,4 +60,4 @@ ht-degree: 9%
 
 「**Federated Data Access - FDA**」オプションを使用すると、外部データベースに保存されたデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマに実行する設定について詳しくは、[ このページ ](../../installation/using/creating-data-schema.md) を参照してください。
+外部データベースのデータにアクセスするためにスキーマに実行する設定について詳しくは、[&#x200B; このページ &#x200B;](../../installation/using/creating-data-schema.md) を参照してください。

@@ -22,7 +22,7 @@ ht-degree: 10%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-シードアドレスの使用について詳しくは、[ この節 ](../../delivery/using/about-seed-addresses.md) を参照してください。
+シードアドレスの使用について詳しくは、[&#x200B; この節 &#x200B;](../../delivery/using/about-seed-addresses.md) を参照してください。
 
 ## 実装 {#implementation}
 

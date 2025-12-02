@@ -125,7 +125,7 @@ Web ページが動的に生成される場合、ページ生成時に web ト�
 
 リダイレクトサーバーに送信される情報を制御したい場合、最も信頼できる方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
-作成する URL は、「Web トラッキングタグ：定義 [ で定義されている構文ルールに従う必要があ ](../../configuration/using/web-tracking-tag-definition.md) ます。
+作成する URL は、「Web トラッキングタグ：定義 [&#x200B; で定義されている構文ルールに従う必要があ &#x200B;](../../configuration/using/web-tracking-tag-definition.md) ます。
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

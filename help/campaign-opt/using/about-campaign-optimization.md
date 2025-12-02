@@ -24,7 +24,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Adobe Campaignのキャンペーンの最適化とその使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target=_blank} を参照してください。
+>Adobe Campaignのキャンペーンの最適化とその使用方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target=_blank} を参照してください。
 
 <!--
 

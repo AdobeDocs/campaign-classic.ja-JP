@@ -51,7 +51,7 @@ Web サービスは、データスキーマの文法で記述され、**`<method
 
 「const」メソッドは、関連するスキーマの形式の XML ドキュメントを入力として暗黙的に持ちます。
 
-Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明については、「メソッド [ の「スキーマ参照」の章を参照してください ](../../configuration/using/schema/method.md)
+Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明については、「メソッド [&#x200B; の「スキーマ参照」の章を参照してください &#x200B;](../../configuration/using/schema/method.md)
 
 「xtk:queryDef」スキーマからの「const」タイプの「ExecuteQuery」メソッドの例：
 
@@ -185,7 +185,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 ## 接続性 {#connectivity}
 
-Adobe Campaignでは、[ セキュリティゾーン ](../../installation/using/security-zones.md) と session management 設定を導入して、認証メカニズムのセキュリティを強化しました。
+Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../installation/using/security-zones.md) と session management 設定を導入して、認証メカニズムのセキュリティを強化しました。
 
 次の 2 つの認証モードを使用できます。
 

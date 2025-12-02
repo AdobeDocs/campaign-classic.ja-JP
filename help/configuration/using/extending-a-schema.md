@@ -18,7 +18,7 @@ ht-degree: 12%
 >
 >一部のビルトインスキーマは、拡張できません。主に、次の設定が定義されているスキーマです。\
 >**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**。\
->次のスキーマは拡張できません。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**、**nl:monitoring**、**nms:calendar**、**nms:remoteTracking**、**nms:userAgentRules**、samextk **:builder** **:connections** **:dbInit** **:funcList** **:fusion** **** **:navtree** **:queryDef** **:resourceMenu** **:schema** **:scriptContext** **:session** **:sqlSchema** **:strings**、samextkkxtkkdjs、xtkxtkxtkxtkxtk は xtk を使用
+>次のスキーマは拡張できません。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**、**nl:monitoring**、**nms:calendar**、**nms:remoteTracking**、**nms:userAgentRules**、samextk **:builder** **:connections** **:dbInit** **:funcList** **:fusion** **&#x200B;**&#x200B;**:navtree** **:queryDef** **:resourceMenu** **:schema** **:scriptContext** **:session** **:sqlSchema** **:strings**、samextkkxtkkdjs、xtkxtkxtkxtkxtk は xtk を使用
 >このリストは網羅的ではありません。
 
 既存のスキーマを拡張するには、次の 2 つの方法があります。

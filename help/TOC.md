@@ -3,12 +3,13 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 ドキュメント
 product: campaign
 title: Campaign Classic v7 ガイド
+user-guide-title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+source-git-commit: 3fc803ba8b7e367e199ba47ef05ba64d5f801506
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2748'
 ht-degree: 100%
 
 ---
@@ -483,7 +484,7 @@ ht-degree: 100%
       + [繰り返しインポートワークフローの設定 - 非表示](workflow/using/recurring-import-workflow.md)
    + クエリの設計 {#designing-queries}
       + [増分処理クエリを使用した四半期ごとのリストの更新 - 非表示](workflow/using/quarterly-list-update.md)
-   + クエリとフィルター {#designing-queries}
+   + クエリとフィルター {#query-and-filter-hidden}
       + [受信者テーブルのクエリ - 非表示](workflow/using/querying-recipient-table.md)
       + [配信情報のクエリ - 非表示](workflow/using/querying-delivery-information.md)
       + [集計計算の実行 - 非表示](workflow/using/performing-aggregate-computing.md)

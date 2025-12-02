@@ -4,12 +4,12 @@ title: トラッキングされる URL の命令の前処理
 description: メールの URL をスクリプト化し、その URL を引き続きトラッキングするための命令の前処理について詳しく説明します。
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring
-role: User, Data Engineer, Developer
+role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 * **[!DNL object]**：オブジェクト（例：配信、プロバイダーなど）の名前。オブジェクトは次のいずれかになります。
    * **[!DNL delivery]**：現在の配信の場合（詳細と制限事項については下記を参照）。
-   * **[!DNL provider]**：現在の配信プロバイダー／ルーティング（nms:externalAccount）の場合。
+   * **[!DNL provider]**：現在の配信プロバイダー/ルーティング （nms:externalAccount）用。
    * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次から読み込まれる場合：**プロパティ**／**パーソナライゼーション**／**実行コンテキストにオブジェクトを追加**。
    * foreach ループの項目：下の [Foreach](#foreach) の節を参照してください。
 * **[!DNL xpath]**：フィールドの xpath。
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 **注意**
 
-ミッドソーシング経由で送信される配信に次の命令を使用する場合は、マーケティングプラットフォームとミッドソーシングプラットフォームの両方の nms:delivery スキーマにカスタムフィールド **@myCustomField** を追加する必要があります。
+ミッドソーシング経由で送信する配信に以下の指示を使用する場合は、マーケティングプラットフォームとミッドソーシングプラットフォームの両方で nms **スキーマにカスタムフィールド**@myCustomField:delivery を追加する必要があります。
 
 ```
 <%@ value object="delivery" xpath="@myCustomField" %>

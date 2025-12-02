@@ -3,12 +3,12 @@ product: campaign
 title: Campaign エクスプローラーナビゲーションツリーの設定
 feature: Application Settings
 description: Campaign エクスプローラーのナビゲーションツリーを設定する方法を学ぶ
-role: Data Engineer, Developer
+role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1204'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 エキスパートユーザーは、エクスプローラーツリーにフォルダーを追加してカスタマイズできます。
 
-Campaign ユーザーインターフェイスについて詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank} を参照してください。
+Campaign のユーザーインターフェイスついて詳しくは、 [Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
 
 ナビゲーションリストで使用されるフォルダーのタイプは、**xtk:navtree** スキーマの文法に従う XML 文書に記述されます。
 
@@ -92,7 +92,7 @@ XML ドキュメントには、ドキュメントの名前と名前空間を指�
 
 コマンド区切り記号を使用すると、コマンド間に区切りバーを表示できます。 コマンドラベルに含まれる **&#39;-&#39;** 値によって識別されます。
 
-入力パラメーターを含む **`<soapcall>`** タグがオプションで存在する場合は、実行するSOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) を参照してください。
+入力パラメーターを含む **`<soapcall>`** タグがオプションで存在する場合は、実行するSOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) を参照してください。
 
 フォームコンテキストは、**`<enter>`** タグからの初期化時に更新できます。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 
@@ -265,7 +265,7 @@ XML ドキュメントには、ドキュメントの名前と名前空間を指�
 
 コマンド区切り記号を使用すると、コマンド間に区切りバーを表示できます。 コマンドラベルに含まれる **&#39;-&#39;** 値によって識別されます。
 
-入力パラメーターを含む **`<soapcall>`** タグがオプションで存在する場合は、実行するSOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) を参照してください。
+入力パラメーターを含む **`<soapcall>`** タグがオプションで存在する場合は、実行するSOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) を参照してください。
 
 フォームコンテキストは、初期化時に **`<enter>`** タグを使用して更新できます。 このタグについて詳しくは、入力フォームドキュメントを参照してください。
 

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 新しいフィールド アシスタント
-description: 新しいフィールド アシスタント
+title: 新しいフィールドアシスタント
+description: 新しいフィールドアシスタント
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 4%
 
 ---
 
-# 新しいフィールド アシスタント{#new-field-wizard}
+# 新しいフィールドアシスタント{#new-field-wizard}
 
 
 **[!UICONTROL ツール/詳細/新しいフィールドを追加]** からアクセスできるアシスタントを使用すると、データベースのテーブルに 1 つ以上のフィールドを追加できます。

@@ -3,11 +3,11 @@ product: campaign
 title: Web サービスの呼び出し
 description: Web サービスの呼び出し
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 一般情報 {#general-information}
 
-すべての API メソッドは、web サービスの形式で提供されます。 これにより、Adobe Campaign アプリケーションサーバーのネイティブなエントリポイントであるSOAP呼び出しを使用して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaign コンソール自体は、SOAP呼び出しのみを使用します。
+すべての API メソッドは、web サービスの形式で提供されます。 これにより、Adobe Campaign アプリケーションサーバーのネイティブなエントリポイントであるSOAP呼び出しを介して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaign コンソール自体は、SOAP呼び出しのみを使用します。
 
 Web サービスを使用すると、サードパーティシステムから多くのアプリケーションを作成できます。
 
@@ -51,7 +51,7 @@ Web サービスは、データスキーマの文法で記述され、**`<method
 
 「const」メソッドは、関連するスキーマの形式の XML ドキュメントを入力として暗黙的に持ちます。
 
-Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明については、「メソッド [&#x200B; の「スキーマ参照」の章を参照してください &#x200B;](../../configuration/using/schema/method.md)
+Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明については、「メソッド [ の「スキーマ参照」の章を参照してください ](../../configuration/using/schema/method.md)
 
 「xtk:queryDef」スキーマからの「const」タイプの「ExecuteQuery」メソッドの例：
 
@@ -64,7 +64,7 @@ Adobe Campaign スキーマの `<method>` 要素に関する詳細な説明に�
 </method>
 ```
 
-このメソッドの入力パラメーターは、「xtk:queryDef」スキーマの形式の XML ドキュメントです。
+このメソッドの入力パラメーターは、「xtk:queryDef」スキーマ形式の XML ドキュメントです。
 
 ## Web サービスの説明：WSDL {#web-service-description--wsdl}
 
@@ -79,7 +79,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 を使用：
 
 * **`<server>`**:Adobe Campaign アプリケーションサーバー（nlserver web）
-* **`<schema>`**: スキーマ識別キー（名前空間：schema_name）
+* **`<schema>`**: スキーマ識別キー（名前空間 :schema_name）
 
 ### スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -154,7 +154,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 #### バインディング {#binding}
 
-`<binding>` 部では、SOAP通信プロトコル（`<soap:binding>`）、HTTP でのデータトランスポート（「transport」属性の値）、「ExecuteQuery」オペレーションのデータフォーマットを指定します。 SOAP エンベロープの本文には、変換を行わずにメッセージセグメントが直接含まれます。
+`<binding>` 部では、SOAP通信プロトコル（`<soap:binding>`）、HTTP でのデータトランスポート（「transport」属性の値）、および「ExecuteQuery」処理のデータフォーマットを指定します。 SOAPエンベロープの本文には、変換を行わずにメッセージセグメントが直接含まれます。
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -185,7 +185,7 @@ WSDL の記述は、まず、Web サービスを形成する「バインディ�
 
 ## 接続性 {#connectivity}
 
-Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../installation/using/security-zones.md) と session management 設定を導入して、認証メカニズムのセキュリティを強化しました。
+Adobe Campaignでは、[ セキュリティゾーン ](../../installation/using/security-zones.md) と session management 設定を導入して、認証メカニズムのセキュリティを強化しました。
 
 次の 2 つの認証モードを使用できます。
 
@@ -226,7 +226,7 @@ Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../ins
 * ログオン応答で送信（HTTP ヘッダー）
 * 各クエリで使用（HTTP ヘッダー内）
 
-POSTおよびGET HTTP から：
+POST およびGET HTTP から：
 
 * サーバーがトークンでリンクを完了します
 * サーバーがフォームに非表示フィールドを追加します

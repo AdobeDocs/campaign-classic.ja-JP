@@ -3,12 +3,12 @@ product: campaign
 title: フィルタリングスキーマ
 description: フィルタリングスキーマ
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 79%
+source-wordcount: '382'
+ht-degree: 65%
 
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 79%
 >
 >フィルターを指定しない場合、すべてのオペレーターはスキーマに対する読み取りおよび書き込み権限を持ちます。
 
-## 組み込みスキーマの保護 {#protecting-built-in-schemas}
+## ビルトインのスキーマの保護 {#protecting-built-in-schemas}
 
-デフォルトでは、組み込みスキーマは、管理権限を持つオペレーターの書き込み権限でのみアクセスできます。
+デフォルトでは、ビルトインのスキーマは、管理権限を持つオペレーターの書き込み権限でのみアクセスできます。
 
 * ncm:publishing
 * nl:monitoring
@@ -99,7 +99,7 @@ ht-degree: 79%
 >
 >**xtk:sessionInfo** スキーマの読み取りおよび書き込み権限は、Adobe Campaign インスタンスの内部アカウントからのみアクセスできます。
 
-## 組み込みスキーマのシステムフィルターの変更 {#modifying-system-filters-of-built-in-schemas}
+## ビルトインのスキーマのシステムフィルターの変更 {#modifying-system-filters-of-built-in-schemas}
 
 標準スキーマのシステムフィルターは引き続き変更できます。このフィルターは、古いバージョンとの互換性の問題が原因でデフォルトで保護されています。
 
@@ -109,4 +109,4 @@ ht-degree: 79%
 
 1. 該当するスキーマの拡張機能を作成するか、既存の拡張機能を開きます。
 1. メイン要素の子要素 **`<sysfilter name="<filter name>" _operation="delete"/>`** を追加して、元のスキーマ内の同じ要素のフィルターの適用を削除します。
-1. 必要に応じて、新しいフィルターを追加できます。詳しくは、[&#x200B; システムフィルター &#x200B;](#system-filters) を参照してください。
+1. 必要に応じて、新しいフィルターを追加できます。詳しくは、[ システムフィルター ](#system-filters) を参照してください。

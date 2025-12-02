@@ -3,13 +3,13 @@ product: campaign
 title: Adobe Campaignのスキーマ構造について
 description: スキーマの構造
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 audience: configuration
 content-type: reference
 level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 67%
@@ -135,7 +135,7 @@ ht-degree: 67%
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、[`<attribute>` 要素の説明 &#x200B;](../../configuration/using/schema/attribute.md) および [`<element>` 要素 &#x200B;](../../configuration/using/schema/element.md) で利用できます。
+詳細なリストは、[`<attribute>` 要素の説明 ](../../configuration/using/schema/attribute.md) および [`<element>` 要素 ](../../configuration/using/schema/element.md) で利用できます。
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -297,7 +297,7 @@ ht-degree: 67%
 
 コンテンツ作成時にデフォルト値を返す式を定義するには、**default** プロパティを使用します。
 
-値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath を使用した参照 &#x200B;](../../configuration/using/schema-structure.md#referencing-with-xpath) を参照してください。
+値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath を使用した参照 ](../../configuration/using/schema-structure.md#referencing-with-xpath) を参照してください。
 
 **例**：
 

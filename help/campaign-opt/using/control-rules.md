@@ -2,13 +2,13 @@
 product: campaign
 title: コントロールルール
 description: Adobe Campaign でのコントロールルールの操作方法を説明します。
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
    ![](assets/campaign_opt_create_control_02.png)
 
-   このスクリプトは、配信ターゲットが 100 人を超えると、警告を生成します。
+   このスクリプトは、配信ターゲットが 100 人を超えると、警告をトリガーします。
 
    ```
    if( delivery.FCP == false && delivery.properties.toDeliver > 100 ) { logWarning("Significant number of SMS to deliver (" + delivery.properties.toDeliver + "). Please make sure the target is correct.") return false; } return true

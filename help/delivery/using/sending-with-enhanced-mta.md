@@ -5,10 +5,10 @@ description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1407'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 99%
 
 ---
 
@@ -160,6 +160,5 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 | Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージは 100%から開始 | 送信済み |
 | Enhanced MTA からハードバウンスメッセージが返される | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |
 | ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み |
-| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
+| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]** パーセンテージ \| **[!UICONTROL 成功]** パーセンテージは、それに応じて増加します | 送信済み |
 | ソフトバウンスメッセージの再試行に失敗する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |
-

@@ -3,9 +3,9 @@ product: campaign
 title: 匿名トラッキング
 description: 匿名トラッキングの設定方法を説明します
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 5%

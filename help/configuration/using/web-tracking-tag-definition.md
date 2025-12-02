@@ -3,9 +3,9 @@ product: campaign
 title: Web トラッキングタグの定義
 description: Web トラッキングタグの定義
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -108,17 +108,17 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
 
 * 業務量データの収集
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 受信者を検索するフィールドの指定
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
   アカウント番号が 10 の受信者がホームページに送信されます。
 
 * デフォルト配信の使用
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
   受信者がホームページに送信されます。 このクエリで配信識別子を含むセッション cookie が送信されない限り、この情報は識別子 230 で配信に保存されます（データベース 16 の e6）。
 
@@ -130,5 +130,5 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
 
 以下の方法が可能です。
 
-* トラッキングする web ページに組み込まれたHTML **`<img>`** タグの **&quot;src&quot;** 属性に URL を挿入する。
+* トラッキングする web ページに組み込まれたHTML **タグの**&quot;src&quot;**`<img>`** 属性に URL を挿入する。
 * 追跡する web ページが生成されたら、リダイレクトサーバーへの直接呼び出しを行います。

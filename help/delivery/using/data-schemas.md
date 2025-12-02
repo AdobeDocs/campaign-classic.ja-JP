@@ -4,12 +4,12 @@ title: Campaign でのデータスキーマの使用
 description: Campaign でのデータスキーマの使用方法を学ぶ
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Data Model
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign でのデータスキーマの作成と設定について詳し�
 
 **template** 属性をメイン要素に入力することで、汎用プロパティを持つスキーマを、名前、作成日、作成者、関連付けられた文字列などすべてのコンテンツ定義に拡張できます。
 
-これらのプロパティは、**ncm:content** スキーマに記述します。
+これらのプロパティについては、**ncm:content** スキーマを参照してください。
 
 >[!NOTE]
 >

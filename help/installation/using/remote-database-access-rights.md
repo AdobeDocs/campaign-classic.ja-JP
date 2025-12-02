@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 98%
+source-wordcount: '932'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 1. Adobe Campaign エクスプローラーで、**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;ノードを選択します。
 1. 任意のラベルを指定して新しい権限を作成します。
-1. 「**[!UICONTROL 名前]**」フィールドを指定します。**user:base@server** の形式で指定する必要があります。
+1. 「**[!UICONTROL 名前]** フィールドは、次の形式 **user:base@server** にする必要があります。ここで、
 
    * **user** は、外部データベースのユーザーの名前に対応します。
    * **base** は、外部データベースの名前に対応します。
@@ -30,11 +30,11 @@ ht-degree: 98%
 
      >[!NOTE]
      >
-     >**:base** の部分は、Oracle では省略可能です。
+     >**:base** の部分は、Oracleではオプションです。
 
 1. ネームド権限を保存し、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードで目的のユーザーにリンクします。
 
-次に、外部データベースに格納されているデータを処理できるように、Adobe Campaign ユーザーに少なくともデータベースに対する「書き込み」権限を付与して、作業用テーブルの作成を許可する必要があります。作業用テーブルは Adobe Campaign で自動的に削除されます。
+次に、外部データベースに格納されているデータを処理できるように、Adobe Campaign ユーザーに少なくともデータベースに対する「書き込み」権限を付与して、ワークテーブルの作成を許可する必要があります。作業用テーブルは Adobe Campaign で自動的に削除されます。
 
 一般に必要となる権限には次のものがあります。
 
@@ -75,5 +75,5 @@ ht-degree: 98%
 | **実行の監視** | EXPLAIN 文の使用に権限は不要 | SELECT 権限 | sp_showplan を実行できるのはシステム管理者のみ | EXPLAIN 文の使用に権限は不要 | EXPLAIN 文の使用に権限は不要 |
 | **データの書き込み** | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 | INSERT および UPDATE パーミッション | INSERT および UPDATE 権限 | INSERT および UPDATE 権限 |
 | **テーブルへのデータの読み込み** | COPY TO 文と COPY FROM 文をそれぞれ使用するには SELECT 権限と INSERT 権限 | FILE 権限 | テーブルの所有者または ALTER パーミッション。-gl オプションによっては、LOAD TABLE は、ユーザーが DBA 権限を持っている場合にのみ実行されます | SELECT および INSERT 権限 | SELECT および INSERT 権限 |
-| **クライアントデータへのアクセス** | SELECT 権限 | SELECT パーミッション | SELECT 権限 | SELECT 権限 |
+| **クライアントデータへのアクセス** | SELECT 権限 | SELECT パーミッション | SELECT 権限 | SELECT 権限 |  |
 | **メタデータへのアクセス** | SHOW 権限 | SELECT 権限 | DESCRIBE 文の使用にパーミッションは不要 | 「\d table」コマンドの使用に権限は不要 | SHOW コマンドの使用に権限は不要 |

@@ -3,10 +3,10 @@ product: campaign
 title: インターフェイスの設定
 description: Campaign インターフェイスの設定方法を学ぶ
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
    >[!NOTE]
    >
-   >**form** タイプのファイルについて詳しくは、[&#x200B; このページ &#x200B;](../../configuration/using/identifying-a-form.md) を参照してください。
+   >**form** タイプのファイルについて詳しくは、[ このページ ](../../configuration/using/identifying-a-form.md) を参照してください。
 
    この現在の例では、**form** ファイルは **cus:individual** スキーマに基づく必要があるため、次のレイアウトになります。
 

@@ -3,12 +3,12 @@ product: campaign
 title: PI の閲覧を制限
 description: PI の閲覧を制限する方法を学ぶ
 feature: PI
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: e198defd60f4b12681025b04b12a1498df015047
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 63%
+ht-degree: 73%
 
 ---
 
@@ -55,7 +55,7 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 
 >[!IMPORTANT]
 >
->重要なパラメーター（複合キーのパラメーターなど）に **accessibleIf** 属性を使用すると、非表示のデータが原因でデータの読み取りが許可されていないユーザーにエラーが発生する可能性があります。 これにより、クエリのエラーや予期しない動作が発生する場合があります。 中断を防ぐために、必須のパラメーターに確実にアクセスできるようにします。
+>重要なパラメーター（複合キー内のパラメーターなど）に **accessibleIf** 属性を使用すると、非表示のデータにより、データの読み取りが許可されていないユーザーにエラーが発生する場合があります。これにより、クエリのエラーや予期しない動作が発生する場合があります。中断を防ぐために、必須のパラメーターに確実にアクセスできるようにします。
 
 ## 推奨事項 {#recommendations}
 

@@ -3,13 +3,13 @@ product: campaign
 title: フォームの構造
 description: フォームの構造
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 89%
+source-wordcount: '2412'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 フォームは、構造化された XML 文書として記述され、フォームスキーマ **xtk:form** の文法に従います。
 
-入力フォームの XML ドキュメントには、フォーム名と名前空間を設定する **name** 属性と **namespace** 属性が設定された `<form>` ルート要素が含まれている必要があります。
+入力フォームの XML ドキュメントには、フォーム名と名前空間を設定する `<form>`name **属性と** namespace **属性が設定された** ルート要素が含まれている必要があります。
 
 ```xml
 <form name="form_name" namespace="name_space">
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->`<input>` 要素に **label** 属性を追加すると、データスキーマで定義されたラベルをオーバーロードできます。\
+>**要素に** label`<input>` 属性を追加すると、データスキーマで定義されたラベルをオーバーロードできます。\
 >`<input label="Email address" xpath="@name" />`
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
@@ -130,7 +130,7 @@ ht-degree: 89%
 </form>
 ```
 
-**区切り文字**&#x200B;タイプを含む **`<static>`** タグを使用すると、**label** 属性に含まれるラベルを含む区切りバーを追加できます。
+**区切り記号**&#x200B;タイプを含む **`<static>`** タグを使用すると、**label** 属性に含まれるラベルを含む区切りバーを追加できます。
 
 ヘルプタイプの `<static>` タグを使用してヘルプテキストが追加されました。 テキストの内容が **label** 属性に入力されます。
 
@@ -277,7 +277,7 @@ ht-degree: 89%
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-「**[!UICONTROL リンクの編集]**（虫めがね）」アイコンをクリックすると、リンクされた要素の編集フォームが起動します。使用するフォームは、対象スキーマのキーに基づいてデフォルトで推定されます。**form** 属性を使用すると、編集フォームの名前を強制できます（例：&quot;cus:company2&quot;）。
+「**[!UICONTROL リンクの編集]**（虫めがね）」アイコンをクリックすると、リンクされた要素の編集フォームが起動します。使用するフォームは、対象スキーマのキーに基づいてデフォルトで推定されます。**form** 属性を使用すると、編集フォームの名前を強制できます（例：「cus:company2」）。
 
 入力フォームのリンク定義を使用して **`<sysfilter>`** 要素を追加することによって、ターゲット要素の選択肢を制限できます。
 
@@ -632,7 +632,7 @@ ht-degree: 89%
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-`<form>` 要素に **type=&quot;wizard&quot;** 属性が存在する場合は、フォームの構築時にアシスタントモードを定義できます。 各ページは、`<container>` 要素で完成させます。これらの各要素は、`<form>` 要素の子要素です。ページの `<container>` 要素には、title と desc のタイトル属性を設定します。これにより、ページタイトルの下に説明が表示されます。**[!UICONTROL 前へ]**&#x200B;ボタンと&#x200B;**[!UICONTROL 次へ]**&#x200B;ボタンが自動的に追加され、ページ間を移動できるようになります。
+**要素に** type=&quot;wizard&quot;`<form>` 属性が存在する場合は、フォームの構築時にアシスタントモードを定義できます。 各ページは、`<container>` 要素で完成させます。これらの各要素は、`<form>` 要素の子要素です。ページの `<container>` 要素には、title と desc のタイトル属性を設定します。これにより、ページタイトルの下に説明が表示されます。**[!UICONTROL 前へ]**&#x200B;ボタンと&#x200B;**[!UICONTROL 次へ]**&#x200B;ボタンが自動的に追加され、ページ間を移動できるようになります。
 
 「**[!UICONTROL 終了]**」ボタンを押すと、入力したデータが保存され、フォームが閉じます。
 

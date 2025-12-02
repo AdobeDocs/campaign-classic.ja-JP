@@ -3,11 +3,11 @@ product: campaign
 title: データ指向の API
 description: データ指向の API
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1796'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 スクリプトでデータベースのフィールドに対処できるようにするには、Adobe Campaign データモデルに精通している必要があります。
 
-データモデルのプレゼンテーションについては、[Adobe Campaign データモデルの説明 &#x200B;](../../configuration/using/data-model-description.md) を参照してください。
+データモデルのプレゼンテーションについては、[Adobe Campaign データモデルの説明 ](../../configuration/using/data-model-description.md) を参照してください。
 
 ## クエリとライター {#query-and-writer}
 
@@ -44,9 +44,9 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 これにより、基になる SQL を分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マップされ、それによって複数の SELECT SQL 命令が生成される場合があります。
 
-詳しくは、[&#x200B; スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 &#x200B;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-) を参照してください。
+詳しくは、[ スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例」を参照してください ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)。
 
-**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） &#x200B;](#executequery--xtk-querydef-) に示されています。
+**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） ](#executequery--xtk-querydef-) に示されています。
 
 ### 書き込み {#write}
 
@@ -56,7 +56,7 @@ XML ドキュメントは、データベースのメモ型フィールドに格�
 
 XML 構造はデータの論理ビューを提供し、SQL テーブルの物理構造を回避できます。
 
-Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#write---writecollection--xtk-session-) に示されます。
+Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---writecollection--xtk-session-) に記述します。
 
 ## ExecuteQuery （xtk:queryDef） {#executequery--xtk-querydef-}
 
@@ -78,7 +78,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 ### 入力クエリの XML ドキュメントの形式 {#format-of-the-xml-document-of-the-input-query}
 
-クエリの XML ドキュメントの構造については、「xtk:queryDef」スキーマを参照してください。 このドキュメントでは、SQL クエリーの句として「select」、「where」、「order by」、「group by」、「having」について説明します。
+クエリの XML ドキュメントの構造は、「xtk:queryDef」スキーマで記述します。 このドキュメントでは、SQL クエリーの句として「select」、「where」、「order by」、「group by」、「having」について説明します。
 
 ```xml
 <queryDef schema="schema_key" operation="operation_type">
@@ -137,11 +137,11 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 * **select**：複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
 * **count**：データ数を返します。
 
-**XPath** 構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPath について詳しくは、[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md) を参照してください。
+**XPath** 構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPath について詳しくは、[ データスキーマ ](../../configuration/using/data-schemas.md) を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 
-メールのフィルターを使用して、受信者の姓と名（「nms：受信者」スキーマ）を取得します。
+メールのフィルターを使用して、受信者の姓と名（「nms:recipient」スキーマ）を取得します。
 
 ```xml
 <queryDef schema="nms:recipient" operation="get">
@@ -185,7 +185,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 式には、単純なフィールドや、算術演算や文字列の連結などの複雑な式を指定できます。
 
-返されるレコードの数を制限するには、`<querydef>` 要素に **lineCount** 属性を追加します。
+返されるレコードの数を制限するには、**要素に** lineCount`<querydef>` 属性を追加します。
 
 クエリによって返されるレコードの数を 100 に制限するには、次の手順に従います。
 
@@ -484,7 +484,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
   </SOAP-ENV:Envelope>
   ```
 
-## 書き込み/書き込みコレクション（xtk:session） {#write---writecollection--xtk-session-}
+## 書き込み/書き込みコレクション （xtk:session） {#write---writecollection--xtk-session-}
 
 これらのサービスは、エンティティ（「Write」メソッド）またはエンティティのコレクション（「WriteCollection」メソッド）の挿入、更新、削除に使用されます。
 
@@ -575,7 +575,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 「_key」属性と「_operation」属性は、リンクされた要素に対して入力できます。 この要素の動作は、入力スキーマのメイン要素の動作と同じです。
 
-メインエンティティ（「nms:recipient」）のキーの定義は、リンクテーブル（スキーマ「xtk:folder」 `<folder>` 要素）のフィールドとメールで構成されます。
+メインエンティティのキー（「nms:recipient」）の定義は、リンクテーブル（スキーマ「xtk`<folder>`」 :folder 要素）のフィールドとメールで構成されます。
 
 >[!NOTE]
 >
@@ -583,7 +583,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 #### 例 2 {#example-2}
 
-受信者からの会社（「cus:company」スキーマ内のリンクされたテーブル）の更新：
+受信者から会社（「cus:company」スキーマ内のリンクされたテーブル）を更新しています：
 
 ```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -593,7 +593,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 #### 例 3 {#example-3}
 
-グループ関係テーブル（&quot;nms:rcpGrpRel&quot;）を使用してグループに受信者を追加する：
+グループ関係テーブル（「nms:rcpGrpRel」）を使用してグループに受信者を追加します。
 
 ```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -605,7 +605,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 
 >[!NOTE]
 >
->グループ名に基づく暗黙のキーが「nms:group」スキーマに定義されているので、キーの定義は `<rcpgroup>` 要素に入力されません。
+>グループ名に基づく暗黙のキーが「nms`<rcpgroup>`」スキーマに定義されているので、キーの定義は :group 要素に入力されません。
 
 ### XML コレクション要素 {#xml-collection-elements}
 

@@ -2,14 +2,14 @@
 product: campaign
 title: シードアドレス
 description: シードアドレス
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '333'
 ht-degree: 10%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 10%
 
 
 
-If the recipient table is a custom table, additional configurations are required. The **[!UICONTROL nms:seedMember]** schema must be extended. An additional tab is added to the seed addresses for defining the adequate fields, as shown below:
+受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのシードアドレスにタブが追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-For more on using seed addresses, refer [this section](../../delivery/using/about-seed-addresses.md).
+シードアドレスの使用について詳しくは、[ この節 ](../../delivery/using/about-seed-addresses.md) を参照してください。
 
 ## 実装 {#implementation}
 
-The **nms:seedMember** schema and the linked form which come out-of-the-box are meant to be extended for customer configuration, to reference all necessary fields. The schema definition contains comments detailing its configuration mode.
+すぐに使用できる **nms:seedMember** スキーマとリンクされたフォームは、顧客設定用に拡張して、必要なすべてのフィールドを参照することを目的としています。 スキーマ定義には、設定モードを説明するコメントが含まれています。
 
-Definition of the recipients table extended schema:
+受信者テーブル拡張スキーマの定義：
 
 ```
 <srcSchema label="Person" name="person" namespace="cus">
@@ -45,14 +45,14 @@ Definition of the recipients table extended schema:
 
 次の手順に従います。
 
-1. Create an extension of the **nms:seedMember** schema. 詳しくは、[この節](../../configuration/using/extending-a-schema.md)を参照してください。
-1. In this new extension, add a new element at the root of **[!UICONTROL seedMember]** with the following parameters:
+1. **nms:seedMember** スキーマの拡張を作成します。 詳しくは、[この節](../../configuration/using/extending-a-schema.md)を参照してください。
+1. この新しい拡張機能では、**[!UICONTROL seedMember]** のルートに、次のパラメーターで新しい要素を追加します。
 
    ```
    name="custom_customNamespace_customSchema"
    ```
 
-   This element must contain the fields required to export the campaigns. These fields should have the same name as the corresponding fields in the external schema. For example, if the schema is **[!UICONTROL cus:person]** , the **[!UICONTROL nms:seedMember]** schema should be extended as follows:
+   この要素には、キャンペーンのエクスポートに必要なフィールドが含まれている必要があります。 これらのフィールドは、外部スキーマの対応するフィールドと同じ名前にする必要があります。 例えば、スキーマが **[!UICONTROL cus:person]** の場合、**[!UICONTROL nms:seedMember]** スキーマは次のように拡張する必要があります。
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -71,20 +71,20 @@ Definition of the recipients table extended schema:
 
    >[!NOTE]
    >
-   >The extension of the **nms:seedMember** schema must comply with the structures of a campaign and a delivery in Adobe Campaign.
+   >**nms:seedMember** スキーマの拡張は、Adobe Campaignのキャンペーンと配信の構造に従っている必要があります。
 
    >[!IMPORTANT]
    >
    >
    >    
    >    
-   >    * During the extension, you must specify an **SQL name (@sqlname)** for the &#39;email&#39; field. The SQL name must differ from the &#39;sEmail&#39; that is reserved for the recipient schema.
-   >    * You must update the database structure with the schema created when extending **nms:seedMember**.
-   >    * In the **nms:seedMember** extension, the field containing the email address must have **name=&quot;email&quot;** as an attribute. The SQL name must be different from &#39;sEmail&#39; which is already used for the recipient schema. This attribute must be immediately declared under the **`<element name="custom_cus_person" />`** element.
+   >    * 拡張時に、「電子メール」フィールドに **SQL 名（@sqlname）** を指定する必要があります。 SQL 名は、受信者スキーマ用に予約されている「sEmail」とは異なる必要があります。
+   >    * **nms:seedMember** の拡張時に作成したスキーマでデータベース構造を更新する必要があります。
+   >    * **nms:seedMember** 拡張機能では、メールアドレスを含むフィールドの属性として **name=&quot;email&quot;** が必要です。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前にする必要があります。 この属性は、**`<element name="custom_cus_person" />`** 要素の下で直ちに宣言する必要があります。
    >    
    >
 
-1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new &quot;Internal recipient&quot; tab in the **[!UICONTROL Seed addresses]** window. 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
+1. **[!UICONTROL seedMember]** フォームを適宜変更して、「**[!UICONTROL シードアドレス]**」ウィンドウに新しい「内部受信者」タブを定義します。 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
@@ -99,4 +99,4 @@ Definition of the recipients table extended schema:
      </container>
    ```
 
-If all attributes of the seed address aren&#39;t entered, Adobe Campaign automatically substitutes the profiles: they will be entered automatically during personalization using data from an existing profile.
+シードアドレスのすべての属性が入力されない場合、Adobe Campaignはプロファイルを自動的に置き換えます。これらは、既存のプロファイルのデータを使用してパーソナライズする際に、自動的に入力されます。

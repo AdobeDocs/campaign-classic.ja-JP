@@ -3,11 +3,11 @@ product: campaign
 title: JavaScript での SOAP メソッド
 feature: Configuration, Instance Settings
 description: JavaScript での SOAP メソッド
-role: Data Engineer, Developer
+role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign サーバーで実行されるJavaScriptです。
 
 ## 静的メソッド {#static-methods}
 
-静的SOAP メソッドにアクセスするには、スキーマを表すオブジェクトのメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
+静的SOAP メソッドにアクセスするには、スキーマを表すオブジェクトでメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
 
 次の例では、xtk:workflow スキーマの静的 PostEvent メソッドを呼び出します。
 

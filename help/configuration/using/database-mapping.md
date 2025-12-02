@@ -3,9 +3,9 @@ product: campaign
 title: データベースマッピング
 description: データベースマッピング
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # データベースマッピング{#database-mapping}
 
-[&#x200B; このページで &#x200B;](schema-structure.md) 説明されているサンプルスキーマの SQL マッピングにより、次の XML ドキュメントが生成されます。
+[ このページで ](schema-structure.md) 説明されているサンプルスキーマの SQL マッピングにより、次の XML ドキュメントが生成されます。
 
 ```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">

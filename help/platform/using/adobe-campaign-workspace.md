@@ -3,11 +3,11 @@ product: campaign
 title: Adobe Campaign ワークスペース
 description: Campaign ワークスペースの使用方法とカスタマイズ方法を説明します。
 feature: Overview
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -144,4 +144,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

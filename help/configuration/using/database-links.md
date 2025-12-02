@@ -3,12 +3,12 @@ product: campaign
 title: データベースマッピング
 description: データベースマッピング
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 99%
+source-wordcount: '924'
+ht-degree: 85%
 
 ---
 
@@ -80,7 +80,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：逆リンク {#example-1}
 
-次の例では、「cus:company」スキーマテーブルに対して一対多の関係を宣言します。
+次の例では、「cus:company」スキーマテーブルに対して 1-N 関係を宣言します。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -112,7 +112,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 外部キーは、次の命名規則に従って、宛先テーブルの関連フィールドと同じ特性を使用する要素に自動的に追加されます。ターゲットスキーマの名前の後に関連フィールドの名前（この例では「company-id」）が続きます。
 
-ターゲットの拡張スキーマ（「cus:company」）：
+ターゲットの拡張スキーマ（「cus:company」）:
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,7 +133,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 </schema>
 ```
 
-「cus:recipient」テーブルへの逆リンクが、次のパラメータで追加されました。
+「cus:recipient」テーブルへの逆リンクが、次のパラメーターを使用して追加されました。
 
 * **name**：ソーススキーマの名前から自動的に推定されます（ソーススキーマのリンク定義の「revLink」属性を使用して強制できます)
 * **revLink**：逆リンク名
@@ -143,7 +143,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：シンプルリンク {#example-2}
 
-この例では、「nms:address」スキーマテーブルへのリンクを宣言します。結合は外部結合であり、受信者のメールアドレスとリンクテーブルの「@address」フィールド（「nms:address」）が明示的に入力されます。
+この例では、「nms:address」スキーマテーブルへのリンクを宣言します。 結合は外部結合であり、受信者のメールアドレスとリンクテーブルの「@address」フィールド（「nms:address」）が明示的に入力されます。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -158,7 +158,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：一意のカーディナリティ {#example-3}
 
-この例では、「cus:extension」スキーマテーブルとの一対一の関係を作成します。
+この例では、「cus:extension」スキーマテーブルに 1-1 の関係を作成します。
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
@@ -176,7 +176,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：リンクへのキーの作成 {#example-5}
 
-この例では、**xlink** 属性と（「email」）テーブルのフィールドを持つリンク（「company」から「cus:company」スキーマ）にキーを作成します。
+この例では、「xlink:company 属性と（「email」）テーブルのフィールドを持つリンク（「company」から「cus **」スキーマ** にキーを作成します。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

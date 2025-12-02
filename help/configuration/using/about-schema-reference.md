@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Campaignのスキーマの基本を学ぶ
 description: Adobe Campaign データベースのスキーマを操作し、概念的データモデルを拡張する方法を説明します
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '368'
 ht-degree: 49%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 49%
 
 この章では、Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
 
-Campaign の組み込みテーブルとその連携について詳しくは、[Campaign Classic データモデル &#x200B;](about-data-model.md) を参照してください。
+Campaign の組み込みテーブルとその連携について詳しくは、[Campaign Classic データモデル ](about-data-model.md) を参照してください。
 
 Adobe Campaignでは、アプリケーションに格納されるデータの物理的および論理的構造は XML で記述されます。 **スキーマ** は、データベーステーブルに関連付けられた XML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 

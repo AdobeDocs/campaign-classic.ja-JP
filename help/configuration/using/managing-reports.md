@@ -3,12 +3,12 @@ product: campaign
 title: レポートの管理
 description: レポートの管理
 feature: Reporting, Configuration
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '172'
 ht-degree: 8%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 8%
 
 
 
-カスタムテーブルおよびターゲットマッピングを使用してリンクされたテーブルのデータが考慮されるように、デフォルトのAdobe Campaign受信者（nm：受信者またはリンクされたスキーマ）に固有のスキーマに基づくレポートを再開発する必要があります（「ターゲットマッピング [&#x200B; の節を参照 &#x200B;](../../configuration/using/target-mapping.md)。
+カスタムテーブルおよびターゲットマッピングを使用してリンクされたテーブルのデータを考慮するために :recipient デフォルトのAdobe Campaign受信者（nm）またはスキーマリンク先に固有のスキーマに基づくレポートを再開発する必要があります（「ターゲットマッピング [ の節を参照 ](../../configuration/using/target-mapping.md)。
 
-新しいレポートを作成するには、[&#x200B; この節 &#x200B;](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
+新しいレポートを作成するには、[ この節 ](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
 
-場合によっては、これらのテーブル固有の新しいキューブも配置する必要があります。 キューブについて詳しくは、[&#x200B; この節 &#x200B;](../../reporting/using/ac-cubes.md) を参照してください。
+場合によっては、これらのテーブル固有の新しいキューブも配置する必要があります。 キューブについて詳しくは、[ この節 ](../../reporting/using/ac-cubes.md) を参照してください。
 
 以下のレポートが関係しています。
 

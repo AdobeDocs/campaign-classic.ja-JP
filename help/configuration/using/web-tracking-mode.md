@@ -3,11 +3,11 @@ product: campaign
 title: Web トラッキングモード
 description: Web トラッキングモードを選択する方法を学ぶ
 feature: Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Adobe Campaignでは、アプリケーション内でトラッキングログを
 
 >[!NOTE]
 >
->**[!UICONTROL Leads]** パッケージがインストールされている場合は、アクティビティテーブル（**crm:incomingLead**）に対して同じ手順を実行する必要があります
+>**[!UICONTROL リード]** パッケージがインストールされている場合は、アクティビティテーブル（**crm:incomingLead**）に対して同じ手順を実行する必要があります
 
 次のスキーマは、3 つの web トラッキングモードすべての機能を要約しています。
 

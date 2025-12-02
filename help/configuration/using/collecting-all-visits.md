@@ -3,9 +3,9 @@ product: campaign
 title: すべての訪問の収集
 description: すべての訪問の収集
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 3%

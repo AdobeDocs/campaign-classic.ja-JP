@@ -3,11 +3,11 @@ product: campaign
 title: SOAP メソッドの実装
 description: SOAP メソッドの実装
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ JavaScriptでSOAP メソッドを作成できます。 この関数は単純に�
 
 ### 宣言 {#declaration}
 
-まず、スキーマのメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[&#x200B; この節 &#x200B;](../../configuration/using/about-schema-edition.md)）を参照してください。
+まず、スキーマのメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[ この節 ](../../configuration/using/about-schema-edition.md)）を参照してください。
 
 これらの宣言はネイティブメソッドの宣言に似ていますが、定義が配置されているメソッドライブラリの名前を指定する「library」属性を追加する必要がある点が異なります。
 

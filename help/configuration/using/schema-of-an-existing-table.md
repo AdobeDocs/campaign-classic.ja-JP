@@ -3,9 +3,9 @@ product: campaign
 title: 既存のテーブルのスキーマ
 description: 既存のテーブルのスキーマ
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 9%
@@ -60,4 +60,4 @@ ht-degree: 9%
 
 「**Federated Data Access - FDA**」オプションを使用すると、外部データベースに保存されたデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマに実行する設定について詳しくは、[&#x200B; このページ &#x200B;](../../installation/using/creating-data-schema.md) を参照してください。
+外部データベースのデータにアクセスするためにスキーマに実行する設定について詳しくは、[ このページ ](../../installation/using/creating-data-schema.md) を参照してください。

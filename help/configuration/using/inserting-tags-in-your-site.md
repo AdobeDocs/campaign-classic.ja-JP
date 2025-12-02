@@ -3,9 +3,9 @@ product: campaign
 title: サイトに web トラッキングタグを挿入
 description: サイトに web トラッキングタグを挿入する方法を学ぶ
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 簡単な方法 {#simple-method}
 
-このメソッドでは、トラッキング対象の Web ページのHTMLソースコードに **`<img>`** のHTMLタグを挿入することで、リダイレクトサーバーへの HTTP 呼び出しを行います。
+このメソッドでは、トラッキングする web ページのHTML ソースコードに **`<img>`** HTML タグを挿入し、リダイレクトサーバーへの HTTP 呼び出しを行います。
 
 >[!IMPORTANT]
 >
@@ -125,7 +125,7 @@ Web ページが動的に生成される場合、ページ生成時に web ト�
 
 リダイレクトサーバーに送信される情報を制御したい場合、最も信頼できる方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
-作成する URL は、「Web トラッキングタグ：定義 [&#x200B; で定義されている構文ルールに従う必要があ &#x200B;](../../configuration/using/web-tracking-tag-definition.md) ます。
+作成する URL は、「Web トラッキングタグ：定義 [ で定義されている構文ルールに従う必要があ ](../../configuration/using/web-tracking-tag-definition.md) ます。
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

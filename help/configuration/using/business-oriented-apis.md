@@ -3,11 +3,11 @@ product: campaign
 title: ビジネス指向の API
 description: ビジネス指向の API
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '618'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 * 配信 :
 
-   * 配信アクションの作成。[SubmitDelivery （nms:delivery） &#x200B;](#submitdelivery--nms-delivery-) を参照してください。
+   * 配信アクションの作成。[SubmitDelivery （nms:delivery） ](#submitdelivery--nms-delivery-)
    * キャンペーンの送信（開始、一時停止、停止、配達確認の送信）、
    * 配信ログを復元しています。
 
@@ -27,19 +27,19 @@ ht-degree: 2%
    * ワークフローの開始
    * 工程の検証等
 
-     JavaScriptの [SOAP メソッドを参照してください &#x200B;](../../configuration/using/soap-methods-in-javascript.md)。
+     JavaScriptの [SOAP メソッドを参照してください ](../../configuration/using/soap-methods-in-javascript.md)。
 
 * コンテンツ管理
-* 購読の管理。[&#x200B; 購読（nms:subscription） &#x200B;](#subscribe--nms-subscription-) および [&#x200B; 購読解除（nms:subscription） &#x200B;](#unsubscribe--nms-subscription-) を参照してください。
+* 購読の管理については、[ 購読（nms:subscription） ](#subscribe--nms-subscription-)[ 購読解除（nms:subscription） ](#unsubscribe--nms-subscription-) を参照してください。
 * データプロセス：インポート、エクスポート。
 
 この節では、「購読」、「購読解除」、「SubmitDelivery」の各サービスの使用方法について説明します。
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP呼び出しとAdobe Campaignでの JavaScript 使用に関する追加情報のほか、アプリケーションで使用されるすべてのメソッドと関数の完全なリファレンスが含まれています。
+>[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP呼び出しと、Adobe Campaignでの JavaScript の使用に関する追加情報のほか、アプリケーションで使用されるすべてのメソッドと関数の完全なリファレンスが含まれています。
 
-## 購読（nms:subscription） {#subscribe--nms-subscription-}
+## 登録（nms:subscription） {#subscribe--nms-subscription-}
 
 このサービスを使用すると、受信者を情報サービスに登録して、受信者プロファイルを更新できます。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 * 認証、
 * 購読サービスの内部名。
-* 受信者情報を含む XML ドキュメント（「nms:recipient」スキーマから）
+* （「nms:recipient」スキーマの）受信者情報を含む XML ドキュメント
 * 受信者作成用のブール値（まだ存在しない場合）。
 
 「nms:subscription」スキーマの「subscribe」メソッドの説明：
@@ -62,7 +62,7 @@ ht-degree: 2%
 </method>
 ```
 
-紐付けキーの定義は、XML ドキュメントの `<recipient>` 要素の_&#x200B;**key** 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
+紐付けキーの定義は、XML ドキュメントの **要素の_** key`<recipient>` 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
 
 この呼び出しは、エラーを除き、データを返しません。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 * 認証、
 * 購読解除するサービスの内部名。
-* 受信者情報を含む XML ドキュメント（「nms:recipient」スキーマから）
+* （「nms:recipient」スキーマの）受信者情報を含む XML ドキュメント
 
 「nms:subscription」スキーマの「購読解除」メソッドの説明：
 

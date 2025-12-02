@@ -3,11 +3,11 @@ product: campaign
 title: データスキーマにおける鍵の管理
 description: データスキーマでのキー管理について
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '617'
 ht-degree: 30%
 
 ---
@@ -138,7 +138,7 @@ ACC 18.10 以降、**XtkNewId** は、標準スキーマのシーケンスのデ
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-Adobe Campaign スキーマで参照されているシーケンス（**NmsTrackingLogId** など）は、パラメーター内の ID の数をコンマで区切って返す SQL 関数に関連付ける必要があります。 この関数は、**GetNew** XXX **Ids** と呼ぶ必要があります。**XXX** は、シーケンスの名前です（例：**GetNewNmsTrackingLogIds**）。 アプリケーションに付属の **postgres-nms.sql**、**mssql-nms.sql** または **datakit/nms/eng/sql/** ディレクトリにあるoracle-nms.sql **ファイルを表示し、各データベースエンジンの「NmsTrackingLogId」シーケンス作成の例を復元します**。
+Adobe Campaign スキーマで参照されているシーケンス（**NmsTrackingLogId** など）は、パラメーター内の ID の数をコンマで区切って返す SQL 関数に関連付ける必要があります。 この関数は、**GetNew** XXX **Ids** と呼ぶ必要があります。**XXX** は、シーケンスの名前です（例：**GetNewNmsTrackingLogIds**）。 アプリケーションに付属の **postgres-nms.sql**、**mssql-nms.sql** または **oracle-nms.sql** ファイルを **datakit/nms/eng/sql/** ディレクトリに表示し、各データベースエンジンの「NmsTrackingLogId」シーケンス作成の例を回復します。
 
 一意のキーを宣言するには、データスキーマのメイン要素の **autopk** 属性（値「true」）に入力します。
 

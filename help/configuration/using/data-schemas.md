@@ -3,9 +3,9 @@ product: campaign
 title: データスキーマ
 description: Campaign データスキーマの基本を学ぶ
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 56%
@@ -40,7 +40,7 @@ ht-degree: 56%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用します。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、[&#x200B; スキーマの再生成 &#x200B;](../../configuration/using/regenerating-schemas.md) の節を参照してください。
+スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用します。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、[ スキーマの再生成 ](../../configuration/using/regenerating-schemas.md) の節を参照してください。
 
 ## 例：契約テーブルの作成 {#example--creating-a-contract-table}
 
@@ -117,4 +117,4 @@ ht-degree: 56%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[&#x200B; データベース構造の更新 &#x200B;](../../configuration/using/updating-the-database-structure.md) を参照してください。
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[ データベース構造の更新 ](../../configuration/using/updating-the-database-structure.md) を参照してください。

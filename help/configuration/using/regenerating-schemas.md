@@ -3,9 +3,9 @@ product: campaign
 title: スキーマの再生成
 description: Campaign スキーマを再生成する方法を学ぶ
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 1. 右クリックして **[!UICONTROL アクション/選択したスキーマを再生成…]** を選択します。
 1. **[!UICONTROL OK]** をクリックして、プロセスを確認して開始します。
 
-生成されたスキーマの構造を「プレビュー」タブと「ドキュメント」タブで確認できます。 詳しくは、「原則 [&#x200B; の節を参照してくだ &#x200B;](../../configuration/using/data-schemas.md#principles) い。
+生成されたスキーマの構造を「プレビュー」タブと「ドキュメント」タブで確認できます。 詳しくは、「原則 [ の節を参照してくだ ](../../configuration/using/data-schemas.md#principles) い。
 
 >[!NOTE]
 >

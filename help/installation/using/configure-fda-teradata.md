@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Teradata へのアクセスの設定
-description: FDA でTeradataへのアクセスを設定する方法を学ぶ
+description: FDA でTeradataへのアクセスを設定する方法を説明します
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1657'
 ht-degree: 66%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 66%
 
 
 
-Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 teradataへのアクセスを設定するには、次の手順に従います。
+Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 Teradataへのアクセスを設定するには、次の手順に従います。
 
-1. [Teradata ドライバのインストールと構成 &#x200B;](#teradata-config)
-1. Campaign でのTeradata[&#x200B; 外部アカウント &#x200B;](#teradata-external) の設定
-1. teradataおよび Campaign サーバーの [&#x200B; 追加設定 &#x200B;](#teradata-additional-configurations) を設定します
+1. [Teradata ドライバーのインストールと設定 ](#teradata-config)
+1. Campaign でTeradata[ 外部アカウント ](#teradata-external) を設定
+1. Teradataと Campaign サーバーの [ 追加の設定 ](#teradata-additional-configurations) を行う
 
 ## Teradata設定 {#teradata-config}
 
-Campaign への接続を実装するには、Teradataのドライバーをインストールする必要があります。
+Campaign への接続を実装するには、Teradata用のドライバーをインストールする必要があります。
 
 1. [Teradata 用の ODBC ドライバー](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
 
@@ -74,7 +74,7 @@ Campaign への接続を実装するには、Teradataのドライバーをイン
 
 ## Teradata 外部アカウント{#teradata-external}
 
-teradata外部アカウントを使用すると、Campaign インスタンスをTeradata外部データベースに接続できます。
+Teradata 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続できます。
 
 1. Campaign **[!UICONTROL エクスプローラー]** で、**[!UICONTROL 管理]**/**[!UICONTROL プラットフォーム]**/**[!UICONTROL 外部アカウント]** をクリックします。
 
@@ -86,26 +86,26 @@ teradata外部アカウントを使用すると、Campaign インスタンスを
 
    * **[!UICONTROL 種類]**: **[!UICONTROL Teradata]** の種類を選択します。
 
-   * **[!UICONTROL Server]**:Teradataサーバーの URL または名前
+   * **[!UICONTROL サーバー]**:Teradata サーバーの URL または名前
 
-   * **[!UICONTROL アカウント]**:Teradataデータベースへのアクセスに使用するアカウント名
+   * **[!UICONTROL アカウント]**:Teradata データベースへのアクセスに使用するアカウント名
 
-   * **[!UICONTROL Password]**:Teradataデータベースへの接続に使用するパスワード
+   * **[!UICONTROL Password]**:Teradata データベースへの接続に使用するパスワード
 
    * **[!UICONTROL Database]**：データベースの名前（オプション）
 
    * **[!UICONTROL Options]**:Teradataを通じて渡されるオプション。 「parameter=value」の形式を使用します。 値間の区切り文字としてセミコロンを使用します。
 
-   * **[!UICONTROL タイムゾーン]**:Teradataに設定されたタイムゾーン。 [詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**:Teradataで設定されたタイムゾーン。 [詳細情報](#timezone)
 
 コネクタは、次のオプションをサポートしています。
 
 | オプション | 説明 |
 |---|---|
-| TD_MAX_SESSIONS | オペレータージョブに対してTeradata パラレル トランスポーターが取得できるログオン セッションの最大数を指定します。 |
+| TD_MAX_SESSIONS | Teradata Parallel Transporter がオペレータージョブに対して取得できるログオンセッションの最大数を指定します。 |
 | TimeZoneName | サーバータイムゾーンの名前。 |
-| CharacterSet | teradata文字セットの設定に使用します。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
-| IANAAppCodePage | ODBC アプリケーション コード ページ。 <br> 詳しくは、[&#x200B; このページ &#x200B;](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) を参照してください。 |
+| CharacterSet | Teradataの文字セットを設定するために使用します。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
+| IANAAppCodePage | ODBC アプリケーション コード ページ。 <br> 詳しくは、[ このページ ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) を参照してください。 |
 
 ### 追加の ODBC 外部アカウント {#add-external}
 
@@ -113,7 +113,7 @@ teradata外部アカウントを使用すると、Campaign インスタンスを
 >
 > このオプションは、バージョン 7.3.1 より古いビルドでは使用できません。
 
-teradata ドライバは独自の ODBC ライブラリを提供しますが、このライブラリは他の ODBC 外部アカウントと互換性がない可能性があります。
+Teradata ドライバは独自の ODBC ライブラリを提供しますが、このライブラリは他の ODBC 外部アカウントと互換性がない可能性があります。
 
 ODBC も使用する別の外部アカウント（Snowflakeなど）を設定する場合は、デフォルトの ODBC ライブラリ（Debian の場合は `/usr/lib/x86_64-linux-gnu/libodbc.so`、RHEL/CentOS の場合は `/usr/lib64/libodbc.so`）のパスに ODBCLib オプションを追加する必要があります。
 
@@ -125,7 +125,7 @@ ODBC も使用する別の外部アカウント（Snowflakeなど）を設定す
 
 ![](assets/ext_account_20.png)
 
-このオプションを設定すると、Campaign ユーザーがTeradataデータベースに対してクエリを実行するたびに、Adobe Campaignからメタデータが送信されます。メタデータは、このユーザーに関連付けられたキーのリストで構成されます。 Teradata 管理者は、このデータを監査目的や、アクセス権の管理に使用できます。
+このオプションを設定すると、Campaign ユーザーがTeradata データベースに対してクエリを実行するたびに、Adobe Campaignからメタデータが送信されます。メタデータは、このユーザーに関連付けられたキーのリストで構成されます。 Teradata 管理者は、このデータを監査目的や、アクセス権の管理に使用できます。
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ ODBC も使用する別の外部アカウント（Snowflakeなど）を設定す
 
 接続のテスト中にエラー **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)**、が表示される場合は、ODBC ドライバーが正しくインストールされていること、および Campaign サーバーに対して LD_LIBRARY_PATH（Linux）または PATH（Windows）が設定されていることを確認してください。
 
-エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaignでは、odbcinst.ini のteradataに&#39;{teradata}&#39;という名前を付ける必要があります。
+エラー **ODB-240000 ODBC error: \[Microsoft\]\[ODBC Driver Manager\] データ ソース名が見つからず、既定のドライバが指定されていません。** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaignでは、odbcinst.ini の teradata の名前が&#39;{teradata}&#39;である必要があります。
 
-* Campaign 18.10 以降では、外部アカウントのオプションに ODBCDriverName=&quot;Teradataデータベース ODBC ドライバー 16.10&quot;を追加できます。 バージョン番号は変更できます。正確な名前は、odbcad32.exe を実行して [ ドライバ ] タブにアクセスすることで見つけることができます。
+* Campaign 18.10 以降では、外部アカウントのオプションに ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;を追加できます。 バージョン番号は変更できます。正確な名前は、odbcad32.exe を実行して [ ドライバ ] タブにアクセスすることで見つけることができます。
 
-* 古いバージョンの Campaign を使用している場合は、ドライバのインストール時に作成された odbcinst.ini のTeradata セクションを、Teradataという新しいセクションにコピーする必要があります。 この場合は、Regedit を使用できます。 ベースが latin1 の場合は、オプションに **APICharSize=1** を追加する必要があります。
+* 古いバージョンの Campaign を使用している場合は、ドライバのインストールによって作成された odbcinst.ini のTeradata セクションを、Teradataという新しいセクションにコピーする必要があります。 この場合は、Regedit を使用できます。 ベースが latin1 の場合は、オプションに **APICharSize=1** を追加する必要があります。
 
 ## その他の設定 {#teradata-additional-configurations}
 
@@ -227,7 +227,7 @@ sha2 をインストールするには、以下を実行します。
 
 ### UDF_UTF16TO8 インストール {#UDF-UTF16TO8-installation}
 
-Adobe Campaign インスタンスで udf_utf16to8 関数を使用する場合は、**Teradata Unicode ツールキット** からTeradataデータベースにユーザーモード関数をインストールします。
+Adobe Campaign インスタンスで udf_utf16to8 関数を使用する場合は、**Teradata unicode ツールキット** からTeradata データベースにユーザーモード関数をインストールします。
 
 ダウンロードファイルの sha1 は「e58235f434f52c71316a577cb48e20b97d24f470」です。
 
@@ -318,7 +318,7 @@ ODBC ドライバーと Teradata Parallel Transporter Base を必ずインスト
 
 Teradata は、標準ではないタイムゾーン名を使用しています。リストは [Teradata サイト](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA)で見つかります。Adobe Campaign は、外部設定で指定されたタイムゾーンを Teradata が理解できるものに変換しようとします。該当するものが見つからない場合は、セッションに一番近い GMT+X（または GMT-X）タイムゾーンが使用されて、ログに警告が表示されます。
 
-変換は、teradata_timezones.txt ファイルを読み取っておこなわれます。このファイルは linux では datakit ディレクトリ（/usr/local/neolane/nl6/datakit）にあります。このファイルを編集する場合は、Adobe Campaign チームに連絡してソースコードを変更してください。これを怠ると、次回 Campaign アップデートした時にこのファイルが上書きされます。
+変換は、teradata_timezones.txt ファイルを読み取って行われます。このファイルは linux では datakit ディレクトリ（/usr/local/neolane/nl6/datakit）にあります。このファイルを編集する場合は、Adobe Campaign チームに連絡してソースコードを変更してください。これを怠ると、次回 Campaign アップデートした時にこのファイルが上書きされます。
 
 接続に使用されるタイムゾーンは、nlserver を -verbose スイッチで実行するときに示されます。例：
 

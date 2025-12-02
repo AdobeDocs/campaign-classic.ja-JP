@@ -3,9 +3,9 @@ product: campaign
 title: Web トラッキングタグの作成
 description: Web トラッキングタグの作成方法を学ぶ
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -25,12 +25,12 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
-ページに挿入するHTMLコードを生成するには、次の手順を実行します。
+ページに挿入するHTML コードを生成するには、次の手順を実行します。
 
 * タグのラベルを入力します。このラベルがトラッキングログに表示されます。
 * ソース URL を指定：このフィールドは情報目的で、追跡するページを指定できます（オプション）。
 * 必要に応じて、有効期間を入力し、
-* 「**[!UICONTROL HTMLコードを生成]**」をクリックします。
+* 「**[!UICONTROL 生成]** HTML コードをクリックします。
 
 次に、生成されたコードをコピーし、追跡するページに貼り付けます。
 

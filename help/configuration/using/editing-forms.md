@@ -3,10 +3,10 @@ product: campaign
 title: フォームの編集
 description: フォームの編集
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1736'
 ht-degree: 3%
@@ -25,9 +25,9 @@ ht-degree: 3%
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 ファクトリ入力フォームは、ファクトリデータスキーマに基づいています。
 * 定義するデータスキーマに基づいて、カスタム入力フォームを作成できます。
 
-Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキーマで入力フォーム構造を表示できます。 このスキーマを表示するには、メニューから **[!UICONTROL 管理]**/**[!UICONTROL 設定]**/**[!UICONTROL データスキーマ]** を選択します。 詳しくは、[&#x200B; フォーム構造 &#x200B;](form-structure.md) を参照してください。
+Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキーマで入力フォーム構造を表示できます。 このスキーマを表示するには、メニューから **[!UICONTROL 管理]**/**[!UICONTROL 設定]**/**[!UICONTROL データスキーマ]** を選択します。 詳しくは、[ フォーム構造 ](form-structure.md) を参照してください。
 
-入力フォームにアクセスするには、メニューから **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 入力フォーム]** を選択します。
+入力フォームにアクセスするには、メニューから **[!UICONTROL 管理 ]/[!UICONTROL  設定 ]/[!UICONTROL  入力フォーム]** を選択します。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -35,7 +35,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[詳細情報](form-structure.md#formatting)
+[詳細情報](form-structure.md#formatting)。
 
 フォームをプレビューするには、「**[!UICONTROL プレビュー]**」タブをクリックします。
 
@@ -53,13 +53,13 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 * コンテンツ管理
 
-  このフォームタイプをコンテンツ管理に使用します。 この [&#x200B; ユースケース &#x200B;](../../delivery/using/use-case-creating-content-management.md) を参照してください。
+  このフォームタイプをコンテンツ管理に使用します。 この [ ユースケース ](../../delivery/using/use-case-creating-content-management.md) を参照してください。
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * アシスタント
 
-  このフォームは、特定のシーケンスで順序付けられた複数のフローティングスクリーンで構成されます。 ユーザーは、ある画面から次の画面に移動します。 [詳細情報](form-structure.md#wizards)
+  このフォームは、特定のシーケンスで順序付けられた複数のフローティングスクリーンで構成されます。 ユーザーは、ある画面から次の画面に移動します。 [詳細情報](form-structure.md#wizards)。
 
 * アイコンボックス
 
@@ -89,7 +89,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 * 入力フィールドへのアクセスの定義
 * フォームを他のフォーム内にネスト
 
-[詳細情報](form-structure.md#containers)
+[詳細情報](form-structure.md#containers)。
 
 ### コンテンツを整理
 
@@ -98,7 +98,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 * フィールドをセクションにグループ化できます。
 * 複数ページのフォームにページを追加できます。
 
-コンテナを挿入するには、`<container>` 要素を使用します。 [詳細情報](form-structure.md#containers)
+コンテナを挿入するには、`<container>` 要素を使用します。 [詳細情報](form-structure.md#containers)。
 
 #### グループフィールド
 
@@ -145,7 +145,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 ### フォームをネスト
 
-コンテナを使用して、フォームを他のフォーム内にネストします。 [詳細情報](#add-pages-to-multipage-forms)
+コンテナを使用して、フォームを他のフォーム内にネストします。 [詳細情報](#add-pages-to-multipage-forms)。
 
 ## 画像への参照
 
@@ -155,7 +155,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 構文：`img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
-この例では、`book.png` への参照と `ncm` 名前空間からの `detail.png` 画像を示します。
+この例では、`book.png` への参照と `detail.png` 名前空間からの `ncm` 画像を示します。
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -211,7 +211,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 1. フォーム要素を挿入します。
 
-   例えば、入力フィールドを挿入するには、`<input>` 要素を使用します。 フィールド参照の `xpath` 属性を XPath 式として設定します。 [詳細情報](schema-structure.md#referencing-with-xpath)
+   例えば、入力フィールドを挿入するには、`<input>` 要素を使用します。 フィールド参照の `xpath` 属性を XPath 式として設定します。 [詳細情報](schema-structure.md#referencing-with-xpath)。
 
    この例では、`nms:recipient` スキーマに基づく入力フィールドを示します。
 
@@ -244,7 +244,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳しくは、[&#x200B; メモリリストコントロール &#x200B;](form-structure.md#memory-list-controls) を参照してください。
+   詳しくは、[ メモリリストコントロール ](form-structure.md#memory-list-controls) を参照してください。
 
 1. オプションで、フィールドへのアクセスを定義します。
 
@@ -292,7 +292,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 既存のフォームのタイプを `iconbox` に変更するには、次の手順に従います。
 
-1. `<form>` 要素の `type` 属性を `iconbox` に変更します。
+1. `type` 要素の `<form>` 属性を `iconbox` に変更します。
 
    ```xml
    <form […] type="iconbox">
@@ -320,7 +320,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
       </form>
       ```
 
-   または、既存の `<container>` 要素から `type="frame"` 属性を削除します。
+   または、既存の `type="frame"` 要素から `<container>` 属性を削除します。
 
 ### ノートブックフォームの作成
 
@@ -330,7 +330,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 既存のフォームのタイプを `notebook` に変更するには、次の手順に従います。
 
-1. `<form>` 要素の `type` 属性を `notebook` に変更します。
+1. `type` 要素の `<form>` 属性を `notebook` に変更します。
 
    ```xml
    <form […] type="notebook">
@@ -358,7 +358,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
      </form>
    ```
 
-   または、既存の `<container>` 要素から `type="frame"` 属性を削除します。
+   または、既存の `type="frame"` 要素から `<container>` 属性を削除します。
 
 ### フォームをネスト
 
@@ -451,7 +451,7 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
    1. メニューから **[!UICONTROL 管理]**/**[!UICONTROL 設定]**/**[!UICONTROL 入力フォーム]** を選択します。
    1. 入力フォームを選択して変更します。
 
-   ファクトリデータスキーマは拡張できますが、ファクトリ入力フォームは拡張できません。 ファクトリ入力フォームを再作成せずに、直接変更することをお勧めします。 ソフトウェアのアップグレード中に、工場出荷時の入力フォームに加えた変更は、アップグレードと結合されます。 自動結合が失敗した場合は、競合を解決できます。 [詳細情報](../../production/using/upgrading.md#resolving-conflicts)
+   ファクトリデータスキーマは拡張できますが、ファクトリ入力フォームは拡張できません。 ファクトリ入力フォームを再作成せずに、直接変更することをお勧めします。 ソフトウェアのアップグレード中に、工場出荷時の入力フォームに加えた変更は、アップグレードと結合されます。 自動結合が失敗した場合は、競合を解決できます。 [詳細情報](../../production/using/upgrading.md#resolving-conflicts)。
 
    例えば、フィールドを追加してファクトリスキーマを拡張する場合、このフィールドを関連するファクトリフォームに追加できます。
 
@@ -461,9 +461,9 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 
 ### フィールドへの読み取り専用アクセスの許可
 
-フィールドへの読み取り専用アクセスを許可するには、`readOnly="true"` 属性を使用します。 たとえば、レコードの主キーを読み取り専用アクセスで表示する場合があります。 [詳細情報](form-structure.md#non-editable-fields)
+フィールドへの読み取り専用アクセスを許可するには、`readOnly="true"` 属性を使用します。 たとえば、レコードの主キーを読み取り専用アクセスで表示する場合があります。 [詳細情報](form-structure.md#non-editable-fields)。
 
-この例では、`nms:recipient` スキーマのプライマリキー（`iRecipientId`）は読み取り専用アクセスで表示されます。
+この例では、`iRecipientId` スキーマのプライマリキー（`nms:recipient`）は読み取り専用アクセスで表示されます。
 
 ```xml
 <value xpath="@iRecipientId" readOnly="true"/>
@@ -487,11 +487,11 @@ Formsは `xtk:form` タイプのエンティティです。 `xtk:form` スキー
 </leave>
 ```
 
-詳しくは、[&#x200B; 式フィールド &#x200B;](form-structure.md#expression-field) および [&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms) を参照してください。
+詳しくは、[ 式フィールド ](form-structure.md#expression-field) および [ フォームコンテキスト ](form-structure.md#context-of-forms) を参照してください。
 
 ### 値を検証
 
-JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して、複雑な検証を行います。例えば、許可された値のリストに対して値を確認する場合などに使用します。 [詳細情報](form-structure.md#soap-methods)
+JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して、複雑な検証を行います。例えば、許可された値のリストに対して値を確認する場合などに使用します。 [詳細情報](form-structure.md#soap-methods)。
 
 1. JS ファイルに検証関数を作成します。
 
@@ -509,7 +509,7 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
    }
    ```
 
-   この例では、関数の名前は `checkValue` です。 この関数は、`nms` 名前空間の `recipient` データタイプを確認するために使用されます。 チェックされる値はログに記録されます。 値が有効でない場合は、エラーメッセージがログに記録されます。 値が有効な場合は、値 1 が返されます。
+   この例では、関数の名前は `checkValue` です。 この関数は、`recipient` 名前空間の `nms` データタイプを確認するために使用されます。 チェックされる値はログに記録されます。 値が有効でない場合は、エラーメッセージがログに記録されます。 値が有効な場合は、値 1 が返されます。
 
    戻り値を使用してフォームを変更できます。
 
@@ -548,4 +548,4 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力は ID （プライマリキー）です。 ユーザーがこの ID のフォームに入力すると、この ID を入力パラメーターとしてSOAP呼び出しが実行されます。 出力は、このフィールド `/tmp/@count` に書き込まれるブール値です。 このブール値をフォーム内で使用できます。 詳しくは、[&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms) を参照してください。
+この例では、入力は ID （プライマリキー）です。 ユーザーがこの ID のフォームに入力すると、この ID を入力パラメーターとしてSOAPが呼び出されます。 出力は、このフィールド `/tmp/@count` に書き込まれるブール値です。 このブール値をフォーム内で使用できます。 詳しくは、[ フォームコンテキスト ](form-structure.md#context-of-forms) を参照してください。

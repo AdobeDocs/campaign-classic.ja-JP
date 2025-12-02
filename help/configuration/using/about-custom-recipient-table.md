@@ -3,12 +3,12 @@ product: campaign
 title: カスタム受信者テーブルについて
 description: カスタム受信者テーブルについて
 feature: Configuration, Custom Resources
-role: User, Data Engineer, Developer
+role: User, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ここでは、Adobe Campaignの既存のテーブルをマッピングする際の注意点と、任意のテーブルに基づいて配信するときに必要な設定について説明します。 最後に、ビルトインの受信者テーブルで使用できる実用的な問い合わせインターフェイスをユーザーに提供する方法について説明します。 この節で示す資料を理解するには、画面とスキーマのデザインの原則に関する十分な知識が必要です。
 
-## Recommendationsと制限事項 {#recommendations-and-limitations}
+## 推奨事項と制限事項 {#recommendations-and-limitations}
 
 カスタム受信者テーブルの使用には、次の制限事項があります。
 
@@ -43,12 +43,12 @@ ht-degree: 10%
 
   以下をお勧めします。
 
-   * **[!UICONTROL nms:BroadLogRcp]** および **[!UICONTROL nms:TrackingLogRcp]** スキーマを、標準 **[!UICONTROL nms:Recipientschema]** に委任します。 これら 2 つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
-   * 新しいカスタム受信者スキーマごとに専用のカスタム broadlog スキーマと trackinglog スキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に行うことができます。[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md) を参照してください。
+   * **[!UICONTROL nms:BroadLogRcp]** および **[!UICONTROL nms:TrackingLogRcp]** スキーマを標準 **[!UICONTROL nms:Recipientschema]** 専用にします。 これら 2 つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
+   * 新しいカスタム受信者スキーマごとに専用のカスタム broadlog スキーマと trackinglog スキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に行うことができます。[ ターゲットマッピング ](../../configuration/using/target-mapping.md) を参照してください。
 
 * 製品で提供されている標準 **[!UICONTROL サービスと購読]** を使用することはできません。
 
-  つまり、[&#x200B; この節 &#x200B;](../../delivery/using/managing-subscriptions.md) で詳しく説明している全体的な操作は適用されないということです。
+  つまり、[ この節 ](../../delivery/using/managing-subscriptions.md) で詳しく説明している全体的な操作は適用されないということです。
 
 * **[!UICONTROL visitor]** テーブルとのリンクは機能しません。
 
@@ -58,18 +58,18 @@ ht-degree: 10%
 
 * リストにプロファイルを手動で追加することはできません。
 
-  したがって、[&#x200B; この節 &#x200B;](../../platform/using/creating-and-managing-lists.md) で詳しく説明した手順は、追加の設定なしでは適用できません。
+  したがって、[ この節 ](../../platform/using/creating-and-managing-lists.md) で詳しく説明した手順は、追加の設定なしでは適用できません。
 
   >[!NOTE]
   >
-  >ワークフローを使用して、受信者リストを作成することもできます。 詳しくは、[&#x200B; ワークフローを使用したプロファイルリストの作成 &#x200B;](../../configuration/using/creating-a-profile-list-with-a-workflow.md) を参照してください。
+  >ワークフローを使用して、受信者リストを作成することもできます。 詳しくは、[ ワークフローを使用したプロファイルリストの作成 ](../../configuration/using/creating-a-profile-list-with-a-workflow.md) を参照してください。
 
 様々な標準設定で使用されているデフォルト値を確認することもお勧めします。使用される機能に応じて、いくつかの適応を実行する必要があります。
 
 例：
 
-* 特定の標準レポート、特に **インタラクション** および **モバイルアプリケーション** で提供されるレポートは、再開発する必要があります。 [&#x200B; レポートの管理 &#x200B;](../../configuration/using/managing-reports.md) の節を参照してください。
-* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル（**[!UICONTROL nms:recipient]**）を参照します。これらの設定は、外部受信者テーブルで使用するときに変更する必要があります。 [&#x200B; ワークフローの管理 &#x200B;](../../configuration/using/managing-workflows.md) の節を参照してください。
+* 特定の標準レポート、特に **インタラクション** および **モバイルアプリケーション** で提供されるレポートは、再開発する必要があります。 [ レポートの管理 ](../../configuration/using/managing-reports.md) の節を参照してください。
+* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル（**[!UICONTROL nms:recipient]**）を参照します。これらの設定は、外部受信者テーブルで使用する際に変更する必要があります。 [ ワークフローの管理 ](../../configuration/using/managing-workflows.md) の節を参照してください。
 * 標準の **[!UICONTROL 購読解除リンク]** パーソナライゼーションブロックを適合させる必要があります。
 * 標準配信テンプレートのターゲットマッピングは変更する必要があります。
 * V4 フォームは外部受信者テーブルとの使用に互換性がありません。web アプリケーションを使用する必要があります。

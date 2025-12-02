@@ -4,9 +4,9 @@ title: コンテンツマネージャーのリソースと原則
 description: コンテンツマネージャーのリソースと原則
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Templates
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%

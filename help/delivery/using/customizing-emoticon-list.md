@@ -8,7 +8,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 1. これで、新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入リスト]**（標準の列挙）に追加されました。**[!UICONTROL 表示順]**&#x200B;はいつでも変更できます。また、不要になった顔文字はストアに移動できます。
 
-1. 変更を有効にするには、Adobe Campaign Classic から切断してから再接続します。新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示されない場合は、キャッシュをクリアする必要がある可能性があります。詳しくは、[この節](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)を参照してください。
+1. 変更を有効にするには、Adobe Campaign Classic から切断してから再接続します。新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示されない場合は、キャッシュをクリアする必要がある可能性があります。詳しくは、[この節](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache)を参照してください。
 
 1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。配信での顔文字の使用方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#inserting-emoticons){target="_blank"}を参照してください。
 

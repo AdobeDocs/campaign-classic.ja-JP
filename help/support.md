@@ -6,10 +6,10 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 
@@ -33,21 +33,15 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### よくある質問
 
-新しいビルドにアップグレードする方法は？ ワークフローの実行を監視する方法データベースのクリーンアップワークフローについて知るには、[よくある 10 件の質問を参照してください](platform/using/common-questions.md)。
-
 <table>
     <tr><td><strong>トピック Q&amp;A</strong></td><td><strong>一般的な問題</strong></td><td><strong>ベストプラクティス</strong></td><td><strong>ハウツー</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">主要概念</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">Campaign 設定</a></li>
-        <li><a href="platform/using/faq-reporting.md">レポート</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 に関するよくある質問</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">ビルドのアップグレード</a></li>
-        <li><a href="platform/using/faq-messages.md">メッセージのテスト、送信、トラッキング</a></li>
-        <li><a href="platform/using/faq-workflows.md">ワークフロー</a></li>
-        <li><a href="platform/using/faq-developers.md">デベロッパー</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">配信品質</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Campaign v8 の包括的な FAQ</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -138,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

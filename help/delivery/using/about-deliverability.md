@@ -6,10 +6,10 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: b2b188ee3f202c247ceac1f59a49b7ad1771d537
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 97%
 
 ---
 
@@ -79,9 +79,8 @@ Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウ�
 
 詳しくは、以下の節を参照してください。
 
-* [配信の失敗について](understanding-delivery-failures.md)
-* [強制隔離管理について](understanding-quarantine-management.md)
-* [強制隔離とブロックリストの比較](understanding-quarantine-management.md#quarantine-vs-denylist)
+* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント – 包括的なガイド）
+* [ 強制隔離管理について ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント – 包括的ガイド）
 
 ### 監視ツールとレポートツールの使用
 
@@ -91,6 +90,5 @@ Adobe Campaign では、一連のビルトインのリアルタイムインジ�
 
 詳しくは、以下の節を参照してください。
 
-* [配信品質の監視](monitoring-deliverability.md)
 * [配信監視の基本を学ぶ](about-delivery-monitoring.md)
 * [Campaign ビルトインレポートの概要](../../reporting/using/about-campaign-built-in-reports.md)

@@ -2,236 +2,48 @@
 product: campaign
 title: 配信の失敗について
 description: 配信失敗を理解する方法を学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '2629'
-ht-degree: 100%
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 52%
 
 ---
 
 # 配信の失敗について{#understanding-delivery-failures}
 
-## 配信エラーについて {#about-delivery-failures}
+>[!NOTE]
+>
+>配信エラーについてに関する包括的なガイダンスは、[Campaign v8 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures) ページに記載されています。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用され、以下をカバーしています。
+>
+>* 配信エラーのタイプと理由（ハード、ソフト、無視）
+>* 同期エラーと非同期エラー
+>* バウンスメールの選定
+>* メール、プッシュ通知、SMS のエラータイプ
+>* 再試行の管理と有効期間
+>* 一般的な配信エラーのトラブルシューティング
+>
+>このページは、ハイブリッドデプロイメントおよびオンプレミスデプロイメントでのバウンスメール管理の **0}Campaign Classic v7 固有の設定 } について説明します。**
 
-メッセージ（メール、SMS、プッシュ通知）をプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。このメッセージは Adobe Campaign プラットフォームによってピックアップされ、そのメールアドレスまたは電話番号を強制隔離するかどうかを決定するために評価されます。[バウンスメールの管理](#bounce-mail-management)を参照してください。
+配信エラーの一般的な概念、エラータイプおよびトラブルシューティングガイダンスについては、[Campaign v8 配信エラーについてのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+
+## バウンスメールの設定 {#v7-bounce-mail-config}
+
+バウンスメールの処理を管理するための **Campaign Classic v7 ハイブリッド/オンプレミスデプロイメントでは** 次の設定オプションを使用できます。
+
+### バウンスメールボックスの設定 {#bounce-mailbox-configuration}
+
+オンプレミスインストールの場合、バウンスメールボックスの設定について詳しくは [ この節 ](../../installation/using/deploying-an-instance.md#managing-bounced-emails) を参照してください。
+
+非同期エラーメッセージは、バウンスメールボックスを通じてAdobe Campaign プラットフォームによって収集され、inMail プロセスによって選定されて、メール管理ルールのリストを充実させます。
 
 >[!NOTE]
 >
->**メール**&#x200B;エラーメッセージ（「バウンス」）は、Enhanced MTA（同期バウンス）または inMail プロセス（非同期バウンス）で評価されます。
->
->**SMS** エラーメッセージまたは SR（「ステータスレポート」の意味）は MTA プロセスによって評価されます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、バウンスメールボックスの設定は、Adobeによって実行および管理されます。 設定は不要です。
 
-メッセージの送信後、配信ログによって各プロファイルの配信ステータスと、関連するエラーのタイプおよび理由を確認できます。
-
-アドレスが強制隔離されているか、プロファイルがブロックリストに登録されている場合、配信準備の際にメッセージを除外することもできます。除外されたメッセージのリストは、配信ダッシュボードに表示されます。
-
-**関連トピック：**
-
-* [配信ログと履歴](delivery-dashboard.md#delivery-logs-and-history)
-* [失敗ステータス](delivery-performances.md#failed-status)
-* [配信エラーのタイプと理由](#delivery-failure-types-and-reasons)
-
-## 配信エラーのタイプと理由 {#delivery-failure-types-and-reasons}
-
-メッセージエラーには次の 3 つのタイプがあります。それぞれのエラータイプによって、アドレスが強制隔離されるかどうかが決まります。詳しくは、[アドレスを強制隔離する条件](understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)を参照してください。
-
-* **ハード**：「ハード」エラーは無効なアドレスの存在を示します。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
-* **ソフト**：これは一時的なエラーか、「無効なドメイン」または「メールボックス容量超過」など、分類が不可能なエラーです。
-* **無視**：これは、「外出中」など一時的であることがわかっているエラーまたは送信者タイプが「postmaster」である場合などの技術的エラーです。
-
-配信エラーの理由として考えられるものを以下に示します。
-
-<table> 
- <tbody> 
-  <tr> 
-   <td> エラーラベル </td> 
-   <td> エラータイプ </td> 
-   <td> 技術値 </td> 
-   <td> 説明 </td> 
-  </tr> 
-  <tr> 
-   <td> 無効なアカウント </td> 
-   <td> ソフト／ハード </td> 
-   <td> 4 </td> 
-   <td> アドレスにリンクされているアカウントはもはやアクティブではありません。インターネットアクセスプロバイダー（IAP）は、長期間使用されていないことを検出すると、そのユーザーのアカウントをクローズできます。そのユーザーのアドレスへの配信は不可能になります。アカウントが 6 か月間使用されていないことが原因で一時的に無効になっていて、まだ有効化することができる場合は、エラーありステータスが割り当てられ、エラーカウンターが 5 に達するまでアカウントが再試行されます。アカウントが永続的に無効化されたことをエラーが示している場合は、アカウントは直接強制隔離に設定されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 強制隔離中のアドレス </td> 
-   <td> ハード </td> 
-   <td> 9 </td> 
-   <td> アドレスは強制隔離されました。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> アドレスが未指定 </td> 
-   <td> ハード </td> 
-   <td> 7 </td> 
-   <td> 受信者のアドレスが指定されていません。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 低品質のアドレス </td> 
-   <td> 無視 </td> 
-   <td> 14 </td> 
-   <td> このアドレスの品質評価が低すぎます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> ブロックリスト登録済みアドレス </td> 
-   <td> ハード </td> 
-   <td> 8 </td> 
-   <td> 送信時にアドレスがブロックリストに追加されました。このステータスは、外部リストおよび外部システムからデータを Adobe Campaign の強制隔離リストにインポートするために使用します。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 制御アドレス </td> 
-   <td> 無視 </td> 
-   <td> 127 </td> 
-   <td> 受信者のアドレスはコントロール母集団に含まれています。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 重複 </td> 
-   <td> 無視 </td> 
-   <td> 10 </td> 
-   <td> 受信者のアドレスがこの配信に既に存在しました。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 無視されたエラー </td> 
-   <td> 無視 </td> 
-   <td> 25 </td> 
-   <td> アドレスは許可リストに登録されています。したがってエラーは無視され、メールは送信されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 判別後に除外 </td> 
-   <td> 無視 </td> 
-   <td> 12 </td> 
-   <td> 受信者が「判別」タイプのキャンペーンタイポロジルールによって除外されました。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> SQL ルールによって除外 </td> 
-   <td> 無視 </td> 
-   <td> 11 </td> 
-   <td> 受信者が「SQL」タイプのキャンペーンタイポロジルールによって除外されました。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 無効なドメイン </td> 
-   <td> ソフト </td> 
-   <td> 2 </td> 
-   <td> メールアドレスのドメインが正しくないか、存在しません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> メールボックス容量超過 </td> 
-   <td> ソフト </td> 
-   <td> 5 </td> 
-   <td> このユーザーのメールボックスはいっぱいになっていて、メッセージをこれ以上受け入れることができません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。<br />このタイプのエラーはクリーンアッププロセスによって管理されます。アドレスは 30 日後に有効なステータスに設定されます。<br />警告：強制隔離されたアドレスのリストからアドレスを自動的に削除するには、データベースクリーンアップテクニカルワークフローを開始する必要があります。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 未接続 </td> 
-   <td> 無視 </td> 
-   <td> 6 </td> 
-   <td> メッセージが送信されたときに受信者の携帯電話の電源が切れていたか、ネットワークに接続されていませんでした。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 未定義 </td> 
-   <td> 未定義 </td> 
-   <td> 0 </td> 
-   <td> エラーがまだインクリメントされていないので、アドレスは選定中です。このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。その後、テクニカルチームは、ツリー構造の<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">配信不能件数の管理</span>ノードからメッセージの分析を実行し、このエラーを検証します。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> オファーを受ける資格がない </td> 
-   <td> 無視 </td> 
-   <td> 16 </td> 
-   <td> 受信者には配信でオファーを受ける資格がありませんでした。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 拒否 </td> 
-   <td> ソフト／ハード </td> 
-   <td> 20 </td> 
-   <td> アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> サイズが制限されたターゲット </td> 
-   <td> 無視 </td> 
-   <td> 17 </td> 
-   <td> 受信者に対する最大配信サイズに達しました。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 未適合のアドレス </td> 
-   <td> 無視 </td> 
-   <td> 15 </td> 
-   <td> 郵便物の送付先住所が選定されていません。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 未到達 </td> 
-   <td> ソフト／ハード </td> 
-   <td> 3 </td> 
-   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーに関するインシデント、一時的に未到達なドメインなどが考えられます。アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 不明なユーザー </td> 
-   <td> ハード </td> 
-   <td> 1 </td> 
-   <td> アドレスが存在しません。このプロファイルに対する配信はこれ以上試行されません。<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
-
-一時的な&#x200B;**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによるメッセージエラーが発生した場合、再試行が配信期間中におこなわれます
-
->[!NOTE]
->
->一時的に配信できなかったメッセージは、**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーにのみ関係するもので、**ハード**&#x200B;エラーは関係ありません（[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照）。
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
-
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。**配信の送信**／**有効期間の定義**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。
-
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行できます。再試行の回数は、グローバルに変更することも（アドビの技術管理者にお問い合わせください）、配信または配信テンプレートごとに変更することもできます。**配信の送信**／**再試行の設定**&#x200B;の下にあるこの[ページ](communication-channels.md)を参照してください。
-
-## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
-
-メッセージは、直ちにエラーになることも（同期エラー）、送信後しばらくしてエラーになることも（非同期エラー）あります。
-
-* 同期エラー：Adobe Campaign 配信サーバーによってアクセスされたリモートメールサーバーがエラーメッセージを返します。配信をプロファイルのサーバーに送ることは許可されません。Adobe Campaign が個々のエラーを評価して、そのメールアドレスを強制隔離すべきかどうかを判断します。[バウンスメールの選定](#bounce-mail-qualification)を参照してください。
-* 非同期エラー：バウンスメールまたは SR が受信サーバーによって後で再送信された場合です。このメールは、メッセージにエラーのラベルを付けるためにアプリケーションが使用するテクニカルメールボックスに読み込まれます。非同期エラーは、配信の送信から 1 週間が経過するまで発生する可能性があります。
-
-  >[!NOTE]
-  >
-  >バウンスメールボックスの設定については、[この節](../../installation/using/deploying-an-instance.md#managing-bounced-emails)で詳しく説明しています。
-
-  [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)はバウンスメールのように機能します。ユーザーがメールをスパムとみなしたら、Adobe Campaign でメールルールを設定して、このユーザーへのすべての配信をブロックできます。メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成されたメールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。
-
-  >[!NOTE]
-  >
-  >苦情数管理について詳しくは、[配信品質の管理](about-deliverability.md)の節を参照してください。
-
-## バウンスメール管理 {#bounce-mail-management}
-
-Adobe Campaign プラットフォームでは、バウンスメール機能を使用して、メール配信の失敗を管理できます。
-
-メールを受信者に配信できない場合は、リモートメッセージングサーバーが、専用のテクニカル受信ボックスにエラーメッセージ（バウンスメール）を自動的に返します。
-
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーメッセージは Adobe Campaign プラットフォームによって収集され、inMail プロセスで選定されて、メール管理ルールのリストを強化します。
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、大部分のメール管理は使用されなくなります。詳しくは、[この節](#email-management-rules)を参照してください。
-
-### バウンスメール選定 {#bounce-mail-qualification}
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードしている場合：
->
->* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。**** Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
->
->* **非同期**&#x200B;バウンスは、引き続き、**[!UICONTROL インバウンドメール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[メール管理ルール](#email-management-rules)を参照してください。
->
->* **Webhooks なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンドメール]**&#x200B;ルールは、非同期のバウンスメールと同じメールアドレスを使用して、Enhanced MTA からの同期バウンスメールを処理するためにも使用されます。
+### バウンスメールの認定管理 {#bounce-mail-qualification-management}
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、メールの配信に失敗すると、Adobe Campaign 配信サーバーは、メッセージングサーバーまたはリモート DNS サーバーからエラーメッセージを受け取ります。エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。
 
@@ -253,9 +65,9 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 バウンスメールは、次の選定ステータスを持つことができます。
 
-* **[!UICONTROL 検証必要]**：バウンスメールを選定できませんでした。選定を配信品質チームに割り当てて、効率的なプラットフォーム配信品質を保証する必要があります。選定されていないバウンスメールは、メール管理ルールのリストのエンリッチメントには使用されません。
-* **[!UICONTROL 保持]**：バウンスメールは検証されました。**配信品質の更新**&#x200B;ワークフローは、このバウンスメールを既存のメール管理ルールとの比較およびリストのエンリッチメントに使用します。
-* **[!UICONTROL 無視]**：バウンスメールは Campaign MTA では無視され、このバウンスによって受信者のアドレスが隔離されることはありません。**配信品質の更新**&#x200B;ワークフローでは使用されず、クライアントインスタンスに送信されません。
+* **[!UICONTROL 選定]**：バウンスメールを選定できませんでした。 選定を配信品質チームに割り当てて、効率的なプラットフォーム配信品質を保証する必要があります。選定されていないバウンスメールは、メール管理ルールのリストのエンリッチメントには使用されません。
+* **[!UICONTROL 保持]**：バウンスメールは検証されました。**配信品質の更新**&#x200B;ワークフローは、このバウンスメールを既存の E メール管理ルールとの比較およびリストのエンリッチメントに使用します。
+* **[!UICONTROL 無視]**：バウンスメールは Campaign MTA によって無視され、このバウンスによって受信者のアドレスが隔離されることはありません。 **配信品質の更新**&#x200B;ワークフローでは使用されず、クライアントインスタンスに送信されません。
 
 ![](assets/deliverability_qualif_status.png)
 
@@ -263,11 +75,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 >
 >ISP を利用できなくなった場合、Campaign を通じて送信されたメールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンス選定条件を更新する必要があります。詳しくは、[このページ](update-bounce-qualification.md)を参照してください。
 
-### メール管理ルール {#email-management-rules}
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、大部分のメール管理は使用されなくなります。詳しくは、以下の節を参照してください。
+### メール管理ルールの設定 {#email-management-rules}
 
 メールルールには、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／メールルールセット]**&#x200B;ノードからアクセスします。メール管理ルールがウィンドウの下部に表示されます。
 
@@ -281,54 +89,60 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 >[!IMPORTANT]
 >
->* パラメーターを変更した場合は、配信サーバー（MTA）を再起動する必要があります。
+>* パラメーターが変更されている場合は、配信サーバー（MTA）を再起動する必要があります。
 >* 管理ルールを変更または作成できるのは、エキスパートユーザーのみです。
 
 #### 受信メール {#inbound-email}
 
-<!--
-STATEMENT ONLY TRUE with Momentum and EFS+:
-For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+これらのルールには、リモートサーバーから返される文字列と、エラーを検証できる文字列が含まれています（**ハード**、**ソフト**、または **無視**）。
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
-
-**[!UICONTROL 受信メール]**&#x200B;のルールには、リモートサーバーから返され、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
-
-メールが失敗すると、リモートサーバーが[プラットフォームのパラメーター](../../installation/using/deploying-an-instance.md)で指定されたアドレスにバウンスメッセージを返します。Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つの[エラータイプ](#delivery-failure-types-and-reasons)のいずれかを割り当てます。
+メールが失敗すると、リモートサーバーがプラットフォームのパラメーターで指定されたアドレスにバウンスメールを返します。Adobe Campaignは、各バウンスメッセージのコンテンツをルールリストの文字列と比較して、3 つのエラータイプのいずれかを割り当てます。
 
 >[!NOTE]
 >
 >ユーザーは独自のルールを作成できます。パッケージをインポートしたり、**配信品質の更新**&#x200B;ワークフローでデータを更新すると、ユーザーが作成したルールが上書きされます。
 
-バウンスメールの選定について詳しくは、[この節](#bounce-mail-qualification)を参照してください。
+バウンスメールの選定について詳しくは、[ この節 ](#bounce-mail-qualification-management) を参照してください。
 
 #### ドメイン管理 {#domain-management}
 
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL ドメイン管理]**&#x200B;は使用されなくなります。**DKIM（DomainKeys Identified Mail）**&#x200B;メール認証の署名は、すべてのドメインのメッセージに対して Enhanced MTA によっておこなわれます。Enhanced MTA レベルで特に指定されていない限り、**Sender ID**、**、DomainKeys**、または **S/MIME** を使用して署名することはありません。
-
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、Adobe Campaign メッセージングサーバーは、1 つの&#x200B;**ドメイン管理**&#x200B;ルールをすべてのドメインに適用します。
+オンプレミスインストールの場合、MTA は単一の **ドメイン管理** ルールをすべてのドメインに適用します。
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
 * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
-* **SMTP リレー**&#x200B;パラメーターは、特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
+* **SMTP リレー** パラメーターを使用すると、特定のドメインのリレーサーバーの IP アドレスとポートを設定できます。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
 
-Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用メール認証標準である **Sender ID** を使用してメールに署名しないようにしてください。「**[!UICONTROL 送信者 ID]**」オプションが有効な場合は、対応するボックスのチェックマークを外し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡します。配信品質に影響はありません。
+メッセージが送信者アドレスに **[!UICONTROL 次の人物の代理]** と表示される場合は、**Sender ID** を使用してメールに署名しないでください。これは、Microsoftが以前から採用している独自のメール認証標準です。 「**[!UICONTROL 送信者 ID]**」オプションが有効な場合は、対応するボックスのチェックマークを外し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡します。配信品質に影響はありません。
 
 #### MX 管理 {#mx-management}
 
->[!IMPORTANT]
+オンプレミスインストールの場合、MX 管理ルールを使用して、特定のドメインに対する送信メールのフローを規制します。
+
+<!--![](assets/tech_quarant_domain_rules_01.png)-->
+
+これらのルールは、デプロイメントウィザードで使用でき、カスタマイズできます。
+
+* **[!UICONTROL MX 管理]**：このルールは、ドメインの送信メールのフローを制御するために使用されます。 必要に応じて、バウンスメッセージとブロック送信のサンプルを収集します。
+
+* **[!UICONTROL 期間]**：メッセージがスロットルまたはブロックされる期間です。
+
+* **[!UICONTROL 制限]**：期間ごとに許可されるメッセージの最大数。
+
+* **[!UICONTROL タイプ]**：送信動作を決定するために使用されるエラータイプ（ハード、ソフト、無視）。 エラータイプの定義については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+
+MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
+
+>[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自のメールレピュテーション履歴およびメールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、MX ルールとメールフロー管理は、管理インフラストラクチャの一部としてAdobeによって管理されます。 特定の使用例に合わせて MX 設定を調整する必要がある場合は、Adobe カスタマーケアにお問い合わせください。
 
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合：
+## 関連トピック
 
-* MX 管理ルールを使用して、特定のドメインに送信されるメールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。
-
-* Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用してから、ルールのリストにアステリスク付きで表示される一般的なケース用のルールを適用します。
-
-* MX 管理ルールを設定するには、しきい値を設定して、特定の SMTP パラメーターを選択してください。**しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。例えば一般的なケースでは、300 件以上のメッセージに対してエラー率が 90％に達すると、メールの送信が 3 時間ブロックされます。
-
-MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
+* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [ 強制隔離の管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
+* [ 強制隔離の設定 ](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）
+* [ バウンス認定条件の更新 ](update-bounce-qualification.md) （v7 ハイブリッド/オンプレミス）
+* [ メール配信品質の設定 ](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）
+* [ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md#managing-bounced-emails) （v7 ハイブリッド/オンプレミス）

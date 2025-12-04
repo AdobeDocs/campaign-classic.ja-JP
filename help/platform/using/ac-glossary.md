@@ -6,10 +6,10 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
 workflow-type: tm+mt
-source-wordcount: '6197'
-ht-degree: 100%
+source-wordcount: '6204'
+ht-degree: 99%
 
 ---
 
@@ -512,7 +512,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 ローカルキャッシュは、オペレーターのコンピューター上でローカルに保存される情報です。キャッシュされた情報は、サーバーへの必要なトラフィックを減らし、パフォーマンスを向上させるために、コンソールで使用されます。（ファイルメニューの）ローカルキャッシュを定期的にクリアすると、保存されている情報が更新され、パフォーマンスと安定性が向上します。
 
-ローカルキャッシュの詳細は[こちら](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)。
+ローカルキャッシュの詳細は[こちら](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache)。
 +++
 
 ## M～P {#sec-4}
@@ -1010,7 +1010,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。メールの開封やクリックなど、受信者が受け取ったメッセージに対する操作の情報を確認できます。
 
-トラッキングログの詳細は[こちら](../../delivery/using/accessing-the-tracking-logs.md)。
+[Campaign v8 のトラッキングログ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} または [v7 固有のトラッキング ](../../delivery/using/about-message-tracking.md) の詳細情報。
 +++
 
 +++**トランザクションメッセージング**

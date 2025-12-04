@@ -7,10 +7,10 @@ user-guide-title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3fc803ba8b7e367e199ba47ef05ba64d5f801506
+source-git-commit: 93f32cda33acc53fb0e497f619be35c1c76ff85e
 workflow-type: tm+mt
-source-wordcount: '2748'
-ht-degree: 100%
+source-wordcount: '2692'
+ht-degree: 99%
 
 ---
 
@@ -40,17 +40,8 @@ ht-degree: 100%
    + [Campaign コネクタ](platform/using/about-connectors.md)
    + [Campaign でのクエリの作成](platform/using/about-queries-in-campaign.md)
    + よくある質問 {#faq}
-      + [よくある質問](platform/using/common-questions.md)
-      + [グローバル概念](platform/using/faq-key-concepts.md)
+      + [Campaign Classic に関する FAQ](platform/using/faq-campaign-classic-v7.md)
       + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-      + [プライバシー](platform/using/privacy-faq.md)
-      + [オーディエンス](platform/using/faq-audiences.md)
-      + [メッセージのデザイン](platform/using/faq-designing.md)
-      + [メッセージの送信](platform/using/faq-messages.md)
-      + [ワークフロー](platform/using/faq-workflows.md)
-      + [設定](platform/using/faq-campaign-config.md)
-      + [レポート](platform/using/faq-reporting.md)
-      + [開発](platform/using/faq-developers.md)
    + [用語集](platform/using/ac-glossary.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
@@ -120,7 +111,6 @@ ht-degree: 100%
       + [パーソナライズされたコンテンツの作成 - 非表示](delivery/using/design-and-personalize.md)
       + [適切なオーディエンスの定義 - 非表示](delivery/using/define-the-right-audience.md)
       + [送信前の確認 - 非表示](delivery/using/check-before-sending.md)
-      + [トラッキングと監視 - 非表示](delivery/using/track-and-monitor.md)
    + [メールの送信](delivery/using/about-email-channel.md)
    + メールの送信 {#sending-emails}
       + [メール配信の作成 - 非表示](delivery/using/creating-an-email-delivery.md)
@@ -197,28 +187,15 @@ ht-degree: 100%
       + [バイラルおよびソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
    + 配信の監視 {#monitoring-deliveries}
       + [配信監視の基本を学ぶ](delivery/using/about-delivery-monitoring.md)
-      + [配信リストへのアクセス](delivery/using/list-of-deliveries.md)
-      + [配信ダッシュボード](delivery/using/delivery-dashboard.md)
+      + [Campaign UI での配信の監視](delivery/using/delivery-dashboard.md)
       + [配信パフォーマンスのベストプラクティス](delivery/using/delivery-performances.md)
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
-      + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信失敗について](delivery/using/understanding-delivery-failures.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
-      + メッセージのトラッキング {#tracking-messages}
-         + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
-         + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
-      + パーソナライズされたリンクのトラッキング {#tracking-personalized-links}
-         + [パーソナライズされたリンクのトラッキングの基本を学ぶ](delivery/using/tracking-personalized-links.md)
-         + [トラッキング URL の検出](delivery/using/detecting-tracking-urls.md)
-         + [トラッキング用の前処理命令](delivery/using/pre-processing-instructions.md)
-      + [URL トラッキングオプションの設定](delivery/using/personalizing-url-tracking.md)
-      + [トラッキングログへのアクセス](delivery/using/accessing-the-tracking-logs.md)
-      + [トラッキングのテスト](delivery/using/testing-tracking.md)
-      + [トラッキングのトラブルシューティング](delivery/using/tracking-troubleshooting.md)
+      + [メッセージトラッキング](delivery/using/about-message-tracking.md)
    + 配信品質の管理 {#deliverability-management}
       + [配信品質とは](delivery/using/about-deliverability.md)
       + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
-      + [配信品質の監視](delivery/using/monitoring-deliverability.md)
       + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [トラブルシューティング](delivery/using/deliverability-faq.md)

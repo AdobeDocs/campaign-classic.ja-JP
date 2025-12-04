@@ -1,132 +1,36 @@
 ---
 product: campaign
-title: 配信ダッシュボード
-description: 配信ダッシュボードを使用して配信を監視する方法について詳しく説明します。
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+title: Campaign UI での配信の監視
+description: 配信のリストにアクセスし、配信ダッシュボードを使用して配信を監視する方法を説明します
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 59%
 
 ---
 
-# 配信ダッシュボード {#delivery-dashboard}
-
-
-**配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素です。
-
-配信の情報を取得し、必要に応じて編集できます。配信を送信すると、タブのコンテンツは変更できません。
-
-ダッシュボードで使用可能ないくつかのタブを使用して監視できる情報は、次のとおりです。
-
-* [配信の概要](#delivery-summary)
-* [配信レポート](#delivery-reports)
-* [配信ログ、ミラーページ、除外](#delivery-logs-and-history)
-* [配信トラッキングログと履歴](#tracking-logs)
-* [配信レンダリング](#delivery-rendering)
-* [配信監査](#delivery-audit-)
-
-![](assets/s_ncs_user_del_details.png)
-
-**関連トピック：**
-
-* [配信エラーについて](understanding-delivery-failures.md)
-* [強制隔離管理について](understanding-quarantine-management.md)
-* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}
-* [配信品質の管理](about-deliverability.md)
-
-## 配信の概要 {#delivery-summary}
-
-「**[!UICONTROL 概要]**」タブには、配信のステータス、使用するチャネル、送信者に関する情報、件名、実行に関連する情報など、配信の特性が表示されています。
-
-## 配信レポート {#delivery-reports}
-
-「**[!UICONTROL レポート]**」リンクは、「**[!UICONTROL 概要]**」タブからアクセスでき、一般配信レポート、詳細レポート、配信レポート、失敗したメッセージの配信、開封率、クリック数、トランザクション数などの、配信操作に関連するレポートのセットを確認できます。
-
-このタブの内容は、必要に応じて設定できます。配信レポートについて詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
-
-![](assets/delivery-report.png)
-
-## 配信ログ、履歴および除外 {#delivery-logs-and-history}
-
-「**[!UICONTROL 配信]**」タブには、この配信内で発生した事象の履歴が表示されます。このタブには、配信ログ、つまり、送信されたメッセージのリストとそのステータスおよび関連メッセージが含まれます。
-
-1 つの配信について、（例えば）配信が失敗した受信者や、アドレスが強制隔離中の受信者のみを表示できます。そのためには、「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL ステータス別]**」を選択します。ドロップダウンリストでステータスを選択します。各種ステータスについて詳しくは、[このページ](delivery-statuses.md)を参照してください。
+# Campaign UI での配信の監視 {#delivery-dashboard}
 
 >[!NOTE]
 >
->配信ログを表示するリストは、Campaign Classic 内の任意のリストと同様にカスタマイズできます。例えば、配信で各メールを送信した IP アドレスを示す列を追加できます。詳しくは、[この節](#use-case)で詳しく説明している使用事例を参照してください。
+>配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のカスタマイズ } について説明します。**
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+配信の監視は、キャンペーンを効率的に実施し、顧客にリーチするために不可欠です。
 
-「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
+配信リストへのアクセス、配信ダッシュボードタブの使用および配信の監視に関する包括的な情報については、[Campaign UI での Campaign v8 配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
 
-ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示できます。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ja){target="_blank"}を参照してください。
+## 配信ログのカスタマイズ {#use-case}
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
-
-## 配信トラッキングのログと履歴 {#tracking-logs}
-
-「**[!UICONTROL トラッキング]**」タブには、この配信のトラッキング履歴が一覧表示されます。このタブには、送信されたメッセージのトラッキングデータ、つまり、Adobe Campaign によってトラッキングされたすべての URL が表示されます。トラッキングデータは 1 時間ごとに更新されます。
+**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** の場合、スキーマを拡張して配信ログをカスタマイズできます。 ここでは、配信ログに送信者の IP アドレスを追加する方法について説明します。
 
 >[!NOTE]
 >
->配信トラッキングが有効になっていない場合、このタブは表示されません。
-
-トラッキング設定は、配信アシスタントの適切なステージで実行されます。[トラッキングするリンクの設定方法](how-to-configure-tracked-links.md)を参照してください。
-
-**[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。[この節](../../reporting/using/delivery-reports.md)を参照してください。
-
-![](assets/s_ncs_user_delivery_tracking_tab.png)
-
-## 受信ボックスレンダリング {#delivery-rendering}
-
-「**[!UICONTROL 受信ボックスレンダリング]**」タブにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
-
-これにより、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
-
-受信ボックスレンダリングについて詳しくは、[このページ](inbox-rendering.md)を参照してください。
-
-![](assets/s_tn_inbox_rendering_tokens.png)
-
-## 配信監査 {#delivery-audit-}
-
-「**[!UICONTROL 監査]**」タブには、配信ログと、配達確認に関連するすべてのメッセージが含まれます。
-
-**[!UICONTROL 更新]**&#x200B;ボタンを使用してデータを更新できます。「**[!UICONTROL フィルター]**」ボタンを使用して、データに対してフィルターを定義します。
-
-特別なアイコンによって、エラーまたは警告を識別できます。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}のこの節を参照してください。
-
-「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
-
-![](assets/s_ncs_user_delivery_log_tab.png)
-
-表示する列を選択することによって、このウィンドウ（および「**[!UICONTROL 配信]**」タブと「**[!UICONTROL トラッキング]**」タブ）に表示される情報を変更できます。そのためには、右下隅にある&#x200B;**[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。リストの表示について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
-
-## 配信ダッシュボードの同期 {#delivery-dashboard-synchronization}
-
-配信が正常に送信されたことを確認するために、配信ダッシュボードから、処理されたメッセージおよび配信ログを確認できます。
-
-一部の指標またはステータスが間違っていたり、最新ではないことがあります。これは、次の解決策で解消できる場合があります。
-
-* 配信ステータスが間違っている場合は、この配信に対して必要なすべての承認がおこなわれていることと、**[!UICONTROL operationMgt]** および **[!UICONTROL deliveryMgt]** ワークフローがエラーなしで実行されていることを確認します。これは、送信インスタンスで設定されていないアフィニティを配信で使用していることが原因である可能性もあります。
-
-* 配信達成度がゼロのままで、ミッドソーシング設定である場合は、**[!UICONTROL ミッドソーシング（配信カウンター）]**&#x200B;テクニカルワークフローをチェックします。ステータスが&#x200B;**[!UICONTROL 開始済み]**&#x200B;ではない場合は、開始します。その後、Adobe Campaign エクスプローラーで関連する配信を右クリックして、**[!UICONTROL アクション]**／**[!UICONTROL 配信とトラッキング指標を再計算]**&#x200B;を選択することによって、指標を再計算できます。トラッキング指標について詳しくは、この[節](../../reporting/using/delivery-reports.md#tracking-indicators)を参照してください。
-
-* 配信カウンターが配信と一致しない場合は、Adobe Campaign エクスプローラーで関連する配信を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL 配信とトラッキング指標を再計算]**&#x200B;を選択して、指標を再計算して再同期してください。トラッキング指標について詳しくは、この[節](../../reporting/using/delivery-reports.md#tracking-indicators)を参照してください。
-
-* ミッドソーシングデプロイメントの配信カウンターが最新ではない場合は、**[!UICONTROL ミッドソーシング（配信カウンター）]**&#x200B;テクニカルワークフローが実行されていることを確認します。詳しくは、この[ページ](../../installation/using/mid-sourcing-deployment.md)を参照してください。
-
-配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
-
-## ユースケース：ログへの送信者 IP アドレスの追加 {#use-case}
-
-この節では、配信で各メールを送信した IP アドレスに関する配信ログ情報を追加する方法を学びます。
-
->[!NOTE]
+>このカスタマイズを行うには、オンプレミスデプロイメントで使用できるスキーマ拡張機能が必要です。 Campaign v8 Managed Cloud Services のユーザーは、カスタム配信ログフィールドについて、Adobe カスタマーケアにお問い合わせください。
 >
 >この変更は、単一のインスタンスを使用する場合とミッドソーシングインスタンスを使用する場合とでは異なります。変更をおこなう前に、メール送信インスタンスに接続していることを確認します。
 
@@ -208,3 +112,12 @@ ht-degree: 100%
 次に、変更後の「**[!UICONTROL 配信]**」タブの内容を示します。
 
 ![](assets/logs-with-ip.png)
+
+## 関連トピック
+
+* [Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
+* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [ 強制隔離管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [ バウンスメールの設定 ](understanding-delivery-failures.md) （v7 ハイブリッド/オンプレミス）
+* [ 強制隔離の設定 ](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）

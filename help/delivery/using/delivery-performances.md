@@ -2,55 +2,61 @@
 product: campaign
 title: 配信パフォーマンスのベストプラクティス
 description: 配信パフォーマンスとベストプラクティスについて詳しく説明します
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 6%
 
 ---
 
 # 配信パフォーマンスのベストプラクティス {#delivery-performances}
 
-配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
+>[!NOTE]
+>
+>配信のパフォーマンスとベストプラクティスに関する包括的なガイダンスについては、[Campaign v8 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) ページを参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のパフォーマンス設定 } について説明します。**
 
-**関連トピック：**
+配信パフォーマンス、プラットフォームの最適化、強制隔離管理、データベースのメンテナンス、スケジュールに関する包括的なベストプラクティスについては、[Campaign v8 配信のベストプラクティスドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
 
-* [配信ダッシュボード](delivery-dashboard.md)
-* [配信のトラブルシューティング](delivery-troubleshooting.md)
-* [配信品質について](about-deliverability.md)
+## パフォーマンスチューニング {#best-practices-performance}
 
-## パフォーマンスのベストプラクティス {#best-practices-performance}
+**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** の場合は、次のデータベースとインフラストラクチャの最適化により、配信パフォーマンスを向上させることができます。
 
-* 配信を失敗した状態のままインスタンス上で放置すると、一時テーブルが維持され、パフォーマンスに影響が生じるため、配信を失敗した状態のまま放置しないでください。
+### データベースの最適化
 
-* 不要になった配信を削除します。
+**インデックスアドレス**：アプリケーションで使用される SQL クエリのパフォーマンスを最適化します。 インデックスは、データスキーマのメイン要素から宣言できます。 この最適化には、オンプレミスデプロイメントで使用できる直接データベースアクセスとスキーマのカスタマイズが必要です。
 
-* 過去 12 ヶ月間にアクティブでない受信者は、アドレスの質を維持するためにデータベースから削除されます。
+### インフラストラクチャの調整
 
-* 大規模な配信を同時にスケジュールしないようにしてください。負荷がシステム全体で均等に分散されるまでには、5 ～ 10 分かかります。他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。マーケティングサーバーが様々なタスクをいくつも同時に処理していると、パフォーマンスが低下することがあります。
-
-* メールのサイズをできるだけ小さくします。メールの推奨最大サイズは約 35 KB です。送信サーバー上に生成されるボリュームは、メール配信の規模によって決まります。
-
-* 受信者数が 100 万人を超える大規模配信の場合は、送信キューにそれだけのスペースが必要です。これだけでサーバーに問題が生じるわけではありませんが、他の多数の大規模配信も同時におこなわれると、送信に遅れが生じる場合があります。
-
-* メールのパーソナライゼーションでは、データベースから各受信者のデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。
-
-* アドレスへのインデックスの追加.このアプリケーションで使用する SQL クエリのパフォーマンスを最適化するには、データスキーマのメイン要素からインデックスを宣言します。
+**大規模な配信設定**:100 万人を超える受信者への配信には、送信キューの容量が必要です。 オンプレミスインストールの場合、MTA の子は、カスタムバッチサイズを処理するように設定できます。 これらの設定をインフラストラクチャの処理能力に応じて調整する場合は、システム管理者にお問い合わせください。
 
 >[!NOTE]
 >
->ISP は、操作がない状態が続くアドレスを無効にします。この新しいステータスについての通知を送信者に送信するために、バウンスメッセージが送信されます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、インフラストラクチャの最適化と MTA 設定は、Adobeで管理されます。 デプロイメントに適用できるパフォーマンスの推奨事項については、[Campaign v8 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
 
-## パフォーマンスに関する問題のチェックリスト {#performance-issues}
+## データベースのメンテナンス {#performance-issues}
 
-配信のパフォーマンスが悪い場合は、次の項目を確認できます。
+**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** の場合、プラットフォームとデータベースのメンテナンスは、配信の送信パフォーマンスに直接影響します。
 
-* **配信のサイズ**：サイズの大きい配信は、完了までに時間がかかることがあります。MTA の子はデフォルトのバッチサイズを処理するように設定されます。この設定はほとんどのインスタンスで機能しますが、配信が頻繁に遅くなる場合はチェックする必要があります。
-* **配信のターゲット**：配信パフォーマンスはソフトバウンスエラーの影響を受けることがあり、再試行設定に従って処理されます。エラーの数が多いと、より多くの再試行が必要になります。
-* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、[この節](about-deliverability.md)と[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+定期的なメンテナンスタスクには、次のものが含まれます。
 
-プラットフォームとデータベースのメンテナンスも、配信の送信パフォーマンスに影響することがあります。詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。
+**データベースクリーンアップ**：データベースクリーンアップワークフローを使用して、古い配信ログ、トラッキングデータおよび一時テーブルを削除します。 データベースのメンテナンスが不十分だと、配信の準備と送信が遅くなる可能性があります。
+
+**データベースパフォーマンスの監視**：クエリのパフォーマンス、インデックスの断片化およびテーブル統計を監視します。 詳しいガイダンスについては、[ このページ ](../../production/using/database-performances.md) を参照してください。
+
+**テクニカルワークフロー監視**：すべてのテクニカルワークフロー（特に、クリーンアップ、トラッキング、配信品質の更新のワークフロー）がエラーなく正しく実行されていることを確認します。
+
+>[!NOTE]
+>
+>Campaign v8 Managed Cloud Services ユーザーの場合、データベースのメンテナンスとテクニカルワークフローは、Adobeによって監視および管理されます。 [Campaign v8 配信の監視ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} で説明されているように、配信固有の監視に焦点を当てます。
+
+## 関連トピック
+
+* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
+* [ 配信品質の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} （Campaign v8 ドキュメント）
+* [配信のトラブルシューティング](delivery-troubleshooting.md)
+* [ データベースのパフォーマンス ](../../production/using/database-performances.md) （v7 ハイブリッド/オンプレミス）

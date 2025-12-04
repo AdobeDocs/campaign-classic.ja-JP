@@ -33,7 +33,7 @@ Adobe Campaign Classic v7 には、次の 3 つのデプロイメントモデル
 
 モデルのホスティングとその違いについて詳しくは [&#x200B; ここをクリック &#x200B;](../../installation/using/hosting-models.md) してください。
 
-**メモ：** Campaign v8 は、Managed Cloud Services としてのみ使用できます。 [Campaign v8 の詳細 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}。
+**メモ：** Campaign v8 は、Managed Cloud Services としてのみ使用できます。 [Campaign v8 の詳細 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ja){target="_blank"}。
 
 ### オンプレミス環境とホスト環境では作業する際にどのような違いがありますか？ {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
@@ -60,7 +60,7 @@ Adobe Managed Servicesへの移行により、スケーラビリティとセキ�
 
 **はじめに：** Adobeの担当者に連絡して環境を評価し、Adobe Professional Servicesで詳細な移行プランを作成してください。
 
-詳しくは、[Managed Servicesへの移行 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} を参照してください。
+詳しくは、[Managed Servicesへの移行 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ja){target="_blank"} を参照してください。
 
 ## ビルドアップグレード（Campaign Classic v7） {#build-upgrades-v7}
 
@@ -214,7 +214,7 @@ Campaign クライアントコンソールのキャッシュをクリアする�
 
 **コミュニティとサポート：**
 
-* [Campaign コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [Campaign コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
 * [Adobe サポート &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 * [Campaign コントロールパネル（ホストされているお客様） &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}
 
@@ -240,7 +240,7 @@ Campaign v8 は、Adobeの戦略的プラットフォームで、大量のキャ
 
 詳細情報：
 
-* [Campaign v8 の概要 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
+* [Campaign v8 の概要 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ja){target="_blank"}
 * [Campaign Classic v7 から v8 への移行 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Campaign v8 の包括的な FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 

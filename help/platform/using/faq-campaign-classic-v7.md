@@ -31,13 +31,13 @@ Adobe Campaign Classic v7 には、次の 3 つのデプロイメントモデル
 
 デプロイメントモデルごとに、異なる機能と管理責任があります。 使用できるモジュール、オプション、設定は、デプロイメントのタイプによって異なります。
 
-モデルのホスティングとその違いについて詳しくは [&#x200B; ここをクリック &#x200B;](../../installation/using/hosting-models.md) してください。
+モデルのホスティングとその違いについて詳しくは [ ここをクリック ](../../installation/using/hosting-models.md) してください。
 
-**メモ：** Campaign v8 は、Managed Cloud Services としてのみ使用できます。 [Campaign v8 の詳細 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ja){target="_blank"}。
+**メモ：** Campaign v8 は、Managed Cloud Services としてのみ使用できます。 [Campaign v8 の詳細 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}。
 
 ### オンプレミス環境とホスト環境では作業する際にどのような違いがありますか？ {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
-Adobe Campaign Classic v7 には、一連のモジュールとオプションが付属しています。 これらのモジュールの可用性と設定は、インストールの [&#x200B; デプロイメントのタイプ &#x200B;](../../installation/using/hosting-models.md) ホスト型（Managed Services）、ハイブリッドまたはオンプレミス）によって異なります。
+Adobe Campaign Classic v7 には、一連のモジュールとオプションが付属しています。 これらのモジュールの可用性と設定は、インストールの [ デプロイメントのタイプ ](../../installation/using/hosting-models.md) ホスト型（Managed Services）、ハイブリッドまたはオンプレミス）によって異なります。
 
 主な違い：
 
@@ -45,7 +45,7 @@ Adobe Campaign Classic v7 には、一連のモジュールとオプションが
 * **ホスト型/Managed Services** - Adobeが管理するインフラストラクチャとメンテナンス。 自動アップグレードとセキュリティの強化。 サーバーアクセスの制限。
 * **ハイブリッド** – 両方のモデルの利点を組み合わせます。 Adobeでホストされるマーケティングインスタンス。実行/ミッドソーシングは個別に管理されます。
 
-[&#x200B; 機能マトリックス全体については、ここをクリックしてください &#x200B;](../../installation/using/capability-matrix.md)。
+[ 機能マトリックス全体については、ここをクリックしてください ](../../installation/using/capability-matrix.md)。
 
 ### オンプレミス/ハイブリッドからAdobe Managed Servicesに移行するにはどうすればよいですか？ {#how-do-i-migrate-from-on-premise-hybrid-to-adobe-managed-services}
 
@@ -60,7 +60,7 @@ Adobe Managed Servicesへの移行により、スケーラビリティとセキ�
 
 **はじめに：** Adobeの担当者に連絡して環境を評価し、Adobe Professional Servicesで詳細な移行プランを作成してください。
 
-詳しくは、[Managed Servicesへの移行 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ja){target="_blank"} を参照してください。
+詳しくは、[Managed Servicesへの移行 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} を参照してください。
 
 ## ビルドアップグレード（Campaign Classic v7） {#build-upgrades-v7}
 
@@ -80,11 +80,11 @@ Adobe Campaign Classicでは、様々なテクノロジーを活用して価値�
 
 **オンプレミス/ハイブリッド環境のお客様の場合：** アップグレードの実行は、お客様が担当します。 Adobeでは、少なくとも年に 1 回はアップグレードすることを強くお勧めします。
 
-[&#x200B; この節 &#x200B;](../../production/using/build-upgrade.md) では、環境の更新方法を説明します。また、この特定のトピックに関する詳細な質問については、[&#x200B; ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
+[ この節 ](../../production/using/build-upgrade.md) では、環境の更新方法を説明します。また、この特定のトピックに関する詳細な質問については、[ ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
 ### Adobe Campaign Classic v7 の最新バージョンとは {#what-is-the-latest-version-v7}
 
-新機能やドキュメントを含む最新のCampaign Classic v7 バージョンについては、最新の [&#x200B; リリースノート &#x200B;](../../rn/using/latest-release.md) を参照してください。
+新機能やドキュメントを含む最新のCampaign Classic v7 バージョンについては、最新の [ リリースノート ](../../rn/using/latest-release.md) を参照してください。
 
 ### 実行中のCampaign Classic v7 のバージョンを確認するにはどうすればよいですか？ {#how-do-i-know-which-version-v7}
 
@@ -116,9 +116,9 @@ Adobe Campaign v7 ユーザーインターフェイスは、英語、フラン�
 
 セキュリティゾーンセルフサービスインターフェイスを使用すると、Adobe Campaign Classic v7 デプロイメントの VPN セキュリティゾーン設定のエントリを管理できます。 これは、主にオンプレミスデプロイメントとハイブリッドデプロイメントに関連しています。
 
-Campaign v7 のセキュリティゾーンについては、[&#x200B; この節 &#x200B;](../../installation/using/security-zones.md) を参照してください。
+Campaign v7 のセキュリティゾーンについては、[ この節 ](../../installation/using/security-zones.md) を参照してください。
 
-セキュリティゾーンセルフサービス UI について [&#x200B; 詳しくは、](https://helpx.adobe.com/jp/campaign/kb/configuring-security-zones-self-service.html){target="_blank"} ここをクリックしてください。
+セキュリティゾーンセルフサービス UI について [ 詳しくは、](https://helpx.adobe.com/jp/campaign/kb/configuring-security-zones-self-service.html){target="_blank"} ここをクリックしてください。
 
 **メモ：** ホスト環境またはManaged Servicesのお客様がセキュリティゾーンを設定するには、Adobeにお問い合わせください。
 
@@ -133,7 +133,7 @@ Campaign v7 のセキュリティゾーンについては、[&#x200B; この節 
 * ユーザーグループと権限の自動同期
 * シングルサインオン機能
 
-Campaign Classic v7 で LDAP 統合を設定する方法については [&#x200B; ここをクリック &#x200B;](../../installation/using/connecting-through-ldap.md) してください。
+Campaign Classic v7 で LDAP 統合を設定する方法については [ ここをクリック ](../../installation/using/connecting-through-ldap.md) してください。
 
 **メモ：** LDAP 統合は、オンプレミスデプロイメントとハイブリッドデプロイメントで使用できます。 ホスト環境のお客様は、認証にAdobe IMSを使用されます。
 
@@ -153,7 +153,7 @@ Campaign Classic v7 で LDAP 統合を設定する方法については [&#x200B
 * 定期的なセキュリティパッチ適用
 * 監査ログと監視
 
-オンプレミスデプロイメントのセキュリティ設定と強化に関して確認すべき重要な要素については、[&#x200B; セキュリティ設定チェックリスト &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-security.html){target="_blank"} を参照してください。
+オンプレミスデプロイメントのセキュリティ設定と強化に関して確認すべき重要な要素については、[ セキュリティ設定チェックリスト ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html){target="_blank"} を参照してください。
 
 ### クライアントコンソールのキャッシュをクリアするにはどうすればよいですか？ {#how-do-i-clear-console-cache}
 
@@ -186,7 +186,7 @@ Campaign クライアントコンソールのキャッシュをクリアする�
    * **重要：** ファイルを削除 `nlclient_cnx.xml` ない
    * クライアントコンソールの再起動
 
-詳しくは、[Campaign クライアントコンソールのドキュメント &#x200B;](../../platform/using/launching-adobe-campaign.md) を参照してください。
+詳しくは、[Campaign クライアントコンソールのドキュメント ](../../platform/using/launching-adobe-campaign.md) を参照してください。
 
 ## ヘルプ {#getting-help}
 
@@ -194,10 +194,10 @@ Campaign クライアントコンソールのキャッシュをクリアする�
 
 **ドキュメントとリソース：**
 
-* [Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"} – 完全なドキュメント
-* [Campaign Classic v7 リリースノート &#x200B;](../../rn/using/latest-release.md) – 最新のリリース情報
-* [Campaign Classic互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) - サポートされているシステムおよびバージョン
-* [Campaign Classic チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - ビデオチュートリアル
+* [Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"} – 完全なドキュメント
+* [Campaign Classic v7 リリースノート ](../../rn/using/latest-release.md) – 最新のリリース情報
+* [Campaign Classic互換性マトリックス ](../../rn/using/compatibility-matrix.md) - サポートされているシステムおよびバージョン
+* [Campaign Classic チュートリアル ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - ビデオチュートリアル
 
 **Campaign に関するよくある質問の場合：**
 
@@ -214,9 +214,9 @@ Campaign クライアントコンソールのキャッシュをクリアする�
 
 **コミュニティとサポート：**
 
-* [Campaign コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
-* [Adobe サポート &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-* [Campaign コントロールパネル（ホストされているお客様） &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}
+* [Campaign コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [Adobe サポート ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+* [Campaign コントロールパネル（ホストされているお客様） ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}
 
 ### Campaign Classic v7 から Campaign v8 に移行する必要はありますか？ {#should-i-migrate-to-v8}
 
@@ -240,8 +240,8 @@ Campaign v8 は、Adobeの戦略的プラットフォームで、大量のキャ
 
 詳細情報：
 
-* [Campaign v8 の概要 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ja){target="_blank"}
-* [Campaign Classic v7 から v8 への移行 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
+* [Campaign v8 の概要 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
+* [Campaign Classic v7 から v8 への移行 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Campaign v8 の包括的な FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 
-**ワークフロー、配信、オーディエンス、レポート、パーソナライゼーションなどに関する Campaign のよくある質問への詳細な回答については** Campaign v8 の包括的な FAQ[&#x200B; を参照してください &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}。
+**ワークフロー、配信、オーディエンス、レポート、パーソナライゼーションなどに関する Campaign のよくある質問への詳細な回答については** Campaign v8 の包括的な FAQ[ を参照してください ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}。

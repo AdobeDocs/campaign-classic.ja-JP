@@ -16,11 +16,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->配信のパフォーマンスとベストプラクティスに関する包括的なガイダンスについては、[Campaign v8 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) ページを参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>配信のパフォーマンスとベストプラクティスに関する包括的なガイダンスについては、[Campaign v8 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) ページを参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
 >
->このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のパフォーマンス設定 } について説明します。**
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有のパフォーマンス設定 &rbrace; について説明します。**
 
-配信パフォーマンス、プラットフォームの最適化、強制隔離管理、データベースのメンテナンス、スケジュールに関する包括的なベストプラクティスについては、[Campaign v8 配信のベストプラクティスドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
+配信パフォーマンス、プラットフォームの最適化、強制隔離管理、データベースのメンテナンス、スケジュールに関する包括的なベストプラクティスについては、[Campaign v8 配信のベストプラクティスドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
 
 ## パフォーマンスチューニング {#best-practices-performance}
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、インフラストラクチャの最適化と MTA 設定は、Adobeで管理されます。 デプロイメントに適用できるパフォーマンスの推奨事項については、[Campaign v8 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
+>Campaign v8 Managed Cloud Services ユーザーの場合、インフラストラクチャの最適化と MTA 設定は、Adobeで管理されます。 デプロイメントに適用できるパフォーマンスの推奨事項については、[Campaign v8 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} を参照してください。
 
 ## データベースのメンテナンス {#performance-issues}
 
@@ -46,17 +46,17 @@ ht-degree: 6%
 
 **データベースクリーンアップ**：データベースクリーンアップワークフローを使用して、古い配信ログ、トラッキングデータおよび一時テーブルを削除します。 データベースのメンテナンスが不十分だと、配信の準備と送信が遅くなる可能性があります。
 
-**データベースパフォーマンスの監視**：クエリのパフォーマンス、インデックスの断片化およびテーブル統計を監視します。 詳しいガイダンスについては、[ このページ ](../../production/using/database-performances.md) を参照してください。
+**データベースパフォーマンスの監視**：クエリのパフォーマンス、インデックスの断片化およびテーブル統計を監視します。 詳しいガイダンスについては、[&#x200B; このページ &#x200B;](../../production/using/database-performances.md) を参照してください。
 
 **テクニカルワークフロー監視**：すべてのテクニカルワークフロー（特に、クリーンアップ、トラッキング、配信品質の更新のワークフロー）がエラーなく正しく実行されていることを確認します。
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、データベースのメンテナンスとテクニカルワークフローは、Adobeによって監視および管理されます。 [Campaign v8 配信の監視ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} で説明されているように、配信固有の監視に焦点を当てます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、データベースのメンテナンスとテクニカルワークフローは、Adobeによって監視および管理されます。 [Campaign v8 配信の監視ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} で説明されているように、配信固有の監視に焦点を当てます。
 
 ## 関連トピック
 
-* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信品質の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信品質の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} （Campaign v8 ドキュメント）
 * [配信のトラブルシューティング](delivery-troubleshooting.md)
-* [ データベースのパフォーマンス ](../../production/using/database-performances.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; データベースのパフォーマンス &#x200B;](../../production/using/database-performances.md) （v7 ハイブリッド/オンプレミス）

@@ -16,7 +16,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->配信エラーについてに関する包括的なガイダンスは、[Campaign v8 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures) ページに記載されています。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用され、以下をカバーしています。
+>配信エラーについてに関する包括的なガイダンスは、[Campaign v8 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures) ページに記載されています。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用され、以下をカバーしています。
 >
 >* 配信エラーのタイプと理由（ハード、ソフト、無視）
 >* 同期エラーと非同期エラー
@@ -25,9 +25,9 @@ ht-degree: 52%
 >* 再試行の管理と有効期間
 >* 一般的な配信エラーのトラブルシューティング
 >
->このページは、ハイブリッドデプロイメントおよびオンプレミスデプロイメントでのバウンスメール管理の **0}Campaign Classic v7 固有の設定 } について説明します。**
+>このページは、ハイブリッドデプロイメントおよびオンプレミスデプロイメントでのバウンスメール管理の **0&rbrace;Campaign Classic v7 固有の設定 &rbrace; について説明します。**
 
-配信エラーの一般的な概念、エラータイプおよびトラブルシューティングガイダンスについては、[Campaign v8 配信エラーについてのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+配信エラーの一般的な概念、エラータイプおよびトラブルシューティングガイダンスについては、[Campaign v8 配信エラーについてのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
 
 ## バウンスメールの設定 {#v7-bounce-mail-config}
 
@@ -35,7 +35,7 @@ ht-degree: 52%
 
 ### バウンスメールボックスの設定 {#bounce-mailbox-configuration}
 
-オンプレミスインストールの場合、バウンスメールボックスの設定について詳しくは [ この節 ](../../installation/using/deploying-an-instance.md#managing-bounced-emails) を参照してください。
+オンプレミスインストールの場合、バウンスメールボックスの設定について詳しくは [&#x200B; この節 &#x200B;](../../installation/using/deploying-an-instance.md#managing-bounced-emails) を参照してください。
 
 非同期エラーメッセージは、バウンスメールボックスを通じてAdobe Campaign プラットフォームによって収集され、inMail プロセスによって選定されて、メール管理ルールのリストを充実させます。
 
@@ -102,7 +102,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 >
 >ユーザーは独自のルールを作成できます。パッケージをインポートしたり、**配信品質の更新**&#x200B;ワークフローでデータを更新すると、ユーザーが作成したルールが上書きされます。
 
-バウンスメールの選定について詳しくは、[ この節 ](#bounce-mail-qualification-management) を参照してください。
+バウンスメールの選定について詳しくは、[&#x200B; この節 &#x200B;](#bounce-mail-qualification-management) を参照してください。
 
 #### ドメイン管理 {#domain-management}
 
@@ -129,7 +129,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 * **[!UICONTROL 制限]**：期間ごとに許可されるメッセージの最大数。
 
-* **[!UICONTROL タイプ]**：送信動作を決定するために使用されるエラータイプ（ハード、ソフト、無視）。 エラータイプの定義については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+* **[!UICONTROL タイプ]**：送信動作を決定するために使用されるエラータイプ（ハード、ソフト、無視）。 エラータイプの定義については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
 
 MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
 
@@ -139,10 +139,10 @@ MX 管理について詳しくは、[この節](../../installation/using/email-d
 
 ## 関連トピック
 
-* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
-* [ 強制隔離の管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
-* [ 強制隔離の設定 ](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）
-* [ バウンス認定条件の更新 ](update-bounce-qualification.md) （v7 ハイブリッド/オンプレミス）
-* [ メール配信品質の設定 ](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）
-* [ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md#managing-bounced-emails) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 強制隔離の管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 強制隔離の設定 &#x200B;](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; バウンス認定条件の更新 &#x200B;](update-bounce-qualification.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; メール配信品質の設定 &#x200B;](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; インスタンスのデプロイ &#x200B;](../../installation/using/deploying-an-instance.md#managing-bounced-emails) （v7 ハイブリッド/オンプレミス）

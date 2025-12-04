@@ -16,13 +16,13 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
 >
->このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のカスタマイズ } について説明します。**
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有のカスタマイズ &rbrace; について説明します。**
 
 配信の監視は、キャンペーンを効率的に実施し、顧客にリーチするために不可欠です。
 
-配信リストへのアクセス、配信ダッシュボードタブの使用および配信の監視に関する包括的な情報については、[Campaign UI での Campaign v8 配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
+配信リストへのアクセス、配信ダッシュボードタブの使用および配信の監視に関する包括的な情報については、[Campaign UI での Campaign v8 配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
 
 ## 配信ログのカスタマイズ {#use-case}
 
@@ -115,9 +115,9 @@ ht-degree: 59%
 
 ## 関連トピック
 
-* [Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
-* [ 強制隔離管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
-* [ バウンスメールの設定 ](understanding-delivery-failures.md) （v7 ハイブリッド/オンプレミス）
-* [ 強制隔離の設定 ](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）
+* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [&#x200B; バウンスメールの設定 &#x200B;](understanding-delivery-failures.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; 強制隔離の設定 &#x200B;](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）

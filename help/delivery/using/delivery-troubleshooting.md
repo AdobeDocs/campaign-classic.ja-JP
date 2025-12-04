@@ -18,11 +18,11 @@ ht-degree: 16%
 >
 >配信のトラブルシューティングに関する包括的なガイダンスは、Campaign v8 ドキュメントに記載されており、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用できます。
 >
->* 一般的な配信エラーとソリューション：[ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
->* 配信遅延の診断：[Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
->* 配信のベストプラクティス：[ 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
+>* 一般的な配信エラーとソリューション：[&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
+>* 配信遅延の診断：[Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
+>* 配信のベストプラクティス：[&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
->このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のトラブルシューティング } について説明します。**
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有のトラブルシューティング &rbrace; について説明します。**
 
 ## トラブルシューティング {#v7-specific}
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 
 ### MX ルールの設定
 
-特定の ISP でスロットルの問題が発生した場合は、MX ルールの設定を確認して調整する必要がある場合があります。 MX ルールと割り当て量の詳細については、[ この節 ](../../installation/using/email-deliverability.md#about-mx-rules) を参照してください。
+特定の ISP でスロットルの問題が発生した場合は、MX ルールの設定を確認して調整する必要がある場合があります。 MX ルールと割り当て量の詳細については、[&#x200B; この節 &#x200B;](../../installation/using/email-deliverability.md#about-mx-rules) を参照してください。
 
 ### 配信パフォーマンスのためのデータベースメンテナンス
 
@@ -60,12 +60,12 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はAdobeで管理されます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照して、配信コンテンツとターゲティングに焦点を当てます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はAdobeで管理されます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照して、配信コンテンツとターゲティングに焦点を当てます。
 
 ## 関連トピック
 
-* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
-* [Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
-* [ データベースメンテナンス ](../../production/using/recommendations.md) （v7 ハイブリッド/オンプレミス）
-* [ メール配信品質 ](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
+* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; データベースメンテナンス &#x200B;](../../production/using/recommendations.md) （v7 ハイブリッド/オンプレミス）
+* [&#x200B; メール配信品質 &#x200B;](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）

@@ -5,10 +5,10 @@ description: Campaign で SMS を送信、監視、追跡する方法を説明�
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '895'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 99%
 
 ---
 
@@ -165,6 +165,6 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](delivery-dashboard.md)。
+>こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}。
 >
 >これらのメッセージは、商業的圧力ルールでは考慮されていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。

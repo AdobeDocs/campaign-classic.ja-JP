@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1615'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '1616'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
   この設定を保存すると、配信のステータスは「**[!UICONTROL ターゲティングを保留中]**」に変化します。分析は指定した日付に開始されます。
 
-* 「**[!UICONTROL 予約配信（予約された日になると自動実行）]**」オプションでは、配信日を指定できます。
+* 「**[!UICONTROL スケジュール配信（予定された日になると自動実行）]**」オプションでは、配信日を指定できます。
 
   「**[!UICONTROL 送信]**」をクリックし、「**[!UICONTROL 配信を延期]**」を選択してから、分析を開始して配信を確定します。分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
 
@@ -143,7 +143,7 @@ ht-degree: 100%
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
-1. 送信状況を監視するには、配信ログを参照してください。[このページ](delivery-dashboard.md#delivery-logs-and-history)を参照してください。
+1. 送信状況を監視するには、配信ログを参照してください。[このページ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を参照してください。
 
    処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 * **コールセンターが関与するキャンペーン**
 
-  電話によるロイヤリティキャンペーンを管理する場合、組織が処理できる購読者への電話の本数には限界があります。
+  電話によるロイヤルティキャンペーンを管理する場合、組織が処理できる購読者への電話の本数には限界があります。
 
   例えば、コールセンターの 1 日あたりの処理能力を考慮して、ウェーブを使用すると、1 日あたりのメッセージ数を 20 件に制限できます。
 

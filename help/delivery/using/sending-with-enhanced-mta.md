@@ -5,10 +5,10 @@ description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 99%
+source-wordcount: '1408'
+ht-degree: 93%
 
 ---
 
@@ -139,9 +139,9 @@ DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA �
 
 ### 配信成功レポート
 
-メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](communication-channels.md)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
+メール配信 **[!UICONTROL ダッシュボード]** の [ 概要 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ビューでは、**[!UICONTROL 成功]** の割合は 100% から始まり、ソフトバウンスとハードバウンスが Enhanced MTA から Campaign にレポートされるため、配信 [ 有効期間 ](communication-channels.md) を通じて徐々に低下します。
 
-実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
+実際、Campaign から Enhanced MTA にメッセージが正常に中継されるとすぐに、すべてのメッセージが **[!UICONTROL 送信ログ]** で [ 送信済み ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} として表示されます。 これらのステータスは、そのメッセージが Enhanced MTA から Campaign に返信される [ バウンス ](understanding-delivery-failures.md#delivery-failure-types-and-reasons) が行われない限り、維持されます。
 
 Enhanced MTA からハードバウンスメッセージが返されると、ステータスが&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少します。
 

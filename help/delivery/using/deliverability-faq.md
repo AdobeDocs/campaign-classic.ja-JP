@@ -5,8 +5,8 @@ description: Adobe Campaign で配信品質を管理する際に確認すべき�
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -49,13 +49,13 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
    * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
 
-  詳しくは、[この節](understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
+  詳しくは、[この節](delivery-failures-quarantine.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
   未定義、不明なユーザー、無効なドメイン、ブロックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続の 10 個の原因が考えられます。
 
-  詳しくは、[強制隔離管理の理解](understanding-quarantine-management.md)を参照してください。
+  詳しくは、[強制隔離管理の理解](delivery-failures-quarantine.md)を参照してください。
 
 ## ブロックリストからの削除 {#remove-from-denylist}
 

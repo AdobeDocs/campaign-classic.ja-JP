@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 * アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲティングされません。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。例えば、受信ボックスの容量が超過している場合や、アドレスが存在しない場合などに、メールアドレスを強制隔離できます。[詳細情報](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign では、返されるエラーのタイプに応じて不正なアドレスを管理します。詳しくは、[この節](understanding-quarantine-management.md)を参照してください。
+* Adobe Campaign では、返されるエラーのタイプに応じて不正なアドレスを管理します。詳しくは、[この節](delivery-failures-quarantine.md)を参照してください。
 
 
 * 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。

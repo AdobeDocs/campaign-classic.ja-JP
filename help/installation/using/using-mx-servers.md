@@ -64,7 +64,7 @@ Adobe Campaignは、エラータイプと理由の一致を使用してこのプ
 
 >[!NOTE]
 >
->配信エラーのタイプと理由について詳しくは、この [ 節 ](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons) を参照してください。
+>配信エラーのタイプと理由について詳しくは、この [&#x200B; 節 &#x200B;](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons) を参照してください。
 
 ## 配信品質インスタンス {#deliveratbility-env}
 
@@ -91,4 +91,4 @@ MX ルールには 6 つの異なるレベルのスループットがあり、�
 * [MX 設定](../../installation/using/email-deliverability.md#mx-configuration)
 * [技術的なメール設定](../../installation/using/email-deliverability.md)
 * [配信エラーについて](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic – 技術的な推奨事項 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic – 技術的な推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

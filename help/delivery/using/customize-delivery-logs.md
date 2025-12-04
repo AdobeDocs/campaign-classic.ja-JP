@@ -16,11 +16,11 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
 >
->このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有の高度なカスタマイズについて説明します。**
+>このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有の高度なカスタマイズについて説明します。**
 
-Campaign UI での配信の監視については、[Campaign v8 Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
+Campaign UI での配信の監視については、[Campaign v8 Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
 
 ## 配信ログのカスタマイズ {#use-case}
 
@@ -113,9 +113,9 @@ Campaign UI での配信の監視については、[Campaign v8 Campaign UI で�
 
 ## 関連トピック
 
-* [Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
-* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
-* [ 強制隔離の管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
-* [ スキーマの拡張 ](../../configuration/using/extending-a-schema.md) （v7 ハイブリッド/オンプレミス）
+* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 強制隔離の管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; スキーマの拡張 &#x200B;](../../configuration/using/extending-a-schema.md) （v7 ハイブリッド/オンプレミス）
 

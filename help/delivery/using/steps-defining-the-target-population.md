@@ -7,8 +7,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >強制隔離管理について詳しくは、[強制隔離管理について](understanding-quarantine-management.md)を参照してください。
+  >強制隔離管理について詳しくは、[強制隔離管理について](delivery-failures-quarantine.md)を参照してください。
 
 * **[!UICONTROL 配信を制限]**：メッセージ数の上限を設定します。送信するメッセージの最大数を指定し、配信件数を限定します。指定されたメッセージの最大数よりもターゲットの規模が大きい場合は、ターゲットの中から送信先がランダムに選択されます。
 
@@ -251,6 +251,6 @@ ht-degree: 100%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35776?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

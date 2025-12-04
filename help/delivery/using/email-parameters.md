@@ -7,7 +7,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
@@ -122,7 +122,7 @@ Adobe Campaign では、BCC メールアドレスをメッセージのターゲ�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-バウンスメールの管理について詳しくは、[この節](understanding-delivery-failures.md#bounce-mail-management)を参照してください。
+バウンスメールの管理について詳しくは、[この節](delivery-failures-quarantine.md#bounce-mail-management)を参照してください。
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
 

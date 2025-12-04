@@ -7,7 +7,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 100%
@@ -130,9 +130,9 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
-* [プッシュ通知の強制隔離](understanding-quarantine-management.md#push-notification-quarantines)
+* [プッシュ通知の強制隔離](delivery-failures-quarantine.md#push-notification-quarantines)
 * [配信の監視](about-delivery-monitoring.md)
-* [配信エラーについて](understanding-delivery-failures.md)
+* [配信エラーについて](delivery-failures-quarantine.md)
 
 ## iOS 用のリッチ通知の作成 {#creating-ios-delivery}
 

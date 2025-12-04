@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 99%
@@ -61,7 +61,7 @@ ht-degree: 99%
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
 * [配信の監視](about-delivery-monitoring.md)
-* [配信エラーについて](understanding-delivery-failures.md)
+* [配信エラーについて](delivery-failures-quarantine.md)
 * [メッセージのトラッキングについて](about-message-tracking.md)
 
 ## 配信送信のスケジュール設定 {#scheduling-the-delivery-sending}
@@ -171,7 +171,7 @@ ht-degree: 99%
 
 ## 再試行の設定 {#configuring-retries}
 
-**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
 
 >[!IMPORTANT]
 >

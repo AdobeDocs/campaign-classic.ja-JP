@@ -7,8 +7,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ### 再試行の設定 {#configuring-retries}
 
-**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
 
 >[!IMPORTANT]
 >

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Adobe Campaignは、エラータイプと理由の一致を使用してこのプ
 
 >[!NOTE]
 >
->配信エラーのタイプと理由について詳しくは、この [&#x200B; 節 &#x200B;](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) を参照してください。
+>配信エラーのタイプと理由について詳しくは、この [ 節 ](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons) を参照してください。
 
 ## 配信品質インスタンス {#deliveratbility-env}
 
@@ -90,5 +90,5 @@ MX ルールには 6 つの異なるレベルのスループットがあり、�
 **関連トピック：**
 * [MX 設定](../../installation/using/email-deliverability.md#mx-configuration)
 * [技術的なメール設定](../../installation/using/email-deliverability.md)
-* [配信エラーについて](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - テクニカルRecommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja)
+* [配信エラーについて](../../delivery/using/delivery-failures-quarantine.md)
+* [Campaign Classic – 技術的な推奨事項 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

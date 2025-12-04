@@ -5,8 +5,8 @@ description: モバイルアプリチャネル
 hide: true
 hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">NMAC オプトアウト管理</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> モバイルデバイスの通知の購読解除を更新します。午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。詳しくは、この<a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">節</a>を参照してください。<br /> </td> 
+   <td> モバイルデバイスの通知の購読解除を更新します。午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。詳しくは、この<a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">節</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

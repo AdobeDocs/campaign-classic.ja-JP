@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 98%
@@ -51,14 +51,14 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのパフォーマンスの最適化</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP サーバーの使用</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">配信失敗について</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">配信失敗について</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのベストプラクティス</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">テクニカルワークフローの監視</a></li>
-        <li><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
         <li><a href="production/using/monitoring-guidelines.md">監視ツールについて</a></li>
         <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">複数ウェーブでのメッセージの送信</a></li>
@@ -71,7 +71,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="production/using/build-upgrade.md">最新ビルドへのアップグレード</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">ビルドのアップグレードに関する FAQ</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">強制隔離管理について</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">セキュリティとプライバシーのチェックリスト</a></li>
         <li><a href="platform/using/privacy-management.md">プライバシーと同意管理</a></li>
         <li><a href="platform/using/about-queries-in-campaign.md">クエリのデザイン</a></li>
@@ -132,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

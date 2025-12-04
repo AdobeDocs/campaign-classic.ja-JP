@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: ISP の機能停止後にバウンス認定条件を更新
-description: ISP が機能停止した後にバウンスの認定条件を更新する方法を学ぶ
+title: ISP の機能停止後にバウンス選定条件を更新
+description: ISP が機能停止した後にバウンス選定条件を更新する方法を学ぶ
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ISP が機能停止した場合、Campaign 経由で送信されたメールは�
 >
 >[このページ](https://www.apple.com/jp/support/systemstatus/){_blank}で Apple システム状況ダッシュボードを確認できます。
 >
->[このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status){_blank}で Google Workspace ステータスダッシュボードを確認できます。
+>[このページ](https://www.google.com/appsstatus#hl=ja&v=status){_blank}で Google Workspace ステータスダッシュボードを確認できます。
 >
 
 ## 影響{#update-bounce-impact}
@@ -71,5 +71,5 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。
 
 **関連トピック：**
-* [配信エラーについて](understanding-delivery-failures.md)
-* [バウンスメールの認定](understanding-delivery-failures.md#bounce-mail-qualification)
+* [配信エラーについて](delivery-failures-quarantine.md)
+* [バウンスメール選定](delivery-failures-quarantine.md#bounce-mail-qualification)

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Apple 2021 の機能停止後にバウンス認定条件を更新
-description: Apple 2021 の機能停止後にバウンス認定条件を更新する方法を学ぶ
+title: Apple 2021 の機能停止後にバウンス選定条件を更新
+description: Apple 2021 の機能停止後にバウンス選定条件を更新する方法を学ぶ
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Apple 停止後の誤ったハードバウンスの更新 {#update-bounce-qualification.md}
+# Apple停止後の誤ったハードバウンスの更新 {#update-bounce-qualification.md}
 
 ## コンテキスト
 
@@ -56,5 +56,5 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。
 
 **関連トピック：**
-* [配信エラーについて](understanding-delivery-failures.md)
-* [バウンスメールの認定](understanding-delivery-failures.md#bounce-mail-qualification)
+* [配信エラーについて](delivery-failures-quarantine.md)
+* [バウンスメール選定](delivery-failures-quarantine.md#bounce-mail-qualification)

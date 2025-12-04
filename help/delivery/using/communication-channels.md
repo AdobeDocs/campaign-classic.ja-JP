@@ -5,8 +5,8 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic のド�
 
 **再試行の設定**
 
-**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -128,7 +128,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic のド�
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

@@ -16,14 +16,14 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->Campaign v7 とCampaign Classic v8 の両方に適用される **一般的なトラッキングガイダンス** については、[Campaign v8 メッセージトラッキングドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} を参照してください。
+>Campaign v7 とCampaign Classic v8 の両方に適用される **一般的なトラッキングガイダンス** については、[Campaign v8 メッセージトラッキングドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} を参照してください。
 >
->* [ トラッキングするリンクの設定 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [&#x200B; トラッキングするリンクの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
 >* [URL トラッキングオプションの設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [ パーソナライズされたリンクの追跡 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [ トラッキングログへのアクセス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [&#x200B; パーソナライズされたリンクの追跡 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [&#x200B; トラッキングログへのアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [トラッキングのテスト](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
->* [ トラッキングレポート ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
+>* [&#x200B; トラッキングレポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
 >**このページでは、主にハイブリッドデプロイメントとオンプレミスデプロイメントのCampaign Classic v7 固有のトラッキング機能のみ** について説明します。
 
@@ -82,7 +82,7 @@ web アプリケーショントラッキングのオプトアウトを使用す�
 
 次のトラブルシューティングのヒントは、**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** に当てはまります。 一部の情報は、Campaign v8 オンプレミスデプロイメントにも当てはまる場合があります。 Campaign v8 Managed Cloud Services の場合は、Adobe担当者にお問い合わせください。
 
-Campaign v8 の基本的なトラッキングのトラブルシューティング手順については、[Campaign v8 のトラッキングのトラブルシューティング ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"} ドキュメントを参照してください。
+Campaign v8 の基本的なトラッキングのトラブルシューティング手順については、[Campaign v8 のトラッキングのトラブルシューティング &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"} ドキュメントを参照してください。
 
 ### 基本チェック {#basic-checks}
 

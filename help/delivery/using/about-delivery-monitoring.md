@@ -5,10 +5,10 @@ description: Campaign Classic 配信監視機能の詳細情報
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
+source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 75%
+source-wordcount: '833'
+ht-degree: 64%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->このページでは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有のモニタリング機能について説明します。**
+>このページでは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0}Campaign Classic v7 固有のモニタリング機能について説明します。**
 
 ## 機能の監視
 
@@ -44,7 +44,7 @@ ht-degree: 75%
 
 * ホストクライアントおよびハイブリッドクライアントの場合、**配信品質の監視**&#x200B;はアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
-* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[Campaign Classic標準パッケージのインストール &#x200B;](../../installation/using/installing-campaign-standard-packages.md) を参照してください。
+* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[Campaign Classic標準パッケージのインストール ](../../installation/using/installing-campaign-standard-packages.md) を参照してください。
 
 #### 配信品質のワークフロー {#deliverability-workflow}
 
@@ -87,24 +87,37 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 * [配信パフォーマンスの問題](delivery-performances.md)
 * [一時ファイルの問題](../../production/using/temporary-files.md) - *オンプレミスのお客様のみ*
 
-## 一般的な監視トピック
+## 配信の監視
 
-**配信の監視：**
+次のリソースは、Campaign Classic v7 での配信パフォーマンスのモニタリングとトラッキングに役立ちます。
 
-* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
-* [配信のパフォーマンスとベストプラクティス](delivery-performances.md)
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+### 配信ダッシュボードへのアクセス
 
-**v7 固有の設定：**
+配信リストにアクセスし、配信ダッシュボードを使用して送信アクティビティを監視する方法を説明します。
 
-* [&#x200B; バウンスメール管理設定 &#x200B;](understanding-delivery-failures.md) （v7 ハイブリッド/オンプレミス）
-* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
-* [&#x200B; 強制隔離の設定 &#x200B;](understanding-quarantine-management.md) （v7 ハイブリッド/オンプレミス）
+* [Campaign UI での配信の監視 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
+* [ 配信ステータス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [ 詳細：配信ログのカスタマイズ ](customize-delivery-logs.md) （v7 ハイブリッド/オンプレミスのみ – スキーマ拡張）
 
-**メッセージのトラッキング：**
+### メッセージインタラクションのトラッキング
 
-* [メッセージトラッキングの基本を学ぶ](about-message-tracking.md)
+開封数、クリック数、配信に対する受信者のインタラクションをトラッキングします。
 
-## 関連トピック
+* [ メッセージトラッキングドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
+* [ トラッキングするリンクの設定 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} （Campaign v8 ドキュメント）
+* [ トラッキングログへのアクセス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} （Campaign v8 ドキュメント）
 
-* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+### 配信パフォーマンスの最適化
+
+配信パフォーマンスの問題に関するベストプラクティスとトラブルシューティング：
+
+* [ 配信のベストプラクティス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
+* [ 配信のパフォーマンスとトラブルシューティング ](delivery-performance-troubleshooting.md) （v7 ハイブリッド/オンプレミス固有の設定）
+
+### エラーと強制隔離について
+
+配信エラー、バウンスメール、強制隔離アドレスの管理：
+
+* [ 配信エラーについて ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [ 強制隔離管理 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [ 配信エラーと強制隔離の設定 ](delivery-failures-quarantine.md) （v7 ハイブリッド/オンプレミス固有の設定）

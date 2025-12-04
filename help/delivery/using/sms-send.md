@@ -165,6 +165,6 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}。
+>こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}。
 >
 >これらのメッセージは、商業的圧力ルールでは考慮されていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。

@@ -79,12 +79,12 @@ Adobe Campaignには、Adobe Campaign クライアントコンソールで使用
 次のパラメーターを指定します。
 
 * **[!UICONTROL 送信者名]**：送信者の名前を入力します。
-* **[!UICONTROL 送信者のアドレス]**：送信者のメールアドレスを入力します。 Adobe Campaignから電子メールを送信する際、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignには、このメールボックスで受信した電子メールを自動返信または自動転送する機能もありません。 配信品質のベストプラクティスについて詳しくは [&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank} を参照してください。
+* **[!UICONTROL 送信者のアドレス]**：送信者のメールアドレスを入力します。 Adobe Campaignから電子メールを送信する際、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignには、このメールボックスで受信した電子メールを自動返信または自動転送する機能もありません。 配信品質のベストプラクティスについて詳しくは [&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=ja){_blank} を参照してください。
 
 * **[!UICONTROL 返信アドレステキスト]**：受信者が **[!UICONTROL 返信]** ボタンをクリックしたときに使用される名前を入力します。
 * **[!UICONTROL 返信アドレス]**：受信者がメールクライアントソフトウェアの **[!UICONTROL 返信]** ボタンをクリックしたときに使用するメールアドレスを入力します。 「**返信アドレス**」フィールドは、受信者が **送信者アドレス** とは異なるアドレスに返信する場合に使用します。  このアドレスは、有効なメールアドレスで、監視対象のメールボックスにリンクされ、顧客によってホストされている必要があります。  例えば、電子メールが読まれて返信される `customer-care@customer.com` のようなサポート用メールボックスを指定できます。
 
-* **[!UICONTROL エラーアドレス]**：エラーが発生したメッセージのメールアドレスを入力します。 これは、バウンスメールの処理に使用される技術的なアドレスです。これには、存在しないターゲットアドレスが原因でAdobe Campaign サーバーが受信したメールも含まれます。 このアドレスは、有効なメールアドレスで、監視対象のメールボックスにリンクされ、顧客によってホストされている必要があります。 例えば、`errors@customer.com` のようなバウンスメールボックスを指定できます。 このアドレスは、配信または配信テンプレートで、配信/配信テンプレートプロパティの「**SMTP**」タブから変更できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}を参照してください。
+* **[!UICONTROL エラーアドレス]**：エラーが発生したメッセージのメールアドレスを入力します。 これは、バウンスメールの処理に使用される技術的なアドレスです。これには、存在しないターゲットアドレスが原因でAdobe Campaign サーバーが受信したメールも含まれます。 このアドレスは、有効なメールアドレスで、監視対象のメールボックスにリンクされ、顧客によってホストされている必要があります。 例えば、`errors@customer.com` のようなバウンスメールボックスを指定できます。 このアドレスは、配信または配信テンプレートで、配信/配信テンプレートプロパティの「**SMTP**」タブから変更できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=ja#managing-bounce-emails){target="_blank"}を参照してください。
 
 これに加えて、送信者アドレスとエラーアドレスに対して許可されている **マスク** を指定できます。 必要に応じて、これらのマスクはコンマで区切ることができます。 この設定はオプションです。 フィールドに値を入力すると、Adobe Campaignは配信時に（分析時に、アドレスに変数が含まれていない場合は）、アドレスが有効かどうかを確認します。 このオペレーティングモードでは、配信の問題をトリガーにする可能性のあるアドレスを使用しません。 配信アドレスは、配信サーバーで設定する必要があります。
 

@@ -73,10 +73,10 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 * プラットフォーム全体で[配信スループット](../../reporting/using/global-reports.md#delivery-throughput)を定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで[再試行](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](delivery-failures-quarantine.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
-* [配信ダッシュボード](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
+* [配信ダッシュボード](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
 * ウェーブを使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](delivery-failures-quarantine.md)が他の配信と整合性が取れていることをチェックします。
-* [配信ログ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
+* [配信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
 
 ### トラブルシューティング {#delivery-troubleshooting}
 
@@ -95,17 +95,17 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 配信リストにアクセスし、配信ダッシュボードを使用して送信アクティビティを監視する方法を説明します。
 
-* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
-* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
+* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; 詳細：配信ログのカスタマイズ &#x200B;](customize-delivery-logs.md) （v7 ハイブリッド/オンプレミスのみ – スキーマ拡張）
 
 ### メッセージインタラクションのトラッキング
 
 開封数、クリック数、配信に対する受信者のインタラクションをトラッキングします。
 
-* [&#x200B; メッセージトラッキングドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
-* [&#x200B; トラッキングするリンクの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; トラッキングログへのアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; メッセージトラッキングドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に適用）
+* [&#x200B; トラッキングするリンクの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; トラッキングログへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} （Campaign v8 ドキュメント）
 
 ### 配信パフォーマンスの最適化
 
@@ -118,6 +118,6 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 配信エラー、バウンスメール、強制隔離アドレスの管理：
 
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
-* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
+* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント - v7 と v8 の両方に関する包括的なガイド）
 * [&#x200B; 配信エラーと強制隔離の設定 &#x200B;](delivery-failures-quarantine.md) （v7 ハイブリッド/オンプレミス固有の設定）

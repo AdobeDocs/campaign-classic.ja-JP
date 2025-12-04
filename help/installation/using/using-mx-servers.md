@@ -91,4 +91,4 @@ MX ルールには 6 つの異なるレベルのスループットがあり、�
 * [MX 設定](../../installation/using/email-deliverability.md#mx-configuration)
 * [技術的なメール設定](../../installation/using/email-deliverability.md)
 * [配信エラーについて](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic – 技術的な推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic – 技術的な推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja)

@@ -6,7 +6,7 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -483,7 +483,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 受信ボックスレンダリングはメールプレビューの生成のことで、様々な web クライアント、web メールおよびデバイスで受信者に最適な方法でメッセージが表示されるようにします。Adobe Campaign では Litmus を利用しているので、メールコンテンツ作成者は、Gmail 受信トレイや Apple Mail クライアントなど、70 を超えるメールレンダラーでメッセージコンテンツをプレビューできます。
 
-受信ボックスレンダリングの詳細は[こちら](../../delivery/using/delivery-dashboard.md#delivery-rendering)。
+受信ボックスレンダリングの詳細は[こちら](../../delivery/using/inbox-rendering.md)。
 +++
 
 +++**インスタンス設定**
@@ -1010,7 +1010,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。メールの開封やクリックなど、受信者が受け取ったメッセージに対する操作の情報を確認できます。
 
-詳しくは、[Campaign v8 のトラッキングログ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 のトラッキングログ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
 +++
 
 +++**トランザクションメッセージング**

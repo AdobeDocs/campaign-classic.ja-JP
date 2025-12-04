@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 98%
@@ -47,7 +47,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">パフォーマンスとスループットの問題</a></li>
-        <li><a href="delivery/using/delivery-performances.md">配信パフォーマンス</a></li>
+        <li><a href="delivery/using/delivery-performance-troubleshooting.md">配信パフォーマンス</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのパフォーマンスの最適化</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP サーバーの使用</a></li>
@@ -132,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

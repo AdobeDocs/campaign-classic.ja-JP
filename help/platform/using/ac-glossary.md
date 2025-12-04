@@ -222,7 +222,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 配信ログには、メッセージの送信時に生成される情報が含まれます。これらのログで、どのメッセージが準備、無視、送信または失敗したか、送信の詳細が示されます。配信ダッシュボードから直接アクセスできます。
 
-詳細情報：[配信ログ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
+詳細情報：[配信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
 +++
 
 <!--

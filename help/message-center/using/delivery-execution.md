@@ -40,7 +40,7 @@ ht-degree: 99%
 
 ## トランザクションメッセージの監視 {#transactional-message-monitoring}
 
-トランザクションメッセージを監視するには、[配信ログ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を確認します。
+トランザクションメッセージを監視するには、[配信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を確認します。
 
 実行インスタンスから送信されるトランザクション配信は、1 時間ごとに実行されるテクニカルワークフロー（**[!UICONTROL Message Center 実行インスタンス]**）を通じてコントロールインスタンスに同期されます。
 

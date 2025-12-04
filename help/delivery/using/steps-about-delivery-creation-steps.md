@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. **配信の送信**[詳細を表示](steps-sending-the-delivery.md)
 
-1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[配信の監視](about-delivery-monitoring.md)および[配信のトラッキング](about-message-tracking.md)の節を参照してください。
+1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[ 配信の監視 ](about-delivery-monitoring.md) および [ メッセージトラッキング ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} の節を参照してください。
 
 >[!NOTE]
 >

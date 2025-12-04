@@ -5,10 +5,10 @@ description: グローバルレポート
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[強制隔離管理](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+>このレポートに表示されるエラーにより、強制隔離プロセスがトリガーされます。強制隔離の管理について詳しくは、[強制隔離管理](../../delivery/using/delivery-failures-quarantine.md)を参照してください。
 
 このレポートの最初のセクションには、配信不能件数の分類が値のテーブルとグラフの形式で表示されます。
 
@@ -167,9 +167,9 @@ ht-degree: 100%
 
 ### ソーシャルネットワークへの共有 {#sharing-to-social-networks}
 
-バイラルマーケティングによって、配信の受信者は連絡先のネットワークと情報を共有できるようになります。プロフィールにリンクを追加したり（Facebook、X - 旧 Twitter など）、友達にメッセージを送信したりできます。それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
+バイラルマーケティングを使用すると、配信の受信者は、連絡先ネットワークと情報を共有できます。プロファイル（Facebook、X （以前の Twitter など）へのリンクを追加したり、友人にメッセージを送信したりできます。 それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
-このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します。
+このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および/またはメールごとに、共有メッセージと開封済みメッセージの分類を表示します。
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities}
 
-このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の時間の経過を示しています。
+このレポートは、ソーシャルネットワーク（Facebook、X （旧称 Twitter、メールなど）への共有の進化を時間的に示しています。
 
 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
@@ -296,7 +296,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >ハードバウンスおよびソフトバウンスについて詳しくは、[強制隔離管理](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+  >ハードバウンスおよびソフトバウンスについて詳しくは、[強制隔離管理](../../delivery/using/delivery-failures-quarantine.md)を参照してください。
 
 * **[!UICONTROL 開封数]**：正常に処理されたメッセージ数に対する、メッセージを少なくとも 1 回開封したターゲット受信者数の割合。
 * **[!UICONTROL クリック数]**：正常に処理されたメッセージ数に対する、配信で少なくとも 1 回クリックしたユーザー数の割合。

@@ -6,8 +6,8 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
+workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## テクニカルワークフローについて {#overview}
 
-この節で詳しく説明するワークフローは、別の Adobe Campaign 組み込みパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約によって異なります。ビルトインパッケージの詳細については、[この節](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+この節で詳しく説明するワークフローは、別の Adobe Campaign ビルトインのパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約によって異なります。ビルトインパッケージの詳細については、[この節](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 デフォルトでは、テクニカルワークフローは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードのサブフォルダーで使用できます。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 | **MessageCenter の完全な集計計算**（agg_messageCenter_full） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローは、Message Center キューブのための完全な集計を更新します。デフォルトで、毎日午前 3 時にトリガーされます。この集計は、チャネル、日付、ステータス、イベントタイプの各ディメンションを取り込みます。次に、Message Center キューブを使用して、イベントに基づいてレポートを生成します。キューブについて詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください |
 | **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。カウント情報には、送信された配信の数など、一般的な配信達成度が含まれています。開封数などのトラッキング情報は含まれていません。デフォルトで、10 分おきにトリガーされます。 |
 | **ミッドソーシング（配信ログ）**（defaultMidSourcingLog） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信ログを収集します。デフォルトで、1 時間おきにトリガーされます。 |
-| **NMAC オプトアウト管理**（mobileAppOptOutMgt） | モバイルアプリチャネル | モバイルデバイスの通知の購読解除を更新します。午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)を参照してください。 |
+| **NMAC オプトアウト管理**（mobileAppOptOutMgt） | モバイルアプリチャネル | モバイルデバイスの通知の購読解除を更新します。午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。詳しくは、[この節](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines)を参照してください。 |
 | **オファー通知**（offerMgt） | 配信 | 承認されたオファーと、オファーカタログに含まれるすべてのカテゴリをオンライン環境にデプロイします。 |
 | **一時停止されたワークフローのクリーンアップ**（cleanupPausedWorkflows） | 配信 | このワークフローは、重要度が通常に設定された一時停止中のワークフローを分析し、長期間一時停止状態が続いている場合に警告と通知をトリガーします。1 ヶ月後、一時停止中のテクニカルワークフローは無条件で停止されます。デフォルトで、毎週月曜日の午前 5 時にトリガーされます。詳しくは、[一時停止されたワークフローの処理](monitoring-workflow-execution.md#handling-of-paused-workflows)を参照してください。 |
 | **プライバシーリクエストのクリーンアップ**（cleanupPrivacyRequests） | プライバシーデータ保護規則 | このワークフローでは、90 日より古いアクセス要求ファイルが消去されます。 |

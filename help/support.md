@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 98%
@@ -58,7 +58,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのベストプラクティス</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">テクニカルワークフローの監視</a></li>
-        <li><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
         <li><a href="production/using/monitoring-guidelines.md">監視ツールについて</a></li>
         <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">複数ウェーブでのメッセージの送信</a></li>
@@ -74,7 +74,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="delivery/using/delivery-failures-quarantine.md">強制隔離管理について</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">セキュリティとプライバシーのチェックリスト</a></li>
         <li><a href="platform/using/privacy-management.md">プライバシーと同意管理</a></li>
-        <li><a href="platform/using/about-queries-in-campaign.md">クエリのデザイン</a></li>
+        <li><a href="platform/using/adobe-campaign-workspace.md#about-queries-in-campaign">クエリのデザイン</a></li>
         <li><a href="workflow/using/querying-recipient-table.md">クエリのサンプル</a></li>
         <li><a href="workflow/using/building-a-workflow.md">ワークフローの作成</a></li>
         </ul>
@@ -132,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

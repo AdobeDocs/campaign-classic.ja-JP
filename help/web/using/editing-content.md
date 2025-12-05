@@ -5,8 +5,8 @@ description: コンテンツの編集
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 >[!NOTE]
 >
->高度な式の編集については、[このページ](../../platform/using/about-queries-in-campaign.md)を参照してください。
+>高度な式の編集については、[このページ](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
 ![](assets/dce_popup_visibilitycondition.png)
 

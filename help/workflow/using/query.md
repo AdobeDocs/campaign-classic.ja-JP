@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](querying-using-grouping-management.md)を参照してください。
 
-   式ビルダーを、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。その後、選択した条件の組み合わせに&#x200B;**[!UICONTROL 対応する SQL クエリ]**&#x200B;をプレビューできます。詳しくは、この[節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   式ビルダーを、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。その後、選択した条件の組み合わせに&#x200B;**[!UICONTROL 対応する SQL クエリ]**&#x200B;をプレビューできます。詳しくは、この[節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
    後で再利用したい場合、フィルターを保存します。
 
@@ -198,7 +198,7 @@ Adobe Campaign データベースからデータを追加するには：
 * `Lower(...)` のような関数には注意が必要です。Lower 関数を使用する場合、インデックスは使用されません。
 * 「like」演算子または「upper」や「lower」演算子を使用するクエリには注意が必要です。「upper」の適用は、データベースフィールドではなくユーザー入力におこないます。
 
-  関数について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+  関数について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
 ### フィルタリングディメンション {#filtering-dimensions}
 
@@ -223,7 +223,7 @@ Adobe Campaign データベースからデータを追加するには：
 ### アーキテクチャ {#architecture}
 
 * 実稼働環境プラットフォームと同様のボリューム、パラメーター、アーキテクチャを持つ開発プラットフォームを構築します。
-* 開発環境と実稼働環境では同じ値を使用します。次の項目に関しては、できる限り同じものを使用します。
+* 開発環境と本番環境では同じ値を使用します。次の項目に関しては、できる限り同じものを使用します。
 
    * オペレーティングシステム
    * バージョン
@@ -233,7 +233,7 @@ Adobe Campaign データベースからデータを追加するには：
 
   >[!NOTE]
   >
-  >開発環境で動作する機能が、データの異なる実稼働環境では動作しない場合があります。リスクを予測し、解決策を準備するために、主な違いを特定しておくようにします。
+  >開発環境で動作する機能が、データの異なる本番環境では動作しない場合があります。リスクを予測し、解決策を準備するために、主な違いを特定しておくようにします。
 
 * ターゲットボリュームに適した構成を設定します。大容量ボリュームには特定の構成が必要です。10 万人の受信者に対して機能した構成が、1 000 万人の受信者に対しては機能しないこともあります。
 

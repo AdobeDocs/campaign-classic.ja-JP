@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 受信者リストを設定して、オプトアウト列を表示します。リストの設定方法については、[詳細なドキュメント](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
+1. 受信者リストを設定して、オプトアウト列を表示します。リストの設定方法については、[詳細なドキュメント](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists)を参照してください。
 
    ![](assets/privacy-ccpa-6.png)
 

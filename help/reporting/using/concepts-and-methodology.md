@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 98%
@@ -171,7 +171,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 1. 必要に応じて、および演算子によっては、演算に関係する式を選択します。
 
-   「**[!UICONTROL 詳細選択]**」ボタンをクリックすると、複雑な計算式を作成できます。詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   「**[!UICONTROL 詳細選択]**」ボタンをクリックすると、複雑な計算式を作成できます。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 

@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. プライマリレコードへ移動するコレクションと更新するフィールドを選択します。
 
-   セカンダリレコードが 1 つまたは複数見つかったときに、これらのコレクションおよびフィールドに適用するルールを入力します。そのためには、式ビルダーを使用できます。詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。例えば、すべての異なるレコードの更新値のうち最新のものを必ず保持するように指定します。
+   セカンダリレコードが 1 つまたは複数見つかったときに、これらのコレクションおよびフィールドに適用するルールを入力します。そのためには、式ビルダーを使用できます。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。例えば、すべての異なるレコードの更新値のうち最新のものを必ず保持するように指定します。
 
    次に、ルールで考慮する条件を入力します。
 

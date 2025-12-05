@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -224,7 +224,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 配信ログには、メッセージの送信時に生成される情報が含まれます。これらのログで、どのメッセージが準備、無視、送信または失敗したか、送信の詳細が示されます。配信ダッシュボードから直接アクセスできます。
 
-詳細情報：[配信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
+詳細情報：[配信ログ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
 +++
 
 <!--
@@ -275,7 +275,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 値の配分は、現在データベースに存在するスキーマ属性の値の配分を表示するツールです。これにより、使用可能な値、およびその数と割合を判断し、クエリや式を作成する際の値の大文字と小文字の区別やスペルの問題を回避できます。
 
-詳しくは、[値の配分](../../platform/using/about-queries-in-campaign.md)を参照してください。
+詳しくは、[値の配分](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 +++
 
 +++**ドメインデリゲーション**
@@ -1012,7 +1012,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。メールの開封やクリックなど、受信者が受け取ったメッセージに対する操作の情報を確認できます。
 
-詳しくは、[Campaign v8 のトラッキングログ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 のトラッキングログ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
 +++
 
 +++**トランザクションメッセージング**

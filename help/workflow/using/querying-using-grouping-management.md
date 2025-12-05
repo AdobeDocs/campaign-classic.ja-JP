@@ -6,8 +6,8 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL メールドメイン]**」フィールドおよび「**[!UICONTROL プライマリキー]**」フィールドを選択します。「**[!UICONTROL プライマリキー]**」フィールドでカウントを実行します。
 
-   プライマリキーカウントについて詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   プライマリキーカウントについて詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
 1. 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにします。
 

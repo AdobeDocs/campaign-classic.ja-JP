@@ -5,7 +5,7 @@ description: 調査の回答を管理する方法を説明します
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -96,7 +96,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 >[!NOTE]
 >
->別のタイプのフィールドの場合の構文について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+>別のタイプのフィールドの場合の構文について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
 ### ストレージ設定 {#storage-settings}
 

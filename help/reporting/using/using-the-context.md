@@ -5,7 +5,7 @@ description: レポートでのコンテキストの使用方法を学ぶ
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 ### 例：グラフでのフィルターの使用 {#example--use-a-filter-in-a-chart}
 
-次の例では、フランスに居住し、この 1 年間に買い物をした受信者のプロファイルのみを表示するグラフを作成します。
+次の例では、フランスに居住し、この 1 年間に購入した受信者のプロファイルのみを表示するグラフを作成します。
 
-このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。「**[!UICONTROL データをフィルター]**」リンクをクリックし、表示するデータに合致するフィルターを作成します。Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。「**[!UICONTROL データをフィルター]**」リンクをクリックし、表示するデータに合致するフィルターを作成します。Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 

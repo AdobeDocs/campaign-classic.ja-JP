@@ -27,7 +27,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->リストの詳細と、リストの作成および管理方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank} を参照してください。
+>リストの詳細と、リストの作成および管理方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank} を参照してください。
 
 <!--
 Two types of lists are available in Adobe Campaign:

@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 96%
 
 ---
 
@@ -81,4 +81,4 @@ ht-degree: 100%
 
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
-  このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
+  このフィールドの値は、次の単位で表すことができます。**s** 秒、**m** 分、**h** 時間、**d** 日（デフォルト）、**y** 年。

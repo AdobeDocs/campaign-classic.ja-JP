@@ -5,10 +5,10 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic のド�
 
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
-  このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
+  このフィールドの値は、次の単位で表すことができます。**s** 秒、**m** 分、**h** 時間、**d** 日（デフォルト）、**y** 年。
 
 +++
 
@@ -128,7 +128,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic のド�
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

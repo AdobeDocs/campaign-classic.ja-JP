@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 99%
+source-wordcount: '1629'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 99%
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
-1. 送信状況を監視するには、配信ログを参照してください。[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を参照してください。
+1. 送信状況を監視するには、配信ログを参照してください。[このページ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を参照してください。
 
    処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
@@ -199,4 +199,4 @@ ht-degree: 99%
 
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
-  このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
+  このフィールドの値は、次の単位で表すことができます。**s** 秒、**m** 分、**h** 時間、**d** 日（デフォルト）、**y** 年。

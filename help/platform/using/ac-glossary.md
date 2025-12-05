@@ -5,8 +5,10 @@ description: Adobe Campaign の用語集
 feature: Overview
 role: User, Developer
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -222,7 +224,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 配信ログには、メッセージの送信時に生成される情報が含まれます。これらのログで、どのメッセージが準備、無視、送信または失敗したか、送信の詳細が示されます。配信ダッシュボードから直接アクセスできます。
 
-詳細情報：[配信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
+詳細情報：[配信ログ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}。
 +++
 
 <!--
@@ -1010,7 +1012,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。メールの開封やクリックなど、受信者が受け取ったメッセージに対する操作の情報を確認できます。
 
-詳しくは、[Campaign v8 のトラッキングログ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
+詳しくは、[Campaign v8 のトラッキングログ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} を参照してください。
 +++
 
 +++**トランザクションメッセージング**

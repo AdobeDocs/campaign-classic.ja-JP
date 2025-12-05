@@ -58,7 +58,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja" target="_blank">ワークフローのベストプラクティス</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">テクニカルワークフローの監視</a></li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
+        <li><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">トラッキング管理について</a></li>
         <li><a href="production/using/monitoring-guidelines.md">監視ツールについて</a></li>
         <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">複数ウェーブでのメッセージの送信</a></li>
@@ -132,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

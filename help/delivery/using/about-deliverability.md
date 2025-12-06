@@ -79,8 +79,8 @@ Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウ�
 
 詳しくは、以下の節を参照してください。
 
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント – 包括的なガイド）
-* [&#x200B; 強制隔離管理について &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント – 包括的ガイド）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント – 包括的なガイド）
+* [&#x200B; 強制隔離管理について &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント – 包括的ガイド）
 
 ### 監視ツールとレポートツールの使用
 

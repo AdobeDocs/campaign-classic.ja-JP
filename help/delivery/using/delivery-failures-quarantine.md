@@ -18,14 +18,14 @@ ht-degree: 35%
 >
 >配信の失敗と強制隔離管理に関する包括的なガイダンスについては、Campaign v8 ドキュメントを参照してください。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
 >
->* [&#x200B; 配信失敗について &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} – 失敗のタイプ、エラー理由、同期/非同期エラー、再試行管理、トラブルシューティングについて説明します
->* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} – 強制隔離とブロックリストに加える、ソフトエラーしきい値、強制隔離レポート、アドレス削除について説明します
+>* [&#x200B; 配信失敗について &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} – 失敗のタイプ、エラー理由、同期/非同期エラー、再試行管理、トラブルシューティングについて説明します
+>* [&#x200B; 強制隔離管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} – 強制隔離とブロックリストに加える、ソフトエラーしきい値、強制隔離レポート、アドレス削除について説明します
 >
 >このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントでのバウンスメールおよび強制隔離の管理について **0&rbrace;Campaign Classic v7 固有の設定 &rbrace; を説明します。**
 
 ## 配信エラーについて
 
-配信エラーの一般的な概念、エラータイプおよびトラブルシューティングガイダンスについては、[Campaign v8 配信エラーについてのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+配信エラーの一般的な概念、エラータイプおよびトラブルシューティングガイダンスについては、[Campaign v8 配信エラーについてのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
 
 ## バウンスメールの設定 {#bounce-mail-config}
 
@@ -127,7 +127,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 * **[!UICONTROL 制限]**：期間ごとに許可されるメッセージの最大数。
 
-* **[!UICONTROL タイプ]**：送信動作を決定するために使用されるエラータイプ（ハード、ソフト、無視）。 エラータイプの定義については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
+* **[!UICONTROL タイプ]**：送信動作を決定するために使用されるエラータイプ（ハード、ソフト、無視）。 エラータイプの定義については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照してください。
 
 MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
 
@@ -137,7 +137,7 @@ MX 管理について詳しくは、[この節](../../installation/using/email-d
 
 ## 強制隔離の管理 {#quarantine-management}
 
-包括的な強制隔離管理ガイダンスについては、[Campaign v8 強制隔離管理ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} を参照してください。
+包括的な強制隔離管理ガイダンスについては、[Campaign v8 強制隔離管理ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} を参照してください。
 
 ## 強制隔離の設定 {#quarantine-config}
 
@@ -189,7 +189,7 @@ Campaign Classic v7 の場合、プッシュ通知の強制隔離は、チャネ
 
 **iOS** および **Android** のプッシュ通知の場合、強制隔離メカニズムはメールアドレスではなくデバイストークンを使用します。 モバイルアプリケーションがアンインストールまたは再インストールされると、関連するトークンが強制隔離されます。
 
-プッシュ通知の強制隔離シナリオ（iOSおよびAndroidのエラータイプ、再試行動作など）について詳しくは、[&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} のドキュメントを参照してください。このドキュメントには、包括的なプッシュ通知エラータイプの表が含まれています。
+プッシュ通知の強制隔離シナリオ（iOSおよびAndroidのエラータイプ、再試行動作など）について詳しくは、[&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} のドキュメントを参照してください。このドキュメントには、包括的なプッシュ通知エラータイプの表が含まれています。
 
 ### SMS の強制隔離の詳細 {#sms-quarantine-specifics}
 
@@ -201,14 +201,14 @@ SMS の強制隔離メカニズムは、使用するコネクタによって異�
 
 * **拡張された汎用 SMPP コネクタ**: エラー管理は、正規表現（正規表現）を使用して異なる方法で処理され、SMSC プロバイダーによって返されたステータスレポート（SR）メッセージを解析します。
 
-SMS 強制隔離のシナリオとエラータイプについて詳しくは、包括的な SMS エラータイプ テーブルを含む [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} ドキュメントを参照してください。
+SMS 強制隔離のシナリオとエラータイプについて詳しくは、包括的な SMS エラータイプ テーブルを含む [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} ドキュメントを参照してください。
 
 ## 関連トピック
 
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; 強制隔離の管理 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 強制隔離の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; データベースクリーンアップワークフロー &#x200B;](../../production/using/database-cleanup-workflow.md) （v7 ハイブリッド/オンプレミス）
 * [&#x200B; 配信再試行の設定 &#x200B;](communication-channels.md) （v7 ハイブリッド/オンプレミス）
 * [&#x200B; バウンス認定条件の更新 &#x200B;](update-bounce-qualification.md) （v7 ハイブリッド/オンプレミス）

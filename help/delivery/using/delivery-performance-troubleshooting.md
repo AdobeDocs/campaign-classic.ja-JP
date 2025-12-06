@@ -60,8 +60,8 @@ ht-degree: 5%
 >
 >配信のトラブルシューティングに関する包括的なガイダンスは、Campaign v8 ドキュメントに記載されており、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用できます。
 >
->* 一般的な配信エラーとソリューション：[&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
->* 配信遅延の診断：[Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
+>* 一般的な配信エラーとソリューション：[&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
+>* 配信遅延の診断：[Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >* 配信のベストプラクティス：[&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
 >この節では、ハイブリッドデプロイメントとオンプレミスデプロイメントの **Campaign Classic v7 固有のトラブルシューティング** について説明します。
@@ -100,13 +100,13 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はAdobeで管理されます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照して、配信コンテンツとターゲティングに焦点を当てます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はAdobeで管理されます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} を参照して、配信コンテンツとターゲティングに焦点を当てます。
 
 ## 関連トピック
 
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; 配信のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} （Campaign v8 ドキュメント）
-* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
+* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; データベースメンテナンス &#x200B;](../../production/using/recommendations.md) （v7 ハイブリッド/オンプレミス）
 * [&#x200B; メール配信品質 &#x200B;](../../installation/using/email-deliverability.md) （v7 ハイブリッド/オンプレミス）
 * [&#x200B; データベースのパフォーマンス &#x200B;](../../production/using/database-performances.md) （v7 ハイブリッド/オンプレミス）

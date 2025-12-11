@@ -7,9 +7,9 @@ feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 
 ### JavaScript テンプレートの構造 {#structure-of-a-javascript-template}
 
-「cus:book」スキーマに基づくJavaScript HTML書式設定テンプレートの例：
+「cus:book」スキーマをベースとする JavaScript HTML 書式設定テンプレートの例を次に示します。
 
 ```
 <html>
@@ -191,7 +191,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
 
 この例では、次の手順に従います。
 
-1. 次のスキーマを作成します（この場合は **neo:news**）。
+1. 次のスキーマを作成します（この場合 **neo:news**）。
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -230,7 +230,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
    </srcSchema>
    ```
 
-1. リンクされた **[!UICONTROL コンテンツ管理]** タイプフォームの作成（**neo:news**）
+1. リンクされた&#x200B;**[!UICONTROL コンテンツ管理]**&#x200B;タイプのフォーム（**neo:news**）を作成します。
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -376,11 +376,11 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
 
 スタイルシートは、スキーマやフォームと同様に、名前と名前空間で識別されます。ただし、スタイルシートの名前には **.xsl** 拡張子を追加することをお勧めします。
 
-スタイルシートの識別キーは、名前空間と名前をコロンで区切った文字列です（例：**cus:book.xsl**）。
+スタイルシートの識別キーは、コロンで分けられた名前空間と名前によって形成される文字列です。例：**cus:book.xsl**
 
 ### スタイルシートの構造 {#structure-of-a-stylesheet}
 
-サンプルスキーマ「cus:book」に基づくHTML書式設定スタイルシートの例：
+サンプルスキーマ「cus:book」をベースとする HTML 書式設定スタイルシートの例：
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -444,7 +444,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
 
 デフォルトでは、XSLT プロセッサーは、入力 XML ドキュメントのルートまたはメインノードに適用する&#x200B;**テンプレート**&#x200B;を探します。この&#x200B;**テンプレート**&#x200B;を基に、出力ドキュメントの構築が始まります。
 
-この例では、ブックの名前とチャプターのリストを表示することで、「cus:book」スキーマからHTMLページを生成します。
+この例では、本の名前と章のリストを表示することにより、HTML ページが「cus:book」スキーマから生成されます。
 
 >[!NOTE]
 >

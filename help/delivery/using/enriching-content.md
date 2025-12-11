@@ -7,9 +7,9 @@ feature: Data Management
 role: User, Developer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 XML 出力ドキュメントのメイン要素を使用して、取得したデータでこのドキュメントをエンリッチメントします。
 
-受信者スキーマのクエリから返される例（**nms:recipient**）:
+受信者スキーマ（**nms:recipient**）に対するクエリの戻り値の例：
 
 ```
 <book name="Content Management">
@@ -78,7 +78,7 @@ XML 出力ドキュメントのメイン要素を使用して、取得したデ�
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-リンクの定義は **string** タイプの **`<element>`** に入力され、**expandSchemaTarget** 属性はターゲットスキーマ（この例では「cus:chapter」）を参照します。 参照するスキーマは、コンテンツスキーマである必要があります。
+リンクの定義は **string** タイプの **`<element>`** に対して作成され、**expandSchemaTarget** 属性がターゲットスキーマ（この例では「cus:chapter」）を参照します。参照するスキーマは、コンテンツスキーマである必要があります。
 
 ターゲット要素のコンテンツは、リンク要素（この例のスキーマでは **`<chapter>`** 要素）をエンリッチメントします。
 
@@ -136,13 +136,13 @@ XML 出力ドキュメントのメイン要素を使用して、取得したデ�
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-リンクの定義は **link** タイプの **`<element>`** に入力され、**target** 属性はターゲットスキーマ（この例では「nms:recipient」）を参照します。
+リンクの定義は **link** タイプの **`<element>`** に対して設定され、**target** 属性がターゲットスキーマ（この例では「nms:recipient」）を参照します。
 
 慣例によって、リンクはデータスキーマのメイン要素から宣言する必要があります。
 
 ターゲット要素の&#x200B;**計算文字列**&#x200B;とキーが、メイン要素の **`<name>-id`** 属性と **`<name>-cs`** 属性をエンリッチメントします。
 
-この例では、「cus:book」スキーマにリンクが入力され、リンクデータの内容は「mainContact-id」属性と「mainContact-cs」属性に含まれています。
+この例では、リンクは「cus:book」スキーマ内に入力され、リンクデータのコンテンツは「mainContact-id」属性と「mainContact-cs」属性に格納されます。
 
 ```
 <book computeString="Content management" date="2006/06/08" id="6106" language="en" mainContact-cs="John Doe (john.doe@adobe.com)" mainContact-id="3012" name="Content management" xtkschema="cus:book">

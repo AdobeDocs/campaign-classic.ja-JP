@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -175,6 +175,6 @@ ht-degree: 97%
 * スキーマ
 * recCount
 
-この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲット識別子を保存するテーブルの名前で、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）であり、**[!UICONTROL recCount]** はテーブル内の要素数です。
+この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 補集合に関連付けられたトランジションは、同じパラメーターを持ちます。

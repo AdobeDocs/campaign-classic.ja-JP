@@ -1,34 +1,34 @@
 ---
 product: campaign
-title: 詳細 – 配信ログのカスタマイズ
-description: 配信ログスキーマを拡張して、Campaign Classic v7 にカスタムフィールドを追加する方法を説明します
+title: 詳細設定 - 配信ログのカスタマイズ
+description: Campaign Classic v7 で配信ログスキーマを拡張し、カスタムフィールドを追加する方法について説明します
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# 詳細：配信ログのカスタマイズ {#customize-delivery-logs}
+# 詳細設定：配信ログのカスタマイズ {#customize-delivery-logs}
 
 >[!NOTE]
 >
->配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard) を参照してください。 このコンテンツは、Campaign Classic v7 ユーザーと Campaign v8 ユーザーの両方に適用されます。
+>配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)を参照してください。このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
 >
->このページは、ハイブリッドデプロイメントとオンプレミスデプロイメントの **0&rbrace;Campaign Classic v7 固有の高度なカスタマイズについて説明します。**
+>このページでは、ハイブリッドおよびオンプレミスのデプロイメントでの **Campaign Classic v7 固有の高度なカスタマイズ**&#x200B;について説明します。
 
-Campaign UI での配信の監視については、[Campaign v8 Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ドキュメントを参照してください。
+Campaign UI で配信を監視する方法について詳しくは、[Campaign v8 Campaign UI での配信の監視ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}を参照してください。
 
 ## 配信ログのカスタマイズ {#use-case}
 
-**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** の場合、スキーマを拡張して配信ログをカスタマイズできます。 ここでは、配信ログに送信者の IP アドレスを追加する方法について説明します。
+**Campaign Classic v7 ハイブリッド／オンプレミスデプロイメント**&#x200B;の場合、スキーマを拡張して配信ログをカスタマイズできます。この節では、送信者の IP アドレスを配信ログに追加する方法について説明します。
 
 >[!NOTE]
 >
->このカスタマイズを行うには、オンプレミスデプロイメントで使用できるスキーマ拡張機能が必要です。 Campaign v8 Managed Cloud Services のユーザーは、カスタム配信ログフィールドについて、Adobe カスタマーケアにお問い合わせください。
+>このカスタマイズには、オンプレミスデプロイメントで使用可能なスキーマ拡張機能が必要です。Campaign v8 Managed Cloud Services ユーザーは、カスタム配信ログフィールドについてアドビカスタマーケアにお問い合わせください。
 >
 >この変更は、単一のインスタンスを使用する場合とミッドソーシングインスタンスを使用する場合とでは異なります。変更をおこなう前に、メール送信インスタンスに接続していることを確認します。
 
@@ -113,9 +113,9 @@ Campaign UI での配信の監視については、[Campaign v8 Campaign UI で�
 
 ## 関連トピック
 
-* [Campaign UI での配信の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; 配信ステータス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; 配信エラーについて &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; 強制隔離の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）
-* [&#x200B; スキーマの拡張 &#x200B;](../../configuration/using/extending-a-schema.md) （v7 ハイブリッド/オンプレミス）
+* [Campaign UI での配信の監視](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}（Campaign v8 ドキュメント）
+* [配信ステータス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}（Campaign v8 ドキュメント）
+* [配信エラーについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}（Campaign v8 ドキュメント）
+* [強制隔離の管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}（Campaign v8 ドキュメント）
+* [スキーマの拡張](../../configuration/using/extending-a-schema.md)（v7 ハイブリッド／オンプレミス）
 

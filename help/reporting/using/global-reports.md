@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ ht-degree: 97%
 
 ### ソーシャルネットワークへの共有 {#sharing-to-social-networks}
 
-バイラルマーケティングを使用すると、配信の受信者は、連絡先ネットワークと情報を共有できます。プロファイル（Facebook、X （以前の Twitter など）へのリンクを追加したり、友人にメッセージを送信したりできます。 それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
+バイラルマーケティングでは、配信の受信者は連絡先のネットワークと情報を共有できます。プロフィールにリンクを追加したり（Facebook、X - 旧 Twitter など）、友達にメッセージを送信したりできます。それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
-このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および/またはメールごとに、共有メッセージと開封済みメッセージの分類を表示します。
+このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します。
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 97%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities}
 
-このレポートは、ソーシャルネットワーク（Facebook、X （旧称 Twitter、メールなど）への共有の進化を時間的に示しています。
+このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の展開を表示しています。
 
 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
@@ -259,7 +259,7 @@ ht-degree: 97%
 
 ![](assets/s_ncs_user_services_report.png)
 
-ホームページまたはエクスプローラーの&#x200B;**[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードをクリックすると、購読を表示することができます。目的の購読を選択して、「**[!UICONTROL レポート]**」タブをクリックします。**[!UICONTROL 購読のトラッキング]**&#x200B;レポートはデフォルトで使用可能です。サブスクリプションおよびサブスクリプション解除のトレンドと、一定期間のロイヤルティ率を確認できます。
+ホームページまたはエクスプローラーの&#x200B;**[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードをクリックすると、購読を表示することができます。目的の購読を選択して、「**[!UICONTROL レポート]**」タブをクリックします。**[!UICONTROL 購読のトラッキング]**レポートはデフォルトで使用可能です。サブスクリプションおよびサブスクリプション解除のトレンドと、一定期間のロイヤルティ率を確認できます。
 ドロップダウンリストでこのデータの表示を設定できます。「**[!UICONTROL 更新]**」をクリックして、選択した設定を有効にしてください。
 
 詳しくは、[このページ](../../delivery/using/managing-subscriptions.md)を参照してください。

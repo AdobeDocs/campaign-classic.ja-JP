@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 90%
 
 1. **ターゲット母集団の定義**&#x200B;詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message#target-population.html?lang=ja){target="_blank"}を参照してください。
 
-1. **配信の送信**&#x200B;[詳細を表示](steps-sending-the-delivery.md)
+1. **配信の送信**[詳細を表示](steps-sending-the-delivery.md)
 
-1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[&#x200B; 配信の監視 &#x200B;](about-delivery-monitoring.md) および [&#x200B; メッセージトラッキング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} の節を参照してください。
+1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[配信の監視](about-delivery-monitoring.md)および[メッセージトラッキング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}の節を参照してください。
 
 >[!NOTE]
 >

@@ -1,26 +1,26 @@
 ---
 product: campaign
 title: ビルドのアップグレードに関する FAQ
-description: Campaign Classic v7 ビルドアップグレードに関するよくある質問（FAQ）
+description: Campaign Classic v7 ビルドのアップグレードに関するよくある質問
 feature: Upgrade, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # ビルドのアップグレードに関する FAQ {#build-upgrade-faq}
 
-この FAQ は、特にオンプレミスデプロイメントとハイブリッドデプロイメントの場合、Campaign Classic v7 ビルドのアップグレードに関する質問に対応しています。
+この FAQ では、特にハイブリッドおよびオンプレミスのデプロイメントでの Campaign Classic v7 ビルドのアップグレードに関する質問について説明します。
 
 >[!NOTE]
 >
->ワークフロー、配信、オーディエンスなどに関する Campaign のよくある質問に対する包括的な回答については、[Campaign v8 の包括的な FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"} を参照してください。
+>ワークフロー、配信、オーディエンスなどに関する Campaign のよくある質問への包括的な回答については、[Campaign v8 に関する包括的な FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ja){target="_blank"} を参照してください。
 
 Adobe Campaign は定期的にアップデートされています。公開されている[リリースノート](../../rn/using/rn-overview.md)に記載されているように、アドビでは、新機能、機能強化、修正を含むマイナーバージョンを毎年平均 2 ～ 3 回リリースしています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。この定期的なアップデートは、環境の安全性を完全に維持し、アドビ製品の使用環境を明確に向上させ、製品を最新の状態で最大限に活用することを目的としています。
 
@@ -30,7 +30,7 @@ Adobe Campaign は定期的にアップデートされています。公開さ�
 
 ## ビルドのアップグレードとは何ですか？
 
-ビルドのアップグレードとは、Adobe Campaign Classic ソフトウェアが、メジャー／マイナーのビルドレベルは変わらないまま、最新の安全なビルド番号に更新されることを指します。例：Campaign Classic v7 ビルド 9026 -> Campaign v7 ビルド 9032。
+ビルドのアップグレードとは、Adobe Campaign Classic ソフトウェアが、メジャー／マイナーのビルドレベルは変わらないまま、最新の安全なビルド番号に更新されることを指します。例：Campaign Classic v7 ビルド 9026 から Campaign v7 ビルド 9032。
 
 詳しくは、[この節](../../rn/using/rn-overview.md)を参照してください。
 

@@ -6,9 +6,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1408'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -139,9 +139,9 @@ DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA �
 
 ### 配信成功レポート
 
-メール配信 **[!UICONTROL ダッシュボード]** の [&#x200B; 概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} ビューでは、**[!UICONTROL 成功]** の割合は 100% から始まり、ソフトバウンスとハードバウンスが Enhanced MTA から Campaign にレポートされるため、配信 [&#x200B; 有効期間 &#x200B;](communication-channels.md) を通じて徐々に低下します。
+メール配信[ダッシュボード](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}の&#x200B;**[!UICONTROL 概要]**&#x200B;ビューでは、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信の[有効期間](communication-channels.md)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるのにつれて、徐々に減少します。
 
-実際、Campaign から Enhanced MTA にメッセージが正常に中継されるとすぐに、すべてのメッセージが **[!UICONTROL 送信ログ]** で [&#x200B; 送信済み &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} として表示されます。 これらのステータスは、そのメッセージが Enhanced MTA から Campaign に返信される [&#x200B; バウンス &#x200B;](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) が行われない限り、維持されます。
+実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 
 Enhanced MTA からハードバウンスメッセージが返されると、ステータスが&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少します。
 
@@ -160,5 +160,5 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 | Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージは 100%から開始 | 送信済み |
 | Enhanced MTA からハードバウンスメッセージが返される | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |
 | ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み |
-| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]** パーセンテージ \| **[!UICONTROL 成功]** パーセンテージは、それに応じて増加します | 送信済み |
+| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成]**&#x200B;のパーセンテージに変更はない \| それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
 | ソフトバウンスメッセージの再試行に失敗する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |

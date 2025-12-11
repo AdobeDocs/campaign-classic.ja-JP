@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 94%
 
 * **[!DNL object]**：オブジェクト（例：配信、プロバイダーなど）の名前。オブジェクトは次のいずれかになります。
    * **[!DNL delivery]**：現在の配信の場合（詳細と制限事項については下記を参照）。
-   * **[!DNL provider]**：現在の配信プロバイダー/ルーティング （nms:externalAccount）用。
+   * **[!DNL provider]**：現在の配信のプロバイダー／ルーティング（nms:externalAccount）の場合。
    * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次から読み込まれる場合：**プロパティ**／**パーソナライゼーション**／**実行コンテキストにオブジェクトを追加**。
    * foreach ループの項目：下の [Foreach](#foreach) の節を参照してください。
 * **[!DNL xpath]**：フィールドの xpath。
@@ -100,7 +100,7 @@ ht-degree: 94%
 
 **注意**
 
-ミッドソーシング経由で送信する配信に以下の指示を使用する場合は、マーケティングプラットフォームとミッドソーシングプラットフォームの両方で nms **スキーマにカスタムフィールド**@myCustomField:delivery を追加する必要があります。
+ミッドソーシング経由で送信される配信に次の命令を使用する場合は、マーケティングプラットフォームとミッドソーシングプラットフォームの両方の nms:delivery スキーマにカスタムフィールド **@myCustomField** を追加する必要があります。
 
 ```
 <%@ value object="delivery" xpath="@myCustomField" %>

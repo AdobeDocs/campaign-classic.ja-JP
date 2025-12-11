@@ -6,9 +6,9 @@ feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: ba53107ce06c0484070cbe0943ba439d33d5f710
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,49 +16,49 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->Campaign v7 とCampaign Classic v8 の両方に適用される **一般的なトラッキングガイダンス** については、[Campaign v8 メッセージトラッキングドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} を参照してください。
+>Campaign Classic v7 と Campaign v8 の両方に適用される&#x200B;**一般的なトラッキングガイダンス**&#x200B;については、[Campaign v8 メッセージトラッキングドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}を参照してください。
 >
->* [&#x200B; トラッキングするリンクの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [追跡するリンクの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
 >* [URL トラッキングオプションの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [&#x200B; パーソナライズされたリンクの追跡 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [&#x200B; トラッキングログへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
->* [トラッキングのテスト](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
->* [&#x200B; トラッキングレポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
+>* [パーソナライズされたリンクのトラッキング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [トラッキングログへのアクセス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [トラッキングのテスト](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
+>* [トラッキングレポート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
->**このページでは、主にハイブリッドデプロイメントとオンプレミスデプロイメントのCampaign Classic v7 固有のトラッキング機能のみ** について説明します。
+>**このページでは、Campaign Classic v7 固有のトラッキング機能のみについて説明します**。これは、主にハイブリッドおよびオンプレミスのデプロイメントを対象としています。
 
 ## トラッキング機能
 
 ### トラッキング設定 {#configure-tracking}
 
-Campaign Classic v7 **ハイブリッド/オンプレミスデプロイメント** の場合は、使用前にインスタンスレベルでトラッキングを設定する必要があります。
+Campaign Classic v7 **ハイブリッド／オンプレミス**&#x200B;デプロイメントの場合、トラッキングを使用する前にインスタンスレベルで設定する必要があります。
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services の場合、トラッキング設定はAdobeによって実行されます。
+>Campaign v8 Managed Cloud Services の場合、トラッキング設定はアドビで実行されます。
 
 **動作の仕組み**
 
 トラッキングを使用する前に、まずインスタンスに対して設定する必要があります。設定は、Adobe Campaign アプリケーションサーバーと web サーバーで実行する必要があります。
 
-Campaign には、次の 2 種類のトラッキングがあります。
+Campaign には、次の 2 つのタイプのトラッキングがあります。
 
 * **Web トラッキング**：このモードでは、web サイトページへの訪問を追跡できます
-* **メッセージトラッキング**：このモードでは、メッセージ配信と受信者の行動をトラッキングできます
+* **メッセージトラッキング**：このモードでは、メッセージ配信と受信者の行動を追跡できます
 
-インストール時にトラッキングモードが選択されます。 オンプレミスインストールの場合、トラッキング設定はインスタンスレベルで定義する必要があります。 [詳細情報](../../installation/using/deploying-an-instance.md#operating-principle)
+インストール時にトラッキングモードが選択されます。オンプレミスインストールの場合、トラッキング設定はインスタンスレベルで定義する必要があります。 [詳細情報](../../installation/using/deploying-an-instance.md#operating-principle)
 
 **トラッキングサーバー**
 
 トラッキングを設定するには、インスタンスを宣言し、トラッキングサーバーに登録する必要があります。トラッキングサーバーは、受信者がクリックした URL に関する情報を記録および取得するために使用されます。
 
-オンプレミスインストールの場合、トラッキングサーバーは通常、Adobe Campaign web アプリケーションを実行している web サーバーです。 トラッキングサーバー URL は、インスタンス設定で定義する必要があります。 [詳細情報](../../installation/using/deploying-an-instance.md#tracking-server)
+オンプレミスインストールの場合、トラッキングサーバーは通常、Adobe Campaign web アプリケーションを実行している web サーバーです。トラッキングサーバー URL は、インスタンス設定で定義する必要があります。[詳細情報](../../installation/using/deploying-an-instance.md#tracking-server)
 
 **トラッキングの保存**
 
-トラッキングを設定し、URL を入力したら、トラッキングサーバーを登録する必要があります。登録により、Adobe Campaignはトラッキング情報を保存し、トラッキングされたアクティビティに関するレポートと統計を提供できます。
+トラッキングを設定し、URL を入力したら、トラッキングサーバーを登録する必要があります。登録により、Adobe Campaign はトラッキング情報を保存し、追跡したアクティビティに関するレポートと統計を提供できます。
 
-オンプレミスインストールの場合、トラッキング情報はデータベースに保存され、テクニカルワークフローを通じて取得されます。 **トラッキング** テクニカルワークフローは、リダイレクトサーバーから収集したトラッキングデータを処理および保存します。 [詳細情報](../../installation/using/deploying-an-instance.md#saving-tracking)
+オンプレミスインストールの場合、トラッキング情報はデータベースに保存され、テクニカルワークフローを通じて取得されます。**トラッキング**&#x200B;テクニカルワークフローは、リダイレクトサーバーから収集したトラッキングデータを処理および保存します。[詳細情報](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ### Web アプリケーショントラッキング {#web-application-tracking}
 
@@ -66,7 +66,7 @@ Campaign には、次の 2 種類のトラッキングがあります。
 
 >[!NOTE]
 >
->**Web アプリケーションのトラッキングはCampaign Classic v7 に固有で** Campaign v8 では使用できません。
+>**Web アプリケーショントラッキングは、Campaign Classic v7 に固有**&#x200B;で、Campaign v8 では使用できません。
 
 **web アプリケーションのトラッキング**
 
@@ -80,25 +80,25 @@ web アプリケーショントラッキングのオプトアウトを使用す�
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-次のトラブルシューティングのヒントは、**Campaign Classic v7 ハイブリッド/オンプレミスデプロイメント** に当てはまります。 一部の情報は、Campaign v8 オンプレミスデプロイメントにも当てはまる場合があります。 Campaign v8 Managed Cloud Services の場合は、Adobe担当者にお問い合わせください。
+次のトラブルシューティングのヒントは、**Campaign Classic v7 ハイブリッド／オンプレミスデプロイメント**&#x200B;に適用されます。また、一部の情報は Campaign v8 オンプレミスデプロイメントにも適用される場合があります。Campaign v8 Managed Cloud Services について詳しくは、アドビ担当者にお問い合わせください。
 
-Campaign v8 の基本的なトラッキングのトラブルシューティング手順については、[Campaign v8 のトラッキングのトラブルシューティング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"} ドキュメントを参照してください。
+Campaign v8 での基本的なトラッキングのトラブルシューティング手順について詳しくは、[Campaign v8 でのトラッキングのトラブルシューティングドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}を参照してください。
 
-### 基本チェック {#basic-checks}
+### 基本的な確認 {#basic-checks}
 
 **trackinglogd プロセスが実行中であることを確認します**
 
 このプロセスは、IIS/web サーバーの共有メモリから読み取り、リダイレクトログを書き込みます。
 
-インスタンスで「監視」タブを選択すると、ホームページからアクセスできます。 また、インスタンスで次のコマンドを実行することもできます。`<user>@<instance>:~$ nlserver pdump`
+ホームページからアクセスするには、インスタンスの「監視」タブを選択します。また、インスタンスでコマンド `<user>@<instance>:~$ nlserver pdump` を実行することもできます。
 
 trackinglogd プロセスがリストに表示されない場合は、インスタンスで次のコマンドを使用して起動します。`<user>@<instance>:~$ nlserver start trackinglogd`
 
-**最近、トラッキング テクニカルワークフローが実行されていることを確認する**
+**トラッキングテクニカルワークフローが最近実行されていることを確認します**
 
 トラッキングのテクニカルワークフローは、管理／製品／テクニカルワークフローのフォルダーで確認できます。
 
-### 詳細なトラブルシューティング {#advanced-troubleshooting}
+### 高度なトラブルシューティング {#advanced-troubleshooting}
 
 +++トラッキングワークフローが失敗する
 
@@ -108,7 +108,7 @@ trackinglogd プロセスがリストに表示されない場合は、インス�
 
 破損したトラッキングログファイル .../nl6/var/&lt;インスタンス名>/redir/log/0x0000 ログにより、トラッキングワークフローが停止する可能性があります。破損した行を容易に検出して削除し、トラッキングワークフローを再開するには、次のコマンドを使用します。
 
-**どのファイルが破損した行かわかっている**
+**どのファイルに破損した行があるかわかっている場合**
 
 このコマンドでは、0x00000000000A0000.log ファイル内にある破損した行が見つかります。他のファイルにある破損した行を見つけるには、同じ処理を各ファイルに適用する必要があります。
 
@@ -119,7 +119,7 @@ $ cat 0x00000000000A0000.log | sed -nE '/^[[:alnum:]]{2}x[[:alnum:]]*\t[0-9T:\.-
 
 その後、トラッキングワークフローを停止し、破損した行を削除して、ワークフローを再度開始できます。
 
-**どのファイルが破損した行かわからない**
+**破損した行がどのファイルにあるかわからない場合**
 
 1. 次のコマンドラインを使用して、すべてのトラッキングファイルを確認します。
 
@@ -213,7 +213,7 @@ NmsTracking_Pointer オプションを更新する場合は、次の手順に従
 
 +++
 
-+++トラッキングが一部の Web メールで機能しない
++++トラッキングが一部の webMail で動作しない
 
 クリックトラッキングの数式をカスタマイズして、カスタムの Adobe Analytics トラッキングの数式を指定できます。
 
@@ -310,10 +310,10 @@ Adobe Campaign Classic では、ターゲットマッピングは、受信者ス
 
 トラッキングワークフローでは、データとターゲティング ID を紐付けできないので、同じ trackingLog スキーマで複数のターゲティングスキーマを使用することはできません。
 
-nms:recipient に標準で用意されているターゲットマッピングを使用しない場合は、次の方法をお勧めします。
+nms:recipient で標準のターゲットマッピングを使用しない場合は、次の方法を使用することをお勧めします。
 
-* カスタムターゲティングディメンションを使用する場合は、nms:broadlog をテンプレート（nms:broadLogRcp、nms:broadLogSvc など）として使用してカスタム broadLog/trackingLog スキーマを作成する必要があります。
+* カスタムのターゲティングディメンションを使用する場合、nms:broadlog をテンプレートとして使用するカスタム broadLog/trackingLog スキーマを作成する必要があります（例：nms:broadLogRcp、nms:broadLogSvc など）。
 
-* OOB trackingLogRcp/broadLogRcp を使用する場合、ターゲティングディメンションは nms にする必要があり :recipient フィルタリングディメンションはカスタムスキーマにすることができます。
+* OOB trackingLogRcp/broadLogRcp を使用する場合、ターゲティングディメンションは nms:recipient である必要があります。フィルタリングディメンションは、カスタムスキーマでも構いません。
 
 +++

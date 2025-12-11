@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. デフォルトのターゲティングディメンションを変更し、購読を選択します（**nms:subscription**）。
+1. デフォルトのターゲティングディメンションを変更し、購読（**nms:subscription**）を選択します。
 
    ![](assets/campaign_opt_create_filter_02.png)
 

@@ -9,7 +9,7 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 に関するよくある質問</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 に関する FAQ</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">ビルドのアップグレード</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Campaign v8 の包括的な FAQ</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ja" target="_blank">Campaign v8 に関する包括的な FAQ</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
         </ul>
     </td>
@@ -132,7 +132,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

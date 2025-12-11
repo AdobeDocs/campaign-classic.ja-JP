@@ -114,7 +114,7 @@ Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8�
 
 * [Campaign UI 設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [&#x200B; エクスプローラーでのフォルダーとビューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [ エクスプローラーでのフォルダーとビューの管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## データの操作 {#work-with-data}
@@ -125,7 +125,7 @@ Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8�
 
 Campaign を参照すると、データがリストに表示されます。組み込みフィルターを適用すると、強制隔離されたアドレス、ターゲティングされていない受信者、特定の年齢範囲や作成日のレコードなど、定義済みのサブセットにすばやくアクセスできます。さらに、カスタムフィルターを作成し、後で使用するために保存したり、他の Campaign ユーザーと共有したりすることもできます。
 
-**フィルターへのアクセス、デザイン、共有** 方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+**フィルターへのアクセス、デザイン、共有** 方法については、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
 
 ### データベースのクエリ{#about-queries-in-campaign}
 
@@ -183,4 +183,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

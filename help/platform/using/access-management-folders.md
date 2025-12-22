@@ -10,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 hide: true
 hidefromtoc: true
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -73,11 +73,11 @@ ht-degree: 100%
 
    ![表示ボックスがオンになっていることを示す画面](assets/s_ncs_user_add_folder_exple01.png)
 
-1. ウィンドウ中央部のセクションにある Query Editor を使って配信のフィルター条件を定義します。すると、定義したフィルターに該当するキャンペーンが表示されます。
+1. ウィンドウ中央部のセクションにあるクエリエディターを使って配信のフィルター条件を定義します。すると、定義したフィルターに該当するキャンペーンが表示されます。
 
    >[!NOTE]
    >
-   >Query Editor については、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
+   >クエリエディターについては、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
 
    例えば、次のようなフィルター条件を定義したとします。
 

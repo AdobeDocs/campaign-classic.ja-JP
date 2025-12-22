@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong> 基本を学ぶ </strong><br/><a href="platform/using/adobe-campaign-workspace.md"> ユーザーインターフェイス </a> - <a href="platform/using/launching-adobe-campaign.md">Campaign に接続 </a> - <a href="platform/using/get-started-data-import-export.md"> データのインポートとエクスポート </a> - <a href="platform/using/access-management.md"> 権限 </a>
+      <strong>基本を学ぶ</strong><br/><a href="platform/using/adobe-campaign-workspace.md">ユーザーインターフェイス</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="platform/using/get-started-data-import-export.md">データのインポートとエクスポート</a> - <a href="platform/using/access-management.md">権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

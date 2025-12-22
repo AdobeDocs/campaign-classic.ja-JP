@@ -7,9 +7,9 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Adobe Campaign Classic インスタンスに選択した言語は、日時フォ
 
 ## Adobe Campaign エクスプローラーの使用 {#using-adobe-campaign-explorer}
 
-Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。Adobe Campaignのすべての機能や設定画面にアクセスでき、一部のプラットフォーム要素のより詳細なビューを表示できます。
+Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。これにより、Adobe Campaign のすべての機能、設定画面およびプラットフォーム要素の一部の詳細ビューにアクセスできます。
 
 Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8（コンソール）ドキュメント**&#x200B;の以下のページを参照してください。
 
@@ -114,7 +114,7 @@ Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8�
 
 * [Campaign UI 設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [&#x200B; エクスプローラーでのフォルダーとビューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [エクスプローラーでのフォルダーと表示の管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## データの操作 {#work-with-data}
@@ -125,7 +125,7 @@ Adobe Campaign エクスプローラーについて詳しくは、**Campaign v8�
 
 Campaign を参照すると、データがリストに表示されます。組み込みフィルターを適用すると、強制隔離されたアドレス、ターゲティングされていない受信者、特定の年齢範囲や作成日のレコードなど、定義済みのサブセットにすばやくアクセスできます。さらに、カスタムフィルターを作成し、後で使用するために保存したり、他の Campaign ユーザーと共有したりすることもできます。
 
-**フィルターへのアクセス、デザイン、共有** 方法については、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank} を参照してください。
+**フィルターへのアクセス、デザイン、共有**&#x200B;方法について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
 ### データベースのクエリ{#about-queries-in-campaign}
 
@@ -183,4 +183,4 @@ Campaign クライアントコンソールでは、データはリストに表�
 
 このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39533?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

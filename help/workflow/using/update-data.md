@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_update_data_3.png)
 
-更新するフィールドを選択したら、必要に応じて、更新を実行する条件を追加します。そのためには、「**[!UICONTROL 次の場合に考慮]**」列を使用します。条件は 1 つずつ、リストの順番に適用されます。更新の順番を変更するには、右側の矢印を使用します。
+更新するフィールドを選択したら、必要に応じて、更新を実行する条件を追加します。そのためには、「**[!UICONTROL 次の場合に考慮]**」列を使用します。条件は 1 つずつ、リストの順序で適用されます。更新順序を変更するには、右側の矢印を使用します。
 
 同じ方向のフィールドを何度も使用できます。
 

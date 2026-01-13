@@ -25,13 +25,13 @@ ht-degree: 83%
 
   >[!IMPORTANT]
   >
-  >**IMS への移行後：** Adobe Identity Management System （IMS）に移行すると、製品プロファイルまたは名前に「admin」という単語を含むネームド権限（「Administrators」、「admin」、「admins」など）は、Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 ネームド権限またはロール名に「admin」を使用することは、それらのユーザーがCampaign コントロールパネルにアクセスできるようにする予定がない限り、避けることをお勧めします。 詳しくは、[IMS 移行 &#x200B;](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"} を参照してください。
+  >**IMS への移行後：** Adobe Identity Management System （IMS）に移行すると、製品プロファイルまたは名前に「admin」という単語を含むネームド権限（「Administrators」、「admin」、「admins」など）は、Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 ネームド権限またはロール名に「admin」を使用することは、それらのユーザーがCampaign コントロールパネルにアクセスできるようにする予定がない限り、避けることをお勧めします。 詳しくは、[IMS 移行 &#x200B;](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"} を参照してください。
 
 * **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。**[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
 
   >[!IMPORTANT]
   >
-  >**IMS への移行後：** 製品プロファイルまたは「admin」という単語を含むネームド権限（「Approval Administrator」など）は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 詳しくは、[IMS 移行 &#x200B;](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"} を参照してください。
+  >**IMS への移行後：** 製品プロファイルまたは「admin」という単語を含むネームド権限（「Approval Administrator」など）は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 詳しくは、[IMS 移行 &#x200B;](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"} を参照してください。
 
 * **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 
@@ -79,4 +79,4 @@ ht-degree: 83%
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ja)

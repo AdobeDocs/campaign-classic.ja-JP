@@ -6,10 +6,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: 02ecc0e6bb3bd361f512baeefc9e0f2271063387
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,15 @@ ht-degree: 100%
 
 * **[!UICONTROL 管理]**：**[!UICONTROL 管理]**&#x200B;権限を持つオペレーターは、インスタンスに対する完全なアクセス権を持ちます。管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトの実行／作成／編集／削除が可能です。
 
+  >[!IMPORTANT]
+  >
+  >**IMS への移行後：** Adobe Identity Management System （IMS）に移行すると、製品プロファイルまたは名前に「admin」という単語を含むネームド権限（「Administrators」、「admin」、「admins」など）は、Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 ネームド権限またはロール名に「admin」を使用することは、それらのユーザーがCampaign コントロールパネルにアクセスできるようにする予定がない限り、避けることをお勧めします。 詳しくは、[IMS 移行 ](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"} を参照してください。
+
 * **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。**[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
+
+  >[!IMPORTANT]
+  >
+  >**IMS への移行後：** 製品プロファイルまたは「admin」という単語を含むネームド権限（「Approval Administrator」など）は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 詳しくは、[IMS 移行 ](../../technotes/using/migrate-users-to-ims.md) および [Campaign コントロールパネルアクセスの管理 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"} を参照してください。
 
 * **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 
@@ -71,4 +79,4 @@ ht-degree: 100%
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ja)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

@@ -2,16 +2,16 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 02ecc0e6bb3bd361f512baeefc9e0f2271063387
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 100%
+source-wordcount: '1217'
+ht-degree: 86%
 
 ---
 
 # Campaign オペレーターの Adobe Identity Management System（IMS）への移行 {#migrate-users-to-ims}
 
-セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。 すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。
+セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を実装して Campaign に接続する必要があります。
 
 この移行について詳しくは、[このページ](ac-ims.md)を参照してください。
 
@@ -31,9 +31,17 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 
 組織内のオペレーターが Campaign クライアントコンソールにログイン／パスワード（別名ネイティブ認証）影響を受けるので、以下で説明するようにこれらのオペレーターを Adobe IMS に移行する必要があります。
 
-[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、他の Adobe Experience Cloud ソリューションやアプリのほとんどは既に IMS 上にあるので、環境を安全かつ標準化するためにセキュリティ上不可欠です。
+[Adobe Identity Management System （IMS）への移行は ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} 環境のセキュリティを確保し、標準化するために不可欠なセキュリティです。他のAdobe Experience Cloud ソリューションおよびアプリのほとんどは既に IMS に準拠しています。
 
 この変更は、Campaign Classic v7.4.1（および最新の [IMS 移行互換バージョン](ac-ims.md#ims-versions)）以降に適用され、Adobe Campaign v8 に移行するには&#x200B;**必須**&#x200B;となります。
+
+>[!IMPORTANT]
+>
+>**Campaign コントロールパネルアクセスの影響**
+>
+>ユーザーを IMS に移行すると、Adobe Admin Console内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、Campaign Campaign コントロールパネルへのアクセス権は自動的に付与されることに注意してください。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
+>
+>製品プロファイルの命名規則を慎重に確認し、許可されたユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"} を参照してください。
 
 
 ## ホスト環境と Managed Services 環境を移行する方法 {#ims-migration-procedure}
@@ -65,7 +73,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 1. アップグレード後も、ネイティブユーザーまたは IMS の両方の方法で新しいユーザーを引き続き作成できます。
 1. 社内 Campaign 管理者の方は、[このセクション](../../integrations/using/configuring-ims.md)の説明に従い、Adobe IMS を構成する必要があります。
 1. 次に、Campaign クライアントコンソールで、すべてのネイティブユーザーに一意の E メールを追加します。 この手順について詳しくは、[この節](#ims-migration-id)を参照してください。
-1. Adobe Admin Console でのユーザーおよび製品プロファイルの作成について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ja){target="_blank"}を参照してください。
+1. [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ja){target="_blank"} を参照して、Adobe Admin Consoleでユーザーおよび製品プロファイルを作成します。
 1. すべてのオペレーターに対して「**Adobe ID を使用して接続**」オプションを有効にします。
 1. 接続に対して Adobe IMS を実装するには、[このページ](../../integrations/using/implementing-ims.md)を参照してください。
 
@@ -79,7 +87,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 アドビでは、Campaign Classic v7.4.1（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードした後は、IMS ユーザーのみを作成することをお勧めします。
 Campaign v7.4.1 以降では、[こちらのページ](impact-ims-migration.md)の説明に従ってインスタンス設定を更新することで、ネイティブ演算子の作成を防ぐことができます。
 
-Campaign 管理者は、Adobe Admin Console と Campaign クライアントコンソールを通じて組織のユーザーに権限を付与できます。ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
+Campaign 管理者は、Adobe Admin Console と Campaign クライアントコンソールを通じて組織のユーザーに権限を付与できます。ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"} を参照してください。
 
 ### 現在のネイティブユーザー用のメールアドレスを追加するにはどうすればよいですか？ {#ims-migration-id}
 
@@ -134,4 +142,4 @@ Campaign でオペレーターの認証タイプを表示する方法につい�
 >
 >* [Adobe Developer Console へのテクニカルユーザーの移行](ims-migration.md)
 >* [Adobe Campaign Classic v7 リリースノート](../../rn/using/latest-release.md)
->* [Adobe Identity Management System（IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}
+>* [Adobe Identity Management System （IMS）と ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}

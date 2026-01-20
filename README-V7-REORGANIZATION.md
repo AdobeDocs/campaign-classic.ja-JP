@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **2 プロンプトは、アナライザーと主催者 la doc v7 → v8 を注ぐ**
 
----
+&#x200B;---
 
 ## 📁 Fichiers
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 | `PROMPT-1-OVERVIEW-ALL-FOLDERS.md` | Vue d&#39;ensemble de TOUS les folders v7 | `v7-reorganization-overview.md` |
 | `PROMPT-2-DETAILED-FOLDER.md` | デテイラードゥン フォルダーの平均 % 一致の分析 | `[folder]-detailed-analysis.md` |
 
----
+&#x200B;---
 
 ## 🚀 使用率
 
@@ -45,7 +45,7 @@ open PROMPT-1-OVERVIEW-ALL-FOLDERS.md
 
 **Taille** : Markdown で 50～60 ページ
 
----
+&#x200B;---
 
 ### 2️⃣ Analyze Détaillée d&#39;un フォルダー
 
@@ -78,7 +78,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 
 **Taille** : Markdown で 30～40 ページ
 
----
+&#x200B;---
 
 ## 📊 d&#39;Output の例
 
@@ -117,66 +117,35 @@ open PROMPT-2-DETAILED-FOLDER.md
 ...
 ```
 
----
+&#x200B;---
 
 ## 🎯 ワークフローの推奨事項
 
-### セメイン 1：ヴー・ダンサンブル
-1. Exécuter **Prompt 1** → Obtenir `v7-reorganization-overview.md`
-2. フォルダー優先順位付きの識別子
-3. パートナーの AVEC 関係者
+### セメイン 1：ヴー・ダンサンブル1. Exécuter **Prompt 1** → Obtenir `v7-reorganization-overview.md`2. フォルダー優先順位付きの識別子3. パートナーの AVEC 関係者
 
-### Semaine 2-4 : détaillée を分析
-1. チャックフォルダーのプリミティブの作成：
-   - Exécuter **プロンプト 2**
-   - オブテニール `[folder]-detailed-analysis.md`
-   - ヴァリデル レ デシシオン
-   - Commencer les actions
+### Semaine 2-4 : détaillée を分析1. チャックフォルダーのプリミティブの作成：   - Exécuter **プロンプト 2**   - オブテニール `[folder]-detailed-analysis.md`   - ヴァリデル レ デシシオン   - Commencer les actions
 
-### Semaine 5+：エクセクション
-1. Supprimer les fichiers identifies （DELETE）
-2. バッジャーはフィッシャー v7 専用（KEEP）
-3. Migrer le contenu manquant （MOVE）
-4. レビュアー les cas ambigus （レビュー）
+### Semaine 5+：エクセクション1. Supprimer les fichiers identifies （DELETE）2. バッジャーはフィッシャー v7 専用（KEEP）3. Migrer le contenu manquant （MOVE）4. レビュアー les cas ambigus （レビュー）
 
----
+&#x200B;---
 
 ## 💡 ヒント
 
-### プロンプトの入力
-- ✅ コピー/カラー l&#39;intégralité du prompt
-- ✅ Ne パス修飾子 le 形式
-- ✅ Adapter seulement le chemin du folder （プロンプト 2）
+### プロンプトの入力- ✅ コピー/カラー l&#39;intégralité du prompt- ✅ Ne パス修飾子 le 形式- ✅ Adapter seulement le chemin du folder （プロンプト 2）
 
-### 出力を出力する
-- マークダウン時の 📝 出力（pas HTML）
-- 🔗 Liens Cliquables 自動タスク
-- 追跡に使用する ✅ チェックボックス
-- 📊 Stats et pourcentages
-- 🎨 絵文字エ イコーヌ
+### 出力を出力する- マークダウン時の 📝 出力（pas HTML）- 🔗 Liens Cliquables 自動タスク- 追跡に使用する ✅ チェックボックス- 📊 Stats et pourcentages- 🎨 絵文字エ イコーヌ
 
-### 分析する
-- 🎯 Commencer par les gros フォルダー（配信、ワークフロー）
-- ⚡ プライオリザー・レ・クイック勝利（95% 試合）
-- 🔍 Reviewer manuellement les cas ambigus （一致率 70% 未満）
-- ✅ Valider AVEC SME アバント抑制マッシブ
+### 分析する- 🎯 Commencer par les gros フォルダー（配信、ワークフロー）- ⚡ プライオリザー・レ・クイック勝利（95% 試合）- 🔍 Reviewer manuellement les cas ambigus （一致率 70% 未満）- ✅ Valider AVEC SME アバント抑制マッシブ
 
----
+&#x200B;---
 
 ## ⚠️ 重要
 
-### アバント ド サプリマー
-1. ✅ ベリフィール レキバルト v8
-2. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu v7 固有
-3. ✅ メトレ ア ジュール `redirects.csv`
-4. ✅ ヴァリダー avec un expert （先制者に注ぐ）
+### アバント ド サプリマー1. ✅ ベリフィール レキバルト v82. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu v7 固有3. ✅ メトレ ア ジュール `redirects.csv`4. ✅ ヴァリダー avec un expert （先制者に注ぐ）
 
-### Fichiers v7 のみの使用
-1. ✅ アジュアウン ウン バッジ オ デブ デュ フィジエ
-2. ✅ Expliquer pourquoi c&#39;est v7 のみ
-3. ✅ Lien vers les 制限 v8
+### Fichiers v7 のみの使用1. ✅ アジュアウン ウン バッジ オ デブ デュ フィジエ2. ✅ Expliquer pourquoi c&#39;est v7 のみ3. ✅ Lien vers les 制限 v8
 
----
+&#x200B;---
 
 ## 🆘 サポート
 
@@ -185,7 +154,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 - 出力トロップ ロング → デマンドールの概要
 - ベソイン デ→ーデ ピン レキペ ドク
 
----
+&#x200B;---
 
 **デリエール・ミゼ・ア・ジュール**:2026-01-13
 

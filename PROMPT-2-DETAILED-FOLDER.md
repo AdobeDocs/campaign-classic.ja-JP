@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **ジュネーブとの和解の促進 Markdown détailé pour UN folder avec % de match**
 
----
+&#x200B;---
 
 ## 📋 COPIER CE プロンプト
 
@@ -465,7 +465,7 @@ Include:
 Make all links clickable (v7 files + Experience League URLs).
 ```
 
----
+&#x200B;---
 
 ## 使用方法
 
@@ -475,12 +475,13 @@ Make all links clickable (v7 files + Experience League URLs).
    ```
    📁 **Analyze**: /Users/.../help/[YOUR-FOLDER]/using/
    ```
+
 3. **カーソルに貼り付け**
 4. **分析の実行**
 5. **完全な Markdown レポートを取得**
 6. **名前を付けて保存**: `[folder]-detailed-analysis.md`
 
----
+&#x200B;---
 
 ## フォルダーの例
 
@@ -490,7 +491,7 @@ Make all links clickable (v7 files + Experience League URLs).
 - `/help/platform/using/` （61 ファイル）
 - `/help/web/using/` （26 ファイル）
 
----
+&#x200B;---
 
 ## 出力プレビュー
 

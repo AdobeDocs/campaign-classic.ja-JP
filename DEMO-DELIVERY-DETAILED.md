@@ -35,11 +35,11 @@ ht-degree: 7%
 |---|---------|----------|---------|-------|--------|
 | 1 | `about-email-channel.md` | [campaign-web/v8/email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email) | 95% | v8 での電子メールの基本事項 | 🗑️ DELETE |
 | 2 | `communication-channels.md` | [campaign-web/v8/msg](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg) | 85% | v8 のチャネルの概要 | 🗑️ DELETE |
-| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90% | v8 での配信プロセス | 🗑️ DELETE |
-| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90% | 上記と同様 | 🗑️ DELETE |
+| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/gs-deliveries) | 90% | v8 での配信プロセス | 🗑️ DELETE |
+| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/gs-deliveries) | 90% | 上記と同様 | 🗑️ DELETE |
 | 5 | `delivery-best-practices.md` | [campaign/v8/send/ベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/best-practices) | 85% | v8 のベストプラクティス | 🗑️ DELETE |
-| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 80% | v8 での検証 | 🗑️ DELETE |
-| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 85% | v8 での送信 | 🗑️ DELETE |
+| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/gs-deliveries) | 80% | v8 での検証 | 🗑️ DELETE |
+| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/gs-deliveries) | 85% | v8 での送信 | 🗑️ DELETE |
 | 8 | `deliveries-with-recurring-dates.md` | [campaign-web/v8/workflows](https://experienceleague.adobe.com/en/docs/campaign-web/v8/workflows) | 70% | v8 のワークフロースケジューラーを確認する | 🔍 REVIEW |
 
 **概要**:7DELETE、0 保持、0 移動、1 レビュー
@@ -73,7 +73,7 @@ ht-degree: 7%
 | 27 | `sms-channel.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8 での SMS の基本 | 🗑️ DELETE |
 | 28 | `sms-send.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 95% | v8 での SMS 送信 | 🗑️ DELETE |
 | 29 | **`sms-set-up-mid.md`** | NONE | **0%** | **ミッドソーシングの設定（オンプレミスのみ）** | ✅ **保持** |
-| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 60% | 高度な SMPP、v8 の深さを確認 | 🔍 REVIEW |
+| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms) | 60% | 高度な SMPP、v8 の深さを確認 | 🔍 REVIEW |
 | 31 | `sms-create.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8 での SMS の作成 | 🗑️ DELETE |
 | 32 | `line-channel.md` | [campaign/v8/送信/行 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line) | 85% | v8 の LINE チャネル | 🗑️ DELETE |
 | 33 | `sms-content.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8 の SMS コンテンツ | 🗑️ DELETE |
@@ -157,7 +157,7 @@ ht-degree: 7%
 |---|---------|----------|---------|-------|--------|
 | 75 | `understanding-delivery-failures.md` | [campaign/v8/send/delivery-failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 85% | v8 で文書化されたエラー | 🗑️ DELETE |
 | 76 | `delivery-troubleshooting.md` | [campaign/v8/send/delivery-failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 70% | 優れたヒント **欠落しているコンテンツの移行** | ➡️ 移動 |
-| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 65% | SMS 固有の問題、**移行** | ➡️ 移動 |
+| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms) | 65% | SMS 固有の問題、**移行** | ➡️ 移動 |
 | 78 | **`monitoring-deliverability.md`** | NONE | **0%** | **オンプレミス監視ツール** | ✅ **保持** |
 | 79-83 | *（その他 5 つのトラブルシューティングファイル）* | 各種 v8 | 60-85% | 混合、ケースバイケースのレビュー | 🗑️ DELETE/➡️ 移動 |
 

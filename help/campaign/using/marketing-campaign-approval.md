@@ -20,54 +20,54 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 配信の各ステップを承認の対象にして、キャンペーンプロセスの完全な監視と制御を確保できます。 これには、ターゲティング、コンテンツ、予算、抽出、配達確認の送信などが含まれます。
 
-レビュー担当者に指定された [!DNL Adobe Campaign] オペレーターに通知メッセージが送信され、承認リクエストが通知されます。 レビュー担当者が承認の&#x200B;**適切な権限**&#x200B;を持っていること、およびレビュー担当者のセキュリティゾーンが正しく定義されていることを確認します。 [ レビュー担当者の選択の詳細情報 ](#selecting-reviewers)。
+レビュー担当者に指定された [!DNL Adobe Campaign] オペレーターに通知メッセージが送信され、承認リクエストが通知されます。 レビュー担当者が承認の&#x200B;**適切な権限**&#x200B;を持っていること、およびレビュー担当者のセキュリティゾーンが正しく定義されていることを確認します。 [&#x200B; レビュー担当者の選択の詳細情報 &#x200B;](#selecting-reviewers)。
 
-承認手順については、[ 承認手順の概要 ](#checking-and-approving-deliveries) を参照してください。
+承認手順については、[&#x200B; 承認手順の概要 &#x200B;](#checking-and-approving-deliveries) を参照してください。
 
 >[!NOTE]
 >
 >配信の所有者のみが配信を開始できます。 別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加する必要があります。\
->[ レビュー担当者の選択の詳細情報 ](#selecting-reviewers)。
+>[&#x200B; レビュー担当者の選択の詳細情報 &#x200B;](#selecting-reviewers)。
 
 ## 動作原理 {#operating-principle-}
 
 例えば、予算承認のための標準的なメッセージは、次のようになります。
 
-![ 検証リンク付き承認通知メール ](assets/s_user_validation_link_in_mail.png)
+![&#x200B; 検証リンク付き承認通知メール &#x200B;](assets/s_user_validation_link_in_mail.png)
 
 レビュー担当者は、予算を承認するかどうかを選択できます。
 
-![ 承認または却下オプションを含む承認確認ページ ](assets/s_user_validation_page_confirm.png)
+![&#x200B; 承認または却下オプションを含む承認確認ページ &#x200B;](assets/s_user_validation_page_confirm.png)
 
 オペレーターによる検証が完了すると、ジョブの承認または却下が配信ダッシュボードに転送されます。
 
-![ ジョブの承認リンクを表示するキャンペーンダッシュボード ](assets/s_user_validation_link_in_op_board.png)
+![&#x200B; ジョブの承認リンクを表示するキャンペーンダッシュボード &#x200B;](assets/s_user_validation_link_in_op_board.png)
 
 この情報は、キャンペーンの承認ログでも確認できます。 これらのログには、**[!UICONTROL 編集/トラッキング/承認]** タブからアクセスできます。
 
-![ 承認ログを表示する「キャンペーン編集」タブ ](assets/s_user_validation_log_in_op_edit_tab.png)
+![&#x200B; 承認ログを表示する「キャンペーン編集」タブ &#x200B;](assets/s_user_validation_log_in_op_edit_tab.png)
 
 これらの通知は、承認を有効にした各プロセスに影響を与えるオペレーターに送信されます。
 
 承認は、キャンペーンテンプレート、個々の各キャンペーンまたは配信に対して有効にできます。
 
-承認が必要なすべてのジョブは、キャンペーンテンプレートで選択します（**[!UICONTROL プロパティ]** > **[!UICONTROL キャンペーンの詳細設定…]** > **[!UICONTROL 承認]** タブ）。 このオプションを無効にしない限り、承認を担当するオペレーターも選択され、通知を受け取ります。 詳しくは、[ 配信を承認する手順 ](#approving-processes) を参照してください。
+承認が必要なすべてのジョブは、キャンペーンテンプレートで選択します（**[!UICONTROL プロパティ]** > **[!UICONTROL キャンペーンの詳細設定…]** > **[!UICONTROL 承認]** タブ）。 このオプションを無効にしない限り、承認を担当するオペレーターも選択され、通知を受け取ります。 詳しくは、[&#x200B; 配信を承認する手順 &#x200B;](#approving-processes) を参照してください。
 
 これらの設定は、このテンプレートを使用して作成されたキャンペーンごとまたはキャンペーンの配信ごとに個別に上書きできます。「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL 承認]**」タブをクリックします。
 
 次の例では、配信コンテンツに承認は必要ありません。
 
-![ プロセスを選択した配信の承認設定 ](assets/s_user_validation_select_process_from_del.png)
+![&#x200B; プロセスを選択した配信の承認設定 &#x200B;](assets/s_user_validation_select_process_from_del.png)
 
 ## レビュー担当者の選択 {#selecting-reviewers}
 
 承認のタイプごとに、承認を担当するオペレーターまたはオペレーターグループを配信のドロップダウンリストから選択します。 「**[!UICONTROL 編集...]**」リンクを使用して、オペレーターを追加できます。 このウィンドウでは承認期日を編集することもできます。
 
-![ 承認オペレーターのレビュー担当者を追加ダイアログ ](assets/s_user_validation_add_operator.png)
+![&#x200B; 承認オペレーターのレビュー担当者を追加ダイアログ &#x200B;](assets/s_user_validation_add_operator.png)
 
 レビュー担当者を指定しない場合は、キャンペーンマネージャーが承認を担当し、通知を受け取ります。キャンペーンマネージャーは、キャンペーンの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブで指定します。
 
-![ マネージャーフィールドを表示するキャンペーンプロパティ ](assets/s_user_op_manager_field.png)
+![&#x200B; マネージャーフィールドを表示するキャンペーンプロパティ &#x200B;](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 コンソールまたは Web インターフェイスからジョブを承認するには、キャンペーンダッシュボード上の適切なリンクをクリックします。配信トラッキングまたは配信ダッシュボードからもジョブを承認できます。
 
-![ コンソールの Campaign ダッシュボード承認アクション ](assets/s_user_validation_from_console.png)
+![&#x200B; コンソールの Campaign ダッシュボード承認アクション &#x200B;](assets/s_user_validation_from_console.png)
 
 承認する情報を確認し、承認するか却下するかを選択し、必要に応じてコメントを入力します。「**[!UICONTROL OK]**」をクリックして保存します。
 
@@ -92,11 +92,11 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 通知メッセージに含まれているリンクをクリックします（[通知](#notifications)を参照）。次に示すように、ログインする必要があります。
 
-![ 通知リンクの承認ログインページ ](assets/s_user_validation__log_in.png)
+![&#x200B; 通知リンクの承認ログインページ &#x200B;](assets/s_user_validation__log_in.png)
 
 「**[!UICONTROL 許可]**」または「**[!UICONTROL 却下]**」を選択し、必要に応じてコメントを入力します。
 
-![ 承認または却下とコメントを含む承認ページ ](assets/s_user_validation_save_target_validation.png)
+![&#x200B; 承認または却下とコメントを含む承認ページ &#x200B;](assets/s_user_validation_save_target_validation.png)
 
 「**[!UICONTROL ターゲットの承認]**」をクリックします。
 
@@ -110,19 +110,19 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 * キャンペーン承認ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 承認]**」サブタブに表示されます。
 
-  ![ キャンペーン承認ログリスト ](assets/s_user_validation_log_from_op.png)
+  ![&#x200B; キャンペーン承認ログリスト &#x200B;](assets/s_user_validation_log_from_op.png)
 
 * キャンペーン配信ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 配信]**」サブタブに表示されます。
 
-  ![ 承認ステータスを含む配信ログリスト ](assets/s_user_validation_log_from_delivery_list.png)
+  ![&#x200B; 承認ステータスを含む配信ログリスト &#x200B;](assets/s_user_validation_log_from_delivery_list.png)
 
 * 各配信の承認ステータスは、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL ログを非表示／表示]**」オプションをクリックすると表示できます。
 
-  ![ 承認ログを示す配信の概要 ](assets/s_user_validation_log_delivery.png)
+  ![&#x200B; 承認ログを示す配信の概要 &#x200B;](assets/s_user_validation_log_delivery.png)
 
 * この情報には、各配信の&#x200B;**[!UICONTROL 監査／「承認」]**&#x200B;タブからもアクセスできます。
 
-  ![ 「配信トラッキング承認」タブ ](assets/s_user_validation_log_from_exe_tab.png)
+  ![&#x200B; 「配信トラッキング承認」タブ &#x200B;](assets/s_user_validation_log_from_exe_tab.png)
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 承認モード（手動または自動）を選択するには、キャンペーンまたはキャンペーンテンプレートの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブをクリックし、「**[!UICONTROL キャンペーンの詳細設定...]**」をクリックして、「**[!UICONTROL 承認]**」タブをクリックします。
 
-![ 手動モードと自動モードによる承認設定 ](assets/s_user_validation_select_mode.png)
+![&#x200B; 手動モードと自動モードによる承認設定 &#x200B;](assets/s_user_validation_select_mode.png)
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 そのためには、キャンペーンまたはキャンペーンテンプレートの承認ウィンドウを編集し（**[!UICONTROL 編集／プロパティ]**／**[!UICONTROL キャンペーンの詳細設定...]**／「**[!UICONTROL 承認]**」タブ）、「**[!UICONTROL 通知の送信を有効にしない]**」を選択します。
 
-![ 通知が無効の承認設定 ](assets/s_user_validation_notif_desactivate.png)
+![&#x200B; 通知が無効の承認設定 &#x200B;](assets/s_user_validation_notif_desactivate.png)
 
 ### 通知コンテンツ {#notification-content}
 
@@ -172,9 +172,9 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 ダイレクトメール配信の場合、オペレーター [!DNL Adobe Campaign] 抽出ファイルを発送担当に送信する前に確認でき、必要に応じて形式を変更し、抽出を再開できます。 [抽出ファイルの承認](#approving-an-extraction-file)を参照してください。
 
-キャンペーンごとに、配信ターゲット、コンテンツ（「[ コンテンツを承認 ](#approving-content)」を参照）、費用などを承認できます。 承認を担当するオペレーター [!DNL Adobe Campaign]、メールで通知を受け、コンソールまたは web 接続で承認を許可または却下できます。 [配信を承認する手順](#approving-processes)を参照してください。
+キャンペーンごとに、配信ターゲット、コンテンツ（「[&#x200B; コンテンツを承認 &#x200B;](#approving-content)」を参照）、費用などを承認できます。 承認を担当するオペレーター [!DNL Adobe Campaign]、メールで通知を受け、コンソールまたは web 接続で承認を許可または却下できます。 [配信を承認する手順](#approving-processes)を参照してください。
 
-この検証フェーズが完了したら、配信を開始できます。 [ 配信開始の詳細情報 ](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)。
+この検証フェーズが完了したら、配信を開始できます。 [&#x200B; 配信開始の詳細情報 &#x200B;](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)。
 
 ### 配信を承認する手順 {#approving-processes}
 
@@ -187,13 +187,13 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 >承認を必要とするプロセスを選択するには、キャンペーンテンプレートを変更します。 詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
 >
 
-![ 検証する配信のステータスを示すキャンペーンダッシュボード ](assets/s_ncs_user_edit_del_to_validate.png)
+![&#x200B; 検証する配信のステータスを示すキャンペーンダッシュボード &#x200B;](assets/s_ncs_user_edit_del_to_validate.png)
 
 >[!NOTE]
 >
 >ターゲティングワークフローで、メッセージの準備中に設定の問題に関連するエラーが発生した場合は、ダッシュボードに「**[!UICONTROL メッセージの準備を再開]**」リンクが表示されます。ターゲティングステージを回避しながらメッセージの準備を再開するには、エラーを修正してこのリンクをクリックします。
 
-![ メッセージの準備を再開するためのダッシュボードリンク ](assets/s_user_validation_relaunch_message_preparation.png)
+![&#x200B; メッセージの準備を再開するためのダッシュボードリンク &#x200B;](assets/s_user_validation_relaunch_message_preparation.png)
 
 キャンペーン内の配信ごとに、以下のプロセスを承認できます。
 
@@ -215,11 +215,11 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
   次のように、キャンペーンダッシュボードに「**[!UICONTROL コンテンツを承認]**」リンクが表示されます。
 
-  ![ 承認ダッシュボードに表示される「コンテンツを承認」リンク ](assets/s_ncs_user_edit_file_valid.png)
+  ![&#x200B; 承認ダッシュボードに表示される「コンテンツを承認」リンク &#x200B;](assets/s_ncs_user_edit_file_valid.png)
 
   抽出ファイルを承認ボックスからプレビューして、許可または却下できます。
 
-  ![ 承認ダイアログでの抽出ファイルプレビュー ](assets/s_ncs_user_edit_file_valid_preview_file.png)
+  ![&#x200B; 承認ダイアログでの抽出ファイルプレビュー &#x200B;](assets/s_ncs_user_edit_file_valid_preview_file.png)
 
   >[!NOTE]
   >
@@ -229,11 +229,11 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
   「**[!UICONTROL 関連する配信ごとに個別の承認を有効にする]**」オプションは、複数のセカンダリ配信に関連付けられている 1 つのメインの配信に使用します。デフォルトでは、このオプションは選択されていないので、メインの配信全体を承認できます。このオプションを選択した場合、各配信を個別に承認する必要があります。
 
-  ![ 関連する配信の個別承認を有効にするオプション ](assets/s_ncs_user_task_valid_associate.png)
+  ![&#x200B; 関連する配信の個別承認を有効にするオプション &#x200B;](assets/s_ncs_user_task_valid_associate.png)
 
 ### 承認するプロセスの選択 {#choosing-the-processes-to-be-approved}
 
-承認フェーズは、キャンペーンに関連付けられたテンプレートで定義されます。 テンプレートから承認する要素を選択し、これらの承認を行う [!DNL Adobe Campaign] のオペレーターを指定する必要があります。 キャンペーンテンプレートについて詳しくは、[ キャンペーンテンプレート ](../../campaign/using/marketing-campaign-templates.md#campaign-templates) を参照してください。
+承認フェーズは、キャンペーンに関連付けられたテンプレートで定義されます。 テンプレートから承認する要素を選択し、これらの承認を行う [!DNL Adobe Campaign] のオペレーターを指定する必要があります。 キャンペーンテンプレートについて詳しくは、[&#x200B; キャンペーンテンプレート &#x200B;](../../campaign/using/marketing-campaign-templates.md#campaign-templates) を参照してください。
 
 >[!NOTE]
 >
@@ -247,7 +247,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 オペレーターのリストを選択するには、下図のように、1 人目のレビュー担当者を指定するフィールドの右側の「**[!UICONTROL 編集...]**」リンクをクリックし、必要な人数のオペレーターを追加します。
 
-![ 承認オペレーターのレビュー担当者を追加ダイアログ ](assets/s_user_validation_add_operator.png)
+![&#x200B; 承認オペレーターのレビュー担当者を追加ダイアログ &#x200B;](assets/s_user_validation_add_operator.png)
 
 >[!NOTE]
 >
@@ -256,11 +256,11 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 >* このセクションからリマインダーを追加できます。
 >
 
-![ 承認カレンダーとリマインダーの設定 ](assets/s_ncs_user_edit_op_valid_calendar.png)
+![&#x200B; 承認カレンダーとリマインダーの設定 &#x200B;](assets/s_ncs_user_edit_op_valid_calendar.png)
 
 配信ごとに承認日と自動リマインダーを表示および編集するには、「**[!UICONTROL 監査]**」ボタンをクリックし、「**[!UICONTROL 承認]**」タブをクリックします。
 
-![ 日付とリマインダーが表示された「配信の承認」タブ ](assets/s_ncs_user_edit_del_valid.png)
+![&#x200B; 日付とリマインダーが表示された「配信の承認」タブ &#x200B;](assets/s_ncs_user_edit_del_valid.png)
 
 >[!NOTE]
 >
@@ -270,7 +270,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 >[!CAUTION]
 >
->コンテンツを承認するには、配達確認サイクルが必須です。 配達確認を使用すると、情報やパーソナライゼーションデータの表示を承認し、リンクが機能していることを確認できます。 プルーフの作成方法については、[ プルーフの作成 ](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) を参照してください。
+>コンテンツを承認するには、配達確認サイクルが必須です。 配達確認を使用すると、情報やパーソナライゼーションデータの表示を承認し、リンクが機能していることを確認できます。 プルーフの作成方法については、[&#x200B; プルーフの作成 &#x200B;](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) を参照してください。
 >
 >以下に詳述するコンテンツ承認機能は、配達確認の配信に関連しています。
 
@@ -278,7 +278,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 1. 新しい配信を作成した後、キャンペーンマネージャーがキャンペーンダッシュボードの「**[!UICONTROL コンテンツを送信]**」リンクをクリックして、コンテンツ承認サイクルを開始します。
 
-   ![ 承認用にコンテンツを送信するためのキャンペーンダッシュボードリンク ](assets/s_ncs_user_validation_submit_content_validation.png)
+   ![&#x200B; 承認用にコンテンツを送信するためのキャンペーンダッシュボードリンク &#x200B;](assets/s_ncs_user_validation_submit_content_validation.png)
 
    >[!NOTE]
    >
@@ -288,7 +288,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
    * 通知メールから：
 
-     ![ プルーフ用コンテンツ承認通知メール ](assets/s_ncs_user_del_content_valid_bat_notif.png)
+     ![&#x200B; プルーフ用コンテンツ承認通知メール &#x200B;](assets/s_ncs_user_del_content_valid_bat_notif.png)
 
      >[!NOTE]
      >
@@ -296,13 +296,13 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
    * コンソールまたは Web インターフェイス、配信トラッキング、配信ダッシュボードまたはキャンペーンダッシュボードから：
 
-     ![ コンテンツの配達確認リストを表示する配信トラッキング ](assets/s_ncs_user_validation_content_bat_op.png)
+     ![&#x200B; コンテンツの配達確認リストを表示する配信トラッキング &#x200B;](assets/s_ncs_user_validation_content_bat_op.png)
 
      >[!NOTE]
      >
      >このキャンペーンダッシュボードで「**[!UICONTROL 受信ボックスレンダリング...]**」リンクをクリックして、送信済みの配達確認のリストを表示できます。配達確認の内容を表示するには、リストの右側にある「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
-     ![ コンテンツ承認用のプルーフの詳細表示 ](assets/s_ncs_user_validation_content_BAT_details.png)
+     ![&#x200B; コンテンツ承認用のプルーフの詳細表示 &#x200B;](assets/s_ncs_user_validation_content_BAT_details.png)
 
 1. コンテンツが承認されたかどうかを知らせる通知メールがキャンペーンの担当者に送信されます。
 
@@ -310,7 +310,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
    >
    >キャンペーンの担当者は、コンテンツ承認サイクルをいつでも再開できます。再開するには、（配信レベルで）キャンペーンダッシュボードの「**[!UICONTROL コンテンツのステータス]**」行のリンクをクリックし、「**[!UICONTROL 再送信のためコンテンツの承認をリセット]**」をクリックします。
 
-   ![ コンテンツの承認を再開するための Campaign ダッシュボードリンク ](assets/s_user_validation_relaunch_content_validation.png)
+   ![&#x200B; コンテンツの承認を再開するための Campaign ダッシュボードリンク &#x200B;](assets/s_user_validation_relaunch_content_validation.png)
 
 #### コンテンツ編集を割り当てる {#assign-content-editing}
 
@@ -318,15 +318,15 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 1. 新しい配信を作成した後、キャンペーン担当者がキャンペーンダッシュボードの「**[!UICONTROL コンテンツ編集を送信]**」リンクをクリックして、コンテンツ編集サイクルを開始します。
 
-   ![ コンテンツ編集を送信するための Campaign ダッシュボードリンク ](assets/s_ncs_user_validation_submit_content_edition.png)
+   ![&#x200B; コンテンツ編集を送信するための Campaign ダッシュボードリンク &#x200B;](assets/s_ncs_user_validation_submit_content_edition.png)
 
 1. コンテンツ編集担当者が、コンテンツが使用可能になったことを知らせるメールを受け取ります。
 
-   ![ コンテンツ編集通知メール ](assets/s_ncs_user_validation_submit_content_notif.png)
+   ![&#x200B; コンテンツ編集通知メール &#x200B;](assets/s_ncs_user_validation_submit_content_notif.png)
 
 1. コンテンツ編集担当者はコンソールにログオン、簡素化されたアシスタントで配信を開いて編集、件名、HTML およびテキストコンテンツを変更して、配達確認を送信できます。
 
-   ![ 配信コンテンツの編集に使用するシンプルなアシスタント ](assets/s_user_validation_content_edition.png)
+   ![&#x200B; 配信コンテンツの編集に使用するシンプルなアシスタント &#x200B;](assets/s_user_validation_content_edition.png)
 
    >[!NOTE]
    >
@@ -338,19 +338,19 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
    * **[!UICONTROL コンソールから]** 使用可能コンテンツ [!DNL Adobe Campaign] リンクをクリックします。
 
-     ![ コンテンツを使用可能にするためのコンソールリンク ](assets/s_ncs_user_validation_submit_content_available.png)
+     ![&#x200B; コンテンツを使用可能にするためのコンソールリンク &#x200B;](assets/s_ncs_user_validation_submit_content_available.png)
 
    * 通知メッセージ内のリンクをクリックして、コンテンツの可用性を承認します。
 
-     ![ コンテンツの可用性を承認するための通知リンク ](assets/s_ncs_user_validation_submit_content_available2.png)
+     ![&#x200B; コンテンツの可用性を承認するための通知リンク &#x200B;](assets/s_ncs_user_validation_submit_content_available2.png)
 
      オペレーターは、コンテンツをキャンペーン担当者に送信する前にコメントを追加できます。
 
-     ![ コンテンツを使用可能にする前のコメントフィールド ](assets/s_ncs_user_validation_submit_content_available3.png)
+     ![&#x200B; コンテンツを使用可能にする前のコメントフィールド &#x200B;](assets/s_ncs_user_validation_submit_content_available3.png)
 
      レビュー担当者は、通知メッセージを使用して、コンテンツを承認または却下できます。
 
-     ![ コンテンツの可用性に対する承認応答 ](assets/s_ncs_user_validation_submit_content_available4.png)
+     ![&#x200B; コンテンツの可用性に対する承認応答 &#x200B;](assets/s_ncs_user_validation_submit_content_available4.png)
 
 #### 外部コンテンツの承認 {#external-content-approval}
 
@@ -363,7 +363,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
    >
    >このリンクは、1 つ以上の配達確認が送信済みの場合にのみ表示されます。そうでない場合、配信レンダリングはコンソールまたは Web インターフェイスからのみ表示できます。
 
-   ![ プルーフリンク付きの外部コンテンツ承認メール ](assets/s_user_validation_external_content.png)
+   ![&#x200B; プルーフリンク付きの外部コンテンツ承認メール &#x200B;](assets/s_user_validation_external_content.png)
 
 ### 抽出ファイルの承認 {#approving-an-extraction-file}
 
@@ -371,11 +371,11 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 
 コンテンツ、ターゲティングおよび予算が承認されると、配信ステータスはキャンペーンの抽出ワークフローが開始されるまで「**[!UICONTROL 抽出を保留中]**」に変わります。
 
-![ 抽出が保留中であることを示す配信ステータス ](assets/s_ncs_user_waiting_file_extraction.png)
+![&#x200B; 抽出が保留中であることを示す配信ステータス &#x200B;](assets/s_ncs_user_waiting_file_extraction.png)
 
 抽出リクエスト日に抽出ファイルが作成されると、配信ステータスは「**[!UICONTROL 承認するファイル]**」に変わります。
 
-![ 承認するファイルを示す配信ステータス ](assets/s_ncs_user_file_extract_to_valid.png)
+![&#x200B; 承認するファイルを示す配信ステータス &#x200B;](assets/s_ncs_user_file_extract_to_valid.png)
 
 抽出されたファイルのコンテンツを（ファイル名をクリックして）確認したり、抽出ファイルを承認したり、必要であればダッシュボードのリンクを使用してフォーマットを変更し、抽出を再開できます。
 

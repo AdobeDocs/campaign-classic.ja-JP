@@ -23,12 +23,12 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->[!DNL Adobe Campaign] のコア機能について詳しくは、[ この節 ](../../platform/using/about-adobe-campaign-classic.md) を参照してください。
+>[!DNL Adobe Campaign] のコア機能について詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/about-adobe-campaign-classic.md) を参照してください。
 >
 >様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 
-![ チュートリアルビデオのサムネール ](assets/do-not-localize/how-to-video.png)[ マーケティングキャンペーンの主要概念をビデオで確認 ](#video)
+![&#x200B; チュートリアルビデオのサムネール &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; マーケティングキャンペーンの主要概念をビデオで確認 &#x200B;](#video)
 
 ## 主要コンセプト {#core-concepts}
 
@@ -73,4 +73,4 @@ ht-degree: 80%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-その他の [!DNL Campaign Classic] チュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他の [!DNL Campaign Classic] チュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) を参照してください。

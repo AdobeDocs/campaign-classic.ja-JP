@@ -7,15 +7,15 @@ feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 4a7ecd170bd27f43d515da71c212bbdaa306d602
+source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 76%
+source-wordcount: '434'
+ht-degree: 80%
 
 ---
 
-# マーケティングキャンペーンの設計と実行{#designing-marketing-campaigns}
 
+# マーケティングキャンペーンの設計と実行{#designing-marketing-campaigns}
 
 [!DNL Adobe Campaign] を使用すると、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。 [!DNL Adobe Campaign] は、マーケティング戦略の統一されたオーダーと実行センターのように機能します。 詳細については、[キャンペーンへのアクセス](../../distributed/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
@@ -23,10 +23,12 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->[!DNL Adobe Campaign] のコア機能について詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/about-adobe-campaign-classic.md) を参照してください。\
->様々なチャネルにおける母集団のターゲティング、メッセージのパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[[!DNL Campaign v8 documentation]](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"} を参照してください。
+>[!DNL Adobe Campaign] のコア機能について詳しくは、[ この節 ](../../platform/using/about-adobe-campaign-classic.md) を参照してください。
+>
+>様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
-![&#x200B; チュートリアルビデオのサムネール &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; マーケティングキャンペーンの主要概念をビデオで確認 &#x200B;](#video)
+
+![ チュートリアルビデオのサムネール ](assets/do-not-localize/how-to-video.png)[ マーケティングキャンペーンの主要概念をビデオで確認 ](#video)
 
 ## 主要コンセプト {#core-concepts}
 
@@ -69,6 +71,6 @@ ht-degree: 76%
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/326573?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-その他の [!DNL Campaign Classic] チュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他の [!DNL Campaign Classic] チュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) を参照してください。

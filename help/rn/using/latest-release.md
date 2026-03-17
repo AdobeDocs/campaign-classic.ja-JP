@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
+source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 28%
@@ -17,7 +17,7 @@ ht-degree: 28%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## リリース 7.4.3 - ビルド 9392 {#release-7-4-3}
+## リリース 7.4.3 - ビルド 9394 {#release-7-4-3}
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
@@ -29,7 +29,7 @@ _2026 年 3 月 16 日_
 
 ### セキュリティの強化 {#security-7-4-3}
 
-* 最適なセキュリティ、安定性、コンプライアンスを維持するために、Debian はバージョン 13 に、PostgreSQL はバージョン 17 にアップグレードされました。 [&#x200B; 互換性マトリックス &#x200B;](compatibility-matrix.md) を参照してください。
+* 最適なセキュリティ、安定性、コンプライアンスを維持するために、Debian はバージョン 13 に、PostgreSQL はバージョン 17 にアップグレードされました。 [ 互換性マトリックス ](compatibility-matrix.md) を参照してください。
 
 ### 修正点 {#fixes-7-4-3}
 

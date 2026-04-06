@@ -7,8 +7,8 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -69,11 +69,13 @@ ht-degree: 100%
 
 これらのワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。アーカイブワークフローは作成されると自動的に開始されます。
 
-<!--**Minimal architecture**
+<!--
+**Minimal architecture**
 
 Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment wizard. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
 
-![](assets/messagecenter_archiving_001.png)-->
+![](assets/messagecenter_archiving_001.png)
+-->
 
 ### 実行インスタンスのワークフロー {#execution-instance-workflows}
 

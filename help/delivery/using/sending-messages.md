@@ -8,8 +8,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ ht-degree: 100%
 >配信を検証するプロセス全体については、[この節](steps-validating-the-delivery.md)で説明します。配信を設定して送信するための詳細な手順については、[この節](steps-sending-the-delivery.md)を参照してください。
 
 次の節では、メール配信に固有の設定について詳しく説明します。
-<!--* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)-->
+<!--
+* [Generating the mirror page](generating-mirror-page.md)
+* [Email BCC](email-bcc.md)
+-->
 * [メールパラメーター](email-parameters.md)
 * [MTA 強化機能を使用したメールの送信](sending-with-enhanced-mta.md)
 * [日本の携帯電話向けのメールの送信](sending-emails-on-japanese-mobiles.md)

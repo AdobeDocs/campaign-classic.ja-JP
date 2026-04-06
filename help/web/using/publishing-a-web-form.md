@@ -5,7 +5,7 @@ description: web フォームの公開
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 100%
@@ -196,6 +196,7 @@ Web フォームの様々なステータスについて詳しくは、[この節
   >
   >「**[!UICONTROL プレビュー]**」タブを使用すると、Web フォームの最新バージョンを確認できます。
 
-<!--For RN:
+<!--
+For RN:
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 -->

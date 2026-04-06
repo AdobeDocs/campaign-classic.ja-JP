@@ -159,7 +159,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 

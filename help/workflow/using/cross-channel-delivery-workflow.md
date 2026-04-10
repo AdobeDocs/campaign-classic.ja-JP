@@ -4,10 +4,9 @@ title: クロスチャネル配信ワークフロー
 description: クロスチャネル配信ワークフローの詳細を説明します
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
@@ -44,7 +43,7 @@ ht-degree: 100%
 
    ![](assets/wkf_cross-channel_3.png)
 
-1. 変更を保存します。
+1. 変更内容を保存します。
 
 ## 手順 2：オファーを含んだメールの作成 {#step-2--creating-an-email-including-an-offer}
 
@@ -55,7 +54,7 @@ ht-degree: 100%
 
    メッセージ本文へのオファーのビルトインについて詳しくは、[この節](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine)を参照してください。
 
-1. 変更を保存します。
+1. 変更内容を保存します。
 1. **[!UICONTROL メール配信]**&#x200B;アクティビティを右クリックして開きます。
 1. 母集団とトラッキングログを取得するために、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションを選択します。
 

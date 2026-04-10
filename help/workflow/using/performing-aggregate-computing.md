@@ -4,12 +4,11 @@ title: 集計計算の実行
 description: クエリで集計計算を実行する方法を説明します。
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（**nms:recipient**）
+  受信者テーブル （**nms:recipient**）
 
 * 出力列でどのフィールドを選択する必要がありますか。
 
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。出力列に「**[!UICONTROL 性別]**」フィールドを追加します。「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。****&#x200B;これにより、受信者は性別でグループ化されます。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。出力列に「**[!UICONTROL 性別]**」フィールドを追加します。「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**&#x200B;**&#x200B;これにより、受信者は性別でグループ化されます。
 
    ![](assets/query_editor_nveau_27.png)
 

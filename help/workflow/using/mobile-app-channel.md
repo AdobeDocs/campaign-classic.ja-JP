@@ -3,10 +3,9 @@ product: campaign
 title: モバイルアプリチャネル
 description: モバイルアプリチャネル
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 

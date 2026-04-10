@@ -5,10 +5,9 @@ description: 配信の設定と送信の方法を説明します
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 100%
 
@@ -141,7 +140,7 @@ ht-degree: 100%
    >
    >最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。
    >
-   >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
+   >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。詳しくは、[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
 1. 送信状況を監視するには、配信ログを参照してください。[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を参照してください。
 

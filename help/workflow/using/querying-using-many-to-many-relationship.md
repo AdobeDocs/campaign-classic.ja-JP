@@ -4,12 +4,11 @@ title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（**nms:recipient**）
+  受信者テーブル （**nms:recipient**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 
 次の手順に従います。
 
-1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
+1. 汎用クエリエディターを開き、受信者テーブル **[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL メール]**」を選択します。
 
    ![](assets/query_editor_nveau_33.png)
@@ -65,7 +64,7 @@ ht-degree: 100%
 
      ![](assets/query_editor_nveau_38.png)
 
-1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。次のステップに進みます。************
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。次のステップに進みます。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
    ![](assets/query_editor_nveau_39.png)
 
@@ -84,6 +83,6 @@ ht-degree: 100%
 
    計算フィールドの追加について詳しくは、この節を参照してください。
 
-1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウに結果が表示されます。過去7日間連絡されていない受信者が表示されます。名と姓の列が作成されました。
+1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウに結果が表示されます。過去7日間連絡されていない受信者がアルファベット順に表示されます。名と姓の列が作成されました。
 
    ![](assets/query_editor_nveau_41.png)

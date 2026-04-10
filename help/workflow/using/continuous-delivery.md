@@ -4,12 +4,11 @@ title: 連続配信
 description: 連続配信
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。
 
@@ -43,10 +42,10 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
-この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
+この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]**&#x200B;はターゲットの識別子を記憶するテーブルの名前で、**[!UICONTROL schema]**&#x200B;は母集団のスキーマ（通常はnms:recipient）で、**[!UICONTROL recCount]**&#x200B;はテーブル内の要素の数です。
 
 補集合に関連付けられたトランジションは、同じパラメーターを持ちます。
 
@@ -64,6 +63,6 @@ ht-degree: 100%
 
 このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27513?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27513?captions=jpn&quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

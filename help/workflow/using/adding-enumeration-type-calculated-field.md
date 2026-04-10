@@ -7,12 +7,11 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（nms:recipient）
+  受信者テーブル (nms:recipient)
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 次の手順に従います。
 
-1. 汎用クエリエディターを開き、受信者テーブル（**[!UICONTROL nms:recipient]**）を選択します。
+1. 汎用クエリエディターを開き、受信者テーブル （**[!UICONTROL nms:recipient]**）を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 性別]**」を選択します。
 
    ![](assets/query_editor_nveau_73.png)

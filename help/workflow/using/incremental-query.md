@@ -4,11 +4,10 @@ title: 増分処理クエリ
 description: 増分処理クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '380'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -64,7 +63,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

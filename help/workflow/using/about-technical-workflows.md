@@ -4,10 +4,9 @@ title: テクニカルワークフロー
 description: Campaign Classic パッケージで使用できるテクニカルワークフローについて説明します。
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 | テクニカルワークフロー | パッケージ | 説明 |
 |------|--------|-----------|
 | **エイリアスクレンジング**（aliasCleansing） | 配信 | 列挙値を標準化します。デフォルトで、毎日午前 3 時にトリガーされます。 |
-| **請求**（請求） | 配信 | このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
+| **請求**（請求） | 配信 | このワークフローでは、「請求」担当オペレーターはにメールでシステムアクティビティレポートを送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
 | **Twitter 統計の計算**（statsTwitter） | ソーシャルネットワーク（ソーシャルマーケティング）- Campaign v7 のみ | このワークフローは、X（旧 Twitter）でのリツイートと訪問にリンクされた統計を計算します。 |
 | **Campaign ジョブ**（operationMgt） | マーケティングキャンペーン（キャンペーン） | マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。 |
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |
@@ -73,7 +72,7 @@ ht-degree: 100%
 | **Web イベントの復元**（webAnalyticsGetWebEvents） | Web 分析コネクタ | 指定したサイトでのインターネットユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。 |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
 | **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
-| **在庫 : オーダーおよびアラート**（stockMgt） | マーケティングキャンペーン（キャンペーン） | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
+| **在庫：オーダーおよびアラート**（stockMgt） | マーケティングキャンペーン（キャンペーン） | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
 | **Facebook ファンの同期**（syncFacebookFans） | ソーシャルネットワーク（ソーシャルマーケティング）- Campaign v7 のみ | 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。 |
 | **Facebook ページの同期**（syncFacebook） | ソーシャルネットワーク（ソーシャルマーケティング）- Campaign v7 のみ | 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。 |
 | **Twitter ページとの同期**（syncTwitter） | ソーシャルネットワーク（ソーシャルマーケティング）- Campaign v7 のみ | このワークフローは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。 |

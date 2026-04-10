@@ -5,10 +5,9 @@ description: 配信の検証方法を学ぶ
 feature: Deliverability, Email Rendering, Proofs
 role: User
 hide: true
-hidefromtoc: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1794'
 ht-degree: 100%
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 閉じる]**」をクリックし、該当する場合はエラーを修正します。
 
-1. 変更をおこなった後、「**[!UICONTROL 分析]**」をクリックして分析を再開します。
+1. 変更を行った後、「**[!UICONTROL 分析]**」をクリックして分析を再開します。
 
 分析の結果を確認した後、「**[!UICONTROL 配信を確定]**」をクリックして、指定したターゲットにメッセージを送信できます。配信の開始を確認するメッセージが表示されます。
 

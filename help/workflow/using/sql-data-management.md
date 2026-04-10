@@ -4,10 +4,9 @@ title: SQL データ管理
 description: SQL データ管理ワークフローアクティビティの詳細を説明します
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -58,13 +57,13 @@ ht-degree: 100%
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 
    * **activity.tableName**：アウトバウンドワークテーブルの SQL 名
-   * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
+   * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行されるワークテーブルの SQL 名（トランジションは名前で識別されます）
 
      >[!NOTE]
      >
      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
+1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
 
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 

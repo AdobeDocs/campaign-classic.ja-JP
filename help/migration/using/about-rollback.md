@@ -1,36 +1,35 @@
 ---
 product: campaign
-title: 以前のバージョンへのロールバック
-description: 以前のバージョンにロールバックする方法を説明します
+title: 前のバージョンにロールバック
+description: 以前のバージョンにロールバックする方法について説明します
 feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: rollback
 hide: true
-hidefromtoc: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-# 以前のバージョンへのロールバック{#about-rollback}
+# 前のバージョンにロールバック{#about-rollback}
 
 
 
-移行後に問題が発生した場合は、以前のバージョンの Campaign にロールバックする必要が生じる場合があります。
+移行後に問題が発生した場合は、以前のバージョンのCampaignにロールバックする必要がある場合があります。
 
-ロールバックの手順は、Campaign の初期バージョンによって異なります。
+ロールバック手順は、Campaignの初期バージョンによって異なります。
 
-v7 から v6.1 を復元する手順を次に示します。
+v6.1をv7から復元する手順は次のとおりです。
 
-1. データベースのバックアップをリカバリし、リストアします。
-1. **Adobe Campaign v6.back** フォルダー（Linux の場合は **nl6.back** を復元し、**Adobe Campaign v6** （Linux の場合は **nl6**）に名前を変更して元の場所に復元します。
-1. リッスンポートを再割り当てして IIS を再設定し、IIS Web サイトレベルでAdobe Campaign v6.1 の統合を再確立します。
+1. データベースのバックアップを復元し、復元します。
+1. **Adobe Campaign v6.back** フォルダー（**nl6.back** Linux）を復元し、名前を&#x200B;**Adobe Campaign v6** （**nl6** Linux）に変更して、元の場所に復元します。
+1. IIS Web サイト レベルでのAdobe Campaign v6.1の統合を再確立するために、リッスン ポートを再割り当てすることにより、IISを再構成します。
 1. Adobe Campaign v7 サービスを停止します。
-1. IIS を再起動します。
+1. IISを再起動します。
 1. Adobe Campaign v6.1 サービスを再起動します。
 
 <!--

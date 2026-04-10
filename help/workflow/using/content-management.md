@@ -4,10 +4,9 @@ title: コンテンツ管理
 description: コンテンツ管理
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
    * **[!UICONTROL トランジションで指定]**
 
-     このオプションでは、トランジションで指定されたコンテンツを使用できます。つまり、コンテンツ管理を有効化するイベントは、変数 **[!UICONTROL contentId]** を含む必要があります。この変数は、先行するコンテンツカスタマーサービスまたは任意のスクリプトによって設定できます。
+     このオプションでは、トランジションで指定されたコンテンツを使用できます。つまり、コンテンツ管理を有効化するイベントは、変数 **[!UICONTROL contentId]** を含む必要があります。この変数は、先行するコンテンツ管理または任意のスクリプトによって設定できます。
 
    * **[!UICONTROL 明示]**
 

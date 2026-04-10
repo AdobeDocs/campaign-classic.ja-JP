@@ -4,19 +4,18 @@ title: ターゲットマッピングの選択
 description: ターゲットマッピングの方法を説明します
 feature: Delivery Templates
 hide: true
-hidefromtoc: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
 
 # ターゲットマッピングの選択{#selecting-a-target-mapping}
 
-配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
+配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
 
 ![](assets/delivery_select_mapping.png)
 

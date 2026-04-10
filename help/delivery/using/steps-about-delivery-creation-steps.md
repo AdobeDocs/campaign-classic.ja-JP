@@ -5,10 +5,9 @@ description: Adobe Campaign の配信作成の主な手順を確認する
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 

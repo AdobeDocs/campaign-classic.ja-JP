@@ -4,10 +4,9 @@ title: ワークフローの監視
 description: キャンペーンワークフローの監視方法を説明します
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -121,7 +120,7 @@ vars.strWorkflowStop = strStop;
 
 「テスト」アクティビティでは、配信をおこなう必要があるかどうか、「待機」アクティビティに基づき監視ワークフローで別のサイクルを実行する必要があるかどうかを判断できます。
 
-**3 つのイベント変数、「vars.strWorkflowError」、「vars.strWorkflowPaused」、「vars.strWorkflowStop」のうち少なくとも 1 つが有効であると、**&#x200B;スーパーバイザーに配信がおこなわれます。
+**3 つのイベント変数、「vars.strWorkflowError」、「vars.strWorkflowPaused」、「vars.strWorkflowStop」のうち少なくとも 1 つが有効であると、**&#x200B;スーパーバイザーに配信が行われます。
 
 ![](assets/uc_monitoring_workflow_test.png)
 

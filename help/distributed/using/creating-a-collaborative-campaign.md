@@ -4,10 +4,9 @@ title: 共同キャンペーンの作成
 description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
@@ -163,7 +162,7 @@ ht-degree: 100%
 
 加えて、このメッセージでは、パッケージの作成者であるセントラルオペレーターによって入力された説明とキャンペーンにリンクされているドキュメントを表示することができます。これらの情報はキャンペーンに直接関係するわけではありませんが、参考情報として参照できます。
 
-ローカルオペレーターは Web インターフェイスからログインし、オーダーする協調キャンペーンにパーソナライゼーションの情報を追加できます。
+ローカルオペレーターは web インターフェイスからログインし、オーダーする協調キャンペーンにパーソナライゼーションの情報を追加できます。
 
 ![](assets/mkg_dist_mutual_op_command.png)
 

@@ -1,45 +1,44 @@
 ---
 product: campaign
-title: Microsoft Windows プラットフォームのAdobe Campaign v7 への移行
-description: Microsoft Windows プラットフォームをAdobe Campaign v7 に移行する方法を説明します
+title: Microsoft Windows プラットフォームをAdobe Campaign v7に移行する
+description: Microsoft Windows プラットフォームをAdobe Campaign v7に移行する方法について説明します
 feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
-hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
 
 ---
 
-# Microsoft Windows プラットフォームから Campaign v7 への移行{#migrating-in-windows-for-adobe-campaign}
+# Microsoft Windows プラットフォームをCampaign v7に移行する{#migrating-in-windows-for-adobe-campaign}
 
 
 
-Microsoft Windows 環境の場合、移行手順は次のとおりです。
+Microsoft Windows環境の場合、移行手順は次のとおりです。
 
-1. すべてのサービスを停止します [&#x200B; 詳細情報 &#x200B;](#service-stop)。
-1. データベースのバックアップ - [&#x200B; 詳細情報 &#x200B;](#back-up-the-database)。
-1. プラットフォームの移行 – [&#x200B; 詳細情報 &#x200B;](#deploying-adobe-campaign-v7)。
-1. リダイレクトサーバー（IIS）の移行 – [&#x200B; 詳細情報 &#x200B;](#migrating-the-redirection-server--iis-)。
-1. サービスの再起動 – [&#x200B; 詳細情報 &#x200B;](#re-starting-the-services)。
-1. 以前のAdobe Campaign バージョンを削除して消去する – [&#x200B; 詳細情報 &#x200B;](#deleting-and-cleansing-adobe-campaign-previous-version)。
+1. すべてのサービスを停止 – [詳細情報](#service-stop)。
+1. データベースのバックアップ - [詳細情報](#back-up-the-database)。
+1. プラットフォームの移行 – [詳細情報](#deploying-adobe-campaign-v7)。
+1. リダイレクト サーバー（IIS）を移行します – [詳細情報](#migrating-the-redirection-server--iis-)。
+1. サービスを再起動します – [詳細情報](#re-starting-the-services)。
+1. 以前のAdobe Campaign バージョンを削除して削除します – [詳細情報](#deleting-and-cleansing-adobe-campaign-previous-version)。
 
 ## サービス停止 {#service-stop}
 
-まず、関係するすべてのマシン上のデータベースにアクセスできるすべてのプロセスを停止します。
+まず、関係するすべてのマシン上のデータベースにアクセスするすべてのプロセスを停止します。
 
-1. リダイレクトモジュール（**webmdl** サービス）を使用するすべてのサーバーを停止する必要があります。 IIS の場合、次のコマンドを実行します。
+1. リダイレクトモジュール （**webmdl** サービス）を使用しているすべてのサーバーを停止する必要があります。 IISの場合は、次のコマンドを実行します。
 
    ```
    iisreset /stop
    ```
 
-1. **mta** モジュールとその子モジュール（**mtachild**）は、次のコマンドを使用して停止する必要があります。
+1. **mta** モジュールとその子モジュール （**mtachild**）は、次のコマンドを使用して停止する必要があります。
 
    ```
    nlserver stop mta@<instance name>
@@ -62,13 +61,13 @@ Microsoft Windows 環境の場合、移行手順は次のとおりです。
 
 -->
 
-1. 各サーバーで、Adobe Campaign サービスが正しく停止していることを確認します。 管理者権限でログインし、次のコマンドを実行します。
+1. 各サーバーについて、Adobe Campaign サービスが適切に停止されていることを確認します。 管理者権限でログインし、次のコマンドを実行します。
 
    ```
    tasklist /FI "IMAGENAME eq nlserver*"
    ```
 
-   アクティブなプロセスのリストとその ID （PID）が表示されます。
+   アクティブなプロセスのリストとそのID （PID）が表示されます。
 
    ```
    Image Name                     PID Session Name        Session#    Mem Usage
@@ -76,13 +75,13 @@ Microsoft Windows 環境の場合、移行手順は次のとおりです。
    nlserver.exe                  3192 Console                    1     13,108 K
    ```
 
-1. 1 つ以上のAdobe Campaign プロセスがまだアクティブであるかブロックされている場合は、数分後に強制終了します。 管理者権限でログインし、次のコマンドを実行します。
+1. 1つ以上のAdobe Campaign プロセスがまだアクティブであるか、数分後にブロックされている場合は、それらを殺します。 管理者権限でログインし、次のコマンドを実行します。
 
    ```
    taskkill /IM nlserver* /T
    ```
 
-1. 数分後もアクティブなプロセスがある場合は、次のコマンドを使用して強制的に閉じることができます。
+1. 数分後に一部のプロセスがまだアクティブな場合は、コマンドを使用して強制的に閉じることができます。
 
    ```
    taskkill /F /IM nlserver* /T
@@ -90,7 +89,7 @@ Microsoft Windows 環境の場合、移行手順は次のとおりです。
 
 ## Campaign データベースのバックアップ {#back-up-the-database}
 
-次に、Adobe Campaign v6.1 のバックアップ手順を示します。
+Adobe Campaign v6.1をバックアップする手順は次のとおりです。
 
 <!--
 
@@ -188,38 +187,38 @@ Microsoft Windows 環境の場合、移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防措置として、**Adobe Campaign v6.back** フォルダーを zip 形式で圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
+   >予防策として、**Adobe Campaign v6.back** フォルダーをzip圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
 
-1. Windows サービス管理コンソールで、6.11 アプリケーションサーバーサービスの自動スタートアップを無効にします。 次のコマンドも使用できます。
+1. Windows サービス管理コンソールで、6.11 アプリケーションサーバーサービスの自動起動を無効にします。 次のコマンドを使用することもできます。
 
    ```
    sc config nlserver6 start= disabled
    ```
 
-## Adobe Campaign v7 のデプロイ {#deploying-adobe-campaign-v7}
+## Adobe Campaign v7のデプロイ {#deploying-adobe-campaign-v7}
 
-Adobe Campaignのデプロイには、次の 2 つの段階があります。
+Adobe Campaignのデプロイには、次の2つの段階があります。
 
-* ビルド v7 をインストールしています：この操作は、各サーバーで実行する必要があります。
-* アップグレード後：このコマンドは、各インスタンスで開始する必要があります。
+* ビルド v7のインストール：この操作は各サーバーで実行する必要があります。
+* アップグレード後：このコマンドは、各インスタンスで起動する必要があります。
 
-Adobe Campaignをデプロイするには、次の手順に従います。
+Adobe Campaignをデプロイするには、次の手順を実行します。
 
-1. **setup.exe** インストールファイルを実行して、最新のAdobe Campaign v7 ビルドをインストールします。 Windows へのAdobe Campaign サーバーのインストールについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-the-server.md) を参照してください。
+1. **setup.exe** インストール ファイルを実行して、最新のAdobe Campaign v7 ビルドをインストールします。 WindowsでのAdobe Campaign Serverのインストールについて詳しくは、[この節](../../installation/using/installing-the-server.md)を参照してください。
 
    ![](assets/migration_wizard_1_7.png)
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 は、デフォルトで **C:\Program Files\Adobe\Adobe Campaign v7** ディレクトリにインストールされます。
+   >Adobe Campaign v7は、デフォルトで&#x200B;**C:\Program Files\Adobe\Adobe Campaign v7** ディレクトリにインストールされます。
 
-1. クライアントコンソールのインストールプログラムを使用可能にするには、**setup-client-7.0.XXXX.exe** ファイルをAdobe Campaignのインストールディレクトリ （**C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp** にコピーします。
+1. クライアントコンソールのインストールプログラムを使用できるようにするには、**setup-client-7.0.XXXX.exe** ファイルをAdobe Campaign インストールディレクトリ **C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**&#x200B;にコピーします。
 
    >[!NOTE]
    >
-   >Windows へのAdobe Campaignのインストールについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/installing-the-server.md) を参照してください。
+   >WindowsへのAdobe Campaignのインストールについて詳しくは、[この節](../../installation/using/installing-the-server.md)を参照してください。
 
-1. 次のコマンドを使用して、インスタンスを初めて使用するために起動します。
+1. 次のコマンドを使用して、最初に使用するインスタンスを開始します。
 
    ```
    net start nlserver6-v7
@@ -228,9 +227,9 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!NOTE]
    >
-   >これらのコマンドを使用すると、Adobe Campaign v7 の内部ファイルシステムである **conf** ディレクトリ（**config-default.xml** および **serverConf.xml** ファイルを含む）、**var** ディレクトリなどを作成できます。
+   >これらのコマンドを使用すると、Adobe Campaign v7の内部ファイルシステム **conf** ディレクトリ（**config-default.xml**&#x200B;および&#x200B;**serverConf.xml** ファイル）、**var** ディレクトリなどを作成できます。
 
-1. **Neolane v5.back**、{Neolane v6.back **または** 4}Adobe Campaign v6.back **のバックアップファイルを使用して、各インスタンスの設定ファイルとサブフォルダーをコピーして貼り付け（上書き）します（移行元のバージョンによって異なります。[&#x200B; この節 &#x200B;](#back-up-the-database-and-the-current-installation) を参照してください）。**
+1. 各インスタンスの設定ファイルとサブフォルダーを、**Neolane v5.back**、**Neolane v6.back**&#x200B;または&#x200B;**Adobe Campaign v6.back** バックアップファイルを介してコピー&amp;ペースト（上書き）します（移行元のバージョンによって異なります。このセクションは[を参照](#back-up-the-database-and-the-current-installation)）。
 1. 移行元のバージョンに応じて、次のコマンドを実行します。
 
    ```
@@ -253,15 +252,15 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    >[!IMPORTANT]
    >
-   >上記の最初のコマンドについては、**config-default.xml** ファイルをコピーしないでください。
+   >上記の最初のコマンドでは、**config-default.xml** ファイルをコピーしないでください。
 
-1. Adobe Campaign v7 の **serverConf.xml** および **config-default.xml** ファイルで、Adobe Campaignの以前のバージョンで行った特定の設定を適用します。 **serverConf.xml** ファイルには、**Neolane v5/conf/serverConf.xml.diff**、**Neolane v6/conf/serverConf.xml.diff** または **Adobe Campaign v6/conf/serverConf.xml.diff** ファイルを使用します。
+1. Adobe Campaign v7の&#x200B;**serverConf.xml**&#x200B;および&#x200B;**config-default.xml** ファイルで、以前のバージョンのAdobe Campaignで使用していた特定の設定を適用します。 **serverConf.xml** ファイルの場合、**Neolane v5/conf/serverConf.xml.diff**、**Neolane v6/conf/serverConf.xml.diff**&#x200B;または&#x200B;**Adobe Campaign v6/conf/serverConf.xml.diff** ファイルを使用します。
 
    >[!NOTE]
    >
-   >Adobe Campaignの旧バージョンからAdobe Campaign v7 に設定をレポートする場合は、物理ディレクトリへのパスがAdobe Campaign v7 （Neolane v5、Neolane v6 またはAdobe Campaign v6 ではなく）につながっていることを確認してください。
+   >Adobe Campaignの以前のバージョンからAdobe Campaign v7に設定をレポートする場合は、物理ディレクトリへのパスがAdobe Campaign v7 （Neolane v5、Neolane v6またはAdobe Campaign v6ではなく）に導かれることを確認します。
 
-1. 次のコマンドを使用して、Adobe Campaign v7 設定をリロードします。
+1. 次のコマンドを使用して、Adobe Campaign v7設定をリロードします。
 
    ```
    nlserver config -reload
@@ -275,53 +274,53 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
 >[!IMPORTANT]
 >
->Adobe Campaign サービスはまだ開始しないでください。IIS で一部の変更を行う必要があります。
+>まだAdobe Campaign サービスを開始しません。IISで変更を行う必要があります。
 
 ## リダイレクトサーバーの移行 {#migrating-the-redirection-server--iis-}
 
-この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止 &#x200B;](#service-stop) を参照してください。
+この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止](#service-stop)を参照してください。
 
-1. **インターネット インフォメーション サービス （IIS） マネージャ** コンソールを開きます。
-1. Adobe Campaignの以前のバージョンで使用されていたサイトのバインディング（リッスンポート）を変更します。
+1. **インターネット インフォメーション サービス （IIS） マネージャー** コンソールを開きます。
+1. Adobe Campaignの以前のバージョンで使用していたサイトのバインディング（リッスン ポート）を変更します。
 
-   * Adobe Campaignの以前のバージョンで使用されているサイトを右クリックし、「**[!UICONTROL 連結を編集]**」を選択します。
-   * 各タイプのリッスンポート（**[!UICONTROL http]** や **[!UICONTROL https]**）に対して、適切な行を選択し **[!UICONTROL 編集]** をクリックします。
-   * 別のポートを入力してください。 デフォルトでは、リッスンポートは http の場合は 80、https の場合は 443 です。 新しいポートが使用可能であることを確認します。
+   * Adobe Campaignの以前のバージョンで使用されているサイトを右クリックし、**[!UICONTROL バインディングを編集]**&#x200B;を選択します。
+   * リッスン ポート （**[!UICONTROL http]**&#x200B;または&#x200B;**[!UICONTROL https]**）の各タイプについて、適切な行を選択し、**[!UICONTROL 編集]**&#x200B;をクリックします。
+   * 別のポートを入力してください。 デフォルトでは、リッスンポートはhttpで80、httpsで443です。 新しいポートが使用可能であることを確認します。
 
      ![](assets/_migration_iis_3_611.png)
 
      >[!NOTE]
      >
-     >IIS サーバーに、高度な設定を持つAdobe Campaign用の複数の web サイト（共有ポートと異なる IP アドレス）が含まれている場合は、管理者にお問い合わせください。
+     >IIS サーバーに、高度な設定（共有ポートと異なるIP アドレス）を持つAdobe Campaign用の複数のWeb サイトが含まれている場合は、管理者にお問い合わせください。
 
-1. Adobe Campaign v7 の新しい web サイトを作成します。
+1. Adobe Campaign v7用の新しいweb サイトを作成します。
 
-   * **[!UICONTROL Sites]** フォルダーを右クリックし、「**[!UICONTROL Web サイトを追加…]**」を選択します。
+   * **[!UICONTROL Sites]** フォルダーを右クリックし、**[!UICONTROL Web サイトを追加…]**&#x200B;を選択します。
 
      ![](assets/_migration_iis_4.png)
 
-   * サイトの名前（**Adobe Campaign v7** など）を入力します。
-   * Web サイトの基本ディレクトリへのアクセスパスは使用されませんが、「**[!UICONTROL 物理アクセスパス]**」フィールドに入力する必要があります。 既定の IIS アクセス パスを入力してください：**C:\inetpub\wwwroot**。
-   * **[!UICONTROL 別名で接続…]** ボタンをクリックし、「**[!UICONTROL アプリケーションユーザー]**」オプションが選択されていることを確認します。
-   * デフォルト値は「**[!UICONTROL IP アドレス]**」フィールドと「**[!UICONTROL ポート]**」フィールドのままにすることができます。 他の値を使用する場合は、IP アドレスやポートが使用可能であることを確認してください。
-   * 「**[!UICONTROL Web サイトをすぐに開始]** ボックスをオンにします。
+   * サイトの名前（**Adobe Campaign v7**）を入力します。
+   * Web サイトの基本ディレクトリへのアクセスパスは使用されませんが、**[!UICONTROL 物理アクセスパス]** フィールドを入力する必要があります。 既定のIIS アクセス パス **C:\inetpub\wwwroot**&#x200B;を入力します。
+   * 「**[!UICONTROL 別名で接続…]**」ボタンをクリックし、「**[!UICONTROL アプリケーションユーザー]**」オプションが選択されていることを確認します。
+   * デフォルト値は、**[!UICONTROL IP アドレス]**&#x200B;および&#x200B;**[!UICONTROL ポート]** フィールドに残すことができます。 他の値を使用する場合は、IP アドレスまたはポートが使用可能であることを確認します。
+   * 「**[!UICONTROL すぐにWeb サイトを開始する]**」ボックスをオンにします。
 
      ![](assets/_migration_iis_5_7.png)
 
-1. **iis_neolane_setup.vbs** スクリプトを実行して、以前に作成した仮想ディレクトリ上でAdobe Campaign サーバが使用するリソースを自動的に構成します。
+1. **iis_neolane_setup.vbs** スクリプトを実行して、以前に作成したバーチャル ディレクトリでAdobe Campaign サーバーが使用するリソースを自動設定します。
 
-   * このファイルは **`[Adobe Campaign v7]`\conf** ディレクトリにあります。**`[Adobe Campaign v7]`** は、Adobe Campaign インストールディレクトリへのアクセスパスです。 スクリプトを実行するコマンドを次に示します（管理者向け）。
+   * このファイルは、**`[Adobe Campaign v7]`\conf** ディレクトリにあります。このディレクトリには、**`[Adobe Campaign v7]`**&#x200B;がAdobe Campaign インストールディレクトリへのアクセスパスです。 スクリプトを実行するコマンドは次のとおりです（管理者の場合）。
 
      ```
      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
      cscript iis_neolane_setup.vbs
      ```
 
-   * 「**[!UICONTROL OK]**」をクリックして、スクリプトの実行を確定します。
+   * 「**[!UICONTROL OK]**」をクリックして、スクリプトの実行を確認します。
 
      ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
-   * 以前にAdobe Campaign v7 用に作成した web サイトの数を入力して、「**[!UICONTROL OK]**」をクリックします。
+   * Adobe Campaign v7用に以前に作成したweb サイトの番号を入力し、**[!UICONTROL OK]**&#x200B;をクリックします。
 
      ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 
@@ -329,15 +328,15 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
      ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
-   * 「**[!UICONTROL コンテンツビュー]**」タブで、web サイト設定がAdobe Campaign リソースで正しく設定されていることを確認します。
+   * 「**[!UICONTROL コンテンツ表示]**」タブで、Adobe Campaign リソースを使用してWeb サイト設定が正しく設定されていることを確認します。
 
      ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
      >[!NOTE]
      >
-     >ツリー構造が表示されない場合は、IIS を再起動します。
+     >ツリー構造が表示されない場合は、IISを再起動します。
      >
-     >次の IIS 設定手順について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server) を参照してください。
+     >次のIIS設定手順について詳しくは、[この節](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server)を参照してください。
 
 <!--
 ## Security zones {#security-zones}
@@ -345,19 +344,19 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. [Learn more](../../migration/using/general-configurations.md#security)
 -->
 
-## サービスの再起動 {#re-starting-the-services}
+## サービスを再開する {#re-starting-the-services}
 
-次の各サーバで IIS およびAdobe Campaign サービスを開始します。
+次の各サーバーでIIS サービスとAdobe Campaign サービスを開始します。
 
-1. トラッキングサーバーとリダイレクトサーバー。
-1. ミッドソーシングサーバー。
-1. マーケティングサーバー。
+1. トラッキングおよびリダイレクションサーバー：
+1. ミッドソーシングサーバー：
+1. マーケティングサーバー：
 
-次の手順に進む前に、新しいインストールの完全なテストを実行し、リグレッションがなく、すべてが機能することを確認します。
+次のステップに進む前に、新しいインストールの完全なテストを実行し、リグレッションがなく、すべてが機能することを確認します。
 
 ## 以前のバージョンを削除 {#deleting-and-cleansing-adobe-campaign-previous-version}
 
-次に、Adobe Campaign v6.1 を削除する手順を示します。
+Adobe Campaign v6.1を削除する手順は次のとおりです。
 
 <!--
 
@@ -401,12 +400,12 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
 
 Adobe Campaign v6 インストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
 
-* 機能チームに新しいインストールのフルチェックを実行してもらいます。
-* ロールバックが必要ないことが確実な場合にのみ、Adobe Campaign v6 をアンインストールします。
+* 機能部門に、新しいインストールのフルチェックを依頼します。
+* ロールバックが不要であることが確認できたら、Adobe Campaign v6のみをアンインストールします。
 
-1. IIS で、**Adobe Campaign v6** web サイトを削除してから、**Adobe Campaign v6** アプリケーション プールを削除します。
-1. **Adobe Campaign v6.back** フォルダーの名前を **Adobe Campaign v6** に変更します。
-1. コンポーネントの追加と削除ウィザードを使用して、Adobe Campaign v6 をアンインストールします。
+1. IISで、**Adobe Campaign v6** web サイトを削除してから、**Adobe Campaign v6** アプリケーションプールを削除します。
+1. **Adobe Campaign v6.back** フォルダーを&#x200B;**Adobe Campaign v6**&#x200B;に変更します。
+1. コンポーネントの追加と削除アシスタントを使用して、Adobe Campaign v6をアンインストールします。
 
    ![](assets/migration_wizard_2.png)
 

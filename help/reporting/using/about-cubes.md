@@ -5,9 +5,8 @@ description: キューブの基本を学ぶ
 feature: Reporting, Monitoring
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 hide: true
-hidefromtoc: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%

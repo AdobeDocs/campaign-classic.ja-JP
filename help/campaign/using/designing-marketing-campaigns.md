@@ -1,13 +1,12 @@
 ---
 product: campaign
 title: マーケティングキャンペーンの設計と実行
-description: マーケティングキャンペーンを定義、最適化、実施、分析します。
+description: マーケティング施策を定義、最適化、実行、分析
 role: User
 feature: Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
@@ -17,18 +16,18 @@ ht-degree: 80%
 
 # マーケティングキャンペーンの設計と実行{#designing-marketing-campaigns}
 
-[!DNL Adobe Campaign] を使用すると、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。 [!DNL Adobe Campaign] は、マーケティング戦略の統一されたオーダーと実行センターのように機能します。 詳細については、[キャンペーンへのアクセス](../../distributed/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+[!DNL Adobe Campaign]では、コミュニケーションおよびマーケティング キャンペーンを定義、最適化、実行および分析できます。 [!DNL Adobe Campaign]は、マーケティング戦略のための統一された注文と実行センターのような役割を果たします。 詳細については、[キャンペーンへのアクセス](../../distributed/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
-また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理を使用すると、内部および外部のプロセス、リソースおよびマーケティングキャンペーンの管理を最適化および規制できます。 また、サードパーティとの関係（代理店、プリンターなど）もサポートしています。 詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)を参照してください。
+また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理では、社内外のプロセス、リソース、マーケティング施策の管理を最適化および規制できます。 また、サードパーティの関係（代理店、プリンターなど）もサポートしています。 詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)を参照してください。
 
 >[!NOTE]
 >
->[!DNL Adobe Campaign] のコア機能について詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/about-adobe-campaign-classic.md) を参照してください。
+>[!DNL Adobe Campaign]のコア機能について詳しくは、[この節](../../platform/using/about-adobe-campaign-classic.md)を参照してください。
 >
 >様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 
-![&#x200B; チュートリアルビデオのサムネール &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; マーケティングキャンペーンの主要概念をビデオで確認 &#x200B;](#video)
+![&#x200B; ハウツー動画のサムネイル &#x200B;](assets/do-not-localize/how-to-video.png) [動画でマーケティングキャンペーンの主要な概念を見つける](#video)
 
 ## 主要コンセプト {#core-concepts}
 
@@ -73,4 +72,4 @@ ht-degree: 80%
 
 >[!VIDEO](https://video.tv.adobe.com/v/326573?captions=jpn&quality=12)
 
-その他の [!DNL Campaign Classic] チュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) を参照してください。
+追加の[!DNL Campaign Classic]のハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)から利用できます。

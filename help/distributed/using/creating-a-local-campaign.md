@@ -4,10 +4,9 @@ title: ローカルキャンペーンの作成
 description: ローカルキャンペーンの作成
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 100%
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 
 ### Web インターフェイス {#web-interface}
 
-「**分散型マーケティング**」タブでは、Web インターフェイスのタイプを選択し、ローカルエンティティがキャンペーンをオーダーする際に入力するデフォルト値とパラメーターを指定することができます。
+「**分散型マーケティング**」タブでは、web インターフェイスのタイプを選択し、ローカルエンティティがキャンペーンをオーダーする際に入力するデフォルト値とパラメーターを指定することができます。
 
 Web インターフェイスは、キャンペーンのオーダー時にローカルエンティティが入力するフォームに対応します。
 

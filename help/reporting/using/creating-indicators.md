@@ -4,9 +4,8 @@ title: 指標の作成
 description: 指標の作成
 feature: Reporting, Monitoring
 hide: true
-hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 キューブを作成するには、次の手順に従います。
 
-1. 作業用テーブルを選択します。[作業用テーブルの選択](#selecting-the-work-table)を参照してください。
+1. ワークテーブルを選択します。[ワークテーブルの選択](#selecting-the-work-table)を参照してください。
 1. ディメンションを定義します。[ディメンションの定義](#defining-dimensions)を参照してください。
 1. 測定を定義します。[指標の構築](#building-indicators)を参照してください。
 1. 集計を作成します（オプション）。[集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)を参照してください。
@@ -30,7 +29,7 @@ ht-degree: 100%
 
 次に、実装手順を示します。すべてのオプションとその説明については、この章の他の節を参照してください。
 
-## 作業用テーブルを選択します。 {#selecting-the-work-table}
+## ワークテーブルを選択します。 {#selecting-the-work-table}
 
 キューブを作成するには、キューブのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 

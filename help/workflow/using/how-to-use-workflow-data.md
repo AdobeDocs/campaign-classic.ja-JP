@@ -4,10 +4,9 @@ title: ワークフローデータの使用方法
 description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
@@ -51,7 +50,7 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 コンテンツまたはターゲット母集団の選択のフレームワークをカスタマイズするために、配信はワークフロー内のデータを処理できます。
 
-例えば、直接メール配信のフレームワーク内では、ワークフロー内で実行されるデータ操作から取り出した追加データを、抽出ファイルに含めることができます。
+例えば、ダイレクトメール配信のフレームワーク内では、ワークフロー内で実行されるデータ操作から取り出した追加データを、抽出ファイルに含めることができます。
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 

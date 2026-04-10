@@ -4,10 +4,9 @@ title: スキーマを編集
 description: スキーマを編集ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

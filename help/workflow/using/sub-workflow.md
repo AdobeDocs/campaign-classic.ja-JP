@@ -4,11 +4,10 @@ title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '441'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -64,17 +63,17 @@ ht-degree: 100%
 ## 入力パラメーター（オプション） {#input-parameters--optional-}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。
 
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 * targetSchema：この値は、ワークテーブルのスキーマです。
-このパラメーターは、**[!UICONTROL tableName]** と **[!UICONTROL schema]** のすべてのトランジションで有効です。
+このパラメーターは、**[!UICONTROL tableName]** と&#x200B;**[!UICONTROL スキーマ]**&#x200B;のすべてのトランジションで有効です。

@@ -3,10 +3,9 @@ product: campaign
 title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
@@ -34,7 +33,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">請求</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
-   <td> このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
+   <td> このワークフローでは、「請求」担当オペレーターはにメールでシステムアクティビティレポートを送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">エイリアスクレンジング</span> <br /> </td> 

@@ -1,22 +1,21 @@
 ---
 product: campaign
-title: ACS Connector のトラブルシューティング
-description: ACS Connector のトラブルシューティング
+title: ACS コネクタのトラブルシューティング
+description: ACS コネクタのトラブルシューティング
 feature: ACS Connector, Troubleshooting
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
 hide: true
-hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 93%
 
 ---
 
-# ACS Connector のトラブルシューティング{#troubleshooting-the-acs-connector}
+# ACS コネクタのトラブルシューティング{#troubleshooting-the-acs-connector}
 
 
 
@@ -75,15 +74,15 @@ ht-degree: 100%
 
 * **Campaign Standard でクエリのベースにする必要があるプロファイルフィールドが見つかりません。**
 
-  デフォルトでは、nms:recipient テーブルからの 20 個のフィールドが Campaign Standard と同期されます。同期されたフィールドの詳細なリストを参照してください。Campaign Standard で取得する必要がある追加のフィールドは、コンサルタントによってマッピングおよび設定される必要があります。
+  デフォルトでは、nms:recipient テーブルの20 フィールドがCampaign Standardと同期されます。 同期されたフィールドの詳細なリストを参照してください。Campaign Standard で取得する必要がある追加のフィールドは、コンサルタントによってマッピングおよび設定される必要があります。
 
   使用したいフィールドが利用可能であることを確認する場合は、**[!UICONTROL 管理／開発／診断／データスキーマ]**&#x200B;で、プロファイルリソース定義を確認できます。
 
-  さらに、受信者に添付され、nms:recipient に関連するテーブルに格納されたすべてのデータは、デフォルトでは Campaign Standard に同期されません。
+  また、受信者に添付され、nms:recipientsに関連するテーブルに保存されているすべてのデータは、デフォルトではCampaign Standardに同期されません。
 
   関連するデータを使用できるようにするには、[オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)の節で説明したように、Campaign v7 でターゲティングを実行して、追加データを追加するか、コンサルタントに問い合わせて、カスタマイズの可能性を探ることができます。
 
-* **Campaign v7 で、デフォルトの nms:recipient ではなく、別のプロファイルディメンションを使用していますが、Campaign Standard と同期するにはどうしたらよいですか。**
+* **Campaign v7でデフォルトのnms:recipient以外のプロファイルディメンションを使用している。Campaign Standardと同期するにはどうすればよいですか？**
 
   Campaign Standard は、**プロファイル**&#x200B;という名前の独自のターゲティングリソースを使用します。Campaign Standard 接続機能の基本的な実装では、Campaign v7 受信者と Campaign Standard プロファイルの間のデフォルトマッピングを提供します。
 
@@ -122,4 +121,4 @@ ht-degree: 100%
 
   ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
 
-  問題を解決し、再び発生しないようにするには、ワークフローの&#x200B;**トラッキング URL を更新**（writerTrackingUrls）アクティビティを更新し、@tagId ソース式に「ACS」プレフィックスを追加します。
+  問題を解決し、再び発生しないようにするには、ワークフローの&#x200B;**トラッキング URL を更新**（writerTrackingUrls）アクティビティを更新し、@tagId ソース式に「ACS」接頭辞を追加します。

@@ -4,10 +4,9 @@ title: 購読サービス
 description: 購読サービスワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Subscription Services Activity
 hide: true
-hidefromtoc: true
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 
    通常、ターゲットの情報サービスの購読は、ターゲティングワークフローの終わりを示します。そのため、このオプションはデフォルトでは有効にされていません。
 
-1. 選択した情報サービスに対して、指定した母集団の購読をおこなう場合は「**[!UICONTROL 購読]**」を、購読を解除する場合は「**[!UICONTROL 購読解除]**」を選択します。
+1. 選択した情報サービスに対して、指定した母集団の購読を行う場合は「**[!UICONTROL 購読]**」を、購読を解除する場合は「**[!UICONTROL 購読解除]**」を選択します。
 1. 「**[!UICONTROL 確認メッセージを送信]**」を選択すると、サービスの購読または購読解除が受信者に通知されます。
 
    このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。
@@ -68,6 +67,6 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。

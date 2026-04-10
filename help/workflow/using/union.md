@@ -4,11 +4,10 @@ title: 和集合
 description: 和集合ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '316'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 
 
-複数のインバウンドアクティビティの結果を 1 つのターゲット内にグループ化します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。
+和集合は、複数のインバウンドアクティビティの結果を 1 つのターゲット内にグループ化します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。
 
 ![](assets/s_user_segmentation_union.png)
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 ## 和集合の例 {#union-example}
 
-次の例では、リストを更新するために、2 つのクエリからの結果が結合されています。2 つのクエリは、受信者をターゲティングしています。このため、結果は同じテーブルに基づいています。
+次の例では、リストを更新するために、2 つのクエリからの結果が結合されています。2 つのクエリは、受信者をターゲットにしています。このため、結果は同じテーブルに基づいています。
 
 1. 「**[!UICONTROL 和集合]**」タイプのアクティビティを、2 つのクエリの直後、リストの更新タイプアクティビティの前に挿入してから開きます。
 1. ラベルを入力できます。
@@ -45,14 +44,14 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。
 
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、和集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

@@ -5,9 +5,8 @@ description: Campaign とMicrosoft Dynamics の接続方法を学ぶ
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
-hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 **Web API** を使用したデプロイメントが可能です（推奨）。 Microsot Dynamics との接続を設定する手順については、[以下の節](#microsoft-dynamics-implementation-step)を参照してください。
 
-データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)
+データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)。
 
 ## 実装手順{#microsoft-dynamics-implementation-steps}
 
@@ -65,7 +64,7 @@ Campaign Classic 内：
 
 保存すると、Campaign のクライアント識別子である&#x200B;**アプリケーション ID** が取得されます。
 
-詳しくは、[こちらのページ](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
+詳しくは、[このページ](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 

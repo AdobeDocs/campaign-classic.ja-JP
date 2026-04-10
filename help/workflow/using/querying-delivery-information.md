@@ -4,12 +4,11 @@ title: 配信情報に対するクエリ
 description: 配信情報をクエリする方法を説明します。
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1552'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者ログトラッキングテーブル（**[!UICONTROL nms:trackingLogRcp]**）
+  受信者ログ追跡テーブル （**[!UICONTROL nms:trackingLogRcp]**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -175,7 +174,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_query_sample1.5.png)
 
-   数式ウィンドウで「**[!UICONTROL 完了]**」ボタンをクリックします。フィルターウィンドウで、「**[!UICONTROL プレビュー]**」タブをクリックしてターゲット条件を確認します。
+   数式ウィンドウで「**[!UICONTROL 完了]**」ボタンをクリックします。フィルターウィンドウで、「**[!UICONTROL プレビュー]**」タブをクリックしてターゲティング条件を確認します。
 
    ![](assets/s_advuser_query_sample1.6.png)
 

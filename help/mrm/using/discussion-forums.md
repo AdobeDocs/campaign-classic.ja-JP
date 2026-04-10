@@ -6,11 +6,10 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 Adobe Campaign のオペレーターは、ディスカッションフォーラムを使用して情報を共有できます。プラン、プログラム、キャンペーン、リソース、シミュレーション、在庫の各要素には、それぞれ独自のディスカッションフォーラムがあります。各オペレーターにも個人用のフォーラムがあります。個人用フォーラムも含め、すべてのディスカッションは公開されています。
 
-フォーラムに購読登録すると、メッセージが投稿されるたびに通知メールを受信できます。
+フォーラムに購読登録すると、オペレーターはメッセージが投稿されるたびに通知メールを受信できます。
 
 ## フォーラムへのアクセス {#accessing-a-forum}
 

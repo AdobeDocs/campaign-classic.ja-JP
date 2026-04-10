@@ -4,10 +4,9 @@ title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 hide: true
-hidefromtoc: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 100%
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 ファイルの全般的なフォーマットと各列のフォーマットを編集できます。
 
-ファイルの全般的なフォーマットでは、列を認識する方法（エンコーディング、使用する区切り文字など）を定義できます。
+ファイルの全般的なフォーマットでは、列を認識する方法（エンコーディング、使用する区切り記号など）を定義できます。
 
 列のフォーマットでは、以下の設定で各列の値の処理方法を定義できます。
 
@@ -102,9 +101,9 @@ ht-degree: 100%
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
-   「**[!UICONTROL スケジュール]**」タブで、コレクターの実行スケジュールを計画できます。例えば、これらのファイルの有無を定期的に確認するスケジュールを作成できます。
+   「**[!UICONTROL スケジュール]**」タブで、コレクターの実行スケジュールを計画できます。例えば、これらのファイルの有無を確認する頻度を指定できます。
 
-   ここでは、各営業日の午後 9 時にコレクターが実行されるようにします。
+   ここでは、各営業日の午後 9 時にコレクターをトリガーするようにします。
 
    ![](assets/s_advuser_load_file_sample_2.png)
 

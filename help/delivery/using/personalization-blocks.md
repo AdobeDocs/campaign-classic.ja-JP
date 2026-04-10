@@ -6,10 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Personalization
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -79,7 +78,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    ![](assets/s_ncs_user_personalized_block_example.png)
 
-1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを確認するには、受信者を選択する必要があります。
+1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを表示するには、受信者を選択する必要があります。
 
    ![](assets/s_ncs_user_personalized_block_example2.png)
 
@@ -146,6 +145,6 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27460?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

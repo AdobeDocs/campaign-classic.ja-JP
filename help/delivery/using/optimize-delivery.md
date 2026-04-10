@@ -6,10 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
 
@@ -45,7 +44,7 @@ ht-degree: 100%
 
 バウンスメールが返ってきたり、スパムに指定されたりすることなく、E メールを受信者の受信ボックスに確実に届けるには、メッセージの配信品質の割合を向上させる必要があります。
 
-* 配信品質とは何でしょうか。
+* 配信品質とは
 
    * 配信品質とは、受信者のサーバーがメールを許可する能力を測定するためのファクターです。ISP（インターネットサービスプロバイダー）は、スパムとして識別したメールを除外するか、メール内の画像のダウンロードを禁止します。ISP は、特定のドメインから大量のメールが送信されていると判断すると、その送信者から送られるメールの許可数に上限を設定します。
 

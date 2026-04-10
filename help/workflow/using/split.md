@@ -4,11 +4,10 @@ title: 分割
 description: 分割ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '2169'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '2168'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 100%
 * フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
 * 分割アクティビティでのインスタンス変数の使用方法を示した例については、[この節](javascript-scripts-and-templates.md)を参照してください。
 
-このアクティビティを設定するには、「**[!UICONTROL サブセット]**」タブでサブセットコンテンツとラベルを定義してから、「**[!UICONTROL 一般]**」タブでターゲティングディメンションを選択します。
+このアクティビティを設定するには、「**[!UICONTROL サブセット]**」タブでサブセットコンテンツとラベルを定義してから、「**[!UICONTROL 一般]**」タブでターゲットディメンションを選択します。
 
 ## サブセットの作成 {#creating-subsets}
 
@@ -226,14 +225,14 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。
 
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、除外によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

@@ -6,10 +6,9 @@ feature: Push
 role: User, Developer
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -71,7 +70,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 登録者のアプリケーション (nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 
    ![](assets/nmac_ios.png)
 

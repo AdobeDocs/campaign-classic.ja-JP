@@ -4,10 +4,9 @@ title: キャンペーン
 description: キャンペーン
 feature: Workflows
 hide: true
-hidefromtoc: true
 topic-tags: technical-workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
@@ -37,7 +36,7 @@ ht-degree: 100%
    <td> 予算、プラン、プログラム、キャンペーン、配信およびタスクに関する費用行とコスト行の計算を開始します。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">在庫 : オーダーおよびアラート</span> <br /> </td> 
+   <td> <span class="uicontrol">在庫：オーダーおよびアラート</span> <br /> </td> 
    <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
    <td> このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。<br /> </td> 
   </tr> 

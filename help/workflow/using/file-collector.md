@@ -4,10 +4,9 @@ title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -71,7 +70,7 @@ ht-degree: 100%
 
    **[!UICONTROL ファイルの履歴化]**&#x200B;の手順について詳しくは、[Web ダウンロード](web-download.md)を参照してください。
 
-ファイルを処理する順番は指定できません。複数のファイルを順番に処理するには、「**[!UICONTROL ファイルが処理されたらすぐに停止します]**」オプションを設定し、反復処理をおこないます。このようにすると、ファイルはアルファベット順に処理されます。「**[!UICONTROL プロセスファイルなし]**」を設定すると、この反復処理を終了できます。
+ファイルを処理する順序は指定できません。複数のファイルを順番に処理するには、「**[!UICONTROL ファイルが処理されたらすぐに停止します]**」オプションを設定し、反復処理をおこないます。このようにすると、ファイルはアルファベット順に処理されます。「**[!UICONTROL プロセスファイルなし]**」を設定すると、この反復処理を終了できます。
 
 ![](assets/file_collect_loop.png)
 

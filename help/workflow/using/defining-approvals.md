@@ -4,10 +4,9 @@ title: 承認の定義
 description: 承認により、オペレーターはワークフロー管理に関する意思決定を行なったり、実行の継続を確定したりできます。
 feature: Approvals
 hide: true
-hidefromtoc: true
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ ht-degree: 100%
 
 ## メールによる承認 {#sending-emails}
 
-Web ページへのリンクが記載された承認メッセージを受け取り、ページ上で応答することができます。ターゲット済みのオペレーターが、承認メールを受け取るようにするには、オペレーターのメールアドレスが入力されている必要があります。入力していない場合、オペレータは応答にコンソールを使用する必要があります。
+Web ページへのリンクが記載された承認メッセージを受け取り、ページ上で応答することができます。ターゲット済みのオペレーターが、承認メールを受け取るようにするには、オペレーターのメールアドレスが入力されている必要があります。入力していない場合、オペレーターは応答にコンソールを使用する必要があります。
 
 オペレーターの管理について詳しくは、この[節](../../platform/using/access-management.md)を参照してください。
 

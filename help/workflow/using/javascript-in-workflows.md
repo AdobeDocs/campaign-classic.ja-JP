@@ -4,10 +4,9 @@ title: ワークフローでの JavaScript コードの例
 description: これらの例は、ワークフローで JavaScript コードを使用する方法を示しています
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ ht-degree: 100%
    1. `xtk:session` スキーマの `Write` メソッドを呼び出します。
 
       >[!IMPORTANT]
-      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
+      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
 
    1. XML コードを書き込みリクエストの引数として渡します。
 
@@ -239,7 +238,7 @@ var query = xtk.queryDef.create(
     </queryDef>)
 ```
 
-`create(`*`content`*`)` メソッドの前に、作成するエンティティのスキーマを付けます。
+`create(`*`content`*`)` メソッドの前に接頭辞として、作成するエンティティのスキーマを付けます。
 
 この *`content`* 引数は文字列引数で、オプションです。 この引数には、エンティティを記述する XML コードが含まれています。
 
@@ -564,7 +563,7 @@ for each (var w in res.recipient)
 * `delete` 操作
 
 >[!IMPORTANT]
-> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
+> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
 
 #### 例 1：レコードを挿入または更新する
 

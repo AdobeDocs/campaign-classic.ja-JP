@@ -4,11 +4,10 @@ title: 配信テンプレートの作成
 description: 配信テンプレートの作成
 feature: Delivery Templates
 hide: true
-hidefromtoc: true
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -60,7 +59,7 @@ ht-degree: 100%
    ![](assets/delivery_template_4.png)
 
 1. 「**メールパラメーター**」カテゴリにメールの件名とターゲット母集団を入力します。
-1. **HTML コンテンツ**&#x200B;を追加してテンプレートをパーソナライズします。ミラーページのリンクと購読解除リンクを追加することもできます。
+1. **HTML コンテンツ**&#x200B;を追加してテンプレートをパーソナライズします。ミラーページのリンクと購読解除リンクを表示することもできます。
 1. 「**プレビュー**」タブを選択します。**パーソナライゼーションをテスト**&#x200B;ドロップダウンメニューで&#x200B;**受信者**&#x200B;を選択し、選択したプロファイルとしてテンプレートをプレビューします。
 
    ![](assets/delivery_template_5.png)
@@ -74,18 +73,18 @@ ht-degree: 100%
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27532?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
 ### 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/37995?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
 ### アドホック配信テンプレートのデプロイ方法
 
-このビデオでは、アドホックメール配信テンプレートを導入する方法と、メール配信と配信ワークフローの違いについて説明します。
+このビデオでは、アドホックなメール配信テンプレートをデプロイする方法と、メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27450?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

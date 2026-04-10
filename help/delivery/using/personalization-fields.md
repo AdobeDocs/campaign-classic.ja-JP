@@ -6,10 +6,9 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Personalization
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
 
@@ -67,7 +66,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_insert_custom_field_c.png)
 
-1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを確認するには、受信者を選択する必要があります。
+1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを表示するには、受信者を選択する必要があります。
 
    ![](assets/s_ncs_user_insert_custom_field_d.png)
 
@@ -140,8 +139,8 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#personalization-fields-video}
 
-パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
+パーソナライゼーションフィールドをメール配信の件名とコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

@@ -4,10 +4,9 @@ title: キャンペーンのトラッキング
 description: Campaign 分散型マーケティングを使用したキャンペーンのトラッキング方法を説明します
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ ht-degree: 100%
 
    ![](assets/mkg_dist_catalog_op_command_edit1a.png)
 
-1. キャンペーンパッケージのラベルをクリックして編集を実行します。一部の設定の変更が可能です。
+1. オペレーターはキャンペーンパッケージのラベルをクリックして編集を実行します。一部の設定の変更が可能です。
 
    ![](assets/mkg_dist_catalog_op_command_edit2.png)
 
@@ -70,7 +69,7 @@ ht-degree: 100%
 
 **ローカルキャンペーン**&#x200B;の場合は、使用可能なマーケティングキャンペーンのリストから、キャンセルされたパッケージが削除されます。
 
-**協調キャンペーン**&#x200B;の場合は、パッケージをキャンセルすると、次の一連のアクションが実行されます。
+**協調キャンペーン**&#x200B;の場合は、パッケージをキャンセルすると、次の一連のアクションがトリガーされます。
 
 1. このパッケージに関連付けられているオーダーが、すべてキャンセルされます。
 

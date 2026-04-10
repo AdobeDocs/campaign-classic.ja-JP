@@ -4,10 +4,9 @@ title: リスト更新
 description: リスト更新
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」オプションを選択します。このオプションでは、最初のワークフローが実行されるとリストが作成され、それ以降ワークフローが実行されるたびに更新されます。
 1. リストを保存するフォルダーを選択します。
 1. リストのラベルを入力します。動的フィールドを挿入して、リストから名前を自動的に生成することもできます。この例では、コンテンツを見つけやすくするために、リストの名前をクエリと同じにしてあります。
-1. 「**[!UICONTROL 存在する場合、リストをパージして再利用（存在しない場合、リストに追加）]**」オプションを選択しておくと、ターゲット条件に一致しない受信者は削除され、新しい受信者がリストに追加されます。
+1. 「**[!UICONTROL 存在する場合、リストをパージして再利用（存在しない場合、リストに追加）]**」オプションを選択しておくと、ターゲティング条件に一致しない受信者は削除され、新しい受信者がリストに追加されます。
 1. また、「**[!UICONTROL 独自のテーブルを持つリストを作成または使用]**」オプションも選択した状態にしておきます。
 1. 「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションは選択を解除します。
 1. 「**[!UICONTROL OK]**」をクリックして、ワークフローを開始します。
@@ -61,7 +60,7 @@ ht-degree: 100%
 ## 入力パラメーター {#input-parameters}
 
 * tableName
-* schema
+* スキーマ
 
 グループに保存する母集団を識別します。
 
@@ -73,6 +72,6 @@ ht-degree: 100%
 
 このビデオでは、エクスプローラーから受信者のリストを作成する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27503?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

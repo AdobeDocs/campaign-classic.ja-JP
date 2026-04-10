@@ -4,12 +4,11 @@ title: 集計計算の実行
 description: クエリで集計計算を実行する方法を説明します。
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（**nms:recipient**）
+  受信者テーブル （**nms:recipient**）
 
 * 出力列でどのフィールドを選択する必要がありますか。
 

@@ -5,7 +5,7 @@ description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor, Workflows
 hide: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%

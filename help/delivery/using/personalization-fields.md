@@ -7,7 +7,7 @@ feature: Personalization
 role: User
 hide: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
@@ -141,6 +141,6 @@ ht-degree: 100%
 
 パーソナライゼーションフィールドをメール配信の件名とコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

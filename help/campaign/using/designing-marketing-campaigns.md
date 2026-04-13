@@ -6,7 +6,7 @@ role: User
 feature: Campaigns
 hide: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
@@ -27,7 +27,7 @@ ht-degree: 80%
 >様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 
-![&#x200B; ハウツー動画のサムネイル &#x200B;](assets/do-not-localize/how-to-video.png) [動画でマーケティングキャンペーンの主要な概念を見つける](#video)
+![ ハウツー動画のサムネイル ](assets/do-not-localize/how-to-video.png) [動画でマーケティングキャンペーンの主要な概念を見つける](#video)
 
 ## 主要コンセプト {#core-concepts}
 
@@ -70,6 +70,6 @@ ht-degree: 80%
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/326573?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 追加の[!DNL Campaign Classic]のハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)から利用できます。

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../integrations/using/configuring-ims.md#installing-the-package)を参照してください。
+以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、この[節](../../integrations/using/configuring-ims.md#installing-the-package)を参照してください。
 
 <table> 
  <tbody> 
@@ -34,7 +34,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">Adobe Experience Cloud へのオーディエンスのエクスポート</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。<br /> </td> 
+   <td> このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

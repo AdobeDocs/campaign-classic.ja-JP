@@ -6,8 +6,8 @@ feature: Monitoring, Deliverability, Troubleshooting
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
-workflow-type: ht
-source-wordcount: '669'
+workflow-type: tm+mt
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信のパフォーマンスとベストプラクティスに関する包括的なガイダンスについて詳しくは、[Campaign v8 配信のベストプラクティス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/start/delivery-best-practices)ページを参照してください。このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
+>配信のパフォーマンスとベストプラクティスに関する包括的なガイダンスについて詳しくは、[Campaign v8 配信のベストプラクティス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/start/delivery-best-practices)ページを参照してください。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
 >
 >このページでは、ハイブリッドおよびオンプレミスのデプロイメントでのパフォーマンスの最適化とトラブルシューティングに対する **Campaign Classic v7 固有の設定**&#x200B;について説明します。
 
@@ -28,15 +28,15 @@ ht-degree: 100%
 
 ### データベースの最適化
 
-アプリケーションで使用される SQL クエリのパフォーマンスを最適化する&#x200B;**インデックスアドレス**。インデックスは、データスキーマのメイン要素から宣言できます。この最適化には、オンプレミスデプロイメントで使用可能な直接データベースアクセスとスキーマカスタマイズが必要です。
+アプリケーションで使用される SQL クエリのパフォーマンスを最適化する&#x200B;**インデックスアドレス**。 インデックスは、データスキーマのメイン要素から宣言できます。 この最適化には、オンプレミスデプロイメントで使用可能な直接データベースアクセスとスキーマカスタマイズが必要です。
 
 ### インフラストラクチャの調整
 
-**大規模配信の設定**：100 万人を超える受信者への配信には、送信キューにスペースが必要です。オンプレミスインストールの場合、MTA 子はカスタムバッチサイズを処理するように設定できます。インフラストラクチャの処理能力に基づいてこれらの設定を調整するには、システム管理者にお問い合わせください。
+**大規模配信の設定**：100 万人を超える受信者への配信には、送信キューにスペースが必要です。 オンプレミスインストールの場合、MTA 子はカスタムバッチサイズを処理するように設定できます。 インフラストラクチャの処理能力に基づいてこれらの設定を調整するには、システム管理者にお問い合わせください。
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、インフラストラクチャの最適化と MTA 設定はアドビで管理されます。デプロイメントに適用できるパフォーマンスのレコメンデーションについて詳しくは、[Campaign v8 配信のベストプラクティス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}を参照してください。
+>Campaign v8 Managed Cloud Services ユーザーの場合、インフラストラクチャの最適化と MTA 設定はアドビで管理されます。 デプロイメントに適用できるパフォーマンスのレコメンデーションについて詳しくは、[Campaign v8 配信のベストプラクティス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}を参照してください。
 
 ### データベースのメンテナンス {#database-maintenance}
 
@@ -44,15 +44,15 @@ ht-degree: 100%
 
 定期的なメンテナンスタスクを以下に示します。
 
-**データベースのクリーンアップ**：データベースのクリーンアップワークフローを使用して、古い配信ログ、トラッキングデータ、一時テーブルを削除します。データベースのメンテナンスが不十分だと、配信の準備と送信が遅くなる場合があります。
+**データベースのクリーンアップ**：データベースのクリーンアップワークフローを使用して、古い配信ログ、トラッキングデータ、一時テーブルを削除します。 データベースのメンテナンスが不十分だと、配信の準備と送信が遅くなる場合があります。
 
-**データベースパフォーマンスの監視**：クエリのパフォーマンス、インデックスの断片化、テーブル統計を監視します。ガイドについて詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。
+**データベースパフォーマンスの監視**：クエリのパフォーマンス、インデックスの断片化、テーブル統計を監視します。 ガイドについて詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。
 
 **テクニカルワークフローの監視**：すべてのテクニカルワークフロー（特にクリーンアップ、トラッキング、配信品質の更新ワークフロー）がエラーなく正しく実行されていることを確認します。
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、データベースのメンテナンスとテクニカルワークフローはアドビで監視および管理されます。[Campaign v8 配信の監視ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}で説明されているように、配信固有の監視に焦点を当てています。
+>Campaign v8 Managed Cloud Services ユーザーの場合、データベースのメンテナンスとテクニカルワークフローはアドビで監視および管理されます。 [Campaign v8 配信の監視ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}で説明されているように、配信固有の監視に焦点を当てています。
 
 ## 配信の問題のトラブルシューティング {#troubleshooting}
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 ### MX ルールの設定
 
-特定の ISP でスロットルの問題が発生する場合は、MX ルールの設定を確認して調整する必要があります。MX ルールと割り当て量について詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
+特定の ISP でスロットルの問題が発生する場合は、MX ルールの設定を確認して調整する必要があります。 MX ルールと割り当て量について詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
 
 ### 配信パフォーマンスのデータベースメンテナンス
 
@@ -82,9 +82,9 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 原因は、データをミッドソーシングサーバーに送信する前に、マーケティングインスタンスでデータの作成に時間がかかりすぎているというパフォーマンスの問題に関連しています。
 
-**オンプレミスインストールの場合**、データベースをクリーンアップしてインデックスを再作成します。データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
+**オンプレミスインストールの場合**、データベースをクリーンアップしてインデックスを再作成します。 データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
-スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。[この節](../../workflow/using/scheduler.md)を参照してください。
+スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。 [この節](../../workflow/using/scheduler.md)を参照してください。
 
 ### テクニカルワークフローの監視
 
@@ -100,7 +100,7 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はアドビで管理されます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}で説明されているように、配信コンテンツとターゲティングに焦点を当てます。
+>Campaign v8 Managed Cloud Services ユーザーの場合、テクニカルワークフローとインフラストラクチャの監視はアドビで管理されます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}で説明されているように、配信コンテンツとターゲティングに焦点を当てます。
 
 ## 関連トピック
 

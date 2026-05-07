@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../social/using/about-social-marketing.md)
+>`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。 [詳細情報](../../social/using/about-social-marketing.md)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。
 

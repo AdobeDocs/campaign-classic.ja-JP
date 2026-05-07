@@ -6,8 +6,8 @@ feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 82%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 82%
 
 >[!INFO]
 >
->監査記録機能について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail) を参照してください。
+>監査証跡機能について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail)を参照してください。
 
-Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、インスタンス内で行われた変更の全履歴にアクセスできます。
+Adobe Campaignでは、**[!UICONTROL 監査記録]**&#x200B;により、インスタンス内で行われた変更の履歴をすべて確認できます。
 
-**[!UICONTROL 監査記録]** は、Adobe Campaign インスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで記録します。 これには、データの履歴を確認することにより、ワークフローで発生した事象、ワークフローの最終更新者、インスタンス内でユーザーが行った操作などを知るのに役立つセルフサービス式の方法が含まれています。
+**[!UICONTROL 監査記録]**&#x200B;は、Adobe Campaign インスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムでキャプチャします。 これには、データの履歴を確認することにより、ワークフローで発生した事象、ワークフローの最終更新者、インスタンス内でユーザーが行った操作などを知るのに役立つセルフサービス式の方法が含まれています。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この [&#x200B; ページ &#x200B;](../../configuration/using/data-schemas.md) を参照してください。
+  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](../../configuration/using/data-schemas.md)を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
@@ -47,7 +47,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]** を使用すると、イン
 
   ワークフローについて詳しくは、この[ページ](../../workflow/using/about-workflows.md)を参照してください。
 
-  ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"} を参照してください。
+  ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}を参照してください。
 
 
 * **オプション監査記録**&#x200B;では、アクティビティと、オプションに最後に行った変更を確認できます。

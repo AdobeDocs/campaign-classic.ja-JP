@@ -9,7 +9,7 @@ content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
    ![](assets/aem_uc_6.png)
 
 1. 次に、前の手順と同じように、**[!UICONTROL Campaign 用に承認]**&#x200B;ワークフローを開始します。
-1. ページの上部に免責事項が表示されます。「**[!UICONTROL 完了]**」をクリックしてレビューを確認し、「**[!UICONTROL OK]**」をクリックします。
+1. ページの上部に免責事項が表示されます。 「**[!UICONTROL 完了]**」をクリックしてレビューを確認し、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/aem_uc_7.png)
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 1. 配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加し、「**[!UICONTROL 続行]**」をクリックします。
 1. 「**[!UICONTROL 同期]**」ボタンをクリックします。
 
-   このボタンがインターフェイスに表示されていない場合は、「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL 詳細設定]**」タブを選択します。「**[!UICONTROL コンテンツ編集モード]**」フィールドを「**[!UICONTROL AEM]**」に、「**[!UICONTROL AEM アカウント]**」フィールドを AEM インスタンスに設定する必要があります。
+   このボタンがインターフェイスに表示されていない場合は、「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL 詳細設定]**」タブを選択します。 「**[!UICONTROL コンテンツ編集モード]**」フィールドを「**[!UICONTROL AEM]**」に、「**[!UICONTROL AEM アカウント]**」フィールドを AEM インスタンスに設定する必要があります。
 
    ![](assets/aem_uc_11.png)
 

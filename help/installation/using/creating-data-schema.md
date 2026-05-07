@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: FDA 用のデータスキーマの作成
-description: FDA のデータスキーマを作成する方法を説明します
+title: FDAのデータスキーマの作成
+description: FDAのデータスキーマを作成する方法を説明します
 feature: Installation, Instance Settings, Federated Data Access
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 47%
+source-wordcount: '201'
+ht-degree: 46%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 47%
 
    ![](assets/wf_new_schema_fda.png)
 
-1. スキーマの **[!UICONTROL 名前空間]** と **[!UICONTROL 名前]** を入力し、**[!UICONTROL 外部アカウント]** を選択して、データベースへの接続を有効にします。 これにより、外部データベースで使用できるテーブルのリストにアクセスできます。
+1. スキーマの&#x200B;**[!UICONTROL 名前空間]**&#x200B;と&#x200B;**[!UICONTROL 名前]**&#x200B;を入力し、データベースへの接続を有効にする&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を選択します。 これにより、外部データベースで使用できるテーブルのリストにアクセスできます。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
 1. **[!UICONTROL テーブル名]** フィールドから、収集するデータを含むテーブルを選択します。
 
-   データベース・ユーザーに正しい権限が付与されている場合は、Snowflakeを使用してビューを選択できます。 なお、ビューを使用する場合、Adobe Campaignでは XML スキーマを自動生成できません。ユーザー自身で作成する必要があります。 ビューの詳細については、[Snowflakeドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/views-introduction.html) を参照してください。
+   Snowflakeでは、データベースユーザーに正しい権限が付与されている場合は、ここでビューを選択できます。 ビューを使用する場合、Adobe CampaignはXML スキーマを自動生成できませんが、自分で作成する必要があります。 ビューについて詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/views-introduction.html)を参照してください。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 「**[!UICONTROL OK]**」をクリックして確定します。Adobe Campaign では選択したテーブルの構造が自動的に検出され、論理スキーマが生成されます。Adobe Campaign はリンクを生成しません。
+1. 「**[!UICONTROL OK]**」をクリックして確定します。 Adobe Campaign では選択したテーブルの構造が自動的に検出され、論理スキーマが生成されます。 Adobe Campaign はリンクを生成しません。
 
 1. 「**[!UICONTROL 保存]**」をクリックして作成を確定します。
 

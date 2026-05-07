@@ -7,7 +7,7 @@ hide: true
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 1. 選択した情報サービスに対して、指定した母集団の購読を行う場合は「**[!UICONTROL 購読]**」を、購読を解除する場合は「**[!UICONTROL 購読解除]**」を選択します。
 1. 「**[!UICONTROL 確認メッセージを送信]**」を選択すると、サービスの購読または購読解除が受信者に通知されます。
 
-   このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。
+   このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。 詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。
 
 ## 例：受信者リストのニュースレターへの登録 {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 

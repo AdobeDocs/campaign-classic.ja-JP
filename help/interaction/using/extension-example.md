@@ -10,8 +10,8 @@ topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 79%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-インバウンドコンタクト先（コールセンターや Web サイト）の場合、一連の実施要件ルールを使用して、コンタクト先に対して最も関連度の高いオファーが提案されます。オファーの実施要件の基準をエンリッチメントさせるには、**nms:interaction** スキーマを拡張します。
+インバウンドコンタクト先（コールセンターや Web サイト）の場合、一連の実施要件ルールを使用して、コンタクト先に対して最も関連度の高いオファーが提案されます。 オファーの適格性基準を強化するには、**nms:interaction** スキーマを拡張します。
 
-* 新しいインタラクションコンテキストを追加するには、**nms:interaction** スキーマを拡張し、必要な数の **attribute** 要素をスキーマに作成します。
+* 新しいインタラクションコンテキストを追加するには、**nms:interaction** スキーマを拡張し、スキーマに必要な数の&#x200B;**属性**&#x200B;要素を作成します。
 
   次の例では、国コードと直近に閲覧したページの基準を追加しています。
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap-server-side.md)を参照してください。
+* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap-server-side.md)を参照してください。

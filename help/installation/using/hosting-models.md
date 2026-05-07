@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: ホスティングモデル
-description: Campaign ホスティングモデルの確認
+description: Campaign ホスティングモデルの詳細
 feature: Installation, Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 3%
 
 ---
 
@@ -17,56 +17,56 @@ ht-degree: 1%
 
 
 
-Adobe Campaignでは、3 つのホスティングモデルから選択でき、ビジネスニーズに合わせて最適なモデルやモデルを柔軟かつ自由に選択できます。
+Adobe Campaignでは、3つのホスティングモデルから選択でき、ビジネスニーズに合わせて最適なモデルやモデルを柔軟に選択できます。
 
 >[!NOTE]
 >
->Adobeがホストする環境の場合、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、主なインストール手順と設定手順は、Adobeによってのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、[&#x200B; このページ &#x200B;](../../installation/using/capability-matrix.md) を参照してください。
+>Adobeでホストされている環境の場合、メインインストールと設定の手順は、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、Adobeでのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 
-## Managed Services / ホスト
+## Managed Services / ホスト型
 
-Adobe Campaignは、as a Managed Serviceにデプロイできます。ユーザーインターフェイス、Execution Management Engine、顧客の Campaign データベースなど、Adobe Campaignのすべてのコンポーネントは、Adobeで完全にホストされます。これには、メール実行、ミラーページ、トラッキングサーバー、登録解除ページ/環境設定センターやランディングページなどの外部向け web コンポーネントが含まれます。
+Adobe Campaignをデプロイできます。as a Managed Service: ユーザーインターフェイス、実行管理エンジン、お客様のCampaign データベースなど、Adobe Campaignのすべてのコンポーネントは、メール実行、ミラーページ、トラッキングサーバー、配信停止ページ/プリファレンスセンターやランディングページなどの外部に向かうweb コンポーネントなど、Adobeによって完全にホストされます。
 
 ![](assets/deployment_hosted.png)
 
-ホステッド環境のお客様の場合、インストールと設定の手順のほとんどはAdobeによって実行されます。 以下のセクションにアクセスして、実装をカスタマイズできます。
+ホストされているお客様は、インストールと設定の手順のほとんどをAdobeで実行できます。 以下のセクションにアクセスして、実装をカスタマイズできます。
 
-* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、[&#x200B; この節 &#x200B;](../../message-center/using/additional-configurations.md#configuring-multibranding) を参照してください。
-* クライアントコンソールをインストールします。[&#x200B; この節 &#x200B;](../../installation/using/installing-the-client-console.md) を参照してください。
-* 配信品質ツールとベストプラクティスについて詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md) を参照してください。
-* Campaign オプションを設定します。[&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-options.md) を参照してください。
-* CRM コネクタを設定します。[&#x200B; この節 &#x200B;](../../platform/using/crm-connectors.md) を参照してください。
+* ブランドごとにトラッキングページとミラーページのURLを設定します。 トランザクションメッセージについては、[この節](../../message-center/using/additional-configurations.md#configuring-multibranding)を参照してください。
+* クライアントコンソールをインストールします。[この節](../../installation/using/installing-the-client-console.md)を参照してください。
+* 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
+* Campaign オプションの設定：この節の[を参照してください](../../installation/using/configuring-campaign-options.md)。
+* CRM コネクタの設定：このセクションについては[を参照してください](../../platform/using/crm-connectors.md)。
 
 ## オンプレミス
 
-Adobe Campaignはオンプレミスでデプロイできます。ユーザーインターフェイス、Execution Management Engine、データベースなど、Adobe Campaignのすべてのコンポーネントは、お客様のデータセンターにオンサイトで配置されます。 このデプロイメントモデルでは、お客様はソフトウェアおよびハードウェアの更新やアップグレードをすべて管理します。また、専任のデータベース管理者がメンテナンスや最適化のタスクを実行して、Campaign インスタンスを確実に管理する必要があります。
+Adobe Campaignはオンプレミスでデプロイできます。ユーザーインターフェイス、実行管理エンジン、データベースなど、Adobe Campaignのすべてのコンポーネントは、お客様のデータセンターにオンサイトで保管されます。 このデプロイメントモデルでは、お客様がすべてのソフトウェアとハードウェアのアップデートとアップグレードを管理します。Campaign インスタンス管理を確実に行うには、専用のデータベース管理者がメンテナンスと最適化タスクを実行する必要があります。
 
 ![](assets/deployment_onpremise.png)
 
-オンプレミス環境のお客様は、Campaign Classicのデプロイを開始する前に、次の前提条件と推奨事項に注意してください。
+オンプレミス環境のお客様は、Campaign Classicの導入を開始する前に、次の前提条件と推奨事項に注意してください。
 
-* Adobe Campaignでサポートされているシステムおよびコンポーネントのすべてのバージョンが記載されている [&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) を参照してください。
-* 環境に応じて、[Windows の前提条件 &#x200B;](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) および [Linux の前提条件 &#x200B;](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) を参照してください。
-* データベースエンジンに関する推奨事項について説明します [&#x200B; この節 &#x200B;](../../installation/using/database.md)。
+* Adobe Campaignでサポートされているシステムとコンポーネントのすべてのバージョンを一覧表示する[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を読んでください。
+* お使いの環境に応じて、「[Windowsの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)」と「[Linuxの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)」をお読みください。
+* データベース エンジン [に関する推奨事項については、この節](../../installation/using/database.md)を参照してください。
 * 必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaign アカウントからアクセスできることを確認します。 [詳細情報](../../installation/using/application-server.md)。
-* 一部のプロセスが他のプロセスと通信したり、LAN やインターネットにアクセスしたりする必要があるので、ネットワークを構成します。 つまり、これらのプロセスでは、一部の TCP ポートを開く必要があります。 ネットワーク構成の要件について [&#x200B; 詳細情報 &#x200B;](../../installation/using/network-configuration.md) します。
-* [Campaign のセキュリティとプライバシーのチェックリスト &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) を参照してください。
-* オンプレミスデプロイメントのハードウェア要件を見積もるための一般的なガイドラインを確認してください [&#x200B; この記事を参照してください &#x200B;](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)。
+* 一部のプロセスが他のプロセスと通信したり、LANやインターネットにアクセスしたりする必要があるため、ネットワークを設定します。 つまり、一部のTCP ポートは、これらのプロセスに対してオープンにする必要があります。 ネットワーク構成の要件について[詳細](../../installation/using/network-configuration.md)を確認します。
+* [Campaign セキュリティとプライバシーのチェックリスト &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)をお読みください。
+* オンプレミス展開[のハードウェア要件の見積もりに関する一般的なガイドラインについては、この記事](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)を参照してください。
 
 ## ハイブリッド
 
-Adobe Campaign ソリューションソフトウェアをハイブリッドモデルとしてデプロイする場合は、お客様のサイトにオンプレミスで配置され、Adobeによって Cloud Service として Execution Management が提供されます。 Adobe Campaign マーケティングインスタンスは、顧客のファイアウォール内にインストールされているので、個人を特定できる情報（PII）は社内に残り、メールのパーソナライズに必要なデータのみがメール処理用にクラウドに送信されます。 実行インスタンスはクラウドでホストされ、メールを配信するためのリクエストをオンプレミスインスタンスから受け取ります。 このインスタンスは、すべてのメールをパーソナライズして配信します。 どのような種類のデータも、クラウドに永続的に保存されることはありません。
+ハイブリッドモデルとして導入した場合、Adobe Campaignソリューションソフトウェアは顧客サイトのオンプレミスで使用され、実行管理はAdobeによってクラウドサービスとして提供されます。 Adobe Campaignのマーケティングインスタンスは、顧客のファイアウォール内にインストールされるため、PII （個人を特定できる情報）は社内に保持され、電子メールをパーソナライズするために必要なデータのみがクラウドに送信され、電子メールを実行できます。 実行インスタンスは、クラウドでホストされ、オンプレミスインスタンスからリクエストを受信してメールを配信します。 このインスタンスでは、すべてのメールをパーソナライズして配信します。 いかなる種類のデータも、クラウドに永続的に保存されることはありません。
 
 ![](assets/deployment_hybrid.png)
 
-ハイブリッド環境のお客様の場合、インストール手順と設定手順のほとんどはAdobeによって実行されます。 以下のセクションにアクセスして、実装をカスタマイズできます。
+ハイブリッド版のお客様は、ほとんどのインストールおよび設定手順をAdobeで実行できます。 以下のセクションにアクセスして、実装をカスタマイズできます。
 
-* トランザクションメッセージを設定します。[&#x200B; この節 &#x200B;](../../message-center/using/transactional-messaging-architecture.md) を参照してください。
-* ブランドごとにトラッキングとミラーページの URL を設定します。 トランザクションメッセージについては、[&#x200B; この節 &#x200B;](../../message-center/using/additional-configurations.md#configuring-multibranding) を参照してください。
-* クライアントコンソールをインストールします。[&#x200B; この節 &#x200B;](../../installation/using/installing-the-client-console.md) を参照してください。
-* ビルトインパッケージをインストールします。[&#x200B; この節を参照 &#x200B;](../../installation/using/installing-campaign-standard-packages.md)。
-* 配信品質：[MX ルール &#x200B;](../../installation/using/email-deliverability.md#mx-configuration) および [&#x200B; メール形式 &#x200B;](../../installation/using/email-deliverability.md#managing-email-formats) を設定します。 配信品質ツールとベストプラクティスについて詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md) を参照してください。
-* Campaign オプションを設定します。[&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-options.md) を参照してください。
-* 外部データベース（Federated Data Access）を設定します。[&#x200B; この節 &#x200B;](../../installation/using/about-fda.md) を参照してください。
-* CRM コネクタの設定：[&#x200B; この節 &#x200B;](../../platform/using/crm-connectors.md) を参照してください。
-* ミッドソーシングデプロイメントの原則について詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/mid-sourcing-deployment.md) を参照してください。
+* トランザクションメッセージの設定：このセクションについては[を参照してください](../../message-center/using/transactional-messaging-architecture.md)。
+* ブランドごとにトラッキングページとミラーページのURLを設定します。 トランザクションメッセージについては、[この節](../../message-center/using/additional-configurations.md#configuring-multibranding)を参照してください。
+* クライアントコンソールをインストールします。[この節](../../installation/using/installing-the-client-console.md)を参照してください。
+* 組み込みパッケージをインストールします。このセクションについては[を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
+* 配信品質：[MX ルール &#x200B;](../../installation/using/email-deliverability.md#mx-configuration)と[&#x200B; メール形式](../../installation/using/email-deliverability.md#managing-email-formats)を設定します。 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
+* Campaign オプションの設定：この節の[を参照してください](../../installation/using/configuring-campaign-options.md)。
+* 外部データベース （Federated Data Access）を設定します。この節は[を参照してください](../../installation/using/about-fda.md)。
+* CRM コネクタの設定：このセクションについては[を参照してください](../../platform/using/crm-connectors.md)。
+* ミッドソーシングのデプロイメント原則について詳しくは、この節[を参照してください](../../installation/using/mid-sourcing-deployment.md)。

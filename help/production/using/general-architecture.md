@@ -18,42 +18,42 @@ ht-degree: 4%
 
 
 
-## 最小アーキテクチャ {#minimum-architecture}
+## 最小限のアーキテクチャ {#minimum-architecture}
 
-最小限の設定では、Adobe Campaignは次の環境で動作します。
+Adobe Campaignは、最小限の設定で次の機能を備えています。
 
-* Adobe Campaign アプリケーションサーバー
-* データベース。
+* Adobe Campaignアプリケーションサーバーには，
+* データベース：
 
   ![](assets/formation_exploitation.png)
 
-次の図は、最小アーキテクチャのコンテキストに関連するトラフィックが次のみであることを示しています。
+次の図は、最小アーキテクチャのコンテキストに含まれるトラフィックのみが次であることを示しています。
 
-1. インターネット経由のAdobe Campaign サーバーへの HTTP プロトコルトラフィック。
-1. インターネットを介したAdobe Campaign サーバーとの間の SMTP プロトコルトラフィック。
+1. ADOBE CAMPAIGNサーバーに接続するための，
+1. インターネット経由でのAdobe Campaign サーバーとのSMTP プロトコルのトラフィック。
 
 ## 分散アーキテクチャ {#distributed-architecture}
 
-Adobe Campaignは、複数のマシンに分割できる複数のモジュールで構成されています。 この動作モードには、次のようないくつかの利点があります。
+Adobe Campaignは、複数のマシンに分割できる複数のモジュールで構成されています。 この動作モードにはいくつかの利点があります。
 
-* ロード・バランシング
-* モジュールの冗長性の設定
-* 複数のサービスプロバイダーに分類されたアーキテクチャの構築（提供されるサービスのセグメント化）。
+* ロードバランシング，
+* モジュール冗長性の設定，
+* 複数のサービスプロバイダーに分割されたアーキテクチャの構築（提供されるサービスのセグメンテーション）。
 
 ![](assets/architecturerepartie.png)
 
-複数のマシンにモジュールを配布することで、優れた柔軟性の利用と適応性の向上が可能になります。
+複数のマシン上のモジュールの分布は、使用の大きな柔軟性と適応性の向上を提供します。
 
 >[!NOTE]
 >
->様々なアーキテクチャについて詳しくは、[&#x200B; この節 &#x200B;](../../installation/using/general-architecture.md) を参照してください。
+>様々なアーキテクチャについて詳しくは、[この節](../../installation/using/general-architecture.md)を参照してください。
 
 ## 開いているポートのリスト {#list-of-open-ports}
 
-| ポート番号 | 関係するAdobe Campaign モジュールまたはアプリケーション | 設定可能 |
+| ポート番号 | 関連するAdobe Campaign モジュールまたはアプリケーション | 設定可能 |
 |---|---|---|
-| 443/tcp または 80/tcp | Web サーバー（Apache/IIS） | はい |
+| 443/tcpまたは80/tcp | Web サーバー（Apache/IIS） | はい |
 | 6666/udp （ローカル） | Adobe Campaign:Syslogd | はい |
-| 8005/tcp （ローカル） | Adobe Campaign:web モジュール | はい |
+| 8005/tcp （ローカル） | Adobe Campaign: web モジュール | はい |
 | 8080/tcp | Adobe Campaign:web モジュール（tomcat） | はい |
 | 7777 | 統計サーバー（統計サーバー） | はい |

@@ -10,7 +10,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->プロファイルテーブルのフィールドに関係する XML スキーマおよびフォームにアクセスするには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを選択します。これらのスキーマを変更できるのは、エキスパートユーザーのみです。
+>プロファイルテーブルのフィールドに関係する XML スキーマおよびフォームにアクセスするには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを選択します。 これらのスキーマを変更できるのは、エキスパートユーザーのみです。
 >
 >詳しくは、[このページ](../../configuration/using/about-schema-edition.md)を参照してください。
 

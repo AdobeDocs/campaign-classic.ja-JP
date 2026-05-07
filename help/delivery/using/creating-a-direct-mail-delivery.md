@@ -9,7 +9,7 @@ hide: true
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '124'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,5 @@ ht-degree: 100%
 
    ![](assets/direct_mail.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}のこの節を参照してください。
+1. ラベル、コードおよび説明を設定して配信を識別します。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja#create-the-delivery){target="_blank"}のこの節を参照してください。
 1. 「**続行**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。

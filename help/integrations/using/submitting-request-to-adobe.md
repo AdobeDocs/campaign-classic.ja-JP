@@ -10,8 +10,8 @@ topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 82%
+source-wordcount: '146'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->v7 ユーザーが手順を続けるには、お使いのシステムで Adobe Identity Management System（IMS）が有効になっていることを確認してください。[詳細情報](../../integrations/using/about-adobe-id.md)。
+>v7 ユーザーが手順を続けるには、お使いのシステムで Adobe Identity Management System（IMS）が有効になっていることを確認してください。 [詳細情報](../../integrations/using/about-adobe-id.md)。
 
 お客様の組織でAdobe Identity Management サービス（IMS）を有効にすると、Campaignとの[Experience Cloud Audience](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"}統合のプロビジョニングをリクエストできます。 これを行うには、アドビ担当者に問い合わせて、次の情報を入力します。
 
@@ -35,7 +35,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td> <strong>組織 ID</strong><br /> </td> 
-   <td> 所属する組織の組織 ID。<br>組織 ID を見つけるには、<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja">このページ</a>を参照してください。</td> 
+   <td> 組織ID。<br> 組織IDを見つけるには、<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja">このページ </a>を参照してください</td> 
   </tr> 
   <tr> 
    <td> <strong>環境</strong><br /> </td> 

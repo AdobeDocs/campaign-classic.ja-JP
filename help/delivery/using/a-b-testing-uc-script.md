@@ -8,7 +8,7 @@ role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 100%
 # A/B テスト：スクリプトの作成 {#step-5--creating-the-script}
 
 
-その他の母集団用の配信コンテンツを、スクリプトで割り出します。このスクリプトでは、最も開封率の高い配信について情報を復元し、その内容を最終の配信にコピーします。
+その他の母集団用の配信コンテンツを、スクリプトで割り出します。 このスクリプトでは、最も開封率の高い配信について情報を復元し、その内容を最終の配信にコピーします。
 
 ## スクリプトの例 {#example-of-a-script}
 
-次のスクリプトをターゲティングワークフローでそのまま使用できます。詳しくは、[この節](#implementation)を参照してください。
+次のスクリプトをターゲティングワークフローでそのまま使用できます。 詳しくは、[この節](#implementation)を参照してください。
 
 ```
  // query the database to find the winner (best open rate)
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 このセクションでは、スクリプトの様々な機能とその動作モードについて詳しく説明します。
 
-* まずはじめは、クエリです。**queryDef** コマンドでは、ターゲティングワークフローを実行して作成した配信を「**NmsDelivery**」テーブルから復元することや、それらの配信を推定の開封率に応じて並べ替えることでき、開封率の高い配信の情報が復元されます。
+* まずはじめは、クエリです。 **queryDef** コマンドでは、ターゲティングワークフローを実行して作成した配信を「**NmsDelivery**」テーブルから復元することや、それらの配信を推定の開封率に応じて並べ替えることでき、開封率の高い配信の情報が復元されます。
 
   ```
   // query the database to find the winner (best open rate)
@@ -159,7 +159,7 @@ ht-degree: 100%
 
 ## その他の選択基準 {#other-selection-criteria}
 
-上記の例では、メールの開封率に応じて配信するコンテンツを選択することができます。次のようなその他の配信固有の指標を基にすることが可能です。
+上記の例では、メールの開封率に応じて配信するコンテンツを選択することができます。 次のようなその他の配信固有の指標を基にすることが可能です。
 
 * 最も高いクリックスルー率：`[indicators/@recipientClickRatio]`
 * 最も高い反応率（メールの開封やメッセージのクリック）：`[indicators/@reactivity]`
@@ -169,4 +169,4 @@ ht-degree: 100%
 * 最も低い購読解除率：`[indicators/@optOutRatio]`
 * トランザクション金額: `[indicators/@amount]`.
 
-これで、最終配信を定義できます。[詳細情報](a-b-testing-uc-final-delivery.md)。
+これで、最終配信を定義できます。 [詳細情報](a-b-testing-uc-final-delivery.md)。

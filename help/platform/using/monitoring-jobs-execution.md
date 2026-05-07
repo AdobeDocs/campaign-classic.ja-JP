@@ -24,11 +24,11 @@ ht-degree: 100%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
-* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。詳しくは、[この節](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
+* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。 詳しくは、[この節](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ステータス]**&#x200B;フィールドは、ジョブの現在のステータスを示します。
 
-各ステータスは、特別なアイコンおよびラベルで表されます。次に、ステータスとそのアイコンを示します。
+各ステータスは、特別なアイコンおよびラベルで表されます。 次に、ステータスとそのアイコンを示します。
 
 ![](assets/s_ncs_user_export_status.png)
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 * **一時停止**
 
-  「**[!UICONTROL 一時停止]**」ボタンがクリックされ、ジョブが一時停止しています。「**[!UICONTROL 開始]**」をクリックして再開できます。
+  「**[!UICONTROL 一時停止]**」ボタンがクリックされ、ジョブが一時停止しています。 「**[!UICONTROL 開始]**」をクリックして再開できます。
 
 * **終了**
 

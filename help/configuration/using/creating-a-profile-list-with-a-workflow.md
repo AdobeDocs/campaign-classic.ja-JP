@@ -8,7 +8,7 @@ role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 17%
 
 ---
@@ -16,32 +16,32 @@ ht-degree: 17%
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
 
-新しい受信者テーブルに基づいて **[!UICONTROL リスト]** タイプのリストを作成するには、リストを生成するターゲティングワークフローを作成する必要があります。
+新しい受信者テーブルに基づいて&#x200B;**[!UICONTROL リスト]**&#x200B;型リストを作成するには、リストを生成するターゲティングワークフローを作成する必要があります。
 
-Campaign のリストについて詳しくは、[&#x200B; この節 &#x200B;](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign) を参照してください。
+Campaignのリストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
 
 ターゲティングワークフローを作成し、カスタム受信者テーブルで受信者を更新するには、次の手順に従います。
 
-1. エクスプローラーの **[!UICONTROL プロファイルとターゲット/ジョブ/ターゲティングワークフロー]** ノードに移動します。
+1. エクスプローラーの&#x200B;**[!UICONTROL プロファイルとターゲット/ジョブ/ターゲティングワークフロー]** ノードに移動します。
 1. 新しいターゲティングワークフローを作成します。
-1. **クエリ** アクティビティを配置し、その後に **リスト更新** アクティビティを配置します。
+1. **クエリ** アクティビティを配置し、その後&#x200B;**リスト更新** アクティビティを配置します。
 
    ![](assets/mapping_create_list_workflow01.png)
 
-1. 「**クエリ**」アクティビティをダブルクリックし、「**[!UICONTROL クエリを編集]**」をクリックして、新しい受信者テーブルのスキーマに基づいてターゲティングディメンションを選択します（この例では、「**個人**」）。 「**[!UICONTROL 完了]**」をクリックして確定します。
+1. **クエリ** アクティビティをダブルクリックし、**[!UICONTROL クエリを編集]**&#x200B;をクリックして、新しい受信者テーブルのスキーマに基づいてターゲティングディメンションを選択します（この例では&#x200B;**個人**）。 「**[!UICONTROL 完了]**」をクリックして確定します。
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. **リスト更新** アクティビティをダブルクリックし、「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」ラジオボタンを選択します。
+1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） **」ラジオボタンを選択します。**
 
    ![](assets/mapping_create_list_workflow02.png)
 
 1. 新しいリストの作成フォルダーを選択します。
 1. ワークフローを実行してリストを作成します。
-1. **[!UICONTROL リスト更新]** アクティビティで選択したツリーのノードに結果を表示します。
+1. **[!UICONTROL リスト更新]** アクティビティ中に選択したツリーのノードの結果を表示します。
 
-   ダッシュボードは、次に示すように、リストの基になるスキーマを指定します。
+   ダッシュボードでは、次に示すように、リストの基となるスキーマを指定します。
 
    ![](assets/mapping_list_view.png)

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Campaign FDA のベストプラクティスと制限事項
-description: 外部データベースを使用する際のベストプラクティスと制限事項について説明します（FDA）
+title: Campaign FDAのベストプラクティスと制限
+description: 外部データベース（FDA）を操作する際のベストプラクティスと制限事項について説明します
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 48%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -18,38 +18,38 @@ ht-degree: 48%
 
 
 
-## 外部データを使用したメールのパーソナライゼーションの最適化 {#optimizing-email-personalization-with-external-data}
+## 外部データを利用して、メールのパーソナライゼーションを最適化 {#optimizing-email-personalization-with-external-data}
 
-専用のワークフローで、メッセージのパーソナライゼーションを事前に処理できます。これを実行するには、配信プロパティの「**[!UICONTROL 分析]**」タブにある「**[!UICONTROL ワークフローを使用してパーソナライズ機能データを準備]**」オプションを使用します。
+専用のワークフローで、メッセージのパーソナライゼーションを事前に処理できます。 これを実行するには、配信プロパティの「**[!UICONTROL 分析]**」タブにある「**[!UICONTROL ワークフローを使用してパーソナライズ機能データを準備]**」オプションを使用します。
 
 このオプションを選択すると、配信を分析する際、ターゲットにリンクされているすべてのデータ（リンクされている外部データベースのテーブルのデータを含む）を一時テーブルに保存するワークフローが、自動的に作成および実行されます。
 
 このオプションにより、パーソナライゼーション手順を実行する際のパフォーマンスが大幅に向上します。
 
-## 外部データベースのデータをワークフローで使用する {#using-data-from-an-external-database-in-a-workflow}
+## ワークフローでの外部データベースからのデータの使用 {#using-data-from-an-external-database-in-a-workflow}
 
-複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されたデータを使用できます。
+複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されているデータを使用できます。
 
-* **外部データのフィルター** - クエリ アクティビティでは、外部データを追加して、定義したフィルター設定でそのデータを使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja） {target="_blank"} を参照してください。
+* **外部データに対するフィルター** - クエリ アクティビティを使用すると、外部データを追加し、定義されたフィルター設定で使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja） {target="_blank"}を参照してください。
 
-* **サブセットの作成** – 分割アクティビティでは、サブセットを作成できます。 外部データを使用して、使用するフィルター条件を定義できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} を参照してください。
+* **サブセットを作成** – 分割アクティビティを使用すると、サブセットを作成できます。 外部データを使用して、適用するフィルタリング条件を定義できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
-* **外部データベースの読み込み** - データ読み込み（RDBMS） アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=ja){target="_blank"} を参照してください。
+* **外部データベースを読み込む** - データ読み込み（RDBMS）アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=ja){target="_blank"}を参照してください。
 
-* **情報およびリンクの追加** - エンリッチメント アクティビティを使用すると、ワークフローの作業用テーブルにデータを追加し、外部テーブルにリンクできます。 このコンテキストでは、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"} を参照してください。
+* **情報とリンクの追加** - エンリッチメントアクティビティを使用すると、ワークフローのワークテーブルに追加データを追加したり、外部テーブルにリンクしたりできます。 こうすることで、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}を参照してください。
 
 ## ガードレールと制限 {#fda-limitations}
 
-FDA オプションは、外部データベースのデータをワークフローのバッチモードで操作するように設計されています。 パフォーマンスの問題を回避するために、パーソナライゼーション、インタラクション、リアルタイムメッセージなどの単一操作のコンテキストでは、FDA モジュールを使用しないことをお勧めします。
+FDA オプションは、ワークフローのバッチモードで外部データベースのデータを操作するように設計されています。 パフォーマンスの問題を回避するために、パーソナライゼーション、インタラクション、リアルタイムメッセージなどの単一操作のコンテキストでは、FDA モジュールを使用しないことをお勧めします。
 
-あるデータベースからのデータのターゲティングと、別のデータベースに属するフィルタリングディメンションを使用した結果のフィルタリングはサポートされていません。 異なるデータ ソース上のテーブルを 1 つのクエリで結合することはできません。 ディメンションの変更などの他のワークフローアクティビティを使用して、この制限を克服できます。
+あるデータベースのデータをターゲットにして、別のデータベースに属するフィルタリングディメンションを使用して結果をフィルタリングすることはサポートされていません。 1つのクエリで異なるデータソースにあるテーブルを結合することはできません。 ディメンションの変更などの他のワークフローアクティビティを使用して、この制限を克服できます。
 
-Adobe Campaign と外部データベースの両方を使用する必要がある操作は、できるだけおこなわないようにします。ベストプラクティスは次のとおりです。
+Adobe Campaign と外部データベースの両方を使用する必要がある操作は、できるだけおこなわないようにします。 ベストプラクティスは次のとおりです。
 
 * Adobe Campaign データベースを外部データベースにエクスポートし、外部データベースからのみ操作を実行して、その結果を Adobe Campaign に再インポートします。
 
 * 外部の Adobe Campaign データベースからデータを収集し、ローカルで操作を実行します。
 
-外部データベースのデータを使用する配信でパーソナライゼーションを実行する場合は、ワークフローで使用するデータを収集して一時テーブルに格納してから、一時テーブルのデータを使用して配信をパーソナライズします。
+外部データベースのデータを使用する配信でパーソナライゼーションを実行する場合は、ワークフローで使用するデータを収集して一時テーブルに格納してから、 一時テーブルのデータを使用して配信をパーソナライズします。
 
 FDA オプションには、使用する外部データベースシステムの制限事項が適用されます。

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Linux 用 Web サーバーへの統合
-description: Campaign を web サーバーに統合する方法を学ぶ（Linux）
+title: Linux向けWeb サーバーへの統合
+description: CampaignをWeb サーバー（Linux）に統合する方法について説明します
 feature: Installation, Instance Settings
 badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
@@ -10,82 +10,82 @@ topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 4%
+source-wordcount: '589'
+ht-degree: 8%
 
 ---
 
-# Linux 用 Web サーバーへの統合 {#integration-into-a-web-server-for-linux}
+# Linux向けWeb サーバーへの統合 {#integration-into-a-web-server-for-linux}
 
 
-Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーションサーバーへのエントリポイントとして機能する Apache Tomcat が含まれています。
+Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれています。
 
-この統合 Tomcat サーバーを使用して、HTTP リクエストを提供できます。
+この統合されたTomcat サーバーを使用して、HTTP リクエストを処理できます。
 
-この場合の解決策は、次のとおりです。
+この場合：
 
-* デフォルトのリスニングポートは 8080 です。 変更するには、[&#x200B; この節 &#x200B;](configure-tomcat.md) を参照してください。
-* その後、クライアントコンソールは、次のような URL を使用して接続します。
+* デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション &#x200B;](configure-tomcat.md)を参照してください。
+* クライアントコンソールは、次のようなURLを使用して接続します。
 
   ```
   https://<computer>:8080
   ```
 
-ただし、セキュリティおよび管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネットに公開され、ネットワークの外部にあるコンソールにアクセスする場合は、HTTP トラフィックの主なエントリポイントとして専用の web サーバーを使用することをお勧めします。
+ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上に公開され、ネットワーク外でコンソールへのアクセスを開く場合は、HTTP トラフィックのメインエントリポイントとして専用Web サーバーを使用することをお勧めします。
 
-また、web サーバーを使用すると、HTTP プロトコルでデータの機密性を保証できます。
+Web サーバーでは、HTTPs プロトコルによるデータの機密性を保証することもできます。
 
-同様に、トラッキング機能を使用する場合は、web サーバーを使用する必要があります。トラッキング機能は、web サーバーへの拡張モジュールとしてのみ使用できます。
+同様に、Web サーバーの拡張モジュールとしてのみ使用できるトラッキング機能を使用する場合は、Web サーバーを使用する必要があります。
 
 >[!NOTE]
 >
->トラッキング機能を使用しない場合は、Campaign へのリダイレクトを使用して Apache または IIS の標準インストールを実行できます。 トラッキング web サーバー拡張機能モジュールは必須ではありません。
+>トラッキング機能を使用しない場合は、Campaignへのリダイレクトを使用してApacheまたはIISの標準インストールを実行できます。 トラッキング Web サーバー拡張モジュールは必要ありません。
 
-## Debian での Apache web サーバーの設定 {#configuring-the-apache-web-server-with-debian}
+## DebianでのApache Web サーバーの設定 {#configuring-the-apache-web-server-with-debian}
 
-このプロセスは、APT に基づいた配布の下に Apache をインストールしている場合に適用されます。
+このプロセスは、APTに基づくディストリビューションにApacheをインストールした場合に適用されます。
 
 次の手順に従います。
 
-1. 次のコマンドを使用して、デフォルトで読み込まれているモジュールを無効にします。
+1. 次のコマンドを使用して、デフォルトで読み込まれたモジュールを無効にします。
 
    ```
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   **alias**、**authz_host**、**mime** の各モジュールが引き続き有効になっていることを確認してください。 それには、次のコマンドを使用します。
+   **エイリアス**、**authz_host**&#x200B;および&#x200B;**mime** モジュールが引き続き有効であることを確認します。 それには、次のコマンドを使用します。
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. **/etc/apache2/mods-available にファイル** nlsrv.load **を作成し** 次の内容を挿入します。
+1. ファイル **nlsrv.load**&#x200B;を&#x200B;**/etc/apache2/mods-available**&#x200B;に作成し、次のコンテンツを挿入します。
 
-   Debian 8 では：
+   Debian 8の場合：
 
    ```
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. **/etc/apache2/mods-available のファイル** nlsrv.conf **を次のコマンドを使用し** 作成します。
+1. 次のコマンドを使用して、ファイル **nlsrv.conf**&#x200B;を&#x200B;**/etc/apache2/mods-available**&#x200B;に作成します。
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
    ```
 
-1. このモジュールを有効にするには、次のコマンドを使用します。
+1. 次のコマンドでこのモジュールをアクティブ化します。
 
    ```
     a2enmod nlsrv
    ```
 
-   Adobe Campaign ページに **mod_rewrite** モジュールを使用している場合は、**nlsrv.load** および **nlsrv.conf** ファイルの名前を **zz-nlsrv.load** および **zz-nlsrv.conf** に変更する必要があります。 モジュールをアクティベートするには、次のコマンドを実行します。
+   Adobe Campaign ページに&#x200B;**mod_rewrite** モジュールを使用している場合は、**nlsrv.load**&#x200B;および&#x200B;**nlsrv.conf** ファイルの名前を&#x200B;**zz-nlsrv.load**&#x200B;および&#x200B;**zz-nlsrv.conf**&#x200B;に変更する必要があります。 モジュールをアクティベートするには、次のコマンドを実行します。
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. **/etc/apache2/envars** ファイルを編集し、次の行を追加します。
+1. **/etc/apache2/envvars** ファイルを編集し、次の行を追加します。
 
    ```
    # Added Neolane
@@ -95,26 +95,26 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 
    変更を保存します。
 
-1. 次に、次のコマンドを使用して、Adobe Campaign ユーザーを Apache ユーザーグループに、またその逆に追加します。
+1. 次に、次のタイプのコマンドを使用して、Adobe Campaign ユーザーをApache ユーザーグループに追加します。その逆も同様です。
 
    ```
    usermod neolane -G www-data
    usermod www-data -G neolane
    ```
 
-1. Apache を再起動します。
+1. Apacheを再起動します。
 
    ```
    invoke-rc.d apache2 restart
    ```
 
-## RHEL での Apache web サーバーの設定 {#configuring-apache-web-server-in-rhel}
+## RHELでのApache web サーバーの設定 {#configuring-apache-web-server-in-rhel}
 
-この手順は、RPM （RHEL、CentOS および Suse）ベースのパッケージの下で Apache をインストールして保護した場合に適用されます。
+この手順は、RPM （RHEL、CentOS、Suse）ベースのパッケージでApacheをインストールして保護した場合に適用されます。
 
 次の手順に従います。
 
-1. `httpd.conf` ファイルで、次の Apache モジュールを有効にします。
+1. `httpd.conf` ファイルで、次のApache モジュールをアクティブ化します。
 
    ```
    alias
@@ -122,7 +122,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
    mime
    ```
 
-1. 次のモジュールをディアクティベートします。
+1. 次のモジュールを非アクティブ化します。
 
    ```
    auth_basic
@@ -137,7 +137,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
    userdir
    ```
 
-   非アクティブ化されたモジュールにリンクされた関数をコメント化します。
+   非アクティブ化されたモジュールにリンクされている関数にコメントを付けます。
 
    ```
    DirectoryIndex
@@ -153,18 +153,18 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
    ForceLanguagePriority
    ```
 
-1. `/etc/httpd/conf.d/` フォルダーにAdobe Campaign固有の設定ファイルを作成します。 例：`CampaignApache.conf`
+1. Adobe Campaign固有の設定ファイルを`/etc/httpd/conf.d/` フォルダーに作成します。 例：`CampaignApache.conf`
 
-1. **RHEL7** の場合は、ファイルに次の手順を追加します。
+1. **RHEL7**&#x200B;の場合、ファイルに次の手順を追加します。
 
    ```
    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/conf/apache_neolane.conf
    ```
 
-1. **RHEL7** の場合：
+1. **RHEL7**&#x200B;の場合：
 
-   次の内容の `/etc/systemd/system/httpd.service` ファイルを追加します。
+   次の内容を含む`/etc/systemd/system/httpd.service` ファイルを追加します。
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -173,24 +173,24 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
    ```
 
-   systemd で使用されるモジュールを更新します。
+   systemdで使用されるモジュールを更新します。
 
    ```
    systemctl daemon-reload
    ```
 
-1. 次に、コマンドを実行して、Adobe Campaign オペレーターを Apache オペレーターグループに追加します（その逆も同様です）。
+1. 次に、次のコマンドを実行して、Adobe Campaign演算子をApache演算子グループに追加します。その逆も同様です。
 
    ```
    usermod -a -G neolane apache
    usermod -a -G apache neolane
    ```
 
-   使用するグループ名は、Apache の設定方法によって異なります。
+   使用するグループ名は、Apacheの設定方法によって異なります。
 
-1. Apache とAdobe Campaign サーバーを実行します。
+1. ApacheとAdobe Campaign サーバーを実行します。
 
-   RHEL7 の場合：
+   RHEL7の場合：
 
    ```
    systemctl start httpd
@@ -199,7 +199,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 
 ## Web サーバーの起動と設定のテスト{#launching-the-web-server-and-testing-the-configuration}
 
-これで、Apache を起動して設定をテストできます。 これで、Adobe Campaign モジュールのバナーがコンソールに表示されます（特定のオペレーティングシステムでは 2 つのバナー）。
+Apacheを起動して設定をテストできるようになりました。 これで、Adobe Campaign モジュールがコンソールにバナーを表示するようになりました（特定のオペレーティングシステムでは2つのバナー）。
 
 ```
  /etc/init.d/apache start
@@ -216,15 +216,15 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 12:26:28 >   Server started
 ```
 
-次に、テスト URL を送信して、応答することを確認します。
+次に、テスト URLを送信して応答することを確認します。
 
-これは、コマンドラインから次のコマンドを実行してテストできます。
+コマンドラインから次を実行してテストできます。
 
 ```
  telnet localhost 80  
 ```
 
-次を取得する必要があります。
+次の項目を取得する必要があります。
 
 ```
 Trying 127.0.0.1...
@@ -232,7 +232,7 @@ Connected to localhost.localdomain.
 Escape character is '^]'.
 ```
 
-次のように入力します。
+次に入力します。
 
 ```
 GET /r/test
@@ -245,4 +245,4 @@ GET /r/test
 Connection closed by foreign host.
 ```
 
-Web ブラウザーから URL `https://myserver.adobe.com/r/test` をリクエストすることもできます。
+Web ブラウザーからURL `https://myserver.adobe.com/r/test`をリクエストすることもできます。

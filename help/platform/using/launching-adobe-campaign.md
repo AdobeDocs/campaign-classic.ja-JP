@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
-workflow-type: ht
-source-wordcount: '451'
+workflow-type: tm+mt
+source-wordcount: '474'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign のローンチ {#launching-adobe-campaign}
 
-Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。[このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
+Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。 [このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
 
 >[!CAUTION]
 >
@@ -34,7 +34,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 ### Adobe ID を使用して接続
 
-Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
+Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に設定するには、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
@@ -43,7 +43,7 @@ Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に
 
 ### ログイン／パスワードで接続
 
-専用のログイン／パスワードを使用して接続することもできます。この接続は、Campaign の「ネイティブ認証」と呼ばれます。
+専用のログイン／パスワードを使用して接続することもできます。 この接続は、Campaign の「ネイティブ認証」と呼ばれます。
 
 1. 「**[!UICONTROL ログイン]**」フィールドに、オペレーターのアカウント ID を入力します。
 
@@ -51,7 +51,7 @@ Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に
 
 1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
 
-   データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
+   データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。 接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。 オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
 
 1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
 

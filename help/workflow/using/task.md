@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../mrm/using/creating-and-managing-tasks.md)
+>`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。 [詳細情報](../../mrm/using/creating-and-managing-tasks.md)
 
 キャンペーンワークフローでは、「**[!UICONTROL タスク]**」アクティビティで 2 つのシナリオを指定できます。1 つはタスクが完了した場合、もう 1 つはタスクが完了しなかった場合（手動で未完了とマークした場合、または期限切れとなった場合）。
 
@@ -28,4 +28,4 @@ ht-degree: 100%
 
 ![](assets/wkf_task_activity.png)
 
-「**[!UICONTROL リソース]**」オプションで、複数のオペレーターとタスクの承認スケジュールを定義できます。承認が拒否されても、これによってタスク自体が拒否されることにはなりません。
+「**[!UICONTROL リソース]**」オプションで、複数のオペレーターとタスクの承認スケジュールを定義できます。 承認が拒否されても、これによってタスク自体が拒否されることにはなりません。

@@ -6,7 +6,7 @@ hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-以下で説明するワークフローは、毎時間実行されるようにスケジュールされています。このワークフローは、デフォルトで **Message Center - コントロール**&#x200B;モジュールと共にインストールされます。
+以下で説明するワークフローは、毎時間実行されるようにスケジュールされています。 このワークフローは、デフォルトで **Message Center - コントロール**&#x200B;モジュールと共にインストールされます。
 
 
 詳しくは、Campaign のバージョンに応じて、次の節を参照してください。

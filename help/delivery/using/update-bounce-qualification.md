@@ -6,8 +6,8 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
-source-wordcount: '461'
+workflow-type: tm+mt
+source-wordcount: '468'
 ht-degree: 100%
 
 ---

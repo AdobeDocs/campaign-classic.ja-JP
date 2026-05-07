@@ -29,6 +29,6 @@ ht-degree: 100%
 
   ![](assets/use_case_abtesting_analysis_003.png)
 
-この例では、配信 B の開封率が最も高くなっています。これは、コンテンツ B が最終の配信で使用されることを意味します。
+この例では、配信 B の開封率が最も高くなっています。 これは、コンテンツ B が最終の配信で使用されることを意味します。
 
 ![](assets/use_case_abtesting_analysis_004.png)

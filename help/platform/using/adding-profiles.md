@@ -9,7 +9,7 @@ exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../platform/using/import-export-workflows.md)されます。ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。それにより、プロファイルはデータベースに追加されます。
+ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../platform/using/import-export-workflows.md)されます。 ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。 それにより、プロファイルはデータベースに追加されます。
 
 ![](assets/s_ncs_user_profile_add.png)
 

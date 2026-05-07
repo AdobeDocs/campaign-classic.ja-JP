@@ -7,8 +7,8 @@ badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Cauti
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 11%
+source-wordcount: '1416'
+ht-degree: 15%
 
 ---
 
@@ -184,7 +184,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 中央/ローカル マーケティング （分散型マーケティング） <br /> </td> 
-   <td> 中央エンティティ（本社、マーケティング部門等）とローカルエンティティ（営業ポイント、地域機関等）との連携を図る。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja" target="_blank">詳細情報</a><br /> </td> 
+   <td> 中央エンティティ（本社、マーケティング部門等）間の連携を図る。 ローカルエンティティ（セールスポイント、地域代理店など）。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja" target="_blank">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -234,7 +234,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> ACS コネクタ （非推奨） <br /> </td> 
-   <td> Adobe Campaign v7とAdobe Campaign Standardを橋渡しする。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。オプション。<br /> </td> 
+   <td> Adobe Campaign v7とAdobe Campaign Standardを橋渡しする。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。 オプション。<br /> </td> 
    <td> マーケティング </td> 
   </tr> 
  </tbody> 
@@ -242,16 +242,16 @@ ht-degree: 11%
 
 ### Message Center パッケージ {#message-center-package}
 
-トランザクションメッセージ（メッセージセンターパッケージ）をインストールする前に、配信チャネル（電子メール、モバイルチャネル、モバイルアプリチャネル、LINEなど）をインストールする必要があります。 メールのみのMessage Center プロジェクトを開始し、その後に新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
+配信チャネル（電子メール、モバイルチャネル、モバイルアプリチャネル、LINEなど）をインストールする必要があります トランザクションメッセージ（メッセージセンターパッケージ）をインストールする前。 メールのみのMessage Center プロジェクトを開始し、その後に新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. パッケージ読み込みアシスタント（**ツール/詳細/ パッケージを読み込み/ Adobe Campaign パッケージ**）を使用して、新しいチャネル（例：**[!UICONTROL モバイルチャネル]**）をインストールします。
+1. パッケージ読み込みアシスタント（**[!UICONTROL ツール/詳細/ パッケージを読み込み/ Adobe Campaign パッケージ]**）を使用して、新しいチャネル（例：**モバイルチャネル**）をインストールします。
 1. ファイル（**[!UICONTROL ツール/詳細/パッケージの読み込み/ファイル]**）を読み込み、次を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. インポートする&#x200B;**[!UICONTROL XML データコンテンツ]**&#x200B;で、関連するチャネルに対応するMessage Center配信テンプレートのみを保持します。 例えば、**モバイルチャネル**&#x200B;を追加した場合、**モバイルトランザクションメッセージ** （smsTriggerMessage）テンプレートに対応する&#x200B;**[!UICONTROL entities]**&#x200B;要素のみを保持します。 **モバイルアプリチャネル**&#x200B;を追加した場合、**iOS トランザクションメッセージ**&#x200B;のテンプレート（iosTriggerMessage）と&#x200B;**Android トランザクションメッセージ** （androidTriggerMessage）のみを保持します。
+1. インポートする&#x200B;**[!UICONTROL XML データコンテンツ]**&#x200B;で、関連するチャネルに対応するMessage Center配信テンプレートのみを保持します。 例えば、**モバイルチャネル**&#x200B;を追加した場合、**[!UICONTROL モバイルトランザクションメッセージ]** （smsTriggerMessage）テンプレートに対応する&#x200B;**entities**&#x200B;要素のみを保持します。 **モバイルアプリチャネル**&#x200B;を追加した場合、**iOS トランザクションメッセージ**&#x200B;のテンプレート（iosTriggerMessage）と&#x200B;**Android トランザクションメッセージ** （androidTriggerMessage）のみを保持します。
 
    ![](assets/messagecenter_install_channel.png)
 

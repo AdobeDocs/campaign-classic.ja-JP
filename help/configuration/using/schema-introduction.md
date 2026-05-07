@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: スキーマリファレンス
+title: スキーマ参照
 description: スキーマ参照リスト
 feature: Custom Resources
 role: Developer
@@ -12,13 +12,13 @@ ht-degree: 21%
 
 ---
 
-# スキーマリファレンス {#schema-reference}
+# スキーマ参照 {#schema-reference}
 
-スキーマを編集する際に、ソーススキーマ（xtk:srcSchema）に基づく承認システムを使用できます。 「データベース構造の更新…」ウィザードを使用してデータベースを更新する際に、エラーが見つかる場合もあります。
+スキーマを編集する場合、ソーススキーマ （xtk:srcSchema）に基づく承認システムを利用できます。 「データベース構造の更新」を使用してデータベースを更新する際に、一部のエラーが検出されることもあります。 わかり。
 
-デフォルトでは、Adobe Campaign スキーマでは、すべてのブール型属性は「false」です。 アクティブにするには、スキーマで属性を指定し、その値を「true」に設定する必要があります。
+デフォルトでは、Adobe Campaign スキーマでは、すべてのブール型属性は「false」です。 アクティベートするには、スキーマで属性を指定し、その値を「true」に設定する必要があります。
 
-参照リスト：
+リファレンスリスト：
 
 * [属性](schema/attribute.md)
 * [文字列を計算](schema/compute-string.md)

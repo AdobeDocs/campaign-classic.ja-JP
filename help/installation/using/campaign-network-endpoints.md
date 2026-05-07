@@ -15,10 +15,10 @@ ht-degree: 22%
 
 
 
-Campaign Classicで使用される様々なエンドポイントを次に示します。
+ここでは、Campaign Classicで使用されるさまざまなエンドポイントを紹介します。
 
 | コンテキスト | URL |
 |--- |--- |
-| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSO プロバイダー） <br>`https://*.campaign.adobe.com` （キャンペーンインスタンス） <br>`https://adobeid-na1.services.adobe.com` （Adobeログイン） |
-| 受信ボックスレンダリング（Litmus） | `https://deliverability-app.neolane.net/deliverability` |
-| ブランディング URL、ミラーページ、トラッキング、fileref （デプロイメントウィザード） | 設定されている URL を確認します。 |
+| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSO プロバイダー） <br>`https://*.campaign.adobe.com` （Campaign インスタンス） <br>`https://adobeid-na1.services.adobe.com` （Adobe ログイン） |
+| 受信トレイのレンダリング（Litmus） | `https://deliverability-app.neolane.net/deliverability` |
+| ブランディング URL、ミラーページ、トラッキング、fileref （デプロイメントウィザード） | 設定されたURLを確認します。 |

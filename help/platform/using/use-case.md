@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: ユースケース
-description: 使用例
+description: ユースケース
 feature: Subscriptions, Email, Data Management
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
 
-# ユースケース{#use-case}
+# 使用例{#use-case}
 
 
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 この使用例では、受信者のメールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を示します。
 
-そのためには、定義済みフィルターを使用する必要があります。これらのフィルターは、ドキュメントタイプにリンクされており、**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードを使用してアクセスされます。これらのデータフィルターは、アプリケーションでエディター（またはドキュメント）の各タイプに対して使用できます。
+そのためには、定義済みフィルターを使用する必要があります。これらのフィルターは、ドキュメントタイプにリンクされており、**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードを使用してアクセスされます。 これらのデータフィルターは、アプリケーションでエディター（またはドキュメント）の各タイプに対して使用できます。
 
 データフィルターは定義済みフィルターと同じ方法で作成されますが、フィルターが適用されるドキュメントタイプを選択するための追加のフィールドがあります。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
+   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。 アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。 フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
 
 1. メールフォーマットが定義されていない購読のみを表示する、購読の新しいフィルターを作成します。
@@ -58,6 +58,6 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
-   現在のフィルターの名前は、リストの上に表示されます。フィルターをキャンセルするには、**[!UICONTROL このフィルターを削除]**&#x200B;アイコンをクリックします。
+   現在のフィルターの名前は、リストの上に表示されます。 フィルターをキャンセルするには、**[!UICONTROL このフィルターを削除]**&#x200B;アイコンをクリックします。
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)

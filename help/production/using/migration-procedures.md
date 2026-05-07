@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 68%
+source-wordcount: '116'
+ht-degree: 75%
 
 ---
 

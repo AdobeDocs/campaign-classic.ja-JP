@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2710'
 ht-degree: 68%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 68%
    + 以前のリリース {#previous-releases}
       + [2025](rn/using/release-2025.md)
       + [2024](rn/using/release-2024.md)
-      + {hide-from-toc}[2023 - 非表示](rn/using/release-2023.md)
+      + {hide-from-toc}[2023 – 非表示](rn/using/release-2023.md)
       + {hide-from-toc}[2022 - 非表示](rn/using/release-2022.md)
-      + {hide-from-toc}[2021 - 非表示](rn/using/release-2021.md)
+      + {hide-from-toc}[2021 – 非表示](rn/using/release-2021.md)
       + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
@@ -56,7 +56,7 @@ ht-degree: 68%
       + {hide-from-toc}[&#x200B; プロファイルの編集 – HIDDEN](platform/using/editing-a-profile.md)
       + {hide-from-toc}[&#x200B; プロファイルを追加 – 非表示](platform/using/adding-profiles.md)
       + {hide-from-toc}[&#x200B; プロファイルの管理 – 非表示](platform/using/managing-profiles.md)
-      + [データ更新](platform/using/updating-data.md)
+      + [データを更新](platform/using/updating-data.md)
       + {hide-from-toc}[&#x200B; プロファイルの読み込みと書き出し – HIDDEN](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
    + データのインポートとエクスポート {#importing-and-exporting-data}

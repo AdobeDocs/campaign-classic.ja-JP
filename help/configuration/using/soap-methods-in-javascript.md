@@ -7,20 +7,20 @@ role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '136'
 ht-degree: 9%
 
 ---
 
 # JavaScript での SOAP メソッド{#soap-methods-in-javascript}
 
-Adobe Campaign サーバーで実行されるJavaScriptです。
+これは、Adobe Campaign サーバーで実行されるJavaScriptです。
 
 ## 静的メソッド {#static-methods}
 
-静的SOAP メソッドにアクセスするには、スキーマを表すオブジェクトでメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
+静的SOAP メソッドにアクセスするには、スキーマを表すオブジェクトでメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数であるため、例えばxtkまたはnms変数は、対応する名前空間を表します
 
-次の例では、xtk:workflow スキーマの静的 PostEvent メソッドを呼び出します。
+次の例では、xtk:workflow スキーマの静的PostEvent メソッドを呼び出します。
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -28,9 +28,9 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的SOAP メソッドを使用するには、対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
+非静的SOAP メソッドを使用するには、まず、対応するスキーマの「get」または「create」メソッドを使用してエンティティを取得する必要があります。
 
-次の例では、「xtk:queryDef」スキーマの ExecuteQuery メソッドを呼び出します。
+次の例では、「xtk:queryDef」スキーマのExecuteQuery メソッドを呼び出します。
 
 ```
 var query = xtk.queryDef.create(
@@ -49,7 +49,7 @@ for each (var w in res.workflow)
 
 ## 例 {#examples}
 
-* 「get」操作を使用して受信者テーブルに対してクエリを実行します。
+* 「get」操作を使用した受信者テーブルのクエリ：
 
   ```
   var query = xtk.queryDef.create(  
@@ -70,7 +70,7 @@ for each (var w in res.workflow)
   logInfo(recipient.@lastName)
   ```
 
-* 「select」操作を使用して受信者テーブルをクエリします。
+* 「選択」操作を使用した受信者テーブルのクエリ：
 
   ```
   var query = xtk.queryDef.create(  

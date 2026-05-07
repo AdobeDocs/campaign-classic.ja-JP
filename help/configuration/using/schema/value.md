@@ -9,7 +9,7 @@ topic-tags: schema-reference
 exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## コンテンツモデル {#content-model-16}
 
-値：==help
+value:==help
 
 ## 属性 {#attributes-16}
 
@@ -41,17 +41,17 @@ ht-degree: 4%
 
 ## 説明 {#description-16}
 
-この要素を使用すると、列挙に格納された値を定義できます。
+この要素では、列挙に格納される値を定義できます。
 
 ## 属性の説明 {#attribute-description-16}
 
-* **applicableIf （string）**：この属性を使用すると、列挙値をオプションにすることができます。 XTK 式を受け取ります。
-* **desc （string）**：列挙値の説明。
-* **enabledIf （string）**：列挙値をアクティブ化するための条件。
-* **img （string）**:「namespace:image_name」フォームの列挙にリンクされた画像。 画像をアプリケーションサーバーに読み込む必要があります。
-* **label （string）**：定義済みリスト値のラベル。
-* **name （string）**：定義済みリスト値の内部名。
-* **value （string）**：定義済みリストの値。 値のタイプは、列挙のタイプに基づいて定義されます。 列挙が文字列タイプの場合、文字列タイプの値のみを含めることができます。
+* **applicableIf （文字列）**：この属性を使用すると、列挙値をオプションにできます。 XTK式を受け取ります。
+* **desc （文字列）**：列挙値の説明。
+* **enabledIf （文字列）**：列挙値をアクティブ化するための条件。
+* **img （文字列）**: 「名前空間:image_name」フォームの列挙にリンクされた画像。 画像はアプリケーションサーバーに読み込む必要があります。
+* **label （文字列）**：列挙値のラベル。
+* **name （文字列）**：列挙値の内部名。
+* **値（文字列）**：列挙値の値。 値のタイプは、列挙のタイプに基づいて定義されます。 列挙が文字列型の場合、文字列型の値のみを含めることができます。
 
 ## 例 {#examples-13}
 

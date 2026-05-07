@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 要素と属性 – sysfilter 要素
+title: 要素と属性 – sysfilter要素
 description: 要素と属性
 feature: Schema Extension
 audience: configuration
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 ---
 
-# sysfilter 要素 {#sysfilter--element}
+# sysfilter要素 {#sysfilter--element}
 
 
 ## コンテンツモデル {#content-model-15}
@@ -43,7 +43,7 @@ sysFilter:==condition
 
 ## 例 {#examples-12}
 
-@name 属性に対する条件を含むフィルターの定義：
+@name属性上の条件を持つフィルターの定義：
 
 ```
 <sysFilter>

@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 3%
+source-wordcount: '424'
+ht-degree: 8%
 
 ---
 
@@ -21,64 +21,64 @@ ht-degree: 3%
 
 Adobe Campaign サーバーのインストール手順は次のとおりです。
 
-1. ファイル **setup.exe** を実行します。
+1. ファイル **setup.exe**&#x200B;を実行します。
 
    ![](assets/s_ncs_install_installer_01.png)
 
-1. インストールの種類を選択します。
+1. インストールタイプを選択します。
 
    ![](assets/s_ncs_install_installer_01a.png)
 
-   次の複数のインストールタイプを使用できます。
+   いくつかのインストールタイプを使用できます。
 
    * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaign アプリケーションサーバーとクライアントコンソールをインストールします。
-   * **[!UICONTROL 最小インストール（ネットワーク）]**：ネットワークからクライアントコンピューターをインストールします。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、他のすべてのコンポーネントはネットワークドライブから使用されます。
-   * **[!UICONTROL クライアントのインストール]** :Adobe Campaign クライアントに必要なコンポーネントのインストール
-   * **[!UICONTROL カスタムインストール]**：インストールする要素をユーザーが選択します。
+   * **[!UICONTROL 最小インストール （ネットワーク）]**：ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数のDLLのみがコンピューターにインストールされ、他のすべてのコンポーネントがネットワークドライブから使用されます。
+   * **[!UICONTROL クライアントのインストール]** :Adobe Campaign クライアントに必要なコンポーネントのインストール。
+   * **[!UICONTROL カスタムインストール]**：ユーザーはインストールする要素を選択します。
 
-   **アプリケーションサーバーのインストール** を選択し、次に示すさまざまな手順を実行します。
+   「**アプリケーションサーバーのインストール**」を選択し、次に示すさまざまな手順を実行します。
 
    ![](assets/s_ncs_install_installer_02.png)
 
-1. インストール ディレクトリの選択：
+1. インストールディレクトリを選択します。
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. 「**[!UICONTROL 終了]**」をクリックして、インストールを開始します。
+1. 「**[!UICONTROL 完了]**」をクリックして、インストールを開始します。
 
    ![](assets/s_ncs_install_installer_04.png)
 
-   進行状況バーに、インストールの進行状況が表示されます。
+   プログレスバーには、インストールの距離が表示されます。
 
    ![](assets/s_ncs_install_installer_05.png)
 
-   インストールが完了すると、次の内容を知らせるメッセージが表示されます。
+   インストールが完了すると、次のメッセージが表示されます。
 
    ![](assets/s_ncs_install_installer_06.png)
 
    >[!NOTE]
    >
-   >サーバのインストールが完了したら、ネットワークの問題を回避するためにサーバを再起動する必要があります。
+   >サーバーのインストールが完了したら、ネットワークの問題を回避するためにサーバーの再起動が必要です。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 [&#x200B; サーバーの最初の起動 &#x200B;](#first-start-up-of-the-server) を参照してください。
+   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 サーバー[&#128279;](#first-start-up-of-the-server)の最初の起動を参照してください。
 
-## 概要インストールテスト {#summary-installation-testing}
+## インストールテストの概要 {#summary-installation-testing}
 
-最初のインストールをテストするには、次のコマンドを使用します。
+次のコマンドを使用して、初期インストールをテストできます。
 
 ```sql
 nlserver pdump
 ```
 
-Adobe Campaignが起動されていない場合は、次のように応答します。
+Adobe Campaignが開始されない場合、応答は次のとおりです。
 
 ```sql
 No task
 ```
 
-## サーバーの初回起動 {#first-start-up-of-the-server}
+## サーバーの最初の起動 {#first-start-up-of-the-server}
 
-インストールテストが完了したら、**[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューからコマンドプロンプトを開き、次のコマンドを入力します。
+インストールテストが完了したら、**[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューでコマンドプロンプトを開き、次のコマンドを入力します。
 
 ```sql
 nlserver web
@@ -98,7 +98,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-**Ctrl+C** を押してプロセスを停止し、次のコマンドを入力します。
+**Ctrl+C**&#x200B;を押してプロセスを停止し、次のコマンドを入力します。
 
 ```sql
 nlserver start web
@@ -133,27 +133,27 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaign サーバーは、すべてのインスタンスに対するすべての権限を持つ **internal** というテクニカルログインを定義します。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
+Adobe Campaign サーバーは、すべてのインスタンスに対するすべての権限を持つ&#x200B;**internal**&#x200B;というテクニカルログインを定義します。 インストール直後に、ログインにパスワードがありません。 1を定義することは必須です。
 
 詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 ## Adobe Campaign サービスの開始 {#starting-adobe-campaign-services}
 
-Adobe Campaign サービスを開始するには、サービスマネージャーを使用するか、コマンドラインで適切な権限を持つ以下を入力します。
+Adobe Campaign サービスを開始するには、サービスマネージャーを使用するか、コマンドラインで次のように入力します（適切な権限を持つ）。
 
 ```sql
 net start nlserver6
 ```
 
-Adobe Campaign プロセスを後で停止する必要がある場合は、次のコマンドを使用します。
+後でAdobe Campaign プロセスを停止する必要がある場合は、次のコマンドを使用します。
 
 ```sql
 net stop nlserver6
 ```
 
-## LibreOffice のインストール {#installing-libreoffice}
+## LibreOfficeのインストール {#installing-libreoffice}
 
-LibreOffice をダウンロードし、通常のインストール手順に従います。
+LibreOfficeをダウンロードし、通常のインストール手順に従います。
 
 次の環境変数を追加します。
 

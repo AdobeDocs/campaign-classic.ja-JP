@@ -10,8 +10,8 @@ topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->demdex ドメインを使用しており、インポート外部アカウントで **ftp-out.demdex.com**、エクスポート外部アカウントで **ftp-in.demdex.com** の構文に従う場合は、それに従って実装を適応させ、Amazon Simple Storage Service（S3）コネクタに移動してデータのインポートまたはエクスポートをおこなう必要があります。Amazon S3 で外部アカウントを設定する方法の詳細については、[この節](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)を参照してください。
+>demdex ドメインを使用しており、インポート外部アカウントで **ftp-out.demdex.com**、エクスポート外部アカウントで **ftp-in.demdex.com** の構文に従う場合は、それに従って実装を適応させ、Amazon Simple Storage Service（S3）コネクタに移動してデータのインポートまたはエクスポートをおこなう必要があります。 Amazon S3 で外部アカウントを設定する方法の詳細については、[この節](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)を参照してください。
 
-次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAM は Adobe Audience Manager を表し、AC は Adobe Campaign を表します。
+次の図は、この統合の仕組みについて詳しく説明しています。 ここで、AAM は Adobe Audience Manager を表し、AC は Adobe Campaign を表します。
 
 ![](assets/aam_diagram.png){align="center"}
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 まず、次の手順に従って、Adobe Campaign で外部アカウントの設定または確認をおこなう必要があります。
 
 1. 「**[!UICONTROL エクスプローラー]**」アイコンをクリックします。
-1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。通常、この SFTP アカウントはアドビによって設定されており、お客様には必要な情報が伝えられています。
+1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。 通常、この SFTP アカウントはアドビによって設定されており、お客様には必要な情報が伝えられています。
 
    * **[!UICONTROL importSharedAudience]**：オーディエンスのインポート専用のアカウント。
    * **[!UICONTROL exportSharedAudience]**：オーディエンスのエクスポート専用のアカウント。
@@ -51,21 +51,21 @@ ht-degree: 100%
 
 1. 次の詳細を入力します。
 
-   * **[!UICONTROL AWS S3 アカウントサーバー]**：
-サーバーの URL は、次のように入力する必要があります。
+   * **[!UICONTROL AWS S3 Account Server]**
+サーバーのURLは、次のように入力する必要があります。
 
      ```
      <S3bucket name>.s3.amazonaws.com/<s3object path>
      ```
 
-   * **[!UICONTROL AWS アクセスキー ID]**：
-AWS アクセスキー ID の見つけ方については、[このページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+   * **[!UICONTROL AWS アクセスキーID]**
+AWS アクセスキーIDの検索場所については、この[&#x200B; ページ &#x200B;](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
-   * **[!UICONTROL AWS への秘密アクセスキー]**：
-AWS への秘密アクセスキーの見つけ方については、[このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+   * **[!UICONTROL AWSへの秘密鍵]**
+AWSへの秘密のアクセスキーを見つける場所については、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-   * **[!UICONTROL AWS リージョン]**：
-AWS リージョンについて詳しくは、[このページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+   * **[!UICONTROL AWS地域]**
+AWS地域について詳しくは、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
    ![](assets/aam_config_2.png)
 
@@ -75,7 +75,7 @@ AWS リージョンについて詳しくは、[このページ](https://aws.amaz
 
 ## 手順 2：データソースの設定 {#step-2--configure-the-data-source}
 
-**受信者 - 訪問者 ID** は Audience Manager 内で作成されます。これは、訪問者 ID にデフォルトで設定されている標準のデータソースです。Campaign から作成されたセグメントは、このデータソースの一部になります。
+**受信者 - 訪問者 ID** は Audience Manager 内で作成されます。 これは、訪問者 ID にデフォルトで設定されている標準のデータソースです。 Campaign から作成されたセグメントは、このデータソースの一部になります。
 
 **[!UICONTROL 受信者 - 訪問者 ID]** データソースを設定するには：
 
@@ -93,12 +93,12 @@ Audience Manager との統合を設定する場合は、Campaign トラッキン
 
 >[!IMPORTANT]
 >
->Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名のデリゲーションについて詳しくは、[この記事](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を参照してください。
+>Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。 ドメイン名のデリゲーションについて詳しくは、[この記事](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を参照してください。
 
 ## 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
 訪問者 ID サービスを web プロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
-Experience Cloud ID サービスの `setCustomerID` 関数と統合コード `AdobeCampaignID` を使用して、顧客 ID を宣言済み ID と同期します。`AdobeCampaignID` は、[手順 2：データソースの設定](#step-2--configure-the-data-sources)で設定した受信者データソースに設定された調整キーの値と一致させる必要があります。
+Experience Cloud ID サービスの `setCustomerID` 関数と統合コード `AdobeCampaignID` を使用して、顧客 ID を宣言済み ID と同期します。 `AdobeCampaignID` は、[手順 2：データソースの設定](#step-2--configure-the-data-sources)で設定した受信者データソースに設定された調整キーの値と一致させる必要があります。
 
-設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントの読み込みおよび書き出しを行えるようになりました。
+設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。

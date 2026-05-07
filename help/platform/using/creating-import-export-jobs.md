@@ -36,7 +36,7 @@ ht-degree: 100%
   ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
 
-これらはすべて、データのインポートウィザードまたはエクスポートウィザードを開きます。これらの詳細については以下の節で説明します。
+これらはすべて、データのインポートウィザードまたはエクスポートウィザードを開きます。 これらの詳細については以下の節で説明します。
 
 * [インポートジョブの設定](../../platform/using/executing-import-jobs.md)
 * [エクスポートジョブの設定](../../platform/using/executing-export-jobs.md)

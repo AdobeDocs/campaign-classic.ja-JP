@@ -9,8 +9,8 @@ topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 100%
 
 ## トランザクションメッセージのデータモデル {#about-transactional-messaging-datamodel}
 
-トランザクションメッセージは Adobe Campaign のデータモデルに依存し、独立したテーブルを 2 つ追加で使用します。これらの[テーブル](../../configuration/using/data-model-description.md#message-center-module)（**NmsRtEvent** および **NmsBatchEvent**）には同じフィールドが含まれており、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理します。
+トランザクションメッセージは Adobe Campaign のデータモデルに依存し、独立したテーブルを 2 つ追加で使用します。 これらの[テーブル](../../configuration/using/data-model-description.md#message-center-module)（**NmsRtEvent** および **NmsBatchEvent**）には同じフィールドが含まれており、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理します。
 
 ## SOAP メソッド {#soap-methods}
 
 本節では、トランザクションメッセージモジュールのスキーマに関連する SOAP メソッドの詳細を説明します。
 
-2 つの **PushEvent** または **PushEvents** SOAP メソッドは、2 つの **nms:rtEvent** と **nms:BatchEvent** データスキーマに関連付けられています。イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
+2つの&#x200B;**PushEvent**&#x200B;または&#x200B;**PushEvents** SOAP メソッドが、2つの&#x200B;**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
 
 * **PushEvent** では、メッセージに 1 つのイベントを挿入することができ、
 * **PushEvents** では、メッセージに一連の複数のイベントを挿入することができます。
 
 両方のメソッドにアクセスする WSDL パスは：
 
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** で、リアルタイムタイプのスキーマにアクセスできます。
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** で、バッチタイプのスキーマにアクセスできます。
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent**&#x200B;からリアルタイム型スキーマにアクセスできます。
+* バッチタイプスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent**&#x200B;してください。
 
 WSDL ファイルの生成について詳しくは、[この節](../../configuration/using/web-service-calls.md#web-service-description--wsdl)を参照してください。
 
-どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。信頼済み IP アドレス経由の識別方法を使用することをお勧めします。セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。同じトークンを 複数の RT 呼び出しに使用します。この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
+どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。 信頼済み IP アドレス経由の識別方法を使用することをお勧めします。 セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。 同じトークンを 複数の RT 呼び出しに使用します。 この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
 
-ロードバランササーバーを使用している場合は、（RT メッセージのレベルで）ユーザー／パスワード認証を使用できます。例：
+ロードバランササーバーを使用している場合は、（RT メッセージのレベルで）ユーザー／パスワード認証を使用できます。 例：
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">
@@ -80,7 +80,7 @@ PushEvent の使用例：
 
 >[!NOTE]
 >
->**PushEvents** メソッドを呼び出す場合、標準 XML に準拠するには親 XML 要素を追加する必要があります。この XML 要素が、イベント内に含まれる様々な **`<rtevent>`** 要素の外枠となります。
+>**PushEvents** メソッドを呼び出す場合、標準 XML に準拠するには親 XML 要素を追加する必要があります。 この XML 要素が、イベント内に含まれる様々な **`<rtevent>`** 要素の外枠となります。
 
 PushEvents の使用例：
 
@@ -110,9 +110,9 @@ PushEvents の使用例：
 
 >[!NOTE]
 >
->**`<batchevent>`** 要素を使用すると、「バッチ」キューにイベントを追加できます。「リアルタイム」キューにイベントを追加するには、**`<rtevent>`** 要素を使用します。
+>**`<batchevent>`** 要素を使用すると、「バッチ」キューにイベントを追加できます。 「リアルタイム」キューにイベントを追加するには、**`<rtevent>`** 要素を使用します。
 
-**`<rtevent>`** 要素と **`<batchevent>`** 要素に必須の属性は、@type と @email です。@type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
+**`<rtevent>`** 要素と **`<batchevent>`** 要素に必須の属性は、@type と @email です。 @type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。 この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
 
 `<rtevent> configuration example:`
 
@@ -120,17 +120,17 @@ PushEvents の使用例：
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-この例では、2 つのチャネルが指定されています。メールアドレスと携帯電話番号です。**wishedChannel** では、イベントをメッセージに変換する際に使用するチャネルを選択できます。値「0」はメールチャネルに、「1」はモバイルチャネルに対応します。
+この例では、2 つのチャネルが指定されています。メールアドレスと携帯電話番号です。 **wishedChannel** では、イベントをメッセージに変換する際に使用するチャネルを選択できます。 値「0」はメールチャネルに、「1」はモバイルチャネルに対応します。
 
-イベントの配信を遅らせる場合には、**[!UICONTROL scheduled]** フィールドに続いて希望する日付を追加します。イベントは、指定した日付にメッセージに変換されます。
+イベントの配信を遅らせる場合には、**[!UICONTROL スケジュール済み]**&#x200B;フィールドに続いて希望する日付を追加します。 イベントは、指定した日付にメッセージに変換されます。
 
-@wishedChannel と @emailFormat 属性には、数値を入力することをお勧めします。データスキーマの説明に、数値とラベルを関連付ける関数表が記載されています。
+@wishedChannel と @emailFormat 属性には、数値を入力することをお勧めします。 データスキーマの説明に、数値とラベルを関連付ける関数表が記載されています。
 
 >[!NOTE]
 >
->許可されているすべての属性とその値についての詳細は、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明に記載されています。
+>すべての承認済み属性とその値の詳細については、**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマの説明を参照してください。
 
-**`<ctx>`** 要素には、メッセージデータを格納します。この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
+**`<ctx>`** 要素には、メッセージデータを格納します。 この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
 
 >[!NOTE]
 >
@@ -159,11 +159,11 @@ PushEvents の使用例：
 
 ## SOAP 呼び出しから返される情報 {#information-returned-by-the-soap-call}
 
-イベントを受け取ると、Adobe Campaign は一意の戻り識別子を生成します。これが、アーカイブバージョンのイベントの識別子になります。
+イベントを受け取ると、Adobe Campaign は一意の戻り識別子を生成します。 これが、アーカイブバージョンのイベントの識別子になります。
 
 >[!IMPORTANT]
 >
->SOAP 呼び出しを受け取ると、Adobe Campaign はメールアドレスの形式を検証します。メールアドレスの形式が正しくない場合、エラーを返します。
+>SOAP 呼び出しを受け取ると、Adobe Campaign はメールアドレスの形式を検証します。 メールアドレスの形式が正しくない場合、エラーを返します。
 
 * イベント処理が成功した場合にメソッドが返す識別子の例：
 

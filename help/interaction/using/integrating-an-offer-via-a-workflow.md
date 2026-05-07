@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1095'
+workflow-type: tm+mt
+source-wordcount: '1128'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. 配信に従って、使用可能なフィールドに入力します。
 1. 次の 2 つの場合が考えられます。
 
-   * オファーエンジンを呼び出す場合は、「**[!UICONTROL 選択する提案数を制限]**」ボックスをオンにします。オファースペースを指定し、配信で提示される提案の数を設定します。
+   * オファーエンジンを呼び出す場合は、「**[!UICONTROL 選択する提案数を制限]**」ボックスをオンにします。 オファースペースを指定し、配信で提示される提案の数を設定します。
 
      オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >プレビューでは、配信で指定されたオファーの数が考慮されます。ワークフローを実行する際に考慮されるのは、配信の概要で指定されたオファーの数です。
+   >プレビューでは、配信で指定されたオファーの数が考慮されます。 ワークフローを実行する際に考慮されるのは、配信の概要で指定されたオファーの数です。
 
    ![](assets/int_compo_offre_wf1.png)
 
@@ -77,9 +77,9 @@ ht-degree: 100%
    ![](assets/int_enrichment_offer2.png)
 
 1. 追加される提案の識別子とラベルを指定します。
-1. オファーの選択を指定します。これには、次の 2 つのオプションを使用できます。
+1. オファーの選択を指定します。 これには、次の 2 つのオプションを使用できます。
 
-   * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにして、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファーの数）を指定します。エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
+   * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにして、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファーの数）を指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。 「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
 
      ![](assets/int_enrichment_offer3.png)
 
@@ -87,11 +87,11 @@ ht-degree: 100%
 
      ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
 
    >[!NOTE]
    >
-   >プレビュー可能な提案の数は、配信で直接実行された設定ではなく、エンリッチメントアクティビティで実行された設定によって決まります。
+   >プレビューできる提案の数は、配信で直接実行される設定ではなく、エンリッチメントアクティビティで実行される設定で決まります。
 
 ### オファーへのリンクの参照 {#referencing-a-link-to-an-offer}
 
@@ -101,19 +101,19 @@ ht-degree: 100%
 
 1. アクティビティの「**[!UICONTROL エンリッチメント]**」タブで「**[!UICONTROL データを追加]**」を選択します。
 1. 追加するデータのタイプを選択するウィンドウで、「**[!UICONTROL リンク]**」を選択します。
-1. 設定するリンクのタイプとターゲットを選択します。この場合、ターゲットはオファースキーマです。
+1. 設定するリンクのタイプとターゲットを選択します。 この場合、ターゲットはオファースキーマです。
 
    ![](assets/int_enrichment_link1.png)
 
-1. エンリッチメントアクティビティのインバウンドテーブルデータ（ここでは受信者テーブル）とオファーテーブルとの結合を指定します。例えば、オファーコードを受信者にリンクできます。
+1. エンリッチメントアクティビティのインバウンドテーブルデータ（ここでは受信者テーブル）とオファーテーブルとの結合を指定します。 例えば、オファーコードを受信者にリンクできます。
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
 
    >[!NOTE]
    >
-   >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
+   >プレビューできる提案の数は、配信で実行した設定で決まります。
 
 ### オファーのランキングと重み付けの保存 {#storing-offer-rankings-and-weights}
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 次の方法でこの情報を保存することができます。
 
-1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[オファーまたはオファーエンジン呼び出しの指定](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)の節を参照してください。
+1. クエリアクティビティの後かつ配信アクティビティの前に配置されたエンリッチメントアクティビティにオファーエンジンの呼び出しを作成します。 [オファーまたはオファーエンジン呼び出しの指定](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)の節を参照してください。
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -136,7 +136,7 @@ ht-degree: 100%
 
 1. 追加を確認し、ワークフローを保存します。
 
-これで、オファーのランキングと重み付けが自動的に格納されるようになります。この情報は、配信の「**[!UICONTROL オファー]**」タブに表示されます。
+これで、オファーのランキングと重み付けが自動的に格納されるようになります。 この情報は、配信の「**[!UICONTROL オファー]**」タブに表示されます。
 
 ## オファーエンジン {#offer-engine}
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 クエリを設定（[ワークフローガイド](../../workflow/using/query.md)を参照）してから、次の手順に従います。
 
 1. 「**[!UICONTROL オファーエンジン]**」アクティビティを追加し、開きます。
-1. 使用可能な各種フィールドに入力して、オファーエンジンパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファー数）への呼び出しを指定します。エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。
+1. 使用可能な各種フィールドに入力して、オファーエンジンパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファー数）への呼び出しを指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。
 
    >[!NOTE]
    >
@@ -157,7 +157,7 @@ ht-degree: 100%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
 
 ## オファー（セル別） {#offers-by-cell}
 
@@ -170,8 +170,8 @@ ht-degree: 100%
 1. 「**[!UICONTROL セル]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックして、別のサブセットを指定します。
 
    * 適用可能なフィルタリングおよび制限ルールを使用して、サブセットの母集団を指定します。
-   * サブセットに提示するオファーを選択します。利用できるオファーは、前の手順で選択したオファー環境で実施要件を満たすオファーです。
+   * サブセットに提示するオファーを選択します。 利用できるオファーは、前の手順で選択したオファー環境で実施要件を満たすオファーです。
 
      ![](assets/int_offer_per_cell1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。

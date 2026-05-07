@@ -32,4 +32,4 @@ Adobe Campaign の CRM コネクタについて詳しくは、[こちらの節](
 
 ![](assets/crm_task_select_obj.png)
 
-このアクティビティの設定は、実行するプロセスによって異なります。各種設定について詳しくは、[こちらのページ](../../platform/using/crm-data-sync.md)を参照してください。
+このアクティビティの設定は、実行するプロセスによって異なります。 各種設定について詳しくは、[こちらのページ](../../platform/using/crm-data-sync.md)を参照してください。

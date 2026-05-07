@@ -9,7 +9,7 @@ topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '259'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 100%
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
-デフォルトでは、配信は配信月ごとにサブフォルダーに並べ替えられます。この並べ替えは、以下に示されるように、メッセージテンプレートのプロパティで変更することができます。
+デフォルトでは、配信は配信月ごとにサブフォルダーに並べ替えられます。 この並べ替えは、以下に示されるように、メッセージテンプレートのプロパティで変更することができます。
 
 ![](assets/messagecenter_deliveries_properties_001.png)
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールでは、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージも Adobe Campaign Enhanced MTA と共に送信される場合があります。この変更による影響はすべて、標準のマーケティングメッセージと同じです。
+>ホストインストールまたはハイブリッドインストールでは、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージも Adobe Campaign Enhanced MTA と共に送信される場合があります。 この変更による影響はすべて、標準のマーケティングメッセージと同じです。
 
 ## トランザクションメッセージの監視 {#transactional-message-monitoring}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信は、イベント作成日ではなく、最新のイベント更新に基づいて、毎週イベントを累積します。したがって、コントロールインスタンスからトランザクションメッセージング配信ログを抽出する場合、各配信ログ ID に関連付けられている配信 ID は、ログが更新されると、時間の経過と共に変わる場合があります（例えば、イベントに対して受信したバウンス）。
+>配信は、イベント作成日ではなく、最新のイベント更新に基づいて、毎週イベントを累積します。 したがって、コントロールインスタンスからトランザクションメッセージング配信ログを抽出する場合、各配信ログ ID に関連付けられている配信 ID は、ログが更新されると、時間の経過と共に変わる場合があります（例えば、イベントに対して受信したバウンス）。
 
 <!--
 The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.

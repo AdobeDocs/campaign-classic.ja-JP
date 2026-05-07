@@ -9,8 +9,8 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '443'
+workflow-type: tm+mt
+source-wordcount: '501'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 監視対象として推奨される指標はハイライト表示されています。
 
-* consumer：トリガーを取り込むクライアントの名前。パイプラインオプションで設定されます。
+* consumer：トリガーを取り込むクライアントの名前。 パイプラインオプションで設定されます。
 * http-request
    * last-alive-ms-ago：接続が確認されてからの経過時間（ミリ秒）。
    * last-failed-cnx-ms-ago：前回接続が確認できなかった時からの経過時間（ミリ秒）。
@@ -44,12 +44,12 @@ ht-degree: 100%
    * next-offsets-flush：終了時に次のバッチまで待機する時間。
    * processed-since-last-flush：前回のバッチで処理されたトリガーの数。
 * routing
-   * triggers：取得したトリガーのリスト。[!DNL pipelined] オプションで設定されます。
+   * triggers：取得したトリガーのリスト。 [!DNL pipelined] オプションで設定されます。
 * stats
    * average-pointer-flush-time-ms:1 バッチのトリガーの平均処理時間。
    * average-trigger-processing-time-ms：トリガーデータの解析に費やされた平均時間。
    * bytes-read：プロセスの開始以降にキューから読み取られたバイト数。
-   * current-messages：キューから取り出されて処理待ちになっている保留中メッセージの現在の数。**この指標はゼロに近くなるようにしてください**。
+   * current-messages：キューから取り出されて処理待ちになっている保留中メッセージの現在の数。 **この指標はゼロに近くなるようにしてください**。
    * current-retries：処理に失敗し再試行を待機しているメッセージの現在の数。
    * peak-messages：プロセスの開始以降に処理されてきた保留メッセージの最大数。
    * pointer-flushes：開始以降に処理されたメッセージのバッチ数。
@@ -62,8 +62,8 @@ ht-degree: 100%
 
 * average-trigger-processing-time-ms：トリガーデータの解析に費やされた平均時間。
 * is-JS-processor：スレッドがカスタム JS を使用する場合は値「1」。
-* trigger-discarded: 処理エラーが原因で再試行が多すぎるために破棄されたメッセージの数。**この指標はゼロになるようにしてください**。
-* trigger-failures：JS の処理エラーの数。**この指標はゼロになるようにしてください**。
+* trigger-discarded: 処理エラーが原因で再試行が多すぎるために破棄されたメッセージの数。 **この指標はゼロになるようにしてください**。
+* trigger-failures：JS の処理エラーの数。 **この指標はゼロになるようにしてください**。
 * trigger-received：キューから受信したメッセージの数。
 
 * settings：これらは設定ファイルで指定されます。

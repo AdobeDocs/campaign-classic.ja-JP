@@ -6,7 +6,7 @@ hide: true
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    ![](assets/uc_merge_sort.png)
 
-1. 結合するフィールドを選択します。この例では、姓と名のフィールドを保持します。
+1. 結合するフィールドを選択します。 この例では、姓と名のフィールドを保持します。
 
    ![](assets/uc_merge_keep.png)
 

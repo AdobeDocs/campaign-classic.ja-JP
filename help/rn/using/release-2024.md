@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8e20391d-3628-4d0c-b413-c34e046ae810
 source-git-commit: bf45c8bcdd41e614f9be09bc0fd6385707159841
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,9 @@ _2024年6月18日（PT）_
 
 ### 変更点と改善点 {#release-7-4-1-changes}
 
-* サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。Campaign と Analytics 統合や Experience Cloud トリガーの統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。[詳細情報](../../integrations/using/oauth-technical-account.md)
+* サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。 Campaign と Analytics 統合や Experience Cloud トリガーの統合などのアウトバウンド統合を実装している場合は、2025年1月27日（PT）までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。 [詳細情報](../../integrations/using/oauth-technical-account.md)
 
-* [Campaign テクニカルオペレーターを開発者コンソールに移行](../../technotes/using/ims-migration.md)し、[エンドユーザー認証用に IMS に移行](../../technotes/using/migrate-users-to-ims.md)すると、ユーザーインターフェイスと API 制限を有効にして、ネイティブ認証に固有のオプションと機能を削除できるようになりました。[詳細情報](../../technotes/using/impact-ims-migration.md)
+* [Campaign テクニカルオペレーターを開発者コンソールに移行](../../technotes/using/ims-migration.md)し、[エンドユーザー認証用に IMS に移行](../../technotes/using/migrate-users-to-ims.md)すると、ユーザーインターフェイスと API 制限を有効にして、ネイティブ認証に固有のオプションと機能を削除できるようになりました。 [詳細情報](../../technotes/using/impact-ims-migration.md)
 
 
 ### 互換性のアップデート {#release-7-4-1-compat}
@@ -42,18 +42,18 @@ _2024年6月18日（PT）_
 
 * Adobe Campaign は、関係データベース管理システムとして、また Federated Data Access （FDA）において、**Microsoft SQL Server 2022** および **Oracle 23c** と互換性を持つようになりました。
 
-* Adobe Campaign には、Java Development Kit（JDK）11 以降が必要です。Windows の場合は、[この節](../../installation/using/application-server.md#jdk)の説明に従って JRE を使用できる必要があります。
+* Adobe Campaign には、Java Development Kit（JDK）11 以降が必要です。 Windows の場合は、[この節](../../installation/using/application-server.md#jdk)の説明に従って JRE を使用できる必要があります。
 
-* モバイルアプリケーション用 Campaign（Neolane）SDK は非推奨（廃止予定）になりました。ここで、Adobe Experience Platform SDK に移行する必要があります。[詳細情報](deprecated-features.md)。
+* モバイルアプリケーション用 Campaign（Neolane）SDK は非推奨（廃止予定）になりました。 ここで、Adobe Experience Platform SDK に移行する必要があります。 [詳細情報](deprecated-features.md)。
 
   サービスの継続性を確保するために、Campaign v7.4 には以下が付属しています。
 
-   * iOS 用の新しい Campaign SDK 1.0.27 は、iOS 16 および 17 と、最新の [Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}と互換性があります。
+   * iOS用の新しいCampaign SDK 1.0.27 （iOS 16および17と互換性あり）、最新の[Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}。
    * Android 14 用の新しい Campaign SDK。
 
 ### その他の変更 {#release-7-4-1-other}
 
-v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。オンプレミスまたはハイブリッド環境のお客様は、管理者がこれらのライブラリをインストールする必要があります。[詳細情報](../../installation/using/installing-packages-with-linux.md)
+v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 オンプレミスまたはハイブリッド環境のお客様は、管理者がこれらのライブラリをインストールする必要があります。 [詳細情報](../../installation/using/installing-packages-with-linux.md)
 
 ### パッチ {#release-7-4-1-patches}
 

@@ -10,7 +10,7 @@ hide: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 
 
-このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ &#x200B;](about-migration.md)も参照してください。
+このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ ](about-migration.md)も参照してください。
 
 >[!NOTE]
 >

@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '3837'
-ht-degree: 1%
+source-wordcount: '3901'
+ht-degree: 3%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 配信のプロパティで配信を開始するために特定のオペレーターまたはオペレーターのグループが指定されている場合、配信を担当するオペレーターに送信を確認することを許可できます。</p><p> これを行うには、値として「1」を入力してオプションをアクティブにします。 このオプションを無効にするには、「0」と入力します。</p><p> 送信確認プロセスはデフォルトとして機能します。配信プロパティで送信に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが送信を確認して実行できます。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery" target="_blank">この節</a>を参照してください。</p> </td>
+   <td><p> 配信のプロパティで配信を開始するために特定のオペレーターまたはオペレーターのグループが指定されている場合、配信を担当するオペレーターに送信を確認することを許可できます。</p><p> これを行うには、値として「1」を入力してオプションをアクティブにします。 このオプションを無効にするには、「0」と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery" target="_blank">この節</a>を参照してください。</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaignでは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース（nms:recipient）と対話します。<br /> オプションの値は、外部受信者テーブルと一致するスキーマの名前に対応している必要があります。<br /> </td> 
+   <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース （nms:recipient）と対話します。<br /> オプションの値は、外部受信者テーブルと一致するスキーマの名前に対応している必要があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
@@ -149,7 +149,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 顧客の共通の名前。 受信者に表示される一部の警告メッセージで使用されます。<br /> 「このメッセージは、「組織」または関連会社と連絡を取ったために受信しました。 '組織'<br />からメッセージを受信しない </td> 
+   <td> 顧客の共通の名前。 受信者に表示される一部の警告メッセージで使用されます。<br /> 「このメッセージは、「組織」または関連会社と連絡を取ったために受け取ります。 '組織'<br />からメッセージを受信しない </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -233,7 +233,7 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> ミラーページサーバーのURL （デフォルトでは、NmsTracking_ServerUrlと同じである必要があります）。<br /> URLがルーティング定義で指定されていない場合、これはメール配信のデフォルト値です。<br /> </td> 
+   <td> ミラーページ サーバーのURL （既定では、NmsTracking_ServerUrlと同じである必要があります）。<br /> URLがルーティング定義で指定されていない場合、これはメール配信のデフォルト値です。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
@@ -313,11 +313,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> パブリケーションのルートフォルダー。<br /> HTMLとテキストによるコンテンツの生成について詳しくは、<a href="../../delivery/using/using-a-content-template.md">このセクション </a>を参照してください。<br /> </td> 
+   <td> パブリケーションのルート フォルダー。<br /> HTMLとテキストによるコンテンツの生成について詳しくは、<a href="../../delivery/using/using-a-content-template.md">この節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> 配信で使用される画像を保存するサーバーを定義して、ブラウザーが画像を取得できるようにします。<br /> ビルドバージョン &lt;= 5098の場合、インスタンスにアップロードされた画像のURLを使用します。<br /> ビルド バージョン &gt; 5098の場合、代わりに配信のパブリック URLまたは<span class="uicontrol">XtkFileRes_Public_URL</span> オプションのURLを使用します。<br /> </td> 
+   <td> 配信で使用される画像を保存するサーバーを定義して、ブラウザーが画像を取得できるようにします。<br /> ビルドバージョン &lt;= 5098の場合、インスタンスにアップロードされた画像のURLを使用します。<br /> ビルド バージョンが5098を超える場合は、代わりに配信のパブリック URLまたは<span class="uicontrol">XtkFileRes_Public_URL</span> オプションのURLを使用します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -693,7 +693,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> 移行時に、新しいバージョン標準に基づいてツリー構造が自動的に再編成されます。<br />このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 これを使用する場合、移行後に古いフォルダーを削除し、新しいフォルダーを追加して、必要なすべてのチェックを実行する必要があります。<br /> 
+   <td> 移行時に、新しいバージョン標準に基づいて、ツリー構造が自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 これを使用する場合、移行後に古いフォルダーを削除し、新しいフォルダーを追加して、必要なすべてのチェックを実行する必要があります。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol"> データ型：</span>整数</p> </li> 
      <li> <p> <span class="uicontrol">値（テキスト） </span> : 1 </p> </li> 
@@ -742,11 +742,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。この値は、Adobe Target Domain Serverに対応し、その後に/m2という値が続きます。 例：tt.omtrdc.net/m2<br />このセクションは<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">を参照</a>.<br /> </td> 
+   <td> 統合に使用されるAdobe Target サーバー。 このオプションは、デフォルトで選択されています。 この値は、Adobe Target Domain Serverに対応し、その後に/m2という値が続きます。 例：tt.omtrdc.net/m2.<br /> <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">この節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Target組織名。 この値は、Adobe Target クライアントの名前に対応します。<br />このセクションは<a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">を参照</a>.<br /> </td> 
+   <td> Adobe Target組織名。 この値は、Adobe Target クライアントの名前に対応します。<br /> <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">この節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 

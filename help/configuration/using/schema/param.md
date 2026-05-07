@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: スキーマの要素と属性 – パラメーター要素
-description: param 要素
+title: スキーマ要素と属性 – パラメーター要素
+description: パラメーター要素
 feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
-# param 要素 {#param--element}
+# パラメーター要素 {#param--element}
 
 
 ## コンテンツモデル {#content-model-12}
@@ -26,8 +26,8 @@ param:==help
 * @inout （文字列）
 * @label （文字列）
 * @localizable （文字列）
-* @name （MNTOKEN）
-* @namespace （MNTOKEN）
+* @name （トークン）
+* @namespace （トークン）
 * @type （文字列）
 
 ## 親 {#parents-12}
@@ -40,16 +40,16 @@ param:==help
 
 ## 説明 {#description-12}
 
-この要素を使用すると、SOAP メソッドを呼び出すためのパラメーターを定義できます。
+このエレメントでは、SOAP メソッドを呼び出すためのパラメーターを定義できます。
 
 ## 属性の説明 {#attribute-description-12}
 
-* **desc （string）**:`<param>` 要素に関する説明。
-* **inout （string）**：この属性は、パラメーターがSOAP呼び出しの入力（in）または出力（out）にあるかどうかを定義します。 この属性を指定しない場合、デフォルトのパラメーターは input （&quot;@inout=in&quot;）になります。
-* **label （文字列）**:`<param>` ラベル
-* **localizable （string）**：この属性を有効にすると、翻訳の「@label」属性の値を復元するようにコレクションツールに指示します（内部使用）。
-* **name （MNTOKEN）**:`<param>` の内部名
-* **type （string）**：この属性は、要素のタイプ `<param>` 定義します
+* **desc （文字列）**: `<param>`要素に関する説明。
+* **inout （文字列）**：この属性は、パラメーターがSOAP呼び出しの入力（in）または出力（out）のどちらに位置しているかを定義します。 この属性が指定されていない場合、デフォルトのパラメーターは入力（&quot;@inout=in&quot;）になります。
+* **label （文字列）**: `<param>` ラベル
+* **ローカライズ可能（文字列）**：この属性がアクティブ化されている場合、翻訳（内部使用）用に「@label」属性の値を回復するようにコレクションツールに指示します。
+* **name （MNTOKEN）**: `<param>`の内部名
+* **type （string）**：この属性は`<param>`要素の型を定義します
 
   使用可能なタイプのリスト：
 
@@ -60,8 +60,8 @@ param:==help
    * バイト
    * CDATA
    * 日時
-   * datetimetz
-   * datetimenoz
+   * datetime
+   * datetimenotz
    * 日付
    * DOMDocument
    * DOMElement
@@ -71,10 +71,10 @@ param:==help
    * html
    * int64
    * リンク
-   * 長い
+   * 長整数
    * メモ
-   * MNTOKEN
-   * 割合
+   * MN トークン
+   * パーセント
    * primarykey
    * 短い
    * 文字列
@@ -84,7 +84,7 @@ param:==help
 
 ## 例 {#examples-9}
 
-文字列タイプの「serviceName」受信設定の定義：
+文字列タイプの「serviceName」インバウンド設定の定義：
 
 ```
 <param desc="Name of the information service(s) (separated with commas)"

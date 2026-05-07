@@ -6,7 +6,7 @@ hide: true
 feature: Workflows, Analytics Integration
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで **Web 分析コネクタ**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../integrations/using/gs-aa.md)を参照してください。
+以下に説明するワークフローは、デフォルトで **Web 分析コネクタ**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、この[節](../../integrations/using/gs-aa.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -28,12 +28,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">指標とキャンペーン属性の送信</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsSendMetrics</span> <br /> </td> 
-   <td> このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、<strong>送信済み</strong>（iSent）、<strong>オープン数合計</strong>（iTotalRecipientOpen）、<strong>クリックした受信者の合計数</strong>（iTotalRecipientClick）、<strong>エラー</strong>（iError）、<strong>オプトアウト</strong>（opt-out）（iOptOut）です。<br /> </td> 
+   <td> このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。 該当する指標は、<strong>送信済み</strong>（iSent）、<strong>オープン数合計</strong>（iTotalRecipientOpen）、<strong>クリックした受信者の合計数</strong>（iTotalRecipientClick）、<strong>エラー</strong>（iError）、<strong>オプトアウト</strong>（opt-out）（iOptOut）です。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">変換済み連絡先の特定</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータは、<span class="uicontrol">リマーケティングの効率レポート</span>でアクセスできます。<br /> </td> 
+   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。 このワークフローで復元されたデータは、<span class="uicontrol">リマーケティングの効率レポート</span>でアクセスできます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントパージ</span> <br /> </td> 

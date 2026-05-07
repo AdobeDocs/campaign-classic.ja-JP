@@ -9,8 +9,8 @@ topic-tags: troubleshooting
 exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 14%
+source-wordcount: '81'
+ht-degree: 32%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 14%
 
 
 
-トラッキングログが転送されない理由は複数ある可能性があります。 次の情報を確認することをお勧めします。
+トラッキングログが転送されない理由は複数あります。 次の情報を確認することをお勧めします。
 
-* **&#x200B;**&#x200B;トラッキング **ワークフローにエラーはありますか？**
+* **** トラッキング **ワークフローにエラーがありますか？**
 
-[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"} を参照してください。
+[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/tracking_scheduled_task.png)
 
-* **モジュール** trackinglogd **はサーバーで実行されていますか？**
+* **モジュール** trackinglogd **はサーバー上で実行されていますか？**
 
-  [&#x200B; ログファイル &#x200B;](../../production/using/log-files.md) を参照してください。
+  [ ログファイル ](../../production/using/log-files.md)を参照してください。
 
-* **変更が加えられましたか？**
+* **変更が行われましたか？**
 
-  トラッキングエイリアスを使用すると、サーバーへの接続損失のトリガーになる可能性があります。
+  トラッキングエイリアスを使用すると、サーバへの接続が失われることをトリガーできます。

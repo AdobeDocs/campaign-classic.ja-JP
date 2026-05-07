@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## トランザクションメッセージでのシードアドレスの管理 {#managing-seed-addresses-in-transactional-messages}
 
-シードアドレスを使用すると、メールまたは SMS 配信の前に、メッセージのプレビューを表示したり、配達確認を送信したり、メッセージのパーソナライゼーションを検証したりすることができます。シードアドレスは配信に関連付けられ、その他の配信に利用することはできません。
+シードアドレスを使用すると、メールまたは SMS 配信の前に、メッセージのプレビューを表示したり、配達確認を送信したり、メッセージのパーソナライゼーションを検証したりすることができます。 シードアドレスは配信に関連付けられ、その他の配信に利用することはできません。
 
 トランザクションメッセージでシードアドレスを作成するには、次の手順に従います。
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 +メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
+1. 外部識別子を入力：このオプションのフィールドでは、ビジネスキー（一意のID、名前+電子メールなど）を入力できます。 これは、web サイト上のあらゆるアプリケーションに共通するもので、プロファイルの識別に使用されます。 Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -56,13 +56,13 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
-アドレスを作成したら、プレビューとパーソナライゼーションを表示することができます。[トランザクションメッセージのプレビュー](#transactional-message-preview)を参照してください。
+アドレスを作成したら、プレビューとパーソナライゼーションを表示することができます。 [トランザクションメッセージのプレビュー](#transactional-message-preview)を参照してください。
 
 ## パーソナライゼーションデータ {#personalization-data}
 
-メッセージテンプレート内のデータを使い、トランザクションメッセージのパーソナライゼーションをテストできます。この機能は、プレビューを生成したり、配達確認を送信するために使用されます。さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
+メッセージテンプレート内のデータを使い、トランザクションメッセージのパーソナライゼーションをテストできます。 この機能は、プレビューを生成したり、配達確認を送信するために使用されます。 さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。 詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
 
-このデータの目的は、最終的に配信する前にメッセージをテストすることです。このメッセージは、処理される実際のデータと同一のものではありません。ただし以下に示すように、XML 構造は実行インスタンスに保存されているイベントの構造と同一です。
+このデータの目的は、最終的に配信する前にメッセージをテストすることです。 このメッセージは、処理される実際のデータと同一のものではありません。 ただし以下に示すように、XML 構造は実行インスタンスに保存されているイベントの構造と同一です。
 
 ![](assets/messagecenter_create_custo_006.png)
 
@@ -94,13 +94,13 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-シードアドレスを使用して、さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
+シードアドレスを使用して、さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。 詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
 
 ## 配達確認の送信 {#sending-a-proof}
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
-配達確認の送信は、通常の配信の場合と同じプロセスで行います。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
+配達確認の送信は、通常の配信の場合と同じプロセスで行います。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。 ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
 
 * [パーソナライズ機能のデータ](#personalization-data)を使用して、1 つまたは複数の[シードアドレス](#managing-seed-addresses-in-transactional-messages)を作成します。
 * [メッセージコンテンツを作成](../../message-center/using/creating-the-message-template.md#creating-message-content)します。
@@ -117,7 +117,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_send_proof_002.png)
 
-配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
+配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/messagecenter_send_proof_003.png)
 

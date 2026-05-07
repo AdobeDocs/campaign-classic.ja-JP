@@ -34,17 +34,17 @@ ht-degree: 5%
 
 ## 説明 {#description-2}
 
-この要素を使用すると、フィルター条件を定義できます。
+この要素では、フィルタリング条件を定義できます。
 
-## 用途および使用コンテキスト {#use-and-context-of-use-2}
+## 用途と使用状況 {#use-and-context-of-use-2}
 
-1 つの `<sysfiler>` 要素に、複数のフィルター条件を含めることができます。
+1つの`<sysfiler>`要素に複数のフィルター条件を含めることができます。
 
 ## 属性の説明 {#attribute-description-2}
 
-* **boolOperator （文字列）**：同じ `<sysfilter>` 要素内で複数の `<conditions>` が定義されている場合、この属性を使用してそれらを組み合わせることができます。 デフォルトでは、`<condition>` 要素間の論理リンクは「AND」です。 「@boolOperator」属性を使用すると、「OR」タイプと「AND」タイプのリンクを組み合わせることができます。
-* **enabledIf （string）**：条件のアクティベーションテスト。
-* **expr （string）**:XTK 式。
+* **boolOperator （string）**：同じ`<sysfilter>`要素内で複数の`<conditions>`が定義されている場合、この属性を使用すると、それらを組み合わせることができます。 デフォルトでは、論理リンクは`<condition>`要素の間にある「AND」です。 「@boolOperator」属性を使用すると、「OR」と「AND」タイプのリンクを組み合わせることができます。
+* **enabledIf （文字列）**：条件のアクティベーション テスト。
+* **expr （文字列）**: XTK式。
 
 ## 例 {#examples-2}
 

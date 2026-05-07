@@ -1,17 +1,17 @@
 ---
 product: campaign
 title: スキーマ要素と属性 – 列挙要素
-description: 定義済みリスト要素
+description: 列挙要素
 feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
-# 定義済みリスト要素 {#enumeration--element}
+# 列挙要素 {#enumeration--element}
 
 
 ## コンテンツモデル {#content-model-5}
@@ -38,15 +38,15 @@ ht-degree: 8%
 
 ## 説明 {#description-5}
 
-この要素を使用すると、値の列挙を定義できます。 列挙は、定義済みのスキーマに属していますが、別のスキーマを介してアクセスできます。
+この要素を使用すると、値の列挙を定義できます。 列挙は、定義されているスキーマに属していますが、別のスキーマからアクセスできます。
 
-## 用途および使用コンテキスト {#use-and-context-of-use-4}
+## 用途と使用状況 {#use-and-context-of-use-4}
 
-定義済みリストは、スキーマの開始時（メイン要素が定義される前）に定義されます。
+列挙は、スキーマの開始時（メイン要素が定義される前）に定義されます。
 
 ## 属性の説明 {#attribute-description-5}
 
-* **basetype （string）**：定義済みリストに格納される値のタイプ。
+* **basetype （文字列）**：列挙に保存されている値のタイプ。
 
   使用可能なタイプのリスト：
 
@@ -57,8 +57,8 @@ ht-degree: 8%
    * バイト
    * CDATA
    * 日時
-   * datetimetz
-   * datetimenoz
+   * datetime
+   * datetimenotz
    * 日付
    * DOMDocument
    * DOMElement
@@ -68,10 +68,10 @@ ht-degree: 8%
    * html
    * int64
    * リンク
-   * 長い
+   * 長整数
    * メモ
-   * MNTOKEN
-   * 割合
+   * MN トークン
+   * パーセント
    * primarykey
    * 短い
    * 文字列
@@ -79,15 +79,15 @@ ht-degree: 8%
    * 期間
    * uuid
 
-* **default （string）**：デフォルト値。 デフォルト値は、定義済みリストで定義されている値の 1 つである場合もあります。
+* **default （string）**: Default value. デフォルト値は、列挙で定義された値のいずれかである場合もあります。
 * **desc （string）**：列挙の説明。
-* **label （string）**：列挙ラベル。
-* **name （string）**：定義済みリストの内部名。
-* **template （文字列）**：この属性は、複数のスキーマで共有される `<enumeration>` 要素への参照を定義します。 定義は、現在のスキーマに自動的にコピーされます。
+* **label （文字列）**：列挙ラベル。
+* **name （文字列）**：列挙の内部名。
+* **テンプレート（文字列）**：この属性は、複数のスキーマで共有されている`<enumeration>`要素への参照を定義します。 定義は現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 
-値がデータベースに格納される列挙値の例：
+値がデータベースに保存されている列挙値の例：
 
 ```
     <enumeration name="myEnum">
@@ -100,7 +100,7 @@ ht-degree: 8%
     </element>
 ```
 
-デフォルト値を持つ定義済みリストの定義：
+デフォルト値を持つ列挙の定義：
 
 ```
  <enumeration basetype="byte" default="email" name="canal">

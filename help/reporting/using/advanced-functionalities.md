@@ -7,7 +7,7 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 100%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 技術的ユーザーは、[一般的なプロパティ](../../reporting/using/properties-of-the-report.md)に加えて、次のような高度な機能を利用してレポートを設定できます。
 
-* 複雑なクエリを作成して、 **スクリプト**&#x200B;アクティビティのデータを処理します。[詳細情報](#script-activity)
+* 複雑なクエリを作成して、 **スクリプト**&#x200B;アクティビティのデータを処理します。 [詳細情報](#script-activity)
 
-* サーバーサイドまたはクライアントサイドで実行する外部スクリプトを追加します。[詳細情報](#external-script)
+* サーバーサイドまたはクライアントサイドで実行する外部スクリプトを追加します。 [詳細情報](#external-script)
 
-* **ジャンプ**&#x200B;アクティビティでレポートを呼び出します。[詳細情報](#calling-up-another-report)
+* **ジャンプ**&#x200B;アクティビティでレポートを呼び出します。 [詳細情報](#calling-up-another-report)
 
-* URL パラメーターをレポートに追加してアクセスしやすくします。[詳細情報](#calling-up-another-report)
+* URL パラメーターをレポートに追加してアクセスしやすくします。 [詳細情報](#calling-up-another-report)
 
-* レポートのコンテキストで使用される変数を追加します。[詳細情報](#adding-variables)
+* レポートのコンテキストで使用される変数を追加します。 [詳細情報](#adding-variables)
 
 ## スクリプトの操作 {#adding-a-script}
 
@@ -44,13 +44,13 @@ ht-degree: 100%
 
    ![](assets/reporting_custom_js.png)
 
-クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
+クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。 詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
 
 ### スクリプトアクティビティの追加 {#script-activity}
 
-[レポートをデザイン](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)する際に、**[!UICONTROL スクリプト]**&#x200B;アクティビティを使用してデータを処理し、SQL 言語を有効にしない複雑なクエリを簡単に作成できます。スクリプトウィンドウでクエリを直接入力できます。
+[レポートをデザイン](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)する際に、**[!UICONTROL スクリプト]**&#x200B;アクティビティを使用してデータを処理し、SQL 言語を有効にしない複雑なクエリを簡単に作成できます。 スクリプトウィンドウでクエリを直接入力できます。
 
-「**[!UICONTROL テキスト]**」タブでは、テキスト文字列を定義できます。それらを使用するときの構文は、**$(Identifier)** のようになります。テキストの使用について詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
+「**[!UICONTROL テキスト]**」タブでは、テキスト文字列を定義できます。 それらを使用するときの構文は、**$(Identifier)** のようになります。 テキストの使用について詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
 
 >[!CAUTION]
 >
@@ -90,17 +90,17 @@ if( ctx.@_historyId.toString().length == 0 )
 
    「**[!UICONTROL 変数]**」オプションでは、変数を作成または選択できます。変数は、URL のパラメーターとして渡されるほか、フィルターで使用することもできます。
 
-**[!UICONTROL 応答 HTTP ヘッダー]**&#x200B;を使用すると、iframe を使用してレポートのページを HTML ページに含める際のクリックジャックを防ぐことができます。クリックジャックを避けるために、**[!UICONTROL X-Frame-options ヘッダー]**&#x200B;の動作を選択できます。
+**[!UICONTROL 応答 HTTP ヘッダー]**&#x200B;を使用すると、iframe を使用してレポートのページを HTML ページに含める際のクリックジャックを防ぐことができます。 クリックジャックを避けるために、**[!UICONTROL X-Frame-options ヘッダー]**&#x200B;の動作を選択できます。
 
 * **[!UICONTROL なし]**：レポートには **[!UICONTROL X-Frame-options ヘッダー]**&#x200B;は含まれません。
-* **[!UICONTROL 同じ生成源]**：新しいレポートおよび再パブリッシュされたレポートに対してデフォルトで設定されます。ホスト名は、レポートの URL と同じになります。
+* **[!UICONTROL 同じ生成源]**：新しいレポートおよび再パブリッシュされたレポートに対してデフォルトで設定されます。 ホスト名は、レポートの URL と同じになります。
 * **[!UICONTROL 拒否]**：iframe を使用して HTML ページにレポートを含めることはできません。
 
 ![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## 変数の追加 {#adding-variables}
 
-「**[!UICONTROL 変数]**」タブには、レポートに設定されている変数のリストが表示されます。これらの変数は、レポートのコンテキストで公開されており、計算で使用できます。
+「**[!UICONTROL 変数]**」タブには、レポートに設定されている変数のリストが表示されます。 これらの変数は、レポートのコンテキストで公開されており、計算で使用できます。
 
 「**[!UICONTROL 追加]**」ボタンをクリックして、新しい変数を作成します。
 

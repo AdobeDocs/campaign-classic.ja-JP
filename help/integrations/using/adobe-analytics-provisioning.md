@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
@@ -30,23 +30,23 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 データコネクタの所有者が、Campaign にログインして Analytics との統合を試行しているユーザーとは異なるユーザーであることが問題でした。
 
-* 新しいコネクタを実装する場合、Adobe IMS の実装はオプションです。Adobe ID ユーザーがいない場合、Adobe Campaign はテクニカルユーザーを使用して Adobe Analytics と同期します。
+* 新しいコネクタを実装する場合、Adobe IMS の実装はオプションです。 Adobe ID ユーザーがいない場合、Adobe Campaign はテクニカルユーザーを使用して Adobe Analytics と同期します。
 
-この統合が機能するには、Analytics コネクタ専用の Adobe Analytics 製品プロファイルを作成する必要があります。次に、Developer Console プロジェクトを作成する必要があります。
+この統合が機能するには、Analytics コネクタ専用の Adobe Analytics 製品プロファイルを作成する必要があります。 次に、Developer Console プロジェクトを作成する必要があります。
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
+> サービスアカウント（JWT）資格情報はAdobeによって非推奨になりましたが、CampaignとAdobe ソリューションおよびアプリの統合は、OAuth サーバー間の資格情報に依存する必要があります。 </br>
 >
-> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年6月30日（PT）まで引き続き機能します。</br>
+> * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。 既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年6月30日（PT）まで引き続き機能します。</br>
 >
-> * Campaign と Analytics の統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年6月30日（PT）まで引き続き機能します。ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
+> * Campaign と Analytics の統合や Experience Cloud Triggers 統合などのアウトバウンド統合を実装している場合は、2025年6月30日（PT）まで引き続き機能します。 ただし、この日付までに、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 
 製品プロファイルでは、様々な Analytics コンポーネントに対するユーザーのアクセスレベルを指定します。
 
-既に Analytics 製品プロファイルがある場合でも、Analytics コネクタ専用の新しい Adobe Analytics 製品プロファイルを作成する必要があります。これにより、製品プロファイルに、この統合に適した権限が設定されます。
+既に Analytics 製品プロファイルがある場合でも、Analytics コネクタ専用の新しい Adobe Analytics 製品プロファイルを作成する必要があります。 これにより、製品プロファイルに、この統合に適した権限が設定されます。
 
 製品プロファイルについて詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/mt/enterprise/admin-guide.html)を参照してください。
 
@@ -58,7 +58,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
    ![](assets/do-not-localize/triggers_2.png)
 
-1. **[!UICONTROL 製品プロファイル名]**&#x200B;を追加するには、次の構文を使用することをお勧めします。`reserved_campaign_classic_<Company Name>`「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL 製品プロファイル名]**&#x200B;を追加するには、次の構文を使用することをお勧めします。`reserved_campaign_classic_<Company Name>` 「**[!UICONTROL 次へ]**」をクリックします。
 
    この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;は、設定ミスによるエラーを防ぐために、Analytics コネクタにのみ使用してください。
 
@@ -110,7 +110,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 Adobe Analytics コネクタの設定に進むには、Adobe Developer Console にアクセスして、OAuth サーバー間プロジェクトを作成します。
 
-詳細なドキュメントについては、[このページ](oauth-technical-account.md#oauth-service)を参照してください。
+詳しくは、[こちらのページ](oauth-technical-account.md#oauth-service)を参照してください。
 
 ## 設定と使用法 {#adobe-analytics-connector-usage}
 

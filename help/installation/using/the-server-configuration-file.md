@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '8066'
-ht-degree: 6%
+source-wordcount: '8103'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->サーバーサイド設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。 ホスト モデルとハイブリッド モデルのインストールと設定の手順については、この[&#x200B; セクション &#x200B;](../../installation/using/hosting-models.md)で説明します。
+>サーバーサイド設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。 ホスト モデルとハイブリッド モデルのインストールと設定の手順については、この[ セクション ](../../installation/using/hosting-models.md)で説明します。
 
 最初のパラメーターは、**共有** ノード内にあります。 これらはインスタンスに関連しています。 これらは、すべてのnlserver コマンド（nlserver web、nlserver wfserverなど）で使用される可能性があります。 その他のセクションは、特定のnlserver サブコマンドに関連しています。
 
@@ -410,7 +410,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 新しい接続を拒否する前に許可される接続の最大数です。 この<a href="https://helpx.adobe.com/jp/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html"> テクニカルノート </a>を参照してください。<br /> </td> 
+   <td> 新しい接続を拒否する前に許可された接続の最大数。 この<a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html"> テクニカルノート </a>を参照してください。<br /> </td> 
    <td> 短い<br /> </td> 
   </tr> 
   <tr> 
@@ -499,7 +499,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 **dnsConfig** （DNS設定）ノードの様々なパラメーターを次に示します。
 
-詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/configuring-campaign-server.md)を参照してください。
+詳細については、この[ セクション ](../../installation/using/configuring-campaign-server.md)を参照してください。
 
 <table> 
  <thead> 
@@ -540,11 +540,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->**nameSevers**&#x200B;に関する注意：デフォルトでは、ネットワークが使用されます
->windowsで宣言された最初のネットワークインターフェイスのパラメーター
->UNIXでは定義されていません。 ドメイン ネーム サーバー（DNS）を定義します
->mtaで使用される、メール交換器を取得するための宣言
->ドメイン。
+>**nameSevers**&#x200B;に関する注意：デフォルトでは、ネットワークが使用されます>windowsで宣言された最初のネットワークインターフェイスのパラメーター>UNIXでは定義されていません。 ドメイン ネーム サーバー（DNS）を定義します>mtaで使用される、メール交換器を取得するための宣言>ドメイン。
 >
 >この値が定義されていない場合、MTAはホスト ネットワーク設定でこの情報をシークします。 複数のDNSが可能な場合は、異なるDNS アドレスをコンマで区切る必要があります（例：212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合、MTAで使用されるDNS リストが最初のものです。 この場合は、あいまいさを避けるために、**nameServer** パラメーターを指定することをお勧めします。
 
@@ -602,7 +598,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> maxProcessusCount<br /> </td> 
-   <td> 最大1台のコンピューターで一度に許可されている変換プロセスの数。<br /> </td> 
+   <td> 最大 1台のコンピューターで一度に許可されている変換プロセスの数。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -708,7 +704,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **javaScript** ノードの様々なパラメーターを次に示します。 これは、JavaScript インタープリターの設定です。
 
-詳細については、[&#x200B; レポートに関するドキュメント &#x200B;](../../reporting/using/actions-on-reports.md#memory-allocation)を参照してください。
+詳細については、[ レポートに関するドキュメント ](../../reporting/using/actions-on-reports.md#memory-allocation)を参照してください。
 
 <table> 
  <thead> 
@@ -867,7 +863,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig** ノードの様々なパラメーターを次に示します。 これは、プロキシパラメーターの設定です。
 
-詳細については、[&#x200B; プロキシ接続設定](file-res-management.md)を参照してください。
+詳細については、[ プロキシ接続設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -904,7 +900,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig > HTTP Proxy / Secure proxy** ノードで、次のパラメーターを設定します。
 
-詳細については、[&#x200B; プロキシ接続設定](file-res-management.md)を参照してください。
+詳細については、[ プロキシ接続設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -1101,7 +1097,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **アーカイブ** ノードの様々なパラメーターを次に示します。 これは、バックグラウンドで実行されるアーカイブ操作の設定です。
 
-詳しくは、[電子メールアーカイブのアクティブ化（オンプレミス） &#x200B;](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-)を参照してください。
+詳しくは、[電子メールアーカイブのアクティブ化（オンプレミス） ](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-)を参照してください。
 
 <table> 
  <thead> 
@@ -1276,7 +1272,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> メッセージサイズを無視：POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールには「。」が必要です。 メッセージングの最後に。<br /> </td> 
+   <td> メッセージサイズを無視：POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールはメッセージの最後に「。」を想定します。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1394,7 +1390,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **対話型** ノードの様々なパラメーターを次に示します。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
 
-詳細については、[&#x200B; インタラクション – データバッファー](../../installation/using/interaction-data-buffer.md)を参照してください。
+詳細については、[ インタラクション – データバッファー](../../installation/using/interaction-data-buffer.md)を参照してください。
 
 <table> 
  <thead> 
@@ -1420,7 +1416,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
-   <td> 最大通話データの共有メモリに保存されている文字数。<br /> </td> 
+   <td> 最大 通話データの共有メモリに保存されている文字数。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1444,7 +1440,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
-   <td> 最大共有メモリに保存されているイベントの数。<br /> </td> 
+   <td> 最大 共有メモリに保存されているイベントの数。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -1474,7 +1470,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> targetKeySize<br /> </td> 
-   <td> 最大個人を識別するために共有メモリに保存されている文字数。<br /> </td> 
+   <td> 最大 個人を識別するために共有メモリに保存されている文字数。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 16<br /> </td> 
   </tr> 
@@ -1625,9 +1621,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statServerAddress<br /> </td> 
    <td> 配信統計サーバーのアドレス。次のように指定します 
     &lt;dnsまたはip&gt; 
-      <code>&lbrack;</code>: 
+      <code>[</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>。 を参照 
+       <code>]</code>. 参照 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">統計サーバーの座標</a>。 
       <br /> 
      </td> 
@@ -1747,7 +1743,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta > master** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
 
-詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/configuring-campaign-server.md#mta-child-processes)を参照してください。
+詳細については、この[ セクション ](../../installation/using/configuring-campaign-server.md#mta-child-processes)を参照してください。
 
 <table> 
  <thead> 
@@ -1761,25 +1757,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> 配信するジョブのデータベースのポーリング頻度。 この値は、データベースのポーリング頻度（秒単位）を示します。 配信を待っているジョブのリストを取得するために、MTAはデータベースを定期的にポーリングします。ジョブ待ちがない場合、ポーリング期間はこの値で定義されます。そうでなければ、ジョブが子サーバーに転送された場合、このポーリング時間は自動的に1秒に短縮され、新しいジョブをできるだけ早く、つまり子サーバーが再び利用可能になるとすぐに再処理できます。これは、子サーバーが再び利用可能になるまで、データベースクエリが1秒ごとに実行されることを意味しません。 実際、データベース アクセスは、少なくとも1つの子サーバーが使用可能になった場合にのみ実行されます。<br /> </td> 
+   <td> 配信するジョブに対するデータベースポーリング頻度。 この値は、データベースのポーリング頻度（秒単位）を示します。 配信を待っているジョブのリストを取得するために、MTAはデータベースを定期的にポーリングします。 ジョブ待ちがない場合、ポーリング期間はこの値で定義されます。 そうでなければ、ジョブが子サーバーに転送された場合、このポーリング時間は自動的に1秒に短縮され、新しいジョブをできるだけ早く、つまり子サーバーが再び利用可能になるとすぐに再処理できます。 これは、子サーバーが再び利用可能になるまで、データベースクエリが1秒ごとに実行されることを意味しません。 実際、データベース アクセスは、少なくとも1つの子サーバーが使用可能になった場合にのみ実行されます。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> データベース接続に失敗した後の待機期間。 データベース接続の障害は、通常、データベース・サーバ自体が原因で発生します。また、サーバーは、たとえばメンテナンス目的で停止することもできます。 DataBaseRetryDelay パラメーターは、データベース接続に失敗した場合の2回の接続試行間の期間を定義します。<br /> </td> 
+   <td> データベースへの接続の失敗後に待機する期間。 データベース接続の障害は、通常、データベース・サーバ自体が原因で発生します。 また、サーバーは、たとえばメンテナンス目的で停止することもできます。 DataBaseRetryDelay パラメーターは、データベース接続に失敗した場合の2回の接続試行間の期間を定義します。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
-   <td> 秘密鍵（DomainKeys）のキャッシュの有効期間。 DomainKeysの推奨事項（http://antispam.yahoo.com/domainkeys）に従って電子メールに署名するために使用される秘密鍵は、データベースにオプションとして保存されます。domainKeysReloadPeriodSec パラメーターは、MTAがこれらのキーをキャッシュに保持できる秒数を定義します。 この遅延後、すべてのキーをデータベースから再読み込みする必要があります。<br /> </td> 
+   <td> 秘密鍵のキャッシュの有効期間 (DomainKeys)。 DomainKeysの推奨事項（http://antispam.yahoo.com/domainkeys）に従って電子メールに署名するために使用される秘密鍵は、データベースにオプションとして保存されます。 domainKeysReloadPeriodSec パラメーターは、MTAがこれらのキーをキャッシュに保持できる秒数を定義します。 この遅延後、すべてのキーをデータベースから再読み込みする必要があります。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> 子サーバーの最大数。 実行中のサーバーの最大数を表します。この数は、サーバーメモリリソースとの最適な互換性で制限することをお勧めします。これは配信中に確認できます。 使用されるメモリは、利用可能な物理メモリの3分の1を超えてはなりません。そうしないと、スワップが使用されます。 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA子プロセス </a>を参照してください。<br /> </td> 
+   <td> 子サーバーの最大数。 実行中のサーバーの最大数を表します。 この数は、サーバーメモリリソースとの最適な互換性で制限することをお勧めします。 これは配信中に確認できます。 使用されるメモリは、利用可能な物理メモリの3分の1を超えてはなりません。そうしないと、スワップが使用されます。 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA子プロセス </a>を参照してください。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1791,7 +1787,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> 起動時の子サーバーの数。 子サーバーの数は動的に監視されます。MTAが開始されると、この値で示される数の子サーバーが作成されます。通常、ホストリソースを保存するために、1秒あたり1台のサーバーよりも高速に子サーバーを起動することはできません。 ただし、MTAが開始されると、この制限は無効になり、できるだけ早く子サーバーを利用できるようになります。<br /> </td> 
+   <td> 起動時の子サーバーの数。 子サーバーの数は動的に監視されます。MTAが開始されると、この値で示される数の子サーバーが作成されます。 通常、ホストリソースを保存するために、1秒あたり1台のサーバーよりも高速に子サーバーを起動することはできません。 ただし、MTAが開始されると、この制限は無効になり、できるだけ早く子サーバーを利用できるようになります。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1802,7 +1798,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta > child** ノードで、次のパラメーターを設定します。 これは子サーバーの設定です。
 
-詳細については、[&#x200B; メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)を参照してください。
+詳細については、[ メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)を参照してください。
 
 <table> 
  <thead> 
@@ -1822,13 +1818,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> アイドル状態の子サーバーが停止するまで中断。子サーバーのアイドル時間がこのパラメーターより大きい場合、ホスト リソースを解放するために自動的に自分自身を強制終了します。<br /> </td> 
+   <td> アイドル状態の子サーバーが停止するまで中断。 子サーバーのアイドル時間がこのパラメーターより大きい場合、ホスト リソースを解放するために自動的に自分自身を強制終了します。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> メッセージの最大保持時間： 調整が原因で準備されたメッセージを送信できなかったか、ターゲット MTAに接続できなかった場合、メッセージは破棄され、次の再試行時に処理されます。<br /> </td> 
+   <td> 最大メッセージ保持時間。 調整が原因で準備されたメッセージを送信できなかったか、ターゲット MTAに接続できなかった場合、メッセージは破棄され、次の再試行時に処理されます。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1840,7 +1836,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> 子サーバーあたりのメッセージの最大数。 各MTAの子はこの数のメッセージを処理し、死ぬ。MTA内のメモリまたはリソースのリークが無害である（通常は数千）ように数を指定することが重要です。 MTA コードに既知のメモリ リークがない場合でも、組み込まれたJavaScriptとXSL エンジンは完全に信頼できません。<br /> </td> 
+   <td> 子サーバーごとの最大メッセージ数。 各MTAの子はこの数のメッセージを処理し、死ぬ。 MTA内のメモリまたはリソースのリークが無害である（通常は数千）ように数を指定することが重要です。 MTA コードに既知のメモリ リークがない場合でも、組み込まれたJavaScriptとXSL エンジンは完全に信頼できません。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
@@ -1897,7 +1893,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
-   <td> アイドルセッションのタイムアウト： このパラメーターは、セッションが特定のドメインに複数のメッセージを送信するために再利用される場合にのみ使用されます。MTAがメッセージ送信を完了した場合、使用したSMTP セッションは体系的にクローズされません。同じドメインにメッセージを送信する準備ができている場合、同じSMTP セッションが再利用されます。そのため、セッションは自動的に閉じません。パラメーターIdleSessionTimeout パラメーターを使用すると、SMTP セッションが別のメッセージを待ってアクティブな状態を維持できる時間を定義できます。 期間が経過すると、セッションは自動的に閉じられます。<br /> </td> 
+   <td> アイドルセッションがタイムアウトになりました。 このパラメーターは、セッションが特定のドメインに複数のメッセージを送信するために再利用される場合にのみ使用されます。 MTAがメッセージ送信を完了した場合、使用したSMTP セッションは体系的にクローズされません。 同じドメインにメッセージを送信する準備ができている場合、同じSMTP セッションが再利用されます。そのため、セッションは自動的に閉じません。 パラメーターIdleSessionTimeout パラメーターを使用すると、SMTP セッションが別のメッセージを待ってアクティブな状態を維持できる時間を定義できます。 期間が経過すると、セッションは自動的に閉じられます。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -1909,7 +1905,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> 子サーバーによるSMTP セッションの最大数。 メッセージを配信するために、MTAは受信者MTAとのSMTP接続を初期化します。特定の子サーバーの同時SMTP セッションとアクティブ SMTP セッションの最大数は、この値によって制限されます。 この値にmaxSpareServersを掛けると、指定された子サーバーが同時に処理できるメッセージの最大数が得られます。<br /> </td> 
+   <td> 子サーバーによる SMTP セッションの最大数。 メッセージを配信するために、MTAは受信者MTAとのSMTP接続を初期化します。 特定の子サーバーの同時SMTP セッションとアクティブ SMTP セッションの最大数は、この値によって制限されます。 この値にmaxSpareServersを掛けると、指定された子サーバーが同時に処理できるメッセージの最大数が得られます。<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -1918,7 +1914,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta / 子 / smtp / IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信SMTP トラフィックのIP アドレスとのアフィニティの管理の設定です。
 
-詳細については、[使用するIP アドレスのリスト &#x200B;](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)および[&#x200B; アフィニティを使用した送信SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)を参照してください。
+詳細については、[使用するIP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)および[ アフィニティを使用した送信SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)を参照してください。
 
 <table> 
  <thead> 
@@ -1944,7 +1940,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta / 子 / smtp / IP** ノードで、次のパラメーターを設定します。
 
-詳しくは、[使用するIP アドレスのリスト &#x200B;](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
+詳しくは、[使用するIP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
 
 <table> 
  <thead> 
@@ -1962,7 +1958,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> 関連付けられた公開アドレス ID。統計サーバーのキーとして使用されます。 数値にする必要があります。 この<a href="../../installation/using/email-deliverability.md#managing-ip-addresses"> セクション </a>を参照してください。<br /> </td> 
+   <td> 関連付けられた公開アドレス ID。 統計サーバーのキーとして使用されます。 数値にする必要があります。 この<a href="../../installation/using/email-deliverability.md#managing-ip-addresses"> セクション </a>を参照してください。<br /> </td> 
    <td> Long<br /> </td> 
   </tr> 
   <tr> 
@@ -2216,7 +2212,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **securityZone** ノードの様々なパラメーターを次に示します。
 
-詳細については、[&#x200B; セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
+詳細については、[ セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2314,7 +2310,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **securityZone > subNetwork** ノードの様々なパラメーターを次に示します。
 
-詳細については、[&#x200B; セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
+詳細については、[ セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2837,7 +2833,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web** ノードの様々なパラメーターを次に示します。 これは、Web モジュールの設定です。
 
-詳細については、この[&#x200B; セクション &#x200B;](configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
+詳細については、この[ セクション ](configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
 
 <table> 
  <thead> 
@@ -3056,7 +3052,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web > リレー** ノードの様々なパラメーターを次に示します。 これは、2つのゾーン間のHTTP リクエストのリレーの設定です。
 
-詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、この[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3115,7 +3111,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 次のパラメーターを使用して、リレー（順序を挿入して優先順位を定義）するURLごとに&#x200B;**web/リレー/url** ノードを追加します。
 
-詳細については、[動的ページセキュリティおよびリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)および[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、[動的ページセキュリティおよびリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)および[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3291,7 +3287,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web > リダイレクト** ノードの様々なパラメーターを次に示します。 これは、リダイレクトモジュールの設定です。
 
-詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、この[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3380,7 +3376,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web/リダイレクト/spareServer** ノードの様々なパラメーターを次に示します。
 
-詳細については、[冗長トラッキング &#x200B;](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
+詳細については、[冗長トラッキング ](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
 
 <table> 
  <thead> 

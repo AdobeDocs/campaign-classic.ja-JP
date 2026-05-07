@@ -8,20 +8,20 @@ level: Beginner
 exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign と Adobe Analytics の連携 {#adobe-analytics-connector-gs}
 
-Adobe Analytics Connector を使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。キャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信されたキャンペーンの指標と属性を Adobe Analytics に送信します。
+Adobe Analytics Connector を使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 キャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。 逆に、Adobe Campaign から配信されたキャンペーンの指標と属性を Adobe Analytics に送信します。
 
 ## ガードレールと前提条件 {#adobe-analytics-connector-guardrails}
 
 Adobe Campaign-Adobe Analytics コネクタの使用を開始する前に、次のガードレールと前提条件を考慮してください。
 
-* この統合には、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。[詳細情報](../../integrations/using/about-adobe-id.md)。
+* この統合には、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。 [詳細情報](../../integrations/using/about-adobe-id.md)。
 
 * Adobe Analytics Connector は、トランザクションメッセージ（Message Center）との互換性はありません。
 

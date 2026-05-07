@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '189'
+workflow-type: tm+mt
+source-wordcount: '198'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 プライバシー管理に関する一般的なプレゼンテーションについては、[この節](privacy-management.md)を参照してください。
 
-この情報は、GDPR、CCPA、PDPA、LGPD に適用されます。これらの規制について詳しくは、[こちら](privacy-management.md#privacy-management-regulations)を参照してください。
+この情報は、GDPR、CCPA、PDPA、LGPD に適用されます。 これらの規制について詳しくは、[こちら](privacy-management.md#privacy-management-regulations)を参照してください。
 
 >[!NOTE]
 >
@@ -28,12 +28,12 @@ ht-degree: 100%
 
 <!--Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).-->
 
-プライバシーの準備を容易にするために、Adobe Campaign でアクセス要求と削除要求の処理が可能になりました。**アクセス権利**&#x200B;と&#x200B;**忘れられる権利**（削除要求）については、[この節](privacy-management.md#right-access-forgotten)で説明しています。
+プライバシーの準備を容易にするために、Adobe Campaign でアクセス要求と削除要求の処理が可能になりました。 **アクセス権利**&#x200B;と&#x200B;**忘れられる権利**（削除要求）については、[この節](privacy-management.md#right-access-forgotten)で説明しています。
 
 Adobe Campaign では、データ管理者は 2 とおりの方法でプライバシーのアクセスリクエストおよび削除リクエストをおこなうことができます。
 
-* **Adobe Campaign インターフェイス**&#x200B;を使用する：データ管理者はプライバシーリクエストごとに Adobe Campaign で新しいプライバシーリクエストを作成できます。[こちらの節](privacy-requests-ui.md)を参照してください。
-* **API** を使用する：Adobe Campaign の API により、SOAP を使用してプライバシーリクエストを自動処理できます。[こちらの節](privacy-requests-api.md)を参照してください。
+* **Adobe Campaign インターフェイス**&#x200B;を使用する：データ管理者はプライバシーリクエストごとに Adobe Campaign で新しいプライバシーリクエストを作成できます。 詳しくは、[この節](privacy-requests-ui.md)を参照してください。
+* **API** を使用する：Adobe Campaign の API により、SOAP を使用してプライバシーリクエストを自動処理できます。 詳しくは、[この節](privacy-requests-api.md)を参照してください。
 
 >[!NOTE]
 >

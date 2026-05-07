@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: スキーマ要素と属性 – パラメーター要素
-description: parameters 要素
+description: パラメーター要素
 feature: Schema Extension
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
@@ -11,7 +11,7 @@ ht-degree: 12%
 
 ---
 
-# parameters 要素 {#parameters--element}
+# パラメーター要素 {#parameters--element}
 
 
 ## コンテンツモデル {#content-model-13}
@@ -32,11 +32,11 @@ ht-degree: 12%
 
 ## 説明 {#description-13}
 
-この要素は、要素のグループ `<parameter>` 定義します。
+この要素は、`<parameter>`要素のグループを定義します。
 
-## 用途および使用コンテキスト {#use-and-context-of-use-8}
+## 用途と使用状況 {#use-and-context-of-use-8}
 
-`<method>` 要素の単一の `<param>` 子要素の場合でも、この要素は必須です。
+この要素は、`<method>`要素の1つの`<param>`子要素に対しても必須です。
 
 ## 属性の説明 {#attribute-description-13}
 

@@ -6,8 +6,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
-source-wordcount: '276'
+workflow-type: tm+mt
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 **デジタルコンテンツエディター（DCE）**&#x200B;は、Adobe Campaign 内で HTML 形式のコンテンツやテンプレートを容易に作成できる HTML コンテンツエディターです。
 
-DCE を使用すると、ページ要素の挿入や書式設定、HTML ページ要素とデータベースフィールドのマッピングなどをおこなえます。このエディターは、Web アプリケーションのページを作成する場合や、DCE テンプレートに基づいて配信を作成する場合に使用できます。
+DCE を使用すると、ページ要素の挿入や書式設定、HTML ページ要素とデータベースフィールドのマッピングなどをおこなえます。 このエディターは、Web アプリケーションのページを作成する場合や、DCE テンプレートに基づいて配信を作成する場合に使用できます。
 
 >[!NOTE]
 >

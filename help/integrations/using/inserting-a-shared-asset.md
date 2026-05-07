@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '233'
+workflow-type: tm+mt
+source-wordcount: '246'
 ht-degree: 100%
 
 ---
@@ -40,10 +40,10 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
 1. 表示される選択ウィンドウで画像を選択し、確定します。
 
-   Adobe Campaign インスタンスの設定により、Adobe Experience Cloud ライブラリまたは AEM Assets ライブラリからの画像を使用できます。[Assets へのアクセスの設定](../../integrations/using/configuring-access-to-assets.md)の節を参照してください。
+   Adobe Campaign インスタンスの設定により、Adobe Experience Cloud ライブラリまたは AEM Assets ライブラリからの画像を使用できます。 [Assets へのアクセスの設定](../../integrations/using/configuring-access-to-assets.md)の節を参照してください。
 
    ![](assets/dam_shared_image_selection.png)
 
 >[!NOTE]
 >
->Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。[このページ](../../integrations/using/integrating-with-adobe-target.md)を参照してください。
+>Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。 [このページ](../../integrations/using/integrating-with-adobe-target.md)を参照してください。

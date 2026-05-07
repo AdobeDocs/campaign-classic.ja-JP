@@ -10,7 +10,7 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '164'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 ## 受信者ツリー {#recipient-tree}
 
-高度な受信者管理機能を使用するには、Adobe Campaign ツリーを編集する必要があります。そのためには、ツールバーの「**[!UICONTROL エクスプローラー]**」ボタンをクリックします。
+高度な受信者管理機能を使用するには、Adobe Campaign ツリーを編集する必要があります。 そのためには、ツールバーの「**[!UICONTROL エクスプローラー]**」ボタンをクリックします。
 
-デフォルトでは、受信者は Adobe Campaign ツリーの「**[!UICONTROL プロファイルとターゲット]**」ノードに保存されています。同じノードから、1 つ以上のフォルダーとサブフォルダーを作成して受信者プロファイルを保存できます。
+デフォルトでは、受信者は Adobe Campaign ツリーの「**[!UICONTROL プロファイルとターゲット]**」ノードに保存されています。 同じノードから、1 つ以上のフォルダーとサブフォルダーを作成して受信者プロファイルを保存できます。
 
-各ノードはフォルダーに一致しています。各フォルダーのデータは、相互に分離されているとみなす必要があります。したがって、複数の受信者フォルダーがある場合、コピーは慎重におこなう必要があります。
+各ノードはフォルダーに一致しています。 各フォルダーのデータは、相互に分離されているとみなす必要があります。 したがって、複数の受信者フォルダーがある場合、コピーは慎重におこなう必要があります。
 
 >[!NOTE]
 >
-> * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳細については、[Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
+> * データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。 詳細については、[Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
 >
 > * プロファイルの管理方法について詳しくは、[Campaign （コンソール）v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}を参照してください。
 

@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->これらの手順は、**従来のネイティブ認証**&#x200B;を使用して Campaign に接続するオペレーターにのみ適用されます。Campaign Classic v7.3.1 以降、すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。[詳細情報](../../technotes/using/migrate-users-to-ims.md)
+>これらの手順は、**従来のネイティブ認証**&#x200B;を使用して Campaign に接続するオペレーターにのみ適用されます。 Campaign Classic v7.3.1 以降、すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。 [詳細情報](../../technotes/using/migrate-users-to-ims.md)
 >
 >Adobe ID を使用して Campaign に接続する場合は、次のセクションは適用されなくなります。 Adobe IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理者]**
 
-   このグループのオペレーターは、インスタンスに対して完全なアクセス権を持ちます。管理者は、インターフェイスの技術面において最高レベルのアクセス権限を持つユーザーです。このユーザーは&#x200B;**[!UICONTROL 管理者]**&#x200B;の役割を持ち、プラットフォームがすべて設定されていることを確認します。
+   このグループのオペレーターは、インスタンスに対して完全なアクセス権を持ちます。 管理者は、インターフェイスの技術面において最高レベルのアクセス権限を持つユーザーです。 このユーザーは&#x200B;**[!UICONTROL 管理者]**&#x200B;の役割を持ち、プラットフォームがすべて設定されていることを確認します。
 
    このグループには以下のネームド権限が設定されています。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL キャンペーンマネージャー]**
 
-   このグループのオペレーターは、マーケティングキャンペーンの管理を実行できます。**[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内で、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。
+   このグループのオペレーターは、マーケティングキャンペーンを管理できます。キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。 **[!UICONTROL Campaign]** （オプションのAdobe Campaign モジュール）のフレームワーク内。
 
    このグループには以下のネームド権限が設定されています。
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンテンツ寄稿者]**
 
-   このグループのオペレーターは、**[!UICONTROL コンテンツ管理]**（Adobe Campaign オプションモジュール）のフレームワーク内でコンテンツフォルダーにアクセスできます。このグループによってオペレーターに付与される権利はありません。
+   このグループのオペレーターは、**[!UICONTROL コンテンツ管理]**（Adobe Campaign オプションモジュール）のフレームワーク内でコンテンツフォルダーにアクセスできます。 このグループによってオペレーターに付与される権利はありません。
 
 1. **[!UICONTROL レポートへのアクセス]**
 
@@ -100,7 +100,8 @@ ht-degree: 100%
 
 1. **[!UICONTROL オファーマネージャー]**
 
-   このグループのオペレーターは、オファーの作成および管理をおこなえます。これについて詳しくは、この[ページ](../../interaction/using/operator-profiles.md)を参照してください。このグループには以下のネームド権限が設定されています。
+   このグループのオペレーターは、オファーの作成および管理をおこなえます。 これについて詳しくは、この[ページ](../../interaction/using/operator-profiles.md)を参照してください。
+このグループには以下のネームド権限が設定されています。
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。
    * **[!UICONTROL フォルダーを編集]**：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。

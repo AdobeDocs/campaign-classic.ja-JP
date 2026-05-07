@@ -7,8 +7,8 @@ role: Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 5%
+source-wordcount: '688'
+ht-degree: 6%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 ## テーブルの拡張 {#extending-a-table}
 
-**nms:recipient** スキーマ受信者テーブルを拡張するには、以下の手順を適用します。
+**nms:recipient** スキーマ受信者テーブルを拡張するには、次の手順を適用します。
 
-1. 次のデータを使用して、拡張スキーマ（**cus:extension**）を作成します。
+1. 次のデータを使用して、拡張スキーマ （**cus:extension**）を作成します。
 
    ```
    <srcSchema mappingType="sql" name="extension" namespace="cus" xtkschema="xtk:srcSchema" extendedSchema="nms:recipient">  
@@ -40,13 +40,13 @@ ht-degree: 5%
    </srcSchema>
    ```
 
-   この例では、インデックス付きフィールド（**fidelity**）が追加され、**nms** スキーマに既に存在している **location:recipient** 要素に列挙フィールド（**area**）が追加されます。
+   この例では、インデックス付きフィールド（**fidelity**）が追加され、**location**&#x200B;要素（**nms:recipient** スキーマに既に存在）に列挙フィールド（**area**）が追加されます。
 
    >[!IMPORTANT]
    >
-   >拡張スキーマを参照するには、**extendedSchema** 属性を必ず追加してください。
+   >拡張スキーマを参照するには、**extendedSchema**&#x200B;属性を追加することを忘れないでください。
 
-1. 拡張されたスキーマが **nms:recipient** スキーマであり、追加のデータが存在することを確認します。
+1. 拡張スキーマが&#x200B;**nms:recipient** スキーマであり、追加データが存在することを確認します。
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -72,7 +72,7 @@ ht-degree: 5%
    </schema>
    ```
 
-   データベース更新アシスタントから生成される SQL スクリプトは、次のとおりです。
+   データベース更新アシスタントから生成されるSQL スクリプトは次のとおりです。
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;
@@ -84,7 +84,7 @@ ht-degree: 5%
 
 ## リンクされたコレクションテーブル {#linked-collection-table}
 
-ここでは、一対多のカーディナリティを持つ受信者テーブルにリンクされた注文テーブルを作成する方法について説明します。
+この節では、基数1 ～ Nで受信者テーブルにリンクされた注文テーブルを作成する方法について説明します。
 
 注文テーブルのソーススキーマ：
 
@@ -101,9 +101,9 @@ ht-degree: 5%
 </srcSchema>
 ```
 
-受信者テーブルへのリンクの結合で使用される、自動生成されたプライマリキーを作成するためのテーブルタイプは **autopk** です。
+受信者テーブルへのリンクの結合で使用される自動生成プライマリキーを作成するために、テーブルタイプは&#x200B;**autopk**&#x200B;です。
 
-スキーマが生成されました：
+生成されたスキーマ：
 
 ```
 <schema label="Order" mappingType="sql" name="order" namespace="cus" xtkschema="xtk:schema">  
@@ -134,7 +134,7 @@ ht-degree: 5%
 </schema>
 ```
 
-テーブル作成 SQL スクリプトは次のとおりです。
+テーブル作成SQL スクリプトは次のとおりです。
 
 ```
 CREATE TABLE CusOrder(dTotal DOUBLE PRECISION NOT NULL Default 0, iOrderId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, sNumber VARCHAR(128), tsDate TIMESTAMP Default NULL);
@@ -145,15 +145,15 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 
 >[!NOTE]
 >
->スクリプトの最後にある SQL コマンド INSERT INTO を使用すると、外部結合をシミュレートするために、識別子レコードを 0 に設定して挿入できます。
+>スクリプトの最後にあるSQL コマンド INSERT INTOを使用すると、外部結合をシミュレートするために、識別子レコードを0に設定して挿入できます。
 
 ## 拡張テーブル {#extension-table}
 
-拡張テーブルを使用すると、リンクされたテーブル内の既存のテーブルのコンテンツを、カーディナリティ 1 ～ 1 で拡張できます。
+拡張テーブルを使用すると、基数1-1のリンクされたテーブル内の既存のテーブルのコンテンツを拡張できます。
 
-拡張テーブルの目的は、テーブルでサポートされるフィールドの数に関する制限を回避したり、オンデマンドで消費されるデータが占有するスペースを最適化したりすることです。
+拡張テーブルの目的は、テーブルでサポートされるフィールド数の制限を回避するか、オンデマンドで消費されるデータが占めるスペースを最適化することです。
 
-拡張テーブルスキーマを作成しています（**cus:feature**）:
+拡張テーブル スキーマ （**cus:feature**）を作成しています：
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -165,7 +165,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 </srcSchema>
 ```
 
-受信者テーブルに拡張スキーマを作成して、カーディナリティ 1 ～ 1 のリンクを追加します。
+受信者テーブルに拡張スキーマを作成して、基数1-1のリンクを追加します。
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipient" mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -179,7 +179,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 >
 >受信者テーブルと拡張テーブル間のリンクの定義は、外部キーを含むスキーマから入力する必要があります。
 
-拡張テーブルを作成する SQL スクリプトを次に示します。
+拡張テーブルを作成するためのSQL スクリプトは次のとおりです。
 
 ```
 CREATE TABLE CusFeature(  iChildren NUMERIC(3) NOT NULL Default 0, iFeatureId INTEGER NOT NULL Default 0, iSingle NUMERIC(3) NOT NULL Default 0, sSpouseFirstName VARCHAR(100));
@@ -187,7 +187,7 @@ CREATE UNIQUE INDEX CusFeature_id ON CusFeature(iFeatureId);
 INSERT INTO CusFeature (iFeatureId) VALUES (0); 
 ```
 
-受信者テーブルの SQL 更新スクリプトは次のとおりです。
+受信者テーブルのSQL更新スクリプトは次のとおりです。
 
 ```
 ALTER TABLE NmsRecipient ADD iFeatureId INTEGER;
@@ -199,11 +199,11 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 ## オーバーフローテーブル {#overflow-table}
 
-オーバーフローテーブルは拡張テーブル（カーディナリティ 1-1）であるが、拡張されるテーブルへのリンクの宣言はオーバーフローテーブルのスキーマに入力される。
+オーバーフローテーブルは拡張テーブル（基数1-1）ですが、拡張するテーブルへのリンクの宣言はオーバーフローテーブルのスキーマに入力されます。
 
-オーバーフローテーブルには、拡張するテーブルへの外部キーが含まれています。 したがって、拡張するテーブルは変更されません。 2 つのテーブル間の関係は、拡張するテーブルのプライマリキーの値です。
+オーバーフローテーブルには、拡張するテーブルへの外部キーが含まれています。 したがって、拡張するテーブルは変更されません。 2つのテーブル間の関係は、拡張するテーブルのプライマリキーの値です。
 
-オーバーフローテーブルスキーマを作成しています（**cus:overflow**）:
+オーバーフローテーブル スキーマ （**cus:overflow**）を作成しています：
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -222,9 +222,9 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 >[!NOTE]
 >
->オーバーフローテーブルのプライマリキーは、拡張するテーブルへのリンクです（この例では「nms:recipient」スキーマ）。
+>オーバーフローテーブルの主キーは、拡張するテーブルへのリンクです（この例では「nms:recipient」スキーマ）。
 
-テーブル作成 SQL スクリプトは次のとおりです。
+テーブル作成SQL スクリプトは次のとおりです。
 
 ```
 CREATE TABLE CusOverflow(iChildren NUMERIC(3) NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, iSingle NUMERIC(3) NOT NULL Default 0, sSpouseFirstName VARCHAR(100));
@@ -233,9 +233,9 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 ## 関係テーブル {#relationship-table}
 
-関連テーブルを使用すると、カーディナリティ N-N を持つ 2 つのテーブルをリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれます。
+関係テーブルを使用すると、2つのテーブルを基数N ～ Nにリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれます。
 
-グループ（**nms:group**）と受信者（**nms:recipient**）間の関係テーブルの例。
+グループ （**nms:group**）と受信者（**nms:recipient**）の関係テーブルの例。
 
 関係テーブルのSource スキーマ：
 
@@ -253,7 +253,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 </srcSchema>
 ```
 
-生成されるスキーマは次のようになります。
+生成されるスキーマは次のとおりです。
 
 ```
 <schema mappingType="sql" name="rcpGrpRel" namespace="cus" xtkschema="xtk:schema">  
@@ -289,7 +289,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 </schema>
 ```
 
-テーブル作成 SQL スクリプトは次のとおりです。
+テーブル作成SQL スクリプトは次のとおりです。
 
 ```
 CREATE TABLE CusRcpGrpRel( iRcpGroupId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0);
@@ -299,9 +299,9 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 ## ユースケース：既存の参照テーブルにフィールドをリンクする {#uc-link}
 
-このユースケースでは、ビルトインのAdobe Campaign列挙メカニズム（enum、userEnum、dbEnum）の代わりに既存の参照テーブルを使用する方法を示します。
+このユースケースでは、組み込みのAdobe Campaign列挙メカニズム（enum、userEnum、dbEnum）の代わりに、既存の参照テーブルを使用する方法を示します。
 
-また、既存の参照テーブルをスキーマの列挙として使用することもできます。 これを行うには、テーブルと参照テーブルの間にリンクを作成し、属性 **displayAsField=&quot;true&quot;** を追加します。
+既存の参照テーブルをスキーマの列挙として使用することもできます。 これは、テーブルと参照テーブルの間にリンクを作成し、属性&#x200B;**displayAsField=&quot;true&quot;**&#x200B;を追加することで実現できます。
 
 この例では、参照テーブルに銀行名と識別子のリストが含まれています。
 
@@ -319,19 +319,19 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-この参照テーブルを使用する任意のテーブルで、リンクを定義し、**displayAsField=&quot;true&quot;** 属性を追加します。
+この参照テーブルを使用する任意のテーブルで、リンクを定義し、**displayAsField=&quot;true&quot;**&#x200B;属性を追加します。
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
 ```
 
-ユーザーインターフェイスには、リンクではなくフィールドが表示されます。 ユーザーがそのフィールドを選択すると、参照テーブルから値を選択したり、オートコンプリート機能を使用したりできます。
+ユーザーインターフェイスには、リンクではなくフィールドが表示されます。 ユーザーがそのフィールドを選択すると、参照テーブルから値を選択するか、オートコンプリート機能を使用できます。
 
 ![](assets/schema-edition-ex.png)
 
-* オートコンプリートするには、参照テーブルに計算文字列を定義する必要があります。
+* オートコンプリートするには、参照テーブルで計算文字列を定義する必要があります。
 
-* Adobe Campaignが、リンクのソーステーブルに格納された値に対してインデックスを作成できないようにするには、リンク定義に **noDbIndex=&quot;true&quot;** 属性を追加します。
+* リンク定義に&#x200B;**noDbIndex=&quot;true&quot;**&#x200B;属性を追加して、Adobe Campaignがリンクのソーステーブルに保存されている値に対してインデックスを作成しないようにします。
 
 ## 関連トピック
 

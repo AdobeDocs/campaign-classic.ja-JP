@@ -1,26 +1,26 @@
 ---
 product: campaign
-title: スキーマの要素と属性 – 要素
-description: element
+title: スキーマ要素と属性 – エレメント要素
+description: 要素エレメント
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 0%
+source-wordcount: '2035'
+ht-degree: 1%
 
 ---
 
-# element {#element--element}
+# 要素エレメント {#element--element}
 
 
 ## コンテンツモデル {#content-model-4}
 
-要素：==（attribute | compute-string | dbindex |既定値 |要素 | ヘルプ |結合 | キー | sysFilter | translatedDefault）
+element:==（attribute | compute-string | dbindex | default | element | help | join | key | sysFilter | translatedDefault）
 
 ## 属性 {#attributes-4}
 
-_operation （string）、advanced （boolean）、aggregate （string）、applicableIf （string）、autopk （boolean）、belongsTo （string）、convDate （string）、dataPolicy （string）、dataSource （string）、dbEnum （string）、defOnDuplicate （boolean）、default （string）、desc （string）、displayAsField （boolean）、doesNotSupportDiff （boolean）、edit （string）、emptyKeyValue （string）、enum （string）、enumImage （string）、enumImage （string）、expand schemaTarget （string）、expr （string）、externalJoin （boolean）、feature （string）、featureDate （boolean）、filterPath （string）、folderLink （string）、folderModel （string）、folderProcess （string）、fullLoad （boolean）、hierarchicalPath （string）、img （string）、inout （string）、integrity （string）、label （string）、labelSingular （string）、length （string）、localizable （boolean）、name （MNTOKEN）、noDbIndex （boolean）、no key （boolean）、ordered （boolean）、overflowtable （boolean）、pkSequence （string）、pkgStatus （string）、ref （string）、required （boolean）、revAdvanced （boolean）、revCardinality （string）、revDesc （string）、revExternalJoin （boolean）、revIntegrity （string）、revLabel （string）、revLink （string）、revVisibleIf （string）、sql （boolean）、sqlname （string）、sqltable （string）、tableSpace （string）、tableSpaceIndex （string）、target （MNTOKEN）、template （string）、temporaryTable （boolean）、translatedDefault （string）、translatedExpr （string）、type （MNTOKEN）、unbound （boolean）、user （boolean）、userEnum （string）、visibleIf （string）、xml （boolean）、xmlChildren （boolean）
+_operation （文字列）、advanced （ブール値）、aggregate （文字列）、applicableIf （文字列）、autopk （ブール値）、belongsTo （文字列）、convDate （文字列）、dataPolicy （文字列）、dataSource （文字列）、dbEnum （文字列）、defOnDuplicate （ブール値）、default （文字列）、desc （文字列）、displayAsField （ブール値）、doesNotSupportDiff （ブール値）、edit （文字列）、emptyKeyValue （文字列）、enum （文字列） expandSchemaTarget （文字列）、expr （文字列）、externalJoin （ブール値）、feature （文字列）、featureDate （ブール値）、filterPath （文字列）、folderLink （文字列）、folderModel （文字列）、folderProcess （文字列）、fullLoad （ブール値）、階層（ブール値）、hierarchicalPath （文字列）、img （文字列）、inout （文字列）、integrity （文字列）、label （文字列）、labelSingular （文字列）、length （文字列）、localizable （ブール値）、name （MNTOKEN）, noDbIndex （boolean）, noKey （boolean）, ordered （boolean）, overflowtable （boolean）, pkSequence （string）, pkgStatus （string）, ref （string）, required （boolean）, revAdvanced （boolean）, revCardinality （string）, revDesc （string）, revExternalJoin （boolean）, revIntegrity （string）, revLabel （string）, revLink （string）, revstring revVisibleIf （文字列）, sql （ブール値）, sqlname （文字列）, sqltable （文字列）, tableSpace （文字列）, tableSpaceIndex （文字列）, target （MNTOKEN）, template （文字列）, temporaryTable （ブール値）, translatedDefault （文字列）, translatedExpr （文字列）, type （MNTOKEN）, unbound （ブール値）, user （ブール値）, userEnum （文字列）, visibleIf （文字列）, xml （ブール値）, xmlChildren （ブール値）
 
 ## 親 {#parents-4}
 
@@ -43,133 +43,133 @@ _operation （string）、advanced （boolean）、aggregate （string）、appl
 
 ## 説明 {#description-4}
 
-Adobe Campaignには、次の 4 種類の `<element>` 要素があります。
+Adobe Campaignの`<element>`要素には4つの種類があります。
 
-* ルート `<element>`：スキーマに一致する SQL テーブルの名前を定義します。
-* 構造 `<element>` :`<element>` のグループを定義します。   または   `<attribute>`    要素。
+* ルート `<element>`：スキーマに一致するSQL テーブルの名前を定義します。
+* 構造`<element>` :`<element>`または`<attribute>`要素のグループを定義します。
 * リンク `<element>`：リンクを定義します。 この要素には、「@type=link」属性を含める必要があります。
 * XML `<element>`：テキストタイプ「mData」フィールドを定義します。 この要素には、「@type=xml」属性を含める必要があります。
 
 ## 属性の説明 {#attribute-description-4}
 
-* **_operation （文字列）**：データベースへの書き込みのタイプを定義します。
+* **_operation （文字列）**: データベースへの書き込みの種類を定義します。
 
-  この属性は、主に標準スキーマを拡張する際に使用されます。
+  この属性は、主にすぐに使用できるスキーマを拡張する場合に使用されます。
 
   アクセス可能な値は次のとおりです。
 
-   * 「なし」：紐付けのみ。 つまり、Adobe Campaignは要素を更新せずに復元し、要素が存在しない場合はエラーを生成します。
-   * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignは要素を更新し、存在しない場合は作成します。
-   * 「挿入」：挿入。 つまり、Adobe Campaignは、存在するかどうかを確認せずに要素を挿入します。
-   * 「更新」：更新。 つまり、Adobe Campaignは要素を更新するか、要素が存在しない場合はエラーを生成します。
-   * 「削除」：削除。 つまり、Adobe Campaignは要素を復元して削除します。
+   * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
+   * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
+   * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
+   * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
+   * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
 
-* **詳細（ブール値）**：このオプションを有効にすると（@advanced=&quot;true&quot;）、フォームでのリストの設定にアクセスできる使用可能なフィールドのリストで属性を非表示にできます。
-* **集計（文字列）**：別のスキーマを使用して `<element>` の定義をコピーできます。 この属性は、「namespace:name」の形式でスキーマ宣言を受け取ります。
-* **applicableIf （string）**：インデックスを適用する条件。 この属性は XTK 式を受け取ります。
-* **autopk （boolean）**：このオプションをオンにする（autopk=&quot;true&quot;）と、一意のキーが自動的に定義されます。 このオプションは、スキーマのメイン要素でのみ使用できます。 警告：Adobe Campaignでは、生成されたキーが一意であることのみが保証されます。 キー値が連続して増分されるということは保証されません。
-* **dataPolicy （文字列）**:SQL フィールドで許可される値に対して承認制約を指定できます。 この属性の値は次のとおりです。
+* **詳細（ブール値）**：このオプションがアクティブ化されている場合（@advanced=&quot;true&quot;）、フォームでリストを設定するためにアクセス可能な使用可能なフィールドのリストで属性を非表示にできます。
+* **集計（文字列）**：別のスキーマを介して`<element>`の定義をコピーできます。 この属性は、「名前空間:name」の形式でスキーマ宣言を受け取ります。
+* **applicableIf （文字列）**: インデックスを適用するための条件。 この属性はXTK式を受け取ります。
+* **autopk （ブール値）**：このオプションがアクティブ化されている場合（autopk=&quot;true&quot;）、一意のキーが自動的に定義されます。 このオプションは、スキーマのメイン要素でのみ使用できます。 警告：Adobe Campaignでは、生成されるキーが一意であることが保証されます。 キー値が連続して増分である保証はありません。
+* **dataPolicy （文字列）**: SQL フィールドで許可される値に対する承認制約を指定できます。 この属性の値は次のとおりです。
 
-   * 「なし」：値なし
-   * 「smartCase」：最初の文字は大文字
-   * 「lowerCase」：すべて小文字
-   * 「upperCase」：すべて大文字
-   * 「email」：メールアドレス
-   * 「phone」：電話番号
+   * &quot;none&quot;：値なし
+   * &quot;smartCase&quot;：先頭の文字は大文字
+   * &quot;lowerCase&quot;：すべて小文字
+   * &quot;upperCase&quot;：すべて大文字
+   * &quot;email&quot;: メールアドレス
+   * &quot;phone&quot;：電話番号
    * &quot;identifier&quot;：識別子名
    * &quot;resIdentifier&quot;: ファイル名
 
-* **dbEnum （string）**:「クローズド」列挙の内部名を受け取ります。 定義済みリストの値は、`<srcschema>` で定義する必要があります。
-* **defOnDuplicate （boolean）**：この属性を有効にすると、レコードが複製されたときに、デフォルト値（@default で定義）が自動的にレコードに再適用されます。
-* **default （string）**：要素の動作（関数の呼び出し、デフォルト値）を定義できます。 この属性は XTK 式を受け取ります。
-* **desc （string）**：要素の説明を挿入できます。 この説明は、要素の概要と用途を理解するために使用されます。 フォームに表示できます。
-* **displayAsField （ブール値）**：この属性をアクティブ化すると、「リンク」タイプの `<element>` がスキーマのツリービュー（「構造」タブ）にフィールドとして表示されます。 これにより、リンクをローカルフィールドとして表示し、クエリ中に動作を変更できます。 クエリの SELECT 内に要素が見つかると、リンクターゲットの値が使用されます。 クエリの WHERE 内に要素が見つかった場合は、基になるリンクのキーが使用されます。
-* **edit （string）**：この属性は、スキーマにリンクされたフォームで使用される入力のタイプを指定します。
-* **enum （string）**：フィールドにリンクされた定義済みリストの名前を受け取ります。 定義済みリストは、同じスキーマまたはリモートスキーマに挿入できます。
-* **expr （文字列）**：この属性は、テーブルに定義が保存されない計算フィールドを定義します。 Xpath または XTK （文字列）式を受け取ります。
-* **externalJoin （ブール）**:「link」タイプの要素での外部結合。
-* **feature （string）**：特性フィールドを定義します。これらのフィールドは、既存のテーブルのデータを拡張するために使用されますが、別のテーブルへの格納は保持されます。 指定できる値は次のとおりです。
+* **dbEnum （文字列）**: 「クローズ済み」列挙の内部名を受け取ります。 列挙値は`<srcschema>`で定義する必要があります。
+* **defOnDuplicate （boolean）**：この属性がアクティブ化されると、レコードが複製されると、デフォルト値（@defaultで定義）が自動的にレコードに再適用されます。
+* **default （文字列）**：要素の動作（関数の呼び出し、デフォルト値）を定義できます。 この属性はXTK式を受け取ります。
+* **desc （string）**：要素の説明を挿入できます。 この説明は、要素とその用途を理解するために使用されます。 フォームに表示できます。
+* **displayAsField （boolean）**：この属性がアクティブ化されると、「リンク」タイプ `<element>`がスキーマのツリービュー（「構造」タブ）にフィールドとして表示されます。 これにより、リンクをローカルフィールドとして表示し、クエリ中に動作を変更することができます。 要素がクエリのSELECTで見つかった場合、リンクターゲットの値が使用されます。 要素がクエリのWHEREに見つかった場合、リンクの基になるキーが使用されます。
+* **編集（文字列）**：この属性は、スキーマにリンクされたフォームで使用される入力のタイプを指定します。
+* **enum （string）**: フィールドにリンクされた列挙の名前を受け取ります。 列挙は、同じスキーマまたはリモートスキーマに挿入できます。
+* **expr （文字列）**：この属性は、テーブルに定義が保存されていない計算フィールドを定義します。 XpathまたはXTK （文字列）式を受け取ります。
+* **externalJoin （boolean）**:「link」型要素の外部結合。
+* **機能（文字列）**：特性フィールドを定義します。これらのフィールドは、既存のテーブル内のデータを拡張するために使用されますが、追加テーブル内のストレージに使用されます。 使用できる値は次のとおりです。
 
    * 「共有」：コンテンツは、データタイプごとに共有テーブルに保存されます
-   * 「dedicated」：コンテンツは専用テーブルに保存されます
+   * 「専用」：コンテンツは専用テーブルに保存されます
 
-  SQL 特性テーブルは、特性タイプに基づいて自動的に作成されます。
+  SQL特性テーブルは、特性タイプに基づいて自動的に作成されます。
 
    * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  特性フィールドには、特性に対して単一の値が許可される単純なフィールドと、特性が複数の値を含むことができるコレクション要素にリンクされる複数選択フィールドの 2 種類があります。
+  特性フィールドには2つのタイプがあります。特性に対して1つの値が許可される単純なフィールドと、特性が複数の値を含む可能性のある収集要素にリンクされる複数選択フィールドです。
 
-  スキーマ内で特性が定義される場合、このスキーマには、単一のフィールドに基づくメインキーが必要です（複合キーは許可されていません）。
+  スキーマで特性が定義されている場合、このスキーマには1つのフィールドに基づくメインキーが必要です（複合キーは許可されていません）。
 
-* **featureDate （ブール値）**:「@feature」特性フィールドにリンクされた属性。 値が「true」の場合は、値が最後に更新された日時を調べることができます。
-* **filterPath （string）**：この属性は Xpath を受け取り、フィールドにフィルターを定義できます。
-* **folderLink （string）**：この属性は、エンティティを含んだファイルを回復できるリンクの名前を受け取ります。
-* **folderModel （文字列）**：エンティティストレージを有効にするフォルダーのタイプを定義します。 この属性は、「@folderLink」が存在する場合にのみ定義されます。
-* **folderProcess （文字列）**：エンティティモデルインスタンスが格納されるリンクを定義します。 この属性は、「@folderLink」が存在する場合にのみ定義されます。
-* **fullLoad （ブール値）**：この属性は、フォームでのフィールド選択時に、テーブル内のすべてのレコードを強制的に表示します。
-* **img （string）**：要素にリンクされた画像のパスを受け取ります。 この属性の値は、「namespace:image name」タイプです。 例：img=&quot;cus:myImage.jpg&quot;。 物理的には、画像をアプリケーションサーバーに読み込む必要があります。
-* **integrity （string）**：ターゲットテーブルに対するソーステーブルのオカレンスの参照整合性。
+* **featureDate （boolean）**: 「@feature」特性フィールドにリンクされた属性。 値が「true」の場合、値が最後に更新された日時を確認できます。
+* **filterPath （文字列）**：この属性はXpathを受け取り、フィールドにフィルターを定義できます。
+* **folderLink （文字列）**：この属性は、エンティティを含むファイルを復元できるリンクの名前を受け取ります。
+* **folderModel （文字列）**: エンティティの保存を有効にするフォルダーのタイプを定義します。 この属性は、「@folderLink」が存在する場合にのみ定義されます。
+* **folderProcess （文字列）**: エンティティ モデル インスタンスが保存されるリンクを定義します。 この属性は、「@folderLink」が存在する場合にのみ定義されます。
+* **fullLoad （ブール値）**：この属性は、フォームのフィールド選択中に、テーブル内のすべてのレコードを強制的に表示します。
+* **img （文字列）**：要素にリンクされた画像のパスを受け取ります。 この属性の値は「namespace:image name」タイプです。 例：img=&quot;cus:myImage.jpg&quot;。 物理的には、画像をアプリケーションサーバーに読み込む必要があります。
+* **整合性（文字列）**：ターゲットテーブルに対するソーステーブルの発生の参照整合性。
 
   アクセス可能な値は次のとおりです。
 
-   * 「define」：リンク経由で参照されている場合、Adobe Campaignがエンティティを削除しない
-   * 「normal」：ソースオカレンスを削除すると、ターゲットオカレンス（デフォルトモード）上のリンクのキーが初期化され、このタイプの整合性によってすべての外部キーが初期化されます
-   * &quot;own&quot;：ソースオカレンスを削除すると、ターゲットオカレンスの削除がトリガーされます
-   * 「owncopy」:「own」（削除の場合）や重複オカレンス（複製の場合）に似ています。
-   * &quot;neutral&quot;：何も実行しない
+   * &quot;define&quot;: Adobe Campaignは、リンクを介して参照されている場合、エンティティを削除しません
+   * 「通常」：ソースのオカレンスを削除すると、ターゲットのオカレンス上のリンクのキーが初期化されます（デフォルトモード）。このタイプの整合性は、すべての外部キーを初期化します
+   * 「own」：ソースのオカレンスを削除すると、ターゲットのオカレンスの削除がトリガーされます
+   * 「owncopy」: 「own」（削除の場合）と同様または重複する（重複の場合）
+   * &quot;neutral&quot;：何もしない
 
-* **label （string）**：要素のラベル。
-* **labelSingular （string）**: インターフェイスの一部で使用される要素のラベル（単数形）。
-* **length （string）**：最大 「文字列」タイプの SQL フィールドの値に使用できる文字数。
-* **localizable （boolean）**：有効な場合、この属性は、翻訳の「@label」属性の値を復元するようにコレクションツールに指示します（内部使用）。
-* **name （MNTOKEN）**：テーブル名に一致する要素の内部名。 「@name」属性の値は短く（できれば英語）、XML にリンクされた命名制約に準拠する必要があります。
+* **label （文字列）**：要素ラベル。
+* **labelSingular （string）**: インターフェイスの一部で使用される要素のラベル（単一形式）。
+* **長さ（文字列）**：最大 「文字列」タイプのSQL フィールドの値に対して許可されている文字数。
+* **ローカライズ可能（ブール値）**：この属性がアクティブ化されている場合、翻訳（内部使用）用に「@label」属性の値を回復するようにコレクションツールに指示します。
+* **name （MNTOKEN）**: テーブルの名前と一致する要素の内部名。 「@name」属性の値は短く、好ましくは英語で、XMLにリンクされた命名制約に準拠している必要があります。
 
-  スキーマがデータベースに書き込まれると、Adobe Campaignによって、フィールド名にプレフィックスが自動的に追加されます。
+  スキーマがデータベースに書き込まれると、Adobe Campaignによってフィールド名に接頭辞が自動的に追加されます。
 
-   * 「i」:「integer」タイプのプレフィックス。
-   * &quot;d&quot;: 「double」タイプのプレフィックス。
-   * 「s」：文字列タイプのプレフィックス。
-   * 「ts」:「日付」タイプのプレフィックス。
+   * &quot;i&quot;: &#39;integer&#39;型のプレフィックス。
+   * &quot;d&quot;: &#39;double&#39;型のプレフィックス。
+   * &quot;s&quot;：文字列型の接頭辞。
+   * &quot;ts&quot;: &#39;date&#39; タイプのプレフィックス。
 
-  自律的にテーブルの名前を定義するには、メインのスキーマ要素の定義で「@sqltable」属性を使用する必要があります。
+  自律的な方法でテーブルの名前を定義するには、メインスキーマ要素の定義で「@sqltable」属性を使用する必要があります。
 
-* **noDbIndex （ブール値）**：要素にインデックスを作成しないことを指定できます。
-* **ordered （boolean）**：属性がアクティブになっている場合（ordered=&quot;true&quot;）、Adobe Campaignは XML コレクション要素で要素宣言のシーケンスを保持します。
-* **pkSequence （string）**：自動増分キーの計算に使用するシーケンスの名前を受け取ります。 この属性は、自動増分キーがスキーマのルート要素で定義されている場合にのみ使用できます。
-* **pkgStatus （string）**：パッケージのエクスポート中、値はこの属性の値の関数として考慮されます。
+* **noDbIndex （boolean）**：要素にインデックスを作成しないように指定できます。
+* **ordered （boolean）**：属性がアクティブ化されている場合（ordered=&quot;true&quot;）、Adobe CampaignはXML コレクション要素に要素宣言シーケンスを保持します。
+* **pkSequence （文字列）**：自動増分キーの計算に使用するシーケンスの名前を受け取ります。 この属性は、自動インクリメンタルキーがスキーマのルート要素で定義されている場合にのみ使用できます。
+* **pkgStatus （文字列）**: パッケージの書き出し中に、この属性の値の関数として値が考慮されます：
 
-   * 「常に」：要素は常に存在します
-   * 「なし」：要素は存在しません
-   * 「default （or nothing）」：要素は、デフォルトの要素である場合や、内部フィールドではなく他のインスタンスとの互換性がない場合を除いて、書き出されます
+   * &quot;always&quot;：要素は常に存在します
+   * &quot;never&quot;：要素は存在しません
+   * 「デフォルト（または何も）」：デフォルトのエレメントでない場合、または内部フィールドではなく、他のインスタンスと互換性がない場合を除き、エレメントは書き出されます
 
-* **ref （string）**：この属性は、複数のスキーマ（定義ファクタリング）で共有される >element> 要素への参照を定義します。 定義は現在のスキーマにコピーされません。
-* **必須（ブール値）**：この属性をアクティブにする（@required=&quot;true&quot;）と、インターフェイスでフィールドがハイライト表示されます。 フォームではフィールドのラベルは赤になります。
-* **revAdvanced （boolean）**：有効にすると、この属性は反対側のリンクが「詳細」リンクであることを指定します。
-* **revCardinality （文字列）**：この属性は、2 つのテーブル間のリンクのカーディナリティを定義します。 「リンク」タイプの `<element>` で使用されます。
+* **ref （文字列）**：この属性は、複数のスキーマで共有されている>要素>要素への参照（定義ファクタリング）を定義します。 定義は現在のスキーマにコピーされません。
+* **必須（ブール値）**：この属性がアクティブ化されている場合（@required=&quot;true&quot;）、このフィールドはインターフェイスで強調表示されます。 フィールドのラベルはフォームで赤になります。
+* **revAdvanced （boolean）**：アクティブ化すると、この属性は、反対のリンクが「詳細」リンクであることを指定します。
+* **revCardinality （文字列）**：この属性は、2つのテーブル間のリンクの基数を定義します。 「リンク」タイプ `<element>`で使用されます。
 
   次のような値を選択できます。
 
-   * 「single」：シンプルな 1-1 タイプのリンク
-   * 「unbound」:1-N タイプのコレクションリンク
+   * 「シングル」：シンプルな1-1文字のリンク
+   * &quot;unbound&quot;: 1-N type collection link
 
-  デフォルトでは、リンクの作成時に属性が指定されていない場合、カーディナリティは 1-N になります。
+  デフォルトでは、リンク作成時に属性が指定されない場合、基数は1 ～ Nになります。
 
-* **revDesc （文字列）**：この属性は、反対側のリンクにリンクされた説明を受け取ります。
-* **revExternalJoin （boolean）**：有効にすると、この属性を使用して反対側のリンクに外部結合を強制できます。
-* **revIntegrity （string）**：この属性は、ターゲットスキーマの整合性を定義します。 「@integrity」属性と同じ値が許可されます。 デフォルトでは、Adobe Campaignはこの属性に「normal」値を付与します。
+* **revDesc （文字列）**：この属性は、反対のリンクにリンクされた説明を受け取ります。
+* **revExternalJoin （boolean）**：この属性を有効にすると、外部の結合を反対のリンクに強制的に行うことができます。
+* **revIntegrity （string）**：この属性は、ターゲットスキーマの整合性を定義します。 「@integrity」属性と同じ値が許可されます。 デフォルトでは、Adobe Campaignはこの属性に「通常」の値を与えます。
 * **revLabel （文字列）**：反対のリンクのラベル。
-* **revLink （文字列）**：反対のリンクの名前。 値が「_NONE_」の場合、宛先スキーマに反対のリンクは作成されません。
-* **revTarget （文字列）**：反対のリンクのターゲット。
-* **sql （ブール値）**：この属性がアクティブ化されている場合（@sql=&quot;true&quot;）、要素に xml=&quot;true&quot; プロパティがある場合でも、SQL 要素のストレージを強制します。
-* **sqlname （string）**: テーブル作成中のフィールドの名前。 「@sqlname」を指定しない場合、「@name」属性の値がデフォルトで使用されます。 スキーマをテーブルに書き込む場合、フィールドのタイプに応じて、プレフィックスが自動的に追加されます。
-* **sqltable （string）**：スキーマのメイン要素に対して、この属性は、デフォルトで生成される SQL テーブルの名前をオーバーロードします。 「@sqltable」を指定しない場合、デフォルトの名前は、名前空間（最初の文字は大文字）の後に SrcSchema 「@name」の値が続くように構成されます。
-* **tableSpace （string）**：この属性を使用すると、テーブルの新しいデータ保存用のテーブル領域（ルート `<element>` ージで有効）を指定できます。
-* **tableSpaceIndex （string）**：この属性を使用すると、テーブルの新しいインデックスストレージのテーブルスペースを指定できます（ルート `<element>` で有効）。
-* **target （MNTOKEN）**：テーブル間のリンクを作成する際に、ターゲットスキーマの名前を受け取ります。 この属性は、「リンク」タイプの要素に対してのみアクティブです。
-* **template （文字列）**：この属性は、複数のスキーマで共有される `<element>` 要素への参照を定義します。 定義は、現在のスキーマに自動的にコピーされます。
-* **translatedDefault （string）**:「@default」属性が見つかった場合、「@translatedDefault」を使用すると、@default で定義された式と一致し、翻訳ツールによって収集される式を再定義できます（内部使用）。
-* **translatedExpr （文字列）**:「@expr」属性が見つかった場合、「@translatedExpr」属性を使用すると、「@expr」で定義された式と一致し、翻訳ツールによって収集される式を再定義できます（内部使用）。
+* **revLink （文字列）**：反対リンクの名前。 値が「_NONE_」の場合、宛先スキーマに反対のリンクは作成されません。
+* **revTarget （文字列）**：反対リンクのターゲット。
+* **sql （ブール値）**：この属性がアクティブ化されている場合（@sql=&quot;true&quot;）、要素にxml=&quot;true&quot; プロパティがある場合でも、SQL要素の格納が強制されます。
+* **sqlname （文字列）**: テーブル作成時のフィールドの名前。 「@sqlname」が指定されていない場合、「@name」属性の値がデフォルトで使用されます。 スキーマをテーブルに書き込む場合、フィールドのタイプに応じて接頭辞が自動的に追加されます。
+* **sqltable （string）**: スキーマのメイン要素では、この属性によって、デフォルトで生成されたSQL テーブルの名前がオーバーロードされます。 「@sqltable」が指定されていない場合、デフォルトの名前は名前空間（先頭の大文字）の後にSrcSchemaの「@name」の値が続くような構造になります。
+* **tableSpace （文字列）**：この属性を使用すると、テーブルのテーブルスペースを格納する新しいデータを指定できます（ルート `<element>`で有効）。
+* **tableSpaceIndex （文字列）**：この属性を使用すると、テーブルの新しいインデックスストレージ表領域を指定できます（ルート `<element>`で有効）。
+* **target （MNTOKEN）**: テーブル間のリンクを作成する際に、ターゲットスキーマの名前を受け取ります。 この属性は、「リンク」タイプの要素に対してのみ有効です。
+* **テンプレート（文字列）**：この属性は、複数のスキーマで共有されている`<element>`要素への参照を定義します。 定義は現在のスキーマに自動的にコピーされます。
+* **translatedDefault （string）**: 「@default」属性が見つかった場合、「@translatedDefault」を使用すると、翻訳ツールで収集される@defaultで定義された式と一致するように式を再定義できます（内部使用）。
+* **translatedExpr （string）**: 「@expr」属性が見つかった場合、「@translatedExpr」属性を使用すると、「@expr」で定義された式と一致する式を再定義できます。この式は、翻訳ツールで収集されます（内部使用）。
 * **type （MNTOKEN）**：要素に保存されるデータのタイプを定義します。
 
   使用可能なタイプのリスト：
@@ -181,8 +181,8 @@ Adobe Campaignには、次の 4 種類の `<element>` 要素があります。
    * バイト
    * CDATA
    * 日時
-   * datetimetz
-   * datetimenoz
+   * datetime
+   * datetimenotz
    * 日付
    * 倍精度浮動小数点数
    * 列挙
@@ -190,10 +190,10 @@ Adobe Campaignには、次の 4 種類の `<element>` 要素があります。
    * html
    * int64
    * リンク
-   * 長い
+   * 長整数
    * メモ
-   * MNTOKEN
-   * 割合
+   * MN トークン
+   * パーセント
    * primarykey
    * 短い
    * 文字列
@@ -201,7 +201,7 @@ Adobe Campaignには、次の 4 種類の `<element>` 要素があります。
    * 期間
    * uuid
 
-* **unbound （ブール値）**：属性がアクティブになっている（unbound=&quot;true&quot;）場合、リンクは 1 対多のカーディナリティのコレクション要素として宣言されます。
-* **userEnum （文字列）**:「開いている」列挙の内部名を受け取ります。 定義済みリストの値は、ユーザーがインターフェイスで定義できます。
-* **xml （ブール値）**：このオプションを有効にすると、要素で定義されたすべての値が、TEXT タイプの「mData」フィールドの XML に保存されます。 つまり、これらのフィールドに対してフィルタリングや並べ替えは行われません。
-* **xmlChildren （ブール値）**：子ごとに強制的にストレージを設定します（`<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
+* **unbound （boolean）**：属性がアクティブ化されている場合（unbound=&quot;true&quot;）、リンクは1-N基数のコレクション要素として宣言されます。
+* **userEnum （文字列）**:「open」列挙の内部名を受け取ります。 列挙値は、インターフェイスでユーザーが定義できます。
+* **xml （ブール値）**：このオプションが有効になっている場合、エレメントで定義されたすべての値がXMLでTEXT タイプの「mData」フィールドに格納されます。 つまり、これらのフィールドにフィルタリングや並べ替えはありません。
+* **xmlChildren （ブール値）**：各子に強制的にストレージを適用します（`<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`）

@@ -9,24 +9,24 @@ hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '1002'
+ht-degree: 98%
 
 ---
 
 # パーソナライゼーションブロック{#personalization-blocks}
 
-パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。[パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
+パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。 [パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
 
-パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
+パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。 デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 
-新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。詳しくは、[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照してください。
+新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。 詳しくは、[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照してください。
 
 >[!NOTE]
 >
->パーソナライゼーションブロックは、**[!UICONTROL デジタルコンテンツエディター（DCE）]**&#x200B;から使用することもできます。詳しくは、[このページ](../../web/using/editing-content.md#inserting-a-personalization-block)を参照してください。
+>パーソナライゼーションブロックは、**[!UICONTROL デジタルコンテンツエディター（DCE）]**&#x200B;から使用することもできます。 詳しくは、[このページ](../../web/using/editing-content.md#inserting-a-personalization-block)を参照してください。
 
 ## パーソナライゼーションブロックの挿入 {#inserting-personalization-blocks}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
-1. パーソナライゼーションブロックがスクリプトとして挿入されます。パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
+1. パーソナライゼーションブロックがスクリプトとして挿入されます。 パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 
    ![](assets/s_ncs_user_personalized_block03.png)
 
@@ -49,11 +49,11 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_personalized_block04.png)
 
-配信コンテンツには、パーソナライゼーションブロックのソースコードを含めることができます。そのためには、ブロックの選択時に「**[!UICONTROL ブロックの HTML ソースコードを含める]**」を選択します。
+配信コンテンツには、パーソナライゼーションブロックのソースコードを含めることができます。 そのためには、ブロックの選択時に「**[!UICONTROL ブロックの HTML ソースコードを含める]**」を選択します。
 
 ![](assets/s_ncs_user_personalized_block05.png)
 
-HTML ソースコードが配信コンテンツに挿入されます。一例として、下図には&#x200B;**[!UICONTROL 挨拶]**&#x200B;パーソナライゼーションブロックが表示されています。
+HTML ソースコードが配信コンテンツに挿入されます。 一例として、下図には&#x200B;**[!UICONTROL 挨拶]**&#x200B;パーソナライゼーションブロックが表示されています。
 
 ![](assets/s_ncs_user_personalized_block06.png)
 
@@ -73,12 +73,12 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 1. 新しい配信を作成するか、メールタイプの既存の配信を開きます。
 1. 配信アシスタントで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力を行います。
-1. メッセージ本文にパーソナライゼーションブロックを挿入します。そのためには、メッセージコンテンツ、パーソナライゼーションフィールドアイコンの順にクリックし、「**[!UICONTROL 含める]**」メニューを選択します。
-1. 挿入する最初のブロックを選択します。上記の手順を繰り返して他の 2 つのブロックも挿入します。
+1. メッセージ本文にパーソナライゼーションブロックを挿入します。 そのためには、メッセージコンテンツ、パーソナライゼーションフィールドアイコンの順にクリックし、「**[!UICONTROL 含める]**」メニューを選択します。
+1. 挿入する最初のブロックを選択します。 上記の手順を繰り返して他の 2 つのブロックも挿入します。
 
    ![](assets/s_ncs_user_personalized_block_example.png)
 
-1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを表示するには、受信者を選択する必要があります。
+1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。 受信者に応じたメッセージを表示するには、受信者を選択する必要があります。
 
    ![](assets/s_ncs_user_personalized_block_example2.png)
 
@@ -94,7 +94,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL 挨拶]**：受信者の名前と共に挨拶文を挿入します。例：「こんにちは、John Doe。」
+* **[!UICONTROL 挨拶]**：受信者の名前と共に挨拶文を挿入します。 例：「こんにちは、John Doe。」
 * **[!UICONTROL ロゴを挿入]**：インスタンスの設定時に定義された標準のロゴを挿入します。
 * **[!UICONTROL Powered by Adobe Campaign]**：「Powered by Adobe Campaign」ロゴを挿入します。
 * **[!UICONTROL ミラーページの URL]**：ミラーページの URL を挿入し、配信 designer がリンクを確認できるようにします。
@@ -107,8 +107,8 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 * **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。
 * **[!UICONTROL 登録ページ URL]**：購読 URL を挿入します（[サービスと購読について](about-services-and-subscriptions.md)を参照）。
-* **[!UICONTROL 登録リンク]**：購読リンクを挿入します。これは、インスタンスの設定時に定義されたものです。
-* **[!UICONTROL 登録リンク（リファラーを含む）]**：購読リンクを挿入し、訪問者と配信を識別できるようにします。このリンクは、インスタンスの設定時に定義されたものです。
+* **[!UICONTROL 登録リンク]**：購読リンクを挿入します。 これは、インスタンスの設定時に定義されたものです。
+* **[!UICONTROL 登録リンク（リファラーを含む）]**：購読リンクを挿入し、訪問者と配信を識別できるようにします。 このリンクは、インスタンスの設定時に定義されたものです。
 
   >[!NOTE]
   >
@@ -116,12 +116,12 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
 * **[!UICONTROL ソーシャルネットワーク共有リンク]**：メールクライアント、Facebook、X（旧 Twitter）および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
-* **[!UICONTROL コンテンツメールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルでメールを書式設定するコードを生成します。これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
+* **[!UICONTROL コンテンツメールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルでメールを書式設定するコードを生成します。 これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
 * **[!UICONTROL 単一モードのオファー承認 URL]**：インタラクションオファーを&#x200B;**[!UICONTROL 許可済み]**&#x200B;に設定できる URL を挿入します（[この節](../../interaction/using/offer-analysis-report.md)を参照）。
 
 ## カスタムパーソナライゼーションブロックの定義 {#defining-custom-personalization-blocks}
 
-**[!UICONTROL 含める]**&#x200B;メニューのパーソナライゼーションフィールドアイコンを使用すると、挿入する新しいパーソナライゼーションフィールドを定義できます。それらのフィールドは、パーソナライゼーションブロック内に定義されます。
+**[!UICONTROL 含める]**&#x200B;メニューのパーソナライゼーションフィールドアイコンを使用すると、挿入する新しいパーソナライゼーションフィールドを定義できます。 それらのフィールドは、パーソナライゼーションブロック内に定義されます。
 
 パーソナライゼーションブロックを作成するには、エクスプローラーを開き、次の手順に従います。
 
@@ -131,7 +131,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    ![](assets/s_ncs_user_personalized_block.png)
 
-   * ブロックのラベルを入力します。このラベルは、パーソナライゼーションフィールドの挿入ウィンドウに表示されます。
+   * ブロックのラベルを入力します。 このラベルは、パーソナライゼーションフィールドの挿入ウィンドウに表示されます。
    * このブロックに、パーソナライゼーションフィールドの挿入アイコンからアクセスできるよう、「**[!UICONTROL カスタマイズメニューに表示]**」を選択します。
    * 必要な場合は、「**[!UICONTROL パーソナライゼーションブロックの内容を、フォーマット（HTML またはテキスト）ごとに変更]**」を選択し、HTML メールとテキストメールの 2 つの個別のブロックを定義します。
 
@@ -139,12 +139,12 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
+   * コンテンツを入力します（HTML、テキスト、JavaScriptなど）。 パーソナライゼーションブロックの&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 ## チュートリアルビデオ {#personalization-blocks-video}
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27460?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

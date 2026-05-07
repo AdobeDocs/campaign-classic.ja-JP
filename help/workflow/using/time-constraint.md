@@ -7,8 +7,8 @@ hide: true
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 51%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 100%
 
 アクティビティのラベルを入力し、ワークフロータスクを一時停止する期間を指定します。
 
-「**[!UICONTROL 実行期間外の場合は後で再試行]**」オプションが選択されている場合、実行期間外でも、タスクを再起動できます。停止期間の後で、ワークフローのアクションを完全に中止する場合、このオプションの選択を解除します。
+「**[!UICONTROL 実行期間外で後でもう一度試す]**」オプションが選択されている場合、実行時間枠外でタスクを再開できます。 ワークフローアクションを休止した後に破棄する場合は、このオプションの選択を解除します。
 
 ![](assets/s_user_scheduled_wait.png)

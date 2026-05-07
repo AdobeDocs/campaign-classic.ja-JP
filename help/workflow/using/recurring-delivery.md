@@ -7,7 +7,7 @@ hide: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. 配信テンプレートを設定します。
 
-このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
+このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。 詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -38,11 +38,11 @@ ht-degree: 100%
 
 ## 繰り返し配信の設定方法 {#set-up-recurring-delivery}
 
-**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 回の配信が行われることになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
+**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 回の配信が行われることになります。 また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 
-繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。Campaign ダッシュボードから配信を停止すると、配信の発生は停止されます：繰り返し配信の次回のインスタンスは、ワークフローの実行のたびに作成され続けます。
+繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。 Campaign ダッシュボードから配信を停止すると、配信の発生は停止されます：繰り返し配信の次回のインスタンスは、ワークフローの実行のたびに作成され続けます。
 
 >[!NOTE]
 >
@@ -54,6 +54,6 @@ ht-degree: 100%
 
 このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27508?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

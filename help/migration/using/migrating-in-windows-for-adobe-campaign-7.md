@@ -10,7 +10,7 @@ hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -278,7 +278,7 @@ Adobe Campaignをデプロイするには、次の手順を実行します。
 
 ## リダイレクトサーバーの移行 {#migrating-the-redirection-server--iis-}
 
-この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止](#service-stop)を参照してください。
+この段階で、IIS サーバーを停止する必要があります。 [ サービス停止](#service-stop)を参照してください。
 
 1. **インターネット インフォメーション サービス （IIS） マネージャー** コンソールを開きます。
 1. Adobe Campaignの以前のバージョンで使用していたサイトのバインディング（リッスン ポート）を変更します。

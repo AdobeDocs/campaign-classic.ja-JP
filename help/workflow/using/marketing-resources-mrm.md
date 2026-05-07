@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">ディスカッションフォーラムプロセス</span> <br /> </td> 
    <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
-   <td> ディスカッションフォーラムからの通知の配信を管理します。承認シグナルを受信するとトリガーされます。<br /> </td> 
+   <td> ディスカッションフォーラムからの通知の配信を管理します。 承認シグナルを受信するとトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

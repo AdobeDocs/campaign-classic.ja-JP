@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Synapse へのアクセスの設定
-description: FDA で Synapse へのアクセスを設定する方法を説明します
+title: Synapseへのアクセス権の設定
+description: FDAでSynapseへのアクセスを設定する方法について説明します
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -9,31 +9,31 @@ topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 68%
+source-wordcount: '876'
+ht-degree: 70%
 
 ---
 
-# azure synapseへのアクセスの設定 {#configure-access-to-azure-synapse}
+# Azure Synapseへのアクセス権の設定 {#configure-access-to-azure-synapse}
 
 
 
-Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用して、外部データベースに保存されている情報を処理します。 **Microsoft Azure synapse分析** へのアクセスを設定するには、次の手順に従います。
+外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 **Microsoft Azure Synapse Analytics**&#x200B;へのアクセスを設定するには、次の手順に従います。
 
-1. [CentOS](#azure-centos)、[Windows](#azure-windows) または [Debian](#azure-debian) のAzure synapseを設定
-1. Campaign でのAzure synapse[&#x200B; 外部アカウント &#x200B;](#azure-external) の設定
+1. [CentOS](#azure-centos)、[Windows](#azure-windows)または[Debian](#azure-debian)でAzure Synapseを設定します
+1. CampaignでAzure Synapse [外部アカウント ](#azure-external)を設定する
 
-## CentOS のAzure synapse {#azure-centos}
+## CentOS上のAzure Synapse {#azure-centos}
 
 >[!CAUTION]
 >
->* ODBC ドライバをインストールするには、root 権限が必要です。
+>* ODBC ドライバをインストールするには、root権限が必要です。
 >* Microsoft が提供する Red Hat Enterprise ODBC ドライバーは、CentOS と組み合わせて SQL Server に接続することもできます。
 >* バージョン 13.0 は Red Hat 6 および 7 で動作します。
 
-CentOS でAzure synapseを設定するには、次の手順に従います。
+CentOSでAzure Synapseを設定するには、次の手順に従います。
 
-1. まず、ODBC ドライバーをインストールします。こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
+1. まず、ODBC ドライバーをインストールします。 こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
 
    >[!NOTE]
    >
@@ -81,15 +81,15 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    sudo yum install unixODBC-devel
    ```
 
-1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。次のコマンドを実行します。
+1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。 次のコマンドを実行します。
 
    ```
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. その後、Campaign で [!DNL Azure Synapse] 外部アカウントを設定します。 外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#azure-external) を参照してください。
+1. Campaignで、[!DNL Azure Synapse]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#azure-external)を参照してください。
 
-1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。次のコマンドを使用します。
+1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。 次のコマンドを使用します。
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -98,7 +98,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
+   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
 1. iptables の場合は、次のコマンドを実行します。
 
@@ -106,7 +106,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows でのAzure synapse {#azure-windows}
+## Windows版Azure Synapse {#azure-windows}
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。[&#x200B; このページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=50420) で確認できます。
+1. まず、Microsoft ODBC ドライバーをインストールします。 [このページ ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)で見つけることができます。
 
 1. 次のファイルを選択してインストールします。
 
@@ -122,18 +122,18 @@ Windows で Azure Synaps を設定するには、以下を実行します。
    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
    ```
 
-1. ODBC ドライバーをインストールした後、必要に応じてテストできます。詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15)を参照してください。
+1. ODBC ドライバーをインストールした後、必要に応じてテストできます。 詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15)を参照してください。
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#azure-external) を参照してください。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#azure-external)を参照してください。
 
-1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
+1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。 詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
 
-## Debian のAzure synapse {#azure-debian}
+## Debian版Azure Synapse {#azure-debian}
 
 **前提条件：**
 
 * ODBC ドライバーをインストールするには、ルート権限が必要です。
-* msodbcsql パッケージをインストールするには、curl が必要です。インストールしていない場合は、次のコマンドを実行します。
+* msodbcsql パッケージをインストールするには、curl が必要です。 インストールしていない場合は、次のコマンドを実行します。
 
   ```
   sudo apt-get install curl
@@ -141,7 +141,7 @@ Windows で Azure Synaps を設定するには、以下を実行します。
 
 Debian で Azure Synapse を設定するには、以下を実行します。
 
-1. まず、SQL Server 用の Microsoft ODBC ドライバーをインストールします。次のコマンドを使用して、SQL Server 用の ODBC ドライバー 13.1 をインストールします。
+1. まず、SQL Server 用の Microsoft ODBC ドライバーをインストールします。 次のコマンドを使用して、SQL Server 用の ODBC ドライバー 13.1 をインストールします。
 
    ```
    sudo su
@@ -158,7 +158,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    sudo apt-get install apt-transport-https ca-certificates
    ```
 
-1. 次のコマンドを使用して、mssql-tools をインストールする必要があります。一括コピープログラム（または BCP）ユーティリティを使用してクエリを実行するには、mssq-tools が必要です。
+1. 次のコマンドを使用して、mssql-tools をインストールする必要があります。 一括コピープログラム（または BCP）ユーティリティを使用してクエリを実行するには、mssq-tools が必要です。
 
    ```
    sudo ACCEPT_EULA=Y apt-get install mssql-tools
@@ -173,13 +173,13 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    sudo yum install unixODBC-devel
    ```
 
-1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。次のコマンドを実行します。
+1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。 次のコマンドを実行します。
 
    ```
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[&#x200B; この節 &#x200B;](#azure-external) を参照してください。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#azure-external)を参照してください。
 
 1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウトバウンド TCP 1433 ポートを有効にします。
 
@@ -189,15 +189,15 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
+   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
-## Azure synapse外部アカウント {#azure-external}
+## Azure Synapse外部アカウント {#azure-external}
 
-[!DNL Azure Synapse] 外部アカウントを使用すると、Campaign インスタンスをAzure synapseの外部データベースに接続できます。
+[!DNL Azure Synapse]外部アカウントを使用すると、Campaign インスタンスをAzure Synapse外部データベースに接続できます。
 
-[!DNL Azure Synapse] 外部アカウントを作成するには、次の手順に従います。
+[!DNL Azure Synapse]外部アカウントを作成するには、次の手順に従います。
 
-1. Campaign **[!UICONTROL エクスプローラー]** で、「**[!UICONTROL 管理]** 「>」 **[!UICONTROL プラットフォーム]** 「>」 **[!UICONTROL 外部アカウント]** をクリックします。
+1. キャンペーン **[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
@@ -205,13 +205,13 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    ![](assets/azure_1.png)
 
-1. **[!UICONTROL Configuration]** の下で、{Type **ドロップダウンから**&#x200B;[!UICONTROL &#x200B; 2}Azure synapse分析 &#x200B;]&#x200B;**を選択します。**
+1. **[!UICONTROL Configuration]**&#x200B;で、**[!UICONTROL Type]** ドロップダウンから&#x200B;**[!UICONTROL Azure Synapse Analytics]**&#x200B;を選択します。
 
    ![](assets/azure_2.png)
 
-1. [!DNL Azure Synapse] 外部アカウントを設定します。
+1. [!DNL Azure Synapse]外部アカウントを設定します。
 
-   * 標準認証の場合、次を指定する必要があります。
+   * 標準認証の場合は、次を指定する必要があります。
 
       * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
 
@@ -223,13 +223,13 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
      ![](assets/azure_3.png)
 
-   * システムが割り当てた管理 ID 認証の場合は、次を指定する必要があります。
+   * システム割り当てマネージド ID認証の場合は、次を指定する必要があります。
 
       * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
 
       * **[!UICONTROL データベース]**：データベースの名前
 
-      * **[!UICONTROL オプション]**：次の構文 `Authentication=ActiveDirectoryMsi` を追加します
+      * **[!UICONTROL オプション]**：次の構文`Authentication=ActiveDirectoryMsi`を追加します
 
      ![](assets/azure_4.png)
 
@@ -239,4 +239,4 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 </br> 詳しくは、[SQL ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列 n°8 の例）を参照してください。 |
+| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳細については、[SQL ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列の例n°8）を参照してください。 |

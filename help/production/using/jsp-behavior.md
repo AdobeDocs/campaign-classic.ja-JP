@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 858d00d0-7c65-43be-8bae-f0f945f71f1a
 source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 36%
+source-wordcount: '66'
+ht-degree: 54%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 36%
 
 
 
-特定の **jsp** ジョブが正常に実行されない場合は、強制的に再コンパイルする必要があります。
+特定の&#x200B;**jsp** ジョブが正常に実行されない場合は、強制的に再コンパイルする必要があります。
 
-それには、次のコマンドを入力します。
+これには、次のコマンドを入力します。
 
 ```
 nlserver stop web
@@ -30,4 +30,4 @@ rm -r work/
 nlserver start web
 ```
 
-**jsp** ジョブは、次回接続する際に再生成されます。
+次回の接続時に&#x200B;**jsp** ジョブが再生成されます。

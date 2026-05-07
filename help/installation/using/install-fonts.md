@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: フォントのインストール
-description: フォントのインストール方法を学ぶ
+description: フォントのインストール方法について説明します
 feature: Installation, Application Settings
 audience: installation
 content-type: reference
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 
 
-次に、新しいフォントを Campaign アプリケーションサーバーにインストールする方法を示します。
+Campaign アプリケーションサーバーに新しいフォントをインストールする方法を次に示します。
 
-新しいフォントは、MTA プロセスが実行されるすべてのコンテナの `/usr/local/share/` フォルダーに配置できます。
+新しいフォントは、MTA プロセスが実行されるすべてのコンテナの`/usr/local/share/` フォルダーに配置できます。

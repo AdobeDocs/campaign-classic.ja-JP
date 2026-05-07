@@ -7,17 +7,17 @@ feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 97%
 
 ---
 
-# ユースケース：概要ページの作成 {#use-cases-creating-overviews}
+# ユースケース：概要ページの作成{#use-cases-creating-overviews}
 
 
 
-次の例では、概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。次の要素を設定します。
+次の例では、概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。 次の要素を設定します。
 
 * フォルダーのフィルター（[フォルダーのフィルターの追加](#adding-a-filter-on-a-folder)を参照）
 * 新しい Web アプリケーションを作成するためのボタン（[新しい Web アプリケーションを設定するためのボタンの追加](#adding-a-button-to-configure-a-new-web-application)を参照）
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 ## フォルダーに関するフィルターの追加 {#adding-a-filter-on-a-folder}
 
-概要では、Adobe Campaign ツリーでの場所に応じてデータにアクセスすることを選択できます。これが、フォルダーのフィルターです。フォルダーのフィルターを概要に追加するには、次の手順に従います。
+概要では、Adobe Campaign ツリーでの場所に応じてデータにアクセスすることを選択できます。 これが、フォルダーのフィルターです。 フォルダーのフィルターを概要に追加するには、次の手順に従います。
 
 1. Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;ノードにカーソルを置いて、**[!UICONTROL フォルダーを選択]**&#x200B;要素を追加します（**[!UICONTROL 高度なコントロール／フォルダーを選択]**）。
 1. 表示される&#x200B;**[!UICONTROL ストレージ]**&#x200B;ウィンドウで、「**[!UICONTROL 変数を編集]**」リンクをクリックします。
@@ -64,7 +64,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >変数の名前は、フォルダーにリンクした要素の名前（スキーマで定義）に一致する必要があります（つまり、この場合は **folder**）。テーブルを参照する際に、この名前を再利用する必要があります。
+   >変数の名前は、フォルダーにリンクした要素の名前（スキーマで定義）に一致する必要があります（つまり、この場合は **folder**）。 テーブルを参照する際に、この名前を再利用する必要があります。
 
 1. 変数に **[!UICONTROL XML]** タイプを適用します。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
-1. リストにカーソルを置いて、「**[!UICONTROL 詳細設定]**」タブで、リストの「**[!UICONTROL フォルダーのフィルター XPath]**」タブで前に作成した変数を参照します。フォルダーリンクに関係している要素の名前（つまり **folder**）を使用する必要があります。
+1. リストにカーソルを置いて、「**[!UICONTROL 詳細設定]**」タブで、リストの「**[!UICONTROL フォルダーのフィルター XPath]**」タブで前に作成した変数を参照します。 フォルダーリンクに関係している要素の名前（つまり **folder**）を使用する必要があります。
 
    ![](assets/s_ncs_configuration_webapp_variable002.png)
 
@@ -89,13 +89,13 @@ ht-degree: 100%
 
    この例では、ラベルは &quot;**New**&quot; です。
 
-1. 「URL」フィールドに URL（**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**）を挿入します。
+1. URL フィールドに次のURLを挿入します：**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**。
 
    >[!NOTE]
    >
-   >**nms:webApp** は、Web アプリケーションスキーマと一致します。
+   >**nms:webApp**&#x200B;はWeb アプリケーション スキーマと一致しています。
    >
-   >**nms:newWebApp** は、新しい web アプリケーション作成アシスタントと一致します。
+   >**nms:newWebApp**&#x200B;が新しいWeb アプリケーション作成アシスタントと一致します。
 
 1. URL を同じウィンドウで表示することを選択します。
 1. 「画像」フィールドに Web アプリケーションアイコン **/nms/img/webApp.png** を追加します。
@@ -158,11 +158,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->JavaScript ライブラリは、サーバー上で更新するのに 5 分かかります。サーバーを再起動して、この遅延を待機するのを回避できます。
+>JavaScript ライブラリは、サーバー上で更新するのに 5 分かかります。 サーバーを再起動して、この遅延を待機するのを回避できます。
 
 ## リストのフィルタリングと更新 {#filtering-and-updating-the-list}
 
-ここでは、特定のオペレーターによって作成された Web アプリケーションの概要を表示するフィルターを作成します。このフィルターは、リンクエディターで作成されます。オペレーターを選択したら、リストを更新してフィルターを適用します。これには、更新リンクを作成する必要があります。
+ここでは、特定のオペレーターによって作成された Web アプリケーションの概要を表示するフィルターを作成します。 このフィルターは、リンクエディターで作成されます。 オペレーターを選択したら、リストを更新してフィルターを適用します。これには、更新リンクを作成する必要があります。
 
 これら 2 つの要素は、概要で視覚的にグループ化させるために、同じコンテナにグループ化されます。
 
@@ -205,7 +205,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Web アプリケーションユーザーは、情報にアクセスするための適切な Adobe Campaign 権限を持つ識別されたオペレーターである必要があります。このタイプの設定は、匿名 Web アプリケーションに対しては機能しません。
+>Web アプリケーションユーザーは、情報にアクセスするための適切な Adobe Campaign 権限を持つ識別されたオペレーターである必要があります。 このタイプの設定は、匿名 Web アプリケーションに対しては機能しません。
 
 ### 更新リンクの作成 {#creating-a-refresh-link}
 
@@ -217,10 +217,10 @@ ht-degree: 100%
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. 「**[!UICONTROL 画像]**」フィールドに更新アイコン **/xtk/img/refresh.png** を追加します。
-1. 次に示すように、並べ替え矢印を使用して、Web アプリケーションの様々な要素を認識します。
+1. 次に示すように、並べ替え矢印を使用して、web アプリケーションの様々な要素を認識します。
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
 
-これで、Web アプリケーションが設定されました。「**[!UICONTROL プレビュー]**」タブをクリックしてプレビューします。
+これで、Web アプリケーションが設定されました。 「**[!UICONTROL プレビュー]**」タブをクリックしてプレビューします。
 
 ![](assets/s_ncs_configuration_webapp_result.png)

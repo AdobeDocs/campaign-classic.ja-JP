@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 19%
+source-wordcount: '149'
+ht-degree: 29%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 19%
 
 
 
-**スタックトレース** は、**core** タイプのファイルに含まれるトレースを表します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの原因を特定できます。
+**スタックトレース**&#x200B;は、**core**&#x200B;型ファイルに含まれるトレースを表します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの原因を特定できます。
 
 >[!NOTE]
 >
->* **core** ファイルの名前は **core.`<num>`** です。
->* **gdb - GNU Debugger** がマシンにインストールされている必要があります。
+>* **core** ファイルの名前は&#x200B;**core.`<num>`**&#x200B;です。
+>* **gdb - GNU Debugger**&#x200B;をコンピューターにインストールする必要があります。
 >
 
-Adobe Campaign テクニカルサポートは、この **スタックトレース** を要求できます。 これを取得するには、Linux で次のコマンドを入力します。
+Adobe Campaign テクニカルサポートは、この&#x200B;**スタックトレース**&#x200B;を求めることができます。 入手するには、Linuxで次のコマンドを入力します。
 
 ```
 su - neolane
@@ -54,9 +54,9 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Adobe Campaign テクニカルサポートから、（アドビが提供する）特定の実行可能ファイルを使用してこのコマンドを実行するように求められる場合があります。
+Adobe Campaign テクニカルサポートでは、特定の実行可能ファイル（アドビから提供される）を使用してこのコマンドを実行するように求められる場合があります。
 
-この場合は、**nlserver** をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行するだけです。
+この場合、**nlserver**&#x200B;をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行するだけです。
 
 ```
 gdb nlserver <coreFile>

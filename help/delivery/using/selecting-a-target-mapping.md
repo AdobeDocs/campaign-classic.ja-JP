@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # ターゲットマッピングの選択{#selecting-a-target-mapping}
 
-配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
+配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。 したがって、ターゲットマッピングには **nms:recipient:recipient** テーブルのフィールドが使用されます。 Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
 
 ![](assets/delivery_select_mapping.png)
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->新しいターゲットマッピングを作成することもできます。ただし、この操作はエキスパートユーザー向け機能として用意されています。詳しくは、[この節](../../configuration/using/target-mapping.md)を参照してください。
+>新しいターゲットマッピングを作成することもできます。 ただし、この操作はエキスパートユーザー向け機能として用意されています。 詳しくは、[この節](../../configuration/using/target-mapping.md)を参照してください。

@@ -6,8 +6,8 @@ feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
-workflow-type: ht
-source-wordcount: '506'
+workflow-type: tm+mt
+source-wordcount: '574'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)を参照してください。このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
+>配信リストへのアクセスと配信ダッシュボードの使用に関する包括的なガイダンスについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)を参照してください。 このコンテンツは、Campaign Classic v7 と Campaign v8 の両方のユーザーに適用されます。
 >
 >このページでは、ハイブリッドおよびオンプレミスのデプロイメントでの **Campaign Classic v7 固有の高度なカスタマイズ**&#x200B;について説明します。
 
@@ -24,23 +24,23 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
 
 ## 配信ログのカスタマイズ {#use-case}
 
-**Campaign Classic v7 ハイブリッド／オンプレミスデプロイメント**&#x200B;の場合、スキーマを拡張して配信ログをカスタマイズできます。この節では、送信者の IP アドレスを配信ログに追加する方法について説明します。
+**Campaign Classic v7 ハイブリッド／オンプレミスデプロイメント**&#x200B;の場合、スキーマを拡張して配信ログをカスタマイズできます。 この節では、送信者の IP アドレスを配信ログに追加する方法について説明します。
 
 >[!NOTE]
 >
->このカスタマイズには、オンプレミスデプロイメントで使用可能なスキーマ拡張機能が必要です。Campaign v8 Managed Cloud Services ユーザーは、カスタム配信ログフィールドについてアドビカスタマーケアにお問い合わせください。
+>このカスタマイズには、オンプレミスデプロイメントで使用可能なスキーマ拡張機能が必要です。 Campaign v8 Managed Cloud Services ユーザーは、カスタム配信ログフィールドについてアドビカスタマーケアにお問い合わせください。
 >
->この変更は、単一のインスタンスを使用する場合とミッドソーシングインスタンスを使用する場合とでは異なります。変更をおこなう前に、メール送信インスタンスに接続していることを確認します。
+>この変更は、単一のインスタンスを使用する場合とミッドソーシングインスタンスを使用する場合とでは異なります。 変更をおこなう前に、メール送信インスタンスに接続していることを確認します。
 
 ### 手順 1：スキーマの拡張
 
-配信ログに **publicID** を追加するには、まずスキーマを拡張する必要があります。次の手順に従って進むことができます。
+配信ログに **publicID** を追加するには、まずスキーマを拡張する必要があります。 次の手順に従って進むことができます。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**／**[!UICONTROL 新規]**&#x200B;で、スキーマ拡張を作成します。
 
    スキーマ拡張について詳しくは、[このページ](../../configuration/using/extending-a-schema.md)を参照してください。
 
-1. 受信者配信ログ（nms）を拡張し、カスタム名前空間を定義するには、**[!UICONTROL broadLogRcp]** を選択します。この場合、「cus」になります。
+1. 受信者配信ログ（nms）を拡張し、カスタム名前空間を定義するには、**[!UICONTROL broadLogRcp]** を選択します。 この場合、「cus」になります。
 
    ![](assets/schema-parameters.png)
 
@@ -48,7 +48,7 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
    >
    >インスタンスがミッドソーシングの場合は、broadLogMid スキーマを使用する必要があります。
 
-1. 拡張に新しいフィールドを追加します。このサンプルでは、
+1. 拡張に新しいフィールドを追加します。 このサンプルでは、
 
    ```
    <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp"/>
@@ -81,13 +81,13 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL NmsBroadLoGRcp]** テーブル（ミッドソーシング環境の場合は **[!UICONTROL broadLogMid]** テーブル）を除き、他の変更がないことを必ず確認してください。その場合は、他のテーブルのチェックを外します。
+   >**[!UICONTROL NmsBroadLoGRcp]** テーブル（ミッドソーシング環境の場合は **[!UICONTROL broadLogMid]** テーブル）を除き、他の変更がないことを必ず確認してください。 その場合は、他のテーブルのチェックを外します。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして確認します。次の画面が表示されます。
+1. 「**[!UICONTROL 次へ]**」をクリックして確認します。 次の画面が表示されます。
 
    ![](assets/update-script.png)
 
-1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、データベース構造の更新を開始します。インデックスの作成を開始しています。この手順は、**[!UICONTROL NmsBroadLogRcp]** テーブルの行数に応じて長くなる場合があります。
+1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、データベース構造の更新を開始します。 インデックスの作成を開始しています。 この手順は、**[!UICONTROL NmsBroadLogRcp]** テーブルの行数に応じて長くなる場合があります。
 
    ![](assets/start-database-update.png)
 

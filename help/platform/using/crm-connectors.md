@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '134'
+workflow-type: tm+mt
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 ## CRM コネクタの基本を学ぶ {#about-crm-connectors}
 
-Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
+Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。 これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
 
-これらのコネクタを使用すると、データを迅速かつ容易に統合できます。Adobe Campaign には、CRM にあるテーブルを集めて選択する、専用のサポート機能が備わっています。これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
+これらのコネクタを使用すると、データを迅速かつ容易に統合できます。Adobe Campaign には、CRM にあるテーブルを集めて選択する、専用のアシスタント機能が備わっています。 これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
 >[!NOTE]
 >

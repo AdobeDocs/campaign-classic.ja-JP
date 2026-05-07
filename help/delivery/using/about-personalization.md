@@ -7,8 +7,8 @@ feature: Personalization
 role: User
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 source-git-commit: 435314fa5907c16166cf7ff6741ff7ad0412d04b
-workflow-type: ht
-source-wordcount: '311'
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Adobe Campaign を使用して配信をパーソナライズし、各受信者のプロファイルや興味の対象に合わせてメッセージを送信します。
 
-パーソナライゼーションは、メッセージをより関連性が高く、魅力的にするのに役立ちます。受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}を参照してください。
+パーソナライゼーションは、メッセージをより関連性が高く、魅力的にするのに役立ちます。 受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。 配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

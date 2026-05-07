@@ -6,7 +6,7 @@ feature: Interaction, Offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 **シミュレーション**&#x200B;モジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 
-シミュレーションには、オファーにあらかじめ適用されているコンテキストおよび実施要件ルール（[オファーカタログの概要](../../interaction/using/offer-catalog-overview.md)を参照）と、オファーのプレゼンテーションルール（[オファー表示域の管理](../../interaction/using/managing-offer-presentation.md)を参照）が考慮されます。ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
+シミュレーションには、オファーにあらかじめ適用されているコンテキストおよび実施要件ルール（[オファーカタログの概要](../../interaction/using/offer-catalog-overview.md)を参照）と、オファーのプレゼンテーションルール（[オファー表示域の管理](../../interaction/using/managing-offer-presentation.md)を参照）が考慮されます。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
 オファーをシミュレートする方法については、以下の手順を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [このビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
+![](assets/do-not-localize/how-to-video.png) [このビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)もご覧ください。
 
 ## シミュレーション作成の主な手順 {#main-steps-for-creating-a-simulation}
 

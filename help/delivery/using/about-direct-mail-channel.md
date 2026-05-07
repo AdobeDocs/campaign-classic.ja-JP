@@ -6,8 +6,8 @@ feature: Direct Mail
 role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '285'
+workflow-type: tm+mt
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Adobe Campaign を使用すると、ダイレクトメール配信を作成して、パーソナライズされた物理的なメッセージをオーディエンスに送信できます。
 
-ダイレクトメールは、顧客との具体的な関係を確立するための強力なチャネルであり続けています。デジタルタッチポイントを超えてブランドのプレゼンスを強化する、印刷されたオファー、カタログ、ロイヤルティメッセージ、パーソナライズされたレターに最適です。ルーティングパートナー向けのデータの準備やファイルの生成から配信成果のトラッキングに至るまで、ダイレクトメールキャンペーンを効果的に設定および管理する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja){target=_blank}を参照してください。
+ダイレクトメールは、顧客との具体的な関係を確立するための強力なチャネルであり続けています。デジタルタッチポイントを超えてブランドのプレゼンスを強化する、印刷されたオファー、カタログ、ロイヤルティメッセージ、パーソナライズされたレターに最適です。 ルーティングパートナー向けのデータの準備やファイルの生成から配信成果のトラッキングに至るまで、ダイレクトメールキャンペーンを効果的に設定および管理する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

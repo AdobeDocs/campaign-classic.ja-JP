@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '93'
+workflow-type: tm+mt
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 
 
-## リストとは  {#about-lists-in-adobe-campaign}
+## リストとは {#about-lists-in-adobe-campaign}
 
-リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
+リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。 例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
 リストの作成と管理は、「**[!UICONTROL プロファイルとターゲット]**」タブの&#x200B;**[!UICONTROL リスト]**&#x200B;リンクを使用して実行します。
 
@@ -139,14 +139,14 @@ A list is a static set of recipients that can be targeted in delivery actions or
 
 Learn how to create an audience by configuring a list of recipients from the Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/27503?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 ### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
->[!VIDEO](https://video.tv.adobe.com/v/27494?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->

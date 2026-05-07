@@ -6,7 +6,7 @@ feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 0143e0d6ebcdbd96d183ddd0c7f07beb149a9670
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 
 
-2024年10月17日（PT）、Apple プッシュ通知サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
+2024年10月17日（PT）、Apple プッシュ通知サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。 iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 
 APNs の変更について詳しくは、[このページ](https://developer.apple.com/news/?id=09za8wzy)を参照してください。
 

@@ -9,7 +9,7 @@ topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '907'
 ht-degree: 100%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->キュー内の保留中のイベント数が、Adobe Campaign のプロセス監視ページの「[システム指標](../../production/using/monitoring-processes.md#system-indicators)」セクションに表示されます。デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
+>キュー内の保留中のイベント数が、Adobe Campaign のプロセス監視ページの「[システム指標](../../production/using/monitoring-processes.md#system-indicators)」セクションに表示されます。 デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
 ## イベントのパージ {#purging-events}
 
 [デプロイメントウィザード](../../production/using/database-cleanup-workflow.md#deployment-assistant)を使用し、データをデータベース上に保存する期間を設定できます。
 
-イベントのパージは、[データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)によって自動的に実行されます。このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
+イベントのパージは、[データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)によって自動的に実行されます。 このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
 
 矢印を使用し、必要に応じてパージの設定を変更します。
 
@@ -63,11 +63,11 @@ ht-degree: 100%
 
 ### コントロールインスタンスのワークフロー {#control-instance-workflows}
 
-コントロールインスタンスで、登録されている実行インスタンスが 1 つか複数かにかかわらず、**[!UICONTROL Message Center の実行インスタンス]**&#x200B;外部アカウントごとに 1 つのアーカイブワークフローを作成する必要があります。「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成して開始します。
+コントロールインスタンスで、登録されている実行インスタンスが 1 つか複数かにかかわらず、**[!UICONTROL Message Center の実行インスタンス]**&#x200B;外部アカウントごとに 1 つのアーカイブワークフローを作成する必要があります。 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成して開始します。
 
 ![](assets/messagecenter_archiving_002.png)
 
-これらのワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。アーカイブワークフローは作成されると自動的に開始されます。
+これらのワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。 アーカイブワークフローは作成されると自動的に開始されます。
 
 <!--
 **Minimal architecture**
@@ -79,7 +79,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 実行インスタンスのワークフロー {#execution-instance-workflows}
 
-実行インスタンスでは、**管理／プロダクション／Message Center** フォルダーからトランザクションメッセージのテクニカルワークフローにアクセスできます。必要な操作は、ワークフローを開始することだけです。リストに含まれるワークフローは以下のとおりです。
+実行インスタンスでは、**管理／プロダクション／Message Center** フォルダーからトランザクションメッセージのテクニカルワークフローにアクセスできます。 必要な操作は、ワークフローを開始することだけです。 リストに含まれるワークフローは以下のとおりです。
 
 * **[!UICONTROL バッチイベントの処理]**（内部名：**[!UICONTROL batchEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のバッチイベントを分類することができます。
 * **[!UICONTROL リアルタイムイベントの処理]**（内部名：**[!UICONTROL rtEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のリアルタイムイベントを分類することができます。
@@ -87,16 +87,16 @@ Once the control and execution modules are installed on the same instance, you m
 
   イベントステータスには以下のものがあります。
 
-   * **[!UICONTROL 保留中]**：イベントはキューの中です。イベントにはまだメッセージテンプレートが割り当てられていません。
+   * **[!UICONTROL 保留中]**：イベントはキューの中です。 イベントにはまだメッセージテンプレートが割り当てられていません。
    * **[!UICONTROL 配信保留]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
-   * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。配信が送信されたことを示します。
-   * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。配信が無視されたことを意味しています。
-   * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。配信が失敗したことを意味しています。
-   * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。
+   * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。 配信が送信されたことを示します。
+   * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。 配信が無視されたことを意味しています。
+   * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。 配信が失敗したことを意味しています。
+   * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。 イベントの処理はおこなわれません。
 
 ### アーカイブワークフローのスケジュール
 
-コントロールインスタンスで実行する&#x200B;**アーカイブワークフロー**&#x200B;のスケジュールの変更を回避します。そうしないと、実行インスタンスから取り込まれた一部のトラッキングデータが失われる可能性があります。
+コントロールインスタンスで実行する&#x200B;**アーカイブワークフロー**&#x200B;のスケジュールの変更を回避します。 そうしないと、実行インスタンスから取り込まれた一部のトラッキングデータが失われる可能性があります。
 
 アーカイブワークフローのスケジュールを変更する場合は、コントロールインスタンスのアーカイブワークフローのスケジュールと一致するように、実行インスタンスの&#x200B;**トラッキングワークフロー**&#x200B;のスケジュールも変更する必要があります。
 
@@ -108,7 +108,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 このレガシーブランディング設定は、Campaign v8 で導入された新しい[一元化されたブランディング](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"}モデルと互換性がありません。
 
-既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行できません。新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
+既存の環境でこのレガシー設定を使用している場合は、新しい一元化されたブランディングモデルに直接移行できません。 新しいシステムを採用するには、ブランディング設定の完全な再実装が必要です。
 
 ### 前提条件 {#prerequisites}
 
@@ -167,7 +167,7 @@ Once the control and execution modules are installed on the same instance, you m
 
    >[!IMPORTANT]
    >
-   >これらの変更は、アップグレードの際に競合を引き起こすことがあります。これらの数式と新しいバージョンの数式とを手動で統合させなければならない可能性があります。
+   >これらの変更は、アップグレードの際に競合を引き起こすことがあります。 これらの数式と新しいバージョンの数式とを手動で統合させなければならない可能性があります。
 
 ### コントロールインスタンス {#control-instance}
 
@@ -177,6 +177,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. 各ブランドにつき配信テンプレートを作成します。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
+1. 各ブランドにつき配信テンプレートを作成します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

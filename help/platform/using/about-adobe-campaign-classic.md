@@ -7,18 +7,17 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '181'
+workflow-type: tm+mt
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
 # Campaign Classic の基本を学ぶ{#about-adobe-campaign-classic}
 
-高いレベルの顧客エンゲージメントを実現し、優れたエクスペリエンスを提供するには、あらゆる顧客接点で一貫したカスタマージャーニーを用意する必要があります。最新のマーケティングソリューションを利用すれば、マーケティング ROI の最大化とロイヤルティの強化を実現するクロスチャネルのマーケティングキャンペーンを効率的に設計、計画、展開、管理、最適化することができます。
+高いレベルの顧客エンゲージメントを実現し、優れたエクスペリエンスを提供するには、あらゆる顧客接点で一貫したカスタマージャーニーを用意する必要があります。 最新のマーケティングソリューションを利用すれば、マーケティング ROI の最大化とロイヤルティの強化を実現するクロスチャネルのマーケティングキャンペーンを効率的に設計、計画、展開、管理、最適化することができます。
 
-
-Adobe Campaign は、対話的なマーケティングキャンペーンの構築を容易にします。Adobe Campaign には、マーケティングや顧客とのやり取りをモデル化し、合理化し、自動化するための革新的な機能が用意されています。
+Adobe Campaign は、対話的なマーケティングキャンペーンの構築を容易にします。 Adobe Campaign には、マーケティングや顧客とのやり取りをモデル化し、合理化し、自動化するための革新的な機能が用意されています。
 
 
 >[!BEGINTABS]
@@ -85,7 +84,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
@@ -111,6 +110,6 @@ The following capabilities are available. Depending on your license agreement, s
 
 このビデオでは、Campaign Classic の主な特長と機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/39517?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

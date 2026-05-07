@@ -6,7 +6,7 @@ hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、[Campaign Classic v7 インストールガイド](../../installation/using/mid-sourcing-deployment.md)を参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、[Campaign Classic v7 インストールガイド](../../installation/using/mid-sourcing-deployment.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -28,12 +28,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">ミッドソーシング (配信カウンター)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
-   <td> <p>ミッドソーシングサーバー上の配信のカウント情報を収集します。カウント情報には、送信された配信の数など、一般的な配信達成度が含まれています。</p> <p>開封数などのトラッキング情報は含まれていません。</p> <p>デフォルトで、10 分おきにトリガーされます。</p> </td> 
+   <td> <p>ミッドソーシングサーバー上の配信のカウント情報を収集します。 カウント情報には、送信された配信の数など、一般的な配信達成度が含まれています。</p> <p>開封数などのトラッキング情報は含まれていません。</p> <p>デフォルトで、10 分おきにトリガーされます。</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">ミッドソーシング (配信ログ)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingLog</span> <br /> </td> 
-   <td> ミッドソーシングサーバー上の配信ログを収集します。デフォルトで、1 時間おきにトリガーされます。<br /> </td> 
+   <td> ミッドソーシングサーバー上の配信ログを収集します。 デフォルトで、1 時間おきにトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

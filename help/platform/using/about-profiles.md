@@ -7,8 +7,8 @@ role: User, Developer
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '357'
+workflow-type: tm+mt
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 
 
-プロファイルは、Adobe Campaign データベースで一元管理されます。 プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析を行ってアクションに移すことができます。
+プロファイルは、Adobe Campaign データベースで一元管理されます。 プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。 Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析を行ってアクションに移すことができます。
 
 「**プロファイル**」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル識別子、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。
 
-Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに保存された受信者データを使用すると、特定の配信を受け取るターゲットをフィルタリングしたり、配信コンテンツにパーソナライズデータを追加したりできます。 データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
+Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。 データベースに保存された受信者データを使用すると、特定の配信を受け取るターゲットをフィルタリングしたり、配信コンテンツにパーソナライズデータを追加したりできます。 データベースには、他のタイプのプロファイルも含まれています。 それらのプロファイルは用途が異なります。 例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
 ![プロファイルの概要とその動作を示すビデオ](assets/do-not-localize/how-to-video.png) [ビデオでプロファイルの概念を理解する](#create-profiles-video)
 
@@ -121,9 +121,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -139,13 +139,13 @@ Learn how to access profile data, sort and filter profiles and manually create a
 
 This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
->[!VIDEO](https://video.tv.adobe.com/v/326751?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **See also**
 
-* [Privacy management in Campaign](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 

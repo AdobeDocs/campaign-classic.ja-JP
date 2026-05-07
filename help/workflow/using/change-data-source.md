@@ -6,7 +6,7 @@ hide: true
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 > 「**[!UICONTROL データソースを変更]**」アクティビティは、「**[!UICONTROL 外部データへのアクセス (Federated Data Access)]** パッケージでのみ使用できます。 Adobe Campaign Classic のビルトインパッケージについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
+「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。 これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
 
 **[!UICONTROL 作業用テーブル]**を使用すると、Adobe Campaign Classic ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
 デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
@@ -42,7 +42,6 @@ ht-degree: 100%
 1. 「**[!UICONTROL データソースを変更]**」アクティビティをダブルクリックして、「**[!UICONTROL デフォルトデータソース]**」を選択します。
 
    クエリの結果を含んだワークテーブルが、デフォルトの PostgreSQL データベースに移動されます。
-
 
    ![](assets/change-data-source_2.png)
 

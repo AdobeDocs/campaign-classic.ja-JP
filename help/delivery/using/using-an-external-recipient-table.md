@@ -7,8 +7,8 @@ feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '92'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-配信テーブルが外部のテーブルの場合は、追加設定が必要です。**[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -24,4 +24,4 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-**nms:seedMember** スキーマ拡張については、[この節](../../configuration/using/seed-addresses.md)で説明しています。
+**nms:seedMember** スキーマの拡張機能は[このセクション ](../../configuration/using/seed-addresses.md)です。

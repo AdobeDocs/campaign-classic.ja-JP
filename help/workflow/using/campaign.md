@@ -7,7 +7,7 @@ hide: true
 topic-tags: technical-workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで **Campaign** モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
+以下に説明するワークフローは、デフォルトで **Campaign** モジュールと共にインストールされます。 このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -43,12 +43,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">キャンペーンの配信ジョブ</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。また、承認通知とリマインダーも送信します。<br /> </td> 
+   <td> 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。 また、承認通知とリマインダーも送信します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">キャンペーンジョブ</span> <br /> </td> 
    <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
-   <td> マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。<br /> </td> 
+   <td> マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。 また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">サービスプロバイダーのジョブ</span> <br /> </td> 

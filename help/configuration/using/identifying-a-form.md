@@ -9,7 +9,7 @@ exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 38%
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 
 
-入力フォームを使用すると、データスキーマに関連付けられたインスタンスをAdobe Campaign クライアントコンソールから編集できます。
+入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。
 
 フォームは名前と名前空間で識別します。
 

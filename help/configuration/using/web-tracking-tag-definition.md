@@ -7,7 +7,7 @@ role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 
 
-Web トラッキングタグは、適切なパラメーターで構成された URL で、HTTP クエリを介してリダイレクトサーバーに送信されます。
+Web トラッキングタグは、適切なパラメーターで構築されたURLであり、HTTP クエリを介してリダイレクションサーバーに送信されます。
 
 ## 送信するデータの形式 {#format-of-the-data-to-be-sent}
 
-Web トラッキング URL の形式は次のとおりです：**https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
+Web トラッキング URLの形式は次のとおりです。**https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
->URL に追加される乱数は、ブラウザーが web ページをキャッシュすることで発生する問題を回避します。
+>URLにランダムな数字を追加すると、ブラウザーがweb ページをキャッシュする際に発生する問題を回避できます。
 
-次の表に、リダイレクトサーバーでサポートされる特別なパラメーターのリストを示します。
+次の表に、リダイレクトサーバーでサポートされている特殊パラメーターのリストを示します。
 
 <table>
                      <thead>
@@ -42,10 +42,10 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
                               <p>ID</p> 
                            </td>
                            <td>
-                              <p>セッション cookie</p> 
+                              <p>セッション Cookie</p> 
                            </td>
                            <td>
-                              <p>配信識別子と受信者識別子。</p> 
+                              <p>配信IDと受信者ID。</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -53,10 +53,10 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
                               <p>uuid230</p> 
                            </td>
                            <td>
-                              <p>永続的な cookie</p> 
+                              <p>永続的なCookie</p> 
                            </td>
                            <td>
-                              <p>受信者識別子（セッション cookie がない場合に役立ちます）。</p> 
+                              <p>受信者の識別子（セッション Cookieがない場合に便利）。</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -67,7 +67,7 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>トラッキングされる web ページの識別子：これは唯一の必須パラメーターです。</p> 
+                              <p>トラッキング対象web ページの識別子：これは必須パラメーターのみです。</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -78,8 +78,8 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>セッション Cookie がない場合に使用される配信識別子。 この値はになります
-                                 16 進数で表されます。
+                              <p>セッション Cookieがない場合に使用される配信ID。 この値は
+                                 16進数で表します。
                               </p> 
                            </td> 
                         </tr>
@@ -92,43 +92,43 @@ Web トラッキング URL の形式は次のとおりです：**https://`<name_
                            </td>
                            <td>
                               <p>インターネットユーザーを識別するために使用されるパラメーター。 このパラメーターの形式は「name=value」です。
-                                 ここで、名前は受信者スキーマのフィールドです。 このパラメーターはよりも優先されます
-                                 セッション cookie に含まれる識別子。
+                                 ここで、名前は受信者スキーマのフィールドです。 このパラメーターは、次の値よりも優先されます
+                                 セッション cookieに含まれる識別子。
                               </p> 
                            </td> 
                         </tr> 
                      </tbody>  
                   </table>
 
-**いくつかの web トラッキング URL**
+**いくつかのweb トラッキング URL**
 
-* 「ホーム」識別子ページへの訪問
+* 「ホーム」識別子ページへのアクセス
 
   **https://myserver.adobe.com/r/9862?tagid=home**
 
 * 業務量データの収集
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 受信者を検索するフィールドの指定
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-  アカウント番号が 10 の受信者がホームページに送信されます。
+  アカウント番号が10の受信者がホームページに送信されます。
 
-* デフォルト配信の使用
+* デフォルトの配信の使用
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-  受信者がホームページに送信されます。 このクエリで配信識別子を含むセッション cookie が送信されない限り、この情報は識別子 230 で配信に保存されます（データベース 16 の e6）。
+  受信者がホームページに送信されます。 この情報は、配信識別子を含むセッションクッキーがこのクエリで送信されない限り、識別子230 （データベース 16のe6）を持つ配信に保存されます。
 
 >[!NOTE]
 >
->URL パラメーターを介してリダイレクトサーバーに送信される値はすべて URL エンコードする必要があります。 この例では、文字&#39;=&#39;および&#39;|&#39;は、それぞれ&#39;%3D&#39;および&#39;%7C&#39;としてエンコードされています。
+>URL パラメーターを介してリダイレクトサーバーに送信されるすべての値は、URL エンコードする必要があります。 指定された例では、文字&#39;=&#39;と&#39;|&#39;はそれぞれ&#39;%3D&#39;と&#39;%7C&#39;としてエンコードされていることに注意してください。
 
-## データ送信方法 {#data-transmission-methods}
+## データの伝送方法 {#data-transmission-methods}
 
-以下の方法が可能です。
+次の方法が可能です。
 
-* トラッキングする web ページに組み込まれたHTML **タグの**&quot;src&quot;**`<img>`** 属性に URL を挿入する。
-* 追跡する web ページが生成されたら、リダイレクトサーバーへの直接呼び出しを行います。
+* トラッキング対象のweb ページに組み込まれたHTML **`<img>`** タグの&#x200B;**&quot;src&quot;**&#x200B;属性にURLを挿入します。
+* トラッキングするweb ページが生成されたときに、リダイレクトサーバーに直接呼び出します。

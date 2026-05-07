@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: 追加の web トラッキングパラメーター
-description: Web トラッキングのパラメーターの詳細情報
+title: 追加のweb トラッキングパラメーター
+description: Web トラッキングのパラメーターについて詳しく見る
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# 追加の web トラッキングパラメーター{#additional-parameters}
+# 追加のweb トラッキングパラメーター{#additional-parameters}
 
 ## パラメーターの定義 {#definition-of-parameters}
 
-Adobe Campaign プラットフォームには、標準として 2 つの TRANSACTION タイプの web トラッキングパラメーターが用意されています。
+Adobe Campaignでは、2つのトランザクションタイプのweb トラッキングパラメーターを標準として提供しています。
 
-* **amount**：トランザクションの量を表します。
-* **記事**：トランザクションの項目数を表します。
+* **amount**: トランザクションの金額を表します。
+* **記事**: トランザクション内の項目数を表します。
 
 これらのパラメーターは、**nms:webTrackingLog** スキーマで定義され、レポートに表示される指標の一部です。
 
-追加パラメーターを定義するには、このスキーマを拡張する必要があります。
+追加のパラメーターを定義するには、このスキーマを拡張する必要があります。
 
 **例**：
 
@@ -41,21 +41,21 @@ Adobe Campaign プラットフォームには、標準として 2 つの TRANSAC
 
 （配信または受信者の）トラッキングログリストを設定することで、これらのパラメーターの値を表示できます。
 
-## リダイレクトサーバーの設定 {#redirection-server-configuration}
+## リダイレクションサーバー設定 {#redirection-server-configuration}
 
 サーバー設定では、web トラッキングパラメーターに考慮する最大文字数を定義できます。
 
 >[!IMPORTANT]
 >
->考慮する最大文字数を増やすと、プラットフォームの web トラッキングパフォーマンスに影響を与える可能性があります。
+>考慮される最大文字数を増やすと、プラットフォームのweb トラッキングのパフォーマンスに影響を与える可能性があります。
 
-これを行うには、**serverConf.xml** ファイルの **`<trackinglogd>`** 要素の **webTrackingParamSize** 属性を変更します。 このファイルは、Adobe Campaign インストールディレクトリのサブディレクトリ **conf** に保存されます。
+これを行うには、**serverConf.xml** ファイルの&#x200B;**`<trackinglogd>`**&#x200B;要素の&#x200B;**webTrackingParamSize**&#x200B;属性を変更します。 このファイルは、Adobe Campaign インストールディレクトリの&#x200B;**conf** サブディレクトリに保存されます。
 
 **例**：
 
-デフォルト値は 64 文字です。 この値を使用すると、**amount** および **article** （&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;）標準パラメーターを考慮できます。
+デフォルト値は64文字です。 この値を使用すると、**amount**&#x200B;および&#x200B;**article** （&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;）標準パラメーターを考慮できます。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ +値のサイズ）を考慮すると、100 文字を考慮するように設定を変更できます（「amount=xxxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx」）。
+上記の拡張スキーマの例で示されている両方のパラメーター（名前のサイズと値のサイズ）を考慮して、設定を変更して100文字を考慮することができます（&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx&quot;）。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -64,25 +64,25 @@ processRestartTime="06:00:00" purgeLogsPeriod="50000" runLevel="10"
 webTrackingParamSize="64"/>
 ```
 
-設定を変更した場合は、次の操作を行う必要があります。
+設定が変更された場合は、次の操作を行う必要があります。
 
-* リダイレクトモジュールをホストする web サーバーを停止します（Apache、IIS など）。
-* Adobe Campaign サーバーを停止します。**net stop nlserver6** Windows の場合、**/etc/init.d/nlserver6 stop** Linux の場合、
-
-  >[!NOTE]
-  >
-  >20.1 以降では、次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl stop nlserver**
-
-* Linux の場合、**ipcrm** コマンドを使用して共有メモリセグメントを削除します。
-* Adobe Campaign サーバーを再起動します。**net start nlserver6** （Windows の場合）、**/etc/init.d/nlserver6 start** （Linux の場合）、
+* リダイレクトモジュールをホストするweb サーバー（Apache、IISなど）を停止します。
+* Windowsでは&#x200B;**net stop nlserver6**、Linuxでは&#x200B;**/etc/init.d/nlserver6 stop**&#x200B;というAdobe Campaign サーバーを停止します。
 
   >[!NOTE]
   >
-  >20.1 以降では、次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver**
+  >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl stop nlserver**
+
+* Linuxでは、**ipcrm** コマンドを使用して共有メモリセグメントを削除します。
+* Windowsで&#x200B;**net start nlserver6**、Linuxで&#x200B;**/etc/init.d/nlserver6 start**&#x200B;のAdobe Campaign サーバーを再起動します。
+
+  >[!NOTE]
+  >
+  >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl start nlserver**
 
 * Web サーバーを再起動します。
 
-**例**:Linux での設定を考慮に入れる。
+**例**: Linuxでの設定を考慮します。
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -108,4 +108,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linux の場合、**webTrackingParamSize** または **maxSharedLogs** パラメータのサイズを大きくすると、共有メモリ（SHM）のサイズを大きくする必要が出ることがあります。
+>Linuxの場合、**webTrackingParamSize**&#x200B;または&#x200B;**maxSharedLogs** パラメーターのサイズを増やす場合、共有メモリ （SHM）のサイズを増やす必要がある場合があります。

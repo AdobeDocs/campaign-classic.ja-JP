@@ -6,21 +6,21 @@ role: User, Admin
 level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
-workflow-type: ht
-source-wordcount: '362'
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
 
 # Adobe テクニカルアカウントの作成 {#create-service-account}
 
-サーバー間認証資格情報を使用すると、アプリケーション自体に代わって、アプリケーションのサーバーでアクセストークンを生成し、API 呼び出しを行うことができます。[詳細情報](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
+サーバー間認証資格情報を使用すると、アプリケーション自体に代わって、アプリケーションのサーバーでアクセストークンを生成し、API 呼び出しを行うことができます。 [詳細情報](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
 ## 既存の統合の移行 {#migrate-jwt}
 
-サービスアカウント（JWT）資格情報は、アドビによって非推奨（廃止予定）になります。アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。
+サービスアカウント（JWT）資格情報は、アドビによって非推奨（廃止予定）になります。 アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間資格情報に依存する必要があります。
 
-2024年6月より前に Campaign とのインバウンドまたはアウトバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}の説明に従って、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年6月30日（PT）**&#x200B;まで引き続き機能します。
+2024年6月より前に Campaign とのインバウンドまたはアウトバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}の説明に従って、Campaign 環境を v7.4.1 にアップグレードし、テクニカルアカウントを OAuth に移行する必要があります。 既存のサービスアカウント（JWT）資格情報は、**2025年6月30日（PT）**&#x200B;まで引き続き機能します。
 
 移行が完了したら、[この節](#add-credentials)の説明に従って、新しい資格情報を Campaign に関連付ける必要があります。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1. プロジェクトへの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;リンクを選択します。
 
-   必要に応じて、新しいアカウントを作成できます。[詳細情報](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)
+   必要に応じて、新しいアカウントを作成できます。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)
 
 1. 次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインします。
 
-1. `neolane` ユーザーとして次のコマンドを実行して、Adobe Campaign に OAuth プロジェクト資格情報を追加します。これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
+1. `neolane` ユーザーとして次のコマンドを実行して、Adobe Campaign に OAuth プロジェクト資格情報を追加します。 これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
 
    ```
    nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret

@@ -7,7 +7,7 @@ hide: true
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '951'
 ht-degree: 100%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 100%
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
-![](assets/do-not-localize/how-to-video.png) このユースケースはビデオでも紹介しています。詳しくは、[ワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=ja)のビデオを参照してください。
+![](assets/do-not-localize/how-to-video.png) このユースケースはビデオでも紹介しています。 詳しくは、[ワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=ja)のビデオを参照してください。
 
-これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
+これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。 詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
 
 その後、以下の手順に従います。
 
 ## 送信のスケジュール設定 {#configuring-the-scheduler}
 
-1. 最初に、毎日の配信をトリガーするために「**スケジューラー**」を追加します。以下の例では、毎日午前 6 時に配信が作成されます。
+1. 最初に、毎日の配信をトリガーするために「**スケジューラー**」を追加します。 以下の例では、毎日午前 6 時に配信が作成されます。
 
    ![](assets/recur_delivery2.png)
 
@@ -59,11 +59,11 @@ ht-degree: 100%
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. 「**[!UICONTROL 式を使用して数式を編集]**」を選択し、「**[!UICONTROL 次へ]**」をクリックして式エディターを表示します。
-1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。この関数は、パラメーターとして渡された日付に対応する日を表す数値を返します。
+1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。 この関数は、パラメーターとして渡された日付に対応する日を表す数値を返します。
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. 使用可能フィールドのリストで、「**[!UICONTROL 生年月日]**」をダブルクリックします。エディターの上部セクションに、次の数式が表示されます。
+1. 使用可能フィールドのリストで、「**[!UICONTROL 生年月日]**」をダブルクリックします。 エディターの上部セクションに、次の数式が表示されます。
 
    ```
    Day(@birthDate)
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    「**[!UICONTROL 完了]**」をクリックして確定します。
 
-1. この手順を繰り返して、現在の月に対応する誕生月を取得します。それには、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL Day]**」を「**[!UICONTROL Month]**」に置き換えて手順 3 から 10 を繰り返します。
+1. この手順を繰り返して、現在の月に対応する誕生月を取得します。 それには、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL Day]**」を「**[!UICONTROL Month]**」に置き換えて手順 3 から 10 を繰り返します。
 
    完成したクエリは次のようになります。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 
 
-現在の年が&#x200B;**閏年でなく**、ワークフローが 3 月 1 日に実行された場合、2 月 29 日が誕生日の受信者すべてを選択して、受信者のリストに追加する必要があります。その他の場合については追加のアクションは不要です。
+現在の年が&#x200B;**閏年でなく**、ワークフローが 3 月 1 日に実行された場合、2 月 29 日が誕生日の受信者すべてを選択して、受信者のリストに追加する必要があります。 その他の場合については追加のアクションは不要です。
 
 ### 手順 1：受信者の選択 {#step-1--selecting-the-recipients}
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 「**[!UICONTROL テスト]**」アクティビティでは、今年が閏年であるかどうか、また現在の日付が 3 月 1 日であるかどうかの確認ができます。
 
-テストの結果、今年が閏年ではなくて 2 月 29 日は存在せず、さらに現在の日付が 3 月 1 日である場合、「**[!UICONTROL TRUE]**」トランザクションが有効になり、2 月 29 日生まれの受信者が 3 月 1 日の配信に追加されます。そうでない場合は、「**[!UICONTROL False]**」トランザクションが有効になり、3 月 1 日生まれの受信者だけが配信を受け取ります。
+テストの結果、今年が閏年ではなくて 2 月 29 日は存在せず、さらに現在の日付が 3 月 1 日である場合、「**[!UICONTROL TRUE]**」トランザクションが有効になり、2 月 29 日生まれの受信者が 3 月 1 日の配信に追加されます。 そうでない場合は、「**[!UICONTROL False]**」トランザクションが有効になり、3 月 1 日生まれの受信者だけが配信を受け取ります。
 
 以下のコードを「**[!UICONTROL 詳細設定]**」タブの「**[!UICONTROL 初期化スクリプト]**」セクションにコピー＆ペーストします。
 
@@ -203,8 +203,8 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 >[!CAUTION]
 >
->ワークフローを実行するには、キャンペーンパッケージに関するテクニカルワークフローを開始する必要があります。詳しくは、[テクニカルワークフローのリスト](about-technical-workflows.md)の節を参照してください。
+>ワークフローを実行するには、キャンペーンパッケージに関するテクニカルワークフローを開始する必要があります。 詳しくは、[テクニカルワークフローのリスト](about-technical-workflows.md)の節を参照してください。
 >
->キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、[承認するプロセスの選択](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved)の節を参照してください。
+>キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。 詳しくは、[承認するプロセスの選択](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved)の節を参照してください。
 
 ![](assets/birthday-workflow_usecase_1.png)

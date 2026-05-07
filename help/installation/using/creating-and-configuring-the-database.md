@@ -10,78 +10,78 @@ topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 1%
+source-wordcount: '1375'
+ht-degree: 2%
 
 ---
 
 # データベースの作成と設定{#creating-and-configuring-the-database}
 
-データベースを作成する場合、Adobe Campaignには次の 2 つの異なるオプションが用意されています。
+データベースを作成する場合、Adobe Campaignには次の2つの異なるオプションがあります。
 
-1. データベースの作成または再利用：新しいデータベースを作成する場合や、既存のデータベースを再利用する場合は、このオプションを選択します。 [&#x200B; ケース 1：データベースの作成/リサイクル &#x200B;](#case-1--creating-recycling-a-database) を参照してください。
-1. 既存のデータベースの使用：管理者によって空のデータベースが既に作成されていて、それを使用する場合は、このオプションを選択します。または、既存のデータベースの構造を拡張します。 [&#x200B; ケース 2：既存データベースの使用 &#x200B;](#case-2--using-an-existing-database) を参照してください。
+1. データベースの作成またはリサイクル：新しいデータベースを作成するか、既存のデータベースを再利用する場合は、このオプションを選択します。 [ ケース 1: データベースの作成/リサイクル ](#case-1--creating-recycling-a-database)を参照してください。
+1. 既存のデータベースを使用する：空のデータベースが管理者によって既に作成されていて、それを使用する場合、または既存のデータベースの構造を拡張する場合は、このオプションを選択します。 [ ケース 2：既存のデータベースの使用](#case-2--using-an-existing-database)を参照してください。
 
-設定手順について詳しくは、以下を参照してください。
+設定手順について詳しくは後ほど説明します。
 
 >[!CAUTION]
 >
->データベース、ユーザーおよびスキーマの名前は、数字で始めたり、特殊文字を含めたりしないでください。
+>データベース、ユーザー、スキーマの名前は、数字で始めたり、特殊文字を含めたりしてはなりません。
 >
->これらの操作を実行できるのは **内部** 識別子のみです。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
+>これらの操作を実行できるのは、**internal**&#x200B;識別子のみです。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
-## ケース 1：データベースの作成とリサイクル {#case-1--creating-recycling-a-database}
+## ケース 1：データベースの作成/リサイクル {#case-1--creating-recycling-a-database}
 
-データベースを作成したり、既存のベースを再利用したりする手順を以下に示します。 一部の設定は、使用するデータベースエンジンによって異なります。
+データベースの作成または既存のベースのリサイクルの手順を以下に示します。 一部の設定は、使用するデータベースエンジンによって異なります。
 
-関係する手順は次のとおりです。
+次の手順を実行します。
 
-* [&#x200B; 手順 1 - データベースエンジンの選択 &#x200B;](#step-1---selecting-the-database-engine)、
-* [&#x200B; 手順 2 - サーバーへの接続 &#x200B;](#step-2---connecting-to-the-server)、
-* [&#x200B; 手順 3 - データベースの接続と特性 &#x200B;](#step-3---connection-and-characteristics-of-the-database)、
-* [&#x200B; 手順 4 - インストールするパッケージ &#x200B;](#step-4---packages-to-install)、
-* [&#x200B; 手順 5 – 作成手順 &#x200B;](#step-5---creation-steps)、
-* [&#x200B; 手順 6 - データベースの作成 &#x200B;](#step-6---creating-the-database)。
+* [手順1 - データベースエンジンの選択](#step-1---selecting-the-database-engine),
+* [手順2 - サーバーへの接続](#step-2---connecting-to-the-server),
+* [手順3 - データベースの接続と特性](#step-3---connection-and-characteristics-of-the-database),
+* [手順4 - インストールするパッケージ ](#step-4---packages-to-install),
+* [手順5 – 作成手順](#step-5---creation-steps),
+* [手順6 - データベースの作成](#step-6---creating-the-database)。
 
-### 手順 1 - データベースエンジンの選択 {#step-1---selecting-the-database-engine}
+### 手順1 - データベースエンジンの選択 {#step-1---selecting-the-database-engine}
 
-ドロップダウンリストに表示されるデータベースエンジンの中から選択します。
+ドロップダウンリストからデータベースエンジンを選択します。
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-サポートされるデータベースは、Campaign[&#x200B; 互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md) に一覧表示されます。
+サポートされているデータベースは、キャンペーン [互換性マトリックス ](../../rn/using/compatibility-matrix.md)に一覧表示されます。
 
-サーバーを特定し、実行する操作のタイプを選択します。 この場合、**[!UICONTROL データベースを作成またはリサイクル]** します。
+サーバーを特定し、実行する操作の種類を選択します。 この場合、**[!UICONTROL データベースを作成またはリサイクル]**&#x200B;します。
 
 ![](assets/s_ncs_install_db_oracle_creation01.png)
 
 選択したデータベースエンジンによって、サーバー識別情報が異なる場合があります。
 
-* **Oracle** エンジンの場合、アプリケーション サーバー用に定義された **TNS 名** を入力します。
-* **PostgreSQL** エンジンの場合、データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
-* **Microsoft SQL Server** エンジンの場合は、次を定義する必要があります。データベース サーバーにアクセスするためにアプリケーション サーバーで定義されている DNS 名（または IP アドレス）: **DNS** または **DNS`\<instance>`** （インスタンス モード）
+* **Oracle** エンジンの場合は、アプリケーションサーバーに定義されている&#x200B;**TNS名**&#x200B;を入力します。
+* **PostgreSQL** エンジンの場合、データベースサーバーにアクセスするには、アプリケーションサーバーで定義されたDNS名（またはIP アドレス）を指定する必要があります。
+* **Microsoft SQL Server** エンジンの場合、次のように定義する必要があります。データベース サーバーにアクセスするためにアプリケーション サーバーで定義されたDNS名（またはIP アドレス）: **DNS**&#x200B;または&#x200B;**DNS`\<instance>`** （インスタンス モード）、
 
   >[!CAUTION]
   >
-  > 20.3 以降、Windows NT 認証は廃止されます。 **[!UICONTROL SQL Server 認証]** は、Microsoft SQL Server で使用できる唯一の認証モードになりました。 [詳細情報](../../rn/using/deprecated-features.md)
+  > 20.3以降、Windows NT認証は廃止されました。 **[!UICONTROL SQL Server認証]**&#x200B;は、Microsoft SQL Serverで使用できる唯一の認証モードです。 [詳細情報](../../rn/using/deprecated-features.md)
 
   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
-### 手順 2 - サーバーへの接続 {#step-2---connecting-to-the-server}
+### 手順2 - サーバーへの接続 {#step-2---connecting-to-the-server}
 
-**[!UICONTROL サーバーアクセス]** ウィンドウで、データベースサーバーのアクセスを定義します。
+**[!UICONTROL サーバーアクセス]** ウィンドウで、データベース サーバーアクセスを定義します。
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
-これを行うには、データベースへのアクセス権を持つ **管理システムアカウント** の名前とパスワードを入力します。以下に例を示します。
+これを行うには、データベースにアクセスする権限を持つ&#x200B;**管理システム アカウント**&#x200B;の名前とパスワードを入力します。例：
 
-* **system**:Oracleデータベースの場合、
-* **sa**:Microsoft SQL Server データベースの場合、
-* **postgres**:PostgreSQL データベースの場合、
+* Oracle データベースの&#x200B;**system**
+* Microsoft SQL Server データベースの&#x200B;**sa**
+* PostgreSQL データベースの&#x200B;**postgres**、
 
-### 手順 3 - データベースの接続と特性 {#step-3---connection-and-characteristics-of-the-database}
+### ステップ 3 - データベースの接続と特性 {#step-3---connection-and-characteristics-of-the-database}
 
-次の手順では、データベースにログオンするための設定を構成します。
+次の手順では、データベースにログオンするための設定を設定できます。
 
 ![](assets/s_ncs_install_db_oracle_creation03.png)
 
@@ -89,61 +89,61 @@ ht-degree: 1%
 
 * 作成するデータベースの名前を指定します。
 * このデータベースにリンクされているアカウントのパスワードを入力します。
-* データベースが Unicode である必要があるかどうかを示します。
+* データベースをUnicodeにする必要があるかどうかを示します。
 
-  「**[!UICONTROL Unicode データベース]**」オプションを使用すると、言語に関係なく、すべての文字タイプを Unicode で保存できます。
+  **[!UICONTROL Unicode データベース]** オプションを使用すると、言語に関係なく、すべての文字タイプをUnicodeに保存できます。
 
   >[!NOTE]
   >
-  >oracleデータベースでは、「**[!UICONTROL Unicode ストレージ]**」オプションを使用して **NCLOB** および **NVARCHAR** 型のフィールドを使用できます。
+  >Oracle データベースでは、**[!UICONTROL Unicode ストレージ]** オプションを使用すると、**NCLOB**&#x200B;および&#x200B;**NVARCHAR**&#x200B;の種類のフィールドを使用できます。
   > 
-  >このオプションを選択しない場合、Oracleデータベースのキャラクタ・セット（文字セット）ですべての言語でのデータ・ストレージを有効にする必要があります（AL32UTF8 をお勧めします）。
+  >このオプションを選択しない場合は、Oracle データベースの文字セット（文字セット）がすべての言語でデータストレージを有効にする必要があります（AL32UTF8をお勧めします）。
 
 * データベースのタイムゾーンを選択し、UTC （使用可能な場合）にするかどうかを指定します。
 
-  詳しくは、[&#x200B; タイムゾーン管理 &#x200B;](../../installation/using/time-zone-management.md) を参照してください。
+  詳しくは、[ タイムゾーン管理](../../installation/using/time-zone-management.md)を参照してください。
 
-### 手順 4 - インストールするパッケージ {#step-4---packages-to-install}
+### 手順4 - インストールするパッケージ {#step-4---packages-to-install}
 
 インストールするパッケージを選択します。
 
-ライセンス契約を参照して、「インタラクション」や「ソーシャルマーケティング」など、インストールする権利のあるソリューションとオプションを確認します。
+ライセンス契約を参照して、「インタラクション」や「ソーシャルマーケティング」など、インストールできるソリューションやオプションを確認してください。
 
 ![](assets/s_ncs_install_modules.png)
 
-### 手順 5 – 作成手順 {#step-5---creation-steps}
+### ステップ 5 – 作成ステップ {#step-5---creation-steps}
 
-**[!UICONTROL 作成ステップ]** ウィンドウでは、表の作成に使用する SQL スクリプトを表示および編集できます。
+**[!UICONTROL 作成手順]** ウィンドウでは、テーブルの作成に使用したSQL スクリプトを表示および編集できます。
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle、Microsoft SQL Server または PostgreSQL データベースの場合、データベースオブジェクトの作成時に使用される **ストレージパラメーター** を定義することもできます。
+* Oracle、Microsoft SQL ServerまたはPostgreSQL データベースの場合、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメーター**&#x200B;を定義することもできます。
 
-  これらのパラメータは、正確な表領域名を受け取ります（警告：大文字と小文字が区別されます）。 これらはそれぞれ、次のオプションの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに格納されます（[&#x200B; この節 &#x200B;](../../installation/using/configuring-campaign-options.md#database) を参照）。
+  これらのパラメーターは、正確な表領域名を受け取ります（警告：大文字と小文字を区別します）。 これらは、それぞれ次のオプションの&#x200B;**[!UICONTROL 管理/ プラットフォーム / オプション]** ノードに保存されます（[このセクション ](../../installation/using/configuring-campaign-options.md#database)を参照）。
 
-   * **WdbcOptions_TableSpaceUser**：スキーマに基づいたユーザーテーブル
-   * **WdbcOptions_TableSpaceIndex**：スキーマに基づいたユーザーテーブルのインデックス
-   * **WdbcOptions_TableSpaceWork**：スキーマのないワークテーブル
-   * **WdbcOptions_TableSpaceWorkIndex**: スキーマのない作業用テーブルのインデックス
+   * **WdbcOptions_TableSpaceUser**: スキーマに基づくユーザーテーブル
+   * **WdbcOptions_TableSpaceIndex**: スキーマに基づくユーザーテーブルのインデックス
+   * **WdbcOptions_TableSpaceWork**: スキーマのない作業テーブル
+   * **WdbcOptions_TableSpaceWorkIndex**: スキーマのない作業テーブルのインデックス
 
-* oracleデータベースの場合、Adobe Campaign ユーザーは、通常、**oinstall** グループのメンバーとして、Oracleライブラリにアクセスできる必要があります。
-* 「**[!UICONTROL Set or change the administrator password]**」オプションを使用すると、管理者権限を持つAdobe Campaign オペレーターにリンクされたパスワードを入力できます。
+* Oracle データベースの場合、Adobe Campaign ユーザーは、通常、**oinstall** グループのメンバーとして、Oracle ライブラリにアクセスできる必要があります。
+* 「**[!UICONTROL 管理者パスワードの設定または変更]**」オプションを使用すると、Adobe Campaign オペレーターにリンクされているパスワードを管理者権限で入力できます。
 
-  セキュリティ保護のため、Adobe Campaign アカウント管理者のパスワードを定義することをお勧めします。
+  セキュリティ目的でAdobe Campaign アカウント管理者パスワードを定義することをお勧めします。
 
-### 手順 6 - データベースの作成 {#step-6---creating-the-database}
+### 手順6 - データベースの作成 {#step-6---creating-the-database}
 
 アシスタントの最終段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
-データベースが作成されたら、再接続してインスタンス設定を完了できます。
+データベースを作成したら、再接続してインスタンス設定を確定できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
+これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
-インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
+インスタンスにリンクされたデータベースの接続設定は、Adobe Campaign インストールディレクトリにあるファイル **`/conf/config-<instance>.xml`**&#x200B;に保存されます。
 
-暗号化されたパスワードを使用して「campaign」アカウントにリンクされた base61 データベース上のMicrosoft SQL Server 設定の例：
+暗号化されたパスワードで「campaign」アカウントにリンクされたbase61 データベース上のMicrosoft SQL Server設定の例：
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
@@ -151,40 +151,40 @@ ht-degree: 1%
 
 ## ケース 2：既存のデータベースの使用 {#case-2--using-an-existing-database}
 
-データベース管理者がデータベースおよびユーザーを作成し、アクセス権が正しく設定されている必要があります。
+データベースとユーザーは、データベース管理者によって作成され、アクセス権が正しく設定されている必要があります。
 
-たとえば、Oracle・データベースの場合、必要な最小権限は、GRANTCONNECT、RESOURCE および UNLIMITED TABLESPACE です。
+例えば、Oracle データベースの場合、最低限必要な権限は、CONNECT、RESOURCE、およびUNLIMITED TABLESPACEの付与です。
 
-既存のデータベースを使用するには、次の設定手順に従います。
+既存のデータベースを使用するには、次の設定手順を実行します。
 
-* [&#x200B; 手順 1 - データベースエンジンの選択 &#x200B;](#step-1---choosing-the-database-engine)、
-* [&#x200B; 手順 2 - データベース接続設定 &#x200B;](#step-2---database-connection-settings)、
-* [&#x200B; 手順 3 - インストールするパッケージ &#x200B;](#step-3---packages-to-install)、
-* [&#x200B; 手順 4 – 作成手順 &#x200B;](#step-4---creation-steps)、
-* [&#x200B; 手順 5 - データベースの作成 &#x200B;](#step-5---creating-the-database)。
+* [手順1 - データベースエンジンの選択](#step-1---choosing-the-database-engine),
+* [手順2 - データベース接続設定](#step-2---database-connection-settings),
+* [手順3 - インストールするパッケージ ](#step-3---packages-to-install),
+* [手順4 – 作成手順](#step-4---creation-steps),
+* [手順5 - データベースの作成](#step-5---creating-the-database)。
 
-### 手順 1 - データベースエンジンの選択 {#step-1---choosing-the-database-engine}
+### 手順1 - データベースエンジンの選択 {#step-1---choosing-the-database-engine}
 
 ドロップダウンリストからデータベースエンジンを選択します。
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-サーバーを特定し、実行する操作のタイプを選択します。 この場合、**[!UICONTROL 既存のデータベースを使用]** します。
+サーバーを特定し、実行する操作の種類を選択します。 この場合、**[!UICONTROL 既存のデータベース]**&#x200B;を使用します。
 
 ![](assets/s_ncs_install_db_oracle_exists_01.png)
 
 選択したデータベースエンジンによって、サーバー識別情報が異なる場合があります。
 
-* **Oracle** エンジンの場合、アプリケーション サーバー用に定義された **TNS 名** を入力します。
-* **PostgreSQL** エンジンの場合、データベースサーバーにアクセスするには、アプリケーションサーバーで定義されている DNS 名（または IP アドレス）を指定する必要があります。
-* **Microsoft SQL Server** エンジンの場合は、次を定義する必要があります。
+* **Oracle** エンジンの場合は、アプリケーションサーバーに定義されている&#x200B;**TNS名**&#x200B;を入力します。
+* **PostgreSQL** エンジンの場合、データベースサーバーにアクセスするには、アプリケーションサーバーで定義されたDNS名（またはIP アドレス）を指定する必要があります。
+* **Microsoft SQL Server** エンジンの場合は、次のように定義する必要があります。
 
-   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されている DNS 名（または IP アドレス）
-   1. Microsoft SQL Server へのアクセスに使用するセキュリティ方式：**[!UICONTROL SQL Server 認証]** または **[!UICONTROL Windows NT 認証]**。
+   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されたDNS名（またはIP アドレス）,
+   1. Microsoft SQL Serverへのアクセスに使用されるセキュリティ方式：**[!UICONTROL SQL Server認証]**&#x200B;または&#x200B;**[!UICONTROL Windows NT認証]**。
 
       ![](assets/s_ncs_install_db_mssql_exists_01.png)
 
-### 手順 2 - データベース接続設定 {#step-2---database-connection-settings}
+### 手順2 - データベース接続の設定 {#step-2---database-connection-settings}
 
 **[!UICONTROL データベース]** ウィンドウで、データベース接続設定を定義します。
 
@@ -197,44 +197,44 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >スキーマ名とユーザー名の両方が一致することを確認してください。 データベースを作成するには、Campaign コンソールクライアントを使用することをお勧めします。
-  >oracle・データベースの場合は、アカウント名を入力する必要はありません。
+  >スキーマ名とユーザー名の両方が一致していることを確認します。 データベースを作成する場合は、キャンペーンコンソールクライアントを使用することをお勧めします。
+  >Oracle データベースの場合は、アカウント名を入力する必要はありません。
 
-* データベースを Unicode にするかどうかを指定します。
+* データベースをUnicodeにするかどうかを指定します。
 
-### 手順 3 - インストールするパッケージ {#step-3---packages-to-install}
+### 手順3 - インストールするパッケージ {#step-3---packages-to-install}
 
 インストールするパッケージを選択します。
 
-ライセンス契約を参照して、「インタラクション」や「リード」など、インストールする権利のあるソリューションやオプションを確認します。
+ライセンス契約を参照して、「インタラクション」や「リード」など、インストールできるソリューションやオプションを確認してください。
 
 ![](assets/s_ncs_install_modules.png)
 
-### 手順 4 – 作成手順 {#step-4---creation-steps}
+### ステップ 4 – 作成ステップ {#step-4---creation-steps}
 
-**[!UICONTROL 作成ステップ]** ウィンドウでは、表の作成に使用する SQL スクリプトを表示および編集できます。
+**[!UICONTROL 作成手順]** ウィンドウでは、テーブルの作成に使用したSQL スクリプトを表示および編集できます。
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle、Microsoft SQL Server または PostgreSQL データベースの場合、データベースオブジェクトの作成時に使用する **ストレージパラメーター** を定義できます。
-* oracleデータベースの場合、Adobe Campaign ユーザーは、通常、**oinstall** グループのメンバーとして、Oracleライブラリにアクセスできる必要があります。
-* 「**[!UICONTROL Set or change the administrator password]**」オプションを使用すると、管理者権限を持つAdobe Campaign オペレーターにリンクされたパスワードを入力できます。
+* Oracle、Microsoft SQL ServerまたはPostgreSQL データベースの場合、管理者は、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメーター**&#x200B;を定義できます。
+* Oracle データベースの場合、Adobe Campaign ユーザーは、通常、**oinstall** グループのメンバーとして、Oracle ライブラリにアクセスできる必要があります。
+* 「**[!UICONTROL 管理者パスワードの設定または変更]**」オプションを使用すると、Adobe Campaign オペレーターにリンクされているパスワードを管理者権限で入力できます。
 
-  セキュリティ保護のため、Adobe Campaign アカウント管理者のパスワードを定義することをお勧めします。
+  セキュリティ目的でAdobe Campaign アカウント管理者パスワードを定義することをお勧めします。
 
-### 手順 5 - データベースの作成 {#step-5---creating-the-database}
+### 手順5 - データベースの作成 {#step-5---creating-the-database}
 
 アシスタントの最終段階では、データベースを作成できます。 「**[!UICONTROL 開始]**」をクリックして確定します。
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
-データベースの作成が完了したら、再接続してインスタンス設定を完了できます。
+データベースの作成が完了したら、再接続してインスタンス設定を確定できます。
 
-インスタンスの設定を完了するには、デプロイメントウィザードを開始する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant) を参照してください。
+これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
-インスタンスにリンクされているデータベースの接続設定は、ファイルに保存されています。**`/conf/config-<instance>.xml`** のファイルはAdobe Campaign インストールディレクトリにあります。
+インスタンスにリンクされたデータベースの接続設定は、Adobe Campaign インストールディレクトリにあるファイル **`/conf/config-<instance>.xml`**&#x200B;に保存されます。
 
-暗号化されたパスワードを使用して「campaign」アカウントにリンクされた base61 データベース上のMicrosoft SQL Server 設定の例：
+暗号化されたパスワードで「campaign」アカウントにリンクされたbase61 データベース上のMicrosoft SQL Server設定の例：
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>

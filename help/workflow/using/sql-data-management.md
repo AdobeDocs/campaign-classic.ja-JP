@@ -7,8 +7,8 @@ hide: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '454'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
-* このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります。[詳細情報](../../installation/using/about-fda.md)。
+* このアクティビティは、リモートデータソースに対してのみ使用できます。 そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります。 [詳細情報](../../installation/using/about-fda.md)。
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
@@ -30,8 +30,8 @@ ht-degree: 100%
 
   ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
-* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 
-* ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。[詳細情報](../../platform/using/access-management-named-rights.md)。
+* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。
+* ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。 [詳細情報](../../platform/using/access-management-named-rights.md)。
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >SQL スクリプトが機能し、その参照（フィールド名など）がアウトバウンドスキーマに従っていることを確認するのは、SQL スクリプト作成者の責任です。
+   >SQL スクリプトが機能し、その参照（フィールド名など）が正しいかどうかを確認するのは、SQL スクリプトライターの責任です。 Outbound スキーマに従います。
 
-   既存の SQL コードを読み込む場合は、「**[!UICONTROL データベースに格納されているエンティティに SQL スクリプトを含める]**」オプションを選択します。**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL SQL スクリプト]**&#x200B;メニューで SQL スクリプトを作成し、格納する必要があります。
+   既存の SQL コードを読み込む場合は、「**[!UICONTROL データベースに格納されているエンティティに SQL スクリプトを含める]**」オプションを選択します。 **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL SQL スクリプト]**&#x200B;メニューで SQL スクリプトを作成し、格納する必要があります。
 
    または、専用の領域に SQL スクリプトを入力するか、コピーして貼り付けます。
 
@@ -63,15 +63,14 @@ ht-degree: 100%
      >
      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
-
+1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。 選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 
-これでアクティビティが設定され、ワークフローで実行する準備が整いました。
+これでアクティビティが設定され、 ワークフローで実行する準備が整いました。
 
 >[!CAUTION]
 >
->アクティビティ実行後のアウトバウンドトランジションレコード数は単なる目安です。SQL スクリプトの複雑さのレベルによって異なる場合があります。
+>アクティビティ実行後のアウトバウンドトランジションレコード数は単なる目安です。 SQL スクリプトの複雑さのレベルによって異なる場合があります。
 >  
 >アクティビティを再開すると、実行ステータスに関係なく、スクリプト全体が最初から実行されます。
 
@@ -82,7 +81,6 @@ ht-degree: 100%
 >この節にあるスクリプトのサンプルは、PostgreSQL で実行することを想定しています。
 
 以下のスクリプトは、ワークテーブルを作成し、この同じワークテーブルにデータを挿入します。
-
 
 ```
 CREATE UNLOGGED TABLE <%= activity.tableName %> (
@@ -101,7 +99,6 @@ GROUP BY iRecipientId, sFirstName, sMiddleName, sLastName, sEmail;
 
 以下のスクリプトは、CTAS 操作（CREATE TABLE AS SELECT）を実行し、ワークテーブルのインデックスを作成します。
 
-
 ```
 CREATE TABLE <%= activity.tableName %>
 AS SELECT iRecipientId, sEmail, sFirstName, sLastName, sMiddleName
@@ -115,7 +112,6 @@ ANALYZE <%= activity.tableName %> (sEmail);
 ```
 
 以下のスクリプトは、2 つのワークテーブルを結合します。
-
 
 ```
 CREATE TABLE <%= activity.tableName %>

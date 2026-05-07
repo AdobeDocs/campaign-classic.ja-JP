@@ -79,7 +79,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
@@ -87,11 +87,11 @@ ht-degree: 100%
 * **[!UICONTROL ソース TON]**
 * **[!UICONTROL 送信先 TON]**
 
-「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。 
+「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。
 
 * **[!UICONTROL アウントバウンド SMS のコーディング]**
 
-「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。 
+「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。
 
 * **[!UICONTROL 送信時のコーディング]**&#x200B;は **[!UICONTROL MT 確認の ID フォーマット]**&#x200B;に対応
 * **[!UICONTROL 受信時のコーディング]**&#x200B;は **[!UICONTROL SR の ID のフォーマット]**&#x200B;に対応
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 ![](assets/smpp_3.png)
 
-「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 ![](assets/smpp_4.png)
 
-「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -124,11 +124,11 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 
-「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。 
+「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。
 
 * **[!UICONTROL 送信時のコーディング]**&#x200B;は **[!UICONTROL MT 確認の ID フォーマット]**&#x200B;に対応
 * **[!UICONTROL 受信時のコーディング]**&#x200B;は **[!UICONTROL SR の ID のフォーマット]**&#x200B;に対応
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 ![](assets/smpp_6.png)
 
-「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -147,14 +147,14 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
 * **[!UICONTROL 宛先の NPI]**
 * **[!UICONTROL ソース TON]**
 
-「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。 
+「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。
 
 * **[!UICONTROL アウントバウンド SMS のコーディング]**
 
@@ -164,7 +164,7 @@ ht-degree: 100%
 
 ![](assets/smpp_5.png)
 
-「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -172,7 +172,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**

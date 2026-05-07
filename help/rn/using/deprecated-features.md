@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1767'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> トリガー統合認証（当初はパイプラインにアクセスするための OAuth 認証設定に基づいていた）が変更され、Adobe I/O に移動しました。この認証モードは、Campaign 20.3 リリースで非推奨となりました。<p>
+  <td><p> トリガー統合認証（当初はパイプラインにアクセスするための OAuth 認証設定に基づいていた）が変更され、Adobe I/O に移行しました。この認証モードは、Campaign 20.3 リリースで非推奨となりました。<p>
   <p>トリガー統合を使用している場合は、<a href="../../integrations/using/about-triggers.md#implement">このページ</a>で実装の適応方法を確認してください。</p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
@@ -108,7 +108,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
    <tr> 
    <td>Windows NT 認証<br></td>
-   <td><p>Campaign 20.3 リリース以降、Microsoft SQL Serverを使用して新しいデータベースを設定する際に使用できる認証方式からWindows NT認証が削除されました。<a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">詳細情報</a></p></td>
+   <td><p>Campaign 20.3 リリースより、Microsoft SQL Server で新しいデータベースを設定する際の使用可能な認証方法から Windows NT 認証が削除されました。<a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">詳細情報</a></p></td>
   </tr>
    <tr> 
    <td>ファイルベースのメールのアーカイブ<br></td>
@@ -174,7 +174,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 ### オペレーティングシステム {#o-s-eol}
 
-* 7.3.4 リリース以降、Adobe CampaignはRed Hat Enterprise Linux （RHEL） 7との互換性がなくなりました。
+* 7.3.4 リリース以降、Adobe Campaign は Red Hat Enterprise Linux（RHEL）7 との互換性がなくなりました。
 
 * 7.3.1 リリースより、Adobe Campaign は Windows 8 および Windows Server 2012 との互換性を失います。
 
@@ -188,7 +188,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
    * CentOS 6。 [詳細情報](https://wiki.centos.org/Download)
    * Debian 7。 [詳細情報](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
+   * RHEL 6.x.[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
    * Windows Server 2008。 [詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
    * SLES 11。 [詳細情報](https://www.suse.com/lifecycle)
 
@@ -196,7 +196,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリース以降、Adobe Campaign は下記の web サーバーに対応しなくなります。
 
-* Apache 2.2。 [詳細情報](https://httpd.apache.org/)
+* Apache 2.2。[詳細情報](https://httpd.apache.org/)
 * Microsoft IIS 7。 [詳細情報](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### ツール {#tools-eol}
@@ -234,10 +234,10 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 * MySQL 5.1。
 * InfiniDB は提供が終了しました（EOL）。
 * Teradata 13、13.1。
-* Netezza 6.02、7.0。 Netezzaは終焉を迎えた。
-* AsterData 5.0. AsterDataは提供終了となりました。
+* Netezza 6.02、7.0。Netezza は提供が終了しました（EOL）。
+* AsterData 5.0.AsterData は提供が終了しました（EOL）。
 * Sybase IQ 15.2、15.4、15.5 および Sybase ASE 15.0。
-* HiveSQL経由のHadoop:Hadoop 2.7.3、HiveSQL 1.2.1。 Adobe Campaign Classicは、Federated Data Access （FDA）を介したHiveSQL経由で、Hadoopのリストされたバージョンを引き続きサポートしていますが、これらのバージョンは、HortonWorks （HDP 2.4.X、2.5.x、2.6.x）およびHDInsight 3.4 （HDP 2.4）、3.5 （HDP 2.5）、3.6 （HDP 2.6）と統合されています
+* HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
 
 **RDBMS サーバー**
 

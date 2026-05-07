@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-description: Campaign Classic Documentation
+description: Campaign Classic ドキュメント
 git-repo: https://github.com/AdobeDocs/campaign-classic.ja-JP
 solution: Campaign, Campaign Classic v7
 product_v2:
@@ -14,9 +14,9 @@ index: true
 source-git-commit: a1a59ed58e83bac6c29825d55dd228c39b528974
 workflow-type: tm+mt
 source-wordcount: 13
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Campaign Classicのメタデータ
+# Adobe Campaign Classic のメタデータ

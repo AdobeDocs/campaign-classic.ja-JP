@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign v8 プロモーションイニシアチブの一環として、Campaign
 
 リリースステータスが削減および簡素化されました。 [詳細情報](rn-overview.md)
 
-Linux パッケージのインストールがv7.4.1に更新されました。 [詳細情報](../../installation/using/installing-packages-with-linux.md)
+Linux パッケージのインストールが v7.4.1 用に更新されました。[詳細情報](../../installation/using/installing-packages-with-linux.md)
 
 ### 2024年6月 {#june-2024}
 

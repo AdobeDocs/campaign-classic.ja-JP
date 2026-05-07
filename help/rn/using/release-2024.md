@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8e20391d-3628-4d0c-b413-c34e046ae810
 source-git-commit: bf45c8bcdd41e614f9be09bc0fd6385707159841
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ _2024年6月18日（PT）_
 
   サービスの継続性を確保するために、Campaign v7.4 には以下が付属しています。
 
-   * iOS用の新しいCampaign SDK 1.0.27 （iOS 16および17と互換性あり）、最新の[Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}。
+   * iOS 用の新しい Campaign SDK 1.0.27（iOS 16 および 17 に対応）と、最新の [Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}。
    * Android 14 用の新しい Campaign SDK。
 
 ### その他の変更 {#release-7-4-1-other}

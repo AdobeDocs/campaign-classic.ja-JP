@@ -30,11 +30,11 @@ ht-degree: 56%
 
 複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されているデータを使用できます。
 
-* **外部データに対するフィルター** - クエリ アクティビティを使用すると、外部データを追加し、定義されたフィルター設定で使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html） {target="_blank"}を参照してください。
+* **外部データに対するフィルター** - クエリ アクティビティを使用すると、外部データを追加し、定義されたフィルター設定で使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja） {target="_blank"}を参照してください。
 
 * **サブセットを作成** – 分割アクティビティを使用すると、サブセットを作成できます。 外部データを使用して、適用するフィルタリング条件を定義できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
-* **外部データベースを読み込む** - データ読み込み（RDBMS）アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"}を参照してください。
+* **外部データベースを読み込む** - データ読み込み（RDBMS）アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=ja){target="_blank"}を参照してください。
 
 * **情報とリンクの追加** - エンリッチメントアクティビティを使用すると、ワークフローのワークテーブルに追加データを追加したり、外部テーブルにリンクしたりできます。 こうすることで、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}を参照してください。
 

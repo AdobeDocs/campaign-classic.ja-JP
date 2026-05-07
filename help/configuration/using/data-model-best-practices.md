@@ -146,7 +146,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルに対
 
 デフォルトでは、カスタムシーケンスの値は+1,000～+2.1BBの範囲になります。 技術的には、負のIDを有効にすることで、4BBの全範囲を取得することが可能です。 これは注意して使用する必要があり、負から正の数値に切り替えると1つのIDが失われます。レコード 0は通常、生成されたSQL クエリでAdobe Campaignによって無視されます。
 
-シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
+シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
 
 ## 索引 {#indexes}
 

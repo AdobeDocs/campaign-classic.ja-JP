@@ -41,7 +41,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 >
 >ユーザーをIMSに移行する際は、Adobe Admin Console内の製品プロファイルの名前に「admin」という単語が含まれていることに注意してください（「Administrators」、「admin」、「admins」、「approval admin」など）。 Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
 >
->製品プロファイルの命名規則を注意深く確認して、承認済みのユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}を参照してください。
+>製品プロファイルの命名規則を注意深く確認して、承認済みのユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## ホスト環境と Managed Services 環境を移行する方法 {#ims-migration-procedure}

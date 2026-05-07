@@ -20,7 +20,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->サーバーサイド設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。 ホスト モデルとハイブリッド モデルのインストールと設定の手順については、この[ セクション ](../../installation/using/hosting-models.md)で説明します。
+>サーバーサイド設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。 ホスト モデルとハイブリッド モデルのインストールと設定の手順については、この[&#x200B; セクション &#x200B;](../../installation/using/hosting-models.md)で説明します。
 
 最初のパラメーターは、**共有** ノード内にあります。 これらはインスタンスに関連しています。 これらは、すべてのnlserver コマンド（nlserver web、nlserver wfserverなど）で使用される可能性があります。 その他のセクションは、特定のnlserver サブコマンドに関連しています。
 
@@ -499,7 +499,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 **dnsConfig** （DNS設定）ノードの様々なパラメーターを次に示します。
 
-詳細については、この[ セクション ](../../installation/using/configuring-campaign-server.md)を参照してください。
+詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/configuring-campaign-server.md)を参照してください。
 
 <table> 
  <thead> 
@@ -704,7 +704,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **javaScript** ノードの様々なパラメーターを次に示します。 これは、JavaScript インタープリターの設定です。
 
-詳細については、[ レポートに関するドキュメント ](../../reporting/using/actions-on-reports.md#memory-allocation)を参照してください。
+詳細については、[&#x200B; レポートに関するドキュメント &#x200B;](../../reporting/using/actions-on-reports.md#memory-allocation)を参照してください。
 
 <table> 
  <thead> 
@@ -863,7 +863,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig** ノードの様々なパラメーターを次に示します。 これは、プロキシパラメーターの設定です。
 
-詳細については、[ プロキシ接続設定](file-res-management.md)を参照してください。
+詳細については、[&#x200B; プロキシ接続設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -900,7 +900,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig > HTTP Proxy / Secure proxy** ノードで、次のパラメーターを設定します。
 
-詳細については、[ プロキシ接続設定](file-res-management.md)を参照してください。
+詳細については、[&#x200B; プロキシ接続設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -1097,7 +1097,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **アーカイブ** ノードの様々なパラメーターを次に示します。 これは、バックグラウンドで実行されるアーカイブ操作の設定です。
 
-詳しくは、[電子メールアーカイブのアクティブ化（オンプレミス） ](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-)を参照してください。
+詳しくは、[電子メールアーカイブのアクティブ化（オンプレミス） &#x200B;](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-)を参照してください。
 
 <table> 
  <thead> 
@@ -1390,7 +1390,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **対話型** ノードの様々なパラメーターを次に示します。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
 
-詳細については、[ インタラクション – データバッファー](../../installation/using/interaction-data-buffer.md)を参照してください。
+詳細については、[&#x200B; インタラクション – データバッファー](../../installation/using/interaction-data-buffer.md)を参照してください。
 
 <table> 
  <thead> 
@@ -1621,9 +1621,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statServerAddress<br /> </td> 
    <td> 配信統計サーバーのアドレス。次のように指定します 
     &lt;dnsまたはip&gt; 
-      <code>[</code>: 
+      <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>]</code>. 参照 
+       <code>&rbrack;</code>. 参照 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">統計サーバーの座標</a>。 
       <br /> 
      </td> 
@@ -1743,7 +1743,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta > master** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
 
-詳細については、この[ セクション ](../../installation/using/configuring-campaign-server.md#mta-child-processes)を参照してください。
+詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/configuring-campaign-server.md#mta-child-processes)を参照してください。
 
 <table> 
  <thead> 
@@ -1798,7 +1798,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta > child** ノードで、次のパラメーターを設定します。 これは子サーバーの設定です。
 
-詳細については、[ メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)を参照してください。
+詳細については、[&#x200B; メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)を参照してください。
 
 <table> 
  <thead> 
@@ -1914,7 +1914,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta / 子 / smtp / IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信SMTP トラフィックのIP アドレスとのアフィニティの管理の設定です。
 
-詳細については、[使用するIP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)および[ アフィニティを使用した送信SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)を参照してください。
+詳細については、[使用するIP アドレスのリスト &#x200B;](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)および[&#x200B; アフィニティを使用した送信SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)を参照してください。
 
 <table> 
  <thead> 
@@ -1940,7 +1940,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **mta / 子 / smtp / IP** ノードで、次のパラメーターを設定します。
 
-詳しくは、[使用するIP アドレスのリスト ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
+詳しくは、[使用するIP アドレスのリスト &#x200B;](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
 
 <table> 
  <thead> 
@@ -2212,7 +2212,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **securityZone** ノードの様々なパラメーターを次に示します。
 
-詳細については、[ セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
+詳細については、[&#x200B; セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2310,7 +2310,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **securityZone > subNetwork** ノードの様々なパラメーターを次に示します。
 
-詳細については、[ セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
+詳細については、[&#x200B; セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2833,7 +2833,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web** ノードの様々なパラメーターを次に示します。 これは、Web モジュールの設定です。
 
-詳細については、この[ セクション ](configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
+詳細については、この[&#x200B; セクション &#x200B;](configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
 
 <table> 
  <thead> 
@@ -3052,7 +3052,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web > リレー** ノードの様々なパラメーターを次に示します。 これは、2つのゾーン間のHTTP リクエストのリレーの設定です。
 
-詳細については、この[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3111,7 +3111,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 次のパラメーターを使用して、リレー（順序を挿入して優先順位を定義）するURLごとに&#x200B;**web/リレー/url** ノードを追加します。
 
-詳細については、[動的ページセキュリティおよびリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)および[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、[動的ページセキュリティおよびリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)および[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3287,7 +3287,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web > リダイレクト** ノードの様々なパラメーターを次に示します。 これは、リダイレクトモジュールの設定です。
 
-詳細については、この[ セクション ](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
+詳細については、この[&#x200B; セクション &#x200B;](../../installation/using/deploying-an-instance.md#synchronizing-public-resources)を参照してください。
 
 <table> 
  <thead> 
@@ -3376,7 +3376,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 **web/リダイレクト/spareServer** ノードの様々なパラメーターを次に示します。
 
-詳細については、[冗長トラッキング ](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
+詳細については、[冗長トラッキング &#x200B;](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
 
 <table> 
  <thead> 

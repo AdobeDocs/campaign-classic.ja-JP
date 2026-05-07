@@ -19,7 +19,7 @@ ht-degree: 90%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信を作成 {#creating-deliveries}
 
@@ -116,7 +116,7 @@ ht-degree: 90%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントは、任意のフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDFなど）で作成できます。 ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
+レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントは、任意のフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDFなど）で作成できます。 ドキュメントをキャンペーンにリンクする方法については、[&#128279;](../../campaign/using/marketing-campaign-assets.md)こちらの節を参照してください。
 
 >[!IMPORTANT]
 >

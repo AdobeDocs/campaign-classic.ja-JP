@@ -18,7 +18,7 @@ ht-degree: 98%
 
 パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。 [パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。 デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 

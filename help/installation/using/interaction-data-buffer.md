@@ -34,7 +34,7 @@ Adobe Campaignでは、**データバッファーゾーン**&#x200B;がインタ
 
 >[!CAUTION]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 >
 >設定を変更するには、Web サーバー（Apache:IIS）とAdobe Campaign プロセスを再起動する必要があります。\
 >データバッファーゾーンを設定した後、適応ハードウェア設定が使用可能であることを確認してください。 （存在するメモリ量）。

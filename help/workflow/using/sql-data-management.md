@@ -26,9 +26,9 @@ ht-degree: 93%
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
+  ![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。
 * ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。 [詳細情報](../../platform/using/access-management-named-rights.md)。

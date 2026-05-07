@@ -21,7 +21,7 @@ ht-degree: 26%
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 [!DNL Vertica Analytics]へのアクセスを設定するには、次の手順に従います。
 
 1. [CentOS](#vertica-centos)、[Windows](#vertica-windows)または[Debian](#vertica-debian)で[!DNL Vertica Analytics]を設定します
-1. Campaignで[!DNL Vertica Analytics] [外部アカウント ](#vertica-external)を設定します
+1. Campaignで[!DNL Vertica Analytics] [外部アカウント &#x200B;](#vertica-external)を設定します
 
 ![](assets/snowflake_3.png)
 
@@ -29,7 +29,7 @@ ht-degree: 26%
 
 CentOSで[!DNL Vertica Analytics]を設定するには、次の手順に従います。
 
-1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。 [ここをクリック ](https://www.vertica.com/download/vertica/client-drivers/)して、最新のLinux RPMをダウンロードしてください。
+1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。 [ここをクリック &#x200B;](https://www.vertica.com/download/vertica/client-drivers/)して、最新のLinux RPMをダウンロードしてください。
 
 1. 次に、次のコマンドでunixODBCをインストールする必要があります。
 

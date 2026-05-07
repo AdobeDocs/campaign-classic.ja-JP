@@ -32,7 +32,7 @@ Adobe Campaign プロセス監視ページにアクセスするには、「**[!U
 * 欠落しているプロセスと実行情報（開始日、PIDなど）のリスト。
 * ワークフローと配信のビュー。
 
-Campaign プロセスを監視する追加の方法については、[このページ ](../../production/using/monitoring-guidelines.md)で説明しています。
+Campaign プロセスを監視する追加の方法については、[このページ &#x200B;](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ### ログ {#log-journal}
 
@@ -399,7 +399,7 @@ wfserver@prod
 
 この&#x200B;**http （s）://`<Application server url>`/nl/jsp/ping.jsp** ページは、ネットワークの対応者と同じように動作します。apache/tomcat/web モジュール/データベースを経由してクエリ全体をテストし、クライアントにアップロードします。 すべてが正常に動作している場合は、「OK」が返されます。 データベース（mtaやアンケートなど）にアクセスできるマシンでこのテストを実行することをお勧めします。
 
-**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 例：
 
@@ -417,7 +417,7 @@ wfserver@prod
 
 ![](assets/ncs_monitoring_web.png)
 
-**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 オペレーターとそのログインは、適切なデータベース権限と制限を使用して、以前にAdobe Campaign クライアントコンソールで設定する必要があります。
 

@@ -272,7 +272,7 @@ nlserver web
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-これらのコマンドを使用すると、**config-default.xml**&#x200B;および&#x200B;**serverConf.xml**&#x200B;設定ファイルを作成できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+これらのコマンドを使用すると、**config-default.xml**&#x200B;および&#x200B;**serverConf.xml**&#x200B;設定ファイルを作成できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 **Ctrl+C**&#x200B;を押してプロセスを停止し、次のコマンドを入力します。
 

@@ -108,17 +108,17 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
 
 * 業務量データの収集
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * 受信者を検索するフィールドの指定
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   アカウント番号が10の受信者がホームページに送信されます。
 
 * デフォルトの配信の使用
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
   受信者がホームページに送信されます。 この情報は、配信識別子を含むセッションクッキーがこのクエリで送信されない限り、識別子230 （データベース 16のe6）を持つ配信に保存されます。
 

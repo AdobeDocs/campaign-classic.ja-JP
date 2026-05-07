@@ -130,7 +130,7 @@ ht-degree: 97%
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. ディメンションの軸を切り替えたり、軸を削除したり、新しいメジャーを追加したりできます。可能な操作について詳しくは、[このページ ](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
+1. ディメンションの軸を切り替えたり、軸を削除したり、新しいメジャーを追加したりできます。可能な操作について詳しくは、[このページ &#x200B;](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
    それには、該当するアイコンを使用します。
 

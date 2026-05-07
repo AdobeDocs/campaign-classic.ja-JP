@@ -24,9 +24,9 @@ ht-degree: 27%
 ワークフローについて詳しくは、次の節を参照してください。
 
 * [ワークフローについて](../../workflow/using/about-workflows.md)
-* [ ワークフローを開始](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja){target="_blank"}。
-* [ ワークフローライフサイクル ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。
-* [ ワークフローの使用時のベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}。
+* [&#x200B; ワークフローを開始](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja){target="_blank"}。
+* [&#x200B; ワークフローライフサイクル &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。
+* [&#x200B; ワークフローの使用時のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}。
 
 ## キャンペーンをすぐに開始 {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,9 +34,9 @@ ht-degree: 27%
 
 この問題にはいくつかの原因が考えられます。以下の手順に従って解決してください。
 
-1. [**[!UICONTROL operationMgt ]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}のテクニカルワークフローのステータスを確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗した場合、ワークフローが開始/停止されなくなります。 再起動して、キャンペーンワークフローの実行を再開します。
+1. [**[!UICONTROL operationMgt &#x200B;]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}のテクニカルワークフローのステータスを確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗した場合、ワークフローが開始/停止されなくなります。 再起動して、キャンペーンワークフローの実行を再開します。
 
-   テクニカルワークフロー監視について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"}を参照してください。
+   テクニカルワークフロー監視について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ja){target="_blank"}を参照してください。
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ ht-degree: 27%
 
    モジュールを再起動する方法について詳しくは、[この節](../../production/using/usual-commands.md#module-launch-commands)を参照してください。
 
-1. インスタンスで実行しているキャンペーンプロセスの&#x200B;**件が、しきい値を超えているかどうかを確認します。**[**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) オプションで、インスタンスで同時に実行できるキャンペーンプロセスの数に制限があります。 この制限に達すると、実行中のワークフローの数が制限を超えている限り、ワークフローは「できるだけ早く開始」状態のままになります。
+1. インスタンスで実行しているキャンペーンプロセスの&#x200B;**件が、しきい値を超えているかどうかを確認します。**&#x200B;[**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) オプションで、インスタンスで同時に実行できるキャンペーンプロセスの数に制限があります。 この制限に達すると、実行中のワークフローの数が制限を超えている限り、ワークフローは「できるだけ早く開始」状態のままになります。
 
    この問題を解決するには、不要なワークフローを停止し、失敗した配信を削除します。 しきい値に達した場合、これにより新しいプロセスの実行が可能になります。
 
@@ -79,7 +79,7 @@ ht-degree: 27%
    >
    >**[!UICONTROL NmsOperation_LimitConcurrency]** オプションのしきい値を増やすと、インスタンスのパフォーマンスの問題が発生する可能性があります。 いずれにしても、ご自身で行うのではなく、Adobe Campaignの担当者にお問い合わせください。
 
-ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}を参照してください。
+ワークフローの監視方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}を参照してください。
 
 ## 進行中に開始 {#start-in-progress}
 

@@ -23,7 +23,7 @@ ht-degree: 5%
 
 **uploadWhiteList**&#x200B;属性を使用して、Adobe Campaign サーバーでアップロードできるファイルタイプを制限します。
 
-この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 この属性のデフォルト値は&#x200B;**.+**&#x200B;で、任意のファイルタイプをアップロードできます。
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ## プロキシ接続設定 {#proxy-connection-configuration}
 
-例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 HTTP、HTTPS、FTP、SFTPのプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTPおよびHTTPS プロトコルパラメーターは&#x200B;**使用できなくなります**。 これらのパラメーターは、以前のビルド（9032を含む）で引き続き使用できるため、以下に示します。
 

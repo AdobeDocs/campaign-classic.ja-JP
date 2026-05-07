@@ -23,7 +23,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 
 この場合：
 
-* デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション ](../../installation/using/configure-tomcat.md)を参照してください。
+* デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション &#x200B;](../../installation/using/configure-tomcat.md)を参照してください。
 * 次に、クライアントコンソールは、```https:// `<computer>`:8080```などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上に公開され、ネットワーク外でコンソールへのアクセスを開く場合は、HTTP トラフィックのメインエントリポイントとして専用Web サーバーを使用することをお勧めします。
@@ -133,5 +133,5 @@ Adobe Campaignでは、この制限を超えるファイルをアップロード
 
 この場合は、この制限を増やす必要があります。
 
-このMicrosoft IIS オプションについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}の「方法」セクションを参照してください。
+このMicrosoft IIS オプションについて詳しくは、[Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}の「方法」セクションを参照してください。
 

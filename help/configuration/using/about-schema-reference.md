@@ -19,7 +19,7 @@ ht-degree: 49%
 
 この章では、Adobe Campaign データベースの概念データモデルを拡張するために、拡張スキーマを設定する方法について説明します。
 
-Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル ](about-data-model.md)を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル &#x200B;](about-data-model.md)を参照してください。
 
 Adobe Campaignでは、アプリケーションに格納されるデータの物理構造と論理構造をXMLで記述します。 **スキーマ**&#x200B;は、データベーステーブルに関連付けられたXML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 

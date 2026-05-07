@@ -185,7 +185,7 @@ WSDLの説明は、Web サービスを形成する「バインディング」に
 
 ## 接続性 {#connectivity}
 
-Adobe Campaignでは、[ セキュリティゾーン ](../../installation/using/security-zones.md)とセッション管理の設定を導入することで、認証メカニズムのセキュリティを強化しました。
+Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../installation/using/security-zones.md)とセッション管理の設定を導入することで、認証メカニズムのセキュリティを強化しました。
 
 使用可能な認証モードは2つあります。
 

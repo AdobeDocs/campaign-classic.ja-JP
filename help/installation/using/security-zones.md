@@ -41,7 +41,7 @@ ht-degree: 19%
 
 セキュリティゾーンは相互にロックされています。つまり、別のゾーン内に新しいゾーンを定義することで、ログオンできるオペレーターの数を減らしながら、各オペレーターに割り当てられた権限を増やすことができます。
 
-ゾーンは、**serverConf.xml** ファイルでサーバーの構成中に定義する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、[このセクション ](../../installation/using/the-server-configuration-file.md)に記載されています。
+ゾーンは、**serverConf.xml** ファイルでサーバーの構成中に定義する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、[このセクション &#x200B;](../../installation/using/the-server-configuration-file.md)に記載されています。
 
 各ゾーンは、次のような権限を定義します。
 
@@ -99,7 +99,7 @@ ht-degree: 19%
 >
 >ゾーン定義では、**true**&#x200B;値を持つ各属性によってセキュリティが低下します。
 
-Message Centerを使用する場合、複数の実行インスタンスがある場合、**sessionTokenOnly**&#x200B;属性が&#x200B;**true**&#x200B;として定義された追加のセキュリティゾーンを作成する必要があります。この際、必要なIP アドレスのみが追加されます。 インスタンスの設定について詳しくは、[このドキュメント ](../../message-center/using/configuring-instances.md)を参照してください。
+Message Centerを使用する場合、複数の実行インスタンスがある場合、**sessionTokenOnly**&#x200B;属性が&#x200B;**true**&#x200B;として定義された追加のセキュリティゾーンを作成する必要があります。この際、必要なIP アドレスのみが追加されます。 インスタンスの設定について詳しくは、[このドキュメント &#x200B;](../../message-center/using/configuring-instances.md)を参照してください。
 
 ## セキュリティゾーンのベストプラクティス {#best-practices-for-security-zones}
 

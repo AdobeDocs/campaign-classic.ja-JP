@@ -48,7 +48,7 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * 想定されるデータタイプ（番号、メールアドレス、日付など）に応じて、検証前の情報チェックを行います。 すべて含まれています。 詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
 * 電子メールの招待状または通知。 詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。 詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
-* 画像、動画、ハイパーテキストリンク、キャプチャなどの使用。詳しくは、この[ ページ ](editing-content.md)を参照してください。
+* 画像、動画、ハイパーテキストリンク、キャプチャなどの使用。詳しくは、この[&#x200B; ページ &#x200B;](editing-content.md)を参照してください。
 * リアルタイムの応答の監視。 詳しくは、この[ページ](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。

@@ -84,7 +84,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **送信接続保護**&#x200B;および&#x200B;**コマンド制限** （サーバーサイド）
 
-* 追加のHTTP ヘッダーを追加したり、checkIPConsistentをアクティブ化したり、enableTLS、sessionTimeOutSecなどを実行することもできます。詳しくは、[Campaign サーバー設定ドキュメント ](../../installation/using/configuring-campaign-server.md)および[ サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md)を参照してください。
+* 追加のHTTP ヘッダーを追加したり、checkIPConsistentをアクティブ化したり、enableTLS、sessionTimeOutSecなどを実行することもできます。詳しくは、[Campaign サーバー設定ドキュメント &#x200B;](../../installation/using/configuring-campaign-server.md)および[&#x200B; サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md)を参照してください。
 
 [詳細情報](../../installation/using/server-configuration.md)
 

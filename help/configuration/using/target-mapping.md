@@ -30,7 +30,7 @@ ht-degree: 3%
 
 1. 使用するカスタムテーブルのフィールドを統合する新しいデータスキーマを作成します。
 
-   詳しくは、[ スキーマリファレンス （xtk:srcSchema） ](../../configuration/using/about-schema-reference.md)を参照してください。
+   詳しくは、[&#x200B; スキーマリファレンス （xtk:srcSchema） &#x200B;](../../configuration/using/about-schema-reference.md)を参照してください。
 
    この例では、顧客スキーマ、ID、名、姓、メールアドレス、携帯電話番号のフィールドを含む非常にシンプルなテーブルを作成します。 目的は、このテーブルに保存されている個人に電子メールまたはSMS アラートを送信できるようにすることです。
 
@@ -51,7 +51,7 @@ ht-degree: 3%
    </srcSchema>
    ```
 
-1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [ ビュー属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
+1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [&#x200B; ビュー属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>

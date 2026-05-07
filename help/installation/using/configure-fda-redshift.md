@@ -18,8 +18,8 @@ ht-degree: 28%
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Amazon Redshiftへのアクセスを設定するには、次の手順に従います。
 
-1. [Amazon Redshift データベース ](#configuring-redshift)を設定
-1. CampaignでAmazon Redshift [外部アカウント ](#redshift-external)を設定する
+1. [Amazon Redshift データベース &#x200B;](#configuring-redshift)を設定
+1. CampaignでAmazon Redshift [外部アカウント &#x200B;](#redshift-external)を設定する
 
 ## Linux版Amazon Redshift {#redshift-linux}
 

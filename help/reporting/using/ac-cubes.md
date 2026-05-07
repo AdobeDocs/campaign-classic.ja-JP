@@ -45,4 +45,4 @@ Campaign Marketing Analytics モジュールを使用してできることは次
 1. キューブで計算および集計したデータを使用したクエリの作成
 1. 母集団の特定とリストでの参照
 
-キューブの作成方法と使用方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target="_blank"}を参照してください。
+キューブの作成方法と使用方法については、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target="_blank"}を参照してください。

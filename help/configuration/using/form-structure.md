@@ -187,7 +187,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->**style=&quot;down|up** （デフォルト） **&quot;**機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。 この機能はオプションです。
+>**style=&quot;down|up** （デフォルト） **&quot;**&#x200B;機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。 この機能はオプションです。
 >`<container style="down" type="notebook">  … </container>`
 
 #### アイコンリスト {#icon-list}

@@ -14,7 +14,7 @@ ht-degree: 51%
 
 # データベースマッピング{#database-mapping}
 
-このページ ](schema-structure.md)の[に記載されているサンプルスキーマのSQL マッピングは、次のXML ドキュメントを生成します。
+このページ [&#128279;](schema-structure.md)のに記載されているサンプルスキーマのSQL マッピングは、次のXML ドキュメントを生成します。
 
 ```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">

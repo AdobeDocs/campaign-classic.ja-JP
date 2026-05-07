@@ -27,7 +27,7 @@ ht-degree: 81%
 >様々なチャネルでの母集団のターゲティング、メッセージパーソナライゼーションおよびメッセージ配信に関連する機能について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
 
 
-![ ハウツー動画のサムネイル ](assets/do-not-localize/how-to-video.png) [動画でマーケティングキャンペーンの主要な概念を見つける](#video)
+![&#x200B; ハウツー動画のサムネイル &#x200B;](assets/do-not-localize/how-to-video.png) [動画でマーケティングキャンペーンの主要な概念を見つける](#video)
 
 ## 主要コンセプト {#core-concepts}
 

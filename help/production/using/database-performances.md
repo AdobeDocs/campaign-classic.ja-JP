@@ -32,7 +32,7 @@ Adobe Campaignの初期設定が引き続き有効であることを確認し、
 
 >[!NOTE]
 >
->詳しくは、[Adobe Campaign ハードウェアのサイズ変更ガイド ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)を参照してください。
+>詳しくは、[Adobe Campaign ハードウェアのサイズ変更ガイド &#x200B;](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)を参照してください。
 
 ## プラットフォーム設定 {#platform-configuration}
 
@@ -74,7 +74,7 @@ Adobe Campaignの初期設定が引き続き有効であることを確認し、
 
 Adobe Campaignのインストール設定に応じて、次の2つのツールを使用してプラットフォームを監視できます。
 
-* インスタンスの実稼動ページ。 詳しくは、[手動モニタリング ](../../production/using/monitoring-processes.md#manual-monitoring)を参照してください。
+* インスタンスの実稼動ページ。 詳しくは、[手動モニタリング &#x200B;](../../production/using/monitoring-processes.md#manual-monitoring)を参照してください。
 * *netreport* スクリプト。 詳しくは、[Adobe Campaign スクリプトによる自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)を参照してください。
 
 ## 詳細 {#specifics}

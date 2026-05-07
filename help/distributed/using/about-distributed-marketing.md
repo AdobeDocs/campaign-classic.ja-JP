@@ -26,7 +26,7 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->Adobe Campaignの分散型マーケティングとその使用方法について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}を参照してください。
+>Adobe Campaignの分散型マーケティングとその使用方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}を参照してください。
 
 <!--
 ## Terminology {#terminology}

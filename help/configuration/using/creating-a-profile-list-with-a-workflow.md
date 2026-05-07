@@ -34,7 +34,7 @@ Campaignのリストについて詳しくは、[この節](../../platform/using/
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） ]**」ラジオボタンを選択します。**[!UICONTROL 
+1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） **」ラジオボタンを選択します。**
 
    ![](assets/mapping_create_list_workflow02.png)
 

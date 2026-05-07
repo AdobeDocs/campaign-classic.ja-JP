@@ -23,7 +23,7 @@ ht-degree: 11%
 
 データベース・サーバのオペレーティング・システムは、Adobe Campaignの様々なコンポーネントとの接続性が可能である限り重要ではありません。
 
-[ データベースアクセスレイヤー](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) セクションも確認してください。
+[&#x200B; データベースアクセスレイヤー](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) セクションも確認してください。
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
@@ -76,7 +76,7 @@ sqlplus
 [login] [password]
 ```
 
-Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux)で[Oracle Clientを参照することもできます。
+Linux[&#128279;](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux)でOracle Clientを参照することもできます。
 
 ## PostgresSQL {#postgressql}
 

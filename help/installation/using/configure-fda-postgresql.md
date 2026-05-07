@@ -75,7 +75,7 @@ Campaign インスタンスを[!DNL PostgreSQL]外部データベースに接続
 
 | オプション | 説明 |
 |:-:|:-:|
-| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT)を参照してください。 |
-| PGSQL_KEEPALIVES_IDLE | TCPがキープアライブ メッセージをサーバーに送信するまでの非アクティブな秒数。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE)を参照してください。 |
-| PGSQL_KEEPALIVES_INTVL | サーバーがTCP キープアライブ メッセージを再送信するまでの秒数。  <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL)を参照してください。 |
-| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止したと見なされる前に失われる可能性のあるTCP キープアライブの数。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT)を参照してください。 |
+| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT)を参照してください。 |
+| PGSQL_KEEPALIVES_IDLE | TCPがキープアライブ メッセージをサーバーに送信するまでの非アクティブな秒数。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE)を参照してください。 |
+| PGSQL_KEEPALIVES_INTVL | サーバーがTCP キープアライブ メッセージを再送信するまでの秒数。  <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL)を参照してください。 |
+| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止したと見なされる前に失われる可能性のあるTCP キープアライブの数。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT)を参照してください。 |

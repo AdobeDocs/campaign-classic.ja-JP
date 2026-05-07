@@ -29,7 +29,7 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
-  **IIS**&#x200B;で（[ ドキュメント ](https://support.microsoft.com/en-us/kb/245030)を参照）、次の設定を実行します。
+  **IIS**&#x200B;で（[&#x200B; ドキュメント &#x200B;](https://support.microsoft.com/en-us/kb/245030)を参照）、次の設定を実行します。
 
    * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL にレジストリサブキーを追加します。
    * デフォルトでネゴシエーションされないプロトコル（TLS 1.2など）をシステムで使用できるようにするには、**Protocols** キーの下にある次のレジストリキーで、DisabledByDefault値のDWORD値データを0x0に変更します。
@@ -48,7 +48,7 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
 
   **Apache**&#x200B;で、/etc/apache2/conf.d/securityで編集：TraceEnable **Off**
 
-  **IIS**&#x200B;で（[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)を参照）、次の設定を実行します。
+  **IIS**&#x200B;で（[&#x200B; ドキュメント &#x200B;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)を参照）、次の設定を実行します。
 
    * **要求フィルタリング**&#x200B;の役割サービスまたは機能がインストールされていることを確認します。
    * **フィルタリングをリクエスト** ペインで、「HTTP動詞」タブをクリックし、「動詞を拒否」をクリックします。 アクションパネルで、開くダイアログにTRACEと入力します。
@@ -77,7 +77,7 @@ Web サーバー（Apache/IIS）設定に関する主なベストプラクティ
   </Directory>
   ```
 
-  **IIS** （[ ドキュメント ](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)を参照）で、コンテンツフィルタリングオプションで&#x200B;**maxAllowedContentLength** （許可されるコンテンツの最大長）を設定します。
+  **IIS** （[&#x200B; ドキュメント &#x200B;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)を参照）で、コンテンツフィルタリングオプションで&#x200B;**maxAllowedContentLength** （許可されるコンテンツの最大長）を設定します。
 
 関連トピック ：
 

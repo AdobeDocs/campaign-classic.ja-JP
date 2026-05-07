@@ -21,7 +21,7 @@ ht-degree: 63%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 Oracleへのアクセスを設定するには、次の手順に従います。
 
 1. [Linux](#oracle-linux)または[Windows](#azure-windows)でOracleを構成する
-1. CampaignでOracle [外部アカウント ](#oracle-external)を設定する
+1. CampaignでOracle [外部アカウント &#x200B;](#oracle-external)を設定する
 
 ## Linux版Oracle {#oracle-linux}
 

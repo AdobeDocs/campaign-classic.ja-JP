@@ -57,7 +57,7 @@ ht-degree: 8%
 >
 >**redir** ディレクトリは、リダイレクト サーバーにのみ存在します。 **url** サブディレクトリには、リダイレクトするURLの一致が含まれ、サブディレクトリ **log**&#x200B;にはトラッキングログが含まれます。 トラッキングログを生成するには、**trackinglogd** モジュールを実行している必要があります。
 
-パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [ サーバー設定ファイル ](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
+パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [&#x200B; サーバー設定ファイル &#x200B;](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
 
 デフォルトでは、ログはモジュールとインスタンスごとに2つの10 MB ファイルに制限されています。 2番目のファイルは&#x200B;**`<modulename>`_2.log**&#x200B;という名前です。 したがって、ログのサイズは、モジュールおよびインスタンスごとに2&#42;10MBに制限されます。
 

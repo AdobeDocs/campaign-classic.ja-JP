@@ -23,7 +23,7 @@ ht-degree: 98%
 
    分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。 使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 
-1. **プルーフを送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳細については、[ プルーフを送信](steps-validating-the-delivery.md#sending-a-proof)および[特定のプルーフターゲットを定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)してください。
+1. **プルーフを送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳細については、[&#x200B; プルーフを送信](steps-validating-the-delivery.md#sending-a-proof)および[特定のプルーフターゲットを定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)してください。
 
 >[!IMPORTANT]
 >

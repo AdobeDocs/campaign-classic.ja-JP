@@ -29,7 +29,7 @@ ht-degree: 78%
 
 Adobe Campaignは、次の2つのレベルのログを使用して動作できます。
 
-1. Verbose **** モードは、標準レベルの後の最初のレベルです。 次のコマンドはアクティブにします。
+1. Verbose **&#x200B;**&#x200B;モードは、標準レベルの後の最初のレベルです。 次のコマンドはアクティブにします。
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -85,7 +85,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!NOTE]
 >
->トレー **スファイル** ・モードでは、ログを保存できます。 上記の例では、ログは **var//mta_debug.log`<instance-name>`ファイルとvar/default/web_debug.log****** ファイルに保存されます。
+>トレー **スファイル** ・モードでは、ログを保存できます。 上記の例では、ログは **var//mta_debug.log`<instance-name>`ファイルとvar/default/web_debug.log**&#x200B;**&#x200B;** ファイルに保存されます。
 
 >[!IMPORTANT]
 >

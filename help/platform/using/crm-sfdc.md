@@ -39,10 +39,10 @@ Salesforce CRMへのログインに使用するアカウント。
 Salesforce CRMへのログインに使用するパスワード。
 
    * **[!UICONTROL クライアント ID]**
-クライアント IDの検索場所については、この[ ページ ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
+クライアント IDの検索場所については、この[&#x200B; ページ &#x200B;](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
 
    * **[!UICONTROL セキュリティトークン]**
-セキュリティトークンの場所については、この[ ページ ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
+セキュリティトークンの場所については、この[&#x200B; ページ &#x200B;](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
 
    * **[!UICONTROL API バージョン]**
 APIのバージョンを選択します。

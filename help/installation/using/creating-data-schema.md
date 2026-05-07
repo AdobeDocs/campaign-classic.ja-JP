@@ -27,7 +27,7 @@ ht-degree: 46%
 
 1. **[!UICONTROL テーブル名]** フィールドから、収集するデータを含むテーブルを選択します。
 
-   Snowflakeでは、データベースユーザーに正しい権限が付与されている場合は、ここでビューを選択できます。 ビューを使用する場合、Adobe CampaignはXML スキーマを自動生成できませんが、自分で作成する必要があります。 ビューについて詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/views-introduction.html)を参照してください。
+   Snowflakeでは、データベースユーザーに正しい権限が付与されている場合は、ここでビューを選択できます。 ビューを使用する場合、Adobe CampaignはXML スキーマを自動生成できませんが、自分で作成する必要があります。 ビューについて詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/views-introduction.html)を参照してください。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

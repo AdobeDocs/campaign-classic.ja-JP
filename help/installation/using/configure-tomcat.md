@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Adobe Campaignは、Apache Tomcat **と呼ばれる**&#x200B;組み込みweb サーブレットを使用して、アプリケーションと任意の外部インターフェイス（クライアントコンソール、トラッキングされたURL リンク、SOAP呼び出しなど）との間でHTTP/HTTPS リクエストを処理します。 多くの場合、外部向けのAdobe Campaign インスタンスの場合、この前に外部web サーバー（通常はIISまたはApache）が存在します。
 
-CampaignのTomcatの詳細と、Tomcat バージョンを検索する方法については、[このページ ](../../production/using/locate-tomcat-version.md)を参照してください。
+CampaignのTomcatの詳細と、Tomcat バージョンを検索する方法については、[このページ &#x200B;](../../production/using/locate-tomcat-version.md)を参照してください。
 
 >[!AVAILABILITY]
 >

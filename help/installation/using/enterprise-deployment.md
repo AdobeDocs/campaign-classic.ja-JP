@@ -62,7 +62,7 @@ ht-degree: 7%
    * 最初にパブリックに公開され、仮想IP アドレス（VIP）上のロードバランサーをトラッキングおよびポイントし、次に2つのフロントタルサーバーに配布されます。
    * 2つ目は、コンソール経由でアクセスするために内部ユーザーに公開され、仮想IP アドレス（VIP）上のロードバランサーを指し、次に2つのアプリケーションサーバーに配布されます。
 
-* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[ データベースアクセス ](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
+* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[&#x200B; データベースアクセス &#x200B;](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
 
 >[!CAUTION]
 >
@@ -99,14 +99,14 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
    サーバーを停止するには、**Ctrl+C**&#x200B;を押します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linuxの場合：[ サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windowsの場合：[ サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linuxの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windowsの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 1. 次のコマンドを使用して、**internal** パスワードを変更します。
 
@@ -122,7 +122,7 @@ ht-degree: 7%
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、[ インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
+     詳しくは、[&#x200B; インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
 
      または
 
@@ -132,7 +132,7 @@ ht-degree: 7%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、[ インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
 
 1. **config-demo.xml** ファイル （前のコマンドで作成され、**config-default.xml** ファイルの横にある）を編集し、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （リバウンドメール）および&#x200B;**stat** （統計）プロセスが有効であることを確認してから、**アプリ**&#x200B;統計サーバーのアドレスを設定します。
 
@@ -248,8 +248,8 @@ ht-degree: 7%
 
    詳しくは、以下の節を参照してください。
 
-   * Linuxの場合：[ サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windowsの場合：[ サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linuxの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windowsの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 ### フロントタルサーバーのインストールと設定 {#installing-and-configuring-the-frontal-servers}
 

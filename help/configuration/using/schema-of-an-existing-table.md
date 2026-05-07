@@ -29,7 +29,7 @@ ht-degree: 9%
 対応するスキーマを作成するには、次のステージを適用します。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理>設定> データスキーマ]** ノードを編集し、**[!UICONTROL 新規]**&#x200B;をクリックします。
-1. 既存のテーブルまたはSQL ビュー&#x200B;]**オプションから**[!UICONTROL  データにアクセスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. 既存のテーブルまたはSQL ビュー&#x200B;**オプションから** データにアクセスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -60,4 +60,4 @@ ht-degree: 9%
 
 **Federated Data Access - FDA** オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマで実行する設定については、[このページ ](../../installation/using/creating-data-schema.md)で詳しく説明しています。
+外部データベースのデータにアクセスするためにスキーマで実行する設定については、[このページ &#x200B;](../../installation/using/creating-data-schema.md)で詳しく説明しています。

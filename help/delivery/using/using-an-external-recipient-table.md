@@ -24,4 +24,4 @@ ht-degree: 85%
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-**nms:seedMember** スキーマの拡張機能は[このセクション ](../../configuration/using/seed-addresses.md)です。
+**nms:seedMember** スキーマの拡張機能は[このセクション &#x200B;](../../configuration/using/seed-addresses.md)です。

@@ -21,7 +21,7 @@ ht-degree: 70%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 **Microsoft Azure Synapse Analytics**&#x200B;へのアクセスを設定するには、次の手順に従います。
 
 1. [CentOS](#azure-centos)、[Windows](#azure-windows)または[Debian](#azure-debian)でAzure Synapseを設定します
-1. CampaignでAzure Synapse [外部アカウント ](#azure-external)を設定する
+1. CampaignでAzure Synapse [外部アカウント &#x200B;](#azure-external)を設定する
 
 ## CentOS上のAzure Synapse {#azure-centos}
 
@@ -114,7 +114,7 @@ CentOSでAzure Synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。 [このページ ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)で見つけることができます。
+1. まず、Microsoft ODBC ドライバーをインストールします。 [このページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=50420)で見つけることができます。
 
 1. 次のファイルを選択してインストールします。
 
@@ -239,4 +239,4 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳細については、[SQL ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列の例n°8）を参照してください。 |
+| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳細については、[SQL ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列の例n°8）を参照してください。 |

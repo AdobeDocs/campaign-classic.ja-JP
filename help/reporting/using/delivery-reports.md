@@ -158,7 +158,7 @@ ht-degree: 95%
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL ルールによって拒否されたメッセージ]**：タイポロジルールを適用する際に分析中に無視されたアドレスの数：見つからないアドレス、強制隔離されたアドレス、オンラインブロックリストに加えるなどです。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL ルールによって拒否されたメッセージ]**：タイポロジルールを適用する際に分析中に無視されたアドレスの数：見つからないアドレス、強制隔離されたアドレス、オンラインブロックリストに加えるなどです。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 **[!UICONTROL 除外の理由]**
 

@@ -47,7 +47,7 @@ created （datetime）, createdBy-id （long）, desc （string）, entitySchema
 
 ## 用途と使用状況 {#use-and-context-of-use-9}
 
-スキーマのプレゼンテーションは、[ スキーマ参照](../../../configuration/using/about-schema-reference.md)および[ スキーマ構造](../../../configuration/using/schema-structure.md)で利用できます。
+スキーマのプレゼンテーションは、[&#x200B; スキーマ参照](../../../configuration/using/about-schema-reference.md)および[&#x200B; スキーマ構造](../../../configuration/using/schema-structure.md)で利用できます。
 
 ## 属性の説明 {#attribute-description-14}
 

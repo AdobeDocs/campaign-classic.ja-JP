@@ -20,8 +20,8 @@ ht-degree: 66%
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Sybase IQへのアクセスを設定するには、次の手順に従います。
 
-1. [Sybase IQ データベース ](#configuring-sybase)を設定
-1. CampaignでSybase IQ [外部アカウント ](#sybase-external)を設定する
+1. [Sybase IQ データベース &#x200B;](#configuring-sybase)を設定
+1. CampaignでSybase IQ [外部アカウント &#x200B;](#sybase-external)を設定する
 
 ## Sybase IQ設定 {#configuring-sybase}
 

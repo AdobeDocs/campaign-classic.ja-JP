@@ -20,8 +20,8 @@ ht-degree: 79%
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Hadoopへのアクセスを設定するには、次の手順に従います。
 
-1. [Hadoop データベース ](#configuring-hadoop)を設定
-1. CampaignでHadoop [外部アカウント ](#hadoop-external)を設定する
+1. [Hadoop データベース &#x200B;](#configuring-hadoop)を設定
+1. CampaignでHadoop [外部アカウント &#x200B;](#hadoop-external)を設定する
 
 ## Hadoop 3.0の設定 {#configuring-hadoop}
 

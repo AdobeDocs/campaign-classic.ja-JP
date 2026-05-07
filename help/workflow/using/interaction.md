@@ -20,9 +20,9 @@ ht-degree: 70%
 
 詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=ja)
+![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=ja)
 
 
 <table> 

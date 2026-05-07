@@ -23,7 +23,7 @@ Adobe Campaignは、Apache Tomcat **と呼ばれる**&#x200B;組み込みweb サ
 
 ## Adobe Campaignで使用されるTomcat
 
-TomcatはJava上で動作し、JDKをインストールする必要があります。 詳しくは、「[Campaign互換性マトリックス ](../../rn/using/compatibility-matrix.md)」セクションのJava Development Kit （JDK）を参照してください。
+TomcatはJava上で動作し、JDKをインストールする必要があります。 詳しくは、「[Campaign互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)」セクションのJava Development Kit （JDK）を参照してください。
 
 Adobe Campaignで使用されるTomcatは、一般的に入手可能なTomcatの完全なリリースのすべての機能を使用しないカスタマイズされた埋め込みバージョンであり、完全なバージョンのすべての脆弱性に悩まされない可能性があります。 Tomcatも外部インターネットに公開しないでください。公開されているAdobe Campaign インスタンスには、外部Web サーバー（IIS、Apacheなど）が必要です。 それを保護するためにTomcatの前に。
 

@@ -21,7 +21,7 @@ ht-degree: 82%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 Netezzaへのアクセスを設定するには、次の手順に従います。
 
 1. [Netezza ドライバー](#netezza-config)をインストールして設定します
-1. CampaignでNetezza [外部アカウント ](#netezza-external)を設定する
+1. CampaignでNetezza [外部アカウント &#x200B;](#netezza-external)を設定する
 
 ## Netezza設定 {#netezza-config}
 

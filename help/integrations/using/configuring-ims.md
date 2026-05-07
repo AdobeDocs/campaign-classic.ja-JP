@@ -24,7 +24,7 @@ ht-degree: 88%
 
 ## 前提条件 {#prerequisites}
 
-* Adobe Experience Cloud の組織名と組織 ID が必要です。 組織IDを見つけるには、[このページ ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* Adobe Experience Cloud の組織名と組織 ID が必要です。 組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 * Experience Cloud にユーザーを追加する必要があります。 詳しくは、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja){_blank}を参照してください。
 
 >[!NOTE]
@@ -53,7 +53,7 @@ ht-degree: 88%
 
   **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。 このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 
-* 組織ID：組織IDを見つけるには、[このページ ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* 組織ID：組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 
 * 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。 構文「Campaign - tenant_id - （。&#42;）」を使用すると、Adobe Campaignで作成されたセキュリティグループは、Enterprise Dashboardのコンフィギュレーション名「Campaign - tenant_id - internal_name」にリンクされます。
 

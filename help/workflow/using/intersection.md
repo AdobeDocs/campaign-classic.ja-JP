@@ -5,7 +5,7 @@ description: 積集合
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+source-git-commit: 036c937224135f7b372010736f2040a8a6c69b4c
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -63,3 +63,4 @@ ht-degree: 100%
 * recCount
 
 この 3 つの値セットは、積集合によって生成されたターゲットを識別します。 **[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
+

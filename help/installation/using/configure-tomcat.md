@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 TQID: https://experienceleague.adobe.com/LaGsFkomGXlahM-Do7Vwfc4OMH0UAXRiiSRq5Q-9Wto
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 352
@@ -22,7 +25,7 @@ ht-degree: 9%
 
 Adobe Campaignは、Apache Tomcat **と呼ばれる**&#x200B;組み込みweb サーブレットを使用して、アプリケーションと任意の外部インターフェイス（クライアントコンソール、トラッキングされたURL リンク、SOAP呼び出しなど）との間でHTTP/HTTPS リクエストを処理します。 多くの場合、外部向けのAdobe Campaign インスタンスの場合、この前に外部web サーバー（通常はIISまたはApache）が存在します。
 
-CampaignのTomcatの詳細と、Tomcat バージョンを検索する方法については、[このページ ](../../production/using/locate-tomcat-version.md)を参照してください。
+CampaignのTomcatの詳細と、Tomcat バージョンを検索する方法については、[このページ &#x200B;](../../production/using/locate-tomcat-version.md)を参照してください。
 
 >[!AVAILABILITY]
 >

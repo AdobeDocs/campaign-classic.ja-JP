@@ -7,10 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3ebf57870a8fa7b2ad742f3978e982bc80c798d2
 workflow-type: tm+mt
 source-wordcount: 378
@@ -40,7 +46,7 @@ _2026年3月31日_
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/会社概要…]** [ メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の9394@28aaec9 ビルドを使用していることを確認します。 詳細については、Adobe担当者にお問い合わせください。
+> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/会社概要…]** [&#x200B; メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の9394@28aaec9 ビルドを使用していることを確認します。 詳細については、Adobe担当者にお問い合わせください。
 
 * バーコードコンポーネントで高さパラメーターに上限が設定されていなかった問題を修正しました。これは、セキュリティ上の脆弱性につながる可能性がありました。 （NEO-89984）
 * ワークフローを介して作成されたリスト内の列挙フィールドに一時的な名前属性がなく、インターフェイスに誤ったまたは空白の列挙ラベルが表示される問題を修正しました。 （NEO-91158）

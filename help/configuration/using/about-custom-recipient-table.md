@@ -7,11 +7,17 @@ role: User, Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 TQID: https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 704
@@ -50,11 +56,11 @@ ht-degree: 10%
   私たちがお勧めします：
 
    * **[!UICONTROL nms:BroadLogRcp]**&#x200B;および&#x200B;**[!UICONTROL nms:TrackingLogRcp]** スキーマを標準の&#x200B;**[!UICONTROL nms:Recipientschema]**&#x200B;に割り当てます。 これらの2つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
-   * 新しいカスタム受信者スキーマごとに、専用のカスタムブロードログとトラッキングログスキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に実行できます。[ ターゲットマッピング ](../../configuration/using/target-mapping.md)を参照してください。
+   * 新しいカスタム受信者スキーマごとに、専用のカスタムブロードログとトラッキングログスキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に実行できます。[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md)を参照してください。
 
 * 製品で提供されている標準の&#x200B;**[!UICONTROL サービスとサブスクリプション]**&#x200B;は使用できません。
 
-  つまり、[このセクション ](../../delivery/using/managing-subscriptions.md)で詳細に説明されている全体的な操作は適用できません。
+  つまり、[このセクション &#x200B;](../../delivery/using/managing-subscriptions.md)で詳細に説明されている全体的な操作は適用できません。
 
 * **[!UICONTROL visitor]** テーブルのリンクが機能しません。
 
@@ -64,18 +70,18 @@ ht-degree: 10%
 
 * リストにプロファイルを手動で追加することはできません。
 
-  したがって、[このセクション ](../../platform/using/creating-and-managing-lists.md)で説明した手順は、追加の設定なしでは適用できません。
+  したがって、[このセクション &#x200B;](../../platform/using/creating-and-managing-lists.md)で説明した手順は、追加の設定なしでは適用できません。
 
   >[!NOTE]
   >
-  >ワークフローを使用して受信者リストを作成することもできます。 詳しくは、[ ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md)を参照してください。
+  >ワークフローを使用して受信者リストを作成することもできます。 詳しくは、[&#x200B; ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md)を参照してください。
 
 また、様々なすぐに使用できる設定で使用されるデフォルト値を確認することをお勧めします。使用する機能に応じて、いくつかの適応を実行する必要があります。
 
 例：
 
-* 特定の標準レポート、特に&#x200B;**インタラクション**&#x200B;および&#x200B;**モバイルアプリケーション**&#x200B;によって提供されるレポートは、再開発する必要があります。 「[ レポートの管理](../../configuration/using/managing-reports.md)」セクションを参照してください。
-* 特定のワークフローアクティビティのデフォルト設定は、標準受信者テーブル （**[!UICONTROL nms:recipient]**）を参照します。これらの設定は、外部受信者テーブルに使用する場合に変更する必要があります。 「[ ワークフローの管理](../../configuration/using/managing-workflows.md)」セクションを参照してください。
+* 特定の標準レポート、特に&#x200B;**インタラクション**&#x200B;および&#x200B;**モバイルアプリケーション**&#x200B;によって提供されるレポートは、再開発する必要があります。 「[&#x200B; レポートの管理](../../configuration/using/managing-reports.md)」セクションを参照してください。
+* 特定のワークフローアクティビティのデフォルト設定は、標準受信者テーブル （**[!UICONTROL nms:recipient]**）を参照します。これらの設定は、外部受信者テーブルに使用する場合に変更する必要があります。 「[&#x200B; ワークフローの管理](../../configuration/using/managing-workflows.md)」セクションを参照してください。
 * 標準の&#x200B;**[!UICONTROL 購読解除リンク]** パーソナライゼーションブロックを適応させる必要があります。
 * 標準配信テンプレートのターゲットマッピングを変更する必要があります。
 * V4 フォームは、外部受信者テーブルと互換性がありません。web アプリケーションを使用する必要があります。

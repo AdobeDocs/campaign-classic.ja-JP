@@ -6,7 +6,8 @@ feature: Workflows
 hide: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 TQID: https://experienceleague.adobe.com/QIVkWmrdq0Xk58lIqvcDqdAPQTk6w6OaAIui6FnnSLE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1272
@@ -199,4 +200,4 @@ logInfo("Start date: " + task.creationDate)
 一方、その他のプロパティでは、初期化スクリプトを使用する必要があります。 スクリプトはタスクの実行前に評価されます。 変数 **[!UICONTROL activity]** は、タスクに対応するアクティビティを参照します。 このアクティビティのプロパティは変更することが可能で、タスクにのみ影響を与えます。
 
 **関連トピック**
-[ ワークフローでのJavaScript コードの例](javascript-in-workflows.md)
+[&#x200B; ワークフローでのJavaScript コードの例](javascript-in-workflows.md)

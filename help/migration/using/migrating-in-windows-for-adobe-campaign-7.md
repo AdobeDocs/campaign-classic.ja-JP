@@ -9,8 +9,10 @@ topic-tags: migrating-to-adobe-campaign-7
 hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 TQID: https://experienceleague.adobe.com/PnBnslBSLLV6MNF9KlyJQ-n2jGA-r4N6KASrrG3-65k
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1133
@@ -281,7 +283,7 @@ Adobe Campaignをデプロイするには、次の手順を実行します。
 
 ## リダイレクトサーバーの移行 {#migrating-the-redirection-server--iis-}
 
-この段階で、IIS サーバーを停止する必要があります。 [ サービス停止](#service-stop)を参照してください。
+この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止](#service-stop)を参照してください。
 
 1. **インターネット インフォメーション サービス （IIS） マネージャー** コンソールを開きます。
 1. Adobe Campaignの以前のバージョンで使用していたサイトのバインディング（リッスン ポート）を変更します。

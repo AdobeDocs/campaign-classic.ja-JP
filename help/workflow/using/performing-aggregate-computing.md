@@ -6,7 +6,8 @@ feature: Workflows
 hide: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 TQID: https://experienceleague.adobe.com/hr3jxs4JCrcPXdGBGN8I9edBG4FIg1AakOmWaN-Zplk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 245
@@ -34,7 +35,7 @@ ht-degree: 98%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**** これにより、受信者は性別でグループ化されます。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**&#x200B;** これにより、受信者は性別でグループ化されます。
 
    ![](assets/query_editor_nveau_27.png)
 

@@ -9,7 +9,8 @@ topic-tags: migration-procedure
 hide: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 323
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 
 
-このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ ](about-migration.md)も参照してください。
+このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ &#x200B;](about-migration.md)も参照してください。
 
 >[!NOTE]
 >

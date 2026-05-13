@@ -6,7 +6,8 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1710
@@ -189,9 +190,9 @@ Adobe Campaign データベースからデータを追加するには：
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
+  ![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
 
 ### 関数 {#functions}
 

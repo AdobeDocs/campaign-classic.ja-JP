@@ -8,9 +8,13 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
 TQID: https://experienceleague.adobe.com/nUdM-iVzh7yI2Z3ZnFh5JK8FDZpmHAR1crzEb9S5xYg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 459
@@ -51,7 +55,7 @@ created （datetime）, createdBy-id （long）, desc （string）, entitySchema
 
 ## 用途と使用状況 {#use-and-context-of-use-9}
 
-スキーマのプレゼンテーションは、[ スキーマ参照](../../../configuration/using/about-schema-reference.md)および[ スキーマ構造](../../../configuration/using/schema-structure.md)で利用できます。
+スキーマのプレゼンテーションは、[&#x200B; スキーマ参照](../../../configuration/using/about-schema-reference.md)および[&#x200B; スキーマ構造](../../../configuration/using/schema-structure.md)で利用できます。
 
 ## 属性の説明 {#attribute-description-14}
 

@@ -9,10 +9,21 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 TQID: https://experienceleague.adobe.com/XC0Q-35cYPjVHM-h2GNE570DqM8vxjSicu4vxnqYuSo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 2422
@@ -26,7 +37,7 @@ ht-degree: 38%
 
 このセクションでは、アップグレードプロセスと、競合を特定して解決する手順について詳しく説明します。
 
-ビルドのアップグレードは慎重に実行する必要があり、その影響は事前に完全に考慮する必要があり、手順は高レベルの規律で完了する必要があります。 アップグレードを成功させるには、以下に説明する手順を実行するのはエキスパートユーザーのみであることを確認してください。 また、アップグレードを開始する前に、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせいただくことを強くお勧めします。
+ビルドのアップグレードは慎重に実行する必要があり、その影響は事前に完全に考慮する必要があり、手順は高レベルの規律で完了する必要があります。 アップグレードを成功させるには、以下に説明する手順を実行するのはエキスパートユーザーのみであることを確認してください。 また、アップグレードを開始する前に、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせいただくことを強くお勧めします。
 
 次の前提条件が必要です。
 
@@ -36,14 +47,14 @@ ht-degree: 38%
 
 詳細については、次の節を参照してください。[Adobe Campaignの更新](../../production/using/upgrading.md)、[新しいバージョンへの移行](../../migration/using/about-migration.md)。
 
-ホスト型およびハイブリッド型のインスタンスの場合は、Adobe Technical Operations チームにビルドのアップグレードをリクエストする必要があります。 詳しくは、このページの下部にある「よくある質問」セクションを参照してください。 [ ビルドのアップグレードに関するFAQ](../../platform/using/faq-build-upgrade.md)も参照してください。
+ホスト型およびハイブリッド型のインスタンスの場合は、Adobe Technical Operations チームにビルドのアップグレードをリクエストする必要があります。 詳しくは、このページの下部にある「よくある質問」セクションを参照してください。 [&#x200B; ビルドのアップグレードに関するFAQ](../../platform/using/faq-build-upgrade.md)も参照してください。
 
 ## アップグレードの準備
 
 ![](assets/do-not-localize/icon_planification.png)
 
 ビルドのアップグレードを開始する前に、以下の説明に従って完全な準備を実行する必要があります。
-システムをアップグレードする準備ができたら、ビルドのアップグレードに**少なくとも** 2時間かかります。
+システムをアップグレードする準備ができたら、ビルドのアップグレードに&#x200B;**少なくとも** 2時間かかります。
 
 ビルドのアップグレードをおこなうには、以下のリソースが必要です。
 
@@ -60,7 +71,7 @@ ht-degree: 38%
 1. アドビおよびお客様側担当者の連絡先詳細を配布しておく。
 1. ホステッド インスタンスの場合：Adobeとカスタマー担当者がアップグレードの時間と実行する担当者を調整します。
 1. オンプレミスのインスタンスの場合：お客様側担当者がすべてのプロセスを管理します。カスタマイズされたワークフローや配信ロジックのテスト時にサポートが必要な場合は、コンサルティングサービスを依頼してください。
-1. アップグレードするAdobe Campaignのバージョンを決定して確認します。[Adobe Campaign Classic リリースノート ](../../rn/using/rn-overview.md)を参照してください。
+1. アップグレードするAdobe Campaignのバージョンを決定して確認します。[Adobe Campaign Classic リリースノート &#x200B;](../../rn/using/rn-overview.md)を参照してください。
 1. アップグレードの実行可能ファイルがあることを確認します。
 
 ### キーパーソン
@@ -89,11 +100,11 @@ ht-degree: 38%
 
 1. 移行元の環境と移行先の環境のすべてのインスタンスについてデータベースの完全バックアップを作成する。
 
-1. 最新バージョンの[ サーバー設定ファイル ](../../installation/using/the-server-configuration-file.md)を入手します。
+1. 最新バージョンの[&#x200B; サーバー設定ファイル &#x200B;](../../installation/using/the-server-configuration-file.md)を入手します。
 
-1. [最新ビルドをダウンロード ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)。
+1. [最新ビルドをダウンロード &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)。
 
-ビルドのアップグレードを開始する前に、すべての[便利なコマンドライン ](../../installation/using/command-lines.md)を把握する必要もあります。
+ビルドのアップグレードを開始する前に、すべての[便利なコマンドライン &#x200B;](../../installation/using/command-lines.md)を把握する必要もあります。
 
 * **nlserver pdump**：実行中のプロセスのリストを表示します
 * **nlserver pdump -who**：アクティブなクライアントセッションのリストを表示します
@@ -171,7 +182,7 @@ ht-degree: 38%
 
 ### Adobe Campaign Server アプリケーションのアップグレード
 
-1. **Setup.exe** ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[ ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)にアクセスしてください。
+1. **Setup.exe** ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[&#x200B; ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)にアクセスしてください。
 
 1. インストールモードを選択：**更新**&#x200B;または&#x200B;**修復**。
 
@@ -255,7 +266,7 @@ Campaign インスタンスでトランザクションメッセージ（Message 
 
 ミッドソーシング環境のコンテキストでは、アップグレードするために次の追加手順を実行する必要があります。
 
-1. ミッドソーシングサーバーのアップグレードを調整するには、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+1. ミッドソーシングサーバーのアップグレードを調整するには、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 1. テストリンクを実行して、バージョンが更新されたことを検証します。 例：
 
    ```
@@ -374,8 +385,8 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 #### コードの場所
 
 1. ビルトインコードは、datakit フォルダーのXML ファイルに保存されます。 競合するオブジェクトに一致するXML ファイルを検索します。 例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 元のバージョンを取得します。[ ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)またはアップグレードされていない製品の別のインストールを使用します。
-1. 新しいバージョンを取得します。[ ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)またはお客様がインストールしたファイルを使用します。
+1. 元のバージョンを取得します。[&#x200B; ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)またはアップグレードされていない製品の別のインストールを使用します。
+1. 新しいバージョンを取得します。[&#x200B; ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)またはお客様がインストールしたファイルを使用します。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法

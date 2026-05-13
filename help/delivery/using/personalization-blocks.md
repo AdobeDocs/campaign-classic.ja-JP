@@ -8,9 +8,12 @@ role: User
 hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 TQID: https://experienceleague.adobe.com/KfD6zudZg8B6r8ftdINuXjWAqRiHLP9dtGi--H-E6RU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1002
@@ -22,7 +25,7 @@ ht-degree: 98%
 
 パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。 [パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。 デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 

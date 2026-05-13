@@ -8,7 +8,8 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1096
@@ -73,7 +74,7 @@ ht-degree: 5%
    * 最初にパブリック IP上のコンピュータを追跡し、指し示すためにパブリックに公開された人物。
    * コンソール アクセス用に内部ユーザーに公開され、同じコンピューターを指す2番目のエイリアス。
 
-* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[ ネットワーク設定](../../installation/using/network-configuration.md)を参照してください。
+* SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[&#x200B; ネットワーク設定](../../installation/using/network-configuration.md)を参照してください。
 
 次の例では、インスタンスのパラメーターは次のとおりです。
 
@@ -100,14 +101,14 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
    サーバーを停止するには、**Ctrl+C**&#x200B;を押します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linuxの場合：[ サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
-   * Windowsの場合：[ サーバーの初回起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)。
+   * Linuxの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
+   * Windowsの場合：[&#x200B; サーバーの初回起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)。
 
 1. 次のコマンドを使用して、**internal** パスワードを変更します。
 
@@ -123,7 +124,7 @@ ht-degree: 5%
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、「[ インスタンスを作成して](../../installation/using/creating-an-instance-and-logging-on.md)にログオンする」を参照してください。
+     詳しくは、「[&#x200B; インスタンスを作成して](../../installation/using/creating-an-instance-and-logging-on.md)にログオンする」を参照してください。
 
      または
 
@@ -133,7 +134,7 @@ ht-degree: 5%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、[ インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
+     詳しくは、[&#x200B; インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
 
 1. **config-demo.xml** ファイル（**config-default.xml**&#x200B;の横にある前の手順で作成）を編集し、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （バウンスメール）および&#x200B;**stat** （統計）プロセスが有効になっていることを確認します。 次に、統計サーバーのアドレスを設定します。
 
@@ -216,7 +217,7 @@ ht-degree: 5%
 
 1. （以前のダウンロードページから、またはWindows インストール用にサーバー上で直接起動した）Adobe Campaign クライアントコンソールを起動し、サーバー接続URLをhttps://console.campaign.netに設定し、**internal** ログインを使用して接続します。
 
-   [このページ ](../../installation/using/creating-an-instance-and-logging-on.md)と[このセクション ](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
+   [このページ &#x200B;](../../installation/using/creating-an-instance-and-logging-on.md)と[このセクション &#x200B;](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
    初めてログインすると、データベース作成アシスタントが表示されます。
 
@@ -224,20 +225,20 @@ ht-degree: 5%
 
    アシスタントの手順に従って、接続インスタンスに関連付けられたデータベースを作成します。
 
-   詳しくは、[ データベースの作成と設定](../../installation/using/creating-and-configuring-the-database.md)を参照してください。
+   詳しくは、[&#x200B; データベースの作成と設定](../../installation/using/creating-and-configuring-the-database.md)を参照してください。
 
    データベースを作成したら、ログオフします。
 
 1. パスワードなしで&#x200B;**admin** ログインを使用してクライアントコンソールに再度ログオンし、デプロイメントウィザード（**[!UICONTROL ツール/詳細]** メニュー）を起動して、インスタンスの設定を完了します。
 
-   詳しくは、[ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md)を参照してください。
+   詳しくは、[&#x200B; インスタンスのデプロイ &#x200B;](../../installation/using/deploying-an-instance.md)を参照してください。
 
    設定する主なパラメーターは次のとおりです。
 
    * メール配信：送信者と返信のアドレスと、バウンスメールのエラーメールボックス。
    * トラッキング：リダイレクトに使用する外部URLと内部URLを入力し、**トラッキングサーバーの登録**&#x200B;をクリックしてから、トラッキングサーバーの&#x200B;**デモ** インスタンスで検証します。
 
-     詳しくは、[設定のトラッキング ](../../installation/using/deploying-an-instance.md#tracking-configuration)を参照してください。
+     詳しくは、[設定のトラッキング &#x200B;](../../installation/using/deploying-an-instance.md#tracking-configuration)を参照してください。
 
      ![](assets/s_ncs_install_deployment_wiz_09.png)
 

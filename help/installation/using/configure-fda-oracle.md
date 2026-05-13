@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 TQID: https://experienceleague.adobe.com/PbyBdgy6uFZNOmZ2GFrntS4XSJoJj41uFXLWOF4eWyA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 363
@@ -24,7 +26,7 @@ ht-degree: 63%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 Oracleへのアクセスを設定するには、次の手順に従います。
 
 1. [Linux](#oracle-linux)または[Windows](#azure-windows)でOracleを構成する
-1. CampaignでOracle [外部アカウント ](#oracle-external)を設定する
+1. CampaignでOracle [外部アカウント &#x200B;](#oracle-external)を設定する
 
 ## Linux版Oracle {#oracle-linux}
 

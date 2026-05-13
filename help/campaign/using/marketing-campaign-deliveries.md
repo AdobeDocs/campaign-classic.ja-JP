@@ -7,10 +7,16 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 TQID: https://experienceleague.adobe.com/1fiKNiq5Q2q4cN-wCMLSnZdW-IDA-bw6KwJGhSJYZkY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1576
@@ -24,7 +30,7 @@ ht-degree: 90%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信を作成 {#creating-deliveries}
 
@@ -121,7 +127,7 @@ ht-degree: 90%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントは、任意のフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDFなど）で作成できます。 ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
+レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントは、任意のフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDFなど）で作成できます。 ドキュメントをキャンペーンにリンクする方法については、[&#128279;](../../campaign/using/marketing-campaign-assets.md)こちらの節を参照してください。
 
 >[!IMPORTANT]
 >

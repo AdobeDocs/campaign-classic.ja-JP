@@ -178,6 +178,6 @@ Adobeでは、新しいバージョンのコンソールが使用可能になっ
 
 このビデオでは、Adobe Campaign クライアントをインストールして設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38270?captions=jpn&quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

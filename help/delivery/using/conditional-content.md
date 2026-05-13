@@ -119,6 +119,6 @@ ht-degree: 99%
 
 多言語ニュースレターを例に、条件付きコンテンツを配信に追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27470?captions=jpn&quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

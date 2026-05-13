@@ -4,9 +4,11 @@ title: サポートされていない SMS コネクタの移行
 description: サポートされていない SMS コネクタの拡張汎用 SMPP コネクタへの移行
 feature: SMS, Upgrade
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+TQID: https://experienceleague.adobe.com/D8kf1pCamwi5BLeP4-7dirW0831g5q0LOVeZuNMBi2o
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: 640
 ht-degree: 100%
 
 ---

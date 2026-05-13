@@ -8,9 +8,13 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+TQID: https://experienceleague.adobe.com/GyNWNrT81f8tWIQizlu3KcVgKvepCjqd6G40DKeOlGo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: 675
 ht-degree: 5%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 5%
 
 **uploadWhiteList**&#x200B;属性を使用して、Adobe Campaign サーバーでアップロードできるファイルタイプを制限します。
 
-この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 この属性のデフォルト値は&#x200B;**.+**&#x200B;で、任意のファイルタイプをアップロードできます。
 
@@ -39,7 +43,7 @@ ht-degree: 5%
 
 ## プロキシ接続設定 {#proxy-connection-configuration}
 
-例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 HTTP、HTTPS、FTP、SFTPのプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTPおよびHTTPS プロトコルパラメーターは&#x200B;**使用できなくなります**。 これらのパラメーターは、以前のビルド（9032を含む）で引き続き使用できるため、以下に示します。
 

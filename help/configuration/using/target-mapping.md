@@ -6,9 +6,15 @@ feature: Application Settings
 role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/g7IreQDTfrK77tfuzlucBOkcKOQscKXKEsbqd96AuEw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 509
 ht-degree: 3%
 
 ---
@@ -30,7 +36,7 @@ ht-degree: 3%
 
 1. 使用するカスタムテーブルのフィールドを統合する新しいデータスキーマを作成します。
 
-   詳しくは、[&#x200B; スキーマリファレンス （xtk:srcSchema） &#x200B;](../../configuration/using/about-schema-reference.md)を参照してください。
+   詳しくは、[ スキーマリファレンス （xtk:srcSchema） ](../../configuration/using/about-schema-reference.md)を参照してください。
 
    この例では、顧客スキーマ、ID、名、姓、メールアドレス、携帯電話番号のフィールドを含む非常にシンプルなテーブルを作成します。 目的は、このテーブルに保存されている個人に電子メールまたはSMS アラートを送信できるようにすることです。
 
@@ -51,7 +57,7 @@ ht-degree: 3%
    </srcSchema>
    ```
 
-1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [&#x200B; ビュー属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
+1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [ ビュー属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>

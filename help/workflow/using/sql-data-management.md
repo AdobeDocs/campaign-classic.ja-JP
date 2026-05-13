@@ -5,9 +5,13 @@ description: SQL データ管理ワークフローアクティビティの詳細
 feature: Workflows
 hide: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/69utVGZghklulU5x5HcHF-hA-UKbSgGLQZ-CtlVanL0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: 454
 ht-degree: 93%
 
 ---
@@ -26,9 +30,9 @@ ht-degree: 93%
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。
 * ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。 [詳細情報](../../platform/using/access-management-named-rights.md)。

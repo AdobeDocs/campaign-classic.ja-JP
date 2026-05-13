@@ -6,9 +6,16 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
-workflow-type: ht
-source-wordcount: '1767'
+TQID: https://experienceleague.adobe.com/g1JuaL9ijMzzZ-OjRY5RNEvMBiX1rGtwKdq-mdKNiHI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+workflow-type: tm+mt
+source-wordcount: 1767
 ht-degree: 100%
 
 ---
@@ -83,7 +90,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
     <tr>
   <td>配信品質の技術的監視レポート<br></td>
    <td><p>配信品質の技術的監視レポートは使用できなくなりました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -137,7 +144,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td>decryptString API</td>
    <td><p>Campaign 18.6 リリースより、セキュリティ上の理由から、<em>decryptString</em> API は、新しいインストールではデフォルトで使用できなくなりました。</p> 
-   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。 <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ja&hl=decrypt">詳細情報</a></p></td>
+   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。 <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">詳細情報</a></p></td>
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>
@@ -188,7 +195,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
    * CentOS 6。 [詳細情報](https://wiki.centos.org/Download)
    * Debian 7。 [詳細情報](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x.[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
+   * RHEL 6.x. [詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
    * Windows Server 2008。 [詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
    * SLES 11。 [詳細情報](https://www.suse.com/lifecycle)
 
@@ -196,7 +203,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリース以降、Adobe Campaign は下記の web サーバーに対応しなくなります。
 
-* Apache 2.2。[詳細情報](https://httpd.apache.org/)
+* Apache 2.2。 [詳細情報](https://httpd.apache.org/)
 * Microsoft IIS 7。 [詳細情報](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### ツール {#tools-eol}
@@ -234,10 +241,10 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 * MySQL 5.1。
 * InfiniDB は提供が終了しました（EOL）。
 * Teradata 13、13.1。
-* Netezza 6.02、7.0。Netezza は提供が終了しました（EOL）。
-* AsterData 5.0.AsterData は提供が終了しました（EOL）。
+* Netezza 6.02、7.0。 Netezza は提供が終了しました（EOL）。
+* AsterData 5.0. AsterData は提供が終了しました（EOL）。
 * Sybase IQ 15.2、15.4、15.5 および Sybase ASE 15.0。
-* HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
+* HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。 Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
 
 **RDBMS サーバー**
 

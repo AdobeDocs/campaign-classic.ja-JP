@@ -5,9 +5,12 @@ description: 指標の計算
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+TQID: https://experienceleague.adobe.com/I483H-86ceSbeG1Mk-sHWy5N7Dyy-uRzOV4Lkvvxc3g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3137'
+source-wordcount: 3137
 ht-degree: 92%
 
 ---
@@ -49,7 +52,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-このレポートは、**[!UICONTROL 統合トラッキング]** テーブル （nms:trackingStats）に基づいています。 この集計テーブルは、レポートを表示する際に、受信者トラッキングログ **テーブル （nms:trackingLogRcp）の代わりにパフォーマンス上の理由で使用され、リアルタイムで計算されません。**&#x200B;テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
+このレポートは、**[!UICONTROL 統合トラッキング]** テーブル （nms:trackingStats）に基づいています。 この集計テーブルは、レポートを表示する際に、受信者トラッキングログ ]**テーブル （nms:trackingLogRcp）の代わりにパフォーマンス上の理由で使用され、リアルタイムで計算されません。**[!UICONTROL &#x200B;テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces-1}
 

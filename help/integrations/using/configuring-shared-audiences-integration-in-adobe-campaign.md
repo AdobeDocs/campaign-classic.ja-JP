@@ -8,9 +8,13 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+TQID: https://experienceleague.adobe.com/e9fIzwdGvuV9a-LRdXFLcghMGf79KQcoMT37K37ZOOE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: 675
 ht-degree: 90%
 
 ---
@@ -59,13 +63,13 @@ ht-degree: 90%
      ```
 
    * **[!UICONTROL AWS アクセスキーID]**
-AWS アクセスキーIDの検索場所については、この[&#x200B; ページ &#x200B;](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+AWS アクセスキーIDの検索場所については、この[ ページ ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
    * **[!UICONTROL AWSへの秘密鍵]**
-AWSへの秘密のアクセスキーを見つける場所については、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+AWSへの秘密のアクセスキーを見つける場所については、この[ ページ ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
    * **[!UICONTROL AWS地域]**
-AWS地域について詳しくは、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+AWS地域について詳しくは、この[ ページ ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
    ![](assets/aam_config_2.png)
 

@@ -6,9 +6,14 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 hide: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/iDnlEneRDEJBrD8g9ioJGvKArm7x6qKzNpILDvQC5u8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: 1800
 ht-degree: 98%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 98%
 
    分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。 使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 
-1. **プルーフを送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳細については、[&#x200B; プルーフを送信](steps-validating-the-delivery.md#sending-a-proof)および[特定のプルーフターゲットを定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)してください。
+1. **プルーフを送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳細については、[ プルーフを送信](steps-validating-the-delivery.md#sending-a-proof)および[特定のプルーフターゲットを定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)してください。
 
 >[!IMPORTANT]
 >

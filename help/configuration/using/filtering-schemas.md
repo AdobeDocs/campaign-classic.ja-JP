@@ -5,9 +5,15 @@ description: フィルタリングスキーマ
 feature: Custom Resources
 role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/-EcD9suVVxnqRIgsLdaADQ7T0CIMw1CzSnoqJqNe8xs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 61%
 
 ---
@@ -109,4 +115,4 @@ ht-degree: 61%
 
 1. 関連するスキーマの拡張機能を作成するか、既存の拡張機能を開きます。
 1. メイン要素に子要素&#x200B;**`<sysfilter name="<filter name>" _operation="delete"/>`**&#x200B;を追加し、元のスキーマの同じ下のフィルターの適用を削除します。
-1. 必要に応じて、新しいフィルターを追加できます（[&#x200B; システムフィルター](#system-filters)で詳しく説明しています）。
+1. 必要に応じて、新しいフィルターを追加できます（[ システムフィルター](#system-filters)で詳しく説明しています）。

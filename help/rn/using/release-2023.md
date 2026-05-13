@@ -7,9 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
-workflow-type: ht
-source-wordcount: '2391'
+TQID: https://experienceleague.adobe.com/77yWdkBQIi4XnEr8ZqBuz-2Vm0vg07AQxgI2wh6B150
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+workflow-type: tm+mt
+source-wordcount: 2391
 ht-degree: 100%
 
 ---
@@ -42,7 +49,7 @@ _2023年12月5日（PT）_
 * キャンペーンレポートで `Back` ボタンをクリックした際に、ユーザーに再認証をリクエストしていた問題を修正しました。 （NEO-65087）
 * 配達確認の前に配信を削除した際に発生していた、データベースクリーンアップワークフローのエラーを修正しました。 （NEO-48114）
 * クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により、接続エラーが発生していた問題を修正しました。 （NEO-50488）
-* Campaign の 7.3.1 へのアップグレード後の HTTP プロキシ認証に関する問題を修正しました。Campaign ワークフローの HTTP リクエストが `error 407 – proxy auth required is returned` で失敗していました。（NEO-49624）
+* Campaign の 7.3.1 へのアップグレード後の HTTP プロキシ認証に関する問題を修正しました。 Campaign ワークフローの HTTP リクエストが `error 407 – proxy auth required is returned` で失敗していました。 （NEO-49624）
 * **スクリプト**&#x200B;ワークフローアクティビティにおける、GPG 復号化での断続的なエラーを修正しました。 関連するエラーメッセージは `gpg: decryption failed: No secret key` でした。 （NEO-50257）
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 

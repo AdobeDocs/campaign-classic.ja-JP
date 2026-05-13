@@ -5,9 +5,12 @@ description: Campaign - IMS の更新
 feature: Technote, Upgrade
 hide: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 98%
 
 ---
@@ -54,7 +57,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 **Campaign のバージョンを確認するにはどうすればよいですか？**
 
-バージョンを確認する方法については、[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節を参照してください。
+バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
 
 **IMS を使用しているかどうかを確認するにはどうすればよいですか？**

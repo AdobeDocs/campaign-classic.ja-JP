@@ -8,9 +8,13 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+TQID: https://experienceleague.adobe.com/rTFIt6bZHR9dwiUr2KTTsoFCPX48cItfbE7u8l8mEqA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: 3857
 ht-degree: 2%
 
 ---
@@ -32,7 +36,7 @@ Adobe Campaign プロセス監視ページにアクセスするには、「**[!U
 * 欠落しているプロセスと実行情報（開始日、PIDなど）のリスト。
 * ワークフローと配信のビュー。
 
-Campaign プロセスを監視する追加の方法については、[このページ &#x200B;](../../production/using/monitoring-guidelines.md)で説明しています。
+Campaign プロセスを監視する追加の方法については、[このページ ](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ### ログ {#log-journal}
 
@@ -399,7 +403,7 @@ wfserver@prod
 
 この&#x200B;**http （s）://`<Application server url>`/nl/jsp/ping.jsp** ページは、ネットワークの対応者と同じように動作します。apache/tomcat/web モジュール/データベースを経由してクエリ全体をテストし、クライアントにアップロードします。 すべてが正常に動作している場合は、「OK」が返されます。 データベース（mtaやアンケートなど）にアクセスできるマシンでこのテストを実行することをお勧めします。
 
-**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 例：
 
@@ -417,7 +421,7 @@ wfserver@prod
 
 ![](assets/ncs_monitoring_web.png)
 
-**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 オペレーターとそのログインは、適切なデータベース権限と制限を使用して、以前にAdobe Campaign クライアントコンソールで設定する必要があります。
 

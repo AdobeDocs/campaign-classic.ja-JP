@@ -4,9 +4,12 @@ title: PostgreSQLへのアクセス権の設定
 description: PostgreSQLへのアクセスを設定する方法について説明します
 feature: Installation, Instance Settings
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+TQID: https://experienceleague.adobe.com/LtYc7Rs7gJon-uE44-UlW0egGg8wdkmDaTY-XWurxUg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 10%
 
 ---
@@ -75,7 +78,7 @@ Campaign インスタンスを[!DNL PostgreSQL]外部データベースに接続
 
 | オプション | 説明 |
 |:-:|:-:|
-| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT)を参照してください。 |
-| PGSQL_KEEPALIVES_IDLE | TCPがキープアライブ メッセージをサーバーに送信するまでの非アクティブな秒数。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE)を参照してください。 |
-| PGSQL_KEEPALIVES_INTVL | サーバーがTCP キープアライブ メッセージを再送信するまでの秒数。  <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL)を参照してください。 |
-| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止したと見なされる前に失われる可能性のあるTCP キープアライブの数。 <br>詳細については、[PostgreSQL ドキュメント &#x200B;](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT)を参照してください。 |
+| PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT)を参照してください。 |
+| PGSQL_KEEPALIVES_IDLE | TCPがキープアライブ メッセージをサーバーに送信するまでの非アクティブな秒数。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE)を参照してください。 |
+| PGSQL_KEEPALIVES_INTVL | サーバーがTCP キープアライブ メッセージを再送信するまでの秒数。  <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL)を参照してください。 |
+| PGSQL_KEEPALIVES_CNT | クライアントのサーバーへの接続が停止したと見なされる前に失われる可能性のあるTCP キープアライブの数。 <br>詳細については、[PostgreSQL ドキュメント ](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT)を参照してください。 |

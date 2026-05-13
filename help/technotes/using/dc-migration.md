@@ -6,9 +6,15 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+TQID: https://experienceleague.adobe.com/aoayco5jy1djmO-FNlofnJFE-inpeMOVE1UBVC-pkFc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: 1557
 ht-degree: 97%
 
 ---
@@ -78,7 +84,7 @@ ht-degree: 97%
 
 この取り組みを開始するにあたり、この移行を必要とするアカウントは、タイムラインとドキュメントへのアクセス方法が記載された E メールをアドビから受け取ります。 これは、アカウントの移行がスケジュールされていることを示す通知です。
 
-移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)。 件名として「AWS への移行」を使用します。
+移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)。 件名として「AWS への移行」を使用します。
 
 ### この移行は必須ですか？
 

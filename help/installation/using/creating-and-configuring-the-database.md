@@ -8,9 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+TQID: https://experienceleague.adobe.com/wu8xP0ls5jakl0XYtBV5Ktag7hCBFwl4o0EiqNrUMnc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e656c701-3899-4db3-989c-de0980ddfffa
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: 1375
 ht-degree: 2%
 
 ---
@@ -19,8 +24,8 @@ ht-degree: 2%
 
 データベースを作成する場合、Adobe Campaignには次の2つの異なるオプションがあります。
 
-1. データベースの作成またはリサイクル：新しいデータベースを作成するか、既存のデータベースを再利用する場合は、このオプションを選択します。 [&#x200B; ケース 1: データベースの作成/リサイクル &#x200B;](#case-1--creating-recycling-a-database)を参照してください。
-1. 既存のデータベースを使用する：空のデータベースが管理者によって既に作成されていて、それを使用する場合、または既存のデータベースの構造を拡張する場合は、このオプションを選択します。 [&#x200B; ケース 2：既存のデータベースの使用](#case-2--using-an-existing-database)を参照してください。
+1. データベースの作成またはリサイクル：新しいデータベースを作成するか、既存のデータベースを再利用する場合は、このオプションを選択します。 [ ケース 1: データベースの作成/リサイクル ](#case-1--creating-recycling-a-database)を参照してください。
+1. 既存のデータベースを使用する：空のデータベースが管理者によって既に作成されていて、それを使用する場合、または既存のデータベースの構造を拡張する場合は、このオプションを選択します。 [ ケース 2：既存のデータベースの使用](#case-2--using-an-existing-database)を参照してください。
 
 設定手順について詳しくは後ほど説明します。
 
@@ -39,7 +44,7 @@ ht-degree: 2%
 * [手順1 - データベースエンジンの選択](#step-1---selecting-the-database-engine),
 * [手順2 - サーバーへの接続](#step-2---connecting-to-the-server),
 * [手順3 - データベースの接続と特性](#step-3---connection-and-characteristics-of-the-database),
-* [手順4 - インストールするパッケージ &#x200B;](#step-4---packages-to-install),
+* [手順4 - インストールするパッケージ ](#step-4---packages-to-install),
 * [手順5 – 作成手順](#step-5---creation-steps),
 * [手順6 - データベースの作成](#step-6---creating-the-database)。
 
@@ -49,7 +54,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-サポートされているデータベースは、キャンペーン [互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)に一覧表示されます。
+サポートされているデータベースは、キャンペーン [互換性マトリックス ](../../rn/using/compatibility-matrix.md)に一覧表示されます。
 
 サーバーを特定し、実行する操作の種類を選択します。 この場合、**[!UICONTROL データベースを作成またはリサイクル]**&#x200B;します。
 
@@ -101,7 +106,7 @@ ht-degree: 2%
 
 * データベースのタイムゾーンを選択し、UTC （使用可能な場合）にするかどうかを指定します。
 
-  詳しくは、[&#x200B; タイムゾーン管理](../../installation/using/time-zone-management.md)を参照してください。
+  詳しくは、[ タイムゾーン管理](../../installation/using/time-zone-management.md)を参照してください。
 
 ### 手順4 - インストールするパッケージ {#step-4---packages-to-install}
 
@@ -119,7 +124,7 @@ ht-degree: 2%
 
 * Oracle、Microsoft SQL ServerまたはPostgreSQL データベースの場合、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメーター**&#x200B;を定義することもできます。
 
-  これらのパラメーターは、正確な表領域名を受け取ります（警告：大文字と小文字を区別します）。 これらは、それぞれ次のオプションの&#x200B;**[!UICONTROL 管理/ プラットフォーム / オプション]** ノードに保存されます（[このセクション &#x200B;](../../installation/using/configuring-campaign-options.md#database)を参照）。
+  これらのパラメーターは、正確な表領域名を受け取ります（警告：大文字と小文字を区別します）。 これらは、それぞれ次のオプションの&#x200B;**[!UICONTROL 管理/ プラットフォーム / オプション]** ノードに保存されます（[このセクション ](../../installation/using/configuring-campaign-options.md#database)を参照）。
 
    * **WdbcOptions_TableSpaceUser**: スキーマに基づくユーザーテーブル
    * **WdbcOptions_TableSpaceIndex**: スキーマに基づくユーザーテーブルのインデックス
@@ -139,7 +144,7 @@ ht-degree: 2%
 
 データベースを作成したら、再接続してインスタンス設定を確定できます。
 
-これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
+これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
 インスタンスにリンクされたデータベースの接続設定は、Adobe Campaign インストールディレクトリにあるファイル **`/conf/config-<instance>.xml`**&#x200B;に保存されます。
 
@@ -159,7 +164,7 @@ ht-degree: 2%
 
 * [手順1 - データベースエンジンの選択](#step-1---choosing-the-database-engine),
 * [手順2 - データベース接続設定](#step-2---database-connection-settings),
-* [手順3 - インストールするパッケージ &#x200B;](#step-3---packages-to-install),
+* [手順3 - インストールするパッケージ ](#step-3---packages-to-install),
 * [手順4 – 作成手順](#step-4---creation-steps),
 * [手順5 - データベースの作成](#step-5---creating-the-database)。
 
@@ -230,7 +235,7 @@ ht-degree: 2%
 
 データベースの作成が完了したら、再接続してインスタンス設定を確定できます。
 
-これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
+これで、デプロイメントウィザードを起動して、インスタンスの設定を完了する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
 インスタンスにリンクされたデータベースの接続設定は、Adobe Campaign インストールディレクトリにあるファイル **`/conf/config-<instance>.xml`**&#x200B;に保存されます。
 

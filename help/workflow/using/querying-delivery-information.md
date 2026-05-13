@@ -5,9 +5,11 @@ description: 配信情報をクエリする方法を説明します。
 feature: Query Editor, Workflows
 hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/pjhzFzxC5EBT4NgQtqKY0bMKAHUEJxS3b-80OX1FjKA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: 1559
 ht-degree: 99%
 
 ---
@@ -96,7 +98,7 @@ ht-degree: 99%
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
-   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。**&#x200B;**
+   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
 
      「**[!UICONTROL 終了]**」をクリックします。
 

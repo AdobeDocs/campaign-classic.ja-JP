@@ -8,9 +8,12 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+TQID: https://experienceleague.adobe.com/ueoodkXqvcxSjb4Q2NOKXrTgZIiQEGvBiW8JQF-PFss
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 470
 ht-degree: 8%
 
 ---
@@ -57,7 +60,7 @@ ht-degree: 8%
 >
 >**redir** ディレクトリは、リダイレクト サーバーにのみ存在します。 **url** サブディレクトリには、リダイレクトするURLの一致が含まれ、サブディレクトリ **log**&#x200B;にはトラッキングログが含まれます。 トラッキングログを生成するには、**trackinglogd** モジュールを実行している必要があります。
 
-パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [&#x200B; サーバー設定ファイル &#x200B;](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
+パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [ サーバー設定ファイル ](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
 
 デフォルトでは、ログはモジュールとインスタンスごとに2つの10 MB ファイルに制限されています。 2番目のファイルは&#x200B;**`<modulename>`_2.log**&#x200B;という名前です。 したがって、ログのサイズは、モジュールおよびインスタンスごとに2&#42;10MBに制限されます。
 

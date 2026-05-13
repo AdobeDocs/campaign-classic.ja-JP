@@ -6,9 +6,12 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+TQID: https://experienceleague.adobe.com/Awmu1sag3l7qN8ocg-uzbfSooV-8Cyhtxya4zVlo8EY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: 1046
 ht-degree: 97%
 
 ---
@@ -104,7 +107,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL スタイル]**」フィールドに &quot;**button**&quot; と入力します。
 
-   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートで参照されます。
+   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ web アプリケーション]**&#x200B;テンプレートで参照されます。
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 

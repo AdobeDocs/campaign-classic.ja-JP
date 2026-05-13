@@ -4,9 +4,12 @@ title: トランザクションメッセージのアーキテクチャ
 description: この節では、Adobe Campaign Classic トランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: 1226
 ht-degree: 98%
 
 ---
@@ -86,7 +89,7 @@ ht-degree: 98%
 >この手順は、作業中のマシンと同じマシンにインストールされた Windows NLServer を使用しているお客様にのみ適用されます。
 
 1. パッケージインポートアシスタント（**[!UICONTROL ツール／詳細設定／パッケージをインポート／アドビキャンペーンパッケージ]**）を使用し、追加したいチャネル（例：**モバイルチャネル**）をインストールします。
-1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
+1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms **`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
 1. 「**[!UICONTROL インポートするデータの XML コンテンツ]**」には、追加したチャネルに対応する配信テンプレートのみを残します。 例えば、**モバイルチャネル**&#x200B;を追加した場合には、**[!UICONTROL モバイルトランザクションメッセージ]**（smsTriggerMessage）に対応する **entities** 要素のみを残します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOS トランザクションメッセージ**（iosTriggerMessage）と **Android トランザクションメッセージ**（androidTriggerMessage）のみを残します。
 
    ![](assets/messagecenter_install_channel.png)

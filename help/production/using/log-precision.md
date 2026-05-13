@@ -8,9 +8,12 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+TQID: https://experienceleague.adobe.com/-AC3ZgKzganqlheg99fMRyJiYNQkHSnIogq5F-Z9xMQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: 346
 ht-degree: 78%
 
 ---
@@ -29,7 +32,7 @@ ht-degree: 78%
 
 Adobe Campaignは、次の2つのレベルのログを使用して動作できます。
 
-1. Verbose **&#x200B;**&#x200B;モードは、標準レベルの後の最初のレベルです。 次のコマンドはアクティブにします。
+1. Verbose **** モードは、標準レベルの後の最初のレベルです。 次のコマンドはアクティブにします。
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -85,7 +88,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!NOTE]
 >
->トレー **スファイル** ・モードでは、ログを保存できます。 上記の例では、ログは **var//mta_debug.log`<instance-name>`ファイルとvar/default/web_debug.log**&#x200B;**&#x200B;** ファイルに保存されます。
+>トレー **スファイル** ・モードでは、ログを保存できます。 上記の例では、ログは **var//mta_debug.log`<instance-name>`ファイルとvar/default/web_debug.log****** ファイルに保存されます。
 
 >[!IMPORTANT]
 >

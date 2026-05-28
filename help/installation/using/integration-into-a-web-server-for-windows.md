@@ -9,16 +9,11 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 TQID: https://experienceleague.adobe.com/dCUzCZnR5K2T2EPtqmazqAS69Zg40MaltxCVtoDN48I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e656c701-3899-4db3-989c-de0980ddfffa
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 6%
@@ -33,8 +28,8 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 
 この場合：
 
-* デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション &#x200B;](../../installation/using/configure-tomcat.md)を参照してください。
-* 次に、クライアントコンソールは、```https:// `<computer>`:8080```などのURLを使用して接続します。
+* デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション ](../../installation/using/configure-tomcat.md)を参照してください。
+* 次に、クライアントコンソールは、`https://``<computer>``:8080`などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上に公開され、ネットワーク外でコンソールへのアクセスを開く場合は、HTTP トラフィックのメインエントリポイントとして専用Web サーバーを使用することをお勧めします。
 
@@ -143,5 +138,5 @@ Adobe Campaignでは、この制限を超えるファイルをアップロード
 
 この場合は、この制限を増やす必要があります。
 
-このMicrosoft IIS オプションについて詳しくは、[Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}の「方法」セクションを参照してください。
+このMicrosoft IIS オプションについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}の「方法」セクションを参照してください。
 

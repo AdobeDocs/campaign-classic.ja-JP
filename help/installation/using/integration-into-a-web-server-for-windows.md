@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 6%
@@ -34,7 +34,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 この場合：
 
 * デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション &#x200B;](../../installation/using/configure-tomcat.md)を参照してください。
-* 次に、クライアントコンソールは、```https:// `<computer>`:8080```などのURLを使用して接続します。
+* 次に、クライアントコンソールは、`https://` `<computer>` `:8080`などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上に公開され、ネットワーク外でコンソールへのアクセスを開く場合は、HTTP トラフィックのメインエントリポイントとして専用Web サーバーを使用することをお勧めします。
 

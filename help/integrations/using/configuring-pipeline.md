@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 865
 ht-degree: 96%
@@ -131,13 +131,13 @@ ht-degree: 96%
 | オプション | 説明 |
 |:-:|:-:|
 | appName(Legacy) | 公開鍵がアップロードされた OAuth レガシーアプリケーションに登録されている OAuth アプリケーションの App ID。 詳しくは、この[ページ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。 |
-| authGatewayEndpoint（レガシー） | ゲートウェイトークンを取得するための URL。 デフォルト：```https://api.omniture.com``` |
-| authPrivateKey（レガシー） | 秘密鍵、OAuth レガシーアプリケーションにアップロードされた公開部分、XtkKey オプション「```cryptString("PRIVATE_KEY")```」で暗号化された AES。 |
+| authGatewayEndpoint（レガシー） | ゲートウェイトークンを取得するための URL。 デフォルト：`https://api.omniture.com` |
+| authPrivateKey（レガシー） | 秘密鍵、OAuth レガシーアプリケーションにアップロードされた公開部分、XtkKey オプション「`cryptString("PRIVATE_KEY")`」で暗号化された AES。 |
 | disableAuth（レガシー） | 認証の無効化（ゲートウェイトークンを使用せずに接続することは、一部の開発パイプラインエンドポイントでのみ可能）。 |
-| discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを見つけるための URL。 デフォルト：```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` での内部ステートプロセスの 2 つのダンプ間の期間<br>内部ステートはオンデマンドで ```http://INSTANCE:7781/pipelined/status``` でもアクセスできます。 |
+| discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを見つけるための URL。 デフォルト：`https://producer-pipeline-pnw.adobe.net` |
+| dumpStatePeriodSec | `var/INSTANCE/pipelined.json.` での内部ステートプロセスの 2 つのダンプ間の期間<br>内部ステートはオンデマンドで `http://INSTANCE:7781/pipelined/status` でもアクセスできます。 |
 | forcedPipelineEndpoint | PipelineServicesEndpoint の検出を無効にし、強制的におこないます。 |
-| monitorServerPort | パイプライン化されたプロセスは、このポートでリッスンして内部ステートプロセスを ```http://INSTANCE:PORT/pipelined/status``` で提供します。 <br>デフォルトは 7781 です。 |
+| monitorServerPort | パイプライン化されたプロセスは、このポートでリッスンして内部ステートプロセスを `http://INSTANCE:PORT/pipelined/status` で提供します。 <br>デフォルトは 7781 です。 |
 | pointerFlushMessageCount | この数のメッセージが処理されると、オフセットはデータベースに保存されます。<br> デフォルトは1000です |
 | pointerFlushPeriodSec | この期間を過ぎると、オフセットがデータベースに保存されます。 <br>デフォルトは 5（秒）です。 |
 | processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br> デフォルトは4です |

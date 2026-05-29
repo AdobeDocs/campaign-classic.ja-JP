@@ -7,13 +7,12 @@ role: Developer
 badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 TQID: https://experienceleague.adobe.com/LA4v5oODC9n5K2Ttox9SF7lwcGQOU7IDEvL1P4Sls-4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 174
 ht-degree: 8%
@@ -24,11 +23,11 @@ ht-degree: 8%
 
 
 
-デフォルトのAdobe Campaign受信者（nm:recipientまたはスキーマリンク）に固有のスキーマに基づくレポートは、カスタムテーブルのデータと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するために再開発する必要があります（[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md)節を参照）。
+デフォルトのAdobe Campaign受信者（nm:recipientまたはスキーマリンク）に固有のスキーマに基づくレポートは、カスタムテーブルのデータと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するために再開発する必要があります（[ ターゲットマッピング ](../../configuration/using/target-mapping.md)節を参照）。
 
-新しいレポートを作成するには、[このセクション &#x200B;](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
+新しいレポートを作成するには、[このセクション ](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-場合によっては、これらのテーブルに固有の新しいキューブも配置する必要があります。 キューブの詳細については、[このセクション &#x200B;](../../reporting/using/ac-cubes.md)を参照してください。
+場合によっては、これらのテーブルに固有の新しいキューブも配置する必要があります。 キューブの詳細については、[このセクション ](../../reporting/using/ac-cubes.md)を参照してください。
 
 次のレポートが関係しています：
 

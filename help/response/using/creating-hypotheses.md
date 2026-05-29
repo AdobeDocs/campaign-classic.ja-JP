@@ -9,14 +9,11 @@ content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 TQID: https://experienceleague.adobe.com/FggklU5pqlhjpHlUpd6C2G3Cb0A0dsooRZo9iEya858
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 100%
@@ -186,7 +183,7 @@ ht-degree: 100%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery){target=_blank}を参照してください。
+1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery){target=_blank}を参照してください。
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

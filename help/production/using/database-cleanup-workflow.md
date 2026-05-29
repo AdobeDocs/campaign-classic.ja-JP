@@ -8,19 +8,11 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 TQID: https://experienceleague.adobe.com/dka5G-03UMUH8Gzlu2JhbI9sw5alaTaoClsxEKhhEPY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 2949
 ht-degree: 2%
@@ -35,7 +27,7 @@ ht-degree: 2%
 
 **[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノードからアクセスできる&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローを使用すると、古いデータを削除して、データベースの急激な増加を回避できます。 ワークフローは、ユーザーの操作なしで自動的にトリガーされます。
 
-![&#x200B; クリーンアップ &#x200B;](assets/ncs_cleanup_workflow.png)
+![ クリーンアップ ](assets/ncs_cleanup_workflow.png)
 
 ## 設定 {#configuration}
 
@@ -45,7 +37,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->スケジューラーについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"}を参照してください。
+>スケジューラーについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"}を参照してください。
 
 デフォルトでは、**[!UICONTROL データベースクリーンアップ]** ワークフローは、毎日4時に開始するように設定されています。 スケジューラーを使用すると、ワークフローのトリガー頻度を変更できます。 次の周波数を使用できます。
 
@@ -54,7 +46,7 @@ ht-degree: 2%
 * **[!UICONTROL 週単位]**
 * **[!UICONTROL 1回]**
 
-![&#x200B; スケジューラー](assets/ncs_cleanup_scheduler.png)
+![ スケジューラー](assets/ncs_cleanup_scheduler.png)
 
 >[!IMPORTANT]
 >
@@ -66,34 +58,34 @@ ht-degree: 2%
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
-データのパージ **ウィンドウの** フィールドは、次のオプションと一致しています。 これらは、**[!UICONTROL データベース クリーンアップ]** ワークフローによって実行される一部のタスクで使用されます。
+データのパージ ]**ウィンドウの**[!UICONTROL  フィールドは、次のオプションと一致しています。 これらは、**[!UICONTROL データベース クリーンアップ]** ワークフローによって実行される一部のタスクで使用されます。
 
-* 統合トラッキング：**NmsCleanup_TrackingStatPurgeDelay** （[&#x200B; トラッキングログのクリーンアップ &#x200B;](#cleanup-of-tracking-logs)を参照）
-* 配信ログ：**NmsCleanup_BroadLogPurgeDelay** （[配信ログのクリーンアップ &#x200B;](#cleanup-of-delivery-logs)を参照）
-* トラッキングログ：**NmsCleanup_TrackingLogPurgeDelay** （[&#x200B; トラッキングログのクリーンアップ &#x200B;](#cleanup-of-tracking-logs)を参照）
-* 削除された配信：**NmsCleanup_RecycledDeliveryPurgeDelay** （[削除またはリサイクルされる配信のクリーンアップ &#x200B;](#cleanup-of-deliveries-to-be-deleted-or-recycled)を参照）
+* 統合トラッキング：**NmsCleanup_TrackingStatPurgeDelay** （[ トラッキングログのクリーンアップ ](#cleanup-of-tracking-logs)を参照）
+* 配信ログ：**NmsCleanup_BroadLogPurgeDelay** （[配信ログのクリーンアップ ](#cleanup-of-delivery-logs)を参照）
+* トラッキングログ：**NmsCleanup_TrackingLogPurgeDelay** （[ トラッキングログのクリーンアップ ](#cleanup-of-tracking-logs)を参照）
+* 削除された配信：**NmsCleanup_RecycledDeliveryPurgeDelay** （[削除またはリサイクルされる配信のクリーンアップ ](#cleanup-of-deliveries-to-be-deleted-or-recycled)を参照）
 * 拒否の読み込み：**NmsCleanup_RejectsPurgeDelay** （[imports](#cleanup-of-rejects-generated-by-imports-)によって生成された拒否のクリーンアップを参照）
-* 訪問者プロファイル：**NmsCleanup_VisitorPurgeDelay** （[訪問者のクリーンアップ &#x200B;](#cleanup-of-visitors)を参照）
-* オファーの提案：**NmsCleanup_PropositionPurgeDelay** （[提案のクリーンアップ &#x200B;](#cleanup-of-propositions)を参照）
+* 訪問者プロファイル：**NmsCleanup_VisitorPurgeDelay** （[訪問者のクリーンアップ ](#cleanup-of-visitors)を参照）
+* オファーの提案：**NmsCleanup_PropositionPurgeDelay** （[提案のクリーンアップ ](#cleanup-of-propositions)を参照）
 
   >[!NOTE]
   >
   >**[!UICONTROL オファー提案]** フィールドは、**インタラクション** モジュールがインストールされている場合にのみ使用できます。
 
-* イベント：**NmsCleanup_EventPurgeDelay** （[期限切れイベントのクレンジング &#x200B;](#cleansing-expired-events)を参照）
-* アーカイブされたイベント：**NmsCleanup_EventHistoPurgeDelay** （[期限切れイベントのクレンジング &#x200B;](#cleansing-expired-events)を参照）
+* イベント：**NmsCleanup_EventPurgeDelay** （[期限切れイベントのクレンジング ](#cleansing-expired-events)を参照）
+* アーカイブされたイベント：**NmsCleanup_EventHistoPurgeDelay** （[期限切れイベントのクレンジング ](#cleansing-expired-events)を参照）
 
   >[!NOTE]
   >
   >**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アーカイブ済みイベント]** フィールドは、**Message Center** モジュールがインストールされている場合にのみ使用できます。
 
-* 監査記録：**XtkCleanup_AuditTrailPurgeDelay** （[監査記録のクリーンアップ &#x200B;](#cleanup-of-audit-trail)を参照）
+* 監査記録：**XtkCleanup_AuditTrailPurgeDelay** （[監査記録のクリーンアップ ](#cleanup-of-audit-trail)を参照）
 
 **[!UICONTROL データベースクリーンアップ]** ワークフローによって実行されるすべてのタスクについては、次の節で説明します。
 
 ## データベースのクリーンアップワークフローによって実行されるタスク {#tasks-carried-out-by-the-database-cleanup-workflow}
 
-ワークフロースケジューラーで定義された日時（[&#x200B; スケジューラー](#the-scheduler)を参照）に、ワークフローエンジンはデータベースのクリーンアッププロセスを開始します。 データベースのクリーンアップはデータベースに接続し、以下に示す順序でタスクを実行します。
+ワークフロースケジューラーで定義された日時（[ スケジューラー](#the-scheduler)を参照）に、ワークフローエンジンはデータベースのクリーンアッププロセスを開始します。 データベースのクリーンアップはデータベースに接続し、以下に示す順序でタスクを実行します。
 
 >[!IMPORTANT]
 >
@@ -138,7 +130,7 @@ ht-degree: 2%
 
 このタスクは、削除またはリサイクルされるすべての配信をパージします。
 
-1. **[!UICONTROL データベースのクリーンアップ]** ワークフローでは、**deleteStatus** フィールドの値&#x200B;**[!UICONTROL Yes]**&#x200B;または&#x200B;**[!UICONTROL Recycled]**&#x200B;が設定され、削除日がデプロイメントウィザードの&#x200B;**[!UICONTROL 削除済み配信]** （**NmsCleanup_RecycledDeliveryPurgeDelay**）フィールドで定義された期間より前の配信をすべて選択します。 詳しくは、[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照してください。 この期間は、現在のサーバーの日付に関連して計算されます。
+1. **[!UICONTROL データベースのクリーンアップ]** ワークフローでは、**deleteStatus** フィールドの値&#x200B;**[!UICONTROL Yes]**&#x200B;または&#x200B;**[!UICONTROL Recycled]**&#x200B;が設定され、削除日がデプロイメントウィザードの&#x200B;**[!UICONTROL 削除済み配信]** （**NmsCleanup_RecycledDeliveryPurgeDelay**）フィールドで定義された期間より前の配信をすべて選択します。 詳しくは、[ デプロイメントウィザード ](#deployment-assistant)を参照してください。 この期間は、現在のサーバーの日付に関連して計算されます。
 1. ミッドソーシングサーバーごとに、タスクは削除する配信のリストを選択します。
 1. **[!UICONTROL データベース クリーンアップ]** ワークフローは、配信ログ、添付ファイル、ミラーページ情報およびその他すべての関連データを削除します。
 1. 配信を削除する前に、ワークフローはリンクされた情報を次のテーブルから消去します。
@@ -321,7 +313,7 @@ ht-degree: 2%
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
-   ここで、`$(curDate)`は、**NmsCleanup_RejectsPurgeDelay** オプションに定義された期間を減算する現在のサーバーの日付です（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。`$(l)`は、一括削除するレコードの最大数です。
+   ここで、`$(curDate)`は、**NmsCleanup_RejectsPurgeDelay** オプションに定義された期間を減算する現在のサーバーの日付です（[ デプロイメントウィザード ](#deployment-assistant)を参照）。`$(l)`は、一括削除するレコードの最大数です。
 
 1. その後、次のクエリを使用してすべての孤立した拒否が削除されます。
 
@@ -408,7 +400,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 ### 訪問者のクリーンアップ {#cleanup-of-visitors}
 
-このタスクでは、一括削除を使用して、訪問者テーブルから古いレコードを削除します。 廃止されたレコードは、前回の変更がデプロイメントウィザードで定義された保存期間より前のレコードです（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。 次のクエリが使用されます。
+このタスクでは、一括削除を使用して、訪問者テーブルから古いレコードを削除します。 廃止されたレコードは、前回の変更がデプロイメントウィザードで定義された保存期間より前のレコードです（[ デプロイメントウィザード ](#deployment-assistant)を参照）。 次のクエリが使用されます。
 
 ```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
@@ -436,7 +428,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 ### トラッキングログのクリーンアップ {#cleanup-of-tracking-logs}
 
-このタスクは、トラッキングログとweb トラッキングログテーブルから古いレコードを削除します。 廃止されたレコードは、デプロイメントウィザードで定義された保存期間より前のレコードです（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。
+このタスクは、トラッキングログとweb トラッキングログテーブルから古いレコードを削除します。 廃止されたレコードは、デプロイメントウィザードで定義された保存期間より前のレコードです（[ デプロイメントウィザード ](#deployment-assistant)を参照）。
 
 1. まず、次のクエリを使用して、トラッキングログテーブルのリストを復元します。
 
@@ -477,7 +469,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   ここで、`$(tableName)`はスキーマのリスト内の各テーブルの名前で、`$(option)`は&#x200B;**NmsCleanup_BroadLogPurgeDelay** オプションに定義された日付です（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。
+   ここで、`$(tableName)`はスキーマのリスト内の各テーブルの名前で、`$(option)`は&#x200B;**NmsCleanup_BroadLogPurgeDelay** オプションに定義された日付です（[ デプロイメントウィザード ](#deployment-assistant)を参照）。
 
 1. 最後に、ワークフローは&#x200B;**NmsProviderMsgId** テーブルが存在するかどうかを確認します。 その場合、すべての古いデータは次のクエリを使用して削除されます。
 
@@ -485,7 +477,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   ここで、`$(option)`は&#x200B;**NmsCleanup_BroadLogPurgeDelay** オプションに定義された日付と一致します（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。
+   ここで、`$(option)`は&#x200B;**NmsCleanup_BroadLogPurgeDelay** オプションに定義された日付と一致します（[ デプロイメントウィザード ](#deployment-assistant)を参照）。
 
 ### NmsEmailErrorStat テーブルのクリーンアップ {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -565,7 +557,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-ここで、`$(option)`は&#x200B;**NmsCleanup_PropositionPurgeDelay** オプションに定義された日付です（[&#x200B; デプロイメントウィザード &#x200B;](#deployment-assistant)を参照）。
+ここで、`$(option)`は&#x200B;**NmsCleanup_PropositionPurgeDelay** オプションに定義された日付です（[ デプロイメントウィザード ](#deployment-assistant)を参照）。
 
 ### シミュレーションテーブルのクリーンアップ {#cleanup-of-simulation-tables}
 

@@ -7,11 +7,11 @@ feature: Workflows, Profiles
 role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 TQID: https://experienceleague.adobe.com/km2D2qnUAdgDCauLUYcWSC-J567twPEyvaZBsLDAOKA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 214
 ht-degree: 17%
@@ -39,7 +39,7 @@ Campaignのリストについて詳しくは、[この節](../../platform/using/
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） **」ラジオボタンを選択します。**
+1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） ]**」ラジオボタンを選択します。**[!UICONTROL 
 
    ![](assets/mapping_create_list_workflow02.png)
 

@@ -6,13 +6,13 @@ feature: Application Settings
 role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 TQID: https://experienceleague.adobe.com/UkA0XyCzaDt2qlxpODQ-zoyC0YdKs3K5qg4UacvT8ck
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 324
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>セッション Cookieがない場合に使用される配信ID。 この値は
+                              <p>セッション Cookieがない場合に使用される配信ID。この値は
                                  16進数で表します。
                               </p> 
                            </td> 
@@ -96,8 +96,8 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>インターネットユーザーを識別するために使用されるパラメーター。 このパラメーターの形式は「name=value」です。
-                                 ここで、名前は受信者スキーマのフィールドです。 このパラメーターは、次の値よりも優先されます
+                              <p>インターネットユーザーを識別するために使用されるパラメーター。このパラメーターの形式は「name=value」です。
+                                 ここで、名前は受信者スキーマのフィールドです。このパラメーターは、次の値よりも優先されます
                                  セッション cookieに含まれる識別子。
                               </p> 
                            </td> 
@@ -113,17 +113,17 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
 
 * 業務量データの収集
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 受信者を検索するフィールドの指定
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
   アカウント番号が10の受信者がホームページに送信されます。
 
 * デフォルトの配信の使用
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
   受信者がホームページに送信されます。 この情報は、配信識別子を含むセッションクッキーがこのクエリで送信されない限り、識別子230 （データベース 16のe6）を持つ配信に保存されます。
 

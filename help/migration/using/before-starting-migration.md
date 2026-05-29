@@ -9,9 +9,10 @@ topic-tags: migration-procedure
 hide: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: eff19c99-440a-4318-b319-444edc4d8d8f
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 323
 ht-degree: 2%
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 
 
-このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ &#x200B;](about-migration.md)も参照してください。
+このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ ](about-migration.md)も参照してください。
 
 >[!NOTE]
 >

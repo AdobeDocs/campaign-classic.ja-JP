@@ -5,14 +5,14 @@ feature: Workflows, Data Management, Federated Data Access
 hide: true
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 TQID: https://experienceleague.adobe.com/VhOrIcFK-BbCuzPTC6Y8Px8u-VY0-4O86F8z8muZIHM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 100%
+source-wordcount: 288
+ht-degree: 85%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。 これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
 
-**[!UICONTROL 作業用テーブル]**を使用すると、Adobe Campaign Classic ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
-デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
+**[!UICONTROL 作業テーブル]**を使用すると、Adobe Campaign Classic ワークフローがデータを処理し、ワークフローアクティビティとデータを共有できます。
+デフォルトでは、**[!UICONTROL 作業テーブル]**&#x200B;は、クエリを実行するデータのソースと同じデータベースに作成されます。
 
-例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**を作成します。
-これを変更するには、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、**[!UICONTROL 作業用テーブル]**&#x200B;に別のデータソースを選択します。
+例えば、Cloud データベースに保存されている&#x200B;**[!UICONTROL Profiles]** テーブルをクエリする場合、同じCloud データベースに&#x200B;**[!UICONTROL Working テーブル]**を作成します。
+これを変更するには、**[!UICONTROL Change Data Source]** アクティビティを追加して、**[!UICONTROL 作業テーブル]**&#x200B;の別のデータソースを選択します。
 
 なお、「**[!UICONTROL データソースを変更]**」アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに戻す必要があります。
 

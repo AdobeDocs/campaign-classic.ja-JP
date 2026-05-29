@@ -9,14 +9,11 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 TQID: https://experienceleague.adobe.com/THf7A2u5ktNphqdI8K8ePzLNqCdyCmcqWN0OpYJfVh0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: []
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 805
 ht-degree: 19%
@@ -27,19 +24,19 @@ ht-degree: 19%
 
 まず、最新のビルドがインストールされていることを確認する必要があります。 これにより、最新の機能とバグ修正が確実に提供されます。
 
-各リリースの内容について詳しくは、[&#x200B; リリースノート &#x200B;](../../rn/using/latest-release.md)を参照してください。
+各リリースの内容について詳しくは、[ リリースノート ](../../rn/using/latest-release.md)を参照してください。
 
 ## ハードウェアとインフラ {#hardware-and-infrastructure}
 
-オンプレミス Campaign Classicのハードウェア要件に関する一般的なガイドラインについては、この[&#x200B; ページ &#x200B;](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)で詳しく説明しています。
+オンプレミス Campaign Classicのハードウェア要件に関する一般的なガイドラインについては、この[ ページ ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)で詳しく説明しています。
 
-コンサルティングチームは、ホストされている顧客に、データベース内の様々なタイプのテーブルで使用されているスペースと、SFTP サイトで使用されているスペースを簡単に確認できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供します。 このツールを実装する必要がある場合は、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 ここでは、このツールを使用して確認すべき重要な点をいくつか紹介します。
+コンサルティングチームは、ホストされている顧客に、データベース内の様々なタイプのテーブルで使用されているスペースと、SFTP サイトで使用されているスペースを簡単に確認できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供します。 このツールを実装する必要がある場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 ここでは、このツールを使用して確認すべき重要な点をいくつか紹介します。
 
 * インデックスサイズがテーブルサイズよりも大きい場合は、真空が必要です。
 * 最大の膨張を持つテーブルを確認してください。 これらの表が頻繁に使用される場合は、真空引きする必要があります。
 * データベースをブロックすると、電子メールの送信が停止する可能性があります。
 
-Adobe Campaignには、CPUとRAMの使用状況を確認するための[&#x200B; ツール &#x200B;](../../production/using/monitoring-processes.md#manual-monitoring)も用意されています。 このツールを使用して、**メモリ**、**スワップ メモリ**、**ディスク**、**アクティブプロセス**&#x200B;などの特定の指標を確認します。 値が高すぎる場合は、ワークフローの数を減らすか、異なる時間に開始するようにワークフローをスケジュールできます。
+Adobe Campaignには、CPUとRAMの使用状況を確認するための[ ツール ](../../production/using/monitoring-processes.md#manual-monitoring)も用意されています。 このツールを使用して、**メモリ**、**スワップ メモリ**、**ディスク**、**アクティブプロセス**&#x200B;などの特定の指標を確認します。 値が高すぎる場合は、ワークフローの数を減らすか、異なる時間に開始するようにワークフローをスケジュールできます。
 
 ## データベースチェック {#database-performances}
 
@@ -52,14 +49,14 @@ Adobe Campaignには、CPUとRAMの使用状況を確認するための[&#x200B;
 
 >[!NOTE]
 >
->詳しくは、この節を参照してください：[&#x200B; データベースのパフォーマンス &#x200B;](../../production/using/database-performances.md)。
+>詳しくは、この節を参照してください：[ データベースのパフォーマンス ](../../production/using/database-performances.md)。
 
 ## アプリケーション設定 {#application-configuration}
 
 アプリケーション設定のベストプラクティスに関連する記事のリストを次に示します。
 
-* MTAおよびMTAChild プロセスとメモリ：**mta** モジュールは、メッセージを&#x200B;**mtachild**&#x200B;子モジュールに配布します。 各&#x200B;**mtachild**&#x200B;は、統計サーバーに認証を要求して送信する前に、メッセージを準備します。 詳しくは、この[&#x200B; ページ &#x200B;](../../installation/using/email-deliverability.md)を参照してください。
-* TLS設定：スループットを減らすことができるため、TLSをグローバルに有効にすることは推奨されません。 代わりに、配信品質チームによって管理されるドメインごとのTLS設定は、ニーズに応じて調整する必要があります。 詳しくは、この[&#x200B; ページ &#x200B;](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
+* MTAおよびMTAChild プロセスとメモリ：**mta** モジュールは、メッセージを&#x200B;**mtachild**&#x200B;子モジュールに配布します。 各&#x200B;**mtachild**&#x200B;は、統計サーバーに認証を要求して送信する前に、メッセージを準備します。 詳しくは、この[ ページ ](../../installation/using/email-deliverability.md)を参照してください。
+* TLS設定：スループットを減らすことができるため、TLSをグローバルに有効にすることは推奨されません。 代わりに、配信品質チームによって管理されるドメインごとのTLS設定は、ニーズに応じて調整する必要があります。 詳しくは、この[ ページ ](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
 
   >[!NOTE]
   >
@@ -79,7 +76,7 @@ Adobe Campaignには、CPUとRAMの使用状況を確認するための[&#x200B;
   >配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報については、お客様はアドビ担当者に問い合わせる必要があります。
 
 * IP アフィニティの設定：IP アフィニティの設定が正しくないと、電子メールを完全に停止したり（設定でオペレーター名やアフィニティ名が正しくありません）、スループットを低下させたり（アフィニティ内のIPの数が少ない）する可能性があります。 詳しくは、この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* メールサイズ：メールサイズはスループットにおいて重要な役割を果たします。 推奨される最大メールサイズは60 KBです。 この[ページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign.html)を参照してください。 [配信スループット &#x200B;](../../reporting/using/global-reports.md#delivery-throughput) レポートで、転送されたバイト数を時間で確認します。
+* メールサイズ：メールサイズはスループットにおいて重要な役割を果たします。 推奨される最大メールサイズは60 KBです。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。 [配信スループット ](../../reporting/using/global-reports.md#delivery-throughput) レポートで、転送されたバイト数を時間で確認します。
 * 無効な受信者の数が多い：無効な受信者の数が多い場合、スループットに影響を与える可能性があります。 MTAは、無効な受信者に電子メールを送信し続けます。 データベースが適切に管理されていることを確認してください。
 * パーソナライズの量：配信が「進行中のPersonalization」に留まる場合は、パーソナライゼーションブロックで使用されるJavaScriptを確認します。
 

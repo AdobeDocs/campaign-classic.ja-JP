@@ -8,18 +8,18 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 TQID: https://experienceleague.adobe.com/o78NLFSbsXqQgJQEU5KSN5PkheQHtHlPh2KdB0RBINA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 98%
 
 ---
 
-# JavaScript による統合（クライアントサイド）{#integration-via-javascript-client-side}
+# JavaScript による統合（クライアント側）{#integration-via-javascript-client-side}
 
 
 
@@ -280,7 +280,7 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
    オファーの作成について詳しくは、[オファーの作成](../../interaction/using/creating-an-offer.md)を参照してください。
 
-   次のユースケースでは、オファーは次のように入力されます。
+   この例では、オファーは次のように入力されます。
 
    ![](assets/interaction_xmlmode_offer.png)
 

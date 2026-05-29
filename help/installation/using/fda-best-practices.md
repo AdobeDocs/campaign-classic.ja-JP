@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 TQID: https://experienceleague.adobe.com/o9F-VJpel6oYo-4N8nd25xW69ZAN-RpH9TaZ2jJeq-k
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 517
 ht-degree: 56%
@@ -35,11 +35,11 @@ ht-degree: 56%
 
 複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されているデータを使用できます。
 
-* **外部データに対するフィルター** - クエリ アクティビティを使用すると、外部データを追加し、定義されたフィルター設定で使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja） {target="_blank"}を参照してください。
+* **外部データに対するフィルター** - クエリ アクティビティを使用すると、外部データを追加し、定義されたフィルター設定で使用できます。 詳しくは、[Campaign v8 ドキュメント ]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html） {target="_blank"}を参照してください。
 
 * **サブセットを作成** – 分割アクティビティを使用すると、サブセットを作成できます。 外部データを使用して、適用するフィルタリング条件を定義できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
-* **外部データベースを読み込む** - データ読み込み（RDBMS）アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=ja){target="_blank"}を参照してください。
+* **外部データベースを読み込む** - データ読み込み（RDBMS）アクティビティで外部データを使用できます。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"}を参照してください。
 
 * **情報とリンクの追加** - エンリッチメントアクティビティを使用すると、ワークフローのワークテーブルに追加データを追加したり、外部テーブルにリンクしたりできます。 こうすることで、外部データベースのデータを使用できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}を参照してください。
 

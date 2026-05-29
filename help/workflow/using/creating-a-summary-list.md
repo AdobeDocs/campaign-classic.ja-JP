@@ -6,11 +6,11 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 TQID: https://experienceleague.adobe.com/TM6lXgY-engMX-uC0-P0erLjuioUuIdwQUpEm6bM8t8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1064
 ht-degree: 100%
@@ -67,7 +67,7 @@ Phone;500;London 5
 
    このアクティビティについて詳しくは、[ファイルからのデータの読み込み](../../platform/using/import-export-workflows.md#loading-data-from-a-file)を参照してください。
 
-1. 「**ファイルコレクター**」アクティビティを設定し、選択したディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
+1. 「**ファイルコレクター**」アクティビティを設定し、任意のディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
 
    ![](assets/uc2_enrich_collecteur.png)
 

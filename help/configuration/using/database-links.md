@@ -6,14 +6,14 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 TQID: https://experienceleague.adobe.com/0kiRwyal2yxHRjRNkPCNY2zsulDvbC3FWcJZ49Ynmkw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 935
-ht-degree: 85%
+source-wordcount: 932
+ht-degree: 83%
 
 ---
 
@@ -60,8 +60,8 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
    * **target**：ターゲットスキーマの名前
    * **label**：リンクのラベル
    * **revLink**（オプション）：ターゲットスキーマからの逆リンクの名前（デフォルトで自動的に推定されます）
-   * **integrity**（オプション）：ターゲットテーブルのオカレンスに対するソーステーブルのオカレンスの参照整合性。
-次のような値を選択できます。
+   * **integrity** （オプション）：ソーステーブルの出現とターゲットテーブルの出現の参照整合性。
+使用可能な値は次のとおりです。
 
       * **define**：ソースオカレンスがターゲットオカレンスから参照されなくなった場合は、ソースオカレンスを削除できます。
       * **normal**：ソースオカレンスを削除すると、リンクのキーがターゲットオカレンス（デフォルトモード）に初期化され、このタイプの整合性によってすべての外部キーが初期化されます。

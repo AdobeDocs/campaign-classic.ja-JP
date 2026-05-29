@@ -6,9 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 TQID: https://experienceleague.adobe.com/pjhzFzxC5EBT4NgQtqKY0bMKAHUEJxS3b-80OX1FjKA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1559
 ht-degree: 99%
@@ -85,7 +86,7 @@ ht-degree: 99%
 
      「**[!UICONTROL 後]**」演算子を選択します。 「**[!UICONTROL 値]**」列で&#x200B;**[!UICONTROL 式を編集]**&#x200B;を選択し、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」を選択します。 最後に、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;15&quot; と入力します。
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -93,15 +94,15 @@ ht-degree: 99%
 
      「**[!UICONTROL 前]**」演算子を選択します。 「**[!UICONTROL 値]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 日付処理については、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;1&quot; と入力します。
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_65.png)
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
-   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。**&#x200B;**
+   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_66.png)
 

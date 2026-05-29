@@ -9,11 +9,11 @@ content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 TQID: https://experienceleague.adobe.com/QtLHh94vHm1bhcz6XsCLrVNates86kVNFTd3zYi8-yA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 153
 ht-degree: 100%

@@ -8,7 +8,8 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 TQID: https://experienceleague.adobe.com/VzejoXfvy4j-bthB0FrSB-iSipA-oGLd0BmqP2niNrg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -38,7 +39,7 @@ Adobe Campaignでは、**データバッファーゾーン**&#x200B;がインタ
 
 >[!CAUTION]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 >
 >設定を変更するには、Web サーバー（Apache:IIS）とAdobe Campaign プロセスを再起動する必要があります。\
 >データバッファーゾーンを設定した後、適応ハードウェア設定が使用可能であることを確認してください。 （存在するメモリ量）。

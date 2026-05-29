@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 TQID: https://experienceleague.adobe.com/-5lcbNCBW2O9H9bLk5zbvuDrH711BkCSHYmW9jTBWUo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -25,8 +27,8 @@ ht-degree: 79%
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Hadoopへのアクセスを設定するには、次の手順に従います。
 
-1. [Hadoop データベース ](#configuring-hadoop)を設定
-1. CampaignでHadoop [外部アカウント ](#hadoop-external)を設定する
+1. [Hadoop データベース &#x200B;](#configuring-hadoop)を設定
+1. CampaignでHadoop [外部アカウント &#x200B;](#hadoop-external)を設定する
 
 ## Hadoop 3.0の設定 {#configuring-hadoop}
 

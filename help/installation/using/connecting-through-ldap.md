@@ -9,8 +9,10 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 TQID: https://experienceleague.adobe.com/GMKB83dj65iqnlu97uX-d672TWOysjd4gspRLEfz-y8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -28,10 +30,10 @@ ht-degree: 2%
 >
 >* LDAP設定は、オンプレミスまたはハイブリッドインストールでのみ可能です。
 >
->* システムとopenssl バージョンが[互換性マトリックス ](../../rn/using/compatibility-matrix.md)でCampaignと互換性があることを確認してください。 古いバージョンは、LDAP認証に影響を与える可能性があります。
+>* システムとopenssl バージョンが[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)でCampaignと互換性があることを確認してください。 古いバージョンは、LDAP認証に影響を与える可能性があります。
 >
 
-LDAP設定は、デプロイメントウィザードで実行されます。 **[!UICONTROL LDAP統合]** オプションは、最初の設定手順で選択する必要があります。 [ デプロイメントウィザード ](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
+LDAP設定は、デプロイメントウィザードで実行されます。 **[!UICONTROL LDAP統合]** オプションは、最初の設定手順で選択する必要があります。 [&#x200B; デプロイメントウィザード &#x200B;](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
 このウィンドウでは、指定したLDAP ディレクトリを介したAdobe Campaign ユーザーの識別を設定できます。
 
@@ -54,7 +56,7 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 
    * プレーンテキストのパスワード – 暗号化なし（テストフェーズでのみ使用）。
 
-* ユーザー認証モードを選択します。**[!UICONTROL 一意のユーザーIDを自動的に計算します（[識別名の計算](#distinguished-name-calculation)を参照）。または**[!UICONTROL  ディレクトリ ]**で一意のユーザーIDを検索します（[識別子の検索](#searching-for-identifiers)を参照）。]**
+* ユーザー認証モードを選択します。**一意のユーザーIDを自動的に計算します（[識別名の計算](#distinguished-name-calculation)を参照）。または**&#x200B;[!UICONTROL &#x200B; ディレクトリ &#x200B;]&#x200B;**で一意のユーザーIDを検索します（[識別子の検索](#searching-for-identifiers)を参照）。**
 
 ## 互換性 {#compatibility}
 
@@ -108,7 +110,7 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 
 * LDAP ディレクトリのグループとユーザーの関連付けと、Adobe Campaignのグループとユーザーの関連付けを同期するには、「**[!UICONTROL ディレクトリの認証とグループからのユーザー権限の同期を有効にする」オプションを選択します。]**
 
-  このオプションを選択すると、アプリケーション ログイン ]**の検索]**&#x200B;および&#x200B;**[!UICONTROL パスワードに使用される**[!UICONTROL  アプリケーション レベル DNが有効になります。
+  このオプションを選択すると、アプリケーション ログイン **の検索**&#x200B;および&#x200B;**パスワードに使用される** アプリケーション レベル DNが有効になります。
 
   これらの2つのフィールドに入力すると、Adobe Campaignは独自のログインとパスワードを使用してLDAP サーバーに接続します。 空の場合、Adobe Campaignは匿名でサーバーに接続します。
 
@@ -116,7 +118,7 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 
 識別子の検索を選択した場合、デプロイメントウィザードで検索を設定できます。
 
-* アプリケーションログイン ]**フィールドの検索]**&#x200B;および&#x200B;**[!UICONTROL パスワードに使用される**[!UICONTROL  アプリケーションレベル DNで、Adobe Campaignが識別子の検索に接続する識別子とパスワードを指定します。 空の場合、Adobe Campaignは匿名でサーバーに接続します。
+* アプリケーションログイン **フィールドの検索**&#x200B;および&#x200B;**パスワードに使用される** アプリケーションレベル DNで、Adobe Campaignが識別子の検索に接続する識別子とパスワードを指定します。 空の場合、Adobe Campaignは匿名でサーバーに接続します。
 * 検索を開始するLDAP ディレクトリのサブセットを決定するには、**[!UICONTROL ベース ID]**&#x200B;および&#x200B;**[!UICONTROL 検索スコープ]** フィールドを指定します。
 
   ドロップダウンリストで必要なモードを選択します。
@@ -153,9 +155,9 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
   >DNの検索を選択した場合は、**[!UICONTROL DN検索パラメーターを再利用]**&#x200B;して、DNと検索範囲に対して選択した値を前の画面から引き継ぐことができます。
 
 * ログインとユーザーの識別名に基づく&#x200B;**[!UICONTROL 権限検索フィルター]** フィールド。
-* ユーザーに関するグループまたは認証名&#x200B;]**フィールドを含む**[!UICONTROL &#x200B;属性。
+* ユーザーに関するグループまたは認証名&#x200B;**フィールドを含む**&#x200B;属性。
 * Adobe Campaign内のグループ名とそれに関連する権限の抽出を有効にする&#x200B;**[!UICONTROL 関連マスク]** フィールド。 正規表現を使用して、名前を検索できます。
-* Adobe Campaign ]**でオペレーターが宣言されていない場合は、**[!UICONTROL  LDAP ディレクトリで宣言されたユーザーの接続を有効にして、ユーザーに接続に対するアクセス権を自動的に付与します。
+* Adobe Campaign **でオペレーターが宣言されていない場合は、** LDAP ディレクトリで宣言されたユーザーの接続を有効にして、ユーザーに接続に対するアクセス権を自動的に付与します。
 
 「**[!UICONTROL 保存]**」をクリックして、インスタンスの設定を完了します。
 

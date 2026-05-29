@@ -9,7 +9,8 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 TQID: https://experienceleague.adobe.com/jynrfZrBNI6ergWQ2ONvI97Or1coFkVD-cLeaK14K70
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -228,7 +229,7 @@ Adobe Campaign リッチ クライアント （**nlclient**）の場合、次の
 
 ## Adobe Experience Managerとの連携 {#integration-with-adobe-experience-manager}
 
-インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント ](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
+インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント &#x200B;](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
 
 <table> 
  <tbody> 

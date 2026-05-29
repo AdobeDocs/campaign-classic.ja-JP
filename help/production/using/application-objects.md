@@ -8,10 +8,14 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 TQID: https://experienceleague.adobe.com/nOgBluxhfvlY0n8yEY2tUGRn762U3HMUIvEvW1-X-KY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
-subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 523
@@ -53,7 +57,7 @@ Adobe Campaignでは、それに応じて消費する必要があるID シーケ
 
 アプリケーションサーバーディスク上のファイルの数は無期限に増加しないでください。
 
-インポートワークフローはファイルを作成するため、ディスクの拡張が発生します。 これは、標準の[ ファイルコレクター](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"} アクティビティを使用することで防ぐことができます。 ファイルコレクターは一時フォルダーにファイルを移動し、自動的にパージします。
+インポートワークフローはファイルを作成するため、ディスクの拡張が発生します。 これは、標準の[&#x200B; ファイルコレクター](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"} アクティビティを使用することで防ぐことができます。 ファイルコレクターは一時フォルダーにファイルを移動し、自動的にパージします。
 
 ワークフローがファイルを読み込み、標準機能を使用しない場合は、ディスク容量を最小限に抑えるためにパージする必要があります。
 

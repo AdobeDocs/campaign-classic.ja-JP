@@ -8,7 +8,8 @@ content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
 TQID: https://experienceleague.adobe.com/4XWDcRed-GK3sUfFT72sh9Hwz4aiI0fSwppFTvbXLu4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -32,4 +33,4 @@ Adobe Campaignをインストールしてインスタンスを作成したら、
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   新しいインスタンスのパラメーターを指定します。 詳しくは、[ インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
+   新しいインスタンスのパラメーターを指定します。 詳しくは、[&#x200B; インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。

@@ -16,9 +16,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 8103
+source-wordcount: 8061
 ht-degree: 8%
 
 ---
@@ -549,7 +550,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->**nameSevers**&#x200B;に関する注意：デフォルトでは、ネットワークが使用されます>windowsで宣言された最初のネットワークインターフェイスのパラメーター>UNIXでは定義されていません。 ドメイン ネーム サーバー（DNS）を定義します>mtaで使用される、メール交換器を取得するための宣言>ドメイン。
+>**nameSevers**&#x200B;に関する注意：デフォルトでは、UNIXでは定義されていないWindows>で宣言された最初のネットワークインターフェイスのnetwork> パラメーターが使用されます。MTAが> ドメインに対して宣言されたメール エクスチェンジャを取得するために使用するドメイン ネーム サーバー（DNS） >を定義します。
 >
 >この値が定義されていない場合、MTAはホスト ネットワーク設定でこの情報をシークします。 複数のDNSが可能な場合は、異なるDNS アドレスをコンマで区切る必要があります（例：212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合、MTAで使用されるDNS リストが最初のものです。 この場合は、あいまいさを避けるために、**nameServer** パラメーターを指定することをお勧めします。
 
@@ -1632,7 +1633,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
     &lt;dnsまたはip&gt; 
       <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>. 参照 
+       <code>&rbrack;</code>。を参照 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">統計サーバーの座標</a>。 
       <br /> 
      </td> 

@@ -16,10 +16,13 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 778
-ht-degree: 27%
+source-wordcount: 760
+ht-degree: 22%
 
 ---
 
@@ -72,7 +75,7 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。 インスタンス名は設定ファイルによって識別されます。
+   >**`<instance-name>`**&#x200B;をインスタンスの名前（実稼動、開発など）に置き換えます。 インスタンス名は、設定ファイルを使用して識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールを再起動する方法について詳しくは、[この節](../../production/using/usual-commands.md#module-launch-commands)を参照してください。
@@ -117,7 +120,7 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。 インスタンス名は設定ファイルによって識別されます。
+   >**`<instance-name>`**&#x200B;をインスタンスの名前（実稼動、開発など）に置き換えます。 インスタンス名は、設定ファイルを使用して識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールを再起動する方法について詳しくは、[この節](../../production/using/usual-commands.md#module-launch-commands)を参照してください。

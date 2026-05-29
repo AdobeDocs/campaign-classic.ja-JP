@@ -11,9 +11,16 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 100%
@@ -55,7 +62,7 @@ ht-degree: 100%
    デフォルトで用意されているターゲットタイプは次のとおりです。
 
    * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。 フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
-   * **[!UICONTROL 情報サービスの購読者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
+   * **[!UICONTROL 情報サービスの登録者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
 
      ![](assets/s_ncs_user_wizard_email02c.png)
 
@@ -109,7 +116,7 @@ ht-degree: 100%
 
    データのインポートについて詳しくは、[この節](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)を参照してください。
 
-1. 「**[!UICONTROL 終了]**」をクリックして、この配信を標準の配信として設定します。
+1. 「**[!UICONTROL 完了]**」をクリックして、この配信を標準の配信として設定します。
 
 >[!CAUTION]
 >

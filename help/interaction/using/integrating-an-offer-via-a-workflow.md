@@ -10,7 +10,10 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 TQID: https://experienceleague.adobe.com/mAyeOK618LvVCdtRqLykUECmgWZce8bKoMiT-WIOe1Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1128
 ht-degree: 100%
@@ -94,7 +97,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >プレビューできる提案の数は、配信で直接実行される設定ではなく、エンリッチメントアクティビティで実行される設定で決まります。
+   >プレビュー可能な提案の数は、配信で直接実行された設定ではなく、エンリッチメントアクティビティで実行された設定によって決まります。
 
 ### オファーへのリンクの参照 {#referencing-a-link-to-an-offer}
 
@@ -116,7 +119,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >プレビューできる提案の数は、配信で実行した設定で決まります。
+   >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
 
 ### オファーのランキングと重み付けの保存 {#storing-offer-rankings-and-weights}
 

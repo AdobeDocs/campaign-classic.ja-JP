@@ -15,18 +15,15 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2422
+source-wordcount: 2379
 ht-degree: 38%
 
 ---
@@ -37,7 +34,7 @@ ht-degree: 38%
 
 このセクションでは、アップグレードプロセスと、競合を特定して解決する手順について詳しく説明します。
 
-ビルドのアップグレードは慎重に実行する必要があり、その影響は事前に完全に考慮する必要があり、手順は高レベルの規律で完了する必要があります。 アップグレードを成功させるには、以下に説明する手順を実行するのはエキスパートユーザーのみであることを確認してください。 また、アップグレードを開始する前に、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせいただくことを強くお勧めします。
+ビルドのアップグレードは慎重に実行する必要があり、その影響は事前に完全に考慮する必要があり、手順は高レベルの規律で完了する必要があります。 アップグレードを成功させるには、以下に説明する手順を実行するのはエキスパートユーザーのみであることを確認してください。 また、アップグレードを開始する前に、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせいただくことを強くお勧めします。
 
 次の前提条件が必要です。
 
@@ -335,7 +332,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 1. Adobe Campaign エクスプローラーで&#x200B;**管理／設定／パッケージ管理／競合を編集**&#x200B;に移動します。
 
-1. リストから解決する競合を選択します。
+1. リストで解決する競合を選択します。
 競合を解決するには、次の3つのオプションがあります。**新しいバージョンを承認**、**現在のバージョンを保持**、**コードを結合（および解決済みとして宣言）**、**競合を無視（推奨されません）**。
 
 **新しいバージョンはいつ承認できますか？**

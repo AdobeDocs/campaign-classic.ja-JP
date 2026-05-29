@@ -10,7 +10,10 @@ exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 TQID: https://experienceleague.adobe.com/sfD2AC1pBRsuvD-SScCQRjB1oL5ok55ZOEaoGuLhzmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1038
 ht-degree: 100%
@@ -27,7 +30,7 @@ ht-degree: 100%
 
 詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前やメールフィールドなど、様々な要素を同時に使用して作成できます）。 詳しくは、[識別されたオファーの提示](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer)の節を参照してください。
 
-レンダリング関数を使用して、HTML レンダリングまたは XML レンダリングが作成されます。 レンダリング関数で定義するフィールドのシーケンスは、コンテンツで設定したシーケンスと同じである必要があります。
+レンダリング関数を使用して、HTML レンダリングまたは XML レンダリングが作成されます。 レンダリング関数で定義するフィールドの順序は、コンテンツに設定した順序と同じである必要があります。
 
 ![](assets/offer_space_create_009.png)
 
@@ -98,7 +101,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->「送信済み」ステータスの配信にオファーがリンクされると、そのオファーの提案のステータスは自動的に「提示済み」に変わります。
+>「送信済み」ステータスの配信にオファーがリンクされると、そのオファーの提案のステータスは自動的に「提示済み」に変更されます。
 
 ### 提案作成時のステータスの設定 {#configuring-the-status-when-the-proposition-is-created}
 
@@ -156,7 +159,7 @@ ht-degree: 100%
 
 ## スペースごとのオファーのプレビュー {#offer-preview-per-space}
 
-このタブでは、選択した方法で受信者が受ける資格があるオファーを表示できます。 次の例では、受信者は、メールでのオファーの提案 3 件に対して実施要件を満たしています。
+このタブでは、選択した方法で受信者が受ける資格があるオファーを表示できます。 次の例では、受信者は、郵便経由のオファー提案 3 件の実施要件を満たしています。
 
 ![](assets/offer_space_overview_002.png)
 
@@ -164,4 +167,4 @@ ht-degree: 100%
 
 ![](assets/offer_space_overview_001.png)
 
-プレビューでは、特定のスペースに限定されているコンテキストを無視できます。 これは、インバウンドチャネルを使用して 1 つのスペースで参照されるフィールドを追加するようにインタラクションスキーマが拡張される場合です（詳しくは、[拡張の例](../../interaction/using/extension-example.md)を参照）。
+1 つのスペースのみに限定されている場合、プレビューではコンテキストを無視できます。 これは、インバウンドチャネルを使用して 1 つのスペースで参照されるフィールドを追加するようにインタラクションスキーマが拡張される場合です（詳しくは、[拡張の例](../../interaction/using/extension-example.md)を参照）。

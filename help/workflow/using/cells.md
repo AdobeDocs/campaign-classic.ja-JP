@@ -13,7 +13,11 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 100%
@@ -28,7 +32,7 @@ ht-degree: 100%
 
 ![](assets/wf_split_cells.png)
 
-ユーザーのニーズに基づく特定のパラメーターを入力して、このアクティビティを設定できます。 デフォルトでは、各サブセットの詳細は、「**[!UICONTROL 選択]**」タブと「**[!UICONTROL 詳細設定]**」タブ経由で専用ウィンドウに表示されます。 以下の例では、フォームは変更されています。オファーと各サブセットの優先度レベルの関連付けを有効にする「**[!UICONTROL データ]**」タブが追加されています。
+ユーザーのニーズに基づく特定のパラメーターを入力することで設定できます。 デフォルトでは、各サブセットの詳細は、「**[!UICONTROL 選択]**」タブと「**[!UICONTROL 詳細設定]**」タブ経由で専用ウィンドウに表示されます。 以下の例では、フォームは変更されています。オファーと各サブセットの優先度レベルの関連付けを有効にする「**[!UICONTROL データ]**」タブが追加されています。
 
 ![](assets/wf_split_cells_with_customization.png)
 

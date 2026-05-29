@@ -10,9 +10,11 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 324
 ht-degree: 2%
 
 ---
@@ -83,7 +85,7 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>セッション Cookieがない場合に使用される配信ID。 この値は
+                              <p>セッション Cookieがない場合に使用される配信ID。この値は
                                  16進数で表します。
                               </p> 
                            </td> 
@@ -96,8 +98,8 @@ Web トラッキング URLの形式は次のとおりです。**https://`<name_o
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>インターネットユーザーを識別するために使用されるパラメーター。 このパラメーターの形式は「name=value」です。
-                                 ここで、名前は受信者スキーマのフィールドです。 このパラメーターは、次の値よりも優先されます
+                              <p>インターネットユーザーを識別するために使用されるパラメーター。このパラメーターの形式は「name=value」です。
+                                 ここで、名前は受信者スキーマのフィールドです。このパラメーターは、次の値よりも優先されます
                                  セッション cookieに含まれる識別子。
                               </p> 
                            </td> 

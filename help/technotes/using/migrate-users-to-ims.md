@@ -9,17 +9,15 @@ feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: efa38731-2723-4334-8d8b-a778af834835
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 85%
+source-wordcount: 1244
+ht-degree: 83%
 
 ---
 
@@ -98,8 +96,8 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 
 ### 移行後にユーザーを作成するにはどうすればよいですか？ {#ims-migration-native}
 
-アドビでは、Campaign Classic v7.4.1（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードした後は、IMS ユーザーのみを作成することをお勧めします。
-Campaign v7.4.1 以降では、[こちらのページ](impact-ims-migration.md)の説明に従ってインスタンス設定を更新することで、ネイティブ演算子の作成を防ぐことができます。
+Adobeでは、Campaign Classic v7.4.1 （または[IMS移行互換バージョン &#x200B;](#ims-versions)）にアップグレードした後は、IMS ユーザーのみを作成することをお勧めします。
+Campaign v7.4.1以降では、[このページ &#x200B;](impact-ims-migration.md)で詳しく説明されているようにインスタンス設定を更新することで、ネイティブオペレーターの作成を防ぐことができます。
 
 Campaign 管理者は、Adobe Admin Console と Campaign クライアントコンソールを通じて組織のユーザーに権限を付与できます。 ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。 IMSで権限を設定する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 

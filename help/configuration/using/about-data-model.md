@@ -9,7 +9,6 @@ TQID: https://experienceleague.adobe.com/jyvz5WCdNhYtusE-HwPRwXNlr9Wh0swcQoOT05l
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 subfeature_v2:
@@ -18,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1002
-ht-degree: 25%
+source-wordcount: 921
+ht-degree: 20%
 
 ---
 
@@ -47,9 +46,9 @@ Adobe Campaignは、リンクされたテーブルを含むリレーショナル
 
 データモデルの別の部分では、キャンペーンの実行に関連するすべてのログを一時的に保存できます。
 
-配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。 メイン配信ログテーブル （**NmsBroadLog**）には、すべての受信者の配信ログが含まれています。
-メインのトラッキングログテーブル （**NmsTrackingLog**）には、すべての受信者のトラッキングログが格納されます。 トラッキングログは、メールの開封数やクリック数など、受信者の反応を指します。 各反応はトラッキングログに対応します。
-配信ログとトラッキングログは、一定期間の後に削除されます。 この期間は Adobe Campaign で指定され、変更可能です。 したがって、ログを定期的にエクスポートすることを強くお勧めします。
+配信ログとは、あらゆるチャネルをまたいで受信者またはデバイスに送信されるすべてのメッセージのことです。メイン配信ログテーブル （**NmsBroadLog**）には、すべての受信者の配信ログが含まれています。
+メインのトラッキングログテーブル （**NmsTrackingLog**）には、すべての受信者のトラッキングログが格納されます。トラッキングログとは、電子メールの開封率やクリック数などの受信者の反応を指します。各反応はトラッキングログに対応します。
+配信ログとトラッキングログは、Adobe Campaignで指定され、変更できる一定期間後に削除されます。したがって、ログを定期的に書き出すことを強くお勧めします。
 
 ### テクニカルテーブル {#technical-tables}
 

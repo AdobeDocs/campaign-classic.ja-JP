@@ -10,9 +10,14 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1055
 ht-degree: 100%
@@ -39,7 +44,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_admin_survey_render_edit_param.png)
 
-以下を行うことができます。
+次の操作をおこなうことができます。
 
 * ロゴとして使用する画像を変更し、サイズを適応させます。
 * また、ユーザーがこのレンダリングテンプレートを選択する際にプレビュー画像にアクセスするためのパスを指定します。

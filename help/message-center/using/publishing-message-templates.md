@@ -15,7 +15,8 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 535
 ht-degree: 100%
@@ -38,11 +39,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->テンプレートに変更を加えた場合は、トランザクションメッセージの配信中に変更が有効になるように、必ず再度公開します。
+>テンプレートに変更を加えた場合は、トランザクションメッセージの配信中に変更が有効になるように、必ず再度パブリッシュします。
 
 1. コントロールインスタンス内で、ツリーの **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
 1. 実行インスタンスにパブリッシュするテンプレートを選択します。
-1. 「**[!UICONTROL 公開]**」をクリックします。
+1. 「**[!UICONTROL パブリッシュ]**」をクリックします。
 
    ![](assets/messagecenter_publish_model_008.png)
 

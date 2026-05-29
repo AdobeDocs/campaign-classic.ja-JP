@@ -8,10 +8,15 @@ exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1710
-ht-degree: 97%
+source-wordcount: 1683
+ht-degree: 96%
 
 ---
 
@@ -21,8 +26,8 @@ ht-degree: 97%
 
 ## クエリを作成します。 {#creating-a-query}
 
-クエリを使用すると、条件に応じてターゲットを選択できます。 セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-クエリサンプルの詳細は、[この節](querying-recipient-table.md)を参照してください。
+クエリでは、基準に従ってターゲットを選択できます。セグメントコードをクエリ結果に関連付け、追加のデータをクエリ結果に挿入できます。
+クエリサンプルについて詳しくは、この[この節](querying-recipient-table.md)を参照してください。
 
 >[!NOTE]
 >

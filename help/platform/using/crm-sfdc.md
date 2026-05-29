@@ -10,13 +10,19 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: efa38731-2723-4334-8d8b-a778af834835
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 361
-ht-degree: 85%
+source-wordcount: 351
+ht-degree: 80%
 
 ---
 
@@ -29,8 +35,8 @@ ht-degree: 85%
 データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)。
 
 
-外部アカウントを使用すれば、Salesforce データを Adobe Campaign にインポートおよび Adobe Campaign からエクスポートできます。
-CRM コネクタを Salesforce 用に設定するには、次の手順に従います。
+外部アカウントを使用すると、Salesforce データをAdobe Campaignに読み込んだり書き出したりできます。
+Salesforce用のCRM コネクタを設定するには、次の手順に従います。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードを使用して、新しい外部アカウントを作成します。
 1. **[!UICONTROL Salesforce.com]** を選択します。

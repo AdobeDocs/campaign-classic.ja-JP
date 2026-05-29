@@ -16,9 +16,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2429
+source-wordcount: 2425
 ht-degree: 86%
 
 ---
@@ -197,7 +198,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->**style=&quot;down|up** （デフォルト） **&quot;**&#x200B;機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。 この機能はオプションです。
+>**style=&quot;down|up** （デフォルト） **&quot;**&#x200B;機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。この機能はオプションです。
 >`<container style="down" type="notebook">  … </container>`
 
 #### アイコンリスト {#icon-list}

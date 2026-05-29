@@ -70,7 +70,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>セキュリティゾーンの一般的な構成を確認します。</td>
-<td>セキュリティゾーンの設定について詳しくは、この節の<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>を参照してください。</a></td>
+<td>セキュリティゾーンの設定について詳しくは、この節の<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ja#configuring-campaign-server"/>を参照してください。</a></td>
 </tr>
 <tr>
 <td>コマンド nlserver pdumpは<b> タスクを返しません</b></td>

@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 378
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +42,7 @@ _2026年3月31日_
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/会社概要…]** [&#x200B; メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の9394@28aaec9 ビルドを使用していることを確認します。 詳細については、Adobe担当者にお問い合わせください。
+> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ／バージョン情報…]** [メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の 9394@28aaec9 ビルドを使用していることを確認します。詳細については、アドビ担当者にお問い合わせください。
 
 * バーコードコンポーネントで高さパラメーターに上限が設定されていなかった問題を修正しました。これは、セキュリティ上の脆弱性につながる可能性がありました。 （NEO-89984）
 * ワークフローを介して作成されたリスト内の列挙フィールドに一時的な名前属性がなく、インターフェイスに誤ったまたは空白の列挙ラベルが表示される問題を修正しました。 （NEO-91158）
@@ -62,9 +54,9 @@ _2026年3月31日_
 
 <!-- BUILD 7.0.9394.28aaec9 -->
 
-* 一部の配信について、配信統計が完全に再計算されない問題を修正しました。特に、成功指標に影響が生じていました。 （NEO-88106） <!-- moved from original 7.4.3 GA Fixes section -->
-* 見つからないアップストリームターゲティングスキーマを参照する特定のワークフローを開くと、クライアントコンソールがクラッシュする可能性がある問題を修正しました。 （NEO-28727）
-* インストールパッケージにバージョンファイルが見つからなかったため、起動失敗後にクライアントコンソールのバージョンを特定できない問題を修正しました。 （NEO-94798）
+* 一部の配信について、配信統計が完全に再計算されない問題を修正しました。特に、成功指標に影響が生じていました。 （NEO-88106）<!-- moved from original 7.4.3 GA Fixes section -->
+* 欠落しているアップストリーム ターゲティングスキーマを参照する特定のワークフローを開くと、クライアントコンソールがクラッシュする可能性がある問題を修正しました。 （NEO-28727）
+* インストールパッケージからバージョンファイルが欠落していたため、起動に失敗した後にクライアントコンソールのバージョンを特定できない問題を修正しました。（NEO-94798）
 
 <!--
 other fixes - ommitted from release notes

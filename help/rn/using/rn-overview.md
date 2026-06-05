@@ -21,9 +21,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 922
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 
 * [Campaign のバージョンの確認](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [ヘルプとサポート](../../support.md)
-* [Campaign コントロールパネルリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
+* [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
 * [廃止予定の機能と削除された機能](../../rn/using/deprecated-features.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 

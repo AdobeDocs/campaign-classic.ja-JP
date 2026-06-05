@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: 326
+ht-degree: 100%
 
 ---
 
@@ -94,34 +94,34 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>使い始める</strong><br/><a href="platform/using/adobe-campaign-workspace.md"> ユーザーインターフェイス </a> - <a href="platform/using/launching-adobe-campaign.md"> キャンペーンに接続</a> - <a href="platform/using/get-started-data-import-export.md"> データのインポートとエクスポート </a> - <a href="platform/using/access-management.md">権限</a>
+      <strong>基本を学ぶ</strong><br/><a href="platform/using/adobe-campaign-workspace.md">ユーザーインターフェイス</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="platform/using/get-started-data-import-export.md">データのインポートとエクスポート</a> - <a href="platform/using/access-management.md">権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>お客様の体験</strong><br/><a href="workflow/using/about-workflows.md"> ワークフローの自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md"> レポート </a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong> メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof"> プルーフの送信</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a>
+      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">配達確認の送信</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong> プロファイルとオーディエンス </strong><br/> <a href="platform/using/creating-and-managing-lists.md"> リストの作成</a> - <a href="delivery/using/about-services-and-subscriptions.md"> サービスとサブスクリプション </a> - <a href="platform/using/privacy-management.md"> プライバシーと同意</a>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="platform/using/creating-and-managing-lists.md">リストの作成</a> - <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
       <br/>
-      <strong> アーキテクチャと設定</strong><br/><a href="production/using/general-architecture.md"> アーキテクチャの原則</a> - <a href="production/using/build-upgrade.md"> ビルドのアップグレードの実行</a> - <a href="production/using/configuration.md">Campaignの設定</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a>
+      <strong>アーキテクチャと設定</strong><br/><a href="production/using/general-architecture.md">アーキテクチャの原則</a> - <a href="production/using/build-upgrade.md">ビルドアップグレードの実行</a> - <a href="production/using/configuration.md">キャンペーンの設定</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース </strong><br/><a href="configuration/using/about-data-model.md"> データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md"> スキーマ構造</a> - <a href="configuration/using/editing-forms.md"> スキーマ構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">JSAPI参照ドキュメント </a> - <a href="configuration/using/about-custom-recipient-table.md"> カスタム受信者テーブル </a>
+      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
     </td>
   </tr>
 </table>

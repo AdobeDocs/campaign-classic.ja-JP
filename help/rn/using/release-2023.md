@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2384
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ _2023年12月5日（PT）_
 * 配達確認の前に配信を削除した際に発生していた、データベースクリーンアップワークフローのエラーを修正しました。 （NEO-48114）
 * クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により、接続エラーが発生していた問題を修正しました。 （NEO-50488）
 * Campaign の 7.3.1 へのアップグレード後の HTTP プロキシ認証に関する問題を修正しました。 Campaign ワークフローの HTTP リクエストが `error 407 – proxy auth required is returned` で失敗していました。 （NEO-49624）
-* **Script** ワークフローアクティビティでのGPG復号化の断続的なエラーを修正しました。関連するエラーメッセージは`gpg: decryption failed: No secret key`でした。（NEO-50257）
+* **スクリプト**&#x200B;のワークフローアクティビティにおける、GPG 復号化での断続的なエラーを修正しました。関連するエラーメッセージ: `gpg: decryption failed: No secret key`。 (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 

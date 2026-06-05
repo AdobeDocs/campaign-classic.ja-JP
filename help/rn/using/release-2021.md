@@ -25,9 +25,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
-source-wordcount: 2663
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2719
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ _2021 年 6 月 5 日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Adobe Campaign Classic インスタンスをGoogle Big Query外部データベースに接続できるようになりました。この接続は、新しい外部アカウントを通じて管理されます。
+<td> <p>Adobe Campaign Classic インスタンスを Google BigQuery 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントを通じて管理されます。
 </p>
 <p>詳しくは、<a href="../../installation/using/configure-fda-google-big-query.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 

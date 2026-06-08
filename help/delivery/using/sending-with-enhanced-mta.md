@@ -25,10 +25,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 97%
+source-wordcount: 1420
+ht-degree: 94%
 
 ---
 
@@ -56,9 +56,9 @@ Enhanced MTA の実装は、既存の Campaign 機能の一部に影響を与え
 
 **Enhanced MTA とは何ですか？**
 
-Adobe Campaign をアップグレードして、SparkPost の商用メール MTA（**Momentum**）を実行する新しい MTA（メール転送エージェント）を使用できるようになりました。
+Adobe Campaignをアップグレードして、高性能なメール配信エンジンである&#x200B;**Enhanced MTA** （Mail Transfer Agent）を使用できるようになりました。
 
-Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
+強化されたMTAには、よりスマートなバウンス処理と自動配信品質の最適化機能が含まれており、送信者が最適な受信トレイ到達率を達成し、維持するのに役立ちます。
 
 **メリットは何ですか？**
 

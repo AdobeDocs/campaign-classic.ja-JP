@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 378
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 417
+ht-degree: 93%
 
 ---
 
@@ -32,9 +32,19 @@ ht-degree: 100%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。 新しいビルドごとに、色分けされたステータスが表示されます。 Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## リリース 7.4.3 - ビルド 9394 {#release-7-4-3}
+## リリース 7.4.3 {#release-7-4-3}
+
+### ビルド 9396 {#build-9396}
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年6月9日_
+
+このビルドにはセキュリティ修正が含まれています。 これは、推奨される一般提供ビルドであり、以前のCampaign Classic v7 ビルドに優先します。
+
+### ビルド 9394 {#build-9394}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 >[!CAUTION]
 >
@@ -42,15 +52,15 @@ ht-degree: 100%
 
 _2026年3月31日_
 
-### セキュリティの強化 {#security-7-4-3}
+#### セキュリティの強化 {#security-7-4-3}
 
 * 最適なセキュリティ、安定性、コンプライアンスを維持するために、Debian はバージョン 13 に、PostgreSQL はバージョン 17 にアップグレードされました。 [互換性マトリックス](compatibility-matrix.md)を参照してください。
 
-### 修正点 {#fixes-7-4-3}
+#### 修正点 {#fixes-7-4-3}
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ／バージョン情報…]** [メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の 9394@28aaec9 ビルドを使用していることを確認します。詳細については、アドビ担当者にお問い合わせください。
+> 以下に示す修正は、連続する7.4.3 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ／バージョン情報…]** [メニュー](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)に移動して、最新の 9394@28aaec9 ビルドを使用していることを確認します。 詳細については、アドビ担当者にお問い合わせください。
 
 * バーコードコンポーネントで高さパラメーターに上限が設定されていなかった問題を修正しました。これは、セキュリティ上の脆弱性につながる可能性がありました。 （NEO-89984）
 * ワークフローを介して作成されたリスト内の列挙フィールドに一時的な名前属性がなく、インターフェイスに誤ったまたは空白の列挙ラベルが表示される問題を修正しました。 （NEO-91158）
@@ -64,7 +74,7 @@ _2026年3月31日_
 
 * 一部の配信について、配信統計が完全に再計算されない問題を修正しました。特に、成功指標に影響が生じていました。 （NEO-88106）<!-- moved from original 7.4.3 GA Fixes section -->
 * 欠落しているアップストリーム ターゲティングスキーマを参照する特定のワークフローを開くと、クライアントコンソールがクラッシュする可能性がある問題を修正しました。 （NEO-28727）
-* インストールパッケージからバージョンファイルが欠落していたため、起動に失敗した後にクライアントコンソールのバージョンを特定できない問題を修正しました。（NEO-94798）
+* インストールパッケージからバージョンファイルが欠落していたため、起動に失敗した後にクライアントコンソールのバージョンを特定できない問題を修正しました。 （NEO-94798）
 
 <!--
 other fixes - ommitted from release notes

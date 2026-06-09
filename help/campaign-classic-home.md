@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 326
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 330
+ht-degree: 93%
 
 ---
 
@@ -36,9 +36,9 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 2025年4月リリースが公開されました。]
+>[!TAB 2026年6月リリースが公開されています！]
 
-Campaign Classic v7.4.2 - 2025年4月リリースのアップデート、改善点および修正点を確認します。
+Campaign Classic v7.4.3 - 26年6月ビルドには、以前のリリースに加えてセキュリティアップデートが付属しています。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 

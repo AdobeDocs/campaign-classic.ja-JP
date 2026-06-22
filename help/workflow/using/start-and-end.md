@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 100%
@@ -41,3 +41,4 @@ ht-degree: 100%
   ワークテーブル内のデータは、「終了」アクティビティが有効になると自動的に削除されます。 データを削除する必要がなく、不要な負荷を避けたい場合は、最後のアクティビティ出力でトランジションを無効にすることもできます。 例えば、配信出力でプロセスが何もスケジュールされていない場合、次に示す関連オプションのチェックを外します。
 
   ![](assets/s_advuser_delivery_option_no_output.png)
+

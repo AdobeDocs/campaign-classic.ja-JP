@@ -23,7 +23,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2841
 ht-degree: 76%
@@ -394,3 +394,4 @@ ht-degree: 76%
 抽出されたファイルのコンテンツを（ファイル名をクリックして）確認したり、抽出ファイルを承認したり、必要であればダッシュボードのリンクを使用してフォーマットを変更し、抽出を再開できます。
 
 ファイルが承認されたら、通知メールをルーターに送信できます。 詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。
+

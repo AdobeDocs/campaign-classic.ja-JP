@@ -251,7 +251,7 @@ ht-degree: 90%
 
 このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27489?captions=jpn&quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

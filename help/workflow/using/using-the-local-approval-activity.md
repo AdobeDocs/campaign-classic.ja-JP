@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 TQID: https://experienceleague.adobe.com/pNRd9r-vmTNVq45n0bdzJ3E9WtgZHLQcD0bVVOnPEb8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1442
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +82,7 @@ ht-degree: 98%
    ![](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL 値]**：ドメイン名の値を入力します。
-   * **[!UICONTROL パーセンテージ / 固定]**：各ドメインの最大値を入力します。 配信を送信する受信者の数。 この例では、ドメインあたりの配信を 10% に制限します。
+   * **[!UICONTROL 割合／固定]**：各ドメインについて、配信対象の受信者の最大数を入力します 。 この例では、ドメインあたりの配信を 10% に制限します。
    * **[!UICONTROL ラベル]**：承認およびフィードバックの通知で表示するドメインのラベルを入力します。
    * **[!UICONTROL グループまたはオペレーター]**：ドメインに割り当てるオペレーターまたはオペレーターのグループを選択します。
 

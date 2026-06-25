@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 TQID: https://experienceleague.adobe.com/gGjUc-62oHW0OBV-iPKYGoDWiTebnQ3g7v4cInh3TLw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 673
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +42,7 @@ ht-degree: 96%
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. 「**[!UICONTROL 追加データを編集]**」、「**[!UICONTROL 詳細パラメーター…]**」の順にクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをオンにします。
+1. 「**[!UICONTROL 追加データを編集]**」をクリックし、「**[!UICONTROL 詳細設定パラメーター...]**」をクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをクリックします。
 
    このオプションにより、どの受信者も結果として表示されなくなり、明示的に追加したデータは維持されません。 このケースでは、受信者を作成した最新の日付を参照します。
 

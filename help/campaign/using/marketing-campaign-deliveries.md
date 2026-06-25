@@ -7,23 +7,15 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 TQID: https://experienceleague.adobe.com/1fiKNiq5Q2q4cN-wCMLSnZdW-IDA-bw6KwJGhSJYZkY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1576
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +25,7 @@ ht-degree: 90%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信を作成 {#creating-deliveries}
 
@@ -130,7 +122,7 @@ ht-degree: 90%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントは、任意のフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDFなど）で作成できます。 ドキュメントをキャンペーンにリンクする方法については、[&#128279;](../../campaign/using/marketing-campaign-assets.md)こちらの節を参照してください。
+キャンペーンには、レポート、写真、web ページ、図など、様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）に指定できます。 ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
 
 >[!IMPORTANT]
 >
@@ -148,7 +140,7 @@ ht-degree: 90%
 
 「**[!UICONTROL ドキュメント]**」タブには次が含まれます。
 
-* コンテンツに必要なすべてのドキュメント（テンプレート、画像など）のリスト 適切な権限を持ったAdobe Campaignのオペレーターがローカルにダウンロードできる，
+* 適切な権限を持つ Adobe Campaign オペレーターがローカルにダウンロードできる、コンテンツに必要なすべてのドキュメント (テンプレート、画像など) のリスト 。
 * 発送担当向けの情報を含むドキュメント（該当する場合）。
 
 ドキュメントは、**[!UICONTROL 編集／「ドキュメント」]**&#x200B;タブからプログラムまたはキャンペーンにリンクされます。
@@ -175,7 +167,7 @@ ht-degree: 90%
 >
 >配信の概要は、ダイレクトメールキャンペーンのコンテキストでのみ使用します。
 
-配信の概要は、構造化された一連の要素（文書、支店/店舗、プロモーションクーポンなど）を表します 特定のキャンペーンのために作成されたからです。
+配信の概要は、企業が特定のキャンペーン用に作成した構造化された一連の要素（ドキュメント、支店／店舗、プロモーション用クーポンなど） を示します。
 
 これらの要素は配信の概要にまとめられ、特定の配信の概要が配信に関連付けられます。この配信の概要は、配信に添付するために、**サービスプロバイダー**&#x200B;に送信される抽出ファイル内で参照されます。 例えば、ある支店と、その支店が使用するマーケティングカタログを参照する配信の概要を作成できます。
 
@@ -203,7 +195,7 @@ ht-degree: 90%
 概要には、項目、パーソナライゼーションフィールド、リソースおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
-* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。 これにより、特定のターゲット（ウェルカムオファー、割引など）に対する配信で使用される値を作成できます。 これらはAdobe Campaignで作成され、**[!UICONTROL パーソナライゼーションフィールドの読み込み…]** リンクを介してアウトラインに読み込まれます。
+* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。 これにより、特定のターゲットに対する配信で使用される値（ウェルカムオファー、割引など）を作成できます。 これらは Adobe Campaign で作成され、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクを介して概要にインポートされます。
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -235,7 +227,7 @@ ht-degree: 90%
 
 #### 抽出結果 {#extraction-result}
 
-抽出してサービスプロバイダーに送信されたファイルでは、アウトラインの名前と、必要に応じてその特性（コスト、説明など）が表示されます。 は、サービスプロバイダーに関連付けられたエクスポートテンプレートの情報に従ってコンテンツに追加されます。
+抽出され、サービスプロバイダーに送信されたファイル内では、サービスプロバイダーに関連付けられたエクスポートテンプレートの情報に従って、概要名および必要に応じてその特性（コスト、説明など）がコンテンツに追加されます 。
 
 次の例では、配信に関連付けられた概要のラベル、推定コスト、説明が抽出ファイルに追加されます。
 
@@ -251,7 +243,7 @@ ht-degree: 90%
 
 このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27489?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

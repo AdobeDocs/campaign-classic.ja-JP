@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1442
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
    ![](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL 値]**：ドメイン名の値を入力します。
-   * **[!UICONTROL パーセンテージ / 固定]**：各ドメインの最大値を入力します。 配信を送信する受信者の数。 この例では、ドメインあたりの配信を 10% に制限します。
+   * **[!UICONTROL 割合／固定]**：各ドメインについて、配信対象の受信者の最大数を入力します 。 この例では、ドメインあたりの配信を 10% に制限します。
    * **[!UICONTROL ラベル]**：承認およびフィードバックの通知で表示するドメインのラベルを入力します。
    * **[!UICONTROL グループまたはオペレーター]**：ドメインに割り当てるオペレーターまたはオペレーターのグループを選択します。
 

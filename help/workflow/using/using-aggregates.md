@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 673
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. 「**[!UICONTROL 追加データを編集]**」、「**[!UICONTROL 詳細パラメーター…]**」の順にクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをオンにします。
+1. 「**[!UICONTROL 追加データを編集]**」をクリックし、「**[!UICONTROL 詳細設定パラメーター...]**」をクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをクリックします。
 
    このオプションにより、どの受信者も結果として表示されなくなり、明示的に追加したデータは維持されません。 このケースでは、受信者を作成した最新の日付を参照します。
 

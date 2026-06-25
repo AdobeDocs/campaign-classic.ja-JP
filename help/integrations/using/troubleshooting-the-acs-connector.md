@@ -25,9 +25,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 901
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -90,15 +90,15 @@ ht-degree: 93%
 
 * **Campaign Standard でクエリのベースにする必要があるプロファイルフィールドが見つかりません。**
 
-  デフォルトでは、nms:recipient テーブルの20 フィールドがCampaign Standardと同期されます。 同期されたフィールドの詳細なリストを参照してください。 Campaign Standard で取得する必要がある追加のフィールドは、コンサルタントによってマッピングおよび設定される必要があります。
+  デフォルトでは、nms:recipient テーブルの 20 個のフィールドが Campaign Standard と同期されます。同期されたフィールドの詳細なリストを参照してください。 Campaign Standard で取得する必要がある追加のフィールドは、コンサルタントによってマッピングおよび設定される必要があります。
 
   使用したいフィールドが利用可能であることを確認する場合は、**[!UICONTROL 管理／開発／診断／データスキーマ]**&#x200B;で、プロファイルリソース定義を確認できます。
 
-  また、受信者に添付され、nms:recipientsに関連するテーブルに保存されているすべてのデータは、デフォルトではCampaign Standardに同期されません。
+  また、受信者に添付され、nms:recipients 関連のテーブルに保存されているすべてのデータは、デフォルトでは Campaign Standard と同期されません。
 
   関連するデータを使用できるようにするには、[オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)の節で説明したように、Campaign v7 でターゲティングを実行して、追加データを追加するか、コンサルタントに問い合わせて、カスタマイズの可能性を探ることができます。
 
-* **Campaign v7でデフォルトのnms:recipient以外のプロファイルディメンションを使用している。Campaign Standardと同期するにはどうすればよいですか？**
+* **Campaign v7 でデフォルトの nms:recipient 以外のプロファイルディメンションを使用していますが、Campaign Standard と同期させるにはどうすればよいですか？**
 
   Campaign Standard は、**プロファイル**&#x200B;という名前の独自のターゲティングリソースを使用します。 Campaign Standard 接続機能の基本的な実装では、Campaign v7 受信者と Campaign Standard プロファイルの間のデフォルトマッピングを提供します。
 

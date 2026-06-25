@@ -19,9 +19,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2534
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-タイムスケールを変更することで、表示される値を設定できます。1時間表示、3時間表示、24時間表示など。「**[!UICONTROL 更新]**」をクリックして、選択を確定します。
+期間（1 時間表示、3 時間表示または 24 時間表示など）を変更することで、表示される値を設定できます。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 >[!NOTE]
 >
@@ -180,9 +180,9 @@ ht-degree: 96%
 
 ### ソーシャルネットワークへの共有 {#sharing-to-social-networks}
 
-バイラルマーケティングにより、配信受信者は連絡先ネットワークと情報を共有できます。受信者は自分のプロファイル（Facebook、X、旧Twitterなど）にリンクを追加できます または友人にメッセージを送ってください。 それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
+バイラルマーケティングでは、配信の受信者は連絡先のネットワークと情報を共有できます。プロファイルにリンクを追加したり（Facebook、X - 旧 Twitter など）、友達にメッセージを送信したりできます。それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
-このレポートは、ソーシャルネットワーク（Facebook、Xなど）ごとの共有メッセージと開封メッセージの内訳を示しています and/or per email.
+このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します。
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -215,7 +215,7 @@ ht-degree: 96%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities}
 
-このレポートは、ソーシャルネットワーク（Facebook、X – 旧Twitter、電子メールなど）への株式の進化を示しています 作業時間の短縮：
+このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の展開を表示しています。
 
 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 

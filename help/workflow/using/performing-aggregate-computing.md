@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 245
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル （**nms:recipient**）
+  受信者テーブル（**nms:recipient**）
 
 * 出力列でどのフィールドを選択する必要がありますか。
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**&#x200B;** これにより、受信者は性別でグループ化されます。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**** これにより、受信者は性別でグループ化されます。
 
    ![](assets/query_editor_nveau_27.png)
 

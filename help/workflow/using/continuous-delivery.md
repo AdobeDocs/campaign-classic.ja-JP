@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 377
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 * スキーマ
 * recCount
 
-この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。 **[!UICONTROL tableName]**&#x200B;はターゲットの識別子を記憶するテーブルの名前で、**[!UICONTROL schema]**&#x200B;は母集団のスキーマ（通常はnms:recipient）で、**[!UICONTROL recCount]**&#x200B;はテーブル内の要素の数です。
+この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。 **[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 補集合に関連付けられたトランジションは、同じパラメーターを持ちます。
 

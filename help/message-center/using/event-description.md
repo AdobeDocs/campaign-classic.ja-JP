@@ -13,9 +13,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 759
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 91%
 
 本節では、トランザクションメッセージモジュールのスキーマに関連する SOAP メソッドの詳細を説明します。
 
-2つの&#x200B;**PushEvent**&#x200B;または&#x200B;**PushEvents** SOAP メソッドが、2つの&#x200B;**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
+2 つの **PushEvent** または&#x200B;**PushEvents** SOAP メソッドが、2 つの **nms:rtEvent** および **nms:BatchEvent** データスキーマにリンクされています。イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
 
 * **PushEvent** では、メッセージに 1 つのイベントを挿入することができ、
 * **PushEvents** では、メッセージに一連の複数のイベントを挿入することができます。
 
 両方のメソッドにアクセスする WSDL パスは：
 
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent**&#x200B;からリアルタイム型スキーマにアクセスできます。
-* バッチタイプスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent**&#x200B;してください。
+* リアルタイムのスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** に移動してください。
+* バッチタイプスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** に移動してください。
 
 WSDL ファイルの生成について詳しくは、[この節](../../configuration/using/web-service-calls.md#web-service-description--wsdl)を参照してください。
 
@@ -133,7 +133,7 @@ PushEvents の使用例：
 
 >[!NOTE]
 >
->すべての承認済み属性とその値の詳細については、**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマの説明を参照してください。
+>すべての承認済み属性とその値の詳細については、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明を参照してください。
 
 **`<ctx>`** 要素には、メッセージデータを格納します。 この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
 

@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1800
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
    分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。 使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 
-1. **プルーフを送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳細については、[&#x200B; プルーフを送信](steps-validating-the-delivery.md#sending-a-proof)および[特定のプルーフターゲットを定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)してください。
+1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳しくは、[配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)と[特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 
 >[!IMPORTANT]
 >

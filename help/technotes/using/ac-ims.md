@@ -12,15 +12,15 @@ topic_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 479
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Adobe Identity Management System（IMS）への移行 {#migrate-to-ims}
 
-セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignでは、エンドユーザー認証モードをログイン/パスワードネイティブ認証から[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}に移行することを強くお勧めします。
+セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から [Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}に移行することを強くお勧めしています。
 
 さらに、Adobe Campaign クライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。 テクニカルオペレーターを Adobe Developer Console に移行してください。
 
@@ -31,7 +31,7 @@ ht-degree: 72%
 
 ## 移行手順 {#ims-steps}
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他のほとんどのAdobe Experience Cloud ソリューションやアプリは既にIMS上にあります。
+[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は環境のセキュリティを確保し、標準化するために不可欠なセキュリティです。他の Adobe Experience Cloud ソリューションおよびアプリのほとんどは既に IMS に準拠しています。
 
 アドビでは、この移行作業をサポートしています。 詳細なコンテキストと段階的なガイドラインについては、以下の記事を参照してください。
 
@@ -55,17 +55,17 @@ ht-degree: 72%
 
 ### 移行を開始できるのはいつですか？ {#ims-migration-start}
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行をお勧めします。お使いの環境をCampaign Classic v7.4.1 （または[IMS移行互換バージョン &#x200B;](#ims-versions)）にアップグレードすることをお勧めします。
+[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の推奨事項は、環境を Campaign Classic v7.4.1（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードすることです。
 
 最新バージョンにアップグレードしたら、ステージング環境で IMS への移行を開始し、それに応じて本番環境を計画できます。
 
 ### Campaign Classic v7.4.1 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
-環境をCampaign Classic v7.4.1 （または[IMS migration compatible version](#ims-versions)）にアップグレードした後、Adobe Identity Management System （IMS） [への移行を開始できます。](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}
+環境を Campaign Classic v7.4.1（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードしたら、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
 
 ### 移行が完了するのはいつですか？ {#ims-migration-end}
 
-エンドユーザーの移行とテクニカルオペレーターを Adobe Identity Management System（IMS）に移行する処理が完了したら、環境を更新して、ネイティブ認証に固有で IMS 認証では適用されないオプションを削除する必要があります。 このアップデートは、Campaign v7.4.1以降でのみ使用できます。 [詳細情報](impact-ims-migration.md)
+エンドユーザーの移行とテクニカルオペレーターを Adobe Identity Management System（IMS）に移行する処理が完了したら、環境を更新して、ネイティブ認証に固有で IMS 認証では適用されないオプションを削除する必要があります。 この更新は、Campaign v7.4.1 以降でのみ使用できます。[詳細情報](impact-ims-migration.md)
 
 
 
@@ -74,4 +74,4 @@ ht-degree: 72%
 * [エンドユーザーの IMS への移行](migrate-users-to-ims.md)
 * [Adobe Developer Console へのテクニカルオペレーターの移行](ims-migration.md)
 * [Adobe Campaign Classic v7 最新リリースノート](../../rn/using/latest-release.md)
-* [Adobe Identity Management System （IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}
+* [Adobe Identity Management System（IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}

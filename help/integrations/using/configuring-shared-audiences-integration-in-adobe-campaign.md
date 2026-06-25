@@ -24,9 +24,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 675
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -66,21 +66,21 @@ ht-degree: 90%
 
 1. 次の詳細を入力します。
 
-   * **[!UICONTROL AWS S3 Account Server]**
-サーバーのURLは、次のように入力する必要があります。
+   * **[!UICONTROL AWS S3 アカウントサーバー]**
+サーバーの URL。次のように入力する必要があります。
 
      ```
      <S3bucket name>.s3.amazonaws.com/<s3object path>
      ```
 
-   * **[!UICONTROL AWS アクセスキーID]**
-AWS アクセスキーIDの検索場所については、この[&#x200B; ページ &#x200B;](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+   * **[!UICONTROL AWS アクセスキー ID]**
+AWS アクセスキー ID の確認方法について詳しくは、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
-   * **[!UICONTROL AWSへの秘密鍵]**
-AWSへの秘密のアクセスキーを見つける場所については、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+   * **[!UICONTROL AWS への秘密アクセスキー]**
+AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-   * **[!UICONTROL AWS地域]**
-AWS地域について詳しくは、この[&#x200B; ページ &#x200B;](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+   * **[!UICONTROL AWS リージョン]**
+AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
    ![](assets/aam_config_2.png)
 

@@ -12,9 +12,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1226
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加 トランザクションメッセージパッケージをインストールする前に実行する必要があります。
+>配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージをインストールする前に実行する必要があります。
 
 ### 配信チャネルの追加 {#adding-a-delivery-channel}
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 >この手順は、作業中のマシンと同じマシンにインストールされた Windows NLServer を使用しているお客様にのみ適用されます。
 
 1. パッケージインポートアシスタント（**[!UICONTROL ツール／詳細設定／パッケージをインポート／アドビキャンペーンパッケージ]**）を使用し、追加したいチャネル（例：**モバイルチャネル**）をインストールします。
-1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
+1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms **`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
 1. 「**[!UICONTROL インポートするデータの XML コンテンツ]**」には、追加したチャネルに対応する配信テンプレートのみを残します。 例えば、**モバイルチャネル**&#x200B;を追加した場合には、**[!UICONTROL モバイルトランザクションメッセージ]**（smsTriggerMessage）に対応する **entities** 要素のみを残します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOS トランザクションメッセージ**（iosTriggerMessage）と **Android トランザクションメッセージ**（androidTriggerMessage）のみを残します。
 
    ![](assets/messagecenter_install_channel.png)

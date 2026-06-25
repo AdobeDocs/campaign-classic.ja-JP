@@ -20,9 +20,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 355
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->このオプションは、使用する受信者テーブルがデフォルトの&#x200B;**nms:recipient** テーブルではなく、Adobe Campaignの&#x200B;**[!UICONTROL 配信品質]** モジュールで提供されている受信ボックスレンダリング機能を使用している場合に使用します。
+>このオプションは、使用する受信者テーブルでデフォルトの **nms:recipient** テーブルではなく、Adobe Campaign の&#x200B;**[!UICONTROL 配信品質]**&#x200B;モジュールで提供されるインボックスレンダリング機能を使用している場合に使用します。
 >
 >詳しくは、[外部の受信者テーブルの使用](using-an-external-recipient-table.md)および[受信ボックスレンダリング](inbox-rendering.md)に関するドキュメントを参照してください。
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 609
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 96%
 
 
 
-**ファイル転送** アクティビティを使用すると、ファイルの受信または送信、ファイルのプレゼンスのテスト、サーバー上のファイルの一覧表示を行うことができます。使用されるプロトコルは、Azure Blob Storage、Amazon Simple Storage Service （S3）、FTPまたはSFTPのいずれかです。
-S3、Azure Blob Storage、SFTP接続を使用すると、Adobe Real-Time CDPを使用してAdobe Campaignにセグメントデータをインポートすることもできます。詳しくは、この[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
+**ファイル転送**アクティビティを使用すると、ファイルの受信または送信、ファイルのプレゼンスのテスト、サーバー上のファイルのリストを行うことができます。使用されるプロトコルは、Azure Blob Storage、Amazon Simple Storage Service（S3）、FTP または SFTP のいずれかです。
+S3、Azure Blob Storage、または SFTP 接続を使用すると、アドビのリアルタイム顧客データプラットフォームを使用して Adobe Campaign にセグメントデータをインポートすることもできます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >

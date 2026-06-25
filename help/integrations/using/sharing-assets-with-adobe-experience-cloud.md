@@ -19,15 +19,15 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 190
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # アセットを Adobe Experience Cloud と共有する{#sharing-assets-with-adobe-experience-cloud}
 
-[Experience Cloud Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"}は、ソリューション間で共有できる、マーケティングに対応したアセットの1つの一元的なリポジトリを提供します。 アセットとは、デジタルドキュメント、画像、ビデオまたはオーディオファイルを表します。
+[Experience Cloud Assets](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/audiences/overview){target="_blank"} は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットとは、デジタルドキュメント、画像、ビデオまたはオーディオファイルを表します。
 
 アセットサービスには次のものが含まれます。
 

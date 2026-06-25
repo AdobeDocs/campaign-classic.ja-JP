@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1118
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 99%
 
 1. 紐付け
 
-   * **受信者（nms:recipient）** テーブルに移動します。
+   * **受信者（nms:recipient）**&#x200B;テーブルに移動します。
    * 「**[!UICONTROL 挿入]**」操作を選択し、その他のフィールドはデフォルト値のままにします。
 
      ![](assets/s_ncs_user_import_example04_01.png)

@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL ツール/汎用クエリエディター…]**&#x200B;をクリックし、**受信者** （**nms:recipient**）テーブルを選択します。 「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL ツール／汎用クエリエディター...]** をクリックし、**受信者**（**nms:recipient**）テーブルを選択します。「**[!UICONTROL 次へ]**」をクリックします。
 1. 「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL メール]**」、「**[!UICONTROL 市区町村]**」および「**[!UICONTROL アカウント番号]**」を選択します。 これらのフィールドは、「**[!UICONTROL 出力列]**」に追加されます。 「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/query_editor_03.png)

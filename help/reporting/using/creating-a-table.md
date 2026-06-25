@@ -22,9 +22,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2672
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 99%
 
   それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。 「**[!UICONTROL ラベル]**」フィールドにラベルを入力します。 それがそのまま表示されます。
 
-* 集計の計算（平均、合計など） それを監房に飾り付けている
+* 集計（平均や合計など）を計算し、それをセルに表示します。
 
   それには、**[!UICONTROL 集計]**&#x200B;メニューエントリを使用し、目的とするキャンペーンを選択します。
 

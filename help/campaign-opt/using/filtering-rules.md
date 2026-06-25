@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 530
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 
 フィルタールールを使用すると、クエリで指定する条件に従って、除外するメッセージを定義できます。 これらのルールは、ターゲティングディメンションにリンクされます。
 
-フィルタリングルールは、他のタイプのルール（コントロール、プレッシャーなど）とリンクできます。 タイポロジで、または専用の&#x200B;**フィルタリング** タイポロジでグループ化されます。 詳しくは、[フィルタータイポロジの作成と使用](#creating-and-using-a-filtering-typology)を参照してください。
+フィルタールールは、他のタイプのタイポロジルール（コントロール、頻度など）にリンクできます。または、専用の&#x200B;**フィルタリング**&#x200B;タイポロジにグループ化できます。詳しくは、[フィルタータイポロジの作成と使用](#creating-and-using-a-filtering-typology)を参照してください。
 
 ## フィルタールールの作成 {#creating-a-filtering-rule}
 

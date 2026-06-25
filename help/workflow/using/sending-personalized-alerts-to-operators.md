@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 374
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]** アクティビティを使用して、インスタンス変数に保存されたフィールドの1つを追加できます。\
+>**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティでインスタンス変数に保存したフィールドのいずれかを追加できます。\
 >フィールドが JavaScript コードに追加されている限り、フィールドを好きな数だけ追加できます。
 
 ![](assets/uc_operator_8.png)

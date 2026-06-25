@@ -19,9 +19,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 519
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 次の手順に従います。
 
-1. 汎用クエリエディターを開き、受信者テーブル （**[!UICONTROL nms:recipient]**）を選択します。
+1. 汎用クエリエディターを開き、受信者テーブル（**[!UICONTROL nms:recipient]**）を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 性別]**」を選択します。
 
    ![](assets/query_editor_nveau_73.png)
@@ -94,6 +94,6 @@ ht-degree: 91%
 
    ![](assets/query_editor_nveau_79.png)
 
-   もう 1 つの例では、列挙値「2」が入力されていないとします。 **[!UICONTROL エラーを生成し、行]**&#x200B;関数を拒否するオプションを選択します。すべての性別「2」の受信者が異常値を発生させ、行内のその他の情報（名と姓など）が表示されます。 書き出されません。 エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。 このログは、列挙値「2」が入力されていないことを示します。
+   もう 1 つの例では、列挙値「2」が入力されていないとします。 「**[!UICONTROL エラーを生成してラインを却下]**」機能を選択します。すべての性別「2」の受信者で例外が発生し、ライン内の他の情報（名と姓など）はエクスポートされません。エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。 このログは、列挙値「2」が入力されていないことを示します。
 
    ![](assets/query_editor_nveau_80.png)

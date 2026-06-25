@@ -19,9 +19,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1673
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 96%
 
 ## データベース内のデータの分析 {#analyzing-data-in-the-database}
 
-記述分析アシスタントは、**[!UICONTROL ツール/記述分析]** メニューから起動できます。この場合、分析はデフォルトで受信者に関するものです（**nms:recipient**）。 分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
+記述的分析アシスタントは、**[!UICONTROL ツール／記述的分析]**&#x200B;メニューで起動できます。その場合は、デフォルトで、受信者に関係する分析になります（**nms:recipient**）。分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-標準受信者以外のテーブル （**nms:recipient**）を分析するには、アシスタントの最後のステージにある&#x200B;**[!UICONTROL 詳細設定…]** リンクをクリックし、設定に一致するテーブルを選択します。この場合は&#x200B;**cus:individual**。
+標準の受信者テーブル（**nms:recipient**）以外のテーブルを分析するには、アシスタントの最後の段階で「**[!UICONTROL 詳細設定...]**」リンクをクリックし、設定に一致するテーブル（この場合は **cus:individual**）を選択します。
 
 ![](assets/reporting_descriptive_other_schema.png)
 

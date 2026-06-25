@@ -22,9 +22,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 796
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 66%
 
 個人のテーブルを使用して、標準データモデルを Adobe Campaign 外のトランザクションテーブルの特定の特性に合わせて調整する方法を説明します。 この個人のテーブルは、Adobe Campaign 内の使用可能な個人のテーブルや他のテーブルと一致する場合があります。
 
-測定の仮説は、オペレーションプロセスワークフロー（**[!UICONTROL operationMgt]**）により開始します。 各仮説は、実行ステータス（「編集中」、「保留中」、「完了」、「失敗」など）と非同期的に実行される個別のプロセスを表します。 優先度の制約、同時プロセス数の制限、ローアクティビティページ、頻度を持つ自動実行を管理するスケジューラーによって制御されます。
+測定の仮説は、オペレーションプロセスワークフロー（**[!UICONTROL operationMgt]**）により開始します。 各仮説は、特定の実行ステータス（編集中、保留中、完了、失敗など）で非同期的に実行される個々のプロセスを表します。プロセスは、優先度の制約、シミュレーションプロセス数の制限、低アクティビティページおよび頻度の高い自動実行を管理するスケジューラーによりコントロールされます。
 
 ## スキーマの設定 {#configuring-schemas}
 
@@ -48,9 +48,9 @@ ht-degree: 66%
 
 ### 標準スキーマ {#standard-schemas}
 
-標準の&#x200B;**[!UICONTROL nms:remaMatch]** スキーマには、反応ログテーブル（個人、仮説、トランザクションテーブル間の関係）が含まれています。 このスキーマは、反応ログの最終的な宛先テーブルの継承済みスキーマとして使用します。
+組み込みの **[!UICONTROL nms:remaMatch]** スキーマには、個人、仮説およびトランザクションテーブル間の関係を表す反応ログテーブルが含まれています。このスキーマは、反応ログの最終的な宛先テーブルの継承済みスキーマとして使用します。
 
-**[!UICONTROL nms:remaMatchRcp]** スキーマも標準として提供され、Adobe Campaign受信者（**[!UICONTROL nms:recipient]**）のリアクションログのストレージが含まれています。 このスキーマを使用するには、拡張してトランザクションテーブル（購入などを含む）にマップする必要があります。
+**[!UICONTROL nms:remaMatchRcp]** スキーマも標準スキーマで、Adobe Campaign の受信者（**[!UICONTROL nms:recipient]**）用反応ログのストレージを含みます。このスキーマを使用するには、拡張してトランザクションテーブル（購入などを含む）にマップする必要があります。
 
 ### トランザクションテーブルとトランザクションの詳細 {#transaction-tables-and-transaction-details}
 
@@ -62,7 +62,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->仮説で想定される動作を説明する受領者識別子を保持する場合は、nms:remaMatchRcp テーブルテンプレートを拡張して識別子を追加できます（この場合、これらのフィールドにROI計算はリンクされません）。
+>仮説で予想される行動を表す領収書識別子を保持したい場合は、nms:remaMatchRcp テーブルテンプレートを拡張し、識別子を追加できます（この場合、これらのフィールドに ROI の計算はリンクされません）。
 
 イベントの日付を追加することを強くお勧めします。
 
@@ -72,9 +72,9 @@ ht-degree: 66%
 
 ### 応答管理と受信者 {#response-management-with-adobe-campaign-recipients}
 
-この例では、Adobe Campaignの組み込み受信者テーブル **[!UICONTROL nms:recipient]**&#x200B;を使用して、応答管理モジュールに購入表を統合します。
+この例では、Adobe Campaign に組み込まれている受信者テーブル **[!UICONTROL nms:recipient]** を使用して、応答管理モジュールに購入テーブルを統合します。
 
-**[!UICONTROL nms:remaMatchRcp]**&#x200B;受信者の応答ログのテーブルが拡張され、購入テーブルスキーマへのリンクが追加されます。 次の例では、購入テーブルの名前は&#x200B;**demo:purchase**&#x200B;です。
+購入テーブルスキーマへのリンクを追加するために、**[!UICONTROL nms:remaMatchRcp]** 受信者の反応ログのテーブルを拡張します。以下の例では、購入テーブルを **demo:purchase** と呼びます。
 
 1. Adobe Campaign エクスプローラーで、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;を選択します。
 1. **受信者**&#x200B;を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
@@ -87,7 +87,7 @@ ht-degree: 66%
 
 1. 「**[!UICONTROL 反応管理]**」カテゴリで、「**[!UICONTROL 反応のストレージスキーマを生成]**」ボックスがオンになっていることを確認します。
 
-   次に、**[!UICONTROL 追加フィールドを定義…]**&#x200B;をクリックして、関連するトランザクションテーブルを選択し、目的のフィールドをnms:remaMatchRcp スキーマの拡張機能に追加します。
+   その後、「**[!UICONTROL 追加フィールドを指定…]**」をクリックし、関連するトランザクションテーブルを選択して、nms:remaMatchRcp スキーマの拡張にフィールドを追加します。
 
    ![](assets/delivery_mapping3.png)
 
@@ -121,9 +121,9 @@ name="remaMatchRcp" namespace="cus">
 
 * **[!UICONTROL nms:remaMatch]** スキーマから派生した新しい応答ログスキーマを作成します。
 
-  個人のテーブルはAdobe Campaign受信者のテーブルとは異なるため、**[!UICONTROL nms:remaMatch]** スキーマに基づいて応答ログの新しいスキーマを作成する必要があります。 このスキーマに配信ログと購入テーブルへのリンクを入力します。
+  個人のテーブルは Adobe Campaign の受信者テーブルとは異なるので、**[!UICONTROL nms:remaMatch]** スキーマを基に、反応ログの新しいスキーマを作成する必要があります。このスキーマに配信ログと購入テーブルへのリンクを入力します。
 
-  次の例では、**demo:broadLogPers** スキーマと&#x200B;**demo:purchase** トランザクションテーブルを使用します。
+  以下の例では、**demo:broadLogPers** スキーマと **demo:purchase** トランザクションテーブルを使用します。
 
   ```
   <srcSchema desc="Linking of a recipient transaction to a hypothesis"    
@@ -142,7 +142,7 @@ name="remaMatchRcp" namespace="cus">
   </srcSchema>
   ```
 
-* **[!UICONTROL nms:remaHypothesis]** スキーマの仮説フォームを変更します。
+* **[!UICONTROL nms:remaHypothesis]** スキーマの仮説フォームを修正します。
 
   デフォルトでは、反応ログのリストは受信者ログに表示されます。 上述の手順で作成した新しい反応ログを表示するには、仮説フォームを修正する必要があります。
 

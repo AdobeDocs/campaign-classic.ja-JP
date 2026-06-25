@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 392
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 95%
 
 [!DNL Triggers] は、ユーザーのアクションの後、短時間のうちにマーケティングアクションを実行します。 通常の応答時間は 1 時間未満です。
 
-設定は最小限に抑えられ、サードパーティが関与しないため、より俊敏な統合が可能です。
-また、マーケティング活動のパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。例えば、1時間あたり100万件のトリガーを処理できます。
+設定は最小限に抑えられ、サードパーティが関与しないので、より俊敏な統合が可能です。
+また、マーケティング活動のパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。例えば、統合では 1 時間あたり 100 万のトリガーを処理できます。
 
 ![](assets/do-not-localize/book.png) [Experience Cloud トリガー](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を作成し、重要なコンシューマーの行動を特定、定義、監視する方法を説明します。
 

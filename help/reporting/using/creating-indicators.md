@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 4f31b249b9f4dc3a10205a3f03cecdbc23b3a6e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 749
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 97%
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. ディメンションの軸を切り替えたり、軸を削除したり、新しいメジャーを追加したりできます。可能な操作について詳しくは、[このページ &#x200B;](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
+1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、[このページ](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
    それには、該当するアイコンを使用します。
 

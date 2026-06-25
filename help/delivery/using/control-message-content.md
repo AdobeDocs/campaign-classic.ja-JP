@@ -22,9 +22,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 854
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 一部の ISP は、メッセージを受け付ける前に、送信者アドレス（**[!UICONTROL From]**）の有効性をチェックします。 不正な形式のアドレスは、受信サーバーによって拒否される可能性があります。
 
-インスタンス レベルで正しいアドレスが指定されていることを確認する必要があります（メニュー&#x200B;**[!UICONTROL ツール/詳細/デプロイメントウィザード…]**） 最も頻繁に使用されるシナリオで使用されます。
+インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja){target="_blank"}を参照してください。
 

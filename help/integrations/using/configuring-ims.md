@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 361
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Campaignのホスト型またはマネージドサービスのユーザーは、Adobe IMSの実装をAdobeが所有しています。以下の手順は、オンプレミスおよびハイブリッドのお客様にのみ適用されます。
-> Adobe IMSの実装は、Adobeの技術管理者のみが実行する必要があります。導入プロセスを開始するには、Adobeの担当者にお問い合わせください。
+>Campaign のホストサービスまたは Managed Services ユーザーの場合、Adobe IMS の実装はアドビが所有します。以下の手順は、オンプレミス環境およびハイブリッド環境のお客様にのみ適用されます。
+> Adobe IMS の実装は、アドビの技術管理者のみが実行する必要があります。実装プロセスを開始するには、アドビ担当者にお問い合わせください。
 
 ## 前提条件 {#prerequisites}
 
-* Adobe Experience Cloud の組織名と組織 ID が必要です。 組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* Adobe Experience Cloud の組織名と組織 ID が必要です。 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 * Experience Cloud にユーザーを追加する必要があります。 詳しくは、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja){_blank}を参照してください。
 
 >[!NOTE]
@@ -59,8 +59,8 @@ ht-degree: 82%
 
   **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。 このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 
-* 組織ID：組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* 組織 ID - 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 
-* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。 構文「Campaign - tenant_id - （。&#42;）」を使用すると、Adobe Campaignで作成されたセキュリティグループは、Enterprise Dashboardのコンフィギュレーション名「Campaign - tenant_id - internal_name」にリンクされます。
+* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。 「Campaign - tenant_id - (.&#42;)」という構文を使用すると、Adobe Campaign で作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
 
 * Adobe Experience Cloud 接続情報。Adobe Experience Cloud テナントの名前です。

@@ -19,9 +19,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1684
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 95%
 
 ![](assets/s_ncs_user_url_report.png)
 
-このレポートの内容を設定するには、表示するスコアチャート、時間フィルター（アクションの起動後の最初の6時間など）を選択します。 データ表示モード（ラベル、URL、カテゴリ別）。 「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
+このレポートの内容は、表示するスコアグラフ、時間フィルター（アクション開始以降、開始後の最初の 6 時間、など）およびデータの表示モード（ラベル別、URL 別、カテゴリ別）を選択することによって設定できます。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 次の率は、レポートの上部に表示されます。
 
@@ -171,7 +171,7 @@ ht-degree: 95%
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL ルールによって拒否されたメッセージ]**：タイポロジルールを適用する際に分析中に無視されたアドレスの数：見つからないアドレス、強制隔離されたアドレス、オンラインブロックリストに加えるなどです。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。タイポロジルールについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 **[!UICONTROL 除外の理由]**
 

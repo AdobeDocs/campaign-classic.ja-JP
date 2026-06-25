@@ -14,9 +14,9 @@ feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 529
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,5 +77,5 @@ Campaign のデータベースシステムが PostgreSQL である場合、Postg
 
 * [環境のアップグレード](../../production/using/build-upgrade.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
-* [最新のCampaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
+* [最新の Campaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 * [ユーザーへの新しいクライアントコンソールの公開](../../installation/using/client-console-availability-for-windows.md)

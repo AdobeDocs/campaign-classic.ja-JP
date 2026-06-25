@@ -18,9 +18,9 @@ subfeature_v2:
   - id: d1110311-2ca4-442b-be37-088a6db845ee
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1832
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -629,11 +629,11 @@ xtk.session.Write(
 
 ### API ドキュメント
 
-* [SOAP呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja)
+* [SOAP 呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja)
 * メソッド：
    * [作成](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja)
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja)
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja)
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja)
    * [書き込み](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja)
-* [logInfo関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja)
+* [logInfo 関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja)

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 92
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 
 
-配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -35,4 +35,4 @@ ht-degree: 85%
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-**nms:seedMember** スキーマの拡張機能は[このセクション &#x200B;](../../configuration/using/seed-addresses.md)です。
+**nms:seedMember** スキーマ拡張は、[このセクション](../../configuration/using/seed-addresses.md)にあります。

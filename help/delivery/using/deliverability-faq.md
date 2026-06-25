@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 674
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,8 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 * **IP のいずれかがブロックリストに登録されているかどうかを確認するにはどうすればよいですか。 IP をブロックリストから削除する方法を教えてください。**
 
   IP アドレスがブロックリストに登録されているかどうかは、以下のような様々な Web サイトを使用して検証できます。
-   * [MX ツールボックス](https://mxtoolbox.com/)
-   * [IP アドレスを教えてください](https://whatismyipaddress.com)
+   * [MX Toolbox](https://mxtoolbox.com/)
+   * [What is my IP address](https://whatismyipaddress.com)
 
   通常、IP アドレスチェックの結果は、ブロックリストの詳細と IP アドレスを拒否した Web サイトの名前を含むリストで返されます。
 

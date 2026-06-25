@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1471
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,10 +83,10 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 
 **例**：
 
-* **content.@name**: main要素の「name」属性の値を取得します
-* **content.@`['name']`**: **content.@name**&#x200B;構文と同じです
+* **content.@name**：メイン要素の「name」属性の値を取得します
+* **content.@`['name']`**：**content.@name** 構文と同一
 * **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
-* **content.chapter`[0]`.@name**：最初の`<chapter>`要素の名前を取得します
+* **content.chapter`[0]`。@name**：最初の `<chapter>` 要素の名前を取得します
 * **chapter.name()**：`<chapter>` 要素の名前を返します。
 * **chapter.parent().name()**：`<chapter>` の親要素の名前を返します。
 
@@ -559,7 +559,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 **[!UICONTROL パブリックリソース]**&#x200B;を使用して、デプロイウィザードに入力したインスタンス設定に応じて画像を宣言し、サーバー上にアップロードすることもできます。
 
-その後、これらの画像をコンテンツで呼び出すことができます。 これには、コンテンツ管理スキーマで次の構文を使用します。
+その後、これらの画像をコンテンツに呼び出すことができます。そのためには、次の構文をコンテンツ管理スキーマで使用します。
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>

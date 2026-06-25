@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a79c82df-714a-4b22-beac-74500b5e034f
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 99
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 ソーシャルネットワークを管理するために設計された&#x200B;**ソーシャルネットワーク管理**（ソーシャルマーケティング）アプリケーションを使用すると、X（旧 Twitter）を使用して顧客や見込み客とやり取りすることができます。
 
-CampaignとXを統合するための主な手順については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}を参照してください。
+Campaign と X を統合する主な手順について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}を参照してください。
 
 オンプレミス環境またはハイブリッド環境のお客様は、X の外部アカウントを設定して有効にする必要があります。 ハイブリッド設定の場合、ミッドソーシングプラットフォームへのアクティブな接続を使用して、「**ミッドソーシング**」タブも設定する必要があります。
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 150
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 68%
 
 
 
-Adobe Campaignでは、中央エンティティ（本社、マーケティング部門など）間の協調キャンペーンを実装するための&#x200B;**分散型マーケティング** アプリケーションを提供しています ローカルエンティティ（セールスポイント、地域代理店など）。 この連携のベースとなるのは、**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;と呼ばれる共有ワークスペースです。セントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスは、このワークスペース上でローカルエンティティに提供されます。
+Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（店舗、地域のエージェントなど）が協調キャンペーンを展開できる、**分散型マーケティング**&#x200B;アプリケーションを活用できます。 この連携のベースとなるのは、**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;と呼ばれる共有ワークスペースです。セントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスは、このワークスペース上でローカルエンティティに提供されます。
 
 セントラルエンティティは、ローカルエンティティに提供するキャンペーンをセットアップし、 ローカルキャンペーンまたは協調キャンペーンのいずれかのパッケージを作成します。 ローカルエンティティがキャンペーンを使用するには、キャンペーンをオーダーし、承認を受けなければなりません。
 
@@ -33,7 +33,7 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->Adobe Campaignの分散型マーケティングとその使用方法について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}を参照してください。
+>Adobe Campaign の分散型マーケティングとその使用方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}を参照してください。
 
 <!--
 ## Terminology {#terminology}

@@ -15,8 +15,8 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
-source-wordcount: 664
+workflow-type: ht
+source-wordcount: 661
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 100%
 説明：
 
 * **[!DNL object]**：オブジェクト（例：配信、プロバイダーなど）の名前。
-オブジェクトは次のいずれかになります。
+オブジェクトは、次のいずれかの場合です。
    * **[!DNL delivery]**：現在の配信の場合（詳細と制限事項については下記を参照）。
    * **[!DNL provider]**：現在の配信のプロバイダー／ルーティング（nms:externalAccount）の場合。
    * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次から読み込まれる場合：**プロパティ**／**パーソナライゼーション**／**実行コンテキストにオブジェクトを追加**。

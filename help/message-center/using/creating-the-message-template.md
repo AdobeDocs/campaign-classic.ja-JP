@@ -12,9 +12,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 513
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. 次の構文を使用してタグを入力します：**要素名**.@**属性名** （下図）。
+1. 下記に示すように、タグの入力には次の構文を利用します。**要素名**.@**属性名**
 
    ![](assets/messagecenter_create_custo_003.png)
 

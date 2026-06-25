@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 171
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 「**外部シグナル**」アクティビティを使用して、スケジュールに対して、ワークフロー内のタスクセットの実行をトリガーできます。
 
-「外部シグナル」タスクが有効化されたら、このタスクは無期限に、または指定された期間の終わりまで停止されます。 このトランジションは、SOAP呼び出し&#x200B;**PostEvent （sessionToken, workflowId, activity, transition, parameters, complete）によってアクティブ化されます。** **[!UICONTROL complete]** パラメーターを使用すると、タスクを完了できるため、後続の呼び出しに反応しません。
+「外部シグナル」タスクが有効化されたら、このタスクは無期限に、または指定された期間の終わりまで停止されます。 そのトランジションは、SOAP 呼び出し **PostEvent(sessionToken, workflowId, activity, transition, parameters, complete)** によってアクティブ化されます。**[!UICONTROL complete]** パラメーターを使用すると、後続の呼び出しに反応しないようにタスクを完了できます。
 
 PostEvent 関数について詳しくは、SOAP 呼び出しに関するオンラインドキュメントを参照してください。
 

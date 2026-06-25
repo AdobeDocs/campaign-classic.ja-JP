@@ -19,9 +19,9 @@ subfeature_v2:
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1046
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,13 +101,13 @@ ht-degree: 97%
 
    この例では、ラベルは &quot;**New**&quot; です。
 
-1. URL フィールドに次のURLを挿入します：**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**。
+1. 「URL」フィールドに URL（**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**）を挿入します。
 
    >[!NOTE]
    >
-   >**nms:webApp**&#x200B;はWeb アプリケーション スキーマと一致しています。
+   >**nms:webApp** は、web アプリケーションスキーマと一致します。
    >
-   >**nms:newWebApp**&#x200B;が新しいWeb アプリケーション作成アシスタントと一致します。
+   >**nms:newWebApp** は、新しい web アプリケーション作成アシスタントと一致します。
 
 1. URL を同じウィンドウで表示することを選択します。
 1. 「画像」フィールドに Web アプリケーションアイコン **/nms/img/webApp.png** を追加します。

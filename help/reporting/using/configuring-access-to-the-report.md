@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 810
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 ### 選択タイプ {#selection-type}
 
-レポートへのアクセスは、配信、受信者、受信者の選択など、特定のコンテキストまたはオファースペースに制限できます。このアクセス権は、**[!UICONTROL 表示]** タブの&#x200B;**[!UICONTROL 選択タイプ]** セクションで設定されています。
+レポートへのアクセスは、配信、受信者、受信者の選択など、特定のコンテキストまたはオファースペースに限定できます。このアクセスは、「**[!UICONTROL 表示]**」タブの「**[!UICONTROL 選択タイプ]**」セクションで設定されます。
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 

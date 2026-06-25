@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1164
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,8 +60,8 @@ URL を呼び出すスクリプトは、次のようになります。
 
    HTML ページには、作成したオファースペースの内部名の値（&quot;i_スペースの内部名&quot;）を持つ @id 属性のある
 
-   要素を含める必要があります。 オファーがこれに挿入されます
-element by Interaction.
+   要素を含める必要があります。 オファーは、インタラクションによってこの
+要素に挿入されます。
 
    この例では、@id 属性は、値 &quot;i_SPC12&quot; を受け取ります（「SPC12」が先ほど作成したオファースペースの内部名）。
 
@@ -194,7 +194,7 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
    このスキーマは、「Title 2」（タイトル 2）および「Price」（価格）フィールドを定義します。
 
-   例のスキーマの名前は&#x200B;**cus:offer**&#x200B;です
+   この例のスキーマの名前は **cus:offer** です。
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2 AAAA-MM-DD HH:MM:SS.762Z" createdBy-id="0"

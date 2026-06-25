@@ -14,9 +14,9 @@ feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 617
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 **Campaign のバージョンを確認するにはどうすればよいですか？**
 
-バージョンを確認する方法については、[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節を参照してください。
+バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
 
 **IMS を使用しているかどうかを確認するにはどうすればよいですか？**

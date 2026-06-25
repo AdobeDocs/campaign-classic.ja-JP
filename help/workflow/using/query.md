@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1683
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 96%
 
 ## クエリを作成します。 {#creating-a-query}
 
-クエリでは、基準に従ってターゲットを選択できます。セグメントコードをクエリ結果に関連付け、追加のデータをクエリ結果に挿入できます。
-クエリサンプルについて詳しくは、この[この節](querying-recipient-table.md)を参照してください。
+クエリでは、条件に従ってターゲットを選択できます。セグメントコードをクエリ結果に関連付け、追加のデータをクエリ結果に挿入できます。
+クエリサンプルについて詳しくは、[このセクション](querying-recipient-table.md)を参照してください。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ ht-degree: 96%
 
 Adobe Campaign データベースからデータを追加するには：
 
-1. 追加するデータのタイプを選択します。 これは、フィルタリングディメンションに属するデータか、リンクされたテーブルに保存されたデータです。
+1. 追加するデータのタイプを選択します。これは、フィルタリングディメンションに属するデータまたは、リンクされたテーブルに保存されたテーブルのどちらかになります。
 
    ![](assets/query_add_columns.png)
 
@@ -122,7 +122,7 @@ Adobe Campaign データベースからデータを追加するには：
      >初期の条件が考慮されない場合、結果は不完全なものになります（行が不足または重複）。
 
    * 複数行を収集を選択した場合（「**[!UICONTROL ライン数を制限]**」）、収集する行数を指定できます。
-   * 収集された列に集計が含まれている場合（例えば、宣言された失敗数、サイトでの平均支出など）、**[!UICONTROL 集計]**&#x200B;値を使用できます。
+   * 収集した列に集計が含まれる場合（宣言されたエラーの数やサイトでの平均購入額など）は、**[!UICONTROL 集計]**&#x200B;値を使用できます。
 
    ![](assets/query_add_collection_param.png)
 
@@ -195,9 +195,9 @@ Adobe Campaign データベースからデータを追加するには：
 
   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
 
 ### 関数 {#functions}
 

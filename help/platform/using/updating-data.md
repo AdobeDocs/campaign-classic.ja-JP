@@ -20,9 +20,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 797
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 ### 一括更新 {#mass-update}
 
-一括更新の場合は、**[!UICONTROL アクション/選択した行の一括更新を使用します…]**。アシスタントは、更新の設定と実行に役立ちます。
+一括更新の場合は、**[!UICONTROL アクション／選択されたラインを一括更新...]**&#x200B;を使用します。アシスタントは、更新の設定と実行に役立ちます。
 
 アシスタントの最初の手順では、更新するフィールドを指定します。
 

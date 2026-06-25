@@ -28,9 +28,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 711
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ ht-degree: 81%
 
   >[!IMPORTANT]
   >
-  >**IMSに移行した後：** Adobe Identity Management System （IMS）に移行すると、名前に「admin」という単語が含まれている製品プロファイルまたはネームド権限（「Administrators」、「admin」、「admins」など） Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 ユーザーにCampaign コントロールパネルアクセス権を付与しない限り、名前付き権限またはロール名に「管理者」を使用しないことをお勧めします。 [IMS移行](../../technotes/using/migrate-users-to-ims.md)および[Campaign コントロールパネルアクセスの管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}の詳細を説明します。
+  >**IMS への移行後：** Adobe Identity Management System（IMS）に移行すると、名前に「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Administrators」、「admin」、「admins」など）には、Campaign コントロールパネルへのアクセス権が自動的に付与されます。コントロールパネルへのアクセス権をユーザーに付与する予定がない限り、ネームド権限または役割名に「admin」を使用しないことをお勧めします。詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。 **[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
 
   >[!IMPORTANT]
   >
-  >**IMS:**&#x200B;製品プロファイルに移行した後、または「admin」という単語を含むネームド権限（「Approval Administrator」など）により、Campaign Campaign コントロールパネルへのアクセス権が付与されます。 [IMS移行](../../technotes/using/migrate-users-to-ims.md)および[Campaign コントロールパネルアクセスの管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}の詳細を説明します。
+  >**IMS への移行後：**「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Approval Administrator」など）には、Campaign コントロールパネルへのアクセス権が付与されます。詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 

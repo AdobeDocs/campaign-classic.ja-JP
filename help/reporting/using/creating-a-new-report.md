@@ -18,9 +18,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 967
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 99%
 * **[!UICONTROL 入力コントロール]**（テキストタイプまたは数値タイプ）。
 * **[!UICONTROL 選択コントロール]**（ドロップダウンリスト、チェックボックス、ラジオボタン、複数選択、日付、マトリックスなど）。
 * **[!UICONTROL 高度なコントロール]**（リンクエディター、定数、フォルダー選択）。
-* 値、リンク、HTML、画像など&#x200B;**[!UICONTROL 静的要素]**。
+* **[!UICONTROL 静的要素]**（値、リンク、HTML、画像など）。
 * **[!UICONTROL コンテナ]**（コンポーネントレイアウトの制御に使用）。
 
 ページおよびページコンポーネントの設定モードについて詳しくは、[この節](../../web/using/about-web-forms.md)で説明しています。

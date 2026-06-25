@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 517
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
-* 「Mr.」を表示するディスプレイ または「Ms.」 「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
+* データソースの「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
 * 顧客が表明した関心事項や検出された関心事項に基づいて、次のようにニュースレターや優待販売案内の構成をパーソナライズする
 
    * 興味 1 -- > ブロック 1

@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -141,9 +141,9 @@ ht-degree: 96%
 | dumpStatePeriodSec | `var/INSTANCE/pipelined.json.` での内部ステートプロセスの 2 つのダンプ間の期間<br>内部ステートはオンデマンドで `http://INSTANCE:7781/pipelined/status` でもアクセスできます。 |
 | forcedPipelineEndpoint | PipelineServicesEndpoint の検出を無効にし、強制的におこないます。 |
 | monitorServerPort | パイプライン化されたプロセスは、このポートでリッスンして内部ステートプロセスを `http://INSTANCE:PORT/pipelined/status` で提供します。 <br>デフォルトは 7781 です。 |
-| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットはデータベースに保存されます。<br> デフォルトは1000です |
+| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットがデータベースに保存されます。<br>デフォルトは 1000 です |
 | pointerFlushPeriodSec | この期間を過ぎると、オフセットがデータベースに保存されます。 <br>デフォルトは 5（秒）です。 |
-| processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br> デフォルトは4です |
+| processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br>デフォルトは 4 です |
 | processingThreads | ビルトインコードを使用してメッセージを処理する専用スレッドの数。 <br>デフォルトは 4 です。 |
 | retryPeriodSec | 処理エラーの場合の再試行間の遅延。 <br>デフォルトは 30（秒）です。 |
 | retryValiditySec | この期間が経過してもメッセージが正常に処理されない場合（再試行回数が多すぎる場合）、メッセージを破棄します。 <br>デフォルトは 300（秒）です。 |

@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 808
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ Adobe Campaign を使用して、Android デバイスにプッシュ通知を送
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
-* **[!UICONTROL データメッセージ]**&#x200B;は、クライアントアプリで処理されます。
+* **[!UICONTROL データメッセージ]**は、クライアントアプリで処理されます。
   <br>メッセージは、デバイスへの Android 通知を生成して表示するモバイルアプリケーションに直接送信されます。 データメッセージには、カスタムアプリケーション変数のみが含まれます。
 
-* **[!UICONTROL 通知メッセージ]**&#x200B;は、FCM SDK によって自動的に処理されます。
+* **[!UICONTROL 通知メッセージ]**は、FCM SDK によって自動的に処理されます。
   <br> FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。 通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
 
 Firebase Cloud Messaging のメッセージタイプについて詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}を参照してください。
@@ -60,9 +60,9 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 
    ![](assets/nmac_android_7.png)
 
-1. **[!UICONTROL ターゲットのタイプ]**&#x200B;**&#x200B;**&#x200B;ウィンドウで、「Android モバイルアプリケーションの登録者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL ターゲットのタイプ]******&#x200B;ウィンドウで、「Android モバイルアプリケーションの登録者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-1. 「**[!UICONTROL サービス]**」ドロップダウンで、以前に作成したサービスを選択し、次にアプリケーションを選択して、**[!UICONTROL 終了]**&#x200B;をクリックします。
+1. 「**[!UICONTROL サービス]**」ドロップダウンで、以前に作成したサービスとアプリケーションを選択して「**[!UICONTROL 完了]**」をクリックします。
 **[!UICONTROL アプリケーション変数]**&#x200B;は、設定手順で追加された内容に応じて自動的に追加されます。
 
    ![](assets/nmac_android_6.png)
@@ -83,7 +83,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 
 ## 通知メッセージの作成 {#creating-notification-message}
 
-![](assets/do-not-localize/how-to-video.png) [詳しくは、Android プッシュ通知の作成方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources){target="_blank"}。
+![](assets/do-not-localize/how-to-video.png)[詳しくは、Android プッシュ通知の作成方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources){target="_blank"}。
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 
@@ -97,7 +97,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 
    ![](assets/nmac_android_7.png)
 
-1. **[!UICONTROL ターゲットのタイプ]**&#x200B;**&#x200B;**&#x200B;ウィンドウで、「Android モバイルアプリケーションの登録者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL ターゲットのタイプ]******&#x200B;ウィンドウで、「Android モバイルアプリケーションの登録者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
 1. 「**[!UICONTROL サービス]**」ドロップダウンで、以前に作成したサービスとアプリケーションを選択して「**[!UICONTROL 完了]**」をクリックします。
 

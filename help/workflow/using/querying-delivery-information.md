@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1559
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者ログ追跡テーブル （**[!UICONTROL nms:trackingLogRcp]**）
+  受信者ログトラッキングテーブル（**[!UICONTROL nms:trackingLogRcp]**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -104,7 +104,7 @@ ht-degree: 99%
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
-   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。**&#x200B;**
+   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
 
      「**[!UICONTROL 完了]**」をクリックします。
 

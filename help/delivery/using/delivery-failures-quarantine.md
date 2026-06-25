@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1771
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaignは、このメッセージをフィルタリングして、変数コンテンツ（ID、日付、メールアドレス、電話番号など）を削除します。 フィルター処理された結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
+Adobe Campaign は、このメッセージをフィルター処理して変数コンテンツ（ID、日付、メールアドレス、電話番号など）を削除し、フィルター処理した結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログ選定テーブルに含まれないようにすることができます。
 

@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 703
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 97%
 
 **`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 
-**NmsPipeline_Config** オプションが設定されていません。これは実際にはJSON解析エラーです。
-オプション **NmsPipeline_Config**&#x200B;でJSON設定を設定します。このページの「ルーティングオプション」を参照してください。
+**NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
+JSON 設定を **NmsPipeline_Config** オプションで指定します。詳しくは、このページの「ルーティングオプション」を参照してください。
 
 **パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 1. 組織 ID（ImsOrgId）が serverConf.xml で設定されていることを確認します。
 1. インスタンス設定ファイルの空の組織 ID がデフォルトの組織 ID を上書きできるかどうかを確認します。 該当する場合は、削除します。
-1. 組織 ID が正しいことを確認します。 組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください
+1. 組織 ID が正しいことを確認します。 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください
 
 **パイプライン化されたプロセスが失敗し、「invalid key」（キーが無効です）と表示される**
 

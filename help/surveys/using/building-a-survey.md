@@ -6,16 +6,13 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 TQID: https://experienceleague.adobe.com/aeRP0GoE5lu3eUsJ4kg8DoUnqFeipazoax--zX8Lv60
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 836
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +30,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-フォームのページは、特殊なエディターを使用して作成されます。このエディターでは、（テキスト）入力フィールド、選択フィールド（リスト、チェックボックスなど）を定義および設定できます。 画像やHTMLコンテンツなどの静的エレメントが含まれます。 「コンテナ」に収集し、要件に応じてレイアウトすることができます。 [詳細情報](#adding-questions)。
+フォームのページは、（テキスト）入力フィールド、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターを使用して作成されます。「コンテナ」に収集し、要件に応じてレイアウトすることができます。 [詳細情報](#adding-questions)。
 
 >[!NOTE]
 >
@@ -62,7 +59,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
    >
    >ストレージモードとフィールドインポートについて詳しくは、[この節](../../surveys/using/managing-answers.md#storing-collected-answers)を参照してください。
 
-追加するフィールドの性質（ドロップダウンリスト、テキストフィールド、チェックボックスなど） 選択したストレージモードに適応します。 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
+追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます。「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 

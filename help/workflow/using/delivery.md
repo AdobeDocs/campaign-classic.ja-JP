@@ -6,20 +6,14 @@ feature: Workflows, Channels Activity
 hide: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 TQID: https://experienceleague.adobe.com/WKtg0nyzpu1XCBJzXnDEKXY8KgcLhsSrQVDvHJAiPKw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1045
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +166,7 @@ ht-degree: 96%
 * スキーマ
 * recCount
 
-この 3 つの値セットは、配信によって生成されたターゲットを識別します。 **[!UICONTROL tableName]**&#x200B;はターゲットの識別子を記憶するテーブルの名前で、**[!UICONTROL schema]**&#x200B;は母集団のスキーマ（通常はnms:recipient）で、**[!UICONTROL recCount]**&#x200B;はテーブル内の要素の数です。
+この 3 つの値セットは、配信によって生成されたターゲットを識別します。 **[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 補集合に関連付けられたトランジションは、同じパラメーターを持ちます。
 

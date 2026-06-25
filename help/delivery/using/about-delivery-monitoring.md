@@ -6,27 +6,15 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 TQID: https://experienceleague.adobe.com/IRAgAQvquHFcfGDRU9Sof8NpSn3khyRRPOdpIRKUOzg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 906
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +34,11 @@ ht-degree: 97%
 
 配信が送信されず、そのステータスが「**保留中**」のままになっている場合は、どのような状況が考えられるでしょうか。
 
-* 実行プロセスは、一部のリソースが利用可能になるのを待っています。MTAはまだ始まっていない可能性があります。
-mta@instance モジュールがMTA サーバーで起動されていることを確認し、必要に応じてMTA モジュールを起動します。[詳細情報](../../production/using/administration.md)。
+* 実行プロセスでは、一部のリソースの可用性を待機しています。MTA が開始されていない場合があります。
+MTA サーバー上で mta@instance モジュールが開始されていることを確認し、必要であれば MTA モジュールを開始します。[詳細情報](../../production/using/administration.md)
 
-* 配信は、送信インスタンスで設定されていないアフィニティを使用している可能性があります。
-ヒント：トラフィック管理（IP アフィニティ）の設定を確認します。 詳しくは、送信SMTP トラフィックの制御を参照してください。
+* 配信では、送信インスタンスで設定されていないアフィニティを使用している場合があります。
+ヒント：トラフィック管理（IP アフィニティ）の設定を確認します。 詳しくは、送信 SMTP トラフィックの制御を参照してください。
 
 >[!NOTE]
 >

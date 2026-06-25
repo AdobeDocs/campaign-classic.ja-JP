@@ -7,8 +7,8 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
-source-wordcount: '385'
+workflow-type: ht
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 100%
 
 
 
-認証が機能したら、[!DNL pipelined] でイベントを取得して処理できます。 Adobe Campaign で設定されたトリガーのみを処理し、他のトリガーは無視します。 トリガーは、事前に Analytics から生成され、パイプラインに追加されている必要があります。
-また、名前に関係なく、すべてのトリガーを取得するように、ワイルドカードを使用して設定することもできます。
+認証が機能すると、[!DNL pipelined] はイベントを取得して処理できます。Adobe Campaign で設定されているトリガーのみを処理し、それ以外のトリガーは無視します。トリガーは事前に Analytics から生成され、パイプラインにプッシュされている必要があります。
+また、このオプションでは、ワイルドカードを使用して、名前に関係なくすべてのトリガーを取得するように設定することもできます。
 
 トリガーの設定は、**[!UICONTROL 管理]**／**[!UICONTROL Platform]**／**[!UICONTROL オプション]**&#x200B;でおこないます。 オプション名は **[!UICONTROL NmsPipeline_Config]** です。 データタイプは JSON 形式の「長いテキスト」です。
 

@@ -8,26 +8,15 @@ role: User
 hide: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 TQID: https://experienceleague.adobe.com/OLbxTTT7EiAqXlQIwou9t-s62Z3TWibfiG7fPg-9KfE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1093
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +36,7 @@ ht-degree: 97%
 
 パーソナライゼーションフィールドに入る値のデータソースには次の 2 種類があり、どちらが使用されるかは選択した配信モードによります。
 
-* Adobe Campaign データベース： 多くの場合はこちらが該当します。例えば「受信者のパーソナライゼーションフィールド」は、 標準フィールド（通常、姓、名、住所、町、生年月日など）を含め、受信者テーブルで定義されているすべてのフィールドです。 ユーザー定義フィールドなどで使用できます。
+* Adobe Campaign データベース： 多くの場合はこちらが該当します。例えば「受信者のパーソナライゼーションフィールド」は、 受信者テーブルに定義されているすべてのフィールドです。標準フィールド（通常の場合、姓、名、住所、市区町村、生年月日など）やユーザー定義フィールドが含まれます。
 * 外部ファイル： 外部ファイルのデータを使用した配信の際に、入力データ用ファイルの列に定義されている全フィールドが該当します。
 
 >[!NOTE]
@@ -158,6 +147,6 @@ ht-degree: 97%
 
 パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

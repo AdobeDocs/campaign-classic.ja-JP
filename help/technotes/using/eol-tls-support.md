@@ -9,19 +9,14 @@ topic-tags: tracking-messages
 hide: true
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 TQID: https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 880
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +34,7 @@ ht-degree: 86%
 
 ## サービスを再開するためにできること
 
-最新のweb ブラウザーはTLS 1.2をサポートしています。 ブラウザーをアップグレードすると、これらのアプリやサービスにアクセスできるようになります。
+最新の web ブラウザーでは TLS 1.2 をサポートしています。 ブラウザーをアップグレードすると、これらのアプリやサービスにアクセスできるようになります。
 
 次の一般的なブラウザーのいずれかをダウンロードしてインストールします。
 
@@ -50,7 +45,7 @@ ht-degree: 86%
 
 別のブラウザーを使用している場合は、TLS 1.2 がサポートされていることを確認します。
 
-オペレーティングシステムとアプリケーションフレームワークもTLS 1.2をサポートしている必要があります。 ブラウザーをアップグレードしても問題が解決しない場合は、[Campaign Compatibility Matrix](../../rn/using/compatibility-matrix.md)に記載されているシステム要件をコンピューターが満たしていることを確認してください。
+お使いのオペレーティングシステムおよびアプリケーションフレームワークも TLS 1.2 をサポートしている必要があります。ブラウザーをアップグレードしても問題が解決しない場合は、お使いのコンピュータが [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているシステム要件を満たしていることを確認してください。
 
 ## よくある質問{#faq}
 
@@ -76,7 +71,7 @@ ht-degree: 86%
 
 * **TLS はハッカーに対して脆弱ですか？**
 
-  古い暗号化方式を使用したTLS 1.0に対する攻撃が文書化されており、古いバージョンはTLS 1.2よりも脆弱です。 詳しくは、「TLS/SSLに対する攻撃」を参照してください。
+  古い暗号化方式を使用した TLS 1.0 に対する攻撃が文書化されており、古いバージョンは TLS 1.2 よりも脆弱です。詳しくは、「TLS/SSL の既知の脆弱性」を参照してください。
 
 * **アドビが TLS 1.0 および 1.1 のサポートを無効にしているのはなぜですか？**
 
@@ -96,7 +91,7 @@ ht-degree: 86%
 
 * **TLS 1.2 に対応するように設定されていないブラウザーを使用すると、どのようなエラーメッセージが表示されますか？**
 
-  使用しているブラウザーによって異なります。 [Campaign互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)に記載されているすべてのブラウザーは、TLS 1.2を使用するように設定されています。 リストに表示されないブラウザーまたはバージョンを使用している場合は、ブラウザーを更新します。
+  使用しているブラウザーによって異なります。 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているすべてのブラウザーは、TLS 1.2 を使用するように設定されています。リストに記載されていないブラウザーまたはバージョンを使用している場合は、ブラウザーを更新します。
 
   アドビでは、SSL 通信レイヤーによって生成されるエラーメッセージを制御しません。 ブラウザーは、アドビのアプリやサービスに接続する前にこれらのメッセージを生成します。 Windows 7 上の Internet Explorer 11 で発生する可能性のあるエラーの例を以下に示します。
 

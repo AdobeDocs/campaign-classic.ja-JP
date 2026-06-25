@@ -8,17 +8,14 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 TQID: https://experienceleague.adobe.com/UYcZcSX8pLO0mCB8OW6WWx9qQ4vg13FAel6R7moeMA8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1030
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +62,13 @@ ht-degree: 96%
 
 ## パッケージ設定 {#packages-configuration}
 
-**インタラクション**&#x200B;に直接リンクされているスキーマ拡張機能（オファー、提案、受信者など） は実行インスタンスにデプロイする必要があります。
+**インタラクション**&#x200B;に直接リンクされているスキーマ拡張（オファー、提案、受信者など）は、実行インスタンスにデプロイする必要があります。
 
 インタラクションパッケージは、すべてのインスタンス（コントロールおよび実行）上にインストールする必要があります。 追加パッケージが 2 つ用意されています。1 つはコントロールインスタンスにインストールするパッケージで、もう 1 つは各実行インスタンスにインストールするパッケージです。
 
 >[!NOTE]
 >
->パッケージをインストールすると、提案IDなどの&#x200B;**nms:proposition** テーブルの&#x200B;**long**&#x200B;型フィールドが&#x200B;**int64**&#x200B;型フィールドになります。 このタイプのデータについて詳しくは、[この節](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)を参照してください。
+>パッケージをインストールする際、**nms:proposition** テーブルに含まれる **long** タイプのフィールド（提案 ID など）は、**int64** タイプのフィールドになります。このタイプのデータについて詳しくは、[この節](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)を参照してください。
 
 データ保持期間は、（デプロイウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定する必要があります。 実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 

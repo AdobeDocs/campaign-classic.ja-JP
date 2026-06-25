@@ -5,8 +5,8 @@ description: Message Center（実行）
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
-source-wordcount: '232'
+workflow-type: ht
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">イベントステータスを更新</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> イベントにステータスを割り当てます。 イベントのステータスには次のものがあります。<br /> 
+   <td>このワークフローで、イベントにステータスを割り当てます。イベントのステータスは、次のとおりです。<br /> 
     <ul> 
      <li> <p><strong>保留中</strong>：イベントはキューで待機中です。 イベントはまだメッセージテンプレートと関連付けられていません。</p> </li> 
      <li> <p><strong>配信保留</strong>：イベントはキューに入っており、メッセージテンプレートが関連付けられ、現在配信処理中です。</p> </li> 

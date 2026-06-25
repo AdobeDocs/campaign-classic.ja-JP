@@ -6,19 +6,14 @@ feature: Distributed Marketing
 hide: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 TQID: https://experienceleague.adobe.com/geEAQfCmSJvBXR-u74aiAd-Wb3XU-gj--3f-Sstn-90
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1700
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +111,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ### ドキュメント {#documents}
 
-ローカルエンティティのオペレーターがドキュメント（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）をリンクできるようにできます 注文を作成するときにローカルキャンペーンに移動します。 「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。 「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
+オーダーの作成時に、ローカルエンティティオペレーターに対して、ローカルキャンペーンへのドキュメントのリンク（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）を許可できます。「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。 「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

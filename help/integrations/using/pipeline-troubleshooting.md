@@ -8,24 +8,14 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 TQID: https://experienceleague.adobe.com/CRFuACW6lPivyn8-BuA2Phb1Mzqdqf-9D3pezBfjPCU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 703
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +32,8 @@ ht-degree: 97%
 
 **`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 
-**NmsPipeline_Config** オプションが設定されていません。これは実際にはJSON解析エラーです。
-オプション **NmsPipeline_Config**&#x200B;でJSON設定を設定します。このページの「ルーティングオプション」を参照してください。
+**NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
+JSON 設定を **NmsPipeline_Config** オプションで指定します。詳しくは、このページの「ルーティングオプション」を参照してください。
 
 **パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
@@ -51,7 +41,7 @@ ht-degree: 97%
 
 1. 組織 ID（ImsOrgId）が serverConf.xml で設定されていることを確認します。
 1. インスタンス設定ファイルの空の組織 ID がデフォルトの組織 ID を上書きできるかどうかを確認します。 該当する場合は、削除します。
-1. 組織 ID が正しいことを確認します。 組織IDを見つけるには、[このページ &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください
+1. 組織 ID が正しいことを確認します。 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください
 
 **パイプライン化されたプロセスが失敗し、「invalid key」（キーが無効です）と表示される**
 

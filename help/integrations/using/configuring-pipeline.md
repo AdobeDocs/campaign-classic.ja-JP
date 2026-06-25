@@ -9,24 +9,15 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -141,9 +132,9 @@ ht-degree: 96%
 | dumpStatePeriodSec | `var/INSTANCE/pipelined.json.` での内部ステートプロセスの 2 つのダンプ間の期間<br>内部ステートはオンデマンドで `http://INSTANCE:7781/pipelined/status` でもアクセスできます。 |
 | forcedPipelineEndpoint | PipelineServicesEndpoint の検出を無効にし、強制的におこないます。 |
 | monitorServerPort | パイプライン化されたプロセスは、このポートでリッスンして内部ステートプロセスを `http://INSTANCE:PORT/pipelined/status` で提供します。 <br>デフォルトは 7781 です。 |
-| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットはデータベースに保存されます。<br> デフォルトは1000です |
+| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットがデータベースに保存されます。<br>デフォルトは 1000 です |
 | pointerFlushPeriodSec | この期間を過ぎると、オフセットがデータベースに保存されます。 <br>デフォルトは 5（秒）です。 |
-| processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br> デフォルトは4です |
+| processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br>デフォルトは 4 です |
 | processingThreads | ビルトインコードを使用してメッセージを処理する専用スレッドの数。 <br>デフォルトは 4 です。 |
 | retryPeriodSec | 処理エラーの場合の再試行間の遅延。 <br>デフォルトは 30（秒）です。 |
 | retryValiditySec | この期間が経過してもメッセージが正常に処理されない場合（再試行回数が多すぎる場合）、メッセージを破棄します。 <br>デフォルトは 300（秒）です。 |

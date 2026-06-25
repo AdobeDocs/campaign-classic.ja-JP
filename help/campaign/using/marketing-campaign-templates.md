@@ -7,22 +7,15 @@ feature: Campaigns, Templates
 hide: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 TQID: https://experienceleague.adobe.com/mFkyDINneoodiL3Liiao0u3uZQsGaZCG1-BEu6Vqjos
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1187
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +73,7 @@ ht-degree: 92%
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-機能が選択されていない場合、プロセスに関連する要素（メニュー、アイコン、オプション、タブ、サブタブなど） は、テンプレートのインターフェイスや、このテンプレートに基づくキャンペーンには表示されません。 通常、キャンペーン詳細の左側のタブは、テンプレートで選択されているプロセスと一致します。 例えば、「**費用と目標**」が選択されていない場合、対応する「**[!UICONTROL 予算]**」タブは、このテンプレートをベースとするキャンペーンには表示されません。
+機能が選択されていない場合、プロセスに関連する要素（メニュー、アイコン、オプション、タブ、サブタブなど）は、テンプレートのインターフェイスや、このテンプレートをベースとするキャンペーンに表示されません。通常、キャンペーン詳細の左側のタブは、テンプレートで選択されているプロセスと一致します。 例えば、「**費用と目標**」が選択されていない場合、対応する「**[!UICONTROL 予算]**」タブは、このテンプレートをベースとするキャンペーンには表示されません。
 
 さらに、設定ウィンドウへのショートカットがキャンペーンダッシュボードに追加されます。 機能を有効にすると、キャンペーンダッシュボードから直接リンクでその機能にアクセスできます。
 
@@ -132,7 +125,7 @@ ht-degree: 92%
 
 * **ターゲティングとワークフロー**
 
-  **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。 ワークフローは、このテンプレートにもとづいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローの詳細については、[この節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。
+  **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。 ワークフローは、このテンプレートに基づいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローについて詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。
 
   ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -180,7 +173,7 @@ ht-degree: 92%
 
 ### テンプレート実行パラメーター {#template-execution-parameters}
 
-「**[!UICONTROL キャンペーンの詳細設定…]**」リンクを使用すると、配信ターゲット（コントロールグループ、シードアドレスなど）を処理するためのテンプレートの詳細オプションを設定できます キャンペーン測定とワークフロー実行の設定が必要です。
+**[!UICONTROL キャンペーンの詳細設定...]** リンクを使用すると、配信ターゲット（コントロール母集団、シードアドレスなど）を処理するテンプレートの詳細オプションと、キャンペーンの測定およびワークフローの実行を設定することができます。
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 

@@ -6,20 +6,14 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 TQID: https://experienceleague.adobe.com/xasYSu6WyHC0T6CpKn51bZ5K7WlspJAbB0R45AeXb8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 417
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +23,7 @@ ht-degree: 88%
 
 ## データベースの更新 {#updating-the-database}
 
-収集したすべてのデータは、データベースを更新するために、または配信内で使用できます。 例えば、メッセージコンテンツのパーソナライゼーションの可能性を強化できます（メッセージに契約数を含める、過去1年間の平均ショッピングカートを指定するなど）。 または、集団ターゲティングの詳細（契約共同所有者へのメッセージの送信、オンラインサービスの優良顧客1,000人のターゲティングなど）。 このデータは、リストにエクスポートまたはアーカイブできます。
+収集したすべてのデータは、データベースを更新するために、または配信内で使用できます。 例えば、メッセージのコンテンツのパーソナライゼーションを充実させること（メッセージ内に契約件数を含める、過去年間の買い物かごの平均購入額を指定するなど）や、母集団のターゲティングを詳細に行うこと（契約の共有者にメッセージを送る、オンラインサービスの高額契約者上位 1,000 人をターゲットに設定するなど）ができます。このデータは、リストにエクスポートまたはアーカイブできます。
 
 ### リスト更新とダイレクト更新 {#lists-and-direct-updates}
 

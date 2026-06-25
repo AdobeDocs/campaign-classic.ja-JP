@@ -6,23 +6,14 @@ feature: Workflows
 hide: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 TQID: https://experienceleague.adobe.com/XyvGCXDK-0pAX09kPyfGkZFTITlQRuMN0N-Yee-06EM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1733
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +65,7 @@ ht-degree: 98%
 | **マーケティングリソース通知**（assetMgt） | マーケティングリソース（MRM） | マーケティングリソースの承認とパブリッシュにリンクされた通知を管理します。 |
 | **Message Center>external_account_name>**（mcSynch_&lt;external_account_name>） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローの機能は次のとおりです。 <ul><li>操作によって処理されるイベントリストを復元します。</li><li>配信メッセージの選定を復元するために NmsBroadLogMsg テーブルと同期します。</li><li>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</li><li>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</li><li>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</li><li>配信の送信後 3 時間おきに、強制隔離されたすべてのメールアドレスを復元できます。</li></ul> |
 | **MessageCenter の完全な集計計算**（agg_messageCenter_full） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローは、Message Center キューブのための完全な集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。 この集計は、チャネル、日付、ステータス、イベントタイプの各ディメンションを取り込みます。 次に、Message Center キューブを使用して、イベントに基づいてレポートを生成します。 キューブについて詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください |
-| **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。 カウント情報には、配信数などの一般的な配信指標が含まれます。開封数などの追跡情報は含まれません。 デフォルトで、10 分おきにトリガーされます。 |
+| **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。 カウント情報には、送信された配信の数など、一般的な配信達成度が含まれています。開封数などのトラッキング情報は含まれていません。デフォルトで、10 分おきにトリガーされます。 |
 | **ミッドソーシング（配信ログ）**（defaultMidSourcingLog） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信ログを収集します。 デフォルトで、1 時間おきにトリガーされます。 |
 | **NMAC オプトアウト管理**（mobileAppOptOutMgt） | モバイルアプリチャネル | モバイルデバイスの通知の購読解除を更新します。 午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。 詳しくは、[この節](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines)を参照してください。 |
 | **オファー通知**（offerMgt） | 配信 | 承認されたオファーと、オファーカタログに含まれるすべてのカテゴリをオンライン環境にデプロイします。 |

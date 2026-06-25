@@ -8,15 +8,13 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 TQID: https://experienceleague.adobe.com/-f0NEfvLKh0PfgkB-c4SiPUyQrGuKx55yXOBfmYMmHs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 326
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +26,11 @@ ht-degree: 81%
 
 ## オファーの提案 {#offer-proposition}
 
-SOAPを使用したオファー提案の場合、**nms:proposition#Propose** コマンドの後に次のパラメーターを追加します。
+SOAP を使用したオファーの提案の場合、**nms:proposition#Propose** コマンドの後に次のパラメーターを追加します。
 
 * **targetId**：受信者のプライマリキー（複合キーも使用可能）。
 * **maxCount**：そのコンタクト先に対するオファーの提案の数を指定します。
-* **context**：スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが&#x200B;**nms:interaction**&#x200B;の場合、**`<empty>`**&#x200B;を追加する必要があります。
+* **context**：スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 * **categories**：オファーが属する必要があるカテゴリを指定します。
 * **themes**：オファーが属する必要があるテーマを指定します。
 * **uuid**：Adobe Campaign の永続 Cookie の値です（&quot;uuid230&quot;）。
@@ -50,11 +48,11 @@ SOAPを使用したオファー提案の場合、**nms:proposition#Propose** コ
 
 ## オファーの更新 {#offer-update}
 
-**nms:interaction#UpdateStatus** コマンドをURLに追加し、次のパラメーターを指定します。
+**nms:interaction#UpdateStatus** コマンドを URL に追加し、次のパラメーターを指定します。
 
 * **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。 [オファーの提案](#offer-proposition)を参照してください。
-* **status**：文字列。オファーの新しいステータスを指定します。 使用可能な値は、**nms:common** スキーマの&#x200B;**propositionStatus**&#x200B;列挙に一覧表示されます。 例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
-* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが&#x200B;**nms:interaction**&#x200B;の場合、**`<empty>`**&#x200B;を追加する必要があります。
+* **status**：文字列。オファーの新しいステータスを指定します。 使用可能な値は、**nms:common** スキーマの **propositionStatus** の列挙に一覧表示されます。例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
+* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 
 ## SOAP 呼び出しの使用例 {#example-using-a-soap-call}
 

@@ -6,28 +6,14 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 TQID: https://experienceleague.adobe.com/GP-1vCAYzcgjaOyUs-Zkx6rXOLSNbpF7962OEMsw5YM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a7760dfc-5c44-4d77-bb68-c50b1e265c93id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504ed
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 730
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +50,10 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * 回答に応じた調査フィールドの条件付き表示。 詳しくは、この[ページ](form-rendering.md#defining-fields-conditional-display)を参照してください。
 * 質問のランダム表示。 詳しくは、この[ページ](../../surveys/using/building-a-survey.md#adding-questions)を参照してください。
 * 条件付きページ表示。 詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
-* 想定されるデータタイプ（番号、メールアドレス、日付など）に応じて、検証前の情報チェックを行います。 すべて含まれています。 詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
+* 期待されるデータタイプ（数値、メールアドレス、日付など）および必須フィールドに応じた、検証前の情報確認。詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
 * 電子メールの招待状または通知。 詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。 詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
-* 画像、動画、ハイパーテキストリンク、キャプチャなどの使用。詳しくは、この[&#x200B; ページ &#x200B;](editing-content.md)を参照してください。
+* 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用について詳しくは、この[ページ](editing-content.md)を参照してください。
 * リアルタイムの応答の監視。 詳しくは、この[ページ](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。

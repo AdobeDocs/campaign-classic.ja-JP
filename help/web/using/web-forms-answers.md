@@ -6,18 +6,13 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 TQID: https://experienceleague.adobe.com/WPVKOgF2ilspLhbrTd-s6x8MEX254boeoSzJsgZVaTE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 907
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +43,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->デフォルトの参照ドキュメントは&#x200B;**nms:recipient** スキーマです。 それを表示するか新しく選択するには、リストからフォームを選択して、**[!UICONTROL プロパティ]**&#x200B;ボタンをクリックします。
+>デフォルトの参照ドキュメントは、**nms:recipient** スキーマです。それを表示するか新しく選択するには、リストからフォームを選択して、**[!UICONTROL プロパティ]**&#x200B;ボタンをクリックします。
 
 ### ローカル変数へのデータの格納 {#storing-data-in-a-local-variable}
 

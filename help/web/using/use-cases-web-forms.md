@@ -6,19 +6,13 @@ badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign 
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 TQID: https://experienceleague.adobe.com/Zw-cfoQrq1PAe-swZ7gvMNyTb4ciCMF2kdT7fN2zLsg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504edid: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1013
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +22,7 @@ ht-degree: 95%
 
 ## 二重のオプトインを備えた購読フォームの作成 {#create-a-subscription--form-with-double-opt-in}
 
-情報サービスを提供する場合、受信者は、リンクされたすべての通信を受信するために購読する必要があります。 不適切なコミュニケーションを避け、受信者が意図的に購読していることを確認するために、ダブルオプトインを作成するための購読確認リクエストを送信することをお勧めします。 サブスクリプションは、ユーザーが確認メッセージに含まれるリンクをクリックした場合にのみ有効になります。
+情報サービスを提供する場合、受信者は、リンクされたすべての通信を受信するために購読する必要があります。 不適切な通信を避け、受信者が意図的に購読したことを確認するために、購読の確認リクエストを送信して、二重のオプトインを作成することをお勧めします。確認メッセージに含まれるリンクをユーザーがクリックした場合にのみ、購読が有効になります。
 
 この例は、次のシナリオに基づいています。
 

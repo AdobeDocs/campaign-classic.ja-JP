@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
 workflow-type: tm+mt
-source-wordcount: 417
-ht-degree: 93%
+source-wordcount: 500
+ht-degree: 81%
 
 ---
 
@@ -34,13 +34,37 @@ ht-degree: 93%
 
 ## リリース 7.4.3 {#release-7-4-3}
 
-### ビルド 9396 {#build-9396}
+### ビルド 9397 {#build-9397}
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年6月9日_
+_2026年6月30日_
+
+#### セキュリティの強化 {#security-7-4-3-9397}
 
 このビルドにはセキュリティ修正が含まれています。 これは、推奨される一般提供ビルドであり、以前のCampaign Classic v7 ビルドに優先します。
+
+#### その他の変更 {#changes-7-4-3-9397}
+
+デフォルトでは、webForm.jspはクライアントから提供された`ctx` パラメーターを無視するようになりました。 これは、デフォルトで「true」に設定されている`disableCtxInWebForm` パラメーターによって制御されます。
+
+WebForm リクエストで現在`ctx` パラメーターを渡している場合は、次の属性を &lt;web> 設定の要素 – &lt;instance>.xml ファイルを開きます。 この使用を段階的に廃止する計画を立てています。
+
+```
+<web>
+  ...
+  <jsp disableCtxInWebForm="false" />
+  ...
+</web>
+```
+
+### ビルド 9396 {#build-9396}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
+
+_2026年6月9日_
+
+このビルドにはセキュリティ修正が含まれています。
 
 ### ビルド 9394 {#build-9394}
 

@@ -13,9 +13,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1150
+source-wordcount: 1157
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaignには、特定のバージョンのバイナリと設定ファイ
 
 >[!AVAILABILITY]
 >
->v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 これらのライブラリをインストールしてください。
+>v7.4.1 以降、RPM Linux パッケージ用の XML ライブラリは Campaign に含まれなくなりました。 **xalan-c** （`epel-release`から利用可能）をインストールする必要があります。これは必須です。 [詳細情報](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)
 > 
 
 Adobe CampaignをRPM （RHEL、CentOS）オペレーティングシステムにインストールするには、次の手順に従います。

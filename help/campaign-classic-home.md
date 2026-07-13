@@ -4,24 +4,14 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 TQID: https://experienceleague.adobe.com/Q6Oc24mo-1qDAxCWu2lGT4UvRLXB78Tr5X4sb2kHFw8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 50418c4e818f04008a5d47a982fa5bb0185bd597
-workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: 663
+ht-degree: 100%
 
 ---
 
@@ -36,9 +26,9 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 2026年6月リリースが公開されています！]
+>[!TAB 2026年6月リリースが公開されました。]
 
-Campaign Classic v7.4.3 - 26年6月ビルドには、以前のリリースに加えてセキュリティアップデートが付属しています。
+Campaign Classic v7.4.3 - 2026年6月ビルドには、前回のリリースに加え、セキュリティアップデートが含まれています。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -92,40 +82,40 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+      
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="platform/using/adobe-campaign-workspace.md">ユーザーインターフェイス</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="platform/using/get-started-data-import-export.md">データのインポートとエクスポート</a> - <a href="platform/using/access-management.md">権限</a>
+      <strong>基本を学ぶ</strong><br/><a href="platform/using/adobe-campaign-workspace.md">ユーザーインターフェイス</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="platform/using/get-started-data-import-export.md">データのインポートとエクスポート</a> - <a href="platform/using/access-management.md">権限</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+      
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-send.svg" width="35px">
+      
     <br/>
-      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">配達確認の送信</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
+      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">配達確認の送信</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
+      
       <br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="platform/using/creating-and-managing-lists.md">リストの作成</a> - <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
+      <strong>プロファイルとオーディエンス</strong><br/> <a href="platform/using/creating-and-managing-lists.md">リストの作成</a> - <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+      
       <br/>
-      <strong>アーキテクチャと設定</strong><br/><a href="production/using/general-architecture.md">アーキテクチャの原則</a> - <a href="production/using/build-upgrade.md">ビルドアップグレードの実行</a> - <a href="production/using/configuration.md">キャンペーンの設定</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a>
+      <strong>アーキテクチャと設定</strong><br/><a href="production/using/general-architecture.md">アーキテクチャの原則</a> - <a href="production/using/build-upgrade.md">ビルドアップグレードの実行</a> - <a href="production/using/configuration.md">キャンペーンの設定</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-dev.svg" width="35px">
+      
       <br/>
-      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
+      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
     </td>
   </tr>
 </table>
 
 ## その他のリソース
 
-[&#x200B; エラーメッセージのリスト &#x200B;](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) - [Adobe Campaign製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [互換性マトリックス &#x200B;](rn/using/compatibility-matrix.md) - [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [CampaignのCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"} - [電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+[エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) - [Adobe Campaign 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [互換性マトリックス](rn/using/compatibility-matrix.md) - [チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"} - [メールトラッキングピクセルと CNIL ガイダンス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

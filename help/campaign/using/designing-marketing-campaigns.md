@@ -80,7 +80,7 @@ ht-degree: 100%
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326573?captions=jpn&quality=12)
 
 [!DNL Campaign Classic] に関するその他のチュートリアルビデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

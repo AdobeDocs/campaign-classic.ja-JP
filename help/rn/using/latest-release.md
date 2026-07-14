@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 500
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -38,17 +38,17 @@ ht-degree: 81%
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年6月30日_
+_2026年6月30日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9397}
 
-このビルドにはセキュリティ修正が含まれています。 これは、推奨される一般提供ビルドであり、以前のCampaign Classic v7 ビルドに優先します。
+このビルドにはセキュリティ修正が含まれています。 これは、推奨される一般公開ビルドで、以前の Campaign Classic v7 ビルドに取って代わるものです。
 
 #### その他の変更 {#changes-7-4-3-9397}
 
-デフォルトでは、webForm.jspはクライアントから提供された`ctx` パラメーターを無視するようになりました。 これは、デフォルトで「true」に設定されている`disableCtxInWebForm` パラメーターによって制御されます。
+デフォルトでは、webForm.jsp はクライアントから提供された `ctx` パラメーターを無視するようになりました。 これは、デフォルトでは「true」に設定されている `disableCtxInWebForm` パラメーターによって制御されます。
 
-WebForm リクエストで現在`ctx` パラメーターを渡している場合は、次の属性を &lt;web> 設定の要素 – &lt;instance>.xml ファイルを開きます。 この使用を段階的に廃止する計画を立てています。
+現在、webForm リクエストで `ctx` パラメーターを渡している場合、この動作を一時的に再度有効にするには、以下を<web>config-<instance>.xml ファイルの要素に追加します。この使用を段階的に廃止する計画を立てます。
 
 ```
 <web>
@@ -62,9 +62,9 @@ WebForm リクエストで現在`ctx` パラメーターを渡している場合
 
 [!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
-_2026年6月9日_
+_2026年6月9日（PT）_
 
-このビルドにはセキュリティ修正が含まれています。
+このビルドにはセキュリティ修正が含まれています。 
 
 ### ビルド 9394 {#build-9394}
 

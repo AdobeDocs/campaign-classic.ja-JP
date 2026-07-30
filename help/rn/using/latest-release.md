@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: ht
-source-wordcount: 500
-ht-degree: 100%
+source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+workflow-type: tm+mt
+source-wordcount: 633
+ht-degree: 78%
 
 ---
 
@@ -34,21 +34,33 @@ ht-degree: 100%
 
 ## リリース 7.4.3 {#release-7-4-3}
 
+### ビルド 9398 {#build-9398}
+
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+
+_2026年7月29日_
+
+#### セキュリティの強化 {#security-7-4-3-9398}
+
+Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+
 ### ビルド 9397 {#build-9397}
 
-[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 _2026年6月30日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9397}
 
-このビルドにはセキュリティ修正が含まれています。 これは、推奨される一般公開ビルドで、以前の Campaign Classic v7 ビルドに取って代わるものです。
+このビルドにはセキュリティの修正が含まれており、以前のCampaign Classic v7 ビルドよりも優先されます。 このビルドは、オンプレミスおよびハイブリッドのデプロイメントでは非推奨（廃止予定）になりました。これらのデプロイメントモードをご利用のお客様は、[&#x200B; ビルド 9398](#build-9398)以降にアップグレードして、できるだけ早くアップデートをインストールすることをお勧めします。
 
 #### その他の変更 {#changes-7-4-3-9397}
 
 デフォルトでは、webForm.jsp はクライアントから提供された `ctx` パラメーターを無視するようになりました。 これは、デフォルトでは「true」に設定されている `disableCtxInWebForm` パラメーターによって制御されます。
 
-現在、webForm リクエストで `ctx` パラメーターを渡している場合、この動作を一時的に再度有効にするには、以下を<web>config-<instance>.xml ファイルの要素に追加します。この使用を段階的に廃止する計画を立てます。
+現在、webForm リクエストで `ctx` パラメーターを渡している場合、この動作を一時的に再度有効にするには、以下を <web> config-<instance>.xml ファイルの要素に追加します。 この使用を段階的に廃止する計画を立てます。
 
 ```
 <web>
@@ -64,7 +76,7 @@ _2026年6月30日（PT）_
 
 _2026年6月9日（PT）_
 
-このビルドにはセキュリティ修正が含まれています。 
+このビルドにはセキュリティ修正が含まれています。
 
 ### ビルド 9394 {#build-9394}
 

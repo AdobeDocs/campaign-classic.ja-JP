@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 78%
+source-wordcount: 736
+ht-degree: 69%
 
 ---
 
@@ -34,27 +26,39 @@ ht-degree: 78%
 
 ## リリース 7.4.3 {#release-7-4-3}
 
+### ビルド 9399 {#build-9399}
+
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年8月3日_
+
+#### セキュリティの強化 {#security-7-4-3-9399}
+
+Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[ セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） ](../../production/using/usual-commands.md#restart-services)の[再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+
 ### ビルド 9398 {#build-9398}
 
-[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年7月29日_
 
 #### セキュリティの強化 {#security-7-4-3-9398}
 
-Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
+Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[ セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
 
-ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） ](../../production/using/usual-commands.md#restart-services)の[再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
 
 ### ビルド 9397 {#build-9397}
 
-[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年6月30日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9397}
 
-このビルドにはセキュリティの修正が含まれており、以前のCampaign Classic v7 ビルドよりも優先されます。 このビルドは、オンプレミスおよびハイブリッドのデプロイメントでは非推奨（廃止予定）になりました。これらのデプロイメントモードをご利用のお客様は、[&#x200B; ビルド 9398](#build-9398)以降にアップグレードして、できるだけ早くアップデートをインストールすることをお勧めします。
+このビルドにはセキュリティの修正が含まれており、以前のCampaign Classic v7 ビルドよりも優先されます。 このビルドは、オンプレミスおよびハイブリッドのデプロイメントでは非推奨（廃止予定）になりました。これらのデプロイメントモードをご利用のお客様は、[ ビルド 9398](#build-9398)以降にアップグレードして、できるだけ早くアップデートをインストールすることをお勧めします。
 
 #### その他の変更 {#changes-7-4-3-9397}
 

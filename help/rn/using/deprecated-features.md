@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
+workflow-type: tm+mt
+source-wordcount: 1792
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,14 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>詳細</strong></td>
   </tr>
   <tr>
+ <td>Netsize SMPP コネクタ</td>
+ <td><p>Netsize SMPP コネクタは非推奨（廃止予定）になりました。 <strong>拡張汎用SMPP</strong> コネクタへの移行をお勧めします。 詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
+<p>目標削除日：2027年1月</p>
+</td>
+</tr>
+<tr>
  <td>Campaign（Neolane）レガシー SDK</td>
  <td><p>モバイルアプリケーション用 Campaign（Neolane）SDK は非推奨（廃止予定）になりました。 代わりに、データ収集 UI で Adobe Campaign 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。 SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。 モバイルアプリチャネルを設定する方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 ドキュメント</a>を参照してください。</p>
-<p>削除予定日：2025年7月31日（PT） </p>
 </td>
 </tr>
 <tr>
@@ -206,11 +211,11 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 * 19.1 リリース以降、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
-   * CentOS 6。 [詳細情報](https://wiki.centos.org/Download)
-   * Debian 7。 [詳細情報](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
-   * Windows Server 2008。 [詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
-   * SLES 11。 [詳細情報](https://www.suse.com/lifecycle)
+  * CentOS 6。 [詳細情報](https://wiki.centos.org/Download)
+  * Debian 7。 [詳細情報](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
+  * Windows Server 2008。 [詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
+  * SLES 11。 [詳細情報](https://www.suse.com/lifecycle)
 
 ### Web サーバー {#web-server-eol}
 

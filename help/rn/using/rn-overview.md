@@ -7,23 +7,16 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 TQID: https://experienceleague.adobe.com/xs5sqsIqs9u-a9TrKo5EgFIpNTtxhy8y0-YIlDyUxp0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 922
-ht-degree: 100%
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
+workflow-type: tm+mt
+source-wordcount: 1045
+ht-degree: 88%
 
 ---
 
@@ -64,7 +57,15 @@ Adobe Campaign は定期的にアップデートされています。 この定�
 
 Adobe Campaign の&#x200B;**最新の安定したビルドを実行**&#x200B;することが重要なのはこのためです。 また、最近のビルドでは通常、問題の特定、再現、修正が迅速に行われるため、より優れたサポート体験を得ることができます。 また、発生する可能性のある多くの問題は、最新のビルドでは修正済みとなっています。
 
+>[!NOTE]
+>
+> 各ビルドは累積的です。これには、同じリリースの以前のビルドで提供されたすべての機能、改善、および修正が含まれ、独自の変更も含まれます。 以前の修正のメリットを得るために、すべての中間ビルドをインストールする必要はありません。最新のビルドをインストールすると、以前のビルドに含まれるすべてのものを最新の状態に保つことができます。
+
 ホステッド環境のお客様はアクションを起こすことなく、最新の安定したビルドのアップグレードのメリットが自動的に得られます。 詳しくは、[年次アップグレードの節](#yearly-upgrade)を参照してください。 古いビルドから移行する場合は、まずこのビルドにアップグレードすることをお勧めします。
+
+### ホスト環境のセキュリティパッチ {#security-patching}
+
+ホスト環境の整合性を保護するために、Adobeは、脆弱性をできるだけ迅速に修正するために、事前の通知なしに、いつでも重要なセキュリティパッチを適用する権利を留保します。 これらのパッチは、サービスを中断することなくデプロイされます。 この方法は、Adobeのセキュリティガバナンス基準と一致しています。この基準では、重大な脆弱性の修正の緊急性が事前通知よりも優先されます。
 
 ## レコメンデーション {#rn-recommendations}
 

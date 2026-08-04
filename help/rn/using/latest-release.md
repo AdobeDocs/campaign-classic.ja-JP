@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 78%
+source-wordcount: 736
+ht-degree: 69%
 
 ---
 
@@ -34,9 +34,21 @@ ht-degree: 78%
 
 ## リリース 7.4.3 {#release-7-4-3}
 
+### ビルド 9399 {#build-9399}
+
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年8月3日_
+
+#### セキュリティの強化 {#security-7-4-3-9399}
+
+Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+
 ### ビルド 9398 {#build-9398}
 
-[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年7月29日_
 
@@ -48,7 +60,7 @@ Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュ�
 
 ### ビルド 9397 {#build-9397}
 
-[!BADGE 限定提供（LA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年6月30日（PT）_
 

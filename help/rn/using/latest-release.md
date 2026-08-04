@@ -42,7 +42,7 @@ _2026年8月3日_
 
 #### セキュリティの強化 {#security-7-4-3-9399}
 
-Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
+Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
 
 ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
 

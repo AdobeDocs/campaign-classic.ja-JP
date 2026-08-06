@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1792
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,8 +65,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>
  <td>Netsize SMPP コネクタ</td>
- <td><p>Netsize SMPP コネクタは非推奨（廃止予定）になりました。 <strong>拡張汎用SMPP</strong> コネクタへの移行をお勧めします。 詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
-<p>目標削除日：2027年1月</p>
+ <td><p>Netsize SMPP コネクタは、非推奨（廃止予定）になりました。<strong>拡張された汎用 SMPP</strong> コネクタに移行することをお勧めします。詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
+<p>削除予定日：2027年1月</p>
 </td>
 </tr>
 <tr>

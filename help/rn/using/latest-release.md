@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 736
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -38,25 +38,25 @@ ht-degree: 69%
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年8月3日_
+_2026年8月3日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9399}
 
-Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
 
-ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。再起動後、修正はデフォルトでアクティブになります。
 
 ### ビルド 9398 {#build-9398}
 
 [!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
-_2026年7月29日_
+_2026年7月29日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9398}
 
-Adobeは、重大な脆弱性に対処するAdobe Campaign Classicのセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッド環境のお客様には、できるだけ早くアップデートをインストールすることをお勧めします。 Adobeでホストされているインスタンスは既に修正されており、お客様の操作は必要ありません。 詳細については、[&#x200B; セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
 
-ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver） [&#128279;](../../production/using/usual-commands.md#restart-services)の再起動が必要です。 修正プログラムは、再起動するとデフォルトでアクティブになります。
+ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。再起動後、修正はデフォルトでアクティブになります。
 
 ### ビルド 9397 {#build-9397}
 
@@ -66,7 +66,7 @@ _2026年6月30日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9397}
 
-このビルドにはセキュリティの修正が含まれており、以前のCampaign Classic v7 ビルドよりも優先されます。 このビルドは、オンプレミスおよびハイブリッドのデプロイメントでは非推奨（廃止予定）になりました。これらのデプロイメントモードをご利用のお客様は、[&#x200B; ビルド 9398](#build-9398)以降にアップグレードして、できるだけ早くアップデートをインストールすることをお勧めします。
+このビルドにはセキュリティ修正が含まれており、以前の Campaign Classic v7 ビルドに取って代わるものです。 このビルドは、オンプレミスおよびハイブリッドのデプロイメントでは非推奨（廃止予定）になりました。これらのデプロイメントモードのお客様には、[ビルド 9398](#build-9398) 以降にアップグレードして、可能な限りすぐにアップデートをインストールすることをお勧めします。
 
 #### その他の変更 {#changes-7-4-3-9397}
 

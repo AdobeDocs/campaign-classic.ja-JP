@@ -8,10 +8,10 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: cc6c1969f230f3aac405b9169505a8bb39d41dfd
-workflow-type: ht
-source-wordcount: '2710'
-ht-degree: 100%
+source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+workflow-type: tm+mt
+source-wordcount: '2717'
+ht-degree: 99%
 
 ---
 
@@ -813,6 +813,7 @@ ht-degree: 100%
     + {hide-from-toc}[2023 年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
     + {hide-from-toc}[IMS の更新](technotes/using/ims-updates.md)
     + {hide-from-toc}[TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
+    + {hide-from-toc}[Adobe Analytics 2.0 APIへの移行](technotes/using/analytics-2-migration.md)
   + メールとプッシュ通知{#technotes-email}
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
     + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)

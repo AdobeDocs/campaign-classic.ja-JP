@@ -53,8 +53,8 @@ Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.
       ```
 
    1. リマーケティングの書き出しは、固定セットのAdobe Analytics IP範囲からのみ開始されるため、SFTP サーバーでAdobeを許可リストに登録します。
-      * [現在のAdobe Analytics Data Collection IP アドレス &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"}を検索し、SFTP サーバーの許可リストに追加します。 FTP ベースのAnalyticsの書き出し（データフィードを含む）は、ロンドン、オレゴン、シンガポールの各地域のIPv4 アドレスからのみ送信されます。
-      * [Adobe Analyticsの公開鍵](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"}を取得し、SFTP サーバー上の`authorized_keys` ファイルに追加して、Analyticsが認証できるようにします。
+      * [現在のAdobe Analytics Data Collection IP アドレス &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/ip-addresses){target="_blank"}を検索し、SFTP サーバーの許可リストに追加します。 FTP ベースのAnalyticsの書き出し（データフィードを含む）は、ロンドン、オレゴン、シンガポールの各地域のIPv4 アドレスからのみ送信されます。
+      * [Adobe Analyticsの公開鍵](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"}を取得し、SFTP サーバー上の`authorized_keys` ファイルに追加して、Analyticsが認証できるようにします。
 1. Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL 管理] > [!UICONTROL &#x200B; プラットフォーム &#x200B;] > [!UICONTROL &#x200B; オプション]**&#x200B;の下の[!UICONTROL xtkOption]でオプションの`longvalue`を`1`に作成または設定して、インスタンスで`FEATUREFLAG_USE_ANALYTICS_20_API`機能フラグを有効にします。 この手順は、上記のどのユースケースが該当するかに関係なく必要です。
 1. 古い接続を廃止する前に、インスタンスに適用される各ユースケースを実行して移行を検証します（テストキャンペーンを送信し、指標がAnalyticsに表示されることを確認し、必要に応じてリマーケティングデータを確認します）。
 
@@ -83,7 +83,7 @@ Analytics 2.0では新しい分類処理が導入されるので、外部アカ�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-この分類セットは、次の手順で外部アカウントを設定すると、Campaignによって自動的に検出されます。 分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
+この分類セットは、次の手順で外部アカウントを設定すると、Campaignによって自動的に検出されます。 分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
 
 ## お困りですか？ {#need-help}
 

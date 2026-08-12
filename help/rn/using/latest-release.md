@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
-workflow-type: ht
-source-wordcount: 736
-ht-degree: 100%
+source-git-commit: 6d58d7b0af036eeae1297ef3162c8740be064402
+workflow-type: tm+mt
+source-wordcount: 914
+ht-degree: 88%
 
 ---
 
@@ -32,19 +32,39 @@ ht-degree: 100%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。 新しいビルドごとに、色分けされたステータスが表示されます。 Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
+## リリース 7.4.4 {#release-7-4-4}
+
+### ビルド 9400 {#build-9400}
+
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年8月11日_
+
+このビルドには、いくつかの機能強化、セキュリティ修正、Adobe Analytics コネクタ用のAdobe Analytics 2.0 APIへのアップグレードが含まれています。
+
+#### セキュリティの強化 {#security-7-4-4-9400}
+
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/security/products/campaign/apsb26-123.html){target="_blank"}を参照してください。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
+
+#### Adobe Analytics 2.0のアップグレード {#analytics-2-0-7-4-4}
+
+Adobe Analytics 1.4 APIが提供終了に近づいている。 Adobe Analytics コネクタを使用する場合は、このビルドにアップグレードし、デプロイメントとユースケースに応じて、いくつかの移行手順を完了する必要があります。 [Adobe Analytics 2.0 APIへの移行方法について説明します](../../technotes/using/analytics-2-migration.md)。
+
 ## リリース 7.4.3 {#release-7-4-3}
 
 ### ビルド 9399 {#build-9399}
 
-[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年8月3日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9399}
 
-アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-120.html){target="_blank"}を参照してください。
 
-ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。再起動後、修正はデフォルトでアクティブになります。
+ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。 再起動後、修正はデフォルトでアクティブになります。
 
 ### ビルド 9398 {#build-9398}
 
@@ -54,9 +74,9 @@ _2026年7月29日（PT）_
 
 #### セキュリティの強化 {#security-7-4-3-9398}
 
-アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-114.html){target="_blank"}を参照してください。
 
-ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。再起動後、修正はデフォルトでアクティブになります。
+ビルドを読み込み、デプロイメントを完了するには、[Adobe Campaign サーバー（nlserver）の再起動](../../production/using/usual-commands.md#restart-services)が必要です。 再起動後、修正はデフォルトでアクティブになります。
 
 ### ビルド 9397 {#build-9397}
 

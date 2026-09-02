@@ -41,7 +41,7 @@ ht-degree: 99%
 
   >[!NOTE]
   >
-  >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api)で定義された関数を使用できます。
+  >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api)で定義された関数を使用できます。
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 

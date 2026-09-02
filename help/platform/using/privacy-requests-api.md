@@ -68,7 +68,7 @@ API を使用してプライバシーリクエストを送信する場合、最�
 
 ## 外部からの API の呼び出し {#invoking-api-externally}
 
-外部から API を呼び出す方法の例（具体的には API を使用した認証と、プライバシー API の詳細）を以下に示します。 プライバシー API について詳しくは、[API のドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。 また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
+外部から API を呼び出す方法の例（具体的には API を使用した認証と、プライバシー API の詳細）を以下に示します。 プライバシー API について詳しくは、[API のドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。 また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
 
 最初に、API を通じて認証を実行する必要があります。
 

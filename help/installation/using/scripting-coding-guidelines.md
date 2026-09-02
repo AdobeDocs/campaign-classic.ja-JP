@@ -29,7 +29,7 @@ ht-degree: 36%
 
 ## スクリプト作成
 
-詳しくは、[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
+詳しくは、[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。
 
 ワークフロー、Web アプリケーション、JSSP を使用してスクリプトを作成する場合、次のベストプラクティスに従ってください。
 
@@ -66,7 +66,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 >
 >8140より古いビルドを使用している場合、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが「1」に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリまたはSQL ステートメントでフィルターを作成する場合は、常にそれらをエスケープする必要があります（[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
+ユーザー入力を使用してクエリまたはSQL ステートメントでフィルターを作成する場合は、常にそれらをエスケープする必要があります（[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

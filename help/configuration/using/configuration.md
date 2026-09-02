@@ -104,7 +104,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグから更新できます。 このタグについて詳しくは、入力フォームに関するドキュメントを参照してください。
 
@@ -277,7 +277,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグを使用して更新できます。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 

@@ -31,7 +31,7 @@ Adobe Campaign APIは、アプリケーション内のJavaScriptおよびアプ�
 >[!IMPORTANT]
 >
 >1日あたりの許可されたエンジンコール数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
->完全な説明を含むすべてのAPIのリストは、[この専用ドキュメント ] （https://experienceleague.adobe.com/en/tools/campaign-api）で入手できます
+>完全な説明を含むすべてのAPIのリストは、[この専用ドキュメント ] （https://experienceleague.adobe.com/ja/tools/campaign-api）で入手できます
 
 ## 前提条件 {#prerequisites}
 

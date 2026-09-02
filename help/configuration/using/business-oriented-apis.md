@@ -45,7 +45,7 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
 ## 購入（nms:subscription） {#subscribe--nms-subscription-}
 

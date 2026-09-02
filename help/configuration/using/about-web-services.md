@@ -6,16 +6,13 @@ feature: API
 role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 TQID: https://experienceleague.adobe.com/fZRtM-J9LP9AqvrRMeyzErpCXsfBbC1UIUpskV4PEqU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 665
+source-wordcount: 664
 ht-degree: 7%
 
 ---
@@ -31,7 +28,7 @@ Adobe Campaign APIは、アプリケーション内のJavaScriptおよびアプ�
 >[!IMPORTANT]
 >
 >1日あたりの許可されたエンジンコール数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
->完全な説明を含むすべてのAPIのリストは、[この専用ドキュメント ] （https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja）で入手できます。
+>完全な説明を含むすべてのAPIのリストは、[この専用ドキュメント ] （https://experienceleague.adobe.com/en/tools/campaign-api）で入手できます
 
 ## 前提条件 {#prerequisites}
 
@@ -46,7 +43,7 @@ Adobe Campaign APIを使用する前に、次のトピックに精通してい�
 Adobe Campaignでは、次の2種類のAPIを使用します。
 
 * データモデルデータをクエリするための汎用データアクセス API。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
-* 配信、ワークフロー、サブスクリプションなど、各オブジェクトに対してアクションを実行できるビジネス固有のAPI。[&#x200B; ビジネス向けAPI](../../configuration/using/business-oriented-apis.md)を参照してください。
+* 配信、ワークフロー、サブスクリプションなど、各オブジェクトに対してアクションを実行できるビジネス固有のAPI。[ ビジネス向けAPI](../../configuration/using/business-oriented-apis.md)を参照してください。
 
 APIを開発し、Adobe Campaignとやり取りするには、データモデルに精通している必要があります。 Adobe Campaignでは、ベースの詳細な説明を生成できます。 モデルの[説明](../../configuration/using/data-oriented-apis.md#description-of-the-model)を参照してください。
 
@@ -73,7 +70,7 @@ SOAP メッセージの構造は次のとおりです。
 
 この例では、SOAP クエリが「ExecuteQuery」メソッドを呼び出します。このメソッドは、文字列を認証のパラメーター（セッショントークン）として取り出し、実行するクエリの説明のXML コンテンツを取り出します。
 
-詳しくは、[ExecuteQuery （xtk:queryDef） &#x200B;](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)を参照してください。
+詳しくは、[ExecuteQuery （xtk:queryDef） ](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)を参照してください。
 
 >[!NOTE]
 >
@@ -144,10 +141,10 @@ SOAP メッセージの本文の`<soap-env:fault>`要素は、Web サービス�
 
 * `<faultcode>`：エラーのタイプを示します。 エラータイプは次のとおりです。
 
-   * 使用しているSOAPのバージョンと互換性がない場合は、「VersionMismatch」を選択します。
-   * メッセージヘッダーで問題が発生した場合は、「MustUnderstand」を選択します。
-   * &quot;Client&quot; クライアントに情報が欠落している場合は、
-   * サーバーが処理の実行に問題がある場合、「サーバー」。
+  * 使用しているSOAPのバージョンと互換性がない場合は、「VersionMismatch」を選択します。
+  * メッセージヘッダーで問題が発生した場合は、「MustUnderstand」を選択します。
+  * &quot;Client&quot; クライアントに情報が欠落している場合は、
+  * サーバーが処理の実行に問題がある場合、「サーバー」。
 
 * `<faultstring>`：エラーを説明するメッセージ
 * `<detail>`：長いエラーメッセージ

@@ -8,8 +8,12 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 TQID: https://experienceleague.adobe.com/daz7TEa76-e6V3DbFHIzggxj07CKsh1pS-ShT6d-Tfo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
@@ -62,7 +66,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 >
 >8140より古いビルドを使用している場合、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが「1」に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリまたはSQL ステートメントでフィルターを作成する場合は、常にそれらをエスケープする必要があります（[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/en/tools/campaign-api) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
+ユーザー入力を使用してクエリまたはSQL ステートメントでフィルターを作成する場合は、常にそれらをエスケープする必要があります（[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api) - データ保護：関数のエスケープを参照）。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -82,7 +86,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ ](../../configuration/using/filtering-schemas.md)を参照）。
+* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ &#x200B;](../../configuration/using/filtering-schemas.md)を参照）。
 
   ```
   <sysFilter name="writeAccess">    
@@ -110,7 +114,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-完全なエンティティは画面によって読み込まれます。列の定義で表示することもできます。 そのためには、オーバーフローテーブルを作成する必要があります。 [このページ ](../../configuration/using/examples-of-schemas-edition.md#overflow-table)を参照してください。
+完全なエンティティは画面によって読み込まれます。列の定義で表示することもできます。 そのためには、オーバーフローテーブルを作成する必要があります。 [このページ &#x200B;](../../configuration/using/examples-of-schemas-edition.md#overflow-table)を参照してください。
 
 ## Web アプリケーションへの Captcha の追加
 
@@ -122,7 +126,7 @@ DCEでキャプチャを追加する一般的な方法は、パーソナライ�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. **[!UICONTROL Web アプリケーション]**&#x200B;のコンテンツ タイプを使用し、カスタマイズ メニュー&#x200B;]**で**[!UICONTROL &#x200B;表示を確認します。
+1. **[!UICONTROL Web アプリケーション]**&#x200B;のコンテンツ タイプを使用し、カスタマイズ メニュー&#x200B;**で**&#x200B;表示を確認します。
 
    詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
@@ -153,7 +157,7 @@ DCEでキャプチャを追加する一般的な方法は、パーソナライ�
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   検証ボタンを無効にすることはできますが、標準のボタンやリンクがないので、HTML自体で行うことをお勧めします。 その方法については、[このページ ](https://developers.google.com/recaptcha/)を参照してください。
+   検証ボタンを無効にすることはできますが、標準のボタンやリンクがないので、HTML自体で行うことをお勧めします。 その方法については、[このページ &#x200B;](https://developers.google.com/recaptcha/)を参照してください。
 
 ### Web アプリケーションの更新
 
@@ -173,7 +177,7 @@ DCEでキャプチャを追加する一般的な方法は、パーソナライ�
 
 1. **[!UICONTROL Script]** アクティビティを編集します。 コンテンツは、選択したCaptcha エンジンによって異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ ](../../web/using/editing-content.md)を参照してください。
+1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ &#x200B;](../../web/using/editing-content.md)を参照してください。
 
    ![](assets/scripting-captcha4.png)
 
@@ -205,7 +209,7 @@ else
 
 ### Googleレカプチャ
 
-[公式ドキュメント ](https://developers.google.com/recaptcha/docs/verify)を参照してください。
+[公式ドキュメント &#x200B;](https://developers.google.com/recaptcha/docs/verify)を参照してください。
 
 ```javascript
 ctx.vars.captchaValid = false

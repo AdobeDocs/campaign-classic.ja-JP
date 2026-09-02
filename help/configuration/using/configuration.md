@@ -6,11 +6,17 @@ description: Campaign エクスプローラーのナビゲーションツリー�
 role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 TQID: https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: efa38731-2723-4334-8d8b-a778af834835
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
 source-wordcount: 1231
@@ -98,7 +104,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグから更新できます。 このタグについて詳しくは、入力フォームに関するドキュメントを参照してください。
 
@@ -271,7 +277,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグを使用して更新できます。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 

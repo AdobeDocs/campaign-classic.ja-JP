@@ -6,9 +6,12 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 TQID: https://experienceleague.adobe.com/lPAawM33zS2tws0EyHFHW1jD-Vw3ZLDtDcMEd1eJA1c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
@@ -23,7 +26,7 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
 
 * 配信 :
 
-  * 配信アクションの作成については、[SubmitDelivery （nms:delivery） ](#submitdelivery--nms-delivery-)を参照してください。
+  * 配信アクションの作成については、[SubmitDelivery （nms:delivery） &#x200B;](#submitdelivery--nms-delivery-)を参照してください。
   * キャンペーンの送信（開始、一時停止、停止、プルーフの送信）,
   * 配信ログを復元しています。
 
@@ -32,17 +35,17 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
   * ワークフローを開始するには，
   * プロセスの検証等
 
-    JavaScript](../../configuration/using/soap-methods-in-javascript.md)の[SOAP メソッドを参照してください。
+    JavaScript[&#128279;](../../configuration/using/soap-methods-in-javascript.md)のSOAP メソッドを参照してください。
 
 * コンテンツ管理
-* サブスクリプション管理については、[購読（nms:subscription） ](#subscribe--nms-subscription-)および[購読解除（nms:subscription） ](#unsubscribe--nms-subscription-)を参照してください。
+* サブスクリプション管理については、[購読（nms:subscription） &#x200B;](#subscribe--nms-subscription-)および[購読解除（nms:subscription） &#x200B;](#unsubscribe--nms-subscription-)を参照してください。
 * データプロセス：インポート、エクスポート。
 
 この節では、「Subscribe」、「Unsubscribe」および「SubmitDelivery」サービスの使用について詳しく説明します。
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/en/tools/campaign-api)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/campaign-api)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
 ## 購入（nms:subscription） {#subscribe--nms-subscription-}
 
@@ -67,7 +70,7 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
 </method>
 ```
 
-紐付けキーの定義は、XML ドキュメントの`<recipient>`要素の_**key**&#x200B;属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りのXPath リストです。
+紐付けキーの定義は、XML ドキュメントの`<recipient>`要素の_&#x200B;**key**&#x200B;属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りのXPath リストです。
 
 この呼び出しは、エラー以外のデータを返しません。
 

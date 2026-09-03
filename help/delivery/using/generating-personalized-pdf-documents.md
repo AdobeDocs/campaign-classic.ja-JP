@@ -8,25 +8,15 @@ role: User
 hide: true
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 TQID: https://experienceleague.adobe.com/5hETJLlKZ9iWu2k1nW-RMeDlzpSm7wFwfe3QwSEZCa4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 499
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 571
+ht-degree: 87%
 
 ---
 
@@ -64,6 +54,10 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 ## 外部画像の挿入 {#inserting-external-images}
 
+>[!IMPORTANT]
+>
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 リソースの読み込みを中断することなく続行できるように、添付ファイル内の外部画像に使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 外部画像の挿入は、例えば、画像付きドキュメントの URL が受信者のフィールドに入力されており、そのドキュメントをパーソナライズしたい場合に便利です。
 
 そのためには、パーソナライゼーションブロックを設定してから、パーソナライゼーションブロックに対する呼び出しを添付ファイルに含める必要があります。
@@ -87,8 +81,8 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
   パーソナライゼーションブロック内の 2 つのタイプの宣言を区別する必要があります。
 
-   * パーソナライゼーションフィールドの Adobe Campaign コードにおける「開く」および「閉じる」山括弧は、エスケープ文字（それぞれ `&lt;` と `&gt;`）で置き換える必要があります。
-   * OpenOffice XML コード全体が OpenOffice ドキュメントにコピーされます。
+  * パーソナライゼーションフィールドの Adobe Campaign コードにおける「開く」および「閉じる」山括弧は、エスケープ文字（それぞれ `&lt;` と `&gt;`）で置き換える必要があります。
+  * OpenOffice XML コード全体が OpenOffice ドキュメントにコピーされます。
 
 今回の例では、パーソナライゼーションブロックは次のようになります。
 

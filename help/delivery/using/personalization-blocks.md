@@ -8,24 +8,15 @@ role: User
 hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 TQID: https://experienceleague.adobe.com/KfD6zudZg8B6r8ftdINuXjWAqRiHLP9dtGi--H-E6RU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1002
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 1083
+ht-degree: 92%
 
 ---
 
@@ -136,6 +127,10 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
 ## カスタムパーソナライゼーションブロックの定義 {#defining-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 **[!UICONTROL 含める]**&#x200B;メニューのパーソナライゼーションフィールドアイコンを使用すると、挿入する新しいパーソナライゼーションフィールドを定義できます。 それらのフィールドは、パーソナライゼーションブロック内に定義されます。
 
 パーソナライゼーションブロックを作成するには、エクスプローラーを開き、次の手順に従います。
@@ -154,12 +149,12 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
+   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、 「**[!UICONTROL 保存]**」をクリックします。
 
 ## チュートリアルビデオ {#personalization-blocks-video}
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27460?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

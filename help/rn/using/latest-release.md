@@ -50,7 +50,7 @@ _2026年8月25日（PT）_
 
 このリリースには、配信コンテンツと添付ファイルに使用される外部URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。
 
-Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 ### ビルド 9400 {#build-9400}
 

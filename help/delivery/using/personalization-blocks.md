@@ -138,7 +138,7 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
 >[!IMPORTANT]
 >
->リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 **[!UICONTROL 含める]**&#x200B;メニューのパーソナライゼーションフィールドアイコンを使用すると、挿入する新しいパーソナライゼーションフィールドを定義できます。 それらのフィールドは、パーソナライゼーションブロック内に定義されます。
 

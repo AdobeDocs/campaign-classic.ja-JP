@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7fd7a9e54183b456f06d8030c3d9425f275eabf5
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 93%
+source-wordcount: 634
+ht-degree: 99%
 
 ---
 
@@ -36,9 +36,9 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 2026年8月リリースが公開されました！]
+>[!TAB 2026年8月リリースが公開されました。]
 
-Campaign Classic v7.4.4 - 8月26日（PT）ビルドでは、セキュリティ更新が提供され、Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされます。
+Campaign Classic v7.4.4 - 2026年8月ビルドでは、セキュリティアップデートを提供し、Adobe Analytics コネクタを Analytics 2.0 API にアップグレードします。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -121,11 +121,11 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
+      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
     </td>
   </tr>
 </table>
 
 ## その他のリソース
 
-[Adobe Campaignの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [互換性マトリックス &#x200B;](rn/using/compatibility-matrix.md) - [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [CampaignのCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"} - [電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+[Adobe Campaign 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [互換性マトリックス](rn/using/compatibility-matrix.md) - [チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja){target="_blank"} - [Campaign のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"} - [メールトラッキングピクセルと CNIL ガイダンス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

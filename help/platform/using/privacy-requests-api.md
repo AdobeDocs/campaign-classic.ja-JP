@@ -19,10 +19,10 @@ subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 670
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 667
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ API を使用してプライバシーリクエストを送信する場合、最�
 
 ## 外部からの API の呼び出し {#invoking-api-externally}
 
-外部から API を呼び出す方法の例（具体的には API を使用した認証と、プライバシー API の詳細）を以下に示します。 プライバシー API について詳しくは、[API のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html?lang=ja)を参照してください。 また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
+外部から API を呼び出す方法の例（具体的には API を使用した認証と、プライバシー API の詳細）を以下に示します。 プライバシー API について詳しくは、[API のドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。 また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
 
 最初に、API を通じて認証を実行する必要があります。
 

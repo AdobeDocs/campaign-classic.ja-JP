@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1092
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 1091
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)で定義された関数を使用できます。
+  >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api)で定義された関数を使用できます。
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 

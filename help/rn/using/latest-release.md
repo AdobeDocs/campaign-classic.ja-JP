@@ -24,7 +24,7 @@ subfeature_v2:
 source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
 workflow-type: tm+mt
 source-wordcount: 1019
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 86%
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年8月25日_
+_2026年8月25日（PT）_
 
 #### セキュリティの強化 {#security-7-4-4-9401}
 
@@ -50,9 +50,9 @@ _2026年8月25日_
 
 [!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
-_2026年8月11日_
+_2026年8月11日（PT）_
 
-このビルドには、いくつかの機能強化、セキュリティ修正、Adobe Analytics コネクタ用のAdobe Analytics 2.0 APIへのアップグレードが含まれています。
+このビルドには、いくつかの製品の強化、セキュリティ修正、Adobe Analytics コネクタ用の Adobe Analytics 2.0 API へのアップグレードが含まれています。
 
 #### セキュリティの強化 {#security-7-4-4-9400}
 
@@ -60,9 +60,9 @@ _2026年8月11日_
 
 ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
 
-#### Adobe Analytics 2.0のアップグレード {#analytics-2-0-7-4-4}
+#### Adobe Analytics 2.0 アップグレード {#analytics-2-0-7-4-4}
 
-Adobe Analytics 1.4 APIが提供終了に近づいている。 Adobe Analytics コネクタを使用する場合は、このビルドにアップグレードし、デプロイメントとユースケースに応じて、いくつかの移行手順を完了する必要があります。 [Adobe Analytics 2.0 APIへの移行方法について説明します](../../technotes/using/analytics-2-migration.md)。
+Adobe Analytics 1.4 API は提供が終了する予定です。 Adobe Analytics コネクタを使用する場合は、このビルドにアップグレードし、デプロイメントとユースケースに応じて、いくつかの移行手順を完了する必要があります。 [Adobe Analytics 2.0 API への移行方法の詳細情報](../../technotes/using/analytics-2-migration.md)。
 
 ## リリース 7.4.3 {#release-7-4-3}
 

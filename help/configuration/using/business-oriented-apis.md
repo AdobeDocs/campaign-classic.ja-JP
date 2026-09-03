@@ -13,10 +13,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 3%
+source-wordcount: 624
+ht-degree: 2%
 
 ---
 
@@ -26,16 +26,16 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
 
 * 配信 :
 
-   * 配信アクションの作成については、[SubmitDelivery （nms:delivery） &#x200B;](#submitdelivery--nms-delivery-)を参照してください。
-   * キャンペーンの送信（開始、一時停止、停止、プルーフの送信）,
-   * 配信ログを復元しています。
+  * 配信アクションの作成については、[SubmitDelivery （nms:delivery） &#x200B;](#submitdelivery--nms-delivery-)を参照してください。
+  * キャンペーンの送信（開始、一時停止、停止、プルーフの送信）,
+  * 配信ログを復元しています。
 
 * ワークフロー：
 
-   * ワークフローを開始するには，
-   * プロセスの検証等
+  * ワークフローを開始するには，
+  * プロセスの検証等
 
-     JavaScript[&#128279;](../../configuration/using/soap-methods-in-javascript.md)のSOAP メソッドを参照してください。
+    JavaScript[&#128279;](../../configuration/using/soap-methods-in-javascript.md)のSOAP メソッドを参照してください。
 
 * コンテンツ管理
 * サブスクリプション管理については、[購読（nms:subscription） &#x200B;](#subscribe--nms-subscription-)および[購読解除（nms:subscription） &#x200B;](#unsubscribe--nms-subscription-)を参照してください。
@@ -45,7 +45,7 @@ Business APIは、オブジェクトの各タイプに固有です。 これに�
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)には、SOAPの呼び出しとAdobe CampaignでのJavascriptの使用に関する詳細情報と、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
 ## 購入（nms:subscription） {#subscribe--nms-subscription-}
 

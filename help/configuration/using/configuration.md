@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 1233
-ht-degree: 4%
+source-wordcount: 1231
+ht-degree: 3%
 
 ---
 
@@ -104,7 +104,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグから更新できます。 このタグについて詳しくは、入力フォームに関するドキュメントを参照してください。
 
@@ -277,7 +277,7 @@ XML ドキュメントには、**name**&#x200B;および&#x200B;**名前空間**
 
 コマンド区切り記号を使用すると、コマンド間の区切り記号を表示できます。 これは、コマンドラベルに含まれる&#x200B;**&#39;-&#39;**&#x200B;値によって識別されます。
 
-入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)を参照してください。
+入力パラメーターを含む&#x200B;**`<soapcall>`** タグのオプションの存在は、実行するSOAP メソッドの呼び出しを定義します。 SOAP APIについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api)を参照してください。
 
 フォームのコンテキストは、初期化時に&#x200B;**`<enter>`** タグを使用して更新できます。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 

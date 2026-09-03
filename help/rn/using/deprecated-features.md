@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
-workflow-type: ht
-source-wordcount: 1792
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 1787
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>
  <td>Netsize SMPP コネクタ</td>
- <td><p>Netsize SMPP コネクタは、非推奨（廃止予定）になりました。<strong>拡張された汎用 SMPP</strong> コネクタに移行することをお勧めします。詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
+ <td><p>Netsize SMPP コネクタは、非推奨（廃止予定）になりました。 <strong>拡張された汎用 SMPP</strong> コネクタに移行することをお勧めします。 詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
 <p>削除予定日：2027年1月</p>
 </td>
 </tr>
@@ -108,7 +108,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
     <tr>
   <td>配信品質の技術的監視レポート<br></td>
    <td><p>配信品質の技術的監視レポートは使用できなくなりました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -145,7 +145,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    </tr>
    <tr>
    <td>Campaign API ドキュメント - jsapi.chm ファイル</td>
-   <td>Campaign 19.1 リリースより、Campaign Classic API は専用ページで利用できます。 従来の jsapi.chm ファイルを使用していた場合は、<a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">新しいオンラインバージョン</a>を参照する必要があります。</td>
+   <td>Campaign 19.1 リリースより、Campaign Classic API は専用ページで利用できます。 従来の jsapi.chm ファイルを使用していた場合は、<a href="https://experienceleague.adobe.com/ja/tools/campaign-api">新しいオンラインバージョン</a>を参照する必要があります。</td>
   </tr> 
   <tr> 
    <td>キャンペーンオーケストレーション - 予測マーケティング</td>
@@ -162,7 +162,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td>decryptString API</td>
    <td><p>Campaign 18.6 リリースより、セキュリティ上の理由から、<em>decryptString</em> API は、新しいインストールではデフォルトで使用できなくなりました。</p> 
-   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。 <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ja&hl=decrypt">詳細情報</a></p></td>
+   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。 <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">詳細情報</a></p></td>
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>

@@ -23,10 +23,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 499
-ht-degree: 100%
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 571
+ht-degree: 87%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 ## 外部画像の挿入 {#inserting-external-images}
 
+>[!IMPORTANT]
+>
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 リソースの読み込みを中断することなく続行できるように、添付ファイル内の外部画像に使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 外部画像の挿入は、例えば、画像付きドキュメントの URL が受信者のフィールドに入力されており、そのドキュメントをパーソナライズしたい場合に便利です。
 
 そのためには、パーソナライゼーションブロックを設定してから、パーソナライゼーションブロックに対する呼び出しを添付ファイルに含める必要があります。
@@ -87,8 +91,8 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
   パーソナライゼーションブロック内の 2 つのタイプの宣言を区別する必要があります。
 
-   * パーソナライゼーションフィールドの Adobe Campaign コードにおける「開く」および「閉じる」山括弧は、エスケープ文字（それぞれ `&lt;` と `&gt;`）で置き換える必要があります。
-   * OpenOffice XML コード全体が OpenOffice ドキュメントにコピーされます。
+  * パーソナライゼーションフィールドの Adobe Campaign コードにおける「開く」および「閉じる」山括弧は、エスケープ文字（それぞれ `&lt;` と `&gt;`）で置き換える必要があります。
+  * OpenOffice XML コード全体が OpenOffice ドキュメントにコピーされます。
 
 今回の例では、パーソナライゼーションブロックは次のようになります。
 

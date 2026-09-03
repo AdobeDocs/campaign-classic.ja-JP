@@ -24,10 +24,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2055
-ht-degree: 100%
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 2125
+ht-degree: 96%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >プライバシー保護のために、すべての外部リソースに対して HTTPS を使用することをお勧めします。
+
+>[!IMPORTANT]
+>
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 メッセージコンテンツで使用されるドメインがインスタンスの承認済み許可リストに追加されていることを確認し、リソースの読み込みが中断されることなく続行されるようにします。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 

@@ -22,10 +22,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1002
-ht-degree: 100%
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 1083
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。 [パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。 デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 
@@ -136,6 +136,10 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
 ## カスタムパーソナライゼーションブロックの定義 {#defining-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>リリース 7.4.4 （ビルド 9401）には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 **[!UICONTROL 含める]**&#x200B;メニューのパーソナライゼーションフィールドアイコンを使用すると、挿入する新しいパーソナライゼーションフィールドを定義できます。 それらのフィールドは、パーソナライゼーションブロック内に定義されます。
 
 パーソナライゼーションブロックを作成するには、エクスプローラーを開き、次の手順に従います。
@@ -154,7 +158,7 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
+   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、 「**[!UICONTROL 保存]**」をクリックします。
 
 ## チュートリアルビデオ {#personalization-blocks-video}
 

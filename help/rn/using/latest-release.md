@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 1019
-ht-degree: 100%
+source-wordcount: 1119
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,12 @@ _2026年8月25日（PT）_
 アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-134.html){target="_blank"}を参照してください。
 
 ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
+
+#### 外部URL 許可リストの更新 {#security-enhancement-url-validation-9401}
+
+このリリースには、配信コンテンツと添付ファイルに使用される外部URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。
+
+Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 ### ビルド 9400 {#build-9400}
 

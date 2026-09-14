@@ -47,8 +47,8 @@
 <target xml:lang="en-XX">ドキュメントをパーソナライズする場合、メールのパーソナライゼーションと同じ JavaScript 機能を使用します。</target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US">You need to activate the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>"The content of the file is personalized and converted to PDF during the delivery of each message"<ph id="3" ctype="x-LINK_REF">]**</ph> option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer the <ph id="5" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="6" ctype="x-LINK">[#$tu11]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換<ph id="3" ctype="x-LINK_REF">]**</ph>」オプションを有効化する必要があります。 このオプションは、配信メールにファイルを添付する際にアクセスできます。 計算済みファイルの添付について詳しくは、<ph id="5" ctype="x-LINK">[</ph>Campaign v8 ドキュメント<ph id="6" ctype="x-LINK">[#$tu11]{target="_blank"}</ph>を参照してください。</target>
+<source xml:lang="en-US">You need to activate the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>"The content of the file is personalized and converted to PDF during the delivery of each message"<ph id="3" ctype="x-LINK_REF">]**</ph> option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer the <ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="6" ctype="x-LINK">[#$tu11]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換<ph id="3" ctype="x-LINK_REF">]**</ph>」オプションを有効化する必要があります。 このオプションは、配信メールにファイルを添付する際にアクセスできます。 計算済みファイルの添付について詳しくは、<ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8 ドキュメント<ph id="6" ctype="x-LINK">[#$tu11]{target="_blank"}</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
 <source xml:lang="en-US">Example of an invoice header personalization:</source>
@@ -103,12 +103,12 @@
 <target xml:lang="en-XX">外部画像の挿入</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
-<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. Make sure the domains used for external images in your attachments are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">[</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph> for steps.</source>
-<target xml:lang="en-XX">リリース 7.4.4（ビルド 9401）には、外部 URL 許可リストのアップデートが含まれています。リソースが中断することなく継続して読み込まれるよう、添付ファイルの外部画像で使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。手順について詳しくは、<ph id="1" ctype="x-LINK">[</ph>URL 権限の追加<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>を参照してください。</target>
+<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. Make sure the domains used for external images in your attachments are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">&lbrack;</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph> for steps.</source>
+<target xml:lang="en-XX">リリース 7.4.4（ビルド 9401）には、外部 URL 許可リストのアップデートが含まれています。リソースが中断することなく継続して読み込まれるよう、添付ファイルの外部画像で使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。手順について詳しくは、<ph id="1" ctype="x-LINK">&lbrack;</ph>URL 権限の追加<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">The insertion of external images is useful if, for instance, you want to personalize a document with an image whose URL is entered in a field of the recipient.</source>

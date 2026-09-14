@@ -67,8 +67,8 @@
 <target xml:lang="en-XX">非静的 SOAP メソッドを使用したデータベースとのインタラクション</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu10]</ph> about static and non-static SOAP methods.</source>
-<target xml:lang="en-XX">静的および非静的 SOAP メソッドについての<ph id="1" ctype="x-LINK">[</ph>詳細情報<ph id="2" ctype="x-LINK">[#$tu10]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu10]</ph> about static and non-static SOAP methods.</source>
+<target xml:lang="en-XX">静的および非静的 SOAP メソッドについての<ph id="1" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="2" ctype="x-LINK">[#$tu10]</ph></target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">In these examples, the ECMAScript for XML (E4X) extension is used. With this extension, you can combine JavaScript calls and XML primitives in the same script.</source>
@@ -139,14 +139,14 @@
 <target xml:lang="en-XX"><ph id="2" ctype="x-CODE">`xtk:session`</ph> スキーマの <ph id="1" ctype="x-CODE">`Write`</ph> メソッドを呼び出します。</target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph>
 </source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph>
 </target>
 </trans-unit>
 <trans-unit id="tu29" xml:space="preserve">
-<source xml:lang="en-US">If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Ingestion<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> and <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Data update/delete<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> APIs for the <ph id="5" ctype="x-CODE">`Write`</ph> method in a Snowflake table. <ph id="6" ctype="x-LINK">[</ph>Read more<ph id="7" ctype="x-LINK">[#$tu30]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe Campaign v8 を使用する場合は、Snowflake テーブルの <ph id="5" ctype="x-CODE">`Write`</ph> メソッドの<ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>取り込み<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>および<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>データの更新／削除<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> API でステージングメカニズムを使用することをお勧めします。 <ph id="6" ctype="x-LINK">[</ph>詳細情報<ph id="7" ctype="x-LINK">[#$tu30]{target="_blank"}</ph>。</target>
+<source xml:lang="en-US">If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Ingestion<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> and <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Data update/delete<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> APIs for the <ph id="5" ctype="x-CODE">`Write`</ph> method in a Snowflake table. <ph id="6" ctype="x-LINK">&lbrack;</ph>Read more<ph id="7" ctype="x-LINK">[#$tu30]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe Campaign v8 を使用する場合は、Snowflake テーブルの <ph id="5" ctype="x-CODE">`Write`</ph> メソッドの<ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>取り込み<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>および<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>データの更新／削除<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> API でステージングメカニズムを使用することをお勧めします。 <ph id="6" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="7" ctype="x-LINK">[#$tu30]{target="_blank"}</ph>。</target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
 <source xml:lang="en-US">Pass the XML code as an argument for the write request.</source>
@@ -217,8 +217,8 @@
 <target xml:lang="en-XX">レコードの削除</target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US">Use the <ph id="1" ctype="x-CODE">`DeleteCollection`</ph> method. <ph id="2" ctype="x-LINK">[</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu49]</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`DeleteCollection`</ph> メソッドを使用します。 <ph id="2" ctype="x-LINK">[</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu49]</ph>。</target>
+<source xml:lang="en-US">Use the <ph id="1" ctype="x-CODE">`DeleteCollection`</ph> method. <ph id="2" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu49]</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`DeleteCollection`</ph> メソッドを使用します。 <ph id="2" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu49]</ph>。</target>
 </trans-unit>
 <trans-unit id="tu50" xml:space="preserve">
 <source xml:lang="en-US">Specify this information:</source>
@@ -257,8 +257,8 @@
 <target xml:lang="en-XX">このビデオでは、データベースに書き込む方法を説明します。</target>
 </trans-unit>
 <trans-unit id="tu59" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18472/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18472/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18472/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18472/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu60" xml:space="preserve">
 <source xml:lang="en-US">Example 2: query the database</source>
@@ -453,8 +453,8 @@
 <target xml:lang="en-XX">結果を繰り返し処理するには、<ph id="1" ctype="x-CODE">`for each`</ph> ループを使用します。</target>
 </trans-unit>
 <trans-unit id="tu108" xml:space="preserve">
-<source xml:lang="en-US">The loop includes a local recipient variable. For each recipient that is returned in the collection of recipients, the recipient's email is printed out. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu109]</ph> about the <ph id="3" ctype="x-CODE">`logInfo`</ph> function.</source>
-<target xml:lang="en-XX">ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。 <ph id="3" ctype="x-CODE">`logInfo`</ph> 関数についての<ph id="1" ctype="x-LINK">[</ph>詳細情報<ph id="2" ctype="x-LINK">[#$tu109]</ph>。</target>
+<source xml:lang="en-US">The loop includes a local recipient variable. For each recipient that is returned in the collection of recipients, the recipient's email is printed out. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu109]</ph> about the <ph id="3" ctype="x-CODE">`logInfo`</ph> function.</source>
+<target xml:lang="en-XX">ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。 <ph id="3" ctype="x-CODE">`logInfo`</ph> 関数についての<ph id="1" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="2" ctype="x-LINK">[#$tu109]</ph>。</target>
 </trans-unit>
 <trans-unit id="tu110" xml:space="preserve">
 <source xml:lang="en-US">Results of a <ph id="1" ctype="x-CODE">`getIfExists`</ph> operation</source>
@@ -485,8 +485,8 @@
 <target xml:lang="en-XX">一致するものがない場合は、エラーが返されます。</target>
 </trans-unit>
 <trans-unit id="tu117" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></target>
 </trans-unit>
 <trans-unit id="tu118" xml:space="preserve">
 <source xml:lang="en-US">If you know that there is a match, use the <ph id="1" ctype="x-CODE">`get`</ph> operation. Otherwise, use the <ph id="2" ctype="x-CODE">`getIfExists`</ph> operation. If you use this best practice, then errors reveal unexpected problems. If you use the <ph id="3" ctype="x-CODE">`get`</ph> operation, do not use the <ph id="4" ctype="x-CODE">`try…catch`</ph> statement. The problem is handled by the error handling process of the workflow.</source>
@@ -517,8 +517,8 @@
 <target xml:lang="en-XX">このビデオでは、データベースからの読み取り方法を示しています。</target>
 </trans-unit>
 <trans-unit id="tu125" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18475/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18475/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18475/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18475/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu126" xml:space="preserve">
 <source xml:lang="en-US">Trigger a workflow</source>
@@ -533,8 +533,8 @@
 <target xml:lang="en-XX">ワークフロートリガーは、イベントを使用して機能します。 イベントには、次の機能を使用できます。</target>
 </trans-unit>
 <trans-unit id="tu129" xml:space="preserve">
-<source xml:lang="en-US">To post an event, you can use the static <ph id="1" ctype="x-CODE">`PostEvent`</ph> method. <ph id="2" ctype="x-LINK">[</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu130]</ph>.</source>
-<target xml:lang="en-XX">イベントを投稿するには、静的 <ph id="1" ctype="x-CODE">`PostEvent`</ph> メソッドを使用します。 <ph id="2" ctype="x-LINK">[</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu130]</ph>。</target>
+<source xml:lang="en-US">To post an event, you can use the static <ph id="1" ctype="x-CODE">`PostEvent`</ph> method. <ph id="2" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu130]</ph>.</source>
+<target xml:lang="en-XX">イベントを投稿するには、静的 <ph id="1" ctype="x-CODE">`PostEvent`</ph> メソッドを使用します。 <ph id="2" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu130]</ph>。</target>
 </trans-unit>
 <trans-unit id="tu131" xml:space="preserve">
 <source xml:lang="en-US">To receive an event, you can use the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity. <ph id="5" ctype="x-LINK">[</ph>Learn more<ph id="6" ctype="x-LINK">](external-signal.md)</ph>.</source>
@@ -565,8 +565,8 @@
 <target xml:lang="en-XX">最初のワークフローが完了すると、イベントが投稿されます。 送信トランジションが有効化され、イベント変数が入力されます。 次に、ターゲットワークフローがイベントを受け取ります。</target>
 </trans-unit>
 <trans-unit id="tu138" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></target>
 </trans-unit>
 <trans-unit id="tu139" xml:space="preserve">
 <source xml:lang="en-US">As a best practice, when you add a script to an activity, enclose the activity name in double hyphens, for example, <ph id="1" ctype="x-CODE">`-- end --`</ph>. <ph id="2" ctype="x-LINK">[</ph>Learn more<ph id="3" ctype="x-LINK">](workflow-best-practices.md)</ph> about workflow best practices.</source>
@@ -609,16 +609,16 @@
 <target xml:lang="en-XX">このビデオでは、静的 API メソッドの使用方法を説明します。</target>
 </trans-unit>
 <trans-unit id="tu149" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18481/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18481/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18481/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18481/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu150" xml:space="preserve">
 <source xml:lang="en-US">This video shows how to trigger workflows:</source>
 <target xml:lang="en-XX">このビデオでは、ワークフローのトリガー方法を説明します。</target>
 </trans-unit>
 <trans-unit id="tu151" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18485/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18485/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18485/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18485/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu152" xml:space="preserve">
 <source xml:lang="en-US">Interact with the database</source>
@@ -649,16 +649,16 @@
 <target xml:lang="en-XX">クエリを定義します。</target>
 </trans-unit>
 <trans-unit id="tu159" xml:space="preserve">
-<source xml:lang="en-US">Retrieve an entity by using the <ph id="1" ctype="x-CODE">`create`</ph> method on the corresponding schema—for example, the <ph id="2" ctype="x-CODE">`xtk:workflow`</ph> schema. <ph id="3" ctype="x-LINK">[</ph>Learn more<ph id="4" ctype="x-LINK">[#$tu160]</ph>.</source>
-<target xml:lang="en-XX">対応するスキーマ（例えば <ph id="2" ctype="x-CODE">`xtk:workflow`</ph> スキーマ）で <ph id="1" ctype="x-CODE">`create`</ph> メソッドを使用してエンティティを取得します。 <ph id="3" ctype="x-LINK">[</ph>詳細情報<ph id="4" ctype="x-LINK">[#$tu160]</ph>。</target>
+<source xml:lang="en-US">Retrieve an entity by using the <ph id="1" ctype="x-CODE">`create`</ph> method on the corresponding schema—for example, the <ph id="2" ctype="x-CODE">`xtk:workflow`</ph> schema. <ph id="3" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="4" ctype="x-LINK">[#$tu160]</ph>.</source>
+<target xml:lang="en-XX">対応するスキーマ（例えば <ph id="2" ctype="x-CODE">`xtk:workflow`</ph> スキーマ）で <ph id="1" ctype="x-CODE">`create`</ph> メソッドを使用してエンティティを取得します。 <ph id="3" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="4" ctype="x-LINK">[#$tu160]</ph>。</target>
 </trans-unit>
 <trans-unit id="tu161" xml:space="preserve">
 <source xml:lang="en-US">Use the <ph id="1" ctype="x-CODE">`queryDef`</ph> method to issue an SQL query.</source>
 <target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`queryDef`</ph> メソッドを使用して SQL クエリを発行します。</target>
 </trans-unit>
 <trans-unit id="tu162" xml:space="preserve">
-<source xml:lang="en-US">Run the query using the <ph id="1" ctype="x-CODE">`ExecuteQuery`</ph> method. <ph id="2" ctype="x-LINK">[</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu163]</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`ExecuteQuery`</ph> メソッドを使用してクエリを実行します。 <ph id="2" ctype="x-LINK">[</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu163]</ph>。</target>
+<source xml:lang="en-US">Run the query using the <ph id="1" ctype="x-CODE">`ExecuteQuery`</ph> method. <ph id="2" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="3" ctype="x-LINK">[#$tu163]</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`ExecuteQuery`</ph> メソッドを使用してクエリを実行します。 <ph id="2" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="3" ctype="x-LINK">[#$tu163]</ph>。</target>
 </trans-unit>
 <trans-unit id="tu164" xml:space="preserve">
 <source xml:lang="en-US">Use the <ph id="1" ctype="x-CODE">`for each`</ph> loop to retrieve the results.</source>
@@ -721,14 +721,14 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`delete`</ph> 操作</target>
 </trans-unit>
 <trans-unit id="tu179" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph>
 </source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph>
 </target>
 </trans-unit>
 <trans-unit id="tu180" xml:space="preserve">
-<source xml:lang="en-US">If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Ingestion<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> and <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Data update/delete<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> APIs for the <ph id="5" ctype="x-CODE">`Write`</ph> method in a Snowflake table. <ph id="6" ctype="x-LINK">[</ph>Read more<ph id="7" ctype="x-LINK">[#$tu181]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe Campaign v8 を使用する場合は、Snowflake テーブルの <ph id="5" ctype="x-CODE">`Write`</ph> メソッドの<ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>取り込み<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>および<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>データの更新／削除<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> API でステージングメカニズムを使用することをお勧めします。 <ph id="6" ctype="x-LINK">[</ph>詳細情報<ph id="7" ctype="x-LINK">[#$tu181]{target="_blank"}</ph>。</target>
+<source xml:lang="en-US">If you use Adobe Campaign v8, we recommend that you use the staging mechanism with the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Ingestion<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> and <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Data update/delete<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> APIs for the <ph id="5" ctype="x-CODE">`Write`</ph> method in a Snowflake table. <ph id="6" ctype="x-LINK">&lbrack;</ph>Read more<ph id="7" ctype="x-LINK">[#$tu181]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe Campaign v8 を使用する場合は、Snowflake テーブルの <ph id="5" ctype="x-CODE">`Write`</ph> メソッドの<ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>取り込み<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>および<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>データの更新／削除<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> API でステージングメカニズムを使用することをお勧めします。 <ph id="6" ctype="x-LINK">&lbrack;</ph>詳細情報<ph id="7" ctype="x-LINK">[#$tu181]{target="_blank"}</ph>。</target>
 </trans-unit>
 <trans-unit id="tu182" xml:space="preserve">
 <source xml:lang="en-US">Example 1: insert or update a record</source>
@@ -747,16 +747,16 @@
 <target xml:lang="en-XX">このビデオでは、非静的 API メソッドの使用方法を説明します。</target>
 </trans-unit>
 <trans-unit id="tu186" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18477/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18477/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18477/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18477/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu187" xml:space="preserve">
 <source xml:lang="en-US">This video shows an example of use of a non-static API method in a workflow:</source>
 <target xml:lang="en-XX">このビデオでは、ワークフローでの非静的 API メソッドの使用例を説明します。</target>
 </trans-unit>
 <trans-unit id="tu188" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18476/?learn=on)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18476/?learn=on)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18476/?learn=on)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/18476/?learn=on)</ph></target>
 </trans-unit>
 <trans-unit id="tu189" xml:space="preserve">
 <source xml:lang="en-US">Related topics</source>

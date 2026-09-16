@@ -108,6 +108,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを暗号化する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41329?captions=jpn&quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

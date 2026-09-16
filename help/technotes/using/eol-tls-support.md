@@ -11,20 +11,23 @@ exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 TQID: https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 880
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
-
 ---
-
 # TLS 1.0 および 1.1 のサポートの提供終了（EOL）{#eol-tls-support}
 
 
@@ -50,7 +53,7 @@ ht-degree: 100%
 
 別のブラウザーを使用している場合は、TLS 1.2 がサポートされていることを確認します。
 
-お使いのオペレーティングシステムおよびアプリケーションフレームワークも TLS 1.2 をサポートしている必要があります。ブラウザーをアップグレードしても問題が解決しない場合は、お使いのコンピュータが [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているシステム要件を満たしていることを確認してください。
+お使いのオペレーティングシステムおよびアプリケーションフレームワークも TLS 1.2 をサポートしている必要があります。 ブラウザーをアップグレードしても問題が解決しない場合は、お使いのコンピュータが [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているシステム要件を満たしていることを確認してください。
 
 ## よくある質問{#faq}
 
@@ -76,7 +79,7 @@ ht-degree: 100%
 
 * **TLS はハッカーに対して脆弱ですか？**
 
-  古い暗号化方式を使用した TLS 1.0 に対する攻撃が文書化されており、古いバージョンは TLS 1.2 よりも脆弱です。詳しくは、「TLS/SSL の既知の脆弱性」を参照してください。
+  古い暗号化方式を使用した TLS 1.0 に対する攻撃が文書化されており、古いバージョンは TLS 1.2 よりも脆弱です。 詳しくは、「TLS/SSL の既知の脆弱性」を参照してください。
 
 * **アドビが TLS 1.0 および 1.1 のサポートを無効にしているのはなぜですか？**
 
@@ -96,7 +99,7 @@ ht-degree: 100%
 
 * **TLS 1.2 に対応するように設定されていないブラウザーを使用すると、どのようなエラーメッセージが表示されますか？**
 
-  使用しているブラウザーによって異なります。 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているすべてのブラウザーは、TLS 1.2 を使用するように設定されています。リストに記載されていないブラウザーまたはバージョンを使用している場合は、ブラウザーを更新します。
+  使用しているブラウザーによって異なります。 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているすべてのブラウザーは、TLS 1.2 を使用するように設定されています。 リストに記載されていないブラウザーまたはバージョンを使用している場合は、ブラウザーを更新します。
 
   アドビでは、SSL 通信レイヤーによって生成されるエラーメッセージを制御しません。 ブラウザーは、アドビのアプリやサービスに接続する前にこれらのメッセージを生成します。 Windows 7 上の Internet Explorer 11 で発生する可能性のあるエラーの例を以下に示します。
 
@@ -104,6 +107,6 @@ ht-degree: 100%
 
   TLS 1.2 は Internet Explorer 11 でデフォルトで有効になっていますが、無効になっている場合は、有効にすることができます。 この場合、他の選択肢を使用する代わりに、詳細設定ダイアログで TLS 1.2 を有効にします。 次のようなその他のエラーも発生する場合があります。
 
-   * サービスに接続できません
-   * サービスを利用できません
-   * 接続中にエラーが発生しました
+  * サービスに接続できません
+  * サービスを利用できません
+  * 接続中にエラーが発生しました

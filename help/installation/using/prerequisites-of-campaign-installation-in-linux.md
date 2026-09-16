@@ -3,7 +3,7 @@ product: campaign
 title: LinuxでのCampaign インストールの前提条件
 description: LinuxでのCampaign インストールの前提条件
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -11,34 +11,35 @@ exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 TQID: https://experienceleague.adobe.com/SFdh5L8-oHjpH7rIhDxOQZqw7AukXtkv3lJHZu2oTHQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 4%
-
+source-wordcount: '894'
+ht-degree: 3%
 ---
-
 # LinuxにCampaignをインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
 
 ## ソフトウェアの前提条件 {#software-prerequisites}
 
 この節では、Adobe Campaignをインストールする前に必要な事前設定の手順について詳しく説明します。
 
-Adobe Campaignのインストールに必要な技術的な設定とソフトウェアの設定については、[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)で詳しく説明しています。
+Adobe Campaignのインストールに必要な技術的な設定とソフトウェアの設定については、[互換性マトリックス ](../../rn/using/compatibility-matrix.md)で詳しく説明しています。
 
 リマインダーとして、次のコンポーネントをインストールして正しく設定する必要があります。
 
-* Apacheについては、[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を参照してください。
+* Apacheについては、[互換性マトリックス ](../../rn/using/compatibility-matrix.md)を参照してください。
 * Java JDKおよびOpenJDKについては、[Java Development Kit - JDK](../../installation/using/application-server.md#jdk)を参照してください。
-* ライブラリ：[&#x200B; ライブラリ &#x200B;](#libraries)を参照してください。
-* データベースアクセスレイヤーについては、[&#x200B; データベースアクセスレイヤー](#database-access-layers)を参照してください。
-* LibreOfficeについては、[Debian向けLibreOfficeのインストール &#x200B;](#installing-libreoffice-for-debian)および[CentOS向けLibreOfficeのインストール &#x200B;](#installing-libreoffice-for-centos)を参照してください。
-* フォントについては、[MTA統計のフォント &#x200B;](#fonts-for-mta-statistics)および日本語インスタンスのフォント [を参照してください。](#fonts-for-japanese-instances)
+* ライブラリ：[ ライブラリ ](#libraries)を参照してください。
+* データベースアクセスレイヤーについては、[ データベースアクセスレイヤー](#database-access-layers)を参照してください。
+* LibreOfficeについては、[Debian向けLibreOfficeのインストール ](#installing-libreoffice-for-debian)および[CentOS向けLibreOfficeのインストール ](#installing-libreoffice-for-centos)を参照してください。
+* フォントについては、[MTA統計のフォント ](#fonts-for-mta-statistics)および日本語インスタンスのフォント [を参照してください。](#fonts-for-japanese-instances)
 
 
 ### ライブラリ {#libraries}
@@ -176,7 +177,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 サポートされているパイロットバージョンは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に詳述されています。
 
-一般[&#x200B; データベース &#x200B;](../../installation/using/database.md) セクションも確認してください。
+一般[ データベース ](../../installation/using/database.md) セクションも確認してください。
 
 ### PostgreSQL {#postgresql}
 
@@ -218,7 +219,7 @@ Linux用のAdobe Campaignのインストールは、サーバーインストー�
 
 インストールプロセスについては、この章で説明します。 インストール手順は次のとおりです。
 
-* 手順1: アプリケーションサーバーのインストールについては、[Linuxでのパッケージのインストール &#x200B;](../../installation/using/installing-packages-with-linux.md)を参照してください。
+* 手順1: アプリケーションサーバーのインストールについては、[Linuxでのパッケージのインストール ](../../installation/using/installing-packages-with-linux.md)を参照してください。
 * 手順2:Web サーバーとの統合（デプロイされたコンポーネントに応じてオプション）。
 
 インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、[初期設定について](../../installation/using/about-initial-configuration.md)を参照してください。

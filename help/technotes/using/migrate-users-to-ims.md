@@ -5,22 +5,27 @@ exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 TQID: https://experienceleague.adobe.com/drpNkA9cj7Prid--GixHMQ48CO7ZC9qqX4w5fnTiD88
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1244
+workflow-type: tm+mt
+source-wordcount: '1266'
 ht-degree: 100%
-
 ---
-
 # Campaign オペレーターの Adobe Identity Management System（IMS）への移行 {#migrate-users-to-ims}
 
 セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。 すべてのオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を実装して Campaign に接続する必要があります。
@@ -51,9 +56,9 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 >
 >**コントロールパネルアクセスの影響**
 >
->ユーザーを IMS に移行すると、Adobe Admin Console 内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、Campaign コントロールパネルへのアクセス権は自動的に付与されることに注意してください。Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
+>ユーザーを IMS に移行すると、Adobe Admin Console 内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、 Campaign コントロールパネルへのアクセス権は自動的に付与されることに注意してください。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
 >
->製品プロファイルの命名規則を慎重に確認し、許可されたユーザーのみが コントロールパネルにアクセスできるようにします。コントロールパネル権限の管理について詳しくは、[コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
+>製品プロファイルの命名規則を慎重に確認し、許可されたユーザーのみが コントロールパネルにアクセスできるようにします。 コントロールパネル権限の管理について詳しくは、[コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## ホスト環境と Managed Services 環境を移行する方法 {#ims-migration-procedure}

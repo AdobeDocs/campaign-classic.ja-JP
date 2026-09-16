@@ -10,15 +10,14 @@ exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 TQID: https://experienceleague.adobe.com/Fe-nquKp2-Mp18dsMdNdZnLCjUjKbcat06Arlxi-3-Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 759
+workflow-type: tm+mt
+source-wordcount: '759'
 ht-degree: 100%
-
 ---
-
 # イベントの記述 {#event-description}
 
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 本節では、トランザクションメッセージモジュールのスキーマに関連する SOAP メソッドの詳細を説明します。
 
-2 つの **PushEvent** または&#x200B;**PushEvents** SOAP メソッドが、2 つの **nms:rtEvent** および **nms:BatchEvent** データスキーマにリンクされています。イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
+2 つの **PushEvent** または&#x200B;**PushEvents** SOAP メソッドが、2 つの **nms:rtEvent** および **nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
 
 * **PushEvent** では、メッセージに 1 つのイベントを挿入することができ、
 * **PushEvents** では、メッセージに一連の複数のイベントを挿入することができます。

@@ -2,25 +2,27 @@
 product: campaign
 title: トラッキングされる URL の命令の前処理
 description: メールの URL をスクリプト化し、その URL を引き続きトラッキングするための命令の前処理について詳しく説明します。
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 TQID: https://experienceleague.adobe.com/cDB7CFuf6Gv0eyik3yEyJh4auo97LkazDSahUNPFtec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 661
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
-
 ---
-
 # 命令の前処理 {#pre-processing-instructions}
 
 配信コンテンツで特定の構文を使用して、命令を追加し、トラッキングされるメールの URL をスクリプト化できます。 &lt;%@ 命令は JavaScript ではありません。Adobe Campaign 固有の構文です。
@@ -80,11 +82,11 @@ ht-degree: 100%
 説明：
 
 * **[!DNL object]**：オブジェクト（例：配信、プロバイダーなど）の名前。
-オブジェクトは、次のいずれかの場合です。
-   * **[!DNL delivery]**：現在の配信の場合（詳細と制限事項については下記を参照）。
-   * **[!DNL provider]**：現在の配信のプロバイダー／ルーティング（nms:externalAccount）の場合。
-   * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次から読み込まれる場合：**プロパティ**／**パーソナライゼーション**／**実行コンテキストにオブジェクトを追加**。
-   * foreach ループの項目：下の [Foreach](#foreach) の節を参照してください。
+オブジェクトは次のいずれかになります。
+  * **[!DNL delivery]**：現在の配信の場合（詳細と制限事項については下記を参照）。
+  * **[!DNL provider]**：現在の配信のプロバイダー／ルーティング（nms:externalAccount）の場合。
+  * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次から読み込まれる場合：**プロパティ**／**パーソナライゼーション**／**実行コンテキストにオブジェクトを追加**。
+  * foreach ループの項目：下の [Foreach](#foreach) の節を参照してください。
 * **[!DNL xpath]**：フィールドの xpath。
 * **[!DNL index]** （オプション）：**[!DNL object]** が配列（追加のスクリプトオブジェクト向け）の場合、配列内の項目インデックス（0 から開始）。
 

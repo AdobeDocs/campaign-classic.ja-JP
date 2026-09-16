@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 統合について
 description: アドビの各ソリューションが提供する様々な機能を Campaign と組み合わせることができます
 feature: Overview
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -12,24 +12,30 @@ exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 TQID: https://experienceleague.adobe.com/PUFoWjnwax8oHM3dH-FJDH7b26p4qNBMaJfm2qWGNz0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 744
+workflow-type: tm+mt
+source-wordcount: '735'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign 統合の基本を学ぶ {#about-campaign-integrations}
 
 Adobe Experience Cloud は、強力なソリューションとアプリの共通セットを使用して、共通データプラットフォーム上に構築された、クラス最高の統合ソリューションの包括的なセットです。
@@ -55,7 +61,7 @@ Adobe Campaign をインストールする場合、または既存のインス�
 
 Adobe Experience Cloud ID サービス（ID サービス）は、Experience Cloud 内のすべてのソリューションをまたいで訪問者を識別する、永続的な汎用 ID を提供します。
 
-ユニーク訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。 この ID は、**[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL 依頼者 UUID（@sourceID）]**」フィールドに保存されます。**そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。**
+ユニーク訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。 この ID は、**[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL 依頼者 UUID（@sourceID）]**」フィールドに保存されます。 **そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。**
 
 この ID は、他の Adobe Experience Cloud ソリューションにより、同じ CNAME で認識されます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/analytics-reference/cname){_blank}。
 
@@ -77,7 +83,7 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management システム（IMS）- Adobe ID</strong><br /> </td> 
-   <td>他の Adobe Experience Cloud ソリューションと同じ Adobe ID を使用して Adobe Campaign に接続するには、Adobe IMS を設定します。<br />Adobe Experience Cloud 統合にリンクした特定の機能を使用するには、Adobe ID を使用してログインする必要があります。<br /><p>Adobe Campaign での Adobe ID の実装について詳しくは、<a href="../../integrations/using/about-adobe-id.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> 他の Adobe Experience Cloud ソリューションと同じ Adobe ID を使用して Adobe Campaign に接続するには、Adobe IMS を設定します。<br /> Adobe Experience Cloud 統合にリンクした特定の機能を使用するには、Adobe ID を使用してログインする必要があります。<br /> <p>Adobe Campaign での Adobe ID の実装について詳しくは、<a href="../../integrations/using/about-adobe-id.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 

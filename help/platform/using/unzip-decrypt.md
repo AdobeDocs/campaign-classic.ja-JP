@@ -3,7 +3,7 @@ product: campaign
 title: ファイルの解凍または復号化
 description: 処理を行う前に Campaign でファイルを展開または復号化する方法について説明します
 feature: Workflows, Encryption
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,20 +11,24 @@ exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 TQID: https://experienceleague.adobe.com/bKs1NqCHtMzrqdNZFCYQuj659V6GOHfD-LKClp3aacE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 870
+workflow-type: tm+mt
+source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。 [データ読み込み（ファイル）](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
@@ -116,6 +120,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/41360?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

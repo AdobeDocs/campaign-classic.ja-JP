@@ -8,24 +8,31 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 TQID: https://experienceleague.adobe.com/8NB9NaZqp0IQnnlyezjCt3dTDMvJsdszb8zIJsI9GRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
   - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 837
+workflow-type: tm+mt
+source-wordcount: '843'
 ht-degree: 100%
-
 ---
-
 # Campaign Classic のヘルプおよびサポートオプション {#help-support-options}
 
 Campaign Classic のサポートが必要な場合は、 正しい場所にいます。
@@ -102,7 +109,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 ### コントロールパネルとは
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業を効率化できます。
-詳しくは、[こちらをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)してください。
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)してください。
 
 >[!NOTE]
 >
@@ -141,11 +148,11 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} で利用できるようになりました。 新しいシステムでは、ユーザーごとに、適切な権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} で利用できるようになりました。 新しいシステムでは、ユーザーごとに、適切な権限を持つ新しい個人アカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){_blank}
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}
 
 ### Campaign ダウンロードセンターへのアクセス
 

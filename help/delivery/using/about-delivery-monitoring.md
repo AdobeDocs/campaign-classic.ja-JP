@@ -8,28 +8,38 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 TQID: https://experienceleague.adobe.com/IRAgAQvquHFcfGDRU9Sof8NpSn3khyRRPOdpIRKUOzg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 906
+workflow-type: tm+mt
+source-wordcount: '969'
 ht-degree: 100%
-
 ---
-
 # 配信監視の基本を学ぶ {#about-delivery-monitoring}
 
 >[!IMPORTANT]
@@ -46,11 +56,11 @@ ht-degree: 100%
 
 配信が送信されず、そのステータスが「**保留中**」のままになっている場合は、どのような状況が考えられるでしょうか。
 
-* 実行プロセスでは、一部のリソースの可用性を待機しています。MTA が開始されていない場合があります。
-MTA サーバー上で mta@instance モジュールが開始されていることを確認し、必要であれば MTA モジュールを開始します。[詳細情報](../../production/using/administration.md)
+* 実行プロセスが、リソースが使用可能になるのを待っています。 MTA が開始されていない可能性があります。
+MTA サーバー上で mta@instance モジュールが開始されていることを確認し、必要であれば MTA モジュールを開始します。 [詳細情報](../../production/using/administration.md)。
 
-* 配信では、送信インスタンスで設定されていないアフィニティを使用している場合があります。
-ヒント：トラフィック管理（IP アフィニティ）の設定を確認します。 詳しくは、送信 SMTP トラフィックの制御を参照してください。
+* 送信インスタンスに設定されていないアフィニティを配信で使用している可能性があります。
+ヒント：トラフィック管理の設定（IP アフィニティ）を確認します。 詳しくは、送信 SMTP トラフィックの制御を参照してください。
 
 >[!NOTE]
 >
@@ -64,11 +74,11 @@ MTA サーバー上で mta@instance モジュールが開始されているこ�
 
 * ホストクライアントおよびハイブリッドクライアントの場合、**配信品質の監視**&#x200B;はアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。 詳しくは、アドビのアカウント担当者にお問い合わせください。
 
-* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (メールの配信品質)]** パッケージをインストールする必要があります。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質のモニタリング (メールの配信品質)]** パッケージをインストールする必要があります。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 #### 配信品質のワークフロー {#deliverability-workflow}
 
-Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。 このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメール選定ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。 **[!UICONTROL 配信品質の監視 (メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
+Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。 このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメール選定ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。 **[!UICONTROL 配信品質のモニタリング (メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
 
 **配信品質パッケージを使用すると、以下にアクセスすることができます。**
 
@@ -81,8 +91,8 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 * **[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
 * 各配信は、異なるインターネットサービスプロバイダー（ISP）に関するブロードキャスト統計情報レポートを生成します。 配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
-   * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。 この数は 2％未満にする必要があります。
-   * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。 任意の ISP に対して、この値を 10％以下にする必要があります。
+  * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。 この数は 2％未満にする必要があります。
+  * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。 任意の ISP に対して、この値を 10％以下にする必要があります。
 
   詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
 

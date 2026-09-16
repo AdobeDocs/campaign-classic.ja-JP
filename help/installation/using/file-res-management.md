@@ -3,7 +3,7 @@ product: campaign
 title: ファイルとリソースの管理
 feature: Installation, Application Settings
 description: Campaignでファイルとリソース管理を設定する方法について説明します
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,18 +11,19 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 TQID: https://experienceleague.adobe.com/GyNWNrT81f8tWIQizlu3KcVgKvepCjqd6G40DKeOlGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 5%
-
+source-wordcount: '663'
+ht-degree: 3%
 ---
-
 # ファイルとリソースの管理{#file-and-resmanagement}
 
 
@@ -31,7 +32,7 @@ ht-degree: 5%
 
 **uploadWhiteList**&#x200B;属性を使用して、Adobe Campaign サーバーでアップロードできるファイルタイプを制限します。
 
-この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+この属性は、**serverConf.xml** ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 この属性のデフォルト値は&#x200B;**.+**&#x200B;で、任意のファイルタイプをアップロードできます。
 
@@ -47,7 +48,7 @@ ht-degree: 5%
 
 ## プロキシ接続設定 {#proxy-connection-configuration}
 
-例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+例えば、**ファイル転送** ワークフローアクティビティを使用して、Campaign サーバーをプロキシを介して外部システムに接続できます。 これを実現するには、特定のコマンドを使用して、**serverConf.xml** ファイルの&#x200B;**proxyConfig** セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 HTTP、HTTPS、FTP、SFTPのプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTPおよびHTTPS プロトコルパラメーターは&#x200B;**使用できなくなります**。 これらのパラメーターは、以前のビルド（9032を含む）で引き続き使用できるため、以下に示します。
 

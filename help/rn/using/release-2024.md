@@ -9,25 +9,31 @@ exl-id: 8e20391d-3628-4d0c-b413-c34e046ae810
 TQID: https://experienceleague.adobe.com/xYAjQLPvvsTN7DqzdIC8cdyODew3nA-ipPjccmY8LDY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 408
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
-
 ---
-
 # 2024 リリース{#release-2024}
 
 ## リリース 7.4.1 - ビルド 9383 {#release-7-4-1}
@@ -63,8 +69,8 @@ _2024年6月18日（PT）_
 
   サービスの継続性を確保するために、Campaign v7.4 には以下が付属しています。
 
-   * iOS 用の新しい Campaign SDK 1.0.27（iOS 16 および 17 に対応）と、最新の [Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}。
-   * Android 14 用の新しい Campaign SDK。
+  * iOS 用の新しい Campaign SDK 1.0.27（iOS 16 および 17 に対応）と、最新の [Apple iOS プライバシーリクエスト要件](https://developer.apple.com/news/?id=r1henawx){target="_blank"}。
+  * Android 14 用の新しい Campaign SDK。
 
 ### その他の変更 {#release-7-4-1-other}
 

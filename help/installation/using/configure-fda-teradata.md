@@ -10,18 +10,19 @@ exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 TQID: https://experienceleague.adobe.com/tsmDBbWBQljV8wF-75sSzrF6v7kO3YeTLqk8L4-ifag
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 65%
-
 ---
-
 # Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
 
@@ -29,7 +30,7 @@ ht-degree: 65%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 Teradataへのアクセスを設定するには、次の手順に従います。
 
 1. [Teradata ドライバー](#teradata-config)をインストールして設定します
-1. CampaignでTeradata [外部アカウント &#x200B;](#teradata-external)を設定する
+1. CampaignでTeradata [外部アカウント ](#teradata-external)を設定する
 1. TeradataおよびCampaign サーバー用に[追加の設定](#teradata-additional-configurations)を設定します
 
 ## Teradata設定 {#teradata-config}
@@ -113,7 +114,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 | TD_MAX_SESSIONS | Teradata Parallel Transporterがオペレータージョブに対して取得できるログオンセッションの最大数を指定します。 |
 | TimeZoneName | サーバーのタイムゾーンの名前。 |
 | CharacterSet | Teradataの文字セットを設定するために使用します。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
-| IANAAppCodePage | ODBC アプリケーションコードページ <br>詳細については、[このページ &#x200B;](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)を参照してください |
+| IANAAppCodePage | ODBC アプリケーションコードページ <br>詳細については、[このページ ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)を参照してください |
 
 ### 追加のODBC外部アカウントの追加 {#add-external}
 

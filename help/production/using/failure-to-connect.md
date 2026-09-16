@@ -3,7 +3,7 @@ product: campaign
 title: 接続の失敗
 description: 接続の失敗
 feature: Monitoring
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,27 +11,30 @@ exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 TQID: https://experienceleague.adobe.com/zQXUUtLQveDPTu8blS48gCzTl8lv09vlJXAtjAjgtW4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 417
-ht-degree: 11%
-
+source-wordcount: '405'
+ht-degree: 9%
 ---
-
 # 接続の失敗{#failure-to-connect}
 
 
 
 接続の問題の理由は複数あり、さまざまなコンテキストに依存します。
 
-次のテストを試すことができます。接続エラーが解決しない場合は、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+次のテストを試すことができます。接続エラーが解決しない場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
 
@@ -70,7 +73,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>セキュリティゾーンの一般的な構成を確認します。</td>
-<td>セキュリティゾーンの設定について詳しくは、この節の<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ja#configuring-campaign-server"/>を参照してください。</a></td>
+<td>セキュリティゾーンの設定について詳しくは、この節の<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>を参照してください。</a></td>
 </tr>
 <tr>
 <td>コマンド nlserver pdumpは<b> タスクを返しません</b></td>

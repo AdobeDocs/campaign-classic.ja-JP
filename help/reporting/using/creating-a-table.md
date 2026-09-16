@@ -2,32 +2,41 @@
 product: campaign
 title: テーブルの作成
 description: テーブルの作成
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 TQID: https://experienceleague.adobe.com/vllk9gvpPimjTfuLaap9UVhNFpwHGGdYHNzLz80meCw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2672
+workflow-type: tm+mt
+source-wordcount: '2663'
 ht-degree: 100%
-
 ---
-
 # テーブルの作成{#creating-a-table}
 
 
@@ -127,7 +136,7 @@ ht-degree: 100%
 
   それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。 「**[!UICONTROL ラベル]**」フィールドにラベルを入力します。 それがそのまま表示されます。
 
-* 集計（平均や合計など）を計算し、それをセルに表示します。
+* 集計（平均や合計など）を計算し、 それをセルに表示します。
 
   それには、**[!UICONTROL 集計]**&#x200B;メニューエントリを使用し、目的とするキャンペーンを選択します。
 

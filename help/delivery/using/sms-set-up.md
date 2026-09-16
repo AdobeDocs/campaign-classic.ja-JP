@@ -9,30 +9,42 @@ exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 TQID: https://experienceleague.adobe.com/quIMssNONhvwEBVIEic9Dhe2x4-E0H5U8nIEruSUhtg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1801
+workflow-type: tm+mt
+source-wordcount: '1844'
 ht-degree: 100%
-
 ---
-
 # スタンドアロンインスタンスでの SMS チャネルの設定 {#setting-up-sms-channel}
 
 携帯電話に送信するには、次が必要です。
@@ -54,7 +66,7 @@ ht-degree: 100%
 >複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 [SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
 
 携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
-SMS プロトコルと設定について詳しくは、こちらの[ページ](sms-protocol.md)を参照してください。
+SMS プロトコルと設定の詳細については、こちらの [ページ](sms-protocol.md)を参照してください。
 
 これをおこなうには、以下の手順に従います。
 
@@ -326,8 +338,8 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 * エンコードのマッピングが定義されていない場合、コネクタは一般的な動作をおこないます。
 
-   * **data_coding = 0** を設定して、GSM エンコードの使用を試行します。
-   * GSM エンコードが失敗した場合は、**data_coding = 8** を設定して、**UCS2** エンコードの使用を試行します。
+  * **data_coding = 0** を設定して、GSM エンコードの使用を試行します。
+  * GSM エンコードが失敗した場合は、**data_coding = 8** を設定して、**UCS2** エンコードの使用を試行します。
 
 * 使用するエンコードと、リンクされた **[!UICONTROL data_coding]** フィールド値を指定した場合、Adobe Campaign はリストの最初のエンコードを使用します。最初のエンコードが使用できない場合、その次のエンコードを使用します。
 
@@ -361,7 +373,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 * キーワードに関わらず同じ返信を送信する場合は、「**[!UICONTROL キーワード]**」列を空白のままにします。
 * 返信せずにアクションを実行する場合は、「**[!UICONTROL 回答]**」列を空白のままにします。 これにより、例えば、「STOP」以外のメッセージを送信したユーザーを強制隔離から削除できます。
 
-複数の外部アカウントが同じプロバイダーアカウントで拡張された汎用 SMPP コネクタを使用している場合、ショートコードへの返信を送信すると、外部アカウント接続のいずれかで受信される場合がある、といった問題が発生する場合があります。その結果、送信される自動返信は、期待されるメッセージとは異なる可能性があります。
+複数の外部アカウントが同じプロバイダーアカウントで拡張された汎用 SMPP コネクタを使用している場合、ショートコードへの返信がどの外部アカウント接続で受信されるかわからない、といった問題が発生する可能性があります。 これにより、送信された自動返信が予期されるメッセージではない可能性があります。
 こうした問題を回避するには、使用しているプロバイダーに応じて次のいずれかのソリューションを適用します。
 
 * 各外部アカウントに対して 1 つのプロバイダーアカウントを作成

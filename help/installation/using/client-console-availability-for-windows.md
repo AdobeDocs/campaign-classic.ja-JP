@@ -3,7 +3,7 @@ product: campaign
 title: Windows でのクライアントコンソールの可用性
 description: Windows でのクライアントコンソールの可用性
 feature: Installation, Upgrade
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 TQID: https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPkK6gI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 366
-ht-degree: 13%
-
+source-wordcount: '354'
+ht-degree: 10%
 ---
-
 # Windows でのクライアントコンソールの可用性{#client-console-availability-for-windows}
 
 

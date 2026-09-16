@@ -3,7 +3,7 @@ product: campaign
 title: SpamAssassinの設定
 description: SpamAssassinの設定
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,24 +11,24 @@ exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 TQID: https://experienceleague.adobe.com/vdeIEtt5-uhrKN-DcrRJQRmKV2zGin7BuXkPia4b25g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 4%
-
+source-wordcount: '1017'
+ht-degree: 3%
 ---
-
 # SpamAssassinの設定{#configuring-spamassassin}
 
 
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
 
 ## 概要 {#overview}
 
@@ -57,7 +57,7 @@ WindowsでSpamAssassinをインストールして設定し、Adobe Campaignと�
 
 ### SpamAssassinのインストール {#installing-spamassassin}
 
-1. ユーザーの資格情報を使用して[&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+1. ユーザーの資格情報を使用して[ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 1. **Neolane Spam Assassin （Windows インストール） （2.0）** ファイル （neolane_spamassassin.2.0.zip）をダウンロードします。
 1. このファイルをAdobe Campaign サーバーにコピーし、解凍します。
 
@@ -108,7 +108,7 @@ WindowsでSpamAssassinをインストールして設定し、Adobe Campaignと�
 
 ### SpamAssassinをAdobe Campaignに統合する {#integrating-spamassassin-into-adobe-campaign}
 
-1. **`[INSTALL]/conf/serverConf.xml`** ファイルを編集します。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+1. **`[INSTALL]/conf/serverConf.xml`** ファイルを編集します。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 1. **Web** ノードの&#x200B;**spamCheck**&#x200B;要素&#39; **command**&#x200B;属性の値を変更します。 これを行うには、次のコマンドを実行します。
 
    ```

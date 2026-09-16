@@ -10,18 +10,19 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 TQID: https://experienceleague.adobe.com/-dvlEuumTaNU2K-AHysUyUmwDay9oaZGLerkpR4pzzw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2157
+source-wordcount: '2157'
 ht-degree: 76%
-
 ---
-
 # 外部アカウント{#external-accounts}
 
 Adobe Campaign には、事前に定義された一連の外部アカウントが付属しています。 外部システムとの接続を設定する場合は、新しい外部アカウントを作成します。
@@ -55,7 +56,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 ### バウンスメール {#bounce-mails-external-account}
 
-**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 この外部アカウントについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
+**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 この外部アカウントについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
 
 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -137,7 +138,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 * **ミッドソーシング**、**外部** ルーティング、または&#x200B;**バルク**&#x200B;配信ルーティングタイプを使用できます。
 
-* **バルク**&#x200B;および&#x200B;**ミッドソーシング**&#x200B;配信モードの場合、**ブランディング** タブでブランディングパラメーターを指定できます。 これらのパラメーターは、**ミラーページ URL**&#x200B;および&#x200B;**エラーアドレス**&#x200B;の[&#x200B; デフォルトパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters)を、ブランドに固有の設定で上書きするために使用されます。
+* **バルク**&#x200B;および&#x200B;**ミッドソーシング**&#x200B;配信モードの場合、**ブランディング** タブでブランディングパラメーターを指定できます。 これらのパラメーターは、**ミラーページ URL**&#x200B;および&#x200B;**エラーアドレス**&#x200B;の[ デフォルトパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters)を、ブランドに固有の設定で上書きするために使用されます。
 
   ![](assets/ext-account-branding.png)
 
@@ -231,7 +232,7 @@ To add SSH keys on Windows:
 
 **外部データベース** タイプの外部アカウントを使用して、外部データベースに接続します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
-Campaignと互換性のある外部データベースは、[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)に一覧表示されます
+Campaignと互換性のある外部データベースは、[互換性マトリックス ](../../rn/using/compatibility-matrix.md)に一覧表示されます
 
 ![](assets/ext_account_11.png)
 
@@ -294,7 +295,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
   Adobe Experience Cloud テナントの名前。
 
-この設定について詳しくは、[このページ &#x200B;](../../integrations/using/configuring-ims.md)を参照してください。
+この設定について詳しくは、[このページ ](../../integrations/using/configuring-ims.md)を参照してください。
 
 ## Web 分析 {#web-analytics-external-account}
 
@@ -334,7 +335,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
-Campaign - Microsoft Dynamics CRM コネクタの詳細については、この[&#x200B; ページ &#x200B;](../../platform/using/crm-ms-dynamics.md)を参照してください。
+Campaign - Microsoft Dynamics CRM コネクタの詳細については、この[ ページ ](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 

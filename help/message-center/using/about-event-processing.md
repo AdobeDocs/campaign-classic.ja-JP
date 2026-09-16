@@ -10,17 +10,17 @@ exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 TQID: https://experienceleague.adobe.com/pex7wiGCNMdY86-Ug7dyLxE3RRT-ejlgz8eH7zVmZc4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 728
+workflow-type: tm+mt
+source-wordcount: '728'
 ht-degree: 100%
-
 ---
-
 # イベントの処理 {#about-event-processing}
 
 
@@ -92,8 +92,8 @@ ht-degree: 100%
 
 * **保留中**：イベントは次のいずれかになります。
 
-   * 収集されたばかりで処理されていないイベント。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
-   * 処理されたが、確認でエラーになったイベント。 **[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。 このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
+  * 収集されたばかりで処理されていないイベント。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
+  * 処理されたが、確認でエラーになったイベント。 **[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。 このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
 
 * **配信保留**：イベントは処理され、配信テンプレートがリンクされています。 メールは配信保留となり、標準的な配信処理が適用されます。 詳細を確認するには、該当する配信を開きます。
 * **送信済み**、**無視**、**配信エラー**：これらの配信ステータスは、**updateEventsStatus** ワークフローで回復します。 詳細を確認するには、該当する配信を開きます。

@@ -9,31 +9,43 @@ exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 TQID: https://experienceleague.adobe.com/GApH-ZtovMX--PzISD-Pvafo3pfcbG-OqHzp5kCvcNQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 711
+workflow-type: tm+mt
+source-wordcount: '711'
 ht-degree: 100%
-
 ---
-
 # ネームド権限を使用した権限の設定{#named-rights}
 
 ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。 それらのネームド権限の設定は、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;で編集できます。
@@ -46,13 +58,13 @@ ht-degree: 100%
 
   >[!IMPORTANT]
   >
-  >**IMS への移行後：** Adobe Identity Management System（IMS）に移行すると、名前に「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Administrators」、「admin」、「admins」など）には、Campaign コントロールパネルへのアクセス権が自動的に付与されます。コントロールパネルへのアクセス権をユーザーに付与する予定がない限り、ネームド権限または役割名に「admin」を使用しないことをお勧めします。詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
+  >**IMS への移行後：** Adobe Identity Management System（IMS）に移行すると、名前に「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Administrators」、「admin」、「admins」など） には、Campaign コントロールパネルへのアクセス権が自動的に付与されます。 コントロールパネルへのアクセス権をユーザーに付与する予定がない限り、ネームド権限または役割名に「admin」を使用しないことをお勧めします。 詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。 **[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
 
   >[!IMPORTANT]
   >
-  >**IMS への移行後：**「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Approval Administrator」など）には、Campaign コントロールパネルへのアクセス権が付与されます。詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
+  >**IMS への移行後：**「admin」という単語が含まれる製品プロファイルまたはネームド権限（「Approval Administrator」など）には、Campaign コントロールパネルへのアクセス権が付与されます。 詳しくは、[IMS の移行](../../technotes/using/migrate-users-to-ims.md)および[コントロールパネルへのアクセス権の管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 
@@ -100,4 +112,4 @@ ht-degree: 100%
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ja)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

@@ -3,7 +3,7 @@ product: campaign
 title: サーバーのインストール
 description: サーバーのインストール
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 TQID: https://experienceleague.adobe.com/hs8ha4nJ0Mj33-Ae5sT29rM8rSZ-aJU3wWpSFwzYmWw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 8%
-
+source-wordcount: '412'
+ht-degree: 5%
 ---
-
 # サーバーのインストール{#installing-the-server}
 
 ## インストールプログラムの実行 {#executing-the-installation-program}
@@ -65,7 +64,7 @@ Adobe Campaign サーバーのインストール手順は次のとおりです�
    >
    >サーバーのインストールが完了したら、ネットワークの問題を回避するためにサーバーの再起動が必要です。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 サーバー[&#128279;](#first-start-up-of-the-server)の最初の起動を参照してください。
+   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 サーバー](#first-start-up-of-the-server)の[最初の起動を参照してください。
 
 ## インストールテストの概要 {#summary-installation-testing}
 

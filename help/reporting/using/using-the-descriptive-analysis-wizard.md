@@ -2,36 +2,42 @@
 product: campaign
 title: 最初の記述的分析レポートの作成
 description: アシスタントを使用して、最初の記述的分析レポートを作成する方法を学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 TQID: https://experienceleague.adobe.com/ilSq3cfWpljwwRtjgjbgJe2NmBFnPJhIK5e0PMBMJVI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1673
+workflow-type: tm+mt
+source-wordcount: '1664'
 ht-degree: 100%
-
 ---
-
 # 最初の記述的分析レポートの作成 {#using-the-descriptive-analysis-wizard}
 
 記述的分析レポートを作成するには、専用のアシスタントを使用します。 設定は、分析するデータおよび希望するレンダリングによって異なります。
 
 ## データベース内のデータの分析 {#analyzing-data-in-the-database}
 
-記述的分析アシスタントは、**[!UICONTROL ツール／記述的分析]**&#x200B;メニューで起動できます。その場合は、デフォルトで、受信者に関係する分析になります（**nms:recipient**）。分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
+記述的分析アシスタントは、**[!UICONTROL ツール／記述的分析]**&#x200B;メニューで起動できます。その場合は、デフォルトで、受信者に関係する分析になります（**nms:recipient**）。 分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
@@ -180,17 +186,17 @@ ht-degree: 100%
 
   手順は次のとおりです。
 
-   1. 購入合計額を計算します。
+  1. 購入合計額を計算します。
 
-      ![](assets/report_compute_data_sample2.png)
+     ![](assets/report_compute_data_sample2.png)
 
-   1. この統計はテーブルには表示されません。 「**[!UICONTROL 詳細設定]**」タブの「**[!UICONTROL テーブルで表示]**」オプションのチェックをオフにする必要があります。
+  1. この統計はテーブルには表示されません。 「**[!UICONTROL 詳細設定]**」タブの「**[!UICONTROL テーブルで表示]**」オプションのチェックをオフにする必要があります。
 
-      ![](assets/report_compute_data_sample3.png)
+     ![](assets/report_compute_data_sample3.png)
 
-   1. **[!UICONTROL 計算されたフィールド]**&#x200B;タイプの統計を新しく作成し、「**[!UICONTROL ユーザー関数]**」フィールドに数式、**@purchases/@count** を入力します。
+  1. **[!UICONTROL 計算されたフィールド]**&#x200B;タイプの統計を新しく作成し、「**[!UICONTROL ユーザー関数]**」フィールドに数式、**@purchases/@count** を入力します。
 
-      ![](assets/report_compute_data_sample4.png)
+     ![](assets/report_compute_data_sample4.png)
 
 ### レポートを表示 {#displaying-the-report}
 

@@ -3,24 +3,26 @@ product: campaign
 title: Campaign Classicのビルトインパッケージのインストール
 description: Campaign ビルトインパッケージのインストール方法について説明します
 feature: Installation, Application Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1404'
 ht-degree: 16%
-
 ---
-
 # Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
 
 
@@ -168,7 +170,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -183,7 +185,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +195,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> 中央/ローカル マーケティング （分散型マーケティング） <br /> </td> 
-   <td> 中央エンティティ（本社、マーケティング部門等）間の連携を図る。 ローカルエンティティ（セールスポイント、地域代理店など）。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja" target="_blank">詳細情報</a><br /> </td> 
+   <td> 中央エンティティ（本社、マーケティング部門等）間の連携を図る。 。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja" target="_blank">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -212,13 +214,13 @@ ht-degree: 16%
    <td> マーケティング</td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Shared Audiences Integration<br /> </td> 
+   <td> Adobe Experience Cloud共有オーディエンス統合<br /> </td> 
    <td> Adobe Experience Cloudのソリューションやアプリとオーディエンス/セグメントを交換および共有できます。 IMSが必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud<br />との統合 </td> 
-   <td> 様々なAdobe Experience Cloud ソリューションからAdobe Campaignにオーディエンス/セグメントをインポートおよびエクスポートできます。 オプション。 <a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
+   <td> Adobe Experience Cloudとの統合<br /> </td> 
+   <td> 様々なAdobe Experience Cloud ソリューションからAdobe Campaignにオーディエンス/セグメントを読み込み、書き出すことができます。 オプション。 <a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 

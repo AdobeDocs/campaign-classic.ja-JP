@@ -7,17 +7,17 @@ exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 1226
+workflow-type: tm+mt
+source-wordcount: '1226'
 ht-degree: 100%
-
 ---
-
 # トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
 
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージをインストールする前に実行する必要があります。
+>配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、 トランザクションメッセージパッケージをインストールする前に実行する必要があります。
 
 ### 配信チャネルの追加 {#adding-a-delivery-channel}
 

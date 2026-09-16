@@ -4,28 +4,33 @@ title: フォームの編集
 description: フォームの編集
 feature: Configuration
 role: Developer
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
 TQID: https://experienceleague.adobe.com/9HCx821ff3mVcpUhmpUziFpZdmAnPUC49ootzGDOjLQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1750
-ht-degree: 3%
-
+source-wordcount: '1741'
+ht-degree: 2%
 ---
-
 # フォームの編集{#editing-forms}
 
 ## 概要
@@ -37,7 +42,7 @@ ht-degree: 3%
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 工場出荷時の入力フォームは、工場のデータスキーマに基づいています。
 * 定義したデータスキーマにもとづいて、カスタム入力フォームを作成できます。
 
-Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [&#x200B; フォーム構造](form-structure.md)の詳細をご覧ください。
+Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [ フォーム構造](form-structure.md)の詳細をご覧ください。
 
 入力フォームにアクセスするには、メニューから&#x200B;**[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]**&#x200B;を選択します。
 
@@ -65,7 +70,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 * コンテンツ管理
 
-  コンテンツ管理にこのフォームタイプを使用します。 この[&#x200B; ユースケース &#x200B;](../../delivery/using/use-case-creating-content-management.md)を参照してください。
+  コンテンツ管理にこのフォームタイプを使用します。 この[ ユースケース ](../../delivery/using/use-case-creating-content-management.md)を参照してください。
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -256,7 +261,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳しくは、[&#x200B; メモリリストコントロール &#x200B;](form-structure.md#memory-list-controls)を参照してください。
+   詳しくは、[ メモリリストコントロール ](form-structure.md#memory-list-controls)を参照してください。
 
 1. オプションで、フィールドへのアクセスを定義します。
 
@@ -499,7 +504,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 </leave>
 ```
 
-[式フィールド &#x200B;](form-structure.md#expression-field)と[&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms)の詳細をご確認ください。
+[式フィールド ](form-structure.md#expression-field)と[ フォームコンテキスト ](form-structure.md#context-of-forms)の詳細をご確認ください。
 
 ### 値の検証
 
@@ -560,4 +565,4 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms)の詳細をご覧ください。
+この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [ フォームコンテキスト ](form-structure.md#context-of-forms)の詳細をご覧ください。

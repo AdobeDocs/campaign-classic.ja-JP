@@ -3,7 +3,7 @@ product: campaign
 title: オファー表示域の管理
 description: オファー表示域の管理
 feature: Interaction, Offers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -11,18 +11,19 @@ exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 TQID: https://experienceleague.adobe.com/IhxfOIyBotVBe0e1tulwq73uI6uw6Es9rBXxwSnrric
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1101
+workflow-type: tm+mt
+source-wordcount: '1092'
 ht-degree: 100%
-
 ---
-
 # オファー表示域の管理{#managing-offer-presentation}
 
 

@@ -3,7 +3,7 @@ product: campaign
 title: テクニカルメール設定
 description: メール配信時にインスタンスの出力を制御するようにCampaignを設定する方法を説明します
 feature: Installation, Deliverability
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,23 +11,29 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 3230
+source-wordcount: '3218'
 ht-degree: 15%
-
 ---
-
 # 技術的なメール設定{#email-deliverability}
 
 
@@ -38,11 +44,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。例えば、サーバーとインスタンスの設定ファイルにアクセスできます。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。例えば、サーバーとインスタンスの設定ファイルにアクセスできます。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
 
-Adobe Campaignでの配信品質に関する概念とベストプラクティスについて詳しくは、この[&#x200B; セクション &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
+Adobe Campaignでの配信品質に関する概念とベストプラクティスについて詳しくは、この[ セクション ](../../delivery/using/about-deliverability.md)を参照してください。
 
-Adobe プラットフォームによる電子メールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質について詳しくは、[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe プラットフォームによる電子メールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質について詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 動作の原則 {#operating-principle}
 
@@ -90,7 +96,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 配信統計は、各ターゲット MXおよび各ソース IPに対して保持されます。 例えば、ターゲットドメインに5 MXがあり、プラットフォームが3つの異なるIP アドレスを使用できる場合、サーバーはこのドメインに対して最大15個の一連の指標を管理できます。
 
-ソース IP アドレスは、パブリック IP アドレス、つまりリモート メール サーバーで表示されるアドレスと一致します。 このIP アドレスは、NAT ルーターが提供されている場合、**mta**&#x200B;をホストするマシンのアドレスとは異なる可能性があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子との関連付けは、**serverConf.xml**&#x200B;設定ファイルで宣言されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+ソース IP アドレスは、パブリック IP アドレス、つまりリモート メール サーバーで表示されるアドレスと一致します。 このIP アドレスは、NAT ルーターが提供されている場合、**mta**&#x200B;をホストするマシンのアドレスとは異なる可能性があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子との関連付けは、**serverConf.xml**&#x200B;設定ファイルで宣言されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 ## 配信の出力制御 {#delivery-output-controlling}
 
@@ -108,7 +114,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 1. **成功**: メッセージは正常に送信されました。 メッセージが更新されます。
 1. **メッセージが失敗しました**：選択した受信者のメッセージが接続サーバーによって拒否されました。 この結果は、リターンコード 550から599に一致しますが、例外を定義できます。
-1. **セッションが失敗しました** （5.11以降）:**mta**&#x200B;がこのメッセージに対する回答を受信した場合、メッセージは破棄されます（[&#x200B; メッセージ放棄](#message-abandonment)を参照）。 メッセージは別のパスに送信されるか、他のパスがない場合は保留中に設定されます（[&#x200B; メッセージ保留中](#message-pending)を参照）。
+1. **セッションが失敗しました** （5.11以降）:**mta**&#x200B;がこのメッセージに対する回答を受信した場合、メッセージは破棄されます（[ メッセージ放棄](#message-abandonment)を参照）。 メッセージは別のパスに送信されるか、他のパスがない場合は保留中に設定されます（[ メッセージ保留中](#message-pending)を参照）。
 
    >[!NOTE]
    >
@@ -138,7 +144,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 ### サーバーポートの定義 {#definition-of-the-server-port}
 
-デフォルトでは、統計サーバーはポート 7777でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+デフォルトでは、統計サーバーはポート 7777でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 ```
 <stat port="1234"/>
@@ -258,14 +264,14 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
   例えば、次のアドレスを指定します。
 
-   * a.mx.yahoo.com
-   * b.mx.yahoo.com
-   * c.mx.yahoo.com
+  * a.mx.yahoo.com
+  * b.mx.yahoo.com
+  * c.mx.yahoo.com
 
   は、次のマスクと互換性があります。
 
-   * &#42;.yahoo.com
-   * ?.mx.yahoo.com
+  * &#42;.yahoo.com
+  * ?.mx.yahoo.com
 
   例えば、E メールアドレス foobar@gmail.com の場合、ドメインは gmail.com で、MX レコードは次のようになります。
 
@@ -281,8 +287,8 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
 * **[!UICONTROL 識別子の範囲]**：このオプションを使用すると、ルールが適用される識別子（publicID）の範囲を指定できます。 次を指定できます。
 
-   * 番号：このルールはこのpublicIdにのみ適用されます。
-   * 数字の範囲（**number1-number2**）：このルールは、これら2つの数字の間のすべてのpublicIdに適用されます。
+  * 番号：このルールはこのpublicIdにのみ適用されます。
+  * 数字の範囲（**number1-number2**）：このルールは、これら2つの数字の間のすべてのpublicIdに適用されます。
 
   >[!NOTE]
   >
@@ -306,14 +312,14 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 * **[!UICONTROL タイムアウト]**: SMTP サーバーとの他の交換の最大待機時間です。
 * **[!UICONTROL TLS]**: メール配信を暗号化できるTLS プロトコルを選択して有効にできます。 MX マスクごとに、次のオプションを使用できます。
 
-   * **[!UICONTROL デフォルト設定]**：これは、適用されるserverConf.xml設定ファイルで指定される一般的な設定です。
+  * **[!UICONTROL デフォルト設定]**：これは、適用されるserverConf.xml設定ファイルで指定される一般的な設定です。
 
-     >[!IMPORTANT]
-     >
-     >デフォルト設定を変更することはお勧めしません。
+    >[!IMPORTANT]
+    >
+    >デフォルト設定を変更することはお勧めしません。
 
-   * **[!UICONTROL 無効]**：メッセージは暗号化なしで体系的に送信されます。
-   * **[!UICONTROL 商談]**：受信サーバー（SMTP）がTLS プロトコルを生成できる場合、メッセージ配信は暗号化されます。
+  * **[!UICONTROL 無効]**：メッセージは暗号化なしで体系的に送信されます。
+  * **[!UICONTROL 商談]**：受信サーバー（SMTP）がTLS プロトコルを生成できる場合、メッセージ配信は暗号化されます。
 
 設定例：
 
@@ -344,7 +350,7 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
 「**[!UICONTROL 画像を含める]**」オプションが有効になっている場合、これらはメールの本文に直接表示されます。 その後、画像がアップロードされ、URL リンクがコンテンツに置き換えられます。
 
-このオプションは、**Deco-mail**、**Decore Mail**&#x200B;または&#x200B;**Decoration Mail**&#x200B;の日本市場で特に使用されます。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"}を参照してください。
+このオプションは、**Deco-mail**、**Decore Mail**&#x200B;または&#x200B;**Decoration Mail**&#x200B;の日本市場で特に使用されます。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >

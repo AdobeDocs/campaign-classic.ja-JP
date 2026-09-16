@@ -2,28 +2,33 @@
 product: campaign
 title: web フォームの翻訳
 description: web フォームの翻訳
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 TQID: https://experienceleague.adobe.com/3oyhvCWX30kK7dtytjLYvO5Xnbu2-I7FGeJPcjcreho
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1689
+workflow-type: tm+mt
+source-wordcount: '1680'
 ht-degree: 100%
-
 ---
-
 # web フォームの翻訳{#translating-a-web-form}
 
 
@@ -145,7 +150,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 >
 >エクスポートファイルの名前は、自動的に生成されます。 同じエクスポートを複数回実行すると、既存のファイルは新しいファイルに置き換えられます。 前のファイルを保持する必要がある場合は、「**[!UICONTROL ターゲットフォルダー]**」を変更してから、「**[!UICONTROL 開始]**」を再びクリックして、エクスポートを実行します。
 
-**CSV 形式**&#x200B;でファイルをエクスポートする場合、各言語はステータスおよび承認ステータスにリンクされます。 **承認しますか？**&#x200B;列を使用すると、翻訳を承認できます。この列には、値 **Yes** または **No** が含まれることがあります。 統合エディター（[エディターでの翻訳の管理](#managing-translations-in-the-editor)を参照）については、翻訳の承認はオプションで、処理をブロックしません。
+**CSV 形式**&#x200B;でファイルをエクスポートする場合、各言語はステータスおよび承認ステータスにリンクされます。 **承認しますか？** 列を使用すると、翻訳を承認できます。 この列には、値 **Yes** または **No** が含まれることがあります。 統合エディター（[エディターでの翻訳の管理](#managing-translations-in-the-editor)を参照）については、翻訳の承認はオプションで、処理をブロックしません。
 
 ### ファイルのインポート {#importing-files}
 
@@ -452,7 +457,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 
 ### システム文字列の翻訳 {#translating-the-system-strings}
 
-システム文字列は、すべての Web アプリケーションで標準の文字列です。 例：「**[!UICONTROL 次へ]**」、「**[!UICONTROL 前へ]**」、「**[!UICONTROL 承認]**」の各ボタン、**[!UICONTROL 読み込み中]**&#x200B;メッセージなど。デフォルトでは、一部の言語には、これらの文字列の翻訳を含む辞書が含まれています。言語のリストについて詳しくは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
+システム文字列は、すべての Web アプリケーションで標準の文字列です。 例：「**[!UICONTROL 次へ]**」、「**[!UICONTROL 前へ]**」、「**[!UICONTROL 承認]**」の各ボタン、**[!UICONTROL 読み込み中]**&#x200B;メッセージなど。デフォルトでは、一部の言語には、これらの文字列の翻訳を含む辞書が含まれています。 言語のリストについて詳しくは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
 システム辞書が翻訳されていない言語に Web アプリケーションを翻訳する場合、一部の翻訳が見つからないことを知らせる警告メッセージが表示されます。
 

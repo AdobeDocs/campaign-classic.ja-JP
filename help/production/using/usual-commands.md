@@ -3,7 +3,7 @@ product: campaign
 title: 通常のコマンド
 description: 通常のコマンド
 feature: Monitoring
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,17 +11,18 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 11%
-
+source-wordcount: '446'
+ht-degree: 8%
 ---
-
 # 通常のコマンド{#usual-commands}
 
 
@@ -30,7 +31,7 @@ ht-degree: 11%
 
 コマンド **nlserver**&#x200B;は、Adobe Campaign アプリケーション全体の入力コマンドです。
 
-このコマンドの構文は次のとおりです。**nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+このコマンドの構文は次のとおりです。**nlserver **`<command>`****`<arguments>`****
 
 パラメーター&#x200B;**`<command>`**&#x200B;はモジュールに対応しています。
 
@@ -104,21 +105,21 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
 * rootまたは管理者のアクセス権がある場合：
 
-   * Linuxでは：
+  * Linuxでは：
 
-     ```sql
-     /etc/init.d/nlserver6 stop
-     ```
+    ```sql
+    /etc/init.d/nlserver6 stop
+    ```
 
-     >[!NOTE]
-     >
-     >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl stop nlserver**
+    >[!NOTE]
+    >
+    >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl stop nlserver**
 
-   * Windowsでは：
+  * Windowsでは：
 
-     ```sql
-     net stop nlserver6
-     ```
+    ```sql
+    net stop nlserver6
+    ```
 
 * そうでない場合は、Adobe Campaign アカウントで次の操作を行います。
 
@@ -132,13 +133,13 @@ Adobe Campaign サービスを停止するには、次のいずれかのコマ�
 
 * rootまたは管理者のアクセス権がある場合：
 
-   * Linuxの場合：`/etc/init.d/nlserver6 start`
+  * Linuxの場合：`/etc/init.d/nlserver6 start`
 
-     >[!NOTE]
-     >
-     >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl start nlserver**
+    >[!NOTE]
+    >
+    >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl start nlserver**
 
-   * Windowsの場合：`net start nlserver6`
+  * Windowsの場合：`net start nlserver6`
 
 * それ以外の場合は、Adobe Campaign アカウントで&#x200B;**nlserver watchdog -svc -noconsole**
 

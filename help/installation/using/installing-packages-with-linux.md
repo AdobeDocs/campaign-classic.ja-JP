@@ -3,7 +3,7 @@ product: campaign
 title: Linuxでのパッケージのインストール
 description: Linuxでのパッケージのインストール
 feature: Installation, Application Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -11,15 +11,14 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 4%
-
+source-wordcount: '1145'
+ht-degree: 3%
 ---
-
 # Linuxでのパッケージのインストール {#installing-packages-with-linux}
 
 Adobe Campaignには、特定のバージョンのバイナリと設定ファイルを含む&#x200B;**nlserver** パッケージが付属しています。
@@ -164,23 +163,23 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   既存のバージョンのLibreOfficeでAdobe Campaignを実行するには、追加の設定が必要です。インストールディレクトリへのアクセスパスを指定する必要があります。 例：
 
-   * Debian
+  * Debian
 
-     OOO_INSTALL_DIRおよびOOO_BASIS_INSTALL_DIRのデフォルト値が提供されています。 LibreOffice インストールのレイアウトが異なる場合は、**customer.sh**&#x200B;で上書きできます。
+    OOO_INSTALL_DIRおよびOOO_BASIS_INSTALL_DIRのデフォルト値が提供されています。 LibreOffice インストールのレイアウトが異なる場合は、**customer.sh**&#x200B;で上書きできます。
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+    export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+    ```
 
-   * CentOS
+  * CentOS
 
-     次のデフォルト値を使用します。
+    次のデフォルト値を使用します。
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+    export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+    ```
 
 * Java Development Kit （JDK）の場合：
 
@@ -277,7 +276,7 @@ nlserver web
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-これらのコマンドを使用すると、**config-default.xml**&#x200B;および&#x200B;**serverConf.xml**&#x200B;設定ファイルを作成できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+これらのコマンドを使用すると、**config-default.xml**&#x200B;および&#x200B;**serverConf.xml**&#x200B;設定ファイルを作成できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 **Ctrl+C**&#x200B;を押してプロセスを停止し、次のコマンドを入力します。
 

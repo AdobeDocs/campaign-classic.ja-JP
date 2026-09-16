@@ -9,24 +9,29 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 TQID: https://experienceleague.adobe.com/xs5sqsIqs9u-a9TrKo5EgFIpNTtxhy8y0-YIlDyUxp0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
-workflow-type: ht
-source-wordcount: 1046
+workflow-type: tm+mt
+source-wordcount: '1045'
 ht-degree: 100%
-
 ---
-
 # リリースの更新 {#rn-overview}
 
 Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、**製品ビルド**&#x200B;としてリリースされます。 新しい各ビルドに関する詳細は、[リリースノート](latest-release.md)を参照してください。
@@ -66,13 +71,13 @@ Adobe Campaign の&#x200B;**最新の安定したビルドを実行**&#x200B;す
 
 >[!NOTE]
 >
-> 各ビルドは累積的です。これには、その独自の変更に加え、同じリリースの以前のビルドで提供されたすべての機能、改善および修正が含まれます。以前の修正からメリットを得るために、すべての中間ビルドをインストールする必要はありません。最新のビルドをインストールすると、以前のビルドに含まれるすべての内容を最新の状態に保持できます。
+> 各ビルドは累積的です。これには、その独自の変更に加え、同じリリースの以前のビルドで提供されたすべての機能、改善および修正が含まれます。 以前の修正からメリットを得るために、すべての中間ビルドをインストールする必要はありません。最新のビルドをインストールすると、以前のビルドに含まれるすべての内容を最新の状態に保持できます。
 
 ホステッド環境のお客様はアクションを起こすことなく、最新の安定したビルドのアップグレードのメリットが自動的に得られます。 詳しくは、[年次アップグレードの節](#yearly-upgrade)を参照してください。 古いビルドから移行する場合は、まずこのビルドにアップグレードすることをお勧めします。
 
 ### ホスト環境のセキュリティパッチ {#security-patching}
 
-ホスト環境の整合性を保護するために、アドビは脆弱性を可能な限りすばやく修正する目的で、事前の通知なしにいつでも重要なセキュリティパッチを適用する権限を留保します。これらのパッチは、サービスを中断することなくデプロイされます。このプラクティスは、重大な脆弱性の修復の緊急性が事前通知よりも優先されるという、アドビのセキュリティガバナンス標準に一致しています。
+ホスト環境の整合性を保護するために、アドビは脆弱性を可能な限りすばやく修正する目的で、事前の通知なしにいつでも重要なセキュリティパッチを適用する権限を留保します。 これらのパッチは、サービスを中断することなくデプロイされます。 このプラクティスは、重大な脆弱性の修復の緊急性が事前通知よりも優先されるという、アドビのセキュリティガバナンス標準に一致しています。
 
 ## レコメンデーション {#rn-recommendations}
 

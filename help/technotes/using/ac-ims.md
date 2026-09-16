@@ -5,19 +5,21 @@ exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
 TQID: https://experienceleague.adobe.com/DKwv-rLrgm0ce9cycT1QMtBgQP-2pnMNhqHlH1xJWvo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 479
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
-
 ---
-
 # Adobe Identity Management System（IMS）への移行 {#migrate-to-ims}
 
 セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン/パスワードネイティブ認証から [Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}に移行することを強くお勧めしています。
@@ -65,7 +67,7 @@ ht-degree: 100%
 
 ### 移行が完了するのはいつですか？ {#ims-migration-end}
 
-エンドユーザーの移行とテクニカルオペレーターを Adobe Identity Management System（IMS）に移行する処理が完了したら、環境を更新して、ネイティブ認証に固有で IMS 認証では適用されないオプションを削除する必要があります。 この更新は、Campaign v7.4.1 以降でのみ使用できます。[詳細情報](impact-ims-migration.md)
+エンドユーザーの移行とテクニカルオペレーターを Adobe Identity Management System（IMS）に移行する処理が完了したら、環境を更新して、ネイティブ認証に固有で IMS 認証では適用されないオプションを削除する必要があります。 この更新は、Campaign v7.4.1 以降でのみ使用できます。 [詳細情報](impact-ims-migration.md)
 
 
 

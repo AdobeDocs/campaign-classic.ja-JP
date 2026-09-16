@@ -3,7 +3,7 @@ product: campaign
 title: 新しいビルドへのアップグレード
 description: 新しいビルドにアップグレードするための技術的な手順について説明します
 feature: Monitoring, Upgrade
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -11,39 +11,42 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 TQID: https://experienceleague.adobe.com/cbtrIjg91oCPHz9jgAT15IyFqk-DAsrdDR-0HvkbMPE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 12%
-
+source-wordcount: '1296'
+ht-degree: 11%
 ---
-
 # 新しいビルド（オンプレミス）へのアップグレード{#upgrading}
 
-アップグレード プロセスを開始する前に、アップグレードするAdobe Campaignのバージョンを確認し、[&#x200B; リリースノート &#x200B;](../../rn/using/latest-release.md)を参照してください。
+アップグレード プロセスを開始する前に、アップグレードするAdobe Campaignのバージョンを確認し、[ リリースノート ](../../rn/using/latest-release.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >* Adobeでは、更新する前に各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、[この節](../../production/using/backup.md)を参照してください。
 >* アップグレードを実行するには、インスタンスとログにアクセスする機能と権限があることを確認します。
->* 開始する前に、[このセクション &#x200B;](../../installation/using/general-architecture.md)と[&#x200B; ビルド アップグレード &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の章をお読みください。
+>* 開始する前に、[このセクション ](../../installation/using/general-architecture.md)と[ ビルド アップグレード ](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の章をお読みください。
 >
 
 ## Windows {#in-windows}
 
 Windows環境で、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [&#x200B; サービスを停止](#shut-down-services),
-* [&#x200B; アプリケーションサーバー](#upgrade-the-adobe-campaign-server-application)をアップグレードします。
-* [&#x200B; リソースの同期](#synchronize-resources),
-* [&#x200B; サービスを再起動](#restart-services)。
+* [ サービスを停止](#shut-down-services),
+* [ アプリケーションサーバー](#upgrade-the-adobe-campaign-server-application)をアップグレードします。
+* [ リソースの同期](#synchronize-resources),
+* [ サービスを再起動](#restart-services)。
 
 クライアントコンソールの更新方法については、[この節](../../installation/using/client-console-availability-for-windows.md)を参照してください。
 
@@ -79,7 +82,7 @@ Windows環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
 1. **setup.exe**&#x200B;を実行します。
 
-   このファイルをダウンロードするには、ユーザーの資格情報を使用して[&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+   このファイルをダウンロードするには、ユーザーの資格情報を使用して[ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 
 1. インストールモードを選択：**[!UICONTROL 更新または修復]**&#x200B;を選択します
 1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -105,7 +108,7 @@ Windows環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 >
 >この操作は一度だけ実行し、（**nlserver web**）アプリケーションサーバーでのみ実行する必要があります。
 
-次に、同期でエラーや警告が発生したかどうかを確認します。 詳しくは、[&#x200B; アップグレードの競合の解決](#resolving-upgrade-conflicts)を参照してください。
+次に、同期でエラーや警告が発生したかどうかを確認します。 詳しくは、[ アップグレードの競合の解決](#resolving-upgrade-conflicts)を参照してください。
 
 ### サービスの再起動 {#restart-services}
 
@@ -121,15 +124,15 @@ Windows環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
 Linux環境で、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [更新されたパッケージをダウンロード &#x200B;](#obtain-updated-packages),
+* [更新されたパッケージをダウンロード ](#obtain-updated-packages),
 * [更新を実行](#perform-an-update),
 * [Web サーバーを再起動します](#reboot-the-web-server)。
 
-[&#x200B; クライアントコンソールの可用性について詳しく見る](../../installation/using/client-console-availability-for-windows.md)。
+[ クライアントコンソールの可用性について詳しく見る](../../installation/using/client-console-availability-for-windows.md)。
 
 ### 更新されたパッケージのインストール {#obtain-updated-packages}
 
-最初に、更新されたAdobe Campaignの両方のパッケージを復元します。ユーザーの資格情報を使用して[&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+最初に、更新されたAdobe Campaignの両方のパッケージを復元します。ユーザーの資格情報を使用して[ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 
 ファイルは&#x200B;**nlserver6-v7-XXX.rpm**&#x200B;です
 
@@ -186,7 +189,7 @@ Linux環境で、次の手順に従ってAdobe Campaignを新しいビルドに�
 
 >[!NOTE]
 >
->完全なインストール手順について詳しくは、[この節](../../installation/using/installing-packages-with-linux.md)を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[&#x200B; アップグレードの競合を解決](#resolving-upgrade-conflicts)を参照してください。
+>完全なインストール手順について詳しくは、[この節](../../installation/using/installing-packages-with-linux.md)を参照してください。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[ アップグレードの競合を解決](#resolving-upgrade-conflicts)を参照してください。
 >
 
 ### Web サーバーを再起動します {#reboot-the-web-server}
@@ -275,13 +278,13 @@ Linux環境で、次の手順に従ってAdobe Campaignを新しいビルドに�
 
 ### Windows {#in-windows-1}
 
-Adobe Campaign アプリケーションサーバーがインストールされているコンピューター（**nlserver web**）で、アプリケーション &rbrack;/datakit/nl/eng/jsp **の**&lbrack; パスに&#x200B;**setup-client-6.XXXX.exe** ファイルをダウンロードしてコピーします。
+Adobe Campaign アプリケーションサーバーがインストールされているコンピューター（**nlserver web**）で、アプリケーション ]/datakit/nl/eng/jsp **の**[ パスに&#x200B;**setup-client-6.XXXX.exe** ファイルをダウンロードしてコピーします。
 
 次回のクライアントコンソールの接続時には、ウィンドウが更新プログラムの可用性をユーザーに通知し、ダウンロードとインストールの可能性をユーザーに提供します。
 
 >[!NOTE]
 >
->IIS_XPG ユーザーがこのインストールファイルに対して適切な読み取り権限を持っていることを確認し、詳しくは[&#x200B; インストールガイド &#x200B;](../../installation/using/general-architecture.md)を参照してください。
+>IIS_XPG ユーザーがこのインストールファイルに対して適切な読み取り権限を持っていることを確認し、詳しくは[ インストールガイド ](../../installation/using/general-architecture.md)を参照してください。
 
 ### Linux {#in-linux-1}
 
@@ -295,4 +298,4 @@ cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 
 >[!NOTE]
 >
->Apache ユーザーがこのインストールファイルに対して適切な読み取り権限を持っていることを確認し、詳しくは[&#x200B; インストールガイド &#x200B;](../../installation/using/general-architecture.md)を参照してください。
+>Apache ユーザーがこのインストールファイルに対して適切な読み取り権限を持っていることを確認し、詳しくは[ インストールガイド ](../../installation/using/general-architecture.md)を参照してください。

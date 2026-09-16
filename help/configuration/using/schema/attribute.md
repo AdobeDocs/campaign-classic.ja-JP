@@ -10,17 +10,18 @@ exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 TQID: https://experienceleague.adobe.com/kd15Dm8jY6xE0RpGTImgoL27wDbYmvuuLs-jK4-BwVo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: '1573'
 ht-degree: 1%
-
 ---
-
 # 属性要素 {#attribute--element}
 
 
@@ -58,11 +59,11 @@ _operation （文字列）、advanced （ブール値）、applicableIf （文�
 
   アクセス可能な値は次のとおりです。
 
-   * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
-   * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
-   * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
-   * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
-   * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
+  * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
+  * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
+  * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
+  * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
+  * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
 
 * **詳細（ブール値）**：このオプションがアクティブ化されている場合（@advanced=&quot;true&quot;）、フォームでリストを設定するためにアクセス可能な使用可能なフィールドのリストで属性を非表示にできます。
 * **applicableIf （文字列）**：この属性を使用すると、フィールドをオプションにできます。 制約が準拠している場合、データベースを更新する際に、`<attribute>`要素が考慮されます。 &quot;applicableIf&quot;はXTK式を受け取ります。
@@ -70,14 +71,14 @@ _operation （文字列）、advanced （ブール値）、applicableIf （文�
 * **belongsTo （文字列）**: フィールドを共有するテーブルの名前と名前空間を取得し、属性が宣言されているスキーマに入力します。 （`<schema>`でのみ使用）。
 * **dataPolicy （文字列）**: SQLまたはXML フィールドで許可される値に対する承認制約を指定できます。 この属性の値は次のとおりです。
 
-   * &quot;none&quot;：値なし
-   * &quot;smartCase&quot;：先頭の文字は大文字
-   * &quot;lowerCase&quot;：すべて小文字
-   * &quot;upperCase&quot;：すべて大文字
-   * &quot;email&quot;: メールアドレス
-   * &quot;phone&quot;：電話番号
-   * &quot;identifier&quot;：識別子名
-   * &quot;resIdentifier&quot;: ファイル名
+  * &quot;none&quot;：値なし
+  * &quot;smartCase&quot;：先頭の文字は大文字
+  * &quot;lowerCase&quot;：すべて小文字
+  * &quot;upperCase&quot;：すべて大文字
+  * &quot;email&quot;: メールアドレス
+  * &quot;phone&quot;：電話番号
+  * &quot;identifier&quot;：識別子名
+  * &quot;resIdentifier&quot;: ファイル名
 
 * **dbEnum （文字列）**: 「クローズ済み」列挙の内部名を受け取ります。 列挙値は`<srcschema>`で定義する必要があります。
 * **defOnDuplicate （boolean）**：この属性がアクティブ化されると、レコードが複製されると、デフォルト値（@defaultで定義）が自動的にレコードに再適用されます。
@@ -88,13 +89,13 @@ _operation （文字列）、advanced （ブール値）、applicableIf （文�
 * **expr （文字列）**: フィールドの事前計算式を定義します。 この属性は、XpathまたはXTK式を受け取ります。
 * **機能（文字列）**：特性フィールドを定義します。これらのフィールドは、既存のテーブル内のデータを拡張するために使用されますが、追加テーブル内のストレージに使用されます。 使用できる値は次のとおりです。
 
-   * 「共有」：コンテンツは、データタイプごとに共有テーブルに保存されます
-   * 「専用」：コンテンツは専用テーブルに保存されます
+  * 「共有」：コンテンツは、データタイプごとに共有テーブルに保存されます
+  * 「専用」：コンテンツは専用テーブルに保存されます
 
   SQL特性テーブルは、特性タイプに基づいて自動的に作成されます。
 
-   * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   特性フィールドには2つのタイプがあります。単純なoà<sup>1</sup> フィールドでは、1つの値が特性に対して許可されます。また、oà<sup>1</sup>複数選択フィールドでは、特性が複数の値を含むコレクション要素にリンクされます。
 
@@ -109,19 +110,19 @@ _operation （文字列）、advanced （ブール値）、applicableIf （文�
 
   スキーマがデータベースに書き込まれると、Adobe Campaignによってフィールド名に接頭辞が自動的に追加されます。
 
-   * &quot;i&quot;: &#39;integer&#39;型のプレフィックス。
-   * &quot;d&quot;: &#39;double&#39;型のプレフィックス。
-   * &quot;s&quot;：文字列型の接頭辞。
-   * &quot;ts&quot;: &#39;date&#39; タイプのプレフィックス。
+  * &quot;i&quot;: &#39;integer&#39;型のプレフィックス。
+  * &quot;d&quot;: &#39;double&#39;型のプレフィックス。
+  * &quot;s&quot;：文字列型の接頭辞。
+  * &quot;ts&quot;: &#39;date&#39; タイプのプレフィックス。
 
   テーブル内のフィールド名を完全に定義するには、属性を定義するときに「@sqlname」オプションを使用します。
 
 * **notNull （ブール値）**: データベース内のNULL レコードの管理に関するAdobe Campaignの動作を再定義できます。 デフォルトでは、数値フィールドはnullではなく、文字列フィールドと日付タイプフィールドはnullにすることができます。
 * **pkgStatus （文字列）**: パッケージの書き出し中に、「@pkgStatus」の値に応じて値が考慮されます。
 
-   * &quot;always&quot;：常に存在する
-   * &quot;never&quot;: never present
-   * 「デフォルト（または何も）」：値がデフォルト値であるか、または他のインスタンスと互換性のない内部フィールドでない場合を除いて、値が書き出されます。
+  * &quot;always&quot;：常に存在する
+  * &quot;never&quot;: never present
+  * 「デフォルト（または何も）」：値がデフォルト値であるか、または他のインスタンスと互換性のない内部フィールドでない場合を除いて、値が書き出されます。
 
 * **ref （文字列）**：この属性は、複数のスキーマで共有されている`<attribute>`要素への参照（定義ファクタリング）を定義します。 定義は現在のスキーマにコピーされません。
 * **必須（ブール値）**：この属性がアクティブ化されている場合（@required=&quot;true&quot;）、このフィールドはインターフェイスで強調表示されます。 フィールドのラベルはフォームで赤になります。
@@ -137,32 +138,32 @@ _operation （文字列）、advanced （ブール値）、applicableIf （文�
 
   使用可能なタイプのリスト：
 
-   * いずれか
-   * bin
-   * blob
-   * ブール値
-   * バイト
-   * CDATA
-   * 日時
-   * datetime
-   * datetimenotz
-   * 日付
-   * 倍精度浮動小数点数
-   * 列挙
-   * 浮動小数点数
-   * html
-   * int64
-   * リンク
-   * 長整数
-   * メモ
-   * MN トークン
-   * パーセント
-   * primarykey
-   * 短い
-   * 文字列
-   * 時間
-   * 期間
-   * uuid
+  * いずれか
+  * bin
+  * blob
+  * ブール値
+  * バイト
+  * CDATA
+  * 日時
+  * datetime
+  * datetimenotz
+  * 日付
+  * 倍精度浮動小数点数
+  * 列挙
+  * 浮動小数点数
+  * html
+  * int64
+  * リンク
+  * 長整数
+  * メモ
+  * MN トークン
+  * パーセント
+  * primarykey
+  * 短い
+  * 文字列
+  * 時間
+  * 期間
+  * uuid
 
   「@type」属性が空のままの場合、Adobe Campaignはデフォルトで100の長さの文字列（STRING）をフィールドにリンクします。
 

@@ -3,32 +3,40 @@ product: campaign
 title: パイプラインのトラブルシューティング
 description: パイプラインのトラブルシューティング
 feature: Triggers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 TQID: https://experienceleague.adobe.com/CRFuACW6lPivyn8-BuA2Phb1Mzqdqf-9D3pezBfjPCU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 703
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
-
 ---
-
 # パイプラインのトラブルシューティング {#pipeline-troubleshooting}
 
 
@@ -42,8 +50,8 @@ ht-degree: 100%
 
 **`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 
-**NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
-JSON 設定を **NmsPipeline_Config** オプションで指定します。詳しくは、このページの「ルーティングオプション」を参照してください。
+**NmsPipeline_Config** オプションが設定されていません。 これは実際には JSON 解析エラーです。
+JSON 設定を **NmsPipeline_Config** オプションで指定します。 このページの「ルーティングオプション」を参照してください。
 
 **パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 

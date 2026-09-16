@@ -2,34 +2,43 @@
 product: campaign
 title: 書式設定
 description: 書式設定
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 TQID: https://experienceleague.adobe.com/CqXXVNL83qq35qW9j52Vqm46yBIMo8T1J-fF1aC5TCE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1471
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
-
 ---
-
 # 書式設定{#formatting}
 
 ## JavaScript テンプレート {#javascript-templates}
@@ -559,7 +568,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 **[!UICONTROL パブリックリソース]**&#x200B;を使用して、デプロイウィザードに入力したインスタンス設定に応じて画像を宣言し、サーバー上にアップロードすることもできます。
 
-その後、これらの画像をコンテンツに呼び出すことができます。そのためには、次の構文をコンテンツ管理スキーマで使用します。
+その後、これらの画像をコンテンツに呼び出すことができます。 そのためには、次の構文をコンテンツ管理スキーマで使用します。
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>

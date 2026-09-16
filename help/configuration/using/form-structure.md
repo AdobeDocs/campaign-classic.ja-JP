@@ -4,26 +4,29 @@ title: フォームの構造
 description: フォームの構造
 feature: Application Settings
 role: Developer
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 TQID: https://experienceleague.adobe.com/zLWHKhH-T-g54pQDAhbOC4v7JvrX-LM-Vn8lCXE-aYI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2425
+source-wordcount: '2420'
 ht-degree: 86%
-
 ---
-
 # フォームの構造{#form-structure}
 
 
@@ -198,7 +201,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->**style=&quot;down|up** （デフォルト） **&quot;**&#x200B;機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。この機能はオプションです。
+>**style=&quot;down|up** （デフォルト） **&quot;**機能を使用すると、タブラベルをコントロールの下または上に垂直方向に配置できます。 この機能はオプションです。
 >`<container style="down" type="notebook">  … </container>`
 
 #### アイコンリスト {#icon-list}
@@ -315,9 +318,9 @@ ht-degree: 86%
 * **noAutoComplete**：先行入力機能を無効にします（値が「true」の場合）。
 * **createMode**：リンクが存在しない場合、その場でリンクを作成します。 次のような値を選択できます。
 
-   * **none**：作成を無効にします。 リンクが存在しない場合、エラーメッセージが表示されます
-   * **inline**：編集フィールドにコンテンツを含むリンクを作成します
-   * **edition**：リンク上に編集フォームを表示します。 フォームを検証する際にデータが保存されます（デフォルトモード）。
+  * **none**：作成を無効にします。 リンクが存在しない場合、エラーメッセージが表示されます
+  * **inline**：編集フィールドにコンテンツを含むリンクを作成します
+  * **edition**：リンク上に編集フォームを表示します。 フォームを検証する際にデータが保存されます（デフォルトモード）。
 
 * **noZoom**：リンク上に編集フォームがない（値が「true」の場合）
 * **form**：ターゲット要素の編集フォームをオーバーロードします

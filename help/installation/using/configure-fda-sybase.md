@@ -10,25 +10,25 @@ exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
 TQID: https://experienceleague.adobe.com/AnTufHUh2UZrrIqrauxCzPEeua3qKLuHwH5DEz0KqI8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 330
+source-wordcount: '330'
 ht-degree: 66%
-
 ---
-
 # Sybase IQ へのアクセスを設定する {#configure-access-to-sybase-iq}
 
 
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Sybase IQへのアクセスを設定するには、次の手順に従います。
 
-1. [Sybase IQ データベース &#x200B;](#configuring-sybase)を設定
-1. CampaignでSybase IQ [外部アカウント &#x200B;](#sybase-external)を設定する
+1. [Sybase IQ データベース ](#configuring-sybase)を設定
+1. CampaignでSybase IQ [外部アカウント ](#sybase-external)を設定する
 
 ## Sybase IQ設定 {#configuring-sybase}
 

@@ -10,15 +10,14 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 TQID: https://experienceleague.adobe.com/keWzvD8mrha5wEUomR9FdRVTi-ryy2EVkRSAws-YKnI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 614
-ht-degree: 14%
-
+source-wordcount: '615'
+ht-degree: 13%
 ---
-
 # インスタンスの作成とログオン{#creating-an-instance-and-logging-on}
 
 
@@ -67,7 +66,7 @@ Adobe Campaign コンソールを起動すると、ログインページにア�
 
    値のリストは、コンマで区切って定義できます。
 
-   ? および&#42;文字は、1つまたは複数の文字（DNS、ポートなど）を置き換えるワイルドカードとして使用できます。 例えば、**demo&#42;**&#x200B;の値は、「https://demo」でも「https://demo:8080」でも「https://demo2」でも機能します。
+   ? および&#42;文字は、1つまたは複数の文字（DNS、ポートなど）を置き換えるワイルドカードとして使用できます。 例えば、**demo&#42;**&#x200B;の値は、「https://demo:8080」や「https://demo2」と同様に「https://demo」でも機能します。
 
    使用する名前は、DNSで定義する必要があります。 また、Windowsの&#x200B;**c:/windows/system32/drivers/etc/hosts** ファイルおよびLinuxの&#x200B;**/etc/hosts** ファイルで、DNS名とIP アドレスの対応を通知することもできます。 したがって、選択したインスタンスに接続するために、このDNS名を使用するように接続設定を変更する必要があります。
 
@@ -77,7 +76,7 @@ Adobe Campaign コンソールを起動すると、ログインページにア�
 
 1. 「**[!UICONTROL 言語]**」ドロップダウンリストで、**インスタンス言語** （英語（米国）、英語（英国）、フランス語、または日本語）を選択します。
 
-   米国英語と英国英語の違いは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui)に記載されています。
+   米国英語と英国英語の違いは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui)に記載されています。
 
    >[!CAUTION]
    >
@@ -87,4 +86,4 @@ Adobe Campaign コンソールを起動すると、ログインページにア�
 
    >[!NOTE]
    >
-   >インスタンスはコマンドラインから作成できます。 詳しくは、[&#x200B; コマンドライン &#x200B;](../../installation/using/command-lines.md)を参照してください。
+   >インスタンスはコマンドラインから作成できます。 詳しくは、[ コマンドライン ](../../installation/using/command-lines.md)を参照してください。

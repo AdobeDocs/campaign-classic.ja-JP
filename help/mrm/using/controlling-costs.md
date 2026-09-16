@@ -11,21 +11,25 @@ exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 TQID: https://experienceleague.adobe.com/sP42vA9z95SnIsjehzZeMNMmYhaqq-Z8-BqB-HXGTxQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2560
+workflow-type: tm+mt
+source-wordcount: '2560'
 ht-degree: 100%
-
 ---
-
 # コスト管理{#controlling-costs}
 
 
@@ -203,7 +207,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 計算されたコスト
 
-   計算されたコストは、関係する要素（キャンペーン、配信、タスクなど）およびそのステータス（編集中、処理中、完了）に依存します。いずれの場合も、実際のコストが指定されている場合は、その金額が計算されたコストになります。
+   計算されたコストは、関係する要素（キャンペーン、配信、タスクなど） およびそのステータス（編集中、処理中、完了）に依存します。 いずれの場合も、実際のコストが指定されている場合は、その金額が計算されたコストになります。
 
    実際のコストが入力されていない場合、以下のルールが適用されます。
 

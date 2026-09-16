@@ -10,21 +10,25 @@ exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 TQID: https://experienceleague.adobe.com/lcr5Xfipd9cDuglWBqBsiVXJUUZqQxLEmzzZPrAEhHU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 6%
-
 ---
-
 # パワーブースターとパワークラスター{#power-booster-and-power-cluster}
 
 
@@ -97,5 +101,5 @@ Power Booster オプションとPower Cluster オプションは、次のアプ�
 ## 推奨事項 {#recommendations}
 
 * 実行インスタンスはサービス専用である必要があります。 購読していないサービスのパッケージをインストールすることはできません。 例えば、**Message Center** サービスの&#x200B;**Power Booster** オプションを購読している場合、専用の実行インスタンスに&#x200B;**[!UICONTROL トランザクションメッセージの実行]** パッケージのみをインストールできます。 使用許諾契約書を確認してください。
-* 専用インスタンス（またはクラスター）はAdobe Campaign インスタンスであるため、推奨事項はメインインスタンスと同じです。 詳しくは、[このドキュメント &#x200B;](../../production/using/foreword.md)を参照してください。
+* 専用インスタンス（またはクラスター）はAdobe Campaign インスタンスであるため、推奨事項はメインインスタンスと同じです。 詳しくは、[このドキュメント ](../../production/using/foreword.md)を参照してください。
 * データベース/ハードウェアコンポーネントの観点からインスタンスを適切に設定するには、Adobe Campaign プロフェッショナルサービスにお問い合わせください。

@@ -10,18 +10,19 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 TQID: https://experienceleague.adobe.com/geVW1WFvlnZJmiLeaI01ww-TsQvEN3-zpr57jmz2Miw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 36%
-
+source-wordcount: '633'
+ht-degree: 39%
 ---
-
 # サーバーのセキュリティ設定 {#server-configuration}
 
 ## ファイルアップロードの保護
@@ -41,7 +42,7 @@ Adobe Campaignでは、ファイルサイズは制限されません。 IIS/Apac
 
 ## リレー
 
-詳しくは、[このページ &#x200B;](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)を参照してください。
+詳しくは、[このページ ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)を参照してください。
 
 デフォルトでは、すべての動的ページは、Web モジュールが起動されたマシンのローカル Tomcat サーバーに自動的にリレーされます。 それらのいくつかを中継しないことを選択できます。 Adobe Campaign モジュールの一部（Web アプリ、インタラクション、一部の JSP など）を使用しない場合、リレールールから除外できます。
 
@@ -51,7 +52,7 @@ Adobe Campaignでは、ファイルサイズは制限されません。 IIS/Apac
 
 ## 送信接続の保護
 
-JavaScript コードで呼び出すことができるURLのデフォルトリスト（ワークフローなど） 限定的なものです。 新しいURLを許可するには、管理者が[serverConf.xml ファイル &#x200B;](../../installation/using/the-server-configuration-file.md)でURLを参照する必要があります。
+Campaign インスタンスにより、JavaScript コード（ワークフローなど）からの呼び出しが可能なデフォルトの URL リスト 限定的なものです。 新しいURLを許可するには、管理者が[serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md)でURLを参照する必要があります。
 
 3 つの接続保護モードがあります。
 
@@ -73,11 +74,11 @@ JavaScript コードで呼び出すことができるURLのデフォルトリス
 
 ## コマンドの制限（サーバー側）
 
-ExeccCommand関数を使用して実行することはできません。このコマンドはのブロックリストに含まれています。 外部コマンドを実行する専用のUnix ユーザーは、セキュリティを強化します。 ホスト型インストールの場合、この制限は自動的に適用されます。 オンプレミス インストールの場合は、[このページ &#x200B;](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)の指示に従って、この制限を手動で設定できます。 また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
+ExeccCommand関数を使用して実行することはできません。このコマンドはのブロックリストに含まれています。 外部コマンドを実行する専用のUnix ユーザーは、セキュリティを強化します。 ホスト型インストールの場合、この制限は自動的に適用されます。 オンプレミス インストールの場合は、[このページ ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)の指示に従って、この制限を手動で設定できます。 また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
 
 ## その他の設定
 
-すべてのページに追加のHTTP ヘッダーを追加できます（詳細については、[このページ &#x200B;](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)を参照）。
+すべてのページに追加のHTTP ヘッダーを追加できます（詳細については、[このページ ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)を参照）。
 
 * HSTS、X-FRAME-OPTIONS、CSP などのヘッダーを追加できます。
 * 本番環境に適用する前に、テスト環境でテストする必要があります。
@@ -88,7 +89,7 @@ ExeccCommand関数を使用して実行することはできません。この�
 
 Adobe Campaignでは、`<dbcnx .../>`要素にプレーンパスワードを設定できます。 この機能は使用しないでください。
 
-デフォルトでは、Adobe Campaignはセッションを特定のIPに固定しませんが、セッションが盗まれるのを防ぐためにセッションをアクティブにすることができます。 これを行うには、[serverConf.xml ファイル &#x200B;](../../installation/using/the-server-configuration-file.md)で、`<authentication>` ノードのcheckIPConsistent属性を&#x200B;**true**&#x200B;に設定します。
+デフォルトでは、Adobe Campaignはセッションを特定のIPに固定しませんが、セッションが盗まれるのを防ぐためにセッションをアクティブにすることができます。 これを行うには、[serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md)で、`<authentication>` ノードのcheckIPConsistent属性を&#x200B;**true**&#x200B;に設定します。
 
 デフォルトでは、Adobe CampaignのMTAは、セキュアな接続を使用してコンテンツをSMTP サーバーに送信しません。 この機能を有効にする必要があります（配信速度が遅くなる可能性があります）。 これを行うには、`<smtp ...>` ノードの&#x200B;**enableTLS**&#x200B;を&#x200B;**true**&#x200B;に設定します。
 

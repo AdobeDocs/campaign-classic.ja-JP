@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Experience Cloud Triggers について
 description: Adobe Experience Cloud Triggers の実装入門
 feature: Triggers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 TQID: https://experienceleague.adobe.com/gWgUCcgsqeMw-mzVdhVodcp91lgTCCL7XGWp0f2ItKo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 392
+workflow-type: tm+mt
+source-wordcount: '411'
 ht-degree: 100%
-
 ---
-
 # Campaign と Experience Cloud トリガーの連携{#about-adobe-experience-triggers}
 
 [!DNL Triggers] は、パイプラインを使用して Adobe Campaign と Adobe Analytics を統合します。 パイプラインは、web サイトからユーザーのアクションまたはトリガーを取得します。 買い物かごの放棄は、トリガーの一例です。 トリガーが Adobe Campaign で処理されて、ほぼリアルタイムでメールが送信されます。
@@ -40,8 +47,8 @@ ht-degree: 100%
 
 [!DNL Triggers] は、ユーザーのアクションの後、短時間のうちにマーケティングアクションを実行します。 通常の応答時間は 1 時間未満です。
 
-設定は最小限に抑えられ、サードパーティが関与しないので、より俊敏な統合が可能です。
-また、マーケティング活動のパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。例えば、統合では 1 時間あたり 100 万のトリガーを処理できます。
+設定は最小限で、サードパーティが関与しないので、より機敏な統合処理が可能です。
+また、マーケティングアクティビティのパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。 例えば、この統合機能では 1 時間に 100 万個のトリガーを処理できます。
 
 ![](assets/do-not-localize/book.png) [Experience Cloud トリガー](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を作成し、重要なコンシューマーの行動を特定、定義、監視する方法を説明します。
 

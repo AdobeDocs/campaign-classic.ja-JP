@@ -3,7 +3,7 @@ product: campaign
 title: タイムゾーン管理
 description: タイムゾーン管理
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,19 +11,21 @@ exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 TQID: https://experienceleague.adobe.com/Y-SOL0Lu44eD9pGpBm7x18TRcHy-oKR5SSZAlMPsb34
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1000
-ht-degree: 4%
-
+source-wordcount: '988'
+ht-degree: 3%
 ---
-
 # タイムゾーン管理{#time-zone-management}
 
 
@@ -44,7 +46,7 @@ Adobe Campaignでは、日付/時刻をUTC （協定世界時）形式で保存�
 >
 >データベースが複数のタイムゾーンを管理しない場合、すべてのデータフィルタリング操作について、SQL クエリはデータベースサーバーのタイムゾーンで実行する必要があります。
 
-各Adobe Campaign オペレーターはタイムゾーンにリンクされています。この情報はプロファイルで設定されます。 詳しくは、[このドキュメント &#x200B;](../../platform/using/access-management.md)を参照してください。
+各Adobe Campaign オペレーターはタイムゾーンにリンクされています。この情報はプロファイルで設定されます。 詳しくは、[このドキュメント ](../../platform/using/access-management.md)を参照してください。
 
 Adobe Campaign Platformでタイムゾーン管理が不要な場合は、特定のリンクされたタイムゾーンを使用して、ストレージモードをローカル形式で保持できます。
 

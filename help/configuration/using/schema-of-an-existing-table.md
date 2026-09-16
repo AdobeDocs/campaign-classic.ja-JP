@@ -8,22 +8,26 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 TQID: https://experienceleague.adobe.com/Vi1DhgY8tGIhq1TtMOGKeGMrqFgGecfJQHrKyFXTSgg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: '232'
 ht-degree: 9%
-
 ---
-
 # 既存のテーブルのスキーマ{#schema-of-an-existing-table}
 
 ## 概要 {#overview}
@@ -41,7 +45,7 @@ ht-degree: 9%
 対応するスキーマを作成するには、次のステージを適用します。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理>設定> データスキーマ]** ノードを編集し、**[!UICONTROL 新規]**&#x200B;をクリックします。
-1. 既存のテーブルまたはSQL ビュー&#x200B;**オプションから** データにアクセスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. 既存のテーブルまたはSQL ビュー&#x200B;]**オプションから**[!UICONTROL  データにアクセスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -72,4 +76,4 @@ ht-degree: 9%
 
 **Federated Data Access - FDA** オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマで実行する設定については、[このページ &#x200B;](../../installation/using/creating-data-schema.md)で詳しく説明しています。
+外部データベースのデータにアクセスするためにスキーマで実行する設定については、[このページ ](../../installation/using/creating-data-schema.md)で詳しく説明しています。

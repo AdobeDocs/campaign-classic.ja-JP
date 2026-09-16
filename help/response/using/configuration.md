@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Response Manager の設定
 description: Campaign Response Manager の設定方法を説明します
 feature: Campaigns
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,23 +11,29 @@ exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 TQID: https://experienceleague.adobe.com/P89PBe23uuRmGX5vb6lCNd8kTd24peaZcKsTRAj2pnw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 796
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
-
 ---
-
 # Campaign Response Manager の設定{#configuration}
 
 
@@ -36,7 +42,7 @@ ht-degree: 100%
 
 個人のテーブルを使用して、標準データモデルを Adobe Campaign 外のトランザクションテーブルの特定の特性に合わせて調整する方法を説明します。 この個人のテーブルは、Adobe Campaign 内の使用可能な個人のテーブルや他のテーブルと一致する場合があります。
 
-測定の仮説は、オペレーションプロセスワークフロー（**[!UICONTROL operationMgt]**）により開始します。 各仮説は、特定の実行ステータス（編集中、保留中、完了、失敗など）で非同期的に実行される個々のプロセスを表します。プロセスは、優先度の制約、シミュレーションプロセス数の制限、低アクティビティページおよび頻度の高い自動実行を管理するスケジューラーによりコントロールされます。
+測定の仮説は、オペレーションプロセスワークフロー（**[!UICONTROL operationMgt]**）により開始します。 各仮説は、特定の実行ステータス（編集中、保留中、完了、失敗など）で非同期的に実行される個々のプロセスを表します。 プロセスは、優先度の制約、シミュレーションプロセス数の制限、低アクティビティページおよび頻度の高い自動実行を管理するスケジューラーによりコントロールされます。
 
 ## スキーマの設定 {#configuring-schemas}
 
@@ -48,9 +54,9 @@ ht-degree: 100%
 
 ### 標準スキーマ {#standard-schemas}
 
-組み込みの **[!UICONTROL nms:remaMatch]** スキーマには、個人、仮説およびトランザクションテーブル間の関係を表す反応ログテーブルが含まれています。このスキーマは、反応ログの最終的な宛先テーブルの継承済みスキーマとして使用します。
+組み込みの **[!UICONTROL nms:remaMatch]** スキーマには、個人、仮説およびトランザクションテーブル間の関係を表す反応ログテーブルが含まれています。 このスキーマは、反応ログの最終的な宛先テーブルの継承済みスキーマとして使用します。
 
-**[!UICONTROL nms:remaMatchRcp]** スキーマも標準スキーマで、Adobe Campaign の受信者（**[!UICONTROL nms:recipient]**）用反応ログのストレージを含みます。このスキーマを使用するには、拡張してトランザクションテーブル（購入などを含む）にマップする必要があります。
+**[!UICONTROL nms:remaMatchRcp]** スキーマも標準スキーマで、Adobe Campaign の受信者（**[!UICONTROL nms:recipient]**）用反応ログのストレージを含みます。 このスキーマを使用するには、拡張してトランザクションテーブル（購入などを含む）にマップする必要があります。
 
 ### トランザクションテーブルとトランザクションの詳細 {#transaction-tables-and-transaction-details}
 
@@ -74,7 +80,7 @@ ht-degree: 100%
 
 この例では、Adobe Campaign に組み込まれている受信者テーブル **[!UICONTROL nms:recipient]** を使用して、応答管理モジュールに購入テーブルを統合します。
 
-購入テーブルスキーマへのリンクを追加するために、**[!UICONTROL nms:remaMatchRcp]** 受信者の反応ログのテーブルを拡張します。以下の例では、購入テーブルを **demo:purchase** と呼びます。
+購入テーブルスキーマへのリンクを追加するために、**[!UICONTROL nms:remaMatchRcp]** 受信者の反応ログのテーブルを拡張します。 以下の例では、購入テーブルを **demo:purchase** と呼びます。
 
 1. Adobe Campaign エクスプローラーで、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;を選択します。
 1. **受信者**&#x200B;を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
@@ -121,7 +127,7 @@ name="remaMatchRcp" namespace="cus">
 
 * **[!UICONTROL nms:remaMatch]** スキーマから派生した新しい応答ログスキーマを作成します。
 
-  個人のテーブルは Adobe Campaign の受信者テーブルとは異なるので、**[!UICONTROL nms:remaMatch]** スキーマを基に、反応ログの新しいスキーマを作成する必要があります。このスキーマに配信ログと購入テーブルへのリンクを入力します。
+  個人のテーブルは Adobe Campaign の受信者テーブルとは異なるので、**[!UICONTROL nms:remaMatch]** スキーマを基に、反応ログの新しいスキーマを作成する必要があります。 このスキーマに配信ログと購入テーブルへのリンクを入力します。
 
   以下の例では、**demo:broadLogPers** スキーマと **demo:purchase** トランザクションテーブルを使用します。
 

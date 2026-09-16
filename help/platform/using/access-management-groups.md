@@ -10,29 +10,39 @@ exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 TQID: https://experienceleague.adobe.com/FZhH7zDL3g3tG8Ar40XJQWE-2O9Rs5-KD-NliQ6wH3M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 620
+workflow-type: tm+mt
+source-wordcount: '636'
 ht-degree: 100%
-
 ---
-
 # オペレーターグループの作成と管理 {#operator-groups}
 
 >[!NOTE]
@@ -86,7 +96,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL キャンペーンマネージャー]**
 
-   このグループのオペレーターは、マーケティングキャンペーンを管理でき、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。）**[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内
+   このグループのオペレーターは、マーケティングキャンペーンを管理でき、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。） **[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内
 
    このグループには以下のネームド権限が設定されています。
 
@@ -119,8 +129,8 @@ ht-degree: 100%
 
 1. **[!UICONTROL オファーマネージャー]**
 
-   このグループのオペレーターは、オファーを作成および管理できます。詳しくは、この[ページ](../../interaction/using/operator-profiles.md)を参照してください。
-このグループには、次のネームド権限が含まれています。
+   このグループのオペレーターは、オファーの作成および管理をおこなえます。 これについて詳しくは、この[ページ](../../interaction/using/operator-profiles.md)を参照してください。
+   このグループには以下のネームド権限が設定されています。
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。
    * **[!UICONTROL フォルダーを編集]**：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。

@@ -7,12 +7,10 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 hide: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1584'
 ht-degree: 100%
-
 ---
-
 # キューブのベストプラクティス{#concepts-and-methodology}
 
 
@@ -51,7 +49,7 @@ Adobe Campaign には自動ビニングのアシスタントも用意されて�
 
 SQL マスクを使用して、複数の値を組み合わせてフィルターにすることができます。 それには、「**[!UICONTROL SQL マスクを使用]**」列で「**[!UICONTROL はい]**」にチェックを入れ、適用する SQL フィルターを「**[!UICONTROL 値または式]**」列に入力します。
 
-下図の例では、**yahoo** で始まるメールドメイン（yahoo.fr、yahoo.com、yahoo.be など）や、**ymail** で始まるメールドメイン（ymail.com、ymail.eu など）はすべて、**YAHOO!** というラベルでグループ化されます。**rocketmail.com** ドメインのアドレスと同様です。
+下図の例では、**yahoo** で始まるメールドメイン（yahoo.fr、yahoo.com、yahoo.be など）や、**ymail** で始まるメールドメイン（ymail.com、ymail.eu など）はすべて、 **YAHOO!** というラベルでグループ化されます。**rocketmail.com** ドメインのアドレスと同様です。
 
 ![](assets/s_advuser_cube_class_03b.png)
 

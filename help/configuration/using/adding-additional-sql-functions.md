@@ -8,20 +8,22 @@ exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 TQID: https://experienceleague.adobe.com/HRym19p3YGAa3PEPgFBfU3ka39l5348CkdQaWcHZOJk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1040
+source-wordcount: '1040'
 ht-degree: 0%
-
 ---
-
 # 追加のSQL関数の定義{#adding-additional-sql-functions}
 
 Adobe Campaignでは、データベースが提供するSQL関数と、コンソールで使用できないSQL関数の両方にアクセスできる&#x200B;**独自の関数**&#x200B;を定義できます。 これは、集計関数（平均、最大、合計）で便利です。例えば、サーバーでのみ計算できる場合や、データベースが特定の関数を実装する簡単な方法を提供する場合にのみ、コンソールに式を「手動」で書き込む場合（日付管理など）には便利です。
@@ -131,8 +133,8 @@ Adobe Campaignでは、データベースが提供するSQL関数と、コンソ
 * **@minArgs**&#x200B;および&#x200B;**maxArgs**&#x200B;は、パラメーターのパラメーター数（最小および最大）を指定します。 例えば、2つのパラメーターを持つ関数の場合、minArgsとmaxArgsは2と2になります。 3つのパラメータと1つのオプションの場合、それぞれ3と4になります。
 * 最後に、**providerPart**&#x200B;要素が関数の実装を提供します。
 
-   * **provider**&#x200B;属性は必須です。この属性は、実装が提供されるデータベース システムを指定します。 例に示すように、式の構文または基になる関数が異なる場合は、データベースに従って代替実装を提供できます。
-   * **@body**&#x200B;属性には、関数の実装が含まれています。 注意：この実装は、データベース言語（コードブロックではなく）の式である必要があります。 データベースに応じて、式はサブクエリにすることができます（「（テーブルから列を選択します）」） 単一の値のみを返します。 例えば、これはOracleの場合です（クエリは角括弧で書く必要があります）。
+  * **provider**&#x200B;属性は必須です。この属性は、実装が提供されるデータベース システムを指定します。 例に示すように、式の構文または基になる関数が異なる場合は、データベースに従って代替実装を提供できます。
+  * **@body**&#x200B;属性には、関数の実装が含まれています。 注意：この実装は、データベース言語（コードブロックではなく）の式である必要があります。 データベースに応じて、式はサブクエリにすることができます（「（テーブルから列を選択します）」） 単一の値のみを返します。 例えば、これはOracleの場合です（クエリは角括弧で書く必要があります）。
 
   >[!NOTE]
   >

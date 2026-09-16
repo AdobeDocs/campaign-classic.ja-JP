@@ -8,22 +8,26 @@ exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 TQID: https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: '923'
 ht-degree: 1%
-
 ---
-
 # Web サービスの呼び出し{#web-service-calls}
 
 ## 一般情報 {#general-information}
@@ -197,7 +201,7 @@ WSDLの説明は、Web サービスを形成する「バインディング」に
 
 ## 接続性 {#connectivity}
 
-Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../installation/using/security-zones.md)とセッション管理の設定を導入することで、認証メカニズムのセキュリティを強化しました。
+Adobe Campaignでは、[ セキュリティゾーン ](../../installation/using/security-zones.md)とセッション管理の設定を導入することで、認証メカニズムのセキュリティを強化しました。
 
 使用可能な認証モードは2つあります。
 
@@ -215,8 +219,8 @@ Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../ins
 * ランダムな構成（ユーザーのログインとパスワードが含まれなくなりました）
 * Web経由でアクセスした場合：
 
-   * セッショントークンは永続的なトークンになり、ブラウザーが閉じても破壊されません
-   * http-ONLY Cookieに配置されます（オペレーターにはCookieを有効にする必要があります）
+  * セッショントークンは永続的なトークンになり、ブラウザーが閉じても破壊されません
+  * http-ONLY Cookieに配置されます（オペレーターにはCookieを有効にする必要があります）
 
 ### セキュリティトークンの特徴 {#security-token-characteristics}
 
@@ -227,9 +231,9 @@ Adobe Campaignでは、[&#x200B; セキュリティゾーン &#x200B;](../../ins
 * Adobe Campaign コンソールに保存されます
 * Web経由でアクセスした場合：
 
-   * document.securityToken プロパティに格納され__す
-   * ページ URLが更新され、セキュリティトークンが更新されます
-   * フォームは、トークンを含む非表示のフィールドを介して更新されます
+  * document.securityToken プロパティに格納され__す
+  * ページ URLが更新され、セキュリティトークンが更新されます
+  * フォームは、トークンを含む非表示のフィールドを介して更新されます
 
 #### セキュリティトークンの移動 {#security-token-movement}
 

@@ -8,22 +8,27 @@ exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 TQID: https://experienceleague.adobe.com/I483H-86ceSbeG1Mk-sHWy5N7Dyy-uRzOV4Lkvvxc3g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 3137
+workflow-type: tm+mt
+source-wordcount: '3153'
 ht-degree: 100%
-
 ---
-
 # 指標の計算 {#indicator-calculation}
 
 
@@ -61,7 +66,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-このレポートは、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。この集計テーブルは、**[!UICONTROL 受信者トラッキングログ]**&#x200B;テーブル（nms:trackingLogRcp）の代わりにレポートを表示する際のパフォーマンス上の理由で使用され、リアルタイムでは計算されません。テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
+このレポートは、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。 この集計テーブルは、**[!UICONTROL 受信者トラッキングログ]**&#x200B;テーブル（nms:trackingLogRcp）の代わりにレポートを表示する際のパフォーマンス上の理由で使用され、リアルタイムでは計算されません。 テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces-1}
 
@@ -738,7 +743,7 @@ ht-degree: 100%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td>count(Iif([@url-id] != 1, @totalClicks, 0))<br /></td> 
+   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 
@@ -927,7 +932,7 @@ ht-degree: 100%
 
 ## その他の指標 {#other-indicators}
 
-**配信（nms:delivery）／指標**&#x200B;ノード経由でアクセスできる「**送信済み**」の指標（@sent）は、サービスプロバイダーに送信された SMS の合計数に対応しています。この指標は SMS の配信にのみ使用され、他のタイプの配信には使用できません（**@success** 指標および **@processed** 指標と混同しないようにするため）。
+**配信（nms:delivery）／指標**&#x200B;ノード経由でアクセスできる「**送信済み**」の指標（@sent）は、サービスプロバイダーに送信された SMS の合計数に対応しています。 この指標は SMS の配信にのみ使用され、他のタイプの配信には使用できません（**@success** 指標および **@processed** 指標と混同しないようにするため）。
 
 ## 指標の同期 {#indicator-synchronization}
 

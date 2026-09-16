@@ -3,7 +3,7 @@ product: campaign
 title: 仮説のトラッキング
 description: Campaign Response Manager で仮説をトラッキングする方法について説明します。
 feature: Campaigns, Monitoring, Reporting
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,20 +11,23 @@ exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 TQID: https://experienceleague.adobe.com/MKJg0M0gWR9XvgsRkXvZqAkNx2IzLg24l9c4nG26r20
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 487
+workflow-type: tm+mt
+source-wordcount: '478'
 ht-degree: 100%
-
 ---
-
 # 仮説のトラッキング{#hypothesis-tracking}
 
 
@@ -41,7 +44,7 @@ ht-degree: 100%
 
 以下の指標を確認できます。
 
-* **反応者数**：仮説に一致するコンタクト先の数。
+* **反応者数**：仮説に一致するコンタクト先個人の数。
 * **連絡済み反応率**：反応者数÷配信中のコンタクト先の総数。
 * **回答者コントロール母集団のコンタクト先の数**：仮説に一致するコントロール母集団の数。
 * **コントロール母集団の反応率**：回答者コントロール母集団のコンタクト先の数÷配信コントロール母集団の総数。
@@ -53,7 +56,7 @@ ht-degree: 100%
 
 指標により次の情報が提供されます。
 
-* **コンタクト済み母集団の合計売上高**：合計金額÷コンタクト先数。
+* **コンタクト済み母集団の合計売上高**：合計金額÷コンタクトした個人数。
 * **コントロール母集団の合計売上高**：合計金額÷コントロール母集団数。
 * **コンタクト先ごとの平均売上高**：合計金額÷コンタクト先。
 * **コントロール母集団の平均売上高**：合計金額÷コントロール母集団。

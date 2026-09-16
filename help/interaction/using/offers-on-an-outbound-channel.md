@@ -3,7 +3,7 @@ product: campaign
 title: アウトバウンドチャネルのオファー
 description: アウトバウンドチャネルのオファー
 feature: Interaction, Offers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -11,16 +11,16 @@ exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 TQID: https://experienceleague.adobe.com/WGoYaHNR13J47UVmKpHRSm9aw0T8ZrvHUl9zGXezQBU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 478
+workflow-type: tm+mt
+source-wordcount: '469'
 ht-degree: 100%
-
 ---
-
 # アウトバウンドチャネルのオファー{#offers-on-an-outbound-channel}
 
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
    ![](assets/offer_simulation_example_011.png)
 
-1. 「**[!UICONTROL オファーの分類（ランク別）]**」を表示し、オファーエンジンによって選択されたオファーのリストを確認します。
+1. 「**[!UICONTROL オファーの分類（ランキング別）]**」を表示し、オファーエンジンによって選択されたオファーのリストを確認します。
 
    ![](assets/offer_simulation_example_012.png)
 

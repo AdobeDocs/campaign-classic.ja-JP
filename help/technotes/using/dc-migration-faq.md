@@ -9,25 +9,31 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 TQID: https://experienceleague.adobe.com/r3qtW9ZsCD85N9qAnN1EOje-VMhDoyPuqea2xZnBWLs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2269
+workflow-type: tm+mt
+source-wordcount: '2269'
 ht-degree: 100%
-
 ---
-
 # パブリッククラウドへの移行に関する FAQ{#dc-faq}
 
 
@@ -36,7 +42,7 @@ ht-degree: 100%
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)にお問い合わせください。
 
 ## インフラストラクチャへの影響
 
@@ -66,7 +72,7 @@ ht-degree: 100%
 
 * **移行後の問題に対処するために、どのようなプランがありますか？**
 
-  実稼働システムを移行する前に、広範なテストを実施します。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。 アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
+  実稼働システムを移行する前に、広範なテストを実施します。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。 アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
 
 ## 配信品質への影響
 
@@ -112,7 +118,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   まず第一に、アドビの担当部署がプラットフォームの配信品質ステータスを評価し、新しい IP への切り替え計画を助言します。
 
-  移行後にウォームアップを行う必要はありません。 例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
+  移行後にウォームアップを行う必要はありません。 例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
 
   ただし、稼動時に行われる最初のランプアップとは異なり、この計画は、この操作をビジネスに対して透過的なものにするためのものです。
 
@@ -125,8 +131,8 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 * **コミュニケーションのブランド化に使用するデリゲートされたサブドメインには、どのような影響がありますか？**
 
   マーケティングコミュニケーションに使用されるサブドメインは同じままです。 ただし、実装によっては、クライアント側で対応が必要になる場合があります。
-   * サブドメインをアドビにデリゲートしている場合（デフォルト）、アドビがすべての変更を処理し、シームレスな移行を確実に行います。
-   * CNAME セットアップ（例外）の場合、クライアントは、アドビと連携して変更を実装するように求められます。
+  * サブドメインをアドビにデリゲートしている場合（デフォルト）、アドビがすべての変更を処理し、シームレスな移行を確実に行います。
+  * CNAME セットアップ（例外）の場合、クライアントは、アドビと連携して変更を実装するように求められます。
 
 ## 設定と接続性への影響
 
@@ -250,13 +256,13 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   データセンター間のデータ転送が、ダウンタイムのクリティカルパスになります。 データは以下の 2 つの方法で保存されます。
 
-   * 最も重要な、データベース
-   * アプリケーションサーバー上のファイル（データのインポートとエクスポート）
+  * 最も重要な、データベース
+  * アプリケーションサーバー上のファイル（データのインポートとエクスポート）
 
   データの転送を高速化するには、データベースのサイズを小さくすることが最も重要です。 提案：
 
-   * 履歴データ（配信ログ、トラッキングログなど）の保持期間を短縮
-   * 他のテーブル（配信、受信者、カスタムテーブル）の不要なレコードを削除
+  * 履歴データ（配信ログ、トラッキングログなど）の保持期間を短縮
+  * 他のテーブル（配信、受信者、カスタムテーブル）の不要なレコードを削除
 
 * **インスタンスの移行に伴う推定ダウンタイムはどれくらいですか？**
 
@@ -274,11 +280,11 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   環境は以下の順序で移行されます。
 
-   1. 開発環境
-   1. ステージング環境
-   1. 本番環境
-   1. RT 環境
-   1. ミッドソーシング環境
+  1. 開発環境
+  1. ステージング環境
+  1. 本番環境
+  1. RT 環境
+  1. ミッドソーシング環境
 
 * **ロールバックプランはどうなりますか？**
 

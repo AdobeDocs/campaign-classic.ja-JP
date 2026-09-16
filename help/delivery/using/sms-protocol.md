@@ -8,28 +8,38 @@ exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 TQID: https://experienceleague.adobe.com/-e39I2kK3veYtZTufN0ZZrnZPAAco47dU8HFlCtlIxY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 8283
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '8527'
+ht-degree: 99%
 ---
-
 # SMS コネクタのプロトコルと設定 {#sms-connector-protocol}
 
 >[!NOTE]
@@ -44,7 +54,7 @@ SMS は、書式設定のない短いテキストメッセージの送信に限�
 SMS を送信する主な方法は 2 つあります。
 
 * 電話から手動で送信する：人と人との間で直接通信する通常の方法。
-* インターネットから送信する：Adobe Campaign がメッセージを送信する方法。インターネットをモバイルネットワークに接続する SMS サービスプロバイダーが必要です。
+* インターネットから送信する：Adobe Campaign がメッセージを送信する方法。 インターネットをモバイルネットワークに接続する SMS サービスプロバイダーが必要です。
 Adobe Campaign は、SMPP プロトコルを使用して SMS をサービスプロバイダーに送信します。
 
 このドキュメントでは、Adobe Campaign と SMPP プロバイダーの間の接続設定について説明します。
@@ -89,13 +99,14 @@ SMS は、テキストよりも多くの情報を伝送します。 SMS によ�
 
 ## SMPP プロトコル {#smpp-protocol}
 
-Adobe Campaign Classic は、SMPP プロトコルバージョン 3.4 をサポートしています。これは、SMS をプロバイダー（SMSC）に送信し、SMS および領収書も受信できる広範なプロトコルです。詳しくは、[SMPP ドキュメント](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照してください。
+Adobe Campaign Classic は、SMPP プロトコルバージョン 3.4 をサポートしています。 これは、SMS をプロバイダー（SMSC）に送信し、SMS および領収書も受信できる広範なプロトコルです。 詳しくは、[SMPP ドキュメント](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照してください。
 
 SMS サービスプロバイダー側のネットワーク機器は、SMSC と呼ばれることが多いです。
 
 ### SMPP 接続 {#smpp-connections}
 
-Adobe Campaign は、TCP を介して SMS サービスプロバイダーのネットワーク機器に接続します。SMPP プロトコルは、Adobe Campaign からプロバイダーへの永続的な TCP 接続を設定します。TCP 接続は、常に Adobe Campaign が開始します。メッセージを受信する場合も同様です。SMPP は、モードに応じて 1 つまたは 2 つの TCP 接続を開きます。すべての接続は、常に Adobe Campaign によって開始されます。
+Adobe Campaign は、TCP を介して SMS サービスプロバイダーのネットワーク機器に接続します。 SMPP プロトコルは、Adobe Campaign からプロバイダーへの永続的な TCP 接続を設定します。 TCP 接続は、常に Adobe Campaign が開始します。メッセージを受信する場合も同様です。
+SMPP は、モードに応じて 1 つまたは 2 つの TCP 接続を開きます。 すべての接続は、常に Adobe Campaign によって開始されます。
 
 SMPP プロトコルは次の 2 つのモードで動作します。
 
@@ -529,8 +540,9 @@ TON（数値のタイプ）と NPI（数値計画インジケータ）は、[SMP
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-このウィンドウは、ネットワークリンクの待ち時間が長い場合のスループットを向上させるのに役立ちます。ウィンドウの値は、少なくとも SMS の数にリンクの待ち時間を秒単位で掛けた値である必要があり、そうすることで、次のメッセージを送信する前に、コネクタは `SUBMIT_SM_RESP` を待たない状態になります。
-ウィンドウが大きすぎる場合は、接続に問題が発生した場合に、より多くの重複メッセージを送信する可能性があります。また、ほとんどのプロバイダーは送信ウィンドウに対して非常に厳しい制限を適用しており、この制限を超えるメッセージを拒否します。
+このウィンドウは、ネットワークリンクの待ち時間が長い場合のスループットを向上させるのに役立ちます。  ウィンドウの値は、少なくともSMS/sの数にリンクの待ち時間を掛ける必要があります
+コネクタが次のメッセージを送信する前に`SUBMIT_SM_RESP`を待機していないことを秒単位で確認します。
+ウィンドウが大きすぎる場合は、接続に問題が発生した場合に、より多くの重複メッセージを送信する可能性があります。 また、ほとんどのプロバイダーは送信ウィンドウに対して非常に厳しい制限を適用しており、この制限を超えるメッセージを拒否します。
 
 最適な送信ウィンドウ式の計算方法：
 
@@ -576,7 +588,7 @@ TCP 接続試行と `BIND_*_RESP` 応答の間のタイムアウト。 タイム
 
 この設定を使用すると、仕様とは異なるカスタムエンコーディングマッピングを定義できます。 エンコーディングのリストと `data_coding` 値を宣言できます。
 
-MTA は、リスト内の最初のエンコードを使用してエンコードを試みます。 失敗した場合は、リスト上で次のエンコーディングを使用しようとします。メッセージのエンコードにエンコーディングを使用できない場合は、エラーが発生します。エンコーディングが見つかると、MTA はエンコードされたテキストと `SUBMIT_SM PDU` フィールドを作成し、テーブルで指定された値を使用して `data_coding` フィールドを設定します。
+MTA は、リスト内の最初のエンコードを使用してエンコードを試みます。 失敗した場合は、リスト上で次のエンコーディングを使用しようとします。メッセージのエンコードにエンコーディングを使用できない場合は、エラーが発生します。 エンコーディングが見つかると、MTA はエンコードされたテキストと `SUBMIT_SM PDU` フィールドを作成し、テーブルで指定された値を使用して `data_coding` フィールドを設定します。
 
 テーブル内の項目の順序は重要です。エンコーディングは上から下へ試行します。 最も費用のかからないエンコーディング、または最も推奨されるエンコーディングをリストの上部に配置し、続けて高価なエンコーディングを配置する必要があります。
 
@@ -687,7 +699,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 * **10 進数**：ID は、ASCII 形式の 10 進数である必要があります。 この設定を使用すると、先頭と末尾の空白文字と先頭の 0 が削除されます。
 
-* **16 進数**：ID は ASCII 形式の 16 進数です。先頭に 0x および末尾に h を付けません。その後、ID を 10 進数に変換してから、データベースに保存します。
+* **16 進数**：ID は ASCII 形式の 16 進数です。先頭に 0x および末尾に h を付けません。 その後、ID を 10 進数に変換してから、データベースに保存します。
 
 * **16 進文字列**：ID は、ASCII エンコードされたテキストで、16 進数でエンコードされたバイト数の文字列である必要があります。 例えば、PDU には `0x34 0x31 0x34 0x32 0x34 0x33` があり、これは ASCII「414243」に変換されます。 次に、この文字列が 16 進数のバイト文字列としてデコードされ、「ABC」が返されます。ID「ABC」をデータベースに格納します。
 
@@ -845,22 +857,22 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 ### チェック時の詳細 SMPP トレースの有効化 {#enable-verbose}
 
-チェック中は必ず詳細 SMPP トレースを有効にする必要があります。
-ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+チェック中は必ず詳細 SMPP トレースを有効にしてください。
+ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にサポートを依頼してください。
 
 ### SMS のテスト {#test}
 
 * **SMS に様々な文字を送信する**
-GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。カスタム文字マッピングテーブルを設定する場合は、考えられるすべての `data_coding` 値に対して 1 つ以上の SMS を送信します。
+GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。 カスタム文字マッピングテーブルを設定する場合は、考えられるすべての `data_coding` 値に対して 1 つ以上の SMS を送信します。
 
-* **SR が正しく処理されていることを確認する**
-SMS が配信ログに受信済みとマークされます。配信ログは正常に作成され、次のようになります。
+* **SRが適切に処理されていることを確認してください**
+SMSは、配信ログで「受信」としてマークする必要があります。 配信ログは正常に作成され、次のようになります。
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-配信プロバイダー名を変更したことを確認してください。 本番環境では、配信ログに **SR Generic** を含めないでください。
+  配信プロバイダー名を変更したことを確認してください。 本番環境では、配信ログに **SR Generic** を含めないでください。
 
-* **MO が処理されていることを確認する**
-MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。
-Adobe Campaign が `DELIVER_SM_RESP` に正常に応答したことをログで確認します。
+* **MOが処理されていることを確認してください**
+MO （自動返信、MOのデータベースへの保存など）を処理する必要がある場合 テストをいくつか実施します。 すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。
+Adobe Campaign が `DELIVER_SM_RESP`（command_status=0）に正常に応答したことをログで確認します。
 
 ### PDU の確認 {#check-pdus}
 
@@ -872,7 +884,7 @@ Adobe Campaign が `DELIVER_SM_RESP` に正常に応答したことをログで�
 
 `BIND_* PDUs` が正しく送信されていることを確認します。 最も重要な点は、プロバイダーが常に成功した `BIND_*_RESP PDUs` を返すことです（command_status = 0）。
 
-`BIND_* PDU` の数が多すぎないか確認します。数が多すぎる場合は、接続が不安定であることを示している可能性があります。 詳しくは、[不安定な接続の問題](sms-protocol.md#issues-unstable-connection)の節を参照してください。
+`BIND_* PDU` の数が多すぎないか確認します。 数が多すぎる場合は、接続が不安定であることを示している可能性があります。 詳しくは、[不安定な接続の問題](sms-protocol.md#issues-unstable-connection)の節を参照してください。
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

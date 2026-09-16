@@ -3,7 +3,7 @@ product: campaign
 title: ログファイル
 description: ログファイル
 feature: Monitoring
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,19 +11,21 @@ exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 TQID: https://experienceleague.adobe.com/ueoodkXqvcxSjb4Q2NOKXrTgZIiQEGvBiW8JQF-PFss
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 8%
-
+source-wordcount: '458'
+ht-degree: 6%
 ---
-
 # ログファイル{#log-files}
 
 
@@ -66,7 +68,7 @@ ht-degree: 8%
 >
 >**redir** ディレクトリは、リダイレクト サーバーにのみ存在します。 **url** サブディレクトリには、リダイレクトするURLの一致が含まれ、サブディレクトリ **log**&#x200B;にはトラッキングログが含まれます。 トラッキングログを生成するには、**trackinglogd** モジュールを実行している必要があります。
 
-パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [&#x200B; サーバー設定ファイル &#x200B;](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
+パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割され、1日ごとに1つ（logins.yy-mm-dd.log）に最大365個のファイルが保持されます。 serverConf.xmlのsyslogd （**maxNumberOfLoginsFiles** オプション）で日数を変更できます。 [ サーバー設定ファイル ](../../installation/using/the-server-configuration-file.md#syslogd)のドキュメントを参照してください。
 
 デフォルトでは、ログはモジュールとインスタンスごとに2つの10 MB ファイルに制限されています。 2番目のファイルは&#x200B;**`<modulename>`_2.log**&#x200B;という名前です。 したがって、ログのサイズは、モジュールおよびインスタンスごとに2&#42;10MBに制限されます。
 

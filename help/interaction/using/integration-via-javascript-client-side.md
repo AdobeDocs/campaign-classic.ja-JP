@@ -10,18 +10,19 @@ exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 TQID: https://experienceleague.adobe.com/o78NLFSbsXqQgJQEU5KSN5PkheQHtHlPh2KdB0RBINA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1164
+workflow-type: tm+mt
+source-wordcount: '1164'
 ht-degree: 100%
-
 ---
-
 # JavaScript による統合（クライアント側）{#integration-via-javascript-client-side}
 
 
@@ -61,7 +62,7 @@ URL を呼び出すスクリプトは、次のようになります。
    HTML ページには、作成したオファースペースの内部名の値（&quot;i_スペースの内部名&quot;）を持つ @id 属性のある
 
    要素を含める必要があります。 オファーは、インタラクションによってこの
-要素に挿入されます。
+   要素に挿入されます。
 
    この例では、@id 属性は、値 &quot;i_SPC12&quot; を受け取ります（「SPC12」が先ほど作成したオファースペースの内部名）。
 

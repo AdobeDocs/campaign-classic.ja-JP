@@ -8,18 +8,19 @@ exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 TQID: https://experienceleague.adobe.com/57imQDwof4UvPsE4WyQj9-NS3z7i2mEwxObF-WrwH74
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: '1803'
 ht-degree: 1%
-
 ---
-
 # データ指向の API{#data-oriented-apis}
 
 データ指向APIにより、データモデル全体に対応できます。
@@ -52,9 +53,9 @@ XML文書は、データベースのMEMO型フィールドに格納されます�
 
 これにより、基になるSQLを分離できます。 クエリ言語は基になるエンジンに依存しません。一部の関数は再マッピングされ、複数のSELECT SQL注文が生成される可能性があります。
 
-詳しくは、スキーマ「xtk:queryDef」 [&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)の「ExecuteQuery」メソッドの例を参照してください。
+詳しくは、スキーマ「xtk:queryDef」 ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)の「ExecuteQuery」メソッドの[例を参照してください。
 
-**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） &#x200B;](#executequery--xtk-querydef-)で提示されます。
+**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） ](#executequery--xtk-querydef-)で提示されます。
 
 ### 書き込み {#write}
 
@@ -64,7 +65,7 @@ XML文書は、データベースのMEMO型フィールドに格納されます�
 
 XML構造は、データの論理的なビューを提供し、SQL テーブルの物理構造を回避することができます。
 
-Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#write---writecollection--xtk-session-)に表示されます。
+Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---writecollection--xtk-session-)に表示されます。
 
 ## ExecuteQuery （xtk:queryDef） {#executequery--xtk-querydef-}
 
@@ -145,7 +146,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 * **select**：複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
 * **count**: データ数を返します。
 
-**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md)を参照してください。
+**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[ データスキーマ ](../../configuration/using/data-schemas.md)を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 

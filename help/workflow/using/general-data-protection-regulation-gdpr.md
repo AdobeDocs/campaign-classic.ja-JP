@@ -5,12 +5,10 @@ description: プライバシーデータ保護規則ワークフローの詳細�
 hide: true
 feature: Workflows, Privacy
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
-
 ---
-
 
 # プライバシーデータ保護規則{#general-data-protection-regulation-gdpr}
 

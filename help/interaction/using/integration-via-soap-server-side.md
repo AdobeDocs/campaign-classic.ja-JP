@@ -10,16 +10,16 @@ exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 TQID: https://experienceleague.adobe.com/-f0NEfvLKh0PfgkB-c4SiPUyQrGuKx55yXOBfmYMmHs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 326
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
-
 ---
-
 # SOAP を使用した統合（サーバー側）{#integration-via-soap-server-side}
 
 
@@ -53,7 +53,7 @@ SOAP を使用したオファーの提案の場合、**nms:proposition#Propose**
 **nms:interaction#UpdateStatus** コマンドを URL に追加し、次のパラメーターを指定します。
 
 * **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。 [オファーの提案](#offer-proposition)を参照してください。
-* **status**：文字列。オファーの新しいステータスを指定します。 使用可能な値は、**nms:common** スキーマの **propositionStatus** の列挙に一覧表示されます。例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
+* **status**：文字列。オファーの新しいステータスを指定します。 使用可能な値は、**nms:common** スキーマの **propositionStatus** の列挙に一覧表示されます。 例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
 * **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 
 ## SOAP 呼び出しの使用例 {#example-using-a-soap-call}

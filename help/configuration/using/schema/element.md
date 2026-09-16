@@ -7,17 +7,18 @@ exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 TQID: https://experienceleague.adobe.com/MbBmc-H9eZfmqWy-vZb6dd-m-l0G-UxtY-HAboNURjc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: '2035'
 ht-degree: 1%
-
 ---
-
 # 要素エレメント {#element--element}
 
 
@@ -65,11 +66,11 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 
   アクセス可能な値は次のとおりです。
 
-   * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
-   * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
-   * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
-   * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
-   * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
+  * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
+  * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
+  * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
+  * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
+  * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
 
 * **詳細（ブール値）**：このオプションがアクティブ化されている場合（@advanced=&quot;true&quot;）、フォームでリストを設定するためにアクセス可能な使用可能なフィールドのリストで属性を非表示にできます。
 * **集計（文字列）**：別のスキーマを介して`<element>`の定義をコピーできます。 この属性は、「名前空間:name」の形式でスキーマ宣言を受け取ります。
@@ -77,14 +78,14 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 * **autopk （ブール値）**：このオプションがアクティブ化されている場合（autopk=&quot;true&quot;）、一意のキーが自動的に定義されます。 このオプションは、スキーマのメイン要素でのみ使用できます。 警告：Adobe Campaignでは、生成されるキーが一意であることが保証されます。 キー値が連続して増分である保証はありません。
 * **dataPolicy （文字列）**: SQL フィールドで許可される値に対する承認制約を指定できます。 この属性の値は次のとおりです。
 
-   * &quot;none&quot;：値なし
-   * &quot;smartCase&quot;：先頭の文字は大文字
-   * &quot;lowerCase&quot;：すべて小文字
-   * &quot;upperCase&quot;：すべて大文字
-   * &quot;email&quot;: メールアドレス
-   * &quot;phone&quot;：電話番号
-   * &quot;identifier&quot;：識別子名
-   * &quot;resIdentifier&quot;: ファイル名
+  * &quot;none&quot;：値なし
+  * &quot;smartCase&quot;：先頭の文字は大文字
+  * &quot;lowerCase&quot;：すべて小文字
+  * &quot;upperCase&quot;：すべて大文字
+  * &quot;email&quot;: メールアドレス
+  * &quot;phone&quot;：電話番号
+  * &quot;identifier&quot;：識別子名
+  * &quot;resIdentifier&quot;: ファイル名
 
 * **dbEnum （文字列）**: 「クローズ済み」列挙の内部名を受け取ります。 列挙値は`<srcschema>`で定義する必要があります。
 * **defOnDuplicate （boolean）**：この属性がアクティブ化されると、レコードが複製されると、デフォルト値（@defaultで定義）が自動的にレコードに再適用されます。
@@ -97,13 +98,13 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 * **externalJoin （boolean）**:「link」型要素の外部結合。
 * **機能（文字列）**：特性フィールドを定義します。これらのフィールドは、既存のテーブル内のデータを拡張するために使用されますが、追加テーブル内のストレージに使用されます。 使用できる値は次のとおりです。
 
-   * 「共有」：コンテンツは、データタイプごとに共有テーブルに保存されます
-   * 「専用」：コンテンツは専用テーブルに保存されます
+  * 「共有」：コンテンツは、データタイプごとに共有テーブルに保存されます
+  * 「専用」：コンテンツは専用テーブルに保存されます
 
   SQL特性テーブルは、特性タイプに基づいて自動的に作成されます。
 
-   * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * 専用：`Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * 共有：`Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   特性フィールドには2つのタイプがあります。特性に対して1つの値が許可される単純なフィールドと、特性が複数の値を含む可能性のある収集要素にリンクされる複数選択フィールドです。
 
@@ -120,11 +121,11 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 
   アクセス可能な値は次のとおりです。
 
-   * &quot;define&quot;: Adobe Campaignは、リンクを介して参照されている場合、エンティティを削除しません
-   * 「通常」：ソースのオカレンスを削除すると、ターゲットのオカレンス上のリンクのキーが初期化されます（デフォルトモード）。このタイプの整合性は、すべての外部キーを初期化します
-   * 「own」：ソースのオカレンスを削除すると、ターゲットのオカレンスの削除がトリガーされます
-   * 「owncopy」: 「own」（削除の場合）と同様または重複する（重複の場合）
-   * &quot;neutral&quot;：何もしない
+  * &quot;define&quot;: Adobe Campaignは、リンクを介して参照されている場合、エンティティを削除しません
+  * 「通常」：ソースのオカレンスを削除すると、ターゲットのオカレンス上のリンクのキーが初期化されます（デフォルトモード）。このタイプの整合性は、すべての外部キーを初期化します
+  * 「own」：ソースのオカレンスを削除すると、ターゲットのオカレンスの削除がトリガーされます
+  * 「owncopy」: 「own」（削除の場合）と同様または重複する（重複の場合）
+  * &quot;neutral&quot;：何もしない
 
 * **label （文字列）**：要素ラベル。
 * **labelSingular （string）**: インターフェイスの一部で使用される要素のラベル（単一形式）。
@@ -134,10 +135,10 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 
   スキーマがデータベースに書き込まれると、Adobe Campaignによってフィールド名に接頭辞が自動的に追加されます。
 
-   * &quot;i&quot;: &#39;integer&#39;型のプレフィックス。
-   * &quot;d&quot;: &#39;double&#39;型のプレフィックス。
-   * &quot;s&quot;：文字列型の接頭辞。
-   * &quot;ts&quot;: &#39;date&#39; タイプのプレフィックス。
+  * &quot;i&quot;: &#39;integer&#39;型のプレフィックス。
+  * &quot;d&quot;: &#39;double&#39;型のプレフィックス。
+  * &quot;s&quot;：文字列型の接頭辞。
+  * &quot;ts&quot;: &#39;date&#39; タイプのプレフィックス。
 
   自律的な方法でテーブルの名前を定義するには、メインスキーマ要素の定義で「@sqltable」属性を使用する必要があります。
 
@@ -146,9 +147,9 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 * **pkSequence （文字列）**：自動増分キーの計算に使用するシーケンスの名前を受け取ります。 この属性は、自動インクリメンタルキーがスキーマのルート要素で定義されている場合にのみ使用できます。
 * **pkgStatus （文字列）**: パッケージの書き出し中に、この属性の値の関数として値が考慮されます：
 
-   * &quot;always&quot;：要素は常に存在します
-   * &quot;never&quot;：要素は存在しません
-   * 「デフォルト（または何も）」：デフォルトのエレメントでない場合、または内部フィールドではなく、他のインスタンスと互換性がない場合を除き、エレメントは書き出されます
+  * &quot;always&quot;：要素は常に存在します
+  * &quot;never&quot;：要素は存在しません
+  * 「デフォルト（または何も）」：デフォルトのエレメントでない場合、または内部フィールドではなく、他のインスタンスと互換性がない場合を除き、エレメントは書き出されます
 
 * **ref （文字列）**：この属性は、複数のスキーマで共有されている>要素>要素への参照（定義ファクタリング）を定義します。 定義は現在のスキーマにコピーされません。
 * **必須（ブール値）**：この属性がアクティブ化されている場合（@required=&quot;true&quot;）、このフィールドはインターフェイスで強調表示されます。 フィールドのラベルはフォームで赤になります。
@@ -157,8 +158,8 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 
   次のような値を選択できます。
 
-   * 「シングル」：シンプルな1-1文字のリンク
-   * &quot;unbound&quot;: 1-N type collection link
+  * 「シングル」：シンプルな1-1文字のリンク
+  * &quot;unbound&quot;: 1-N type collection link
 
   デフォルトでは、リンク作成時に属性が指定されない場合、基数は1 ～ Nになります。
 
@@ -181,32 +182,32 @@ Adobe Campaignの`<element>`要素には4つの種類があります。
 
   使用可能なタイプのリスト：
 
-   * いずれか
-   * bin
-   * blob
-   * ブール値
-   * バイト
-   * CDATA
-   * 日時
-   * datetime
-   * datetimenotz
-   * 日付
-   * 倍精度浮動小数点数
-   * 列挙
-   * 浮動小数点数
-   * html
-   * int64
-   * リンク
-   * 長整数
-   * メモ
-   * MN トークン
-   * パーセント
-   * primarykey
-   * 短い
-   * 文字列
-   * 時間
-   * 期間
-   * uuid
+  * いずれか
+  * bin
+  * blob
+  * ブール値
+  * バイト
+  * CDATA
+  * 日時
+  * datetime
+  * datetimenotz
+  * 日付
+  * 倍精度浮動小数点数
+  * 列挙
+  * 浮動小数点数
+  * html
+  * int64
+  * リンク
+  * 長整数
+  * メモ
+  * MN トークン
+  * パーセント
+  * primarykey
+  * 短い
+  * 文字列
+  * 時間
+  * 期間
+  * uuid
 
 * **unbound （boolean）**：属性がアクティブ化されている場合（unbound=&quot;true&quot;）、リンクは1-N基数のコレクション要素として宣言されます。
 * **userEnum （文字列）**:「open」列挙の内部名を受け取ります。 列挙値は、インターフェイスでユーザーが定義できます。

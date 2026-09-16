@@ -8,30 +8,42 @@ exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 TQID: https://experienceleague.adobe.com/d6tF02X7K9j9mDk90wyH-3iXm8iBZzMo1da2PPkYHGs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
-workflow-type: ht
-source-wordcount: 1455
+workflow-type: tm+mt
+source-wordcount: '1455'
 ht-degree: 100%
-
 ---
-
 # Enhanced MTA を使用した送信 {#sending-with-enhanced-mta}
 
 **Adobe Campaign Enhanced MTA**（メール転送エージェント）は、アップグレードされた送信インフラストラクチャを提供し、配信品質、評判、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理を向上します。
@@ -156,7 +168,8 @@ Campaign 配信スループットグラフでは、メール受信者に対す�
 
 ### DKIM 署名
 
-DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA によっておこなわれます。 ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA によっておこなわれます。 ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。
+DKIM の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ### 配信成功レポート
 

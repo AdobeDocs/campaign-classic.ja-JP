@@ -8,17 +8,17 @@ exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 TQID: https://experienceleague.adobe.com/1Euw5OREQLbcjZLR0g-QKzU3tOI9041En4Z7Uf-NTy8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 5%
-
 ---
-
 # ステージの設定{#setup-stages}
 
 基本原則は、web サイトの特定のページにweb トラッキングタグを挿入することです。

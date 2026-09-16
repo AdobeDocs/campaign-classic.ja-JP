@@ -8,21 +8,24 @@ exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 TQID: https://experienceleague.adobe.com/Yru-hRxtlHGZpLXmNIPxRbZjgvfz8siQOc9wiOPOP1w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2381
+source-wordcount: '2381'
 ht-degree: 4%
-
 ---
-
 # キャンペーンデータモデルの説明{#data-model-description}
 
 
@@ -116,7 +119,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## 配信と追跡 {#delivery-and-tracking}
 
-この一連のテーブルは&#x200B;**配信** モジュールにリンクされており、配信と、メッセージの送信時に発生する最終的な問題を監視できます。 詳しくは、[配信の監視](../../delivery/using/about-delivery-monitoring.md)を参照してください。 トラッキングについて詳しくは、[&#x200B; メッセージのトラッキング &#x200B;](../../delivery/using/about-message-tracking.md)を参照してください。
+この一連のテーブルは&#x200B;**配信** モジュールにリンクされており、配信と、メッセージの送信時に発生する最終的な問題を監視できます。 詳しくは、[配信の監視](../../delivery/using/about-delivery-monitoring.md)を参照してください。 トラッキングについて詳しくは、[ メッセージのトラッキング ](../../delivery/using/about-message-tracking.md)を参照してください。
 
 ![](assets/data-model_delivery.png)
 
@@ -213,7 +216,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## シミュレーションと配信 {#simulation-and-delivery}
 
-この一連のテーブルは&#x200B;**シミュレーション** モジュールにリンクされており、受信者に提案を送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[&#x200B; オファーのシミュレーションについて](../../interaction/using/about-offers-simulation.md)を参照してください。
+この一連のテーブルは&#x200B;**シミュレーション** モジュールにリンクされており、受信者に提案を送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[ オファーのシミュレーションについて](../../interaction/using/about-offers-simulation.md)を参照してください。
 
 ![](assets/data-model_simulation.png)
 
@@ -223,7 +226,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## インタラクションモジュール {#interaction-module}
 
-この一連のテーブルは&#x200B;**インタラクション** モジュールにリンクされており、特定の連絡先とのインタラクション中に、1つまたは複数の適合したオファーを作成することで、リアルタイムで応答できます。 詳しくは、[&#x200B; インタラクションとオファー管理](../../interaction/using/interaction-and-offer-management.md)を参照してください。
+この一連のテーブルは&#x200B;**インタラクション** モジュールにリンクされており、特定の連絡先とのインタラクション中に、1つまたは複数の適合したオファーを作成することで、リアルタイムで応答できます。 詳しくは、[ インタラクションとオファー管理](../../interaction/using/interaction-and-offer-management.md)を参照してください。
 
 * **NmsOffer**：このテーブルは&#x200B;**nms:offer** スキーマと一致します。 各マーケティングオファーの定義が含まれます。
 * **NmsPropositionRcp**：このテーブルは&#x200B;**nms:propositionRcp** スキーマと一致します。 各個人に送信されたマーケティング提案のクロスチャネルログが含まれます。 レコードは、個人に対して提案が準備または効果的に作成されたときに作成されます。
@@ -235,7 +238,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## Message Center モジュール {#message-center-module}
 
-次の一連のテーブルは&#x200B;**トランザクションメッセージ** （Message Center）モジュールにリンクされており、ユーザーに送信され、情報システムからトリガーされたイベントから生成された個別および一意のコミュニケーションを管理できます。 詳しくは、「[&#x200B; トランザクションメッセージについて](../../message-center/using/about-transactional-messaging.md)」を参照してください。
+次の一連のテーブルは&#x200B;**トランザクションメッセージ** （Message Center）モジュールにリンクされており、ユーザーに送信され、情報システムからトリガーされたイベントから生成された個別および一意のコミュニケーションを管理できます。 詳しくは、「[ トランザクションメッセージについて](../../message-center/using/about-transactional-messaging.md)」を参照してください。
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -263,7 +266,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## NMAC モジュール {#nmac-module}
 
-この一連のテーブルは&#x200B;**モバイルアプリチャネル**&#x200B;にリンクされており、アプリ経由でiOSおよびAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、[&#x200B; モバイルアプリチャネルについて](../../delivery/using/about-mobile-app-channel.md)を参照してください。
+この一連のテーブルは&#x200B;**モバイルアプリチャネル**&#x200B;にリンクされており、アプリ経由でiOSおよびAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、[ モバイルアプリチャネルについて](../../delivery/using/about-mobile-app-channel.md)を参照してください。
 
 * **NmsMobileApp**：このテーブルは&#x200B;**nms:mobileApp** スキーマと一致します。 Adobe Campaignで定義されたモバイルアプリケーションが含まれています。
 * **NmsAppSubscription**：このテーブルは&#x200B;**nms:appSubscription** スキーマと一致します。 1つ以上のアプリケーションに関する購読者の情報が含まれます。
@@ -274,7 +277,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## ソーシャルマーケティングモジュール {#social-marketing-module}
 
-この一連のテーブルは&#x200B;**ソーシャルネットワークの管理** モジュールにリンクされており、FacebookおよびX （旧Twitter）を介して顧客や見込み客と対話できます。 詳しくは、「[&#x200B; ソーシャルマーケティングについて](../../social/using/about-social-marketing.md)」を参照してください。
+この一連のテーブルは&#x200B;**ソーシャルネットワークの管理** モジュールにリンクされており、FacebookおよびX （旧Twitter）を介して顧客や見込み客と対話できます。 詳しくは、「[ ソーシャルマーケティングについて](../../social/using/about-social-marketing.md)」を参照してください。
 
 ![](assets/data-model_social.png)
 

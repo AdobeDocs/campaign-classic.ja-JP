@@ -8,23 +8,29 @@ exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 TQID: https://experienceleague.adobe.com/xSG6-FShBqzQfEkFVf4bjadhcwGNzfxhIWvfFpMgFzg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2534
+workflow-type: tm+mt
+source-wordcount: '2534'
 ht-degree: 100%
-
 ---
-
 # グローバルレポート {#global-reports}
 
 
@@ -180,9 +186,9 @@ ht-degree: 100%
 
 ### ソーシャルネットワークへの共有 {#sharing-to-social-networks}
 
-バイラルマーケティングでは、配信の受信者は連絡先のネットワークと情報を共有できます。プロファイルにリンクを追加したり（Facebook、X - 旧 Twitter など）、友達にメッセージを送信したりできます。それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
+バイラルマーケティングでは、配信の受信者は連絡先のネットワークと情報を共有できます。プロファイルにリンクを追加したり（Facebook、X - 旧 Twitter など）、 友達にメッセージを送信したりできます。 それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
-このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します。
+このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します 。
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -215,7 +221,7 @@ ht-degree: 100%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities}
 
-このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の展開を表示しています。
+このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の展開を表示しています 。
 
 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 

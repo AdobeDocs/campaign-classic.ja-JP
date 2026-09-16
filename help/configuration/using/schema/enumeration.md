@@ -7,15 +7,14 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 TQID: https://experienceleague.adobe.com/w8b-2HEtYRMOd9yHFLtvS0vS2tdLDzuIakLfrqImsGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '198'
 ht-degree: 11%
-
 ---
-
 # 列挙要素 {#enumeration--element}
 
 
@@ -55,34 +54,34 @@ ht-degree: 11%
 
   使用可能なタイプのリスト：
 
-   * いずれか
-   * bin
-   * blob
-   * ブール値
-   * バイト
-   * CDATA
-   * 日時
-   * datetime
-   * datetimenotz
-   * 日付
-   * DOMDocument
-   * DOMElement
-   * 倍精度浮動小数点数
-   * 列挙
-   * 浮動小数点数
-   * html
-   * int64
-   * リンク
-   * 長整数
-   * メモ
-   * MN トークン
-   * パーセント
-   * primarykey
-   * 短い
-   * 文字列
-   * 時間
-   * 期間
-   * uuid
+  * いずれか
+  * bin
+  * blob
+  * ブール値
+  * バイト
+  * CDATA
+  * 日時
+  * datetime
+  * datetimenotz
+  * 日付
+  * DOMDocument
+  * DOMElement
+  * 倍精度浮動小数点数
+  * 列挙
+  * 浮動小数点数
+  * html
+  * int64
+  * リンク
+  * 長整数
+  * メモ
+  * MN トークン
+  * パーセント
+  * primarykey
+  * 短い
+  * 文字列
+  * 時間
+  * 期間
+  * uuid
 
 * **default （string）**: Default value. デフォルト値は、列挙で定義された値のいずれかである場合もあります。
 * **desc （string）**：列挙の説明。

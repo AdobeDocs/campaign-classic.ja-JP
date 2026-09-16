@@ -7,15 +7,14 @@ exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 TQID: https://experienceleague.adobe.com/VWv-F5lUufsXeurPt0GMUICNvrp7cKi-AJWxFzA6wRE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 1%
-
 ---
-
 # dbindex エレメント {#dbindex--element}
 
 
@@ -59,11 +58,11 @@ dbindex:==keyfield
 
   アクセス可能な値は次のとおりです。
 
-   * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
-   * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
-   * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
-   * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
-   * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
+  * &quot;none&quot;：和解のみ。 つまり、Adobe Campaignはアップデートせずに復元したり、存在しない場合はエラーを発生させたりします。
+  * &quot;insertOrUpdate&quot;：挿入で更新します。 つまり、Adobe Campaignがエレメントを更新するか、エレメントが存在しない場合はエレメントを作成します。
+  * &quot;insert&quot;：挿入。 つまり、Adobe Campaignはエレメントが存在するかどうかを確認せずに挿入します。
+  * &quot;update&quot;：更新します。 つまり、Adobe Campaignはエレメントを更新するか、エレメントが存在しない場合はエラーを生成します。
+  * &quot;delete&quot;：削除。 つまり、Adobe Campaignは復元と削除を行います。
 
 * **applicableIf （文字列）**: インデックスを考慮するための条件 – XTK式を受け取ります。
 * **label （文字列）**: インデックスラベル。

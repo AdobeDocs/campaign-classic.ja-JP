@@ -9,24 +9,31 @@ exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 TQID: https://experienceleague.adobe.com/0x1K997AEHhX-ozmIJH5I6NZPb388PKFkrXaK-EgoTY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1912
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
-
 ---
-
 # ターゲット母集団の定義 {#defining-the-target-population}
 
 配信ごとに、次の数種類のターゲット母集団を定義できます。
@@ -150,12 +157,12 @@ ht-degree: 100%
 
   次に例を示します。
 
-   * ニュースレターの配信、または電子文書の配信： 重複アドレスが自然に発生するような性質のデータである場合を除き、重複アドレスを除外しない設定にします。 例えば、1 つのメールアドレスを共用しているカップルが、同じニュースレターをそれぞれ購読している場合、それぞれの宛名でパーソナライズされた 2 通のメールメッセージを受け取るのが自然だと考えられます。 この場合、このオプションはオフにできます。
-   * マーケティングキャンペーンの配信：同じ受信者に多数のメッセージが送信されないようにするために、重複アドレスの除外は必要不可欠です。 この場合、このオプションをオンにできます。
+  * ニュースレターの配信、または電子文書の配信： 重複アドレスが自然に発生するような性質のデータである場合を除き、重複アドレスを除外しない設定にします。 例えば、1 つのメールアドレスを共用しているカップルが、同じニュースレターをそれぞれ購読している場合、それぞれの個人の宛名でパーソナライズされた 2 通のメールメッセージを受け取るのが自然だと考えられます。 この場合、このオプションはオフにできます。
+  * マーケティングキャンペーンの配信：同じ受信者に多数のメッセージが送信されないようにするために、重複アドレスの除外は必要不可欠です。 この場合、このオプションをオンにできます。
 
-     このオプションの選択を解除すると、追加オプション、「**[!UICONTROL 重複するレコード (同じ識別子) を保持]**」にアクセスできます。 これは、複数のターゲティング条件を満たす受信者に対して配信を複数個送信することを許可するオプションです。
+    このオプションの選択を解除すると、追加オプション、「**[!UICONTROL 重複するレコード (同じ識別子) を保持]**」にアクセスできます。 これは、複数のターゲティング条件を満たす受信者に対して配信を複数個送信することを許可するオプションです。
 
-     ![](assets/s_ncs_user_wizard_email02j.png)
+    ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL 今後連絡を希望しない受信者を除外]**：ブロックリストに記載されたメールアドレスを持つ（オプトアウトした）受信者を除外します。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
 * **[!UICONTROL 強制隔離された受信者を除外]**： プロファイルに入力されているアドレスからの応答がないターゲットを除外します。 このオプションは必ずオンにしておくことをお勧めします。
@@ -264,6 +271,6 @@ ht-degree: 100%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35776?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

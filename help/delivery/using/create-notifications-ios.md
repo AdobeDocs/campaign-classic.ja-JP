@@ -9,26 +9,34 @@ exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 TQID: https://experienceleague.adobe.com/aA0JGU2WkqRg5jjJ0HIeQVEoSZ0iKTO6mb2ORC3kvcg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1100
+workflow-type: tm+mt
+source-wordcount: '1100'
 ht-degree: 100%
-
 ---
-
 # iOS 用通知の作成{#create-notifications-ios}
 
 ここでは、iOS 用通知の配信に固有の要素について説明します。 配信の作成に関するグローバルな概念について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください。
@@ -119,13 +127,13 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
 
    * **[!UICONTROL 割り込みレベル]**：
 
-      * **[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。 通知はフォーカスモードを妨げません。
+     * **[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。 通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。 通知はフォーカスモードを妨げません。
+     * **[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。 通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL 時間依存]**：システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。 このレベルでは、Apple からの特別な権限は必要ありません。
+     * **[!UICONTROL 時間依存]**：システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。 このレベルでは、Apple からの特別な権限は必要ありません。
 
-      * **[!UICONTROL 重大]**：システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。 このレベルには、Apple からの特別な権限が必要です。
+     * **[!UICONTROL 重大]**：システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。 このレベルには、Apple からの特別な権限が必要です。
 
    * **[!UICONTROL 関連性スコア]**：関連性スコアを 0 から 100 に設定します。 通知の概要で通知を並べ替える場合にシステムが使用します。
 

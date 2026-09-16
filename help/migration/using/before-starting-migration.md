@@ -11,22 +11,23 @@ exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 2%
-
 ---
-
 # 前提条件{#before-starting-migration}
 
 
 
-このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ &#x200B;](about-migration.md)も参照してください。
+このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 詳細なガイダンスについては、[このページ ](about-migration.md)も参照してください。
 
 >[!NOTE]
 >
@@ -43,16 +44,16 @@ ht-degree: 2%
 * **スタンドアロンプラットフォーム** （シングルマシンモード）の場合、アプリケーション全体が移行されます。
 * **標準プラットフォーム** （エンタープライズ）の場合、移行手順は次のとおりです。
 
-   1. マーケティングサーバーの移行。
-   1. メールサーバー（mta）を移行します。
-   1. リダイレクトおよびトラッキングサーバー（Apache/IIS）を移行します。
+  1. マーケティングサーバーの移行。
+  1. メールサーバー（mta）を移行します。
+  1. リダイレクトおよびトラッキングサーバー（Apache/IIS）を移行します。
 
 * **Cloud Messaging Platform**&#x200B;の場合、実行サーバーはAdobe Campaignでホストされます。 異なるサーバー間の移行を調整するには、Adobe Campaignにお問い合わせください。
 * **Power BoosterまたはPower Cluster プラットフォーム**&#x200B;の場合、移行手順は次のとおりです。
 
-   1. リダイレクトおよびトラッキングサーバー（Apache/IIS）を移行します。
-   1. Power Booster/Cluster サーバーを移行します。
-   1. マーケティングサーバーの移行。
+  1. リダイレクトおよびトラッキングサーバー（Apache/IIS）を移行します。
+  1. Power Booster/Cluster サーバーを移行します。
+  1. マーケティングサーバーの移行。
 
 ## ユーザーパスワード {#user-passwords}
 

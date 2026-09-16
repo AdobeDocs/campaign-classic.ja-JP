@@ -8,22 +8,26 @@ exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 TQID: https://experienceleague.adobe.com/jyvz5WCdNhYtusE-HwPRwXNlr9Wh0swcQoOT05lkOYA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 20%
-
+source-wordcount: '994'
+ht-degree: 24%
 ---
-
 # Campaign データモデルの基本を学ぶ{#about-data-model}
 
 Adobe Campaign データベースの概念データモデルは、一連のビルトインテーブルとそのインタラクションで構成されます。 主な表と概念は、このページに記載されています。
@@ -46,9 +50,9 @@ Adobe Campaignは、リンクされたテーブルを含むリレーショナル
 
 データモデルの別の部分では、キャンペーンの実行に関連するすべてのログを一時的に保存できます。
 
-配信ログとは、あらゆるチャネルをまたいで受信者またはデバイスに送信されるすべてのメッセージのことです。メイン配信ログテーブル （**NmsBroadLog**）には、すべての受信者の配信ログが含まれています。
-メインのトラッキングログテーブル （**NmsTrackingLog**）には、すべての受信者のトラッキングログが格納されます。トラッキングログとは、電子メールの開封率やクリック数などの受信者の反応を指します。各反応はトラッキングログに対応します。
-配信ログとトラッキングログは、Adobe Campaignで指定され、変更できる一定期間後に削除されます。したがって、ログを定期的に書き出すことを強くお勧めします。
+配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。 メイン配信ログテーブル （**NmsBroadLog**）には、すべての受信者の配信ログが含まれています。
+メインのトラッキングログテーブル （**NmsTrackingLog**）には、すべての受信者のトラッキングログが格納されます。 トラッキングログは、メールの開封数やクリック数など、受信者の反応を指します。 各反応はトラッキングログに対応します。
+配信ログとトラッキングログは、一定期間の後に削除されます。 この期間は Adobe Campaign で指定され、変更可能です。 したがって、ログを定期的にエクスポートすることを強くお勧めします。
 
 ### テクニカルテーブル {#technical-tables}
 
@@ -84,7 +88,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 * 既存のテーブルを新しいフィールドで拡張します。 例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * データベースの各プロファイルによって行われたすべての購入をリストする「購入」テーブルなどの新しいテーブルを作成し、それを受信者テーブルにリンクします。
 
-概念データモデルを拡張するための拡張スキーマの設定について詳しくは、[&#x200B; スキーマエディションについて](../../configuration/using/about-schema-edition.md)を参照してください。
+概念データモデルを拡張するための拡張スキーマの設定について詳しくは、[ スキーマエディションについて](../../configuration/using/about-schema-edition.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -92,13 +96,13 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 
 ## カスタム受信者テーブルの使用 {#custom-recipient-table}
 
-Adobe Campaign データモデルを設計する際に、[組み込みの受信者テーブル &#x200B;](#default-recipient-table)を使用するか、マーケティングプロファイルを格納する[&#x200B; カスタム受信者テーブル &#x200B;](../../configuration/using/about-custom-recipient-table.md) テーブルを作成します。
+Adobe Campaign データモデルを設計する際に、[組み込みの受信者テーブル ](#default-recipient-table)を使用するか、マーケティングプロファイルを格納する[ カスタム受信者テーブル ](../../configuration/using/about-custom-recipient-table.md) テーブルを作成します。
 
 実際、データモデルが受信者中心の構造に適合しない場合は、Adobe Campaign内でターゲティングディメンションとして他のテーブルを設定できます。 例えば、単なる受信者ではなく、世帯、アカウント（携帯電話など）、企業/サイトをターゲットにする必要がある場合に適しています。
 
 >[!NOTE]
 >
->この場合、新しい[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md)を作成する必要があります。
+>この場合、新しい[ ターゲットマッピング ](../../configuration/using/target-mapping.md)を作成する必要があります。
 
 カスタム受信者テーブルを使用する際に必要なすべての原則と手順について、[この節](../../configuration/using/about-custom-recipient-table.md)で詳しく説明します。
 
@@ -120,7 +124,7 @@ Adobe Campaign データモデルを設計する際に、[組み込みの受信�
 
 Campaign データモデルについて詳しくは、以下の節を参照してください。
 
-* **メインテーブルの説明** - デフォルトのCampaign Classic データモデルの説明について詳しくは、[このセクション &#x200B;](../../configuration/using/data-model-description.md)を参照してください。
+* **メインテーブルの説明** - デフォルトのCampaign Classic データモデルの説明について詳しくは、[このセクション ](../../configuration/using/data-model-description.md)を参照してください。
 
 * **各テーブルの完全な説明** – 各テーブルの完全な説明にアクセスするには、**[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;に移動し、リストからリソースを選択して、**[!UICONTROL ドキュメント]** タブをクリックします。
 
@@ -129,4 +133,4 @@ Campaign データモデルについて詳しくは、以下の節を参照し�
 
 * **Campaign スキーマ** - アプリケーションで実行されるデータの物理的および論理構造は、XMLで記述されます。 スキーマと呼ばれる Adobe Campaign 特有の文法に従います。 Adobe Campaign スキーマについて詳しくは、[この節](../../configuration/using/about-schema-reference.md)を参照してください。
 
-* **データモデルのベストプラクティス** - Campaign データモデルアーキテクチャおよび関連するベストプラクティスについて、[このセクション &#x200B;](../../configuration/using/data-model-best-practices.md#data-model-architecture)で説明します。
+* **データモデルのベストプラクティス** - Campaign データモデルアーキテクチャおよび関連するベストプラクティスについて、[このセクション ](../../configuration/using/data-model-best-practices.md#data-model-architecture)で説明します。

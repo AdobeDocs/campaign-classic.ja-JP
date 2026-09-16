@@ -10,19 +10,21 @@ exl-id: 98413cde-50c9-416c-8316-85837f724c27
 TQID: https://experienceleague.adobe.com/3EnUxwwGdhqG7vmysgbDBwiCbbBIl2bG1byaRe3j6O8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1210
+workflow-type: tm+mt
+source-wordcount: '1210'
 ht-degree: 100%
-
 ---
-
 # インタラクションのベストプラクティス{#interaction-best-practices}
 
 
@@ -96,7 +98,7 @@ Adobe Campaign のインタラクションを効率的に運用するには、�
 
 そのため、問題を回避するために、オファースペースが HTML コンテンツのみを必要とする場合でも、すべてのオファースペースに HTML レンダリング関数を定義することをお勧めします。
 
-### 提案ログテーブルでのランクの設定 {#rank-proposition-log-table}
+### 提案ログテーブルでのランキングの設定 {#rank-proposition-log-table}
 
 オファースペースには、提案が生成または許可された場合に、提案テーブルにデータを保存する機能があります。
 
@@ -126,7 +128,7 @@ Adobe Campaign のインタラクションを効率的に運用するには、�
 
 アウトバウンドインタラクションを使用する場合、上の例のように @rank フィールドを追加できますが、値は、インタラクションから返される順序に基づいて自動的に設定されます。 例えば、インタラクションを使用して 3 つのオファーを選択する場合、@rank フィールドには 1、2 および 3 の値が返されます。
 
-インタラクションを使用し、オファーを手動で選択する場合、両方の方法を組み合わせることができます。 例えば、手動で選択したオファーに対して @rank フィールドを手動で 1 に設定し、インタラクションから返されるオファーに対して「1 + @rank」などの式を使用できます。 インタラクションで 3 つのオファーを選択する場合、両方の方法で返されるオファーは 1 ～ 4 にランク付けされます。
+インタラクションを使用し、オファーを手動で選択する場合、両方の方法を組み合わせることができます。 例えば、手動で選択したオファーに対して @rank フィールドを手動で 1 に設定し、インタラクションから返されるオファーに対して「1 + @rank」などの式を使用できます。 インタラクションが 3 つのオファーを選択すると仮定すると、両方のアプローチで返されるオファーは 1～4 にランキングされます。
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 

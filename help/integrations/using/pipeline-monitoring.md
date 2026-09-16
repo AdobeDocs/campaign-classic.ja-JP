@@ -1,9 +1,9 @@
 ---
 product: campaign
 title: パイプラインの監視
-description: パイプラインの監視
+description: パイプラインのモニタリング
 feature: Triggers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 84399496-33fd-4936-85e7-32de8503740f
 TQID: https://experienceleague.adobe.com/JfrzR2a-nKDQBMQJlZ8snVIEavWU1FdJ-oPR-K3RaSg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 501
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
-
 ---
-
 # パイプラインの監視 {#pipeline-monitoring}
 
 
@@ -50,28 +57,28 @@ ht-degree: 100%
 
 * consumer：トリガーを取り込むクライアントの名前。 パイプラインオプションで設定されます。
 * http-request
-   * last-alive-ms-ago：接続が確認されてからの経過時間（ミリ秒）。
-   * last-failed-cnx-ms-ago：前回接続が確認できなかった時からの経過時間（ミリ秒）。
-   * pipeline-host：パイプラインデータの取り込み元のホストの名前。
+  * last-alive-ms-ago：接続が確認されてからの経過時間（ミリ秒）。
+  * last-failed-cnx-ms-ago：前回接続が確認できなかった時からの経過時間（ミリ秒）。
+  * pipeline-host：パイプラインデータの取り込み元のホストの名前。
 * pointer
-   * current-offsets：子スレッドごとの、パイプラインへのポインターの値。
-   * last-flush-ms-ago：トリガーが一括取得されてからの経過時間（ミリ秒）。
-   * next-offsets-flush：終了時に次のバッチまで待機する時間。
-   * processed-since-last-flush：前回のバッチで処理されたトリガーの数。
+  * current-offsets：子スレッドごとの、パイプラインへのポインターの値。
+  * last-flush-ms-ago：トリガーが一括取得されてからの経過時間（ミリ秒）。
+  * next-offsets-flush：終了時に次のバッチまで待機する時間。
+  * processed-since-last-flush：前回のバッチで処理されたトリガーの数。
 * routing
-   * triggers：取得したトリガーのリスト。 [!DNL pipelined] オプションで設定されます。
+  * triggers：取得したトリガーのリスト。 [!DNL pipelined] オプションで設定されます。
 * stats
-   * average-pointer-flush-time-ms:1 バッチのトリガーの平均処理時間。
-   * average-trigger-processing-time-ms：トリガーデータの解析に費やされた平均時間。
-   * bytes-read：プロセスの開始以降にキューから読み取られたバイト数。
-   * current-messages：キューから取り出されて処理待ちになっている保留中メッセージの現在の数。 **この指標はゼロに近くなるようにしてください**。
-   * current-retries：処理に失敗し再試行を待機しているメッセージの現在の数。
-   * peak-messages：プロセスの開始以降に処理されてきた保留メッセージの最大数。
-   * pointer-flushes：開始以降に処理されたメッセージのバッチ数。
-   * routing-JS-custom：カスタム JS で処理されたメッセージの数。
-   * trigger-discarded: 処理エラーが原因で再試行が多すぎるために破棄されたメッセージの数。
-   * trigger-processed：エラーなく処理されたメッセージの数。
-   * trigger-received：キューから受信したメッセージの数。
+  * average-pointer-flush-time-ms:1 バッチのトリガーの平均処理時間。
+  * average-trigger-processing-time-ms：トリガーデータの解析に費やされた平均時間。
+  * bytes-read：プロセスの開始以降にキューから読み取られたバイト数。
+  * current-messages：キューから取り出されて処理待ちになっている保留中メッセージの現在の数。 **この指標はゼロに近くなるようにしてください**。
+  * current-retries：処理に失敗し再試行を待機しているメッセージの現在の数。
+  * peak-messages：プロセスの開始以降に処理されてきた保留メッセージの最大数。
+  * pointer-flushes：開始以降に処理されたメッセージのバッチ数。
+  * routing-JS-custom：カスタム JS で処理されたメッセージの数。
+  * trigger-discarded: 処理エラーが原因で再試行が多すぎるために破棄されたメッセージの数。
+  * trigger-processed：エラーなく処理されたメッセージの数。
+  * trigger-received：キューから受信したメッセージの数。
 
 これらの統計情報は、処理スレッドごとに表示されます。
 
@@ -82,12 +89,12 @@ ht-degree: 100%
 * trigger-received：キューから受信したメッセージの数。
 
 * settings：これらは設定ファイルで指定されます。
-   * flush-pointer-msg-count:：バッチ内のメッセージ数。
-   * flush-pointer-period-ms：2 回のバッチ間の間隔（ミリ秒）。
-   * processing-threads-JS：カスタム JS を実行する処理スレッドの数。
-   * retry-period-ms：処理エラーが発生した場合の 2 回の再試行間の時間。
-   * retry-validity-duration-ms：処理が再試行されてからメッセージが破棄されるまでの時間。
-   * パイプラインメッセージレポート
+  * flush-pointer-msg-count:：バッチ内のメッセージ数。
+  * flush-pointer-period-ms：2 回のバッチ間の間隔（ミリ秒）。
+  * processing-threads-JS：カスタム JS を実行する処理スレッドの数。
+  * retry-period-ms：処理エラーが発生した場合の 2 回の再試行間の時間。
+  * retry-validity-duration-ms：処理が再試行されてからメッセージが破棄されるまでの時間。
+  * パイプラインメッセージレポート
 
 ## パイプラインメッセージレポート {#pipeline-report}
 

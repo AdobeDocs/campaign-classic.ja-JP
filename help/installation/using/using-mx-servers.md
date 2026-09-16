@@ -3,7 +3,7 @@ product: campaign
 title: Campaign での MX サーバーの使用
 description: MX サーバーとAdobe Campaign Classicの連携の仕組みを説明します
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,15 +11,14 @@ exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 TQID: https://experienceleague.adobe.com/iXiiqwE6-FqHpRFes1bzJ5mLc3-z-HQBUR7ASL5A1G8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 864
-ht-degree: 5%
-
+source-wordcount: '852'
+ht-degree: 3%
 ---
-
 # Campaign での MX サーバーの使用 {#using-mx-servers}
 
 
@@ -68,7 +67,7 @@ Adobe Campaignは、エラータイプと理由の一致を使用してこのプ
 
 >[!NOTE]
 >
->配信エラーの種類と理由について詳しくは、この[&#x200B; セクション &#x200B;](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
+>配信エラーの種類と理由について詳しくは、この[ セクション ](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
 
 ## 配信品質インスタンス {#deliveratbility-env}
 
@@ -95,4 +94,4 @@ MX ルールには6つの異なるレベルのスループットがあり、主�
 * [MX設定](../../installation/using/email-deliverability.md#mx-configuration)
 * [テクニカルメール設定](../../installation/using/email-deliverability.md)
 * [配信エラーについて](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic – 技術的な推奨事項](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja)
+* [Campaign Classic – 技術的な推奨事項](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

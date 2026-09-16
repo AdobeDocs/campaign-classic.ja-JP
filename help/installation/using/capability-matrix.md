@@ -7,15 +7,14 @@ exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 TQID: https://experienceleague.adobe.com/kHWVPyk02eyH47xBzGgik3fq6BSHGKpDXPMrEuVaYM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 323
-ht-degree: 43%
-
+source-wordcount: '323'
+ht-degree: 54%
 ---
-
 # モデルごとの機能指標{#capability-matrix-per-model}
 
 
@@ -24,7 +23,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 このページでは、ホスト型（Managed Services）とオンプレミス型デプロイメントの主な違いを示します。 ハイブリッドデプロイメントの詳細は、Adobeがホストし、オンプレミスでホストされている要素によって異なります。
 
-このセクション [&#128279;](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが紹介されています。
+このセクション ](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが[紹介されています。
 
 ## 導入モデルごとの可用性 {#capability-matrix}
 
@@ -50,7 +49,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を参照してください。
+>互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス ](../../rn/using/compatibility-matrix.md)を参照してください。
 >
 
 **関連項目**

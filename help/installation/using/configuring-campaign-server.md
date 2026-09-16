@@ -3,7 +3,7 @@ product: campaign
 title: Campaign サーバーの設定
 description: Campaign サーバーの設定
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,22 +11,27 @@ exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 TQID: https://experienceleague.adobe.com/ghNvBVEL47nQobSHUsjVXr7XDpbRd8GBFSUy-E7bkvI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1620'
 ht-degree: 5%
-
 ---
-
 # Campaign サーバー設定の基本を学ぶ{#gs-campaign-server-config}
 
 
@@ -49,7 +54,7 @@ ht-degree: 5%
 
 Campaign Classic設定ファイルは、Adobe Campaign インストールフォルダーの&#x200B;**conf** フォルダーに保存されます。 設定は、次の2つのファイルに分散されます。
 
-* **serverConf.xml**：すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaign サーバーの技術的なパラメーターを組み合わせたものです。これらはすべて、すべてのインスタンスで共有されます。 これらのパラメータの一部の説明は以下のとおりです。 様々なノードとパラメーター。この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に記載されています。
+* **serverConf.xml**：すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaign サーバーの技術的なパラメーターを組み合わせたものです。これらはすべて、すべてのインスタンスで共有されます。 これらのパラメータの一部の説明は以下のとおりです。 様々なノードとパラメーター。この[ セクション ](../../installation/using/the-server-configuration-file.md)に記載されています。
 * **config-`<instance>`.xml** （**instance**&#x200B;はインスタンスの名前）: インスタンスの特定の設定。 複数のインスタンス間でサーバーを共有する場合は、各インスタンスに固有のパラメーターを関連ファイルに入力してください。
 
 ## 設定範囲
@@ -57,19 +62,19 @@ Campaign Classic設定ファイルは、Adobe Campaign インストールフォ�
 ニーズや設定に応じて、Campaign サーバーを設定または調整します。 以下を行うことができます。
 
 * [内部識別子](#internal-identifier)を保護します
-* [&#x200B; キャンペーンプロセス &#x200B;](#enabling-processes)を有効にする
+* [ キャンペーンプロセス ](#enabling-processes)を有効にする
 * [URL権限](url-permissions.md)の設定
-* [&#x200B; セキュリティゾーン &#x200B;](security-zones.md)を定義
+* [ セキュリティゾーン ](security-zones.md)を定義
 * [Tomcat設定](configure-tomcat.md)の設定
 * [配信パラメーター](configure-delivery-settings.md)のカスタマイズ
 * [動的なページセキュリティとリレー](#dynamic-page-security-and-relays)を定義
-* [許可されている外部コマンド &#x200B;](#restricting-authorized-external-commands)のリストを制限
-* [冗長トラッキング &#x200B;](#redundant-tracking)を設定
+* [許可されている外部コマンド ](#restricting-authorized-external-commands)のリストを制限
+* [冗長トラッキング ](#redundant-tracking)を設定
 * [高可用性とワークフローの親和性の管理](#high-availability-workflows-and-affinities)
 * ファイル管理の設定 – [詳細情報](file-res-management.md)
-   * アップロードファイル形式の制限
-   * 公開リソースへのアクセスを有効にする
-   * プロキシ接続の設定
+  * アップロードファイル形式の制限
+  * 公開リソースへのアクセスを有効にする
+  * プロキシ接続の設定
 * [自動プロセス再起動](#automatic-process-restart)
 
 
@@ -149,7 +154,7 @@ Adobe Campaign データ （ログ、ダウンロード、リダイレクトな�
 
 * Linuxでは、**customer.sh** ファイルに移動し、**export XTK_VAR_DIR=/app/log/AdobeCampaign**&#x200B;と示します。
 
-  詳しくは、[&#x200B; パラメーターのパーソナライズ &#x200B;](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
+  詳しくは、[ パラメーターのパーソナライズ ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
 
 
 ## 動的なページセキュリティとリレー {#dynamic-page-security-and-relays}
@@ -246,7 +251,7 @@ sh
 
 サーバー設定ファイルの&#x200B;**exec** ノードで、**blacklistFile**&#x200B;属性で以前に作成したファイルを参照する必要があります。
 
-**Linuxの場合のみ**: サーバー設定ファイルでは、セキュリティ設定を強化するために、外部コマンドの実行に専用のユーザーを指定することをお勧めします。 このユーザーは、設定ファイルの&#x200B;**exec** ノードで設定されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+**Linuxの場合のみ**: サーバー設定ファイルでは、セキュリティ設定を強化するために、外部コマンドの実行に専用のユーザーを指定することをお勧めします。 このユーザーは、設定ファイルの&#x200B;**exec** ノードで設定されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 >[!NOTE]
 >

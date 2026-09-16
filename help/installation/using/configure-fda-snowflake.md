@@ -10,23 +10,23 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 TQID: https://experienceleague.adobe.com/1Je4UdKtftgQaeTX77rBrgezn2pIBRlHAG4DPavfE14
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '560'
 ht-degree: 33%
-
 ---
-
 # Snowflakeへのアクセス権の設定 {#configure-access-to-snowflake}
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 [!DNL Snowflake]へのアクセスを設定するには、次の手順に従います。
 
 1. [Linux](#snowflake-linux)で[!DNL Snowflake]を設定します。
-1. Campaignで[!DNL Snowflake] [外部アカウント &#x200B;](#snowflake-external)を設定します
+1. Campaignで[!DNL Snowflake] [外部アカウント ](#snowflake-external)を設定します
 
 >[!CAUTION]
 >
@@ -102,9 +102,9 @@ Campaign インスタンスを[!DNL Snowflake]外部データベースに接続�
 
    * アカウント/パスワード認証の場合は、次を指定する必要があります。
 
-      * **[!UICONTROL アカウント]**：ユーザーの名前
+     * **[!UICONTROL アカウント]**：ユーザーの名前
 
-      * **[!UICONTROL パスワード]**: ユーザーアカウントのパスワード。
+     * **[!UICONTROL パスワード]**: ユーザーアカウントのパスワード。
 
      ![](assets/snowflake.png)
 
@@ -132,5 +132,5 @@ Campaign インスタンスを[!DNL Snowflake]外部データベースに接続�
 | WeekStart | WEEK_START セッションパラメーター。 デフォルトでは 0 に設定されています。 <br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。 デフォルトでは TRUE に設定されています。 このオプションを使用すると、Snowflakeのキャッシュ結果を無効にできます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeのバルクローダで使用するスレッド数が多いほど、大きなバルクローダのパフォーマンスが向上します。 デフォルトでは 1 に設定されています。 マシンのスレッド数に応じて数を調整できます。 |
-| chunkSize | バルクローダーチャンクのファイルサイズを指定します。 デフォルトでは128MBに設定されています。 bulkThreadsで使用する場合は、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)を参照してください。 |
+| chunkSize | バルクローダーチャンクのファイルサイズを指定します。 デフォルトでは128MBに設定されています。 bulkThreadsで使用する場合は、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)を参照してください。 |
 | StageName | 事前にプロビジョニングされた内部ステージの名前。 新しい一時的ステージを作成する代わりに、一括読み込みで使用されます。 |

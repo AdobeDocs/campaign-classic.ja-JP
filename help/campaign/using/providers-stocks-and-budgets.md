@@ -9,24 +9,30 @@ exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 TQID: https://experienceleague.adobe.com/0yoC9sZaXdvq9iEqK6NLnXBSS-B7aB9RisW5l8uJqtI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2017
+workflow-type: tm+mt
+source-wordcount: '2017'
 ht-degree: 100%
-
 ---
-
 # プロバイダー、在庫、予算{#providers-stocks-and-budgets}
 
 Adobe Campaign では、キャンペーン内で実行されるジョブに関与するサービスプロバイダーを定義できます。 サービスプロバイダーに関する情報と、関連付けられたコスト構造は、Adobe Campaign 管理者がメインビューから定義します。 サービスプロバイダーを配信から参照し、そのコスト構造を使用して、この配信に関連付けられたコストを計算したり、関連する在庫を管理したりできます。
@@ -76,7 +82,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 >
 >詳しくは、[コスト構造の定義](#defining-the-cost-structure)を参照してください。
 
-コストカテゴリは、配信のタイプ（メール、ダイレクトメールなど）またはタスクに応じた一連のコストを含むエンティティです。コストカテゴリは、サービスプロバイダーに関連付けられているサービスのテンプレートにまとめられます。 各サービスプロバイダーは、1 つ以上のサービステンプレートを参照できます。
+コストカテゴリは、配信のタイプ（メール、ダイレクトメールなど） またはタスクに応じた一連のコストを含むエンティティです。 コストカテゴリは、サービスプロバイダーに関連付けられているサービスのテンプレートにまとめられます。 各サービスプロバイダーは、1 つ以上のサービステンプレートを参照できます。
 
 サービステンプレートを作成してそのコンテンツを定義するには、以下の手順を実行します。
 
@@ -173,7 +179,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 サービスは、配信またはタスクを介してキャンペーンに関連付けられます。 サービスプロバイダーは配信テンプレートにリンクされて、このテンプレートから作成される配信でサービスを提供します。
 
-サービスを選択すると、配信のタイプ（ダイレクトメール、電子メールなど）に対応するコストカテゴリが、定義済みの処理オプションと共に、中央のテーブルに自動的に表示されます。
+サービスを選択すると、配信のタイプ（ダイレクトメール、電子メールなど）に対応するコストカテゴリが、 定義済みの処理オプションと共に、中央のテーブルに自動的に表示されます。
 
 >[!NOTE]
 >

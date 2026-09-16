@@ -6,12 +6,10 @@ feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign 設定の更新（2021 年） {#acc-config-updates}
 
 

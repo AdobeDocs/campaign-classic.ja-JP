@@ -3,7 +3,7 @@ product: campaign
 title: イベントの設定
 description: カスタム実装用のイベントの設定方法を説明します
 feature: Triggers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 TQID: https://experienceleague.adobe.com/zoNgRb4L1EWAtQsLDNs6YNlakXeRXMn6DE2McoCemGU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1015
+workflow-type: tm+mt
+source-wordcount: '1210'
 ht-degree: 100%
-
 ---
-
 # カスタム実装用のイベントの設定 {#events}
 
 
@@ -94,7 +101,8 @@ JavaScript を編集した後、[!DNL pipelined] を再起動する必要があ�
 >
 >これは、考えられる様々な実装から得られる具体的な例です。
 
-コンテンツは、各トリガーに対して Adobe Analytics で JSON 形式で定義されます。例えば、LogoUpload_uploading_Visits トリガーの場合：
+コンテンツは、各トリガーに対して Adobe Analytics で JSON 形式で定義されます。
+例えば、LogoUpload_uploading_Visits トリガーの場合：
 
 * **[!UICONTROL eVar01]** には、Adobe Campaign 受信者との紐付けに使用される買い物客 ID を文字列形式で含めることができます。 <br>プライマリキーである買い物客 ID を見つけるために紐付ける必要があります。
 
@@ -138,7 +146,7 @@ JavaScript を編集した後、[!DNL pipelined] を再起動する必要があ�
 
 ### ログとエラー処理 {#logging-error-handling}
 
-logInfo() などのログは [!DNL pipelined] ログに送られます。logError() などのエラーは [!DNL pipelined] ログに書き込まれ、エラーの結果、イベントが再試行キューに入れられます。この場合、pipelined.log を確認する必要があります。
+logInfo() などのログは [!DNL pipelined] ログに送られます。 logError() などのエラーは [!DNL pipelined] ログに書き込まれ、エラーの結果、イベントが再試行キューに入れられます。 この場合、pipelined.log を確認する必要があります。
 エラーのメッセージは、[!DNL pipelined] オプションで設定された時間内に複数回再試行されます。
 
 デバッグおよび監視の目的で、完全なトリガーデータが、XML フォーマットで「data」フィールドのトリガーテーブルに書き込まれます。 または、トリガーデータを含んだ logInfo() も同じ目的を果たします。
@@ -164,8 +172,8 @@ function processPipelineMessage(xmlTrigger)
  }
 ```
 
-エラーを避けるために、解析を行う場合は注意が必要です。
-このコードはすべてのトリガーに使用されるので、ほとんどのデータは不要です。したがって、存在しない場合は空のままにすることができます。
+エラーを避けるために、解析をおこなう場合は注意が必要です。
+このコードはすべてのトリガーに使用されるので、ほとんどのデータは不要です。 したがって、存在しない場合は空のままにすることができます。
 
 ### トリガーの保存 {#storing-triggers-js}
 
@@ -211,7 +219,7 @@ function processPipelineMessage(xmlTrigger)
 
 ### パイプラインイベントスキーマ {#pipeline-event-schema}
 
-イベントは、データベーステーブルに保存されます。マーケティングキャンペーンで顧客のターゲティング、トリガーを使用したメールのエンリッチメントに使用されます。
+イベントは、データベーステーブルに保存されます。 マーケティングキャンペーンで顧客のターゲティング、トリガーを使用したメールのエンリッチメントに使用されます。
 トリガーごとに異なるデータ構造にすることができますが、すべてのトリガーを 1 つのテーブルに保持できます。
 triggerType フィールドは、データの発生元となるトリガーを識別します。
 
@@ -244,8 +252,8 @@ triggerType フィールドは、データの発生元となるトリガーを�
 
 紐付けとは、顧客を Adobe Analytics から Adobe Campaign データベースに照合するプロセスです。 例えば、shopper_id を照合の条件にすることができます。
 
-パフォーマンス上の理由から、照合はワークフローでバッチモードで行う必要があります。
-ワークロードを最適化するには、頻度を 15 分に設定する必要があります。その結果、Adobe Campaign でのイベントの受信とマーケティングワークフローによる処理との間の遅延は、最大 15 分になります。
+パフォーマンス上の理由から、照合はワークフローでバッチモードでおこなう必要があります。
+ワークロードを最適化するには、頻度を 15 分に設定する必要があります。 その結果、Adobe Campaign でのイベントの受信とマーケティングワークフローによる処理との間の遅延は、最大 15 分になります。
 
 ### JavaScript での単位紐付けのオプション {#options-unit-reconciliation}
 
@@ -260,4 +268,4 @@ shopper_id にインデックスが設定されていない場合は、実装が
 ### Campaign ワークフロー {#campaign-workflow}
 
 トリガーキャンペーンワークフローは、多くの場合、使用されたことがある他の繰り返しキャンペーンと似ています。
-例えば、トリガーに関するクエリで開始し、最終日の特定のイベントを探すことができます。そのターゲットはメールの送信に使用されます。エンリッチメントやデータはトリガーから得られます。設定が不要なので、マーケティングで安全に使用できます。
+例えば、トリガーに関するクエリで開始し、最終日の特定のイベントを探すことができます。 そのターゲットはメールの送信に使用されます。 エンリッチメントやデータはトリガーから得られます。 設定が不要なので、マーケティングで安全に使用できます。

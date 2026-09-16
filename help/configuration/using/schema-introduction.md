@@ -8,17 +8,17 @@ exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 TQID: https://experienceleague.adobe.com/M8NNQbT-Kt4wYQhIVeq0sceBctFGvHjrfT7qe-X-u0U
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 89
+source-wordcount: '89'
 ht-degree: 21%
-
 ---
-
 # スキーマ参照 {#schema-reference}
 
 スキーマを編集する場合、ソーススキーマ （xtk:srcSchema）に基づく承認システムを利用できます。 「データベース構造の更新」を使用してデータベースを更新する際に、一部のエラーが検出されることもあります。 わかり。

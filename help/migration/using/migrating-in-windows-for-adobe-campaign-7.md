@@ -11,19 +11,21 @@ exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 TQID: https://experienceleague.adobe.com/PnBnslBSLLV6MNF9KlyJQ-n2jGA-r4N6KASrrG3-65k
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1133
+source-wordcount: '1133'
 ht-degree: 0%
-
 ---
-
 # Microsoft Windows プラットフォームをCampaign v7に移行する{#migrating-in-windows-for-adobe-campaign}
 
 
@@ -287,7 +289,7 @@ Adobe Campaignをデプロイするには、次の手順を実行します。
 
 ## リダイレクトサーバーの移行 {#migrating-the-redirection-server--iis-}
 
-この段階で、IIS サーバーを停止する必要があります。 [&#x200B; サービス停止](#service-stop)を参照してください。
+この段階で、IIS サーバーを停止する必要があります。 [ サービス停止](#service-stop)を参照してください。
 
 1. **インターネット インフォメーション サービス （IIS） マネージャー** コンソールを開きます。
 1. Adobe Campaignの以前のバージョンで使用していたサイトのバインディング（リッスン ポート）を変更します。

@@ -8,25 +8,33 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1044
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 96%
 ---
-
 # 新しい配信サーバーへの更新 {#acc-deliverability}
 
 [v7.2.2 リリース](../../rn/using/latest-release.md#release-7-2-2)以降、Adobe Campaign は、可用性が高くセキュリティコンプライアンスの問題にも対処できる新しい配信品質サーバーを利用しています。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。 古い配信品質サーバーは 2022年8月31日に廃止されます。
@@ -64,7 +72,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign 統合では、OAuth サーバー間の資格情報に依存する必要があります。</br>
+> サービスアカウント（JWT）資格情報はAdobeによって非推奨になりましたが、CampaignとAdobe ソリューションおよびアプリの統合は、OAuth サーバー間の資格情報に依存する必要があります。 </br>
 >
 > * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。 既存の[サービスアカウント（JWT）資格情報](../../integrations/using/oauth-technical-account.md)は、2025年1月27日（PT）まで引き続き機能します。</br>
 >
@@ -86,8 +94,8 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 また、オンプレミス環境の顧客は Campaign の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;が組織で使用できることを確認する必要があります。 手順は次のとおりです。
 
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
-1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** がリストされていることを確認します。
-**Adobe Campaign** が表示されない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
+1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
+**Adobe Campaign**&#x200B;が表示されない場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
 1. **Adobe Campaign** をクリックし、組織を選択します。
    **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。 組織について詳しくは、[このページを参照してください](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank}。
 

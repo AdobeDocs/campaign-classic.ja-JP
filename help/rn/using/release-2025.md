@@ -9,14 +9,14 @@ exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 895
+workflow-type: tm+mt
+source-wordcount: '895'
 ht-degree: 100%
-
 ---
-
 # 2025 リリース{#release-2025}
 
 ## リリース 7.4.2  {#release-7-4-2}
@@ -62,13 +62,13 @@ This release comes with the following compatibility updates:
 
 * Google BigQuery の修正点：
 
-   * ブール値データタイプに関する不具合を修正しました
-   * プロキシ設定の問題を修正しました
-   * 日時データタイプに関する不具合を修正しました
-   * 一括読み込みの安定性を修正しました
-   * ODBC バージョンの内部テストを改善しました
-   * 接続文字列の特殊文字に関する問題を修正しました
-   * Google BigQuery クエリのデフォルトのタイムアウト（5 分）を削除しました
+  * ブール値データタイプに関する不具合を修正しました
+  * プロキシ設定の問題を修正しました
+  * 日時データタイプに関する不具合を修正しました
+  * 一括読み込みの安定性を修正しました
+  * ODBC バージョンの内部テストを改善しました
+  * 接続文字列の特殊文字に関する問題を修正しました
+  * Google BigQuery クエリのデフォルトのタイムアウト（5 分）を削除しました
 
 * メール転送エージェント（MTA）- 孤立した MTA の子が&#x200B;**[!UICONTROL 開始を保留中]**&#x200B;ステータスで停止する問題を修正しました。
 

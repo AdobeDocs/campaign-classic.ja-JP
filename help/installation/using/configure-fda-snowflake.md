@@ -10,17 +10,17 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 TQID: https://experienceleague.adobe.com/1Je4UdKtftgQaeTX77rBrgezn2pIBRlHAG4DPavfE14
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '560'
 ht-degree: 33%
-
 ---
-
 # Snowflakeへのアクセス権の設定 {#configure-access-to-snowflake}
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 [!DNL Snowflake]へのアクセスを設定するには、次の手順に従います。
@@ -102,9 +102,9 @@ Campaign インスタンスを[!DNL Snowflake]外部データベースに接続�
 
    * アカウント/パスワード認証の場合は、次を指定する必要があります。
 
-      * **[!UICONTROL アカウント]**：ユーザーの名前
+     * **[!UICONTROL アカウント]**：ユーザーの名前
 
-      * **[!UICONTROL パスワード]**: ユーザーアカウントのパスワード。
+     * **[!UICONTROL パスワード]**: ユーザーアカウントのパスワード。
 
      ![](assets/snowflake.png)
 

@@ -11,22 +11,26 @@ exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 TQID: https://experienceleague.adobe.com/E1wF1SdCAc2Kq-xHSkdR4Yij-VyxTE4Aq7dZAmU-v1o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2: []
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: '1352'
 ht-degree: 46%
-
 ---
-
 # 一般的なアーキテクチャ{#general-architecture}
 
 

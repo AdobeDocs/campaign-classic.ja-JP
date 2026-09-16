@@ -4,27 +4,31 @@ title: カスタム受信者テーブルについて
 description: カスタム受信者テーブルについて
 feature: Configuration, Custom Resources
 role: User, Developer
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 TQID: https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 10%
-
+source-wordcount: '695'
+ht-degree: 9%
 ---
-
 # カスタム受信者テーブルの使用{#about-custom-recipient-table}
 
 この節では、カスタム（または外部）受信者テーブルを使用するための原則について詳しく説明します。
@@ -55,8 +59,8 @@ ht-degree: 10%
 
   私たちがお勧めします：
 
-   * **[!UICONTROL nms:BroadLogRcp]**&#x200B;および&#x200B;**[!UICONTROL nms:TrackingLogRcp]** スキーマを標準の&#x200B;**[!UICONTROL nms:Recipientschema]**&#x200B;に割り当てます。 これらの2つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
-   * 新しいカスタム受信者スキーマごとに、専用のカスタムブロードログとトラッキングログスキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に実行できます。[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md)を参照してください。
+  * **[!UICONTROL nms:BroadLogRcp]**&#x200B;および&#x200B;**[!UICONTROL nms:TrackingLogRcp]** スキーマを標準の&#x200B;**[!UICONTROL nms:Recipientschema]**&#x200B;に割り当てます。 これらの2つのログテーブルは、追加のカスタム受信者テーブルにリンクしないでください。
+  * 新しいカスタム受信者スキーマごとに、専用のカスタムブロードログとトラッキングログスキーマを定義します。 これは、ターゲットマッピングの設定時に自動的に実行できます。[&#x200B; ターゲットマッピング &#x200B;](../../configuration/using/target-mapping.md)を参照してください。
 
 * 製品で提供されている標準の&#x200B;**[!UICONTROL サービスとサブスクリプション]**&#x200B;は使用できません。
 

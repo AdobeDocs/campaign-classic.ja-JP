@@ -3,7 +3,7 @@ product: campaign
 title: ネットワーク設定
 description: システムのコミュニケーションガイドラインを学ぶ
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,15 +11,14 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 TQID: https://experienceleague.adobe.com/jynrfZrBNI6ergWQ2ONvI97Or1coFkVD-cLeaK14K70
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 725
-ht-degree: 5%
-
+source-wordcount: '713'
+ht-degree: 4%
 ---
-
 # ネットワーク設定{#network-configuration}
 
 

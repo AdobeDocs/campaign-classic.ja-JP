@@ -8,18 +8,19 @@ exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 TQID: https://experienceleague.adobe.com/lfaxfILJCapcyjrRDvppv-FuXrkKciYlfWfKBtayoIY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 529
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign 2023 環境のアップグレード {#ac-system-upgrade}
 
 Campaign インフラストラクチャは、最新のバージョンと修正で定期的に更新する必要があるサードパーティ製システムに依存しています。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティシステムの変更との互換性を確保するには、Campaign のアップグレードが必要です。

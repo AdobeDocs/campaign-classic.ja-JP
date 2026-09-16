@@ -7,18 +7,19 @@ exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 TQID: https://experienceleague.adobe.com/wIOQi9sSeY4YPy5GmPFucVQsOEzg4FY1DGXpII0MrCk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 440
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
-
 ---
-
 # ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ {#inbound-sms-wf}
 
 ## 制限事項 {#limitations}
@@ -83,10 +84,10 @@ ht-degree: 100%
 
    * `<EXTERNAL_ACCOUNT_ID>` に実際の値を入力します（例：`var iExtAccountId=72733155`）。
    * カスタムスクリプトには、次の要素を含めます。
-      * `_operation="insertOrUpdate"`
-      * `_key="@midInSMSId,@extAccount-id"`
-      * `midInSMSId={smsMessage.id}`
-      * `inSms.@["extAccount-id"] = iExtAccountId;{}`
+     * `_operation="insertOrUpdate"`
+     * `_key="@midInSMSId,@extAccount-id"`
+     * `midInSMSId={smsMessage.id}`
+     * `inSms.@["extAccount-id"] = iExtAccountId;{}`
 
    ```Javascript
    // please enter real external account ID to replace <EXTERNAL ACCOUNT ID>

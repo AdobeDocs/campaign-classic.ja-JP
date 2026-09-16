@@ -3,7 +3,7 @@ product: campaign
 title: テクニカルメール設定
 description: メール配信時にインスタンスの出力を制御するようにCampaignを設定する方法を説明します
 feature: Installation, Deliverability
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,23 +11,29 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 3230
+source-wordcount: '3218'
 ht-degree: 15%
-
 ---
-
 # 技術的なメール設定{#email-deliverability}
 
 
@@ -258,14 +264,14 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
   例えば、次のアドレスを指定します。
 
-   * a.mx.yahoo.com
-   * b.mx.yahoo.com
-   * c.mx.yahoo.com
+  * a.mx.yahoo.com
+  * b.mx.yahoo.com
+  * c.mx.yahoo.com
 
   は、次のマスクと互換性があります。
 
-   * &#42;.yahoo.com
-   * ?.mx.yahoo.com
+  * &#42;.yahoo.com
+  * ?.mx.yahoo.com
 
   例えば、E メールアドレス foobar@gmail.com の場合、ドメインは gmail.com で、MX レコードは次のようになります。
 
@@ -281,8 +287,8 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
 * **[!UICONTROL 識別子の範囲]**：このオプションを使用すると、ルールが適用される識別子（publicID）の範囲を指定できます。 次を指定できます。
 
-   * 番号：このルールはこのpublicIdにのみ適用されます。
-   * 数字の範囲（**number1-number2**）：このルールは、これら2つの数字の間のすべてのpublicIdに適用されます。
+  * 番号：このルールはこのpublicIdにのみ適用されます。
+  * 数字の範囲（**number1-number2**）：このルールは、これら2つの数字の間のすべてのpublicIdに適用されます。
 
   >[!NOTE]
   >
@@ -306,14 +312,14 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 * **[!UICONTROL タイムアウト]**: SMTP サーバーとの他の交換の最大待機時間です。
 * **[!UICONTROL TLS]**: メール配信を暗号化できるTLS プロトコルを選択して有効にできます。 MX マスクごとに、次のオプションを使用できます。
 
-   * **[!UICONTROL デフォルト設定]**：これは、適用されるserverConf.xml設定ファイルで指定される一般的な設定です。
+  * **[!UICONTROL デフォルト設定]**：これは、適用されるserverConf.xml設定ファイルで指定される一般的な設定です。
 
-     >[!IMPORTANT]
-     >
-     >デフォルト設定を変更することはお勧めしません。
+    >[!IMPORTANT]
+    >
+    >デフォルト設定を変更することはお勧めしません。
 
-   * **[!UICONTROL 無効]**：メッセージは暗号化なしで体系的に送信されます。
-   * **[!UICONTROL 商談]**：受信サーバー（SMTP）がTLS プロトコルを生成できる場合、メッセージ配信は暗号化されます。
+  * **[!UICONTROL 無効]**：メッセージは暗号化なしで体系的に送信されます。
+  * **[!UICONTROL 商談]**：受信サーバー（SMTP）がTLS プロトコルを生成できる場合、メッセージ配信は暗号化されます。
 
 設定例：
 

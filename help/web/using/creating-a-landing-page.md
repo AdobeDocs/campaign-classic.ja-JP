@@ -2,28 +2,33 @@
 product: campaign
 title: ランディングページの作成
 description: ランディングページの作成
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 TQID: https://experienceleague.adobe.com/-IwRJsJKykm7pbLwdlXjLa1YP3TuJX2zvbrJGd2zLto
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 782
+workflow-type: tm+mt
+source-wordcount: '773'
 ht-degree: 100%
-
 ---
-
 # ランディングページの作成{#creating-a-landing-page}
 
 
@@ -101,7 +106,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 >[!CAUTION]
 >
->**DCE は、読み込んだ HTML ページの JavaScript コードを実行します。** HTML テンプレートの JavaScript エラーは、Adobe Campaign インターフェイスに表示されることがあります。これらのエラーは、エディターとは関係ありません。 インポートしたファイルにエラーがないことを確認するには、ファイルを DCE にインポートする前に web ブラウザーでテストすることをお勧めします。
+>**DCE は、読み込んだ HTML ページの JavaScript コードを実行します。** HTML テンプレートの JavaScript エラーは、Adobe Campaign インターフェイスに表示されることがあります。 これらのエラーは、エディターとは関係ありません。 インポートしたファイルにエラーがないことを確認するには、ファイルを DCE にインポートする前に web ブラウザーでテストすることをお勧めします。
 
 ## 手順 2 - コンテンツの設定 {#step-2---configuring-the-content}
 
@@ -145,7 +150,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 この手順は必須です。これは、web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（**お礼**&#x200B;のページ）を表示します。
 
-1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します&#x200B;****。
+1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します ****。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 

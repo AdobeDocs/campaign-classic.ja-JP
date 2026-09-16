@@ -11,19 +11,21 @@ exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 TQID: https://experienceleague.adobe.com/Mv-2GGcnP%2D%2D%2D%2DL-D2h5DDz3StnT5rH4TlnQdxn9bdnY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 48d000a7ceada7e027f27f436ef643b321a7695c
-workflow-type: ht
-source-wordcount: 3921
+workflow-type: tm+mt
+source-wordcount: '3921'
 ht-degree: 100%
-
 ---
-
 # タスクの作成と管理{#creating-and-managing-tasks}
 
 
@@ -130,7 +132,7 @@ Adobe Campaign のオペレーターのプロファイルを表示するには�
 
 ### レビュー担当者 {#reviewers}
 
-参加者に加え、担当者がタスクを閉じた後にタスクをレビューするオペレーターも定義できます。 レビュー担当者を定義するには、**[!UICONTROL リソース]**&#x200B;ウィンドウの左下にある「**[!UICONTROL タスクの承認を有効にする]**」オプションをクリックします。 レビュー担当者には、1 人のオペレーター、オペレーターのグループまたはオペレーターのリストを指定できます。
+参加者に加え、担当者がタスクを閉じた後にタスクをレビューするオペレーターも定義できます。 レビュー担当者を定義するには、**[!UICONTROL リソース]**&#x200B;ウィンドウの左下にある「**[!UICONTROL タスクの承認を有効にする]**」オプションをクリックします。 レビュー担当者には、個人のオペレーター、オペレーターのグループまたはオペレーターのリストを指定できます。
 
 ![](assets/s_ncs_user_task_edit_resource_validation.png)
 

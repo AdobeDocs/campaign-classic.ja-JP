@@ -10,31 +10,43 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 TQID: https://experienceleague.adobe.com/e9S6zCJjh4LKzlKKy-tqz8KOR1hScKbMuzuppbVUuGI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 6632
+workflow-type: tm+mt
+source-wordcount: '6654'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign 用語集{#ac-glossary}
 
 Adobe Campaign の主な用語と概念の定義と、関連ドキュメントへのリンクを以下に示します。 用語をクリックすると、その定義が表示されます。
@@ -263,7 +275,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *コンテキスト：ダイレクトメール*
 
-配信の概要は、企業が特定のキャンペーン用に作成した構造化された一連の要素（ドキュメント、店舗、プロモーション用クーポンなど）を示します。これは、ダイレクトメール配信のコンテキストで使用されます。
+配信の概要は、企業が特定のキャンペーン用に作成した構造化された一連の要素（ドキュメント、店舗、プロモーション用クーポンなど）を示します 。 これは、ダイレクトメール配信のコンテキストで使用されます。
 
 詳細情報：[ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)。
 +++
@@ -286,7 +298,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *コンテキスト：分散型マーケティング*
 
-分散型マーケティングアドオンでは、Campaign オペレーターに、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間でキャンペーンを実施する共同作業ワークスペースを提供します。 この連携のベースとなるのは、**キャンペーンパッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
+分散型マーケティングアドオンでは、Campaign オペレーターに、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間でキャンペーンを実施する共同作業ワークスペースを提供します 。 この連携のベースとなるのは、**キャンペーンパッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
 
 分散型マーケティングについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}を参照してください。
 +++
@@ -300,7 +312,8 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 +++**ドメインデリゲーション**
 
-サブドメイン設定を使用すると、Adobe Campaign で使用するためにドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。ドメインのデリゲーションにより、アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。
+サブドメイン設定を使用すると、Adobe Campaign で使用するためにドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
+ドメインのデリゲーションにより、アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。
 
 [ドメインのデリゲーション](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)についての詳細情報
 +++
@@ -631,7 +644,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 *コンテキスト：Campaign インタラクション*
 
-オファーエンジンは、環境に表示されるオファー（適格なオファー）を選択します。 アービトラージの原則により、各オファーはカテゴリおよびオファーで定義される基準に従って優先順にランク付けされます。
+オファーエンジンは、環境に表示されるオファー（適格なオファー）を選択します。 アービトラージの原則により、各オファーはカテゴリおよびオファーで定義される基準に従って優先順にランキングされます。
 
 詳しくは、[インタラクション](../../interaction/using/interaction-and-offer-management.md)を参照してください。
 +++
@@ -703,7 +716,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 *コンテキスト：キャンペーンインタラクション*
 
-オファーシミュレーションを使用すると、オペレーターは、実際にオファーを送信する前に、定義した範囲（配信日、ターゲットセグメント、オファー数、テーマなど）でオファー配分をテストできます。これを使用すると、オファーの優先度と実施要件ルールを調整して、オファーの有効性を最大限に高めることができます。
+オファーシミュレーションを使用すると、オペレーターは、実際にオファーを送信する前に、定義した範囲（配信日、ターゲットセグメント、オファー数、テーマなど）でオファー配分をテストできます 。 これを使用すると、オファーの優先度と実施要件ルールを調整して、オファーの有効性を最大限に高めることができます。
 
 オファーシミュレーションの詳細は[こちら](../../interaction/using/about-offers-simulation.md)。
 +++
@@ -872,7 +885,7 @@ Adobe Campaign のパブリックリソースフォルダーには、アプリ�
 
 +++**受信者**
 
-Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを使用すると、ターゲットをフィルタリングし、パーソナライゼーションデータを追加できます。 通常、これは個人情報、連絡先情報、デモグラフィック情報およびトランザクション情報ですが、マーケティングや分析をサポートするあらゆる種類の情報が対象となります。
+Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです 。 データベースに格納された受信者データを使用すると、ターゲットをフィルタリングし、パーソナライゼーションデータを追加できます。 通常、これは個人情報、連絡先情報、デモグラフィック情報およびトランザクション情報ですが、マーケティングや分析をサポートするあらゆる種類の情報が対象となります。
 
 詳細情報：[受信者](../../configuration/using/about-data-model.md)。
 +++
@@ -1037,7 +1050,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 +++**トランザクションメッセージング**
 
-トランザクションメッセージングは、外部の情報システムで送信されたイベントから生成されるカスタムトリガー通知を管理するために設計された Campaign モジュールです。 トランザクションメッセージは web サイトなどのプロバイダーがリアルタイムに送信する、個々に向けたユニークなコミュニケーションです。 受信者が確認したい重要な情報が含まれているので、早い送信が特に期待されます。
+トランザクションメッセージングは、外部の情報システムで送信されたイベントから生成されるカスタムトリガー通知を管理するために設計された Campaign モジュールです。 トランザクションメッセージは web サイトなどのプロバイダーがリアルタイムに送信する、個人に向けたユニークなコミュニケーションです。 受信者が確認したい重要な情報が含まれているので、早い送信が特に期待されます。
 
 トランザクションメッセージングの詳細は[こちら](../../message-center/using/about-transactional-messaging.md)。
 +++

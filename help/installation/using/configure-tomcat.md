@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Tomcat設定
 description: Campaign Tomcat設定
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,18 +11,19 @@ exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 TQID: https://experienceleague.adobe.com/LaGsFkomGXlahM-Do7Vwfc4OMH0UAXRiiSRq5Q-9Wto
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 9%
-
+source-wordcount: '340'
+ht-degree: 6%
 ---
-
 # Apache Tomcatの設定 {#configuring-tomcat}
 
 Adobe Campaignは、Apache Tomcat **と呼ばれる**&#x200B;組み込みweb サーブレットを使用して、アプリケーションと任意の外部インターフェイス（クライアントコンソール、トラッキングされたURL リンク、SOAP呼び出しなど）との間でHTTP/HTTPS リクエストを処理します。 多くの場合、外部向けのAdobe Campaign インスタンスの場合、この前に外部web サーバー（通常はIISまたはApache）が存在します。

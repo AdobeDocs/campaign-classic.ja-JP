@@ -10,17 +10,17 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 TQID: https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '844'
 ht-degree: 7%
-
 ---
-
 # 標準デプロイメント{#standard-deployment}
 
 
@@ -59,8 +59,8 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
 * POP3経由でアクセス可能なバウンスメールボックス，
 * 2つのDNS エイリアスの作成：
 
-   * 最初にパブリックに公開され、仮想IP アドレス（VIP）上のロードバランサーをトラッキングおよびポイントし、次に2つのフロントタルサーバーに配布されます。
-   * 2つ目は、コンソール経由でアクセスし、同じアプリケーションサーバーを指すために内部ユーザーに公開されます。
+  * 最初にパブリックに公開され、仮想IP アドレス（VIP）上のロードバランサーをトラッキングおよびポイントし、次に2つのフロントタルサーバーに配布されます。
+  * 2つ目は、コンソール経由でアクセスし、同じアプリケーションサーバーを指すために内部ユーザーに公開されます。
 
 * STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[&#x200B; データベースアクセス &#x200B;](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
 

@@ -8,22 +8,23 @@ exl-id: c166409b-e040-491e-840a-a41310935d75
 TQID: https://experienceleague.adobe.com/1T-VO8AH7Rhk9HAhMufgPSSh4lNIC-D65ldnJIfDFvA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 150
+workflow-type: tm+mt
+source-wordcount: '150'
 ht-degree: 100%
-
 ---
-
 # 分散型マーケティングの基本を学ぶ{#about-distributed-marketing}
 
 
 
-Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（店舗、地域のエージェントなど）が協調キャンペーンを展開できる、**分散型マーケティング**&#x200B;アプリケーションを活用できます。 この連携のベースとなるのは、**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;と呼ばれる共有ワークスペースです。セントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスは、このワークスペース上でローカルエンティティに提供されます。
+Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（店舗、地域のエージェントなど）が協調キャンペーンを展開できる、**分散型マーケティング**&#x200B;アプリケーションを活用できます 。 この連携のベースとなるのは、**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;と呼ばれる共有ワークスペースです。セントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスは、このワークスペース上でローカルエンティティに提供されます。
 
 セントラルエンティティは、ローカルエンティティに提供するキャンペーンをセットアップし、 ローカルキャンペーンまたは協調キャンペーンのいずれかのパッケージを作成します。 ローカルエンティティがキャンペーンを使用するには、キャンペーンをオーダーし、承認を受けなければなりません。
 

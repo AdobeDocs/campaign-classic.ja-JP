@@ -3,7 +3,7 @@ product: campaign
 title: オファーテンプレートの管理
 description: オファーテンプレートの管理
 feature: Interaction, Offers, Templates
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -11,16 +11,16 @@ exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
 TQID: https://experienceleague.adobe.com/7-mUD8D6rmpenOO30kTDzR5IbbitJxVa9b5l5DQgKaE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 180
+workflow-type: tm+mt
+source-wordcount: '171'
 ht-degree: 100%
-
 ---
-
 # オファーテンプレートの管理{#managing-offer-templates}
 
 

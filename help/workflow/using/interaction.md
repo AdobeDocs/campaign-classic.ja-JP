@@ -5,12 +5,10 @@ description: インタラクション
 hide: true
 feature: Workflows, Interaction, Offers
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
-
 ---
-
 
 # インタラクション{#interaction}
 
@@ -35,12 +33,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">完全な集計 (propositionrcp キューブ)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。 デフォルトで、毎日午前 6 時にトリガーされます。 この集計では、チャネル、配信、マーケティングオファーおよび日付の各ディメンションをキャプチャします。<br />次に、<strong>オファーの提案</strong>キューブが使用され、オファーに基づいたレポートを生成します。キューブについて詳しくは、<a href="../../reporting/using/ac-cubes.md">この節</a>を参照してください。<br /> </td> 
+   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。 デフォルトで、毎日午前 6 時にトリガーされます。 この集計では、チャネル、配信、マーケティングオファーおよび日付の各ディメンションをキャプチャします。<br /> 次に、<strong>オファーの提案</strong>キューブが使用され、オファーに基づいたレポートを生成します。 キューブについて詳しくは、<a href="../../reporting/using/ac-cubes.md">この節</a>を参照してください。<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">MessageCenter における完全な集計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> このワークフローは、<strong>メッセージセンター</strong>キューブのための<strong>完全な</strong>集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。 この集計では、チャネル、日付、ステータス、イベントタイプの各ディメンションをキャプチャします。<br />次に、<strong>メッセージセンター</strong>キューブが、イベントに基づいてレポートを生成するために使用されます。キューブについて詳しくは、<a href="../../reporting/using/ac-cubes.md">この節</a>を参照してください。<br /> </td> 
+   <td> このワークフローは、<strong>メッセージセンター</strong>キューブのための<strong>完全な</strong>集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。 この集計では、チャネル、日付、ステータス、イベントタイプの各ディメンションをキャプチャします。<br /> 次に、<strong>メッセージセンター</strong>キューブが、イベントに基づいてレポートを生成するために使用されます。 キューブについて詳しくは、<a href="../../reporting/using/ac-cubes.md">この節</a>を参照してください。<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

@@ -10,18 +10,19 @@ exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 TQID: https://experienceleague.adobe.com/jmeyOWDTkOmCKOVGlNAdYzNHfaK1QeSxnIjDDnl8yj0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1092'
 ht-degree: 7%
-
 ---
-
 # Google BigQueryへのアクセスを設定する {#configure-fda-google-big-query}
 
 
@@ -200,9 +201,9 @@ Adobe Campaign Classic インスタンスを[!DNL Google BigQuery]外部デー�
    * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
    * **[!UICONTROL キーファイルのパス]**:
-      * **[!UICONTROL キーファイルをサーバーにアップロード]**:「**[!UICONTROL ここをクリックしてアップロード]**」を選択すると、Adobe Campaign Classicからキーをアップロードできます。
+     * **[!UICONTROL キーファイルをサーバーにアップロード]**:「**[!UICONTROL ここをクリックしてアップロード]**」を選択すると、Adobe Campaign Classicからキーをアップロードできます。
 
-      * **[!UICONTROL キーファイルパスを手動で入力]**：既存のキーを使用する場合は、このフィールドに絶対パスをコピーまたは貼り付けます。
+     * **[!UICONTROL キーファイルパスを手動で入力]**：既存のキーを使用する場合は、このフィールドに絶対パスをコピーまたは貼り付けます。
 
    * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/bigquery/docs/datasets-intro)を参照してください。
 

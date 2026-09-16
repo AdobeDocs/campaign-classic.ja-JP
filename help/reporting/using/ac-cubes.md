@@ -7,21 +7,25 @@ exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 TQID: https://experienceleague.adobe.com/JEy-J7tE7XJsHvuga197e89rYmuKtJ2Usok3kbRHmj0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 350
+workflow-type: tm+mt
+source-wordcount: '350'
 ht-degree: 100%
-
 ---
-
 # キューブの基本を学ぶ{#about-cubes}
 
 

@@ -8,21 +8,25 @@ exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 TQID: https://experienceleague.adobe.com/ykTAMDWQNqrbB3K6-AxF9Tpxd0buiLFqLZ1tyU71QoA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 569
+workflow-type: tm+mt
+source-wordcount: '569'
 ht-degree: 100%
-
 ---
-
 # 承認{#approval}
 
 

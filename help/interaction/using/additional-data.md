@@ -10,22 +10,27 @@ exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 TQID: https://experienceleague.adobe.com/OU8fQxcH3HXoSJbG-N-9DplMjkDVAT6tLXY-FWzPuwE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 733
+workflow-type: tm+mt
+source-wordcount: '733'
 ht-degree: 100%
-
 ---
-
 # 追加データ{#additional-data}
 
 
@@ -38,7 +43,7 @@ ht-degree: 100%
 
 ## 追加データの設定 {#additional-data-configuration}
 
-環境にリンクされた **nms:interaction** スキーマを拡張し、インタラクションエンジンの呼び出し中に使用される追加フィールドのリストを宣言する必要があります。実施要件ルールを作成したり、オファーをパーソナライズする場合、それらのフィールドには、**インタラクション**&#x200B;ノードからアクセスできるようになります（[追加データの使用](#using-additional-data)を参照）。
+環境にリンクされた **nms:interaction** スキーマを拡張し、インタラクションエンジンの呼び出し中に使用される追加フィールドのリストを宣言する必要があります。 実施要件ルールを作成したり、オファーをパーソナライズする場合、それらのフィールドには、**インタラクション**&#x200B;ノードからアクセスできるようになります（[追加データの使用](#using-additional-data)を参照）。
 
 インバウンドチャネルの場合、呼び出しデータのフィールドを&#x200B;**インタラクション**&#x200B;ノードに追加する必要があります。
 
@@ -79,7 +84,7 @@ ht-degree: 100%
 
 ### 入力チャネル（web ページ） {#input-channel--web-page-}
 
-エンジンの呼び出し時に追加データを転送するには、Web ページの JavaScript コードに **interactionGlobalCtx** 変数を追加する必要があります。 この変数に、呼び出しデータを含む&#x200B;**インタラクション**&#x200B;ノードを挿入します。 その際、**nms:interaction** スキーマと同じ XML 構造に従う必要があります。[追加データの設定](#additional-data-configuration)を参照してください。
+エンジンの呼び出し時に追加データを転送するには、Web ページの JavaScript コードに **interactionGlobalCtx** 変数を追加する必要があります。 この変数に、呼び出しデータを含む&#x200B;**インタラクション**&#x200B;ノードを挿入します。 その際、**nms:interaction** スキーマと同じ XML 構造に従う必要があります。 [追加データの設定](#additional-data-configuration)を参照してください。
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -87,7 +92,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### 出力チャネル {#output-channel}
 
-**nms:interaction** スキーマと同じ XML 構造および内部名に従って、作業用テーブルの追加データを読み込むターゲティングワークフローを作成する必要があります。[追加データの設定](#additional-data-configuration)を参照してください。
+**nms:interaction** スキーマと同じ XML 構造および内部名に従って、作業用テーブルの追加データを読み込むターゲティングワークフローを作成する必要があります。 [追加データの設定](#additional-data-configuration)を参照してください。
 
 ## 追加データの使用 {#using-additional-data}
 
@@ -113,7 +118,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 >
 >パーソナライゼーションは、データが定義されているチャネルのみに制限する必要があります。 この例では、インバウンド Web チャネルのみにルールを制限しています。
 
-追加データを使用してオファーをパーソナライズしている場合、そのデータは、データベースで利用できないので、デフォルトではプレビューに表示されません。 環境の「**[!UICONTROL データ呼び出しの例]**」タブで、プレビューで使用するサンプルの値を追加する必要があります。 **nms:interaction** スキーマ拡張と同じ XML 構造に従ってください。詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
+追加データを使用してオファーをパーソナライズしている場合、そのデータは、データベースで利用できないので、デフォルトではプレビューに表示されません。 環境の「**[!UICONTROL データ呼び出しの例]**」タブで、プレビューで使用するサンプルの値を追加する必要があります。 **nms:interaction** スキーマ拡張と同じ XML 構造に従ってください。 詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
 
 ![](assets/ita_calldata_preview.png)
 
@@ -127,7 +132,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->追加データを格納するには、**nms:propositionRcp** スキーマを拡張し、格納するデータを含めるフィールドを宣言する必要があります。詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
+>追加データを格納するには、**nms:propositionRcp** スキーマを拡張し、格納するデータを含めるフィールドを宣言する必要があります。 詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
 
 オファースペースで、「**[!UICONTROL ストレージ]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックします。
 

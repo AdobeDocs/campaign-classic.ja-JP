@@ -2,7 +2,7 @@
 product: campaign
 title: 条件付きコンテンツ
 description: 条件付きコンテンツの追加方法を学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
 hide: true
@@ -10,25 +10,32 @@ exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 TQID: https://experienceleague.adobe.com/S8pQz1eOVkbkBKFzhPwzEfj50cPnBBOeYNGFg-R6EZ4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 517
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
-
 ---
-
 # 条件付きコンテンツ{#conditional-content}
 
 条件付きコンテンツフィールドを設定することで、例えば受信者のプロファイルに基づいて動的パーソナライゼーションを作成できます。 特定の条件が成立した場合に、テキストブロックや画像を切り替えることができます。
@@ -40,13 +47,13 @@ ht-degree: 100%
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
-* データソースの「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
+* データソース の 「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
 * 顧客が表明した関心事項や検出された関心事項に基づいて、次のようにニュースレターや優待販売案内の構成をパーソナライズする
 
-   * 興味 1 -- > ブロック 1
-   * 興味 2 -- > ブロック 2
-   * 興味 3 -- > ブロック 3
-   * 興味 4 -- > ブロック 4
+  * 興味 1 -- > ブロック 1
+  * 興味 2 -- > ブロック 2
+  * 興味 3 -- > ブロック 3
+  * 興味 4 -- > ブロック 4
 
 あるフィールドの値に基づく条件付きコンテンツを作成するには、次の手順に従います。
 

@@ -10,11 +10,9 @@ hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2602'
 ht-degree: 2%
-
 ---
-
 # 一般設定{#general-configurations}
 
 この節では、v5.11またはv6.02から移行する際にAdobe Campaign v7で実行する設定について詳しく説明します。

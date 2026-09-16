@@ -3,7 +3,7 @@ product: campaign
 title: Campaignでのミッドソーシングサーバーのインストール
 description: この節では、Campaignでのミッドソーシングサーバーのインストールと設定について説明します
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -12,11 +12,9 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1149
-ht-degree: 6%
-
+source-wordcount: '1137'
+ht-degree: 5%
 ---
-
 # ミッドソーシングサーバー{#mid-sourcing-server}
 
 
@@ -141,9 +139,9 @@ serverConf.xml ファイルのミッドソーシングサーバー設定を変�
 
 「marketing_account_operator_name」は、ミッドソーシングインスタンスで宣言されたミッドソーシングアカウントの内部名に関連します。
 
-&#39;affinity_name&#39;は、アフィニティに指定された任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は`[a-z]` `[A-Z]` `[0-9]`です。 目的は、パブリック IP アドレスのグループを宣言することです。
+&#39;affinity_name&#39;は、アフィニティに指定された任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は`[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`です。 目的は、パブリック IP アドレスのグループを宣言することです。
 
-&#39;affinity_group&#39;は、各配信で使用されるターゲットマッピングで宣言されたサブ親和性を関連付けます。 サブアフィニティがない場合、「。」を含む最後の部分は無視されます。 許可されている文字は`[a-z]` `[A-Z]` `[0-9]`です。
+&#39;affinity_group&#39;は、各配信で使用されるターゲットマッピングで宣言されたサブ親和性を関連付けます。 サブアフィニティがない場合、「。」を含む最後の部分は無視されます。 許可されている文字は`[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`です。
 
 変更を考慮するには、サーバーを停止してから再起動する必要があります。
 

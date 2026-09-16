@@ -8,17 +8,18 @@ exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 TQID: https://experienceleague.adobe.com/AQ-UD-8YP-5emnQLqkeBovEX1FpChnCLxTq-pncUrDU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 441
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
-
 ---
-
 # キャンペーンのトラッキング{#tracking-a-campaign}
 
 

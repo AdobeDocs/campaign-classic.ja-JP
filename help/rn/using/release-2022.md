@@ -10,25 +10,31 @@ exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 TQID: https://experienceleague.adobe.com/8QWEJN9tpxBdDZlYqEmY2JIuxWPShtfRxCUf6thXXWA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2153
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
-
 ---
-
 # 2022 リリース{#release-2022}
 
 ## リリース 7.3.1 - ビルド 9352 {#release-7-3-1}
@@ -149,14 +155,14 @@ Adobe Campaign は現在、Windows Server 2019 と互換性があります。 [C
 
   Microsoft Dynamics Connector web API に関する重要な修正が適用されました。
 
-   * ワークフローでトリガーされたインポート中に、文字列タイプのフィールドの null 値が空の値ではなく null として保存される問題を修正しました。
-   * Web API 呼び出しを使用したデータのインポートまたはエクスポートで「無効な URI：URI スキームが長すぎます」というエラーが発生する問題を修正しました。
-   * Microsoft Dynamics 365 から参照フィールドを含むデータをインポートする際に発生していた様々な問題を修正しました。
+  * ワークフローでトリガーされたインポート中に、文字列タイプのフィールドの null 値が空の値ではなく null として保存される問題を修正しました。
+  * Web API 呼び出しを使用したデータのインポートまたはエクスポートで「無効な URI：URI スキームが長すぎます」というエラーが発生する問題を修正しました。
+  * Microsoft Dynamics 365 から参照フィールドを含むデータをインポートする際に発生していた様々な問題を修正しました。
 
 * Google BigQuery FDA コネクタ
 
-   * Google BigQuery FDA コネクタが、ホスト型デプロイメントで使用できるようになりました。 [詳細情報](../../installation/using/configure-fda-google-big-query.md)
-   * Google BigQuery FDA コネクタのプロキシサーバーへの接続を有効にするサポートを追加しました。 必須のプロキシオプションは、外部アカウント設定のオプションフィールドで設定できます。 [詳細を表示](../../installation/using/configure-fda-google-big-query.md#google-external)
+  * Google BigQuery FDA コネクタが、ホスト型デプロイメントで使用できるようになりました。 [詳細情報](../../installation/using/configure-fda-google-big-query.md)
+  * Google BigQuery FDA コネクタのプロキシサーバーへの接続を有効にするサポートを追加しました。 必須のプロキシオプションは、外部アカウント設定のオプションフィールドで設定できます。 [詳細を表示](../../installation/using/configure-fda-google-big-query.md#google-external)
 
 **その他の変更**
 

@@ -2,27 +2,31 @@
 product: campaign
 title: ユースケース：フィールド置換の設定
 description: ユースケース：フィールド置換の設定
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 TQID: https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 471
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
-
 ---
-
 # ユースケース：フィールド置換の設定{#use-case-configuring-the-field-substitution}
 
 

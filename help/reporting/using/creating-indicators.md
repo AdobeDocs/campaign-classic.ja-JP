@@ -8,20 +8,23 @@ exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 TQID: https://experienceleague.adobe.com/Xz3bnoS9EL84A5hx6WSqQlQC0G-sq-mO0j1-HTWsQac
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: 4f31b249b9f4dc3a10205a3f03cecdbc23b3a6e7
-workflow-type: ht
-source-wordcount: 749
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
-
 ---
-
 # 指標の作成{#creating-indicators}
 
 

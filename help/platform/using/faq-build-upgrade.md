@@ -10,27 +10,37 @@ exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 TQID: https://experienceleague.adobe.com/ivE0WuT3rnpH0ro0cBHgJXxXRiRELmJLwHrYVi-Md6Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2096
+workflow-type: tm+mt
+source-wordcount: '2108'
 ht-degree: 100%
-
 ---
-
 # ビルドのアップグレードに関する FAQ {#build-upgrade-faq}
 
 この FAQ では、特にハイブリッドおよびオンプレミスのデプロイメントでの Campaign Classic v7 ビルドのアップグレードに関する質問について説明します。
@@ -221,18 +231,18 @@ API を使用して新しいレコードを挿入できることを確認しま�
 1 人のテスト受信者に送信し、パーソナライゼーション、登録解除リンク、ミラーページの動作をすべて確認します。
 * すべての重要なパスワークフローが実行されていることを確認します。 ワークフローをチェックし、ワークフロージャーナルを開き、
 エラーがないことを確認します。
-* すべてのフォルダーが存在し、表示され、アクセス可能であることを確認します。色々なフォルダーを参照して、
+* すべてのフォルダーが存在し、表示され、アクセス可能であることを確認します。 色々なフォルダーを参照して、
 すべてのコンテンツが存在し、表示されていることを確認します。
 * 配信で正しいタイムゾーンが使用されていることを確認します。
 
-   * 作成日と変更日をタイムスタンプとタイムゾーンで確認します。
-   * スケジューラーの実行が、指定された時間にワークフロー内で動作することを確認します。
-   * PAUSED ステートと FAILED ステートのワークフローのリストを取得します。 ワークフローを開始して監視します。
-   * 1 つのシナリオに対して A/B テストを実行します。
-   * プッシュ通知とその追跡機能を、ディープリンクに対してテストします。
-   * SMS の送信をテストします。
-   * 外部 FDA が接続されている場合は、両方の方法でデータが送信されているかどうかをテストします。
-   * Adobe Campaign と Adobe Experience Manager、Adobe Campaign と Adobe Analytics などの統合を使用している場合は、以前と同じように動作するかどうかをテストします。
+  * 作成日と変更日をタイムスタンプとタイムゾーンで確認します。
+  * スケジューラーの実行が、指定された時間にワークフロー内で動作することを確認します。
+  * PAUSED ステートと FAILED ステートのワークフローのリストを取得します。 ワークフローを開始して監視します。
+  * 1 つのシナリオに対して A/B テストを実行します。
+  * プッシュ通知とその追跡機能を、ディープリンクに対してテストします。
+  * SMS の送信をテストします。
+  * 外部 FDA が接続されている場合は、両方の方法でデータが送信されているかどうかをテストします。
+  * Adobe Campaign と Adobe Experience Manager、Adobe Campaign と Adobe Analytics などの統合を使用している場合は、以前と同じように動作するかどうかをテストします。
 
 **関連項目：**
 

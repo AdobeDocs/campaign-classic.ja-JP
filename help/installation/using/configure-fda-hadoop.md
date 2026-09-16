@@ -10,17 +10,17 @@ exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 TQID: https://experienceleague.adobe.com/-5lcbNCBW2O9H9bLk5zbvuDrH711BkCSHYmW9jTBWUo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 645
+source-wordcount: '645'
 ht-degree: 79%
-
 ---
-
 # Hadoop へのアクセスの設定 {#configure-access-to-hadoop}
 
 

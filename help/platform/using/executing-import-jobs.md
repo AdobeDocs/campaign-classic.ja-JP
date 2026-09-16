@@ -3,7 +3,7 @@ product: campaign
 title: インポートジョブの設定
 description: Campaign でインポートジョブを設定および実行する方法を説明します。
 feature: Overview
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,20 +11,24 @@ exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 TQID: https://experienceleague.adobe.com/OeRVFm6L-3N6yoIAKyTImaQb6d411UE8-NZ2jHu5VCc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 3257
+workflow-type: tm+mt
+source-wordcount: '3248'
 ht-degree: 100%
-
 ---
-
 # インポートジョブの設定 {#executing-import-jobs}
 
 
@@ -83,21 +87,21 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 * 「**[!UICONTROL 一般]**」タブ
 
-   * **[!UICONTROL 却下が多すぎる場合に実行を停止]**
+  * **[!UICONTROL 却下が多すぎる場合に実行を停止]**
 
-     このオプションは、デフォルトで選択されています。 却下の数に関係なくインポートの実行を続行する場合は、選択を解除できます。 デフォルトでは、最初の 100 ラインが却下された場合、実行は停止されます。
+    このオプションは、デフォルトで選択されています。 却下の数に関係なくインポートの実行を続行する場合は、選択を解除できます。 デフォルトでは、最初の 100 ラインが却下された場合、実行は停止されます。
 
-   * **[!UICONTROL トレースモード]**
+  * **[!UICONTROL トレースモード]**
 
-     インポートの実行をラインごとにトラッキングする場合に、このオプションを選択します。
+    インポートの実行をラインごとにトラッキングする場合に、このオプションを選択します。
 
-   * **[!UICONTROL プロセスの分離でジョブを開始]**
+  * **[!UICONTROL プロセスの分離でジョブを開始]**
 
-     このオプションは、デフォルトで選択されています。 データベースで処理中の他のジョブに影響しないように、インポートの実行を分離できます。
+    このオプションは、デフォルトで選択されています。 データベースで処理中の他のジョブに影響しないように、インポートの実行を分離できます。
 
-   * **[!UICONTROL 列挙を更新しない]**
+  * **[!UICONTROL 列挙を更新しない]**
 
-     データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。 **定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
+    データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。 **定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
 
 
 * 「**[!UICONTROL 変数]**」タブ
@@ -298,45 +302,45 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 * 「**[!UICONTROL 編集]**」リンクをクリックして、受信者の関連付けまたは購読登録をおこなうフォルダー、リストまたはサービスを選択します。
 
-   1. フォルダーへのインポート
+  1. フォルダーへのインポート
 
-      「**[!UICONTROL フォルダーにインポート]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるフォルダーを選択または作成できます。 デフォルトでは、パーティションが定義されていない場合、データはオペレーターのデフォルトのフォルダーにインポートされます。
+     「**[!UICONTROL フォルダーにインポート]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるフォルダーを選択または作成できます。 デフォルトでは、パーティションが定義されていない場合、データはオペレーターのデフォルトのフォルダーにインポートされます。
 
-      >[!NOTE]
-      >
-      >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。 詳しくは、[フォルダーアクセス管理](../../platform/using/access-management-folders.md)を参照してください。
+     >[!NOTE]
+     >
+     >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。 詳しくは、[フォルダーアクセス管理](../../platform/using/access-management-folders.md)を参照してください。
 
-      インポートフォルダーを選択するには、「**[!UICONTROL フォルダー]**」フィールドの右側にある矢印をクリックし、関係するフォルダーを選択します。 **[!UICONTROL リンクを選択]**&#x200B;アイコンを使用して新しいウィンドウでツリーを表示するか、新しいフォルダーを作成することもできます。
+     インポートフォルダーを選択するには、「**[!UICONTROL フォルダー]**」フィールドの右側にある矢印をクリックし、関係するフォルダーを選択します。 **[!UICONTROL リンクを選択]**&#x200B;アイコンを使用して新しいウィンドウでツリーを表示するか、新しいフォルダーを作成することもできます。
 
-      ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![](assets/s_ncs_user_import_wizard05_2.png)
 
-      新しいフォルダーを作成するには、フォルダーを追加するノードを選択し、右クリックします。 「**[!UICONTROL 新しい「受信者」フォルダーを作成]**」を選択します。
+     新しいフォルダーを作成するには、フォルダーを追加するノードを選択し、右クリックします。 「**[!UICONTROL 新しい「受信者」フォルダーを作成]**」を選択します。
 
-      ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![](assets/s_ncs_user_import_wizard05_3.png)
 
-      現在のノードの下に新しいフォルダーが追加されます。 新しいフォルダーの名前を入力し、Enter キーを押して確定して、「**[!UICONTROL OK]**」をクリックします。
+     現在のノードの下に新しいフォルダーが追加されます。 新しいフォルダーの名前を入力し、Enter キーを押して確定して、「**[!UICONTROL OK]**」をクリックします。
 
-      ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![](assets/s_ncs_user_import_wizard05_4.png)
 
-   1. リストへの関連付け
+  1. リストへの関連付け
 
-      「**[!UICONTROL リストに受信者を追加]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるリストを選択または作成できます。
+     「**[!UICONTROL リストに受信者を追加]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるリストを選択または作成できます。
 
-      ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      これらの受信者用に新しいリストを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;をクリックします。 リストの作成と管理については、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
+     これらの受信者用に新しいリストを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;をクリックします。 リストの作成と管理については、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
 
-      ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![](assets/s_ncs_user_import_wizard05_6.png)
 
-      受信者をリスト内の既存の受信者に追加するか、または新しい受信者でリストを再作成するかを決定できます。 後者の場合、リストに既に受信者が含まれていた場合は、それらは削除され、インポートされた受信者に置き換えられます。
+     受信者をリスト内の既存の受信者に追加するか、または新しい受信者でリストを再作成するかを決定できます。 後者の場合、リストに既に受信者が含まれていた場合は、それらは削除され、インポートされた受信者に置き換えられます。
 
-   1. サービスの購読登録
+  1. サービスの購読登録
 
-      インポートされたすべての受信者を情報サービスに購読登録するには、受信者を購読登録する対象となる情報サービスを選択または作成するために、「**[!UICONTROL 受信者をサービスに購読登録する]**」セクションの「**[!UICONTROL 編集...]**」リンクをクリックします。 「**[!UICONTROL 確認メッセージを送信]**」オプションを選択できます。このメッセージの内容は、購読サービスに関連付けられた配信テンプレートで定義されています。
+     インポートされたすべての受信者を情報サービスに購読登録するには、受信者を購読登録する対象となる情報サービスを選択または作成するために、「**[!UICONTROL 受信者をサービスに購読登録する]**」セクションの「**[!UICONTROL 編集...]**」リンクをクリックします。 「**[!UICONTROL 確認メッセージを送信]**」オプションを選択できます。このメッセージの内容は、購読サービスに関連付けられた配信テンプレートで定義されています。
 
-      ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      これらの受信者用に新しいサービスを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;アイコンをクリックします。 情報サービスの管理については、[この節](../../delivery/using/managing-subscriptions.md)で説明しています。
+     これらの受信者用に新しいサービスを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;アイコンをクリックします。 情報サービスの管理については、[この節](../../delivery/using/managing-subscriptions.md)で説明しています。
 
 * 「**[!UICONTROL 接触チャネル]**」フィールドを使用して、受信者の接触チャネルに関する情報をプロファイルに追加します。 この情報は、複数インポートのフレームワークで特に役立ちます。
 

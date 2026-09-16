@@ -3,7 +3,7 @@ product: campaign
 title: 実行設定
 description: 実行設定
 feature: Interaction, Offers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
@@ -11,16 +11,16 @@ exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
 TQID: https://experienceleague.adobe.com/k2-e-laXDXtVyBJnoiyKAdNHKiS3nB-t1X1cEaqeudM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 171
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
-
 ---
-
 # 実行設定{#execution-settings}
 
 

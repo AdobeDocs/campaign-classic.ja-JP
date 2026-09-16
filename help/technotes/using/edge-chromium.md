@@ -7,18 +7,19 @@ exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 TQID: https://experienceleague.adobe.com/6CrzuBxAxGlXi08NxwdnigO2bNu700luLxnz-3KzZ18
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 274
+workflow-type: tm+mt
+source-wordcount: '274'
 ht-degree: 100%
-
 ---
-
 # お使いの環境で Microsoft Edge Chromium を有効にする方法 {#edge-conf}
 
 ## 変更点
@@ -45,25 +46,25 @@ Microsoft Internet Explorer 11 のサポート終了に伴い、クライアン�
 
   これを実行するには、すべての環境（MKT、MID、RT）で次の手順を適用します。
 
-   1. Campaign サーバー設定ファイル（`serverConf.xml`）を編集します
-   1. `<web>` モジュールで、`webView2Mode = "1"` を設定します
-   1. 次のコマンドを実行して、サーバー設定をリロードします。
+  1. Campaign サーバー設定ファイル（`serverConf.xml`）を編集します
+  1. `<web>` モジュールで、`webView2Mode = "1"` を設定します
+  1. 次のコマンドを実行して、サーバー設定をリロードします。
 
-      ```
-      nlserver config -reload
-      ```
+     ```
+     nlserver config -reload
+     ```
 
-   1. 次のコマンドを実行して、web サーバーを再起動します。
+  1. 次のコマンドを実行して、web サーバーを再起動します。
 
-      ```
-      nlserver restart web
-      ```
+     ```
+     nlserver restart web
+     ```
 
-   1. お使いの環境で Apache を web サーバーとして使用している場合は、次のコマンドを実行して Apache を再起動します。
+  1. お使いの環境で Apache を web サーバーとして使用している場合は、次のコマンドを実行して Apache を再起動します。
 
-      ```
-      /etc/init.d/apache2 restart
-      ```
+     ```
+     /etc/init.d/apache2 restart
+     ```
 
 
 >[!NOTE]

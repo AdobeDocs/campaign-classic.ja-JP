@@ -3,7 +3,7 @@ product: campaign
 title: Windows用Web サーバーへの統合
 description: Windows用Web サーバーへの統合
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,20 +11,23 @@ exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 TQID: https://experienceleague.adobe.com/dCUzCZnR5K2T2EPtqmazqAS69Zg40MaltxCVtoDN48I
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 6%
-
+source-wordcount: '751'
+ht-degree: 4%
 ---
-
 # Windows用Web サーバーへの統合 {#integration-into-a-web-server-for-windows}
 
 Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれています。
@@ -34,7 +37,7 @@ Adobe Campaignには、HTTP （およびSOAP）を介してアプリケーショ
 この場合：
 
 * デフォルトのリスニングポートは8080です。 変更する場合は、[このセクション &#x200B;](../../installation/using/configure-tomcat.md)を参照してください。
-* 次に、クライアントコンソールは、`https://` `<computer>` `:8080`などのURLを使用して接続します。
+* 次に、クライアントコンソールは、`https://`&#x200B;`<computer>`&#x200B;`:8080`などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上に公開され、ネットワーク外でコンソールへのアクセスを開く場合は、HTTP トラフィックのメインエントリポイントとして専用Web サーバーを使用することをお勧めします。
 

@@ -11,17 +11,18 @@ exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 TQID: https://experienceleague.adobe.com/xOZ-wqEKA-BFYROy7iQpjdYpqENHJWrSK3ltj0JNVoE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # Linux プラットフォームをCampaign v7に移行する{#migrating-in-linux-for-adobe-campaign-v}
 
 

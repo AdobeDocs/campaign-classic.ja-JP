@@ -10,18 +10,19 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 TQID: https://experienceleague.adobe.com/geVW1WFvlnZJmiLeaI01ww-TsQvEN3-zpr57jmz2Miw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 36%
-
+source-wordcount: '633'
+ht-degree: 39%
 ---
-
 # サーバーのセキュリティ設定 {#server-configuration}
 
 ## ファイルアップロードの保護
@@ -51,7 +52,7 @@ Adobe Campaignでは、ファイルサイズは制限されません。 IIS/Apac
 
 ## 送信接続の保護
 
-JavaScript コードで呼び出すことができるURLのデフォルトリスト（ワークフローなど） 限定的なものです。 新しいURLを許可するには、管理者が[serverConf.xml ファイル &#x200B;](../../installation/using/the-server-configuration-file.md)でURLを参照する必要があります。
+Campaign インスタンスにより、JavaScript コード（ワークフローなど）からの呼び出しが可能なデフォルトの URL リスト 限定的なものです。 新しいURLを許可するには、管理者が[serverConf.xml ファイル &#x200B;](../../installation/using/the-server-configuration-file.md)でURLを参照する必要があります。
 
 3 つの接続保護モードがあります。
 

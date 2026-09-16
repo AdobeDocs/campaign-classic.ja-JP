@@ -2,29 +2,35 @@
 product: campaign
 title: Apple 2021 の機能停止後にバウンス選定条件を更新
 description: Apple 2021 の機能停止後にバウンス選定条件を更新する方法を学ぶ
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 TQID: https://experienceleague.adobe.com/kn5H0jxM7KKnLGQ3vYdvhQm4nixgSTVhFBO8CAh-1Lg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 468
+workflow-type: tm+mt
+source-wordcount: '459'
 ht-degree: 100%
-
 ---
-
 # Apple の停止が発生した後の誤ったハードバウンスの更新 {#update-bounce-qualification.md}
 
 ## コンテキスト
@@ -55,16 +61,16 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドに SMTP バウンス応答情報が含まれている Campaign インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「user lookup success but no user record found（ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした）」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.apple.com」が含まれている
-   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
-   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
+  * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「user lookup success but no user record found（ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした）」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.apple.com」が含まれている
+  * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
+  * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンドメールのルール情報が含まれている Campaign インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-   * **メールドメイン（@domain）**&#x200B;が icloud.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が me.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が mac.com と等しい
-   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
-   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
+  * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
+  * **メールドメイン（@domain）**&#x200B;が icloud.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が me.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が mac.com と等しい
+  * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
+  * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
 
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。
 

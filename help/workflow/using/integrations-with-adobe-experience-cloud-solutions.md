@@ -6,12 +6,10 @@ feature: Workflows, Audiences
 hide: true
 topic-tags: technical-workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
-
 ---
-
 
 # Adobe Experience Cloud ソリューションとの統合{#integrations-with-adobe-experience-cloud-solutions}
 

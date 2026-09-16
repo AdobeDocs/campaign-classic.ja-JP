@@ -2,28 +2,33 @@
 product: campaign
 title: web フォームの公開
 description: web フォームの公開
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 TQID: https://experienceleague.adobe.com/2lsNN7oxSizIC1wsv5S5fwkgCcKd3so5qeq-pHr8odY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1379
+workflow-type: tm+mt
+source-wordcount: '1370'
 ht-degree: 100%
-
 ---
-
 # web フォームの公開{#publishing-a-web-form}
 
 
@@ -192,17 +197,17 @@ Web フォームの様々なステータスについて詳しくは、[この節
 
 * 最初のインスタンスからエクスポートした際に  Web フォームのステータスが&#x200B;**[!UICONTROL 保留中の公開]**&#x200B;または&#x200B;**[!UICONTROL オンライン]**&#x200B;であった場合：
 
-   * 新しいインスタンスにインポートすると、Web フォームは&#x200B;**[!UICONTROL 保留中の公開]**&#x200B;ステータスを取得します。
+  * 新しいインスタンスにインポートすると、Web フォームは&#x200B;**[!UICONTROL 保留中の公開]**&#x200B;ステータスを取得します。
 
-   * Web フォームが新しいインスタンスに既に存在する場合は、古いバージョンのフォームが&#x200B;**[!UICONTROL オンライン]**&#x200B;であっても、新しいバージョンのフォームに置き換えられ、**[!UICONTROL 保留中の公開]**&#x200B;ステータスになります。
+  * Web フォームが新しいインスタンスに既に存在する場合は、古いバージョンのフォームが&#x200B;**[!UICONTROL オンライン]**&#x200B;であっても、新しいバージョンのフォームに置き換えられ、**[!UICONTROL 保留中の公開]**&#x200B;ステータスになります。
 
-   * フォームが存在するかどうかに関係なく、新しいインスタンスで&#x200B;**[!UICONTROL オンライン]**&#x200B;になり、ブラウザーの Web フォーム URL を通じてアクセスするには、フォームを[公開](#publishing-a-form)する必要があります。
+  * フォームが存在するかどうかに関係なく、新しいインスタンスで&#x200B;**[!UICONTROL オンライン]**&#x200B;になり、ブラウザーの Web フォーム URL を通じてアクセスするには、フォームを[公開](#publishing-a-form)する必要があります。
 
 * エクスポート時に Web フォームのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;であった場合：
 
-   * パッケージをインポートするインスタンス上で Web フォームが新しい場合、Web フォームは&#x200B;**[!UICONTROL 編集中]**&#x200B;ステータスを取得します。
+  * パッケージをインポートするインスタンス上で Web フォームが新しい場合、Web フォームは&#x200B;**[!UICONTROL 編集中]**&#x200B;ステータスを取得します。
 
-   * Web フォームが新しいインスタンスに既に存在する場合、既存のフォームの変更になります。 フォームの古いバージョンが&#x200B;**[!UICONTROL オンライン]**&#x200B;であった場合、フォームの新しいバージョンを新しいインスタンスで再度[公開](#publishing-a-form)するまで、古いバージョンはオンラインのままになります。
+  * Web フォームが新しいインスタンスに既に存在する場合、既存のフォームの変更になります。 フォームの古いバージョンが&#x200B;**[!UICONTROL オンライン]**&#x200B;であった場合、フォームの新しいバージョンを新しいインスタンスで再度[公開](#publishing-a-form)するまで、古いバージョンはオンラインのままになります。
 
   >[!NOTE]
   >

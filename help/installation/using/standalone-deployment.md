@@ -10,15 +10,14 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1096
+source-wordcount: '1097'
 ht-degree: 5%
-
 ---
-
 # スタンドアロンデプロイメント{#standalone-deployment}
 
 
@@ -73,8 +72,8 @@ ht-degree: 5%
 * POP3経由でアクセス可能なバウンスメールボックス，
 * 2つのDNS エイリアスの作成：
 
-   * 最初にパブリック IP上のコンピュータを追跡し、指し示すためにパブリックに公開された人物。
-   * コンソール アクセス用に内部ユーザーに公開され、同じコンピューターを指す2番目のエイリアス。
+  * 最初にパブリック IP上のコンピュータを追跡し、指し示すためにパブリックに公開された人物。
+  * コンソール アクセス用に内部ユーザーに公開され、同じコンピューターを指す2番目のエイリアス。
 
 * SMTP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[&#x200B; ネットワーク設定](../../installation/using/network-configuration.md)を参照してください。
 

@@ -8,17 +8,17 @@ exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 TQID: https://experienceleague.adobe.com/jQ4x9zONaJacdqaNqRL--oeMUAyn53Rk-u3jOvKv-20
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '212'
 ht-degree: 5%
-
 ---
-
 # 匿名トラッキング{#anonymous-tracking}
 
 Adobe Campaignを利用すれば、収集したweb トラッキング情報を、ターゲットオーディエンスが匿名でサイトを閲覧したときに活用できます。 利用者がweb サイトのタグ付きページを閲覧すると、この閲覧情報が収集されます。これにより、Adobe Campaignから送信されたメールをクリックすると、その人が特定され、その人の情報が自動的にリンクされます。

@@ -9,24 +9,30 @@ exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 TQID: https://experienceleague.adobe.com/kbNLR1aZ6M48vZKtpP2wdkaTKxJC2an-Ka-VWu2-x-k
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 3540
+workflow-type: tm+mt
+source-wordcount: '3540'
 ht-degree: 100%
-
 ---
-
 # 頻度ルール{#pressure-rules}
 
 ## マーケティング疲労について {#about-marketing-fatigue}
@@ -309,7 +315,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 次の設定手順を実行します。
 
 1. **頻度**&#x200B;タイプのタイポロジルールを新規作成します。
-1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。 各受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
+1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。 各個人受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 

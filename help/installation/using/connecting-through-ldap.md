@@ -3,7 +3,7 @@ product: campaign
 title: LDAPを介した接続
 description: LDAPを使用してCampaignにログインする方法を説明します
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,17 +11,17 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 TQID: https://experienceleague.adobe.com/GMKB83dj65iqnlu97uX-d672TWOysjd4gspRLEfz-y8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
-
+source-wordcount: '1246'
+ht-degree: 1%
 ---
-
 # LDAPを介した接続 {#connecting-through-ldap}
 
 ## CampaignとLDAPの設定 {#configuring-campaign-and-ldap}
@@ -42,19 +42,19 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 * **[!UICONTROL LDAP サーバー]** フィールドにLDAP サーバーのアドレスを指定します。 ポート番号を追加できます。 デフォルトでは、使用されるポートは389です。
 * ドロップダウンリストで、ユーザーの認証方法を選択します。
 
-   * 暗号化されたパスワード （**md5**） – デフォルト モード。
+  * 暗号化されたパスワード （**md5**） – デフォルト モード。
 
-   * プレーンテキストのパスワード + SSL （**TLS**） – 認証手順（パスワードを含む）全体が暗号化されます。 このモードでは、セキュアポート 636を使用しないでください。Adobe Campaignは自動的にセキュアモードに切り替わります。
+  * プレーンテキストのパスワード + SSL （**TLS**） – 認証手順（パスワードを含む）全体が暗号化されます。 このモードでは、セキュアポート 636を使用しないでください。Adobe Campaignは自動的にセキュアモードに切り替わります。
 
-     この認証モードを使用する場合、Linuxでは、証明書はopenLDAP クライアントライブラリによって検証されます。 認証手順が暗号化されるように、有効なSSL証明書を使用することをお勧めします。 それ以外の場合、情報はプレーンテキストになります。
+    この認証モードを使用する場合、Linuxでは、証明書はopenLDAP クライアントライブラリによって検証されます。 認証手順が暗号化されるように、有効なSSL証明書を使用することをお勧めします。 それ以外の場合、情報はプレーンテキストになります。
 
-     証明書はWindowsでも検証されます。
+    証明書はWindowsでも検証されます。
 
-   * Windows NT LAN Manager （**NTLM**） – 独自のWindows認証。 **[!UICONTROL 一意の識別子]**&#x200B;は、ドメイン名にのみ使用されます。
+  * Windows NT LAN Manager （**NTLM**） – 独自のWindows認証。 **[!UICONTROL 一意の識別子]**&#x200B;は、ドメイン名にのみ使用されます。
 
-   * 分散パスワード認証（**DPA**） – 独自のWindows認証。 **[!UICONTROL 一意の識別子]**&#x200B;は、ドメイン名にのみ使用されます（domain.com）。
+  * 分散パスワード認証（**DPA**） – 独自のWindows認証。 **[!UICONTROL 一意の識別子]**&#x200B;は、ドメイン名にのみ使用されます（domain.com）。
 
-   * プレーンテキストのパスワード – 暗号化なし（テストフェーズでのみ使用）。
+  * プレーンテキストのパスワード – 暗号化なし（テストフェーズでのみ使用）。
 
 * ユーザー認証モードを選択します。**一意のユーザーIDを自動的に計算します（[識別名の計算](#distinguished-name-calculation)を参照）。または**&#x200B;[!UICONTROL &#x200B; ディレクトリ &#x200B;]&#x200B;**で一意のユーザーIDを検索します（[識別子の検索](#searching-for-identifiers)を参照）。**
 
@@ -125,17 +125,17 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 
   ![](assets/s_ncs_install_deployment_wiz_ldap_03.png)
 
-   1. **[!UICONTROL 再帰的（既定のモード）]**。
+  1. **[!UICONTROL 再帰的（既定のモード）]**。
 
-      LDAP ディレクトリは、特定のレベルから始めて、完全に検索されます。
+     LDAP ディレクトリは、特定のレベルから始めて、完全に検索されます。
 
-   1. **[!UICONTROL 基本]**&#x200B;に制限されています。
+  1. **[!UICONTROL 基本]**&#x200B;に制限されています。
 
-      すべての属性が検索に含まれます。
+     すべての属性が検索に含まれます。
 
-   1. **[!UICONTROL ベースの最初のサブレベルに制限]**。
+  1. **[!UICONTROL ベースの最初のサブレベルに制限]**。
 
-      検索は、ディレクトリのすべての属性に対して実行され、属性の最初のレベルから開始されます。
+     検索は、ディレクトリのすべての属性に対して実行され、属性の最初のレベルから開始されます。
 
 * **[!UICONTROL フィルター]** フィールドを使用すると、検索の範囲を絞り込む要素を指定できます。
 

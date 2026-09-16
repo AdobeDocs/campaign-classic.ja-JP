@@ -10,19 +10,21 @@ exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 TQID: https://experienceleague.adobe.com/-Q0o3Wq57hsb8ApehXe-CD2MbzkIftqPq21DWKDuauE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 872
+workflow-type: tm+mt
+source-wordcount: '872'
 ht-degree: 100%
-
 ---
-
 # アシスタントを使用したオファーの統合{#integrating-an-offer-via-the-assistant}
 
 

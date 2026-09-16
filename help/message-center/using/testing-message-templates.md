@@ -10,17 +10,17 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 TQID: https://experienceleague.adobe.com/jcmXX4aMPaTBatt4m3s-IAaAeoXnjmPaEE4oqIDoIOI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 607
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
-
 ---
-
 # トランザクションメッセージテンプレートのテスト {#testing-message-templates}
 
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
+1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + メールなど） を入力することができます。 Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 

@@ -5,12 +5,10 @@ description: ソーシャルマーケティングテクニカルワークフロ�
 feature: Workflows
 hide: true
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
-
 ---
-
 
 # ソーシャルマーケティング{#social-marketing}
 

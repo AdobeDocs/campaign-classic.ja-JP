@@ -8,22 +8,27 @@ exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 TQID: https://experienceleague.adobe.com/i8BnIsz83IdW4kofr2OBtzXokKiyeJuQl3jIBpsOQx0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1200
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '1201'
+ht-degree: 98%
 ---
-
 # ワークフローヒートマップ {#workflow-heatmap}
 
 
@@ -110,7 +115,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 グリッドには、各 5 分の間に同時に実行されたすべてのワークフローが表示されます。
 
-次の例では、8am から 8:05am の間に、3 つのワークフローが実行されています（各ワークフローの持続時間は無関係）。
+次の例では、午前8時から午前8時5分の間に、3つのワークフローが実行されています（個々の期間に関係なく）。
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

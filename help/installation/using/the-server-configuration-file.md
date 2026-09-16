@@ -10,20 +10,23 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 8061
+source-wordcount: '8113'
 ht-degree: 8%
-
 ---
-
 # サーバー設定ファイル{#the-server-configuration-file}
 
 Adobe Campaignの全体的な設定は、インストールディレクトリの&#x200B;**conf** ディレクトリにある&#x200B;**serverConf.xml** ファイルで定義されます。 この節では、**serverConf.xml** ファイルの様々なノードとパラメーターをすべてリストします。
@@ -550,7 +553,11 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->**nameSevers**&#x200B;に関する注意：デフォルトでは、UNIXでは定義されていないWindows>で宣言された最初のネットワークインターフェイスのnetwork> パラメーターが使用されます。MTAが> ドメインに対して宣言されたメール エクスチェンジャを取得するために使用するドメイン ネーム サーバー（DNS） >を定義します。
+>**nameSevers**&#x200B;に関する注意：デフォルトでは、ネットワークが使用されます
+>windowsで宣言された最初のネットワークインターフェイスのパラメーター
+>UNIXでは定義されていません。 ドメイン ネーム サーバー（DNS）を定義します
+>mtaで使用される、メール交換器を取得するための宣言
+>ドメイン。
 >
 >この値が定義されていない場合、MTAはホスト ネットワーク設定でこの情報をシークします。 複数のDNSが可能な場合は、異なるDNS アドレスをコンマで区切る必要があります（例：212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合、MTAで使用されるDNS リストが最初のものです。 この場合は、あいまいさを避けるために、**nameServer** パラメーターを指定することをお勧めします。
 
@@ -1633,7 +1640,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
     &lt;dnsまたはip&gt; 
       <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>。を参照 
+       <code>&rbrack;</code>. 参照 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">統計サーバーの座標</a>。 
       <br /> 
      </td> 

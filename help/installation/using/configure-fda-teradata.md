@@ -10,18 +10,19 @@ exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 TQID: https://experienceleague.adobe.com/tsmDBbWBQljV8wF-75sSzrF6v7kO3YeTLqk8L4-ifag
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 65%
-
 ---
-
 # Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
 

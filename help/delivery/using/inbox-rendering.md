@@ -2,38 +2,46 @@
 product: campaign
 title: Campaign での受信ボックスレンダリング
 description: メールのレンダリングを取り込み、専用レポートで使用可能にする方法を説明します。
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 TQID: https://experienceleague.adobe.com/d0fFXi4Ma-PwY8vsSBOmvbhRD4631kUoagNXlf4Rmek
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 709336f05e114ae380d71381bef4b2e7a776b402
-workflow-type: ht
-source-wordcount: 952
+workflow-type: tm+mt
+source-wordcount: '943'
 ht-degree: 100%
-
 ---
-
 # 受信ボックスレンダリング{#inbox-rendering}
 
 ## 受信ボックスレンダリングについて {#about-inbox-rendering}
 
-「**送信**」ボタンを押す前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
+「**送信**」ボタンを押す前に、様々な web クライアント、web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
 これを可能にするために、Adobe Campaign では、[Litmus](https://litmus.com/email-testing) の Web ベースのメールテストソリューションを活用して、レンダリングをキャプチャし、専用のレポートで使用できるようにします。 これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 

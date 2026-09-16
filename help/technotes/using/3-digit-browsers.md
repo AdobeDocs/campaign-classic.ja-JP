@@ -5,12 +5,10 @@ description: Chrome、Firefox および Edge ブラウザーでの Campaign web 
 feature: Technote
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
-
 ---
-
 # 3 桁のブラウザーバージョンが Campaign の web コンポーネントに与える影響 {#version-100}
 
 Googleと Mozilla は、Chrome と Firefox で今後予定されている 3 桁のバージョンにより、一部の web サイトが破損する可能性があることを警告しています。

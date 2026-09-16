@@ -3,23 +3,21 @@ product: campaign
 title: パイプラインオプション NmsPipeline_Config
 description: パイプラインオプション NmsPipeline_Config
 feature: Triggers
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '329'
+workflow-type: tm+mt
+source-wordcount: '377'
 ht-degree: 100%
-
 ---
-
 
 # パイプラインオプション NmsPipeline_Config {#nmspipeline_config}
 
 
 
-認証が機能すると、[!DNL pipelined] はイベントを取得して処理できます。Adobe Campaign で設定されているトリガーのみを処理し、それ以外のトリガーは無視します。トリガーは事前に Analytics から生成され、パイプラインにプッシュされている必要があります。
-また、このオプションでは、ワイルドカードを使用して、名前に関係なくすべてのトリガーを取得するように設定することもできます。
+認証が機能したら、[!DNL pipelined] でイベントを取得して処理できます。 Adobe Campaign で設定されたトリガーのみを処理し、他のトリガーは無視します。 トリガーは、事前に Analytics から生成され、パイプラインに追加されている必要があります。
+また、名前に関係なく、すべてのトリガーを取得するように、ワイルドカードを使用して設定することもできます。
 
 トリガーの設定は、**[!UICONTROL 管理]**／**[!UICONTROL Platform]**／**[!UICONTROL オプション]**&#x200B;でおこないます。 オプション名は **[!UICONTROL NmsPipeline_Config]** です。 データタイプは JSON 形式の「長いテキスト」です。
 
@@ -72,7 +70,7 @@ ht-degree: 100%
 
 ## コンシューマーパラメーター {#consumer-parameter}
 
-パイプラインは、「サプライヤーとコンシューマー」モデルで機能します。 同じキューには多くのコンシューマーが存在する可能性があります。 メッセージは、個々のコンシューマーに対してのみ「消費」されます。 各コンシューマーは、メッセージの独自の「コピー」を取得します。
+パイプラインは、「サプライヤーとコンシューマー」モデルで機能します。 同じキューには多くのコンシューマーが存在する可能性があります。 メッセージは、個人コンシューマーに対してのみ「消費」されます。 各コンシューマーは、メッセージの独自の「コピー」を取得します。
 
 「consumer」パラメーターは、インスタンスをこれらのコンシューマーの 1 つとして識別します。 これは、パイプラインを呼び出しているインスタンスの ID になります。 このパラメーターにはインスタンス名を入力できます。 パイプラインサービスは、各コンシューマーが取得したメッセージを追跡します。 異なるインスタンスに異なるコンシューマーを使用することで、すべてのメッセージが各インスタンスに送信されます。
 

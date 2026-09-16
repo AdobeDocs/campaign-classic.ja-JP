@@ -4,25 +4,27 @@ title: インターフェイスの設定
 description: Campaign インターフェイスの設定方法について説明します
 feature: Application Settings
 role: Developer
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 TQID: https://experienceleague.adobe.com/KUwDwl9noj6RJa0wn6ZEVnCBRLdOUMoSTf-5b1PrH-g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 304
-ht-degree: 3%
-
+source-wordcount: '295'
+ht-degree: 0%
 ---
-
 # インターフェイスの設定{#configuring-the-interface}
 
 Adobe Campaign インターフェイスで新しい受信者テーブルを表示してダイアログを表示するには、次の手順を実行します。

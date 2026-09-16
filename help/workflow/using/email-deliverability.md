@@ -5,18 +5,16 @@ description: メール配信品質パッケージの詳細を説明します
 hide: true
 feature: Workflows, Deliverability
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
-
 ---
-
 
 # 配信品質の監視 (メールの配信品質){#email-deliverability}
 
 
 
-以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメール選定ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。 **配信品質の監視 (メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。 配信品質の監視について詳しくは、この[セクション](../../delivery/using/about-deliverability.md)を参照してください。
+以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメール選定ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。 **配信品質の監視 (メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。 配信品質のモニタリングについて詳しくは、この[節](../../delivery/using/about-deliverability.md)を参照してください。
 
 <table> 
  <tbody> 

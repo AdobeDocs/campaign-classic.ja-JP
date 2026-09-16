@@ -11,18 +11,19 @@ exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 TQID: https://experienceleague.adobe.com/a2eozRiOohzkY4Jbpn7DDm-kKQ0-198CCT182A-xVPo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2: []
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 212
+workflow-type: tm+mt
+source-wordcount: '212'
 ht-degree: 100%
-
 ---
-
 # マーケティングリソース管理の基本を学ぶ{#about-marketing-resource-management}
 
 

@@ -9,27 +9,35 @@ exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 TQID: https://experienceleague.adobe.com/YuvP0m31wL-WlocUXU3rWovOiwLiA5XrEsnBLlW3nY8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 212
+workflow-type: tm+mt
+source-wordcount: '212'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign と Adobe Analytics の連携 {#adobe-analytics-connector-gs}
 
 Adobe Analytics Connector を使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 キャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。 逆に、Adobe Campaign から配信されたキャンペーンの指標と属性を Adobe Analytics に送信します。
@@ -44,8 +52,8 @@ Adobe Campaign-Adobe Analytics コネクタの使用を開始する前に、次�
 
 * 専用パッケージを使用して、web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
-   * ハイブリッド実装およびオンプレミス実装の場合は、この[ページ](adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に必ず従ってください。
-   * Hoster ユーザーまたは Managed Cloud Services ユーザーとして、Campaign を Adobe Experience Cloud サービスおよびソリューションに接続するには、アドビにお問い合わせください。
+  * ハイブリッド実装およびオンプレミス実装の場合は、この[ページ](adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に必ず従ってください。
+  * Hoster ユーザーまたは Managed Cloud Services ユーザーとして、Campaign を Adobe Experience Cloud サービスおよびソリューションに接続するには、アドビにお問い合わせください。
 
 
 ## 設定と使用法 {#adobe-analytics-connector-usage}

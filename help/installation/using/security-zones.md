@@ -3,7 +3,7 @@ product: campaign
 title: セキュリティゾーンの設定
 description: セキュリティゾーンの設定方法を説明します
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミス／ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,21 +11,25 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 TQID: https://experienceleague.adobe.com/eL2iPF1yqueza7P0yRE0KEPdxEezRW81gT4QgRno3Ys
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1542
-ht-degree: 19%
-
+source-wordcount: '1530'
+ht-degree: 18%
 ---
-
 # セキュリティゾーンの定義（オンプレミス）{#defining-security-zones}
 
 
@@ -239,36 +243,36 @@ Adobe Campaign サーバーにアクセスする可能性が高いプロキシ�
 
 * sessionTokenOnly=&quot;true&quot;の使用を最小限に抑えます。
 
-   * 警告：この属性がtrueに設定されている場合、オペレーターは&#x200B;**CRSF攻撃**&#x200B;にさらされる可能性があります。
-   * また、sessionToken cookieはhttpOnly フラグで設定されていないため、一部のクライアントサイドのJavaScript コードで読み取ることができます。
-   * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
+  * 警告：この属性がtrueに設定されている場合、オペレーターは&#x200B;**CRSF攻撃**&#x200B;にさらされる可能性があります。
+  * また、sessionToken cookieはhttpOnly フラグで設定されていないため、一部のクライアントサイドのJavaScript コードで読み取ることができます。
+  * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
 
 * 可能な場合は、すべてのallowHTTP、showErrorsをfalseに設定し（localhostの場合は設定しません）、それらを確認します。
 
-   * allowHTTP = &quot;false&quot;：オペレーターは HTTPS を使用することを強制されます。
-   * showErrors = &quot;false&quot;：技術的なエラー（SQL エラーを含む）を非表示にします。 これにより、表示される情報の量を抑えられますが、マーケターが（管理者に追加情報を要求することなしに）問題を解決することが難しくなります。
+  * allowHTTP = &quot;false&quot;：オペレーターは HTTPS を使用することを強制されます。
+  * showErrors = &quot;false&quot;：技術的なエラー（SQL エラーを含む）を非表示にします。 これにより、表示される情報の量を抑えられますが、マーケターが（管理者に追加情報を要求することなしに）問題を解決することが難しくなります。
 
 * 「allowDebug」をtrueに設定するのは、調査、webApps、レポートの作成（実際のプレビュー）が必要なマーケティングユーザーや管理者が使用するIPに対してのみです。 このフラグを使用すると、これらの IP でリレールールが表示され、デバッグできるようになります。
 
-   * allowDebugがfalseに設定されている場合、出力は次のようになります。
+  * allowDebugがfalseに設定されている場合、出力は次のようになります。
 
-     ```
-     <redir status='OK' date='...' sourceIP='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' sourceIP='...'/>
+    ```
 
-   * allowDebugがtrueに設定されている場合、出力は次のようになります。
+  * allowDebugがtrueに設定されている場合、出力は次のようになります。
 
-     ```
-     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+    ```
 
 * allowEmptyPassword、allowUserPassword、allowSQLInjectionをtrueに設定しないでください。
 
-   * **allowEmptyPassword**&#x200B;を使用すると、オペレーターは空のパスワードを持つことができます。 そのような場合は、すべてのオペレーターに通知し、期限のあるパスワードの設定を依頼してください。 この期限を経過したら、この属性を false に設定します。
+  * **allowEmptyPassword**&#x200B;を使用すると、オペレーターは空のパスワードを持つことができます。 そのような場合は、すべてのオペレーターに通知し、期限のあるパスワードの設定を依頼してください。 この期限を経過したら、この属性を false に設定します。
 
-   * **allowUserPassword**&#x200B;を使用すると、オペレーターは資格情報をパラメーターとして送信できます（そのため、apache/IIS/proxyによって記録されます）。 この機能は、以前はAPIの使用を簡素化するために使用されていました。 一部のサードパーティアプリケーションがこの機能を使用しているかどうかをクックブック（または仕様）で確認できます。 使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
+  * **allowUserPassword**&#x200B;を使用すると、オペレーターは資格情報をパラメーターとして送信できます（そのため、apache/IIS/proxyによって記録されます）。 この機能は、以前はAPIの使用を簡素化するために使用されていました。 一部のサードパーティアプリケーションがこの機能を使用しているかどうかをクックブック（または仕様）で確認できます。 使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
 
-   * **allowSQLInjection**&#x200B;を使用すると、ユーザーは古い構文を使用してSQL インジェクションを実行できます。 この属性はfalseに設定する必要があります。 /nl/jsp/ping.jsp?zones=trueを使用して、セキュリティゾーンの設定を確認できます。 このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
+  * **allowSQLInjection**&#x200B;を使用すると、ユーザーは古い構文を使用してSQL インジェクションを実行できます。 この属性はfalseに設定する必要があります。 /nl/jsp/ping.jsp?zones=trueを使用して、セキュリティゾーンの設定を確認できます。 このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
 
 * HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
 

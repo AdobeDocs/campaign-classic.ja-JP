@@ -2,28 +2,33 @@
 product: campaign
 title: Web フォームの基礎知識
 description: Campaign の Web フォームの基礎知識
-badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 TQID: https://experienceleague.adobe.com/0pFZXTesqvdOPLrqbW4dRx2O0WR0RaoBnwVyQl9FZDQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 524
+workflow-type: tm+mt
+source-wordcount: '515'
 ht-degree: 100%
-
 ---
-
 # Web フォームの基本を学ぶ{#about-web-forms}
 
 
@@ -78,7 +83,7 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 ## Web フォームの設計について {#about-web-forms-designing}
 
-フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTLM コンテンツなど）を定義および設定できる、専用のエディターで作成されます。フォームのページは、コンテナにグループ化したり、ニーズに合わせてレイアウトを変更したりできます（詳しくは、[コンテナの作成](defining-web-forms-layout.md#creating-containers)を参照）。
+フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど） および静的要素（画像、HTLM コンテンツなど）を定義および設定できる、専用のエディターで作成されます。 フォームのページは、コンテナにグループ化したり、ニーズに合わせてレイアウトを変更したりできます（詳しくは、[コンテナの作成](defining-web-forms-layout.md#creating-containers)を参照）。
 
 以降の節では、フォーム画面のコンテンツとレイアウトの定義方法について説明します。
 

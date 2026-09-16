@@ -38,7 +38,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->サーバーサイドの設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
+>サーバーサイドの設定は、Adobeでホストされているデプロイメントに対してのみ、Adobeで実行できます。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 
 ## デプロイメントウィザード {#deployment-assistant}
 
@@ -81,8 +81,8 @@ Adobe Campaignには、Adobe Campaign クライアントコンソールで使用
 次のオプションを使用できます。
 
 * **[!UICONTROL 電子メールチャネル]**：電子メール配信をアクティブ化します。 [電子メールチャネルパラメーター](#email-channel-parameters)を参照してください。
-* **[!UICONTROL トラッキング]**：ターゲット母集団のトラッキングを有効にするには（開封数とクリック数）。 [ トラッキング設定](#tracking-configuration)を参照してください。
-* **[!UICONTROL バウンス電子メールの管理]**：受信メールの受信に使用するPOP アカウントを定義します。 [ バウンス電子メールの管理](#managing-bounced-emails)を参照してください。
+* **[!UICONTROL トラッキング]**：ターゲット母集団のトラッキングを有効にするには（開封数とクリック数）。 [&#x200B; トラッキング設定](#tracking-configuration)を参照してください。
+* **[!UICONTROL バウンス電子メールの管理]**：受信メールの受信に使用するPOP アカウントを定義します。 [&#x200B; バウンス電子メールの管理](#managing-bounced-emails)を参照してください。
 * **[!UICONTROL LDAP統合]** :LDAP ディレクトリを使用してユーザー認証を設定します。 「[LDAPを介した接続](../../installation/using/connecting-through-ldap.md)」を参照してください。
 
 ## メールチャネルのパラメーター {#email-channel-parameters}
@@ -98,7 +98,7 @@ Adobe Campaignには、Adobe Campaign クライアントコンソールで使用
 次のパラメーターを指定します。
 
 * **[!UICONTROL 送信者名]**：送信者の名前を入力します。
-* **[!UICONTROL 送信者アドレス]**：送信者の電子メールアドレスを入力します。 Adobe Campaignから電子メールを送信する場合、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignでは、このメールボックスで受信した電子メールを自動返信または自動転送する機能も提供されていません。 配信品質のベストプラクティス [について詳しくは、このドキュメント ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}を参照してください。
+* **[!UICONTROL 送信者アドレス]**：送信者の電子メールアドレスを入力します。 Adobe Campaignから電子メールを送信する場合、**送信者アドレス** メールボックスは監視されず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignでは、このメールボックスで受信した電子メールを自動返信または自動転送する機能も提供されていません。 配信品質のベストプラクティス [について詳しくは、このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}を参照してください。
 
 * **[!UICONTROL 返信アドレスのテキスト]**：受信者が&#x200B;**[!UICONTROL 返信]** ボタンをクリックしたときに使用される名前を入力します。
 * **[!UICONTROL 返信アドレス]**：受信者がメールクライアントソフトウェアの「**[!UICONTROL 返信]**」ボタンをクリックしたときに使用するメールアドレスを入力します。 「**返信先アドレス**」フィールドの目的は、受信者に&#x200B;**送信者アドレス**&#x200B;とは異なるアドレスに返信する場合です。  このアドレスは、監視対象メールボックスにリンクされ、顧客がホストする有効な電子メールアドレスである必要があります。  電子メールの読み取りと返信を行うサポート メールボックス （例：`customer-care@customer.com`）を指定できます。
@@ -142,7 +142,7 @@ Adobe Campaign データベースでは、すべての電子メールアドレ�
 
 >[!NOTE]
 >
->ホスト型またはハイブリッド型のインストールでは、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、メッセージ ]**の**[!UICONTROL &#x200B;配信期間は&#x200B;**3.5日以内に設定された場合にのみ使用されます**。 3.5 日を超える値を定義した場合、その値は考慮されません。
+>ホスト型またはハイブリッド型のインストールでは、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、メッセージ **の**&#x200B;配信期間は&#x200B;**3.5日以内に設定された場合にのみ使用されます**。 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 ### パラメーターの再試行 {#retry-parameters}
 
@@ -184,7 +184,7 @@ POP設定を指定したら、**テスト**&#x200B;をクリックして、正�
 
 ### 未処理のバウンスメール {#unprocessed-bounce-mails}
 
-バウンスはAdobe Campaignによって自動的に処理され、**管理 / Campaign Management / 配信不能管理/配信ログの選定** ノードに記載されているルールが適用されます。 詳しくは、[ バウンスメール管理](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management)を参照してください。
+バウンスはAdobe Campaignによって自動的に処理され、**管理 / Campaign Management / 配信不能管理/配信ログの選定** ノードに記載されているルールが適用されます。 詳しくは、[&#x200B; バウンスメール管理](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management)を参照してください。
 
 未処理のバウンスは、Adobe Campaign インターフェイスに表示されません。 これらは、次のフィールドを使用してサードパーティのメールボックスに転送されない限り、自動的に削除されます。
 
@@ -202,7 +202,7 @@ POP設定を指定したら、**テスト**&#x200B;をクリックして、正�
 
 この手順は、デプロイメントウィザードの最初のページで&#x200B;**電子メールチャネル**&#x200B;および&#x200B;**トラッキング** オプションが選択されている場合にのみ提供されます。 [一般パラメーター](#general-parameters)を参照してください。
 
-Web トラッキング（トラッキングモード、タグの作成と挿入など）について詳しくは、[このドキュメント ](../../configuration/using/about-web-tracking.md)を参照してください。
+Web トラッキング（トラッキングモード、タグの作成と挿入など）について詳しくは、[このドキュメント &#x200B;](../../configuration/using/about-web-tracking.md)を参照してください。
 
 ### 動作の原則 {#operating-principle}
 
@@ -214,11 +214,11 @@ Web トラッキング（トラッキングモード、タグの作成と挿入�
 
   内部URLに関する情報は、Adobe Campaign アプリケーションサーバーがトラッキングサーバーに連絡するためにのみ使用されます。
 
-  詳しくは、[ トラッキングサーバー](#tracking-server)を参照してください。
+  詳しくは、[&#x200B; トラッキングサーバー](#tracking-server)を参照してください。
 
 * URLを設定したら、トラッキングを有効にする必要があります。 これを行うには、インスタンスをトラッキングサーバーに登録する必要があります。
 
-  詳しくは、「[ トラッキングの保存](#saving-tracking)」を参照してください。
+  詳しくは、「[&#x200B; トラッキングの保存](#saving-tracking)」を参照してください。
 
 ### トラッキングサーバー {#tracking-server}
 
@@ -237,7 +237,7 @@ Web トラッキング（トラッキングモード、タグの作成と挿入�
 1. 「**[!UICONTROL トラッキング管理を外部化]**」オプションを選択します。これにより、ミッドソーシングサーバーをトラッキングサーバーとして使用できます。
 1. ミッドソーシングサーバーに接続できるように、**[!UICONTROL 外部アカウント]**&#x200B;および&#x200B;**[!UICONTROL インスタンス名]** フィールドに入力します。
 
-   詳しくは、[ ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)を参照してください。
+   詳しくは、[&#x200B; ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)を参照してください。
 
 1. 「**[!UICONTROL トラッキングインスタンスを有効にする]**」ボタンをクリックして、サーバーへの接続を承認します。
 
@@ -385,7 +385,7 @@ Adobe Campaignでは、これら3つのURLを区別して、複数のプラッ�
 
 1. 新しいパブリックリソース URL。 詳しくは、[公開リソース URL](#public-resources-url) セクションを参照してください。
 1. 配信における画像検出モード。 詳しくは、[配信画像検出](#delivery-image-detection) セクションを参照してください。
-1. 公開オプション： 詳しくは、[公開モード ](#publication-modes)の節を参照してください。
+1. 公開オプション： 詳しくは、[公開モード &#x200B;](#publication-modes)の節を参照してください。
 
 パブリックリソースには、Adobe Campaign ツリーの&#x200B;**管理/ リソース / オンライン / パブリックリソース** ノードからアクセスできます。 それらはライブラリに収集され、電子メールに含めることができますが、キャンペーンやタスク、コンテンツ管理でも使用できます。
 
@@ -401,7 +401,7 @@ Adobe Campaignでは、これら3つのURLを区別して、複数のプラッ�
 
   この値は、配信ごとに上書きできます。
 
-* 公開リソースの場合、URL **https://** server **/res/** instance ****（**instance**）はトラッキングインスタンスの名前です。
+* 公開リソースの場合、URL **https://** server **/res/** instance **&#x200B;**（**instance**）はトラッキングインスタンスの名前です。
 
 ### 配信画像の検出 {#delivery-image-detection}
 
@@ -413,7 +413,7 @@ Adobe Campaignでは、これら3つのURLを区別して、複数のプラッ�
 
 コンマを使用して複数のURL マスクを指定できます。
 
-* メールでの画像の使用と管理について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#adding-images){target="_blank"}を参照してください。
+* メールでの画像の使用と管理について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ja#adding-images){target="_blank"}を参照してください。
 * 配信アシスタントでは、これらのURLから呼び出された画像のステータスは「無視」になります。
 
 ### 公開モード {#publication-modes}
@@ -424,7 +424,7 @@ Adobe Campaignでは、これら3つのURLを区別して、複数のプラッ�
 
 * トラッキングサーバー
 
-  リソースは、異なるトラッキングサーバーに自動的にコピーされます。 これらの設定は、手順[設定のトラッキング ](#tracking-configuration)で行います。
+  リソースは、異なるトラッキングサーバーに自動的にコピーされます。 これらの設定は、手順[設定のトラッキング &#x200B;](#tracking-configuration)で行います。
 
 * その他のAdobe Campaign サーバー
 
@@ -475,7 +475,7 @@ Adobe Campaignでは、これら3つのURLを区別して、複数のプラッ�
 
 トラッキングサーバーにパブリックリソースが存在しない場合、またはリソースが404 エラーを返す場合、トラッキングサーバーはスペアサーバーの1つでリソースを検索しようとします。
 
-スペアサーバーの宣言と設定は、マーケティングサーバーの&#x200B;**serverConf.xml** ファイルで行う必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+スペアサーバーの宣言と設定は、マーケティングサーバーの&#x200B;**serverConf.xml** ファイルで行う必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 **宣言**
 
@@ -537,4 +537,4 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 
-データは、データベースクリーンアップワークフローを介して自動的に削除されます。 このワークフローを設定および操作する方法と、削除されたアイテムの詳細については、この[ ドキュメント ](../../production/using/database-cleanup-workflow.md)を参照してください。
+データは、データベースクリーンアップワークフローを介して自動的に削除されます。 このワークフローを設定および操作する方法と、削除されたアイテムの詳細については、この[&#x200B; ドキュメント &#x200B;](../../production/using/database-cleanup-workflow.md)を参照してください。

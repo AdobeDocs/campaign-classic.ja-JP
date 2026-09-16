@@ -30,7 +30,7 @@ ht-degree: 7%
 Adobe Campaign Classic **Federated Data Access** （FDA） オプションを使用して、外部データベースに保存されている情報を処理します。 [!DNL Google BigQuery]へのアクセスを設定するには、次の手順に従います。
 
 1. [Windows](#google-windows)または[Linux](#google-linux)で[!DNL Google BigQuery]を設定します
-1. Adobe Campaign Classicで[!DNL Google BigQuery] [外部アカウント ](#google-external)を設定します
+1. Adobe Campaign Classicで[!DNL Google BigQuery] [外部アカウント &#x200B;](#google-external)を設定します
 1. [Windows](#bulk-load-windows)または[Linux](#bulk-load-linux)で[!DNL Google BigQuery] コネクタの一括読み込みを設定
 
 >[!NOTE]
@@ -73,11 +73,11 @@ Adobe Campaign Classic **Federated Data Access** （FDA） オプションを使
 >
 >Google Cloud SDKを使用するには、Pythonがインストールされている必要があります。
 >
->Python3を使用することをお勧めします。この[ ページ ](https://www.python.org/downloads/)を参照してください。
+>Python3を使用することをお勧めします。この[&#x200B; ページ &#x200B;](https://www.python.org/downloads/)を参照してください。
 
 一括読み込みユーティリティを使用すると、Google Cloud SDKを介してより高速な転送が可能になります。
 
-1. この[ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives)からWindows 64 ビット （x86_64） アーカイブをダウンロードし、対応するディレクトリに展開します。
+1. この[&#x200B; ページ &#x200B;](https://cloud.google.com/sdk/docs/downloads-versioned-archives)からWindows 64 ビット （x86_64） アーカイブをダウンロードし、対応するディレクトリに展開します。
 
 1. `google-cloud-sdk\install.sh` スクリプトを実行します。 パス変数の設定を受け入れる必要があります。
 
@@ -153,7 +153,7 @@ Linuxで[!DNL Google BigQuery]を設定するには、次の手順に従いま�
 >
 >Google Cloud SDKを使用するには、Pythonがインストールされている必要があります。
 >
->Python3を使用することをお勧めします。この[ ページ ](https://www.python.org/downloads/)を参照してください。
+>Python3を使用することをお勧めします。この[&#x200B; ページ &#x200B;](https://www.python.org/downloads/)を参照してください。
 
 一括読み込みユーティリティを使用すると、Google Cloud SDKを介してより高速な転送が可能になります。
 
@@ -196,16 +196,16 @@ Adobe Campaign Classic インスタンスを[!DNL Google BigQuery]外部デー�
 
    * **[!UICONTROL タイプ]**：[!DNL Google BigQuery]
 
-   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]**&#x200B;の電子メール。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
+   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]**&#x200B;の電子メール。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
-   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
+   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
    * **[!UICONTROL キーファイルのパス]**:
      * **[!UICONTROL キーファイルをサーバーにアップロード]**:「**[!UICONTROL ここをクリックしてアップロード]**」を選択すると、Adobe Campaign Classicからキーをアップロードできます。
 
      * **[!UICONTROL キーファイルパスを手動で入力]**：既存のキーを使用する場合は、このフィールドに絶対パスをコピーまたは貼り付けます。
 
-   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/bigquery/docs/datasets-intro)を参照してください。
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/bigquery/docs/datasets-intro)を参照してください。
 
    ![](assets/google-big-query.png)
 

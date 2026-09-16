@@ -42,7 +42,7 @@ ht-degree: 2%
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 工場出荷時の入力フォームは、工場のデータスキーマに基づいています。
 * 定義したデータスキーマにもとづいて、カスタム入力フォームを作成できます。
 
-Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [ フォーム構造](form-structure.md)の詳細をご覧ください。
+Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [&#x200B; フォーム構造](form-structure.md)の詳細をご覧ください。
 
 入力フォームにアクセスするには、メニューから&#x200B;**[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]**&#x200B;を選択します。
 
@@ -70,7 +70,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 * コンテンツ管理
 
-  コンテンツ管理にこのフォームタイプを使用します。 この[ ユースケース ](../../delivery/using/use-case-creating-content-management.md)を参照してください。
+  コンテンツ管理にこのフォームタイプを使用します。 この[&#x200B; ユースケース &#x200B;](../../delivery/using/use-case-creating-content-management.md)を参照してください。
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -261,7 +261,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳しくは、[ メモリリストコントロール ](form-structure.md#memory-list-controls)を参照してください。
+   詳しくは、[&#x200B; メモリリストコントロール &#x200B;](form-structure.md#memory-list-controls)を参照してください。
 
 1. オプションで、フィールドへのアクセスを定義します。
 
@@ -504,7 +504,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 </leave>
 ```
 
-[式フィールド ](form-structure.md#expression-field)と[ フォームコンテキスト ](form-structure.md#context-of-forms)の詳細をご確認ください。
+[式フィールド &#x200B;](form-structure.md#expression-field)と[&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms)の詳細をご確認ください。
 
 ### 値の検証
 
@@ -565,4 +565,4 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [ フォームコンテキスト ](form-structure.md#context-of-forms)の詳細をご覧ください。
+この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [&#x200B; フォームコンテキスト &#x200B;](form-structure.md#context-of-forms)の詳細をご覧ください。

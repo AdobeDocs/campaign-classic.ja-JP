@@ -35,7 +35,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 クライアントコンソールをインストールまたは更新するプロセスは、Adobe Campaign Classicの実装によって異なります。
 以下の詳細を確認して、導入に必要な要件を理解してください。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオ ](#video)でAdobe Campaign クライアントをインストールおよびセットアップする方法を説明します
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオ &#x200B;](#video)でAdobe Campaign クライアントをインストールおよびセットアップする方法を説明します
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。 システムに既に存在しない場合は、[Campaign Classic Developer web サイト ](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)からダウンロードするよう求めるメッセージがMicrosoft Console インストーラーから表示されます。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。 システムに既に存在しない場合は、[Campaign Classic Developer web サイト &#x200B;](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)からダウンロードするよう求めるメッセージがMicrosoft Console インストーラーから表示されます。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeのホスト型実装 {#hosted-customers}
 
@@ -57,7 +57,7 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 1. Adobeは直接デプロイできます。 コンソールが更新されると、ポップアップウィンドウで最新のクライアントコンソールのバージョンをダウンロードするように求められます。
 
-1. [ ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)からクライアントコンソールにダウンロードできます
+1. [&#x200B; ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)からクライアントコンソールにダウンロードできます
 
    **ユーザーは、更新を完了するには管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
@@ -173,7 +173,7 @@ Adobeでは、新しいバージョンのコンソールが使用可能になっ
 
 **関連トピック**
 
-* [ インスタンスを作成して](../../installation/using/creating-an-instance-and-logging-on.md)にログオンします。
+* [&#x200B; インスタンスを作成して](../../installation/using/creating-an-instance-and-logging-on.md)にログオンします。
 * [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 ## チュートリアルビデオ

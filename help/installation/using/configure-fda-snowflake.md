@@ -26,7 +26,7 @@ ht-degree: 33%
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 [!DNL Snowflake]へのアクセスを設定するには、次の手順に従います。
 
 1. [Linux](#snowflake-linux)で[!DNL Snowflake]を設定します。
-1. Campaignで[!DNL Snowflake] [外部アカウント ](#snowflake-external)を設定します
+1. Campaignで[!DNL Snowflake] [外部アカウント &#x200B;](#snowflake-external)を設定します
 
 >[!CAUTION]
 >
@@ -132,5 +132,5 @@ Campaign インスタンスを[!DNL Snowflake]外部データベースに接続�
 | WeekStart | WEEK_START セッションパラメーター。 デフォルトでは 0 に設定されています。 <br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。 デフォルトでは TRUE に設定されています。 このオプションを使用すると、Snowflakeのキャッシュ結果を無効にできます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeのバルクローダで使用するスレッド数が多いほど、大きなバルクローダのパフォーマンスが向上します。 デフォルトでは 1 に設定されています。 マシンのスレッド数に応じて数を調整できます。 |
-| chunkSize | バルクローダーチャンクのファイルサイズを指定します。 デフォルトでは128MBに設定されています。 bulkThreadsで使用する場合は、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)を参照してください。 |
+| chunkSize | バルクローダーチャンクのファイルサイズを指定します。 デフォルトでは128MBに設定されています。 bulkThreadsで使用する場合は、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)を参照してください。 |
 | StageName | 事前にプロビジョニングされた内部ステージの名前。 新しい一時的ステージを作成する代わりに、一括読み込みで使用されます。 |

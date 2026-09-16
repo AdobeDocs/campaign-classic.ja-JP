@@ -95,7 +95,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
 1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
-**Adobe Campaign**&#x200B;が表示されない場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
+**Adobe Campaign**&#x200B;が表示されない場合は、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
 1. **Adobe Campaign** をクリックし、組織を選択します。
    **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。 組織について詳しくは、[このページを参照してください](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank}。
 

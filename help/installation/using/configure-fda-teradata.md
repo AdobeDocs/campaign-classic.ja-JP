@@ -30,7 +30,7 @@ ht-degree: 65%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 Teradataへのアクセスを設定するには、次の手順に従います。
 
 1. [Teradata ドライバー](#teradata-config)をインストールして設定します
-1. CampaignでTeradata [外部アカウント ](#teradata-external)を設定する
+1. CampaignでTeradata [外部アカウント &#x200B;](#teradata-external)を設定する
 1. TeradataおよびCampaign サーバー用に[追加の設定](#teradata-additional-configurations)を設定します
 
 ## Teradata設定 {#teradata-config}
@@ -114,7 +114,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 | TD_MAX_SESSIONS | Teradata Parallel Transporterがオペレータージョブに対して取得できるログオンセッションの最大数を指定します。 |
 | TimeZoneName | サーバーのタイムゾーンの名前。 |
 | CharacterSet | Teradataの文字セットを設定するために使用します。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
-| IANAAppCodePage | ODBC アプリケーションコードページ <br>詳細については、[このページ ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)を参照してください |
+| IANAAppCodePage | ODBC アプリケーションコードページ <br>詳細については、[このページ &#x200B;](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)を参照してください |
 
 ### 追加のODBC外部アカウントの追加 {#add-external}
 

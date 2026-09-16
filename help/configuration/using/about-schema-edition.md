@@ -40,9 +40,9 @@ Adobe Campaign キャンペーンのビルトインテーブルとそのやり�
 
 ## スキーマの拡張または作成 {#extending-or-creating-schemas}
 
-受信者テーブル （nms:recipient）など、Campaignのコアデータスキーマのいずれかにフィールドまたはインデックスまたはその他の要素を追加するには、そのスキーマを拡張する必要があります。 詳しくは、「[ スキーマの拡張](../../configuration/using/extending-a-schema.md)」の節を参照してください。
+受信者テーブル （nms:recipient）など、Campaignのコアデータスキーマのいずれかにフィールドまたはインデックスまたはその他の要素を追加するには、そのスキーマを拡張する必要があります。 詳しくは、「[&#x200B; スキーマの拡張](../../configuration/using/extending-a-schema.md)」の節を参照してください。
 
-Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、「[ データスキーマ ](../../configuration/using/data-schemas.md)」の節を参照してください。
+Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、「[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md)」の節を参照してください。
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -102,7 +102,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >インデックスによって提供されるSQL クエリ読み取りパフォーマンスの向上には、レコードの書き込みに対するパフォーマンスのヒットも伴うことを覚えておくことが重要です。 したがって、インデックスは注意して使用する必要があります。
 
-インデックスについて詳しくは、「[ インデックス付きフィールド ](../../configuration/using/database-mapping.md#indexed-fields)」の節を参照してください。
+インデックスについて詳しくは、「[&#x200B; インデックス付きフィールド &#x200B;](../../configuration/using/database-mapping.md#indexed-fields)」の節を参照してください。
 
 ## キー {#keys}
 
@@ -124,11 +124,11 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーについて詳しくは、「[ キーの管理](../../configuration/using/database-mapping.md#management-of-keys)」の節を参照してください。
+キーについて詳しくは、「[&#x200B; キーの管理](../../configuration/using/database-mapping.md#management-of-keys)」の節を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 
-属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。 詳しくは、「[ データスキーマ ](../../configuration/using/data-schemas.md)」の節を参照してください。
+属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。 詳しくは、「[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md)」の節を参照してください。
 
 ![](assets/schemaextension_getting_started_2.png)
 
@@ -149,7 +149,7 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@xml**
 * **@type**
 
-  さまざまなデータベース管理システム用にAdobe Campaignで生成されたデータタイプのマッピングを一覧表示するテーブルについては、「[Adobe Campaign/DBMS データのタイプのマッピング ](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)」の節を参照してください。
+  さまざまなデータベース管理システム用にAdobe Campaignで生成されたデータタイプのマッピングを一覧表示するテーブルについては、「[Adobe Campaign/DBMS データのタイプのマッピング &#x200B;](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)」の節を参照してください。
 
 各属性について詳しくは、[属性の説明](../../configuration/using/schema/attribute.md) セクションを参照してください。
 
@@ -237,4 +237,4 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。 これを行うには、更新するスキーマを選択し、右クリックして、**[!UICONTROL アクション / 選択したスキーマを再生成…]**&#x200B;を選択します。 詳しくは、「[ スキーマの再生成](../../configuration/using/regenerating-schemas.md)」の節を参照してください。
+>変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。 これを行うには、更新するスキーマを選択し、右クリックして、**[!UICONTROL アクション / 選択したスキーマを再生成…]**&#x200B;を選択します。 詳しくは、「[&#x200B; スキーマの再生成](../../configuration/using/regenerating-schemas.md)」の節を参照してください。

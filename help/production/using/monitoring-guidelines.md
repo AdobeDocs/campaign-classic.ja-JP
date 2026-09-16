@@ -57,7 +57,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **自動監視ツール**
 
-いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック ](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
+いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック &#x200B;](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
 
 **監査記録**
 
@@ -83,11 +83,11 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック ](../../production/using/audit-trail.md)。
+監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](../../production/using/audit-trail.md)。
 
 **ワークフローのトラブルシューティング**
 
-ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック ](../../production/using/workflow-execution.md)してください
+ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック &#x200B;](../../production/using/workflow-execution.md)してください
 
 **ワークフロー状態の監視**
 
@@ -109,7 +109,7 @@ SMTP レポートには、配信の統計情報とドメイン別のSMTP エラ�
 
 **ベストプラクティス**
 
-パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
+パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合、特定のアクションを実行できます。

@@ -52,9 +52,9 @@ ht-degree: 53%
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
 
-Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[このセクション ](../../configuration/using/about-data-model.md)の節を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[このセクション &#x200B;](../../configuration/using/about-data-model.md)の節を参照してください。
 
-Campaign スキーマを使い始めるには、[このドキュメント ](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント ](../../configuration/using/about-schema-edition.md)を参照してください。
+Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](../../configuration/using/about-schema-edition.md)を参照してください。
 
 ## 概要 {#overview}
 
@@ -76,11 +76,11 @@ Adobe Campaign は強力なクロスチャネルキャンペーン管理シス�
 
 各テーブルの記述にアクセスするには、**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;に移動し、リストからリソースを選択して「**[!UICONTROL ドキュメント]**」タブをクリックします。
 
-Adobe Campaignのデフォルトのデータモデルは、[このドキュメント ](../../configuration/using/data-model-description.md)に記載されています。
+Adobe Campaignのデフォルトのデータモデルは、[このドキュメント &#x200B;](../../configuration/using/data-model-description.md)に記載されています。
 
 >[!NOTE]
 >
->Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、多くの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル ](../../configuration/using/about-data-model.md#default-recipient-table)を活用することをお勧めします。
+>Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、多くの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](../../configuration/using/about-data-model.md#default-recipient-table)を活用することをお勧めします。
 
 ### Adobe Campaign 用データ {#data-for-campaign}
 
@@ -183,7 +183,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルに対
 
 デフォルトでは、カスタムシーケンスの値は+1,000～+2.1BBの範囲になります。 技術的には、負のIDを有効にすることで、4BBの全範囲を取得することが可能です。 これは注意して使用する必要があり、負から正の数値に切り替えると1つのIDが失われます。レコード 0は通常、生成されたSQL クエリでAdobe Campaignによって無視されます。
 
-シーケンスの消耗について詳しくは、[このビデオ ](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
+シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
 
 ## 索引 {#indexes}
 
@@ -283,7 +283,7 @@ Adobe Campaign はデータウェアハウスでもレポートツールでも�
 * ログを長く保持する場合は、データベースのサイズと送信されるメッセージの量に応じて、この決定を慎重に行う必要があります。 注意として、Adobe Campaign シーケンスは32 ビットの整数です。
 * これらの表では、利用可能なすべてのIDを使用するリスクを制限するために、一度に10億以上のレコード（21億4000万IDの約50%）を持つことをお勧めします。 これは、一部のお客様が180日を下回るリテンション期間を短縮する必要があります。
 
-データ保持の詳細については、[ キャンペーンプライバシーとセキュリティガイドライン ](../../platform/using/privacy-and-recommendations.md)を参照してください。
+データ保持の詳細については、[&#x200B; キャンペーンプライバシーとセキュリティガイドライン &#x200B;](../../platform/using/privacy-and-recommendations.md)を参照してください。
 
 Campaign データベースのクリーンアップ ワークフロー[について詳しくは、この節](../../production/using/database-cleanup-workflow.md)を参照してください。
 
@@ -336,7 +336,7 @@ Adobe Campaign は、サードパーティのデータベースエンジンを�
 
 * **小さいサイズ**&#x200B;のテーブルは、配信テーブルに似ています。
 * **中程度のサイズ**&#x200B;のテーブルは、受信者テーブルと同じくらいのサイズです。 顧客 1 人につき 1 件のレコードがあります。
-* **大きいサイズ**のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
+* **大きいサイズ**&#x200B;のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
 例えば、データベースに 1,000 万人の受信者が含まれている場合、広範ログテーブルには 1 億件から 2 億件くらいのメッセージが格納され、配信テーブルには数千件のレコードが格納されます。
 
 PostgreSQLでは、[TOAST](https://wiki.postgresql.org/wiki/TOAST) メカニズムを回避するために、行は8 KBを超えてはなりません。 したがって、システム（メモリとCPU）の最適なパフォーマンスを維持するために、列の数と各行のサイズをできるだけ減らしてみてください。

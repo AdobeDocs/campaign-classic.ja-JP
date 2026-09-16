@@ -53,9 +53,9 @@ XML文書は、データベースのMEMO型フィールドに格納されます�
 
 これにより、基になるSQLを分離できます。 クエリ言語は基になるエンジンに依存しません。一部の関数は再マッピングされ、複数のSELECT SQL注文が生成される可能性があります。
 
-詳しくは、スキーマ「xtk:queryDef」 ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)の「ExecuteQuery」メソッドの[例を参照してください。
+詳しくは、スキーマ「xtk:queryDef」 [&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)の「ExecuteQuery」メソッドの例を参照してください。
 
-**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） ](#executequery--xtk-querydef-)で提示されます。
+**ExecuteQuery** メソッドは、[ExecuteQuery （xtk:queryDef） &#x200B;](#executequery--xtk-querydef-)で提示されます。
 
 ### 書き込み {#write}
 
@@ -65,7 +65,7 @@ XML文書は、データベースのMEMO型フィールドに格納されます�
 
 XML構造は、データの論理的なビューを提供し、SQL テーブルの物理構造を回避することができます。
 
-Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---writecollection--xtk-session-)に表示されます。
+Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#write---writecollection--xtk-session-)に表示されます。
 
 ## ExecuteQuery （xtk:queryDef） {#executequery--xtk-querydef-}
 
@@ -146,7 +146,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） ](#write---wr
 * **select**：複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
 * **count**: データ数を返します。
 
-**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[ データスキーマ ](../../configuration/using/data-schemas.md)を参照してください。
+**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md)を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 

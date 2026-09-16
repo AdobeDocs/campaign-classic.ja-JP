@@ -40,7 +40,7 @@ ht-degree: 12%
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
   ```
 
-ニーズと設定に応じて、次の設定を実行することもできます。[SMTP リレー](#smtp-relay)を設定し、[MTA子プロセス ](#mta-child-processes)の数を調整し、[送信SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities)。
+ニーズと設定に応じて、次の設定を実行することもできます。[SMTP リレー](#smtp-relay)を設定し、[MTA子プロセス &#x200B;](#mta-child-processes)の数を調整し、[送信SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities)。
 
 ## SMTP リレー {#smtp-relay}
 
@@ -66,7 +66,7 @@ MTA モジュールは、SMTP ブロードキャスト（ポート 25）用の�
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-[ メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)も参照してください。
+[&#x200B; メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)も参照してください。
 
 ## アフィニティを使用したアウトバウンド SMTP トラフィックの管理 {#managing-outbound-smtp-traffic-with-affinities}
 

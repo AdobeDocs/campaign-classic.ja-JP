@@ -44,11 +44,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。例えば、サーバーとインスタンスの設定ファイルにアクセスできます。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。例えば、サーバーとインスタンスの設定ファイルにアクセスできます。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 
-Adobe Campaignでの配信品質に関する概念とベストプラクティスについて詳しくは、この[ セクション ](../../delivery/using/about-deliverability.md)を参照してください。
+Adobe Campaignでの配信品質に関する概念とベストプラクティスについて詳しくは、この[&#x200B; セクション &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
 
-Adobe プラットフォームによる電子メールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質について詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe プラットフォームによる電子メールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質について詳しくは、[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 動作の原則 {#operating-principle}
 
@@ -96,7 +96,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 配信統計は、各ターゲット MXおよび各ソース IPに対して保持されます。 例えば、ターゲットドメインに5 MXがあり、プラットフォームが3つの異なるIP アドレスを使用できる場合、サーバーはこのドメインに対して最大15個の一連の指標を管理できます。
 
-ソース IP アドレスは、パブリック IP アドレス、つまりリモート メール サーバーで表示されるアドレスと一致します。 このIP アドレスは、NAT ルーターが提供されている場合、**mta**&#x200B;をホストするマシンのアドレスとは異なる可能性があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子との関連付けは、**serverConf.xml**&#x200B;設定ファイルで宣言されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+ソース IP アドレスは、パブリック IP アドレス、つまりリモート メール サーバーで表示されるアドレスと一致します。 このIP アドレスは、NAT ルーターが提供されている場合、**mta**&#x200B;をホストするマシンのアドレスとは異なる可能性があります。 そのため、統計サーバーはパブリック IP （**publicId**）に一致する識別子を使用します。 ローカルアドレスとこの識別子との関連付けは、**serverConf.xml**&#x200B;設定ファイルで宣言されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 ## 配信の出力制御 {#delivery-output-controlling}
 
@@ -114,7 +114,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 1. **成功**: メッセージは正常に送信されました。 メッセージが更新されます。
 1. **メッセージが失敗しました**：選択した受信者のメッセージが接続サーバーによって拒否されました。 この結果は、リターンコード 550から599に一致しますが、例外を定義できます。
-1. **セッションが失敗しました** （5.11以降）:**mta**&#x200B;がこのメッセージに対する回答を受信した場合、メッセージは破棄されます（[ メッセージ放棄](#message-abandonment)を参照）。 メッセージは別のパスに送信されるか、他のパスがない場合は保留中に設定されます（[ メッセージ保留中](#message-pending)を参照）。
+1. **セッションが失敗しました** （5.11以降）:**mta**&#x200B;がこのメッセージに対する回答を受信した場合、メッセージは破棄されます（[&#x200B; メッセージ放棄](#message-abandonment)を参照）。 メッセージは別のパスに送信されるか、他のパスがない場合は保留中に設定されます（[&#x200B; メッセージ保留中](#message-pending)を参照）。
 
    >[!NOTE]
    >
@@ -144,7 +144,7 @@ Adobe プラットフォームによる電子メールの効率的な送受信�
 
 ### サーバーポートの定義 {#definition-of-the-server-port}
 
-デフォルトでは、統計サーバーはポート 7777でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+デフォルトでは、統計サーバーはポート 7777でリッスンします。 このポートは、**serverConf.xml** ファイルで変更できます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 ```
 <stat port="1234"/>
@@ -350,7 +350,7 @@ MXに対して準拠するルールは、ツリーの&#x200B;**[!UICONTROL 管�
 
 「**[!UICONTROL 画像を含める]**」オプションが有効になっている場合、これらはメールの本文に直接表示されます。 その後、画像がアップロードされ、URL リンクがコンテンツに置き換えられます。
 
-このオプションは、**Deco-mail**、**Decore Mail**&#x200B;または&#x200B;**Decoration Mail**&#x200B;の日本市場で特に使用されます。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"}を参照してください。
+このオプションは、**Deco-mail**、**Decore Mail**&#x200B;または&#x200B;**Decoration Mail**&#x200B;の日本市場で特に使用されます。 詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ja){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >

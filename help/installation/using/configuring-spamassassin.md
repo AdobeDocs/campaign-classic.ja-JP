@@ -28,7 +28,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[ ホスティングモデル ](../../installation/using/hosting-models.md) セクションまたは[このページ ](../../installation/using/capability-matrix.md)を参照してください。
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeで実行できます。 例えば、サーバーとインスタンスの設定ファイルにアクセスする場合などです。 様々なデプロイメントについて詳しくは、[&#x200B; ホスティングモデル &#x200B;](../../installation/using/hosting-models.md) セクションまたは[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
 
 ## 概要 {#overview}
 
@@ -57,7 +57,7 @@ WindowsでSpamAssassinをインストールして設定し、Adobe Campaignと�
 
 ### SpamAssassinのインストール {#installing-spamassassin}
 
-1. ユーザーの資格情報を使用して[ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+1. ユーザーの資格情報を使用して[&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェア配布の詳細については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 1. **Neolane Spam Assassin （Windows インストール） （2.0）** ファイル （neolane_spamassassin.2.0.zip）をダウンロードします。
 1. このファイルをAdobe Campaign サーバーにコピーし、解凍します。
 
@@ -108,7 +108,7 @@ WindowsでSpamAssassinをインストールして設定し、Adobe Campaignと�
 
 ### SpamAssassinをAdobe Campaignに統合する {#integrating-spamassassin-into-adobe-campaign}
 
-1. **`[INSTALL]/conf/serverConf.xml`** ファイルを編集します。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+1. **`[INSTALL]/conf/serverConf.xml`** ファイルを編集します。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 1. **Web** ノードの&#x200B;**spamCheck**&#x200B;要素&#39; **command**&#x200B;属性の値を変更します。 これを行うには、次のコマンドを実行します。
 
    ```

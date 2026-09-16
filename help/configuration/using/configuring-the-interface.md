@@ -53,7 +53,7 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
    >[!NOTE]
    >
-   >**form**&#x200B;形式のファイルについて詳しくは、[このページ ](../../configuration/using/identifying-a-form.md)を参照してください。
+   >**form**&#x200B;形式のファイルについて詳しくは、[このページ &#x200B;](../../configuration/using/identifying-a-form.md)を参照してください。
 
    現在の例では、**form** ファイルは&#x200B;**cus:individual** スキーマに基づいている必要があり、したがって次のレイアウトを持っている必要があります。
 

@@ -47,7 +47,7 @@ Adobe Campaign APIを使用する前に、次のトピックに精通してい�
 Adobe Campaignでは、次の2種類のAPIを使用します。
 
 * データモデルデータをクエリするための汎用データアクセス API。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
-* 配信、ワークフロー、サブスクリプションなど、各オブジェクトに対してアクションを実行できるビジネス固有のAPI。[ ビジネス向けAPI](../../configuration/using/business-oriented-apis.md)を参照してください。
+* 配信、ワークフロー、サブスクリプションなど、各オブジェクトに対してアクションを実行できるビジネス固有のAPI。[&#x200B; ビジネス向けAPI](../../configuration/using/business-oriented-apis.md)を参照してください。
 
 APIを開発し、Adobe Campaignとやり取りするには、データモデルに精通している必要があります。 Adobe Campaignでは、ベースの詳細な説明を生成できます。 モデルの[説明](../../configuration/using/data-oriented-apis.md#description-of-the-model)を参照してください。
 
@@ -74,7 +74,7 @@ SOAP メッセージの構造は次のとおりです。
 
 この例では、SOAP クエリが「ExecuteQuery」メソッドを呼び出します。このメソッドは、文字列を認証のパラメーター（セッショントークン）として取り出し、実行するクエリの説明のXML コンテンツを取り出します。
 
-詳しくは、[ExecuteQuery （xtk:queryDef） ](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)を参照してください。
+詳しくは、[ExecuteQuery （xtk:queryDef） &#x200B;](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)を参照してください。
 
 >[!NOTE]
 >

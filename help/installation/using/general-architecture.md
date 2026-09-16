@@ -59,7 +59,7 @@ Adobe Campaignは、SOA （サービス指向アーキテクチャ）をベー�
 
 >[!CAUTION]
 >
->明示的に明記されていない場合、Adobe Campaign プラットフォームのすべてのコンポーネントのインストール、アップデート、およびメンテナンスは、それらをホストするマシン管理者の責任となります。 これには、Adobe Campaign アプリケーションの前提条件の実装や、コンポーネント間のCampaign [互換性マトリックス ](../../rn/using/compatibility-matrix.md)の準拠が含まれます。
+>明示的に明記されていない場合、Adobe Campaign プラットフォームのすべてのコンポーネントのインストール、アップデート、およびメンテナンスは、それらをホストするマシン管理者の責任となります。 これには、Adobe Campaign アプリケーションの前提条件の実装や、コンポーネント間のCampaign [互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)の準拠が含まれます。
 
 ## プレゼンテーションレイヤー {#presentation-layer}
 
@@ -137,7 +137,7 @@ Adobe Campaign では、メールの開封とクリック追跡を自動的に�
 
 >[!NOTE]
 >
->Adobe Campaign モジュールの一覧については、[このドキュメント ](../../production/using/operating-principle.md)を参照してください。
+>Adobe Campaign モジュールの一覧については、[このドキュメント &#x200B;](../../production/using/operating-principle.md)を参照してください。
 
 ## 永続性レイヤー {#persistence-layer}
 

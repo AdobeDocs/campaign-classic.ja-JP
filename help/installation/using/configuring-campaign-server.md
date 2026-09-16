@@ -54,7 +54,7 @@ ht-degree: 5%
 
 Campaign Classic設定ファイルは、Adobe Campaign インストールフォルダーの&#x200B;**conf** フォルダーに保存されます。 設定は、次の2つのファイルに分散されます。
 
-* **serverConf.xml**：すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaign サーバーの技術的なパラメーターを組み合わせたものです。これらはすべて、すべてのインスタンスで共有されます。 これらのパラメータの一部の説明は以下のとおりです。 様々なノードとパラメーター。この[ セクション ](../../installation/using/the-server-configuration-file.md)に記載されています。
+* **serverConf.xml**：すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaign サーバーの技術的なパラメーターを組み合わせたものです。これらはすべて、すべてのインスタンスで共有されます。 これらのパラメータの一部の説明は以下のとおりです。 様々なノードとパラメーター。この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に記載されています。
 * **config-`<instance>`.xml** （**instance**&#x200B;はインスタンスの名前）: インスタンスの特定の設定。 複数のインスタンス間でサーバーを共有する場合は、各インスタンスに固有のパラメーターを関連ファイルに入力してください。
 
 ## 設定範囲
@@ -62,14 +62,14 @@ Campaign Classic設定ファイルは、Adobe Campaign インストールフォ�
 ニーズや設定に応じて、Campaign サーバーを設定または調整します。 以下を行うことができます。
 
 * [内部識別子](#internal-identifier)を保護します
-* [ キャンペーンプロセス ](#enabling-processes)を有効にする
+* [&#x200B; キャンペーンプロセス &#x200B;](#enabling-processes)を有効にする
 * [URL権限](url-permissions.md)の設定
-* [ セキュリティゾーン ](security-zones.md)を定義
+* [&#x200B; セキュリティゾーン &#x200B;](security-zones.md)を定義
 * [Tomcat設定](configure-tomcat.md)の設定
 * [配信パラメーター](configure-delivery-settings.md)のカスタマイズ
 * [動的なページセキュリティとリレー](#dynamic-page-security-and-relays)を定義
-* [許可されている外部コマンド ](#restricting-authorized-external-commands)のリストを制限
-* [冗長トラッキング ](#redundant-tracking)を設定
+* [許可されている外部コマンド &#x200B;](#restricting-authorized-external-commands)のリストを制限
+* [冗長トラッキング &#x200B;](#redundant-tracking)を設定
 * [高可用性とワークフローの親和性の管理](#high-availability-workflows-and-affinities)
 * ファイル管理の設定 – [詳細情報](file-res-management.md)
   * アップロードファイル形式の制限
@@ -154,7 +154,7 @@ Adobe Campaign データ （ログ、ダウンロード、リダイレクトな�
 
 * Linuxでは、**customer.sh** ファイルに移動し、**export XTK_VAR_DIR=/app/log/AdobeCampaign**&#x200B;と示します。
 
-  詳しくは、[ パラメーターのパーソナライズ ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
+  詳しくは、[&#x200B; パラメーターのパーソナライズ &#x200B;](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
 
 
 ## 動的なページセキュリティとリレー {#dynamic-page-security-and-relays}
@@ -251,7 +251,7 @@ sh
 
 サーバー設定ファイルの&#x200B;**exec** ノードで、**blacklistFile**&#x200B;属性で以前に作成したファイルを参照する必要があります。
 
-**Linuxの場合のみ**: サーバー設定ファイルでは、セキュリティ設定を強化するために、外部コマンドの実行に専用のユーザーを指定することをお勧めします。 このユーザーは、設定ファイルの&#x200B;**exec** ノードで設定されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+**Linuxの場合のみ**: サーバー設定ファイルでは、セキュリティ設定を強化するために、外部コマンドの実行に専用のユーザーを指定することをお勧めします。 このユーザーは、設定ファイルの&#x200B;**exec** ノードで設定されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 >[!NOTE]
 >

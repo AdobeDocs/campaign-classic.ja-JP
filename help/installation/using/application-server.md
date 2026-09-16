@@ -33,7 +33,7 @@ Java Development KitまたはJDKは、ソフトウェア開発キットです。
 
 このアプリケーションは、Oracleによって開発されたJava Development Kit （JDK）および&#x200B;**OpenJDK**&#x200B;に対して承認されています。
 
-サポートされているバージョンについて詳しくは、キャンペーン [互換性マトリックス ](../../rn/using/compatibility-matrix.md)を参照してください。
+サポートされているバージョンについて詳しくは、キャンペーン [互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を参照してください。
 
 
 >[!AVAILABILITY]
@@ -62,7 +62,7 @@ Java開発キットをインストールおよびアップグレードする場�
 
 Java Development Kitはプラットフォーム固有です。各オペレーティングシステムには個別のインストーラーが必要です。
 
-JDKをダウンロードするには、[Oracle web サイト ](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}に接続します。
+JDKをダウンロードするには、[Oracle web サイト &#x200B;](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}に接続します。
 
 >[!CAUTION]
 >
@@ -95,7 +95,7 @@ Adobe Campaignを使用して、レポートをMicrosoft ExcelおよびAdobe PDF
 
 >[!NOTE]
 >
->Linuxの場合は、フォントを追加する必要があります。 詳しくは、[MTA統計のフォント ](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)を参照してください。
+>Linuxの場合は、フォントを追加する必要があります。 詳しくは、[MTA統計のフォント &#x200B;](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)を参照してください。
 
 ## SpamAssassin {#spamassassin}
 

@@ -96,7 +96,7 @@ Adobe Managed Services への移行により、スケーラビリティとセキ
 
 **はじめに：**&#x200B;アドビ担当者に連絡して環境を評価し、Adobe Professional Services で詳細な移行プランを作成してください。
 
-詳しくは、[Managed Services への移行](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}を参照してください。
+詳しくは、[Managed Services への移行](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ja){target="_blank"}を参照してください。
 
 +++
 
@@ -280,7 +280,7 @@ Campaign クライアントコンソールのキャッシュをクリアする�
 
 **コミュニティとサポート：**
 
-* [Campaign コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [Campaign コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
 * [アドビサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

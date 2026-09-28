@@ -29,10 +29,10 @@ subfeature_v2:
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Adobe Analytics integration
-source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+source-git-commit: 92ed76435fca32fc4ad96aa6a5a4c1fed0b3ca08
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 98%
 ---
 # 最新リリース {#latest-release}
 
@@ -40,9 +40,21 @@ ht-degree: 100%
 
 ## リリース 7.4.4 {#release-7-4-4}
 
-### ビルド 9401 {#build-9401}
+### ビルド 9402 {#build-9402}
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年9月11日_
+
+#### セキュリティの強化 {#security-7-4-4-9402}
+
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/au/security/products/campaign/apsb26-142.html){target="_blank"}を参照してください。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
+
+### ビルド 9401 {#build-9401}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年8月25日（PT）_
 

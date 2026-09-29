@@ -168,7 +168,7 @@ PostgreSQLは、VACUUM FULL文がテーブルをロックするので、オン�
 
 次に、特定の関数を使用して必要なDDLを生成するテーブルのデフラグメント化の例を示します。 次のSQLでは、2つの新しい関数を作成できます。**GenRebuildTablePart1**&#x200B;と&#x200B;**GenRebuildTablePart2**。これは、テーブルを再作成するために必要なDDLを生成するために使用できます。
 
-* 最初の関数を使用すると、元のテーブルのコピーである作業テーブル（ここ**_tmp**を作成できます。
+* 最初の関数を使用すると、元のテーブルのコピーである作業テーブル（ここ&#x200B;**_tmp**&#x200B;を作成できます。
 * 次に、2つ目の関数は、元のテーブルを削除し、作業テーブルとそのインデックスの名前を変更します。
 * 1つの関数ではなく2つの関数を使用すると、最初の関数が失敗した場合、元のテーブルを削除するリスクは発生しません。
 
@@ -423,7 +423,7 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL Serverの場合は、[このページ ](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)で詳細に説明されているメンテナンスプランを使用できます。
+>Microsoft SQL Serverの場合は、[このページ &#x200B;](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)で詳細に説明されているメンテナンスプランを使用できます。
 
 次の例は、Microsoft SQL Server 2005に関するものです。 別のバージョンを使用している場合は、データベース管理者に連絡してメンテナンス手順について確認してください。
 

@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
     internal-label: Subscription services
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 100%
@@ -137,15 +137,15 @@ ht-degree: 100%
 
 1. このタイプのキャンペーンの場合は、テンプレート実行スケジュールを作成するために、「**[!UICONTROL スケジュール]**」タブが追加されます。
 
-このタブで、このテンプレートをベースとするキャンペーンの実行予定日を指定します。
+   このタブで、このテンプレートをベースとするキャンペーンの実行予定日を指定します。
 
-![](assets/s_ncs_user_op_template_recur_planning.png)
+   ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
+   実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
->[!IMPORTANT]
->
->データベースをオーバーロードしないよう、実行スケジュールの設定は慎重におこなう必要があります。 繰り返しキャンペーンは、指定されたスケジュールに従って、キャンペーンテンプレートのワークフローを複製します。 ワークフローの作成を頻繁に実施しすぎると、データベースの動作が妨げられることがあります。
+   >[!IMPORTANT]
+   >
+   >データベースをオーバーロードしないよう、実行スケジュールの設定は慎重におこなう必要があります。 繰り返しキャンペーンは、指定されたスケジュールに従って、キャンペーンテンプレートのワークフローを複製します。 ワークフローの作成を頻繁に実施しすぎると、データベースの動作が妨げられることがあります。
 
 1. 表示されている期間に対応するワークフローを作成するために、「**[!UICONTROL 事前に作成]**」フィールドに値を指定します。
 1. ターゲティングパラメーターと 1 つ以上の汎用的な配信を使用して、このテンプレートをベースとするキャンペーンで使用するワークフローテンプレートを作成します。
@@ -239,6 +239,6 @@ ht-degree: 100%
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/326557?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

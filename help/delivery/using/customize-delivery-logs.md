@@ -33,7 +33,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
@@ -117,9 +117,9 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
 
    ![](assets/start-database-update.png)
 
->[!NOTE]
->
->データベースの物理構造の更新が正常に完了したら、変更を反映するために、接続を解除し、再接続する必要があります。
+   >[!NOTE]
+   >
+   >データベースの物理構造の更新が正常に完了したら、変更を反映するために、接続を解除し、再接続する必要があります。
 
 ### 手順 3：変更の検証
 

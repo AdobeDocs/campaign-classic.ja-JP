@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -46,9 +46,9 @@ Adobe Campaign サービスを手動で起動および停止するには、次�
   * **/etc/init.d/nlserver6開始**
   * **/etc/init.d/nlserver6 stop**
 
->[!NOTE]
->
->20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl start nlserver** / **systemctl stop nlserver**
+  >[!NOTE]
+  >
+  >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）: **systemctl start nlserver** / **systemctl stop nlserver**
 
 Linuxでアクセスできる通常の管理コマンドのリストを以下に示します（**Adobe Campaign**&#x200B;として）。
 

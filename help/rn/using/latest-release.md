@@ -29,9 +29,9 @@ subfeature_v2:
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Adobe Analytics integration
-source-git-commit: 92ed76435fca32fc4ad96aa6a5a4c1fed0b3ca08
+source-git-commit: 386b8ebdc7d46e8b3003872932d8104f2dd3f933
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1227'
 ht-degree: 98%
 ---
 # 最新リリース {#latest-release}
@@ -54,7 +54,7 @@ _2026年9月11日_
 
 ### ビルド 9401 {#build-9401}
 
-[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
 _2026年8月25日（PT）_
 

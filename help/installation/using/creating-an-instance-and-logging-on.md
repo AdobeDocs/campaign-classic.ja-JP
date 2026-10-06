@@ -84,7 +84,7 @@ Adobe Campaign コンソールを起動すると、ログインページにア�
 
 1. 「**[!UICONTROL 言語]**」ドロップダウンリストで、**インスタンス言語** （英語（米国）、英語（英国）、フランス語、または日本語）を選択します。
 
-   米国英語と英国英語の違いは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui)に記載されています。
+   米国英語と英国英語の違いは、[Campaign v8 （コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui)に記載されています。
 
    >[!CAUTION]
    >
@@ -94,4 +94,4 @@ Adobe Campaign コンソールを起動すると、ログインページにア�
 
    >[!NOTE]
    >
-   >インスタンスはコマンドラインから作成できます。 詳しくは、[ コマンドライン ](../../installation/using/command-lines.md)を参照してください。
+   >インスタンスはコマンドラインから作成できます。 詳しくは、[&#x200B; コマンドライン &#x200B;](../../installation/using/command-lines.md)を参照してください。

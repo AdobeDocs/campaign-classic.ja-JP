@@ -8,9 +8,20 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 5%
@@ -21,7 +32,7 @@ ht-degree: 5%
 
 この節では、ミッドソーシングサーバーのインストールと設定、およびサードパーティがメッセージを&#x200B;**ミッドソーシング** モードで送信できるようにするインスタンスのデプロイメントについて詳しく説明します。
 
-「ミッドソーシング」アーキテクチャは、[&#x200B; ミッドソーシングのデプロイメント &#x200B;](../../installation/using/mid-sourcing-deployment.md)に示されています。
+「ミッドソーシング」アーキテクチャは、[ ミッドソーシングのデプロイメント ](../../installation/using/mid-sourcing-deployment.md)に示されています。
 
 ミッドソーシングサーバーのインストールは、通常の方法でサーバーをインストールするのと同じプロセスに従います（標準設定を参照）。 これは、配信の実行に使用できる独自のデータベースを持つ独立したインスタンスです。 簡単に言えば、リモートインスタンスがミッドソーシングモードで配信を実行できるようにするための追加の設定が含まれています。
 
@@ -41,7 +52,7 @@ ht-degree: 5%
 
 ### ミッドソーシングのデプロイメント用にアプリケーションサーバーをインストールして設定する {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
-インストール手順は、スタンドアロンインスタンスの手順と同じです。 「[&#x200B; インストールと設定（単一マシン） &#x200B;](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)」を参照してください。
+インストール手順は、スタンドアロンインスタンスの手順と同じです。 「[ インストールと設定（単一マシン） ](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)」を参照してください。
 
 ただし、次の項目を適用する必要があります。
 
@@ -121,11 +132,11 @@ ht-degree: 5%
 
    ![](assets/mid_recette_user_rights.png)
 
-1. 「**のサブフォルダー内のデータに制限」オプションを選択し、配信フォルダーを選択して、このオペレーターをミッドソーシング配信フォルダーに制限します。**
+1. 「]**のサブフォルダー内のデータに制限」オプションを選択し、配信フォルダーを選択して、このオペレーターをミッドソーシング配信フォルダーに制限します。**[!UICONTROL 
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. 次のコマンドを使用してWeb モジュールを再起動します。**&#x200B; web**.
+1. 次のコマンドを使用してWeb モジュールを再起動します。** web**.
 
 serverConf.xml ファイルのミッドソーシングサーバー設定を変更する必要があります。 次の行を、既存の行の「IP アドレスを使用したアフィニティの管理」セクションに追加する必要があります。
 
@@ -139,9 +150,9 @@ serverConf.xml ファイルのミッドソーシングサーバー設定を変�
 
 「marketing_account_operator_name」は、ミッドソーシングインスタンスで宣言されたミッドソーシングアカウントの内部名に関連します。
 
-&#39;affinity_name&#39;は、アフィニティに指定された任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は`[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`です。 目的は、パブリック IP アドレスのグループを宣言することです。
+&#39;affinity_name&#39;は、アフィニティに指定された任意の名前に関連します。 この名前は一意である必要があります。 許可されている文字は`[a-z]``[A-Z]``[0-9]`です。 目的は、パブリック IP アドレスのグループを宣言することです。
 
-&#39;affinity_group&#39;は、各配信で使用されるターゲットマッピングで宣言されたサブ親和性を関連付けます。 サブアフィニティがない場合、「。」を含む最後の部分は無視されます。 許可されている文字は`[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`です。
+&#39;affinity_group&#39;は、各配信で使用されるターゲットマッピングで宣言されたサブ親和性を関連付けます。 サブアフィニティがない場合、「。」を含む最後の部分は無視されます。 許可されている文字は`[a-z]``[A-Z]``[0-9]`です。
 
 変更を考慮するには、サーバーを停止してから再起動する必要があります。
 

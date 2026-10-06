@@ -7,18 +7,28 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-TQID: https://experienceleague.adobe.com/jmeyOWDTkOmCKOVGlNAdYzNHfaK1QeSxnIjDDnl8yj0
+TQID: 'https://experienceleague.adobe.com/jmeyOWDTkOmCKOVGlNAdYzNHfaK1QeSxnIjDDnl8yj0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 7%
@@ -30,7 +40,7 @@ ht-degree: 7%
 Adobe Campaign Classic **Federated Data Access** （FDA） オプションを使用して、外部データベースに保存されている情報を処理します。 [!DNL Google BigQuery]へのアクセスを設定するには、次の手順に従います。
 
 1. [Windows](#google-windows)または[Linux](#google-linux)で[!DNL Google BigQuery]を設定します
-1. Adobe Campaign Classicで[!DNL Google BigQuery] [外部アカウント &#x200B;](#google-external)を設定します
+1. Adobe Campaign Classicで[!DNL Google BigQuery] [外部アカウント ](#google-external)を設定します
 1. [Windows](#bulk-load-windows)または[Linux](#bulk-load-linux)で[!DNL Google BigQuery] コネクタの一括読み込みを設定
 
 >[!NOTE]
@@ -73,11 +83,11 @@ Adobe Campaign Classic **Federated Data Access** （FDA） オプションを使
 >
 >Google Cloud SDKを使用するには、Pythonがインストールされている必要があります。
 >
->Python3を使用することをお勧めします。この[&#x200B; ページ &#x200B;](https://www.python.org/downloads/)を参照してください。
+>Python3を使用することをお勧めします。この[ ページ ](https://www.python.org/downloads/)を参照してください。
 
 一括読み込みユーティリティを使用すると、Google Cloud SDKを介してより高速な転送が可能になります。
 
-1. この[&#x200B; ページ &#x200B;](https://cloud.google.com/sdk/docs/downloads-versioned-archives)からWindows 64 ビット （x86_64） アーカイブをダウンロードし、対応するディレクトリに展開します。
+1. この[ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives)からWindows 64 ビット （x86_64） アーカイブをダウンロードし、対応するディレクトリに展開します。
 
 1. `google-cloud-sdk\install.sh` スクリプトを実行します。 パス変数の設定を受け入れる必要があります。
 
@@ -153,7 +163,7 @@ Linuxで[!DNL Google BigQuery]を設定するには、次の手順に従いま�
 >
 >Google Cloud SDKを使用するには、Pythonがインストールされている必要があります。
 >
->Python3を使用することをお勧めします。この[&#x200B; ページ &#x200B;](https://www.python.org/downloads/)を参照してください。
+>Python3を使用することをお勧めします。この[ ページ ](https://www.python.org/downloads/)を参照してください。
 
 一括読み込みユーティリティを使用すると、Google Cloud SDKを介してより高速な転送が可能になります。
 
@@ -196,16 +206,16 @@ Adobe Campaign Classic インスタンスを[!DNL Google BigQuery]外部デー�
 
    * **[!UICONTROL タイプ]**：[!DNL Google BigQuery]
 
-   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]**&#x200B;の電子メール。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
+   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]**&#x200B;の電子メール。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
-   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
+   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
    * **[!UICONTROL キーファイルのパス]**:
      * **[!UICONTROL キーファイルをサーバーにアップロード]**:「**[!UICONTROL ここをクリックしてアップロード]**」を選択すると、Adobe Campaign Classicからキーをアップロードできます。
 
      * **[!UICONTROL キーファイルパスを手動で入力]**：既存のキーを使用する場合は、このフィールドに絶対パスをコピーまたは貼り付けます。
 
-   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント &#x200B;](https://cloud.google.com/bigquery/docs/datasets-intro)を参照してください。
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**&#x200B;の名前。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/bigquery/docs/datasets-intro)を参照してください。
 
    ![](assets/google-big-query.png)
 

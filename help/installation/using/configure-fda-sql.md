@@ -4,18 +4,28 @@ title: Microsoft SQL Serverへのアクセス権の設定
 description: Microsoft SQL Serverへのアクセスを設定する方法を説明します
 feature: Installation, Federated Data Access
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
-TQID: https://experienceleague.adobe.com/i9yR7cCPf8T0XbYKVESpx1tf1Yd1ji0RmVdxCjomWD4
+TQID: 'https://experienceleague.adobe.com/i9yR7cCPf8T0XbYKVESpx1tf1Yd1ji0RmVdxCjomWD4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 7%
@@ -29,7 +39,7 @@ ht-degree: 7%
 1. [CentOS](#sql-centos)で[!DNL Microsoft SQL Server]を設定します。
 1. [Linux](#sql-linux)で[!DNL Microsoft SQL Server]を設定します。
 1. [Windows](#sql-windows)で[!DNL Microsoft SQL Server]を設定します。
-1. Campaignで[!DNL Microsoft SQL Server] [外部アカウント &#x200B;](#sql-external)を設定します
+1. Campaignで[!DNL Microsoft SQL Server] [外部アカウント ](#sql-external)を設定します
 
 ## CentOS上のMicrosoft SQL Server {#sql-centos}
 
@@ -57,7 +67,7 @@ CentOSで[!DNL Microsoft SQL Server]を設定するには、次の手順に従�
 >
 > 古いバージョンのAdobe Campaign（7.2.1より前）を使用している場合は、`unix ODBC drivers`をインストールする必要があります。
 
-1. MS ODBC ドライバーを[このページ &#x200B;](https://packages.microsoft.com/ubuntu/16.04/prod/pool/main/m/msodbcsql17/)からダウンロードします。
+1. MS ODBC ドライバーを[このページ ](https://packages.microsoft.com/ubuntu/16.04/prod/pool/main/m/msodbcsql17/)からダウンロードします。
 
 1. 次のコマンドをルートユーザーとして実行します。
 
@@ -79,7 +89,7 @@ Windowsで[!DNL Microsoft SQL Server]を設定するには：
 
 1. SQL Server Native Client v11が&#x200B;**[!UICONTROL Create New Data Source]** ウィンドウに表示されているかどうかを確認します。
 
-1. SQL Server Native Clientがリストにない場合は、[このページ &#x200B;](https://www.microsoft.com/en-my/download/details.aspx?id=36434)からダウンロードできます。
+1. SQL Server Native Clientがリストにない場合は、[このページ ](https://www.microsoft.com/en-my/download/details.aspx?id=36434)からダウンロードできます。
 
 1. 次に、Adobe Campaignで[!DNL Microsoft SQL Server]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#sql-external)を参照してください。
 
@@ -121,6 +131,6 @@ Campaign インスタンスを[!DNL Microsoft SQL Server]外部データベー�
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。<br> 詳しくは、[Microsoft ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)の例8を参照してください。 |
-| 暗号化 | 接続がネットワーク経由でTLS暗号化を使用するかどうかを指定します。 使用可能な値は、**yes/mandatory （18.0以降）**、**no/optional （18.0以降）**、および&#x200B;**strict （18.0以降）**&#x200B;です。 デフォルト値は、バージョン 18.0以降では&#x200B;**yes**、以前のバージョンでは&#x200B;**no**&#x200B;に設定されています。 <br>詳しくは、[Microsoft ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt)を参照してください。 |
+| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。<br> 詳しくは、[Microsoft ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)の例8を参照してください。 |
+| 暗号化 | 接続がネットワーク経由でTLS暗号化を使用するかどうかを指定します。 使用可能な値は、**yes/mandatory （18.0以降）**、**no/optional （18.0以降）**、および&#x200B;**strict （18.0以降）**&#x200B;です。 デフォルト値は、バージョン 18.0以降では&#x200B;**yes**、以前のバージョンでは&#x200B;**no**&#x200B;に設定されています。 <br>詳しくは、[Microsoft ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt)を参照してください。 |
 | TrustServerCertificate | **Encrypt**&#x200B;で使用する場合、自己署名サーバー証明書を使用して暗号化を有効にします。 <br>許容される値：**yes**&#x200B;または&#x200B;**no** （デフォルト値。サーバー証明書が検証されます）。 |

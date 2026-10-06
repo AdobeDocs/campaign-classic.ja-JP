@@ -8,7 +8,18 @@ content-type: reference
 topic-tags: configuration
 hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2602'
 ht-degree: 2%
@@ -19,8 +30,8 @@ ht-degree: 2%
 
 さらに、次の点に注意してください。
 
-* v5.11から移行する場合は、[このセクション &#x200B;](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)で説明されている設定も完了する必要があります。
-* v6.02から移行する場合は、[このセクション &#x200B;](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02)で説明されている設定も完了する必要があります。
+* v5.11から移行する場合は、[このセクション ](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)で説明されている設定も完了する必要があります。
+* v6.02から移行する場合は、[このセクション ](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02)で説明されている設定も完了する必要があります。
 
 ## タイムゾーン {#time-zones}
 
@@ -90,7 +101,7 @@ Adobe Campaign v7には、**セキュリティゾーン**&#x200B;という概念
 
 **アップグレード後** （サーバーの再起動前）に、セキュリティゾーンを構成する必要があります。
 
-セキュリティゾーンの設定は[このセクション &#x200B;](../../installation/using/security-zones.md)にあります。
+セキュリティゾーンの設定は[このセクション ](../../installation/using/security-zones.md)にあります。
 
 ### ユーザーパスワード {#user-passwords}
 
@@ -102,7 +113,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**internal** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳細については、[このセクション &#x200B;](../../installation/using/configuring-campaign-server.md#internal-identifier)および[このセクション &#x200B;](../../platform/using/access-management.md)を参照してください。
+>**internal** パスワードは、すべてのトラッキングサーバーで同じである必要があります。 詳細については、[このセクション ](../../installation/using/configuring-campaign-server.md#internal-identifier)および[このセクション ](../../platform/using/access-management.md)を参照してください。
 
 ### v7の新機能 {#new-features-in-v7}
 
@@ -169,7 +180,7 @@ v5では、**sessiontoken** パラメーターが両方のクライアント側�
 
 ### SQL関数 {#sql-functions}
 
-不明なSQL関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべてのSQL関数を&#x200B;**xtk:funcList** スキーマに追加する必要があります（詳しくは、[このセクション &#x200B;](../../configuration/using/adding-additional-sql-functions.md)を参照してください）。 移行時に、古い未宣言のSQL関数との互換性を維持できるオプションがアップグレード後に追加されます。 これらの関数を引き続き使用する場合は、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベルで実際に定義されていることを確認してください。
+不明なSQL関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべてのSQL関数を&#x200B;**xtk:funcList** スキーマに追加する必要があります（詳しくは、[このセクション ](../../configuration/using/adding-additional-sql-functions.md)を参照してください）。 移行時に、古い未宣言のSQL関数との互換性を維持できるオプションがアップグレード後に追加されます。 これらの関数を引き続き使用する場合は、**XtkPassUnknownSQLFunctionsToRDBMS** オプションが&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベルで実際に定義されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -272,7 +283,7 @@ allowSQLInjection="true"
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-セキュリティゾーンを設定してから（[&#x200B; セキュリティ &#x200B;](#security)を参照）、オプションを変更してセキュリティを再アクティブ化する必要があります。
+セキュリティゾーンを設定してから（[ セキュリティ ](#security)を参照）、オプションを変更してセキュリティを再アクティブ化する必要があります。
 
 ```
 allowSQLInjection="false"

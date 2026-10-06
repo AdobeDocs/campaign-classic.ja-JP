@@ -7,16 +7,26 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-TQID: https://experienceleague.adobe.com/R0BzuzvaCahMWtHor24mNcwEiK7LtT97hpRMyOXNljg
+TQID: 'https://experienceleague.adobe.com/R0BzuzvaCahMWtHor24mNcwEiK7LtT97hpRMyOXNljg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 25%
@@ -28,7 +38,7 @@ ht-degree: 25%
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 [!DNL Vertica Analytics]へのアクセスを設定するには、次の手順に従います。
 
 1. [CentOS](#vertica-centos)、[Windows](#vertica-windows)または[Debian](#vertica-debian)で[!DNL Vertica Analytics]を設定します
-1. Campaignで[!DNL Vertica Analytics] [外部アカウント &#x200B;](#vertica-external)を設定します
+1. Campaignで[!DNL Vertica Analytics] [外部アカウント ](#vertica-external)を設定します
 
 ![](assets/snowflake_3.png)
 
@@ -36,7 +46,7 @@ ht-degree: 25%
 
 CentOSで[!DNL Vertica Analytics]を設定するには、次の手順に従います。
 
-1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。 [ここをクリック &#x200B;](https://www.vertica.com/download/vertica/client-drivers/)して、最新のLinux RPMをダウンロードしてください。
+1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。 [ここをクリック ](https://www.vertica.com/download/vertica/client-drivers/)して、最新のLinux RPMをダウンロードしてください。
 
 1. 次に、次のコマンドでunixODBCをインストールする必要があります。
 

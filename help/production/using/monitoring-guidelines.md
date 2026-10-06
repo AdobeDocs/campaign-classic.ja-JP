@@ -4,13 +4,17 @@ title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスについて説明します
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-TQID: https://experienceleague.adobe.com/qki-Rd3f6TAOiXDXaZ-N4YCxDwg-cc8LZspHtTbYcrE
+TQID: 'https://experienceleague.adobe.com/qki-Rd3f6TAOiXDXaZ-N4YCxDwg-cc8LZspHtTbYcrE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
@@ -21,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 30%
@@ -57,7 +61,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **自動監視ツール**
 
-いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック &#x200B;](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
+いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック ](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
 
 **監査記録**
 
@@ -83,11 +87,11 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](../../production/using/audit-trail.md)。
+監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック ](../../production/using/audit-trail.md)。
 
 **ワークフローのトラブルシューティング**
 
-ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック &#x200B;](../../production/using/workflow-execution.md)してください
+ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック ](../../production/using/workflow-execution.md)してください
 
 **ワークフロー状態の監視**
 
@@ -109,7 +113,7 @@ SMTP レポートには、配信の統計情報とドメイン別のSMTP エラ�
 
 **ベストプラクティス**
 
-パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
+パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合、特定のアクションを実行できます。

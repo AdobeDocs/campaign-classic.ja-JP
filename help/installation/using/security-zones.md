@@ -8,24 +8,30 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-TQID: https://experienceleague.adobe.com/eL2iPF1yqueza7P0yRE0KEPdxEezRW81gT4QgRno3Ys
+TQID: 'https://experienceleague.adobe.com/eL2iPF1yqueza7P0yRE0KEPdxEezRW81gT4QgRno3Ys'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
     internal-label: Best practices
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 18%
@@ -56,7 +62,7 @@ ht-degree: 18%
 
 セキュリティゾーンは相互にロックされています。つまり、別のゾーン内に新しいゾーンを定義することで、ログオンできるオペレーターの数を減らしながら、各オペレーターに割り当てられた権限を増やすことができます。
 
-ゾーンは、**serverConf.xml** ファイルでサーバーの構成中に定義する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、[このセクション &#x200B;](../../installation/using/the-server-configuration-file.md)に記載されています。
+ゾーンは、**serverConf.xml** ファイルでサーバーの構成中に定義する必要があります。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、[このセクション ](../../installation/using/the-server-configuration-file.md)に記載されています。
 
 各ゾーンは、次のような権限を定義します。
 
@@ -114,7 +120,7 @@ ht-degree: 18%
 >
 >ゾーン定義では、**true**&#x200B;値を持つ各属性によってセキュリティが低下します。
 
-Message Centerを使用する場合、複数の実行インスタンスがある場合、**sessionTokenOnly**&#x200B;属性が&#x200B;**true**&#x200B;として定義された追加のセキュリティゾーンを作成する必要があります。この際、必要なIP アドレスのみが追加されます。 インスタンスの設定について詳しくは、[このドキュメント &#x200B;](../../message-center/using/configuring-instances.md)を参照してください。
+Message Centerを使用する場合、複数の実行インスタンスがある場合、**sessionTokenOnly**&#x200B;属性が&#x200B;**true**&#x200B;として定義された追加のセキュリティゾーンを作成する必要があります。この際、必要なIP アドレスのみが追加されます。 インスタンスの設定について詳しくは、[このドキュメント ](../../message-center/using/configuring-instances.md)を参照してください。
 
 ## セキュリティゾーンのベストプラクティス {#best-practices-for-security-zones}
 

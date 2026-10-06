@@ -7,16 +7,26 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
-TQID: https://experienceleague.adobe.com/j-ZDe68d2AlmSqJsNTn8TAqN8Dq5jrB--lq5Ef4xJZY
+TQID: 'https://experienceleague.adobe.com/j-ZDe68d2AlmSqJsNTn8TAqN8Dq5jrB--lq5Ef4xJZY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 28%
@@ -25,8 +35,8 @@ ht-degree: 28%
 
 外部データベースに保存されている情報を処理するには、Campaign **Federated Data Access** （FDA）オプションを使用します。 Amazon Redshiftへのアクセスを設定するには、次の手順に従います。
 
-1. [Amazon Redshift データベース &#x200B;](#configuring-redshift)を設定
-1. CampaignでAmazon Redshift [外部アカウント &#x200B;](#redshift-external)を設定する
+1. [Amazon Redshift データベース ](#configuring-redshift)を設定
+1. CampaignでAmazon Redshift [外部アカウント ](#redshift-external)を設定する
 
 ## Linux版Amazon Redshift {#redshift-linux}
 

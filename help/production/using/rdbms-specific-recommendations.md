@@ -8,20 +8,24 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-TQID: https://experienceleague.adobe.com/WmadkiwNNUMeQSnm8O4NJjnv1GQHvO6hZ9kqtoGBySA
+TQID: 'https://experienceleague.adobe.com/WmadkiwNNUMeQSnm8O4NJjnv1GQHvO6hZ9kqtoGBySA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 4%
@@ -168,7 +172,7 @@ PostgreSQLは、VACUUM FULL文がテーブルをロックするので、オン�
 
 次に、特定の関数を使用して必要なDDLを生成するテーブルのデフラグメント化の例を示します。 次のSQLでは、2つの新しい関数を作成できます。**GenRebuildTablePart1**&#x200B;と&#x200B;**GenRebuildTablePart2**。これは、テーブルを再作成するために必要なDDLを生成するために使用できます。
 
-* 最初の関数を使用すると、元のテーブルのコピーである作業テーブル（ここ&#x200B;**_tmp**&#x200B;を作成できます。
+* 最初の関数を使用すると、元のテーブルのコピーである作業テーブル（ここ**_tmp**を作成できます。
 * 次に、2つ目の関数は、元のテーブルを削除し、作業テーブルとそのインデックスの名前を変更します。
 * 1つの関数ではなく2つの関数を使用すると、最初の関数が失敗した場合、元のテーブルを削除するリスクは発生しません。
 
@@ -423,7 +427,7 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL Serverの場合は、[このページ &#x200B;](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)で詳細に説明されているメンテナンスプランを使用できます。
+>Microsoft SQL Serverの場合は、[このページ ](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)で詳細に説明されているメンテナンスプランを使用できます。
 
 次の例は、Microsoft SQL Server 2005に関するものです。 別のバージョンを使用している場合は、データベース管理者に連絡してメンテナンス手順について確認してください。
 

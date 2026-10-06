@@ -7,20 +7,26 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-TQID: https://experienceleague.adobe.com/bANsF-xgtYGd-43EXaJMe4N2MKWUrH4Hs5wHYatPvcc
+TQID: 'https://experienceleague.adobe.com/bANsF-xgtYGd-43EXaJMe4N2MKWUrH4Hs5wHYatPvcc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 20%
@@ -33,10 +39,10 @@ ht-degree: 20%
 
 ## よくある問題と一般的な問題 {#common-and-general-issues}
 
-* この[&#x200B; ページ &#x200B;](../../production/using/modules-and-frequent-issues.md)は、リストされたモジュールで最も頻繁に発生する問題を示しています。
-* この[&#x200B; ページ &#x200B;](../../production/using/workflow-execution.md)には、ワークフロー実行に関する問題に直面した場合に従うべき一般的なトラブルシューティング手順が記載されています。
-* この[&#x200B; ページ &#x200B;](../../production/using/lost-password.md)では、失われたパスワードを変更または復元する方法について詳しく説明しています。
-* この[&#x200B; ページ &#x200B;](../../production/using/console-update.md)では、対応するオプションを非アクティブ化した場合に、コンソール更新リクエストを再アクティブ化する方法について詳しく説明しています。
+* この[ ページ ](../../production/using/modules-and-frequent-issues.md)は、リストされたモジュールで最も頻繁に発生する問題を示しています。
+* この[ ページ ](../../production/using/workflow-execution.md)には、ワークフロー実行に関する問題に直面した場合に従うべき一般的なトラブルシューティング手順が記載されています。
+* この[ ページ ](../../production/using/lost-password.md)では、失われたパスワードを変更または復元する方法について詳しく説明しています。
+* この[ ページ ](../../production/using/console-update.md)では、対応するオプションを非アクティブ化した場合に、コンソール更新リクエストを再アクティブ化する方法について詳しく説明しています。
 
 ## 配信のトラブルシューティング {#delivery-troubleshooting}
 

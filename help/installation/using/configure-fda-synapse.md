@@ -7,18 +7,28 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-TQID: https://experienceleague.adobe.com/CogezJk2Xg8Pv7d7upxrVWzOAWMkPS475yPeMJ6Uw-E
+TQID: 'https://experienceleague.adobe.com/CogezJk2Xg8Pv7d7upxrVWzOAWMkPS475yPeMJ6Uw-E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 70%
@@ -30,7 +40,7 @@ ht-degree: 70%
 外部データベースに保存されている情報を処理するには、Campaign [Federated Data Access](../../installation/using/about-fda.md) （FDA）オプションを使用します。 **Microsoft Azure Synapse Analytics**&#x200B;へのアクセスを設定するには、次の手順に従います。
 
 1. [CentOS](#azure-centos)、[Windows](#azure-windows)または[Debian](#azure-debian)でAzure Synapseを設定します
-1. CampaignでAzure Synapse [外部アカウント &#x200B;](#azure-external)を設定する
+1. CampaignでAzure Synapse [外部アカウント ](#azure-external)を設定する
 
 ## CentOS上のAzure Synapse {#azure-centos}
 
@@ -123,7 +133,7 @@ CentOSでAzure Synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。 [このページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=50420)で見つけることができます。
+1. まず、Microsoft ODBC ドライバーをインストールします。 [このページ ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)で見つけることができます。
 
 1. 次のファイルを選択してインストールします。
 
@@ -248,4 +258,4 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳細については、[SQL ドキュメント &#x200B;](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列の例n°8）を参照してください。 |
+| 認証 | コネクタでサポートされている認証の種類。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳細については、[SQL ドキュメント ](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列の例n°8）を参照してください。 |

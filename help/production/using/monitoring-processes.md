@@ -8,24 +8,28 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-TQID: https://experienceleague.adobe.com/rTFIt6bZHR9dwiUr2KTTsoFCPX48cItfbE7u8l8mEqA
+TQID: 'https://experienceleague.adobe.com/rTFIt6bZHR9dwiUr2KTTsoFCPX48cItfbE7u8l8mEqA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '3846'
 ht-degree: 1%
@@ -47,7 +51,7 @@ Adobe Campaign プロセス監視ページにアクセスするには、「**[!U
 * 欠落しているプロセスと実行情報（開始日、PIDなど）のリスト。
 * ワークフローと配信のビュー。
 
-Campaign プロセスを監視する追加の方法については、[このページ &#x200B;](../../production/using/monitoring-guidelines.md)で説明しています。
+Campaign プロセスを監視する追加の方法については、[このページ ](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ### ログ {#log-journal}
 
@@ -414,7 +418,7 @@ wfserver@prod
 
 この&#x200B;**http （s）://`<Application server url>`/nl/jsp/ping.jsp** ページは、ネットワークの対応者と同じように動作します。apache/tomcat/web モジュール/データベースを経由してクエリ全体をテストし、クライアントにアップロードします。 すべてが正常に動作している場合は、「OK」が返されます。 データベース（mtaやアンケートなど）にアクセスできるマシンでこのテストを実行することをお勧めします。
 
-**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**：リモートでログインするには、オペレーターのログインに関連付けられたセッショントークンを引数として渡す必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 例：
 
@@ -432,7 +436,7 @@ wfserver@prod
 
 ![](assets/ncs_monitoring_web.png)
 
-**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング &#x200B;](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
+**使用状況**: インスタンスに接続できるオペレーターログインに関連付けられたセッショントークンを引数として使用する必要があります（[Adobe Campaign スクリプトによる自動モニタリング ](#automatic-monitoring-via-adobe-campaign-scripts)のヒントを参照）。
 
 オペレーターとそのログインは、適切なデータベース権限と制限を使用して、以前にAdobe Campaign クライアントコンソールで設定する必要があります。
 
@@ -611,36 +615,36 @@ instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
 
   ![](assets/ncs_operators_rights_02.png)
 
-* **criticalLevel** （オプション）:表示されるエラーを重要度のレベルで並べ替えることができます。 指定可能な値は、「0」（すべてのレベルが表示される）、「1」（高いエラーと重大なエラーのみが表示される）、「2」（重大なエラーのみが表示される）です。 この属性を指定しない場合は、すべてのエラーレベルが表示されます。
-* **フィルター** （オプション）:特定のワークフローエラーを除外できます（例：**filter=&quot;wkf;wkf1&quot;**）。 ワークフローラベルはセミコロンで区切る必要があります。
+* **criticalLevel** （オプション）：重大度レベルで表示されるエラーを並べ替えることができます。 可能な値は、「0」（すべてのレベルが表示されます）、「1」（高いエラーと重大なエラーのみが表示されます）、「2」（重大なエラーのみが表示されます）です。 この属性が指定されていない場合は、すべてのエラーレベルが表示されます。
+* **filter** （オプション）：特定のワークフローエラー（例：**filter=&quot;wkf;wkf1&quot;**）を除外できます。 ワークフローラベルは、セミコロンで区切る必要があります。
 
-#### サブ要素 {#sub-elements}
+#### サブエレメント {#sub-elements}
 
-* **tcp**:サーバーが起動または停止しているかどうかを確認します。 ポート番号を入力してください。
-* **http**:web サーバーが存在することを確認します（アプリケーション・サーバーが動作している場合）。
-* **ncs**:「インスタンス」属性に入力されたインスタンスのプロセスを確認します（ワークフローエラー、メモリ使用量など）。 **included** （必須）属性は、無効なプロセス（&#39;true&#39;または&#39;false&#39;値）を表示するオプションを提供します。
-* **リダイレクト**:トラッキングを確認します。
+* **tcp**: サーバーがアップまたはダウンしているかどうかを確認します。 ポート番号を入力してください。
+* **http**: Web サーバーが存在することを確認します（アプリケーションサーバーが動作しています）。
+* **ncs**: &#39;instance&#39;属性に入力されたインスタンスのプロセス （ワークフローエラー、メモリ使用率など）を確認します。 **included** （必須）属性を使用すると、停止しているプロセス （&#39;true&#39;または&#39;false&#39;の値）を表示するオプションが表示されます。
+* **redir**：追跡を確認します。
 
-ほとんどの場合、**ncs** および **redir** サブ要素のみを保持できます。
+ほとんどの場合、**ncs**&#x200B;および&#x200B;**redir**&#x200B;のサブ要素のみを保持できます。
 
-いずれの場合も、特定のノードがサブ要素でオーバーロードされる可能性があります（例えば、http、ncs、または redir 接続に使用されるポートをオーバーロードするために、ノード **port=75** です）。
+いずれの場合でも、特定のノードをサブ要素でオーバーロードできます（例えば、ノード **port=75**&#x200B;を使用して、http、ncs、またはredir接続に使用されるポートをオーバーロードします）。
 
 ```
 <ncs instance="clap40" url="/nl/jsp/soaprouter.jsp" includeDead="false" port="80"/>
 ```
 
-**ncs**、**redir** および **http** サブ要素では、**isSecure** 属性（オプション）を追加して、https プロトコル（&#39;true&#39;または&#39;false&#39;値）を使用するかどうかを選択できます。 この属性を指定しない場合は、http プロトコルが使用されます。
+**ncs**、**redir**、**http**&#x200B;のサブ要素では、**isSecure**&#x200B;属性（オプション）を追加して、https プロトコル（&#39;true&#39;または&#39;false&#39;の値）を使用するかどうかを選択できます。 この属性が指定されていない場合は、http プロトコルが使用されます。
 
-### netreport.bat または netreport.sh ファイルの構成 {#configuring-the-netreport-bat-or-netreport-sh--file}
+### netreport.batまたはnetreport.sh ファイルの設定 {#configuring-the-netreport-bat-or-netreport-sh--file}
 
-構成するには、このファイルを編集し、JRE または JDK がインストールされているディレクトリを指定します。
+設定するには、このファイルを編集し、JREまたはJDKがインストールされているディレクトリを指定します。
 
 ### 監視の開始 {#launching-monitoring}
 
-監視を開始するには、スクリプトを使用して **netreport.bat** または **netreport.sh** ファイルを定期的に実行します。 レポートは、最初の実行後、ステータスが変更された場合にのみ送信されます。
+監視を開始するには、**netreport.bat**&#x200B;または&#x200B;**netreport.sh** ファイルをスクリプトを介して定期的に実行します。 レポートは、最初の実行後に送信され、その後、ステータスが変更された場合にのみ送信されます。
 
-### 監視のテスト {#testing-monitoring}
+### テストの監視 {#testing-monitoring}
 
-監視をテストするには、**netreport.bat** または **netreport.sh** ファイルを実行します。
+監視をテストするには、**netreport.bat**&#x200B;または&#x200B;**netreport.sh** ファイルを実行します。
 
-**netconf.xml** ファイルの **recipientList** で指定された受信者に電子メールが送信されます。
+**netconf.xml** ファイルの&#x200B;**recipientList**&#x200B;で指定された受信者に電子メールが送信されます。

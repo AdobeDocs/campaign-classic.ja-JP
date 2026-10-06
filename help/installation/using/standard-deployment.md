@@ -7,16 +7,26 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-TQID: https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc
+TQID: 'https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 7%
@@ -62,11 +72,11 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
   * 最初にパブリックに公開され、仮想IP アドレス（VIP）上のロードバランサーをトラッキングおよびポイントし、次に2つのフロントタルサーバーに配布されます。
   * 2つ目は、コンソール経由でアクセスし、同じアプリケーションサーバーを指すために内部ユーザーに公開されます。
 
-* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[&#x200B; データベースアクセス &#x200B;](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
+* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[ データベースアクセス ](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
 
 ### アプリケーションサーバーのインストール {#installing-the-application-server}
 
-次の手順に従って、Adobe Campaign アプリケーションサーバーからデータベースの作成にスタンドアロンインスタンスをインストールします（手順12）。 「[&#x200B; インストールと設定（単一マシン） &#x200B;](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)」を参照してください。
+次の手順に従って、Adobe Campaign アプリケーションサーバーからデータベースの作成にスタンドアロンインスタンスをインストールします（手順12）。 「[ インストールと設定（単一マシン） ](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)」を参照してください。
 
 コンピューターはトラッキングサーバーではないので、Web サーバーとの統合を考慮しないでください。
 
@@ -98,7 +108,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、[&#x200B; インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
+     詳しくは、[ インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
 
      または
 
@@ -108,7 +118,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
      nlserver config -addinstance:demo/tracking.campaign.net*
      ```
 
-     詳しくは、[&#x200B; インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
+     詳しくは、[ インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
 
    インスタンスの名前は、アプリケーションサーバーの名前と同じです。
 
@@ -149,7 +159,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
      <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
      ```
 
-     詳しくは、[冗長トラッキング &#x200B;](configuring-campaign-server.md#redundant-tracking)を参照してください。
+     詳しくは、[冗長トラッキング ](configuring-campaign-server.md#redundant-tracking)を参照してください。
 
 1. Web サイトを開始し、URL [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)からリダイレクトをテストします。
 
@@ -173,13 +183,13 @@ LAN内のアプリケーションサーバーは、エンドユーザーにサ�
 1. Adobe Campaign サーバーを起動します。
 1. Adobe Campaign コンソールで、パスワードなしで&#x200B;**admin** ログインを使用して接続し、デプロイメントウィザードを起動します。
 
-   詳しくは、[&#x200B; インスタンスのデプロイ &#x200B;](../../installation/using/deploying-an-instance.md)を参照してください。
+   詳しくは、[ インスタンスのデプロイ ](../../installation/using/deploying-an-instance.md)を参照してください。
 
    設定は、トラッキングモジュールの設定とは別に、スタンドアロンインスタンスと同じです。
 
 1. リダイレクトに使用される外部URL （ロードバランサーのURL）と、2つのフロントタルサーバーの内部URLを入力します。
 
-   詳しくは、[設定のトラッキング &#x200B;](../../installation/using/deploying-an-instance.md#tracking-configuration)を参照してください。
+   詳しくは、[設定のトラッキング ](../../installation/using/deploying-an-instance.md#tracking-configuration)を参照してください。
 
    ![](assets/d_ncs_install_tracking2.png)
 

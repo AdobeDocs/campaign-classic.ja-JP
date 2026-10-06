@@ -4,13 +4,19 @@ title: パーソナライゼーションとプライバシー
 description: プライバシーとパーソナライゼーションのセキュリティに関するベストプラクティス
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-TQID: https://experienceleague.adobe.com/8u-ItsbouC0wIsamVYfyzQR1o-z-jY90Z3pKem-yarc
+TQID: 'https://experienceleague.adobe.com/8u-ItsbouC0wIsamVYfyzQR1o-z-jY90Z3pKem-yarc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: ac72e249-ebbf-4bb6-96c9-596af925419a
     internal-label: Privacy tools
@@ -18,6 +24,10 @@ subfeature_v2:
     internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
     internal-label: Security
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: f55cfb22-471c-4161-8ea1-12868351e460
+    internal-label: URL personalization
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -31,7 +41,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 28%
@@ -75,11 +85,11 @@ ht-degree: 28%
 >
 >形式が正しくない署名済みURLをクリックすると、このエラーが返されます：`Requested URL '…' was not found.`
 
-さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知の配信やアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL署名を無効にすることをお勧めします。
 
-Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 ハイブリッドアーキテクチャでCampaignを実行している場合は、URL署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
@@ -113,7 +123,7 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 
 1. Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** フォルダーを参照します。
 
-1. スキーマ **の**&#x200B;拡張機能として、データスキーマを作成します。
+1. スキーマ ]**の**[!UICONTROL &#x200B;拡張機能として、データスキーマを作成します。
 
    ![](assets/privacy-data-restriction.png)
 
@@ -195,7 +205,7 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
    *Disallow: /
    ```
 
-   IISについては、[このページ &#x200B;](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
+   IISについては、[このページ ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
 
    Apacheの場合は、**/var/www/robots.txt** （Debian）にファイルを配置できます。
 
@@ -208,4 +218,4 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 
 ## プライバシーリクエスト
 
-Adobe Campaignのプライバシー管理と実装の手順について詳しくは、[このページ &#x200B;](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスおよびペルソナの概要についても説明します。
+Adobe Campaignのプライバシー管理と実装の手順について詳しくは、[このページ ](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスおよびペルソナの概要についても説明します。

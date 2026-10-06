@@ -6,15 +6,26 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-TQID: https://experienceleague.adobe.com/r3qtW9ZsCD85N9qAnN1EOje-VMhDoyPuqea2xZnBWLs
+TQID: 'https://experienceleague.adobe.com/r3qtW9ZsCD85N9qAnN1EOje-VMhDoyPuqea2xZnBWLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,10 +37,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2269'
 ht-degree: 100%
@@ -42,7 +50,7 @@ ht-degree: 100%
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)にお問い合わせください。
 
 ## インフラストラクチャへの影響
 
@@ -72,7 +80,7 @@ ht-degree: 100%
 
 * **移行後の問題に対処するために、どのようなプランがありますか？**
 
-  実稼働システムを移行する前に、広範なテストを実施します。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。 アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
+  実稼働システムを移行する前に、広範なテストを実施します。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)が引き続き連絡窓口となります。 アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
 
 ## 配信品質への影響
 
@@ -118,7 +126,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
   まず第一に、アドビの担当部署がプラットフォームの配信品質ステータスを評価し、新しい IP への切り替え計画を助言します。
 
-  移行後にウォームアップを行う必要はありません。 例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
+  移行後にウォームアップを行う必要はありません。 例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)からお客様に連絡いたします。
 
   ただし、稼動時に行われる最初のランプアップとは異なり、この計画は、この操作をビジネスに対して透過的なものにするためのものです。
 

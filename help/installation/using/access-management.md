@@ -4,10 +4,22 @@ title: アクセス管理
 description: アクセス管理のベストプラクティスについて詳しく見る
 feature: Installation, Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
-TQID: https://experienceleague.adobe.com/dbC74X04V5SFr7fWOl1b0-Br-x-jjHFNvMSX9Y6M-JQ
+TQID: 'https://experienceleague.adobe.com/dbC74X04V5SFr7fWOl1b0-Br-x-jjHFNvMSX9Y6M-JQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
@@ -17,9 +29,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 12%
@@ -48,7 +58,7 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
 十分なセキュリティグループを作成して、オペレーターに必要な権限を与え、その他の権限を与えないようにします。
 
-管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール [&#128279;](../../platform/using/access-management.md)への アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
+管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール ](../../platform/using/access-management.md)への[ アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
 
 管理者グループ（または管理者の名前付き権限）に演算子を追加しすぎないようにします。 これらのオペレーターは非常に強力です（すべての SQL 文の実行、サーバーでのコマンドの実行などができます）。
 

@@ -7,13 +7,19 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-TQID: https://experienceleague.adobe.com/zcSKI492m6naLPJ4i-uxfKRESZOjL74tqbsBC9yx-SI
+TQID: 'https://experienceleague.adobe.com/zcSKI492m6naLPJ4i-uxfKRESZOjL74tqbsBC9yx-SI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
@@ -22,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 7%
@@ -75,7 +81,7 @@ ht-degree: 7%
   * 最初にパブリックに公開され、仮想IP アドレス（VIP）上のロードバランサーをトラッキングおよびポイントし、次に2つのフロントタルサーバーに配布されます。
   * 2つ目は、コンソール経由でアクセスするために内部ユーザーに公開され、仮想IP アドレス（VIP）上のロードバランサーを指し、次に2つのアプリケーションサーバーに配布されます。
 
-* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[&#x200B; データベースアクセス &#x200B;](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
+* STMP （25）、DNS （53）、HTTP （80）、HTTPS （443）、SQL （1521 for Oracle、5432 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「[ データベースアクセス ](../../installation/using/network-configuration.md#database-access)」の節を参照してください。
 
 >[!CAUTION]
 >
@@ -112,14 +118,14 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[&#x200B; セクション &#x200B;](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+   >Web モジュールを初めて実行すると、インストールフォルダーの下の&#x200B;**conf** ディレクトリに&#x200B;**config-default.xml**&#x200B;と&#x200B;**serverConf.xml** ファイルが作成されます。 **serverConf.xml**&#x200B;で使用可能なすべてのパラメーターは、この[ セクション ](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
    サーバーを停止するには、**Ctrl+C**&#x200B;を押します。
 
    詳しくは、以下の節を参照してください。
 
-   * Linuxの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windowsの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linuxの場合：[ サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windowsの場合：[ サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 1. 次のコマンドを使用して、**internal** パスワードを変更します。
 
@@ -135,7 +141,7 @@ ht-degree: 7%
 
      ![](assets/install_create_new_connexion.png)
 
-     詳しくは、[&#x200B; インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
+     詳しくは、[ インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
 
      または
 
@@ -145,7 +151,7 @@ ht-degree: 7%
      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
      ```
 
-     詳しくは、[&#x200B; インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
+     詳しくは、[ インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
 
 1. **config-demo.xml** ファイル （前のコマンドで作成され、**config-default.xml** ファイルの横にある）を編集し、**mta** （配信）、**wfserver** （ワークフロー）、**inMail** （リバウンドメール）および&#x200B;**stat** （統計）プロセスが有効であることを確認してから、**アプリ**&#x200B;統計サーバーのアドレスを設定します。
 
@@ -261,8 +267,8 @@ ht-degree: 7%
 
    詳しくは、以下の節を参照してください。
 
-   * Linuxの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
-   * Windowsの場合：[&#x200B; サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
+   * Linuxの場合：[ サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+   * Windowsの場合：[ サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 ### フロントタルサーバーのインストールと設定 {#installing-and-configuring-the-frontal-servers}
 

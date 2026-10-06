@@ -6,18 +6,28 @@ feature: Installation, Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-TQID: https://experienceleague.adobe.com/9pZQYt2gLVR94ZWsw21JCv7CL55KDRyiqocvuS54SbM
+TQID: 'https://experienceleague.adobe.com/9pZQYt2gLVR94ZWsw21JCv7CL55KDRyiqocvuS54SbM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
     internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
     internal-label: Security
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -33,7 +43,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 3%
@@ -46,7 +56,7 @@ Adobe Campaignでは、3つのホスティングモデルから選択でき、�
 
 >[!NOTE]
 >
->Adobeでホストされている環境の場合、メインインストールと設定の手順は、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、Adobeでのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、[このページ &#x200B;](../../installation/using/capability-matrix.md)を参照してください。
+>Adobeでホストされている環境の場合、メインインストールと設定の手順は、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、Adobeでのみ実行できます。 デプロイメントモードの主な違いについて詳しくは、[このページ ](../../installation/using/capability-matrix.md)を参照してください。
 
 ## Managed Services / ホスト型
 
@@ -58,7 +68,7 @@ Adobe Campaignをデプロイできます。as a Managed Service: ユーザー�
 
 * ブランドごとにトラッキングページとミラーページのURLを設定します。 トランザクションメッセージについては、[この節](../../message-center/using/additional-configurations.md#configuring-multibranding)を参照してください。
 * クライアントコンソールをインストールします。[この節](../../installation/using/installing-the-client-console.md)を参照してください。
-* 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
+* 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント ](../../delivery/using/about-deliverability.md)を参照してください。
 * Campaign オプションの設定：この節の[を参照してください](../../installation/using/configuring-campaign-options.md)。
 * CRM コネクタの設定：このセクションについては[を参照してください](../../platform/using/crm-connectors.md)。
 
@@ -70,12 +80,12 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 
 オンプレミス環境のお客様は、Campaign Classicの導入を開始する前に、次の前提条件と推奨事項に注意してください。
 
-* Adobe Campaignでサポートされているシステムとコンポーネントのすべてのバージョンを一覧表示する[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を読んでください。
+* Adobe Campaignでサポートされているシステムとコンポーネントのすべてのバージョンを一覧表示する[互換性マトリックス ](../../rn/using/compatibility-matrix.md)を読んでください。
 * お使いの環境に応じて、「[Windowsの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)」と「[Linuxの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)」をお読みください。
 * データベース エンジン [に関する推奨事項については、この節](../../installation/using/database.md)を参照してください。
 * 必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaign アカウントからアクセスできることを確認します。 [詳細情報](../../installation/using/application-server.md)。
 * 一部のプロセスが他のプロセスと通信したり、LANやインターネットにアクセスしたりする必要があるため、ネットワークを設定します。 つまり、一部のTCP ポートは、これらのプロセスに対してオープンにする必要があります。 ネットワーク構成の要件について[詳細](../../installation/using/network-configuration.md)を確認します。
-* [Campaign セキュリティとプライバシーのチェックリスト &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)をお読みください。
+* [Campaign セキュリティとプライバシーのチェックリスト ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)をお読みください。
 * オンプレミス展開[のハードウェア要件の見積もりに関する一般的なガイドラインについては、この記事](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)を参照してください。
 
 ## ハイブリッド
@@ -90,7 +100,7 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 * ブランドごとにトラッキングページとミラーページのURLを設定します。 トランザクションメッセージについては、[この節](../../message-center/using/additional-configurations.md#configuring-multibranding)を参照してください。
 * クライアントコンソールをインストールします。[この節](../../installation/using/installing-the-client-console.md)を参照してください。
 * 組み込みパッケージをインストールします。このセクションについては[を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
-* 配信品質：[MX ルール &#x200B;](../../installation/using/email-deliverability.md#mx-configuration)と[&#x200B; メール形式](../../installation/using/email-deliverability.md#managing-email-formats)を設定します。 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント &#x200B;](../../delivery/using/about-deliverability.md)を参照してください。
+* 配信品質：[MX ルール ](../../installation/using/email-deliverability.md#mx-configuration)と[ メール形式](../../installation/using/email-deliverability.md#managing-email-formats)を設定します。 配信品質ツールとベストプラクティスについて詳しくは、[詳細ドキュメント ](../../delivery/using/about-deliverability.md)を参照してください。
 * Campaign オプションの設定：この節の[を参照してください](../../installation/using/configuring-campaign-options.md)。
 * 外部データベース （Federated Data Access）を設定します。この節は[を参照してください](../../installation/using/about-fda.md)。
 * CRM コネクタの設定：このセクションについては[を参照してください](../../platform/using/crm-connectors.md)。

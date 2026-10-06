@@ -4,13 +4,21 @@ title: Campaign オンプレミス、ハイブリッド、およびホスト機�
 description: ホスト型デプロイメントとオンプレミス型デプロイメントの主な違いを説明します
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-TQID: https://experienceleague.adobe.com/kHWVPyk02eyH47xBzGgik3fq6BSHGKpDXPMrEuVaYM8
+TQID: 'https://experienceleague.adobe.com/kHWVPyk02eyH47xBzGgik3fq6BSHGKpDXPMrEuVaYM8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 54%
@@ -23,7 +31,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 このページでは、ホスト型（Managed Services）とオンプレミス型デプロイメントの主な違いを示します。 ハイブリッドデプロイメントの詳細は、Adobeがホストし、オンプレミスでホストされている要素によって異なります。
 
-このセクション [&#128279;](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが紹介されています。
+このセクション ](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが[紹介されています。
 
 ## 導入モデルごとの可用性 {#capability-matrix}
 
@@ -49,7 +57,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を参照してください。
+>互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス ](../../rn/using/compatibility-matrix.md)を参照してください。
 >
 
 **関連項目**

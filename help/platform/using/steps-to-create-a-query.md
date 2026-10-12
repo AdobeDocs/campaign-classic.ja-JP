@@ -52,7 +52,7 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 >[!NOTE]
 >
 >* これらの手順はすべて汎用クエリエディターで実行できます。 他のコンテキストでクエリを作成する場合は、一部の手順を省略できます。\
->クエリ アクティビティは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）に表示されます。
+>クエリ アクティビティは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）に表示されます。
 >* クエリとその作成方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}を参照してください。
 
 <!--

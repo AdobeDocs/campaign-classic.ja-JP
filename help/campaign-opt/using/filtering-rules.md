@@ -77,7 +77,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->タイポロジおよびフィルタールールは、「**[!UICONTROL 配信の概要]**」アクティビティのワークフローで使用できます。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>タイポロジおよびフィルタールールは、「**[!UICONTROL 配信の概要]**」アクティビティのワークフローで使用できます。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## フィルタータイポロジの作成と使用 {#creating-and-using-a-filtering-typology}
 

@@ -97,7 +97,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能について、[ ワークフローを使用した自動化](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} （Campaign v8 ドキュメント）ガイドで詳しく説明しています。
+>ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能について、[&#x200B; ワークフローを使用した自動化](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} （Campaign v8 ドキュメント）ガイドで詳しく説明しています。
 
 1 つのキャンペーンに対して複数のターゲティングワークフローを作成できます。 ワークフローを追加するには、次の手順に従います。
 
@@ -250,7 +250,7 @@ ht-degree: 94%
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。 コントロール母集団は、このようなサブセットのひとつです。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。 コントロール母集団は、このようなサブセットのひとつです。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### コントロール母集団としての新しい母集団の使用 {#adding-a-population}
 
@@ -260,7 +260,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Adobe Campaign クエリエディターは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
+>Adobe Campaign クエリエディターは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
 
 
 #### チュートリアルビデオ {#create-email-video}

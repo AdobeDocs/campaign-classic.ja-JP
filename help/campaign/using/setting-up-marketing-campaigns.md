@@ -147,7 +147,7 @@ ht-degree: 98%
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    >[!IMPORTANT]
    >

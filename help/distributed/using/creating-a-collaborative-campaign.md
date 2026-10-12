@@ -93,7 +93,7 @@ ht-degree: 96%
 * **[!UICONTROL 配分のコンテキスト]**：手動で指定。
 * **[!UICONTROL データ配分]**：ローカルエンティティの配分。
 
-**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。 データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。 **[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。 データ配信について詳しくは、[ ワークフロー](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} （Campaign v8 ドキュメント）ガイドを参照してください。
+**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。 データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。 **[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。 データ配信について詳しくは、[&#x200B; ワークフロー](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} （Campaign v8 ドキュメント）ガイドを参照してください。
 
 ![](assets/mkg_dist_data_distribution.png)
 

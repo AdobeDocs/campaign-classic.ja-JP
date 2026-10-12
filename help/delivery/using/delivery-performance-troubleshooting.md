@@ -124,7 +124,7 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 **オンプレミスインストールの場合**、データベースをクリーンアップしてインデックスを再作成します。 データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
-スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。 [このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。 [このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### テクニカルワークフローの監視
 

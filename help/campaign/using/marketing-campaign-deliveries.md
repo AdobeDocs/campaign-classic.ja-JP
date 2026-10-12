@@ -45,7 +45,7 @@ ht-degree: 98%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信を作成 {#creating-deliveries}
 
@@ -83,7 +83,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Campaign パッケージに関連する技術的なワークフローは、[技術ワークフローのリスト ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
+>Campaign パッケージに関連する技術的なワークフローは、[技術ワークフローのリスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
 
 **手順 1 - ファイルの承認**
 
@@ -142,7 +142,7 @@ ht-degree: 98%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-キャンペーンには、レポート、写真、web ページ、図など、様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）に指定できます。 ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
+キャンペーンには、レポート、写真、web ページ、図など、様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）に指定できます。 ドキュメントをキャンペーンにリンクする方法については、[&#128279;](../../campaign/using/marketing-campaign-assets.md)こちらの節を参照してください。
 
 >[!IMPORTANT]
 >

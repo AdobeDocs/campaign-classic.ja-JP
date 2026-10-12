@@ -28,7 +28,7 @@ Adobe Analytics 1.4 API は[提供が終了](https://developer.adobe.com/analyti
 
 >[!CAUTION]
 >
->アップグレードすると、コネクタを強化する2つの組み込み技術ワークフロー（[!UICONTROL webAnalyticsSendMetrics]および[!UICONTROL webAnalyticsGetWebEvents]）が再インポートされます（各機能については、[Web分析ワークフローのリファレンス ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照）。 これらのワークフローに対して行ったカスタマイズは、再度インポートすることで上書きされます。 これらのビルトインワークフローを直接変更することは回避し、代わりに、カスタマイズは別のカスタムワークフローで作成してください。これにより、今後のアップグレードで上書きされることはありません。 また、このアップグレードでは、ビルトイン Analytics JavaScript ファイルも更新されます。カスタムワークフローでこれらのファイルを参照している場合は機能しなくなるので、新しいコードに合わせて適応させる必要があります。
+>アップグレードすると、コネクタを強化する2つの組み込み技術ワークフロー（[!UICONTROL webAnalyticsSendMetrics]および[!UICONTROL webAnalyticsGetWebEvents]）が再インポートされます（各機能については、[Web分析ワークフローのリファレンス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照）。 これらのワークフローに対して行ったカスタマイズは、再度インポートすることで上書きされます。 これらのビルトインワークフローを直接変更することは回避し、代わりに、カスタマイズは別のカスタムワークフローで作成してください。これにより、今後のアップグレードで上書きされることはありません。 また、このアップグレードでは、ビルトイン Analytics JavaScript ファイルも更新されます。カスタムワークフローでこれらのファイルを参照している場合は機能しなくなるので、新しいコードに合わせて適応させる必要があります。
 
 ## 影響の有無 {#are-you-impacted}
 

@@ -162,7 +162,7 @@ ht-degree: 98%
 
 ![](assets/int_offerengine_activity2.png)
 
-クエリを設定した後（[ ワークフローガイド ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照）:
+クエリを設定した後（[&#x200B; ワークフローガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照）:
 
 1. 「**[!UICONTROL オファーエンジン]**」アクティビティを追加し、開きます。
 1. 使用可能な各種フィールドに入力して、オファーエンジンパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファー数）への呼び出しを指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。

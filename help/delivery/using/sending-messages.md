@@ -58,8 +58,8 @@ ht-degree: 100%
 
 次の節では、メール配信に固有の設定について詳しく説明します。
 <!--
-* [Generating the mirror page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
-* [Email BCC](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
+* [Generating the mirror page](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [メールパラメーター](email-parameters.md)
 * [MTA 強化機能を使用したメールの送信](sending-with-enhanced-mta.md)

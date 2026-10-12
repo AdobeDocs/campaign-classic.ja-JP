@@ -232,7 +232,7 @@ ht-degree: 98%
 
 このノードから、新しいルールを作成し、新しいタイポロジを定義できます。 ただし、これらのタスクは JavaScript の知識があるエキスパートユーザー向けに用意されています。
 
-タイポロジルールについて詳しくは、[このページ ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+タイポロジルールについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 現在のタイポロジを編集するには、「**[!UICONTROL タイポロジ]**」フィールドの右にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックします。
 
@@ -244,7 +244,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->**[!UICONTROL 判別]**&#x200B;タイプのタイポロジは、営業頻度管理のフレームワーク内で使用します。 詳しくは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>**[!UICONTROL 判別]**&#x200B;タイプのタイポロジは、営業頻度管理のフレームワーク内で使用します。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 承認モードの変更 {#changing-the-approval-mode}
 

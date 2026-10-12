@@ -105,7 +105,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 コントロールを互いに相対的に配置する作業は、HTML テーブルで使用される配置に似ています。1 つのコントロールを複数の列に分割したり、複数の要素を組み合わせたり、空きスペースの占有を指定したりできます。 ただし、書式設定で許可されているのは割合の記述のみです。オブジェクトの固定寸法は指定できません。
 
-詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## リストタイプのコントロール {#list-type-controls}
 
@@ -226,4 +226,4 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form13.png)
 
-[ フォームの編集](../../configuration/using/editing-forms.md)および[ フォーム構造](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}について詳しく説明します（Campaign v8 ドキュメント）。
+[&#x200B; フォームの編集](../../configuration/using/editing-forms.md)および[&#x200B; フォーム構造](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}について詳しく説明します（Campaign v8 ドキュメント）。

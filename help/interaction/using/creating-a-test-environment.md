@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->この環境作成方法は、テスト環境にのみ使用できます。 その他の場合は、ターゲットマッピングアシスタントを使用します。 詳しくは、[ オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>この環境作成方法は、テスト環境にのみ使用できます。 その他の場合は、ターゲットマッピングアシスタントを使用します。 詳しくは、[&#x200B; オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. Adobe Campaign エクスプローラーを起動し、インスタンスのルートに移動します。
 1. 右クリックし、ドロップダウンメニューを使用して「**[!UICONTROL 汎用フォルダー]**」を追加します。

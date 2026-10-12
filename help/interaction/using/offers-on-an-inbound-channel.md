@@ -47,7 +47,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### 匿名環境の作成 {#creating-an-anonymous-environment}
 
-[ オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）で説明されている手順に従って、**訪問者**&#39;のディメンションに基づいて匿名環境を作成します。
+[&#x200B; オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）で説明されている手順に従って、**訪問者**&#39;のディメンションに基づいて匿名環境を作成します。
 
 新しい環境を格納したツリー構造ができます。
 
@@ -147,7 +147,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[ インバウンドチャネルについて](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 
@@ -211,7 +211,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 ### 匿名連絡先向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
 
-1. 配信マッピングアシスタントで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。 詳しくは、[ オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. 配信マッピングアシスタントで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。 詳しくは、[&#x200B; オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ![](assets/offer_env_anonymous_003.png)
 

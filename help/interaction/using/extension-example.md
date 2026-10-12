@@ -49,4 +49,4 @@ ht-degree: 85%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAPを介した統合（サーバーサイド） ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAPを介した統合（サーバーサイド） &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

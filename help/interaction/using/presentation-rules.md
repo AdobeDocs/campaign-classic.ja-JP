@@ -113,7 +113,7 @@ ht-degree: 95%
 
    ![](assets/offer_typology_example_016.png)
 
-1. メッセージの本文にオファーを挿入し、配信を送信します。 詳しくは、[ アウトバウンドチャネルについて](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. メッセージの本文にオファーを挿入し、配信を送信します。 詳しくは、[&#x200B; アウトバウンドチャネルについて](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    受信者に、実施要件を満たすオファーが届きます。
 

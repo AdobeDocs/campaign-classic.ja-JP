@@ -87,7 +87,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->標準以外のテーブルを使用することもできます。 特定のターゲティングディメンションを使用する場合、ターゲットマッピングを使用したテーブルおよび専用の環境を作成する必要があります。 詳しくは、[ オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>標準以外のテーブルを使用することもできます。 特定のターゲティングディメンションを使用する場合、ターゲットマッピングを使用したテーブルおよび専用の環境を作成する必要があります。 詳しくは、[&#x200B; オファー環境の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### 期間 {#period}
 

@@ -99,7 +99,7 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 **オンプレミスインストールの場合**、次の監視ツールを使用できます。
 
-* **[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* **[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 * 各配信は、異なるインターネットサービスプロバイダー（ISP）に関するブロードキャスト統計情報レポートを生成します。 配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
   * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。 この数は 2％未満にする必要があります。
   * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。 任意の ISP に対して、この値を 10％以下にする必要があります。
@@ -110,7 +110,7 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 **オンプレミスインストールの場合**、配信品質の監視に関する追加のガイドラインを以下に示します。
 
-* プラットフォーム全体の[配信スループット ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を定期的に確認して、元のセットアップと一致しているかどうかを確認します。
+* プラットフォーム全体の[配信スループット &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を定期的に確認して、元のセットアップと一致しているかどうかを確認します。
 * 配信テンプレートで[再試行](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](delivery-failures-quarantine.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
 * [配信ダッシュボード](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。

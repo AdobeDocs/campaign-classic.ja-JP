@@ -135,7 +135,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL オファーマネージャー]**
 
-   このグループのオペレーターは、オファーの作成および管理をおこなえます。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   このグループのオペレーターは、オファーの作成および管理をおこなえます。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
    このグループには以下のネームド権限が設定されています。
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。

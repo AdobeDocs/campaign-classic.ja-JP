@@ -98,7 +98,7 @@ ht-degree: 91%
 
 ### 検証プロセスの実行
 
-Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。 キャンペーンの各種プロセス（ターゲティング、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。 ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。 詳しくは、この節](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} （Campaign v8 ドキュメント）を参照してください。[
+Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。 キャンペーンの各種プロセス（ターゲティング、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。 ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。 詳しくは、この節[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### ウェーブの使用
 
@@ -126,7 +126,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 * IPAffinity 要素ごとに、使用可能な IP アドレスを宣言します。 [詳細情報](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* 選択した[ タイポロジ ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）で、**[!UICONTROL IP アドレスを持つアフィニティの管理]** フィールドを使用して、配信を、そのアフィニティを管理する配信サーバー（MTA）にリンクします。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} （Campaign v8 ドキュメント）。
+* 選択した[&#x200B; タイポロジ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）で、**[!UICONTROL IP アドレスを持つアフィニティの管理]** フィールドを使用して、配信を、そのアフィニティを管理する配信サーバー（MTA）にリンクします。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} （Campaign v8 ドキュメント）。
 
 * メールを送信したら、配信の送信元 IP アドレスをヘッダーで確認します。 ヘッダー情報はメール管理者から入手できます。
 

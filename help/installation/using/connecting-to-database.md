@@ -126,4 +126,4 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Adobe Campaignでのスキーマの作成と新しいデータマッピングの定義について詳しくは、[このページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Adobe Campaignでのスキーマの作成と新しいデータマッピングの定義について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

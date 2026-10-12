@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 100%
+source-wordcount: '1128'
+ht-degree: 95%
 ---
 # パーソナライゼーションフィールド{#personalization-fields}
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。 このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。 詳しくは、[この節](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
+   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。 このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 
@@ -119,8 +119,8 @@ ht-degree: 100%
 このオプションを使用するには、以下の手順に従います。
 
 1. キャンペーンを作成します。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target=_blank}を参照してください。
-1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
-1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。 このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。 このアクティビティの使用について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 分析]**」タブで、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」オプションを選択します。
 
    ![](assets/perso_optimization.png)
@@ -173,6 +173,6 @@ ht-degree: 100%
 
 パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27465?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

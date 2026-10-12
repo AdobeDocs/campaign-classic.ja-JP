@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2298'
 ht-degree: 100%
 ---
 
@@ -363,124 +363,6 @@ ht-degree: 100%
     + {hide-from-toc}[Web アプリケーションの同期 - 非表示](integrations/using/synchronizing-web-applications.md)
     + {hide-from-toc}[ [!DNL ACS Connector]  のトラブルシューティング - 非表示](integrations/using/troubleshooting-the-acs-connector.md)
 + [ワークフローを使用した自動化](workflow/using/about-workflows.md)
-+ ワークフローを使用した自動化 {#automating-with-workflows}
-  + ワークフローの基本を学ぶ {#introduction}
-    + {hide-from-toc}[アクティビティについて - 非表示](workflow/using/about-activities.md)
-    + {hide-from-toc}[ワークフローの作成 - 非表示](workflow/using/building-a-workflow.md)
-    + {hide-from-toc}[ターゲットデータ - 非表示](workflow/using/targeting-data.md)
-    + {hide-from-toc}[ワークフローデータの使用 - 非表示](workflow/using/how-to-use-workflow-data.md)
-    + {hide-from-toc}[ワークフローのベストプラクティス - 非表示](workflow/using/workflow-best-practices.md)
-  + ワークフローの実行 {#executing-a-workflow}
-    + {hide-from-toc}[ワークフローの開始 - 非表示](workflow/using/starting-a-workflow.md)
-    + {hide-from-toc}[ワークフローのライフサイクル - 非表示](workflow/using/workflow-life-cycle.md)
-    + {hide-from-toc}[データのライフサイクル - 非表示](workflow/using/data-life-cycle.md)
-    + {hide-from-toc}[承認の定義 - 非表示](workflow/using/defining-approvals.md)
-    + {hide-from-toc}[アーキテクチャ - 非表示](workflow/using/architecture.md)
-  + ターゲティングアクティビティ {#targeting-activities}
-    + {hide-from-toc}[ターゲティングアクティビティについて - 非表示](workflow/using/about-targeting-activities.md)
-    + {hide-from-toc}[クエリ - 非表示](workflow/using/query.md)
-    + {hide-from-toc}[増分処理クエリ - 非表示](workflow/using/incremental-query.md)
-    + {hide-from-toc}[リスト読み込み - 非表示](workflow/using/read-list.md)
-    + {hide-from-toc}[和集合 - 非表示](workflow/using/union.md)
-    + {hide-from-toc}[積集合 - 非表示](workflow/using/intersection.md)
-    + {hide-from-toc}[除外 - 非表示](workflow/using/exclusion.md)
-    + {hide-from-toc}[分割 - 非表示](workflow/using/split.md)
-    + {hide-from-toc}[セル - 非表示](workflow/using/cells.md)
-    + {hide-from-toc}[オファー（セル別）- 非表示](workflow/using/offers-by-cell.md)
-    + {hide-from-toc}[配信の概要 - 非表示](workflow/using/delivery-outline.md)
-    + {hide-from-toc}[エンリッチメント - 非表示](workflow/using/enrichment.md)
-    + {hide-from-toc}[スキーマの編集 - 非表示](workflow/using/edit-schema.md)
-    + {hide-from-toc}[オファーエンジン - 非表示](workflow/using/offer-engine.md)
-    + {hide-from-toc}[重複排除 - 重複 - 非表示](workflow/using/deduplication.md)
-    + {hide-from-toc}[ディメンションを変更 - 非表示](workflow/using/change-dimension.md)
-    + {hide-from-toc}[リストの更新 - 非表示](workflow/using/list-update.md)
-    + {hide-from-toc}[購読サービス - 非表示](workflow/using/subscription-services.md)
-    + {hide-from-toc}[データの更新 - 非表示](workflow/using/update-data.md)
-    + {hide-from-toc}[CRM コネクタ - 非表示](workflow/using/crm-connector.md)
-    + {hide-from-toc}[データソースの変更 - 非表示](workflow/using/change-data-source.md)
-  + フロー制御アクティビティ {#flow-control-activities}
-    + {hide-from-toc}[フロー制御アクティビティについて - 非表示](workflow/using/about-flow-control-activities.md)
-    + {hide-from-toc}[開始と終了 - 非表示](workflow/using/start-and-end.md)
-    + {hide-from-toc}[分岐 - 非表示](workflow/using/fork.md)
-    + {hide-from-toc}[AND 結合 - 非表示](workflow/using/and-join.md)
-    + {hide-from-toc}[スケジューラー - 非表示](workflow/using/scheduler.md)
-    + {hide-from-toc}[テスト - 非表示](workflow/using/test.md)
-    + {hide-from-toc}[待機 - 非表示](workflow/using/wait.md)
-    + {hide-from-toc}[時間制約 - 非表示](workflow/using/time-constraint.md)
-    + {hide-from-toc}[サブワークフロー - 非表示](workflow/using/sub-workflow.md)
-    + {hide-from-toc}[ジャンプ（開始ポイントと終了ポイント - 非表示）](workflow/using/jump-start-point-and-end-point.md)
-    + {hide-from-toc}[外部信号 - 非表示](workflow/using/external-signal.md)
-    + {hide-from-toc}[承認 - 非表示](workflow/using/approval.md)
-    + {hide-from-toc}[アラート - 非表示](workflow/using/alert.md)
-    + {hide-from-toc}[タスク - 非表示](workflow/using/task.md)
-  + アクションアクティビティ {#action-activities}
-    + {hide-from-toc}[アクションアクティビティについて - 非表示](workflow/using/about-action-activities.md)
-    + {hide-from-toc}[配信 - 非表示](workflow/using/delivery.md)
-    + {hide-from-toc}[配信コントロール - 非表示](workflow/using/delivery-control.md)
-    + {hide-from-toc}[連続配信 - 非表示](workflow/using/continuous-delivery.md)
-    + {hide-from-toc}[繰り返し配信 - 非表示](workflow/using/recurring-delivery.md)
-    + {hide-from-toc}[クロスチャネル配信 - 非表示](workflow/using/cross-channel-deliveries.md)
-    + {hide-from-toc}[ローカルの承認 - 非表示](workflow/using/local-approval.md)
-    + {hide-from-toc}[データ読み込み（RDBMS）- 非表示](workflow/using/data-loading-rdbms.md)
-    + {hide-from-toc}[読み込み中（SOAP）- 非表示](workflow/using/loading-soap.md)
-    + {hide-from-toc}[データ読み込み（ファイル）- 非表示](workflow/using/data-loading-file.md)
-    + {hide-from-toc}[コンテンツ管理 - 非表示](workflow/using/content-management.md)
-    + {hide-from-toc}[データ抽出（ファイル）- 非表示](workflow/using/extraction-file.md)
-    + {hide-from-toc}[SQL コードと JavaScript コード - 非表示](workflow/using/sql-code-and-javascript-code.md)
-    + {hide-from-toc}[SQL データ管理 - 非表示](workflow/using/sql-data-management.md)
-    + {hide-from-toc}[Nlserver モジュール - 非表示](workflow/using/nlserver-module.md)
-    + {hide-from-toc}[集計の更新 - 非表示](workflow/using/update-aggregate.md)
-  + イベントアクティビティ {#event-activities}
-    + {hide-from-toc}[イベントアクティビティについて - 非表示](workflow/using/about-event-activities.md)
-    + {hide-from-toc}[ファイルコレクター - 非表示](workflow/using/file-collector.md)
-    + {hide-from-toc}[ファイルの転送 - 非表示](workflow/using/file-transfer.md)
-    + {hide-from-toc}[Web ダウンロード - 非表示](workflow/using/web-download.md)
-    + {hide-from-toc}[インバウンドメール - 非表示](workflow/using/inbound-emails.md)
-    + {hide-from-toc}[インバウンド SMS - 非表示](workflow/using/inbound-sms.md)
-  + ユースケース {#use-cases}
-    + {hide-from-toc}[ワークフローのユースケースについて - 非表示](workflow/using/about-workflow-use-cases.md)
-    + 配信 {#deliveries}
-      + {hide-from-toc}[ローカルの承認アクティビティの使用 - 非表示](workflow/using/using-the-local-approval-activity.md)
-      + {hide-from-toc}[誕生日メールの送信 - 非表示](workflow/using/sending-a-birthday-email.md)
-      + {hide-from-toc}[配信コンテンツの読み込み - 非表示](workflow/using/loading-delivery-content.md)
-      + {hide-from-toc}[クロスチャネル配信ワークフロー - 非表示](workflow/using/cross-channel-delivery-workflow.md)
-      + {hide-from-toc}[カスタム日付フィールドを使用したメールエンリッチメント - 非表示](workflow/using/email-enrichment-with-custom-date-fields.md)
-  + 監視 {#monitoring}
-    + {hide-from-toc}[リストへのレポートの送信 - 非表示](workflow/using/sending-a-report-to-a-list.md)
-    + {hide-from-toc}[ワークフローの監視 - 非表示](workflow/using/supervising-workflows.md)
-    + {hide-from-toc}[オペレーターへのパーソナライズされたアラートの送信 - 非表示](workflow/using/sending-personalized-alerts-to-operators.md)
-  + データ管理 {#data-management}
-    + {hide-from-toc}[データ更新の調整 - 非表示](workflow/using/coordinating-data-updates.md)
-    + {hide-from-toc}[概要リストの作成 - 非表示](workflow/using/creating-a-summary-list.md)
-    + {hide-from-toc}[データのエンリッチメント - 非表示](workflow/using/enriching-data.md)
-    + {hide-from-toc}[集計の使用 - 非表示](workflow/using/using-aggregates.md)
-    + {hide-from-toc}[重複の除外アクティビティの結合機能の使用 - 非表示](workflow/using/deduplication-merge.md)
-    + {hide-from-toc}[繰り返しインポートワークフローの設定 - 非表示](workflow/using/recurring-import-workflow.md)
-  + クエリの設計 {#designing-queries}
-    + {hide-from-toc}[増分処理クエリを使用した四半期ごとのリストの更新 - 非表示](workflow/using/quarterly-list-update.md)
-  + クエリとフィルター {#query-and-filter-hidden}
-    + {hide-from-toc}[受信者テーブルのクエリ - 非表示](workflow/using/querying-recipient-table.md)
-    + {hide-from-toc}[配信情報のクエリ - 非表示](workflow/using/querying-delivery-information.md)
-    + {hide-from-toc}[集計計算の実行 - 非表示](workflow/using/performing-aggregate-computing.md)
-    + {hide-from-toc}[グループ化管理を使用したクエリ - 非表示](workflow/using/querying-using-grouping-management.md)
-    + {hide-from-toc}[多対多関係を使用したクエリ - 非表示](workflow/using/querying-using-many-to-many-relationship.md)
-    + {hide-from-toc}[定義済みリストタイプ計算フィールドの追加 - 非表示](workflow/using/adding-enumeration-type-calculated-field.md)
-    + {hide-from-toc}[フィルターの作成 - 非表示](workflow/using/creating-a-filter.md)
-    + {hide-from-toc}[重複した受信者のフィルタリング - 非表示](workflow/using/filtering-duplicated-recipients.md)
-  + ワークフローの監視 {#monitoring-workflows}
-    + {hide-from-toc}[ワークフロー実行の監視 - 非表示](workflow/using/monitoring-workflow-execution.md)
-    + {hide-from-toc}[テクニカルワークフローの監視 - 非表示](workflow/using/monitoring-technical-workflows.md)
-    + {hide-from-toc}[ワークフローヒートマップ - 非表示](workflow/using/heatmap.md)
-  + 高度な管理 {#advanced-management}
-    + {hide-from-toc}[ワークフローのプロパティ - 非表示](workflow/using/workflow-properties.md)
-    + {hide-from-toc}[詳細設定パラメーター - 非表示](workflow/using/advanced-parameters.md)
-    + {hide-from-toc}[JavaScript のスクリプトとテンプレート - 非表示](workflow/using/javascript-scripts-and-templates.md)
-    + {hide-from-toc}[ワークフローでの JavaScript コードの例 - 非表示](workflow/using/javascript-in-workflows.md)
-    + {hide-from-toc}[外部データベースへのアクセス - 非表示](workflow/using/accessing-an-external-database-fda.md)
-    + {hide-from-toc}[権限の管理 - 非表示](workflow/using/managing-rights.md)
-    + {hide-from-toc}[アクティビティ画像の変更 - 非表示](workflow/using/managing-activity-images.md)
-    + {hide-from-toc}[タイムゾーンの管理 - 非表示](workflow/using/managing-time-zones.md)
-    + {hide-from-toc}[テクニカルワークフロー - 非表示](workflow/using/about-technical-workflows.md)
 + オファーの管理 {#managing-offers}
   + インタラクションの基本を学ぶ {#interaction-overview}
     + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)

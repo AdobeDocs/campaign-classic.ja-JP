@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '3540'
-ht-degree: 100%
+source-wordcount: '3570'
+ht-degree: 99%
 ---
 # 頻度ルール{#pressure-rules}
 
@@ -364,8 +364,8 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 次に、頻度ルールを適用するそれぞれの配信のワークフローを作成して設定します。
 
 1. キャンペーンを作成します。 詳しくは、[この節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください。
-1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
-1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。 このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。 このアクティビティの使用について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 承認]**」タブに移動し、すべての承認を無効にします。
 
    ![](assets/campaign_opt_pressure_example_2.png)

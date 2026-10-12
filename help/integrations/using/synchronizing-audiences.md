@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 100%
+source-wordcount: '1253'
+ht-degree: 97%
 ---
 # オーディエンスの同期{#synchronizing-audiences}
 
@@ -89,7 +89,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
    ![](assets/acs_connect_query1.png)
 
-1. クエリ内で追加データを追加します。 詳しくは、[データの追加](../../workflow/using/query.md#adding-data)の節を参照してください。
+1. クエリ内で追加データを追加します。 詳しくは、「[ データの追加](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} （Campaign v8 ドキュメント）」の節を参照してください。
 
    この例では、受信者が 1 年間に受け取った配信数の集計を追加する方法を示します。
 

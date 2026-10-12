@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 100%
+source-wordcount: '1675'
+ht-degree: 94%
 ---
 # キャンペーンのオーディエンスの選択 {#marketing-campaign-deliveries}
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-ワークフロー内に 1 つ以上のクエリを配置して、ターゲット母集団を Adobe Campaign データベースから抽出します。 クエリを作成する方法について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
+ワークフロー内に 1 つ以上のクエリを配置して、ターゲット母集団を Adobe Campaign データベースから抽出します。 クエリの構築方法については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 クエリを開始し、「和集合」、「積集合」、「共有」、「除外」などのボックスを介して母集団を共有できます。
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->クエリを定義するための例と手順について詳しくは、[この節](../../workflow/using/query.md)で説明しています。
+>クエリを定義する例と手順については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 エディターの左側には、アクティビティを表すグラフィカルなオブジェクトのライブラリがあります。 最初のタブにはターゲティングアクティビティが含まれ、2 番目のタブにはフロー制御アクティビティが含まれています。フロー制御アクティビティは、ターゲティングアクティビティの調整に使用する場合があります。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能については、[ワークフローによる自動化](../../workflow/using/architecture.md)ガイドで詳しく説明しています。
+>ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能について、[ ワークフローを使用した自動化](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} （Campaign v8 ドキュメント）ガイドで詳しく説明しています。
 
 1 つのキャンペーンに対して複数のターゲティングワークフローを作成できます。 ワークフローを追加するには、次の手順に従います。
 
@@ -250,7 +250,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。 コントロール母集団は、このようなサブセットのひとつです。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
+この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。 コントロール母集団は、このようなサブセットのひとつです。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### コントロール母集団としての新しい母集団の使用 {#adding-a-population}
 
@@ -260,13 +260,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Campaign クエリエディターについては、[この節](../../workflow/using/query.md)を参照してください。
+>Adobe Campaign クエリエディターは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
 
 
 #### チュートリアルビデオ {#create-email-video}
 
 このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27489?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

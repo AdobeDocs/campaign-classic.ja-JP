@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 98%
 ---
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->キャンペーンパッケージに関連するテクニカルワークフローは、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
+>Campaign パッケージに関連する技術的なワークフローは、[技術ワークフローのリスト ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）に記載されています。
 
 **手順 1 - ファイルの承認**
 
@@ -263,7 +263,7 @@ ht-degree: 100%
 
 このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27489?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

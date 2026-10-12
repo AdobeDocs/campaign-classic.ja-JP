@@ -36,16 +36,16 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 100%
+source-wordcount: '1644'
+ht-degree: 97%
 ---
 # Campaign と CRM の間のデータ同期 {#data-synchronization}
 
 
 
-Adobe Campaign と CRM の間の同期は、専用のワークフローアクティビティである「[CRM コネクタ](../../workflow/using/crm-connector.md)」で実行されます。
+Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティ [CRM コネクタ ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}を介して実行されます（Campaign v8 ドキュメント）。
 
 Microsoft Dynamics データを Adobe Campaign にインポートするには、次のタイプのワークフローを作成します。
 

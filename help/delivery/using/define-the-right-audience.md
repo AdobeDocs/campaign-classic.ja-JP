@@ -36,10 +36,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 92%
 ---
 # 適切なオーディエンスの定義 {#define-the-right-audience}
 
@@ -92,8 +92,8 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 **関連トピック：**
 
-* [重複排除 - 重複アクティビティ](../../workflow/using/deduplication.md)。
-* [使用例：重複排除アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
+* [重複排除アクティビティ ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} （Campaign v8 ドキュメント）。
+* [ ユースケース：重複排除アクティビティの結合機能の使用](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} （Campaign v8 ドキュメント）
 
 ## メールアドレスのインデックス作成 {#index-addresses}
 

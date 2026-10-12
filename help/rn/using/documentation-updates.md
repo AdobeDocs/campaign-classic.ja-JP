@@ -31,10 +31,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 88%
 ---
 # ドキュメントの更新{#documentation-updates}
 
@@ -65,15 +65,15 @@ Linux パッケージのインストールが v7.4.1 用に更新されました
 
 7.4.1 の改善点、互換性の更新およびパッチを含むリリースノートの節を更新しました。 [詳細情報](latest-release.md)
 
-ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細情報](../../workflow/using/starting-a-workflow.md)
+ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} （Campaign v8 ドキュメント）
 
 ### 2024年4月 {#apr-2024}
 
 Adobe Identity Management System（IMS）を使用したユーザー作成に関する注意事項が追加されました。 [詳細情報](../../platform/using/access-management.md)
 
-Web ダウンロードワークフローアクティビティに欠落していたオプションが追加されました。 [詳細情報](../../workflow/using/web-download.md)
+Web ダウンロードワークフローアクティビティに欠落していたオプションが追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} （Campaign v8 ドキュメント）
 
-**ディメンションを変更**&#x200B;アクティビティと&#x200B;**データソースを変更**&#x200B;アクティビティに、ワークフローでの使用に関する注意事項が追加されました。 [詳細情報](../../workflow/using/change-data-source.md)
+**ディメンションを変更**&#x200B;アクティビティと&#x200B;**データソースを変更**&#x200B;アクティビティに、ワークフローでの使用に関する注意事項が追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} （Campaign v8 ドキュメント）
 
 ### 2024年3月 {#mar-2024}
 

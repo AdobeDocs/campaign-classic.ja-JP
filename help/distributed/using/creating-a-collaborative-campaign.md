@@ -20,10 +20,10 @@ topic_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
     internal-label: Distributed Marketing
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 96%
 ---
 # 共同キャンペーンの作成{#creating-a-collaborative-campaign-intro}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 * **[!UICONTROL 配分のコンテキスト]**：手動で指定。
 * **[!UICONTROL データ配分]**：ローカルエンティティの配分。
 
-**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。 データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。 **[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。 データ配分について詳しくは、[ワークフロー](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)ガイドを参照してください。
+**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。 データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。 **[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。 データ配信について詳しくは、[ ワークフロー](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} （Campaign v8 ドキュメント）ガイドを参照してください。
 
 ![](assets/mkg_dist_data_distribution.png)
 

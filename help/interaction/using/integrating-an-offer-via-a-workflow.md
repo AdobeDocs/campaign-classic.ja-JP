@@ -25,10 +25,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 100%
+source-wordcount: '1143'
+ht-degree: 98%
 ---
 # ワークフローモード経由でオファーを統合{#integrating-an-offer-via-a-workflow}
 
@@ -162,7 +162,7 @@ ht-degree: 100%
 
 ![](assets/int_offerengine_activity2.png)
 
-クエリを設定（[ワークフローガイド](../../workflow/using/query.md)を参照）してから、次の手順に従います。
+クエリを設定した後（[ ワークフローガイド ](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} （Campaign v8 ドキュメント）を参照）:
 
 1. 「**[!UICONTROL オファーエンジン]**」アクティビティを追加し、開きます。
 1. 使用可能な各種フィールドに入力して、オファーエンジンパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファー数）への呼び出しを指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。

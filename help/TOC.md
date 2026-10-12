@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '1992'
 ht-degree: 100%
 ---
 
@@ -29,7 +29,6 @@ ht-degree: 100%
     + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
   + [互換性マトリックス](rn/using/compatibility-matrix.md)
-  + {hide-from-toc}[ドキュメントの更新 - 非表示](rn/using/documentation-updates.md)
 + はじめに {#getting-started}
   + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
   + [Adobe Campaign のローンチ](platform/using/launching-adobe-campaign.md)
@@ -93,7 +92,6 @@ ht-degree: 100%
     + {hide-from-toc}[Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
     + {hide-from-toc}[Salesforce.com との接続](platform/using/crm-sfdc.md)
     + {hide-from-toc}[CRM とのデータの同期](platform/using/crm-data-sync.md)
-  + {hide-from-toc}[ヘルプとサポートオプション - 非表示](support.md)
 + メッセージの作成と送信 {#sending-messages}
   + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
   + {hide-from-toc}[配信設定 - 非表示](delivery/using/delivery-settings.md)
@@ -208,42 +206,6 @@ ht-degree: 100%
     + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
     + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
 + [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
-+ マーケティングキャンペーンのオーケストレーション {#orchestrating-campaigns}
-  + {hide-from-toc}[キャンペーンの最適化について - 非表示](campaign-opt/using/about-campaign-optimization.md)
-  + マーケティングキャンペーンについて {#about-marketing-campaigns}
-    + {hide-from-toc}[マーケティングキャンペーンの設計 - 非表示](campaign/using/designing-marketing-campaigns.md)
-    + {hide-from-toc}[マーケティングキャンペーンへのアクセス - 非表示](campaign/using/accessing-marketing-campaigns.md)
-  + キャンペーンのオーケストレーション {#orchestrate-campaigns}
-    + {hide-from-toc}[マーケティングキャンペーンの基本を学ぶ - 非表示](campaign/using/setting-up-marketing-campaigns.md)
-    + {hide-from-toc}[テンプレートの作成と設定 - 非表示](campaign/using/marketing-campaign-templates.md)
-    + {hide-from-toc}[配信の追加 - 非表示](campaign/using/marketing-campaign-deliveries.md)
-    + {hide-from-toc}[オーディエンスの選択 - 非表示](campaign/using/marketing-campaign-target.md)
-    + {hide-from-toc}[ドキュメントとアセットの管理 - 非表示](campaign/using/marketing-campaign-assets.md)
-    + {hide-from-toc}[承認の設定と管理 - 非表示](campaign/using/marketing-campaign-approval.md)
-    + {hide-from-toc}[キャンペーンの監視 - 非表示](campaign/using/marketing-campaign-monitoring.md)
-    + {hide-from-toc}[プロバイダー、在庫、予算 - 非表示](campaign/using/providers-stocks-and-budgets.md)
-  + キャンペーンの最適化 {#campaign-optimization}
-    + {hide-from-toc}[キャンペーンタイポロジについて - 非表示](campaign-opt/using/about-campaign-typologies.md)
-    + {hide-from-toc}[頻度ルール - 非表示](campaign-opt/using/pressure-rules.md)
-    + {hide-from-toc}[一貫性ルール - 非表示](campaign-opt/using/consistency-rules.md)
-    + {hide-from-toc}[コントロールルール - 非表示](campaign-opt/using/control-rules.md)
-    + {hide-from-toc}[フィルタリングルール - 非表示](campaign-opt/using/filtering-rules.md)
-    + {hide-from-toc}[ルールの適用 - 非表示](campaign-opt/using/applying-rules.md)
-    + {hide-from-toc}[キャンペーンシミュレーション - 非表示](campaign-opt/using/campaign-simulations.md)
-+ マーケティングリソース管理 {#mrm}
-  + {hide-from-toc}[マーケティングリソース管理について - 非表示](mrm/using/about-marketing-resource-management.md)
-  + {hide-from-toc}[タスクの作成と管理 - 非表示](mrm/using/creating-and-managing-tasks.md)
-  + {hide-from-toc}[コスト管理 - 非表示](mrm/using/controlling-costs.md)
-  + {hide-from-toc}[マーケティングリソースの管理 - 非表示](mrm/using/managing-marketing-resources.md)
-  + {hide-from-toc}[ディスカッションフォーラム - 非表示](mrm/using/discussion-forums.md)
-+ 分散型マーケティング {#distributed-marketing}
-  + {hide-from-toc}[分散型マーケティングについて - 非表示](distributed/using/about-distributed-marketing.md)
-  + {hide-from-toc}[ローカルキャンペーンの作成 - 非表示](distributed/using/creating-a-local-campaign.md)
-  + {hide-from-toc}[協調キャンペーンの作成 - 非表示](distributed/using/creating-a-collaborative-campaign.md)
-  + {hide-from-toc}[キャンペーンパッケージの公開 - 非表示](distributed/using/publishing-the-campaign-package.md)
-  + {hide-from-toc}[キャンペーンへのアクセス - 非表示](distributed/using/accessing-campaigns.md)
-  + {hide-from-toc}[キャンペーンのトラッキング - 非表示](distributed/using/tracking-a-campaign.md)
-  + {hide-from-toc}[ユースケース - 非表示](distributed/using/examples.md)
 + Response Manager {#response-manager}
   + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
   + [設定](response/using/configuration.md)
@@ -252,18 +214,12 @@ ht-degree: 100%
   + [仮説のトラッキング](response/using/hypothesis-tracking.md)
 + レポートの設計と共有 {#reporting}
   + レポートの基本を学ぶ {#reporting-in-adobe-campaign}
-    + [レポートツール](reporting/using/about-adobe-campaign-reporting-tools.md)
     + [レポートのベストプラクティス](reporting/using/best-practices.md)
   + ビルトインレポートへのアクセス {#accessing-built-in-reports}
     + [ビルトインレポートについて](reporting/using/about-campaign-built-in-reports.md)
     + [レポートのリスト](reporting/using/list-of-reports.md)
   + 配信に関するレポート{#reports-on-deliveries}
-    + [配信に関するレポートについて](reporting/using/reports-on-deliveries.md)
-    + [グローバルレポート](reporting/using/global-reports.md)
-    + [配信レポート](reporting/using/delivery-reports.md)
-    + [累積レポート](reporting/using/cumulative-reports.md)
     + [指標の計算](reporting/using/indicator-calculation.md)
-    + [「人」と「受信者」](reporting/using/person-people-recipients.md)
   + 母集団の分析 {#analyzing-populations}
     + [記述的分析とは](reporting/using/about-descriptive-analysis.md)
     + [最初の記述的分析レポートの作成](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -366,22 +322,7 @@ ht-degree: 100%
 + オファーの管理 {#managing-offers}
   + インタラクションの基本を学ぶ {#interaction-overview}
     + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)
-    + [用語集](interaction/using/i-glossary.md)
-    + [インタラクションのベストプラクティス](interaction/using/interaction-best-practices.md)
-  + 運用全般 {#general-operation}
-    + [実装手順](interaction/using/implementation-steps.md)
-    + [基本原則](interaction/using/fundamental-principles.md)
-  + 環境の管理 {#managing-environments}
-    + [環境の概要](interaction/using/environments-overview.md)
-    + [オペレーターのプロファイル](interaction/using/operator-profiles.md)
-    + [ライブ／デザイン環境](interaction/using/live-design-environments.md)
-    + [オファースペースの作成](interaction/using/creating-offer-spaces.md)
-    + [定義済みフィルターの作成](interaction/using/creating-predefined-filters.md)
   + オファーカタログの管理 {#managing-an-offer-catalog}
-    + [オファーカタログの概要](interaction/using/offer-catalog-overview.md)
-    + [オファーカテゴリの作成](interaction/using/creating-offer-categories.md)
-    + [カテゴリのレコメンデーション](interaction/using/recommending-a-category.md)
-    + [オファーの作成](interaction/using/creating-an-offer.md)
     + [オファーの承認と有効化](interaction/using/approving-and-activating-an-offer.md)
     + [オファーテンプレートの管理](interaction/using/managing-offer-templates.md)
     + [オファープレゼンテーションの管理](interaction/using/managing-offer-presentation.md)
@@ -390,18 +331,6 @@ ht-degree: 100%
     + [実行設定](interaction/using/execution-settings.md)
     + [シミュレーションのスコープ](interaction/using/simulation-scope.md)
     + [シミュレーションのトラッキング](interaction/using/simulation-tracking.md)
-  + オファーの配信 {#delivering-an-offer}
-    + [アウトバウンドチャネルについて](interaction/using/about-outbound-channels.md)
-    + [アシスタントを使用したオファーの統合](interaction/using/integrating-an-offer-via-the-wizard.md)
-    + [ワークフローを使用したオファーの統合](interaction/using/integrating-an-offer-via-a-workflow.md)
-  + 単一インタラクション {#unitary-interactions}
-    + [インバウンドチャネルについて](interaction/using/about-inbound-channels.md)
-    + [JavaScript による統合（クライアントサイド）](interaction/using/integration-via-javascript-client-side.md)
-    + [SOAP によるた統合（サーバーサイド）](interaction/using/integration-via-soap-server-side.md)
-    + [匿名のインタラクション](interaction/using/anonymous-interactions.md)
-  + オファーのトラッキング {#tracking-offers}
-    + [オファーの提案履歴](interaction/using/offer-proposition-history.md)
-    + [オファー分析レポート](interaction/using/offer-analysis-report.md)
   + 詳細設定パラメーター {#advanced-parameters}
     + [詳細設定パラメーターの使用](interaction/using/using-advanced-parameters.md)
     + [追加データ](interaction/using/additional-data.md)
@@ -421,19 +350,7 @@ ht-degree: 100%
     + [インスタンスの設定](message-center/using/configuring-instances.md)
     + [その他の設定](message-center/using/additional-configurations.md)
   + メッセージテンプレート {#message-templates}
-    + [イベントタイプの作成](message-center/using/creating-event-types.md)
-    + [メッセージテンプレートのデザイン](message-center/using/creating-the-message-template.md)
     + [メッセージテンプレートのテスト](message-center/using/testing-message-templates.md)
-    + [メッセージテンプレートの公開](message-center/using/publishing-message-templates.md)
-  + トランザクションイベント処理 {#processing}
-    + [イベントの説明](message-center/using/event-description.md)
-    + [イベントの処理](message-center/using/about-event-processing.md)
-    + [配信の実行](message-center/using/delivery-execution.md)
-  + レポート {#reports}
-    + [トランザクションメッセージレポートへのアクセス](message-center/using/about-transactional-messaging-reports.md)
-    + [Message Center のイベント履歴](message-center/using/history-of-message-center-events.md)
-    + [Message Center のサービスレベル](message-center/using/message-center-service-level.md)
-    + [Message Center の処理時間](message-center/using/message-center-processing-time.md)
   + [ユースケース](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
   + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
@@ -591,7 +508,6 @@ ht-degree: 100%
 + 開発者ガイド {#configuring-campaign-classic}
   + [データパッケージ](platform/using/working-with-data-packages.md)
   + データモデル {#data-model}
-    + [データモデルについて](configuration/using/about-data-model.md)
     + [データモデルの説明](configuration/using/data-model-description.md)
     + [ベストプラクティス](configuration/using/data-model-best-practices.md)
   + スキーマの操作 {#schema-reference}
@@ -599,7 +515,6 @@ ht-degree: 100%
     + [スキーマの構造](configuration/using/schema-structure.md)
     + [データベースマッピング](configuration/using/database-mapping.md)
     + [鍵の管理](configuration/using/database-keys.md)
-    + [リンク管理](configuration/using/database-links.md)
     + 要素と属性 {#elements-attributes}
       + [はじめに](configuration/using/schema-introduction.md)
       + [属性](configuration/using/schema/attribute.md)
@@ -620,21 +535,15 @@ ht-degree: 100%
       + [Sysfilter](configuration/using/schema/sysfilter.md)
       + [値](configuration/using/schema/value.md)
   + スキーマの編集 {#editing-schemas}
-    + [スキーマエディションについて](configuration/using/about-schema-edition.md)
-    + [データスキーマ](configuration/using/data-schemas.md)
     + [既存のテーブルのスキーマ](configuration/using/schema-of-an-existing-table.md)
     + [スキーマの拡張](configuration/using/extending-a-schema.md)
-    + [フィルタリングスキーマ](configuration/using/filtering-schemas.md)
-    + [PII 表示の制限](configuration/using/restricting-pii-view.md)
     + [データベース構造の更新](configuration/using/updating-the-database-structure.md)
     + [新しいフィールドアシスタント](configuration/using/new-field-wizard.md)
     + [データスキーマの構造](configuration/using/structure-of-a-data-schema.md)
     + [スキーマの再生成](configuration/using/regenerating-schemas.md)
     + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)
   + 入力フォーム {#input-forms}
-    + [フォームの特定](configuration/using/identifying-a-form.md)
     + [フォームの編集](configuration/using/editing-forms.md)
-    + [フォームの構造](configuration/using/form-structure.md)
   + API {#api}
     + [Web サービスについて](configuration/using/about-web-services.md)
     + [Web サービスの呼び出し](configuration/using/web-service-calls.md)
@@ -686,13 +595,11 @@ ht-degree: 100%
     + [テクニカルオペレーターを Developer Console へ移行](technotes/using/ims-migration.md)
     + [IMS 移行後のインターフェイスへの影響](technotes/using/impact-ims-migration.md)
   + アップグレードと互換性{#technote-migration}
-    + {hide-from-toc}[テクニカルノート](technotes/using/technote.md)
     + [Microsoft Edge Chromium の有効化](technotes/using/edge-chromium.md)
     + {hide-from-toc}[新しい配信サーバー](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Apache セキュリティアップグレード](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[2023 年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
     + {hide-from-toc}[IMS の更新](technotes/using/ims-updates.md)
-    + {hide-from-toc}[TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
     + {hide-from-toc}[Adobe Analytics 2.0 API への移行](technotes/using/analytics-2-migration.md)
   + メールとプッシュ通知{#technotes-email}
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)

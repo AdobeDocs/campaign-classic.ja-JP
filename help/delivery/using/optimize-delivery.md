@@ -62,7 +62,7 @@ ht-degree: 96%
 
   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 このドキュメントの[に記載されているガイドラインに従ってください](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} （Campaign v8 ドキュメント）。
+* ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 このドキュメントの[に記載されているガイドラインに従ってください](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} （Campaign v8 ドキュメント）。
 
 * 要件を満たす場合、[Campaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)を利用すると、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用してプラットフォームを監視できます。
 

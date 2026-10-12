@@ -162,7 +162,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * **[!UICONTROL スケジューラー]**&#x200B;アクティビティでは、計算の更新の頻度を定義できます。 スケジューラーについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   * **[!UICONTROL スケジューラー]**&#x200B;アクティビティでは、計算の更新の頻度を定義できます。 スケジューラーについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
    * **[!UICONTROL 集計の更新]**&#x200B;アクティビティでは、適用する更新モード（完全更新または部分的更新）を選択できます。
 
      デフォルトでは、各計算時に完全更新が実行されます。 部分的更新を有効にするには、該当するオプションを選択し、更新の条件を定義します。

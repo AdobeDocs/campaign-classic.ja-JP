@@ -349,7 +349,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->履歴のパージ頻度は、**日の履歴** フィールドで各ワークフローに対して指定されます（デフォルト値は30日）。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>履歴のパージ頻度は、**日の履歴** フィールドで各ワークフローに対して指定されます（デフォルト値は30日）。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. 削除するワークフローのリストを復元するには、次のクエリを使用します。
 

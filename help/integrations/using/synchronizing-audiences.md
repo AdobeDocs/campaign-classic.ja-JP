@@ -89,7 +89,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
    ![](assets/acs_connect_query1.png)
 
-1. クエリ内で追加データを追加します。 詳しくは、「[&#x200B; データの追加](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} （Campaign v8 ドキュメント）」の節を参照してください。
+1. クエリ内で追加データを追加します。 詳しくは、「[&#x200B; データの追加](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} （Campaign v8 ドキュメント）」の節を参照してください。
 
    この例では、受信者が 1 年間に受け取った配信数の集計を追加する方法を示します。
 

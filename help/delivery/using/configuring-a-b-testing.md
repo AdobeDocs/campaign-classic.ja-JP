@@ -44,7 +44,7 @@ ht-degree: 89%
 
 1. 分割アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
-1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL Split]** アクティビティの設定方法について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL Split]** アクティビティの設定方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    この例では、ニュースレター用の 2 つの新しい件名を、それぞれターゲット母集団の 10%に提示して、テストをおこないます。
 

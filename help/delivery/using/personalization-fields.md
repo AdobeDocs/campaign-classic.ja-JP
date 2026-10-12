@@ -104,7 +104,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。 このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。 このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 

@@ -65,15 +65,15 @@ Linux パッケージのインストールが v7.4.1 用に更新されました
 
 7.4.1 の改善点、互換性の更新およびパッチを含むリリースノートの節を更新しました。 [詳細情報](latest-release.md)
 
-ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} （Campaign v8 ドキュメント）
+ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細を読む](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} （Campaign v8 ドキュメント）
 
 ### 2024年4月 {#apr-2024}
 
 Adobe Identity Management System（IMS）を使用したユーザー作成に関する注意事項が追加されました。 [詳細情報](../../platform/using/access-management.md)
 
-Web ダウンロードワークフローアクティビティに欠落していたオプションが追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} （Campaign v8 ドキュメント）
+Web ダウンロードワークフローアクティビティに欠落していたオプションが追加されました。 [詳細を読む](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} （Campaign v8 ドキュメント）
 
-**ディメンションを変更**&#x200B;アクティビティと&#x200B;**データソースを変更**&#x200B;アクティビティに、ワークフローでの使用に関する注意事項が追加されました。 [詳細を読む](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} （Campaign v8 ドキュメント）
+**ディメンションを変更**&#x200B;アクティビティと&#x200B;**データソースを変更**&#x200B;アクティビティに、ワークフローでの使用に関する注意事項が追加されました。 [詳細を読む](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} （Campaign v8 ドキュメント）
 
 ### 2024年3月 {#mar-2024}
 

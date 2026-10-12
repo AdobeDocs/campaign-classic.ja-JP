@@ -45,7 +45,7 @@ ht-degree: 97%
 
 
 
-Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティ [CRM コネクタ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}を介して実行されます（Campaign v8 ドキュメント）。
+Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティ [CRM コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}を介して実行されます（Campaign v8 ドキュメント）。
 
 Microsoft Dynamics データを Adobe Campaign にインポートするには、次のタイプのワークフローを作成します。
 

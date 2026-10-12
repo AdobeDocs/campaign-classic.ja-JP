@@ -92,8 +92,8 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 **関連トピック：**
 
-* [重複排除アクティビティ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} （Campaign v8 ドキュメント）。
-* [&#x200B; ユースケース：重複排除アクティビティの結合機能の使用](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} （Campaign v8 ドキュメント）
+* [重複排除アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} （Campaign v8 ドキュメント）。
+* [&#x200B; ユースケース：重複排除アクティビティの結合機能の使用](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} （Campaign v8 ドキュメント）
 
 ## メールアドレスのインデックス作成 {#index-addresses}
 

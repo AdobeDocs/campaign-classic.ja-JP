@@ -124,7 +124,7 @@ _2021 年 6 月 5 日（PT）_
 <td>
 <p>新しい「<b>データソースを変更</b>」ワークフローアクティビティを使用すると、ワークフローのワークテーブルのデータソースを変更できます。 これにより、様々なデータソース（FDA およびローカルデータベース）にわたってデータ管理の柔軟性が向上します。</p>
 <p>Adobe Campaign ワークフローでは、データは作業用（または一時）テーブルを使用して管理されます。 ワークフローの実行時に、ワークテーブルはワークフローアクティビティ間でデータを共有します。 デフォルトでは、ワークテーブルは、クエリ対象となるデータのソースと同じデータベースに作成されます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
 </td>
 </tr>
 </tbody>

@@ -185,7 +185,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）。
+>デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）。
 >
 >カスタム受信者テーブルの使用方法については、[このページ](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 

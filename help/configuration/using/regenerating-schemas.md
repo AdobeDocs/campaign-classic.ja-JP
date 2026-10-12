@@ -37,7 +37,7 @@ ht-degree: 1%
 1. 右クリックして、**[!UICONTROL アクション / 選択したスキーマを再生成…]**&#x200B;を選択します。
 1. 「**[!UICONTROL OK]**」をクリックして、プロセスを確認し、起動します。
 
-次に、「プレビュー」タブと「ドキュメント」タブで、生成されたスキーマの構造を確認できます。 詳しくは、[原則](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+次に、「プレビュー」タブと「ドキュメント」タブで、生成されたスキーマの構造を確認できます。 詳しくは、[原則](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
 >[!NOTE]
 >

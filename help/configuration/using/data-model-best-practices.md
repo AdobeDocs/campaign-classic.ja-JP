@@ -56,7 +56,7 @@ ht-degree: 53%
 
 Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
-Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 概要 {#overview}
 
@@ -82,7 +82,7 @@ Adobe Campaignのデフォルトのデータモデルは、[このドキュメ�
 
 >[!NOTE]
 >
->Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
+>Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
 
 ### Adobe Campaign 用データ {#data-for-campaign}
 
@@ -185,7 +185,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルに対
 
 デフォルトでは、カスタムシーケンスの値は+1,000～+2.1BBの範囲になります。 技術的には、負のIDを有効にすることで、4BBの全範囲を取得することが可能です。 これは注意して使用する必要があり、負から正の数値に切り替えると1つのIDが失われます。レコード 0は通常、生成されたSQL クエリでAdobe Campaignによって無視されます。
 
-シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
+シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
 
 ## 索引 {#indexes}
 

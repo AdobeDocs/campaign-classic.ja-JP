@@ -87,7 +87,7 @@ ht-degree: 96%
 
 1. SOAP メッセージトリガーを介してメールを送信できます。 SOAP 呼び出しには、URL パラメーター（attachmentURL）があります。
 
-   SOAP リクエストについて詳しくは、[&#x200B; イベントの説明](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   SOAP リクエストについて詳しくは、[&#x200B; イベントの説明](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. メールをデザインするときに、「**[!UICONTROL 添付ファイル]**」をクリックします。
 

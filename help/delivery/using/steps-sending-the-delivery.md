@@ -46,7 +46,7 @@ ht-degree: 98%
 
 ## 権限{#delivery-permissions}
 
-配信を開始できるのは配信所有者だけです。 他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} （Campaign v8 ドキュメント）。
+配信を開始できるのは配信所有者だけです。 他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} （Campaign v8 ドキュメント）。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 

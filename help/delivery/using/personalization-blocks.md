@@ -145,7 +145,7 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
 * **[!UICONTROL ソーシャルネットワーク共有リンク]**：メールクライアント、Facebook、X（旧 Twitter）および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
 * **[!UICONTROL コンテンツメールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルでメールを書式設定するコードを生成します。 これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
-* **[!UICONTROL オファーの受け入れURLを単一モード]**：インタラクションオファーを&#x200B;**[!UICONTROL Accepted]**&#x200B;に設定できるURLを挿入します（[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+* **[!UICONTROL オファーの受け入れURLを単一モード]**：インタラクションオファーを&#x200B;**[!UICONTROL Accepted]**&#x200B;に設定できるURLを挿入します（[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 ## カスタムパーソナライゼーションブロックの定義 {#defining-custom-personalization-blocks}
 

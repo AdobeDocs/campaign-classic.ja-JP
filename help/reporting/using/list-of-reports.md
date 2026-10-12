@@ -45,7 +45,7 @@ ht-degree: 97%
 
 次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+これらのレポートの内容について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 <table> 
  <tbody> 

@@ -150,4 +150,4 @@ Adobe Analytics コネクタの設定に進むには、Adobe Developer Console �
 
 環境をアップグレードしない場合、メール設定の同期は停止されます（MX 管理ルール、インバウンドメールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。 これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
 
-MKT インスタンスの場合、[&#x200B; グローバル抑制リスト &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} （Campaign v8 ドキュメント）のみが影響を受けます。
+MKT インスタンスの場合、[&#x200B; グローバル抑制リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} （Campaign v8 ドキュメント）のみが影響を受けます。

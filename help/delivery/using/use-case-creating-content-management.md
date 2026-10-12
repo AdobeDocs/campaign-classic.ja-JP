@@ -82,7 +82,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 >[!NOTE]
 >
->Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
 >コンテンツ管理に関する設定要素について詳しくは、[データスキーマ](data-schemas.md)で説明しています。
 
@@ -194,7 +194,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 >[!NOTE]
 >
->Adobe Campaignでのフォームの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Adobe Campaignでのフォームの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
 >コンテンツ管理に関する設定要素について詳しくは、[入力フォーム](input-forms.md)で説明しています。
 

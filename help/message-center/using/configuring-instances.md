@@ -61,7 +61,7 @@ ht-degree: 97%
 
 ## コントロールインスタンスの設定 {#control-instance}
 
-コントロールインスタンスと実行インスタンスを接続するには、まず&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;タイプの外部アカウントを&#x200B;**コントロールインスタンス**&#x200B;上に作成して設定する必要があります。 したがって、[公開](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} （Campaign v8 ドキュメント）が完了すると、トランザクションメッセージテンプレートを実行インスタンスにデプロイできます。
+コントロールインスタンスと実行インスタンスを接続するには、まず&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;タイプの外部アカウントを&#x200B;**コントロールインスタンス**&#x200B;上に作成して設定する必要があります。 したがって、[公開](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} （Campaign v8 ドキュメント）が完了すると、トランザクションメッセージテンプレートを実行インスタンスにデプロイできます。
 
 複数の実行インスタンスを使用する場合は、実行インスタンスと同じ数だけ外部アカウントを作成する必要があります。
 

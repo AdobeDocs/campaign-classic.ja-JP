@@ -33,7 +33,7 @@ ht-degree: 85%
 
 **シミュレーション**&#x200B;モジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 
-シミュレーションでは、以前にオファーに適用されたコンテキストと適格性ルール（[&#x200B; オファーカタログの概要](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} （Campaign v8 ドキュメント）を参照）と、それらのプレゼンテーションルール（[&#x200B; オファープレゼンテーションの管理](../../interaction/using/managing-offer-presentation.md)を参照）を考慮します。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
+シミュレーションでは、以前にオファーに適用されたコンテキストと適格性ルール（[&#x200B; オファーカタログの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} （Campaign v8 ドキュメント）を参照）と、それらのプレゼンテーションルール（[&#x200B; オファープレゼンテーションの管理](../../interaction/using/managing-offer-presentation.md)を参照）を考慮します。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
 オファーをシミュレートする方法については、以下の手順を参照してください。
 

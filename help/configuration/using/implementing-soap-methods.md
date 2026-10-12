@@ -53,7 +53,7 @@ JavaScriptでSOAP メソッドを作成できます。 この関数は、アプ�
 
 ### 宣言 {#declaration}
 
-最初に、スキーマ内のメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください）。
+最初に、スキーマ内のメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください）。
 
 その宣言はネイティブメソッドの宣言と似ていますが、定義が配置されているメソッドライブラリの名前を指定する「library」属性を追加する必要があります。
 

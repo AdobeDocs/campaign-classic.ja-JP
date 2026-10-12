@@ -355,7 +355,7 @@ xtkschema="xtk:srcSchema">
 
 * **定義済みリストの操作**&#x200B;方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}を参照してください。
 
-* [Campaign スキーマの基本を学ぶ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）
+* [Campaign スキーマの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）
 
 * [データベース構造の更新](../../configuration/using/updating-the-database-structure.md)
 

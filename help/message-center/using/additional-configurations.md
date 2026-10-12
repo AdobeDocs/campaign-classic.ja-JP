@@ -39,7 +39,7 @@ ht-degree: 94%
 
 ## しきい値の監視 {#monitoring-thresholds}
 
-**Message Center サービスレベル**&#x200B;および&#x200B;**Message Centerの処理時間** レポートに表示される指標の警告しきい値（オレンジ）と警告しきい値（赤）を設定できます（[&#x200B; トランザクションメッセージレポートへのアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+**Message Center サービスレベル**&#x200B;および&#x200B;**Message Centerの処理時間** レポートに表示される指標の警告しきい値（オレンジ）と警告しきい値（赤）を設定できます（[&#x200B; トランザクションメッセージレポートへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 これを行うには、次の手順に従います。
 

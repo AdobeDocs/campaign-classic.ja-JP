@@ -48,7 +48,7 @@ ht-degree: 94%
 
 Adobe Campaign のデータスキーマ使用に関する一般的な原理を一部紹介します。
 
-Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## スキーマの構造 {#schema-structure}
 

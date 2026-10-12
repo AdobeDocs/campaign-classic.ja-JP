@@ -154,7 +154,7 @@ Enhanced MTA に転送された配信は、Campaign で&#x200B;**[!UICONTROL 停
 
 Campaign 配信スループットグラフでは、メール受信者に対するスループットが表示されなくなります。 グラフには Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されるようになりました。
 
-配信スループットについて詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+配信スループットについて詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### 再試行
 

@@ -73,7 +73,7 @@ iFolderId フィールドは、受信者を実行フォルダーにリンクす�
 
 sCountryCode フィールドは、受信者に関連付けられている国の3166-1 Alpha 2 ISO コード （2文字）です。 このフィールドは、国ラベルやその他の国コードデータを含む国参照テーブル（NmsCountry）の外部キーです。 国が入力されていない場合は、値「XX」が保存されます（ゼロ ID レコードの代わりに使用されます）。
 
-受信者テーブルについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+受信者テーブルについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### NmsGroup {#NmsGroup}
 

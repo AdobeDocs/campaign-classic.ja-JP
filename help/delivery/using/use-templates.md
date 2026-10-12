@@ -82,7 +82,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### コントロール母集団の設定
 
-配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール グループについて詳しくは、この節[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
+配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール グループについて詳しくは、この節[&#128279;](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
 
 コントロール母集団を設定するには、「**[!UICONTROL 宛先]**」リンクをクリックします。 **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウで「**[!UICONTROL コントロール母集団]**」タブを選択します。 ターゲットの一部を抽出できます。例えば、ランダムサンプリングとしてターゲットの 5％を抽出します。
 

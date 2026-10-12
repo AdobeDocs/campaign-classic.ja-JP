@@ -49,14 +49,14 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 使用可能なレポートのタイプは次のとおりです。
 
-* プラットフォーム全体のレポートについては、[&#x200B; グローバルレポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-* 配信レポートについては、[配信レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-* 累積レポートについては、[累積レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* プラットフォーム全体のレポートについては、[&#x200B; グローバルレポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 配信レポートについては、[配信レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 累積レポートについては、[累積レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。 レポートの表示モードはそのコンテキストに依存します。 メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。 このリストは、ニーズに合わせて変更可能です。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 組み込みレポートにアクセスして使用する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 組み込みレポートにアクセスして使用する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 編集中のレポートで実行できるその他のアクションについて詳しくは、[このページ](../../reporting/using/actions-on-reports.md)を参照してください。

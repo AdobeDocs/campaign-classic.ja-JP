@@ -38,7 +38,7 @@ ht-degree: 78%
 
 >[!INFO]
 >
->監査証跡機能について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)を参照してください。
+>監査証跡機能について詳しくは、[Adobe Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail)を参照してください。
 
 Adobe Campaignでは、**[!UICONTROL 監査記録]**&#x200B;により、インスタンス内で行われた変更の履歴をすべて確認できます。
 
@@ -55,7 +55,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]**&#x200B;により、イン�
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 

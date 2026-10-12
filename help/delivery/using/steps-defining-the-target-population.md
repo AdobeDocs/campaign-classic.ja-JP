@@ -51,7 +51,7 @@ ht-degree: 98%
 * **メインオーディエンス**：メッセージを受信するプロファイル。 [詳細情報](steps-defining-the-target-population.md#selecting-the-main-target)
 * **配達確認**：検証サイクルに関与する、配達確認メッセージの受信者。 [詳細情報](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](about-seed-addresses.md)
-* **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} （Campaign v8 ドキュメント）。
+* **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} （Campaign v8 ドキュメント）。
 
 ## 配信の主要受信者の選択 {#selecting-the-main-target}
 

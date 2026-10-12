@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -176,13 +176,13 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> エラー<br /> </td> 
    <td> このタイプのデプロイメントはサポートされなくなりました。 Office 365およびオンプレミスのMicrosoft CRM コネクタのデプロイメントタイプは非推奨（廃止予定）になりました。 
    </br>外部アカウントでこれらの非推奨のデプロイメントタイプのいずれかを使用している場合は、この外部アカウントを削除し、<b>postupgrade</b> コマンドを実行する必要があります。 
-   </br>Web API デプロイメントに変更するには、<a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション </a>を参照してください。<br /> </td>
+   </br>Web API デプロイメントに変更するには、<a href="../../platform/using/crm-connectors.md">Web アプリケーション </a>を参照してください。<br /> </td>
   </tr> 
   <tr> 
    <td> CRM v1 （mscrmWorkflow/sfdcWorkflow） <br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> Microsoft CRM、Salesforce、Oracle CRM On Demand アクションアクティビティは使用できなくなりました。 Adobe CampaignとCRM システム間のデータ同期を設定するには、<a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank">CRM コネクタ </a> （Campaign v8 ドキュメント）のターゲットアクティビティ <br />を使用する必要があります。 </td>
+   <td> Microsoft CRM、Salesforce、Oracle CRM On Demand アクションアクティビティは使用できなくなりました。 Adobe CampaignとCRM システム間のデータ同期を設定するには、<a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank">CRM コネクタ </a> （Campaign v8 ドキュメント）のターゲットアクティビティ <br />を使用する必要があります。 </td>
   </tr> 
  </tbody> 
 </table>

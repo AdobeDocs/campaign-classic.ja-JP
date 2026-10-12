@@ -46,7 +46,7 @@ ht-degree: 78%
 
 Adobe Campaign では、LINE チャネルを使用して、LINE アプリのユーザーにリッチで魅力的なメッセージを直接送信できます。 お知らせ、プロモーション、カスタマーサービスのアップデート、マルチメディアコンテンツなど、LINE は他のチャネルを補完するリアルタイムの会話媒体を提供します。
 
-LINE チャネルの設定方法、配信終了の作成方法、コンテンツタイプの定義方法および配信パフォーマンスの監視方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line){target=_blank}を参照してください。
+LINE チャネルの設定方法、配信終了の作成方法、コンテンツタイプの定義方法および配信パフォーマンスの監視方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line){target=_blank}を参照してください。
 
 Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
@@ -64,9 +64,9 @@ LINE チャネルについて詳しくは、[Campaign v8 ドキュメント](htt
 
 配信を作成しコンテンツタイプを定義する方法については、Campaign v8 ドキュメントの以下のページを参照してください。
 
-* [LINE 配信の作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#creating-the-delivery){target="_blank"}：テンプレートとオーディエンスの選択からメッセージの送信まで、LINE 配信の作成に必要な手順を説明します。
-* [コンテンツタイプの定義](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#defining-the-content){target="_blank"}：テキスト、画像とリンク、またはビデオコンテンツを使用して LINE 配信を設定し、オーディエンス向けにメッセージを魅力的にパーソナライズする方法を説明します。
-* [レポートへのアクセス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#accessing-reports){target="_blank"}：LINE 配信レポートにアクセスしてパフォーマンスを分析する方法を説明します。
+* [LINE 配信の作成](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#creating-the-delivery){target="_blank"}：テンプレートとオーディエンスの選択からメッセージの送信まで、LINE 配信の作成に必要な手順を説明します。
+* [コンテンツタイプの定義](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#defining-the-content){target="_blank"}：テキスト、画像とリンク、またはビデオコンテンツを使用して LINE 配信を設定し、オーディエンス向けにメッセージを魅力的にパーソナライズする方法を説明します。
+* [レポートへのアクセス](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#accessing-reports){target="_blank"}：LINE 配信レポートにアクセスしてパフォーマンスを分析する方法を説明します。
 
 
 >[!ENDTABS]
@@ -77,6 +77,6 @@ LINE チャネルについて詳しくは、[Campaign v8 ドキュメント](htt
 
 LINE チャネルの設定に関連する主な手順について詳しくは、**Campaign v8 ドキュメント**&#x200B;を参照してください。
 
-* [LINE サービスの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-service){target="_blank"}：LINE サービスを設定して、Campaign インスタンスを LINE 公式アカウントに接続する方法を説明します。
-* [外部アカウントの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}：Adobe Campaign が LINE 資格情報を使用してメッセージを送信できるように、LINE 外部アカウントを設定する方法を説明します。
+* [LINE サービスの設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-service){target="_blank"}：LINE サービスを設定して、Campaign インスタンスを LINE 公式アカウントに接続する方法を説明します。
+* [外部アカウントの設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}：Adobe Campaign が LINE 資格情報を使用してメッセージを送信できるように、LINE 外部アカウントを設定する方法を説明します。
 

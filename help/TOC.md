@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1953'
 ht-degree: 100%
 ---
 
@@ -51,11 +51,7 @@ ht-degree: 100%
     + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
   + プロファイル管理 {#profile-management}
     + [プロファイルについて](platform/using/about-profiles.md)
-    + {hide-from-toc}[プロファイルの編集 - 非表示](platform/using/editing-a-profile.md)
-    + {hide-from-toc}[プロファイルの追加 - 非表示](platform/using/adding-profiles.md)
-    + {hide-from-toc}[プロファイルの管理 - 非表示](platform/using/managing-profiles.md)
-    + [データ更新](platform/using/updating-data.md)
-    + {hide-from-toc}[プロファイルのインポートとエクスポート - 非表示](platform/using/exporting-and-importing-profiles.md)
+    + [データを更新](platform/using/updating-data.md)
     + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
   + データのインポートとエクスポート {#importing-and-exporting-data}
     + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
@@ -75,9 +71,7 @@ ht-degree: 100%
       + [インポートとエクスポートのベストプラクティス](platform/using/import-export-best-practices.md)
       + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
   + データのフィルタリング {#filtering-data}
-    + {hide-from-toc}[フィルタリングオプション – 非表示](platform/using/filtering-options.md)
     + {hide-from-toc}[フィルターの作成 - 非表示](platform/using/creating-filters.md)
-    + {hide-from-toc}[ユースケース - 非表示](platform/using/use-case.md)
   + {hide-from-toc}[クエリの作成手順 - 非表示](platform/using/steps-to-create-a-query.md)
   + {hide-from-toc}[フィルター条件の定義 - 非表示](platform/using/defining-filter-conditions.md)
   + 権限 {#permissions}
@@ -86,12 +80,8 @@ ht-degree: 100%
       + [オペレーターの作成と管理](platform/using/access-management-operators.md)
       + [グループの作成と管理](platform/using/access-management-groups.md)
     + [ネームド権限を使用した権限の設定](platform/using/access-management-named-rights.md)
-    + {hide-from-toc}[フォルダーへのアクセス管理 - 非表示](platform/using/access-management-folders.md)
   + CRM コネクタ {#connectors}
     + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
-    + {hide-from-toc}[Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
-    + {hide-from-toc}[Salesforce.com との接続](platform/using/crm-sfdc.md)
-    + {hide-from-toc}[CRM とのデータの同期](platform/using/crm-data-sync.md)
 + メッセージの作成と送信 {#sending-messages}
   + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
   + {hide-from-toc}[配信設定 - 非表示](delivery/using/delivery-settings.md)

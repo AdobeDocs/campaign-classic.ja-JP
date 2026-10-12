@@ -37,16 +37,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 100%
+source-wordcount: '1665'
+ht-degree: 98%
 ---
 # 配信の設定と送信 {#configuring-and-sending-the-delivery}
 
 ## 権限{#delivery-permissions}
 
-配信を開始できるのは配信所有者だけです。 他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加します。 [詳細情報](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)。
+配信を開始できるのは配信所有者だけです。 他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} （Campaign v8 ドキュメント）。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 82%
 ---
 # Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
 
@@ -109,7 +109,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファーの管理</a> - <a href="delivery/using/about-personalization.md">パーソナライゼーション</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">レポート</a>
+      <strong>顧客の体験</strong><br/><a href="workflow/using/about-workflows.md"> ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank"> レポート </a> （Campaign v8 ドキュメント）
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -131,7 +131,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
+      <strong>開発者リソース </strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel" target="_blank"> データモデルの説明</a> （Campaign v8 ドキュメント） - <a href="configuration/using/about-schema-reference.md"> スキーマ構造</a> - <a href="configuration/using/editing-forms.md"> スキーマ構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI参照ドキュメント </a> - <a href="configuration/using/about-custom-recipient-table.md"> カスタム受信者テーブル </a>
     </td>
   </tr>
 </table>

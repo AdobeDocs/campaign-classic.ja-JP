@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 100%
+source-wordcount: '2179'
+ht-degree: 98%
 ---
 # Apple のメールアプリにおけるメールプライバシー保護
 
@@ -95,7 +95,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
 * **[!UICONTROL オペレーティングシステム]**&#x200B;レポート
 
-  オペレーティングシステム別およびバージョン別の訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#operating-systems)。
+  オペレーティングシステム別およびバージョン別の訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} （Campaign v8 ドキュメント）。
 
   訪問者の合計数に関するオペレーティングシステム別の訪問者の分類を表示できます。
 
@@ -107,7 +107,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
 * **[!UICONTROL 開封数の分類]**&#x200B;レポート
 
-  オペレーティングシステム別のメールの開封数の割合を識別するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#breakdown-of-opens)。
+  オペレーティングシステム別のメールの開封数の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} （Campaign v8 ドキュメント）。
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 

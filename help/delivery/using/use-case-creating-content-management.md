@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 100%
+source-wordcount: '1254'
+ht-degree: 95%
 ---
 # ユースケース：コンテンツ管理の作成{#use-case-creating-content-management}
 
@@ -82,7 +82,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 >[!NOTE]
 >
->Adobe Campaign でのデータスキーマの作成と設定について詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
+>Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
 >コンテンツ管理に関する設定要素について詳しくは、[データスキーマ](data-schemas.md)で説明しています。
 
@@ -194,7 +194,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 >[!NOTE]
 >
->Adobe Campaign でのフォームの作成と設定について詳しくは、[この節](../../configuration/using/identifying-a-form.md)を参照してください。
+>Adobe Campaignでのフォームの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
 >コンテンツ管理に関する設定要素について詳しくは、[入力フォーム](input-forms.md)で説明しています。
 

@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 28%
+source-wordcount: '922'
+ht-degree: 27%
 ---
 # パーソナライゼーションとプライバシー {#privacy}
 
@@ -85,11 +85,11 @@ ht-degree: 28%
 >
 >形式が正しくない署名済みURLをクリックすると、このエラーが返されます：`Requested URL '…' was not found.`
 
-さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知の配信やアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL署名を無効にすることをお勧めします。
 
-Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 ハイブリッドアーキテクチャでCampaignを実行している場合は、URL署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
@@ -117,13 +117,13 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 
 暗号化されたパスワードが、低権限の認証済みユーザーからアクセスできないことを確認する必要があります。 これを行うには、パスワードフィールドへのアクセスのみを制限するか、エンティティ全体へのアクセスを制限します（ビルド >= 8770が必要です）。
 
-この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。 [詳細情報](../../configuration/using/restricting-pii-view.md)。
+この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} （Campaign v8 ドキュメント）。
 
 手順は次のとおりです。
 
 1. Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** フォルダーを参照します。
 
-1. スキーマ **の**&#x200B;拡張機能として、データスキーマを作成します。
+1. スキーマ ]**の**[!UICONTROL &#x200B;拡張機能として、データスキーマを作成します。
 
    ![](assets/privacy-data-restriction.png)
 
@@ -205,7 +205,7 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
    *Disallow: /
    ```
 
-   IISについては、[このページ &#x200B;](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
+   IISについては、[このページ ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
 
    Apacheの場合は、**/var/www/robots.txt** （Debian）にファイルを配置できます。
 
@@ -218,4 +218,4 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 
 ## プライバシーリクエスト
 
-Adobe Campaignのプライバシー管理と実装の手順について詳しくは、[このページ &#x200B;](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスおよびペルソナの概要についても説明します。
+Adobe Campaignのプライバシー管理と実装の手順について詳しくは、[このページ ](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスおよびペルソナの概要についても説明します。

@@ -41,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 91%
 ---
 # 個人情報の販売のオプトアウト（CCPA） {#sale-of-personal-information-ccpa}
 
@@ -70,7 +70,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
 また、カスタム受信者テーブルを使用する場合、この操作を実行する必要があります。
 
-新しいフィールドの作成方法について詳しくは、[スキーマエディションのドキュメント](../../configuration/using/about-schema-edition.md)を参照してください。
+新しいフィールドの作成方法について詳しくは、[ スキーマエディションのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-3.png)
 
-1. エクスプローラーの&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL 入力フォーム]**&#x200B;ノードをクリックします。 **[!UICONTROL 受信者（nms）]**&#x200B;の「一般的なパッケージ」で、`<input>` 要素を追加して、xpath 値に、手順 2 で定義した相対パスを使用します。 フォームの識別について詳しくは、[こちら](../../configuration/using/identifying-a-form.md)を参照してください。
+1. エクスプローラーの&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL 入力フォーム]**&#x200B;ノードをクリックします。 **[!UICONTROL 受信者（nms）]**&#x200B;の「一般的なパッケージ」で、`<input>` 要素を追加して、xpath 値に、手順 2 で定義した相対パスを使用します。 フォームの識別について詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

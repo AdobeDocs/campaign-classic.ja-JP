@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 100%
+source-wordcount: '1827'
+ht-degree: 98%
 ---
 # 配信の検証 {#validating-the-delivery}
 
@@ -232,7 +232,7 @@ ht-degree: 100%
 
 このノードから、新しいルールを作成し、新しいタイポロジを定義できます。 ただし、これらのタスクは JavaScript の知識があるエキスパートユーザー向けに用意されています。
 
-タイポロジルールについて詳しくは、[このページ](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。
+タイポロジルールについて詳しくは、[このページ ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 現在のタイポロジを編集するには、「**[!UICONTROL タイポロジ]**」フィールドの右にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックします。
 
@@ -244,7 +244,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**[!UICONTROL 判別]**&#x200B;タイプのタイポロジは、営業頻度管理のフレームワーク内で使用します。 詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)を参照してください。
+>**[!UICONTROL 判別]**&#x200B;タイプのタイポロジは、営業頻度管理のフレームワーク内で使用します。 詳しくは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 承認モードの変更 {#changing-the-approval-mode}
 

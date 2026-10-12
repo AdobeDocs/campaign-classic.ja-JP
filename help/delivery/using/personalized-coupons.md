@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 100%
+source-wordcount: '1009'
+ht-degree: 98%
 ---
 # パーソナライズされたクーポン{#personalized-coupons}
 
@@ -185,7 +185,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。 [詳細情報](../../configuration/using/about-data-model.md#default-recipient-table)。
+>デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）。
 >
 >カスタム受信者テーブルの使用方法については、[このページ](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 

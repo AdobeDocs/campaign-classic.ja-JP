@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 96%
+source-wordcount: '1077'
+ht-degree: 93%
 ---
 # 新しい配信サーバーへの更新 {#acc-deliverability}
 
@@ -101,7 +101,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
 1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
-**Adobe Campaign**&#x200B;が表示されない場合は、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
+**Adobe Campaign**&#x200B;が表示されない場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
 1. **Adobe Campaign** をクリックし、組織を選択します。
    **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。 組織について詳しくは、[このページを参照してください](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank}。
 
@@ -150,4 +150,4 @@ Adobe Analytics コネクタの設定に進むには、Adobe Developer Console �
 
 環境をアップグレードしない場合、メール設定の同期は停止されます（MX 管理ルール、インバウンドメールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。 これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
 
-MKT インスタンスの場合は、[グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules)のみが影響を受けます。
+MKT インスタンスの場合、[ グローバル抑制リスト ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} （Campaign v8 ドキュメント）のみが影響を受けます。

@@ -37,10 +37,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 96%
 ---
 # パーソナライゼーションブロック{#personalization-blocks}
 
@@ -145,7 +145,7 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
 * **[!UICONTROL ソーシャルネットワーク共有リンク]**：メールクライアント、Facebook、X（旧 Twitter）および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
 * **[!UICONTROL コンテンツメールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルでメールを書式設定するコードを生成します。 これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
-* **[!UICONTROL 単一モードのオファー承認 URL]**：インタラクションオファーを&#x200B;**[!UICONTROL 許可済み]**&#x200B;に設定できる URL を挿入します（[この節](../../interaction/using/offer-analysis-report.md)を参照）。
+* **[!UICONTROL オファーの受け入れURLを単一モード]**：インタラクションオファーを&#x200B;**[!UICONTROL Accepted]**&#x200B;に設定できるURLを挿入します（[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 ## カスタムパーソナライゼーションブロックの定義 {#defining-custom-personalization-blocks}
 
@@ -177,6 +177,6 @@ HTML ソースコードが配信コンテンツに挿入されます。 一例�
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27460?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

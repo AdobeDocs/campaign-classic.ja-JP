@@ -28,10 +28,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 49%
+source-wordcount: '264'
+ht-degree: 42%
 ---
 # スキーマの基本を学ぶ {#about-schema-reference}
 
@@ -39,7 +39,7 @@ ht-degree: 49%
 
 この章では、Adobe Campaign データベースの概念データモデルを拡張するために、拡張スキーマを設定する方法について説明します。
 
-Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル &#x200B;](about-data-model.md)を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 Adobe Campaignでは、アプリケーションに格納されるデータの物理構造と論理構造をXMLで記述します。 **スキーマ**&#x200B;は、データベーステーブルに関連付けられたXML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 
@@ -62,45 +62,6 @@ Adobe Campaignでは、アプリケーションに格納されるデータの物
 
 ![](assets/reference_schema_intro.png)
 
-## スキーマの構文 {#syntax-of-schemas}
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 スキーマの構文と識別について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}を参照してください。
 
-スキーマのルート要素は **`<srcschema>`** です。 **`<element>`** と **`<attribute>`** のサブ要素が含まれます。
-
-最初の **`<element>`** サブ要素は、エンティティのルートに一致します。
-
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
-   </element>
-  </element>
-</srcSchema>
-```
-
->[!NOTE]
->
->エンティティのルート要素はスキーマと同じ名前を持ちます。
-
-![](assets/s_ncs_configuration_schema_and_entity.png)
-
-**`<element>`** タグはエンティティ要素の名前を定義します。 スキーマの **`<attribute>`** タグは、リンク先の **`<element>`** タグの属性の名前を定義します。
-
-## スキーマの ID {#identification-of-a-schema}
-
-データスキーマは、名前と名前空間で識別されます。
-
-名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。 例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
-
-スキーマの識別キーは、名前空間と名前をコロンで区切った文字列です。例：**cus:recipient**。
-
->[!IMPORTANT]
->
->* 名前空間の名前は簡潔で、XML命名ルールに従って許可された文字のみを含める必要があります。
->
->* 識別子の先頭を数字にすることはできません。
->
->* 次の名前空間は、Adobe Campaign アプリケーションの操作に必要なシステム エンティティの説明用に予約されており、使用しないでください。**xtk**、**nl**、**nms**、**ncm**、**temp**、**ncl**、**crm**、**xxl**。
->
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 94%
 ---
 # その他の設定 {#mc-additional-configurations}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## しきい値の監視 {#monitoring-thresholds}
 
-**Message Center のサービスレベル**&#x200B;と **Message Center の処理時間**&#x200B;のレポートに表示される指標について、警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます。[トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。
+**Message Center サービスレベル**&#x200B;および&#x200B;**Message Centerの処理時間** レポートに表示される指標の警告しきい値（オレンジ）と警告しきい値（赤）を設定できます（[ トランザクションメッセージレポートへのアクセス ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 これを行うには、次の手順に従います。
 

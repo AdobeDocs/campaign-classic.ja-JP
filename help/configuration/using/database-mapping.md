@@ -22,100 +22,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 51%
+source-wordcount: '256'
+ht-degree: 19%
 ---
 # データベースマッピング{#database-mapping}
 
-このページ [&#128279;](schema-structure.md)のに記載されているサンプルスキーマのSQL マッピングは、次のXML ドキュメントを生成します。
+このページでは、スキーマのフィールドでインデックスを宣言する方法について説明します。
 
-```sql
-<schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
-  <enumeration basetype="byte" name="gender">    
-    <value label="Not specified" name="unknown" value="0"/>    
-    <value label="Male" name="male" value="1"/>    
-    <value label="Female" name="female" value="2"/> 
-  </enumeration>  
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 スキーマのSQL マッピングについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}を参照してください。
 
-  <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-    <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
-    <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
-    <element label="Location" name="location">      
-      <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-    </element>  
-  </element>
-</schema>
-```
-
-スキーマのルート要素が&#x200B;**`<srcschema>`**&#x200B;から&#x200B;**`<schema>`**&#x200B;に変更されました。
-
-この別のタイプのドキュメントは、ソーススキーマから自動的に生成され、単にスキーマと呼ばれます。
-
-SQL 名は、要素名と型に基づいて自動的に決定されます。
-
-SQL の命名規則は次のとおりです。
-
-* **テーブル**: スキーマ名前空間と名前の連結
-
-  この例では、テーブルの名前は、スキーマのメイン要素を使用して **sqltable** 属性に入力されます。
-
-  ```sql
-  <element name="recipient" sqltable="CusRecipient">
-  ```
-
-* **field**：整数の「i」、倍数の「d」、文字列の「s」、日付の「ts」などのタイプに従って定義された接頭辞の前にエレメントの名前が付きます。
-
-  フィールド名は、型指定された **`<attribute>`** および **`<element>`** ごとに **sqlname** 属性を使用し入力されます。
-
-  ```sql
-  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-  ```
-
->[!NOTE]
->
->SQL 名は、ソーススキーマからオーバーロードできます。 それには、関係する要素の「sqltable」または「sqlname」属性を設定します。
-
-拡張スキーマから生成されるテーブルを作成する SQL スクリプトは、次のとおりです。
-
-```sql
-CREATE TABLE CusRecipient(
-  iGender NUMERIC(3) NOT NULL Default 0,   
-  sCity VARCHAR(50),   
-  sEmail VARCHAR(80),
-  tsCreated TIMESTAMP Default NULL);
-```
-
-SQL フィールドの制約は次のとおりです。
-
-* 数値フィールドと日付フィールドに null 値はありません
-* 数値フィールドは 0 に初期化されます
-
-## XML フィールド {#xml-fields}
-
-デフォルトでは、**`<attribute>`**&#x200B;と&#x200B;**`<element>`**&#x200B;で入力された要素はすべて、データスキーマテーブルのSQL フィールドにマッピングされます。 ただし、このフィールドを SQL ではなく XML で参照することができます。つまり、データは、すべての XML フィールドの値を含んだテーブルのメモフィールド（「mData」）に格納されます。 これらのデータのストレージは、スキーマ構造に準拠する XML ドキュメントです。
-
-XML のフィールドにデータを入力するには、値「true」の **xml** 属性を、該当する要素に追加する必要があります。
-
-**例**：XML フィールドの使用例を 2 つ示します。
-
-* 複数行コメントフィールド：
-
-  ```sql
-  <element name="comment" xml="true" type="memo" label="Comment"/>
-  ```
-
-* HTML 形式でのデータの説明：
-
-  ```sql
-  <element name="description" xml="true" type="html" label="Description"/>
-  ```
-
-  「html」タイプを使用すると、HTML コンテンツを CDATA タグに格納し、Adobe Campaign クライアントインターフェイスに特別な HTML 編集チェックを表示できます。
-
-XML フィールドを使用して、データベースの物理構造を変更せずに新しいフィールドを追加します。 もう 1 つの利点は、使用するリソースが少ないことです（SQL フィールドに割り当てるサイズ、テーブルあたりのフィールド数の制限など）。 ただし、XML フィールドにインデックスを付けたり、フィルタリングしたりすることはできません。
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}
 
 ## 索引付きフィールド {#indexed-fields}
 
@@ -189,5 +107,4 @@ XML フィールドを使用して、データベースの物理構造を変更�
 * [スキーマの基本を学ぶ](about-schema-reference.md)
 * [スキーマの構造](schema-structure.md)
 * [鍵の管理](database-keys.md)
-* [リンク管理](database-links.md)
-* [Campaign データモデル](about-data-model.md)
+* [ リンク管理](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} （Campaign v8 ドキュメント）

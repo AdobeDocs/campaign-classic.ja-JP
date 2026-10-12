@@ -72,7 +72,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 1. 環境を Campaign v7.4.1（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードします。
 1. アップグレード後も、ネイティブユーザーまたは IMS の両方の方法で新しいユーザーを引き続き作成できます。
 1. 社内 Campaign 管理者の方は、[このセクション](../../integrations/using/configuring-ims.md)の説明に従い、Adobe IMS を構成する必要があります。
-1. 次に、Campaign クライアントコンソールで、すべてのネイティブユーザーに一意の E メールを追加します。 この手順について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. 次に、Campaign クライアントコンソールで、すべてのネイティブユーザーに一意の E メールを追加します。 この手順について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 1. [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ja){target="_blank"}を参照して、Adobe Admin Console でユーザーおよび製品プロファイルを作成します。
 1. すべてのオペレーターに対して「**Adobe ID を使用して接続**」オプションを有効にします。
 1. 接続に対して Adobe IMS を実装するには、[このページ](../../integrations/using/implementing-ims.md)を参照してください。
@@ -81,7 +81,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 
 ## よくある質問 {#ims-migration-faq}
 
-移行に関するよくある質問（移行後のユーザー作成、ネイティブユーザー向けメールの追加、IMS経由でのログイン、ダウンタイム、IMSを既に使用している組織、オペレーターの認証タイプの表示）に関する回答については、[Campaign v8 technote](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank} （Campaign v8 ドキュメント）を参照してください。
+移行に関するよくある質問（移行後のユーザー作成、ネイティブユーザー向けメールの追加、IMS経由でのログイン、ダウンタイム、IMSを既に使用している組織、オペレーターの認証タイプの表示）に関する回答については、[Campaign v8 technote](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank} （Campaign v8 ドキュメント）を参照してください。
 
 >[!MORELIKETHIS]
 >

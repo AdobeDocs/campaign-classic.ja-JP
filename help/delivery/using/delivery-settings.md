@@ -44,7 +44,7 @@ ht-degree: 95%
 
 次の設定は、Campaign Classic に固有です。 その他の配信設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信設定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信設定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}
 

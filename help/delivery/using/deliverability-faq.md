@@ -50,7 +50,7 @@ ht-degree: 95%
 
 配信品質で問題が発生した場合は、 以下のソリューションを参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 強制隔離について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}を参照して、強制隔離のブロックリストとアドレスの削除方法を確認してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 強制隔離について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}を参照して、強制隔離のブロックリストとアドレスの削除方法を確認してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 

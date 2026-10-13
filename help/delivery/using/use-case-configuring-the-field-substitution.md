@@ -85,7 +85,7 @@ ht-degree: 96%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 配信リストとシードアドレスを設定します。 「[ ターゲット母集団の特定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"}」（Campaign v8 ドキュメント）を参照してください。
+1. 配信リストとシードアドレスを設定します。 「[&#x200B; ターゲット母集団の特定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"}」（Campaign v8 ドキュメント）を参照してください。
 
    この例では、**SF ジャンルを好んで読む**&#x200B;顧客をメインターゲット母集団にします。
 

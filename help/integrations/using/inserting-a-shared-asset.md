@@ -54,7 +54,7 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
      >[!NOTE]
      >
-     >DCEを使用する場合、Adobe Campaignの共有イメージを[web アクセス ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} （Campaign v8 ドキュメント）に挿入することはできません。
+     >DCEを使用する場合、Adobe Campaignの共有イメージを[web アクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} （Campaign v8 ドキュメント）に挿入することはできません。
 
 1. 表示される選択ウィンドウで画像を選択し、確定します。
 

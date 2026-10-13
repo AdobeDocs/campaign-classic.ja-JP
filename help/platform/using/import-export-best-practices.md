@@ -56,7 +56,7 @@ ht-degree: 95%
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。 プロジェクトの間、データクレンジングに留意してください。 データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例については、[例：データをインポートするワークフローテンプレート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+データのインポート用に設計された汎用ワークフローテンプレートの例については、[例：データをインポートするワークフローテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
 ## フラットファイルフォーマットの使用 {#using-flat-file-formats}
 

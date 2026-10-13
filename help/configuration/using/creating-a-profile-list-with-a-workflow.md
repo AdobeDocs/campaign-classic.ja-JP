@@ -37,7 +37,7 @@ ht-degree: 9%
 
 Campaignのリストについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [この機能についてビデオ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} （Campaign v8 ドキュメント）で説明します
+![](assets/do-not-localize/how-to-video.png) [この機能についてビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} （Campaign v8 ドキュメント）で説明します
 
 ターゲティングワークフローを作成し、カスタム受信者テーブルで受信者を更新するには、次の手順に従います。
 
@@ -51,7 +51,7 @@ Campaignのリストについて詳しくは、[この節](https://experiencelea
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） ]**」ラジオボタンを選択します。**[!UICONTROL 
+1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） **」ラジオボタンを選択します。**
 
    ![](assets/mapping_create_list_workflow02.png)
 

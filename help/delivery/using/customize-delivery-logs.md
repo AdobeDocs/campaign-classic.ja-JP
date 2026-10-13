@@ -139,7 +139,7 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
 
 >[!NOTE]
 >
->Campaign Classic インターフェイスでリストを設定する方法については、[このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Campaign Classic インターフェイスでリストを設定する方法については、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 次に、変更後の「**[!UICONTROL 配信]**」タブの内容を示します。
 

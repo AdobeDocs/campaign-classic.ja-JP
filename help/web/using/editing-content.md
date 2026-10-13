@@ -47,7 +47,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 >[!NOTE]
 >
->詳細な式の編集については、[このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8 ドキュメント）で説明しています。
+>詳細な式の編集については、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8 ドキュメント）で説明しています。
 
 ![](assets/dce_popup_visibilitycondition.png)
 

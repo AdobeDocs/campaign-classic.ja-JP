@@ -151,7 +151,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
   >
   >このアカウントが無効になっていても、オペレーターは Campaign からアラートや通知を受け取ることができます。 このオペレーターへ Campaign 通知の送信を停止するには、プロファイルからメールアドレスを削除することをアドビは推奨します。
 
-* 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaignの使用を[Web アクセス ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} （Campaign v8 ドキュメント）またはAPIを通じて制限できます。Adobe Campaign クライアントコンソールへのアクセスは使用できなくなりました。
+* 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaignの使用を[Web アクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} （Campaign v8 ドキュメント）またはAPIを通じて制限できます。Adobe Campaign クライアントコンソールへのアクセスは使用できなくなりました。
 * 安全ゾーンをオペレーターに関連付けることができます。 詳しくは、[このページ](../../installation/using/security-zones.md)を参照してください。
 * また、適切なリンクを使用して、信頼できる IP マスクを定義することもできます。
 

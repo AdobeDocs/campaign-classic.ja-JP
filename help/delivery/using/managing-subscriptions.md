@@ -156,7 +156,7 @@ ht-degree: 99%
 * 一連の受信者をこのサービスに自動的に購読登録します。 受信者のリストは、フィルタリング操作、グループ、フォルダー、インポートまたはマウスを使用した直接選択から取得できます。 この受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択]**&#x200B;を選択し、該当するサービスを選択して、操作を開始します。
 * 受信者をインポートして、情報サービスに自動的に購読登録します。 そのためには、インポートアシスタントの最後のステップで、該当するサービスを選択します。
 
-  詳しくは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+  詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 

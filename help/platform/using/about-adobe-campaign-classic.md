@@ -57,7 +57,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!TAB Campaign の概要]
 
-Adobe Campaign クライアントコンソールとそのユーザーインターフェイスの使い方については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
+Adobe Campaign クライアントコンソールとそのユーザーインターフェイスの使い方については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
@@ -69,7 +69,7 @@ Adobe Campaign クライアントコンソールとそのユーザーインタ�
 
 >[!TAB Campaign UI の参照]
 
-* Adobe Campaign ユーザーインターフェイス [については、このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）をご覧ください。
+* Adobe Campaign ユーザーインターフェイス [については、このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）をご覧ください。
 
 * [Campaign エクスプローラー](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"}の操作方法について説明します（Campaign v8 ドキュメント）。
 

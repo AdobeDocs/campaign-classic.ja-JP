@@ -46,7 +46,7 @@ ht-degree: 89%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
-* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。 [このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。 [このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ステータス]**&#x200B;フィールドは、ジョブの現在のステータスを示します。
 

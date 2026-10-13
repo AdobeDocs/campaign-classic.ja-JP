@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '1182'
+ht-degree: 99%
 ---
 # 購読を管理{#managing-subscriptions}
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 * 一連の受信者をこのサービスに自動的に購読登録します。 受信者のリストは、フィルタリング操作、グループ、フォルダー、インポートまたはマウスを使用した直接選択から取得できます。 この受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択]**&#x200B;を選択し、該当するサービスを選択して、操作を開始します。
 * 受信者をインポートして、情報サービスに自動的に購読登録します。 そのためには、インポートアシスタントの最後のステップで、該当するサービスを選択します。
 
-  詳しくは、[この節](../../platform/using/executing-import-jobs.md)を参照してください。
+  詳しくは、[このセクション ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 

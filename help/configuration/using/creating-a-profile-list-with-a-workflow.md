@@ -25,19 +25,19 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 9%
 ---
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
 
 新しい受信者テーブルに基づいて&#x200B;**[!UICONTROL リスト]**&#x200B;型リストを作成するには、リストを生成するターゲティングワークフローを作成する必要があります。
 
-Campaignのリストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)を参照してください。
+Campaignのリストについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+![](assets/do-not-localize/how-to-video.png) [この機能についてビデオ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} （Campaign v8 ドキュメント）で説明します
 
 ターゲティングワークフローを作成し、カスタム受信者テーブルで受信者を更新するには、次の手順に従います。
 
@@ -51,7 +51,7 @@ Campaignのリストについて詳しくは、[この節](../../platform/using/
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） **」ラジオボタンを選択します。**
+1. 「**リストの更新**」アクティビティをダブルクリックし、「必要に応じてリストを作成（計算名） ]**」ラジオボタンを選択します。**[!UICONTROL 
 
    ![](assets/mapping_create_list_workflow02.png)
 

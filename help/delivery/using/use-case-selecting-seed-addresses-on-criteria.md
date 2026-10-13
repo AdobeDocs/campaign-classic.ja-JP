@@ -30,7 +30,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 97%
@@ -65,7 +65,7 @@ ht-degree: 97%
 
 ### データスキーマの拡張 {#extending-the-data-schema}
 
-スキーマ拡張機能について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+スキーマ拡張機能について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. **[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードで、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 1. **[!UICONTROL データスキーマの作成]**&#x200B;ウィンドウで、「**[!UICONTROL スキーマの拡張]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。

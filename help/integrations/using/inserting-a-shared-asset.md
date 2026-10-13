@@ -27,10 +27,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 93%
 ---
 # 共有アセットを挿入{#inserting-a-shared-asset}
 
@@ -54,7 +54,7 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
      >[!NOTE]
      >
-     >DCE を使用している場合、[Web にアクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)している Adobe Campaign から共有画像を挿入することはできません。
+     >DCEを使用する場合、Adobe Campaignの共有イメージを[web アクセス ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} （Campaign v8 ドキュメント）に挿入することはできません。
 
 1. 表示される選択ウィンドウで画像を選択し、確定します。
 

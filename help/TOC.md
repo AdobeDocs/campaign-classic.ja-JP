@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1657'
 ht-degree: 100%
 ---
 
@@ -32,36 +32,22 @@ ht-degree: 100%
 + はじめに {#getting-started}
   + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
   + [Adobe Campaign のローンチ](platform/using/launching-adobe-campaign.md)
-  + [Campaign UI の理解](platform/using/adobe-campaign-workspace.md)
-  + {hide-from-toc}[Campaign エクスプローラーの使用 - 非表示](platform/using/adobe-campaign-explorer.md)
-  + {hide-from-toc}[リストの参照とカスタマイズ - 非表示](platform/using/adobe-campaign-ui-lists.md)
-  + {hide-from-toc}[列挙 - 非表示](platform/using/managing-enumerations.md)
   + [Campaign コネクタ](platform/using/about-connectors.md)
   + よくある質問 {#faq}
     + [Campaign Classic に関する FAQ](platform/using/faq-campaign-classic-v7.md)
     + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-  + {hide-from-toc}[用語集 - 非表示](platform/using/ac-glossary.md)
   + プライバシー {#privacy}
     + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
     + [プライバシー管理](platform/using/privacy-management.md)
     + プライバシーリクエスト {#privacy-requests}
-      + [プライバシーリクエストについて](platform/using/privacy-requests.md)
       + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
       + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
     + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
   + プロファイル管理 {#profile-management}
     + [プロファイルについて](platform/using/about-profiles.md)
     + [データを更新](platform/using/updating-data.md)
-    + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
   + データのインポートとエクスポート {#importing-and-exporting-data}
-    + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
-    + [ワークフローを使用したデータのインポートとエクスポート](platform/using/import-export-workflows.md)
     + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports}
-      + [一般的なインポートおよびエクスポートの概要](platform/using/about-generic-imports-exports.md)
-      + [インポートテンプレートおよびエクスポートテンプレートの作成](platform/using/creating-import-export-templates.md)
-      + [インポートジョブおよびエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
-      + [インポートジョブの設定](platform/using/executing-import-jobs.md)
-      + [エクスポートジョブの設定](platform/using/executing-export-jobs.md)
       + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
       + [一般的なインポートのサンプル](platform/using/import-operations-samples.md)
     + データの暗号化と圧縮の管理 {#managing-data-encryption-compression}
@@ -70,16 +56,11 @@ ht-degree: 100%
     + ベストプラクティスとトラブルシューティング {#best-practices}
       + [インポートとエクスポートのベストプラクティス](platform/using/import-export-best-practices.md)
       + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
-  + データのフィルタリング {#filtering-data}
-    + {hide-from-toc}[フィルターの作成 - 非表示](platform/using/creating-filters.md)
-  + {hide-from-toc}[クエリの作成手順 - 非表示](platform/using/steps-to-create-a-query.md)
-  + {hide-from-toc}[フィルター条件の定義 - 非表示](platform/using/defining-filter-conditions.md)
   + 権限 {#permissions}
     + [権限の基本を学ぶ](platform/using/access-management.md)
     + ネイティブ認証（レガシー） {#native}
       + [オペレーターの作成と管理](platform/using/access-management-operators.md)
       + [グループの作成と管理](platform/using/access-management-groups.md)
-    + [ネームド権限を使用した権限の設定](platform/using/access-management-named-rights.md)
   + CRM コネクタ {#connectors}
     + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
 + メッセージの作成と送信 {#sending-messages}

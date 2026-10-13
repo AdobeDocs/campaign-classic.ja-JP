@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 98%
 ---
 # データを更新{#updating-data}
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   エクスポートアシスタントを設定する方法について詳しくは、[こちらの節](../../platform/using/executing-export-jobs.md)を参照してください。
+   書き出しアシスタントの設定方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## サービスの購読 {#subscribing-to-a-service}
 

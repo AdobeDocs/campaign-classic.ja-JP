@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1739'
 ht-degree: 100%
 ---
 
@@ -86,73 +86,27 @@ ht-degree: 100%
   + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
   + {hide-from-toc}[配信設定 - 非表示](delivery/using/delivery-settings.md)
   + クイックスタート {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[配信の基本を学ぶ - 非表示](delivery/using/steps-about-delivery-creation-steps.md)
-    + {hide-from-toc}[配信の作成と識別 - 非表示](delivery/using/steps-create-and-identify-the-delivery.md)
-    + {hide-from-toc}[オーディエンスの定義 - 非表示](delivery/using/steps-defining-the-target-population.md)
-    + {hide-from-toc}[配信の検証 - 非表示](delivery/using/steps-validating-the-delivery.md)
     + {hide-from-toc}[配信の送信 - 非表示](delivery/using/steps-sending-the-delivery.md)
-    + {hide-from-toc}[配信のベストプラクティス - 非表示](delivery/using/delivery-best-practices.md)
-  + 配信のベストプラクティス {#delivery-bestpractices}
-    + {hide-from-toc}[配信の最適化 - 非表示](delivery/using/optimize-delivery.md)
-    + {hide-from-toc}[テンプレートの使用 - 非表示](delivery/using/use-templates.md)
-    + {hide-from-toc}[パーソナライズされたコンテンツの作成 - 非表示](delivery/using/design-and-personalize.md)
-    + {hide-from-toc}[適切なオーディエンスの定義 - 非表示](delivery/using/define-the-right-audience.md)
-    + {hide-from-toc}[送信前の確認 - 非表示](delivery/using/check-before-sending.md)
   + [メールの送信](delivery/using/about-email-channel.md)
-  + メールの送信 {#sending-emails}
-    + {hide-from-toc}[メール配信の作成 - 非表示](delivery/using/creating-an-email-delivery.md)
-    + {hide-from-toc}[メールコンテンツの定義 - 非表示](delivery/using/defining-the-email-content.md)
-    + {hide-from-toc}[インタラクティブコンテンツの定義 - 非表示](delivery/using/defining-interactive-content.md)
-    + メール配信の送信 {#sending-an-email}
-      + {hide-from-toc}[メールを送信する主な手順 - 非表示](delivery/using/sending-messages.md)
-      + {hide-from-toc}[メールパラメーター - 非表示](delivery/using/email-parameters.md)
-      + {hide-from-toc}[日本の携帯電話での送信 - 非表示](delivery/using/sending-emails-on-japanese-mobiles.md)
-    + {hide-from-toc}[ファイルの添付 - 非表示](delivery/using/attaching-files.md)
   + SMS の送信 {#sending-messages-on-mobiles}
-    + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
     + SMS チャネルの設定 {#sms-set-up}
       + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
       + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
       + [その他の設定](delivery/using/sms-send.md)
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[SMS の作成 - 非表示](delivery/using/sms-create.md)
     + {hide-from-toc}[拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
-  + [LINE メッセージの送信](delivery/using/line-channel.md)
   + [プッシュ通知の送信](delivery/using/about-mobile-app-channel.md)
   + プッシュ通知の送信 {#sending-push-notifications}
-    + {hide-from-toc}[Campaign SDK のモバイルアプリケーションへの統合](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
     + モバイルアプリケーションの設定{#configure-the-mobile-app}
       + {hide-from-toc}[アプリ設定の基本を学ぶ - 非表示](delivery/using/get-started-app-config.md)
       + {hide-from-toc}[iOS の設定手順 - 非表示](delivery/using/configuring-the-mobile-application.md)
       + {hide-from-toc}[Android の設定手順 - 非表示](delivery/using/configuring-the-mobile-application-android.md)
-    + プッシュ通知の作成{#create-a-push-msg}
-      + {hide-from-toc}[iOS 用プッシュメッセージの作成 - 非表示](delivery/using/create-notifications-ios.md)
-      + {hide-from-toc}[Android 用プッシュメッセージの作成 - 非表示](delivery/using/create-notifications-android.md)
     + {hide-from-toc}[トラブルシューティング - 非表示](delivery/using/troubleshooting.md)
   + [ダイレクトメールの送信](delivery/using/about-direct-mail-channel.md)
-  + ダイレクトメールの送信 {#sending-direct-mail}
-    + {hide-from-toc}[ダイレクトメール配信の作成 - 非表示](delivery/using/creating-a-direct-mail-delivery.md)
-    + {hide-from-toc}[ダイレクトメールコンテンツの定義 - 非表示](delivery/using/defining-the-direct-mail-content.md)
-    + {hide-from-toc}[検証 - 非表示](delivery/using/validating.md)
-  + 配信テンプレートの使用 {#using-delivery-templates}
-    + {hide-from-toc}[配信テンプレートの操作 - 非表示](delivery/using/about-templates.md)
-    + {hide-from-toc}[配信テンプレートの作成 - 非表示](delivery/using/creating-a-delivery-template.md)
-    + {hide-from-toc}[ターゲットマッピングの選択 - 非表示](delivery/using/selecting-a-target-mapping.md)
-    + {hide-from-toc}[テンプレートからの配信の作成 - 非表示](delivery/using/creating-a-delivery-from-a-template.md)
   + 配信のパーソナライズ {#personalizing-deliveries}
     + [パーソナライゼーションについて](delivery/using/about-personalization.md)
-    + {hide-from-toc}[パーソナライゼーションフィールド - 非表示](delivery/using/personalization-fields.md)
-    + {hide-from-toc}[パーソナライゼーションブロック - 非表示](delivery/using/personalization-blocks.md)
-    + {hide-from-toc}[条件付きコンテンツ - 非表示](delivery/using/conditional-content.md)
-    + {hide-from-toc}[パーソナライズされたクーポン - 非表示](delivery/using/personalized-coupons.md)
-    + {hide-from-toc}[パーソナライズされた PDF ドキュメントの生成 - 非表示](delivery/using/generating-personalized-pdf-documents.md)
-    + {hide-from-toc}[顔文字リストのカスタマイズ](delivery/using/customizing-emoticon-list.md)
   + シードアドレスの使用 {#using-seed-addresses}
-    + [シードアドレスについて](delivery/using/about-seed-addresses.md)
-    + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
-    + [シードアドレスの追加](delivery/using/adding-seed-addresses.md)
-    + [外部受信者テーブルの使用](delivery/using/using-an-external-recipient-table.md)
     + [ユースケース：基準に基づいたシードアドレスの選択](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
     + [ユースケース：フィールド置換の設定](delivery/using/use-case-configuring-the-field-substitution.md)
   + A/B テスト {#a-b-testing}
@@ -180,9 +134,7 @@ ht-degree: 100%
     + [詳細設定：配信ログのカスタマイズ](delivery/using/customize-delivery-logs.md)
   + 配信品質の管理 {#deliverability-management}
     + [配信品質とは](delivery/using/about-deliverability.md)
-    + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
     + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
-    + [SpamAssassin](delivery/using/spamassassin.md)
     + [トラブルシューティング](delivery/using/deliverability-faq.md)
   + コンテンツ管理モジュール {#content-management}
     + [コンテンツ管理について](delivery/using/about-content-management.md)
@@ -593,8 +545,6 @@ ht-degree: 100%
     + {hide-from-toc}[Adobe Analytics 2.0 API への移行](technotes/using/analytics-2-migration.md)
   + メールとプッシュ通知{#technotes-email}
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
-    + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
-    + {hide-from-toc}[ISP の機能停止後の誤ったハードバウンスの更新](delivery/using/update-bounces.md)
     + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
     + {hide-from-toc}[トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
   + Adobe Managed Services への移行{#dc-migration}

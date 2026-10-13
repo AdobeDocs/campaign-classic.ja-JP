@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 82%
+source-wordcount: '679'
+ht-degree: 72%
 ---
 # Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
 
@@ -114,7 +114,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">配達確認の送信</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
+      <strong> メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message" target="_blank"> プルーフの送信</a> （Campaign v8 ドキュメント） - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a>
     </td>
   </tr>
   <tr style="border: 0;">

@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 79%
 ---
 # 配信品質とは{#about-deliverability}
 
@@ -53,74 +53,6 @@ ht-degree: 100%
 
 配信品質とは何か、配信品質の主要な用語、概念およびアプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください
 
-## 配信品質を向上させる方法 {#deliverability-key-points}
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信品質を改善し、Campaign配信品質ツールを使用する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability){target=_blank}を参照してください。
 
-配信品質の問題は、通常、インターネットサービスプロバイダーおよびメールサーバー管理者が実行するスパム対策の指標に関係しています。
-
-* 成功するメールマーケティングキャンペーンを設計する方法に関する一般的なレコメンデーションについては、[配信品質の戦略と定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja)を参照してください。
-
-* Adobe Campaign のメールの配信品質を最適化する方法に関する具体的なレコメンデーションについては、この節に示すベストプラクティスに従うことをお勧めします。
-
->[!NOTE]
->
->ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、メールの配信品質は常に変化する基準とルールを特徴としています。 必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。これは定期的に更新されます。
-
-### 配信品質率
-
-配信品質率は、受信者のインボックスにヒットしたメッセージの数と配信されたメッセージの数との比率です。 この比率を高めることにより、配信品質を向上させることができます。
-
-Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
-
-* インスタンスの正しい設定：詳しくはアドビ担当者にお問い合わせください。
-* 適切なネットワーク設定：[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
-* IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
-* 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
-* メッセージコンテンツ：[メールコンテンツの制御](control-message-content.md)を参照してください。
-* メッセージ認証（SPF、DKIM、DMARC）：[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
-* 送信者の評判：主要 ISP が送信者の評判を評価する方法については、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=ja)を参照してください。
-
-## Campaign の配信品質ツール {#deliverability-tools}
-
-<!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
-Adobe Campaign には、プラットフォームの配信品質パフォーマンスを追跡し改善するためのツールがいくつか用意されています。 また、Campaign を使用する際に配信品質を最適化するために考慮すべき主な原則についても説明します。
-
-### メッセージの慎重な作成
-
-メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
-
-* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}。
-* [メールコンテンツの制御](control-message-content.md)
-* [受信ボックスレンダリング](inbox-rendering.md)
-* [配達確認の送信](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ja){target="_blank"}
-
-### ダブルオプトインによる同意確認 {#double-opt-in}
-
-無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。 この方法を使用すると、購読が受信者の意図によるものであることを確認できます。
-
-詳しくは、[ダブルオプトインを備えた購読フォームの作成](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
-
-顧客からデータを収集する際のベストプラクティスについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ja#data-quality-and-hygiene)を参照してください。
-
-### 強制隔離管理の活用
-
-Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウンス、ソフトバウンスを収集したリストを管理します。
-
-配信品質を保護するため、アドレスがこのリストにある受信者は、デフォルトでは今後のすべての配信から除外されます。これらの連絡先に送信すると、送信の評判が低下する可能性があるからです。
-
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、メールを自動的にスパムと見なします。 したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
-
-詳しくは、以下の節を参照してください。
-
-* [配信エラーについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}（Campaign v8 ドキュメント - 包括的なガイド）
-* [強制隔離の管理について](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}（Campaign v8 ドキュメント - 包括的なガイド）
-
-### 監視ツールとレポートツールの使用
-
-Adobe Campaign が提供する機能を使用して、配信品質を監視します。
-
-Adobe Campaign では、一連のビルトインのリアルタイムインジケーターとレポートを使用して配信のパフォーマンスを確認し、配信に関するインサイトを強化できます。
-
-詳しくは、以下の節を参照してください。
-
-* [配信監視の基本を学ぶ](about-delivery-monitoring.md)
-* [Campaign ビルトインレポートの概要](../../reporting/using/about-campaign-built-in-reports.md)
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability){target=_blank}

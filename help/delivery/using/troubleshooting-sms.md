@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '3088'
 ht-degree: 100%
@@ -148,7 +148,7 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 ## MT（エンドユーザーに送信される通常の SMS）の送信時の問題{#issue-MT}
 
-* 接続が安定していることを確認します。 SMPP 接続は、Adobe Campaign Classic 上のトランスミッタ―を除き、少なくとも 1 時間は接続状態が維持される必要があります。 [不安定な接続に関する問題](sms-protocol.md#issues-unstable-connection)の節を参照してください。
+* 接続が安定していることを確認します。 SMPP 接続は、Adobe Campaign Classic 上のトランスミッタ―を除き、少なくとも 1 時間は接続状態が維持される必要があります。 [不安定な接続に関する問題](#issues-unstable-connection)の節を参照してください。
 
 * MTA を再起動することで、しばらくの間送信 MT が再び作動する場合、接続が不安定なためにスロットルが発生する可能性があります。 [不安定な接続に関する問題](troubleshooting-sms.md#issues-unstable-connection)の節を参照してください。
 

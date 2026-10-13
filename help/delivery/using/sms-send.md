@@ -39,12 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 95%
 ---
 # その他の設定{#sms-properties}
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 SMS配信設定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}
 
 <!--
 ## Send SMS messages {#sending-sms-messages}
@@ -53,7 +57,7 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](steps-validating-the-delivery.md)
+* [Validate the delivery](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
 * [Send the delivery](steps-sending-the-delivery.md)
 -->
 
@@ -73,7 +77,6 @@ The detailed process when validating and sending a delivery is presented in the 
   >
   >送信者名の変更については規制が適用される場合があります。お住まいの国の法律を確認してください。 また、通信事業者が送信者名の変更機能を提供しているかどうかについても確認する必要があります。
 
-* **送信モード**：SMS によるメッセージ送信です。
 * **優先順位**：メッセージに付与する重要度レベルです。 デフォルトでは「**[!UICONTROL 標準]**」が選択されています。 優先順位「**[!UICONTROL 高]**」を指定して SMS を送信する場合のコストについては、サービスプロバイダーに確認してください。
 * **通信のタイプ**：SMS 配信に割り当てるアプリケーションを選択します。 最もよく使用されるオプションは、デフォルトで選択されている「**[!UICONTROL ダイレクトマーケティング]**」です。
 
@@ -82,12 +85,6 @@ The detailed process when validating and sending a delivery is presented in the 
 ![](assets/s_user_mobile_sms_adv_netsize.png)
 
 * **単一のメッセージに複数の SMS を使用**：メッセージの長さが 160 字を超える場合に複数の SMS メッセージを使用して送信することを許可します。
-
-**SMPP コネクタに特有のパラメーター**
-
-![](assets/s_user_mobile_sms_adv_smpp.png)
-
-* **メッセージごとの SMS の最大数**：1 件のメッセージ送信に使用できる SMS の数を指定します。 値が 0 の場合、メッセージの配信に使用する SMS の数に制限はありません。 また、例えば 1 や 2 の場合、この数の SMS に収まらない長さのメッセージは送信されません。
 
 <!--
 ## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}

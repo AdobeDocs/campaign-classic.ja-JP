@@ -30,10 +30,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 96%
 ---
 # ユースケース：フィールド置換の設定{#use-case-configuring-the-field-substitution}
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 配信リストとシードアドレスを設定します。 [ターゲット母集団の特定](steps-defining-the-target-population.md)を参照してください。
+1. 配信リストとシードアドレスを設定します。 「[ ターゲット母集団の特定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"}」（Campaign v8 ドキュメント）を参照してください。
 
    この例では、**SF ジャンルを好んで読む**&#x200B;顧客をメインターゲット母集団にします。
 

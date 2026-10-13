@@ -35,14 +35,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 95%
 ---
 # 配信設定 {#about-delivery-settings}
 
 次の設定は、Campaign Classic に固有です。 その他の配信設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ja){target="_blank"}を参照してください。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信設定について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}
 
 ## 配信分析 {#delivery-analysis}
 
@@ -79,8 +83,6 @@ ht-degree: 100%
 
 ### 再試行の設定 {#configuring-retries}
 
-**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。 配信エラーのタイプと理由については、[この節](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
-
 >[!IMPORTANT]
 >
 >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。 ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
@@ -98,8 +100,6 @@ ht-degree: 100%
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
 * 「**[!UICONTROL 配信期間]**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。 Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
-
-  日付を指定することもできます。 そのためには、「**[!UICONTROL 有効期限を明示的に設定]**」を選択します。 この場合、配信および有効期限日に時刻を指定することもできます。 デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
   >[!IMPORTANT]
   >

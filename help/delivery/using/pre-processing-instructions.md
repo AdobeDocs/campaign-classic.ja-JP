@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 93%
 ---
 # 命令の前処理 {#pre-processing-instructions}
 
@@ -44,6 +44,10 @@ ht-degree: 100%
 * **[!DNL foreach]**：カスタムオブジェクトとして読み込まれた配列をループ処理します。 [詳細情報](#foreach)
 
 配信アシスタントから直接テストできます。 これらはコンテンツのプレビューに適用され、トラッキングボタンをクリックすると、URL のリストが表示されます。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 前処理手順について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
 
 ## [!DNL include] {#include}
 
@@ -150,19 +154,6 @@ JavaScript セクションで &lt;%@ value を使用できるようにするた�
 ## [!DNL foreach] {#foreach}
 
 この命令は、配信に読み込まれたオブジェクトの配列の反復を可能にし、オブジェクトに関連する個々のリンクをトラッキングします。
-
-構文：
-
-```
-<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
-```
-
-説明：
-
-* **[!DNL object]**：開始点となるオブジェクトの名前。通常は追加のスクリプトオブジェクトですが、配信の場合もあります。
-* **[!DNL xpath]**（オプション）：ループ処理の対象となるコレクションの xpath。 デフォルトは「.」です。これは、オブジェクトがループ処理の対象となる配列であることを意味します。
-* **[!DNL index]**（オプション）：xpath が「.」でなく、 オブジェクトが配列そのものである場合は、オブジェクトの項目インデックスです（0 から開始）。
-* **[!DNL item]**（オプション）：foreach ループ内で &lt;%@ 値でアクセス可能な新しいオブジェクトの名前。 初期設定は、スキーマ内のリンク名です。
 
 例：
 

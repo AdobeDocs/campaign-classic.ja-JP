@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 98%
 ---
 # 配信エラーと強制隔離の管理 {#delivery-failures-quarantine}
 
@@ -105,7 +105,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 >[!NOTE]
 >
->ISP を利用できなくなった場合、Campaign を通じて送信されたメールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンス選定条件を更新する必要があります。 詳しくは、[このページ](update-bounce-qualification.md)を参照してください。
+>ISP を利用できなくなった場合、Campaign を通じて送信されたメールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンス選定条件を更新する必要があります。 詳しくは、[このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### メール管理ルールの設定 {#email-management-rules}
 
@@ -245,7 +245,7 @@ SMS の強制隔離シナリオとエラータイプについて詳しくは、�
 * [配信ステータス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}（Campaign v8 ドキュメント）
 * [データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)（v7 ハイブリッド／オンプレミス）
 * [配信再試行の設定](communication-channels.md)（v7 ハイブリッド／オンプレミス）
-* [バウンスの選定の更新](update-bounce-qualification.md)（v7 ハイブリッド／オンプレミス）
+* [ バウンスの選定を更新](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} （Campaign v8 ドキュメント） （v7 ハイブリッド/オンプレミス）
 * [メール配信品質の設定](../../installation/using/email-deliverability.md)（v7 ハイブリッド／オンプレミス）
 * [インスタンスのデプロイ](../../installation/using/deploying-an-instance.md#managing-bounced-emails)（v7 ハイブリッド／オンプレミス）
 

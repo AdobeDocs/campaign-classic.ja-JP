@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '356'
 ht-degree: 7%
 ---
 # シードアドレス{#seed-addresses}
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-シードアドレスの使用について詳しくは、[この節](../../delivery/using/about-seed-addresses.md)を参照してください。
+シードアドレスの使用について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 実装 {#implementation}
 
@@ -107,7 +107,7 @@ ht-degree: 7%
    >    
    >
 
-1. **[!UICONTROL seedMember]** フォームを変更して、**[!UICONTROL シードアドレス]** ウィンドウで新しい「内部受信者」タブを定義します。 詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. **[!UICONTROL seedMember]** フォームを変更して、**[!UICONTROL シードアドレス]** ウィンドウで新しい「内部受信者」タブを定義します。 詳しくは、[このページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

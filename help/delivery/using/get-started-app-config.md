@@ -41,10 +41,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 89%
 ---
 # アプリ設定の基本を学ぶ
 
@@ -56,7 +56,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 * Neotrips モバイルアプリケーション用に、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプの情報サービスを作成します。 iOS については、[この節](configuring-the-mobile-application.md#configuring-ios-service)を参照してください。 Android については、[この節](configuring-the-mobile-application-android.md#configuring-android-service)を参照してください。
 * このサービスに、iOS バージョンと Android バージョンのアプリケーションを追加します。
-* [iOS](create-notifications-ios.md) と [Android](create-notifications-android.md) 用の配信を作成します。
+* [iOS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} （Campaign v8 ドキュメント）と[Android](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} （Campaign v8 ドキュメント）の配信を作成します。
 
 ![](assets/nmac_service_diagram.png)
 

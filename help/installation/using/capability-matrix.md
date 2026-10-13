@@ -18,10 +18,10 @@ feature_v2:
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 54%
+source-wordcount: '337'
+ht-degree: 51%
 ---
 # モデルごとの機能指標{#capability-matrix-per-model}
 
@@ -31,7 +31,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 このページでは、ホスト型（Managed Services）とオンプレミス型デプロイメントの主な違いを示します。 ハイブリッドデプロイメントの詳細は、Adobeがホストし、オンプレミスでホストされている要素によって異なります。
 
-このセクション [&#128279;](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが紹介されています。
+このセクション ](../../installation/using/hosting-models.md)では、さまざまなホスティングモデルが[紹介されています。
 
 ## 導入モデルごとの可用性 {#capability-matrix}
 
@@ -46,7 +46,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | ファイル転送のためのデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ドメイン名の委任 | オンデマンド | オンデマンド | 利用できません | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
-| SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
+| SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/spamassassin){target="_blank"} （Campaign v8 ドキュメント） |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | LDAP認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
 
@@ -57,7 +57,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)を参照してください。
+>互換性のある外部データベースシステムは、ホスティングモデルによって異なります。 詳しくは、[Campaign互換性マトリックス ](../../rn/using/compatibility-matrix.md)を参照してください。
 >
 
 **関連項目**

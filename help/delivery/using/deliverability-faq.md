@@ -41,14 +41,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 95%
 ---
 # 配信品質のトラブルシューティング{#deliverability-faq}
 
 配信品質で問題が発生した場合は、 以下のソリューションを参照してください。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 強制隔離について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}を参照して、強制隔離のブロックリストとアドレスの削除方法を確認してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
 ## MX ルールエラー {#mx-rule-error}
 
@@ -75,29 +79,7 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 それでも問題が解決されない場合は、商用サービス、配信品質サービスまたは[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
-## ブロックリストと強制隔離の比較 {#denylist-versus-quarantine}
-
-* **ブロックリストに登録されたメールアドレスと強制隔離メールアドレスの違いについて教えてください。**
-
-  * 「**[!UICONTROL ブロックリスト登録済み]**」ステータスは、フィードバックループの結果です（人がメッセージをスパムとしてレポートする場合）。
-
-  * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
-
-  詳しくは、[この節](delivery-failures-quarantine.md#quarantine-vs-denylist)を参照してください。
-
-* **様々な強制隔離エラーの原因は何を意味しますか。**
-
-  未定義、不明なユーザー、無効なドメイン、ブロックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続の 10 個の原因が考えられます。
-
-  詳しくは、[強制隔離管理の理解](delivery-failures-quarantine.md)を参照してください。
-
-## ブロックリストからの削除 {#remove-from-denylist}
-
-* **受信者の 1 人が誤ってブロックリストに追加されました。 メッセージの送信を再開できるように、ブロックリスト登録を解除するにはどうすればよいですか。**
-
-  * **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;に移動します。
-  * 対応するレコードの詳細で、「**[!UICONTROL ステータス]**」フィールドの値を「**[!UICONTROL 有効]**」にします。
-  * レコードを保存します。
+## WebブロックリストからのIPの削除 {#remove-from-denylist}
 
 * **IP のいずれかがブロックリストに登録されているかどうかを確認するにはどうすればよいですか。 IP をブロックリストから削除する方法を教えてください。**
 

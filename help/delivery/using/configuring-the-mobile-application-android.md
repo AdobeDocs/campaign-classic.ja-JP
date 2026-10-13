@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1057'
+ht-degree: 92%
 ---
 # Android の設定手順
 
@@ -68,7 +68,7 @@ ht-degree: 94%
 1. [Campaign でモバイルアプリを作成する](#creating-android-app)
 1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
-これで、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
+これで、[Android リッチ通知を作成できるようになります](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} （Campaign v8 ドキュメント）。
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_android.png)
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this section](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -201,4 +201,4 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
    >[!CAUTION]
    >
-   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。<!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。<!--Refer to [this section](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

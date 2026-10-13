@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1259'
+ht-degree: 95%
 ---
 # トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
 
@@ -201,7 +201,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 * **[!UICONTROL LINE コネクト]**&#x200B;パッケージを両方のインスタンスにインストールします。
 * **[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージをマーケティングインスタンスに、**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを実行インスタンスに、それぞれインストールします。
-* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。 LINE の外部アカウントとサービスの作成方法については、[この節](../../delivery/using/line-channel.md#setting-up-line-channel)を参照してください。
+* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。 LINE外部アカウントとサービスの作成方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 次に、**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;を選択して、それぞれのインスタンスで異なる外部アカウントを設定する必要があります。
 

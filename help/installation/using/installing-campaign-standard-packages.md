@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1448'
 ht-degree: 16%
 ---
 # Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
@@ -133,7 +133,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> LINE チャネル<br /> </td> 
-   <td> Adobe CampaignのLINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ（メッセージセンターパッケージ）が必須です。 <a href="../../delivery/using/line-channel.md">詳細情報</a> <br /> </td> 
+   <td> Adobe CampaignのLINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ（メッセージセンターパッケージ）が必須です。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> モバイルチャネル （SMS） <br /> </td> 
-   <td> Adobe Campaignのモバイル/SMS チャネルを使用して配信を送信します。 オプション。 <a href="../../delivery/using/sms-channel.md">詳細情報</a> <br /> </td> 
+   <td> Adobe Campaignのモバイル/SMS チャネルを使用して配信を送信します。 オプション。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
    <tr> 
@@ -283,7 +283,7 @@ ht-degree: 16%
 
 * Marketing インスタンスとMID インスタンスの両方に[!DNL LINE] パッケージをインストールします
 
-* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](../../delivery/using/line-channel.md#configure-line-external)
+* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} （Campaign v8 ドキュメント）
 
 * MID インスタンスの外部アカウントで[!DNL LINE]資格情報を設定します。
 

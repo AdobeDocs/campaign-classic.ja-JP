@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 98%
+source-wordcount: '2204'
+ht-degree: 97%
 ---
 # 2022 リリース{#release-2022}
 
@@ -60,7 +60,7 @@ _2022年7月1日（PT）_
 <tbody> 
 <tr> 
 <td> <p>Apple は iOS 15 で、機密と見なされた通知をリアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避する制御をアプリ開発者に提供する、即時通知の概念を追加しました。</p>
-<p>時間依存通知の作成方法については、<a href="../../delivery/using/create-notifications-ios.md">詳細なドキュメント</a>を参照してください。</p>
+<p>機密性の高い通知を作成する方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 

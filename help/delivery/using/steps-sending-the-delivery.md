@@ -37,32 +37,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 98%
+source-wordcount: '546'
+ht-degree: 89%
 ---
 # 配信の設定と送信 {#configuring-and-sending-the-delivery}
 
-## 権限{#delivery-permissions}
+ここでは、Campaign Classic v7のオンプレミスおよびハイブリッドインストールに固有の配信送信設定について説明します。
 
-配信を開始できるのは配信所有者だけです。 他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始 :]**」フィールドに追加します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} （Campaign v8 ドキュメント）。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信の送信設定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 
 配信を送信する前に、配信プロパティの「**[!UICONTROL 配信]**」タブで送信パラメーターを定義できます。
-
-![](assets/s_ncs_user_wizard_delivery.png)
-
-* **[!UICONTROL 配信の優先順位]**：配信の優先順位レベル（標準、高、低）を設定して、配信の送信順序を変更します。
-
-* **[!UICONTROL メッセージのバッチサイズ]**：1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義します。 このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。 パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
-
-  >[!IMPORTANT]
-  >
-  >既存の配信を複製して配信を作成すると、このパラメーターはリセットされます。
-
-* **[!UICONTROL 複数のウェーブを使用して送信]**：メッセージを一度にオーディエンス全体に送信するのではなく、バッチで送信します。 [詳細情報](#sending-using-multiple-waves)。
 
 * **[!UICONTROL SMTP 配信をテスト]**：SMTP 経由での送信をテストします。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
@@ -72,134 +62,7 @@ ht-degree: 98%
   >
   >* SMTP サーバー設定の詳細については、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
-* **[!UICONTROL BCC でメールを送信]**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。 [詳細情報](sending-messages.md#archiving-emails)。
-
-## 配信を確定 {#confirming-delivery}
-
-配信が設定され、送信準備が整ったら、配信分析を実行します。
-
-これを行うには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。 [詳細情報](steps-validating-the-delivery.md#analyzing-the-delivery)。
-
-![](assets/s_ncs_user_email_del_send.png)
-
-完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
-
-その後、配信アシスタントを閉じて、「**[!UICONTROL 配信]**」タブで配信の実行を追跡できます。このタブには、配信の詳細または配信リストからアクセスできます。
-
-メッセージを送信した後は、配信を監視およびトラッキングできます。 詳しくは、以下の節を参照してください。
-
-* [配信の監視](about-delivery-monitoring.md)
-* [配信エラーについて](delivery-failures-quarantine.md)
-* [メッセージのトラッキングについて](about-message-tracking.md)
-
-## 配信送信のスケジュール設定 {#scheduling-the-delivery-sending}
-
-配信をスケジュールすることで、メッセージの送信を遅らせることができます。
-
-1. 「**[!UICONTROL 送信]**」ボタンをクリックし、「**[!UICONTROL 配信を延期]**」オプションを選択します。
-
-1. 「**[!UICONTROL 連絡日]**」フィールドに開始日を入力します。
-
-![](assets/dlv_email_del_plan.png)
-
-1. その後、配信分析を開始し、配信の送信を確定します。 ただし、配信の送信は、「**[!UICONTROL 連絡日]**」フィールドで指定した日付まで開始されません。
-
->[!IMPORTANT]
->
->分析を開始すると、定義した連絡日が固定されます。 この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
-
-![](assets/s_ncs_user_email_del_start_delayed.png)
-
-配信リストには、配信が「**[!UICONTROL 保留中]**」ステータスで表示されます。
-
-![](assets/s_ncs_user_email_del_waiting.png)
-
-スケジュールは、配信の「**[!UICONTROL スケジュール設定]**」ボタンを使用してアップストリーム設定することも可能です。
-
-![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
-
-これにより、配信を後の日付まで遅らせたり、暫定カレンダーに配信を保存したりできます。
-
-* 「**[!UICONTROL 予約配信（自動実行なし）]**」オプションでは、配信の暫定的な分析をスケジュールできます。
-
-  この設定を保存すると、配信のステータスは「**[!UICONTROL ターゲティングを保留中]**」に変化します。 分析は指定した日付に開始されます。
-
-* 「**[!UICONTROL スケジュール配信（予定された日になると自動実行）]**」オプションでは、配信日を指定できます。
-
-  「**[!UICONTROL 送信]**」をクリックし、「**[!UICONTROL 配信を延期]**」を選択してから、分析を開始して配信を確定します。 分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
-
-日付と時刻は、作業しているオペレーターのタイムゾーンに基づいて表されます。 連絡日の入力フィールドの下にある&#x200B;**[!UICONTROL タイムゾーン]**&#x200B;ドロップダウンリストを使用すると、入力した日付と時刻が、指定したタイムゾーンに自動変換されます。
-
-例えば、ロンドン時間の 8:00 に配信を自動実行するスケジュールを設定すると、時間は選択したタイムゾーンに自動的に変換されます。
-
-![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
-
-## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
-
-負荷を分散するには、配信を複数のバッチに分割します。 全体の配信を基準にしてバッチの数とその比率を設定します。
-
->[!NOTE]
->
->定義できるのは、サイズと 2 つの連続するウェーブの間隔のみです。 受信者の選択条件をウェーブごとに設定することはできません。
-
-1. 配信プロパティウィンドウを開き、「**[!UICONTROL 配信]**」タブをクリックします。
-1. 「**[!UICONTROL 複数のウェーブを使用して送信]**」オプションを選択し、「**[!UICONTROL ウェーブを定義...]**」リンクをクリックします。
-
-   ![](assets/s_ncs_user_wizard_waves.png)
-
-1. ウェーブを設定するには、次のいずれかをおこないます。
-
-   * 各ウェーブのサイズを定義します。 例えば、対応するフィールドに **[!UICONTROL 30％]**&#x200B;と入力した場合、各ウェーブは、配信に含まれるメッセージの 30％を表します（ただし、最後のウェーブは除きます。最後のウェーブは、メッセージの 10％を表します）。
-
-     「**[!UICONTROL 期間]**」フィールドで、2 つの連続するウェーブの開始間隔を指定します。 例えば、**[!UICONTROL 2d]** と入力した場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
-
-     ![](assets/s_ncs_user_wizard_waves_create_size.png)
-
-   * 各ウェーブを送信するためのカレンダーを定義します。
-
-     「**[!UICONTROL 開始日]**」列では、2 つの連続するウェーブの開始間隔を指定します。 「**[!UICONTROL サイズ]**」列では、固定の数値または割合を入力します。
-
-     以下の例では、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、直ちに開始されます。 次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
-
-     ![](assets/s_ncs_user_wizard_waves_create.png)
-
-   特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 キャンペーンタイポロジとそのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定します。詳しくは、[タイポロジを使用したプロセスの検証](steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
-
-   >[!IMPORTANT]
-   >
-   >最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。 配信期限を過ぎると、一部のメッセージが送信されない場合があります。
-   >
-   >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。 詳しくは、[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
-
-1. 送信状況を監視するには、配信ログを参照してください。 [このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}を参照してください。
-
-   処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
-
-以下の 2 つの例は、最も一般的な複数のウェーブの使用例です。
-
-* **ランプアッププロセス時**
-
-  新しいプラットフォームを使用してメールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。 多くの場合、大量のメールが突然送信されると、ISP はそれらのメールをスパムとしてマークします。
-
-  ウェーブを使用して送信するボリュームを徐々に増やすことで、スパムとしてマークされないようにできます。 この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
-
-  そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。 例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％にといった具合に設定します。
-
-  ![](assets/s_ncs_user_wizard_waves_ramp-up.png)
-
-* **コールセンターが関与するキャンペーン**
-
-  電話によるロイヤルティキャンペーンを管理する場合、組織が処理できる購読者への電話の本数には限界があります。
-
-  例えば、コールセンターの 1 日あたりの処理能力を考慮して、ウェーブを使用すると、1 日あたりのメッセージ数を 20 件に制限できます。
-
-  これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。 ウェーブのサイズとして **[!UICONTROL 20]** を入力し、「**[!UICONTROL 期間]**」フィールドに **[!UICONTROL 1d]** と入力します。
-
-  ![](assets/s_ncs_user_wizard_waves_call_center.png)
-
 ## 再試行の設定 {#configuring-retries}
-
-**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。 配信エラーのタイプと理由については、[この節](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -218,8 +81,6 @@ ht-degree: 98%
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
 * 「**[!UICONTROL 配信期間]**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。 Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
-
-  日付を指定することもできます。 そのためには、「**[!UICONTROL 有効期限を明示的に設定]**」を選択します。 この場合、配信および有効期限日に時刻を指定することもできます。 デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
   >[!IMPORTANT]
   >

@@ -50,10 +50,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '6917'
-ht-degree: 95%
+source-wordcount: '6932'
+ht-degree: 94%
 ---
 # Adobe Campaign 用語集{#ac-glossary}
 
@@ -509,7 +509,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
-Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
+Learn more about [Image serving](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/defining-the-email-content#adding-images){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -933,7 +933,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 
 シードアドレスは、定義されたターゲット条件に一致しない受信者を配信のターゲットにする場合に使用されます。 これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。 受信者データベースの不正使用を検出したり、確実に配信したりすることを目的に、これらをメッセージのオーディエンスに追加します。
 
-詳細情報：[シードアドレス](../../delivery/using/about-seed-addresses.md)。
+[&#x200B; シードアドレス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 <!--

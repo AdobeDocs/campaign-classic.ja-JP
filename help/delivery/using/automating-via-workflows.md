@@ -37,71 +37,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '917'
+ht-degree: 94%
 ---
 # ワークフローを使用した自動化{#automating-via-workflows}
 
-## コンテンツ管理アクティビティ {#content-management-activity}
+コンテンツ管理コンテンツの作成、編集、公開は、ワークフローを使用して自動化できます。
 
-Adobe Campaign のクライアントインターフェイスで設定したワークフローを使用して、コンテンツの作成、編集およびパブリッシュを自動化できます。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 **コンテンツ管理** アクティビティの設定方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}を参照してください。
 
-**コンテンツ管理**&#x200B;アクティビティには、ワークフローダイアグラムの&#x200B;**[!UICONTROL ツール]**&#x200B;ツールバーからアクセスします。
-
-アクティビティのプロパティは、次の 4 つの手順に分類されます。
-
-* **[!UICONTROL コンテンツ]**：既存のコンテンツを入力することも、コンテンツを作成することもできます。
-* **[!UICONTROL コンテンツを更新]**：XML データの流れを利用してコンテンツの件名を変更したり、コンテンツを更新したりできます。
-* **[!UICONTROL 実行するアクション]**：コンテンツを保存または生成できます。
-* **[!UICONTROL トランジション]**：出力トランジションを生成するかどうかを選択し、名前を付けることができます。
-
-![](assets/d_ncs_content_wf.png)
-
-### コンテンツ {#content}
-
-* **トランジションで指定**
-
-  使用するコンテンツは以前作成したものです。 プロセスでは、受信イベントで伝搬されるコンテンツインスタンスが使われます。 コンテンツ識別子には、イベントの「contentId」変数を使用してアクセスします。
-
-* **明示**
-
-  以前作成したコンテンツを選択できます。
-
-* **スクリプトで計算**
-
-  JavaScript テンプレートに基づいてコンテンツインスタンスを選択します。 評価するコードを使用して、コンテンツ識別子を取得できます。
-
-* **新規（パブリッシュテンプレートから作成）**
-
-  パブリッシュテンプレートを使用して、新しいコンテンツを作成します。 コンテンツインスタンスは、設定済みの「文字列」フォルダーに保存されます。
-
-### コンテンツを更新 {#update-the-content}
-
-* **件名**
-
-  パブリッシュ時に配信アクションの件名を変更できます。
-
-* **XML フィードからデータにアクセス**
-
-  コンテンツは、外部ソースからの XML フィードで更新されます。 データのダウンロードを実行するための URL を入力する必要があります。
-
-  XSL スタイルシートを使用して、受信する XML データを変換できます。
-
-### 実行するアクション {#action-to-execute}
-
-* **保存**
-
-  作成または変更したコンテンツを保存します。 保存されたコンテンツの識別子は、送信イベントの「contentId」変数で伝搬されます。
-
-* **生成**
-
-  「ファイル」タイプのパブリッシュによって、変換テンプレートごとに出力ファイルを生成します。 生成されたファイルごとに送信トランジションが有効化されます。パラメーターは、「contentId」変数に保存されているコンテンツの識別子と、「filename」変数に保存されているファイル名です。
-
-### トランジション {#transition}
-
-「**アウトバウンドトランジションを生成**」オプションを使用して、**[!UICONTROL コンテンツ管理]**&#x200B;アクティビティに出力トランジションを追加し、新しいアクティビティをワークフローの実行にリンクできます。 このオプションをオンにしてから、トランジションのラベルを入力します。
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## 例 {#examples}
 
@@ -240,11 +187,6 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 配信コンテンツは、受信イベントを使用して入力します。
 
 アクティビティの最後のアクションは、配信を準備し、開始することです。
-
-### FTP からのコンテンツのインポート {#importing-content-from-ftp}
-
-FTP または SFTP サーバー上において、HTML ファイルで配信コンテンツが使用できる場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}を参照してください。
-
 
 ### Amazon Simple Storage Service（S3）コネクタからのコンテンツのインポート {#importing-content-from-amazon-simple-storage-service--s3--connector}
 

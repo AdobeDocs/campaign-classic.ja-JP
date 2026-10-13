@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2718'
 ht-degree: 98%
 ---
 # 2021 リリース{#release-2021}
@@ -162,7 +162,7 @@ _2021 年 6 月 5 日（PT）_
 <li><p>LINE Partner Registration API のサポート</p></li>
 <li><p>LINE のサーバー側のエラーやネットワークタイムアウトが発生した場合、適切な再送信を実施ト</p></li>
 </ul>
-<p>詳しくは、<a href="../../delivery/using/line-channel.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 

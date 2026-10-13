@@ -114,7 +114,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong> メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message" target="_blank"> プルーフの送信</a> （Campaign v8 ドキュメント） - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a>
+      <strong> メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message" target="_blank"> プルーフの送信</a> （Campaign v8 ドキュメント） - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a>
     </td>
   </tr>
   <tr style="border: 0;">

@@ -45,7 +45,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-シードアドレスの使用について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+シードアドレスの使用について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 実装 {#implementation}
 
@@ -107,7 +107,7 @@ ht-degree: 7%
    >    
    >
 
-1. **[!UICONTROL seedMember]** フォームを変更して、**[!UICONTROL シードアドレス]** ウィンドウで新しい「内部受信者」タブを定義します。 詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. **[!UICONTROL seedMember]** フォームを変更して、**[!UICONTROL シードアドレス]** ウィンドウで新しい「内部受信者」タブを定義します。 詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

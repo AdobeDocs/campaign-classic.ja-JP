@@ -61,7 +61,7 @@ ht-degree: 95%
 1. [iOS サービスの設定](#configuring-ios-service)
 1. [Campaign での iOS モバイルアプリの統合](#creating-ios-app)
 
-これで、[iOS デバイス用のプッシュ通知を作成できるようになります](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} （Campaign v8 ドキュメント）。
+これで、[iOS デバイス用のプッシュ通知を作成できるようになります](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} （Campaign v8 ドキュメント）。
 
 ## iOS 外部アカウントの設定 {#configuring-external-account-ios}
 
@@ -133,7 +133,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、開発アプリケーションの設定をおこないます。
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> この統合キー（各アプリケーションに固有のもの）を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this page](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> この統合キー（各アプリケーションに固有のもの）を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
 
    >[!NOTE]
    >

@@ -127,7 +127,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
-Learn more about [Campaigns](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation).
+Learn more about [Campaigns](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -208,7 +208,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 Adobe Campaign には事前定義済みのデータモデルが付属しており、様々なパッケージのインストールを通じてデータタイプが定義されます。 オペレーターはリソースを拡張することで提供されるデータモデルをエンリッチメントし、トランザクションテーブルや製品テーブルなどのカスタムテーブルや、カスタムフィールドを追加できます。
 
-[&#x200B; カスタムリソース &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; カスタムリソース &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**データモデル**
@@ -459,7 +459,7 @@ Campaign のユーザーインターフェイスについて詳しくは、[Adob
 
 フォームは、特定のスキーマタイプのインターフェイス表現を定義します。 フォームは、受信者、配信、キャンペーンなど、製品内のデータ要素を簡単に作成および編集するための手段となります。 Adobe Campaign のすべてのインターフェイス要素は、フォームを使用して製品そのものに作成されます。 なお、フォームはオプションであり、すべてのスキーマにフォームがあるわけではありません。
 
-[Forms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[Forms](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 <!--
@@ -509,7 +509,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
-Learn more about [Image serving](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/defining-the-email-content#adding-images){target="_blank"} (Campaign v8 documentation).
+Learn more about [Image serving](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/defining-the-email-content#adding-images){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -519,7 +519,7 @@ Learn more about [Image serving](https://experienceleague.adobe.com/en/docs/camp
 
 インバウンドインタラクションは、web、コールセンター、モバイルなどのチャネル内の連絡先のアクションによって発生する着信呼び出しに続くインタラクションです。 通常、このタイプのインタラクションは単一モードで処理（受信者ごとに処理）されます。
 
-[&#x200B; インバウンドインタラクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; インバウンドインタラクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**インボックスレンダリング**
@@ -588,7 +588,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 名前空間は、データモデル内の Adobe Campaign のネイティブデータタイプから顧客データタイプを分離するパーティションです。 また、スキーマやテンプレートを開発インスタンスから実稼動インスタンスに移動するなど、あるインスタンスから別のインスタンスへの定義の移行を容易にするためにも使用します。
 
-[名前空間](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas#identification-of-a-schema){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[名前空間](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas#identification-of-a-schema){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 <!--
@@ -624,7 +624,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファーカタログは、Adobe Campaign で定義され、インタラクション中に選択できる一連のオファーです。 カタログは階層構造を持ち、各ノードが 1 つのカテゴリに対応しています。
 
-[&#x200B; オファーカタログ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーカタログ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファー連絡先**
@@ -645,7 +645,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファー&#x200B;**デザイン環境**&#x200B;は、オペレーターがオファーの作成、タイポロジルールの定義、オファーのターゲットにするスキーマの選択を行う環境です。 生成されたオファーの提案を保存するテーブルも、環境によって定義されます。 デフォルトでは、インタラクションアドオンには、1 つの&#x200B;**デザイン**&#x200B;環境とそれにリンクされた 1 つの&#x200B;**ライブ**&#x200B;環境が用意されています。 どちらの環境も、ビルトインの受信者テーブルをターゲットとするように事前に設定されています。
 
-[&#x200B; オファーデザイン環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーデザイン環境](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファーエンジンのアービトラージ**
@@ -672,7 +672,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファー環境は、オファーカタログ、使用可能なスペースおよび環境の事前定義済みフィルターを定義するルートフォルダーです。 オペレーターは、ターゲティングディメンションごとに 1 つの環境を作成する必要があります。 オファー環境には、デザインとライブの 2 つのタイプがあります。
 
-[&#x200B; オファー環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファー環境](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファーライブ環境**
@@ -681,7 +681,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファーライブ環境はキャンペーン&#x200B;**デザイン環境**&#x200B;にリンクされています。 この環境には、**デザイン環境**&#x200B;でコンテンツと実施要件の承認を受けた読み取り専用のオファーが含まれています。 Web サイトでの表示用に選択することも、アウトバウンドメッセージに挿入することもできます。
 
-[提供中のライブ環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[提供中のライブ環境](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファープレゼンテーションルール**
@@ -699,7 +699,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 フォルダー内で表示されるオファーのプレビューです。 オファープレビュータブまたは連絡先プロファイルからアクセスできます。
 
-[&#x200B; オファーのプレビュー](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer#previewing-the-offer){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーのプレビュー](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-offer#previewing-the-offer){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファーの提案**
@@ -708,7 +708,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファーの提案は、特定のオファースペース（web サイトのバナー、メール、SMS コンテンツなど）で連絡先にオファーを提示するアクションの結果です。 この結果は、オファー、受信者およびタイムスタンプを定義するオファー提案テーブルに格納され、受信者が受け取ったすべてのオファーの記録となります。
 
-[&#x200B; オファーの提案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces#offer-proposition-statuses){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーの提案](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces#offer-proposition-statuses){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファー表示域**
@@ -735,7 +735,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファースペースは、オファーの公開場所を定義するフォルダーです。 スペースを定義すると、使用するチャネルの指定、オファーのコンテンツの作成、提示されるオファーの指定を行えます。 オファースペースは、チャネルとオファーエンジンの間のインターフェイスです。
 
-[&#x200B; オファースペース &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファースペース &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファーテーマ**
@@ -744,7 +744,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファーテーマは、カテゴリで定義されるキーワードです。オペレーターはカテゴリにより、オファーが提示されたときにそのオファーをフィルタリングできます。 テーマを使用すると、カタログ構造から階層的でない方法でオファーを選択できます。
 
-[&#x200B; オファーテーマ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーテーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オファーの重み付け**
@@ -753,7 +753,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 オファーの重み付けは、最も関連性の高いオファーをエンジンが選択できるように、オファーの関連度を正確に定義する数式に基づいています。 重み付けはオファーで定義し、乗数はカテゴリで定義します。 重み付けの順序を下げる際には実施要件を満たすオファーが考慮されます。
 
-[&#x200B; オファーの重み](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer#offer-weight){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; オファーの重み](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-offer#offer-weight){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**オペレーター**
@@ -783,7 +783,7 @@ Campaign のユーザーインターフェイスについて詳しくは、 [Ad
 
 アウトバウンドインタラクションは、（メールやダイレクトメールの配信に使用される）連絡先リストからインタラクションエンジンへの呼び出しを意味します。 各連絡先に同じルールとプロセスが適用されます。 通常、このタイプのインタラクションはバッチモードで処理されます。
 
-[&#x200B; アウトバウンドインタラクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; アウトバウンドインタラクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**パッケージのエクスポート／インポート**
@@ -904,7 +904,7 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 
 レンダリング関数は、オファースペースで定義されます。 これは、オファーで定義された属性に基づいてオファー表示域を構築するために使用します。 レンダリング関数のモードには、HTML、XML、テキストの 3 種類があります。
 
-[&#x200B; レンダリング関数](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; レンダリング関数](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 <!--
@@ -933,7 +933,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 
 シードアドレスは、定義されたターゲット条件に一致しない受信者を配信のターゲットにする場合に使用されます。 これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。 受信者データベースの不正使用を検出したり、確実に配信したりすることを目的に、これらをメッセージのオーディエンスに追加します。
 
-[&#x200B; シードアドレス &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[&#x200B; シードアドレス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 <!--
@@ -1107,7 +1107,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 単一モードでは、実行時にオファーエンジンによって 1 つの連絡先だけが処理されます。 通常、このモードはインバウンドインタラクションとトランザクションメッセージで使用します。
 
-[単一モード &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
+[単一モード &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}の詳細（Campaign v8 ドキュメント）。
 +++
 
 +++**Web アプリケーション**

@@ -133,7 +133,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> LINE チャネル<br /> </td> 
-   <td> Adobe CampaignのLINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ（メッセージセンターパッケージ）が必須です。 <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
+   <td> Adobe CampaignのLINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ（メッセージセンターパッケージ）が必須です。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -178,7 +178,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ ht-degree: 16%
 
 * Marketing インスタンスとMID インスタンスの両方に[!DNL LINE] パッケージをインストールします
 
-* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} （Campaign v8 ドキュメント）
+* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} （Campaign v8 ドキュメント）
 
 * MID インスタンスの外部アカウントで[!DNL LINE]資格情報を設定します。
 

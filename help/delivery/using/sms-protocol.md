@@ -53,9 +53,9 @@ ht-degree: 98%
 >このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
 >
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 SMS コネクタの設定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 SMS コネクタの設定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
 
 ## 概要 {#overview}
 
@@ -181,7 +181,7 @@ PDU にはオプションのフィールドを指定できます。 ここでは
 
 * **registered_delivery**：SR が要求されているかどうかを示します。 Adobe Campaign は、自動返信を除き、常にこのフラグを設定します。 マルチパートメッセージの場合、フラグは最初のパーツに対してのみ設定されます。 すべてのバージョンで同じ動作がおこなわれます。
 
-* **data_coding**：テキストフィールドで使用されるエンコーディングを示します。 詳しくは、[SMS テキストエンコーディング &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+* **data_coding**：テキストフィールドで使用されるエンコーディングを示します。 詳しくは、[SMS テキストエンコーディング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
 * **short_message**：メッセージのテキスト。 UDH を使用する場合は、UHD ヘッダーも含まれます。
 
@@ -243,7 +243,7 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 ほとんどのプロバイダーでは、各 SMPP 接続にスループットの制限が必要です。 これは、外部アカウント内に多数の SMS を設定することで達成できます。 スループットのスロットルは接続ごとに発生します。有効なスループットの合計は、接続ごとの制限値に接続の合計数を乗じた値です。 これについては、[同時接続](sms-protocol.md#connection-settings)の節で詳しく説明します。
 
-最大スループットに達するには、最大送信ウィンドウを微調整する必要があります。 送信ウィンドウは、`SUBMIT_SM_RESP` を待たずに送信できる `SUBMIT_SM PDU` の数です。 詳しくは、[送信ウィンドウ設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+最大スループットに達するには、最大送信ウィンドウを微調整する必要があります。 送信ウィンドウは、`SUBMIT_SM_RESP` を待たずに送信できる `SUBMIT_SM PDU` の数です。 詳しくは、[送信ウィンドウ設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
 ### SR およびエラー管理（「付録 B」） {#sr-error-management}
 

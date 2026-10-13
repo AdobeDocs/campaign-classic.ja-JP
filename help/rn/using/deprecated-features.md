@@ -185,7 +185,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
    <tr> 
    <td>モバイルチャネル - LINE v1</td>
-   <td>Campaign 18.4 リリースより、LINE Connect パッケージは使用できなくなりました。 代わりに、新しい LINE Channel パッケージを使用することをお勧めします。 <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント）</td>
+   <td>Campaign 18.4 リリースより、LINE Connect パッケージは使用できなくなりました。 代わりに、新しい LINE Channel パッケージを使用することをお勧めします。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント）</td>
   </tr>
  </tbody> 
 </table>

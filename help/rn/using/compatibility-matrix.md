@@ -474,7 +474,7 @@ Microsoft Edge WebView2 ランタイムの最新バージョンは、Campaign �
 
 データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK 経由で Campaign を使用して[プッシュ通知を送信](../../delivery/using/about-mobile-app-channel.md)できます。
 
-Campaign v7.4 以降、Campaign SDK は[非推奨](deprecated-features.md)です。 既存の実装を AEP Mobile SDK にスムーズに移行できるよう、以下のオペレーティングシステムでは引き続き使用可能です<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->。
+Campaign v7.4 以降、Campaign SDK は[非推奨](deprecated-features.md)です。 既存の実装を AEP Mobile SDK にスムーズに移行できるよう、以下のオペレーティングシステムでは引き続き使用可能です<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->。
 
 
 <table>

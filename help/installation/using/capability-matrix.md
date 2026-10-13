@@ -46,7 +46,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | ファイル転送のためのデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ドメイン名の委任 | オンデマンド | オンデマンド | 利用できません | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
-| SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/spamassassin){target="_blank"} （Campaign v8 ドキュメント） |
+| SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/deliverability-management/spamassassin){target="_blank"} （Campaign v8 ドキュメント） |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | LDAP認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
 

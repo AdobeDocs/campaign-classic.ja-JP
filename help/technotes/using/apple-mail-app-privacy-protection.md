@@ -95,7 +95,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
 * **[!UICONTROL オペレーティングシステム]**&#x200B;レポート
 
-  オペレーティングシステム別およびバージョン別の訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} （Campaign v8 ドキュメント）。
+  オペレーティングシステム別およびバージョン別の訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} （Campaign v8 ドキュメント）。
 
   訪問者の合計数に関するオペレーティングシステム別の訪問者の分類を表示できます。
 
@@ -107,7 +107,7 @@ Adobe Campaign データからインサイトを収集するには、標準レ�
 
 * **[!UICONTROL 開封数の分類]**&#x200B;レポート
 
-  オペレーティングシステム別のメールの開封数の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} （Campaign v8 ドキュメント）。
+  オペレーティングシステム別のメールの開封数の割合を識別するには、このレポートを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} （Campaign v8 ドキュメント）。
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 

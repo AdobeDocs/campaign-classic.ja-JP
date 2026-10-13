@@ -70,7 +70,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
 また、カスタム受信者テーブルを使用する場合、この操作を実行する必要があります。
 
-新しいフィールドの作成方法について詳しくは、[&#x200B; スキーマエディションのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+新しいフィールドの作成方法について詳しくは、[&#x200B; スキーマエディションのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-3.png)
 
-1. エクスプローラーの&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL 入力フォーム]**&#x200B;ノードをクリックします。 **[!UICONTROL 受信者（nms）]**&#x200B;の「一般的なパッケージ」で、`<input>` 要素を追加して、xpath 値に、手順 2 で定義した相対パスを使用します。 フォームの識別について詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. エクスプローラーの&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL 入力フォーム]**&#x200B;ノードをクリックします。 **[!UICONTROL 受信者（nms）]**&#x200B;の「一般的なパッケージ」で、`<input>` 要素を追加して、xpath 値に、手順 2 で定義した相対パスを使用します。 フォームの識別について詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>
@@ -114,7 +114,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 受信者リストを設定して、オプトアウト列を表示します。 リストの設定方法については、[詳細ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/ui-settings#customize-lists){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. 受信者リストを設定して、オプトアウト列を表示します。 リストの設定方法については、[詳細ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/ui-settings#customize-lists){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ![](assets/privacy-ccpa-6.png)
 

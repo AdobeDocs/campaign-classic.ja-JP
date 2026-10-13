@@ -26,10 +26,10 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 85%
 ---
 # 拡張の例{#extension-example}
 
@@ -49,4 +49,4 @@ ht-degree: 100%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap-server-side.md)を参照してください。
+* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAPを介した統合（サーバーサイド） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

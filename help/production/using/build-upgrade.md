@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 38%
@@ -437,5 +437,5 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](../../support.md)
+* [Campaign Classic のヘルプとサポートのオプション](../../campaign-classic-home.md)
 * [Campaign年間アップグレードプログラム](../../rn/using/rn-overview.md)

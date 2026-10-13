@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 100%
+source-wordcount: '1241'
+ht-degree: 98%
 ---
 # トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 >この手順は、作業中のマシンと同じマシンにインストールされた Windows NLServer を使用しているお客様にのみ適用されます。
 
 1. パッケージインポートアシスタント（**[!UICONTROL ツール／詳細設定／パッケージをインポート／アドビキャンペーンパッケージ]**）を使用し、追加したいチャネル（例：**モバイルチャネル**）をインストールします。
-1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms **`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
+1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
 1. 「**[!UICONTROL インポートするデータの XML コンテンツ]**」には、追加したチャネルに対応する配信テンプレートのみを残します。 例えば、**モバイルチャネル**&#x200B;を追加した場合には、**[!UICONTROL モバイルトランザクションメッセージ]**（smsTriggerMessage）に対応する **entities** 要素のみを残します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOS トランザクションメッセージ**（iosTriggerMessage）と **Android トランザクションメッセージ**（androidTriggerMessage）のみを残します。
 
    ![](assets/messagecenter_install_channel.png)
@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -195,7 +195,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 ### トランザクションメッセージと LINE {#transactional-messaging-and-line}
 
-LINE チャネルとトランザクションメッセージを組み合わせると、コンシューマー向けモバイルデバイスにインストールされた LINE アプリでリアルタイムメッセージを送信できます。 これは、LINE ユーザーがブランドのページを追加したときに歓迎メッセージを送信するために使用されます。
+LINE チャネルとトランザクションメッセージを組み合わせると、消費者向けモバイルデバイスにインストールされた LINE アプリでリアルタイムメッセージを送信できます。 これは、LINE ユーザーがブランドのページを追加したときに歓迎メッセージを送信するために使用されます。
 
 トランザクションメッセージモジュールを LINE と共に使用するには、**マーケティング**&#x200B;インスタンスと&#x200B;**実行**&#x200B;インスタンスの設定で次の要素が必要になります。
 
@@ -264,4 +264,4 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックします。
    * 「**[!UICONTROL データ同期ワークフローを作成]**」ボタンをクリックして、LINE データ同期ワークフローを作成します。
 
-1. これで[トランザクションメッセージの作成](../../message-center/using/creating-the-message-template.md)を開始できます。
+1. トランザクション メッセージの作成[を開始できるようになりました](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} （Campaign v8 ドキュメント）。

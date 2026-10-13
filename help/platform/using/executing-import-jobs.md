@@ -32,7 +32,7 @@ subfeature_v2:
     internal-label: Access management
   - id: e8d937ec-9046-41b5-834b-d22a624e0d37
     internal-label: Campaign overview
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '3248'
 ht-degree: 100%
@@ -316,7 +316,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
      >[!NOTE]
      >
-     >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。 詳しくは、[フォルダーアクセス管理](../../platform/using/access-management-folders.md)を参照してください。
+     >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。 詳しくは、[フォルダーアクセス管理](access-management.md)を参照してください。
 
      インポートフォルダーを選択するには、「**[!UICONTROL フォルダー]**」フィールドの右側にある矢印をクリックし、関係するフォルダーを選択します。 **[!UICONTROL リンクを選択]**&#x200B;アイコンを使用して新しいウィンドウでツリーを表示するか、新しいフォルダーを作成することもできます。
 

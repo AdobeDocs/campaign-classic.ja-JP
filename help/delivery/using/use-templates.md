@@ -35,10 +35,10 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 94%
 ---
 # テンプレートの使用 {#use-templates}
 
@@ -70,7 +70,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
-1. [](about-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。 **[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、次のフィールドに入力します。
+1. [&#128279;](about-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。 **[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、次のフィールドに入力します。
 
    ![](assets/d_best_practices_email_header.png)
 
@@ -82,7 +82,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### コントロール母集団の設定
 
-配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール母集団について詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
+配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール グループについて詳しくは、この節[&#128279;](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
 
 コントロール母集団を設定するには、「**[!UICONTROL 宛先]**」リンクをクリックします。 **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウで「**[!UICONTROL コントロール母集団]**」タブを選択します。 ターゲットの一部を抽出できます。例えば、ランダムサンプリングとしてターゲットの 5％を抽出します。
 
@@ -96,4 +96,4 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 例えば、アウトバウンドトラフィックの制御を強化するために、使用可能な IP アドレスを定義するには、サブドメインごとに 1 つのアフィニティを定義し、アフィニティごとに 1 つのタイポロジを作成します。 アフィニティはインスタンスの設定ファイルで定義されます。 Adobe Campaign 管理者にお問い合わせください。
 
-タイポロジについて詳しくは、[この節](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。
+タイポロジについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

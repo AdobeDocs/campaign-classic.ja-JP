@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 96%
 ---
 # 配信の最適化 {#optimize-delivery}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 [このドキュメント](../../workflow/using/workflow-best-practices.md#execution-and-performance)に示すガイドラインに従います。
+* ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 このドキュメントの[に記載されているガイドラインに従ってください](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} （Campaign v8 ドキュメント）。
 
 * 要件を満たす場合、[Campaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)を利用すると、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用してプラットフォームを監視できます。
 

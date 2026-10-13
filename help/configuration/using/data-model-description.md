@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2395'
 ht-degree: 4%
 ---
 # キャンペーンデータモデルの説明{#data-model-description}
@@ -73,7 +73,7 @@ iFolderId フィールドは、受信者を実行フォルダーにリンクす�
 
 sCountryCode フィールドは、受信者に関連付けられている国の3166-1 Alpha 2 ISO コード （2文字）です。 このフィールドは、国ラベルやその他の国コードデータを含む国参照テーブル（NmsCountry）の外部キーです。 国が入力されていない場合は、値「XX」が保存されます（ゼロ ID レコードの代わりに使用されます）。
 
-受信者テーブルについて詳しくは、[この節](../../configuration/using/about-data-model.md#default-recipient-table)を参照してください。
+受信者テーブルについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ### NmsGroup {#NmsGroup}
 

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 85%
 ---
 # オファーのシミュレーションについて{#about-offers-simulation}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 **シミュレーション**&#x200B;モジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 
-シミュレーションには、オファーにあらかじめ適用されているコンテキストおよび実施要件ルール（[オファーカタログの概要](../../interaction/using/offer-catalog-overview.md)を参照）と、オファーのプレゼンテーションルール（[オファー表示域の管理](../../interaction/using/managing-offer-presentation.md)を参照）が考慮されます。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
+シミュレーションでは、以前にオファーに適用されたコンテキストと適格性ルール（[&#x200B; オファーカタログの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} （Campaign v8 ドキュメント）を参照）と、それらのプレゼンテーションルール（[&#x200B; オファープレゼンテーションの管理](../../interaction/using/managing-offer-presentation.md)を参照）を考慮します。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
 オファーをシミュレートする方法については、以下の手順を参照してください。
 

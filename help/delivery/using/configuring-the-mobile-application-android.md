@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 96%
+source-wordcount: '1040'
+ht-degree: 94%
 ---
 # Android の設定手順
 
@@ -195,7 +195,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 **appsubscriptionRcp** を拡張して、アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
 
-1. 「 **[!UICONTROL 登録者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。 スキーマ拡張について詳しくは、[こちらのページ](../../configuration/using/about-schema-edition.md)を参照してください。
+1. 「 **[!UICONTROL 登録者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。 スキーマ拡張機能について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
 

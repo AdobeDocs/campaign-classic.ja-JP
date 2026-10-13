@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 70%
 ---
 # インタラクションとオファー管理{#interaction-and-offer-management}
 
@@ -39,6 +39,12 @@ ht-degree: 100%
 
 インタラクションではオファーのカタログを作成して管理することができ、カタログにリンクされた実施要件ルールとアプリケーションテーマを設定することもできます。 様々なレンダリング関数を活用することで、選択したチャネルに応じてオファーコンテンツをパーソナライズできます。 最後に、シミュレーションモジュールを使用してオファー表示域の影響を計算できます。
 
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 インタラクションについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+
+この節では、Campaign v8 ドキュメントに記載されていないインタラクション機能のみを取り上げます。[&#x200B; オファーシミュレーション &#x200B;](about-offers-simulation.md)、[&#x200B; オファープレゼンテーション &#x200B;](managing-offer-presentation.md)、[&#x200B; オファー承認](approving-and-activating-an-offer.md)、[&#x200B; オファーテンプレート &#x200B;](managing-offer-templates.md)および[詳細設定](using-advanced-parameters.md)。
+
 ![](assets/Offermgt2.png)
 
 ![](assets/do-not-localize/how-to-video.png) Campaign のインタラクションの機能と用語について詳しくは、[こちらのビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com)をご覧ください。
@@ -47,6 +53,6 @@ ht-degree: 100%
 
 | 便利なページ | その他のリソース |
 |---|---|
-| [インタラクションの実装手順](../../interaction/using/implementation-steps.md) | [オファー配分のテスト](../../interaction/using/about-offers-simulation.md) |
-| [ライブ／デザイン環境](../../interaction/using/live-design-environments.md) | [メールのオファーの追加](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [オファースペースの作成](../../interaction/using/creating-offer-spaces.md) | [使用例：Web サイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [&#x200B; インタラクションの実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target="_blank"} （Campaign v8 ドキュメント） | [オファー配分のテスト](../../interaction/using/about-offers-simulation.md) |
+| [&#x200B; ライブ/デザイン環境](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} （Campaign v8 ドキュメント） | [電子メールにオファーを追加する](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} （Campaign v8 ドキュメント） |
+| [&#x200B; オファースペースの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} （Campaign v8 ドキュメント） | [使用例：Web サイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |

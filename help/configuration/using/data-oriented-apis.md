@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1818'
 ht-degree: 1%
 ---
 # データ指向の API{#data-oriented-apis}
@@ -147,7 +147,7 @@ Write メソッドは、[Write / WriteCollection （xtk:session） &#x200B;](#wr
 * **select**：複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
 * **count**: データ数を返します。
 
-**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[&#x200B; データスキーマ &#x200B;](../../configuration/using/data-schemas.md)を参照してください。
+**XPath**&#x200B;構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathについて詳しくは、[&#x200B; データスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 

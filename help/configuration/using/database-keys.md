@@ -28,122 +28,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 30%
+source-wordcount: '591'
+ht-degree: 28%
 ---
 # スキーマでのキー管理 {#management-of-keys}
 
-データスキーマに関連付けられた各テーブルには、テーブル内のレコードを識別するためのキーが少なくとも 1 つ必要です。
+データスキーマに関連付けられた各テーブルには、テーブル内のレコードを識別するためのキーが少なくとも 1 つ必要です。 このページでは、Campaign Classic v7 テーブルで使用される自動インクリメンタルキーについて説明します。
 
-キーがデータスキーマのメイン要素から宣言されます。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 キー管理について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}を参照してください。
 
-```sql
-<key name="name_of_key">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-キーがスキーマ内で最初に入力される場合や、「true」に設定された `internal` 属性を含む場合、そのキーは「プライマリキー」と呼ばれます。
-
-キーには、次のルールが適用されます。
-
-* キーは、テーブルの1つ以上のフィールドを参照できます
-* 各キー定義に対して、一意のインデックスが暗黙的に宣言されます。 キーにインデックスを作成しないようにするには、`noDbIndex`属性を「true」に設定します。
-
->[!NOTE]
->
->* 標準として、キーは、インデックスが定義された後にスキーマのメイン要素から宣言された要素です。
->
->* キーはテーブルマッピング（標準またはFDA）中に作成され、Adobe Campaignは一意のインデックスを見つけます。
-
-**例**：
-
-* 電子メールアドレスと都市にキーを追加する：
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </key>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-  生成されたスキーマ：
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-     <dbindex name="email" unique="true">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-     </dbindex>    
-  
-     <key name="email">      
-      <keyfield xpath="@email"/>      
-      <keyfield xpath="location/@city"/>    
-     </key>    
-  
-     <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-     <element label="Location" name="location">      
-       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-     </element>  
-    </element>
-  </schema>
-  ```
-
-* 「id」名フィールドへのプライマリキーまたは内部キーの追加：
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="id" internal="true">
-        <keyfield xpath="@id"/> 
-      </key>
-  
-      <key name="email" noDbIndex="true">
-        <keyfield xpath="@email"/> 
-      </key>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
-  生成されたスキーマ：
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-      <key name="email">      
-        <keyfield xpath="@email"/>    
-      </key>    
-  
-      <dbindex name="id" unique="true">      
-        <keyfield xpath="@id"/>    
-      </dbindex>    
-  
-      <key internal="true" name="id">      
-       <keyfield xpath="@id"/>    
-      </key>    
-  
-      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-    </element>
-  </schema>
-  ```
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}
 
 ## 自動インクリメンタルキー {#auto-incremental-key}
 
@@ -207,5 +103,5 @@ Adobe Campaign スキーマで参照されているシーケンス（**NmsTracki
 * [スキーマの基本を学ぶ](about-schema-reference.md)
 * [スキーマの構造](schema-structure.md)
 * [データベースマッピング](database-mapping.md)
-* [リンク管理](database-links.md)
-* [Campaign データモデル](about-data-model.md)
+* [&#x200B; リンク管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} （Campaign v8 ドキュメント）
+* [Campaign データモデル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）

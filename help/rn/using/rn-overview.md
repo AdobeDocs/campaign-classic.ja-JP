@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
@@ -183,7 +183,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 ## その他のリソース{#support}
 
 * [Campaign のバージョンの確認](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
-* [ヘルプとサポート](../../support.md)
+* [ヘルプとサポート](../../campaign-classic-home.md)
 * [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
 * [廃止予定の機能と削除された機能](../../rn/using/deprecated-features.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)

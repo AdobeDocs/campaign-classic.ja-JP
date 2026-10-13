@@ -31,10 +31,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 89%
 ---
 # A/B テストの設定 {#configuring-a-b-testing}
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 1. 分割アクティビティを追加して、ターゲット母集団を複数のサブセットに分割します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"}を参照してください。
 
-1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL 分割]**&#x200B;アクティビティの設定方法の詳細については、[こちらの節](../../workflow/using/split.md)を参照してください。
+1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL Split]** アクティビティの設定方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    この例では、ニュースレター用の 2 つの新しい件名を、それぞれターゲット母集団の 10%に提示して、テストをおこないます。
 

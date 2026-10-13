@@ -45,18 +45,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '4095'
+source-wordcount: '4135'
 ht-degree: 53%
 ---
 # データモデルのベストプラクティス{#data-model-best-practices}
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
 
-Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[このセクション &#x200B;](../../configuration/using/about-data-model.md)の節を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
-Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](../../configuration/using/about-schema-edition.md)を参照してください。
+Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 概要 {#overview}
 
@@ -82,7 +82,7 @@ Adobe Campaignのデフォルトのデータモデルは、[このドキュメ�
 
 >[!NOTE]
 >
->Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、多くの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](../../configuration/using/about-data-model.md#default-recipient-table)を活用することをお勧めします。
+>Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
 
 ### Adobe Campaign 用データ {#data-for-campaign}
 

@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '432'
+ht-degree: 3%
 ---
 # SOAP メソッドの実装{#implementing-soap-methods}
 
@@ -53,7 +53,7 @@ JavaScriptでSOAP メソッドを作成できます。 この関数は、アプ�
 
 ### 宣言 {#declaration}
 
-最初に、スキーマ内のメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください）。
+最初に、スキーマ内のメソッドを宣言します（スキーマの作成および編集方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください）。
 
 その宣言はネイティブメソッドの宣言と似ていますが、定義が配置されているメソッドライブラリの名前を指定する「library」属性を追加する必要があります。
 

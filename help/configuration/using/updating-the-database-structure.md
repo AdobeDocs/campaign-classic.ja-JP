@@ -20,35 +20,19 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 64%
+source-wordcount: '170'
+ht-degree: 26%
 ---
 # データベース構造の更新{#updating-the-database-structure}
 
-
-
-スキーマに加えた変更を適用するには、データベース更新アシスタントを起動します。 このアシスタント機能は、**[!UICONTROL ツール／詳細／データベース構造を更新]**&#x200B;から利用できます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
-
-![](assets/d_ncs_integration_schema_update.png)
-
-データベース内のモジュールが自動的に入力され、アクティブ化されます。
-
-![](assets/d_ncs_integration_schema_update_select.png)
+スキーマに加えられた変更を適用するには、**[!UICONTROL ツール/詳細/データベース構造を更新]**&#x200B;経由で利用できるデータベース更新アシスタントを起動します。 Campaign Classic v7では、アシスタントには次のオプションも用意されています。
 
 **[!UICONTROL ストアド プロシージャの追加]**&#x200B;および&#x200B;**[!UICONTROL 初期化データのインポート]** オプションを使用して、データベースの作成時に実行される初期SQL スクリプトとデータ パッケージを起動します。
 
 外部データパッケージから一連のデータを読み込むことができます。 これを行うには、**[!UICONTROL パッケージの読み込み]**&#x200B;を選択し、パッケージのXML ファイルを入力します。
 
-手順に従い、データベース更新 SQL スクリプトを表示します。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データベース更新アシスタントについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}を参照してください。
 
-![](assets/d_ncs_integration_schema_update2.png)
-
->[!NOTE]
->
->このスクリプトは編集フィールドにあり、編集して SQL コードを削除または追加することもできます。
-
-次に、データベースの更新を起動します。
-
-![](assets/d_ncs_integration_schema_update3.png)
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}

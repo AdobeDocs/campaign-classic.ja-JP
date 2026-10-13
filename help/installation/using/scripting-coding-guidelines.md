@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 37%
+source-wordcount: '804'
+ht-degree: 36%
 ---
 # スクリプトとコーディングのガイドライン {#scripting-coding-guidelines}
 
@@ -96,7 +96,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ &#x200B;](../../configuration/using/filtering-schemas.md)を参照）。
+* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
   ```
   <sysFilter name="writeAccess">    

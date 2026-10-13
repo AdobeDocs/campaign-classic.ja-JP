@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 2%
+source-wordcount: '2964'
+ht-degree: 1%
 ---
 # データベースクリーンアップのワークフロー{#database-cleanup-workflow}
 
@@ -349,7 +349,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->履歴のパージ頻度は、**日の履歴** フィールドで各ワークフローに対して指定されます（デフォルト値は30日）。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳しくは、[この節](../../workflow/using/workflow-properties.md#execution)を参照してください。
+>履歴のパージ頻度は、**日の履歴** フィールドで各ワークフローに対して指定されます（デフォルト値は30日）。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. 削除するワークフローのリストを復元するには、次のクエリを使用します。
 

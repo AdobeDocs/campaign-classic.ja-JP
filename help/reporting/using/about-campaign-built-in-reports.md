@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 65%
 ---
 # Campaign のビルトインレポートについて{#about-campaign-built-in-reports}
 
@@ -49,34 +49,14 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 使用可能なレポートのタイプは次のとおりです。
 
-* プラットフォーム全体のレポートについては、[グローバルレポート](../../reporting/using/global-reports.md)を参照してください。
-* 配信レポートについては、[配信レポート](../../reporting/using/delivery-reports.md)を参照してください。
-* 累積レポートについては、[累積レポート](../../reporting/using/cumulative-reports.md)を参照してください。
+* プラットフォーム全体のレポートについては、[&#x200B; グローバルレポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 配信レポートについては、[配信レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 累積レポートについては、[累積レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。 レポートの表示モードはそのコンテキストに依存します。 メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。 このリストは、ニーズに合わせて変更可能です。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-Campaign のビルトインレポートにアクセスするには次の手順に従います。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 組み込みレポートにアクセスして使用する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}を参照してください。
 
-1. Adobe Campaign インターフェイスの「**[!UICONTROL レポート]**」タブを選択します。
-
-   ![](assets/reporting_access_from_home.png)
-
-1. 検索フィールドを使用して、表示されるレポートをフィルターします。
-
-1. 次に、表示するレポートをクリックします。
-
-   ![](assets/reporting_edit_a_report.png)
-
-1. 画面上部にある「**[!UICONTROL 戻る]**」リンクをクリックすると、レポートのリストに戻ります。
-
-   ![](assets/reporting_back_button.png)
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 編集中のレポートで実行できるその他のアクションについて詳しくは、[このページ](../../reporting/using/actions-on-reports.md)を参照してください。
-
-キャンペーンや配信に特有のレポートには、それぞれのダッシュボードからアクセスできます。
-
-![](assets/reporting_on_a_delivery.png)
-
-次に示すように、リスト、サービス、オファーなどについて、原則は同じです。
-
-![](assets/reporting_on_an_offer.png)

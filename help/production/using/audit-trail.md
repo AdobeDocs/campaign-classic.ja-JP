@@ -29,10 +29,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 81%
+source-wordcount: '463'
+ht-degree: 78%
 ---
 # 監査記録{#audit-trail}
 
@@ -55,7 +55,7 @@ Adobe Campaignでは、**[!UICONTROL 監査記録]**&#x200B;により、イン�
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](../../configuration/using/data-schemas.md)を参照してください。
+  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 

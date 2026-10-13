@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '2672'
-ht-degree: 100%
+source-wordcount: '2704'
+ht-degree: 98%
 ---
 # 2021 リリース{#release-2021}
 
@@ -87,7 +87,7 @@ _2021 年 9 月 7 日_
 **その他の変更**
 
 * 21.1.3 で導入された、請求ワークフローの新しいガードレールでの不具合を修正しました。 請求ワークフローが誤ったインスタンスで実行され、生成されなかった請求レポートを送信しようとしてクラッシュしました。 修正を適用するには、手動でワークフローを再開する必要があります。
-* 既に非推奨（廃止予定）となっている Microsoft CRM コネクタ（Office 365 およびオンプレミスデプロイメント）がインターフェイスから削除されました。 [詳細情報](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* 既に非推奨（廃止予定）となっている Microsoft CRM コネクタ（Office 365 およびオンプレミスデプロイメント）がインターフェイスから削除されました。 [詳細情報](../../platform/using/crm-connectors.md)
 * Tomcat 8 への移行後に、IIS セットアップスクリプトが更新されて、IIS 統合の問題が修正されました。 （NEO-31019）
 * ワークフロートランジションの&#x200B;**母集団を表示**&#x200B;ウィンドウのデータタブとスキーマタブで、データソースの識別が改善されました。
 * データベース更新の問題を防ぐために、次のスキーマに不足しているデータベースインデックスを追加しました：xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl
@@ -124,7 +124,7 @@ _2021 年 6 月 5 日（PT）_
 <td>
 <p>新しい「<b>データソースを変更</b>」ワークフローアクティビティを使用すると、ワークフローのワークテーブルのデータソースを変更できます。 これにより、様々なデータソース（FDA およびローカルデータベース）にわたってデータ管理の柔軟性が向上します。</p>
 <p>Adobe Campaign ワークフローでは、データは作業用（または一時）テーブルを使用して管理されます。 ワークフローの実行時に、ワークテーブルはワークフローアクティビティ間でデータを共有します。 デフォルトでは、ワークテーブルは、クエリ対象となるデータのソースと同じデータベースに作成されます。</p>
-<p>詳しくは、<a href="../../workflow/using/change-data-source.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -226,7 +226,7 @@ Campaign で次のシステムがサポートされるようになりました�
 **改善点**
 
 * ワークフローを保存するときに、アクティビティ名が一意であり、移行の後には必ずアクティビティが続くことを確認するためのチェックを追加しました。
-* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。 ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)。
+* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。 ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）。
 * **_keyOnMData** 属性が新しく追加され、メモデータの操作にキーを使用できるようになりました。
 
 **その他の変更**

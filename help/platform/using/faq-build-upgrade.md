@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 100%
@@ -212,7 +212,7 @@ Campaign Classic v7.3.5 以降でも、アップグレード中は送信済み�
 
 ビルドのアップグレード後に問題が発生した場合は、[アドビカスタマーサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 カスタマーサポートは、ビルド日のスケジュール管理をおこない、ビルドアップグレード関連のチケットを開きます。
 
-詳しくは、[Campaign Classic のヘルプとサポートのオプション](../../support.md)を参照してください。
+詳しくは、[Campaign Classic のヘルプとサポートのオプション](../../campaign-classic-home.md)を参照してください。
 
 ## ビルドアップグレードのチェックリスト {#check-list}
 
@@ -252,5 +252,5 @@ API を使用して新しいレコードを挿入できることを確認しま�
 
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](../../support.md)
+* [Campaign Classic のヘルプとサポートのオプション](../../campaign-classic-home.md)
 * [年次アップグレードプログラム](../../rn/using/rn-overview.md#yearly-upgrade)

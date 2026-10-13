@@ -39,10 +39,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 100%
+source-wordcount: '1930'
+ht-degree: 98%
 ---
 # ターゲット母集団の定義 {#defining-the-target-population}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 * **メインオーディエンス**：メッセージを受信するプロファイル。 [詳細情報](steps-defining-the-target-population.md#selecting-the-main-target)
 * **配達確認**：検証サイクルに関与する、配達確認メッセージの受信者。 [詳細情報](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](about-seed-addresses.md)
-* **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
+* **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} （Campaign v8 ドキュメント）。
 
 ## 配信の主要受信者の選択 {#selecting-the-main-target}
 

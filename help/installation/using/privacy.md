@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 28%
+source-wordcount: '922'
+ht-degree: 27%
 ---
 # パーソナライゼーションとプライバシー {#privacy}
 
@@ -117,7 +117,7 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 
 暗号化されたパスワードが、低権限の認証済みユーザーからアクセスできないことを確認する必要があります。 これを行うには、パスワードフィールドへのアクセスのみを制限するか、エンティティ全体へのアクセスを制限します（ビルド >= 8770が必要です）。
 
-この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。 [詳細情報](../../configuration/using/restricting-pii-view.md)。
+この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} （Campaign v8 ドキュメント）。
 
 手順は次のとおりです。
 

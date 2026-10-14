@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 98%
 ---
 # 回答の管理{#managing-answers}
 
@@ -108,7 +108,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 >[!NOTE]
 >
->別のタイプのフィールドの場合の構文について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
+>その他のタイプのフィールドについては、構文について[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8 ドキュメント）で詳しく説明しています。
 
 ### ストレージ設定 {#storage-settings}
 

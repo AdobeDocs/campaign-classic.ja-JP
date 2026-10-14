@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 97%
 ---
 # Adobe Campaign のローンチ {#launching-adobe-campaign}
 
@@ -82,7 +82,7 @@ Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に
 
 1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
 
-これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
+[Adobe Campaign Workspace](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）にアクセスできるようになりました。
 
 ## 接続の設定 {#setting-up-connections}
 

@@ -41,10 +41,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 97%
 ---
 # 詳細設定：配信ログのカスタマイズ {#customize-delivery-logs}
 
@@ -139,7 +139,7 @@ Campaign UI で配信を監視する方法について詳しくは、[Campaign v
 
 >[!NOTE]
 >
->Campaign Classic インターフェイスでリストを設定する方法については、[このページ](../../platform/using/adobe-campaign-workspace.md)を参照してください。
+>Campaign Classic インターフェイスでリストを設定する方法については、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 次に、変更後の「**[!UICONTROL 配信]**」タブの内容を示します。
 

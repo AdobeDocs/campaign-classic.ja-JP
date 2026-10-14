@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 97%
 ---
 # レポートでのコンテキストの使用{#using-the-context}
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 次の例では、フランスに居住し、この 1 年間に購入した受信者のプロファイルのみを表示するグラフを作成します。
 
-このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。 「**[!UICONTROL データをフィルター]**」リンクをクリックし、表示するデータに合致するフィルターを作成します。 Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)を参照してください。
+このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。 「**[!UICONTROL データをフィルター]**」リンクをクリックし、表示するデータに合致するフィルターを作成します。 Adobe Campaignでのクエリの作成について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 

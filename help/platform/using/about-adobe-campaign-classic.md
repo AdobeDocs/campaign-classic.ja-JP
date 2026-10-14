@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '241'
+ht-degree: 82%
 ---
 # Campaign Classic の基本を学ぶ{#about-adobe-campaign-classic}
 
@@ -57,9 +57,9 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!TAB Campaign の概要]
 
-Adobe Campaign とその開始方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/get-started){target=_blank}を参照してください。
+Adobe Campaign クライアントコンソールとそのユーザーインターフェイスの使い方については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/get-started){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 >[!TAB キャンペーンの開始]
 
@@ -69,9 +69,9 @@ Adobe Campaign とその開始方法について詳しくは、[Campaign v8 ド�
 
 >[!TAB Campaign UI の参照]
 
-* Adobe Campaign のユーザーインターフェイスについて詳しくは、[このページ](adobe-campaign-workspace.md)を参照してください。
+* Adobe Campaign ユーザーインターフェイス [については、このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）をご覧ください。
 
-* [Campaign Explorer](adobe-campaign-workspace.md#using-adobe-campaign-explorer) の操作方法について学ぶ
+* [Campaign エクスプローラー](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"}の操作方法について説明します（Campaign v8 ドキュメント）。
 
 >[!ENDTABS]
 
@@ -95,7 +95,7 @@ Profile management basics are explained in [About profiles](../../platform/using
 
 ### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation) section.
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation).
 

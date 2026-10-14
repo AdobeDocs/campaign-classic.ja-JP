@@ -41,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 87%
 ---
 # 個人情報の販売のオプトアウト（CCPA） {#sale-of-personal-information-ccpa}
 
@@ -114,7 +114,7 @@ Adobe Campaign が提供する[同意管理](privacy-management.md#consent-manag
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 受信者リストを設定して、オプトアウト列を表示します。 リストの設定方法については、[詳細なドキュメント](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists)を参照してください。
+1. 受信者リストを設定して、オプトアウト列を表示します。 リストの設定方法については、[詳細ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/ui-settings#customize-lists){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ![](assets/privacy-ccpa-6.png)
 

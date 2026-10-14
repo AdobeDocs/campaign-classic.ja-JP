@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 9%
+source-wordcount: '710'
+ht-degree: 10%
 ---
 # カスタム受信者テーブルの使用{#about-custom-recipient-table}
 
@@ -84,7 +84,7 @@ ht-degree: 9%
 
 * リストにプロファイルを手動で追加することはできません。
 
-  したがって、[このセクション &#x200B;](../../platform/using/creating-and-managing-lists.md)で説明した手順は、追加の設定なしでは適用できません。
+  したがって、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} （Campaign v8 ドキュメント）で説明した手順は、追加の設定なしでは適用できません。
 
   >[!NOTE]
   >

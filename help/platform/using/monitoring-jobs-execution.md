@@ -32,10 +32,10 @@ subfeature_v2:
     internal-label: Access management
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 89%
 ---
 # ジョブの実行の監視 {#monitoring-job-execution}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
-* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。 詳しくは、[この節](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
+* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。 [このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ステータス]**&#x200B;フィールドは、ジョブの現在のステータスを示します。
 

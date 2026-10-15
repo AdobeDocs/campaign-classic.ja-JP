@@ -35,20 +35,50 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 98%
+source-wordcount: '1451'
+ht-degree: 90%
 ---
 # 最新リリース {#latest-release}
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。 新しいビルドごとに、色分けされたステータスが表示されます。 Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
+## リリース 7.4.5 {#release-7-4-5}
+
+### ビルド 9420 {#build-9420}
+
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年10月15日_
+
+#### 修正点 {#fixes-7-4-5}
+
+* Analytics外部アカウントが「Gone」（410）エラーで失敗する可能性がある問題を修正しました。 （NEO-99019）
+* 対応するメッセージが正常に送信されたにもかかわらず、一部の配信がパーソナライゼーションの保留ステータスのままになる問題を修正しました。 （NEO-94471）
+* 内部ロックメカニズムが再試行ループに入り、サーバーでCPU使用率が高くなる問題を修正しました。 （NEO-94845）
+* データモデルの更新が断続的に失敗する可能性がある問題を修正しました。 （NEO84347、NEO84824）
+* 配信の作成または編集中に「スパムチェックに失敗しました」エラーが誤って表示される問題を修正しました。 （NEO-53888）
+* ソフトバウンスを繰り返した後、受信者が期待どおりに強制隔離されない問題を修正しました。 （NEO-94422）
+
 ## リリース 7.4.4 {#release-7-4-4}
+
+### ビルド 9403 {#build-9403}
+
+[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+_2026年10月15日_
+
+#### セキュリティの強化 {#security-7-4-4-9403}
+
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。
+
+ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
+
 
 ### ビルド 9402 {#build-9402}
 
-[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年9月11日_
 
@@ -60,7 +90,7 @@ _2026年9月11日_
 
 ### ビルド 9401 {#build-9401}
 
-[!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2026年8月25日（PT）_
 

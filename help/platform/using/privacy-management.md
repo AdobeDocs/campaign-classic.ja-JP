@@ -100,9 +100,9 @@ Adobe Campaign の機能により、次の規制を遵守できるようにな�
 **アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストの作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja
 -->
 
 ## 同意、保持、役割 {#consent-retention-roles}

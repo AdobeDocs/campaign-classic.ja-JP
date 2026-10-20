@@ -133,7 +133,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、開発アプリケーションの設定をおこないます。
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> この統合キー（各アプリケーションに固有のもの）を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。<!--For more on this, refer to [this page](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> この統合キー（各アプリケーションに固有のもの）を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
 
    >[!NOTE]
    >

@@ -42,7 +42,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3088'
 ht-degree: 100%
 ---
@@ -234,7 +234,7 @@ Unicode では、類似した文字に対して多くのバリエーションを
 
 Unicode を 16 進数に変換するには、[Unicode コードコンバーター](https://r12a.github.io/app-conversion/)の Web サイトなどのオンラインツールを使用できます。 テキストを入力し、電話番号などの PII がないことを確認して、「**変換する**」をクリックします。 下部に 16 進値（UTF-32 ゾーン）が表示されます。
 
-エンコードの問題に関するチケットを開く際、プロバイダーと[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)のどちらを使用する場合でも、入力内容と表示内容を 16 進数形式で必ず含めます。
+エンコードの問題に関するチケットを開く際、プロバイダーと[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)のどちらを使用する場合でも、入力内容と表示内容を 16 進数形式で必ず含めます。
 
 **手順 3：送信の内容を理解する**
 

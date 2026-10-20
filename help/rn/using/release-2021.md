@@ -42,9 +42,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2718'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # 2021 リリース{#release-2021}
 
@@ -124,7 +124,7 @@ _2021 年 6 月 5 日（PT）_
 <td>
 <p>新しい「<b>データソースを変更</b>」ワークフローアクティビティを使用すると、ワークフローのワークテーブルのデータソースを変更できます。 これにより、様々なデータソース（FDA およびローカルデータベース）にわたってデータ管理の柔軟性が向上します。</p>
 <p>Adobe Campaign ワークフローでは、データは作業用（または一時）テーブルを使用して管理されます。 ワークフローの実行時に、ワークテーブルはワークフローアクティビティ間でデータを共有します。 デフォルトでは、ワークテーブルは、クエリ対象となるデータのソースと同じデータベースに作成されます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">詳細ドキュメント</a>（Campaign v8 ドキュメント）を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -162,7 +162,7 @@ _2021 年 6 月 5 日（PT）_
 <li><p>LINE Partner Registration API のサポート</p></li>
 <li><p>LINE のサーバー側のエラーやネットワークタイムアウトが発生した場合、適切な再送信を実施ト</p></li>
 </ul>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細ドキュメント</a>（Campaign v8 ドキュメント）を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -226,7 +226,7 @@ Campaign で次のシステムがサポートされるようになりました�
 **改善点**
 
 * ワークフローを保存するときに、アクティビティ名が一意であり、移行の後には必ずアクティビティが続くことを確認するためのチェックを追加しました。
-* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。 ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} （Campaign v8 ドキュメント）。
+* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。 ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}（Campaign v8 ドキュメント）。
 * **_keyOnMData** 属性が新しく追加され、メモデータの操作にキーを使用できるようになりました。
 
 **その他の変更**

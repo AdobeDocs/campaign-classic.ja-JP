@@ -37,7 +37,7 @@ subfeature_v2:
   - id: d0dbac2b-cbd2-42b3-956e-60af02966728
     internal-label: Encryption
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 ---
@@ -132,6 +132,6 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/41360?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

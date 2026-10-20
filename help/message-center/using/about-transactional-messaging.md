@@ -19,9 +19,9 @@ subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging
 source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 72%
+ht-degree: 100%
 ---
 # トランザクションメッセージの基本を学ぶ {#about-transactional-messaging}
 
@@ -31,7 +31,7 @@ ht-degree: 72%
 
 **トランザクションメッセージ**（Message Center）は、カスタムトリガー通知を管理するためにデザインされたキャンペーンモジュールです。カスタムトリガー通知は、外部の情報システムが送信したイベントから生成されます。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 トランザクションメッセージについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 トランザクションメッセージについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
@@ -65,10 +65,10 @@ Adobe Campaign のトランザクションメッセージモジュールは情�
 
 **コントロールインスタンス**&#x200B;で、次のアクションを実行する必要があります。
 
-1. [&#x200B; イベントタイプを作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} （Campaign v8 ドキュメント）。
-1. [&#x200B; メッセージテンプレートの作成とデザイン &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} （Campaign v8 ドキュメント）。 この手順で、イベントをメッセージにリンクします。
+1. [イベントタイプの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}（Campaign v8 ドキュメント）。
+1. [メッセージテンプレートの作成とデザイン](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}（Campaign v8 ドキュメント）。この手順で、イベントをメッセージにリンクします。
 1. [メッセージのテスト](../../message-center/using/testing-message-templates.md)。
-1. [&#x200B; メッセージテンプレートを公開](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} （Campaign v8 ドキュメント）。
+1. [メッセージテンプレートの公開](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}（Campaign v8 ドキュメント）。
 
 >[!NOTE]
 >
@@ -78,13 +78,13 @@ Adobe Campaign のトランザクションメッセージモジュールは情�
 
 トランザクションメッセージテンプレートを設計してパブリッシュして、対応するイベントがトリガーされた場合、以下の主な手順が&#x200B;**実行インスタンス**&#x200B;で実行されます。
 
-1. 外部の情報システムでイベントが生成されると、**PushEvent** および **PushEvents** メソッドを介して関連データが Campaign に送信されます。 [&#x200B; イベントコレクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-1. 適切なメッセージテンプレートにイベントがリンクされます。 テンプレートに向けた[&#x200B; ルーティング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
-1. エンリッチメントステージが完了すると、配信が送信されます。 [配信の実行](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} （Campaign v8 ドキュメント）を参照してください。 ターゲットの各受信者は、パーソナライズされたメッセージを受信します。
+1. 外部の情報システムでイベントが生成されると、**PushEvent** および **PushEvents** メソッドを介して関連データが Campaign に送信されます。 [イベントコレクション](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+1. 適切なメッセージテンプレートにイベントがリンクされます。[テンプレートへのルーティング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+1. エンリッチメントステージが完了すると、配信が送信されます。[配信の実行](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}（Campaign v8 ドキュメント）を参照してください。ターゲットの各受信者は、パーソナライズされたメッセージを受信します。
 
 ## 関連トピック {#related-topics}
 
 * [コミュニケーションチャネルの概要](../../delivery/using/communication-channels.md)
 * [配信の作成に関する主な手順](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}
 * [トランザクションメッセージのアーキテクチャ](../../message-center/using/transactional-messaging-architecture.md)
-* [&#x200B; トランザクションメッセージングレポートへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} （Campaign v8 ドキュメント）
+* [アクセストランザクションメッセージレポート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}（Campaign v8 ドキュメント）

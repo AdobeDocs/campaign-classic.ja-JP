@@ -30,15 +30,15 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 76%
+ht-degree: 100%
 ---
 # トラッキング URL の検出
 
-Adobe Campaignは、配信分析中にコンテンツ内でトラッキングするURLを検出します。
+Adobe Campaign は、配信分析中にコンテンツ内でトラッキングする URL を検出します。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 URLの検出方法と使用するパターンについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 URL の検出方法と使用するパターンについては、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 

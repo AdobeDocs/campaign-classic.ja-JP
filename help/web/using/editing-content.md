@@ -29,9 +29,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # コンテンツの編集{#editing-content}
 
@@ -47,7 +47,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 >[!NOTE]
 >
->詳細な式の編集については、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8 ドキュメント）で説明しています。
+>高度な式の編集については、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/dce_popup_visibilitycondition.png)
 

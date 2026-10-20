@@ -48,9 +48,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # 配信のパフォーマンスとトラブルシューティング {#delivery-performance-troubleshooting}
 
@@ -124,7 +124,7 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 **オンプレミスインストールの場合**、データベースをクリーンアップしてインデックスを再作成します。 データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
-スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。 [このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。 [この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ### テクニカルワークフローの監視
 

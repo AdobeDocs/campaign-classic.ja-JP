@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
@@ -125,7 +125,7 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
    >[!NOTE]
    >
-   >データの書き出しと設定の段階について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   >データのエクスポートおよびその設定のステージについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ## 収集したデータの使用 {#using-the-collected-data}
 

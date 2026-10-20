@@ -27,15 +27,15 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 60%
+ht-degree: 100%
 ---
 # トランザクションメッセージテンプレートのテスト {#testing-message-templates}
 
-[&#x200B; メッセージテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} （Campaign v8 ドキュメント）の準備が整ったら、次の手順に従ってプレビューとテストを行います。
+[メッセージテンプレート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}（Campaign v8 ドキュメント）の準備が整ったら、次の手順に従ってプレビューとテストを行います。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 シードアドレスの追加方法、トランザクションメッセージのプレビュー、プルーフの送信方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 シードアドレスの追加、トランザクションメッセージのプレビュー、配達確認の送信方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
@@ -47,7 +47,7 @@ Campaign v7 から v8 への移行の一環として、Campaign Classic のド�
 
 ![](assets/messagecenter_create_custo_006.png)
 
-この情報を使用すると、パーソナライゼーションタグを使用してメッセージコンテンツをパーソナライズできます（詳しくは、[&#x200B; メッセージコンテンツの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#create-message-content){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+この情報を使用して、パーソナライズ機能のタグを使用してメッセージコンテンツをパーソナライズできます。詳しくは、[メッセージコンテンツの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#create-message-content){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 1. トランザクションメッセージテンプレートを選択します。
 

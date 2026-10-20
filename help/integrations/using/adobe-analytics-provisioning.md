@@ -37,9 +37,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Adobe Analytics コネクタのプロビジョニング {#adobe-analytics-connector-provisioning}
 
@@ -63,7 +63,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はAdobeによって非推奨になりましたが、CampaignとAdobe ソリューションおよびアプリの統合は、OAuth サーバー間の資格情報に依存する必要があります。 </br>
+> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリケーションとの Adobe Campaign 統合では、OAuth サーバー間の資格情報を使用する必要があります。 </br>
 >
 > * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。 既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年6月30日（PT）まで引き続き機能します。</br>
 >

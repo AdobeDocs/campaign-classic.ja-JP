@@ -38,7 +38,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Adobe Campaign を使用すると、ダイレクトメール配信を作成し�
 
 ダイレクトメールは、顧客との具体的な関係を確立するための強力なチャネルであり続けています。デジタルタッチポイントを超えてブランドのプレゼンスを強化する、印刷されたオファー、カタログ、ロイヤルティメッセージ、パーソナライズされたレターに最適です。 ルーティングパートナー向けのデータの準備やファイルの生成から配信成果のトラッキングに至るまで、ダイレクトメールキャンペーンを効果的に設定および管理する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

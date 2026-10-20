@@ -42,7 +42,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 ---
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 この取り組みを開始するにあたり、この移行を必要とするアカウントは、タイムラインとドキュメントへのアクセス方法が記載された E メールをアドビから受け取ります。 これは、アカウントの移行がスケジュールされていることを示す通知です。
 
-移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support)。 件名として「AWS への移行」を使用します。
+移行を開始するには、[カスタマーケアの新しいサポートチケットを開きます](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support)。 件名として「AWS への移行」を使用します。
 
 ### この移行は必須ですか？
 

@@ -44,9 +44,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # プライバシー管理 {#privacy-management}
 
@@ -97,12 +97,12 @@ Adobe Campaign の機能により、次の規制を遵守できるようにな�
 
 * データ消去としても知られている「**忘れられる権利**」（削除要求）は、データ主体がデータコントローラーに個人データを消去させ、データのさらなる拡散を中止させ、第三者にデータ処理を停止させることができる権利です。
 
-**Access**&#x200B;および&#x200B;**Delete**&#x200B;要求を作成する方法と、それらをAdobe Campaignがどのように処理するかについては、[実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストの作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
 -->
 
 ## 同意、保持、役割 {#consent-retention-roles}

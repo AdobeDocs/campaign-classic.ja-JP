@@ -39,15 +39,15 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 89%
+ht-degree: 100%
 ---
 # 入力フォーム{#input-forms}
 
 Adobe Campaign の入力フォーム使用に関する一般的な原理を一部紹介します。
 
-Formsについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+Forms については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}（Campaign v8 ドキュメント）で詳しく説明されています。
 
 ## フォームの構造 {#form-structure}
 
@@ -105,7 +105,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 コントロールを互いに相対的に配置する作業は、HTML テーブルで使用される配置に似ています。1 つのコントロールを複数の列に分割したり、複数の要素を組み合わせたり、空きスペースの占有を指定したりできます。 ただし、書式設定で許可されているのは割合の記述のみです。オブジェクトの固定寸法は指定できません。
 
-詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ## リストタイプのコントロール {#list-type-controls}
 
@@ -214,7 +214,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 コンテナを使用すると、一連のコントロールをグループ化できます。 コンテナは、**`<container>`** 要素を使用して作成します。 コンテナは、複数の列でのコントロールの書式設定や、タブリストのコントロール用に、既に使用されています。
 
-コンテナと入力フォームでのコンテナの使用方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+コンテナおよび入力フォームでのコンテナの使用方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ## フォームの編集 {#editing-forms}
 
@@ -226,4 +226,4 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form13.png)
 
-[&#x200B; フォームの編集](../../configuration/using/editing-forms.md)および[&#x200B; フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}について詳しく説明します（Campaign v8 ドキュメント）。
+詳しくは、[編集フォーム](../../configuration/using/editing-forms.md)および[フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}（Campaign v8 ドキュメント）を参照してください。

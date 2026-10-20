@@ -40,15 +40,15 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Campaign でのデータスキーマの使用{#data-schemas}
 
 Adobe Campaign のデータスキーマ使用に関する一般的な原理を一部紹介します。
 
-Adobe Campaignでのデータスキーマの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+Adobe Campaign でのデータスキーマの作成と設定について詳しくは、[このセクション](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ## スキーマの構造 {#schema-structure}
 

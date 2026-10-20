@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 90%
+ht-degree: 91%
 ---
 # 最新リリース {#latest-release}
 
@@ -80,11 +80,11 @@ _2026年10月15日_
 
 [!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
-_2026年9月11日_
+_2026年9月11日（PT）_
 
 #### セキュリティの強化 {#security-7-4-4-9402}
 
-アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/au/security/products/campaign/apsb26-142.html){target="_blank"}を参照してください。
+アドビは、重大な脆弱性に対処する Adobe Campaign Classic のセキュリティアップデートをリリースしました。 オンプレミスおよびハイブリッドのデプロイメントのお客様には、可能な限りすぐにアップデートをインストールすることをお勧めします。 アドビがホストするインスタンスは既に修正されており、お客様のアクションは必要ありません。 詳しくは、[セキュリティ情報](https://helpx.adobe.com/jp/security/products/campaign/apsb26-142.html){target="_blank"}を参照してください。
 
 ビルドを読み込み、デプロイメントを完了するには、Adobe Campaign サーバー（nlserver）の再起動が必要です。 再起動後、修正はデフォルトでアクティブになります。
 

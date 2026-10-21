@@ -53,9 +53,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 ---
 # Android の設定手順
 
@@ -68,7 +68,7 @@ ht-degree: 92%
 1. [Campaign でモバイルアプリを作成する](#creating-android-app)
 1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
-これで、[Android リッチ通知を作成できるようになります](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} （Campaign v8 ドキュメント）。
+これで、[Android リッチ通知を作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}できるようになります（Campaign v8 ドキュメント）。
 
 >[!IMPORTANT]
 >
@@ -88,11 +88,11 @@ Android の場合、2 種類のコネクタを使用できます。
 1. **[!UICONTROL Android ルーティング]**&#x200B;外部アカウントを選択します。
 1. 「**[!UICONTROL コネクタ]**」タブで、「**[!UICONTROL コネクタで使用された JavaScript]**」フィールドに次のように入力します。
 
-   Android V2の場合：https://localhost:8080/nms/jsp/androidPushConnectorV2.js
+   Android V2 の場合：https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
    >[!NOTE]
    >
-   > https://localhost:8080/nms/jsp/androidPushConnector.jsに従って設定することもできますが、コネクタのバージョン 2を使用することをお勧めします。
+   > または、https://localhost:8080/nms/jsp/androidPushConnector.js に設定することもできますが、コネクタのバージョン 2 を使用することをお勧めします。
 
    ![](assets/nmac_connectors3.png)
 
@@ -102,7 +102,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
+![](assets/do-not-localize/how-to-video.png)[詳しくは、Android サービスの設定方法（ビデオ）をご覧ください](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}。
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -195,7 +195,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 **appsubscriptionRcp** を拡張して、アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
 
-1. 「 **[!UICONTROL 登録者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。 スキーマ拡張機能について詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. 「 **[!UICONTROL 登録者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。 スキーマ拡張について詳しくは、[こちらのページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}（Campaign v8 ドキュメント）を参照してください
 
 1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
 

@@ -31,9 +31,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 61%
+ht-degree: 100%
 ---
 # Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
 
@@ -104,24 +104,24 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui" target="_blank"> ユーザーインターフェイス </a> （Campaign v8 ドキュメント） - <a href="platform/using/launching-adobe-campaign.md">Campaignに接続</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import" target="_blank"> データのインポートとエクスポート </a> （Campaign v8 ドキュメント） - <a href="platform/using/access-management.md">権限</a>
+      <strong>今すぐ始める</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">ユーザーインターフェイス</a>（Campaign v8 ドキュメント）- <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import" target="_blank">データのインポートとエクスポート</a>（Campaign v8 ドキュメント）- <a href="platform/using/access-management.md">権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客の体験</strong><br/><a href="workflow/using/about-workflows.md"> ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank"> レポート </a> （Campaign v8 ドキュメント）
+      <strong>カスタマーエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">パーソナライズ機能</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">レポート</a>（Campaign v8 ドキュメント）
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong> メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message" target="_blank"> プルーフの送信</a> （Campaign v8 ドキュメント） - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a>
+      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message" target="_blank">配達確認の送信</a>（Campaign v8 ドキュメント）- <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong> プロファイルとオーディエンス </strong><br/> <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank"> リストを作成</a> （Campaign v8 ドキュメント） - <a href="delivery/using/about-services-and-subscriptions.md"> サービスとサブスクリプション </a> - <a href="platform/using/privacy-management.md"> プライバシーと同意</a>
+      <strong>プロファイルとオーディエンス</strong><br/> <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">リストの作成</a>（Campaign v8 ドキュメント）- <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
@@ -131,7 +131,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース </strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel" target="_blank"> データモデルの説明</a> （Campaign v8 ドキュメント） - <a href="configuration/using/about-schema-reference.md"> スキーマ構造</a> - <a href="configuration/using/editing-forms.md"> スキーマ構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI参照ドキュメント </a> - <a href="configuration/using/about-custom-recipient-table.md"> カスタム受信者テーブル </a>
+      <strong>開発者リソース</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel" target="_blank">データモデルの説明</a>（Campaign v8 ドキュメント）- <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
     </td>
   </tr>
 </table>

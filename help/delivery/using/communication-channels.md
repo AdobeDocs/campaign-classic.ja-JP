@@ -48,7 +48,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
 ht-degree: 100%
 ---
@@ -58,7 +58,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

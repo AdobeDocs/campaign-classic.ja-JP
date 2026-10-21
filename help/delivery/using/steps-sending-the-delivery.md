@@ -38,15 +38,15 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 89%
+ht-degree: 100%
 ---
 # 配信の設定と送信 {#configuring-and-sending-the-delivery}
 
-ここでは、Campaign Classic v7のオンプレミスおよびハイブリッドインストールに固有の配信送信設定について説明します。
+このページでは、Campaign Classic v7 のオンプレミスおよびハイブリッドインストールに固有の配信送信設定について説明します。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信の送信設定について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 配信送信設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
 

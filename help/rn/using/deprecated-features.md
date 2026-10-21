@@ -44,9 +44,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1814'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
 
@@ -181,11 +181,11 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>
-   <td>Campaign 18.4 リリースより、MMS と WAP プッシュのチャネルは使用できなくなりました。 代わりに、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> （Campaign v8 ドキュメント）および<a href="../../delivery/using/about-mobile-app-channel.md"> プッシュ </a>配信を利用できます。</td>
+   <td>Campaign 18.4 リリース以降、MMS と WAP プッシュのチャネルは使用できなくなりました。代わりに、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a>（Campaign v8 ドキュメント）および<a href="../../delivery/using/about-mobile-app-channel.md">プッシュ通知</a>配信を活用できます。</td>
   </tr> 
    <tr> 
    <td>モバイルチャネル - LINE v1</td>
-   <td>Campaign 18.4 リリースより、LINE Connect パッケージは使用できなくなりました。 代わりに、新しい LINE Channel パッケージを使用することをお勧めします。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a> （Campaign v8 ドキュメント）</td>
+   <td>Campaign 18.4 リリースより、LINE Connect パッケージは使用できなくなりました。 代わりに、新しい LINE Channel パッケージを使用することをお勧めします。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">詳細情報</a>（Campaign v8 ドキュメント）</td>
   </tr>
  </tbody> 
 </table>

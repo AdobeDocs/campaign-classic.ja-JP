@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: false
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
 ht-degree: 100%
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
     + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
   + プロファイル管理 {#profile-management}
     + [プロファイルについて](platform/using/about-profiles.md)
-    + [データを更新](platform/using/updating-data.md)
+    + [データの更新](platform/using/updating-data.md)
   + データのインポートとエクスポート {#importing-and-exporting-data}
     + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports}
       + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
@@ -68,8 +68,8 @@ ht-degree: 100%
   + {hide-from-toc}[配信設定 - 非表示](delivery/using/delivery-settings.md)
   + クイックスタート {#key-steps-when-creating-a-delivery}
     + {hide-from-toc}[配信の送信 - 非表示](delivery/using/steps-sending-the-delivery.md)
-  + [メールの送信](delivery/using/about-email-channel.md)
-  + SMS の送信 {#sending-messages-on-mobiles}
+  + [メールを送信](delivery/using/about-email-channel.md)
+  + SMS を送信 {#sending-messages-on-mobiles}
     + SMS チャネルの設定 {#sms-set-up}
       + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
       + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
@@ -87,7 +87,7 @@ ht-degree: 100%
   + [ダイレクトメールの送信](delivery/using/about-direct-mail-channel.md)
   + 配信のパーソナライズ {#personalizing-deliveries}
     + [パーソナライゼーションについて](delivery/using/about-personalization.md)
-  + シードアドレスの使用 {#using-seed-addresses}
+  + シードアドレスを使用 {#using-seed-addresses}
     + [ユースケース：基準に基づいたシードアドレスの選択](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
     + [ユースケース：フィールド置換の設定](delivery/using/use-case-configuring-the-field-substitution.md)
   + A/B テスト {#a-b-testing}
@@ -115,7 +115,7 @@ ht-degree: 100%
     + [詳細設定：配信ログのカスタマイズ](delivery/using/customize-delivery-logs.md)
   + 配信品質の管理 {#deliverability-management}
     + [配信品質とは](delivery/using/about-deliverability.md)
-    + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
+    + [インボックスレンダリング](delivery/using/inbox-rendering.md)
     + [トラブルシューティング](delivery/using/deliverability-faq.md)
   + コンテンツ管理モジュール {#content-management}
     + [コンテンツ管理について](delivery/using/about-content-management.md)
@@ -273,7 +273,7 @@ ht-degree: 100%
     + [インスタンスの設定](message-center/using/configuring-instances.md)
     + [その他の設定](message-center/using/additional-configurations.md)
   + メッセージテンプレート {#message-templates}
-    + [メッセージテンプレートのテスト](message-center/using/testing-message-templates.md)
+    + [メッセージテンプレートをテスト](message-center/using/testing-message-templates.md)
   + [ユースケース](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
   + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
@@ -466,7 +466,7 @@ ht-degree: 100%
     + [スキーマの再生成](configuration/using/regenerating-schemas.md)
     + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)
   + 入力フォーム {#input-forms}
-    + [フォームの編集](configuration/using/editing-forms.md)
+    + [フォームを編集](configuration/using/editing-forms.md)
   + API {#api}
     + [Web サービスについて](configuration/using/about-web-services.md)
     + [Web サービスの呼び出し](configuration/using/web-service-calls.md)

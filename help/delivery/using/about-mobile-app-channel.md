@@ -38,7 +38,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Adobe Campaign を使用すると、モバイルアプリのユーザーにパ�
 
 プッシュ通知を使用すると、iOS と Android のユーザーとリアルタイムに関わることができます。 更新、お知らせ、プロモーションなどを送信する場合に、コンテンツ、タイミング、ターゲティングを制御できます。 プッシュチャネルの設定と使用、サブスクリプションの管理、APN と FCM との統合、メッセージのパーソナライズの方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

@@ -42,9 +42,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
 source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 82%
+ht-degree: 100%
 ---
 # Campaign Classic の基本を学ぶ{#about-adobe-campaign-classic}
 
@@ -57,7 +57,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!TAB Campaign の概要]
 
-Adobe Campaign クライアントコンソールとそのユーザーインターフェイスの使い方については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
+Adobe Campaign クライアントコンソールとそのユーザーインターフェイスを使い始める方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
@@ -69,7 +69,7 @@ Adobe Campaign クライアントコンソールとそのユーザーインタ�
 
 >[!TAB Campaign UI の参照]
 
-* Adobe Campaign ユーザーインターフェイス [については、このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} （Campaign v8 ドキュメント）をご覧ください。
+* Adobe Campaign のユーザーインターフェイスについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 * [Campaign エクスプローラー](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"}の操作方法について説明します（Campaign v8 ドキュメント）。
 

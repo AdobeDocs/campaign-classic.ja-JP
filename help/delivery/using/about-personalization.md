@@ -37,7 +37,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 ---
@@ -47,7 +47,7 @@ Adobe Campaign を使用して配信をパーソナライズし、各受信者�
 
 パーソナライゼーションは、メッセージをより関連性が高く、魅力的にするのに役立ちます。 受信者データを使用して、コンテンツの調整、動的フィールドの追加、条件に基づく様々な情報の表示を行うことができます。 配信でのパーソナライゼーション機能の設定および使用方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ja){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

@@ -36,9 +36,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # インポートとエクスポートのベストプラクティス {#import-export-best-practices}
 
@@ -56,7 +56,7 @@ ht-degree: 95%
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。 プロジェクトの間、データクレンジングに留意してください。 データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例については、[例：データをインポートするワークフローテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+データのインポート用に設計された汎用ワークフローテンプレートの例は、「[例：データインポート用ワークフローテンプレート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"}」（Campaign v8 ドキュメント）の節で紹介されています。
 
 ## フラットファイルフォーマットの使用 {#using-flat-file-formats}
 

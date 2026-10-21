@@ -42,15 +42,15 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # 配信品質のトラブルシューティング{#deliverability-faq}
 
 配信品質で問題が発生した場合は、 以下のソリューションを参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 強制隔離について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}を参照して、強制隔離のブロックリストとアドレスの削除方法を確認してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 強制隔離やブロックリスト、およびこれらのリストからアドレスを削除する方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
@@ -79,7 +79,7 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 それでも問題が解決されない場合は、商用サービス、配信品質サービスまたは[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
-## WebブロックリストからのIPの削除 {#remove-from-denylist}
+## ブロックリストからの IP の削除 {#remove-from-denylist}
 
 * **IP のいずれかがブロックリストに登録されているかどうかを確認するにはどうすればよいですか。 IP をブロックリストから削除する方法を教えてください。**
 

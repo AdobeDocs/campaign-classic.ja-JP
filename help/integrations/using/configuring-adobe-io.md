@@ -22,9 +22,9 @@ subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 92%
+ht-degree: 100%
 ---
 # Adobe Experience Cloud トリガー用の Developer Console の設定 {#configuring-adobe-io}
 
@@ -52,7 +52,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 
 >[!AVAILABILITY]
 >
-> サービスアカウント（JWT）資格情報はAdobeによって非推奨になりましたが、CampaignとAdobe ソリューションおよびアプリの統合は、OAuth サーバー間の資格情報に依存する必要があります。 </br>
+> サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリケーションとの Adobe Campaign 統合では、OAuth サーバー間の資格情報を使用する必要があります。 </br>
 >
 > * Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)の詳細な説明に従ってテクニカルアカウントを移行する必要があります。 既存の[サービスアカウント（JWT）資格情報](oauth-technical-account.md)は、2025年1月27日（PT）まで引き続き機能します。</br>
 >

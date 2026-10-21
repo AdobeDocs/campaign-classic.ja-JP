@@ -45,9 +45,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # オペレーターグループの作成と管理 {#operator-groups}
 
@@ -135,7 +135,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL オファーマネージャー]**
 
-   このグループのオペレーターは、オファーの作成および管理をおこなえます。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   このグループのオペレーターは、オファーの作成および管理をおこなえます。 詳しくは、この[ページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
    このグループには以下のネームド権限が設定されています。
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。

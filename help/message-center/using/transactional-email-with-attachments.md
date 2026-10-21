@@ -24,9 +24,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # ユースケース：添付ファイルを含んだトランザクションメールの送信 {#transactional-email-with-attachments}
 
@@ -87,7 +87,7 @@ ht-degree: 96%
 
 1. SOAP メッセージトリガーを介してメールを送信できます。 SOAP 呼び出しには、URL パラメーター（attachmentURL）があります。
 
-   SOAP リクエストについて詳しくは、[&#x200B; イベントの説明](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   SOAP リクエストについて詳しくは、[イベントの説明](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 1. メールをデザインするときに、「**[!UICONTROL 添付ファイル]**」をクリックします。
 

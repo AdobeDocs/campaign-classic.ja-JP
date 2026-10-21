@@ -37,9 +37,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2204'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # 2022 リリース{#release-2022}
 
@@ -60,7 +60,7 @@ _2022年7月1日（PT）_
 <tbody> 
 <tr> 
 <td> <p>Apple は iOS 15 で、機密と見なされた通知をリアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避する制御をアプリ開発者に提供する、即時通知の概念を追加しました。</p>
-<p>機密性の高い通知を作成する方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">詳細ドキュメント </a> （Campaign v8 ドキュメント）を参照してください。</p>
+<p>時間依存の通知の作成方法については、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">詳細なドキュメント</a>（Campaign v8 ドキュメント）を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -172,10 +172,10 @@ Adobe Campaign は現在、Windows Server 2019 と互換性があります。 [C
 
 **その他の変更**
 
-* 廃止に伴い、Microsoft CRM、Salesforce、Oracle CRM On Demand アクションアクティビティがインターフェイスから削除されました。 Adobe Campaign と CRM システムとのデータ同期を設定するには、CRM コネクタアクティビティを使用します。 [詳細を読む](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"} （Campaign v8 ドキュメント）
+* 廃止に伴い、Microsoft CRM、Salesforce、Oracle CRM On Demand アクションアクティビティがインターフェイスから削除されました。 Adobe Campaign と CRM システムとのデータ同期を設定するには、CRM コネクタアクティビティを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}（Campaign v8 ドキュメント）
 * **[!UICONTROL 暗号化された識別子]**&#x200B;フィールドが訪問者スキーマに追加されました（nms:visitor）。 このフィールドは計算され、web アプリケーションに使用されます。 これは、ミッドソーシングインスタンスで LINE チャネルが設定されている場合に適用されます。
 * CRM データソースは&#x200B;**データソースを変更**&#x200B;アクティビティと使用できるようになりました。
-* 新しいオプションがワークフローアクティビティの&#x200B;**エラー管理**&#x200B;プロパティに追加されました。この「**エラー時に中止**」オプションは、ワークフローを自動的に停止します。 その後は再起動できません（NEO-29661）。 [詳細を読む](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"} （Campaign v8 ドキュメント）
+* 新しいオプションがワークフローアクティビティの&#x200B;**エラー管理**&#x200B;プロパティに追加されました。この「**エラー時に中止**」オプションは、ワークフローを自動的に停止します。 その後は再起動できません（NEO-29661）。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"}（Campaign v8 ドキュメント）
 * 専用のシーケンスを使用して、受信者の統計グループの作成に使用される nmsGroup テーブルのプライマリキーを生成できるようになりました。 以前は、xtknewId シーケンスが使用されていました。 （NEO-30832）
 * CRM コネクタアクティビティを使用したバッチ更新操作のサポートを追加しました。
 * トランザクションメッセージの処理時間のパフォーマンスが向上しました。 （NEO-40370）

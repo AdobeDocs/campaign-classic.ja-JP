@@ -18,7 +18,7 @@ subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%
 ---
@@ -28,7 +28,7 @@ Adobe Analytics 1.4 API は[提供が終了](https://developer.adobe.com/analyti
 
 >[!CAUTION]
 >
->アップグレードすると、コネクタを活用する 2 つのビルトインテクニカルワークフロー（[!UICONTROL webAnalyticsSendMetrics] および [!UICONTROL webAnalyticsGetWebEvents]）が再インポートされます（各ワークフローの機能について詳しくは、[web 分析ワークフローのリファレンス](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}（Campaign v8 ドキュメント）を参照してください）。これらのワークフローに対して行ったカスタマイズは、再度インポートすることで上書きされます。 これらのビルトインワークフローを直接変更することは回避し、代わりに、カスタマイズは別のカスタムワークフローで作成してください。これにより、今後のアップグレードで上書きされることはありません。 また、このアップグレードでは、ビルトイン Analytics JavaScript ファイルも更新されます。カスタムワークフローでこれらのファイルを参照している場合は機能しなくなるので、新しいコードに合わせて適応させる必要があります。
+>アップグレードすると、コネクタを活用する 2 つのビルトインテクニカルワークフロー（[!UICONTROL webAnalyticsSendMetrics] および [!UICONTROL webAnalyticsGetWebEvents]）が再インポートされます（各ワークフローの機能について詳しくは、[web 分析ワークフローのリファレンス](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}（Campaign v8 ドキュメント）を参照してください）。 これらのワークフローに対して行ったカスタマイズは、再度インポートすることで上書きされます。 これらのビルトインワークフローを直接変更することは回避し、代わりに、カスタマイズは別のカスタムワークフローで作成してください。これにより、今後のアップグレードで上書きされることはありません。 また、このアップグレードでは、ビルトイン Analytics JavaScript ファイルも更新されます。カスタムワークフローでこれらのファイルを参照している場合は機能しなくなるので、新しいコードに合わせて適応させる必要があります。
 
 ## 影響の有無 {#are-you-impacted}
 
@@ -98,4 +98,4 @@ Analytics 2.0 では新しい分類の処理が導入されるので、外部ア
 
 ## お困りですか？ {#need-help}
 
-移行中に問題が発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
+移行中に問題が発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"}にお問い合わせください。

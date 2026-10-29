@@ -36,9 +36,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1451'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # 最新リリース {#latest-release}
 
@@ -50,16 +50,16 @@ ht-degree: 91%
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年10月15日_
+_2026年10月15日（PT）_
 
 #### 修正点 {#fixes-7-4-5}
 
-* Analytics外部アカウントが「Gone」（410）エラーで失敗する可能性がある問題を修正しました。 （NEO-99019）
-* 対応するメッセージが正常に送信されたにもかかわらず、一部の配信がパーソナライゼーションの保留ステータスのままになる問題を修正しました。 （NEO-94471）
-* 内部ロックメカニズムが再試行ループに入り、サーバーでCPU使用率が高くなる問題を修正しました。 （NEO-94845）
-* データモデルの更新が断続的に失敗する可能性がある問題を修正しました。 （NEO84347、NEO84824）
-* 配信の作成または編集中に「スパムチェックに失敗しました」エラーが誤って表示される問題を修正しました。 （NEO-53888）
-* ソフトバウンスを繰り返した後、受信者が期待どおりに強制隔離されない問題を修正しました。 （NEO-94422）
+* Analytics 外部アカウントで「Gone」（410）エラーが発生し、処理に失敗することがある問題を修正しました。（NEO-99019）
+* 対応するメッセージが正常に送信されたにもかかわらず、一部の配信がパーソナライゼーション保留ステータスのまま停止する問題を修正しました。（NEO-94471）
+* 内部ロックメカニズムが再試行ループに入り、サーバーの CPU 使用率が高くなる問題を修正しました。（NEO-94845）
+* データモデルの更新が断続的に失敗することがある問題を修正しました。（NEO-84347、NEO-84824）
+* 配信の作成または編集中に「スパムチェックに失敗しました」というエラーが誤って表示される問題を修正しました。（NEO-53888）
+* ソフトバウンスが繰り返し発生した後、受信者が想定どおりに強制隔離されない問題を修正しました。（NEO-94422）
 
 ## リリース 7.4.4 {#release-7-4-4}
 
@@ -67,7 +67,7 @@ _2026年10月15日_
 
 [!BADGE 一般公開（GA）]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
-_2026年10月15日_
+_2026年10月15日（PT）_
 
 #### セキュリティの強化 {#security-7-4-4-9403}
 

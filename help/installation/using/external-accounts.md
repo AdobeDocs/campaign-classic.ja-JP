@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 76%
+source-wordcount: '2208'
+ht-degree: 74%
 ---
 # 外部アカウント{#external-accounts}
 
@@ -484,3 +484,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 * **[!UICONTROL アクセスキー]**
 
   **[!UICONTROL アクセスキー]**&#x200B;の場所について詳しくは、この[ページ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。
+
+  >[!NOTE]
+  >
+  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。

@@ -76,7 +76,7 @@ Campaign Classic v7.4.5 - 26年10月ビルド （ビルド 9420）では、Analy
     <div><strong>プロファイルの追加と管理</strong><br/>Adobe Campaign v7 データベースで簡単にプロファイル管理を調べます。 手動またはインポートによるプロファイルの追加、顧客データの絞り込み、キャンペーンのカスタマイズを簡単に行うことができます。</div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>ワークフローを使用した自動化</strong><br/>ワークフローを活用して、セグメント化、キャンペーンの実行、ファイル処理、人間の関与などのプロセスをデザインする方法について説明します。
     </div></td>
     <td>
@@ -87,7 +87,7 @@ Campaign Classic v7.4.5 - 26年10月ビルド （ビルド 9420）では、Analy
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Campaign Classic v7.4.5 - 26年10月ビルド （ビルド 9420）では、Analy
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客の体験</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"> ワークフローを使用した自動化</a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank"> レポート </a> （Campaign v8 ドキュメント）
+      <strong>顧客の体験</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"> ワークフローを使用した自動化</a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank"> レポート </a> （Campaign v8 ドキュメント）
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -139,8 +139,8 @@ Campaign v8 ドキュメントに記載されているコンテンツは、v7 �
 | --- | --- |
 | ユーザーインターフェイス | [&#x200B; ユーザーインターフェイスの確認](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
 | プロファイル、リスト、読み込みと書き出し | [&#x200B; プロファイルとデータの読み込み](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} |
-| ワークフロー | [&#x200B; ワークフローについて](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
-| マーケティングキャンペーン | [&#x200B; マーケティングキャンペーンの基本を学ぶ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| ワークフロー | [&#x200B; ワークフローについて](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| マーケティングキャンペーン | [&#x200B; マーケティングキャンペーンの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
 | 配信の作成と送信 | [&#x200B; メッセージの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
 | ビルトインレポート | [&#x200B; レポートの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
 | 権限 | [権限の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |

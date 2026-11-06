@@ -22,10 +22,10 @@ feature_v2:
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 4%
+source-wordcount: '726'
+ht-degree: 5%
 ---
 # ネットワーク設定{#network-configuration}
 
@@ -236,7 +236,7 @@ Adobe Campaign リッチ クライアント （**nlclient**）の場合、次の
 
 ## Adobe Experience Managerとの連携 {#integration-with-adobe-experience-manager}
 
-インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント &#x200B;](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
+インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 <table> 
  <tbody> 

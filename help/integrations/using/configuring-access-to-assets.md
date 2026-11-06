@@ -28,10 +28,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '553'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 96%
 ---
 # Assets へのアクセスの設定 {#configuring-access-to-assets}
 
@@ -76,7 +76,7 @@ AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Ma
 * **[!UICONTROL AEM 統合]**&#x200B;のビルトインパッケージのインストール
 * Adobe Experience Manager に特有の外部アカウントの設定
 
-Adobe Campaign と Adobe Experience Manager を統合する方法については、[詳細ドキュメント](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
+Adobe CampaignとAdobe Experience Managerの統合方法については、[詳細ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 この統合を設定した後は、AEM Assets ライブラリを使用する新しい配信テンプレートを Adobe Campaign で設定できます。 これをおこなうには、以下の手順に従います。
 

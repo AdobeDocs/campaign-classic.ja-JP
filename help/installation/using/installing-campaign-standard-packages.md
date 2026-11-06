@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 16%
+source-wordcount: '1461'
+ht-degree: 18%
 ---
 # Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
 
@@ -178,7 +178,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> AEMとの統合<br /> </td> 
-   <td> AEMのコンテンツ編集機能とAdobe Campaignの配信機能を活用するために、Adobe Experience Managerでメール配信のコンテンツとフォームを直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
+   <td> AEMのコンテンツ編集機能とAdobe Campaignの配信機能を活用するために、Adobe Experience Managerでメール配信のコンテンツとフォームを直接管理できます。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ ht-degree: 16%
 
 * Marketing インスタンスとMID インスタンスの両方に[!DNL LINE] パッケージをインストールします
 
-* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} （Campaign v8 ドキュメント）
+* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}（Campaign v8 ドキュメント）
 
 * MID インスタンスの外部アカウントで[!DNL LINE]資格情報を設定します。
 

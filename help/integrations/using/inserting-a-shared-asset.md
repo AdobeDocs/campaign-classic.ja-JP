@@ -64,4 +64,4 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
 >[!NOTE]
 >
->Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。 [このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。 [このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

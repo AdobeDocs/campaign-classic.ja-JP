@@ -236,7 +236,7 @@ Adobe Campaign リッチ クライアント （**nlclient**）の場合、次の
 
 ## Adobe Experience Managerとの連携 {#integration-with-adobe-experience-manager}
 
-インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+インストールが「オンプレミス」の場合は、Adobe CampaignとAdobe Experience Manager間の統合で複数のポートを開く必要があります。 この統合の設定について詳しくは、[詳細ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 <table> 
  <tbody> 

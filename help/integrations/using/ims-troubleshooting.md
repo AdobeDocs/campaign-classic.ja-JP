@@ -43,7 +43,7 @@ ht-degree: 96%
 
 以下で紹介するトラブルシューティングのヒントは、**オンプレミス版**&#x200B;および&#x200B;**ハイブリッド版**&#x200B;のお客様が IMS 統合を使用する際によく発生する問題を解決するのに役立ちます。 **ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 Adobe IDでのログインとログインに関する問題のトラブルシューティングについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 Adobe IDでのログインとログインに関する問題のトラブルシューティングについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}
 

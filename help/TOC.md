@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '1657'
+source-git-commit: b2b42bcbab0d09197126d140da3ecb1f4aa0d869
+workflow-type: tm+mt
+source-wordcount: '1560'
 ht-degree: 100%
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 100%
   + 以前のリリース {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)
-    + {hide-from-toc}[2023 - 非表示](rn/using/release-2023.md)
-    + {hide-from-toc}[2022 - 非表示](rn/using/release-2022.md)
-    + {hide-from-toc}[2021 - 非表示](rn/using/release-2021.md)
-    + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
   + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
@@ -66,8 +62,6 @@ ht-degree: 100%
 + メッセージの作成と送信 {#sending-messages}
   + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
   + {hide-from-toc}[配信設定 - 非表示](delivery/using/delivery-settings.md)
-  + クイックスタート {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[配信の送信 - 非表示](delivery/using/steps-sending-the-delivery.md)
   + [メールを送信](delivery/using/about-email-channel.md)
   + SMS を送信 {#sending-messages-on-mobiles}
     + SMS チャネルの設定 {#sms-set-up}
@@ -76,13 +70,8 @@ ht-degree: 100%
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
       + [その他の設定](delivery/using/sms-send.md)
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[拡張された汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
   + [プッシュ通知の送信](delivery/using/about-mobile-app-channel.md)
   + プッシュ通知の送信 {#sending-push-notifications}
-    + モバイルアプリケーションの設定{#configure-the-mobile-app}
-      + {hide-from-toc}[アプリ設定の基本を学ぶ - 非表示](delivery/using/get-started-app-config.md)
-      + {hide-from-toc}[iOS の設定手順 - 非表示](delivery/using/configuring-the-mobile-application.md)
-      + {hide-from-toc}[Android の設定手順 - 非表示](delivery/using/configuring-the-mobile-application-android.md)
     + {hide-from-toc}[トラブルシューティング - 非表示](delivery/using/troubleshooting.md)
   + [ダイレクトメールの送信](delivery/using/about-direct-mail-channel.md)
   + 配信のパーソナライズ {#personalizing-deliveries}
@@ -128,7 +117,6 @@ ht-degree: 100%
     + [コンテンツテンプレートの使用](delivery/using/using-a-content-template.md)
     + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
     + [ワークフローによる自動化](delivery/using/automating-via-workflows.md)
-+ [マーケティングキャンペーンのオーケストレーション](campaign/using/about-marketing-campaigns.md)
 + Response Manager {#response-manager}
   + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
   + [設定](response/using/configuration.md)
@@ -140,9 +128,6 @@ ht-degree: 100%
     + [レポートのベストプラクティス](reporting/using/best-practices.md)
   + ビルトインレポートへのアクセス {#accessing-built-in-reports}
     + [ビルトインレポートについて](reporting/using/about-campaign-built-in-reports.md)
-    + [レポートのリスト](reporting/using/list-of-reports.md)
-  + 配信に関するレポート{#reports-on-deliveries}
-    + [指標の計算](reporting/using/indicator-calculation.md)
   + 母集団の分析 {#analyzing-populations}
     + [記述的分析とは](reporting/using/about-descriptive-analysis.md)
     + [最初の記述的分析レポートの作成](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -228,20 +213,9 @@ ht-degree: 100%
     + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
     + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-    + [ [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
     + [統合の設定](integrations/using/configuring-the-integration.md)
-    + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-    + [ [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
     + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
-    + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
-  + ACS コネクタ {#acs-connector}
-    + {hide-from-toc}[ [!DNL ACS Connector]  の基本を学ぶ - 非表示](integrations/using/acs-connector-principles-and-data-cycle.md)
-    + {hide-from-toc}[プロファイルの同期 - 非表示](integrations/using/synchronizing-profiles.md)
-    + {hide-from-toc}[オーディエンスの同期 - 非表示](integrations/using/synchronizing-audiences.md)
-    + {hide-from-toc}[Web アプリケーションの同期 - 非表示](integrations/using/synchronizing-web-applications.md)
-    + {hide-from-toc}[ [!DNL ACS Connector]  のトラブルシューティング - 非表示](integrations/using/troubleshooting-the-acs-connector.md)
-+ [ワークフローを使用した自動化](workflow/using/about-workflows.md)
 + オファーの管理 {#managing-offers}
   + インタラクションの基本を学ぶ {#interaction-overview}
     + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)
@@ -344,7 +318,6 @@ ht-degree: 100%
     + [外部アカウントの設定](installation/using/external-accounts.md)
     + Federated Data Access の設定{#configure-fda}
       + [Federated Data Access の概要](installation/using/about-fda.md)
-      + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
       + 設定のガイドライン {#config-databases}
         + [設定の手順](installation/using/configure-fda.md)
         + [Amazon Redshift の設定](installation/using/configure-fda-redshift.md)
@@ -385,7 +358,6 @@ ht-degree: 100%
     + [ログファイル](production/using/log-files.md)
     + [プロセスの監視](production/using/monitoring-processes.md)
     + [通常のコマンド](production/using/usual-commands.md)
-    + [監査記録](production/using/audit-trail.md)
   + データ処理 {#data-processing}
     + [バックアップ](production/using/backup.md)
     + [復元](production/using/restoration.md)
@@ -519,15 +491,12 @@ ht-degree: 100%
     + [IMS 移行後のインターフェイスへの影響](technotes/using/impact-ims-migration.md)
   + アップグレードと互換性{#technote-migration}
     + [Microsoft Edge Chromium の有効化](technotes/using/edge-chromium.md)
-    + {hide-from-toc}[新しい配信サーバー](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Apache セキュリティアップグレード](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[2023 年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
-    + {hide-from-toc}[IMS の更新](technotes/using/ims-updates.md)
     + {hide-from-toc}[Adobe Analytics 2.0 API への移行](technotes/using/analytics-2-migration.md)
   + メールとプッシュ通知{#technotes-email}
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
     + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
-    + {hide-from-toc}[トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
   + Adobe Managed Services への移行{#dc-migration}
     + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
     + [FAQ](technotes/using/dc-migration-faq.md)

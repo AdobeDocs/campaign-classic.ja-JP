@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 1%
+source-wordcount: '1295'
+ht-degree: 10%
 ---
 # フォームの編集{#editing-forms}
 
@@ -41,12 +41,16 @@ ht-degree: 1%
 
 マーケターやオペレーターは、入力フォームを使用してレコードを作成、変更、プレビューできます。 Forms：データを視覚的に表現
 
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 入力フォームについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+
 入力フォームを作成および変更できます。
 
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 工場出荷時の入力フォームは、工場のデータスキーマに基づいています。
 * 定義したデータスキーマにもとづいて、カスタム入力フォームを作成できます。
 
-Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [&#x200B; フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
+Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [ フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
 
 入力フォームにアクセスするには、メニューから&#x200B;**[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]**&#x200B;を選択します。
 
@@ -56,7 +60,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} （Campaign v8 ドキュメント）。
+[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}（Campaign v8 ドキュメント）。
 
 フォームをプレビューするには、「**[!UICONTROL プレビュー]**」タブをクリックします。
 
@@ -74,13 +78,13 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 * コンテンツ管理
 
-  コンテンツ管理にこのフォームタイプを使用します。 この[&#x200B; ユースケース &#x200B;](../../delivery/using/use-case-creating-content-management.md)を参照してください。
+  コンテンツ管理にこのフォームタイプを使用します。 この[ ユースケース ](../../delivery/using/use-case-creating-content-management.md)を参照してください。
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * アシスタント
 
-  このフォームは、特定の順序で並べられた複数のフローティングスクリーンで構成されます。 利用者は、ある画面から次の画面へ移動します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} （Campaign v8 ドキュメント）。
+  このフォームは、特定の順序で並べられた複数のフローティングスクリーンで構成されます。 利用者は、ある画面から次の画面へ移動します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}（Campaign v8 ドキュメント）。
 
 * アイコンボックス
 
@@ -101,72 +105,6 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 * 横長ペイン
 
   このフォームには、項目のリストが表示されます。
-
-## コンテナ
-
-フォームでは、様々な目的でコンテナを使用できます。
-
-* フォーム内のコンテンツの整理
-* 入力フィールドへのアクセスを定義
-* 他のフォーム内にフォームをネストする
-
-[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} （Campaign v8 ドキュメント）。
-
-### コンテンツを整理
-
-コンテナを使用して、フォーム内のコンテンツを整理します。
-
-* フィールドをセクションにグループ化することができます。
-* ページを複数のページフォームに追加できます。
-
-コンテナを挿入するには、`<container>`要素を使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} （Campaign v8 ドキュメント）。
-
-#### グループフィールド
-
-コンテナを利用して、入力フィールドを整理されたセクションにグループ化できます。
-
-フォームにセクションを挿入するには、次の要素を使用します：`<container type="frame">`。 必要に応じて、セクションタイトルを追加するには、`label`属性を使用します。
-
-構文：`<container type="frame" label="`*section_title*`"> […] </container>`
-
-この例では、コンテナが&#x200B;**作成** セクションを定義します。このセクションには、**[!UICONTROL 作成者]**&#x200B;および&#x200B;**[!UICONTROL 名前]**&#x200B;の入力フィールドが含まれます。
-
-```xml
-<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
-      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
-  <input xpath="@code"/>
-  <input xpath="@type"/>
-  <container label="Creation" type="frame">
-    <input xpath="createdBy"/>
-    <input xpath="createdBy/@name"/>
-  </container>
-</form>
-```
-
-![](assets/console_screen_form.png)
-
-#### 複数ページフォームへのページの追加
-
-複数ページフォームの場合は、コンテナを使用してフォームページを作成します。
-
-次の例は、フォームの&#x200B;**General**&#x200B;および&#x200B;**Details** ページのコンテナを示しています。
-
-```xml
-<container img="ncm:book.png" label="General">
-[…]
-</container>
-<container img="ncm:detail.png" label="Details">
-[…]
-</container>
-```
-
-### フィールドへのアクセスを定義
-
-コンテナを使用して表示内容を定義し、フィールドへのアクセスを定義します。 フィールドグループのオンとオフを切り替えることができます。
-
-### ネストフォーム
-
-コンテナを使用して、他のフォーム内にフォームをネストします。 [詳細情報](#add-pages-to-multipage-forms)。
 
 ## 画像への参照
 
@@ -232,7 +170,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 1. フォーム要素を挿入します。
 
-   例えば、入力フィールドを挿入するには、`<input>`要素を使用します。 `xpath`属性をXPath式としてフィールド参照に設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} （Campaign v8 ドキュメント）。
+   例えば、入力フィールドを挿入するには、`<input>`要素を使用します。 `xpath`属性をXPath式としてフィールド参照に設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}（Campaign v8 ドキュメント）。
 
    この例では、`nms:recipient` スキーマに基づく入力フィールドを示します。
 
@@ -265,7 +203,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳しくは、[&#x200B; メモリリストコントロール &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
+   詳しくは、[ メモリリストコントロール ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
 
 1. オプションで、フィールドへのアクセスを定義します。
 
@@ -303,165 +241,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 ## 複数ページフォームの作成 {#create-multipage-form}
 
-複数のページフォームを作成できます。 他のフォーム内にフォームをネストすることもできます。
-
-### `iconbox` フォームの作成
-
-`iconbox` フォームの種類を使用して、フォームの左側にアイコンを表示し、ユーザーをフォーム内の別のページに移動させます。
-
-![](assets/iconbox_form_preview.png)
-
-既存のフォームの種類を`iconbox`に変更するには、次の手順に従います。
-
-1. `<form>`要素の`type`属性を`iconbox`に変更します：
-
-   ```xml
-   <form […] type="iconbox">
-   ```
-
-1. 各フォームページのコンテナを設定します。
-
-   1. `<container>`要素を`<form>`要素の子として追加します。
-   1. アイコンのラベルと画像を定義するには、`label`属性と`img`属性を使用します。
-
-      ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
-          <container img="xtk:properties.png" label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container img="nms:msgfolder.png" label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container img="nms:supplier.png" label="Services">
-              […]
-          </container>
-      </form>
-      ```
-
-   または、既存の`<container>`要素から`type="frame"`属性を削除します。
-
-### ノートブックフォームの作成
-
-`notebook` フォームの種類を使用して、ユーザーを別のページに移動させるタブをフォームの上部に表示します。
-
-![](assets/notebook_form_preview.png)
-
-既存のフォームの種類を`notebook`に変更するには、次の手順に従います。
-
-1. `<form>`要素の`type`属性を`notebook`に変更します：
-
-   ```xml
-   <form […] type="notebook">
-   ```
-
-1. 各フォームページのコンテナを追加します。
-
-   1. `<container>`要素を`<form>`要素の子として追加します。
-   1. アイコンのラベルと画像を定義するには、`label`属性と`img`属性を使用します。
-
-   ```xml
-     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
-         <container label="General">
-             <input xpath="@label"/>
-             <input xpath="@name"/>
-             […]
-         </container>
-         <container label="Details">
-             <input xpath="@address"/>
-             […]
-         </container>
-         <container label="Services">
-             […]
-         </container>
-     </form>
-   ```
-
-   または、既存の`<container>`要素から`type="frame"`属性を削除します。
-
-### ネストフォーム
-
-他のフォーム内にフォームをネストできます。 例えば、ノートブックフォームをアイコンボックスフォーム内にネストすることができます。
-
-ネストのレベルでナビゲーションを制御します。 利用者は、サブフォームにドリルダウンできます。
-
-別のフォーム内にフォームをネストするには、`<container>`要素を挿入し、`type`属性をフォームタイプに設定します。 最上位フォームの場合、外部コンテナまたは`<form>`要素でフォームタイプを設定できます。
-
-### 例
-
-次の例は、複雑なフォームを示しています。
-
-* 最上位のフォームはアイコンボックスフォームです。 このフォームは、**General**&#x200B;と&#x200B;**Details**&#x200B;の2つのコンテナで構成されています。
-
-  その結果、外側のフォームには、上位レベルに&#x200B;**General** ページと&#x200B;**Details** ページが表示されます。 これらのページにアクセスするには、フォームの左側にあるアイコンをクリックします。
-
-* サブフォームは、**General** コンテナ内にネストされたノートブックフォームです。 サブフォームは、**名前**&#x200B;と&#x200B;**連絡先**&#x200B;のラベルが付いた2つのコンテナで構成されています。
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-その結果、外部フォームの&#x200B;**General** ページには、**Name**&#x200B;と&#x200B;**Contact** タブが表示されます。
-
-![](assets/nested_forms_preview.png)
-
-別のフォーム内にフォームをネストするには、`<container>`要素を挿入し、`type`属性をフォームタイプに設定します。 最上位フォームの場合、外部コンテナまたは`<form>`要素でフォームタイプを設定できます。
-
-### 例
-
-次の例は、複雑なフォームを示しています。
-
-* 最上位のフォームはアイコンボックスフォームです。 このフォームは、**General**&#x200B;と&#x200B;**Details**&#x200B;の2つのコンテナで構成されています。
-
-  その結果、外側のフォームには、上位レベルに&#x200B;**General** ページと&#x200B;**Details** ページが表示されます。 これらのページにアクセスするには、フォームの左側にあるアイコンをクリックします。
-
-* サブフォームは、**General** コンテナ内にネストされたノートブックフォームです。 サブフォームは、**名前**&#x200B;と&#x200B;**連絡先**&#x200B;のラベルが付いた2つのコンテナで構成されています。
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-その結果、外部フォームの&#x200B;**General** ページには、**Name**&#x200B;と&#x200B;**Contact** タブが表示されます。
-
-![](assets/nested_forms_preview.png)
-
-
+複数のページフォームを作成できます。 他のフォーム内にフォームをネストすることもできます。 [ コンテナ、ノートブック、アイコンボックスフォーム ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}の詳細をご覧ください（Campaign v8 ドキュメント）。
 
 ## 工場出荷時の入力フォームの変更 {#modify-factory-form}
 
@@ -479,16 +259,6 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 ## フォームの検証 {#validate-forms}
 
 フォームに検証コントロールを含めることができます。
-
-### フィールドへの読み取り専用アクセス権の付与
-
-フィールドへの読み取り専用アクセス権を付与するには、`readOnly="true"`属性を使用します。 例えば、レコードのプライマリキーを表示し、読み取り専用アクセスを使用する場合があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} （Campaign v8 ドキュメント）。
-
-この例では、`nms:recipient` スキーマのプライマリキー（`iRecipientId`）が読み取り専用アクセスで表示されます。
-
-```xml
-<value xpath="@iRecipientId" readOnly="true"/>
-```
 
 ### 必須フィールドの確認
 
@@ -508,11 +278,11 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 </leave>
 ```
 
-[式フィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} （Campaign v8 ドキュメント）と[&#x200B; フォームコンテキスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} （Campaign v8 ドキュメント）について詳しく説明します。
+[式フィールド ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} （Campaign v8 ドキュメント）と[ フォームコンテキスト ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} （Campaign v8 ドキュメント）について詳しく説明します。
 
 ### 値の検証
 
-JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して複雑な検証を行います。例えば、値を承認済み値のリストと照合します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} （Campaign v8 ドキュメント）。
+JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して複雑な検証を行います。例えば、値を承認済み値のリストと照合します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}（Campaign v8 ドキュメント）。
 
 1. JS ファイルに検証関数を作成します。
 
@@ -569,4 +339,4 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [&#x200B; フォームコンテキスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
+この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [ フォームコンテキスト ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。

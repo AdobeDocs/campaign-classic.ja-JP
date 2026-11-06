@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 3d6f0751869871f811046dd52bab59dbcf587350
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 74%
+source-wordcount: '2076'
+ht-degree: 71%
 ---
 # 外部アカウント{#external-accounts}
 
 Adobe Campaign には、事前に定義された一連の外部アカウントが付属しています。 外部システムとの接続を設定する場合は、新しい外部アカウントを作成します。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 外部アカウントについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
 
 外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。 例えば、ワークフローにおけるファイル転送や、他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換などをセットアップする場合、外部アカウントを選択する必要がありす。
 
@@ -66,7 +70,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 ### バウンスメール {#bounce-mails-external-account}
 
-**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 この外部アカウントについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
+**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 この外部アカウントについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
 
 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -148,7 +152,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 * **ミッドソーシング**、**外部** ルーティング、または&#x200B;**バルク**&#x200B;配信ルーティングタイプを使用できます。
 
-* **バルク**&#x200B;および&#x200B;**ミッドソーシング**&#x200B;配信モードの場合、**ブランディング** タブでブランディングパラメーターを指定できます。 これらのパラメーターは、**ミラーページ URL**&#x200B;および&#x200B;**エラーアドレス**&#x200B;の[&#x200B; デフォルトパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters)を、ブランドに固有の設定で上書きするために使用されます。
+* **バルク**&#x200B;および&#x200B;**ミッドソーシング**&#x200B;配信モードの場合、**ブランディング** タブでブランディングパラメーターを指定できます。 これらのパラメーターは、**ミラーページ URL**&#x200B;および&#x200B;**エラーアドレス**&#x200B;の[ デフォルトパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters)を、ブランドに固有の設定で上書きするために使用されます。
 
   ![](assets/ext-account-branding.png)
 
@@ -242,7 +246,7 @@ To add SSH keys on Windows:
 
 **外部データベース** タイプの外部アカウントを使用して、外部データベースに接続します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
-Campaignと互換性のある外部データベースは、[互換性マトリックス &#x200B;](../../rn/using/compatibility-matrix.md)に一覧表示されます
+Campaignと互換性のある外部データベースは、[互換性マトリックス ](../../rn/using/compatibility-matrix.md)に一覧表示されます
 
 ![](assets/ext_account_11.png)
 
@@ -305,7 +309,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
   Adobe Experience Cloud テナントの名前。
 
-この設定について詳しくは、[このページ &#x200B;](../../integrations/using/configuring-ims.md)を参照してください。
+この設定について詳しくは、[このページ ](../../integrations/using/configuring-ims.md)を参照してください。
 
 ## Web 分析 {#web-analytics-external-account}
 
@@ -333,7 +337,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
   Adobe Experience Manager オーサリングインスタンスへの接続に使用するパスワード。
 
-詳しくは、この[&#x200B; セクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+詳しくは、この[ セクション ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## CRM コネクタの外部アカウント
 
@@ -345,7 +349,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
-Campaign - Microsoft Dynamics CRM コネクタの詳細については、この[&#x200B; ページ &#x200B;](../../platform/using/crm-connectors.md)を参照してください。
+Campaign - Microsoft Dynamics CRM コネクタの詳細については、この[ ページ ](../../platform/using/crm-connectors.md)を参照してください。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -433,38 +437,6 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 ## データ転送外部アカウント
 
-### Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
-
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。 コネクタのセットアップはワークフローアクティビティでおこなえます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}を参照してください。
-
-![](assets/ext_account_3.png)
-
-この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
-
-* **[!UICONTROL AWS S3 アカウントサーバー]**
-
-  サーバーの URL。次のように入力する必要があります。
-
-  ```
-  <S3bucket name>.s3.amazonaws.com/<s3object path>
-  ```
-
-* **[!UICONTROL AWS アクセスキー ID]**
-
-  AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
-
-* **[!UICONTROL AWS への秘密アクセスキー]**
-
-  AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
-
-* **[!UICONTROL AWS リージョン]**
-
-  AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
-
-* **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。
-
-アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
-
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
 **Azure Blob storage**&#x200B;外部アカウントを使用して、**[!UICONTROL ファイルの転送]** ワークフローアクティビティを使用して、データをAdobe Campaignにインポートまたはエクスポートできます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}を参照してください。
@@ -487,4 +459,4 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
   >[!NOTE]
   >
-  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。
+  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント ](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。

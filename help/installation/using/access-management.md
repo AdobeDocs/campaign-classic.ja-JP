@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '393'
 ht-degree: 12%
 ---
 # アクセス管理 {#access-management}
@@ -58,11 +58,11 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
 十分なセキュリティグループを作成して、オペレーターに必要な権限を与え、その他の権限を与えないようにします。
 
-管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール [&#128279;](../../platform/using/access-management.md)への アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
+管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール ](../../platform/using/access-management.md)への[ アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
 
 管理者グループ（または管理者の名前付き権限）に演算子を追加しすぎないようにします。 これらのオペレーターは非常に強力です（すべての SQL 文の実行、サーバーでのコマンドの実行などができます）。
 
-Adobe Campaignは、[名前付き権限](../../platform/using/access-management.md#named-rights)を通じて3つの高レベル権限を提供します。
+Adobe Campaignでは、[名前付き権限](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} （Campaign v8 ドキュメント）を通じて3つの高レベル権限を提供します。
 
 * **管理** （管理者）：すべての名前付き権限チェックをバイパスして、すべてをアクセスできるようにし、すべてを実行できるようにします。これにより、プログラム実行（createProcess）とSQLの名前付き権限が含まれます
 

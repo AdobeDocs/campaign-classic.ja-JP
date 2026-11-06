@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 96%
 ---
 # インスタンスの設定 {#creating-a-shared-connection}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->コントロールインスタンスまたは実行インスタンスで [Message Center のテクニカルワークフロー](../../message-center/using/additional-configurations.md#technical-workflows)が使用するリソースに影響を与えるスキーマ拡張は、トランザクションメッセージのモジュールが使用するその他のインスタンスでは複製する必要があります。
+>スキーマ拡張機能は、[Message Center テクニカルワークフロー](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} （Campaign v8 ドキュメント）で使用されるリソースに影響を与えました。コントロールインスタンスまたは実行インスタンスのいずれでも、トランザクションメッセージモジュールで使用されるその他のインスタンスで複製する必要があります。
 
 また、実行インスタンスを指定し、コントロールインスタンスに接続する必要があります。
 

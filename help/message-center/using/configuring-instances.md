@@ -49,7 +49,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->スキーマ拡張機能は、[Message Center テクニカルワークフロー](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} （Campaign v8 ドキュメント）で使用されるリソースに影響を与えました。コントロールインスタンスまたは実行インスタンスのいずれでも、トランザクションメッセージモジュールで使用されるその他のインスタンスで複製する必要があります。
+>スキーマ拡張機能は、[Message Center テクニカルワークフロー](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} （Campaign v8 ドキュメント）で使用されるリソースに影響を与えました。コントロールインスタンスまたは実行インスタンスのいずれでも、トランザクションメッセージモジュールで使用されるその他のインスタンスで複製する必要があります。
 
 また、実行インスタンスを指定し、コントロールインスタンスに接続する必要があります。
 

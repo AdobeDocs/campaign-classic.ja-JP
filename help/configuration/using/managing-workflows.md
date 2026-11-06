@@ -42,6 +42,6 @@ ht-degree: 4%
 
 したがって、ワークフローで使用されるすべてのアクティビティは、追加の手動設定を必要とせずにカスタムテーブルを使用します。
 
-ワークフローについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+ワークフローについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/cfg_external_table_workflow.png)

@@ -61,7 +61,7 @@ ht-degree: 96%
    * 既存レポートへの指標の追加。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
    * データベース内データの表示。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 新しい配信レポートの作成。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
-   * Adobe Campaign データベースからのデータの書き出し（ワークフロー経由）（[この節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照）
+   * Adobe Campaign データベースからのデータの書き出し（ワークフロー経由）（[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照）
    * ピボットテーブルの作成。 詳しくは、[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照してください。
    * 集計データの表示。 詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
    * アシスタントを使用したデータ分析。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。

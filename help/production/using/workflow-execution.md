@@ -46,7 +46,7 @@ ht-degree: 25%
 
 ワークフローについて詳しくは、次の節を参照してください。
 
-* [&#x200B; ワークフローについて](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）
+* [&#x200B; ワークフローについて](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; ワークフローを開始](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja){target="_blank"}。
 * [&#x200B; ワークフローライフサイクル &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。
 * [&#x200B; ワークフローの使用時のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}。

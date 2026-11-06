@@ -45,24 +45,22 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '4135'
-ht-degree: 53%
+source-wordcount: '3908'
+ht-degree: 50%
 ---
 # データモデルのベストプラクティス{#data-model-best-practices}
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
 
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データモデルのベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}
+
 Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
 Campaign スキーマを使い始めるには、[このドキュメント &#x200B;](../../configuration/using/about-schema-reference.md)をお読みください。 Adobe Campaign データベースの概念データモデルを拡張するために拡張スキーマを設定する方法については、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-
-## 概要 {#overview}
-
-Adobe Campaignは非常に柔軟で、初期の実装を超えて拡張できます。 可能性は無限です。とはいえ、賢明な判断を下し、データモデルの設計を開始する前に強力な基盤を構築しておくことが不可欠です。
-
-このドキュメントでは、Adobe Campaign ツールを適切に設計する方法を学ぶための一般的なユースケースとベストプラクティスについて説明します。
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 
@@ -83,22 +81,6 @@ Adobe Campaignのデフォルトのデータモデルは、[このドキュメ�
 >[!NOTE]
 >
 >Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
-
-### Adobe Campaign 用データ {#data-for-campaign}
-
-Adobe Campaign に送信すべきデータ マーケティングアクティビティに必要なデータを決定することがきわめて重要です。
-
->[!NOTE]
->
->Adobe Campaign はデータウェアハウスでもレポートツールでもありません。 可能性のある顧客とその関連情報をすべて Adobe Campaign にインポートしたり、レポートの作成にしか使用しないデータをインポートしたりしないように心がけます。
-
-Adobe Campaign で必要な属性であるかどうかを判断するには、次のカテゴリのいずれかに該当するかどうかを確認します。
-
-* **セグメント化**&#x200B;に使用する属性
-* **データ管理プロセス**&#x200B;に使用する属性（集計計算など）
-* **パーソナライゼーション**&#x200B;に使用する属性
-
-これらのいずれにも該当しない場合、その属性は Adobe Campaign でまず必要にならないと思われます。
 
 ### データタイプの選択 {#data-types}
 
@@ -313,12 +295,6 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 * インポートプロセスを実行中、または手動プロセスを実行したときに、日常的なキャンペーンが実行されていないことを確認します。
 * すべての行にフィールドを複製するのではなく、参照テーブルを使用します。 キーと値のペアを使用する場合は、数値キーを選択することをお勧めします。
 * 短い文字列は引き続き使用できます。 参照テーブルが外部システムに配置されている場合、それを再利用すると、Adobe Campaign とのデータ統合が容易になります。
-
-### 1 対多の関係 {#one-to-many-relationships}
-
-* データ設計は使い勝手と機能性に影響を与えます。 1 対多の関係を多く持つデータモデルを設計すると、ユーザーがアプリケーション内で意味のあるロジックを作成するのが難しくなります。 マーケターが技術者でない場合は、1 対多のフィルターロジックを正しく理解して構築するのは困難なことがあります。
-* 必須フィールドをすべて 1 つのテーブルにまとめておくと、クエリの作成が容易になります。 結合を回避できれば、テーブル間でいくつかのフィールドを複製することもパフォーマンス的には良い場合があります。
-* オファーの重み付けの式や配信などのように、1 対多の関係を参照できないビルトイン機能もあります。
 
 ## 大きいテーブル {#large-tables}
 

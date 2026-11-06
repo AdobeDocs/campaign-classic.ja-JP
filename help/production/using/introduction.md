@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: はじめに
-description: はじめに
+title: Campaignの更新について
+description: Campaignの更新について
 feature: Monitoring, Upgrade
 audience: production
 content-type: reference
@@ -23,12 +23,12 @@ subfeature_v2:
     internal-label: Monitoring guidelines
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 81e68b8bf551312dafc4a53ac4edc0f073cc5131
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '200'
+ht-degree: 0%
 ---
-# はじめに{#introduction}
+# Campaignの更新について{#introduction}
 
 
 

@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 42%
 ---
 # Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
+
+このドキュメントでは、**オンプレミスおよびハイブリッド**&#x200B;のデプロイメント（インストール、設定、アップグレード、操作、v7に固有の機能）に関するCampaign Classic v7について説明します。 インスタンスがAdobe（Managed Cloud Services）によってホストされている場合は、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"}を参照してください。 Campaign v8のドキュメントが同じ方法で作成したコンテンツは、ここでは複製されなくなりました。[v7からv8](#from-v7-to-v8)を参照してください。
 
 <!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
@@ -46,24 +48,17 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 >[!BEGINTABS]
 
 
->[!TAB 2026年8月リリースが公開されました。]
+>[!TAB 2026年10月リリースが公開されています！]
 
-Campaign Classic v7.4.4 - 2026年8月ビルドでは、セキュリティアップデートを提供し、Adobe Analytics コネクタを Analytics 2.0 API にアップグレードします。
+Campaign Classic v7.4.5 - 26年10月ビルド （ビルド 9420）では、Analytics外部アカウントの修正、パーソナライゼーションの保留状態に留まる配信、サーバーCPUの使用状況、断続的なデータモデルの更新エラー、配信の作成におけるスパムチェックエラー、繰り返し発生するソフトバウンスの強制隔離が行われます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
 >[!TAB Adobe IMS への移行]
 
-セキュリティと認証プロセスを強化するために、Adobe Campaign では、エンドユーザーの認証モードをログインおよびパスワードによるネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。
+セキュリティと認証プロセスを強化するために、Adobe Campaign では、エンドユーザーの認証モードをログインおよびパスワードによるネイティブ認証から Adobe ID 管理システム（IMS）に移行することを強くお勧めしています。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](technotes/using/ac-ims.md)
-
-
->[!TAB プッシュチャネルの変更]
-
-Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。 この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。 今すぐ確認し、実行できます。
-
-[![画像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"}
 
 
 >[!ENDTABS]
@@ -81,7 +76,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <div><strong>プロファイルの追加と管理</strong><br/>Adobe Campaign v7 データベースで簡単にプロファイル管理を調べます。 手動またはインポートによるプロファイルの追加、顧客データの絞り込み、キャンペーンのカスタマイズを簡単に行うことができます。</div>
     </td>
     <td>
-    <a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>ワークフローを使用した自動化</strong><br/>ワークフローを活用して、セグメント化、キャンペーンの実行、ファイル処理、人間の関与などのプロセスをデザインする方法について説明します。
     </div></td>
     <td>
@@ -92,7 +87,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -102,39 +97,37 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>今すぐ始める</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">ユーザーインターフェイス</a>（Campaign v8 ドキュメント）- <a href="platform/using/launching-adobe-campaign.md">Campaign への接続</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import" target="_blank">データのインポートとエクスポート</a>（Campaign v8 ドキュメント）- <a href="platform/using/access-management.md">権限</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>カスタマーエクスペリエンス</strong><br/><a href="workflow/using/about-workflows.md">ワークフローを使用した自動化</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank">マーケティングキャンペーン</a> - <a href="interaction/using/interaction-and-offer-management.md">インタラクションとオファー管理</a> - <a href="delivery/using/about-personalization.md">パーソナライズ機能</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">レポート</a>（Campaign v8 ドキュメント）
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+      <br/>
+      <strong>管理者</strong><br/><a href="production/using/architecture-and-open-ports.md"> アーキテクチャの原則</a> - <a href="production/using/syslogd-port-and-security-zones.md">Campaignの設定</a> - <a href="platform/using/launching-adobe-campaign.md">Campaignへの接続</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a> - <a href="platform/using/access-management.md">権限</a> - <a href="platform/using/privacy-management.md"> プライバシーと同意</a> - <a href="production/using/build-upgrade.md"> ビルド アップグレードの実行</a> - <a href="delivery/using/about-deliverability.md">配信品質</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
-    <br/>
-      <strong>メッセージの送信</strong><br/><a href="delivery/using/communication-channels.md">通信チャネル</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message" target="_blank">配達確認の送信</a>（Campaign v8 ドキュメント）- <a href="delivery/using/get-started-a-b-testing.md">A/B テスト</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">メッセージトラッキング</a> - <a href="delivery/using/about-deliverability.md">配信品質</a> - <a href="message-center/using/about-transactional-messaging.md">トランザクションメッセージ</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>プロファイルとオーディエンス</strong><br/> <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">リストの作成</a>（Campaign v8 ドキュメント）- <a href="delivery/using/about-services-and-subscriptions.md">サービスと購読</a> - <a href="platform/using/privacy-management.md">プライバシーと同意</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
-      <br/>
-      <strong>アーキテクチャと設定</strong><br/><a href="production/using/general-architecture.md">アーキテクチャの原則</a> - <a href="production/using/build-upgrade.md">ビルドアップグレードの実行</a> - <a href="production/using/configuration.md">キャンペーンの設定</a> - <a href="installation/using/external-accounts.md">外部システムへの接続</a>
+      <strong> マーケター</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui" target="_blank"> ユーザーインターフェイス </a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import" target="_blank"> データのインポートとエクスポート </a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank"> リストの作成</a> （Campaign v8 ドキュメント） - <a href="delivery/using/about-services-and-subscriptions.md"> サービスとサブスクリプション </a> - <a href="delivery/using/communication-channels.md"> コミュニケーションチャネル </a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message" target="_blank"> プルーフの送信</a> （Campaign v8 ドキュメント） - <a href="delivery/using/get-started-a-b-testing.md">A/B テスト - <a href="message-center/using/about-transactional-messaging.md"> トランザクションメッセージ </a> - <a href="interaction/using/interaction-and-offer-management.md"> インタラクションとオファー管理</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"> ワークフローを使用した自動化</a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja" target="_blank"> マーケティングキャンペーン </a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank"> メッセージトラッキング </a> （Campaign v8 ドキュメント） - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank"> レポート </a> （Campaign v8 ドキュメント）</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel" target="_blank">データモデルの説明</a>（Campaign v8 ドキュメント）- <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api">JSAPI 参照ドキュメント</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
+      <strong>開発者</strong><br/><a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel" target="_blank"> データモデルの説明</a> （Campaign v8 ドキュメント） - <a href="configuration/using/about-schema-reference.md"> スキーマ構造</a> - <a href="configuration/using/editing-forms.md">入力フォーム </a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ja/tools/campaign-api" target="_blank">JSAPI参照ドキュメント </a> - <a href="configuration/using/about-custom-recipient-table.md"> カスタム受信者テーブル </a>
     </td>
   </tr>
 </table>
+
+## v7からv8へ {#from-v7-to-v8}
+
+Campaign v8 ドキュメントに記載されているコンテンツは、v7 ドキュメントから削除されました。 この表を使って探してください。
+
+| お探しの場合… | Campaign v8 ドキュメントを参照する |
+| --- | --- |
+| ユーザーインターフェイス | [&#x200B; ユーザーインターフェイスの確認](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
+| プロファイル、リスト、読み込みと書き出し | [&#x200B; プロファイルとデータの読み込み](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} |
+| ワークフロー | [&#x200B; ワークフローについて](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| マーケティングキャンペーン | [&#x200B; マーケティングキャンペーンの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| 配信の作成と送信 | [&#x200B; メッセージの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
+| ビルトインレポート | [&#x200B; レポートの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
+| 権限 | [権限の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
+| 入力フォーム | [入力フォームの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
 
 ## その他のリソース
 

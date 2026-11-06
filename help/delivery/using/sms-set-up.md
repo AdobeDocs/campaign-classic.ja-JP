@@ -49,8 +49,8 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 100%
 ---
@@ -91,7 +91,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
    >[!CAUTION]
    >
-   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。 **[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。 推奨コネクタに移行する方法について詳しくは、この[ページ](unsupported-connector-migration.md)を参照してください。
+   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。 **[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。 推奨コネクタに移行する方法について詳しくは、この[ページ](sms-set-up.md)を参照してください。
 
 1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。 コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 

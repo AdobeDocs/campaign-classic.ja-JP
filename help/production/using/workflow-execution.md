@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 26%
+source-wordcount: '779'
+ht-degree: 25%
 ---
 # ワークフローの実行{#workflow-execution}
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 
 ワークフローについて詳しくは、次の節を参照してください。
 
-* [ワークフローについて](../../workflow/using/about-workflows.md)
+* [&#x200B; ワークフローについて](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）
 * [&#x200B; ワークフローを開始](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja){target="_blank"}。
 * [&#x200B; ワークフローライフサイクル &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。
 * [&#x200B; ワークフローの使用時のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}。

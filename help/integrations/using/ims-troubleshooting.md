@@ -33,15 +33,19 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 96%
 ---
 # IMS のトラブルシューティング{#ims-troubleshooting}
 
 
 以下で紹介するトラブルシューティングのヒントは、**オンプレミス版**&#x200B;および&#x200B;**ハイブリッド版**&#x200B;のお客様が IMS 統合を使用する際によく発生する問題を解決するのに役立ちます。 **ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 Adobe IDでのログインとログインに関する問題のトラブルシューティングについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 **外部アカウント**
 
@@ -106,16 +110,3 @@ Campaign 外部アカウントで上記のいずれかの設定を変更した�
 * ユーザーが Adobe ID ログインページにアクセスできない。
 
   上記の手順を参考に、スコープの設定を確認してください。
-
-**WebView2 キャッシュの問題**
-
-Adobe ID で&#x200B;**[!UICONTROL クライアントコンソール]**&#x200B;にログインする際に問題が発生した場合は、ローカル WebView2 キャッシュをクリアしてみてください。 多くの場合、これで問題は解決します。 次の手順に従います。
-
-1. **[!UICONTROL クライアントコンソール]**&#x200B;を閉じ、実行中の `nlclient` プロセスをすべて停止します。
-
-1. 次の場所からすべての `webview2` および `webview2Cache` フォルダーを削除します。
-
-   * `C:\ProgramData\Neolane\NL_5\nlclient\`
-   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
-
-1. **[!UICONTROL クライアントコンソール]**&#x200B;を再起動し、Adobe ID でログインします。 キャッシュフォルダーは、次回の起動時に自動的に再作成されます。

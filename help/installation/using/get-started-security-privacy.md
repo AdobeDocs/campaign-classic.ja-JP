@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 52%
@@ -72,7 +72,7 @@ ht-degree: 52%
 * 各オペレーターのアクセス権が適切であることを確認する
 * 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
 
-[詳細情報](../../installation/using/access-management.md)
+[詳細情報](../../installation/using/secure-access-management.md)
 
 ## スクリプトとコーディングのガイドライン
 

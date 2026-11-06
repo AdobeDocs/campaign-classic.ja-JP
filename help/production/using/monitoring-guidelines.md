@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 30%
+source-wordcount: '862'
+ht-degree: 29%
 ---
 # 監視のガイドライン {#monitoring-guidelines}
 
@@ -65,7 +65,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック](../../production/using/audit-trail.md)してください。
+監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）してください。
 
 **コントロールパネル**
 
@@ -87,7 +87,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](../../production/using/audit-trail.md)。
+監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）。
 
 **ワークフローのトラブルシューティング**
 
@@ -166,7 +166,7 @@ SMTP レポートには、配信の統計情報とドメイン別のSMTP エラ�
 
 **一般原則**
 
-* [Campaign Classic アーキテクチャ](../../production/using/general-architecture.md)
+* [Campaign Classic アーキテクチャ](../../production/using/architecture-and-open-ports.md)
 * [Campaign Classicモジュール](../../production/using/operating-principle.md)
 * [Campaign Classicオプション](../../installation/using/configuring-campaign-options.md)
 * [モジュールの自動起動の設定方法](../../production/using/administration.md)

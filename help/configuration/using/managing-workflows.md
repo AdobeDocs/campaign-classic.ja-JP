@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '150'
+ht-degree: 4%
 ---
 # ワークフローの管理{#managing-workflows}
 
@@ -42,6 +42,6 @@ ht-degree: 10%
 
 したがって、ワークフローで使用されるすべてのアクティビティは、追加の手動設定を必要とせずにカスタムテーブルを使用します。
 
-ワークフローについて詳しくは、[この節](../../workflow/using/about-workflows.md)を参照してください。
+ワークフローについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/cfg_external_table_workflow.png)

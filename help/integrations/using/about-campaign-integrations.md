@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 95%
 ---
 # Adobe Campaign 統合の基本を学ぶ {#about-campaign-integrations}
 
@@ -52,9 +52,13 @@ Adobe Campaign と Adobe Experience Cloud ソリューション間で使用で�
 
 Adobe Campaign と統合できるアドビのソリューションとアプリサービスの完全なリスト、および関連ドキュメントについては、[この節](#experience-cloud-integrations)を参照してください。
 
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 Campaignとソリューションの接続について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target=_blank}
+
 >[!CAUTION]
 >
->これらの統合では、Adobe ID 経由でログインするために、Adobe Identity Management System（IMS）を実装する必要があります。 詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+>これらの統合では、Adobe ID 経由でログインするために、Adobe ID 管理システム（IMS）を実装する必要があります。 詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 >
 
 ## ソリューションのリンク {#working-with-experience-cloud-solutions}
@@ -90,16 +94,16 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
    <td> Adobe Campaign と Adobe Real-time Customer Data Platform（RTCDP）間の統合を設定すると、セグメントデータを共有して、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイム顧客データプラットフォーム（CDP）の統合について詳しくは、<a href="../../integrations/using/get-started-sources-destinations.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Identity Management システム（IMS）- Adobe ID</strong><br /> </td> 
+   <td> <strong>Adobe ID 管理システム（IMS）- Adobe ID</strong><br /> </td> 
    <td> 他の Adobe Experience Cloud ソリューションと同じ Adobe ID を使用して Adobe Campaign に接続するには、Adobe IMS を設定します。<br /> Adobe Experience Cloud 統合にリンクした特定の機能を使用するには、Adobe ID を使用してログインする必要があります。<br /> <p>Adobe Campaign での Adobe ID の実装について詳しくは、<a href="../../integrations/using/about-adobe-id.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> Adobe Campaign データベースにマッピングされたメールコンテンツやフォームを <strong>Adobe Experience Manager</strong> で直接作成するには、この統合を設定します。<br /> <p>Adobe Campaign と Adobe Experience Manager の統合について詳しくは、<a href="../../integrations/using/about-adobe-experience-manager.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign データベースにマッピングされたメールコンテンツやフォームを <strong>Adobe Experience Manager</strong> で直接作成するには、この統合を設定します。<br /> <p>Adobe CampaignとAdobe Experience Managerの統合について<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">詳細情報</a> （Campaign v8 ドキュメント）を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Adobe Campaign で作成、送信されたメールが開封されたときに <strong>Adobe Target</strong> が動的に自動生成した画像を挿入するには、この統合を設定します。<br /> <p>Adobe Campaign と Adobe Target の統合について詳しくは、<a href="../../integrations/using/integrating-with-adobe-target.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign で作成、送信されたメールが開封されたときに <strong>Adobe Target</strong> が動的に自動生成した画像を挿入するには、この統合を設定します。<br /> <p>Adobe CampaignとAdobe Targetの統合について<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at" target="_blank">詳細情報</a> （Campaign v8 ドキュメント）を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Adobe Audience Manager</strong><br /> </td> 

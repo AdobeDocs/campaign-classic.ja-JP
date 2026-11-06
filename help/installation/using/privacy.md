@@ -41,12 +41,20 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 28%
+source-wordcount: '848'
+ht-degree: 29%
 ---
 # パーソナライゼーションとプライバシー {#privacy}
+
+このページでは、URLのパーソナライゼーション、URL署名、個人情報を含むページの保護について説明します。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データ制限とプライバシー要求について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+
+Campaign Classic v7では、エンティティ全体へのアクセスを制限するには、ビルド 8770以降が必要です。
 
 ## URL のパーソナライゼーション {#url-personalization}
 
@@ -113,79 +121,6 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
 1. **nlserver** サービスを再起動します。
 1. `tracking` サーバーで、`web` サーバー（Debianではapache2、CentOS/RedHatではhttpd、WindowsではIIS）を再起動します。
 
-## データの制限
-
-暗号化されたパスワードが、低権限の認証済みユーザーからアクセスできないことを確認する必要があります。 これを行うには、パスワードフィールドへのアクセスのみを制限するか、エンティティ全体へのアクセスを制限します（ビルド >= 8770が必要です）。
-
-この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} （Campaign v8 ドキュメント）。
-
-手順は次のとおりです。
-
-1. Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** フォルダーを参照します。
-
-1. スキーマ **の**&#x200B;拡張機能として、データスキーマを作成します。
-
-   ![](assets/privacy-data-restriction.png)
-
-1. **[!UICONTROL 外部アカウント]**（extAccount）を選択します。
-
-1. 最後のアシスタント画面で、新しい「srcSchema」を編集して、すべてのパスワードフィールドへのアクセスを制限します。
-
-   メイン要素（`<element name="extAccount" ... >`）は、次の方法で置き換えることができます。
-
-   ```sql
-   <element name="extAccount">
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-       <element name="s3Account">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-       </element>
-       <element name="wapPush">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-       <element name="mms">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-   </element>
-   ```
-
-   したがって、拡張された srcSchema は次のようになります。
-
-   ```sql
-   <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-               desc="Definition of external accounts (Email, SMS...) used by the modules"
-               entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-               labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-               mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-               name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-       <createdBy _cs="Administrator (admin)"/>
-       <modifiedBy _cs="Administrator (admin)"/>
-       <element name="extAccount">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-           <element name="s3Account">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-           </element>
-           <element name="wapPush">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-           <element name="mms">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-       </element>
-   </srcSchema>    
-   ```
-
-   >[!NOTE]
-   >
-   >`$(loginId) = 0 or $(login) = 'admin'`を`hasNamedRight('admin')`に置き換えて、管理者権限を持つすべてのユーザーがこれらのパスワードを表示できるようにすることができます。
-
 ## PIでページを保護
 
 ミラーページ、web アプリケーションなどの個人情報（PI）を含む可能性のあるページを保護することをオンプレミスのお客様に強くお勧めします。
@@ -214,8 +149,3 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
    **robots.txt** ファイルに加えて、**X-Robots-Tag** ヘッダーを追加することをお勧めします。 ApacheまたはIISと&#x200B;**serverConf.xml**&#x200B;設定ファイルで実行できます。
 
    詳しくは、[この記事](https://developers.google.com/search/reference/robots_meta_tag)を参照してください。
-
-
-## プライバシーリクエスト
-
-Adobe Campaignのプライバシー管理と実装の手順について詳しくは、[このページ &#x200B;](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスおよびペルソナの概要についても説明します。

@@ -40,16 +40,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
-source-wordcount: '841'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 94%
 ---
 # プライバシーリクエストの作成と管理 {#privacy-request-ui}
 
-
-
 この節では、アクセスリクエストと削除リクエストの作成方法のほか、それらのリクエストを Adobe Campaign がどのように処理するかについて説明します。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 プライバシーリクエストの処理時に検索されたテーブルについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}
 
 ## プライバシーリクエストの作成 {#create-privacy-request-ui}
 
@@ -74,24 +76,7 @@ ht-degree: 100%
 
 ![](assets/privacy-request-download.png)
 
-## テーブルのリスト {#list-of-tables}
-
-プライバシーに関連する削除またはアクセスリクエストの実行時に、受信者テーブル（独自タイプ）にリンクされたすべてのテーブルの&#x200B;**[!UICONTROL 紐付け値]**&#x200B;に基づいて、データ主体のすべてのデータを検索します。
-
-以下は、プライバシーリクエストの実行時に考慮される標準テーブルをリストしたものです。
-
-* 受信者（recipient）
-* 受信者配信ログ（broadLogRcp）
-* 受信者トラッキングログ（trackingLogRcp）
-* アーカイブしたイベント配信ログ（broadLogEventHisto）
-* 受信者リストのコンテンツ（rcpGrpRel）
-* 訪問者オファー提案（propositionVisitor）
-* 訪問者（visitor）
-* 購読履歴（subHisto）
-* 購読（subscription）
-* 受信者のオファーの提案（propositionRcp）
-
-受信者テーブル（独自タイプ）にリンクされるカスタムテーブルを作成した場合は、そのテーブルも考慮されます。 例えば、受信者テーブルにリンクしているトランザクションテーブルと、そのトランザクションテーブルにリンクしているトランザクション詳細テーブルがある場合、両方のテーブルが考慮されます。
+## ワークフロー経由のバッチリクエスト
 
 >[!IMPORTANT]
 >
@@ -134,7 +119,7 @@ Adobe Campaign は、アクセスリクエストの処理時に JSSP を生成�
 
 ここで、@id はプライバシーリクエスト ID です.
 
-この URL は、プライバシーリクエスト（gdprRequest）スキーマの&#x200B;**[!UICONTROL 「ファイルの場所」（@urlFile）]**&#x200B;フィールドに保存されます。****
+この URL は、プライバシーリクエスト（gdprRequest）スキーマの&#x200B;**[!UICONTROL 「ファイルの場所」（@urlFile）]**&#x200B;フィールドに保存されます。**&#x200B;**
 
 この情報はデータベースで 90 日間有効です。 テクニカルワークフローによりリクエストがクリーンアップされると、この情報はデータベースから削除され、URL は無効になります。 データを Web ページからダウンロードする前に、URL がまだ有効であるか確認してください。
 

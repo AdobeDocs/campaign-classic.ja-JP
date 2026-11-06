@@ -36,14 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 ---
 # Adobe Campaign のローンチ {#launching-adobe-campaign}
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。 [このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
+
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 Campaignへの接続について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 >[!CAUTION]
 >
@@ -61,12 +65,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 ### Adobe ID を使用して接続
 
-Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
-
 Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に設定するには、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
-
-設定が完了したら、Adobe ID を使用して Campaign に接続する方法について、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target=_blank}を参照してください。
-
 
 ### ログイン／パスワードで接続
 
@@ -83,14 +82,6 @@ Campaign Classic v7 接続を Adobe Identity Management サービス（IMS）に
 1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
 
 これで、[Adobe Campaign ワークスペース](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}（Campaign v8 ドキュメント）にアクセスできるようになります。
-
-## 接続の設定 {#setting-up-connections}
-
-入力ゾーンの上にあるリンクから、サーバー接続設定にアクセスできます。
-
-![](assets/s_ncs_user_connections_management.png)
-
-接続を設定する方法について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}を参照してください。
 
 ## オペレーターと権限 {#operators-and-permissions}
 

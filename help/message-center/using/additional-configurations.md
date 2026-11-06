@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
-source-wordcount: '923'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 91%
 ---
 # その他の設定 {#mc-additional-configurations}
 
+このページでは、Campaign Classic v7でのトランザクションメッセージに関するその他の設定について説明します。
 
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 トランザクションメッセージイベントのパージとテクニカルワークフローについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}を参照してください。
+
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
 
 ## しきい値の監視 {#monitoring-thresholds}
 
@@ -55,63 +59,9 @@ ht-degree: 100%
 >
 >キュー内の保留中のイベント数が、Adobe Campaign のプロセス監視ページの「[システム指標](../../production/using/monitoring-processes.md#system-indicators)」セクションに表示されます。 デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md#deployment-assistant)を参照してください。
 
-## イベントのパージ {#purging-events}
-
-[デプロイメントウィザード](../../production/using/database-cleanup-workflow.md#deployment-assistant)を使用し、データをデータベース上に保存する期間を設定できます。
-
-イベントのパージは、[データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)によって自動的に実行されます。 このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
-
-矢印を使用し、必要に応じてパージの設定を変更します。
-
-コントロールインスタンスのイベントパージ設定：
-
-![](assets/messagecenter_delete_events_001.png)
-
-実行インスタンスのイベントパージ設定：
-
-![](assets/messagecenter_delete_events_002.png)
-
-データベースのクリーンアップワークフローについて詳しくは、[この節](../../production/using/database-cleanup-workflow.md)を参照してください。
-
-
 ## テクニカルワークフロー {#technical-workflows}
 
 トランザクションメッセージテンプレートをデプロイする前に、コントロールインスタンスおよびそれぞれの実行インスタンス上にてテクニカルワークフローが作成され、開始されていることを確認する必要があります。
-
-トランザクションメッセージ（Message Center）に関連する様々なテクニカルワークフローは、コントロールインスタンスと実行インスタンスとに分類されます。
-
-### コントロールインスタンスのワークフロー {#control-instance-workflows}
-
-コントロールインスタンスで、登録されている実行インスタンスが 1 つか複数かにかかわらず、**[!UICONTROL Message Center の実行インスタンス]**&#x200B;外部アカウントごとに 1 つのアーカイブワークフローを作成する必要があります。 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成して開始します。
-
-![](assets/messagecenter_archiving_002.png)
-
-これらのワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。 アーカイブワークフローは作成されると自動的に開始されます。
-
-<!--
-**Minimal architecture**
-
-Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment wizard. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
-
-![](assets/messagecenter_archiving_001.png)
--->
-
-### 実行インスタンスのワークフロー {#execution-instance-workflows}
-
-実行インスタンスでは、**管理／プロダクション／Message Center** フォルダーからトランザクションメッセージのテクニカルワークフローにアクセスできます。 必要な操作は、ワークフローを開始することだけです。 リストに含まれるワークフローは以下のとおりです。
-
-* **[!UICONTROL バッチイベントの処理]**（内部名：**[!UICONTROL batchEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のバッチイベントを分類することができます。
-* **[!UICONTROL リアルタイムイベントの処理]**（内部名：**[!UICONTROL rtEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のリアルタイムイベントを分類することができます。
-* **[!UICONTROL イベントステータスを更新]**（内部名：**[!UICONTROL updateEventStatus]**）：このワークフローは、ステータスをイベントに関連付けることができます。
-
-  イベントステータスには以下のものがあります。
-
-  * **[!UICONTROL 保留中]**：イベントはキューの中です。 イベントにはまだメッセージテンプレートが割り当てられていません。
-  * **[!UICONTROL 配信保留]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
-  * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。 配信が送信されたことを示します。
-  * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。 配信が無視されたことを意味しています。
-  * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。 配信が失敗したことを意味しています。
-  * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。 イベントの処理はおこなわれません。
 
 ### アーカイブワークフローのスケジュール
 

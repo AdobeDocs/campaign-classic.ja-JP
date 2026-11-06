@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '870'
+ht-degree: 96%
 ---
 # レポートのベストプラクティス{#best-practices-reporting}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
    * 既存レポートへの指標の追加。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
    * データベース内データの表示。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 新しい配信レポートの作成。 詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
-   * Adobe Campaign データベースからのデータのエクスポート（ワークフローを使用）。[この節](../../workflow/using/about-workflows.md)を参照してください。
+   * Adobe Campaign データベースからのデータの書き出し（ワークフロー経由）（[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）を参照）
    * ピボットテーブルの作成。 詳しくは、[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照してください。
    * 集計データの表示。 詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
    * アシスタントを使用したデータ分析。 詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。

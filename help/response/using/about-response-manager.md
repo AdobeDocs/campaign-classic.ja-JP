@@ -24,8 +24,8 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 ---
@@ -57,7 +57,7 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 ## 実装の手順 {#method}
 
-Response Manager の使用を開始する前に、[設定](configuration.md)を参照して必要な設定を実行してください。
+Response Manager の使用を開始する前に、[設定](configure-response-manager.md)を参照して必要な設定を実行してください。
 
 配信またはオファーで仮説を開始するには、作成する各仮説に使用するテンプレートでコンテキストを定義する必要があります。
 

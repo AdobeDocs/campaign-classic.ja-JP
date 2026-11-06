@@ -8,10 +8,10 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 186021e65b592522f3c491fb518594b5bac5d003
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 98%
+source-wordcount: '1577'
+ht-degree: 97%
 ---
 
 # Adobe Campaign Classic v7 ドキュメント {#using}
@@ -75,7 +75,7 @@ ht-degree: 98%
   + セキュリティとプライバシーの設定 {#security-privacy}
     + [セキュリティとプライバシーのチェックリスト](installation/using/get-started-security-privacy.md)
     + [パーソナライゼーションとプライバシー](installation/using/privacy.md)
-    + [安全なアクセス管理](installation/using/access-management.md)
+    + [安全なアクセス管理](installation/using/secure-access-management.md)
     + [スクリプトとコーディングのガイドライン](installation/using/scripting-coding-guidelines.md)
     + [ネットワーク、データベース、SSL/TLS](installation/using/network-database.md)
     + [サーバーのセキュリティ設定](installation/using/server-configuration.md)
@@ -117,7 +117,7 @@ ht-degree: 98%
   + Campaign への接続{#connect-to-campaign}
     + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
     + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-      + [&#x200B; [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
+      + [ [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
       + [Adobe [!DNL IMS] の設定](integrations/using/configuring-ims.md)
       + [Adobe [!DNL IMS] の実装](integrations/using/implementing-ims.md)
       + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
@@ -166,13 +166,13 @@ ht-degree: 98%
 + 運用と監視 {#monitoring-campaign-classic}
   + はじめに {#introduction}
     + [前書き](production/using/foreword.md)
-    + [一般的なアーキテクチャ](production/using/general-architecture.md)
+    + [アーキテクチャとオープン ポート](production/using/architecture-and-open-ports.md)
     + [監視のガイドライン](production/using/monitoring-guidelines.md)
   + 本番の手順 {#production-procedures}
     + [設定の原則](production/using/configuration-principle.md)
     + [動作の原則](production/using/operating-principle.md)
     + [管理](production/using/administration.md)
-    + [設定](production/using/configuration.md)
+    + [Syslogd ポートとセキュリティ ゾーン](production/using/syslogd-port-and-security-zones.md)
     + [ログファイル](production/using/log-files.md)
     + [プロセスの監視](production/using/monitoring-processes.md)
     + [通常のコマンド](production/using/usual-commands.md)
@@ -182,7 +182,7 @@ ht-degree: 98%
     + [環境の複製](production/using/duplicating-environments.md)
     + [データベースクリーンアップのワークフロー](production/using/database-cleanup-workflow.md)
   + Adobe Campaign の更新 {#updating-adobe-campaign}
-    + [はじめに](production/using/introduction.md)
+    + [Campaignの更新について](production/using/introduction.md)
     + [ビルドアップグレードの実行](production/using/build-upgrade.md)
     + [アップグレード手順（オンプレミス）](production/using/upgrading.md)
     + [Unicode への切り替え](production/using/switching-to-unicode.md)
@@ -229,7 +229,7 @@ ht-degree: 98%
     + [データベースマッピング](configuration/using/database-mapping.md)
     + [鍵の管理](configuration/using/database-keys.md)
     + 要素と属性 {#elements-attributes}
-      + [はじめに](configuration/using/schema-introduction.md)
+      + [要素と属性の概要](configuration/using/schema-introduction.md)
       + [属性](configuration/using/schema/attribute.md)
       + [文字列を計算](configuration/using/schema/compute-string.md)
       + [条件](configuration/using/schema/condition.md)
@@ -301,7 +301,7 @@ ht-degree: 98%
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
   + [プッシュ通知の送信](delivery/using/about-mobile-app-channel.md)
   + プッシュ通知の送信 {#sending-push-notifications}
-    + {hide-from-toc}[トラブルシューティング - 非表示](delivery/using/troubleshooting.md)
+    + {hide-from-toc}[トラブルシューティング - 非表示](delivery/using/push-troubleshooting.md)
   + [ダイレクトメールの送信](delivery/using/about-direct-mail-channel.md)
   + 配信のパーソナライズ {#personalizing-deliveries}
     + [パーソナライゼーションについて](delivery/using/about-personalization.md)
@@ -420,7 +420,7 @@ ht-degree: 98%
     + [アウトバウンドチャネルのオファー](interaction/using/offers-on-an-outbound-channel.md)
 + Response Manager {#response-manager}
   + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
-  + [設定](response/using/configuration.md)
+  + [Response Managerの設定](response/using/configure-response-manager.md)
   + [仮説テンプレート](response/using/hypothesis-templates.md)
   + [仮説の作成](response/using/creating-hypotheses.md)
   + [仮説のトラッキング](response/using/hypothesis-tracking.md)
@@ -452,7 +452,7 @@ ht-degree: 98%
   + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
   + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud Triggers {#experience-triggers}
-    + [&#x200B; [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
+    + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
     + [パイプラインの設定](integrations/using/configuring-pipeline.md)
     + [カスタム実装用のイベントの設定](integrations/using/events.md)
     + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
@@ -465,19 +465,19 @@ ht-degree: 98%
     + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
     + [Adobe Analytics コネクタのプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
   + オーディエンスの共有 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
-    + [&#x200B; [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-    + {hide-from-toc}[トラブルシューティング](integrations/using/troubleshooting.md)
+    + [ [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + {hide-from-toc}[トラブルシューティング](integrations/using/integrations-troubleshooting.md)
     + [オーディエンスのインポートとエクスポート](integrations/using/importing-and-exporting-audiences.md)
   + アセットの共有 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [&#x200B; [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+    + [ [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
     + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [統合の設定](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [&#x200B; [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
   + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
 + テクニカルノート {#technotes}
@@ -498,7 +498,7 @@ ht-degree: 98%
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
     + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
   + Adobe Managed Services への移行{#dc-migration}
-    + {hide-from-toc}[&#x200B; パブリッククラウドへの移行](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ パブリッククラウドへの移行](technotes/using/dc-migration.md)
     + {hide-from-toc}[よくある質問（FAQ）](technotes/using/dc-migration-faq.md)
   + [GCM ベースの関数](technotes/using/gcm-functions.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)

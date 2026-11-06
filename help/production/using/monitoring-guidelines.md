@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 29%
@@ -61,11 +61,11 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **自動監視ツール**
 
-いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック &#x200B;](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
+いくつかの自動方法を利用できます。 インスタンスを監視するのに役立つ機能です。 例えば、検出された異常値を含むメールレポートを設定したり、XML形式の指標のリストを取得したりできます。[詳細については、こちらをクリック ](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
 
 **監査記録**
 
-監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）してください。
+監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）してください。
 
 **コントロールパネル**
 
@@ -87,11 +87,11 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）。
+監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）。
 
 **ワークフローのトラブルシューティング**
 
-ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック &#x200B;](../../production/using/workflow-execution.md)してください
+ワークフロー実行で問題が発生した場合は、特定のアクションを実行できます。 詳細については、[ここをクリック ](../../production/using/workflow-execution.md)してください
 
 **ワークフロー状態の監視**
 
@@ -113,7 +113,7 @@ SMTP レポートには、配信の統計情報とドメイン別のSMTP エラ�
 
 **ベストプラクティス**
 
-パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
+パフォーマンスを向上させるために、配信の送信と設計に関するベストプラクティスについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合、特定のアクションを実行できます。
@@ -166,7 +166,7 @@ SMTP レポートには、配信の統計情報とドメイン別のSMTP エラ�
 
 **一般原則**
 
-* [Campaign Classic アーキテクチャ](../../production/using/general-architecture.md)
+* [Campaign Classic アーキテクチャ](../../production/using/architecture-and-open-ports.md)
 * [Campaign Classicモジュール](../../production/using/operating-principle.md)
 * [Campaign Classicオプション](../../installation/using/configuring-campaign-options.md)
 * [モジュールの自動起動の設定方法](../../production/using/administration.md)

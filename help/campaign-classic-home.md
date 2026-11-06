@@ -37,7 +37,7 @@ ht-degree: 42%
 ---
 # Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
 
-このドキュメントでは、**オンプレミスおよびハイブリッド**&#x200B;のデプロイメント（インストール、設定、アップグレード、操作、v7に固有の機能）に関するCampaign Classic v7について説明します。 インスタンスがAdobe（Managed Cloud Services）によってホストされている場合は、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"}を参照してください。 Campaign v8のドキュメントが同じ方法で作成したコンテンツは、ここでは複製されなくなりました。[v7からv8](#from-v7-to-v8)を参照してください。
+このドキュメントでは、**オンプレミスおよびハイブリッド**&#x200B;のデプロイメント（インストール、設定、アップグレード、操作、v7に固有の機能）に関するCampaign Classic v7について説明します。 インスタンスがAdobe（Managed Cloud Services）によってホストされている場合は、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"}を参照してください。 Campaign v8のドキュメントが同じ方法で作成したコンテンツは、ここでは複製されなくなりました。[v7からv8](#from-v7-to-v8)を参照してください。
 
 <!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
@@ -120,12 +120,12 @@ Campaign v8 ドキュメントに記載されているコンテンツは、v7 �
 
 | お探しの場合… | Campaign v8 ドキュメントを参照する |
 | --- | --- |
-| ユーザーインターフェイス | [ ユーザーインターフェイスの確認](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
-| プロファイル、リスト、読み込みと書き出し | [ プロファイルとデータの読み込み](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} |
-| ワークフロー | [ ワークフローについて](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
-| マーケティングキャンペーン | [ マーケティングキャンペーンの基本を学ぶ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
-| 配信の作成と送信 | [ メッセージの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
-| ビルトインレポート | [ レポートの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
+| ユーザーインターフェイス | [&#x200B; ユーザーインターフェイスの確認](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
+| プロファイル、リスト、読み込みと書き出し | [&#x200B; プロファイルとデータの読み込み](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} |
+| ワークフロー | [&#x200B; ワークフローについて](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| マーケティングキャンペーン | [&#x200B; マーケティングキャンペーンの基本を学ぶ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| 配信の作成と送信 | [&#x200B; メッセージの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
+| ビルトインレポート | [&#x200B; レポートの概要](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
 | 権限 | [権限の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
 | 入力フォーム | [入力フォームの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
 

@@ -50,7 +50,7 @@ ht-degree: 29%
 
 このページでは、URLのパーソナライゼーション、URL署名、個人情報を含むページの保護について説明します。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データ制限とプライバシー要求について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}を参照してください。
+Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データ制限とプライバシー要求について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}を参照してください。
 
 [![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
 
@@ -93,11 +93,11 @@ Campaign Classic v7では、エンティティ全体へのアクセスを制限�
 >
 >形式が正しくない署名済みURLをクリックすると、このエラーが返されます：`Requested URL '…' was not found.`
 
-さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+さらに、機能強化を使用して、以前のビルドで生成されたURLを無効にすることもできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知の配信やアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL署名を無効にすることをお勧めします。
 
-Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+Campaign ホスト版、Managed Cloud Servicesまたはハイブリッド版のお客様の場合、URL署名を無効にするには、[&#x200B; カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 ハイブリッドアーキテクチャでCampaignを実行している場合は、URL署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
@@ -140,7 +140,7 @@ URL署名を有効にするには、すべてのCampaign サーバーで同時�
    *Disallow: /
    ```
 
-   IISについては、[このページ ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
+   IISについては、[このページ &#x200B;](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
 
    Apacheの場合は、**/var/www/robots.txt** （Debian）にファイルを配置できます。
 

@@ -65,7 +65,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）してください。
+監査証跡を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）してください。
 
 **コントロールパネル**
 
@@ -87,7 +87,7 @@ Campaign Classic ホームページからアクセスできる&#x200B;**[!UICONT
 
 **監査記録**
 
-監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）。
+監査証跡を使用すると、ワークフローで行われたすべての変更と、現在の状態を視覚化できます。 [ここをクリック &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} （Campaign v8 ドキュメント）。
 
 **ワークフローのトラブルシューティング**
 

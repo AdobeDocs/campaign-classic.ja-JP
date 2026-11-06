@@ -43,8 +43,8 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 100%
 ---
@@ -80,7 +80,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>
  <td>Netsize SMPP コネクタ</td>
- <td><p>Netsize SMPP コネクタは、非推奨（廃止予定）になりました。 <strong>拡張された汎用 SMPP</strong> コネクタに移行することをお勧めします。 詳しくは、<a href="../../delivery/using/unsupported-connector-migration.md">このページ</a>を参照してください。</p>
+ <td><p>Netsize SMPP コネクタは、非推奨（廃止予定）になりました。 <strong>拡張された汎用 SMPP</strong> コネクタに移行することをお勧めします。 詳しくは、<a href="../../delivery/using/sms-set-up.md">このページ</a>を参照してください。</p>
 <p>削除予定日：2027年1月</p>
 </td>
 </tr>
@@ -181,7 +181,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>
-   <td>Campaign 18.4 リリース以降、MMS と WAP プッシュのチャネルは使用できなくなりました。代わりに、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a>（Campaign v8 ドキュメント）および<a href="../../delivery/using/about-mobile-app-channel.md">プッシュ通知</a>配信を活用できます。</td>
+   <td>Campaign 18.4 リリース以降、MMS と WAP プッシュのチャネルは使用できなくなりました。 代わりに、<a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a>（Campaign v8 ドキュメント）および<a href="../../delivery/using/about-mobile-app-channel.md">プッシュ通知</a>配信を活用できます。</td>
   </tr> 
    <tr> 
    <td>モバイルチャネル - LINE v1</td>

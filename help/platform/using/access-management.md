@@ -59,11 +59,11 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 >[!NOTE]
 >
->Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 権限について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}を参照してください。
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 権限について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}を参照してください。
 >
 >[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}
 
-フォルダーに対する権限を定義する方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}を参照してください。
+フォルダーに対する権限を定義する方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}を参照してください。
 
 ログイン／パスワードによるネイティブ認証は Campaign v7 でも引き続き使用できますが、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、[エンドユーザー認証モード](../../technotes/using/ac-ims.md)をネイティブ認証から Adobe ID 管理システム（IMS）に移行することを強くお勧めしています。 Campaign v8 では、ネイティブ認証を使用した接続は許可されません。
 

@@ -96,7 +96,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用するSQ
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+* データの読み取り/書き込みを防止するために、一部のシステムフィルター（sysFilter）を追加できます（[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
   ```
   <sysFilter name="writeAccess">    

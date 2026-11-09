@@ -166,7 +166,7 @@ ht-degree: 90%
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  ワークフローとその使用方法については、[この節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）で詳しく説明しています。
+  ワークフローとその使用方法については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} （Campaign v8 ドキュメント）で詳しく説明しています。
 
 ### 受信者のサービスからの購読解除 {#unsubscribing-a-recipient-from-a-service}
 

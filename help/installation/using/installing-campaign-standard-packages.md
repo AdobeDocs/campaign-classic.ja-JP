@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1489'
 ht-degree: 18%
 ---
 # Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
@@ -163,7 +163,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> オンライン調査（Survey Manager） <br /> </td> 
-   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="../../surveys/using/about-surveys.md">詳細情報</a> <br /> </td> 
+   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -178,7 +178,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> 外部データへのアクセス （Federated Data Access） <br /> </td> 
-   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 1つ以上の外部データベースに保存されているデータを処理するために、Federated Data Access （FDA）オプションを提供します。これにより、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ja" target="_blank">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティングオファーに追加する一連のクーポンを作成します。 オプション。 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">詳細情報</a> <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ ht-degree: 18%
 
 * Marketing インスタンスとMID インスタンスの両方に[!DNL LINE] パッケージをインストールします
 
-* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}（Campaign v8 ドキュメント）
+* 配信モードを変更して、mkt インスタンスの[!DNL LINE]外部アカウントをミッドインスタンスを指すように設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}（Campaign v8 ドキュメント）
 
 * MID インスタンスの外部アカウントで[!DNL LINE]資格情報を設定します。
 

@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 97%
   + Campaign への接続{#connect-to-campaign}
     + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
     + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-      + [&#x200B; [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
+      + [ [!DNL Adobe ID] について](integrations/using/about-adobe-id.md)
       + [Adobe [!DNL IMS] の設定](integrations/using/configuring-ims.md)
       + [Adobe [!DNL IMS] の実装](integrations/using/implementing-ims.md)
       + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
@@ -354,69 +354,16 @@ ht-degree: 97%
   + メッセージテンプレート {#message-templates}
     + [メッセージテンプレートをテスト](message-center/using/testing-message-templates.md)
   + [ユースケース](message-center/using/transactional-email-with-attachments.md)
-+ Web コンテンツの設計 {#designing-content}
-  + web アプリケーション {#web-applications}
-    + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
-    + [web アプリケーションの新規作成](web/using/creating-a-new-web-application.md)
-    + [web アプリケーションの設計](web/using/designing-a-web-application.md)
-    + [ユースケース：概要の作成](web/using/use-cases-creating-overviews.md)
-    + [web アプリケーションの翻訳](web/using/translating-a-web-application.md)
-    + [web アプリケーションへの訪問のトラッキング](web/using/tracking-a-web-application.md)
-    + [web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
-  + HTML コンテンツの編集 {#editing-html-content}
-    + [HTML エディターの基本を学ぶ](web/using/about-campaign-html-editor.md)
-    + [テンプレート管理](web/using/template-management.md)
-    + [コンテンツエディターのインターフェイス](web/using/content-editor-interface.md)
-    + [コンテンツの編集](web/using/editing-content.md)
-    + [コンテンツ編集のベストプラクティス](web/using/content-editing-best-practices.md)
-    + [ランディングページの作成](web/using/creating-a-landing-page.md)
-    + [ユースケース：メール配信の作成](web/using/use-case-creating-an-email-delivery.md)
-  + Web フォーム {#web-forms}
-    + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
-    + [web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
-    + [web フォームへのフィールドの追加](web/using/adding-fields-to-a-web-form.md)
-    + [web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
-    + [web フォームレイアウトの定義](web/using/defining-web-forms-layout.md)
-    + [フォームレンダリング](web/using/form-rendering.md)
-    + [ページの順序付けの定義](web/using/defining-web-forms-page-sequencing.md)
-    + [web フォームの回答の保存](web/using/web-forms-answers.md)
-    + [web フォームの公開](web/using/publishing-a-web-form.md)
-    + [web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
-    + [web フォームの翻訳](web/using/translating-a-web-form.md)
-    + [ユースケース：web フォーム](web/using/use-cases-web-forms.md)
-+ オンライン調査の作成 {#online-surveys}
-  + [調査の基本を学ぶ](surveys/using/about-surveys.md)
-  + [調査を作成するための主な手順](surveys/using/getting-started-with-surveys.md)
-  + [調査の設計](surveys/using/building-a-survey.md)
-  + [回答の管理](surveys/using/managing-answers.md)
-  + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish-track-and-use-collected-data.md)
-  + [調査の設定](surveys/using/configuring-surveys.md)
-  + [ユースケース：リファラルフォームの作成](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + オファーの管理 {#managing-offers}
   + インタラクションの基本を学ぶ {#interaction-overview}
     + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)
-  + オファーカタログの管理 {#managing-an-offer-catalog}
-    + [オファーの承認と有効化](interaction/using/approving-and-activating-an-offer.md)
-    + [オファーテンプレートの管理](interaction/using/managing-offer-templates.md)
-    + [オファープレゼンテーションの管理](interaction/using/managing-offer-presentation.md)
-  + オファーのシミュレーション{#simulating-offers}
-    + [オファーのシミュレーションについて](interaction/using/about-offers-simulation.md)
-    + [実行設定](interaction/using/execution-settings.md)
-    + [シミュレーションのスコープ](interaction/using/simulation-scope.md)
-    + [シミュレーションのトラッキング](interaction/using/simulation-tracking.md)
   + 詳細設定パラメーター {#advanced-parameters}
     + [詳細設定パラメーターの使用](interaction/using/using-advanced-parameters.md)
     + [追加データ](interaction/using/additional-data.md)
-    + [拡張の例](interaction/using/extension-example.md)
     + [テスト環境の作成](interaction/using/creating-a-test-environment.md)
     + [エンジンの標準動作の変更](interaction/using/hooks.md)
     + [分散アーキテクチャ](interaction/using/distributed-architectures.md)
     + [データバッファーの設定](installation/using/interaction-data-buffer.md)
-  + ユースケース {#case-study}
-    + [プレゼンテーションルール](interaction/using/presentation-rules.md)
-    + [インバウンドチャネルのオファー](interaction/using/offers-on-an-inbound-channel.md)
-    + [アウトバウンドチャネルのオファー](interaction/using/offers-on-an-outbound-channel.md)
 + レポートの設計と共有 {#reporting}
   + レポートの基本を学ぶ {#reporting-in-adobe-campaign}
     + [レポートのベストプラクティス](reporting/using/best-practices.md)
@@ -445,7 +392,7 @@ ht-degree: 97%
   + [Campaign 統合の基本を学ぶ](integrations/using/about-campaign-integrations.md)
   + [Adobe テクニカルアカウントの作成](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud Triggers {#experience-triggers}
-    + [&#x200B; [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
+    + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
     + [パイプラインの設定](integrations/using/configuring-pipeline.md)
     + [カスタム実装用のイベントの設定](integrations/using/events.md)
     + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
@@ -458,19 +405,19 @@ ht-degree: 97%
     + [Adobe Analytics Connector の基本を学ぶ](integrations/using/gs-aa.md)
     + [Adobe Analytics コネクタのプロビジョニング](integrations/using/adobe-analytics-provisioning.md)
   + オーディエンスの共有 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [ [!DNL Adobe Experience Cloud] とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [アドビへのリクエストの送信](integrations/using/submitting-request-to-adobe.md)
-    + [&#x200B; [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + [ [!DNL Adobe Campaign] での共有オーディエンス統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[トラブルシューティング](integrations/using/integrations-troubleshooting.md)
     + [オーディエンスのインポートとエクスポート](integrations/using/importing-and-exporting-audiences.md)
   + アセットの共有 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [&#x200B; [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+    + [ [!DNL Adobe Experience Cloud] とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
     + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [統合の設定](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [&#x200B; [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
   + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
 + テクニカルノート {#technotes}
@@ -491,7 +438,7 @@ ht-degree: 97%
     + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
     + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
   + Adobe Managed Services への移行{#dc-migration}
-    + {hide-from-toc}[&#x200B; パブリッククラウドへの移行](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ パブリッククラウドへの移行](technotes/using/dc-migration.md)
     + {hide-from-toc}[よくある質問（FAQ）](technotes/using/dc-migration-faq.md)
   + [GCM ベースの関数](technotes/using/gcm-functions.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)

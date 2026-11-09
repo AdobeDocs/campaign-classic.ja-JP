@@ -56,9 +56,9 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データモデルのベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}を参照してください。
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データモデルのベストプラクティスについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}
 
 Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 
@@ -82,7 +82,7 @@ Adobe Campaignのデフォルトのデータモデルは、[このドキュメ�
 
 >[!NOTE]
 >
->Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
+>Adobe Campaign Classicを使用すると、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合、既に追加のテーブルと機能が事前に構築されている標準の[受信者テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} （Campaign v8 ドキュメント）を活用することをお勧めします。
 
 ### データタイプの選択 {#data-types}
 
@@ -169,7 +169,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルに対
 
 デフォルトでは、カスタムシーケンスの値は+1,000～+2.1BBの範囲になります。 技術的には、負のIDを有効にすることで、4BBの全範囲を取得することが可能です。 これは注意して使用する必要があり、負から正の数値に切り替えると1つのIDが失われます。レコード 0は通常、生成されたSQL クエリでAdobe Campaignによって無視されます。
 
-シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
+シーケンスの消耗について詳しくは、[このビデオ &#x200B;](https://helpx.adobe.com/jp/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)をご覧ください。
 
 ## 索引 {#indexes}
 

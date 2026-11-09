@@ -32,7 +32,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 97%
@@ -43,7 +43,9 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 メールは、アプリや web サイト以外のユーザーとのエンゲージメントに使用できる、最も強力で柔軟なチャネルの 1 つです。 パーソナライズされたコンテンツ、お知らせ、プロモーションメッセージのいずれを配信する場合でも、メールを使用すると、メッセージとオーディエンスの両方を完全に制御できます。 コンテンツのカスタマイズ、特定のユーザーセグメントへのターゲティング、リッチなマルチメディア要素の組み込みによる効果とエンゲージメントの最大化するなど、メールチャネルを最大限に設定して使用する方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/emails/email){target=_blank}を参照してください。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
+>[!NOTE]
+>
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。
 
 >[!BEGINTABS]
 

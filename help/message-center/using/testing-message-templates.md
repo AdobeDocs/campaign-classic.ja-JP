@@ -26,8 +26,8 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 ---
@@ -35,9 +35,11 @@ ht-degree: 100%
 
 [メッセージテンプレート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}（Campaign v8 ドキュメント）の準備が整ったら、次の手順に従ってプレビューとテストを行います。
 
-Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 シードアドレスの追加、トランザクションメッセージのプレビュー、配達確認の送信方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}を参照してください。
-
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
+>[!NOTE]
+>
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 シードアドレスの追加、トランザクションメッセージのプレビュー、配達確認の送信方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}を参照してください。
+>
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
 ## パーソナライゼーションデータ {#personalization-data}
 

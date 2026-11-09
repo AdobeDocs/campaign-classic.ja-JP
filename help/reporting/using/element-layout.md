@@ -53,7 +53,7 @@ ht-degree: 86%
 
 「**[!UICONTROL タイトル]**」フィールドでは、レポートページのヘッダーのレベルをパーソナライズできます。 ウィンドウのタイトルは、レポートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウで設定できます。 詳しくは、[ヘッダーやフッターの追加](#adding-a-header-and-a-footer)を参照してください。
 
-「**[!UICONTROL 表示設定]**」オプションでは、レポートページ内のコントロールキャプションの位置を選択したり、ページの列数を定義したりできます。 ページレイアウトについて詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"}の&#x200B;**アイテムレイアウト** セクション（Campaign v8 ドキュメント）を参照してください。
+「**[!UICONTROL 表示設定]**」オプションでは、レポートページ内のコントロールキャプションの位置を選択したり、ページの列数を定義したりできます。 ページレイアウトについて詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"}の&#x200B;**アイテムレイアウト** セクション（Campaign v8 ドキュメント）を参照してください。
 
 「**[!UICONTROL ナビゲーション]**」セクションで様々オプションを選択すると、レポートページ間の移動を許可することができます。 「**[!UICONTROL 次のページを無効にする]**」オプションまたは「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションを選択すると、「**[!UICONTROL 次のページ]**」ボタンまたは「**[!UICONTROL 前のページ]**」ボタンがレポートページに表示されなくなります。
 

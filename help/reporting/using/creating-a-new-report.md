@@ -150,7 +150,7 @@ ht-degree: 91%
 
 ### 静的要素 {#static-elements}
 
-静的要素を使用すると、グラフィカル要素やスクリプトなどの、ユーザーとの間でインタラクションが発生しない情報をレポートに表示できます。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+静的要素を使用すると、グラフィカル要素やスクリプトなどの、ユーザーとの間でインタラクションが発生しない情報をレポートに表示できます。 詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/s_advuser_report_page_activity_03.png)
 

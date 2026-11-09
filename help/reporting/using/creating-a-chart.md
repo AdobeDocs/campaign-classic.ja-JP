@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '556'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 ---
 # グラフの作成{#creating-a-chart}
 
@@ -143,7 +143,7 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。 �
 
 ユーザーがグラフをクリックしたときのアクションを定義できます。 **[!UICONTROL インタラクションイベント]**&#x200B;ウィンドウを開き、実行するアクションを選択します。
 
-選択可能なインタラクションタイプとそれらの設定について詳しくは、[この節](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
+考えられるインタラクションタイプとその設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

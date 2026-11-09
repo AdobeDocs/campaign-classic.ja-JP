@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '967'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 91%
 ---
 # レポートの新規作成{#creating-a-new-report}
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 * **[!UICONTROL 静的要素]**（値、リンク、HTML、画像など）。
 * **[!UICONTROL コンテナ]**（コンポーネントレイアウトの制御に使用）。
 
-ページおよびページコンポーネントの設定モードについて詳しくは、[この節](../../web/using/about-web-forms.md)で説明しています。
+ページとそのコンポーネントの設定モードについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ツールバーを使用すると、コントロールの追加や削除をおこなえるほか、レポートページでのコントロールの順序を構成できます。
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
 ### 静的要素 {#static-elements}
 
-静的要素を使用すると、グラフィカル要素やスクリプトなどの、ユーザーとの間でインタラクションが発生しない情報をレポートに表示できます。 詳しくは、[この節](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
+静的要素を使用すると、グラフィカル要素やスクリプトなどの、ユーザーとの間でインタラクションが発生しない情報をレポートに表示できます。 詳しくは、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 
 入力コントロールや選択コントロールを使用すると、レポートに表示する情報をフィルターできます。 この種のフィルターの実装について詳しくは、[クエリでのフィルターオプション](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries)を参照してください。
 
-入力フィールドや選択フィールドの作成と設定について詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
+入力フィールドと選択フィールドの作成と設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 レポートに 1 つまたは複数の入力コントロールを組み込むことができます。 このタイプのコントロールを使用すると、表示される情報を、入力値に従ってフィルターできます。
 

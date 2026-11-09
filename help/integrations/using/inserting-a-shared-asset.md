@@ -27,10 +27,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 97%
+source-wordcount: '292'
+ht-degree: 83%
 ---
 # 共有アセットを挿入{#inserting-a-shared-asset}
 
@@ -48,7 +48,7 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
      ![](assets/dam_insert_image_standard.png)
 
-   * [詳細編集モード](../../web/using/about-campaign-html-editor.md)（DCE）を使用している場合、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL 共有アセットを選択]**」を選択します。
+   * [詳細編集モード ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} （Campaign v8 ドキュメント） （DCE）を使用している場合は、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL 共有アセットを選択]**」を選択します。
 
      ![](assets/dam_insert_image_dce.png)
 
@@ -64,4 +64,4 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
 >[!NOTE]
 >
->Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。 [このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Adobe Target との統合を使用している場合、共有画像をデフォルト画像として使用できます。 [このページ ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} （Campaign v8 ドキュメント）を参照してください。

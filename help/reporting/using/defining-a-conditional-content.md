@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 82%
 ---
 # 条件付きコンテンツの定義{#defining-a-conditional-content}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 表示条件は、オペレーターの状況や、レポートページで選択または入力された項目によって異なる場合があります。
 
-ページ上の項目の条件付き表示を示す例については、[この節](../../web/using/form-rendering.md#defining-fields-conditional-display)を参照してください。
+ページ上の項目の条件付き表示を示す例については、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 次の例では、表示条件は言語に依存します。
 
@@ -72,6 +72,6 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL デフォルト分岐を有効化]**」オプションを選択すると、設定した条件のどれも満たされない場合のトランジションを追加できます。
 
-   詳しくは、[この節](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
+   詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 チャートの先頭に&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティを配置して、例えばコンテキストやオペレータープロファイルによって表示を条件付けることができます。

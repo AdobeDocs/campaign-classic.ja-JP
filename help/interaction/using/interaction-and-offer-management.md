@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 >
 >Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 インタラクションについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
 この節では、Campaign v8 ドキュメントに記載されていないインタラクション機能のみを取り上げます。[オファーシミュレーション](about-offers-simulation.md)、[オファープレゼンテーション](managing-offer-presentation.md)、[オファー承認](approving-and-activating-an-offer.md)、[オファーテンプレート](managing-offer-templates.md)および[詳細設定](using-advanced-parameters.md)。
 

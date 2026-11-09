@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 10%
@@ -43,16 +43,16 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 入力フォームについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}を参照してください。
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 入力フォームについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}
 
 入力フォームを作成および変更できます。
 
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 工場出荷時の入力フォームは、工場のデータスキーマに基づいています。
 * 定義したデータスキーマにもとづいて、カスタム入力フォームを作成できます。
 
-Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [&#x200B; フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
+Formsは`xtk:form` タイプのエンティティです。 入力フォーム構造は、`xtk:form` スキーマで表示できます。 このスキーマを表示するには、メニューから&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**&#x200B;を選択します。 [ フォーム構造](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
 
 入力フォームにアクセスするには、メニューから&#x200B;**[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]**&#x200B;を選択します。
 
@@ -80,13 +80,13 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 * コンテンツ管理
 
-  コンテンツ管理にこのフォームタイプを使用します。 この[&#x200B; ユースケース &#x200B;](../../delivery/using/use-case-creating-content-management.md)を参照してください。
+  コンテンツ管理にこのフォームタイプを使用します。 この[ ユースケース ](../../delivery/using/use-case-creating-content-management.md)を参照してください。
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * アシスタント
 
-  このフォームは、特定の順序で並べられた複数のフローティングスクリーンで構成されます。 利用者は、ある画面から次の画面へ移動します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}（Campaign v8 ドキュメント）。
+  このフォームは、特定の順序で並べられた複数のフローティングスクリーンで構成されます。 利用者は、ある画面から次の画面へ移動します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}（Campaign v8 ドキュメント）。
 
 * アイコンボックス
 
@@ -172,7 +172,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 1. フォーム要素を挿入します。
 
-   例えば、入力フィールドを挿入するには、`<input>`要素を使用します。 `xpath`属性をXPath式としてフィールド参照に設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}（Campaign v8 ドキュメント）。
+   例えば、入力フィールドを挿入するには、`<input>`要素を使用します。 `xpath`属性をXPath式としてフィールド参照に設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}（Campaign v8 ドキュメント）。
 
    この例では、`nms:recipient` スキーマに基づく入力フィールドを示します。
 
@@ -205,7 +205,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳しくは、[&#x200B; メモリリストコントロール &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
+   詳しくは、[ メモリリストコントロール ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}を参照してください（Campaign v8 ドキュメント）。
 
 1. オプションで、フィールドへのアクセスを定義します。
 
@@ -243,7 +243,7 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 
 ## 複数ページフォームの作成 {#create-multipage-form}
 
-複数のページフォームを作成できます。 他のフォーム内にフォームをネストすることもできます。 [&#x200B; コンテナ、ノートブック、アイコンボックスフォーム &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}の詳細をご覧ください（Campaign v8 ドキュメント）。
+複数のページフォームを作成できます。 他のフォーム内にフォームをネストすることもできます。 [ コンテナ、ノートブック、アイコンボックスフォーム ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}の詳細をご覧ください（Campaign v8 ドキュメント）。
 
 ## 工場出荷時の入力フォームの変更 {#modify-factory-form}
 
@@ -280,11 +280,11 @@ Formsは`xtk:form` タイプのエンティティです。 入力フォーム構
 </leave>
 ```
 
-[式フィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} （Campaign v8 ドキュメント）と[&#x200B; フォームコンテキスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} （Campaign v8 ドキュメント）について詳しく説明します。
+[式フィールド ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} （Campaign v8 ドキュメント）と[ フォームコンテキスト ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} （Campaign v8 ドキュメント）について詳しく説明します。
 
 ### 値の検証
 
-JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して複雑な検証を行います。例えば、値を承認済み値のリストと照合します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}（Campaign v8 ドキュメント）。
+JavaScript SOAP呼び出しを使用して、コンソールからフォームデータを検証できます。 これらの呼び出しを使用して複雑な検証を行います。例えば、値を承認済み値のリストと照合します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}（Campaign v8 ドキュメント）。
 
 1. JS ファイルに検証関数を作成します。
 
@@ -341,4 +341,4 @@ JavaScript SOAP呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [&#x200B; フォームコンテキスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。
+この例では、入力はプライマリキーであるIDです。 ユーザーがこのIDのフォームに入力すると、このIDを入力パラメーターとしてSOAP呼び出しが行われます。 出力はこのフィールドに書き込まれるブール値です：`/tmp/@count`。 このブール値はフォーム内で使用できます。 [ フォームコンテキスト ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}の詳細（Campaign v8 ドキュメント）を参照してください。

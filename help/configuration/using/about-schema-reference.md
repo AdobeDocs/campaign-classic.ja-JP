@@ -28,7 +28,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 50%
@@ -39,7 +39,7 @@ ht-degree: 50%
 
 この章では、Adobe Campaign データベースの概念データモデルを拡張するために、拡張スキーマを設定する方法について説明します。
 
-Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classic データモデル ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 Adobe Campaignでは、アプリケーションに格納されるデータの物理構造と論理構造をXMLで記述します。 **スキーマ**&#x200B;は、データベーステーブルに関連付けられたXML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 
@@ -64,6 +64,6 @@ Adobe Campaignでは、アプリケーションに格納されるデータの物
 
 >[!NOTE]
 >
->Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 スキーマの構文と識別について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}を参照してください。
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 スキーマの構文と識別について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}

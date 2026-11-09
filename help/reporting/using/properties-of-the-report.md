@@ -86,7 +86,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Campaignでのweb ページのローカライゼーションについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>Campaignでのweb ページのローカライゼーションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
 

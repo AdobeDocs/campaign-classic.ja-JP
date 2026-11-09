@@ -143,7 +143,7 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。 �
 
 ユーザーがグラフをクリックしたときのアクションを定義できます。 **[!UICONTROL インタラクションイベント]**&#x200B;ウィンドウを開き、実行するアクションを選択します。
 
-考えられるインタラクションタイプとその設定について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+考えられるインタラクションタイプとその設定について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

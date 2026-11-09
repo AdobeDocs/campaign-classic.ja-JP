@@ -49,7 +49,7 @@ ht-degree: 82%
 
 表示条件は、オペレーターの状況や、レポートページで選択または入力された項目によって異なる場合があります。
 
-ページ上の項目の条件付き表示を示す例については、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+ページ上の項目の条件付き表示を示す例については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 次の例では、表示条件は言語に依存します。
 
@@ -72,6 +72,6 @@ ht-degree: 82%
 
 1. 「**[!UICONTROL デフォルト分岐を有効化]**」オプションを選択すると、設定した条件のどれも満たされない場合のトランジションを追加できます。
 
-   詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+   詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 チャートの先頭に&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティを配置して、例えばコンテキストやオペレータープロファイルによって表示を条件付けることができます。

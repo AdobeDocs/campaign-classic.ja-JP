@@ -66,7 +66,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->ダブルオプトインを使用して購読フォームを作成するサンプルについては、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>ダブルオプトインを使用して購読フォームを作成するサンプルについては、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## 情報サービスの作成 {#creating-an-information-service}
 
@@ -160,7 +160,7 @@ ht-degree: 90%
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 
-  詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+  詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 * ターゲティングワークフローを作成し、「**[!UICONTROL 購読サービス]**」ボックスを使用します。
 
@@ -176,7 +176,7 @@ ht-degree: 90%
 
 デフォルトの登録解除リンクは、配信アシスタントに表示されるコンテンツエディターのツールバーにある最後のボタンから挿入されます（[パーソナライゼーションについて](about-personalization.md)を参照）。 受信者がこのリンクをクリックすると、プロファイルがブロックリストに登録されます（オプトアウト）。つまり、この受信者は、あらゆる配信アクションのターゲットにされなくなります。
 
-ただし、受信者は、すべてのサービスを購読解除することなく、1 つのサービスの登録解除を選択できます。 これを許可するには、web フォーム（[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} （Campaign v8 ドキュメント）を参照）を使用するか、パーソナライズされた購読解除リンクを挿入します。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
+ただし、受信者は、すべてのサービスを購読解除することなく、1 つのサービスの登録解除を選択できます。 これを許可するには、web フォーム（[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} （Campaign v8 ドキュメント）を参照）を使用するか、パーソナライズされた購読解除リンクを挿入します。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ja){target="_blank"}を参照してください。
 
 受信者プロファイルから手動で受信者を購読解除することもできます。 そのためには、該当する受信者の「**[!UICONTROL 購読]**」タブをクリックし、該当する情報サービスを選択し、「**[!UICONTROL 削除]**」をクリックします。
 

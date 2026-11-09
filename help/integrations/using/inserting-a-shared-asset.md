@@ -48,7 +48,7 @@ Adobe Experience Cloud から共有されるアセットは、メールやラン
 
      ![](assets/dam_insert_image_standard.png)
 
-   * [詳細編集モード &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} （Campaign v8 ドキュメント） （DCE）を使用している場合は、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL 共有アセットを選択]**」を選択します。
+   * [詳細編集モード &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} （Campaign v8 ドキュメント） （DCE）を使用している場合は、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL 共有アセットを選択]**」を選択します。
 
      ![](assets/dam_insert_image_dce.png)
 

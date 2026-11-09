@@ -163,7 +163,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> オンライン調査（Survey Manager） <br /> </td> 
-   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
+   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> マーケティングキャンペーンの成功と収益性を測定し、あらゆるコミュニケーションチャネルに対して提案を行うことができます。  オプション。 <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
+   <td> マーケティングキャンペーンの成功と収益性を測定し、あらゆるコミュニケーションチャネルに対して提案を行うことができます。  オプション。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/response-manager/about-response-manager" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 

@@ -141,7 +141,7 @@ ht-degree: 95%
 
 特定の設定では、エラーを制御できます。 レポートの URL には **_uuid** 設定が含まれています。 それに **&amp;_preview** 設定や **&amp;_debug** 設定を追加できます。
 
-これらの設定について詳しくは、[Web フォーム &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} （Campaign v8 ドキュメント）の章の&#x200B;**Web フォームプロパティの定義** セクションを参照してください。
+これらの設定について詳しくは、[Web フォーム &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} （Campaign v8 ドキュメント）の章の&#x200B;**Web フォームプロパティの定義** セクションを参照してください。
 
 ## レポートを公開 {#publishing-the-report}
 

@@ -108,7 +108,7 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
    >
    >この設定はカスタマイズできます。 そのためには、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに保存されている&#x200B;**受信者を登録** Web アプリケーションを変更する必要があります。
    >
-   >Web アプリケーションについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+   >Web アプリケーションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    被転送者が承認すると、確認メッセージが送信されます。確認メッセージ内のリンクを有効化すると、被転送者の情報が登録されます。 このメッセージは、**[!UICONTROL 登録の確認]**&#x200B;テンプレートをベースとして作成されます。このテンプレートは、**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;ノードに保存されています。
 

@@ -108,11 +108,11 @@ Campaign には、次の 2 つのタイプのトラッキングがあります�
 
 **web アプリケーションのトラッキング**
 
-また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。 この機能は、フォームやランディングページなど、あらゆる種類の Web アプリケーションで使用できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}（Campaign v8 ドキュメント）
+また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。 この機能は、フォームやランディングページなど、あらゆる種類の Web アプリケーションで使用できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}（Campaign v8 ドキュメント）
 
 **web アプリケーショントラッキングのオプトアウト**
 
-web アプリケーショントラッキングのオプトアウトを使用すると、行動トラッキングをオプトアウトしたエンドユーザーの web 行動のトラッキングを停止できます。 web アプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}（Campaign v8 ドキュメント）
+web アプリケーショントラッキングのオプトアウトを使用すると、行動トラッキングをオプトアウトしたエンドユーザーの web 行動のトラッキングを停止できます。 web アプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}（Campaign v8 ドキュメント）
 
 ## トラッキングのトラブルシューティング {#tracking-troubleshooting}
 

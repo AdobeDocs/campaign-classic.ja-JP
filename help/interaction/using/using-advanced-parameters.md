@@ -36,7 +36,7 @@ ht-degree: 81%
 >この章は、**技術管理者**&#x200B;向けです。
 
 * 追加のコンテキストデータを使用できます。 [追加データ](../../interaction/using/additional-data.md)の節を参照してください。
-* 受信チャネルで提案されるオファーのアプリケーションコンテキストをエンリッチメントできます。 それには、**nms:interaction** インタラクションスキーマを拡張する必要があります。 完全な手順については、[拡張機能の例](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/advanced-parameters/extension-example){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
+* 受信チャネルで提案されるオファーのアプリケーションコンテキストをエンリッチメントできます。 それには、**nms:interaction** インタラクションスキーマを拡張する必要があります。 完全な手順については、[拡張機能の例](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/advanced-parameters/extension-example){target="_blank"} （Campaign v8 ドキュメント）の節を参照してください。
 * テスト環境の作成について詳しくは、[テスト環境の作成](../../interaction/using/creating-a-test-environment.md)の節で説明しています。
 * フックを使用して、エンジンの標準的な動作を変化させることができます。 詳しくは、[フック](../../interaction/using/hooks.md)の節を参照してください。
 * 分散アーキテクチャでインタラクションを使用する方法について詳しくは、[分散アーキテクチャ](../../interaction/using/distributed-architectures.md)の節で説明しています。

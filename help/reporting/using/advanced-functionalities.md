@@ -67,7 +67,7 @@ ht-degree: 97%
 
    ![](assets/reporting_custom_js.png)
 
-クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
 ### スクリプトアクティビティの追加 {#script-activity}
 

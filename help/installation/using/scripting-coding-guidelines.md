@@ -187,7 +187,7 @@ DCEでキャプチャを追加する一般的な方法は、パーソナライ�
 
 1. **[!UICONTROL Script]** アクティビティを編集します。 コンテンツは、選択したCaptcha エンジンによって異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ![](assets/scripting-captcha4.png)
 

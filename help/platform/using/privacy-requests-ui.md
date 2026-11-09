@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 プライバシーリクエストの処理時に検索されたテーブルについて詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}を参照してください。
+>Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 プライバシーリクエストの処理時に検索されたテーブルについて詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}を参照してください。
 >
 >[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target="_blank"}
 
@@ -121,7 +121,7 @@ Adobe Campaign は、アクセスリクエストの処理時に JSSP を生成�
 
 ここで、@id はプライバシーリクエスト ID です.
 
-この URL は、プライバシーリクエスト（gdprRequest）スキーマの&#x200B;**[!UICONTROL 「ファイルの場所」（@urlFile）]**&#x200B;フィールドに保存されます。****
+この URL は、プライバシーリクエスト（gdprRequest）スキーマの&#x200B;**[!UICONTROL 「ファイルの場所」（@urlFile）]**&#x200B;フィールドに保存されます。**&#x200B;**
 
 この情報はデータベースで 90 日間有効です。 テクニカルワークフローによりリクエストがクリーンアップされると、この情報はデータベースから削除され、URL は無効になります。 データを Web ページからダウンロードする前に、URL がまだ有効であるか確認してください。
 

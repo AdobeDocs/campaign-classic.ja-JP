@@ -51,7 +51,7 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 >Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 権限とフォルダーに対する権限の定義方法について詳しくは、Campaign v8 ドキュメントを参照してください。
 >
 >* [権限の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
->* [ フォルダーに対する権限を追加](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target="_blank"}
+>* [&#x200B; フォルダーに対する権限を追加](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target="_blank"}
 >
 >[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
 
@@ -63,10 +63,10 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 >
 >ログイン/パスワードによるネイティブ認証は、Campaign v7で引き続き使用できます。 ただし、セキュリティと認証プロセスを強化するために、Adobe Campaignでは、既存のすべての演算子をネイティブ認証からAdobe IMSに移行することを強くお勧めします。 Campaign v8 では、ネイティブ認証を使用した接続は許可されません。
 
-* オペレーターを移行するには、[ ユーザーをIMS](../../technotes/using/migrate-users-to-ims.md)に移行するを参照してください。
-* エンドユーザーの認証モードを移行するには、[ エンドユーザー認証モードの移行](../../technotes/using/ac-ims.md)を参照してください。
+* オペレーターを移行するには、[&#x200B; ユーザーをIMS](../../technotes/using/migrate-users-to-ims.md)に移行するを参照してください。
+* エンドユーザーの認証モードを移行するには、[&#x200B; エンドユーザー認証モードの移行](../../technotes/using/ac-ims.md)を参照してください。
 
-この移行後、権限はAdobe IMSで管理されます。 設定の方法については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}を参照してください。
+この移行後、権限はAdobe IMSで管理されます。 設定の方法については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}を参照してください。
 
 
 <!--

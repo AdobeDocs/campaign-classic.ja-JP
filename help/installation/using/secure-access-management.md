@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 12%
+source-wordcount: '410'
+ht-degree: 10%
 ---
 # アクセス管理 {#access-management}
 
@@ -52,17 +52,17 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
   1. 重複ごとに名前を入力します。 例：webapp_brand、webapp_brand2など
 
-  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ](../../web/using/defining-web-forms-properties.md)を参照してください。
+  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## セキュリティグループと管理者オペレーター
 
 十分なセキュリティグループを作成して、オペレーターに必要な権限を与え、その他の権限を与えないようにします。
 
-管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール [&#128279;](../../platform/using/access-management.md)への アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
+管理者演算子を使用しない（または共有しない）。 物理ユーザーごとに1つのオペレーターを作成します（正確な監査/ロギングを行う）。 新しい名前の管理者を管理者グループに追加します。 管理者演算子を使用しない場合は、削除せず、無効にしないでください。この演算子は、内部的に処理を実行するために使用されます。 ただし、クライアントコンソール ](../../platform/using/access-management.md)への[ アクセスを禁止し、（localhostに）セキュリティゾーンを制限できます。
 
 管理者グループ（または管理者の名前付き権限）に演算子を追加しすぎないようにします。 これらのオペレーターは非常に強力です（すべての SQL 文の実行、サーバーでのコマンドの実行などができます）。
 
-Adobe Campaignでは、[名前付き権限](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} （Campaign v8 ドキュメント）を通じて3つの高レベル権限を提供します。
+Adobe Campaignでは、[名前付き権限](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} （Campaign v8 ドキュメント）を通じて3つの高レベル権限を提供します。
 
 * **管理** （管理者）：すべての名前付き権限チェックをバイパスして、すべてをアクセスできるようにし、すべてを実行できるようにします。これにより、プログラム実行（createProcess）とSQLの名前付き権限が含まれます
 

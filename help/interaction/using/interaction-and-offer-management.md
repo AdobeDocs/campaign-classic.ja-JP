@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 73%
 ---
 # インタラクションとオファー管理{#interaction-and-offer-management}
 
@@ -43,9 +43,9 @@ ht-degree: 100%
 >
 >Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 インタラクションについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
-この節では、Campaign v8 ドキュメントに記載されていないインタラクション機能のみを取り上げます。[オファーシミュレーション](about-offers-simulation.md)、[オファープレゼンテーション](managing-offer-presentation.md)、[オファー承認](approving-and-activating-an-offer.md)、[オファーテンプレート](managing-offer-templates.md)および[詳細設定](using-advanced-parameters.md)。
+この節では、Campaign v8 ドキュメントに記載されていないインタラクション機能のみを取り上げます：[&#x200B; オファーシミュレーション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} （Campaign v8 ドキュメント）、[&#x200B; オファープレゼンテーション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-presentation){target="_blank"} （Campaign v8 ドキュメント）、[&#x200B; オファーの承認](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/approving-and-activating-an-offer){target="_blank"} （Campaign v8 ドキュメント）、[&#x200B; オファーテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-templates){target="_blank"} （Campaign v8 ドキュメント）および[詳細設定](using-advanced-parameters.md)。
 
 ![](assets/Offermgt2.png)
 
@@ -55,6 +55,6 @@ ht-degree: 100%
 
 | 便利なページ | その他のリソース |
 |---|---|
-| [インタラクションの実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target="_blank"}（Campaign v8 ドキュメント） | [オファー配分のテスト](../../interaction/using/about-offers-simulation.md) |
+| [インタラクションの実装手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction){target="_blank"}（Campaign v8 ドキュメント） | [&#x200B; オファー配布のテスト &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} （Campaign v8 ドキュメント） |
 | [ライブ／デザイン環境](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"}（Campaign v8 ドキュメント） | [メールへのオファーの追加](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}（Campaign v8 ドキュメント） |
-| [オファースペースの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}（Campaign v8 ドキュメント） | [使用例：Web サイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [オファースペースの作成](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}（Campaign v8 ドキュメント） | [&#x200B; ユースケース：web サイトにオファーを追加する](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/case-study/offers-on-an-inbound-channel){target="_blank"} （Campaign v8 ドキュメント） |

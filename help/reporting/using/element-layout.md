@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 86%
 ---
 # 要素のレイアウト{#element-layout}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 [ここで](../../reporting/using/creating-a-chart.md#chart-types-and-variants)詳しく説明されている様々なグラフに加えて、表示を調整したり、レポートページに要素を追加したりできます。
 
-コンテナを使用すると、ページの複数の要素をリンクし、それらのレイアウトを列やセルで設定できます。 それらの使用方法について詳しくは、[この節](../../web/using/defining-web-forms-layout.md#creating-containers)を参照してください。
+コンテナを使用すると、ページの複数の要素をリンクし、それらのレイアウトを列やセルで設定できます。 これらの使用方法については、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} （Campaign v8 ドキュメント）で詳しく説明しています。
 
 ツリーのルートでレポートのレイアウトを設定し、コンテナごとにそれをオーバーロードできます。 ページは列に並べ替えられます。 コンテナも列に並べ替えられます。 静的要素およびグラフィカル要素のみ、セルに並べ替えられます。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 「**[!UICONTROL タイトル]**」フィールドでは、レポートページのヘッダーのレベルをパーソナライズできます。 ウィンドウのタイトルは、レポートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウで設定できます。 詳しくは、[ヘッダーやフッターの追加](#adding-a-header-and-a-footer)を参照してください。
 
-「**[!UICONTROL 表示設定]**」オプションでは、レポートページ内のコントロールキャプションの位置を選択したり、ページの列数を定義したりできます。 ページレイアウトについて詳しくは、[この節](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)の&#x200B;**項目のレイアウト**&#x200B;に関する節を参照してください。
+「**[!UICONTROL 表示設定]**」オプションでは、レポートページ内のコントロールキャプションの位置を選択したり、ページの列数を定義したりできます。 ページレイアウトについて詳しくは、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"}の&#x200B;**アイテムレイアウト** セクション（Campaign v8 ドキュメント）を参照してください。
 
 「**[!UICONTROL ナビゲーション]**」セクションで様々オプションを選択すると、レポートページ間の移動を許可することができます。 「**[!UICONTROL 次のページを無効にする]**」オプションまたは「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションを選択すると、「**[!UICONTROL 次のページ]**」ボタンまたは「**[!UICONTROL 前のページ]**」ボタンがレポートページに表示されなくなります。
 

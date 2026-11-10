@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: b2b42bcbab0d09197126d140da3ecb1f4aa0d869
+source-git-commit: 6a23919f31f7e55d1ae45effeb7a5e958b53226f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 Adobe Campaign クライアントコンソールとそのユーザーインターフェイスを使い始める方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}を参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}
 
 >[!TAB キャンペーンの開始]
 
@@ -128,11 +128,11 @@ The following capabilities are available. Depending on your license agreement, s
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
 * [Workflow](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation) / Data Management - automate processes and manage data with workflows,
-* [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
-* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
+* [Web applications](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation) - create web pages and forms,
+* [Survey Manager](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (Campaign v8 documentation) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](https://experienceleague.adobe.com/ja/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target="_blank"} (Campaign v8 documentation) - coordinate campaigns for central/local agencies,
-* [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
+* [Response Manager](https://experienceleague.adobe.com/ja/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Campaign v8 documentation) - manage customer response,
 * [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} (Campaign v8 documentation) - access built-in reports, analyze data and design your own reports.

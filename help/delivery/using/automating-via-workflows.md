@@ -37,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -50,7 +50,7 @@ ht-degree: 100%
 >
 >Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 **コンテンツ管理**&#x200B;アクティビティの設定方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target="_blank"}
 
 ## 例 {#examples}
 

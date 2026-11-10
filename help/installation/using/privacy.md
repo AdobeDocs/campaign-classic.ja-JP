@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 29%
@@ -54,7 +54,7 @@ ht-degree: 29%
 >
 >Campaign v7 から v8 への移行の一環として、Campaign Classic のドキュメントセットを効率化および再編成しました。 共通機能は、Campaign v8 ドキュメントセットでのみ使用できるようになりました。 データ制限とプライバシー要求について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}を参照してください。
 >
->[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+>[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/security#data-restriction){target="_blank"}
 
 Campaign Classic v7では、エンティティ全体へのアクセスを制限するには、ビルド 8770以降が必要です。
 

@@ -41,8 +41,8 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
+source-git-commit: 6a23919f31f7e55d1ae45effeb7a5e958b53226f
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 ---
@@ -68,7 +68,7 @@ Adobe Campaign では、受信者は配信（メール、SMS など）の送信�
 
 プロファイルおよびその作成方法と編集方法について詳しくは、**[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**&#x200B;の詳細なドキュメントを参照してください。
 
-[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
+[![画像](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/gs-audiences){target="_blank"}
 
 >[!TAB プロファイルの作成と編集]
 
@@ -122,7 +122,7 @@ It also gives you access to:
 
 * lists - [Learn more](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
-* web applications - [Learn more](../../web/using/about-web-applications.md)
+* web applications - [Learn more](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation)
 * imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
 * targeting workflows - [Learn more](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 

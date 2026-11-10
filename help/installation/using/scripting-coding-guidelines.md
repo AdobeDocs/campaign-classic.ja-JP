@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '820'
 ht-degree: 36%
 ---
 # スクリプトとコーディングのガイドライン {#scripting-coding-guidelines}
@@ -187,7 +187,7 @@ DCEでキャプチャを追加する一般的な方法は、パーソナライ�
 
 1. **[!UICONTROL Script]** アクティビティを編集します。 コンテンツは、選択したCaptcha エンジンによって異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ &#x200B;](../../web/using/editing-content.md)を参照してください。
+1. 最後に、パーソナライズされたブロックをページに追加できます。[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    ![](assets/scripting-captcha4.png)
 

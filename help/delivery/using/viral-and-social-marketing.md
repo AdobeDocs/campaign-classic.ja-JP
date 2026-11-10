@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 95%
 ---
 # バイラルおよびソーシャルマーケティング{#viral-and-social-marketing}
 
@@ -108,7 +108,7 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
    >
    >この設定はカスタマイズできます。 そのためには、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに保存されている&#x200B;**受信者を登録** Web アプリケーションを変更する必要があります。
    >
-   >Web アプリケーションについて詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
+   >Web アプリケーションについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
    被転送者が承認すると、確認メッセージが送信されます。確認メッセージ内のリンクを有効化すると、被転送者の情報が登録されます。 このメッセージは、**[!UICONTROL 登録の確認]**&#x200B;テンプレートをベースとして作成されます。このテンプレートは、**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;ノードに保存されています。
 

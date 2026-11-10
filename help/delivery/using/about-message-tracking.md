@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
-source-wordcount: '1364'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 97%
 ---
 # メッセージトラッキングの基本を学ぶ {#get-started-tracking}
 
@@ -108,11 +108,11 @@ Campaign には、次の 2 つのタイプのトラッキングがあります�
 
 **web アプリケーションのトラッキング**
 
-また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。 この機能は、フォームやランディングページなど、あらゆる種類の Web アプリケーションで使用できます。 [詳細情報](../../web/using/tracking-a-web-application.md)
+また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。 この機能は、フォームやランディングページなど、あらゆる種類の Web アプリケーションで使用できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}（Campaign v8 ドキュメント）
 
 **web アプリケーショントラッキングのオプトアウト**
 
-web アプリケーショントラッキングのオプトアウトを使用すると、行動トラッキングをオプトアウトしたエンドユーザーの web 行動のトラッキングを停止できます。 web アプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。 [詳細情報](../../web/using/web-application-tracking-opt-out.md)
+web アプリケーショントラッキングのオプトアウトを使用すると、行動トラッキングをオプトアウトしたエンドユーザーの web 行動のトラッキングを停止できます。 web アプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}（Campaign v8 ドキュメント）
 
 ## トラッキングのトラブルシューティング {#tracking-troubleshooting}
 

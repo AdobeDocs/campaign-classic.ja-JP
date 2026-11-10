@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1489'
 ht-degree: 18%
 ---
 # Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
@@ -163,7 +163,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> オンライン調査（Survey Manager） <br /> </td> 
-   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="../../surveys/using/about-surveys.md">詳細情報</a> <br /> </td> 
+   <td> オンラインフォームを作成および管理して、プロファイル情報を追加または変更したり、購読したり、購読解除したり、競合他社のエントリフォームを作成します。 オプション。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> マーケティングキャンペーンの成功と収益性を測定し、あらゆるコミュニケーションチャネルに対して提案を行うことができます。  オプション。 <a href="../../response/using/about-response-manager.md">詳細情報</a> <br /> </td> 
+   <td> マーケティングキャンペーンの成功と収益性を測定し、あらゆるコミュニケーションチャネルに対して提案を行うことができます。  オプション。 <a href="https://experienceleague.adobe.com/ja/docs/campaign/automation/response-manager/about-response-manager" target="_blank">詳細情報</a> （Campaign v8 ドキュメント） <br /> </td> 
    <td> マーケティング <br /> </td> 
   </tr> 
   <tr> 

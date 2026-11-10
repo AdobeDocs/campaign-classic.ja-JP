@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -152,7 +152,6 @@ ht-degree: 97%
     + [インスタンスの新規作成](installation/using/creating-new-instances.md)
     + [Campaign オプションの一覧](installation/using/configuring-campaign-options.md)
     + {hide-from-toc}[Campaign のアンインストール](installation/using/uninstalling-campaign.md)
-    + [新しいフォントのインストール](installation/using/install-fonts.md)
 + 移行ガイド {#migrating-to-a-new-version}
   + {hide-from-toc}[Adobe Campaign v7 に移行](migration/using/about-migration.md)
   + 移行手順 {#migration-procedure}
@@ -355,75 +354,16 @@ ht-degree: 97%
   + メッセージテンプレート {#message-templates}
     + [メッセージテンプレートをテスト](message-center/using/testing-message-templates.md)
   + [ユースケース](message-center/using/transactional-email-with-attachments.md)
-+ Web コンテンツの設計 {#designing-content}
-  + web アプリケーション {#web-applications}
-    + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
-    + [web アプリケーションの新規作成](web/using/creating-a-new-web-application.md)
-    + [web アプリケーションの設計](web/using/designing-a-web-application.md)
-    + [ユースケース：概要の作成](web/using/use-cases-creating-overviews.md)
-    + [web アプリケーションの翻訳](web/using/translating-a-web-application.md)
-    + [web アプリケーションへの訪問のトラッキング](web/using/tracking-a-web-application.md)
-    + [web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
-  + HTML コンテンツの編集 {#editing-html-content}
-    + [HTML エディターの基本を学ぶ](web/using/about-campaign-html-editor.md)
-    + [テンプレート管理](web/using/template-management.md)
-    + [コンテンツエディターのインターフェイス](web/using/content-editor-interface.md)
-    + [コンテンツの編集](web/using/editing-content.md)
-    + [コンテンツ編集のベストプラクティス](web/using/content-editing-best-practices.md)
-    + [ランディングページの作成](web/using/creating-a-landing-page.md)
-    + [ユースケース：メール配信の作成](web/using/use-case-creating-an-email-delivery.md)
-  + Web フォーム {#web-forms}
-    + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
-    + [web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
-    + [web フォームへのフィールドの追加](web/using/adding-fields-to-a-web-form.md)
-    + [web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
-    + [web フォームレイアウトの定義](web/using/defining-web-forms-layout.md)
-    + [フォームレンダリング](web/using/form-rendering.md)
-    + [ページの順序付けの定義](web/using/defining-web-forms-page-sequencing.md)
-    + [web フォームの回答の保存](web/using/web-forms-answers.md)
-    + [web フォームの公開](web/using/publishing-a-web-form.md)
-    + [web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
-    + [web フォームの翻訳](web/using/translating-a-web-form.md)
-    + [ユースケース：web フォーム](web/using/use-cases-web-forms.md)
-+ オンライン調査の作成 {#online-surveys}
-  + [調査の基本を学ぶ](surveys/using/about-surveys.md)
-  + [調査を作成するための主な手順](surveys/using/getting-started-with-surveys.md)
-  + [調査の設計](surveys/using/building-a-survey.md)
-  + [回答の管理](surveys/using/managing-answers.md)
-  + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish-track-and-use-collected-data.md)
-  + [調査の設定](surveys/using/configuring-surveys.md)
-  + [ユースケース：リファラルフォームの作成](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + オファーの管理 {#managing-offers}
   + インタラクションの基本を学ぶ {#interaction-overview}
     + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)
-  + オファーカタログの管理 {#managing-an-offer-catalog}
-    + [オファーの承認と有効化](interaction/using/approving-and-activating-an-offer.md)
-    + [オファーテンプレートの管理](interaction/using/managing-offer-templates.md)
-    + [オファープレゼンテーションの管理](interaction/using/managing-offer-presentation.md)
-  + オファーのシミュレーション{#simulating-offers}
-    + [オファーのシミュレーションについて](interaction/using/about-offers-simulation.md)
-    + [実行設定](interaction/using/execution-settings.md)
-    + [シミュレーションのスコープ](interaction/using/simulation-scope.md)
-    + [シミュレーションのトラッキング](interaction/using/simulation-tracking.md)
   + 詳細設定パラメーター {#advanced-parameters}
     + [詳細設定パラメーターの使用](interaction/using/using-advanced-parameters.md)
     + [追加データ](interaction/using/additional-data.md)
-    + [拡張の例](interaction/using/extension-example.md)
     + [テスト環境の作成](interaction/using/creating-a-test-environment.md)
     + [エンジンの標準動作の変更](interaction/using/hooks.md)
     + [分散アーキテクチャ](interaction/using/distributed-architectures.md)
     + [データバッファーの設定](installation/using/interaction-data-buffer.md)
-  + ユースケース {#case-study}
-    + [プレゼンテーションルール](interaction/using/presentation-rules.md)
-    + [インバウンドチャネルのオファー](interaction/using/offers-on-an-inbound-channel.md)
-    + [アウトバウンドチャネルのオファー](interaction/using/offers-on-an-outbound-channel.md)
-+ Response Manager {#response-manager}
-  + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
-  + [Response Managerの設定](response/using/configure-response-manager.md)
-  + [仮説テンプレート](response/using/hypothesis-templates.md)
-  + [仮説の作成](response/using/creating-hypotheses.md)
-  + [仮説のトラッキング](response/using/hypothesis-tracking.md)
 + レポートの設計と共有 {#reporting}
   + レポートの基本を学ぶ {#reporting-in-adobe-campaign}
     + [レポートのベストプラクティス](reporting/using/best-practices.md)

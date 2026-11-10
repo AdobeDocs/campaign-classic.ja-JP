@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 12%
+source-wordcount: '410'
+ht-degree: 10%
 ---
 # アクセス管理 {#access-management}
 
@@ -52,7 +52,7 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
   1. 重複ごとに名前を入力します。 例：webapp_brand、webapp_brand2など
 
-  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ](../../web/using/defining-web-forms-properties.md)を参照してください。
+  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## セキュリティグループと管理者オペレーター
 

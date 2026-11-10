@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2425'
 ht-degree: 4%
 ---
 # キャンペーンデータモデルの説明{#data-model-description}
@@ -162,7 +162,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## 応答管理 {#response-management}
 
-この一連のテーブルは&#x200B;**Response Manager** モジュールにリンクされており、すべてのコミュニケーションチャネルに対するマーケティングキャンペーンまたはオファー提案の成功と収益性を測定できます。 詳しくは、[応答マネージャーについて](../../response/using/about-response-manager.md)を参照してください。
+この一連のテーブルは&#x200B;**Response Manager** モジュールにリンクされており、すべてのコミュニケーションチャネルに対するマーケティングキャンペーンまたはオファー提案の成功と収益性を測定できます。 詳しくは、[応答マネージャーについて](https://experienceleague.adobe.com/ja/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/data-model_response.png)
 
@@ -222,7 +222,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ## シミュレーションと配信 {#simulation-and-delivery}
 
-この一連のテーブルは&#x200B;**シミュレーション** モジュールにリンクされており、受信者に提案を送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[&#x200B; オファーのシミュレーションについて](../../interaction/using/about-offers-simulation.md)を参照してください。
+この一連のテーブルは&#x200B;**シミュレーション** モジュールにリンクされており、受信者に提案を送信する前に、カテゴリまたは環境に属するオファーの配布をテストできます。 詳しくは、[&#x200B; オファーのシミュレーションについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ![](assets/data-model_simulation.png)
 
@@ -261,7 +261,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 <!--
 ## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_microsites.png)
 

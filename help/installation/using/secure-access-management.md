@@ -52,7 +52,7 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
   1. 重複ごとに名前を入力します。 例：webapp_brand、webapp_brand2など
 
-  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+  1. ブランドごとに1つのテンプレートを持つようにweb アプリケーションテンプレートを複製し、「特定のアカウントを使用」を選択してプロパティを編集してオペレーターを変更します。  詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 ## セキュリティグループと管理者オペレーター
 
@@ -62,7 +62,7 @@ WebApp オペレーターは管理者です。 セキュリティを強化する
 
 管理者グループ（または管理者の名前付き権限）に演算子を追加しすぎないようにします。 これらのオペレーターは非常に強力です（すべての SQL 文の実行、サーバーでのコマンドの実行などができます）。
 
-Adobe Campaignでは、[名前付き権限](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} （Campaign v8 ドキュメント）を通じて3つの高レベル権限を提供します。
+Adobe Campaignでは、[名前付き権限](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} （Campaign v8 ドキュメント）を通じて3つの高レベル権限を提供します。
 
 * **管理** （管理者）：すべての名前付き権限チェックをバイパスして、すべてをアクセスできるようにし、すべてを実行できるようにします。これにより、プログラム実行（createProcess）とSQLの名前付き権限が含まれます
 
